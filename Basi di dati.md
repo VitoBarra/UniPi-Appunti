@@ -30,6 +30,71 @@ Figurate base i di dati
 
 
 
+2022-09-21:
+
+ Organizzazione DI un DB in viste:
+ - Livello di vista logica: usato da le applicazioni 
+ - Livello logico: descrive la struttura a degli insiemi di dati e delle relazioni fra loro secondo un certo modello dei cddti senza nessun riferimento alla loro 
+ - Livello fisino: descrivere come vanno organizzati finisca e e i dati nella memoria permanente e quali strutture dati ausiliari prevedere per facilitare l uso 
+
+Sono livelli d astrazione ogni livello è indipendente dagli altri.
+
+
+- Linguaggi  DB
+	- DML : data manipulation leguage usato 
+	- DQL:
+
+
+Relazioni: 
+Bho chiavi uguali
+
+
+
+Funzionalità DBMS :
+
+- Integrità: mantenimento della proprieta specificate (vincoli di integrità )
+- Sicurezza: protezione dati da uni non autorizati 
+- Affidabilità : garanzia delle transazioni, protezione da malfunzionamento 
+
+
+
+
+
+# Transazioni 
+- atomicità: le operazioni delle transazione vengono eseguite come se fosse un nunciai operazione 
+- Persistenza: 
+- Serializzailita: 
+
+
+
+Il DBMS è un sistema che è in gradi di immaginare dati con proprietà 
+- Grabdi
+- Persistenti 
+- Condivisi 
+
+
+
+Svantaggi DBMS: 
+Bisogna definire uno schema 
+
+
+
+
+
+Modelli: 
+- oggetti
+- Entità Relazioni 
+
+
+
+
+Ja le righe son fatti (CONTENUTI)
+
+
+Il modello dei dati è un insieme di di meccanismi di astrazione per descrivere la struttura della conoscenza concreta 
+
+
+## Modello ad oggetti VS modello relazionale
 
 
 

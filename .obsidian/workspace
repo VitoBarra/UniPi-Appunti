@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "fe67b8653ef0174a",
+    "id": "03c1f15486cc4979",
     "type": "split",
     "children": [
       {
-        "id": "6ae052c721dc8289",
+        "id": "da5144494ec2d8d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Universita.md",
+            "file": "Basi di dati.md",
             "mode": "source",
             "source": false
           }
@@ -19,142 +19,107 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d89a104717a2650e",
-    "type": "split",
+    "id": "443162b6bf952af8",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "98b55af22fe8b969",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "35c537e01212d3e0",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "2bd0dcf87cb0fbde",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "03af42fa8079aae1",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "bfb1a514441ecf73",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5da035995afd8291",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "442332cf2264417a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "5d73f1579d9b4b6d",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 447.5
+    "currentTab": 0
   },
   "right": {
-    "id": "196174e3990847f2",
-    "type": "split",
+    "id": "11d1c190d1ebcd2b",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "712834b1eb906ec6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c90f0cd3b7e1de62",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Universita.md",
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d9a28135ea7e5028",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c1abd477e3f5da6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "76814906a00ac360",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Universita.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b92a4d1f7c0dc0ec",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "c3614a757a022bf2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Universita.md"
-              }
-            }
+        "id": "b04473fd53231042",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Basi di dati.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 2
+        }
+      },
+      {
+        "id": "ff77b99f7bbcb078",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Basi di dati.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "054a118d962735d4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Basi di dati.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
-  "active": "35c537e01212d3e0",
+  "active": "da5144494ec2d8d8",
   "lastOpenFiles": [
-    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Ricerca Operativa (RO).md",
-    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Calcolo Numerico(CN).md",
-    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Laboratorio II.md",
-    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Architetture e sistemi operativi (AESO).md",
-    "Universita.md",
-    "Volult Con Tool/Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Domande Esame c7436dd2fceb44adb004bacb75b8fbdb.md",
-    "Volult Con Tool/Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Conoscenze generali 365b5331268b4c5680e51dc7992e7ce0.md",
-    "ProblemFiles.md",
-    "Raccolta Università Informatica/2° Anno/Architetture e sistemi operativi (AESO).md",
-    "Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Conoscenze generali 365b5331268b4c5680e51dc7992e7ce0.md"
+    "Reti di calcolatori temp note.md",
+    "Basi di dati.md",
+    "Critto Note temp.md",
+    "Ingegneria del softwere.md",
+    "Prova test.md",
+    "2022-09-21.md"
   ]
 }
