@@ -1,5 +1,5 @@
 {
-  "promptDelete": false,
+  "promptDelete": true,
   "showFrontmatter": false,
   "showLineNumber": true,
   "pdfExportSettings": {
@@ -7,5 +7,10 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Temp Note",
+  "defaultViewMode": "source",
+  "spellcheck": true
 }

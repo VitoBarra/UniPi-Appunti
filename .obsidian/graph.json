@@ -1,22 +1,51 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"Raccolta Università Informatica/2° Anno/Architetture e sistemi operativi (AESO)\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Raccolta Università Informatica/1° Anno/Algebra Linere (AL)\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Raccolta Università Informatica/1° Anno\"",
+      "color": {
+        "a": 1,
+        "rgb": 12653845
+      }
+    },
+    {
+      "query": "path:\"Raccolta Università Informatica/2° Anno/Ricerca Operativa (RO)\"",
+      "color": {
+        "a": 1,
+        "rgb": 1425365
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "showArrow": true,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.57275280898876,
+  "lineSizeMultiplier": 1.90308988764045,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.324404761904762,
+  "repelStrength": 9.58333333333333,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.3628873693012185,
-  "close": true
+  "linkDistance": 146,
+  "scale": 0.18462326225858605,
+  "close": false
 }

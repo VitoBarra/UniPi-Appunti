@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ingegneria del softwere.md",
+            "file": "Universita.md",
             "mode": "source",
             "source": false
           }
@@ -48,12 +48,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "03af42fa8079aae1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 447.5
   },
   "right": {
     "id": "196174e3990847f2",
@@ -69,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingegneria del softwere.md",
+                "file": "Universita.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,26 +103,58 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "76814906a00ac360",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Universita.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b92a4d1f7c0dc0ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3614a757a022bf2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Universita.md"
+              }
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "6ae052c721dc8289",
+  "active": "35c537e01212d3e0",
   "lastOpenFiles": [
-    "Critto Note temp.md",
-    "Basi di dati.md",
-    "Aplicazioni Lineari 360ddbe747c047c2b48c568e58c15bd7/Punti Fissi 28a645215b9e4328b5bf776d5e73e8ff.md",
-    "Raccolta Universita/Raccolta Università/Primo Anno/Algebra Linere (AL)/Autovettori e Autovalori.md",
-    "Raccolta Universita/Raccolta Università/Primo Anno/Algebra Linere (AL)/Sistemi Lineari/Spazzi affini.md",
-    "Senza nome/Programazione lineare Intera 0cae1a90d2d84258ac2c3cd21c085204.md",
-    "Raccolta Universita/Secondo Anno/Statistica 1c6feaff729b41638267f73181049a2c.md",
-    "Raccolta Universita.md",
-    "Raccolta Universita/Terzo Anno.md",
-    "Raccolta Universita/Primo Anno/Algebra Linere (AL)/Aplicazioni Lineari 360ddbe747c047c2b48c568e58c15bd7.md"
+    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Ricerca Operativa (RO).md",
+    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Calcolo Numerico(CN).md",
+    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Laboratorio II.md",
+    "Volult Con Tool/Raccolta Università Informatica/2° Anno/Architetture e sistemi operativi (AESO).md",
+    "Universita.md",
+    "Volult Con Tool/Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Domande Esame c7436dd2fceb44adb004bacb75b8fbdb.md",
+    "Volult Con Tool/Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Conoscenze generali 365b5331268b4c5680e51dc7992e7ce0.md",
+    "ProblemFiles.md",
+    "Raccolta Università Informatica/2° Anno/Architetture e sistemi operativi (AESO).md",
+    "Architetture e sistemi operativi (AESO) 1e0e264228a748feabc5de07d5a770db/Conoscenze generali 365b5331268b4c5680e51dc7992e7ce0.md"
   ]
 }
