@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "fe67b8653ef0174a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ae052c721dc8289",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Ingegneria del softwere.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d89a104717a2650e",
+    "type": "split",
+    "children": [
+      {
+        "id": "98b55af22fe8b969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35c537e01212d3e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2bd0dcf87cb0fbde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236
+  },
+  "right": {
+    "id": "196174e3990847f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "712834b1eb906ec6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90f0cd3b7e1de62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ingegneria del softwere.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9a28135ea7e5028",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c1abd477e3f5da6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6ae052c721dc8289",
+  "lastOpenFiles": [
+    "Critto Note temp.md",
+    "Basi di dati.md",
+    "Aplicazioni Lineari 360ddbe747c047c2b48c568e58c15bd7/Punti Fissi 28a645215b9e4328b5bf776d5e73e8ff.md",
+    "Raccolta Universita/Raccolta Università/Primo Anno/Algebra Linere (AL)/Autovettori e Autovalori.md",
+    "Raccolta Universita/Raccolta Università/Primo Anno/Algebra Linere (AL)/Sistemi Lineari/Spazzi affini.md",
+    "Senza nome/Programazione lineare Intera 0cae1a90d2d84258ac2c3cd21c085204.md",
+    "Raccolta Universita/Secondo Anno/Statistica 1c6feaff729b41638267f73181049a2c.md",
+    "Raccolta Universita.md",
+    "Raccolta Universita/Terzo Anno.md",
+    "Raccolta Universita/Primo Anno/Algebra Linere (AL)/Aplicazioni Lineari 360ddbe747c047c2b48c568e58c15bd7.md"
+  ]
+}
