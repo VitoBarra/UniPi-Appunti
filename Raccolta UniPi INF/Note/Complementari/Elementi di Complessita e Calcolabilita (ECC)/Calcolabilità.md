@@ -108,11 +108,26 @@ Le operazioni sule macchine di Turing sono una logica ceca ma possiamo dare un s
 ## Sintassi astratta
 
 $$
+\begin{aligned}
 E:= n  | X | E_1 + E_2 | E_1 *E_2 | E_1 /  E_1| E_1 - E_2 \\
 B := b | E_1-E_2 | \neg b | B_1 \lor B_2 \\
 C := skip | x=E | C_1;C_2 | if\  B \ then \ C_1 \ else \ C_2 | \ while \ B \ do\  C | \ for \ x=E \ to \ E_1 \ do\  C
+\end{aligned}
 $$
 
 Un linguaggio e composto da espressioni comandi mantiene dati che dipendono dal linguaggio questo booleani e naturali
 
 Sodisfacibilita e calcolabilita: una espressione e soddisfacibile se esiste un procedura di un numero finiti di passi per calcolare l espressione
+
+Due tipologie di linguaggio: 
+- Linguaggio While: oltre al resto puo calcolare algoritmi che non terminano rendendolo Turing-completo 
+- linguaggio For: oltre al resto non puo calcolare le cose che non terminano perche il for finisce sempre dopo una sequenza di passi finiti
+
+## Funzioni poi si vede
+SD $\xi : Exp \times store \rightarrow N$ 
+	
+
+
+
+
+Tutta Roba vista a Prog Algo da Scrivere per sfizio se mi va

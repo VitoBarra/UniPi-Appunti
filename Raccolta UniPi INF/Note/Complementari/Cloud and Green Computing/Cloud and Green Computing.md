@@ -76,14 +76,14 @@ Ora grazie al cloud il customer ha l’erronea opinione di avere un’infinita q
 
 (Trad) “Il cloud computing è un modello per permettere un accesso tramite network ad un pool di risorse computabili e configurabili, in modo onnipresente e conveniente. Esso può essere rapidamente distruibuito e rilasciato con minimo sforzo di gestione o di interazione con il gestore.
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled.png]]
 
 **Idee chiave:**
 
 - Ragruppamento efficiente di infrastrutture virtuali on-demand autogestite, consumate come servizi
 - Distribuire risorse virtualizzate, scalabili dinamicamente tramite internet a più clienti
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 1.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 1.png]]
 
 **Economics**
 
@@ -92,7 +92,7 @@ Ora grazie al cloud il customer ha l’erronea opinione di avere un’infinita q
     - I clienti lo adorano!
     - Anche se più costoso a lungo andare, il costo sarà surclassato dai benefici economici dell’elasticità e di trasferimento del rischio.
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 2.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 2.png]]
 
 # Gli intralci alla cloud adoption
 
@@ -118,7 +118,7 @@ Ora grazie al cloud il customer ha l’erronea opinione di avere un’infinita q
 
 L’innovazione delle enterprises è scaturito dalla capacità di vedere i problemi da un punto di vista differente, che ha poi permesso di sviluppare business models completi e redditizi:
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 3.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 3.png]]
 
 ---
 
@@ -132,11 +132,11 @@ L’innovazione delle enterprises è scaturito dalla capacità di vedere i probl
 
 Docker è una piattaforma che permette di eseguire applicazioni in ambiente isolato. Permette anche di sviluppare ed eseguire applicazioni sfruttando i **container.**
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 4.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 4.png]]
 
 ## La metafora spieata in breve:
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 5.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 5.png]]
 
 ## Macchine virtuali
 
@@ -153,7 +153,7 @@ Il kernel dei sistemi operativi permette l’esistenza di istanze spazio-utente 
 
 ## VM vs. Containers
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 6.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 6.png]]
 
 Comparate alle macchine virtuali i containers sono:
 
@@ -199,13 +199,13 @@ Volumi esterni possono essere montati per assicurare la persistenza dei dati.
 Il meccanismo di docker è utile grazie alla stratificazione, poiché ogni strato può essere un immagine assestante
 Per esempio:
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 7.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 7.png]]
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 8.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 8.png]]
 
 # Docker Compose:
 
-[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Untitled 9.png]]
+[[Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 9.png]]
 
 ## RIGUARDARE SWARM MODE DOCKER!
 

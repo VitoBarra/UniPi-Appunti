@@ -1,6 +1,6 @@
 ---
 type: MOC 
-tags: MOC 
+tags: MOC RETI_LAB3
 ---
 
 Prev: [[Uni MOC]]
@@ -8,7 +8,8 @@ Prev: [[Uni MOC]]
 # Reti - lab 3
 
 ## Course MOC  📒
-1. 
+1. [[Thread]]
+2. [[Stream IO]]
 
 
 
@@ -16,6 +17,4 @@ Prev: [[Uni MOC]]
 1. 
 
 
-[[Thread]]
 
-[[Stream IO]]

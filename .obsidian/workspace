@@ -4,141 +4,144 @@
     "type": "split",
     "children": [
       {
-        "id": "c8688b8526e6ec89",
+        "id": "3ef8c888b8470665",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Org File/Daily Organizer.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b2e3049f43b55aae",
+        "type": "leaf",
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Org File/Daily Organizer.md"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "332c07ff02706e98",
-    "type": "split",
+    "id": "443162b6bf952af8",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "642bfec03a018821",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1c882c6bc2398d28",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a0bd9dbadd7fe4f2",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#Final",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "9c0c9bba816830ae",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "bfb1a514441ecf73",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5da035995afd8291",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "442332cf2264417a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "5d73f1579d9b4b6d",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 561.5
+    "currentTab": 0
   },
   "right": {
-    "id": "7623f4bedb9c97a4",
-    "type": "split",
+    "id": "11d1c190d1ebcd2b",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca81c8b104fc61ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3be6e7e12714f12c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b83cb4623c4086f5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "22aeae8f6dbef180",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "fee1287eef6d4816",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "f4621c40258d7818",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "b04473fd53231042",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Org File/Daily Organizer.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "ff77b99f7bbcb078",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Org File/Daily Organizer.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "054a118d962735d4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Org File/Daily Organizer.md"
+          }
+        }
+      },
+      {
+        "id": "18a60c82e18cf38e",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "c8688b8526e6ec89",
+  "active": "3ef8c888b8470665",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Statistica descrittiva.md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Probabilità e variabili aleatorie.md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Inferenza statistica.md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 11.png",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled.png",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Senza nome.md",
-    "Templete/Coure Finale/STAT Final.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Basi e vertici.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Teorema Fondamentare della programmazione lineare.md"
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Calcolabilità.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Complessita.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "Untitled.md",
+    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
+    "Raccolta UniPi INF/Note/Uni MOC.md",
+    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere.md",
+    "Raccolta UniPi INF/Note/3° Anno/Basi di dati/B/Untitled 1.md",
+    "Raccolta UniPi INF/Note/3° Anno/Basi di dati/B/Untitled.md"
   ]
 }
