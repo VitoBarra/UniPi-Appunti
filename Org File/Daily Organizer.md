@@ -6,28 +6,39 @@ tags: org
 
 ---
 
-## ToDo
+## ToDo LongTerm
+
+- [ ] FIx Bug cavi DLS
+
+
+## ToDo ShortTerm
 
 - [ ] Iscrivermi Palestra
 - [ ] Sistemare Appunti AESO
-- [ ] Sistemare Appunti ECC
 - [ ] Sistemare appunti Basi di dati
-- [ ] Stampare Reso
-- [ ] FIx Bug cavi DLS
+- [ ] RipagareDeb GiGi e yuri<br>- [x] Prendere soldi<br>- [x] yuriy|<br>- [ ] gigi
+- [ ] Sistemare Appunti ECC
+- [ ] Zaiono per scendere
 
 
 ## WIP
 
-- [ ] RipagareDeb GiGi e yuri
-- [ ] Aiutare Claudio
+- [ ] Assignment 2 Reti<br>- [ ] Comleta<br>- [ ] consegna
 - [ ] Sistemare Appunti reti
-- [ ] Assignment 1 Reti
-- [ ] Assignment 2 Reti
-- [ ] Scaricare jojo 6
+- [ ] Prendere Cavo Giu
 
 
 ## Done
 
+
+
+## Archivio
+
+- [ ] Serie da scaricare<br>- [x] jojo 6<br>- [x] Black Lagoon
+- [ ] Assignment 1 Reti<br>- [x] Comleta<br>- [x] consegna
+- [ ] Aiutare Claudio
+- [ ] Stampare Reso
+- [ ] Fare Reso
 
 
 

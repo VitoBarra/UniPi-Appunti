@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3ef8c888b8470665",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Org File/Daily Organizer.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b2e3049f43b55aae",
+        "id": "65fde9c34739f99a",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -29,119 +17,134 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "443162b6bf952af8",
-    "type": "mobile-drawer",
+    "id": "657a8398619d19d3",
+    "type": "split",
     "children": [
       {
-        "id": "bfb1a514441ecf73",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "5da035995afd8291",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "f135bd93c6da9bbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b607b5cee1244e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85e54076ea8bed34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33ff4f4d940884ec",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "442332cf2264417a",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "5d73f1579d9b4b6d",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 439.5
   },
   "right": {
-    "id": "11d1c190d1ebcd2b",
-    "type": "mobile-drawer",
+    "id": "17142a0c339423f9",
+    "type": "split",
     "children": [
       {
-        "id": "b04473fd53231042",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Org File/Daily Organizer.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "c92f68cd3179c51a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae1c3bbe9dcf29c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a1e1bc38131065b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Org File/Daily Organizer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e4b76909af41d17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Org File/Daily Organizer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0117270d45398f0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f904b95b39680e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Org File/Daily Organizer.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "ff77b99f7bbcb078",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Org File/Daily Organizer.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "054a118d962735d4",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Org File/Daily Organizer.md"
-          }
-        }
-      },
-      {
-        "id": "18a60c82e18cf38e",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "3ef8c888b8470665",
+  "active": "65fde9c34739f99a",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Calcolabilità.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Complessita.md",
-    "Raccolta UniPi INF/Temp Note/ECC temp.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "Untitled.md",
-    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
-    "Raccolta UniPi INF/Note/Uni MOC.md",
-    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere.md",
-    "Raccolta UniPi INF/Note/3° Anno/Basi di dati/B/Untitled 1.md",
-    "Raccolta UniPi INF/Note/3° Anno/Basi di dati/B/Untitled.md"
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Verilog.md",
+    "Org File/Daily Organizer.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md",
+    "Templete/General temp Note.md",
+    "Templete/Daily Organizer {{data}}.md",
+    "Org File/Month Organizer.md",
+    "Org File/Senza nome.md",
+    "Templete/Coure Finale/STAT Final.md",
+    "Templete/Coure Finale/AESO Final.md"
   ]
 }
