@@ -24,7 +24,7 @@
     "insert-current-date",
     "insert-current-time"
   ],
-  "promptDelete": true,
+  "promptDelete": false,
   "showFrontmatter": false,
   "showLineNumber": true,
   "pdfExportSettings": {

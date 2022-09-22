@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "da5144494ec2d8d8",
+        "id": "c8688b8526e6ec89",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Final",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 561.5
   },
   "right": {
     "id": "7623f4bedb9c97a4",
@@ -128,13 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "da5144494ec2d8d8",
+  "active": "c8688b8526e6ec89",
   "lastOpenFiles": [
-    "Reti di calcolatori temp note.md",
-    "Ingegneria del softwere.md",
-    "Prova test.md",
-    "Basi di dati.md",
-    "Critto Note temp.md",
-    "2022-09-21.md"
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/Statistica descrittiva.md",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/Probabilità e variabili aleatorie.md",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/Inferenza statistica.md",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 11.png",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled.png",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Senza nome.md",
+    "Templete/Coure Finale/STAT Final.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Basi e vertici.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Teorema Fondamentare della programmazione lineare.md"
   ]
 }

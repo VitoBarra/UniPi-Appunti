@@ -14,5 +14,14 @@
       ],
       "key": "ArrowDown"
     }
-  ]
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "insert-current-time": []
 }
