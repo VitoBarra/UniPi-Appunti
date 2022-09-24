@@ -61,7 +61,7 @@ Può accadere in più occasioni:
 
 Un caso classico di deadlock è il problema dei filosofi a cena dove ogni filosofo ha bisogno di due bastoncini per mangiare e quindi deve prenderne uno a sinistra e uno a destra ma c è un solo bastoncino per ogni filosofo quindi mentre uno mangia quelli affianco dovranno necessariamente aspettare che il primo finisca e rilasci i bastoncini se voglio fare la stessa cosa
 
-[[9CB27C61-5A69-4561-B92F-7715EF75DFAE.jpeg]]
+![[9CB27C61-5A69-4561-B92F-7715EF75DFAE.jpeg]]
 
 ### Deadlock vs Starvation
 
@@ -74,19 +74,10 @@ Entrambi sono problemi di livness ma la deadlock é una condizione più forte qu
 3. Un thread aspetta mentre ha già una risorsa (lock)
 4. C è un insieme di thread tale che ogni thread aspetti una risorsa mantenuta da un altro thread nel insieme
 
-<aside>
-💡 Queste 4 condizione sono necessario ma non sufficienti  per un deadlock.
+>[!info]
+ Queste 4 condizione sono necessario ma non sufficienti  per un deadlock.
 
-</aside>
 
 Ad esempio se ci sono più istanze di una sola risorsa la 4 condizione potrebbe essere vera ma non causare un deadlock siccome potrebbe esserci un thread fuori dal ciclo che eventualmente rilascerà una risorsa e sbloccherà il ciclo
 
-[[FCE75DE4-F9E0-41E9-A67F-EB29DC7B54D0.jpeg]]
-
-[[Prevenzione Deadlock]]
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)
+![[FCE75DE4-F9E0-41E9-A67F-EB29DC7B54D0.jpeg]]

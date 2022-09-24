@@ -1,4 +1,14 @@
-# Domande Esame
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Domande Esame AESO
+---
 
 Domande di oggi dei 4 esami di AESO, più o meno complete, tranne forse qualcosa dell'ultimo esame dove ero più distratto. Ho provato a scriverle più in italiano di quanto le dica marcod.
 

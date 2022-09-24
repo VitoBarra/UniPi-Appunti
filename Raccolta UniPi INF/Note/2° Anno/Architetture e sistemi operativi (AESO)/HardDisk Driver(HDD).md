@@ -1,5 +1,14 @@
-# Dischi magnetici
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# HardDisk Driver(HDD)
+---
 Dispositivi per il mantenimento persistente di dati. Questi dischi sono formati da più dischi inpilati su di uno spindle che puo far ruotare i dischi. I dati sono salvati su ogni faccia dei deschi e sono letti e scritti da delle testine attaccate a dei bracci attacchati anche essi ad un palo con un motore alla fine detto arm assembly. C è un braccio per ogni superficie e una testina puo leggere almeno un settore alla volta.
 
  I settori sono tipichimante grandi 512 byte. I dischi sono organizzati a settori perché questi comprendano dei bit per il controllo dei gli errori. Questo permette di aumentare la banda di lavoro. Un un cerchi di settori si chiama track

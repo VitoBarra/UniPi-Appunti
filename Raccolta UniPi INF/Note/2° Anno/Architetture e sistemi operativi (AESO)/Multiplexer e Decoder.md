@@ -13,17 +13,17 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 il multiplexer è un componente che scegli quale lavore dare in uscita tramite un input di selezione detto segnale di controllo
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 13.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 13.png]]
 
 questi possono essere costruiti utilizzando
 
 - buffer three state
 
-   ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 1 5.png]]
+   ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 1 5.png]]
 
 - logica a due livelli
 
-    ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 2 4.png]]
+    ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 2 4.png]]
 
 
 per si possono costruire MUX che sono N:1 a patto che ci siano $log_2N$ bit nel segnale di controllo
@@ -36,14 +36,14 @@ i mux si possono usare come tabelle di ricerca (LookUp Table) che non sono altro
 
 un decoder è un componente che ha $N$ ingressi e $2^N$ uscite e attiva una delle sue uscite a seconda della combinazione di valori in ingresso
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 3 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 3 4.png]]
 
 un decoder può essere usato per realizzare funzioni logiche come se fosse una rete a due livelli
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 4 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 4 3.png]]
 
 in generale una funzione ad $N$  ingressi può essere costruita con un decoder $N:2^N$ e una porta OR a $M$ ingressi dove $M$ è il numero degli uno nelle uscite nella tabella di verita
 
 è realizzato con NOT e AND
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 5 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 5 1.png]]

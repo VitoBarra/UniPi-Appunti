@@ -1,4 +1,15 @@
-# Prerequisiti Interpreti
+---
+type: nota
+course: Paradigmi Di Programmazione
+topic: 
+tags: PDP
+---
+
+Prev: [[Paradigmi Di Programmazione(PDP)]]
+
+# Prerequisiti interpreti
+---
+
 
 - Indice
 - SubPage

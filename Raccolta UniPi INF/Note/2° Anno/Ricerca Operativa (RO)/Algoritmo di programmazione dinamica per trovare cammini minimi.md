@@ -7,7 +7,7 @@ tags: RO Algoritmo
 
 Prev: [[Ricerca Operativa (RO)]]
 
-# Algoritmo di programmazione dinamica per trovare cammini minimi
+# Algoritmo di [[Programmazione Dinamica|programmazione dinamica ]]per trovare cammini minimi
 ---
 
 

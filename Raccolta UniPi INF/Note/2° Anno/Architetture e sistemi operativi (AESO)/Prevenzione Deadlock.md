@@ -1,9 +1,18 @@
-# Prevenzione Deadlock
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Prevenzione Deadlock
+---
 ci sono vari approcci per evitare deadlock.
 
-- **cambiando o limitando il comportamento del programma**: cambiando il programma si possono pervenire le [[condizioni necessarie per il deadlock]]
-    - **risorse limitate**: dando più risorse si potrebbero instanziare dinamicamente ma porterebbe e possibili casi di esaurimento memoria che potrebbe portare ad un successivo lock
+- **cambiando o limitando il comportamento del programma**: cambiando il programma si possono pervenire le [[DeadLock#Condizioni necessarie per Deadlock|condizioni necessarie per il deadlock]]
+    - **risorse limitate**: dando più risorse si potrebbero in stanziare dinamicamente ma porterebbe e possibili casi di esaurimento memoria che potrebbe portare ad un successivo lock
     - **no prerilascio**: **implementanto un sistema di pre-rilascio**
     - **in attesa mentre mantiene risorese**: rilascio delle risorse prima di chiamare in un altro modulo oppure possono ristrutturare gli oggetti per chiamare altri oggetti condivisi solo se non si sta mantenendo nessun altro lock
     - **attesa circolare**: ordinando i lock con dei lock ordinati si puo fare in modo di non generare attese circolare un esempio è in una tabbella hash dove cè un lock per ogni slot numerando. nelle operazioni tipo  **changeKeys(item, k1, k2)** si prenderà in ordine prima il lock della casella più alta e poi quella più bassa cosi se un altro thread dovrà aspettare lo fara solo solla casella alta evitando cosi l attesa circolare che si sarebbe verificata altrimenti
@@ -12,9 +21,9 @@ ci sono vari approcci per evitare deadlock.
 
 ## Algoritmo del Banchiere
 
-è un algoritmo progettato da Dijkstra e si basa sul fatto che solo perche un programma puo andare in deadlock non significa che lo farà. definisce uno satato safe, unsafe e deadklock. l algoritmo evita che si passi da uno stato safe ad uno unsafe ritardando la concessione di alcune risorse.
+è un algoritmo progettato da Dijkstra e si basa sul fatto che solo perché un programma può andare in deadlock non significa che lo farà. definisce uno stato safe, unsafe e deadlock. l algoritmo evita che si passi da uno stato safe ad uno unsafe ritardando la concessione di alcune risorse.
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 8.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 8 1.png]]
 
 ### Stati
 
@@ -116,11 +125,11 @@ l idea di base può essere utilizzata per capire in che contesti il programma pu
 
 # individuare e recuperare da un deadlock
 
-se i casi in cui i deadlock sono rari allora conviene non pagare l overhead per prevenirli, lasciarli accadere e recuperare da quelli nel modo piu trasparente possibile.
+se i casi in cui i deadlock sono rari allora conviene non pagare l overhead per prevenirli, lasciarli accadere e recuperare da quelli nel modo più trasparente possibile.
 
 ### Transazioni
 
-le transazioni sono un meccanismo per recuperare fare l undo  di un set di dati toccati nella transazione stessa lasciarli in uno inconsistente. realizato mantenendo una copia interna dei dati e lavorando su quelli
+le transazioni sono un meccanismo per recuperare fare l undo  di un set di dati toccati nella transazione stessa lasciarli in uno inconsistente. realizzato mantenendo una copia interna dei dati e lavorando su quelli
 
 ha un interfaccia di questo tipo
 
@@ -131,13 +140,13 @@ ha un interfaccia di questo tipo
 
 ## Individuare Deadlock
 
-per individuare se c è un deadlock si può controllare quanto tempo sta passando e decidere se passa tempo che c è un deadlock, può dare falsi positivi ma non è un gran problema se il costo di recupero è basso
+per individuare se c è un deadlock si può controllare quanto tempo sta passando e decidere se passa tempo che c è un [[deadlock]], può dare falsi positivi ma non è un gran problema se il costo di recupero è basso
 
 un altro sistema quando c è una sola istanza di ogni risorsa è usare i grafi
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 2.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 1 2 1.png]]
 
-se nel grafo che rappresenta i thread e le risorse c è un ciclo allora siamo in deadlock. se le risorse sono multyistanza il ciclo diventa una condizione necessaria ma non sufficiente per essere in deadlock
+se nel grafo che rappresenta i thread e le risorse c è un ciclo allora siamo in [[deadlock]]. se le risorse sono multyistanza il ciclo diventa una condizione necessaria ma non sufficiente per essere in deadlock
 
 un altro modo per capire è la variazione di Coffman, Elphick, and Shoshani del metodo IsSafe() del algoritmo del banchiere
 

@@ -1,6 +1,6 @@
 ---
 type: MOC 
-tags: MOC 
+tags: MOC FileNotFound 
 ---
 
 Prev: [[Uni MOC]]
@@ -21,7 +21,7 @@ Prev: [[Uni MOC]]
 			1. [[Mark-sweep]]
 			2. [[Copyng collection]]
 		3. [[Generational]]
-5. [[Domande esame orale]]
+5. [[Domande esame orale PDP]]
 6. 
 
 ### Educational Material 🧱

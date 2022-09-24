@@ -10,13 +10,13 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Mappe Di Karnaugh
 ---
-le mappe di _karnaught_ servono a semplificare le espressioni booleane con un massimo di 4 variabili.
+le mappe di _Karnaugh_ servono a semplificare le [[espressioni booleane]] con un massimo di 4 variabili.
 
 una mappa è una griglia circolare dove ogni spostamento di una riga o colonna corrisponde ad un cambiamento di una sola variabile la prima colonna è adiacente al ultima come la prima riga lo è con l ultima.
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 13.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 13 1.png]]
 
-regole per trovare l espressione prima partendo da un mappa di karnaugh
+regole per trovare l espressione prima partendo da un mappa di Karnaugh
 
 Utilizzare il minor numero possibile di cerchi per includere tutti gli 1.
 • Tutti i riquadri racchiusi in ciascun cerchio devono contenere 1.

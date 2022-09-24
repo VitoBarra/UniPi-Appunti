@@ -14,7 +14,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con loro riporgono tre problematiche da tenere in conto
 
 - **Trovare la copia sulla cache** :  siccome lo scopo della cache e velocizzare l accesso il tempo
-- **Pollicy di rimpiazzamento**: quando un nuovo dato deve entrare nella cache va scelto in modo efficiente cosa eliminare dalla cache
+- **Pollicy di rimpiazzamento**: quando un nuovo dato deve entrare nella cache va scelto in [[Politiche di rimpiazzamento cache|modo efficiente cosa rimpiazzare]] dalla cache
 - **Coerenza**: Controllare quando i dati salvati sono nella cache sono out-date
 
 ### Concetti cache
@@ -23,7 +23,7 @@ Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con lo
 
 Una cache è una memoria che mantiene una coppia di valori con il primo si raggiunge il secondo valore della coppia fa in pratica da dizionario.
 
- Se al momento della ricerca il dato si trova allora è un cache hit  altrimenti si chiama cache miss
+ Se al momento della ricerca il dato si trova allora è un __cache hit__  altrimenti si chiama __cache miss__
 
 Stimare quali dati è probabile che vengano riusati è un concetto fondamentale per poter decidere cosa sostituire nella cache. Due concetti per questo sono
 
@@ -37,14 +37,18 @@ $$
 Latency(read \ request ) = Prob(cache \ hit ) \times Latency(cache \ hit) + Prob(cache \ miss ) \times Latency(cache \ miss)
 $$
 
-In scrittura  in una cacche  è più semplice perché essendo bafferizata appare al programma immediata
+In scrittura  in una cache  è più semplice perché essendo bafferizata appare al programma immediata
 
 ![[4CEF1162-8B0A-45E3-A0BB-40BA2E10201D.jpeg]]
 
  il suo funzionamento è:
 
 - ad una richiesta di scrittura carica il dato nel buffer e fai perseguire l esecuzione
-- I backgroud quando se vuole eseguire la scrittura il processore controlla se l indirizzo da scrivere è nella memoria se lo è lo aggiorna direttamente altrimenti prima lo fetcha
+- I background quando se vuole eseguire la scrittura il processore controlla se l indirizzo da scrivere è nella memoria se lo è lo aggiorna direttamente altrimenti prima lo fetcha
 - Una volta scritto vanno aggiornati gli altri livelli di cache questo si può fare in due modi
     - Write-Throught: ovvero appena viene aggiornato viene fatto anche negli altri livelli
     - Write-back: quando il dato viene eliminato prima viene scritto aggiornato negli altri livelli della cache
+
+[[Memory Cache lookup]]
+
+

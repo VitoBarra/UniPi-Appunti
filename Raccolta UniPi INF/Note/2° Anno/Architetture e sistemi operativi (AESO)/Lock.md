@@ -1,8 +1,17 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Lock
+---
+le lock servono a garantire la mutua esclusione utile per gestire la  [[Sincronizazine di oggetti convidivisi]]
 
-le lock servono a garantire la mutua esclusione utile per gestire la sicronizazione
-
-per esegure un pezzo di codice chiamata sezione critica bisogna fare un acquire e una relese sul lock che delimita il pezzo di codice
+per eseguire un pezzo di codice chiamata sezione critica bisogna fare un acquire e una relese sul lock che delimita il pezzo di codice
 
 ```c
 lock.acquire()
@@ -12,7 +21,7 @@ lock.acquire()
 lock.relese()
 ```
 
-  i thread che vogliono eseguire la sezione critica del codice devono prima cercare di ottenere la lock  se ci riescono eseguono quel pezzo di codice e poi rilasciano il lock. se non riescono a fare l acquire perché é stato fatta dal un altro thread che non ha ancora rilasciato il lock allora thread viene messo in stato d attesa su quel lock e verrai rimessi in stato di READY quando il lock verrà rilasciato
+  i [[Astrazione Thread|thread]] che vogliono eseguire la sezione critica del codice devono prima cercare di ottenere la lock  se ci riescono eseguono quel pezzo di codice e poi rilasciano il lock. se non riescono a fare l acquire perché é stato fatta dal un altro thread che non ha ancora rilasciato il lock allora thread viene messo in stato d attesa su quel lock e verrai rimessi in stato di READY quando il lock verrà rilasciato
 
 ## Implementazione Lock
 
@@ -20,7 +29,7 @@ lock.relese()
 
 nel singolo processo i thread possono essere interrompe solo da un interruzione quindi l acquire e la relese vengono implementate lavorando su le interruzioni e per dare la nozione di attesa si lavora con lo schedulatore.
 
-Acqure:
+acquire:
 
 ```c
 LockAcquire()
@@ -55,13 +64,13 @@ LockRelese()
 }
 ```
 
-un implementazione inefficiente potrebbe essere anche solo abilitando e disabilitando le interruzioni. problemi con le interruzioni provenenti da I/O
+un implementazione inefficiente potrebbe essere anche solo abilitando e disabilitando le interruzioni. problemi con le interruzioni provenienti da I/O
 
 ### MultyProcessore
 
-nel caso di multiprocessore ci potrebbero essere delle aquire contemporaneamente si piu processori da problemi siccome se entrambi leggono contemporaneamente in valore del lock e lo trovano aperto entrambi lo prendono non garantendo quindi la mutua esclusione
+nel caso di multiprocessore ci potrebbero essere delle acquire contemporaneamente si più processori da problemi siccome se entrambi leggono contemporaneamente in valore del lock e lo trovano aperto entrambi lo prendono non garantendo quindi la mutua esclusione
 
-Acqure:
+Acquire:
 
 ```c
 LockAcquire()
@@ -104,11 +113,11 @@ LockRelese()
 
 # Spin-lock
 
-servono per fare attesa attiva utilizza delle istruzioni assembly speciali che atomicamente  controllano se una locazione è un dato valore e se è quello setta il valore di quella locazione, questo serve siccome cosi facendo c è un solo lock che lavora su quella locazione alla volta
+servono per fare attesa attiva utilizza delle  [[Istruzioni Machina|istruzioni assembly]] speciali che atomicamente  controllano se una locazione è un dato valore e se è quello setta il valore di quella locazione, questo serve siccome cosi facendo c è un solo lock che lavora su quella locazione alla volta
 
-un altra istruzione speciale e la EXCH che atomicamente scambia due valori e si puo usare per implementare le spin-lock
+un altra istruzione speciale e la EXCH che atomicamente scambia due valori e si può usare per implementare le spin-lock
 
-Acqure:
+Acquire:
 
 ```c
 SpingLock_acquire()
@@ -129,4 +138,4 @@ SpingLock_Relese()
 }
 ```
 
-la barriera di memoria serve per assicurarsi che la scrittura dell free sul lock avvenga prima che ne possano avvenire altre per questioni legate ai delay messi sulle scritture in memoria. questo assicura che tutti possano leggere subito che il lock sia diventato FREE
+la [[barriera di memoria]] serve per assicurarsi che la scrittura dell free sul lock avvenga prima che ne possano avvenire altre per questioni legate ai delay messi sulle scritture in memoria. questo assicura che tutti possano leggere subito che il lock sia diventato FREE

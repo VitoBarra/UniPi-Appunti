@@ -1,6 +1,17 @@
-# Logica a piu livelli
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-la logica a piu livelli non è sempre chiarissima ma ci sono delle tecniche per semplificarla riducendo cosi anche l hardwere
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Logica a più livelli
+---
+
+
+la logica a più livelli è piu complessa della [[logica a due livelli]] ma ci sono delle tecniche per semplificarla riducendo cosi anche l hardware
 
 ## Spingere le bolle
 
@@ -19,9 +30,3 @@ ingressi, in modo da poter leggere l’espressione in termini di uscita diritta
 • Lavorando a ritroso, disegnare ogni porta in modo tale da cancellare le bolle.
 Se la porta corrente ha una bolla sull’ingresso, disegnare la porta che la precede con una bolla sull’uscita, mentre se la porta presente non ha una bolla
 sull’ingresso, disegnare la porta che la precede senza una bolla sull’uscita
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)

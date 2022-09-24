@@ -1,14 +1,23 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Gang Scheduler
+---
+è una politica in cui si scegliere il task tutti proveniente dallo stesso programma quindi prende un set di thread correlati
 
-è una politica in cui si scegliere il task tutti proveninte dallo stesso programma quindi prende un set di thread correlati
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 16 1.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 16.png]]
+lavorare in questo modo potrebbe essere in efficiente per qui programmi che non ridicano il tempo sul percorso critico aggiungendo [[Astrazione Thread|thread]]. per risolvere il problema si una lo Space Sharing  ovvero sub set di task di un processo vanno assegnati ad un sub Set del numero di processori
 
-lavorara in questo modo potrebbe essere in efficente per qui programmi che non ridicuno il tempo sul percorso critico aggiungendo thread. per risolvere il progblema si una lo Space Sharing  ovvero sub set di task di un processo vanno assegnati ad un sub Set del numero di processori
+![[Untitled 1 6 1.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 6.png]]
-
-## Carateristiche
+## Caratteristiche
 
 
 

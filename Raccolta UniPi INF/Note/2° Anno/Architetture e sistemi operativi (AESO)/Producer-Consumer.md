@@ -1,3 +1,13 @@
-# Producer-Consumer
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 6.png]]
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Producer-Consumer
+---
+
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 6 1.png]]

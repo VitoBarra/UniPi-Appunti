@@ -10,13 +10,13 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 # Implementazione Thread
 ---
 
-# Kernel Multy-Thread
+# Kernel Multi-Thread
 
 ## Creazione
 
-1. Alloca il per-thraed state quindi TCB e Stack
+1. Alloca il per-thread state quindi TCB e Stack
 2. inizializza il per-thread state:
-    - invece di chiamare direttamete la funzione passata al thread con i suoi argomenti viene prima chiamata un altra funzione stub che si occupera di fare da wraper per la funzione essenzialmente qualcosa che contiene la funzione che va chiamata ma che in caso di return di questa poi riesca a chiarem pthread_exit();
+    - invece di chiamare direttamente la funzione passata al thread con i suoi argomenti viene prima chiamata un altra funzione stub che si occuperà di fare da wraper per la funzione essenzialmente qualcosa che contiene la funzione che va chiamata ma che in caso di return di questa poi riesca a chiarem pthread_exit();
 
         ```c
         void stub(void (*func)(int), int arg) {
@@ -30,30 +30,28 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 ## Cancellazione di Thread
 
-il thread una volta chiamato l exit deve essere spostato nella FinishedList dove verra mantenuto Il suo TCB con il risustato del thread. una volta consumato quel dato si puo procedere a fare il free del TCB.
+il thread una volta chiamato l exit deve essere spostato nella FinishedList dove verra mantenuto Il suo TCB con il risultato del thread. una volta consumato quel dato si puo procedere a fare il free del TCB.
 
-Della deallocazione se ne occupera un altro thread farlo fare al thread stesso porta a problemi perche potrebbe essere interrotto mentre la deallocazione non è completata, per esempio se non esiste piu lo stack e il TCB non è stato ancora deallocato e arriva un interruzione
+Della deallocazione se ne occuperà un altro thread farlo fare al thread stesso porta a problemi perché potrebbe essere interrotto mentre la deallocazione non è completata, per esempio se non esiste più lo stack e il TCB non è stato ancora deallocato e arriva un interruzione
 
-## Cambio di costesto
+## Cambio di contesto
 
 il cambio di contesto consiste nel salvare lo stato del thread metterlo in pausa e riprendere l esecuzione di un altro thread
 
 può succedere in due modi
 
-### Volontrario
+### Volontario
 
 con la chiamata da parte del thread  ad Thread_yield che rilascia il processore. mentre si fa questa operazione si devono mascherare le interruzioni
 
-<aside>
-💡 **Why is it necessary to turn off interrupts during thread switch?**
+
+>[!info] **Why is it necessary to turn off interrupts during thread switch?**
 Our implementation of thread_yield defers any interrupts that might occur during the procedure, until the yield is complete. This might seem unnecessary: after all, even if the thread context switch is interrupted, the state of the switch will be saved onto the stack. Eventually the kernel will re-schedule the thread, restore its state, and complete the thread switch.
 However, a subtle inconsistency might arise. Suppose a low priority thread (e.g., the idle thread) is about to voluntarily switch to a high priority thread. It pulls the high priority thread off the ready list, and at that precise moment, an interrupt occurs. Supppose the interrupt moves a medium priority thread from WAITING to READY. Since it appears that the processor is still running the low priority thread, the interrupt handler immediately switches to the new thread. The high priority thread is in limbo! It is ready to run, but unable to do so until the low priority thread is re-scheduled. And that may not happen for a long time.
 Of course, this sequence of events would not occur very often, but when it does, it would be difficult to locate
 or debug.
 
-</aside>
-
-per fare l effettivo cambio da un thread al altro c è bisogno di una funzione che opera diretametne sullo stack attivo.
+per fare l effettivo cambio da un thread al altro c è bisogno di una funzione che opera direttamente sullo stack attivo.
 
 ```c
 // We enter as oldThread, but we return as newThread.
@@ -68,7 +66,7 @@ per fare l effettivo cambio da un thread al altro c è bisogno di una funzione c
  }
 ```
 
-questa funzione prima salva i registri sullo stack corrent il cui puntatore viene salvato sul TCB del primo Thread successivamente carina il nuovo stack presente sulk TCB del nuovo thread che deve andare in esecuzione e carica i registri salvati su quel nuovo stack nei registri del processore
+questa funzione prima salva i registri sullo stack corrente il cui puntatore viene salvato sul TCB del primo Thread successivamente carina il nuovo stack presente sul TCB del nuovo thread che deve andare in esecuzione e carica i registri salvati su quel nuovo stack nei registri del processore
 
 ```c
 void thread_yield()
@@ -128,7 +126,7 @@ differenze con il User-mode transfer:
 
 la lista dei Ready puo contetenere  sia PCB che TCB  siccome questi entrambi rappresentano un singolo flusso di esecuzione e puo quindi trattarli in modo uguale. in entrambi i casi lo stato deve essere salvato prima
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 3 6.png]]
 
 c è un unica differenza nella gestione delle interruzioni. Nel caso il processo sia già in modalità kernel (controllando il bit Eflag) utilizza lo stack già correntemente in uso quindi non salva lo stack pointer e alla fine del esecuzione del handler controlla il bit salvato sullo stack e il corrente se sono uguali ritorna sullo stack corrente e continua L esecuzione. Nel gli altri casi fa le normale procedure di cambio processo
 
@@ -138,7 +136,7 @@ I thread vengono generati chiamando delle syscall delegando quindi la creazione 
 
 Questo crea un TCB nel kernel per-thread e uno stack kernel per le interruzioni. Mette poi nella ready list il TCB come qualsiasi altro thread
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 1 1 1.png]]
 
 Tutte le operazioni su thread quali thread join yield e exit funzionano esattamente come i thread kernel
 
@@ -147,7 +145,7 @@ Tutte le operazioni su thread quali thread join yield e exit funzionano esattame
 
 # Without Kernel Support
 
-Si possono creare thread ad user-level chiamati green-Thread ricreando le stesse strutture dati che userebbe il sistema operativo ad user-level (TCBs, finished list, ready list etc.). Quindi queste strutture dati sarebbero nello spazio di indirizamento del processo che ne fa utilizzo.
+Si possono creare thread ad user-level chiamati green-Thread ricreando le stesse strutture dati che userebbe il sistema operativo ad user-level (TCBs, finished list, ready list etc.). Quindi queste strutture dati sarebbero nello spazio di indirizzamento del processo che ne fa utilizzo.
 
 - **Pro:**
     - Incrementa la portabilità non dipendendo da uno specifico sistema operativo
@@ -158,13 +156,13 @@ Si possono creare thread ad user-level chiamati green-Thread ricreando le stesse
     - Alla sospensione di un singolo thread si sospende l intero processo (es: in caso di IO)
     - Non permette di usare a proprio vantaggio L avere più processori
 
-### User-Level Thread con prerilascio
+### User-Level Thread con periclasio
 
-Si posso implementare utilizzando le upcall fornite dal sistema operativo. Per fare prerilascio di user-thread di un processo  P vanno fatti i seguenti passi:
+Si posso implementare utilizzando le [[Upcalls]] fornite dal sistema operativo. Per fare periclasio di user-thread di un processo  P vanno fatti i seguenti passi:
 
 1. La libreria thread registra un handler di segnarli con timer
 2. Quando arriva l interruzione del timer L hardware salva i registri di P E lancia L handler kernel
-3. Alla fine del handler invece di riprenedere L esecuzione del processo copia i registri messi da parte del processo P nello sack dei segnali
+3. Alla fine del handler invece di riprendere L esecuzione del processo copia i registri messi da parte del processo P nello sack dei segnali
 4. Il kernel riprende P nel Handler del segnare User-Level
 5. L handler copia il registri salvati sul signal stack nel TCB di quel processo
 6. L handler selezione un altro thread da riavviare e riattiva il signal handler

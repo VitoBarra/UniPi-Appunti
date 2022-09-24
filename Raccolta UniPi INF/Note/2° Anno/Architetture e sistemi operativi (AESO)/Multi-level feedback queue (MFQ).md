@@ -1,4 +1,15 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO FileNotFound 
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Multi-level feedback queue (MFQ)
+---
+
 
 è una politica in cui si scegliere il task utilizando una coda di livelli ogni livello avra una priorita un task livello di priorita piu alta fra prerilascio su i task delle code piu basse e i task nello stesso livello vengono eseguite con una politica round robin. ogni coda ha un quanto di tempo diverso e i livelli a priorita piu alta hanno un quanto di tempo piu breve rispetto a quelle di livello piu basso
 
@@ -14,16 +25,16 @@ i task si muovono nei vali livelli:
     - se deve aspettare una risposta I/O
     - se i task non raggiungono il loro fair-share ( periodicamente controllato )
 
-## Carateristiche
+## Caratteristiche
 
 
 
 ### Pro
 
-- ha tempo di risposta medio basso siccome approssima [SJF](Shortest%20Job%20First%20(SJF)%20af2f70595327486caf0bdc69a8e79d5f.md)
-- ha un basso overhead come per la [FIFO](First-In-First-Out%20(FIFO)%20225eae1f95774e86b44941e2c34d6767.md)
+- ha tempo di risposta medio basso siccome approssima [[Politica di Scheduling Shortest Job First (SJF)|SJF]]
+- ha un basso overhead come per la [[Politica di scheduling First-In-First-Out (FIFO)|FIFO]]
 - evita la starvation
-- garantire la fairness approssima il [[Max-Min]]
+- garantire la fairness approssima il [[Max-Min Fairness]]
 
 ### Contro
 
@@ -39,7 +50,8 @@ i task si muovono nei vali livelli:
 
 - NESSUNO
 
-<aside>
-⚙ questa politica è quella utilizata oggi da Windows, MacOS, e Linux
 
-</aside>
+>[!info ]
+questa politica è quella utilizata oggi da Windows, MacOS, e Linux
+
+

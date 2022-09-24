@@ -10,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 # Traslatori e rotatori
 ---
 
-I traslatori (shifter) e i rotatori (rotator) traslano i bit ed eseguono la moltiplicazione o la divisione per potenze di 2
+I traslatori (shifter) e i rotatori (rotator) son [[conponenti]]  traslano i bit ed eseguono la moltiplicazione o la divisione per potenze di 2
 
 ## Traslatori
 
@@ -18,7 +18,7 @@ i traslatori traslano un numero binario a destra o a sinistra di uno specifico n
 
 ## Traslatore logico:
 
-trasla un numero verso sinistra (LSL, Logical Shift Left)
+trasla un [[Numeri Binari|numero binario]] verso sinistra (LSL, Logical Shift Left)
 o verso destra (LSR, Logical Shift Right) e riempie gli spazi lasciati vuoti con 0. 
 Esempi:
 - 11001 _LSR_ 2 = 00110
@@ -34,7 +34,7 @@ Esempi:
 
 realizzazione dei traslatori
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 10.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 10.png]]
 
 >[!info]
 >- traslare dei bit da sinistra significa moltiplicare il valore per $2^n$ 

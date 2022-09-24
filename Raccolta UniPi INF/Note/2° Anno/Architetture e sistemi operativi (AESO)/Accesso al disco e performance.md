@@ -1,6 +1,17 @@
-# Accesso al disco e performance
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-12.1.1 Disk Access and Performance
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Accesso al disco e performance
+---
+
+
+12.1.1 [[HardDisk Driver(HDD)|Disk Access]] and Performance
 Operating systems send commands to a disk to read or write one or more consecutive
 sectors. A disk’s sectors are identified with logical block addresses (LBAs) that specify the
 surface, track, and sector to be accessed.

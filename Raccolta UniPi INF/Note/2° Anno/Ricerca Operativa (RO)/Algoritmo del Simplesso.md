@@ -93,7 +93,7 @@ poni $\eta_B=-A_kA_B^{-1}$, la direzione di spostamento $d$ è $d_i\ =\begin{cas
 aggiorna la base:  $B = B \backslash \{k\} \cup \{h\}$,
 calcola $\overline{y}_B = c^TA_B^{-1}$ e torna al passo 2
 
-![[Untitled 3 7.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 3 7.png]]
 
 consideriamo un problema primale
 
@@ -115,4 +115,4 @@ altrimenti l algoritmo trova il passo di spostamento lungo la direzione trovata 
 
 ### Trovare soluzione di base ammissibile
 
-![[Untitled 4 5.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 4 5.png]]

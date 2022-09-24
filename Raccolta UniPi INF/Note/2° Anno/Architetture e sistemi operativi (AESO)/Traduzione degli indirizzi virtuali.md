@@ -1,8 +1,19 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Traduzione degli indirizzi virtuali
+---
 
-la traduzione degli indirizzi è una pezzo di funzionalita che serve per tradurre gli indirizzi virtuali  con cui lavora il processo in indirizzi fisici che sono quelli con cui lavora la memoria fisica. questa funzionalita puo essere realizata sia con hardwere che cion software che con entrambi
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 25.png]]
+la traduzione degli indirizzi è una pezzo di funzionalità che serve per tradurre gli indirizzi virtuali  con cui lavora il processo in indirizzi fisici che sono quelli con cui lavora la memoria fisica. questa funzionalità può essere realizzata sia con hardware che con software che con entrambi
+
+![[Untitled 25 1.png]]
 
 # Parametri
 

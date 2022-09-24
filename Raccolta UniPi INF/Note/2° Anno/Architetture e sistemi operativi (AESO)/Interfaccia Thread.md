@@ -9,5 +9,5 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Interfaccia Thread
 ---
-
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 4.png]]
+[[Astrazione Thread|Thread]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 4 4.png]]

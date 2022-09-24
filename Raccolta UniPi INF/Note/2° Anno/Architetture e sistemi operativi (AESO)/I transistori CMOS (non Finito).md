@@ -1,4 +1,15 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # I transistori CMOS (non Finito)
+---
+
 
 ![[62E46717-0C2D-4769-85B0-9C6C5C0C388B.jpeg]]
 

@@ -1,7 +1,14 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Ingresso uscite Processore
+---
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 24.png]]
 
-[[Gestione della dine di oprazione IO]]
-
-[[Data Transfers]]
+![[Untitled 24 1.png]]

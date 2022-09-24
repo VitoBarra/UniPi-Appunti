@@ -8,7 +8,7 @@ tags: AESO
 
 Prev: [[Architetture e sistemi operativi (AESO)]]
 
-# Consumo Di corrente (Capitolo libro capiato)
+# Consumo Di corrente (Capitolo libro capito)
 ---
 
 Il consumo di potenza è la quantità di energia utilizzata per unità di tempo ed
@@ -33,7 +33,7 @@ $$
 
 I dispositivi elettronici usano una certa quantità di corrente anche quando
 sono inattivi. Quando i transistori sono spenti, disperdono comunque una
-piccola quantità di corrente. Alcuni circuiti, come le porte pseudo­nMOS di
+piccola quantità di corrente. Alcuni circuiti, come le porte pseudo-nMOS di
 cui si è parlato nel paragrafo 1.7.8, hanno un percorso da VDD a GND attraverso il quale la corrente fluisce continuamente. La corrente statica totale, IDD,
 viene anche chiamata corrente di dispersione o “corrente di alimentazione
 quiescente” tra VDD e GND. Il consumo di potenza statica è proporzionale a
@@ -42,9 +42,3 @@ questa corrente statica
 $$
 P_{statica}= I_{DD}V_{DD}
 $$
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)

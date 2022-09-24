@@ -1,6 +1,15 @@
-# Flash storage access and performance
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-per scrivere su una memori flash bisogna cancellare un erasure block mettendoli tutti ad uno e riscriverla,gli erasure block sono grandi 128kb -512 kb , la scrittura e la lettuttura possono essere fatta per pagina, una pagina è tipiacamente 2048-4096 byte
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Flash storage access and performance
+---
+per scrivere su una [[SolidState Driver (SSD)|memori flash]] bisogna cancellare un erasure block mettendoli tutti ad uno e riscriverla,gli erasure block sono grandi 128kb -512 kb , la scrittura e la lettuttura possono essere fatta per pagina, una pagina è tipiacamente 2048-4096 byte
 
 Durability. Normally, flash memory can retain its state for months or years without power.
 However, over time the high current loads from flashing and writing memory causes the

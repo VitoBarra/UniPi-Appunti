@@ -4,126 +4,186 @@
     "type": "split",
     "children": [
       {
-        "id": "f0545f6d57529019",
+        "id": "b00ceeb7bac32126",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "80618b87b2c7103c"
+      },
+      {
+        "id": "0344842e02bbc035",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.5087618855792587,
+              "close": false
+            }
+          }
+        },
+        "group": "80618b87b2c7103c"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b112c76192a6eee2",
-    "type": "mobile-drawer",
+    "id": "47140a4bd69b1eb2",
+    "type": "split",
     "children": [
       {
-        "id": "cbb93e7ad0dc14a4",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "aeea757777e836f0",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "5cee7c5251626435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff2ea4ad09c39a01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f6598fdda2711bc0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Architetture e sistemi operativi (AESO)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d839c15e7ad2a89",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "80b12e4897ef2f12",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "56642af23fe2e917",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 473.5
   },
   "right": {
-    "id": "298cb6fdd14d4d51",
-    "type": "mobile-drawer",
+    "id": "148cab7b8456439b",
+    "type": "split",
     "children": [
       {
-        "id": "04b4d1ed127be3b1",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "6d41d71568ac0ab7",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "b7595a0e6b88821a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbc02c37b7078911",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "459fd1b68f15e000",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb96c231745c9342",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c60c5c757596164",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dcdec39b7bee6fe2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "04753bd08f8a02a1",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "44c725aab5ab67ab",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "f0545f6d57529019",
+  "active": "b00ceeb7bac32126",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Mappe Di Karnaugh.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/File System.md",
-    "Storage device.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/SolidState Driver (SSD).md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Condition Variable.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/HardDisk Driver(HDD).md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled.png",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1.png",
-    "9250F81A-BCE2-410A-9A63-73FB74C25CB5.jpeg"
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri binari con segno.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Oblivious Scheduling.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Organizzazione di sistema operativo.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Ottimizzazioni della memoria virtuale per efficienza.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Percorso critico e percorso corto.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Physically Addressed Caches.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politica di scheduling First-In-First-Out (FIFO).md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politica di Scheduling Shortest Job First (SJF).md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politiche di rimpiazzamento cache.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Portabilità della memoria virtuale.md"
   ]
 }

@@ -1,6 +1,17 @@
-# Upcalls
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-le upcalls sono sistemi per permettere ai processi di avere funzionalita simili ai sistemi opertivi, ad sempio:
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Upcalls
+---
+
+
+le upcalls sono sistemi per permettere ai processi di avere funzionalità simili ai [[Sistemi Operativi]], ad sempio:
 
 - **Preemptive user-level threads**. Just as the operating system kernel runs multiple
 processes on a single processor, an application may run multiple tasks, or threads, in
@@ -35,9 +46,9 @@ memory, the less time Java needs to run its collector, speeding execution. For t
 operating system must inform the process when its allocation changes, e.g., because
 some other process needs more or less memory.
 
-[[Untitled 32.png]]
+![[Untitled 32.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 15.png]]
+![[Untitled 1 15 1.png]]
 
 - **Types of signals**. In place of hardware-defined interrupts and processor exceptions,
 the kernel defines a limited number of signal types that a process can receive.
@@ -61,9 +72,4 @@ also modify the saved state, e.g., so that the kernel resumes a different user-l
 when the handler returns.
 
 il meccanismo per far funzionare i segnali UNIX è simile al meccanismo per passare il controllo da kernel a user
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../../../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)
+ù

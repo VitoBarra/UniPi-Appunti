@@ -12,7 +12,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 La virtualizzazione degli indirizzi permette ad un programma di lavorare come se tutta la memoria fosse a disposizione del processo infatti gli indirizzi utilizzati dal programma ora possono partire da un numero arbitrario e.s. 0 .
 
-Invece il sistema operativo avrà bisogno di algoritmi per convertire gli [[indirizzi virtuali in indirizzi fisici]].
+Invece il sistema operativo avrà bisogno di algoritmi per convertire gli [[Traduzione degli indirizzi virtuali|indirizzi virtuali in indirizzi fisici]].
 
 ![[Astrazione_Kernel_2.png]]
 

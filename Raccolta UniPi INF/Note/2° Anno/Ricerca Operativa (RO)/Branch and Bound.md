@@ -57,7 +57,7 @@ $$
 
 ![[Untitled 4 6.png]]
 
-![[Untitled 5 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 5 3.png]]
 
 ## Valutazione
 

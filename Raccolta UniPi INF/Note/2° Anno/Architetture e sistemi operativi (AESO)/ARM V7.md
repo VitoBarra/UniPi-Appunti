@@ -1,5 +1,14 @@
-# ARM V7
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# ARM V7
+---
 cose che possono fare le microarchitetture analizzate
 
 - le istruzioni di elaborazione dati ADD, SUB, AND e ORR (con modi di indirizzamento a registro e immediato ma senza traslazioni);
@@ -9,8 +18,8 @@ cose che possono fare le microarchitetture analizzate
 Divisione del progetto
 
 - percorsi dati. inteso come la rete logica che calcola e modifica lo stato architetturale
-- unita di controllo ovvero un rete logica che genera i segnali corretti dei WE e di SELEZIONE dei [[Multiplexer e Decoder#Multiplexer| multyplexer]]
+- unita di controllo ovvero un rete logica che genera i segnali corretti dei WE e di SELEZIONE dei [[Multiplexer e Decoder#Multiplexer| multiplexer]]
 
-una microarchettura sono spesso una commbinazioni di reti logiche e sequenziali quindi puo essere definita con un unica macchiana stati finiti o piu [[Macchine a stati finiti]] che interagiscono tra di loro
+una microarchitettura sono spesso una combinazioni di reti logiche e sequenziali quindi può essere definita con un unica macchina stati finiti o più [[Macchine a stati finiti]] che interagiscono tra di loro
 
 

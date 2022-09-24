@@ -44,4 +44,4 @@ utilizare il complemente a due per esprimere i numeri ralaviti consiste nel util
 - sommando un numero negativo e uno positivo non si va mai in **overflow**
 - per rapresentare un numero con un numero $m$ di bit partendo da un numero gia rapresentato con $n$  bit bisogna estendere il segno mettendo i $m-n$  bit nuovi al valore del segno precedente questo si chiama estensione del sengo
 
-![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Z-Media/Untitled 6.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 6.png]]

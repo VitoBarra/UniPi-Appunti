@@ -1,6 +1,17 @@
-# Flash Storage
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-i dispositivi flash o detti a stato solido sono dispositivi per l immagazzinamento di grandi dati non hanno parti mobili  il che li rende meno vulnerabili permetto un random acces migliore
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# SolidState Driver (SSD)
+---
+
+
+i dispositivi flash o detti a stato solido sono [[Storage device|dispositivi per l immagazzinamento di grandi dati]] non hanno parti mobili  il che li rende meno vulnerabili permetto un random access migliore
 
 ![[Untitled 48.png]]
 

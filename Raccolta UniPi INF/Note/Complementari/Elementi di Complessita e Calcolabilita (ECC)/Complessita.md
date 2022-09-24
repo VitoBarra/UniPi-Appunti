@@ -1,6 +1,15 @@
-# Complessita
+---
+type: nota
+course: Elementi di calcolabilita e complessita
+topic: 
+tags: ECC
+---
+
+Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Complessita
+---
+
 
 Cosa posso calcolare CON limiti su risorse (ese tempo e spazio, numero di scambi di messaggi)
 

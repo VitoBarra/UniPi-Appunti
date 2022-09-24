@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-introduciamo alcune definizioni generali. sia $V$ munito di un prodotto scalare. due vettori $v,w \in V$ sono ortogonali se
+introduciamo alcune definizioni generali. sia $V$ munito di un [[prodotto scalare]]. due vettori $v,w \in V$ sono ortogonali se
 
 $$
 \langle v,w \rangle = 0
@@ -44,19 +44,4 @@ il vettore $\begin{pmatrix}-b\\a\end{pmatrix}$ forma effettivamente un angolo re
 
 
 
-## Vettori isotropi
-
-i vettori isotropi sono vettori ortogonali a se stessi ovvero
-
-$$
-\langle v,v \rangle = 0
-$$
-
-sono inclusi nella definizione i vettori nulli
-
-### Esistenza:
-
-se il prodotto scalare è degenere esiste almeno uno vettore isotropo siccome esiste un $v \in V$ tale che $\langle v,w \rangle = 0\ \forall w \in V$  e quindi anche con se stesso
-
-
-
+[[Vettori isotropi]]

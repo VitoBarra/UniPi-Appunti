@@ -1,10 +1,21 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Max-Min Fairness
+---
 
-è una politica in cui si scegliere il task prendendo il task che ha meno tempo accumulato sul processore e la permanenza sul processore dura un time slice.
 
-se un processo fa prerilascio volontario prima della fine del tempo allora redistribuisce il tempo avanzato a tutti i processi ancora in esecuzione massimizando cosi il minimo di tempo dato ad i processi.
+è una politica in cui si scegliere il task prendendo quello che ha meno tempo accumulato sul processore e la permanenza sul processore dura un time slice.
 
-## Carateristiche
+se un processo fa prerilascio volontario prima della fine del tempo allora redistribuisce il tempo avanzato a tutti i processi ancora in esecuzione massimizzando cosi il minimo di tempo dato ad i processi.
+
+## Caratteristiche
 
 
 
@@ -26,8 +37,3 @@ se un processo fa prerilascio volontario prima della fine del tempo allora redis
 ### Caso pessimo
 
 - NESSUNO
-
-<aside>
-💡
-
-</aside>

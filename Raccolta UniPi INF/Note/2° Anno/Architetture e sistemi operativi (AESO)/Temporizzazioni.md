@@ -1,19 +1,28 @@
-# Temporizzazioni
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 11.png]]
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Temporizzazioni
+---
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 11 1.png]]
 
 ## Terminologie
 
 - Fronte di salita: il passaggio da BASSO ad ALTO di un segnale
 - Fronte di discesa: il passaggio da ALTO ad  BASSO  di un segnale
 
-in un diagramma temporale viene  viene risportata la risposta transitoria  e gli aventuali ritardi misurati tra il 50% del vari fronti
+in un diagramma temporale viene  viene riesportata la risposta transitoria  e gli eventuali ritardi misurati tra il 50% del vari fronti
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 3.png]]
+![[Untitled 1 3 1.png]]
 
 diagramma temporale di una porta buffer
 
-## Ritardi di Propagazione e di contaminazion
+## Ritardi di Propagazione e di contaminazione
 
 ### Propagazione
 
@@ -33,28 +42,18 @@ diversi per una serie di motivi, tra cui:
 - reti che rallentano quando si surriscaldano e che lavorano più velocemente
 se fredde
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 2 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 2 1 1.png]]
 
-### Percorso critico e percoso minimo
+### Percorso critico e percorso minimo
 
-- il percorso critico (critical path) è un percorso che parte da un ingresso e arriva al uscita passando per il piu alto numero di porte e quindi con il piu alto ritardo
-- Il percorso minimo (short)è un percorso che parte da un ingresso e arriva al uscita con il che passa per il minimo numero di porte e quindi che ha il ritardo piu basso
+- il percorso critico (critica path) è un percorso che parte da un ingresso e arriva al uscita passando per il più alto numero di porte e quindi con il più alto ritardo
+- Il percorso minimo (short)è un percorso che parte da un ingresso e arriva al uscita con il che passa per il minimo numero di porte e quindi che ha il ritardo più basso
 
-    [[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 3 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 3 1 1.png]]
 
 
 il ritardo di propagazione è dato dalle somme dei ritardi sul percorso critico
 
 il ritardo di contaminazione è dato dalle somme dei ritardi sul percorso minimo
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 4 1.png]]
-
-[[Alee]]
-
-[[Percorso critico e percorso corto]]
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 4 1 1.png]]
