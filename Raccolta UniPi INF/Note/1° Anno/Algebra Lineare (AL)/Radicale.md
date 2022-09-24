@@ -31,4 +31,4 @@ il prodotto scalare è non degenere $\iff V^\bot=\{0\}$
 
 ### Esempi:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 23.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 23.png]]

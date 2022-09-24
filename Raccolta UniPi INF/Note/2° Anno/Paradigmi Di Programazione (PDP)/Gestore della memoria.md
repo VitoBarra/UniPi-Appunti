@@ -7,44 +7,44 @@ il gestore della memoria della machina astratta dei linguaggio di programmazione
 - Recupero: Quando il sistema recupera la
 memoria per riutilizzarla
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled.png]]
 
 ---
 
 ## Memoria statica
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 1.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 1.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 2.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 2.png]]
 
 ---
 
 ## Memoria dinamica
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 3.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 3.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 4.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 4.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 5.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 5.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 6.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 6.png]]
 
 ## Esempi
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 7.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 7.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 8.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 8.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 9.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 9.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 10.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 10.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 11.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 11.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 12.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 12.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 13.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 13.png]]
 
-[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Gestore della memoria/Untitled 14.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 14.png]]
 
 [[Garbage Collector]]

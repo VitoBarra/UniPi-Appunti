@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-Sia $V$ uno spazio vettoriale su un campo $\mathbb{K}$. Un sottospazio vettoriale di
+Sia $V$ uno [[Spazii Vettoriali]] su un campo $\mathbb{K}$. Un sottospazio vettoriale di
 $V$ è un sottoinsieme $W ⊂ V$ che soddisfa i seguenti tre assiomi:
 
 - $0 ∈ W$

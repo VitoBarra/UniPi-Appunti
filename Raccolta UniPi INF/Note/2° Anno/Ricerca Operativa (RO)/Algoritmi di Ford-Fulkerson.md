@@ -49,10 +49,10 @@ segue dalla [[Condizione di Ottimalità Max flow - Min cut]]
 
 ### problematiche
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 13.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 13.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 8.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 8.png]]
 
-![[Untitled 3 6.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 3 6.png]]
 
-![[Untitled 4 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 4 4.png]]

@@ -50,10 +50,10 @@ per ogni arco $(u,v)\in A$ se $\pi_v > \pi_u +c_{uv}$ allora
     2.  $\pi_v=\pi_u+c_{uv}$
 5. $U=U\backslash \{u\}$ e torna al passo 1.
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 4.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 2.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 2.png]]
 
 ### Svantaggi
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 2.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 2.png]]

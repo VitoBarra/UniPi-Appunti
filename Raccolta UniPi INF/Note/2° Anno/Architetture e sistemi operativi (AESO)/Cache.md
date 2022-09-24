@@ -1,4 +1,15 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Cache
+---
+
 
 Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con loro riporgono tre problematiche da tenere in conto
 
@@ -8,7 +19,7 @@ Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con lo
 
 ### Concetti cache
 
-[[8CB06F0A-8BA3-4928-B22C-6F3ADA30C1FE.jpeg]]
+![[8CB06F0A-8BA3-4928-B22C-6F3ADA30C1FE.jpeg]]
 
 Una cache è una memoria che mantiene una coppia di valori con il primo si raggiunge il secondo valore della coppia fa in pratica da dizionario.
 
@@ -28,7 +39,7 @@ $$
 
 In scrittura  in una cacche  è più semplice perché essendo bafferizata appare al programma immediata
 
-[[4CEF1162-8B0A-45E3-A0BB-40BA2E10201D.jpeg]]
+![[4CEF1162-8B0A-45E3-A0BB-40BA2E10201D.jpeg]]
 
  il suo funzionamento è:
 
@@ -36,11 +47,4 @@ In scrittura  in una cacche  è più semplice perché essendo bafferizata appare
 - I backgroud quando se vuole eseguire la scrittura il processore controlla se l indirizzo da scrivere è nella memoria se lo è lo aggiorna direttamente altrimenti prima lo fetcha
 - Una volta scritto vanno aggiornati gli altri livelli di cache questo si può fare in due modi
     - Write-Throught: ovvero appena viene aggiornato viene fatto anche negli altri livelli
-    - Write-back: quando il dato viene eliminato prima viene scritto aggiornato negli altri livelli della chache
-
-
-[[Quando conviene usare una chache e quando no]]
-
-[[Memory Cache lookup]]
-
-[[Politiche di rimpiazzamento cache ]]
+    - Write-back: quando il dato viene eliminato prima viene scritto aggiornato negli altri livelli della cache

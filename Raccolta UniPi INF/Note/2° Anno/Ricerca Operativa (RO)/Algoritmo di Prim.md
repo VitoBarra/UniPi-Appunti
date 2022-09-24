@@ -27,7 +27,7 @@ Segue dalla condizione di ottimalità basata sui tagli.
 3. Trova un arco $(u,v)$ di costo minimo tra gli archi de taglio $(S,N \backslash S)$ inserisci $(u,v)$ in  $T$
 4. inserisci in $S$ l’ estremo di $(u,v)$ che non appartiene ad $S$ e torna al passo $2$
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1.png]]
 
 
 #### Osservazione

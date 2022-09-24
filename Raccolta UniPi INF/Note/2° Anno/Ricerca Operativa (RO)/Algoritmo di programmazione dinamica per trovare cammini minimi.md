@@ -11,8 +11,8 @@ Prev: [[Ricerca Operativa (RO)]]
 ---
 
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 4 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 4 1.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 5.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 5.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 6.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 6.png]]

@@ -15,7 +15,7 @@ l insieme delle soluzioni $S$ di un sistema lineare se $S \not= \{0\}$ si può d
 
 Se $S \not= ∅$, allora $S$ è ottenuto prendendo una qualsiasi soluzione  e aggiungendo a questa tutti i vettori di $S_0$.
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 17.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 17.png]]
 
 ### esempio:
 

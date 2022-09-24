@@ -21,4 +21,4 @@ Sia $x$ un flusso ammissibile $x$ è ottimo se e solo se in $G(x)$ non esistono 
 [Un ciclo orientato in G(x) è chiamato ciclo aumentante rispetto a x]
 
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 5.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 5.png]]

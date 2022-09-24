@@ -1,6 +1,15 @@
-# Scheduler
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
 
-lo scheduling la sceltra tra i thread pronti da mandare in esecuzione
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
+# Scheduler
+---
+lo scheduling la sceltra tra i [[Astrazione Thread | Thread]] pronti da mandare in esecuzione
 
 le politica di scelta dette (di scheduling) devono avere queste proprieta:
 
@@ -26,9 +35,3 @@ le varie politiche possono fariare di efficacia a seconda di due parametri
 [[Processore singolo]]
 
 [[Multy-Processore]]
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)

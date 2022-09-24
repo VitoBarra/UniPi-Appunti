@@ -13,13 +13,13 @@ Prev: [[Algebra Lineare (AL)]]
 
 ## Algoritmo di completamento
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 11.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 11.png]]
 
 ## algoritmo di estrazione
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 8.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 8.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2 7.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 7.png]]
 
 ### Preposizioni Interessante
 
@@ -45,4 +45,4 @@ v_n =\begin{pmatrix} a_{1n}\\a_{2n}\\a_{3n}\\\vdots\\a_{nn}
 \end{pmatrix}
 $$
 
-sono una [[base]] $K^n \iff$i numeri $a_{11},\dots,a_{nn} \not= 0$
+sono una [[Base di uno spazio vettoriale|base]] $K^n \iff$i numeri $a_{11},\dots,a_{nn} \not= 0$

@@ -34,7 +34,7 @@ didascalia vincoli
 
 ### Esempio
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 8.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 8.png]]
 
 il modello può essere scritto in modo più compatto utilizzando la matrice di incidenza del grafo.
 

@@ -28,4 +28,4 @@ $$
 
 Gli archi del taglio sono gli archi aventi in $N'$ e l altro in $N''$
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 12.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 12.png]]

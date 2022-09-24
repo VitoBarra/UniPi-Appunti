@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 
-Ricordiamo che $M(m, n, \mathbb{K})$ è lo spazio vettoriale formato dalle matrici $m \times n$ a coefficienti in $\mathbb{K}$. Come nei paragrafi precedenti, possiamo definire dei [Sottospazi](obsidian://open?vault=UniPi-Appunti&file=Raccolta%20UniPi%20INF%2FNote%2F1%C2%B0%20Anno%2FAlgebra%20Lineare%20(AL)%2FSpazi%20Vettoriali%2FSottospazio%20Vettoriale) di $M(m, n, K)$ imponendo opportune restrizioni.
+Ricordiamo che $M(m, n, \mathbb{K})$ è lo spazio vettoriale formato dalle matrici $m \times n$ a coefficienti in $\mathbb{K}$. Come nei paragrafi precedenti, possiamo definire dei [[Sottospazio Vettoriale| sottospazzi vettoriali]] di $M(m, n, K)$ imponendo opportune restrizioni.
 Data una matrice $A$, indichiamo con $A_{ij}$ oppure $a_{ij}$ i suoi coefficienti. Introduciamo delle definizioni che ci accompagneranno in tutto il libro. Una matrice $n \times n$ è detta quadrata.
 
 Una matrice $A$ quadrata $n \times n$ è:
@@ -59,4 +59,5 @@ $$
 
 è al tempo stesso diagonale, triangolare superiore, triangolare inferiore e simmetrica
 
-Osservazione: La matrice nulla 0 è di tutti e 5 i tipi: è diagonale, triangolare superiore, triangolare inferiore, simmetrica e antisimmetrica.
+>[!info] #### Osservazione
+> La matrice nulla 0 è di tutti e 5 i tipi: è diagonale, triangolare superiore, triangolare inferiore, simmetrica e antisimmetrica.

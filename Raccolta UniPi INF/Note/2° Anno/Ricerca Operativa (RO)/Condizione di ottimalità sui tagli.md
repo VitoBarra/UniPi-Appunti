@@ -19,6 +19,6 @@ Sia $T$ un albero di copertura.
 
 $T$ è un albero di copertura di costo minimo se e solo se per ogni carco $(u,v) \in T$ si ha $c_{uv} \leq c_{ij}$ per ogni arco $(i,j)$ del taglio ottenuto eliminando da $T$ l arco $(u,v)$
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 1.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 3.png]]

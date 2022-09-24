@@ -1,3 +1,0 @@
-# Architettura
-
-[[Istruzioni Machina]]

@@ -17,13 +17,13 @@ $$
 V_\lambda = \{v \in V \ | \ T(v) = \lambda v \}
 $$
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 9.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 9.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 6.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 6.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2 5.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 5.png]]
 
 ---
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 3 2.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 3 2.png]]
 

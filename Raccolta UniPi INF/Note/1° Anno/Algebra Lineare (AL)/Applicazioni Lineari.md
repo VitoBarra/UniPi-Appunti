@@ -43,4 +43,5 @@ dove $A$ diventa un $\lambda \in \mathbb{K}$ e l input un vettore o un numero
 - $f(x)= 2x+1$ non sodisfa l’ assioma 1
 - $f(x) = x^2$ non soddisfa l’ assioma 2
 
+>[!info]
 >La composizione di applicazioni lineari resta lineare

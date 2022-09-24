@@ -31,11 +31,11 @@ $$
 
 Un cono può essere convesso oppure non convesso
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 24.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 24.png]]
 
 Cono Convesso
 
-![[Untitled 1 19.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 19.png]]
 
 Cono non convesso
 

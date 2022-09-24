@@ -6,14 +6,14 @@ I thread hanno un overhead di gestione (interazione con OS ) e e un cost in term
 
 questo può essere un problema di fatto si potrebbe arrivare a pagare più overhead del vantaggio che si ottiene usando piu thread.
 
-[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Rati - lab 3 - Media/Untitled.png]]
+[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Untitled.png]]
 
 <aside>
 💡 per evitare questo gli OS di solito limitano il numero di Thread per programma
 
 </aside>
 
-[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Rati - lab 3 - Media/Untitled 1.png]]
+[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Untitled 1.png]]
 
 numero di thread limitato dal livello di capacità di kernel thread
 
@@ -36,7 +36,7 @@ le ThreadPool sono di più tipi e deferisco sulle politiche di gestione
 - Gestione: dei task in arrivo
     - es. li metto in coda, che può essere limitata o illimitata
 
-[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Rati - lab 3 - Media/Untitled 2.png]]
+[[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Untitled 2.png]]
 
 ### Executor
 

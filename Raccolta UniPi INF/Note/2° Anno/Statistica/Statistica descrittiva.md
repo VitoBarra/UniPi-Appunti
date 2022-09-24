@@ -43,23 +43,23 @@ gli istogrammi ovvero grafici a bastoni dove l altezza del bastone rappresenta l
 
 normale
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled.png]]
 
 bimodale
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 1.png]]
 
 right-skewed
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 2.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 2.png]]
 
 left-skewed
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 3.png]]
 
 i diagrammi a torta dove lo spessore della fetta ne indica la frequenza, sono piu adatti a presentare dati qualitativi
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 4.png]]
 
 # Analisi di dati Numerici
 
@@ -163,11 +163,11 @@ Osservazioni: questa funzione
 
 il vettore di dati $(1.2,-0.7,3.4,1.6,2.1)$ quindi riordinando $(-0.7,1.2,1.6,2.1,3.4)$ e si traccia la funzione
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 5.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 5.png]]
 
 nel caso di un vettore con 65 elementi gli scalini sono molto meno “visibili”
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 6.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 6.png]]
 
 ---
 
@@ -193,7 +193,7 @@ alcuni quantili hanno dei nomi particolari:
 
  per rappresentare graficamente si utilizza il **box-plot** sovrapponendo ad una linea tra che va dal minimo al massimo valore un rettangolo che va dal $1°$ quartile al $3°$ quartile con una linea sulla mediana
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 7.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 7.png]]
 
 ## Dati Multipli
 
@@ -259,14 +259,14 @@ $$
 
 la retta di regressione è la retta su cui tanto più il coefficiente di correlazione in valore assoluto $|r(x,y)|$ è vicino a 1 più i dati sono distribuiti sulla retta in più in segno di $r(x,y)$ determina il segno del coefficiente angolare della retta
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 8.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 8.png]]
 
 ### Esempi:
 
 $r(x,y)\approx-0.78, a^* \approx 1.76,b^* \approx-28.7$
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 9.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 9.png]]
 
 $r(x,y)\approx-0.2422, a^* \approx ??,b^* \approx??$
 
-![[Raccolta UniPi INF/Note/2° Anno/Statistica/-STAT Media/Untitled 10.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Statistica/Media/Untitled 10.png]]

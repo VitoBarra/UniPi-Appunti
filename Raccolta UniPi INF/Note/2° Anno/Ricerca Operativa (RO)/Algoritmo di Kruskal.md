@@ -36,7 +36,7 @@ Se $d_p \not= d_q$ (cioè $a_k$ non forma un ciclo con gli archi di $T$ ) allora
 
 
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled.png]]
 
 
 #### osservazioni

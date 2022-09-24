@@ -23,5 +23,6 @@
       "key": "M"
     }
   ],
-  "insert-current-time": []
+  "insert-current-time": [],
+  "insert-current-date": []
 }

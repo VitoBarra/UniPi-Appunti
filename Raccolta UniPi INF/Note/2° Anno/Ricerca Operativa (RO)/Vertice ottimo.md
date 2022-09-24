@@ -35,6 +35,6 @@ $$
 
 Se $\overline {x}$  e $\overline{y}$ sono anche ammissibili rispettivamente per il primale e duale, allora sono anche ottime
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 20.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 20.png]]
 
-![[Untitled 1 15.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 15.png]]

@@ -34,7 +34,7 @@ $$
 
 $$
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 23.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 23.png]]
 
 ---
 
@@ -43,4 +43,4 @@ $$
 L’involucro convesso di un insieme $K \subset \mathbb{R}^n$, denotato con $conv(K)$ , è l’insieme di
 tutte le combinazioni convesse di punti di $K$
 
-![[Untitled 1 18.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 18.png]]

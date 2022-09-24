@@ -11,16 +11,16 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-sia $f$  una aplicazione lineare la matrice associata è una matrice
+sia $f$  una applicazione lineare la matrice associata è una matrice
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2.png]]
 
 Esempi:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 1.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 1.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2 1.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 1.png]]
 
 ### Proprietà:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 3.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 3.png]]

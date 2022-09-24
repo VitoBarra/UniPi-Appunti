@@ -64,4 +64,4 @@ ad ogni iterazione $k$ l algoritmo mantiene
 in generale l etichetta in più rende il vettore $\pi$ una matrice $n \times n$ in pratica $n$ nodi per $n$  etichette
 
 >[!example]-  Esempio
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 3 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 3 1.png]]

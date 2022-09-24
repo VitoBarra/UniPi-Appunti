@@ -2,7 +2,7 @@
 
 Analizando un fenomeno del mondo reale se ne crea il **modello matematico continuo** questo puo ci permette di rovarne le proprieta qualitative(esistenza, unicia, regolarita, ecc.)questo pero non ci permette di soluzione una soluzione concreta al problema di consequenza il modello viene aprossimato prendendo solo alcuni suoi punti quindi creando un **modello matematico  discreto**
 
-[[Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Analisi del errore/Untitled.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Untitled 1.png]]
 
 non tutti i numeri sono rapresentabili con dei valori finiti per esempio $\pi$ o $\sqrt{2}$ ma noi possimo solo calcolare con un aritmetica finita che aprossima la soluzione reale, questo introduce alcuni errori
 
@@ -24,6 +24,4 @@ in generale è defficile stabilire se un algoritmo è stabile o instabile
 
 ---
 
-[[Problemi Mal Condizionati]]
 
-[[Rappresentazione in base di un numero]]

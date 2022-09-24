@@ -4,147 +4,126 @@
     "type": "split",
     "children": [
       {
-        "id": "65fde9c34739f99a",
+        "id": "f0545f6d57529019",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Org File/Daily Organizer.md"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "657a8398619d19d3",
-    "type": "split",
+    "id": "b112c76192a6eee2",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "f135bd93c6da9bbf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7b607b5cee1244e8",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "85e54076ea8bed34",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "33ff4f4d940884ec",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "cbb93e7ad0dc14a4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "aeea757777e836f0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "80b12e4897ef2f12",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "56642af23fe2e917",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 439.5
+    "currentTab": 0
   },
   "right": {
-    "id": "17142a0c339423f9",
-    "type": "split",
+    "id": "298cb6fdd14d4d51",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "c92f68cd3179c51a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6ae1c3bbe9dcf29c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a1e1bc38131065b1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Org File/Daily Organizer.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "5e4b76909af41d17",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Org File/Daily Organizer.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0117270d45398f0b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "3f904b95b39680e1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Org File/Daily Organizer.md"
-              }
-            }
+        "id": "04b4d1ed127be3b1",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "6d41d71568ac0ab7",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "04753bd08f8a02a1",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "44c725aab5ab67ab",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "65fde9c34739f99a",
+  "active": "f0545f6d57529019",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Verilog.md",
-    "Org File/Daily Organizer.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md",
-    "Templete/General temp Note.md",
-    "Templete/Daily Organizer {{data}}.md",
-    "Org File/Month Organizer.md",
-    "Org File/Senza nome.md",
-    "Templete/Coure Finale/STAT Final.md",
-    "Templete/Coure Finale/AESO Final.md"
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Mappe Di Karnaugh.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/File System.md",
+    "Storage device.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/SolidState Driver (SSD).md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Condition Variable.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/HardDisk Driver(HDD).md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled.png",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1.png",
+    "9250F81A-BCE2-410A-9A63-73FB74C25CB5.jpeg"
   ]
 }

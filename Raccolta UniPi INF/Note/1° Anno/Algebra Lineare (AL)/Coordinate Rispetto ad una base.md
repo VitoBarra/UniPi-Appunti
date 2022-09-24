@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Algoritmo
-per trovare le coordinate rispetto ad una base si utilizza un vettore generico di codiante e utilizziamo i parametri come coefficienti per la base scelta risolvendo il sistema troveremo la relazione che lega le coordinate alla base
+per trovare le coordinate rispetto ad una [[Base di uno spazio vettoriale]] si utilizza un vettore generico di codiante e utilizziamo i parametri come coefficienti per la base scelta risolvendo il [[Soluzioni di un sistema lineare|sistema Lineare]] troveremo la relazione che lega le coordinate alla base
 
 ### Esempi
 

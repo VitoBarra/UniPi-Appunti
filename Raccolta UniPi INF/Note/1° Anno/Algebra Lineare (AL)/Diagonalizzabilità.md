@@ -45,10 +45,10 @@ Un endomorfismo $T : V \rightarrow V$ è diagonalizzabile se e solo se valgono e
 - $p_T (\lambda)$ ha $n$ radici in $\mathbb{K}$, contate con molteplicità. quindi vi sono $\lambda_1,\dots, \lambda_k$ distinti
 - $m_a(\lambda) = m_g(\lambda)$ per ogni autovalore $\lambda$ di $T$
 
-### esempio:
+### Esempio:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 8.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 8.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 5.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 5.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2 4.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 4.png]]

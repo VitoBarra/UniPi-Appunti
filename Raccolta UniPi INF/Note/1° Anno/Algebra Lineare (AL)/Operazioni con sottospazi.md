@@ -7,12 +7,12 @@ tags: AL
 
 Prev: [[Algebra Lineare (AL)]]
 
-# Operazioni con sottospazi
+# Operazioni con sottospazii
 ---
 
-i sottospazi sono insiemi e a questi insiemi possono essere applicate le normali operazioni insiemistiche
+i [[Sottospazio Vettoriale|sottospazii vettoriali]] sono insiemi e a questi insiemi possono essere applicate le normali operazioni insiemistiche
 
-quindi le operazioni su due sottospazi $U,W \subset V$
+quindi le operazioni su due [[Sottospazio Vettoriale]] $U,W \subset V$
 
 - unione $\cup$  : dove $U \cup V \not\subset V$ quasi sempre
 - intersezione $\cap$ : dove $U \cap V \subset V$ sempre
@@ -30,4 +30,4 @@ $$
 
 ## Calcolo del intersezione:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 14.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 14.png]]

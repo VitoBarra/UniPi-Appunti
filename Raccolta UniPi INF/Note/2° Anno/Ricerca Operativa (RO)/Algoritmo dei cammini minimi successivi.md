@@ -10,7 +10,7 @@ Prev: [[Ricerca Operativa (RO)]]
 # Algoritmo dei cammini minimi successivi
 ---
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 9.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 9.png]]
 
 ### *Teorema*
 
@@ -36,6 +36,6 @@ se $\pi_t = \infty$ allora stop (non esistono flussi ammissibili)
 Calcola $\delta = \min\{e_x(s),-e_x(t),\min\{r_{ij}:(i,j)\in P\}\}$ (max quantità da spedire lungo $P$)
 6. aggiorna $x$ spedendo $\delta$ unita di flusso lungo il cammino $P$ e torna al passo 2.
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 4.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 4.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 4.png]]

@@ -13,13 +13,13 @@ Prev: [[Algebra Lineare (AL)]]
 ### Definizione
 Il prodotto scalare è un operazione definita su due vettori è restituiscono un numero in un campo $\mathbb{K}$ che di solito è il campo $\mathbb{R}$
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 22.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 22.png]]
 
 ### Classificazione  prodotti scalari:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 14.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 14.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 2 11.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 11.png]]
 
 
 ## Esempi di Prodotto scalare:
@@ -75,7 +75,7 @@ $$
 
 ### Prodotto scalare su matrice
 
-si parla di prodotto scalare su matrice $S$ se questa é [[simmetrica]] (cosa necessaria per soddisfare l assiamo 5) ed è definita come
+si parla di prodotto scalare su matrice $S$ se questa é [[Tipi di matrice quadrata|simmetrica]] (cosa necessaria per soddisfare l assiama 5) ed è definita come
 
 $$
 g_S(x,y) = {}^tx \cdot S \cdot y

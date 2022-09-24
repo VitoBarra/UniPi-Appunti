@@ -1,7 +1,7 @@
 # Ingresso uscite Processore
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Ingresso uscite Processore/Untitled.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 24.png]]
 
-[[termine oprazione]]
+[[Gestione della dine di oprazione IO]]
 
 [[Data Transfers]]

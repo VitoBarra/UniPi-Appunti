@@ -30,9 +30,9 @@ $$
 
   che corrispondono al primo livello del [[Albero di decisione]]:
 
-![[Untitled 27.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 27.png]]
 
-![[Untitled 1 21.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 21.png]]
 
 - L’enumerazione esplicita è molto costato dal pinta di vista computazionale
 - Possiamo pero esaminare e scartare le soluzioni a gruppi anziché singolarmente facendo cosi un enumerazione implicita
@@ -127,4 +127,4 @@ passo 2.
     - se $V_S(Pi)  >V_I(P_i)$ e la soluzione ottima del risultato di $P_i$ è ammissibile, poni $V_i(P) = V_S(P_i)$ e torna al passo 2.
 6. (Branch) Partiziona la regione ammissibile di $P_i$ in sotto-regioni e genera nuovi nodi da visitare. Torna al passo 2.
 
-![[Untitled 6 1.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 6 1.png]]

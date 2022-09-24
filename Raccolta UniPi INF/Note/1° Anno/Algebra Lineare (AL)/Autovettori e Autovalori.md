@@ -24,9 +24,9 @@ $$
 - Gli autovettori $v$ con autovalore $\lambda =1$ sono i vettori $v \not =0$  che sono [[Punti Fissi]]
 
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 7.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 7.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 4.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 4.png]]
 
 ### Esistenza di autovettori:
 

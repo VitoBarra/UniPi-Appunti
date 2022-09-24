@@ -30,7 +30,7 @@ dove:
 
 ### casi semplici:
 
-se la matrice $A \in M(n)$ è [triangolare (superiore o inferiore) o diagonale](obsidian://open?vault=UniPi-Appunti&file=Raccolta%20UniPi%20INF%2FNote%2F1%C2%B0%20Anno%2FAlgebra%20Lineare%20(AL)%2FTipi%20di%20matrice%20quadrata)
+se la matrice $A \in M(n)$ è [[Tipi di matrice quadrata|triangolare (superiore o inferiore) o diagonale]]
 
 $$
 A=
@@ -79,7 +79,7 @@ $$
 
 
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 18.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 18.png]]
 
 esempi:
 
@@ -111,7 +111,7 @@ $$
 
 ## Mosse di Gauss
 
-Sia una matrice $A \in M(n)$  applicando le mosse di Gauss il determinante cambia nei seguenti modi
+Sia una matrice $A \in M(n)$  applicando le [[Mosse di Gauss]] il determinante cambia nei seguenti modi
 
 - Se $A'$ è ottenuta da $A$ scambiando due righe, $det(A') = − det(A)$
 - Se $A'$ è ottenuta da $A$ moltiplicando una riga di $A$ per uno scalare $\lambda$, allora                $det(A') = \lambda det(A)$
@@ -138,5 +138,5 @@ Corrolario: siccome $det(A) =det({}^t\!A)$ questo vale anche per le righe
 
 Esempi:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 1 11.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 11.png]]
 

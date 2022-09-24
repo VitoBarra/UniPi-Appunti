@@ -33,15 +33,15 @@ $$
 
 alcuni sui insiemi di livello sono:
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 21.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 21.png]]
 
 insieme di livello L(0)
 
-![[Untitled 1 16.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 16.png]]
 
 insieme di livello L(30)
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 10.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 10.png]]
 
 insieme di livello L(42)
 

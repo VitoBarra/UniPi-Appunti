@@ -43,7 +43,3 @@ $$
 - $A\in M(n) \implies {}^t\!A\in M(n)$[[]]
 - $A \in S(n) \iff {}^t\!A=A$[[]]
 - $A \in A(n) \iff {}^t\!A=-A$[[]]
-
----
-
-[[Matrice inversa]]

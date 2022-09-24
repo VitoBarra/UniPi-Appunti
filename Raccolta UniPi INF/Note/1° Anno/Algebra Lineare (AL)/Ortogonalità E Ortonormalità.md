@@ -23,7 +23,7 @@ $$
 ax + by =0
 $$
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 19.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 19.png]]
 
 Risolvendo il sistema, ne deduciamo che i vettori ortogonali ad $\begin{pmatrix}a\\b\end{pmatrix}$
  sono precisamente i vettori che stanno nella retta

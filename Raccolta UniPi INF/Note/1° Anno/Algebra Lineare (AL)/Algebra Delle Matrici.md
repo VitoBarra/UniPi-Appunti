@@ -44,7 +44,7 @@ $$
 $$
 
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 13.png]]
+[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 13.png]]
 
 ### proprietà algebriche matrici:
 

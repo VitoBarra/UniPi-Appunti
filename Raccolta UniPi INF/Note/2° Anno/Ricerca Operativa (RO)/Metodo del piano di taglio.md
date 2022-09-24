@@ -77,8 +77,8 @@ $$
 
 è un piano di taglio detto di Gomory per il problema. dove $\{ \cdot \}$ è la parte frazionaria
 
-![[Untitled 26.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 26.png]]
 
-![[Untitled 1 20.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 20.png]]
 
 ![[Untitled 2 13.png]]

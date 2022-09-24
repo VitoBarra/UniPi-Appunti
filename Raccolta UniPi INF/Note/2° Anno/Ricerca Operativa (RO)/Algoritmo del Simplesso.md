@@ -51,7 +51,7 @@ in cui $rank(A) =n$ e quindi esistono vertici (soluzioni di base ammissibili ) d
 
 l algoritmo del simplesso primale parte da un vertice del [[Poliedro]] primale
 
-se il vertice del poliedro duale corrisponde alla stessa [[Basi|base]] è ammissibile, allora il vertice primale è ottimo e l algoritmo si ferma.
+se il vertice del poliedro duale corrisponde alla stessa [[Basi e vertici|base]] è ammissibile, allora il vertice primale è ottimo e l algoritmo si ferma.
 
 altrimenti l algoritmo trova una direzione di spostamento che è una [[Direzioni di crescita e di decrescita|direzione di crescita]] per il primale
 
@@ -61,9 +61,9 @@ altrimenti l algoritmo trova il passo di spostamento lungo la direzione trovata 
 
 ### Trovare soluzione di base ammissibile
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 14.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 14.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 9.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 9.png]]
 
 ---
 

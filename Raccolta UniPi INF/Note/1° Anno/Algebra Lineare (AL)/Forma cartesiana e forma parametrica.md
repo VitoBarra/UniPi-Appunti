@@ -2,7 +2,7 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags: AL Imm2Text 
 ---
 
 Prev: [[Algebra Lineare (AL)]]
@@ -11,4 +11,4 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 25.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 25.png]]

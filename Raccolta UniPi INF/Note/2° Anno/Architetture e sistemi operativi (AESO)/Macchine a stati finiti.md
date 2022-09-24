@@ -10,14 +10,14 @@ possono essere di due tipo
 
 macchine alla Moore, le uscite dipendono esclusivamente dallo stato presente della macchina
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Macchine a stati finiti/Untitled.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 21.png]]
 
 ### Machina di  Mealy
 
 macchine alla Mealy le uscite dipendono sia dallo stato presente della macchina sia
 dagli ingressi attuali.
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Macchine a stati finiti/Untitled 1.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 1 8.png]]
 
 ## Codifica
 

@@ -30,7 +30,7 @@ un poliedro $P$  è detto limitato se esiste $M > 0$ tale che $||x|| \leq M \ \ 
 - $P_1 =\{x \in \mathbb{R}^2 \ | 1 \leq x_1 \leq 4,1 \leq x_2\leq3 \ \}$ è un poliedro limitato
 - $P_2 =\{x \in \mathbb{R}^2 \ | x_1 \geq 1,x_2 \geq 1, x_1+x_2\geq 3 \ \}$ è in poliedro illimitato
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 22.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 22.png]]
 
 ---
 
@@ -50,9 +50,9 @@ in un poliedro $P =\{x \in \mathbb{R} \ | \ Ax \leq b\}$, dove $A$ è una atrice
 
 </aside>
 
-![[Untitled 1 17.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 17.png]]
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 11.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 11.png]]
 
 ---
 

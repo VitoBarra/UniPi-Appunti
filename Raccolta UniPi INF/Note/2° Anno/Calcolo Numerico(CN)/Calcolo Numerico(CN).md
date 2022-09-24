@@ -8,6 +8,8 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Analisi del errore]]
+	1. [[Problemi Mal Condizionati]]
+	2. [[Rappresentazione in base di un numero]]
 
 
 

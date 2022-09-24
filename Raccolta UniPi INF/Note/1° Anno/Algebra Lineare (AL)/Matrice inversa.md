@@ -17,9 +17,18 @@ $$
 AA^{-1}=A^{-1}A=I_n
 $$
 
-Osservazione: non tutte le matrice sono invertibili
+> [!warning ] #### Osservazione
+non tutte le matrice sono invertibili
+>una matrice è invertibile se una di queste cose _equivalenti_  è vera:
+>- $Det(A) \not= 0$
+>- Tutti gli [[Autovettori e Autovalori| autovalori]] sono diversi da $0$
+>- i nucleo [[Nucleo]] deve essere composto solo dallo $0$
+>-  il  [[Rango]] pieno avvero $rank(A) = Dim(A)$  [[Dimensione di uno spazio vettoriale| ^]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/-AL Media/Untitled 12.png]]
+
+Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero, se è questo il caso allora è _non invertibile_, eventualmente se non si vede subiti si puo controllare dopo avver ridotto a scalino con il metodo [[Mosse di Gauss|gauss-giornad]]
+
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 12.png]]
 
 Osservazione: se $A$ invertibile $\implies det(A) \not= 0$
 

@@ -11,13 +11,13 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-si $f: V\rightarrow W$ una applicazione lineare Il nucleo di $f$ è un sotto insieme di di $V$
+si $f: V\rightarrow W$ una [[Applicazioni Lineari|aplicazione lineare]] Il nucleo di $f$ è un sotto insieme di di $V$
 
 $$
 ket (f) =\{ v \in V\  |\  f(v)=0\}
 $$
 
-il nucleo é sottospazio vettoriale di $V$
+il nucleo é [[Sottospazio Vettoriale]] di $V$
 
 ---
 
@@ -30,4 +30,4 @@ $$
 ### Esempi:
 
 - Nel caso di un applicazione $L_A:\mathbb{K}^n \rightarrow \mathbb{K}^m$ quindi qualcosa del tipo $Ax$ la funzione è ingetiva solo se le soluzioni del sistema omogeneo associato $S=\{0\}$
-- $V = U\oplus W$ nel caso di una [[proiezione]] il $ker(p_U)$ é $W$
+- $V = U\oplus W$ nel caso di una [[Applicazione Lineari notevoli#Proiezione|proiezione]] il $ker(p_U)$ é $W$

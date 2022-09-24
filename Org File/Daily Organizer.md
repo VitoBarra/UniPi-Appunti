@@ -18,14 +18,14 @@ tags: org
 - [ ] Sistemare appunti Basi di dati
 - [ ] RipagareDeb GiGi e yuri<br>- [x] Prendere soldi<br>- [x] yuriy|<br>- [ ] gigi
 - [ ] Sistemare Appunti ECC
-- [ ] Zaiono per scendere
+- [ ] Sistemare Appunti reti
 
 
 ## WIP
 
 - [ ] Assignment 2 Reti<br>- [ ] Comleta<br>- [ ] consegna
-- [ ] Sistemare Appunti reti
 - [ ] Prendere Cavo Giu
+- [ ] Fix notion import AESO
 
 
 ## Done
@@ -35,6 +35,7 @@ tags: org
 ## Archivio
 
 - [ ] Serie da scaricare<br>- [x] jojo 6<br>- [x] Black Lagoon
+- [ ] Zaiono per scendere
 - [ ] Assignment 1 Reti<br>- [x] Comleta<br>- [x] consegna
 - [ ] Aiutare Claudio
 - [ ] Stampare Reso

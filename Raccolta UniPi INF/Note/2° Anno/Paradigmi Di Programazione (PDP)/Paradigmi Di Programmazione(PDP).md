@@ -9,9 +9,20 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Interpreti]]
-2. [[Dati]]
-3. [[Gestore della memoria ]]
-4. [[Domande esame orale]]
+	1. [[Prerequisiti interpreti]]
+		1. [[Abstract Syntax Tree]]
+		2. [[Record D'attivazione]]
+	2. [[MiniOcamel]]
+3. [[Dati]]
+4. [[Gestore della memoria]]
+	1. [[Garbage Collector]]
+		1. [[Reference Counting]]
+		2. [[Tracing]]
+			1. [[Mark-sweep]]
+			2. [[Copyng collection]]
+		3. [[Generational]]
+5. [[Domande esame orale]]
+6. 
 
 ### Educational Material 🧱
 1. 

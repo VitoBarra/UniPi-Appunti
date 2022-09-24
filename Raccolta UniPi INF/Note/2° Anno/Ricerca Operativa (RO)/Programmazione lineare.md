@@ -12,7 +12,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 un modello matematico di un problema può essere espresso oltre che con una serie di equazioni* con una forma matriciale ad esempio il problema
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 14.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 14.png]]
 
 ### Rappresentato dal modello
 

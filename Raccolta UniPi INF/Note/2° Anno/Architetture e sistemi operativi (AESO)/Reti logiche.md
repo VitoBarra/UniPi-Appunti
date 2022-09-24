@@ -1,4 +1,14 @@
+---
+type: nota
+course: Architettura E Sistemi Operativi
+topic: 
+tags: AESO
+---
+
+Prev: [[Architetture e sistemi operativi (AESO)]]
+
 # Reti logiche
+---
 
 Nel campo dell’elettronica digitale, un **circuito** è una rete elettrica che elabora
 variabili a valori discreti. Una rete può essere vista come una scatola nera e ha:
@@ -16,7 +26,7 @@ la rete ha due sotto parti
     - le uscite emettono valori all’esterno
     - nodi interni sono contatti che non sono né ingressi né uscite
 
-[[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Reti logiche/Untitled.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Untitled 10.png]]
 
 ---
 
@@ -59,18 +69,4 @@ interconnessi in modo tale che:
 
 nel pratico non si usano perche troppo complesse da usare, l importante ricordarsi che le reti sequenziali asincrone sono una forma piu generale di quelle sincrone, cosi come quelle digiatli sono una forma piu generale delle reti analogiche
 
-[[Espressioni Booleane]]
 
-[[Rapresentazione di una rete]]
-
-[[Logica a piu livelli]]
-
-[[Mappe Di Karnaugh]]
-
-[[Temporizzazioni]]
-
----
-
-Status : #NotSet
-
-Tag: [Aeso](../Architetture%20e%20sistemi%20operativi%20(AESO)%201e0e264228a748feabc5de07d5a770db.md)

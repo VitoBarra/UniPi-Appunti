@@ -30,7 +30,7 @@ $$
 Im(L_A) =  Span(A^1,\dots,A^n)
 $$
 
-la [[Dimensione]] di $lm(L_A)$ è quindi
+la [[Dimensione di uno spazio vettoriale]] di $lm(L_A)$ è quindi
 
 $$
 Dim(Im(L_A)=rk(A)

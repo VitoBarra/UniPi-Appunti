@@ -14,7 +14,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 Sia $(N,A)$ un grafo orientato in cui è definita una capacita superiore $u_{ij}$ per ogni arco $(i,j) \in A$. Dati un nodo origine $s\in N$ ed un nodo destinazione $t \in N$, vogliamo spedicare la massima quantità possibile si flusso da $s$  a $t$ in modo da rispettare le capacita superiori degli archi.
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 17.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 17.png]]
 
 ### Variabili:
 
@@ -49,7 +49,7 @@ $u(N_s,N_t) = \sum\limits_{(i,j)\in A^+} u_{ij}$                            capa
 
 $x(N_s,N_t) = \sum\limits_{(i,j)\in A^+} x_{ij} -\sum\limits_{(i,j)\in A^-} x_{ij}$    flusso sul taglio
 
-[[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 1 10.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 10.png]]
 
 ### Lemma
 
@@ -58,7 +58,7 @@ Se $x$ è un flusso ammissibile e $(N_s,N_t)$ è un taglio ammissibile, allora
 1. $v=x(N_s,N_t)$ (valore del flusso = flusso sul taglio)
 2. $x(N_s,N_t) \leq u(N_s,N_t)$ (flusso sul taglio $\leq$ capacita del taglio)
 
-![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/-RO Media/Untitled 2 7.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 7.png]]
 
 
 
@@ -84,13 +84,13 @@ Dato un flusso ammissibile $x$, un cammino aumentante rispetto ad $x$ è un camm
 
 
 
-![[Untitled 3 5.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 3 5.png]]
 
-![[Untitled 4 3.png]]
+![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 4 3.png]]
 
 1-2-5-6 e un cammino aumentante (e un cammino orientato nel grafo iniziale)
 
-[[Untitled 5 2.png]]
+[[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 5 2.png]]
 
 1-2-4-5-6 e un cammino aumentate (ma non e un cammino orientato nel grafo
 iniziale)
