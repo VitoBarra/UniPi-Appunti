@@ -12,7 +12,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 ### Prodotto riga per colonna
 
- Se $A$ è una matrice $m\times n$ e $B$ è una matrice $n \times p$  il prodotto $AB$ è una nuova matrice $m \times p$ definita nel modo seguente: l’elemento $(AB)_{ij}$ della nuova matrice $AB$ è
+ Se $A$ è una [[matrice]] $m\times n$ e $B$ è una matrice $n \times p$  il prodotto $AB$ è una nuova matrice $m \times p$ definita nel modo seguente: l’elemento $(AB)_{ij}$ della nuova matrice $AB$ è
 
 $$
 (AB)_{ij}
@@ -44,7 +44,7 @@ $$
 $$
 
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 13.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 13.png]]
 
 ### proprietà algebriche matrici:
 

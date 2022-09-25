@@ -49,6 +49,6 @@ In scrittura  in una cache  è più semplice perché essendo bafferizata appare 
     - Write-Throught: ovvero appena viene aggiornato viene fatto anche negli altri livelli
     - Write-back: quando il dato viene eliminato prima viene scritto aggiornato negli altri livelli della cache
 
-[[Memory Cache lookup]]
+prestazione per l interrogazione della cache dipendono dalla sua implementazione: [[Memory Cache lookup]]
 
 

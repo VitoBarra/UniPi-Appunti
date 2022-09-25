@@ -10,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 # Traslatori e rotatori
 ---
 
-I traslatori (shifter) e i rotatori (rotator) son [[conponenti]]  traslano i bit ed eseguono la moltiplicazione o la divisione per potenze di 2
+I traslatori (shifter) e i rotatori (rotator) son [[Componenti]]  traslano i bit ed eseguono la moltiplicazione o la divisione per potenze di 2
 
 ## Traslatori
 

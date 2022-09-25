@@ -12,7 +12,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 ### Definizione
 
-La traccia  di una matrice $A$ indicata con $Tr(A)$ è la somma dei valori sulla diagonale principale infatti data
+La traccia  di una [[matrice]] $A$ indicata con $Tr(A)$ è la somma dei valori sulla diagonale principale infatti data
 
 $$
 A=

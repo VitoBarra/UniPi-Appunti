@@ -9,16 +9,17 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Dual-Mode Operation
 ---
-Il sistema operativo esegue  i processi  in due modalità:
+Il sistema operativo esegue i processi  in due modalità:
 
 - kernel-mode:  che ha accesso completo al hardware
 - user-mode: che privilegi limitati
 
 ![[Astrazione_Kernel_4.png]]
+> [!info]
+> le due modalità sono utili sono se esistono metodi sicuri per passare da un modalità al altra: [[Tipi di cambio di modalità]]
 
 >[!info] **Divisione sistema operativo**
 non tutto il sistema operativo gira in kernel mode alcune parti come la gestione delle finestre girano come librerie sui i programmi che le utilizzano, queste sono in user-mode è permette di fare una netta divisione tra ciò che ha bisogno di permessi privilegiati (kernel) e ciò che non ne ha bisogno. questo aumenta l affidabilità del sistema siccome un errore nel codice che gira in user-mode non può provocare errori inaspettati in altri programmi non correlati
-
 
 Per realizzare la doppia modalità l hardware deve supportare almeno di queste tre componenti:
 
@@ -27,8 +28,6 @@ Per realizzare la doppia modalità l hardware deve supportare almeno di queste t
  tutte le operazioni potenzialmente “unsafe”  sono proibite in user-mode
 
 ## Protezione Memoria
-
-
 
 tutte le operazioni al di furi della regione di memoria del processo valide sono proibite in user-mode questo viene realizzato mediante l utilizzo di [[Memoria Virtuale]]
 

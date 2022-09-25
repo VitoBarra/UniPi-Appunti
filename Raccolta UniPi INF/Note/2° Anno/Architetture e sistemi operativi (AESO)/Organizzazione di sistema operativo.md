@@ -16,7 +16,7 @@ system, and there is often quite frequent interaction between these modules:
 
 - Many parts of the operating system depend on synchronization primitives for
 coordinating access to shared data structures with the kernel.
-- The virtual memory system depends on low-level hardware support for address
+- The [[Memoria Virtuale]] system depends on low-level hardware support for address
 translation, support that is specific to a particular processor architecture.
 - Both the file system and the virtual memory system share a common pool of blocks of
 physical memory. They also both depend on the disk device driver.
@@ -43,7 +43,7 @@ il layer d astrazione hardware è un interfaccia che permette al sistema operati
 
 ### Driver per dispositivi dinamicamente installabili
 
-sono software che gestiscono uno specifico dispositivo interfaccia o chipset aggiunto mentre il kernel sta gia girando. Solitamente questi driver sono prodotti da chi produce l hardwere e implementano un interfaccia standard supportata dal kernel. ogni volta che il chernel ha bisogno di comunicare con il dispositivo chiama quel interfaccia.
+sono software che gestiscono uno specifico dispositivo interfaccia o chipset aggiunto mentre il kernel sta già girando. Solitamente questi driver sono prodotti da chi produce l hardware e implementano un interfaccia standard supportata dal kernel. ogni volta che il [[Astrazione Kernel|kernel]] ha bisogno di comunicare con il dispositivo chiama quel interfaccia.
 
 i driver possono essere eseguiti in kernel mode ma questo porta problemi di sicurezza e affidabilità.
 

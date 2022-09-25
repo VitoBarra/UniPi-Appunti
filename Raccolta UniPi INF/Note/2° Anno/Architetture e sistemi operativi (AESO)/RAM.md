@@ -36,7 +36,7 @@ il tradeoff di questa spesa extra è una velocita superiore.
 Inoltre una DRAM ha un throughput (quantità di bit scambiabili per unità di tempo) nettamente inferiore a quella di una SRAM, perché
 deve rinfrescare periodicamente i dati, oltre che dopo ogni lettura. Sono state
 sviluppate varie tecnologie DRAM, come le DRAM sincrone (SDRAM, Synchronous DRAM) e le SDRAM a doppia velocità (DDR SDRAM, Double
-Data Rate SDRAM) proprio per sopperire a questo problemaLe DDR
+Data Rate SDRAM) proprio per sopperire a questo problema le DDR
 SDRAM, dette anche semplicemente DDR, utilizzano sia i fronti di salita sia
 quelli di discesa del clock per accedere ai dati e in questo modo duplicano il
 throughput a pari frequenza di clock

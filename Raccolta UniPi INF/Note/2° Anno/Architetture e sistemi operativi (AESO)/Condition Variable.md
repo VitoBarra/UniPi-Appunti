@@ -9,9 +9,9 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Condition Variable
 ---
-Strumenti per la sincronizzazione dei thread, è fatta in modo per aspettare che una condizione sia valida e rilasciare il lock che ha il thread che aspetta. questo severve per fare una separazione dei doveri tra attesa e condizione dove il lock provede a fare l attesa e la codition variable gestisce dei controlli su condizioni.
+Strumenti per la sincronizzazione dei [[Astrazione Thread|thread]] su [[Sincronizazine di oggetti convidivisi|oggetti condivisi]] , è fatta in modo per aspettare che una condizione sia valida e rilasciare il [[lock]] che ha il thread che aspetta. questo severe per fare una separazione dei doveri tra attesa e condizione dove il [[lock]] provvede a fare l attesa e la codition variable gestisce dei controlli su condizioni.
 
-# Semantica Mesa
+## Semantica Mesa
 
 la condition variable con una signal  fa passare un thread da uno stato wait a uno Ready questo quando verrà schedulato tenterà di prendere il lock e perseguirà con la sua esecuzione
 
@@ -26,7 +26,7 @@ while(condizione)
 lock.relese()
 ```
 
-si usa un while per aspettare sulla condizione perche a seconda del interliving dei thread quella condizione potrebbe non essere piu vera quindi bisogna  rimmettersi in attesa. in piu ogni tanto la semantica mesa riattiva un thread senza signal quindi bisogna ricontrollare per assicurarsi che tutto vada a buon fine
+si usa un while per aspettare sulla condizione perché a seconda del interliving dei thread quella condizione potrebbe non essere più vera quindi bisogna  rimettersi in [[Astrazione Thread#Ciclo vitale dei thread|attesa]]. in più ogni tanto la semantica mesa riattiva un thread senza signal quindi bisogna ricontrollare per assicurarsi che tutto vada a buon fine
 
 ### Signal
 
@@ -44,7 +44,7 @@ Brodcast(CV);
 
 risveglia tutti i thread che aspettano su quella condizione
 
-# Semantica Hoare
+## Semantica Hoare
 
 sveglia un thread ma viene svegliato passandogli il lock quindi facendo
 

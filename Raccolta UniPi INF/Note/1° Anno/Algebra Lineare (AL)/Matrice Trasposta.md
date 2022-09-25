@@ -10,7 +10,7 @@ Prev: [[Algebra Lineare (AL)]]
 # Matrice Trasposta
 ---
 ### Definizione
-la matrice trasposta di una matrice $A$  è indicata come $^tA$  ed è definita scambiando righe e colonne
+la [[matrice]] trasposta di una matrice $A$  è indicata come $^tA$  ed è definita scambiando righe e colonne
 
 $$
 ({}^t\!A)_{ij} =A_{ji}

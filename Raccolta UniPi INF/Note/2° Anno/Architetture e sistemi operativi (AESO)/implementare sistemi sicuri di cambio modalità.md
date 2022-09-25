@@ -14,7 +14,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 Per poter implementare di cambi di modalità sicuri il sistema deve provvedere almeno queste cose
 
 - numeri d accesso al kernel limitati: va limitata la possibilità al utente di saltare in parti arbitrarie del kernel ma deve passare necessariamente per i punti d accesso definite dal kernel stresso cosi che da permettere i dovuti controlli
-- transizione atomiche tra le modalità: la transizione tra le modalità kernel e user ma in generale tra una modalità e l altra deve avvenire in modo atomico, quindi program counter, stack e i sistemi di protezione memoria vengono cambiati in una unica operazione
+- [[Transazioni|transizione atomiche]] tra le modalità: la transizione tra le modalità kernel e user ma in generale tra una modalità e l altra deve avvenire in modo atomico, quindi program counter, stack e i sistemi di protezione memoria vengono cambiati in una unica operazione
 - esecuzione trasparenti e restartable : un programma non deve accorgersi di un interruzione che è stata ricevuta appunto deve essere trasparente. il processo utente che ha subito l interruzione deve essere riprendibili esattamente da dove era stato lasciato. questo si ottiene salvando lo stato al momento del interruzione e ricaricandolo al momento della ripresa.
 
 ## Interrupt Vector Table

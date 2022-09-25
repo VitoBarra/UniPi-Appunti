@@ -29,15 +29,16 @@ Se $d_p \not= d_q$ (cioè $a_k$ non forma un ciclo con gli archi di $T$ ) allora
     2. [aggiorna le etichette] per ogni nodo $i$  con $d_i = \max\{d_p,d_q\}$ poni $d_i = \min\{d_p,d_q\}$
 4. $k=k+1$   e torna a passo 2
 
-<aside>
-💡 le etichette sui nodi individuano le componetti connesse di $T$, cioè due nodi appartengono alla stessa compenente conessa se e solo se hanno la stessa etichetta.
 
-</aside>
+>[!info]
+le etichette sui nodi individuano le componetti connesse di $T$, cioè due nodi appartengono alla stessa compenente conessa se e solo se hanno la stessa etichetta.
+
+
 
 
 
 ![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled.png]]
 
 
-#### osservazioni
->Ad ogni iterazione dell’ algoritmo di Kruskal l’ insieme $T$ non è necessariamente un albero
+>[!info] #### OSSERVAZIONE
+>Ad ogni iterazione dell’ algoritmo di Kruskal l’ insieme $T$ non è necessariamente un [[Albero struttura dati|albero]]

@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-sia $f$  una applicazione lineare la matrice associata è una matrice
+sia $f$  una [[Applicazioni Lineari|applicazione lineare]] la [[matrice]] associata è una matrice
 
 ![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2.png]]
 

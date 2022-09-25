@@ -18,9 +18,9 @@ Invece il sistema operativo avrà bisogno di algoritmi per convertire gli [[Trad
 
 Virtualizzare gli indirizzi risolve i problemi del metodo Base e bound siccome con questo sistema è possibile
 
-- Riallocare in porzioni di memoria fisica più grandi i blocchi di memoria assegnati al programma mantenendo lo stesso indirizzo virtuale ma cambiando quello fisico cosi che possano crescere a seconda delle necessita del processo
+- Riallocare in porzioni di memoria fisica più grandi i blocchi di memoria assegnati al [[Astrazione dei Processi|programma]] mantenendo lo stesso indirizzo virtuale ma cambiando quello fisico cosi che possano crescere a seconda delle necessita del processo
 - Gli indirizzi utilizzato dal processo sono sempre gli stessi
-- Tutte le instanze di un programma daranno sempre lo stresso risultato se se va a stampare l indirizzo di una variabile. Questo a meno di Address Randomization
+- Tutte le istanze di un programma daranno sempre lo stresso risultato se se va a stampare l indirizzo di una variabile. Questo a meno di Address Randomization
 
 >[!info] #### Address Randomization
 >

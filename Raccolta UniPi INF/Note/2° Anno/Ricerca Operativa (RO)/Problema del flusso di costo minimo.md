@@ -15,7 +15,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Variabili decisionali
 
-per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
+su un grafo  $G(N,A)$ per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
 
 $$
 \begin{cases}
@@ -27,7 +27,7 @@ $$
 
 ### Esistenza di soluzione
 
-per determinare se esistono soluzioni ammissibili per il problema del flusso di costo minimo su un grafo $(N,A)$, si può risolvere il problema del flusso massimo sul grafo $(N',A')$, dove
+per determinare se esistono soluzioni ammissibili per il problema del flusso di costo minimo su un grafo $G(N,A)$, si può risolvere il problema del flusso massimo sul grafo $G'(N',A')$, dove
 
 - $N'= N \cup\{s,t\}$
 - $A'=A \cup \{(s,i)\ |\ i\in N \ \ tale \ che \ b_i <0 \} \cup \{(j,t) \ | \ j \in N \ tale \ che\ b_i>0\}$

@@ -17,5 +17,3 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 
 ## Dividere con numero binari 
-
-

@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # DeadLock
 ---
-Un deadlock é  un attesa circolare su di un set di thread
+Un deadlock é  un attesa circolare su di un set di [[Astrazione Thread|thread]]
 
 Può accadere in più occasioni:
 
@@ -34,7 +34,7 @@ Può accadere in più occasioni:
 
 - Nested Waiting:
 
-    Un oggetto condiviso che ha acquisito due lock aspetta su un condition variable ma l oggetto che puo fare [sig](http://sig.na)nal ha bisogno di quel lock
+    Un oggetto condiviso che ha acquisito due [[lock]] aspetta su un [[condition variable]] ma l oggetto che puo fare signal ha bisogno di quel [[lock]]
 
     ```c
     // Thread A
@@ -63,15 +63,15 @@ Un caso classico di deadlock è il problema dei filosofi a cena dove ogni filoso
 
 ![[9CB27C61-5A69-4561-B92F-7715EF75DFAE.jpeg]]
 
-### Deadlock vs Starvation
-
+>[!info] #### _Deadlock_ vs __Starvation__
 Entrambi sono problemi di livness ma la deadlock é una condizione più forte quindi deadlock implica starvation.
+
 
 ## Condizioni necessarie per Deadlock
 
 1. C è un numero finito di thread che possono simultaneamente accedere ad una risorsa
 2. Non c é pre-rilascio
-3. Un thread aspetta mentre ha già una risorsa (lock)
+3. Un thread aspetta mentre ha già una risorsa ([[lock]])
 4. C è un insieme di thread tale che ogni thread aspetti una risorsa mantenuta da un altro thread nel insieme
 
 >[!info]

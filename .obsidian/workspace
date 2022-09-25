@@ -4,53 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b00ceeb7bac32126",
+        "id": "d86a556464efee19",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "80618b87b2c7103c"
-      },
-      {
-        "id": "0344842e02bbc035",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 0.5087618855792587,
-              "close": false
-            }
-          }
-        },
-        "group": "80618b87b2c7103c"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -77,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Architetture e sistemi operativi (AESO)",
+                "query": "Astrazione kernel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri Binari.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b00ceeb7bac32126",
+  "active": "ff2ea4ad09c39a01",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Numeri binari con segno.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Oblivious Scheduling.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Organizzazione di sistema operativo.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Ottimizzazioni della memoria virtuale per efficienza.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Percorso critico e percorso corto.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Physically Addressed Caches.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politica di scheduling First-In-First-Out (FIFO).md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politica di Scheduling Shortest Job First (SJF).md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Politiche di rimpiazzamento cache.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Portabilità della memoria virtuale.md"
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Comparatore.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Programmazione lineare.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Insiemi di Livello.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Cono.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Modelli.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema del flusso di costo minimo.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Kruskal.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Condizione di ottimalità Pseudoflussi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Condizione di ottimalità sui tagli.md"
   ]
 }

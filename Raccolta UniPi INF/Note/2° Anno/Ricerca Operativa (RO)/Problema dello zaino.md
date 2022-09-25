@@ -22,3 +22,4 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 5 1.png]]
 
+il problema dello zaino si può risolvere con un algorismo di [[Programmazione Dinamica]]

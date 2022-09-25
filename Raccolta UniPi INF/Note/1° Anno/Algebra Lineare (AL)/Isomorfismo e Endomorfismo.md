@@ -13,7 +13,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 ## Isomorfismo
 
-un applicazione lineare $f:V \rightarrow W$ è un isomorfismo se questa è bigettiva
+un [[Applicazioni Lineari|applicazione lineare]] $f:V \rightarrow W$ è un isomorfismo se questa è bigettiva
 
 
 >[!info]

@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Comparatore
 ---
-serve per controllare se due valori sono uguali è ed realizzato con una serie di [[Porte Logiche#Porte Negate6b|NXOR]] e un [[Porte Logiche#Porta And|AND]]
+è un [[Componenti|componente]] e serve per controllare se due valori sono uguali è ed realizzato con una serie di [[Porte Logiche#Porte Negate6b|NXOR]] e un [[Porte Logiche#Porta And|AND]]
 
 ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 15.png]]
 

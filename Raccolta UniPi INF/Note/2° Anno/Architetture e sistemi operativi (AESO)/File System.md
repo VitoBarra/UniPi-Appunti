@@ -11,7 +11,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-il file system è un astrazione del sistema operativo su i device di storage fisici che offre dei dati che sono
+il file system è un astrazione del [[Sistemi Operativi|sistema operativo]] su i [[Storage device|device di storage]] fisici che offre dei dati che sono
 
 - **Persistenti**: ovvero vengono mantenuti finche non viene richiesta la cancellazione
 - **Nominati**: ovvero posso essere accessi  e ricercato in un formato Human-readable.
@@ -28,7 +28,7 @@ Il file system comporta da due parti fondamentali
 - file: ovvero un astrazione sul mezzo di storage dei dati questo ha un nome con cui si può fare riferimento ad una collezione di dati di lunghezza arbitraria sul device. Il file in se è composto da due parti
     - Metadati: ovvero informazioni sul file stesso come ultima modifica data di creazione dimensione su disco e così via
     - dati: i dati sono una qualsiasi informazione ci venga scritta fuori infatti sono un lungo array di byte senza tipo. Questo permette di scrivere sia file con formati molto semplici che file moto complessi come database e file con dentro immagine
-- Directory: sono file contenendo system-defined metadati e dati arbitrari.
+- [[Directories dati nominati|Directory]]: sono file contenendo system-defined metadati e dati arbitrari.
     - Una FIle Directory invece è una lista di nomi human-readable che mappano un nome a un file o ad una directory.
 
     Un modello per rappresentarle sono delle cartelle che contengono altre cartelle o documenti. Questo ci permette di organizzare i file in modo gerarchico
