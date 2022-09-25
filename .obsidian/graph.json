@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC",
+  "search": "-tag:#MOC ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -95,6 +95,6 @@
   "repelStrength": 9.00195694716243,
   "linkStrength": 1,
   "linkDistance": 285,
-  "scale": 0.06121730080975404,
+  "scale": 0.12032603570539525,
   "close": false
 }

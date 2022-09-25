@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f303be19bd6a50d6",
+        "id": "c4fe8f06fc0eee0f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 473.5
+    "width": 540
   },
   "right": {
     "id": "148cab7b8456439b",
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md"
+              }
             }
           }
         ]
@@ -136,17 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f303be19bd6a50d6",
+  "active": "c4fe8f06fc0eee0f",
   "lastOpenFiles": [
-    "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Sottrattori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Dipendenze sulla microarchitettura Pipeline.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Comparatore.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Programmazione lineare.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Insiemi di Livello.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Cono.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Modelli.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema del flusso di costo minimo.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md"
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Thread Pool.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Cached ThreadPool.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Fixed ThreadPool.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool Specifiacare il comportamento.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
+    "Raccolta UniPi INF/Temp Note/Basi di dati temp.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool a singolo Thread.md"
   ]
 }

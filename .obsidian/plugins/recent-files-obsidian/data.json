@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "Java Thread",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md"
+    },
+    {
+      "basename": "Thread Pool",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Thread Pool.md"
+    },
+    {
+      "basename": "Cached ThreadPool",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Cached ThreadPool.md"
+    },
+    {
+      "basename": "Fixed ThreadPool",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Fixed ThreadPool.md"
+    },
+    {
+      "basename": "ThreadPool Specifiacare il comportamento",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool Specifiacare il comportamento.md"
+    },
+    {
+      "basename": "Reti - lab 3",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md"
+    },
+    {
+      "basename": "Basi di dati temp",
+      "path": "Raccolta UniPi INF/Temp Note/Basi di dati temp.md"
+    },
+    {
+      "basename": "ECC temp",
+      "path": "Raccolta UniPi INF/Temp Note/ECC temp.md"
+    },
+    {
+      "basename": "Ingegneria del softwere (IDS) temp",
+      "path": "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md"
+    },
+    {
+      "basename": "ThreadPool a singolo Thread",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool a singolo Thread.md"
+    },
+    {
+      "basename": "Stream IO",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Stream IO.md"
+    },
+    {
+      "basename": "Scheduled Thread Pool",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Scheduled Thread Pool.md"
+    },
+    {
+      "basename": "RETI Final",
+      "path": "Templete/Coure Finale/RETI Final.md"
+    },
+    {
+      "basename": "MOC",
+      "path": "Templete/MOC.md"
+    },
+    {
+      "basename": "Code Sincronizzate interfaccia Java blockingQueue",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Code Sincronizzate interfaccia Java blockingQueue.md"
+    },
+    {
+      "basename": "Critto Note temp",
+      "path": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+    },
+    {
+      "basename": "Pasted image 20220925221655",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20220925221655.png"
+    },
+    {
+      "basename": "Reti di calcolatori temp note",
+      "path": "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md"
+    },
+    {
+      "basename": "Implementazione Thread",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Implementazione Thread.md"
+    },
+    {
+      "basename": "Astrazione Thread",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Astrazione Thread.md"
+    },
+    {
+      "basename": "Pasted image 20220925200204",
+      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20220925200204.png"
+    },
+    {
       "basename": "Calcolare l N-esimo numero primo Willans's formula",
       "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
+    },
+    {
+      "basename": "To Read",
+      "path": "Extra Note/To Read.md"
     }
   ],
   "omittedPaths": [],

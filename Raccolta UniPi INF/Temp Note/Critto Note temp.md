@@ -111,4 +111,4 @@ Problemi di decisione
 Problemi di ricerca 
 Problemi di ottimizzazione 
 
- Calcolabilita e complessità studiano i problemi decisionali siccome tutti gli altri tipi possono riformulare come problemi decisionali mantenendo la difficoltà 
+ Calcolabilità e complessità studiano i problemi decisionali siccome tutti gli altri tipi possono riformulare come problemi decisionali mantenendo la difficoltà 
