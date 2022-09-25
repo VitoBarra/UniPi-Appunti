@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 11007
       }
+    },
+    {
+      "query": "tag:#MATH",
+      "color": {
+        "a": 1,
+        "rgb": 12256992
+      }
     }
   ],
   "collapse-display": true,
@@ -84,10 +91,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.0478937068699145,
+  "centerStrength": 0.277142857142857,
   "repelStrength": 9.00195694716243,
   "linkStrength": 1,
   "linkDistance": 285,
-  "scale": 0.03114502939004291,
+  "scale": 0.06121730080975404,
   "close": false
 }

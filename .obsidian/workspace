@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "d86a556464efee19",
+        "id": "f303be19bd6a50d6",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -50,6 +50,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "43705f1c9937b4b1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -128,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ff2ea4ad09c39a01",
+  "active": "f303be19bd6a50d6",
   "lastOpenFiles": [
+    "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Sottrattori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Dipendenze sulla microarchitettura Pipeline.md",
     "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Comparatore.md",
     "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Programmazione lineare.md",
     "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Insiemi di Livello.md",
     "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Cono.md",
     "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Modelli.md",
     "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema del flusso di costo minimo.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Kruskal.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Condizione di ottimalità Pseudoflussi.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Condizione di ottimalità sui tagli.md"
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md"
   ]
 }
