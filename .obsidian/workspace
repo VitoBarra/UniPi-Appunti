@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c4fe8f06fc0eee0f",
+        "id": "d86a556464efee19",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
+            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
             "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
@@ -19,142 +20,127 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "47140a4bd69b1eb2",
-    "type": "split",
+    "id": "6fa3e4713db3d9a3",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "5cee7c5251626435",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ff2ea4ad09c39a01",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "f6598fdda2711bc0",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "Astrazione kernel",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "2d839c15e7ad2a89",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "43705f1c9937b4b1",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
+        "id": "13d20f9ab0b3d2c9",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "4c8989cfac4f603e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "e9540558c27b5a5d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "ad74ed01a2fc04e7",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "c22a2e126808afaf",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 540
+    "currentTab": 0
   },
   "right": {
-    "id": "148cab7b8456439b",
-    "type": "split",
+    "id": "88286ea502fc82ea",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "b7595a0e6b88821a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bbc02c37b7078911",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "459fd1b68f15e000",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "bb96c231745c9342",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "8c60c5c757596164",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "dcdec39b7bee6fe2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md"
-              }
-            }
+        "id": "00770c664e49339c",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "918ab99b91e24e82",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "9f36e0f79da2290f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0c1ac718ded7d02d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "c4fe8f06fc0eee0f",
+  "active": "d86a556464efee19",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Thread Pool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Cached ThreadPool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Fixed ThreadPool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool Specifiacare il comportamento.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
-    "Raccolta UniPi INF/Temp Note/Basi di dati temp.md",
-    "Raccolta UniPi INF/Temp Note/ECC temp.md",
-    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool a singolo Thread.md"
+    "Raccolta UniPi INF/Note/Uni MOC.md",
+    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Comparatore.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Programmazione lineare.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Insiemi di Livello.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Cono.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Modelli.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema del flusso di costo minimo.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Kruskal.md"
   ]
 }
