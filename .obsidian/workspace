@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d86a556464efee19",
+        "id": "54406ed7cdc87df7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,24 +123,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "d86a556464efee19",
+  "active": "54406ed7cdc87df7",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/Uni MOC.md",
-    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Comparatore.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Programmazione lineare.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Insiemi di Livello.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Cono.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Modelli.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema del flusso di costo minimo.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Problema dello zaino.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Kruskal.md"
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md",
+    "Crittologia in modo formale.md",
+    "Templete/Coure Finale/CRI  Final.md",
+    "Extra Note/To Read.md",
+    "Day Planners/Day Planner-20220928.md",
+    "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md",
+    "Raccolta UniPi INF/Note/Uni MOC.md"
   ]
 }

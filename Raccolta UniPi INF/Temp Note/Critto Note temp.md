@@ -37,9 +37,8 @@ Crittografia asimmetrica
   $$m = D (c,k_{prv})$$
 
 Questo si ottiene con una fuzni9ne facile da colacolare e difficile da invertire 
-RSA ( mischia lo stesso del Carmen pazzurdo)
- 
-
+RSA ( minchia lo stesso del Carmen pazzurdo)
+	  
 Modello molti ad uno 
 
 Può essere usato per scambiarsi la chiave ma poi le comunicazione vengono effettuate con AES

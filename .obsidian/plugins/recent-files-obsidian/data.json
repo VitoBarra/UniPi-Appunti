@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Cifratura,Decifrazione e attacchi",
+      "path": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
+    },
+    {
       "basename": "Critto Note temp",
       "path": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+    },
+    {
+      "basename": "Crittografia Concetti Generali",
+      "path": "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md"
+    },
+    {
+      "basename": "Crittologia in modo formale",
+      "path": "Crittologia in modo formale.md"
+    },
+    {
+      "basename": "CRI  Final",
+      "path": "Templete/Coure Finale/CRI  Final.md"
+    },
+    {
+      "basename": "To Read",
+      "path": "Extra Note/To Read.md"
+    },
+    {
+      "basename": "Day Planner-20220928",
+      "path": "Day Planners/Day Planner-20220928.md"
+    },
+    {
+      "basename": "Calcolare l N-esimo numero primo Willans's formula",
+      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
     },
     {
       "basename": "Uni MOC",
@@ -87,14 +119,6 @@
     {
       "basename": "Pasted image 20220925200204",
       "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20220925200204.png"
-    },
-    {
-      "basename": "Calcolare l N-esimo numero primo Willans's formula",
-      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
-    },
-    {
-      "basename": "To Read",
-      "path": "Extra Note/To Read.md"
     }
   ],
   "omittedPaths": [],

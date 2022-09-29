@@ -30,6 +30,6 @@ Prev: [[Studi]]
 	- [[Computer Grafica (CG)]]
 	- [[Elementi di Complessità e Calcolabilità (ECC)]]
 	- [[Sicurezza di sistema ICT]]
-	- [[Crittografia]]
+	- [[Crittografia (CRI)]]
 - Informatica
 	- [[Transazioni]]
