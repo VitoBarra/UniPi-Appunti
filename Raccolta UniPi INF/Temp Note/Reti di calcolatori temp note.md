@@ -129,3 +129,77 @@ Parametri delle reti:
 
 
 Standard: IO-OS
+
+
+2022-09-30:
+## ISO/OSI VS TCP/IP
+ISO/OSI
+- Generale
+- Definizione di servizio interfaccia e protocollo
+- - poco efficiente alcuni livelli poco utili
+- Standard difficile
+- Telco-oriented
+- Poca tempestivo
+- 
+
+TCP/IP
+- Standard de facto
+- Implementation driven 
+- Specifiche non astratte e rigoroso
+- Modello non generale
+
+Esistono altri protocolli per risolvere problemi ad hoc difficile da rimpiazzare 
+
+
+## Livello Applicativo
+- le applicazioni formate da processi distribuiti si più terminali (end host)
+
+Il livello applicativo parla con un altro livello applicativo , per farlo manda un messaggio in una connesione logica tra i due livelli applicativi, questo si tradurrà nello scendere lo stack TCP e passare varie tecnologia 
+
+Il protocollo definisce i i tipi di messaggi scambiati a livello applicativo 
+La sintassi de vari tipi di messaggio 
+
+
+
+### paradigmi:
+- Client-Server:
+- Peer-to-Peer: peer che possono offrire servizi e iniziare richeste.
+- 
+
+
+Io: 32bit per indirizzare un processo nello specifico serve una socket e la socket si utilizza l ip e una porta 
+
+## TDP UDP
+
+
+Da vedere dalle slide
+
+
+# Word Wide Web
+- un è normale collezion di informazioni nella quale le risorse sono distribuite e collegate l una all altra
+- Qualsiasi server web nel mondo puo aggiungere risorse
+- Basato su HTTP
+
+
+## Uniform resource Identifier (URI)
+
+
+## Uniform resource Locator (URL)
+sotto insieme di URI che identifica le risorse attraverso il loro meccanismo di accesso
+
+### sintassi 
+	<schema>://<user>:<password>@<host>:<port>/<path>
+- <user> e <password> opzionali e generalmente deprecato
+- Scheme: protocollo di accesso alla risorsa
+- host= nome di dominio di un ghost o indirizzo IP
+- Port= homer si porta del servere di solito si unasono quelle di default
+- Path= contiene dati per l host e schema e identifica la risorsa nel contesto di quello schema e host puo consistere in una sequenza di segmenti sperata di / ad esempio nel file system del serv3e ma non solo il pat specifia la REquest-URI
+
+## Uniform resource Naming (URN)
+Sottoinsieme di URI che deve o rimanere globalmente unici e persistente anche quando la risorsa cessa di esistere e diventa non disponibile 
+
+	  ?<query>
+	string di informazione che deve essere interpretata
+	 dal servere 
+URL assoluta:
+URL Relativa:

@@ -45,4 +45,60 @@ E sono [[Insieme Chiuso |chiuse]] riaspettò a
 		    f(x_1+1,x_2,\dots,x_k) =h(x_1,f(x_1,x_2,\dots,x_k)x_2,\dots,x_k) 
     \end{cases}
 	 $$
-	 
+
+
+2022-09-29: lezione perso :(
+
+2022-09-30:
+$$\mathcal{F}=formalismo \begin{cases} MofT \\ for/while \\ Ricorsive Primitive/RicorsiveGenerali\end{cases}$$
+$$\mathcal{F}\iff\mathbb{N} $$
+
+Se $\mathcal{F}$ rappresenta solo funzioni totali allora _NON_ le può rappresentare tutte
+
+## Dimostrazione
+
+$$\mathcal{B}(x)= A_x(x)+1 \\ Godel(B) $$
+$$A_i(i)=B(i)=A_i(i)+1$$
+
+
+$\phi_n$ è la funzione calcolabile da $M_n$ una volta fondata un esecuzione 
+$$\phi_i(i)=\phi_i(i) + 1$$
+
+Enumerazione effettiva parte dalla numerazione canonica di [[godel]] 
+
+Per numerare gli algoritmi devo considerare quello che sono non quello che fanno
+
+
+---
+
+## Classe delle funzioni ricorsive
+La classe delle unzioni $u$-ricorsive è la minima classe che rispetta le regole della [[ECC temp#Funzioni Ricorsive primitive|ricorsione]] primitiva 
+- lo 0 
+- il successore 
+- la proiezione
+Ed è chiusa per
+- composizione
+- Ricorsione primitava
+
+
+## Tedi di calcolabilita
+Le funzioni intuitivamente calcolabili ovvero hanno una procedura per calcolarli.
+Sono tutte e sole le t-calcolabili.
+
+
+
+  Linguaggio di programmazione non sono Turing complete perche sono limitati dalla memoria e dal tempo. A d’esempio il computer in cui gira il linguaggio non ha abbastanza memoria per memorizzare i dati intermedi.
+
+
+
+
+# teoremi
+## Teorema 1
+Le funzioni calcolabili sono tante quanto i numeri naturali perche per ogni funzione da calcolare esiste una macchina di Turing, e le macchine di turing sono infinite e tante quanto i numeri naturali.
+Esistono funzioni non calcolabili.
+FIssiamo un enumerazione effettiva
+### padding lemma
+Ogni $\Phi_n$ ha $\# \mathbb{N}$ indici
+
+### Teorema 3
+
