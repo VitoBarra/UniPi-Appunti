@@ -1,3 +1,4 @@
+
 # Analisi del errore
 
 Analizando un fenomeno del mondo reale se ne crea il **modello matematico continuo** questo puo ci permette di rovarne le proprieta qualitative(esistenza, unicia, regolarita, ecc.)questo pero non ci permette di soluzione una soluzione concreta al problema di consequenza il modello viene aprossimato prendendo solo alcuni suoi punti quindi creando un **modello matematico  discreto**

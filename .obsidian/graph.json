@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC ",
+  "search": "-tag:#MOC",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -11,90 +11,97 @@
       "query": "tag:#MOC",
       "color": {
         "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#RO",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
+        "rgb": 6700349
       }
     },
     {
       "query": "tag:#AL",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 4295508
       }
     },
     {
-      "query": "tag:#RETI_LAB3",
+      "query": "tag:#RO",
       "color": {
         "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "tag:#ProgAlgo",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "tag:#CN",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#AESO",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "tag:#PDP",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
+        "rgb": 12675375
       }
     },
     {
       "query": "tag:#STAT",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 15982610
+      }
+    },
+    {
+      "query": "tag:#AESO",
+      "color": {
+        "a": 1,
+        "rgb": 9596392
+      }
+    },
+    {
+      "query": "tag:#RETI_LAB3",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#CRI",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:#CN",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
       }
     },
     {
       "query": "tag:#FDI",
       "color": {
         "a": 1,
-        "rgb": 11007
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#ECC",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
       }
     },
     {
       "query": "tag:#MATH",
       "color": {
         "a": 1,
-        "rgb": 12256992
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#PDP",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     }
   ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.277142857142857,
-  "repelStrength": 9.00195694716243,
+  "showArrow": true,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.57275280898876,
+  "lineSizeMultiplier": 1.90308988764045,
+  "collapse-forces": true,
+  "centerStrength": 0.324404761904762,
+  "repelStrength": 9.58333333333333,
   "linkStrength": 1,
-  "linkDistance": 285,
-  "scale": 0.12032603570539525,
+  "linkDistance": 250,
+  "scale": 0.10215039807098837,
   "close": false
 }

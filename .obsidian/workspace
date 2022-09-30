@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "54406ed7cdc87df7",
+        "id": "65fde9c34739f99a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -20,127 +20,134 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6fa3e4713db3d9a3",
-    "type": "mobile-drawer",
+    "id": "657a8398619d19d3",
+    "type": "split",
     "children": [
       {
-        "id": "13d20f9ab0b3d2c9",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "4c8989cfac4f603e",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "f135bd93c6da9bbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b607b5cee1244e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85e54076ea8bed34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33ff4f4d940884ec",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "e9540558c27b5a5d",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "ad74ed01a2fc04e7",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
-      },
-      {
-        "id": "c22a2e126808afaf",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 439.5
   },
   "right": {
-    "id": "88286ea502fc82ea",
-    "type": "mobile-drawer",
+    "id": "17142a0c339423f9",
+    "type": "split",
     "children": [
       {
-        "id": "00770c664e49339c",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "918ab99b91e24e82",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "c92f68cd3179c51a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae1c3bbe9dcf29c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a1e1bc38131065b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e4b76909af41d17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0117270d45398f0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f904b95b39680e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "9f36e0f79da2290f",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "0c1ac718ded7d02d",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "54406ed7cdc87df7",
+  "active": "65fde9c34739f99a",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione e attacchi.md",
     "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md",
-    "Crittologia in modo formale.md",
-    "Templete/Coure Finale/CRI  Final.md",
-    "Extra Note/To Read.md",
-    "Day Planners/Day Planner-20220928.md",
-    "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md",
-    "Raccolta UniPi INF/Note/Uni MOC.md"
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione.md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Memorie per grandi quantita di dati.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Analisi del errore.md",
+    "Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Garbage Collector.md"
   ]
 }

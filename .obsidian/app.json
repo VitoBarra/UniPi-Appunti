@@ -38,8 +38,5 @@
   "newFileFolderPath": "Temp Note",
   "defaultViewMode": "source",
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "it",
-    "en-US"
-  ]
+  "spellcheckLanguages": null
 }
