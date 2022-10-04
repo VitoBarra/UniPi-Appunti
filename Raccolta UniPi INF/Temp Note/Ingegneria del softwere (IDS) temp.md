@@ -142,5 +142,44 @@ Product owner :
 	- Verificare di avere le competenze tecniche 
 
 
+2022-10-03:
+Gli UML servono a rappresentare i [[ingengeria del softwere requisiti|Requisiti Funzionali]] 
 
+gli attori Principali deve essere necessariamente solo uno mentre i secondarmi possono essere illimitati
+
+In UML ci sono gli attore che interagiscono con le funzioni e c è una nazione di super attore ovvero con una freccia si più indicare la relazione di classi 
+
+
+
+### narrativa dei casi d uso 
+Spiega con parole le funzionalità dei singoli casi d usi 
+
+È fatto da 
+- nome
+- ID
+- Breve Descrizione
+- Attore primario
+- Attore secondari
+- Precondizione
+- Sequenza degli eventi principali: sequenza di passi per arrivare alla post condizione  
+- Post condizione:
+- Sequenza alternativa degli eventi: casi in cui ci sono errori, o ci sono delle interruzioni dei generici problemi nel raggiungere la post condizione. Magari gli eventi meno probabili  
+- 
+
+[[Triple di Hoare]]
+
+Le erediriata nel UML esiste si può applicare sia a attori che a componenti. Deve rispettare il [[principio di sostituzione di Liskov]]
+
+Esistono anche le dipendenze ovvero il caso il caso d uso uno ha bisogno di usare un altra cosa d uso
+
+
+Un caso d uso incluso non necessariamente ha un attore principale 
+
+Si puo fare estensione di un caso d uso significa al volere si possono ottenere sia la post condizione della classe che stende che quella che si sta usando 
+
+Nei passi vanno scritti le interazioni tra l attore e il sistema oltre ai passi che deve fare effettivamente il sistema 
+
+Il sistema che si sta implementando non è un attore 
+
+Ci sono attori esterni la semantica e che non va implementato nel sistema esempio un DB
 
