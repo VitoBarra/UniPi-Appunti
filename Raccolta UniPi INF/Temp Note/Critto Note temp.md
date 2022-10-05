@@ -164,7 +164,7 @@ Fonti:
 I generatori di numeri pseudocasuali non si possono usare per chiavi crittografiche.
 
 I generati che sono critto graficamente sicuri devono passare il test di 
-1. Prossimo bit: se non esiste un algoritmo polinomiale in grado di prevedere l i +1 bit della sequenza a partire dalla conoscenza degli i bit già generati con probabilità maggiore dio 1/2
+1. Prossimo bit: se non esiste un algoritmo  di tempo polinomiale in grado di prevedere l $i +1$ bit della sequenza a partire dalla conoscenza degli i bit già generati con probabilità maggiore dio $\frac{1}{2}$
 
 
 Generatori che superano il test di Prossimo bit
@@ -174,7 +174,60 @@ La utilizzo in senso crittografico al contrario
 
 GENERATORE BBS
 	Genera interi 
-	usa il quandrato in modulo 
+	usa il quadrato in modulo 
 	Per invertilo serve fare la radice in modulo difficile se il numero non èprim
-	LA parità è difficile da verificare 
+	LA parità è difficile da verificare (Predicato hard core ovvero in un singolo predicato c è tutta la difficolta computazione )  
 
+
+2022-10-04:
+Generatore basato su cifrari simmetrici:
+	r = # bit delle parole prodotte dal cifrario
+	s = seme casuale di r bit
+	k = chiave segreta del cifrario 
+
+```C
+Generatore(s,n)
+{
+	D= rapresentazione in r bit di data e ora
+	y = C(d,k)
+	z= s
+	for(int i =0 ; i < n; i++)
+	{
+		x[i]= C(y xor Z,k)
+		Z= C(y xor x[i],k)
+		Comunicazione al esterno
+	}
+}
+```
+
+
+### Problema della Primalita
+Se un numero è composto ha almeno un divisore minore della radice di n
+
+L algoritmo di forza brutta fa $rad{n}$ che è esponenziale  (diventa $O(2^\frac{n}{2})$)
+
+#### Algoritmo Randomizato 
+Due famiglie di algoritmi Randomizati: 
+- _Las Vegas_:  sono sicuramente corretti e eseguono in un tempo probalmente breve (quick sort)
+- _Monte Carlo_: sono probabilmente corretti e eseguono in un tempo sicuramente breve (Test Di primalita )
+	- un algoritmo del genre ha senso se la probabilità d errore è matematicamente misurabile e deve poter essere reso arbitrariamente piccolo  
+
+
+test di primalita di Miller Rabin:
+	Si base sui risultare di [[teoria dei numeri]] che dimostrano che i numeri primi soddisfano sempre delle proprietà. Queste proprietà pero sono necessarie ma non sufficenti il che significa che possono esistere dei numeri he suffissano queste proprietà che non sono primi.,fortunatamente sono pochi.  Questo rende questo algoritmo di primalita  probabilistico
+- per ogni N numero dispari di n bit posso 
+	- scomporre $N-1 = 2^w\cdot z$ 
+- Se N è primo $\implies$ 
+	- $2 \leq y \leq N-1$  con y Interro arbitrario (testimone )
+	- $y^z mod N = 1 \or \exist i,0 \leq i \leq w  (y^z)^{2^i} mod N= -1$
+	se N è composto tra 1 e N-1 che soddisfano i predicati P1 e P2 è minore di N/4
+	Ripetendo il test con testimoni di versi posso abbassare la probabilità d errore. Se per k volte i due predicati sono vero allora N è primo con probabilità di errore $(\frac{1}{4})^k$
+```C
+void verifica(){
+	
+}
+```
+analisi della complessità:
+- primo predicato prende $log(n)$
+- Secondo predicato
+	1. per l  [[Algoritmo delle Quadrature successive o esponeziazione veloce]]  La complessità è  

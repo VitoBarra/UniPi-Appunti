@@ -98,3 +98,17 @@ Il modello dei dati è un insieme di di meccanismi di astrazione per descrivere 
 
 
 
+
+2022-10-04:
+
+## ereditarietà delle classi
+Puoi fare l eredarieta dalle classi con partizioni di copertura partizione s correlate o disgiunte 
+
+
+
+## DB relazionale
+Ogni tabella è una relazione ordinata tra n dominei. Le righe sono diverse tra loro ogni colonna è omogenee. Il modello relazionale si basa su valori 
+
+Schema vs instanza 
+Schema fissa 
+Le instanze sono i dati particolari di una riga e questi dati sono mutabili 

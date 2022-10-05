@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+            "file": "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md"
           }
         }
       }
@@ -124,15 +124,15 @@
   },
   "active": "65fde9c34739f99a",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Temp Note/Basi di dati temp.md",
     "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
     "Raccolta UniPi INF/Temp Note/sequenza sia casuale secondo Kormogorov.md",
     "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
-    "Raccolta UniPi INF/Temp Note/ECC temp.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Complessita.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Calcolabilità.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md"
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md"
   ]
 }

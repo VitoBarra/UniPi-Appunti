@@ -183,3 +183,14 @@ Il sistema che si sta implementando non è un attore
 
 Ci sono attori esterni la semantica e che non va implementato nel sistema esempio un DB
 
+
+
+
+2022-10-05:
+
+Diagramma delle classi e diagrammi oggetti
+
+Ma quindi nella palle è storiato il piscio?
+
+Voglio il grafo dello storage 
+
