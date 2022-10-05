@@ -20,7 +20,7 @@ Prev: [[Uni MOC]]
 		2. [[Tracing]]
 			1. [[Mark-sweep]]
 			2. [[Copyng collection]]
-		3. [[Generational]]
+		3. [[Generational garbage collector]]
 5. [[Domande esame orale PDP]]
 6. 
 

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC",
+  "search": "applicazione lineare",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -102,6 +102,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.16250498072566946,
+  "scale": 0.2278292037808271,
   "close": false
 }

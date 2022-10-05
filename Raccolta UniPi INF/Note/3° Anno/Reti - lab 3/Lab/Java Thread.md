@@ -18,27 +18,29 @@ Prev: [[Reti - lab 3]]
 
 > [!info] Thread Default java
 >1. main
->2. Interfaccia utente
->3. [[Garbage colletor]]
+>2. Interfaccia utente (se presente)
+>3. [[Garbage Collector]]
  
 
 # Utilizzare thread
 
 ## Implementare l’ interfaccia Runnable
+	Java.lang
+l [[interfaccia]] Runnable è un interfaccia [[java]] che mette a disposizione un metodo _void run_()  che sarà il metodo lanciato dal thread che deve eseguire quel task.
+questo metodo non ha parametro di ritorno e non solleva eccezioni. 
+un metodo alternativo per poter fare queste due cose è utilizzare l [[Interfaccia Java Callable]]
 
-l [[interfaccia]] Rubbable mette a disposizione un metodo _Run_() che sarà il metodo lanciato dal thread che deve eseguire quel task.
-
-Proviene dalla libreria :
-
-Java.language
+```java
+public interface Runnable { void run();}
+```
 
 1. Scrivere una classe che implementa l interfaccia Runnable significa creare un task
 
 ```java
-public class ThreadRunnable {
-	public static class MyRunnable implements Runnable {
-
-	public void run() {
+public static class MyRunnable implements Runnable 
+{
+	public void run() 
+	{
 		System.out.println("MyRunnable running");
 		System.out.println("MyRunnable finished");
 	}
@@ -102,4 +104,4 @@ Bisogna chiamare Thread.Start() segnala alla JVM che il thread puo essere messo 
 
 
 ## Thread Demoni
-i Thread possno essere settato come "demoni" prima di essere avviati utilizzando la funzione _setDeamon(bool)_. se i thread sono demono il programma non aspetta che questi thread finiscano l esecuzione ma al termine del programma vengono semplicemente chiusi.
+i Thread possno essere settato come "demoni" prima di essere avviati utilizzando la funzione _setDeamon(bool)_. se i thread sono demoni il programma non aspetta che questi thread finiscano l esecuzione ma al termine del programma vengono semplicemente chiusi.

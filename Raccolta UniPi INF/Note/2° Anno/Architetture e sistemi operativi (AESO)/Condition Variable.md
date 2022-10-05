@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Condition Variable
 ---
-Strumenti per la sincronizzazione dei [[Astrazione Thread|thread]] su [[Sincronizazine di oggetti convidivisi|oggetti condivisi]] , è fatta in modo per aspettare che una condizione sia valida e rilasciare il [[lock]] che ha il thread che aspetta. questo severe per fare una separazione dei doveri tra attesa e condizione dove il [[lock]] provvede a fare l attesa e la codition variable gestisce dei controlli su condizioni.
+Strumenti per la sincronizzazione dei [[Astrazione Thread|thread]] su [[Sincronizzazione di oggetti condivisi|oggetti condivisi]] , è fatta in modo per aspettare che una condizione sia valida e rilasciare il [[lock]] che ha il thread che aspetta. questo severe per fare una separazione dei doveri tra attesa e condizione dove il [[lock]] provvede a fare l attesa e la codition variable gestisce dei controlli su condizioni.
 
 ## Semantica Mesa
 

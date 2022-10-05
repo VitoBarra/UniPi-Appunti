@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 ## Proiezione
 
-sia $V = U \oplus W$  definiamo una applicazione lineare come
+sia $V = U \oplus W$  definiamo una [[Applicazioni Lineari|applicazione lineare]] come
 
 $$
 p_{U}: V \rightarrow U
@@ -25,13 +25,13 @@ $$
 
 ### intuizione grafica:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled.png]]
 
 ---
 
 ## Riflessione
 
-sia $V = U \oplus W$  definiamo una applicazione lineare come
+sia $V = U \oplus W$  definiamo una [[Applicazioni Lineari|applicazione lineare]] come
 
 $$
 r_U: V\rightarrow V
@@ -47,7 +47,7 @@ $$
 
 ### intuizione grafica:
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1.png]]
 
 ---
 

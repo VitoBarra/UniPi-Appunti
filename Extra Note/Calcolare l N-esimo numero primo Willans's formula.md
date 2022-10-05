@@ -22,5 +22,5 @@ utilizza il [[teorema di Wilson]] per determinare se un numero è primo o no $\f
 
 
 
->[!nota]
+>[!question]
 >questa formula è interessante per notare come l aritmetica può essere usata per creare qualcosa simile ad algoritmi, questo potrebbe significa che l aritmetica è [[Turing completezza |Turing-complete]] e quindi [[T-Calcolabile]] \[da verificare\]

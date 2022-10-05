@@ -21,7 +21,7 @@ $$
 rk(A) = dim(St)
 $$
 
-il rango di una matrice $A$ indicato con  $rk(A)$ è la dimensione dello spazio generato dalla sue [[Dipendenza Lineare|colonne indipendenti]]
+il rango di una matrice $A$ indicato con  $rk(A)$ è la dimensione dello [[Sottospazio Vettoriale#Sottospazio Generato|spazio generato]] dalla sue [[Dipendenza Lineare|colonne indipendenti]]
 
 > [!info] #### Osservazioni
 >- il ragno è anche detto come il massimo numero di colonne indipendenti

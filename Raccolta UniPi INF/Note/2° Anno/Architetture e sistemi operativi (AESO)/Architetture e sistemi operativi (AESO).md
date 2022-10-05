@@ -78,7 +78,7 @@ Prev: [[Uni MOC]]
 	1. [[Astrazione Thread]]
 	2. [[Interfaccia Thread]]
 	3. [[Implementazione Thread]]
-	4. [[Sincronizazine di oggetti convidivisi]]
+	4. [[Sincronizzazione di oggetti condivisi]]
 	5. Sincronizzazione oggetti condivisi 
 		1. [[Lock]]
 		2. [[Semafori]]

@@ -24,7 +24,7 @@ dove $\lambda_1,\dots, \lambda_k$ sono scalari arbitrari.
 sia
 
 $$
-V = \R^3 \ \ \ \ \
+V = \mathbb{R}^3 \ \ \ \ \
 v_1 =
 \begin{pmatrix}
 1 \\
@@ -74,15 +74,3 @@ $$
 Osservazione: questo vettore sta nel piano orizzontale $z = 0$. Osserviamo
 anche che al variare di $\lambda_1$ e $\lambda_2$, facendo tutte le combinazioni lineari di $v_1$ e
 $v_2$ otteniamo precisamente tutti i punti del piano orizzontale $z = 0$.
-
----
-
-### Span
-
-siano $v_1,\dots,v_n \in V$ dei vettori l insieme di tutte le combinazioni lineare di questi si chiama
-
-
-
-$$
-Span(v_1,\dots,v_n)
-$$

@@ -20,13 +20,13 @@ $$
 ### Osservazioni:
 
 - tutti i vettori della retta $Span(v)$ sono autovettore con lo stesso autovalore
-- Gli autovettori $v$ con autovalore $\lambda =0$ sono i vettori $v \not =0 \land v \in ker(T)$[[]]
+- Gli autovettori $v$ con autovalore $\lambda =0$ sono i vettori $v \not =0 \land v \in ker(T)$
 - Gli autovettori $v$ con autovalore $\lambda =1$ sono i vettori $v \not =0$  che sono [[Punti Fissi]]
 
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 7.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 7.png]]
 
-[[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 4.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 4.png]]
 
 ### Esistenza di autovettori:
 

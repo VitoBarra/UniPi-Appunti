@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Lock
 ---
-le lock servono a garantire la mutua esclusione utile per gestire la  [[Sincronizazine di oggetti convidivisi]]
+le lock servono a garantire la mutua esclusione utile per gestire la  [[Sincronizzazione di oggetti condivisi]]
 
 per eseguire un pezzo di codice chiamata sezione critica bisogna fare un acquire e una relese sul lock che delimita il pezzo di codice
 
