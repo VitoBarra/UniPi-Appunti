@@ -231,3 +231,39 @@ analisi della complessità:
 - primo predicato prende $log(n)$
 - Secondo predicato
 	1. per l  [[Algoritmo delle Quadrature successive o esponeziazione veloce]]  La complessità è  
+
+
+
+Cercare i primi molto grandi 
+N: # numero di bit del numero da generare 
+
+
+Primo (n,k) genera un primo di almeno n bit con probabilità d errore $(\frac{1}{4})^k$
+- Genera una sequenza S di n-2 bit
+- Genera N = 1S1 il primo uno e per assicurare si che non ci siano x 0 a sinistra e qundi per avere una codifica significativa e il secondo per rendere il mnumerpo sempre dispari 
+
+
+While(TEst_MR(n,k) == 0) {N=N+2}
+Return N
+
+
+I numeri primi sono densi cade miadiamente un  primo in un intorno $log_e$ di un numero grande 
+
+
+
+## Classe di complessità RP random Polinomia
+
+
+Classei dei problemi decisionali verificabili in tempo polinomialele Randomizati 
+
+
+
+## Cifrarei storici 
+Cifrario di cesare 
+Viva il prima i 
+
+
+$$Pos(y)=(pos(y)+k) \mod 26$$
+
+
+[[Formula di Eulero]] da vedere dal corso di algebra per i cifrarei ci cedere affini 

@@ -203,3 +203,14 @@ Sottoinsieme di URI che deve o rimanere globalmente unici e persistente anche qu
 	 dal servere 
 URL assoluta:
 URL Relativa:
+
+
+
+
+
+
+
+
+2022-10-06: LAB
+
+Utilizzare collezioni Thread Safe per la sincronizzazione con i thread. La composizione di operazioni potrebbero non funzionare a dovere in realtà queste collezioni sono Conditionale Thread Safe. 

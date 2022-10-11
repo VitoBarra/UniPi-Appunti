@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "3ea686aa8d179033",
+    "id": "03c1f15486cc4979",
     "type": "split",
     "children": [
       {
-        "id": "459629fde98c2e49",
+        "id": "65fde9c34739f99a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Executor.md",
+            "file": "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -20,134 +20,119 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "43b6558c1b6650f4",
-    "type": "split",
+    "id": "77f6ea905c11b3a3",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "af7c8763f0a49864",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "11cdb9b06bb46095",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "caea60011fbb2da4",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "spazio generato",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "bd3e0f2dfa42bd42",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "2efeb26e40b9ef94",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "4c7767400dbea98f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "ce4a4824b97f3cd8",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "5602d4238fefad29",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "5f4a58f1f8c563c3",
-    "type": "split",
+    "id": "bd8d34544d3cea8c",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d2cf980d1f0a2916",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ebd5d355dd7d4af9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9f46c519c233e3e6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Executor.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "da59e7065698c4e9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Executor.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0bafca4814e0a765",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "9ecaad23194192f5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Executor.md"
-              }
-            }
+        "id": "7b15ec25b1283f1b",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "ad3a909f2d18c700",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "e6794ab13e2f910d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "336bb1678cdd4f74",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "459629fde98c2e49",
+  "active": "65fde9c34739f99a",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Stream IO.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Immagine di un applicazione lineare.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Isomorfismo e Endomorfismo.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Rango.md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Temp Note/Ingegneria del softwere (IDS) temp.md",
+    "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
     "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Sottospazio Vettoriale.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Autovettori e Autovalori.md",
     "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Combinazioni Lineari.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Applicazione Lineari notevoli.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Nucleo.md",
-    "Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Generational garbage collector.md"
+    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
+    "Raccolta UniPi INF/Temp Note/Basi di dati temp.md",
+    "Raccolta UniPi INF/Temp Note/sequenza sia casuale secondo Kormogorov.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
   ]
 }

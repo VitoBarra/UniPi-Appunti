@@ -13,7 +13,6 @@ Prev: [[Algebra Lineare (AL)]]
 ### Definizione
 Sia $V$ uno [[Spazii Vettoriali]] su un campo $\mathbb{K}$. Un sottospazio vettoriale di
 $V$ è un sottoinsieme $W ⊂ V$ che soddisfa i seguenti tre assiomi:
-
 - $0 ∈ W$
 - Se $v,v' ∈ W$, allora anche $v+v' ∈ W$
 - Se $v ∈ W$ e $λ ∈ K$, allora $λv ∈ W$
@@ -60,4 +59,6 @@ $$
     - $T^i(n)$ : Triangolari Inferiori
     - $S(n)$   : Simmetriche
     - $A(n)$  : Antisimmetriche
+
+
 

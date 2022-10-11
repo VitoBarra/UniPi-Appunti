@@ -102,3 +102,42 @@ Ogni $\Phi_n$ ha $\# \mathbb{N}$ indici
 
 ### Teorema 3
 
+
+
+
+2022-10-06:
+
+Tesi di Church-Turing :
+Tutte l e funzioni si dicono calcolabili se si possono calcolare con una macchina di Turing. 
+
+
+L $n-$sima a$M_n$ calcola $\phi$ 
+
+
+## Teorema Forma Normale
+
+$$\large\exists T,U |  \forall i,x \phi_i(z) = U(\eta y.T(i,x,y)) $$
+ >[!note] 
+ >- il linguaggio While è espressivo quantoi$\phi$
+ >- il formalismo delle ricorsi e generali è espressivo quanto  $\phi$
+ >
+### Dimostrazione
+BHO
+
+
+## Teorema di enumerazione (macchia di turing universale)
+
+$$\exists x.\forall i,x \phi_i(x)=\phi(i,x)$$
+
+
+
+### Dimostrazione
+$$\phi_i(x) = U(\upsilon y.T(i,x,y)) \overset{C-T}{=}  \phi_z(i,z) $$
+
+
+
+
+## Teorema Del paragrafo o $\large S^m_n$
+$$\exists s \text{ una finzione inniettiva} | \forall i,x,y.\lambda y.\phi_i(x,y)= \phi_{S(i,x)}(y)$$
+
+
