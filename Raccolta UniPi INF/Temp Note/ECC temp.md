@@ -1,28 +1,3 @@
-2022-09-23:
-[[Funzioni]]: può avere 
-
-
-F(x) è
-T-Calcolabile
-Whille-Calcolabile. $F(n) = m \iff (c,\sigma) \rightarrow^*$
-
-
-## calcolare funzioni in 2 variabili:
-Per calcolare una funzione in 2  variabili basta immaginarti un quadrante di un paiano e tirarlo con dei quadrati. Oggi quadrato puo essere associato un valore calcolato con una formula dove prendi gli indici si ha 
-$$ (x,y)\rightarrow $$
-Per la best e di noumero non naturai quindi rendere robusto la nazione di calcolabilita sui dat
-
-1. Codifica $A$ in $N$
-2. Calcolo $N \rightarrow N$
-3. Decodifico il risultato $N \rightarrow A$
-
-Quidni ho bisogno di una funzione di codifica di A che si a [[Funzioni#Biunivocita|Biunivoca]] Quindi invertibile in modo da poterne fare la Decodifica 
-
-
-
-T-calcolabilita = While-calcolabilita 
-
-
 ### difetti della nozione di calcolabilita
 Funzioni come quella che dico se la  [[Congettura Goldbach]] è vera o falsa 
 $$f(n)= sistema 1 se verra 0 se falsa$$ sono calcolabili dalla macchina che da sempre uno e quella che d sempre zero ma per ora non si puo sapere come è fatta questa macchinina. Infatti una definizione proposta e altenativa e quella dove la calcolabilita implica la costruzionabilita delle soluzioni. In questo modo questa funzione non rientrerebbe nelle funzioni calcolabili perché non la posso costruire.
@@ -141,3 +116,9 @@ $$\phi_i(x) = U(\upsilon y.T(i,x,y)) \overset{C-T}{=}  \phi_z(i,z) $$
 $$\exists s \text{ una finzione inniettiva} | \forall i,x,y.\lambda y.\phi_i(x,y)= \phi_{S(i,x)}(y)$$
 
 
+
+
+
+## Macchina di turing universale
+Si parte dal [[Teorema di enumerazione]]
+p

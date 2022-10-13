@@ -15,7 +15,7 @@ criptare e decriptare un messaggio significa farle passare per le funzioni di Cr
 - _Decriptazione_: $\mathcal{D}:CRT \rightarrow MSG$
 
 Dove $MSG$ è lo spazio dei messaggi e $CRT$ è lo spazio dei crittogrammi.
-Le funzioni $\mathcal{C}$ e $\mathcal{D}$ sono una l [[Funzioni Invertubili|inversa]] del altra e sono funzioni _[[Funzioni Parziali|parziali]]_ e quindi i messaggi effettivamente scambiabili sono un sottoinsieme di $MSG$ e i relativi crittogrammi generati sono un sottoinsieme di $CRT$. $\mathcal{C}$ deve essere [[Funzioni InniettiveI|Inniettiva]] 
+Le funzioni $\mathcal{C}$ e $\mathcal{D}$ sono una l [[Funzioni Invertibili|inversa]] del altra e sono funzioni _[[Funzioni Parziali|parziali]]_ e quindi i messaggi effettivamente scambiabili sono un sottoinsieme di $MSG$ e i relativi crittogrammi generati sono un sottoinsieme di $CRT$. $\mathcal{C}$ deve essere [[Funzioni InniettiveI|Inniettiva]] 
 
 nello _scheda di comunicazione_ si usano come 
 $$\mathcal{D}(\mathcal{C}(m)) = m$$

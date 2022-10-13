@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -20,142 +20,119 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "43b6558c1b6650f4",
-    "type": "split",
+    "id": "7d4183fcbc95454d",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "af7c8763f0a49864",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "11cdb9b06bb46095",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "caea60011fbb2da4",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "spazio generato",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "bd3e0f2dfa42bd42",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "b460c8d9d927aa76",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "cba4390a210ffd24",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "c8c458c92403e90a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "92a3324207ffc5c7",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "5f4a58f1f8c563c3",
-    "type": "split",
+    "id": "7f4fefc3008a4032",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d2cf980d1f0a2916",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ebd5d355dd7d4af9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9f46c519c233e3e6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "da59e7065698c4e9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0bafca4814e0a765",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "9ecaad23194192f5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md"
-              }
-            }
-          },
-          {
-            "id": "76e87848a25119d0",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
+        "id": "05532f1a59acc8c3",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "0e34a953b835f573",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 5
+        }
+      },
+      {
+        "id": "2e36af81946c6c2f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e20357202c0ad69f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "active": "33cd7a7c5c6bcd77",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni con più parametri o con dati strutturati.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Quando una funzione è calcolabile dalla machina di turing e dal linguaggio while.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Funzioni Invertibili.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Funzioni.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Cos è una procedura detta algoritmo.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Monitor.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Interfaccia Java Future.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Interfaccia Java Callable.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Fixed ThreadPool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Code Sincronizzate interfaccia Java blockingQueue.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione.md"
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Monitor.md"
   ]
 }
