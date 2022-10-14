@@ -10,4 +10,4 @@ Prev: [[Programmazione Algoritmica (ProgAlg)]]
 # Hash Table
 ---
 
-### Definizione
+è una [[Strutture Dati| struttura dati]]

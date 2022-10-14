@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8206cbbc6448f536",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+        "id": "f28dd821e1f80c5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8206cbbc6448f536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -32,7 +38,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -145,17 +153,20 @@
     "direction": "horizontal",
     "width": 300
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "8206cbbc6448f536",
   "lastOpenFiles": [
+    "MathMacro/Macros.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Serie di Fibonacci.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Cosa sono i Probblemi e le funzioni.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni con più parametri o con dati strutturati.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Linguaggi FOR e WHILE.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Turing-Calcolabilita.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/While-Calcolabilita.md",
-    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md"
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/While-Calcolabilita.md"
   ]
 }

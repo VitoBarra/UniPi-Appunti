@@ -11,3 +11,6 @@ Prev: [[Programmazione Algoritmica (ProgAlg)]]
 ---
 
 ### Definizione
+è una [[Strutture Dati]]
+definizioni da sapere, grafo, cammino semplice , ciclo, albero, albero di copertura , albero radicato, albero radicato orientato (DAG), tagli
+

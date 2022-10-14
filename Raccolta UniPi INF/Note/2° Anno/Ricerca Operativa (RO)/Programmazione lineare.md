@@ -35,7 +35,7 @@ x_P \geq 0 \\
 \end{cases}
 $$
 
-bisogna prima riscriverlo in forma canonica riscrivendo tutte le equazioni nella forma $x \leq b$ per poi poter essere riscritto in forma matriciale
+bisogna prima riscriverlo in forma canonica riscrivendo tutte le equazioni nella forma $x \leq b$ per poi poter essere riscritto in forma [[matrice|matriciale]]
 
 $$
 \begin{cases}

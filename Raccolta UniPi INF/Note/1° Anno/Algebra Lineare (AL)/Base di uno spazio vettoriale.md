@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-Una sequenza  di $v_1,\dots,v_n \in V$ vettori dove $V$ è uno spzio vettoriale è detta base se
+Una sequenza  di $v_1,\dots,v_n \in V$ vettori dove $V$ è uno spazio vettoriale è detta base se
 
 - I vettori sono indipendenti
 - I vettori generano $V$

@@ -9,7 +9,7 @@ Prev: [[Paradigmi Di Programmazione(PDP)]]
 
 # Reference Counting
 ---
-
+è un tipo di [[Garbage Collector]]
 
 ![[Raccolta UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 17 1.png]]
 

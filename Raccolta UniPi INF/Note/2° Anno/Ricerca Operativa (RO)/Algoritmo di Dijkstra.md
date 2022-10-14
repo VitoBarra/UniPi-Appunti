@@ -43,8 +43,8 @@ Se $c_{ij} \geq 0$ per ogni $(i,j)\in A$, allora l algoritmo di Dijkstra trova u
     $$
 
 2. se $U = \emptyset$ allora stop
-3. Seleziona un nodo $u \in U$ con potenziale minimo $u=\arg\min_{i\in U}\pi_i$
-4. [Controlla le condizioni di Bellman sugli archi uscenti da $u$]
+3. Seleziona un nodo $u \in U$ con potenziale minimo $u=\arg\min_{i\in U}\pi_i$ 
+4. \[Controlla le condizioni di Bellman sugli archi uscenti da $u$\]
 per ogni arco $(u,v)\in A$ se $\pi_v > \pi_u +c_{uv}$ allora
     1. $p_v=u$
     2.  $\pi_v=\pi_u+c_{uv}$
@@ -57,3 +57,7 @@ per ogni arco $(u,v)\in A$ se $\pi_v > \pi_u +c_{uv}$ allora
 ### Svantaggi
 
 ![[Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 2 2.png]]
+
+
+> [!note]
+> di solito per selezionare il nodo minimo si salvano i nodi in una [[Code di Priorità|coda di priorità]] dove si utilizzano i potenziali come chiave di ordinamento 

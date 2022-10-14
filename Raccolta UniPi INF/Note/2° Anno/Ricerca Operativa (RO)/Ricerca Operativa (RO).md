@@ -10,7 +10,7 @@ Prev: [[Uni MOC]]
 ## Course MOC  📒
 1. [[Modelli]]
 	1. [[Problemi di selezione di sottoinsiemi]]
-2. [[Grafi]]
+2. [[Taglio su grafo]]
 	1. [[Albero di copertura]]
 	2. [[Problema del albero di copertura costo minimo]]
 		1. [[Condizione di ottimalità sui cicli]]

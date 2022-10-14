@@ -1,9 +1,28 @@
+<<<<<<< Updated upstream
+=======
+## calcolare funzioni in 2 variabili:
+Per calcolare una funzione in 2  variabili basta immaginarti un quadrante di un paiano e tirarlo con dei quadrati. Oggi quadrato puo essere associato un valore calcolato con una formula dove prendi gli indici si ha 
+$$ (x,y)\rightarrow $$
+Per la best e di numero non naturai quindi rendere robusto la nazione di calcolabilita sui dat
+
+1. Codifica $A$ in $N$
+2. Calcolo $N \rightarrow N$
+3. Decodifico il risultato $N \rightarrow A$
+
+Quindi ho bisogno di una funzione di codifica di A che si a [[Funzioni#Biunivocita|Biunivoca]] Quindi invertibile in modo da poterne fare la Decodifica 
+
+
+
+T-calcolabilità = While-calcolabilita 
+
+
+>>>>>>> Stashed changes
 ### difetti della nozione di calcolabilita
 Funzioni come quella che dico se la  [[Congettura Goldbach]] è vera o falsa 
 $$f(n)= sistema 1 se verra 0 se falsa$$ sono calcolabili dalla macchina che da sempre uno e quella che d sempre zero ma per ora non si puo sapere come è fatta questa macchinina. Infatti una definizione proposta e altenativa e quella dove la calcolabilita implica la costruzionabilita delle soluzioni. In questo modo questa funzione non rientrerebbe nelle funzioni calcolabili perché non la posso costruire.
 
 >[!info] ExtraNote
-Le $\lambda-$[[Lambda calcolo||espressione]]  è del tipo $\lambda x.\lambda y.yx$ 
+Le $\lambda-$[[Lambda calcolo|espressione]]  è del tipo $\lambda x.\lambda y.yx$ 
 ### Funzioni Ricorsive primitive
  E’ la classe di funzioni $C$ conn
 1. (zero) $\lambda x_1,\dots,x_n.0$
@@ -25,7 +44,7 @@ E sono [[Insieme Chiuso |chiuse]] riaspettò a
 2022-09-29: lezione perso :(
 
 2022-09-30:
-$$\mathcal{F}=formalismo \begin{cases} MofT \\ for/while \\ Ricorsive Primitive/RicorsiveGenerali\end{cases}$$
+$$\mathcal{F}=formalismo \begin{cases} MdT \\ for/while \\ Ricorsive Primitive/RicorsiveGenerali\end{cases}$$
 $$\mathcal{F}\iff\mathbb{N} $$
 
 Se $\mathcal{F}$ rappresenta solo funzioni totali allora _NON_ le può rappresentare tutte

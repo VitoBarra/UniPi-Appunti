@@ -11,9 +11,9 @@ Prev: [[Paradigmi Di Programmazione(PDP)]]
 ---
 
 
-## Linguaggio funzionale didadditico:
+## Linguaggio funzionale didattico:
 
-- Consideriamo il nucleo di un linguaggio funzionale che é un sotto insieme di ML (Meta Lenguage) senza tipi ne pattern matching
+- Consideriamo il nucleo di un linguaggio funzionale che é un sotto insieme di ML (Meta Lenguage) senza tipi ne pattern macchina
 
 # Obiettivi
 

@@ -10,13 +10,13 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Funzioni con più parametri o con dati strutturati
 ---
-la [[Macchina di Turing]] e il  [[mado da connettere a casa]] possono [[Quando una funzione è calcolabile dalla machina di turing e dal linguaggio while|calcolare]]  una [[Funzioni|funzione]] con un solo parametro nei numeri naturali $\N$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
+la [[Macchina di Turing]] e i [[Linguaggi FOR e WHILE]] possono [[Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/# Turing-Calcolabilita|calcolare]]  una [[Funzioni|funzione]] con un solo parametro nei numeri naturali $\N$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
 La [[Funzioni|funzione]] di codifica deve essere una  [[Funzioni##Biunivocita|funzioni biunivoca]] siccome devono essere [[Funzioni Invertibili]] siccome la decodifica deve essere non ambigua.
 
 e si utilizzano come :
-1. Dato $x$ in formato $A$ codificano come $y$ in formato $B$ utilizabile Dalla macchia di Turing o dal linguaggio WHILE o FOR .
+1. Dato $x$ in formato $A$ codificano come $y$ in formato $B$ utilizzabile Dalla macchia di Turing o dal linguaggio WHILE o FOR .
 2. Applica la MDT a $y$ e se e qua di ottieni $z$ in formato $B$
-3. Traduci $z$ dal formato $B$ sl formato $A$
+3. Traduci $z$ dal formato $B$ al formato $A$
 
 ## Esempi
 ### calcolare funzioni in 2 variabili:
@@ -27,7 +27,7 @@ E la sua funzione di decodifica è del tipo $DeCo:\N \rightarrow \N \times \N$  
 $$n\rightarrow(n-\frac12k\times (k+1),k-(n-\frac12k\times(k+1)))$$
 Dove 
 $$k = \left\lfloor \frac12(\sqrt{1+8 n}-1) \right\rfloor$$
-Questa codifica si puo visualizzare con 
+Questa codifica si può visualizzare con 
 ![[66CEA436-3E6E-44B8-80B1-D90A4890C489.jpeg]]
 Dove x e y sono mappati sugli indici della matrice.
 

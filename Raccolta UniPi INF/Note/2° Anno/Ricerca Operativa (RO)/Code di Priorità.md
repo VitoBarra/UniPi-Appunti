@@ -2,12 +2,10 @@
 type: nota
 course: Programmazione e Algoritmica
 topic: 
-tags: ProgAlgo Data_Structure
+tags: ProgAlgo
 ---
 
 Prev: [[Programmazione Algoritmica (ProgAlg)]]
 
-# Lista linkata
+# Code di Priorità
 ---
-
-è una [[Strutture Dati]]

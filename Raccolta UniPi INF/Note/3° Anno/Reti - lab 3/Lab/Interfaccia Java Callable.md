@@ -10,7 +10,7 @@ Prev: [[Reti - lab 3]]
 # Interfaccia Java Callable
 ---
 
-l [[interfaccia]] callable è un interfaccia [[Java]]  simile al [[Java Thread#Implementare l’ interfaccia Runnable|interfaccia runnable]] l interfaccia mette a disposizione il metodo _T call_() che Può Restituire valori e sollevare eccezioni. 
+l [[interfaccia]] callable è un interfaccia [[java]]  simile al [[Java Thread#Implementare l’ interfaccia Runnable|interfaccia runnable]] l interfaccia mette a disposizione il metodo _T call_() che Può Restituire valori e sollevare eccezioni. 
 ```java
 public interface Runnable { void run();}
 ```

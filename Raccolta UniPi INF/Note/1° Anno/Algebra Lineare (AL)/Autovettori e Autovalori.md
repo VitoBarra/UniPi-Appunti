@@ -11,7 +11,7 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione:
-sua di uno spazio vettoriale $V$su $\mathbb{K}$ e $T:V \rightarrow V$ un [[endomorfismo]] , chiamiamo autovalore un vettore $v \in V,v \not= 0$   e autovalore di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
+sua di uno spazio vettoriale $V$su $\mathbb{K}$ e $T:V \rightarrow V$ un [[Isomorfismo e Endomorfismo|endomorfismo]] , chiamiamo autovalore un vettore $v \in V,v \not= 0$   e autovalore di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
 
 $$
 T(v)=\lambda v

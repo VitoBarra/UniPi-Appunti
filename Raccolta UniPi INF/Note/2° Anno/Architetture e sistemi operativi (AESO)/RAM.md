@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # RAM
 ---
-la Random Access Memory è una memoria di tipo volatile, ovvero che i dati scritti non persistono con la rimozione del alimentazione
+la Random Access Memory è una [[Memorie|memoria]] di tipo volatile, ovvero che i dati scritti non persistono con la rimozione del alimentazione
 
 ## DRAM
 

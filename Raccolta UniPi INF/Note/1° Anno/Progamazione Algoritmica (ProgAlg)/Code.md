@@ -10,4 +10,4 @@ Prev: [[Programmazione Algoritmica (ProgAlg)]]
 # Code
 ---
 
-### Definizione
+è una [[Strutture Dati]]

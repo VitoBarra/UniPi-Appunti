@@ -9,5 +9,5 @@ Prev: [[Programmazione Algoritmica (ProgAlg)]]
 
 # ABR
 ---
-
+è un tipo d [[Albero struttura dati]]
 ### Definizione

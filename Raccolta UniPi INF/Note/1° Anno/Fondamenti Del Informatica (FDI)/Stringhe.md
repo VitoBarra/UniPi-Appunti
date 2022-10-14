@@ -7,7 +7,7 @@ tags: FDI
 
 Prev: [[Fondamenti Del Informatica (FDI)]]
 
-# partizione
+# Stringhe
 ---
 
 ### Definizione
