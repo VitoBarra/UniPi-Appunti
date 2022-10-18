@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8206cbbc6448f536",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+        "id": "bbb58ea7e041e387",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8206cbbc6448f536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -28,7 +34,9 @@
         "type": "leaf",
         "state": {
           "type": "file-explorer",
-          "state": {}
+          "state": {
+            "sortOrder": "alphabetical"
+          }
         }
       },
       {
@@ -86,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,24 +123,27 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
+            "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "8206cbbc6448f536",
   "lastOpenFiles": [
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Cifratura,Decifrazione.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia Concetti Generali.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Tipologia di attacchi per scoprire il messaggio criptato.md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
     "Raccolta UniPi INF/Note/2° Anno/Statistica/Probabilità e variabili aleatorie.md",
     "Raccolta UniPi INF/Note/2° Anno/Statistica/Inferenza statistica.md",
-    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
     "Raccolta UniPi INF/Temp Note/ECC temp.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Serie di Fibonacci.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Cosa sono i Probblemi e le funzioni.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni con più parametri o con dati strutturati.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Linguaggi FOR e WHILE.md"
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md"
   ]
 }

@@ -7,7 +7,7 @@ tags: STAT
 
 Prev: [[Statistica (STAT)]]
 
-# Probabilità e variabili aleatorie
+# Probabilità
 ---
 
 si parla di probabilità quando si analizza un evento il cui esito non è sicuro e vogliamo misurare quanto spesso un dato esito capita

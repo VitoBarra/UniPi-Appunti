@@ -267,3 +267,105 @@ $$Pos(y)=(pos(y)+k) \mod 26$$
 
 
 [[Formula di Eulero]] da vedere dal corso di algebra per i cifrarei ci cedere affini 
+
+
+
+
+2022-10-17: Cifrari perfetti
+
+Nei cifrari perfetti La sicurezza non è legata a nessuna difficolta computazionale sono sicuri a presncindere siccome il esssaggio e il crittogramma sono completamente scorrelati. È un cifrario simmetrico
+
+L informazione è protetta da una chiave e l attacco assurgente è inutile perche non darebbe nessun risultato significativo 
+
+
+Decifrare il messaggio con una chiave “sbagliata” da un messaggio sensato quindi un critto analista non saprebbe mai quale è il messaggio vero. 
+
+È costoso generare la chiave che deve essere molto lungo 
+
+
+>[!note]
+>Non si usa in contesti di massa ma in comunicazioni classificate dove deve esserci una sicurezza assoluta
+
+
+MSG: spazio dei messaggi.
+CRITTO: spazio dei crittogrammi 
+KEY: spazio delle chiavi.
+
+M= [[Variabili Aleatorie (Casuali)| variabile aleatoria ]] che descrive il comportamento del mittente, assume valori in MSH
+C= VAriabile aleatoria che descrive il processi di comunicazione assume valori in CRITTO
+
+
+P(M=m) = Probabilita che il mittente voglia inviare il messaggio M
+P(C=c) = probabilirita che sul canale stia transitando un crittogrammma c
+
+P(M=m|C=c) = probabilita che sul canale ci sia il messaggio m condizionata dal fatto che sul canale sta passando c 
+
+
+## definizine 
+
+un cifrario è perfetto se per ogni messaggio appartenente allo spazio dei messaggi e per ogni crittogrammi appartenenti dallo spazio dei crittogrammi al pababilita condizionata P(M=m|C=c) = P(M=m)
+
+La conoscenza del crittoanalista non cambia dopo aver ossservato il crittogramma c 
+
+
+## teorema i Shannon
+Su un crittogramma è perfetto deve avere almeno tante chi avevi quando i possibili messaggi 
+
+
+### DImostrazione
+$m_k$ = # numero di chiavi
+$nm$ = # numero di massaggi
+
+Sopponiamo $n_k<n_m$ 
+
+S= # messaggi che possono corrispondere $c C \leq N_k$
+S<n_m ovvero esistono dei messaggi che non possono corrispondente a c e quindi si ha 
+P(M=m’ ) >o
+P(M=m’|C=c) = 0
+Quindi non è perfetto
+
+
+
+## One-TIme-Pad
+Msg,Critto,key = ${\{0,1\}}^n$
+CIfratura  = m= sequenza di bit del messaggio in XOR con n bit del stringa di bit  delle chiave. Poi questo questi n bit della chiave si scartano  
+Decifrazione:
+La cifratura 
+c = crittogramma. 
+c XOR k
+
+ Se su usassero la stessa chiave più volte si potrebbe
+
+C= m XOR k
+C’ = m’ XOR k
+
+C XOR C =m XOR k Xor m’ XOrm = m Xor m’ 
+Ovvero nuove informazioni  pe il crittonalsita se si trovano strisce di zero allora so che una parte del messaggio è uguale
+
+## Dimostrazione di perfettezza 
+1. tutti i messaggi hanno lunghezza n
+2. tutte le sequenza di n bit sono messaggi possibili 
+	- tutti I messaggi hanno una probabilita non nulla molta bassa di essere inviato (non necessariamente queste probabilità sono uguali)
+3. Chaive scelta a caso per scegli perfettamente a caso per ogni key = ${\{0,1\}}^n$ $(\frac{1}{2})^n$
+
+
+ Sotto queste ipotesi one time pad è un cifrario perfetto e minimale dove minimal esignifica che impiega il numero minimo di chiavi.
+
+
+
+$\forall m \in MSG, \forall c\in CRITTO$
+$P(M=m|C=c)= P(M=m)$
+
+$P(M=m|C=c)= \frac{P(M=m \cup C=c)}{P(C=c)}$
+
+Per proprietà dello XOR fissato m diverse producono crittogrammi diversi 
+
+$\exists !$ Chiave che tra che trasforma m in c $c =m \oplus k \implies k = c \oplus M$ 
+
+
+$\frac{P(M=m)P(C=c)}{P(C=c)} =\frac{P(M=m)\not{P(C=c)}}{\not{P(C=c)}}$
+
+
+
+
+
