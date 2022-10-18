@@ -10,8 +10,8 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Funzioni con più parametri o con dati strutturati
 ---
-la [[Macchina di Turing]] e i [[Linguaggi FOR e WHILE]] possono [[Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/# Turing-Calcolabilita|calcolare]]  una [[Funzioni|funzione]] con un solo parametro nei numeri naturali $\N$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
-La [[Funzioni|funzione]] di codifica deve essere una  [[Funzioni##Biunivocita|funzioni biunivoca]] siccome devono essere [[Funzioni Invertibili]] siccome la decodifica deve essere non ambigua.
+la [[Macchina di Turing]] e i [[Linguaggi FOR e WHILE]] possono [[Turing-Calcolabilita|calcolare]] una [[Funzioni|funzione]] con un solo parametro nei numeri naturali $\N$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
+La [[Funzioni|funzione]] di codifica deve essere una  [[Funzioni Biunivoche|funzioni biunivoca]] siccome devono essere [[Funzioni Invertibili]] per rendere la decodifica non ambigua.
 
 e si utilizzano come :
 1. Dato $x$ in formato $A$ codificano come $y$ in formato $B$ utilizzabile Dalla macchia di Turing o dal linguaggio WHILE o FOR .
@@ -33,5 +33,5 @@ Dove x e y sono mappati sugli indici della matrice.
 
 
 >[!note] Osservazioni
-> Questo diversi modi di rappresentare i dati non cambia la nozione di [[Cos è una procedura detta algoritmo|Calcolabilità]] Ovvero rappresentare i dati in formati diversi  non fa variare la classe delle funzioni calcolabili. Questo siccome si stra trasformato unafunzione che lavora su un tipo di dato in un altra che lavora su un altro tipo di dato equivalente  
+> Questo diversi modi di rappresentare i dati non cambia la nozione di [[Nozione di Calcolabilità|Calcolabilità]] Ovvero rappresentare i dati in formati diversi  non fa variare la classe delle funzioni calcolabili. Questo siccome si stra trasformato unafunzione che lavora su un tipo di dato in un altra che lavora su un altro tipo di dato equivalente  
 

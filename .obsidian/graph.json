@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#MOC",
@@ -81,7 +81,7 @@
       "query": "tag:#MATH",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5972828
       }
     },
     {
@@ -105,10 +105,10 @@
   "nodeSizeMultiplier": 2.928,
   "lineSizeMultiplier": 1.5,
   "collapse-forces": false,
-  "centerStrength": 0,
+  "centerStrength": 0.271676300578035,
   "repelStrength": 20,
-  "linkStrength": 0,
+  "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.010952991388875816,
+  "scale": 0.16348370567220707,
   "close": false
 }

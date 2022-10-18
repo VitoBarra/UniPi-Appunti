@@ -10,6 +10,6 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 # While-Calcolabilita
 ---
 
-Un comando $C$ calcola $f: \N\rightarrow \N$, oppure $f$ è WHILE$-Calcolabile \iff$ 
+dato un comando $C$ calcola $f: \N\rightarrow \N$, oppure $f$ è WHILE$-Calcolabile \iff$ 
 $$\forall n \in \N, \forall \sigma \in Var \rightarrow \N | \sigma(x) = x $$
-$$f(n)=m \iff \langle C,\sigma\rangle \rightarrow^*\sigma’ e \ \sigma’(x)=m  $$ 
+$$f(n)=m \iff \langle C,\sigma\rangle \rightarrow^*\sigma’ e \ \sigma’(x)=m  $$ essere WHILE-calcolabile significa che può essere calcolato dal [[Linguaggi FOR e WHILE|Linguaggi WHILE]]

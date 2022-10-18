@@ -7,7 +7,6 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Cosa sono i Problemi e le funzioni
+# mu-Calcolabilità
 ---
-
-cos è una [[Funzioni]]
+una funzione si dice $\mu-$calcolabile se la sua definizione è [[Funzioni Ricorsive Generali|ricorsiva generale]]

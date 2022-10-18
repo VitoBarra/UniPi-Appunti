@@ -10,7 +10,7 @@ Prev: [[Fondamenti Del Informatica (FDI)]]
 # Funzioni
 ---
 
-Una funzione è $f \subseteq A \times A$ Di una [[relazione]] su insiemi
+Una funzione è definita come $f \subseteq A \times B$ quindi un sottoinsieme di una  [[Relazioni su Insiemi|Relazione]] su insiemi
 
 
 ## Funzioni totali

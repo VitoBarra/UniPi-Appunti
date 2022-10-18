@@ -7,6 +7,6 @@ tags: FDI
 
 Prev: [[Fondamenti Del Informatica (FDI)]]
 
-# Funzioni Invertibili
+# Funzioni Biunivoche
 ---
-é un tipo di [[Funzioni]]]
+le funzioni biunivoche è un tipo di [[Funzioni]]

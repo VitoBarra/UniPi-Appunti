@@ -17,7 +17,7 @@ ci sono problemi non calcolabili con date risorse, sono interessanti e le risolv
 
 Formano una gerarchia
 
-Calcolare soluzioni aprossiamte
+Calcolare soluzioni approssimate
 
 Problemi speciali che mi rappresentano l intere classe
 

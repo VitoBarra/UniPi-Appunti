@@ -9,15 +9,15 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Linguaggi FOR e WHILE
 ---
-I linguaggio sono [[Cos è una procedura detta algoritmo|modelli di calcolo]] 
+I linguaggio sono [[Nozione di Calcolabilità|modelli di calcolo]] 
 ## Sintassi astratta
 
 la sintassi astratta di un _nucleo_ di un linguaggio di programmazione è
 $$
 \begin{align*}
-E:= n  | X | E_1 + E_2 | E_1 *E_2 | E_1 /  E_1| E_1 - E_2 \\
-B := b | E_1-E_2 | \neg b | B_1 \lor B_2 \\
-C := skip | x=E | C_1;C_2 | if\  B \ then \ C_1 \ else \ C_2 | \ while \ B \ do\  C | \ for \ x=E \ to \ E_1 \ do\  C
+&E:= n  | X | E_1 + E_2 | E_1 *E_2 | E_1 /  E_1| E_1 - E_2 \\
+&B := b | E_1-E_2 | \neg b | B_1 \lor B_2 \\
+&C := skip | x=E | C_1;C_2 | if\  B \ then \ C_1 \ else \ C_2 | \ while \ B \ do\  C | \ for \ x=E \ to \ E_1 \ do\  C
 \end{align*}
 $$
 
@@ -84,8 +84,8 @@ definito da:
 sono regole  operazionali definite con le regole di inferenza; descrivono da quale stato si può transire a quale altro restando del tutto generali sul comando specifico. 
 queste regole derivano dalla sintassi e sono tutte e sole le transizioni possibili il che significa che questa è la minima classe che contiene tutte le istanze degli assiomi ed è chiusa rispetto alle regole di inferenza 
 ovvero 
-- minima : __capire cosa si intende__
-- chiusa: ogni regola porta ad uno stato che puo coprire una regola nel insieme 
+- minima :soddisfano queste e _solo_ queste proprieta
+- chiusa: ogni regola porta ad uno stato che può coprire una regola nel insieme 
 
 >[!warning]
 >la regola del FOR ha un problema sulla spostamento del indice $E_i$ siccome si mescola sintassi e semantica
@@ -98,5 +98,5 @@ ovvero la [[Macchina Astratta]] che sta eseguendo la nostra computazione passa d
 possiamo definire l intera computazione come 
 $$\textlangle c,\sigma\textrangle \rightarrow^* \textlangle c',\sigma'\textrangle$$
 dove 
-- Se _termmina_ converge ($\downarrow$) a $\sigma'$
+- Se _termina_ converge ($\downarrow$) a $\sigma'$
 - se _non termina_ diverge ($\uparrow$) 

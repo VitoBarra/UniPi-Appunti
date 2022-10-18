@@ -7,7 +7,8 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Cosa sono i Problemi e le funzioni
+# Codifica di una macchina di Turing con un numero
 ---
 
-cos è una [[Funzioni]]
+![[Pasted image 20221014172233.png]]
+![[Pasted image 20221014172330.png]]

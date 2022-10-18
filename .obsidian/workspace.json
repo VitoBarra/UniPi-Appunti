@@ -8,19 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8206cbbc6448f536",
+            "id": "1eae3dea8dd25946",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2b2776a9b7ba8e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+                "file": "Raccolta UniPi INF/Temp Note/ECC temp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f8d23679c8799f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Codifica di una macchina di turing con un numero.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "200d379920f376f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzione di Ackermann.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66439bc825f0d844",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Generali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Generali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Generali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md"
+                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Generali.md"
               }
             }
           },
@@ -151,22 +199,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8206cbbc6448f536",
+  "active": "66439bc825f0d844",
   "lastOpenFiles": [
-    "MathMacro/Macros.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Primitive.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Serie di Fibonacci.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Cosa sono i Probblemi e le funzioni.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni con più parametri o con dati strutturati.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Linguaggi FOR e WHILE.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Turing-Calcolabilita.md",
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Scheduler.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Calcolabilità.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Tesi di Church-Turing.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/mu-Calcolabilita.md",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/While-Calcolabilita.md"
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/While-Calcolabilita.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Funzioni totali.md",
+    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Algoritmi.md",
+    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Funzioni Ricorsive Generali.md"
   ]
 }

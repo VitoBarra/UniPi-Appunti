@@ -7,7 +7,6 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Cosa sono i Problemi e le funzioni
+# Diagonalizzazione
 ---
 
-cos è una [[Funzioni]]

@@ -77,7 +77,7 @@ Le computazioni :
 >le computazioni della macchina di Turing sono una logica cieca ma possiamo dare un significato a queste operazioni associando per esempio ai valori del alfabeto un significato, ad esempio un  alfabeto   $\Sigma = \{I,II,III\}$ possiamo dargli un senso di 1,2,3 e usando le transizioni possiamo utilizzarlo per sommare dei numero. Ovviamente e estendibile a qualsiasi simbolo e significato.
 
 ## Rispeseti l intuizione di algoritmo
-la macchina di Turing soddisfa le ipotesi della definizione di [[Cos è una procedura detta algoritmo|un algoritmo]]
+la macchina di Turing soddisfa le ipotesi della definizione di [[Nozione di Calcolabilità|un algoritmo]]
 
 1. ) $\delta$ basandosi si un alfabeto finito $\Sigma$ e un numero di stati finiti $Q$ non può essere un insieme infitto quindi è verificato
 2. verificato per stessa ragione sopra

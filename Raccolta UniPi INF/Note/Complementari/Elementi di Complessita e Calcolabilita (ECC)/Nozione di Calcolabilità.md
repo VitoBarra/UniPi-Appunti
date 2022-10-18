@@ -7,9 +7,9 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Cos è una procedura detta algoritmo
+# Nozione di Calcolabilità
 ---
-esistono molteplici formalismi che permettono di esprimere algoritmi: [[Macchina di Turing ]], Funzioni ricorsive, $\lambda-$[[Lambda calcolo|calcolo]], Random access machine, Algoritmi di markov, [[Grammatiche generali]], [[linguaggi di programmazione]].
+la nazione di calcolabilità esprime le funzioni intuitivamente calcolabili. se sono intuitivamente calcolabili significa che esiste un [[Algoritmi|Algoritmo]] per calcolare ed esistono molteplici formalismi che permettono di esprimere algoritmi questo sono detti modelli di calcolo: [[Macchina di Turing ]], [[Funzioni Ricorsive Primitive]],[[Funzioni Ricorsive Generali]], $\lambda-$[[Lambda calcolo|calcolo]], Random access machine, Algoritmi di markov, [[Grammatiche generali]], [[linguaggi di programmazione]].
 
 
 1. ) Un algoritmo è costituito da un insieme __finito__ di istruzioni;
@@ -21,3 +21,7 @@ esistono molteplici formalismi che permettono di esprimere algoritmi: [[Macchina
 
 >[!note]
 >Sotto queste ipotesi, tutte le formulazioni fin ad ora sviluppate sono equivalenti e si postula che lo saranno anche tutte le future
+
+>[!info] #### TEOREMA 
+>non esiste nessun formalismo che esprime tutte e sole le funzioni totali e calcolabili
+>Dimostrato con [[Diagonalizzazione]]

@@ -7,7 +7,7 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Turing-Calcolabilita
+# Turing-Calcolabilità
 ---
 dati $\Sigma_0 ,\Sigma_1 ,\Sigma$ Alfabeti con $\#,\rhd  \not \in\Sigma_0 \cup \Sigma_1$ e $\Sigma_0 \cup \Sigma_1 \subset \Sigma$
 e $f:\Sigma^*_0 \rightarrow \Sigma^*_1$ una funzione allora si diche che una [[Macchina di Turing]]  calcola $f \iff$ 

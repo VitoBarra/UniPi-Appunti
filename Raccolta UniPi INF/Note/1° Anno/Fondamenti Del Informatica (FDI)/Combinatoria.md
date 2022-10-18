@@ -12,8 +12,8 @@ Prev: [[Fondamenti Del Informatica (FDI)]]
 
 ### Definizione
 
-![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Combinatoria/Untitled.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled.png]]
 
-![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Combinatoria/Untitled 1.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled 1.png]]
 
-![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Combinatoria/Untitled 2.png]]
+![[Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled 2.png]]

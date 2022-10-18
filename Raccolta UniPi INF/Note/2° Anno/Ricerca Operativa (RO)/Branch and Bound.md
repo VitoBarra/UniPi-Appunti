@@ -22,7 +22,7 @@ $$
 
 I vincoli implicano che $x_1=0 \ \lor x_1=1 \ \lor x_1=2$.
 
-facciamo un [[partizione]] della regione ammissibile $\Omega$ in tre Sottoinsieme:
+facciamo un [[Partizione]] della regione ammissibile $\Omega$ in tre Sottoinsieme:
 
 $$
 \Omega = (\Omega \cap \{x_1=0\}) \cup(\Omega \cap \{x_1=0\}) \cup (\Omega \cap \{x_1=0\})

@@ -7,7 +7,11 @@ tags: ECC
 
 Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
-# Cosa sono i Problemi e le funzioni
+# Valutazione Redex
 ---
 
-cos è una [[Funzioni]]
+## Valutazione Interna sinistra
+
+## Valutazione Esterna
+
+## B-equivalenza 

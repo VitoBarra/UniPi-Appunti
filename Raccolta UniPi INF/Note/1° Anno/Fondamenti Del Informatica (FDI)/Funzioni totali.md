@@ -7,6 +7,6 @@ tags: FDI
 
 Prev: [[Fondamenti Del Informatica (FDI)]]
 
-# Funzioni Invertibili
+# Funzioni totali
 ---
-é un tipo di [[Funzioni]]]
+le fuzioni totali sono un tipo di [[Funzioni|funzione]]
