@@ -21,7 +21,7 @@ il nucleo é [[Sottospazio Vettoriale]] di $V$
 
 ---
 
-utilizziamo il nucleo per capire se una funzione è iniettiva infatti
+utilizziamo il nucleo per capire se una funzione è [[funzione iniettiva|iniettiva]] infatti
 
 $$
  f\ \  inniettiva\ \ \iff ker(f) = \{0\}

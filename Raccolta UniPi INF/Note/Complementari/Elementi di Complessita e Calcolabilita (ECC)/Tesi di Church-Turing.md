@@ -15,7 +15,10 @@ questa tesi non sembra essere vera se si lascia anche una sola delle ipotesi sul
 ## Relazioni tra classi di funzioni calcolabili
 al momento si può dimostrare che la classe delle funzioni 
 	[[Turing-Calcolabilita|T-calcolabili]] $\equiv$ [[While-Calcolabilita|WHILE-calcolabili]] $\equiv$ $\mu$-[[mu-Calcolabilita|calcolabile]] 
-sono equivalenti 
+sono quindi tutte queste sono [[Turing-Equivalenza|Turing-Equivalenti]]
 che le classi  delle funzioni 
 	[[For-Calcolabilita|]]	 [[for-Calcolabilita|for-calcolabili]] $\equiv$ [[Funzioni Ricorsive Primitive]] $\subset$ [[Turing-Calcolabilita|T-calcolabili]] 
 sono equivalenti
+
+
+![[Turing-Equivalenza]]

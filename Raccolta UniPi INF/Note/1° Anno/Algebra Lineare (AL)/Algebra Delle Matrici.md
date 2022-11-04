@@ -15,7 +15,7 @@ Prev: [[Algebra Lineare (AL)]]
  Se $A$ è una [[matrice]] $m\times n$ e $B$ è una matrice $n \times p$  il prodotto $AB$ è una nuova matrice $m \times p$ definita nel modo seguente: l’elemento $(AB)_{ij}$ della nuova matrice $AB$ è
 
 $$
-(AB)_{ij}
+(AB)_{ij} =
 \sum_{k=1}^n A_{ik}B_{kj} =
 A_{i1}B_{1j}+\cdots+A_{in}B_{nj}
 $$

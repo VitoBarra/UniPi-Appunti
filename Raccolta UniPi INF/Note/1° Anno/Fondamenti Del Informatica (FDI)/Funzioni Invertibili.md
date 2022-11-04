@@ -9,4 +9,4 @@ Prev: [[Fondamenti Del Informatica (FDI)]]
 
 # Funzioni Invertibili
 ---
-é un tipo di [[Funzioni]]]
+é un tipo di [[Funzioni]]

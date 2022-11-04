@@ -10,7 +10,7 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 # Teorema di forma normale
 ---
 ## Teorema
-Esistono un predicato $T(i,x,y)$ e una [[Funzioni|funzione]] $U(y)$ [[Nozione di Calcolabilità|calcolabili]], [[Funzioni totali|totali]]  tale che $$\forall i,x.\varphi_i(x) = U(\mu y.T(i,x,y))$$
+Esistono un predicato $T(i,x,y)$ (detto anche predicato di Kleene )e una [[Funzioni|funzione]] $U(y)$ [[Nozione di Calcolabilità|calcolabili]], [[Funzioni totali|totali]]  tale che $$\forall i,x.\varphi_i(x) = U(\mu y.T(i,x,y))$$
 inoltre $T,U$ sono  [[Funzioni Ricorsive Primitive|primitive ricorsive]]
 #### DImostrazione
 $$T(i,x,y)= 
@@ -18,7 +18,7 @@ $$T(i,x,y)=
 1 & \text{se y termina } \\
 0 & altrimenti
 \end{cases}$$
-dove $y$ è la codifica di una computazione di $M_i$ con dato iniziale $x$. calcolare $T$ si calcola prendendo la macchina $M_i$ dalla lista e comincia a scandagliare i valori $y$ . decodifica ogni o di essi uno alla volta e contralta se la computazione con x in ingresso termina. se termina allora 
+dove $y$ è la codifica di una computazione di $M_i$ con dato iniziale $x$. calcolare $T$ si calcola prendendo la macchina $M_i$ dalla lista e comincia a scandagliare i valori $y$ . decodifica ogni o di essi uno alla volta e controlla se la computazione con x in ingresso termina. se termina allora 
 $M_i(x) = c_0,\dots,c_n$ questa sequenza di passi termina sempre e quindi T è totale. 
 
 >[!warning] DA CAPIRE

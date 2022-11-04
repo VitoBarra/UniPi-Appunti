@@ -17,4 +17,4 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 #### Dimostrazione
 1. si possono costruirei $|\N|$ [[Macchina di Turing]] $M_i$ che generano l output $|^i$  quindi sono funzioni costanti ed è immediato che il numero di queste è  $|\N|$ 
 
-2. con nozioni di [[Combinatoria]] si dimostra che l insieme delle funzioni $\{f: \N \rightarrow \N \}$ ha cardinalita $2^{|\N|}$  il che significa che i problemi sono molto più di quanti sono gli algoritmi che posso risolverli di conseguenza ne esiste almeno  qualcuno che non puo essere risolto. 
+2. con nozioni di [[Combinatoria]] si dimostra che l insieme delle funzioni $\{f: \N \rightarrow \N \}$ ha cardinalità $2^{|\N|}$  il che significa che i problemi sono molto più di quanti sono gli algoritmi che posso risolverli di conseguenza ne esiste almeno  qualcuno che non può essere risolto. 

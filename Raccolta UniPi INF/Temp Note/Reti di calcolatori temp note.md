@@ -258,3 +258,53 @@ Per la connessione si utilizzano i socket differenzianti in
 - socketClient
 - SocketServer
 
+
+
+## DNS : Domain Name System
+Serve a tradurre dei  "nomi" in undirizzi Ip per accedere a delle macchine
+ha piu vantaggi
+1. disaccopiare l ip fisico e il nome del servizio 
+	1. grande vantaggio siccome puo succeder che per lo stesso nome possono essere associati piu ip o possono cambniare nel tempo
+2. nomi piu human Frendly
+Il DNS è un servizio di [[livello applicativo]]
+
+
+
+è realizato come 
+1. uno schema di assegnazione dei nomi gferarchico e basato su domini
+2. un database distribuito conteneente i nomi e le corrispondenze con gli indirizzi ip iomplementato con una gerarchia di name server
+3. un protocollo per la distribuzione della informazini sui nimi tra name serrver
+	- host router name server comunicano per risolvere nomi traduzione nome indirizzo
+	- utilizzando UDP (avvolte TPC nel trasferimento di DB)
+
+
+per gestire piu nomi dello stesso Ip si utilizzano Alias 
+
+puoi fare bilanciamento di carico sulla rete, se un nome ha piu Ip conessi ad ogni domanda ne da uno diverso a rotazione cosi ogni macchina ha un carico simile alle altre.
+
+
+è uganizato gerarchicamente 
+	quindi un nome è del tipo
+		\[sistema1\].\[sistema2\].\[sistema3\].\[sistema4\]
+	per garantire l univocita del nome si ci si basa che ogni livello lo garantisca per tutti i nomi sostostanti 
+
+
+
+
+il processo di traduzione da nome a Ip il client prima chiede al LOCAL DNS se ha la truzione la rstituisce altrimenti reinoltra al Dns di gerarchia superiore fino ad arrivare al root name server che sono DNS di  livello 0 che ha lo scopo di tenere le associazione a tutti gli altiri DNS  di primo livello. ad ognmi livello ovviamentre c è della cache.
+
+il DNS root sono pochi nel mondo meno di 1000.
+
+### Query Ricorsiva
+![[Pasted image 20221026034606.png]]
+![[Pasted image 20221026034547.png]]
+
+Contro: Molti passaggi 
+
+### Query Iterativa
+![[Pasted image 20221026035044.png]]
+![[Pasted image 20221026035032.png]]
+vantaggio: Il root nome server viene utilizzato una sola volta cosa migliore visto che sono pochi.
+
+viene conservata un associazione in cache e nel informazione c è anche un Timeoud che da il tempo di persistenza del record di quella cache.  
+![[Pasted image 20221026035524.png]]
