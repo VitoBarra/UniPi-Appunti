@@ -1,0 +1,68 @@
+---
+type: nota
+course: Ingegneria del software
+topic: 
+tags: IS
+---
+
+Prev: [[Ingegneria Del Software (IS)]]
+
+# Design pattern - Factory
+---
+
+tipo di [[GoF Design Patterns]] creazionale
+
+in generale fornisce modi per costruire oggetti senza l utilizzo del _new_. siccome quest ultimo rompe sia il  principio  [[Principio SOLID#S*O*LID: *O*pen Closed Principle|Open Close]]  che quello di [[Principi di progettazione e qualità di un progetto#Information HIding|information Hiding]]
+siccome rende le classi dipendenti dai i tipi specifici delle classi instantiate. e ne classò di selezione di quale classe instanziare se dovesse cambiare la scelta aggiungendo o rimuovendo classi quel codice dove cambiare di nuovo 
+
+## Simple Factory (o Concrete Factory)
+#### Struttura
+![[05661C72-1F02-4A0B-8D4A-21C741AC8DDA.jpeg]]
+con questo pattern la classe che richiede la costruzione di un oggetto mantiene un riferimento ad un classe factory che gestisce la gestione della creazione degli oggetti. è meglio di non far nulla ma non flessibile come potrebbe essere
+
+## Factory Method
+Pattern che gestisce la creazione degli oggetti basandosi sul [[Eridarieta Delle classi|Eridarieta Delle classi]] 
+### Quando Usarlo 
+- applicabile quando una classe non po anticipare la classe del oggetto che deve creare
+#### Structure
+![[927B0B05-F67D-403D-A092-A49E6F1BC2F1.jpeg]]
+in questo pattern il FactoryMethod lascia scegliere il prodotto concreto da instanza alla sottoclasse di creator. in questo modo ogni sottoclasse avrà il suo prodotto associato
+##### Componenti
+- _Product_: Definisce l interfaccia per i tipi che il factoryMethod Costrusice
+- _ConcreteProduct_: Implementa l interfaccia del prodotto
+- _Creator_ :  Dichiara il metodo che instanzia l oggetto di tipo Product
+- _ConcreteCreator_: fa l override dell factoryMethod e ritorna un Instanza di ConcreteProduct
+
+### Vantaggi
+- codice piu flessibile e riusabile grazie al elimincazone del instanza specifica
+##### richiede
+chi vuole instanziare un prodotto concreto deve creare una sottoclasse
+##### problema di implementazione
+- Se il il factory method può costruire più di un tipo di oggetto allora il factoryMethod deve avere un parametro.
+
+
+
+## Abstract Factory
+Pattern che gestisce la creazione degli oggetti basandosi sul [[Delega VS Eredarieta|Delega]] 
+### Quando Usarlo
+
+
+#### Structure
+![[C25A38D6-E770-451C-98F1-D31722D9EEA4.jpeg]]
+in questo pattern l oggetto a cui servono gli oggetti delega la costruzione mantenendo un interfaccia di una factory che li costruisce. ogni oggetto concreto che implementa la AbstractFactory costrusice famiglie di oggetti o oggetti correlati tra loro.
+In generale é molto simile al Factory Method
+![[68ACFE3C-1187-472D-BB1C-0D88B71DA129.jpeg]]
+
+##### Componenti
+- _AbstractProduct_: Definisce l interfaccia per i tipi  che producono le cactory
+- _ConcreteProduct_: Implementa l interfaccia del prodotto
+- _AbstractFactory_ :  Dichiara i metodi  interfaccia che dovono instansziare un AbstractProduct
+- _ConcreteFactory_: implementa i metodi Della AbstarcFactory instanziando oggetti della stessa famiglia o correlati tra loro
+
+### Vantaggio
+- codice piu flessibile e riusabile grazie al elimincazone del instanza specifica
+
+
+
+
+le factory sono di solito  [[Principi GRASP#Pure Fabrication|Pure Fabrication]]

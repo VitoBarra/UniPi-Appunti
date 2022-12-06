@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8206cbbc6448f536",
+            "id": "6ae88bfe51a5e742",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Crittografia/Rapresentazione di sequenze.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Problema del oracolo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "672a17ff280eb961",
+            "id": "f29e082c5b8af2e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema del parametro.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Concetti di verifica e validazione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema del parametro.md",
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Problema del oracolo.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema del parametro.md",
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Problema del oracolo.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -137,27 +136,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema del parametro.md"
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Problema del oracolo.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "672a17ff280eb961",
+  "active": "6ae88bfe51a5e742",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Temp Note/ECC temp.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema del parametro.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing universale.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema di Enumerazione.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema di forma normale.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Padding Lemma.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Teorema di esistenza di funzioni NON calcolabili.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Diagonalizzazione.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Macchina di Turing.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Nozione di Calcolabilità.md"
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Metodi Black Box per generare valori di input per testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Metodi white box per il testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Tecniche di progettazione casi di test.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Concetti di verifica e validazione.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Tecniche di lettura del codice Strutturata.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Untitled.md",
+    "Templete/Coure Finale/IS Final.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Proxy.md"
   ]
 }
