@@ -39,7 +39,7 @@ Permette all oggetto di comportarsi in modo diverso in base allo stato interno
 _Cointext_: 
 - definisce l interfaccia
 - mantiene l Istanza di concrete state
-_State_:  Definisce l interfaccia del comportamento di uno specifico stato, eventualmente puo a avere un comportamento di default
+_State_:  Definisce l interfaccia del comportamento di uno specifico stato, eventualmente può a avere un comportamento di default
 _ConcreteState_: Implementa l interfaccia state
 
 

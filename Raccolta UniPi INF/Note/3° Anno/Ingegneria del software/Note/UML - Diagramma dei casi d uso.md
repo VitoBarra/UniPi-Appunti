@@ -11,20 +11,20 @@ Prev: [[Ingegneria Del Software (IS)]]
 ---
 Un diagramma di [[UML]] 
 
-Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le funzionalità che il sistema deve fornire al esterno.  i campiti che un utente puo fare con l aiuto del sistema.
+Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le funzionalità che il sistema deve fornire al esterno.  i campiti che un utente può fare con l aiuto del sistema.
 
 
 ## Componenti Statici
-1. _Attore_:  un’entità sterna al sistema, che in teragisce direttamente con esso in un determinato ruolo
+1. _Attore_:  un’entità sterna al sistema, che in interagisce direttamente con esso in un determinato ruolo
 	- autore
 	- altro sistema
 	- tempo (attore speciale)
 2. _Caso d uso_:
 	- Una funzionalità o un servizio offerto dal sistema a uno o più attori 
 	- formalmente: un compito che un attore può svolgere con l’aiuto del sistema 
-	- espressa come un insiemedi SCENARI
+	- espressa come un insieme di SCENARI
 3. _Scenario_:
-	- Una sequenza di interazioni (scambidi messaggi)  tra sistema attori
+	- Una sequenza di interazioni (scambi di messaggi)  tra sistema attori
 
 
 ## Costruzione
@@ -37,7 +37,7 @@ Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le f
 ## Regole di costruzione  
 
 ![[535A4492-8548-4A9D-AAA4-515AB2E69FC1.jpeg]]
-### Generalizazioni
+### Generalizzazioni
 ![[4F681B23-0DB9-493B-AFEC-F88721FE35D0.jpeg]]
 ![[512B1F56-F974-42A5-879B-DE24BFA99EB6.jpeg]]
 #### errori di generilizazione 

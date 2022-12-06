@@ -13,12 +13,12 @@ Prev: [[Ingegneria Del Software (IS)]]
 tipo di [[GoF Design Patterns]]  Strutturale
 
 ### Quando Usarlo 
-Quando siamo un una situazionio in cui c è bisogno di mixare comportamenti.
+Quando siamo un una situazioni in cui c è bisogno di mixare comportamenti.
 - applicare il pattern evita dover fare una sotto classe per ogni combinazione 
 - ![[B14D6B98-3257-4880-819E-CED140BA8335.jpeg]]
 
 ### Vantaggi
-- più flessibile rispetto ad usare eridarieta, siccome componiamo gli oggetti e possiamo farlo a run time invece che staticamente ereditando. 
+- più flessibile rispetto ad usare eridarietà, siccome componiamo gli oggetti e possiamo farlo a run time invece che staticamente ereditando. 
 - può essere usato per fare mix and match
 - gli proprietà può essere aggiustano può volte 
 - facile aggiungere nuovi feature in modo incrementale
@@ -28,15 +28,10 @@ Quando siamo un una situazionio in cui c è bisogno di mixare comportamenti.
 - bisogna creare molti oggetti piccoli 
 - difficile da debbugare
 
-
-
-
-
-
 #### Structure
 ![[B04D6621-942A-48EE-8E54-E9EE59693B68.jpeg]]
 ##### Componenti
 1. _Componet_: Interfaccia del oggetto decorato 
 2. _ConcreteComponent_: classe base che implementa il comportamento 
-3. _Decorator_ :  Definisce un interfaccia e mantiene un riferimento ad un _component_ che può essere anche gia decorato
+3. _Decorator_ :  Definisce un interfaccia e mantiene un riferimento ad un _component_ che può essere anche già decorato
 4. _ConcreteDecorator_: definisce una nuova responsabilità 

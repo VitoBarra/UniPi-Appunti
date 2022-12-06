@@ -28,7 +28,7 @@ fase preliminare per stabilire l opportunità o meno di realizzare il software
 	- il _Dominio_ del sistema da realizzare 
 		- in generale è il campo di applicazione del prodotto 
 		Definizione del Dominio:
-		 _Glosrio_: una collezione di definizioni di termini del dominio. 
+		 _Glosraio_: una collezione di definizioni di termini del dominio. 
 		- generalmente costruito prima di parlare con il cliente e poi ampliato dopo aver comunicato con gli stakeholder.
 		- *Modello statico*:  modello [[UML]] 
 		- *Modello dinamico*: modello testuale per descrivere i passi o modello dinamico [[UML]] a stati finiti
@@ -37,7 +37,7 @@ fase preliminare per stabilire l opportunità o meno di realizzare il software
 >	- entità, relazioni processi e comportamenti.
 		 
 - i _requisiti_ utente: 
-	- Una condizione o capacita necesaria ad un utente per risolvere un problema
+	- Una condizione o capacita necessaria ad un utente per risolvere un problema
 	- Una condizione (capacità) che deve essere soddisfatta (posseduta) da un sistema per soddisfare un contratto
 >[!note]
 >_rifrasata_:
@@ -48,10 +48,10 @@ fase preliminare per stabilire l opportunità o meno di realizzare il software
 	- Come si comporta in situazioni particolari 
 - i _requisiti NON_ funzionale 
 	- Qualità:
-		- Efficenza  | Affidabilità | Usabilita | Safety |  Interfaccia | Security | Robustezza 
-	- caratteristiche di sviiluppo:
+		- Efficienza  | Affidabilità | Usabilità | Safety |  Interfaccia | Security | Robustezza 
+	- caratteristiche di sviluppo:
 		- Metodologia , standard , Linguaggio
-	- Requisiti di ineporabilita: 
+	- Requisiti di interoperabilità: 
 	- Requisito fisico
 		- mezzo di trasmissione, limiti sul Hardware, 
 	- Opzionali:
@@ -67,16 +67,8 @@ Per la descrizione dei requisiti ci sono due metodi principali
 Le due non sono mutualmente esclusive.
 
 
->[!info] ### Utilità di un documento di requsiti dal punto di vista contratturale
+>[!info] ### Utilità di un documento di requisiti dal punto di vista contrattuale
 >- Il documento dei requisiti normalmente precede la stipula del contratto, e ne è parte integrante
 >- Se alla stipula del contratto non è possibile avere un documento definitivo, è opportuno prevedere di rinegoziare il contratto.
 >- In caso di gara il documento dei requisiti può essere prodotto dal committente come parte di capitolato tecnico.
-
-
-
-
-
-
-
-
-
+>

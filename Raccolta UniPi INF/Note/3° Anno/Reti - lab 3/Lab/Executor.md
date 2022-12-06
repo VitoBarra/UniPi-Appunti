@@ -36,7 +36,7 @@ public interface ScheduledExecutorService extends ExecutorService {...}
 	- esegue un task dopo un intervallo iniziale, poi lo ripete periodicamente con un intervallo dato tra la terminazione di una esecuzione e l'inizio della successiva
 
 ## Utilizzo Concreto
- Esiste una [[classe factory]] chiamata _Executors_ che serve a generare le istanze delle classi che implementano  ExecutorService o ScheduledExecutorService. alcune implementazioni di default del linguaggio [[java]] sono:
+ Esiste una [[Design pattern - Factory|classe factory]] chiamata _Executors_ che serve a generare le istanze delle classi che implementano  ExecutorService o ScheduledExecutorService. alcune implementazioni di default del linguaggio [[java]] sono:
  - [[Fixed ThreadPool]]
  - [[Cached ThreadPool]]
  - [[ThreadPool a singolo Thread]]

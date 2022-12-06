@@ -12,7 +12,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 tipo di [[GoF Design Patterns]] creazionale
 
-in generale fornisce modi per costruire oggetti senza l utilizzo del _new_. siccome quest ultimo rompe sia il  principio  [[Principio SOLID#S*O*LID: *O*pen Closed Principle|Open Close]]  che quello di [[Principi di progettazione e qualità di un progetto#Information HIding|information Hiding]]
+in generale fornisce modi per costruire oggetti senza l utilizzo del _new_. siccome questo ultimo rompe sia il  principio  [[Principio SOLID#S*O*LID: *O*pen Closed Principle|Open Close]]  che quello di [[Principi di progettazione e qualità di un progetto#Information HIding|information Hiding]]
 siccome rende le classi dipendenti dai i tipi specifici delle classi instantiate. e ne classò di selezione di quale classe instanziare se dovesse cambiare la scelta aggiungendo o rimuovendo classi quel codice dove cambiare di nuovo 
 
 ## Simple Factory (o Concrete Factory)
@@ -34,7 +34,7 @@ in questo pattern il FactoryMethod lascia scegliere il prodotto concreto da inst
 - _ConcreteCreator_: fa l override dell factoryMethod e ritorna un Instanza di ConcreteProduct
 
 ### Vantaggi
-- codice piu flessibile e riusabile grazie al elimincazone del instanza specifica
+- codice più flessibile e riusabile grazie al eliminazione del istanza specifica
 ##### richiede
 chi vuole instanziare un prodotto concreto deve creare una sottoclasse
 ##### problema di implementazione
@@ -54,13 +54,13 @@ In generale é molto simile al Factory Method
 ![[68ACFE3C-1187-472D-BB1C-0D88B71DA129.jpeg]]
 
 ##### Componenti
-- _AbstractProduct_: Definisce l interfaccia per i tipi  che producono le cactory
+- _AbstractProduct_: Definisce l interfaccia per i tipi  che producono le factory
 - _ConcreteProduct_: Implementa l interfaccia del prodotto
-- _AbstractFactory_ :  Dichiara i metodi  interfaccia che dovono instansziare un AbstractProduct
+- _AbstractFactory_ :  Dichiara i metodi  interfaccia che devono instanziare un AbstractProduct
 - _ConcreteFactory_: implementa i metodi Della AbstarcFactory instanziando oggetti della stessa famiglia o correlati tra loro
 
 ### Vantaggio
-- codice piu flessibile e riusabile grazie al elimincazone del instanza specifica
+- codice più flessibile e riusabile grazie al eliminazione del istanza specifica
 
 
 

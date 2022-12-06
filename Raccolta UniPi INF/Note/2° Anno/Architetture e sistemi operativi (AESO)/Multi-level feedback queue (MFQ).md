@@ -11,7 +11,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-è una politica in cui si scegliere il task utilizando una coda di livelli ogni livello avra una priorita un task livello di priorita piu alta fra prerilascio su i task delle code piu basse e i task nello stesso livello vengono eseguite con una politica round robin. ogni coda ha un quanto di tempo diverso e i livelli a priorita piu alta hanno un quanto di tempo piu breve rispetto a quelle di livello piu basso
+è una politica in cui si scegliere il task utilizzando una coda di livelli ogni livello avrà una priorita un task livello di priorità più alta fra periclasio su i task delle code più basse e i task nello stesso livello vengono eseguite con una politica round robin. ogni coda ha un quanto di tempo diverso e i livelli a priorità più alta hanno un quanto di tempo più breve rispetto a quelle di livello più basso
 
 [[Multi-level feedback queue (MFQ]]%20e1eeeb4672224abf8e432f78270c8d87/Untitled.png)
 

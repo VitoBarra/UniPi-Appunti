@@ -23,14 +23,14 @@ quando si deve definire un numero indefinito di variazioni di un algoritmo o di 
 - l algoritmo diventa molto indipendente dal client che lo utilizza
 - le varie variazioni sono intercambiabili dinamicamente
 - da un alternativa alla creazioni di molte sottoclassi 
-- elimina sequenze di condizioni molto lunge
+- elimina sequenze di condizioni molto lunghe
 - da una scelta di implementazioni diverse per lo stesso comportamento 
 ##### Richiede
 - il numero di oggetti può aumentare molto 
 #### Struttura
 ![[1C69FADE-4F18-4B80-81BD-3635B235B065.jpeg]]
 ##### Didascalia
-1. _Strategy_: definisce un interfaccia comune agli algoritmi supporatti 
+1. _Strategy_: definisce un interfaccia comune agli algoritmi supportati 
 2. _ConcreteStragety_: ogni implementazione concreta del algoritmo
 3. _Context_: 
 	- Contiene una reference di tipo Strategy

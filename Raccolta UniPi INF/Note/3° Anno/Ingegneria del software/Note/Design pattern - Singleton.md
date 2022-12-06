@@ -24,7 +24,7 @@ un riferimento statico della tipo della classe di cui si vuole fare il singleton
 
 
 ## Lazy inizialization
-Un singleton Si puo inizializzare in modo lo Lazy ovvero 
+Un singleton Si può inizializzare in modo lo Lazy ovvero 
 
   ```java
   public void getInstance()
@@ -32,12 +32,12 @@ Un singleton Si puo inizializzare in modo lo Lazy ovvero
 	  return _instance== null ? new Singleton() : _instance
   } 
   ```
-cosi facendo si puo ritardare una inizializazione che puo essere costata ma questo puo portare problemi in un contesto di multiThreading. se due thread diversi chiamano insieme getInstance() potrbbero entrambi creare un instanza cosi facendo c è ne sarebbero due diverse nel sistema.
+cosi facendo si può ritardare una inizializzazione che può essere costata ma questo può portare problemi in un contesto di multithreading. se due thread diversi chiamano insieme _getInstance_() potrebbero entrambi creare un istanza cosi facendo c è ne sarebbero due diverse nel sistema.
 
 #### SOluzioni
-1. non usare inizializazione lazy e inizializzare subito il SIngleton
+1. non usare inizializazione lazy e inizializzare subito il Singleton
 2. Tecniche di sincronizzazione per il get instance cosa costosa in termini di performance 
-3. Double- Checked_ locking: controllando due volte per sincronizare solo la prima inizializazione 
+3. Double Checked locking: controllando due volte per [[Sincronizzazione di oggetti condivisi|sincronizzare]] solo la prima inizializzazione 
 ``` Java
 public static Singleton getInstance()
 {
@@ -55,8 +55,8 @@ public static Singleton getInstance()
 
 con le sotto classi abbiamo un rapporto esclusivo di instanza c è ne puo essere una solo di qualsiasi tipo. per affrontare questa problematica con i singleton ci sono due metodi 
 1. il metodo _GetInstance_(string type) Decide di quale sotto classe si deve creare l instanza tramite un parametro 
-	- problematico perche puo rompere il principio [[Principio SOLID#S*O*LID: *O*pen Closed Principle| open Closed]]
-	-  i costrutturi devono essere publici quindi il programmatore puo comunque coreane altre instanze 
+	- problematico perché può rompere il principio [[Principio SOLID#S*O*LID: *O*pen Closed Principle| open Closed]]
+	-  i costruttori devono essere pubblici quindi il programmatore può comunque coreane altre istanze 
 2. Metodo static Instanciate();
 	-  ogni sotto classe ha un metodo instanciate
 	 ```Java
@@ -72,7 +72,7 @@ con le sotto classi abbiamo un rapporto esclusivo di instanza c è ne puo essere
 #### Vantaggi
 1.  puoi passare gli oggetti come parametri 
 2. puoi implementare interfacce o classi base
-3. puo utilizzare con [[Design pattern - Factory | Design pattern  Factory]] per costruire intanze
+3. può utilizzare con [[Design pattern - Factory | Design pattern  Factory]] per costruire intanze
 
 #### Svantaggi
 [svantaggi](https:// www.oracle.com Ingegneria del Software /technicalresources / articles /java/ singleton.html)

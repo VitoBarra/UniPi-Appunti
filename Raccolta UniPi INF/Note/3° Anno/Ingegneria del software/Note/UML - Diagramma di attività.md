@@ -7,10 +7,10 @@ tags: IS
 
 Prev: [[Ingegneria Del Software (IS)]]
 
-# UML - Diagramma di attivita
+# UML - Diagramma di attività
 ---
 Un diagramma [[UML]] per modellare il flusso di lavoro
-- puo essere un compito un algoritmo  o un processo o un attività.
+- può essere un compito un algoritmo  o un processo o un attività.
 
 Questo tipo di Diagramma è utile per rappresentare:
 - Processi aziendali (analisi)

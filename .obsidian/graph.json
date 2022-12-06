@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC",
+  "search": "-tag:#MOC -path:Templete",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -97,6 +97,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "tag:#IS",
+      "color": {
+        "a": 1,
+        "rgb": 327424
+      }
     }
   ],
   "collapse-display": true,
@@ -105,10 +112,10 @@
   "nodeSizeMultiplier": 2.928,
   "lineSizeMultiplier": 1.5,
   "collapse-forces": false,
-  "centerStrength": 0.271676300578035,
+  "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.018455303708312807,
-  "close": true
+  "scale": 0.02152871844243128,
+  "close": false
 }

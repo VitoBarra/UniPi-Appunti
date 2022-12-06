@@ -9,8 +9,8 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # Modelli di cicli  di vita
 ---
-I modelli di cicli di vita servo ad affrontare lo sviluppo di un softwere. affrontare questo problema permette una migliore gestione  dei tempi e dei costi. 
-- Organizzazione delle attivita
+I modelli di cicli di vita servo ad affrontare lo sviluppo di un software. affrontare questo problema permette una migliore gestione  dei tempi e dei costi. 
+- Organizzazione delle attività
 	- Ordinamento delle attività 
 	- Criteri per terminare e passare alla successiva
 

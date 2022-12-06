@@ -34,7 +34,7 @@ I grafici per le due categorie sono
 	- [[UML - Diagramma delle componenti]]
 	- [[UML - Diagramma di dislocazione]]
 2. Dinamico:
-	- [[UML - Diagramma di attivita]]
+	- [[UML - Diagramma di attività]]
 	- [[UML - Diagramma di macchina a stati]]
 	- [[UML - Diagramma di sequenza]]
 

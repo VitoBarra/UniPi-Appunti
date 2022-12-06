@@ -17,14 +17,14 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 ## Collegamenti
 
-- Un collegamento è un instanza di un associazione 
-- collega due o piu oggetti
+- Un collegamento è un istanza di un associazione 
+- collega due o più oggetti
 - non ha un nome ma si possono specificare i ruoli
 - non ha molteplicità è sempre 1 a 1
 	- la molteplicità di un associazione ci dice quanti collegamenti ci saranno a livello di istanza 
 
 
-Esempio di [[UML - Diagramma delle classi | Diagramma delle classi]] e la rapresentazione del diagramma degli oggetti
+Esempio di [[UML - Diagramma delle classi | Diagramma delle classi]] e la rappresentazione del diagramma degli oggetti
 
 ![[305A2052-0FEA-441C-91D5-00BCCEEE7674.jpeg]]
 

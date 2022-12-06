@@ -9,7 +9,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # UML - Diagramma delle classi
 ---
-è un diagramma di [[UML]] e Rapresenta la struttura delle classi 
+è un diagramma di [[UML]] e Rappresenta la struttura delle classi 
 
 ## Sintassi 
 ![[9E99135D-5513-4D23-9BF2-FC87675BE7E2.jpeg]]
