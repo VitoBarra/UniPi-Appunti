@@ -23,15 +23,15 @@ con questo pattern la classe che richiede la costruzione di un oggetto mantiene 
 ## Factory Method
 Pattern che gestisce la creazione degli oggetti basandosi sul [[Eridarieta Delle classi|Eridarieta Delle classi]] 
 ### Quando Usarlo 
-- applicabile quando una classe non po anticipare la classe del oggetto che deve creare
+- applicabile quando una classe non po' anticipare la classe del oggetto che deve creare
 #### Structure
 ![[927B0B05-F67D-403D-A092-A49E6F1BC2F1.jpeg]]
-in questo pattern il FactoryMethod lascia scegliere il prodotto concreto da instanza alla sottoclasse di creator. in questo modo ogni sottoclasse avrà il suo prodotto associato
+in questo pattern il FactoryMethod lascia scegliere il prodotto concreto da istanza alla sottoclasse di creator. in questo modo ogni sottoclasse avrà il suo prodotto associato
 ##### Componenti
 - _Product_: Definisce l interfaccia per i tipi che il factoryMethod Costrusice
 - _ConcreteProduct_: Implementa l interfaccia del prodotto
-- _Creator_ :  Dichiara il metodo che instanzia l oggetto di tipo Product
-- _ConcreteCreator_: fa l override dell factoryMethod e ritorna un Instanza di ConcreteProduct
+- _Creator_ :  Dichiara il metodo che istanzia l oggetto di tipo Product
+- _ConcreteCreator_: fa l override del factoryMethod e ritorna un Istanza di ConcreteProduct
 
 ### Vantaggi
 - codice più flessibile e riusabile grazie al eliminazione del istanza specifica

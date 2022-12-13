@@ -16,14 +16,14 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 	-  facendo interviste con il cliente e con gli utenti 
 		- strutturate 
 		- non strutturate
-	- eventualemtne iterando prototipi 
+	- eventualmente iterando prototipi 
 	- Casi d uso 
 		- Il caso d’uso è un modo in cui un utente può usare il prodotto 
 		- Si prospetta al committente insieme al risultato atteso  e si aspettano i commenti 
 		- I casi d’uso  devono includere non solo la sequenza di eventi corretta ma anche comportamenti inattesi: eccezioni 
 	- User Staries 
 		- hanno una struttura del tipo:
-			- In qualita di “Ruolo” vorrei “obiettivo”  per ottenere ”beneficio”
+			- In qualità di “Ruolo” vorrei “obiettivo”  per ottenere ”beneficio”
 		- spesso fatte su foglio di carta fisici 
 		- informali
 		- Difficilmente scalabili
@@ -43,8 +43,8 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 		 - Può esserci ridondanza, ma solo tra sezioni diverse.
 3. _Negoziazione_: in questa fase si assegnano le priorità ai requisiti in base a 
 	- Esigenze del committente
-	- Analisi costi, tempi di produzuione
-	- queste priorità vengono poi utilizzate per decidere se cancellare o posticipare le funzionalita 
+	- Analisi costi, tempi di produzione
+	- queste priorità vengono poi utilizzate per decidere se cancellare o posticipare le funzionalità 
 	le priorità vengono categorizzate con il metodo MoSCow
 	![[B1099487-AFE9-4B59-92CF-D646D1662409.jpeg]]
 
@@ -64,7 +64,7 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 		- Stabilità 
 		- Versione destinazione Ingegneria del Software 
 			- Per lo sviluppo incrementale
-	3.  Tracciabilita:
+	3.  Tracciabilità:
 		- La tracciabilità è la capacità di descrivere e seguire la vita di un requisito del processo di sviluppo
 		- Mappa tra requisiti 
 		- componenti del sistema
@@ -73,12 +73,9 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 		- Strumenti CASE per la gestione dei requisiti 
 
 
-	
-	
-
 - Analisi di mercato:
 	- Confronto mercato attuale e futuro 
-	- Costo dell produzione, redditività 
+	- Costo del produzione, redditività 
 - Analisi tecnica:
 	- Verificare di avere le competenze tecniche 
 

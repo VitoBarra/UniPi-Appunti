@@ -10,7 +10,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 # GoF Design Patterns
 ---
 
-Sono una famiglia di Disegn pattern per lo sviluppo softwere e sono categorizzati in 
+Sono una famiglia di Disegn pattern per lo sviluppo software e sono categorizzati in 
 
 1. _Creational Patterns_
 -  gestisce la creazione di oggetti

@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md"
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md"
               }
             }
           },
@@ -181,17 +181,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "462fdb868fc1f30f",
+  "active": "11cdb9b06bb46095",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML.md",
     "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma degli oggetti.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma dei casi d uso.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma delle classi.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di macchina a stati.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Tecniche.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md"
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi GRASP.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi di progettazione e qualità di un progetto.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Modelli di cicli  di vita.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Information Hiding.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/GoF Design Patterns.md"
   ]
 }

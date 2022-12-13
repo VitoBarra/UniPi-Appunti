@@ -21,10 +21,10 @@ si inizia
 ### Metodo Statistico
 - i casi di testi sono seleziona in base alla distribuzione di [[Probabilità e variabili aleatorie| Probabilita]] dei dati di ingresso del programma
 	- Test progettato s i valori più probabili nel momento del utilizzo
-		- non sempre rispecchia la realta
-	- nota la distribuzione si puo automatizzare la creazione dei test
-	- calcavate il valore attore preciso è oneroseo (Problema del oracolo)
-### partizione dei dati in inglese so in cassi di equivalenza (categorie)
+		- non sempre rispecchia la realtà
+	- nota la distribuzione si può automatizzare la creazione dei test
+	- calcavate il valore attore preciso è oneroso (Problema del oracolo)
+### partizione dei dati in cassi di equivalenza (categorie)
 - Metodo in cui il dominio dei dati di ingresso è _ripartito_ in classi di _equivalenza_.  
 	- due valori  d ingresso appartengono alla stessa classe di equivalenza se, in base ai requisiti, dovrebbero produrre lo stesso comportate del programma (non necessariamente stesso output)
 - economicamente valido se il numero di possibili comportamenti è di molto inferiore alle possibili configurazioni di ingresso
@@ -48,11 +48,11 @@ si inizia
 - non testa i valori limiti
 
 ### Test su catalogo
-- una lista di cose da testare basate sul esperienza di chi ha gia fatto design dei test
+- una lista di cose da testare basate sul esperienza di chi ha già fatto design dei test
 
 
 ## Test combinatorio
-nei casi in cui vi valori di input sono piu di uno si dovrebbe prevedere il [[Prodotto Cartesiano]] Dei valori di input e dalla [[Combinatoria]] sappiamo che i numeri di casi da testare diventano velocemente troppi per essere gestiti.
+nei casi in cui vi valori di input sono più di uno si dovrebbe prevedere il [[Prodotto Cartesiano]] Dei valori di input e dalla [[Combinatoria]] sappiamo che i numeri di casi da testare diventano velocemente troppi per essere gestiti.
 si ragiona sulle classi di equivalenza per calcolare il numero di casi da testare. 
 #### Esempio
 <i1,i2,i3>:

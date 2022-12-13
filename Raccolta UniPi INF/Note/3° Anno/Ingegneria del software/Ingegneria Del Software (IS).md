@@ -20,7 +20,7 @@ Prev: [[Uni MOC]]
 	1. [[Testing]]
 	2. [[Tecniche di progettazione casi di test]]
 		1. [[Metodi Black Box per generare valori di input per testing]]
-		2. [[Metodi white box per il testing]]
+		2. [[Metodi White box per il testing]]
 	3. [[Tecniche di lettura del codice Strutturata]]
 
 

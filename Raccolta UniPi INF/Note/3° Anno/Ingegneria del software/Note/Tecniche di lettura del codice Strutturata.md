@@ -21,7 +21,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 ### Fasi 
 1.  Pianificazione 
 2. definizione della lista di controllo
-	- Sono frutto dell espressione  degli ispettori 
+	- Sono frutto del espressione degli ispettori 
 	- Contengono tipicamente aspetti che non possono essere controllati in maniere automatica 
 	- le liste di controllo sono aggiornate ad ogni iterazione di inspection
 3. lettura del codice
@@ -43,7 +43,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 3. correzione dei defetti
 
 #### VAntaggi 
--  Pratica e intuitività 
+- Pratica e intuitività 
 - ideale per alcune caratteristiche di qualità 
 - Convenzione economica
 	- costi i prendentesi dalle dimensioni del codice 
@@ -57,6 +57,6 @@ Prev: [[Ingegneria Del Software (IS)]]
 	- Programmatori e verificatori contrapposti 
 1. _Differenze_
 	- inspection basato su errori presupposti 
-	- Walkthrough e più completo 
 	- Inspection più rapido 
+	- Walkthrough e più completo 
 

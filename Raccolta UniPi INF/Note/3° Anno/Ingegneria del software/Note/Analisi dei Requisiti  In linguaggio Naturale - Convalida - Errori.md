@@ -22,5 +22,5 @@ Prev: [[Ingegneria Del Software (IS)]]
 1. Eliminare Incompletezze. i requisiti devono essere il più completi  aggiungendo contestualmente la gestione del dominio.
 2. _aggettivi e avverbi_: un requisiti contiene una vaghezze quando ci sono aggettivi quantificati i o avverbi non misurabili.
 	1. Abbondante, vantaggioso, accessibile , Bello
-3. _Verbi debili e forme passivi_: Evitare di scrivere i verbi deboli o frasi al passivo in questi casi potrebbe non essere chiaro il soggetto  
+3. _Verbi deboli e forme passivi_: Evitare di scrivere i verbi deboli o frasi al passivo in questi casi potrebbe non essere chiaro il soggetto  
 4. Evitare _Doppie negazioni_ 

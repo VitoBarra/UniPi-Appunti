@@ -13,7 +13,7 @@ Unified modeling Language: linguaggio per modello unificato è un linguaggio gra
 
 è principalmente pensato per la di sistemi Object-Oriented. 
 
-è una famiglia di grafici atti a descrivere piu aspetti della progettazioni software come la descrizione strutturale e la descrizione del comportamento 
+è una famiglia di grafici atti a descrivere più aspetti della progettazioni software come la descrizione strutturale e la descrizione del comportamento 
 
 UML esprime due tipi di modelli 
 - Statici: 

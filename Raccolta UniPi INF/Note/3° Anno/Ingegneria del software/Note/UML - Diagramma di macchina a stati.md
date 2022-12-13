@@ -12,7 +12,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 Diagramma [[UML]] per rappresentare lo stato del sistema 
 
 
-un diagramma a macchine a stati rapresenta il comportamento dinamici delle instanze di un classificatore ( es.oggetti istanza di una classe)
+un diagramma a macchine a stati rappresenta il comportamento dinamici delle istanze di un classificatore ( es.oggetti istanza di una classe)
 
 questa è composta dai nodi stati e da archi che rappresentano una transazione di fatto è un [[Grafo]]
 
@@ -20,7 +20,7 @@ questa è composta dai nodi stati e da archi che rappresentano una transazione d
 1. _Stato_: 
 	- Questo è composto da valori 
 	- ha un nome unici
-	- puo essere composto da piu satti
+	- può essere composto da più stati
 
 ### Sintassi
 1. _Stato_: Rapresentato da rettangolo arrotondadi
@@ -31,14 +31,14 @@ questa è composta dai nodi stati e da archi che rappresentano una transazione d
 - ![[539BC5E7-3B74-457F-8B69-57B4BA9B8AE2.jpeg]]
 - tutte le parti sono opzionali ma l evento dovrebbe esserci sempre tranne nel caso delle transizioni di _completamento_
 	- ##### Semantica
-		- Definisce la risposta dell oggetto all occorrenza di un _evento_
+		- Definisce la risposta del oggetto al occorrenza di un _evento_
 			- un evento occorre istantaneamente
-			- eventi per cui non esiste transizione dallo stato corrente vengonoignorati
+			- eventi per cui non esiste transizione dallo stato corrente vengono ignorati
 			- se ci sono più transazioni per lo stesso eventi se ne sceglie uno in modo non deterministico
 			- un evento viene aggiunto al diagramma solo se ha degli effetti.
 			- ##### Tipi di evento
 				- operazioni o segnale _op(a:T)_
-					- la transizione è abilitata quan do l oggetto riceve una chiamata di metodo o un segnale con parametro a di tipo T (potrebbero non esserci parametri) 
+					- la transizione è abilitata quando l oggetto riceve una chiamata di metodo o un segnale con parametro a di tipo T (potrebbero non esserci parametri) 
 				- Evento di variazione _quando(exp)_ o _When(exp)_
 					- la transizione è abilitata appena l espressione diventa vera
 					- l espressione può indicare un tempo assoluto o una condizione su variabili
@@ -60,7 +60,7 @@ questa è composta dai nodi stati e da archi che rappresentano una transazione d
 possono essere sequenziali o paralleli 
 ![[4F2A172E-20EA-4435-A8DD-D23AA4D4B1BB.jpeg]]
 
-in quello sequenziale si aspetta la normale uscita mentre in quello parallelo la transizione di completamento si comporta come una Join quindi ogni azione paralllela deve prima terminare  e poi si uscirà dallo stato.
+in quello sequenziale si aspetta la normale uscita mentre in quello parallelo la transizione di completamento si comporta come una Join quindi ogni azione parallela deve prima terminare  e poi si uscirà dallo stato.
 
 ### Sotto macchine
 Si possono define delle macchine in modo poterne nominare e riutilizzarle n piu contesti.

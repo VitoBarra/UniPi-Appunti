@@ -46,7 +46,7 @@ Le soluzioni sono quindi fatte ad hoc non ci si po' basare su ricette già fatte
 #### Guida 
 ### 1. Quando iniziare verifica e convalida? 
 - _Dallo studio di fattibilità_
-		- Tenendo conto quindi dei costi e della qualità richiesta
+	- Tenendo conto quindi dei costi e della qualità richiesta
 	- _le attività sono_
 		- analisi del rischio
 		- definizione delle misure necessarie per valutare e controllare la qualità in ogni stadio di sviluppo
@@ -58,7 +58,7 @@ Le soluzioni sono quindi fatte ad hoc non ci si po' basare su ricette già fatte
 		- test di non regressione
 		- rilevamento e analisi dei guasti
 ## 2. quando sono complete? 
-- Il _testing_ è solo una parte della V&V
+- Il [[Testing]] è solo una parte della V&V
 - V&V iniziano non appena decidiamo di creare un prodotto software
 - V&V d’uragano per tutto il tempo in cui il software è in uno e servono anche per far fronte alle evoluzioni e agli adattamenti alle nuove condizioni
 ## 3. quali tecniche applicare?
@@ -78,7 +78,7 @@ Le soluzioni sono quindi fatte ad hoc non ci si po' basare su ricette già fatte
 ## 5.Come possiamo controllare la qualità delle release successive?
 _Attivita dopo la consegna_
 - Test e analisi del codice nuovo e modificato
-- riesecuzione dei testi di sistema
+- esecuzione dei testi di sistema
 - memorizzazione di tutti i bug trovati
 - test di regressione
 - Distinzione tra “major” e “minor” revision

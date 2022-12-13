@@ -9,7 +9,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # UML - Diagramma degli oggetti
 ---
-è uno dei diagrammi di [[UML]] è rapresenta gli oggetti concreti.
+è uno dei diagrammi di [[UML]] è rappresenta gli oggetti concreti.
 
 ## Sintassi
 ![[7C82789E-8C2A-428A-9156-E97A52B10CED.jpeg]]
@@ -28,9 +28,8 @@ Esempio di [[UML - Diagramma delle classi | Diagramma delle classi]] e la rappre
 
 ![[305A2052-0FEA-441C-91D5-00BCCEEE7674.jpeg]]
 
-
-### esempio caso riflessivo 
+### Esempio caso riflessivo 
 ![[62D61887-DC8E-4A5C-ADD3-97100124ACE9.jpeg]]
 
-### esempio con generalizzazione
+### Esempio con generalizzazione
 ![[11F69461-4C45-4DD3-A4ED-F980975CFD7D.jpeg]]

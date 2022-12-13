@@ -22,7 +22,7 @@ quando due sistemi implementano sistemi simili ma e devono poter comunicare
 #### Struttura
 ![[B3559C79-45FB-4F4B-9762-4D555CDDDA3A.jpeg]]
 ##### Componenti
-- _Target_:  Definisce l interfaccia dell applicazione specifica
+- _Target_:  Definisce l interfaccia del applicazione specifica
 - _Adaptee_:  Definisce l interfaccia da adattare
 - _Adapter_: adatta l interfaccia di un _Adaptee_ alla interfaccia _Target_
 - _Client_: utilizza l oggetto conformandosi con l interfaccia _target_

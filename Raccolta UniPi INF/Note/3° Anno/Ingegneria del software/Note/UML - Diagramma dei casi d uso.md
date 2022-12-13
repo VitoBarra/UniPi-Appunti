@@ -47,15 +47,17 @@ Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le f
 ## Dipendenze tra casi di uso
 le dipendenze sono segnate con una freccia tratteggiata e va letta dalla dove parte verso la punta quindi: “caso d uso di partenza” dipende ”caso d uso di arrivo”. 
 
-per differerenziare le varie dipendenze si scrive lo stereotipo  tra le doppie  parentesi angolate \<steriotipo\>
+per differenziare le varie dipendenze si scrive lo stereotipo  tra le doppie  parentesi angolate \<steriotipo\>
 
 ### Inclusione
 ![[78B67656-D399-4753-BEBC-EE12F1D672A4.jpeg]]
+i casi inclusi indicano una dipendenza e viene interpretata come
+- il primo caso _necessariamente_ esegue il secondo
 i casi inclusi possono essere in stanziati da un attore o essere utilizzati solo da altri casi d uso. è un buon sistema per fattorizzare le operazioni ripetute 
 
 ### Estensione
 ![[EEB662C5-B34F-4535-A51E-92D5CDA93044.jpeg]]
-nel caso in  cui il secondo caso d uso necessariamente esegue  anche il primo ma non necessariamente viceversa. 
+nel caso in  cui il secondo caso d uso _necessariamente_ esegue  anche il primo ma _non necessariamente viceversa_. 
 
 Extension Point 
 ![[7BC9F030-070F-415F-A4DA-D024F507B06F.jpeg]]

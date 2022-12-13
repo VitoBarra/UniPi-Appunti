@@ -17,12 +17,12 @@ Permette all oggetto di comportarsi in modo diverso in base allo stato interno
 
 ### Quando applicarlo
 1. Il comportamento di un oggetto dipende dal suoi stato e deve cambiare il suo comportamento a run time in base allo stato 
-2. Le operazioni hanno dichiarazioni condizionali complesse che dipendono dallo stato dell oggetto. 
+2. Le operazioni hanno dichiarazioni condizionali complesse che dipendono dallo stato del oggetto. 
 #### Come Applicarla
-1. utilizzare una classe che funga da macchina a stati per il cliente il “Context” che tiene un riferimento di tipo _State_ che rapresenta lo stato corrente
+1. utilizzare una classe che funga da macchina a stati per il cliente il “Context” che tiene un riferimento di tipo _State_ che rappresenta lo stato corrente
 2. Creare una classe base _State_ che rispecchi l interfaccia delle operazioni sulla macchina a stati. questa ha bisogno di una parametro di riferimento a context e specifica i comportamenti di default.
 3. Derivare La classe _State_ definendo le operazioni e le transizioni di stato 
-4. tutte le richieste al context vengono delegate all oggetto satete
+4. tutte le richieste al context vengono delegate al oggetto satate
 5. i metodi del oggetto state cambiano il contesto
 
 ### Vantaggi

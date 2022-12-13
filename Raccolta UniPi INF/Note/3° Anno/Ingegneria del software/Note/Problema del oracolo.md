@@ -25,7 +25,7 @@ Il problema del oracolo si riferisce al problema del [[Testing]] di avere gia di
 	- disponibili (per funzionalità non modificate)
 	- utile per la prova di non regressione
 - versioni multiple
-	- programmi pre esistenti 
+	- programmi preesistenti 
 	- programmi ad hoc
 	- semplificare gli algoritmi
 	- inefficienti ma corretti
@@ -34,7 +34,7 @@ Il problema del oracolo si riferisce al problema del [[Testing]] di avere gia di
 	- risultati noti o calcolabili con altri mezzi
 	- ipotesi di comportamento costante
 - semplificazione dei risultati
-	- Accontentarsi di risultati plausubili
+	- Accontentarsi di risultati plausibili
 	- tramite vincoli fra inflessi e uscite
 	- tramite in varianti sulle uscite
 

@@ -37,9 +37,9 @@ un insieme di test soddisfa un criterio di adeguatezza se:
 2. dalla struttura (a scatola aperta, _white box_) guardando il codice
 	- Basati sulla conoscenza del codice
 	- mirati a esercitare il codice indipendentemente dalla funzionalità  
-	- [[Metodi white box per il testing]]
+	- [[Metodi White box per il testing]]
 3. dal modello del programma
-	- Modelli utilizzati nella specifica o nella progettazione o rivatti dell codice
+	- Modelli utilizzati nella specifica o nella progettazione o rivatti del codice
 4. da fault ipotetici
 	- Cercano difetti ipotizzato (bug comuni)
 
@@ -62,9 +62,9 @@ un insieme di test soddisfa un criterio di adeguatezza se:
 Codice che server per gestire i test e contengono 
 1. _Driver di test_: sostituiscono il programma principale che richiama la funzionalità che vogliamo testare
 2. _Stub_ : Sostituiscono le funzionalità chiamate dal test o utilizzate dal software in prova (_mock_)
-3. _Test Harness_: sostituiscono parte dell ambiente di distribuzione 
-	-  Tool per gestire l esecuzione del test
-	- tool per registrare i risutati 
+3. _Test Harness_: sostituiscono parte del ambiente di distribuzione 
+	- Tool per gestire l esecuzione del test
+	- Tool per registrare i risultati 
 
 
 	
