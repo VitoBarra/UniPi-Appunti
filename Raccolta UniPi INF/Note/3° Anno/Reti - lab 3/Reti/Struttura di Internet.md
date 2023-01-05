@@ -12,7 +12,7 @@ Prev: [[Reti - lab 3]]
 ---
 Internet è un interconnessione di [[Reti Concetti Generali|reti]] è siccome si parla di grandi numeri di reti bisogna trovare un modo intelligente per connetterle facendo si che ogni dispositivo terminale possa mandare informazioni a qualsiasi altro dispositivo.
 
-ogni host si connette ad un Internet Service Provider (ISP) ovvero un gestore della connessione 
+ogni host si connette ad un _Internet Service Provider_ (ISP) ovvero un gestore della connessione 
 - questo può essere: aziendale,residenzialo ecc
 
 per vanno perciò connessi più ISP per ottenere la connessione di tutte le reti: 

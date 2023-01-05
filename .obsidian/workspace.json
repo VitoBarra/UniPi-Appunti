@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "3ea686aa8d179033",
+    "id": "03c1f15486cc4979",
     "type": "split",
     "children": [
       {
-        "id": "f7250ab5daee3ff4",
+        "id": "69dc781eef5d5154",
         "type": "tabs",
         "children": [
           {
-            "id": "1ac129a9520b05ff",
+            "id": "798dbdebd579c5a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - FTP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,47 +21,29 @@
             }
           },
           {
-            "id": "3d7d4208acc71964",
+            "id": "a08df30630a044f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "462fdb868fc1f30f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "43b6558c1b6650f4",
+    "id": "094dbac1a98f8a2e",
     "type": "split",
     "children": [
       {
-        "id": "af7c8763f0a49864",
+        "id": "e3bc27cc321592fd",
         "type": "tabs",
         "children": [
           {
-            "id": "11cdb9b06bb46095",
+            "id": "6e44a25d8b5adab1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,12 +53,12 @@
             }
           },
           {
-            "id": "caea60011fbb2da4",
+            "id": "c031ec425c0e40ca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "iniettiva",
+                "query": "Internet service provider",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,10 +68,18 @@
             }
           },
           {
-            "id": "bd3e0f2dfa42bd42",
+            "id": "5abb40ed398135e4",
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c65ba569ba518b61",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -97,31 +87,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 300
   },
   "right": {
-    "id": "5f4a58f1f8c563c3",
+    "id": "dadc4c844a3686b6",
     "type": "split",
     "children": [
       {
-        "id": "d2cf980d1f0a2916",
+        "id": "b4019ddf31f10f0d",
         "type": "tabs",
         "children": [
           {
-            "id": "ebd5d355dd7d4af9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9f46c519c233e3e6",
+            "id": "f6fdc056a0cfe7b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,19 +114,18 @@
             }
           },
           {
-            "id": "da59e7065698c4e9",
+            "id": "29380b0997bd6ad1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0bafca4814e0a765",
+            "id": "bc142ad36ad3638e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -156,42 +136,53 @@
             }
           },
           {
-            "id": "9ecaad23194192f5",
+            "id": "2aaad1a05a00069d",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "76e87848a25119d0",
+            "id": "e3238178290bc317",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "11cdb9b06bb46095",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "6e44a25d8b5adab1",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma degli oggetti.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi GRASP.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi di progettazione e qualità di un progetto.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Modelli di cicli  di vita.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi White box per il testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Information Hiding.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/GoF Design Patterns.md"
+    "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Temp Note/ECC temp.md",
+    "Raccolta UniPi INF/Temp Note/Reti 2.md",
+    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230105012537.png",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Livello di trasporto.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230104185530.png",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - FTP.md"
   ]
 }

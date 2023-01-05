@@ -23,7 +23,7 @@ Prev: [[Studi]]
 	- [[Statistica (STAT)]]
 - 3° Anno
 	- [[Reti - lab 3]]
-	- [[Ingegneria del software]]
+	- [[Ingegneria Del Software (IS)]]
 	- [[Basi di dati]]
 - Complementari
 	- [[Cloud and Green Computing]]

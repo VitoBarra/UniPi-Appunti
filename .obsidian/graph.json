@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC -path:Templete",
-  "showTags": false,
+  "search": "-tag:#MOC",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -11,84 +11,28 @@
       "query": "tag:#MOC",
       "color": {
         "a": 1,
-        "rgb": 6700349
-      }
-    },
-    {
-      "query": "tag:#AL",
-      "color": {
-        "a": 1,
-        "rgb": 4295508
+        "rgb": 14701138
       }
     },
     {
       "query": "tag:#RO",
       "color": {
         "a": 1,
-        "rgb": 12675375
+        "rgb": 14725458
       }
     },
     {
-      "query": "tag:#STAT",
+      "query": "tag:#AL",
       "color": {
         "a": 1,
-        "rgb": 15982610
-      }
-    },
-    {
-      "query": "tag:#AESO",
-      "color": {
-        "a": 1,
-        "rgb": 9596392
+        "rgb": 11657298
       }
     },
     {
       "query": "tag:#RETI_LAB3",
       "color": {
         "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#CRI",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "tag:#CN",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "tag:#FDI",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "tag:#ECC",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#MATH",
-      "color": {
-        "a": 1,
-        "rgb": 5972828
-      }
-    },
-    {
-      "query": "tag:#PDP",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
+        "rgb": 5431378
       }
     },
     {
@@ -99,23 +43,58 @@
       }
     },
     {
-      "query": "tag:#IS",
+      "query": "tag:#CN",
       "color": {
         "a": 1,
-        "rgb": 327424
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#AESO",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:#PDP",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:#STAT",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#FDI",
+      "color": {
+        "a": 1,
+        "rgb": 11007
+      }
+    },
+    {
+      "query": "tag:#MATH",
+      "color": {
+        "a": 1,
+        "rgb": 12256992
       }
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
-  "textFadeMultiplier": -1.1,
-  "nodeSizeMultiplier": 2.928,
-  "lineSizeMultiplier": 1.5,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 20,
+  "centerStrength": 0.277142857142857,
+  "repelStrength": 9.00195694716243,
   "linkStrength": 1,
-  "linkDistance": 500,
-  "scale": 0.02152871844243128,
+  "linkDistance": 285,
+  "scale": 0.11716719648998615,
   "close": false
 }

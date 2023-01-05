@@ -12,7 +12,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 ### Definizione
 
-Una base Ortogonale di uno [[Spazii Vettoriali|Spazio vettoriale]] $V$ è una base dove tutto i vettori sono ortogonali tra di loro è in oltre detto ortonormale se il numero $g(v_i,v_i)$ é 1,0,-1
+Una base Ortogonale di uno [[Spazio Vettoriale|Spazio vettoriale]] $V$ è una base dove tutto i vettori sono ortogonali tra di loro è in oltre detto ortonormale se il numero $g(v_i,v_i)$ é 1,0,-1
 
 ### Esistenza:
 

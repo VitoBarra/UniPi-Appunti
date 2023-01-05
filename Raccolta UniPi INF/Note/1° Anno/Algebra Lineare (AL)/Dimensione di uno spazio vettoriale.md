@@ -39,7 +39,7 @@ Sia $V$ uno spazio vettoriale e $U \subset V$ un [[Sottospazio Vettoriale]]. Val
 
 ### Formula di Gassman:
 
-Sia $V$ uno [[Spazii Vettoriali]] di dimensione finita. Siano $U,W\subset V$ sottospazi. vale la formula
+Sia $V$ uno [[Spazio Vettoriale]] di dimensione finita. Siano $U,W\subset V$ sottospazi. vale la formula
 
 $$
 dim(U+W)+dim(U \cap W) = dim(U)+dim(V)
@@ -49,7 +49,7 @@ $$
 
 ### Somma Diretta
 
-Sia $V$ uno [[Spazii Vettoriali]] e  $U, W \subset V$ due sottospazi questi sono in somma diretta
+Sia $V$ uno [[Spazio Vettoriale]] e  $U, W \subset V$ due sottospazi questi sono in somma diretta
 
 se  $U ∩ W = \{0\}$. In questo caso indichiamo la loro somma con $U ⊕ W$ e Gassman otteniamo
 

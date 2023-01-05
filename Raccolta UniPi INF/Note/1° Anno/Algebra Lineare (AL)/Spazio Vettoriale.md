@@ -7,7 +7,7 @@ tags: AL
 
 Prev: [[Algebra Lineare (AL)]]
 
-# Spazi Vettoriali
+# Spazio Vettoriale
 ---
 
 
@@ -20,15 +20,11 @@ Prev: [[Algebra Lineare (AL)]]
 
 ### Esempi di spazi Vettoriali:
 
-$\mathbb{K}^n$
-  ovvero $(x_1,x_2,...,x_n)$
+- $\mathbb{K}^n$ ovvero $(x_1,x_2,...,x_n)$
+- $\mathbb{K}[x]$ ovvero lo spazo dei polinomi lineari $a_nx^n + a_{n-1}x^{n-1}+...+a_1$
+- $F (X, \mathbb{K})$ ovvero lo spazio delle funzioni $f:X\rightarrow \mathbb{K}$
+ - $M(n,m,\mathbb{K})$ ovvero lo spazio delle matrici dove $n$: colonne ; $m$: righe
 
-$\mathbb{K}[x]$ ovvero lo spazo dei polinomi lineari $a_nx^n + a_{n-1}x^{n-1}+...+a_1$
 
-$F (X, \mathbb{K})$ ovvero lo spazio delle funzioni $f:X\rightarrow \mathbb{K}$
-
- $M(n,m,\mathbb{K})$ ovvero lo spazio delle matrici dove $n$: colonne ; $m$: righe
-
-### Fatti:
-
-due spazzi vettoriali $V,W$  sono detti isomorfi se $dim(V) =dim(W)$
+>[!note]
+>due spazzi vettoriali $V,W$  sono detti isomorfi se $dim(V) =dim(W)$
