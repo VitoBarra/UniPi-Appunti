@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69dc781eef5d5154",
+        "id": "6d6a1bd6423c29dc",
         "type": "tabs",
         "children": [
           {
-            "id": "798dbdebd579c5a7",
+            "id": "83a15688a5fe01dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - FTP.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - MAC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,15 +21,32 @@
             }
           },
           {
-            "id": "a08df30630a044f8",
+            "id": "a4dbd5de4c4fef39",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - IP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af3efe7b04f0fac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - Router.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - MAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - MAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - MAC.md"
+              }
             }
           },
           {
@@ -174,15 +195,15 @@
   },
   "active": "6e44a25d8b5adab1",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Temp Note/Carrier Lab Temp.md",
-    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
-    "Raccolta UniPi INF/Temp Note/ECC temp.md",
-    "Raccolta UniPi INF/Temp Note/Reti 2.md",
-    "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230105012537.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Livello di trasporto.md",
     "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230104185530.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - FTP.md"
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230109010355.png",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - MAC.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - Router.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230108011454.png",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Dijkstra.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Condizione di Bellman.md",
+    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Algoritmo di Bellman-Ford.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - IP.md"
   ]
 }

@@ -10,8 +10,6 @@ Prev: [[Ricerca Operativa (RO)]]
 # Algoritmo di Dijkstra
 ---
 
-# Algoritmo di Dijkstra
-
 ### *Teorema*
 
 Se $c_{ij} \geq 0$ per ogni $(i,j)\in A$, allora l algoritmo di Dijkstra trova un albero dei cammini minimi dopo $|N|$ iterazioni
@@ -20,7 +18,7 @@ Se $c_{ij} \geq 0$ per ogni $(i,j)\in A$, allora l algoritmo di Dijkstra trova u
 
 - durante l’esecuzione del algoritmo $\pi$ è il vettore dei potenziali dei nodi associato al albero memorizzato del votatore $p$
 - il potenziale di ogni nodo non può mai aumentare durante l esecuzione del algoritmo
-- quando un nodo $u$ viene estratto da $U$, il suo potenziale diventa definitivo e gli archi uscenti da $u$ soddisfano le condizioni di Bellman fino alla fine del algoritmo
+- quando un nodo $u$ viene estratto da $U$, il suo potenziale diventa definitivo e gli archi uscenti da $u$ soddisfano le [[Condizione di Bellman]] fino alla fine del algoritmo
 
 ### *Algoritmo*
 

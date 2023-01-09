@@ -49,8 +49,7 @@ ogni segmento contiene nel header il numero di prota della sorgente e il numero 
 - Lo strato di trasporto dell'host ricevente consegna il segmento UDP alla socket identificata da IP e porta destinazione 
 - I datagrammi con IP e/o porta _mittente differenti_ ma _stessi IP e porta destinatari_ vengono consegnati alla stessa socket
 ![[Pasted image 20230105014750.png]]
-
-#### Demultiplexing con senza connessione - TCP
+#### Demultiplexing con connessione - TCP
 La socket TCP connessa è identificata da 4 parametri: 
 - Indirizzo IP/Numero di porta di origine 
 - Indirizzo IP/ Numero di porta di destinazione
