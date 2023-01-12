@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ae8f772629756634",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg"
               }
             }
           },
@@ -28,7 +38,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -119,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -131,24 +142,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md"
+            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "6ae88bfe51a5e742",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di macchina a stati.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria del softwere (IS) temp.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Problema del oracolo.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Metodi Black Box per generare valori di input per testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Metodi white box per il testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Tecniche di progettazione casi di test.md"
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/72C09138-5530-4EAB-A614-996CAD9968F6.jpeg",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
+    "Extra Note/Progetto Finale lab appunti.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Information Hiding.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/GoF Design Patterns.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Singleton.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Strategy.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - State.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Proxy.md"
   ]
 }

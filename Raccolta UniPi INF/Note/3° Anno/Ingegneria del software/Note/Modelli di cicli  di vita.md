@@ -50,8 +50,6 @@ questo modello piega la meta inferiore del modello a cascata.
 il lato destro verifica e controlla sempre il lato sinistro ed evidenzia come si possono gia definire i test che devono validare il codice in fase di analisi. questi infatti vengono integrati nelle fasi di sviluppo software.
 
 
-
-
 # Modelli Iterativi
 
 ## Rapid Prototyping (noto come modello evolutivo)
@@ -67,11 +65,21 @@ particolarmente utile in caso di specifiche stabili e in caso c è bisogno di ri
 ![[FAE5D97D-418B-4BA2-B4FA-15A84F56C914.jpeg]]
 ogni iterazione è organizzata in 4 fasi: 
 - Definizione degli obiettivi
-- analisi dei rischi 
+- Analisi dei rischi 
 - Sviluppo e validazione
 - Pianificazione del nuovo ciclo 
 ![[FED1C295-28E3-4C52-BAD6-D5E58ACE43FB.jpeg]]
-![[3A7370EA-57BF-4F98-A108-9A435A6B9B6B.jpeg]]
+
+- è un modello astratto
+	- va specializzato per dire cosa fare in concreto in ogni iterazione e in ogni sua fase
+	- applicabile ai cicli tradizionali
+- Evidenzia gli aspetti gestionali
+	- pianificazione dalle fasi 
+	- _Centro sull’ analisi dei rischio_ (modello “risk driven”)
+		- tipici rischi:
+			- dominio poco noto, Linguaggi o strumenti nuovi, personale non addestrato 
+		- Ispirato dal plan-do-check-act cycle
+		- prevede maggior coming azione e confronto con il committente
 
 ## Unified Process 
 è un modello guidato dai casi d uso e dall analisi dei rischi.
@@ -88,16 +96,17 @@ si sviluppa l architettura generale in modo incrementale. lasciano i dettagli al
 - Semplificare la documentazione 
 - Feedback sul sistema 
 
-Extreme programming 
-	- Lavoro flessibile 
-	- Rilasciare versioni ogni 2-4 settimana
-	 idee Fiche programmazione a coppie 
-	 No lavoro straordinario 
-	 Code refactoring 
-	 Daily stand up meeting 
+#### Extreme programming 
+- Lavoro flessibile 
+- Rilasciare versioni ogni 2-4 settimana
+- Programmazione a coppie
+- No lavoro straordinario
+	- stanchezza incrementa la probabilità di introdurre bug
+- Code refactoring
+- Daily stand up meeting 
 
-Scrum 
--  Scrum significa mischia del rugby 
+#### Scrum 
+- Scrum significa mischia del rugby 
 - Product back log list 
 - Design di alto livello del sistema 
 - Insieme di sprint di 2 settimane un mese 
@@ -105,10 +114,10 @@ Scrum
 
 **ruoli 
 
-Product owner : 
+- Product owner : 
 	- definisce le specifiche 
 	- Accetta o rigetta il lavoro di uno sprint 
- team member :
+ - team member :
 	 -  Cross working 
 	 - Organizzati indipendenti 
 	 - Ognuno risolve una cosa alla volta 
@@ -117,16 +126,36 @@ Product owner :
 	- Non ha Autorità sul team 
 
 
-	- ***Scrub: back log 
-		- cose 
-	- ***Scrum: Kansan 
-		- le tre colonne per organizzare il progetto 
-		- Non iniziare troppe cose contemporaneamente 
-			- Ridurre i task switch 
-		burn down chart 
+- ***Scrub: back log 
+	- cose 
+- ***Scrum: Kanban con WIP limit 
+	- le tre colonne per organizzare il progetto
+		- _request_: le attività non ancora iniziate 
+		- _in progres_: le attività che correntemente sono in sviluppo
+		- _Done_ : le attività completate
+	- la colonna dei _in progres_ ha una limite di attività da fare contemporaneamente. questo permette di concentrarsi su pochi task e portarli a termine piuttosto che iniziarne tanti e finirne pochi. questo riduce anche i _task switching_ che consuma energia e tempo 
+	- ![[72C09138-5530-4EAB-A614-996CAD9968F6.jpeg]]
 
-**fasi sprint 
-- Planning ( circa 8 ore )
-- Daily meating 
-- Review (4 ore incremento consegnato )
-- Retrospettiva 
+
+**fasi di uno Sprint  
+- _Planning_ ( circa 8 ore )
+	- Il producer owner gestisce l evento di pianificazione dello Sprint
+	- con il team si definisce lo sprint backlog
+- _Daily meating_ 
+	- i membri del team si posizionano in semicerchio davanti alla kanban, gli Scrum master si posizionano  nella vicinanze. si risponde alle domande:
+		- “cosa ho fatto ieri?”
+		- “cosa faro oggi?”
+		- “quali difficolta sito affrontando?”
+- _Review_ (circa 4 ore ad ogni incremento consegnato )
+	- il team in collaborazione con gli utenti ispeziona il software per ottenere un feedback. si discutono domande come:
+		- “è questo i prodotto che vogliamo costruire?”
+		- “Co penserebbero gli utenti finali del prodotto?”
+		- “quel è il feedback degli utenti finali?”
+		- “è ancora il prodotto che ci è stato richiesto?”
+		- “Ci sono cambiamenti o nuove idee?”
+- _Retrospettiva_:
+	- dopo ogni sprint si organizza un evento per riflettere imparare e riadattarsi alla prossima fase di sprint.
+	- ![[34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg]]
+
+
+![[1589FAE8-06CE-461C-8EA8-6B94B93571EE.jpeg]]

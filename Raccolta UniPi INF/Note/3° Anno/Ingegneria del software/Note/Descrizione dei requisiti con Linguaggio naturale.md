@@ -29,17 +29,17 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 		- Difficilmente scalabili
 
 1. _Elaborazione_: [[Struttura Del documento dei requisiti| strutturare un documento di requisiti]] 
-2. [[Analisi dei Requisiti  In linguaggio Naturale - Convalida - Tecniche| Convalida]]: rielaborazione dei requisiti eliminando le  [[ Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori |ambiguità]]  in particolare non ci devono esser i seguenti difetti:
+2. [[Analisi dei Requisiti  In linguaggio Naturale - Convalida - Tecniche|Convalida]]: rielaborazione dei requisiti eliminando le  [[ Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori |ambiguità]]  in particolare non ci devono esser i seguenti difetti:
 	1. Omissioni (incompletezze)
 		 - Mancata presenza di un requisito (incompletezza)
 	 2. Inconsistenze 
 		 - Contraddizione fra i vari requisiti o dei requisiti rispetto all’ambiente operativo 
-	 1. Ambiguità
+	 3. Ambiguità
 		 - Requisiti con significati 
-	 1. Sinonimi  e omonimi 
+	 4. Sinonimi  e omonimi 
 		 - multipli Termini diversi con il medesimo significato e termini uguali con differenti significati 
-	 2. Presenza di dettagli tecnici
-	 3. Ridondanza 
+	 5. Presenza di dettagli tecnici
+	 6. Ridondanza 
 		 - Può esserci ridondanza, ma solo tra sezioni diverse.
 3. _Negoziazione_: in questa fase si assegnano le priorità ai requisiti in base a 
 	- Esigenze del committente

@@ -45,8 +45,7 @@ chi vuole instanziare un prodotto concreto deve creare una sottoclasse
 ## Abstract Factory
 Pattern che gestisce la creazione degli oggetti basandosi sul [[Delega VS Eredarieta|Delega]] 
 ### Quando Usarlo
-
-
+quando si vuole aggiungere flessibilità rispetto ai factory method e si hanno piu oggetti da istanziare correlati tra di loro.
 #### Structure
 ![[C25A38D6-E770-451C-98F1-D31722D9EEA4.jpeg]]
 in questo pattern l oggetto a cui servono gli oggetti delega la costruzione mantenendo un interfaccia di una factory che li costruisce. ogni oggetto concreto che implementa la AbstractFactory costrusice famiglie di oggetti o oggetti correlati tra loro.

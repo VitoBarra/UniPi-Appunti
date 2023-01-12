@@ -27,11 +27,11 @@ fase preliminare per stabilire l opportunità o meno di realizzare il software
 	Questa fase si occupa di a _definire_ e _documentare_ COSA deve essere realizzato 
 	- il _Dominio_ del sistema da realizzare 
 		- in generale è il campo di applicazione del prodotto 
-		Definizione del Dominio:
-		 _Glosraio_: una collezione di definizioni di termini del dominio. 
-		- generalmente costruito prima di parlare con il cliente e poi ampliato dopo aver comunicato con gli stakeholder.
-		- *Modello statico*:  modello [[UML]] 
-		- *Modello dinamico*: modello testuale per descrivere i passi o modello dinamico [[UML]] a stati finiti
+	Definizione del Dominio parti:
+	 - _Glosraio_: una collezione di definizioni di termini del dominio. 
+	- generalmente costruito prima di parlare con il cliente e poi ampliato dopo aver comunicato con gli stakeholder.
+	- *Modello statico*:  modello [[UML]] 
+	- *Modello dinamico*: modello testuale per descrivere i passi o modello dinamico [[UML]] a stati finiti
 >[!note]
 >Il dominio esiste a prescindere dal sistema software  che opera o controlla quel dominio. 
 >	- entità, relazioni processi e comportamenti.
@@ -57,9 +57,8 @@ fase preliminare per stabilire l opportunità o meno di realizzare il software
 	- Opzionali:
 		- Manuale utente
 		- Casi di test
-> [!question] perche avere due categorie di requisiti 
+> [!Info] perche avere due categorie di requisiti 
 > questi due requisiti sono separati siccome vengono utilizzati in tempi diversi. infatti prima si definiscono i requisiti non funzionali e poi quelli funzionali in modo che si rispettino i vincoli di quelli non funzionali 
-
 
 Per la descrizione dei requisiti ci sono due metodi principali
 - Basa su  [[Descrizione dei requisiti con Linguaggio naturale |linguaggio naturale]]

@@ -14,7 +14,7 @@ tipo di [[GoF Design Patterns]]  Strutturale
 
 
 Un proxy fornisce un surrogato o segnapost per un altro oggetto, per controllarne l accesso
-- è simile ad [[Design pattern - Adapter| Adapter]] perché introduce un intermediario
+- è simile ad [[Design pattern - Adapter|Adapter]] perché introduce un intermediario
 - sono diversi in quanto il proxy ha stessa interfaccia  del oggetto originale nel adapter questa cosa non è vera
 - il proxy può eseguirei pre e post elaborazioni
 

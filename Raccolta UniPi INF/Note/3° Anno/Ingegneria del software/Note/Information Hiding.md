@@ -6,7 +6,7 @@ tags: IS
 Status: ToReview
 ---
 
-Prev: [[Ingegneria del software]]
+Prev: [[Ingegneria Del Software (IS)]]
 
 # Information Hiding
 ---
