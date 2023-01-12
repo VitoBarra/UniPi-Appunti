@@ -18,7 +18,7 @@ reliability.
 
 ## Index Structure
 
-questo [[file system]] utilizza un un [[array]] chiamato master file table (MFT) ogni entry mantiene degli attributi di un file. questi attributi sono la radice del albero dinamico e sono :
+questo [[File System]] utilizza un un [[array]] chiamato master file table (MFT) ogni entry mantiene degli attributi di un file. questi attributi sono la radice del albero dinamico e sono :
 
 -__standard information__: permessi d accesso, ultima modifica, dimensione totale ecc
 -__file name__ : ogni file può avere più nomi quindi qui potrebbero esserci più nomi

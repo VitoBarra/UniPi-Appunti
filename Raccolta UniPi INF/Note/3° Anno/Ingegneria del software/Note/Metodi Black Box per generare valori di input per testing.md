@@ -9,7 +9,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # Metodi Black Box per generare valori di input per testing
 ---
-metodi per il [[testing]] 
+metodi per il [[Testing]] 
 si inizia
 1. Separando le funzionalita da testare
 2. Derivando un insieme di casi di test per ogni funzionalita.

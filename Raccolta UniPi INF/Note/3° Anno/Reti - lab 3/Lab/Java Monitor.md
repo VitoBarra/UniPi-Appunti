@@ -5,11 +5,11 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3]]
+Prev: [[Reti - lab 3 MOC]]
 
 # Java Monitor
 ---
-è un meccanismo di [[Sincronizzazione di oggetti condivisi]] ad alto livello garantisce la mutua esclusione con dei [[lock]] impliciti o espliciti nel oggetto e la coordinazione con un meccanismo simile alle [[Condition Variable|variabili condizionali]].
+è un meccanismo di [[Sincronizzazione di oggetti condivisi]] ad alto livello garantisce la mutua esclusione con dei [[Lock]] impliciti o espliciti nel oggetto e la coordinazione con un meccanismo simile alle [[Condition Variable|variabili condizionali]].
 ogni oggetto in [[java]] ha un monitor
 questi si usano quei metodi dove c è bisogno della gestione del oggetto condiviso per indicare questo si aggiunge il qualificatore _synchronized_ 
 ```java

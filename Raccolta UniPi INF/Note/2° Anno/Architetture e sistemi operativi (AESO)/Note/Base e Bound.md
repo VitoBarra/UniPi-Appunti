@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Base e Bound
 ---
-Questa realizzazione di[[ memoria virtuale]] si basa sul utilizzo di due registri sul processore che indicano l inizio e la fine dello spazio di indirizzamento di un processo. Il sistema operativo può controllare che le operazioni eseguite da un processo tocchino solo la sua memoria
+Questa realizzazione di[[ Memoria Virtuale]] si basa sul utilizzo di due registri sul processore che indicano l inizio e la fine dello spazio di indirizzamento di un processo. Il sistema operativo può controllare che le operazioni eseguite da un processo tocchino solo la sua memoria
 
 ![[Astrazione_Kernel_3.png]]
 

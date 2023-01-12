@@ -13,7 +13,7 @@ le matrici logiche sono porte logiche organizzate in modo regolare con collegame
 
 ## Matrici logiche Programmatili
 
-la PLA(Programmable Logic Array) realizzano [[Logica a due livelli|funzioni combinatorie a due livelli]] nella forma somma di prodotti. quindi una matrice di AND seguita da una matrice di OR
+la PLA(Programmable Logic Array) realizzano [[Logica a due Livelli|funzioni combinatorie a due livelli]] nella forma somma di prodotti. quindi una matrice di AND seguita da una matrice di OR
 
 ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 22.png]]
 

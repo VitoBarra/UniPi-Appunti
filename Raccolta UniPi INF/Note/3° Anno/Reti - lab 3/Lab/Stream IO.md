@@ -5,13 +5,13 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3]]
+Prev: [[Reti - lab 3 MOC]]
 
 # Stream IO
 ---
 Gestione Del IO, con Java.IO basato sul concetto di stream che sono 
-- mono direzionale  (ovvero _InputStream_ e _OutStream_ sono separati)
-- Accesso FIFO
+- mono-direzionale  (ovvero _InputStream_ e _OutStream_ sono separati)
+- Accesso [[Coda struttura dati|FIFO]] 
 - di uso generale
 - Adatto a trasferire byte e caratteri
 - Bloccante (attende sulla I-O se non ci sono Dati)
@@ -30,13 +30,13 @@ Sono pensati per essere usati Concatenando più stream si può lavorare a livell
 ![[Pasted image 20220925224126.png]]
 
 
-Con il FileI-O Stream
-- Per legge da uno stream bisogna usare il metodo read
-- Per scrivere byte si usa il medito Write
+Con il _FileIO Stream_
+- Per legge da uno stream bisogna usare il metodo _read_
+- Per scrivere byte si usa il medito _Write_
 
-utilizzare BufferedI-OStream che estendono FilterI-OStream da vantaggio in termini di prestazioni 
+utilizzare BufferedIOStream che estendono FilterIOStream da vantaggio in termini di prestazioni 
 
-altri Stream come i DataI-OStream che trasformano una sequenza di byte Row in dei dati a più alto livello.
+altri Stream come i DataIOStream che trasformano una sequenza di byte Row in dei dati a più alto livello.
 
 ![[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Untitled 1 1.png]]
 

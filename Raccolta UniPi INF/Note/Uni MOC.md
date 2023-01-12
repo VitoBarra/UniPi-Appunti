@@ -22,7 +22,7 @@ Prev: [[Studi]]
 	- [[Laboratorio II]]
 	- [[Statistica (STAT)]]
 - 3° Anno
-	- [[Reti - lab 3]]
+	- [[Reti - lab 3 MOC]]
 	- [[Ingegneria Del Software (IS)]]
 	- [[Basi di dati]]
 - Complementari

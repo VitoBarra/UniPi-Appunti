@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Files Finding Data
 ---
-Once a [[file system]] has translated a file name into a file number using a directory, the file
+Once a [[File System]] has translated a file name into a file number using a directory, the file
 system must be able to find the blocks that belong to that file. In addition to this functional
 requirement, implementations of files typically target five other goals:
 

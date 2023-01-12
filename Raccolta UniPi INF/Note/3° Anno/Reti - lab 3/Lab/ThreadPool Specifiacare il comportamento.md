@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3]]
+Prev: [[Reti - lab 3 MOC]]
 
 # ThreadPool Specificare il comportamento
 ---
@@ -14,8 +14,7 @@ per personalizzare il funzionamento della [[Thread Pool]] si implementa l [[inte
 import java.util.concurrent.*;
 public class ThreadPoolExecutor implements ExecutorService 
 {
-public ThreadPoolExecutor(int CorePoolSize, int MaximumPoolSize, long keepAliveTime,
-				TimeUnit unit, BlockingQueue workqueue, RejectedExecutionHandler handler)
+public ThreadPoolExecutor(int CorePoolSize, int MaximumPoolSize, long keepAliveTime,TimeUnit unit, BlockingQueue workqueue, RejectedExecutionHandler handler)
 }
 ```
 - Configurazione Comportamento:
@@ -26,7 +25,7 @@ public ThreadPoolExecutor(int CorePoolSize, int MaximumPoolSize, long keepAliveT
 	- __KeepLiveTIme__: 
 		- é un valore in tempo dopo il quale un Thread Inattivo viene ucciso
 		- vale per thread _non_ appartenenti al Core
-			- si può invertire questo comportamento con _AllowCoreThreadTimeOut_(bool) <- questa funzione può lanciare un eccezione
+			- si può cambiare questo comportamento con _AllowCoreThreadTimeOut_(bool) <- questa funzione può lanciare un eccezione
 			- ![[Pasted image 20220925204219.png]]
 - Politica di Accettazione Task:
 	- __WorkQueue__: è una struttura dati necessaria per memorizzare gli eventuali tasks in attesa di esecuzione

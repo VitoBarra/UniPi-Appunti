@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Reti Sequenziali
 ---
-Le reti sequenziali sono [[reti logiche]] con presenza di memoria. un dato ingresso non necessariamente da lo sempre lo stesso risultato siccome questo dipende dagli ingressi E dallo stato delle memorie presente nella rete.
+Le reti sequenziali sono [[Reti logiche]] con presenza di memoria. un dato ingresso non necessariamente da lo sempre lo stesso risultato siccome questo dipende dagli ingressi E dallo stato delle memorie presente nella rete.
 
 ### Composizione sequenziale sincrona
 

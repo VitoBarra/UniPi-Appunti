@@ -15,7 +15,7 @@ un alea sono un problema di [[Temporizzazioni|temporizzazione]] e sono generate 
 
 ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 15 1.png]]
 
-si possono riconoscere con le [[mappe di Karnaugh]]
+si possono riconoscere con le [[Mappe Di Karnaugh]]
 
 ![[Untitled 1 5 1.png]]
 

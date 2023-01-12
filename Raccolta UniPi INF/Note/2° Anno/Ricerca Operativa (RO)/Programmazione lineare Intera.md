@@ -26,10 +26,11 @@ dove $A,b,c$ sono a componenti $\in \mathbb{Z}$ e la regione ammissibile $\Omega
 
 ### Teorema
 
-<aside>
-💡 Questo probela è NP-Hard
 
-</aside>
+>[!tip]-
+> Questo probela è NP-Hard vedi [[Nozione di Calcolabilità]]
+
+
 
 ### Rilassamento continuo
 

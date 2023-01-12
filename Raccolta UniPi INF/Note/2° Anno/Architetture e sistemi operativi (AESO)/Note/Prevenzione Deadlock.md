@@ -140,13 +140,13 @@ ha un interfaccia di questo tipo
 
 ## Individuare Deadlock
 
-per individuare se c è un deadlock si può controllare quanto tempo sta passando e decidere se passa tempo che c è un [[deadlock]], può dare falsi positivi ma non è un gran problema se il costo di recupero è basso
+per individuare se c è un deadlock si può controllare quanto tempo sta passando e decidere se passa tempo che c è un [[DeadLock]], può dare falsi positivi ma non è un gran problema se il costo di recupero è basso
 
 un altro sistema quando c è una sola istanza di ogni risorsa è usare i grafi
 
 ![[Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Media/Untitled 1 2 1.png]]
 
-se nel grafo che rappresenta i thread e le risorse c è un ciclo allora siamo in [[deadlock]]. se le risorse sono multyistanza il ciclo diventa una condizione necessaria ma non sufficiente per essere in deadlock
+se nel grafo che rappresenta i thread e le risorse c è un ciclo allora siamo in [[DeadLock]]. se le risorse sono multyistanza il ciclo diventa una condizione necessaria ma non sufficiente per essere in deadlock
 
 un altro modo per capire è la variazione di Coffman, Elphick, and Shoshani del metodo IsSafe() del algoritmo del banchiere
 

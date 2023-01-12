@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Tipi di cambio di modalità
 ---
-con il [[dual-mode operation]]ora c è bisogno di transitare da una modalità al altra  anche miglia glia di volte al secondo perciò devono essere veloci e sicure.
+con il [[Dual-Mode Operation]]ora c è bisogno di transitare da una modalità al altra  anche miglia glia di volte al secondo perciò devono essere veloci e sicure.
 
 # da User a Kernel Mode
 

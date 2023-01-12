@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3]]
+Prev: [[Reti - lab 3 MOC]]
 
 # Thread Pool
 ---
@@ -48,7 +48,7 @@ le ThreadPool sono di più tipi e deferisco sulle politiche di gestione
 
 ![[Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Untitled 2.png]]
 ## Chiusura Thread pool
-la thradPool Puo essere chiusa in due modi
+la thradPool può essere chiusa in due modi
 1. __Graduale__: cerca di finire i task che in esecuzione e in coda e non accetta i nuovi task che arrivano
 	- _ShutDown_(): inizia la chiusura e solleva l eccezione [[Java RejectionExecutionException|RejectionExecutionException]] al arrivo di nuovi task
 	- _isShutdown_(): da true se è stato invocato precedentemente _Shutdown_()

@@ -11,7 +11,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-la logica a più livelli è piu complessa della [[logica a due livelli]] ma ci sono delle tecniche per semplificarla riducendo cosi anche l hardware
+la logica a più livelli è piu complessa della [[Logica a due Livelli]] ma ci sono delle tecniche per semplificarla riducendo cosi anche l hardware
 
 ## Spingere le bolle
 

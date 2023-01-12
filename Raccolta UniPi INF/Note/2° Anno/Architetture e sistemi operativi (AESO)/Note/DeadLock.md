@@ -34,7 +34,7 @@ Può accadere in più occasioni:
 
 - Nested Waiting:
 
-    Un oggetto condiviso che ha acquisito due [[lock]] aspetta su un [[condition variable]] ma l oggetto che puo fare signal ha bisogno di quel [[lock]]
+    Un oggetto condiviso che ha acquisito due [[Lock]] aspetta su un [[Condition Variable]] ma l oggetto che puo fare signal ha bisogno di quel [[Lock]]
 
     ```c
     // Thread A
@@ -71,7 +71,7 @@ Entrambi sono problemi di livness ma la deadlock é una condizione più forte qu
 
 1. C è un numero finito di thread che possono simultaneamente accedere ad una risorsa
 2. Non c é pre-rilascio
-3. Un thread aspetta mentre ha già una risorsa ([[lock]])
+3. Un thread aspetta mentre ha già una risorsa ([[Lock]])
 4. C è un insieme di thread tale che ogni thread aspetti una risorsa mantenuta da un altro thread nel insieme
 
 >[!info]

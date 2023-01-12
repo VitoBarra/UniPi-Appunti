@@ -8,7 +8,8 @@ Prev: [[Uni MOC]]
 # Paradigmi Di Programmazione (PDP)
 
 ## Course MOC  📒
-1. [[Interpreti]]
+1. [[Macchina Astratta]]
+2. . [[Interpreti]]
 	1. [[Prerequisiti interpreti]]
 		1. [[Abstract Syntax Tree]]
 		2. [[Record D'attivazione]]
@@ -22,7 +23,6 @@ Prev: [[Uni MOC]]
 			2. [[Copyng collection]]
 		3. [[Generational garbage collector]]
 5. [[Domande esame orale PDP]]
-6. 
 
 ### Educational Material 🧱
 1. 

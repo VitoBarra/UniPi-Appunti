@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "-tag:#MOC",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -74,7 +74,7 @@
       "query": "tag:#FDI",
       "color": {
         "a": 1,
-        "rgb": 11007
+        "rgb": 4150986
       }
     },
     {
@@ -82,6 +82,20 @@
       "color": {
         "a": 1,
         "rgb": 12256992
+      }
+    },
+    {
+      "query": "tag:#IS",
+      "color": {
+        "a": 1,
+        "rgb": 7354451
+      }
+    },
+    {
+      "query": "tag:#ECC",
+      "color": {
+        "a": 1,
+        "rgb": 10492956
       }
     }
   ],
@@ -95,6 +109,6 @@
   "repelStrength": 9.00195694716243,
   "linkStrength": 1,
   "linkDistance": 285,
-  "scale": 0.11716719648998615,
+  "scale": 0.889738398345847,
   "close": false
 }

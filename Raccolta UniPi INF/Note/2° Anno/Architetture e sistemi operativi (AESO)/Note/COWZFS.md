@@ -9,4 +9,4 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # COWZFS
 ---
-il Copy On Write [[File system]]
+il Copy On Write [[File System]]
