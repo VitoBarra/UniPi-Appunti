@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Livello di collegamento
 ---
@@ -21,10 +21,10 @@ Il livello di collegamento lavora con _Frame_ o _Trama_
 
 ##### Divisibili in macro categorige:
 - _Punto punto_: 
-	- WAN, LAN eethernet
+	- WAN, LAN ethernet
 - _Broadcast_:
-	- collegamento condiviso tra piu dispostivi, quando un nodo trasmette un frame, il canale lo diffondo a tutti gli altri nodi revono una copia
-	- Wirless LAN, reti satelliatari, Ethernet.
+	- collegamento condiviso tra più dispostivi, quando un nodo trasmette un frame, il canale lo diffondo a tutti gli altri nodi ricevono una copia
+	- Wirless LAN, reti satellitari, Ethernet.
 
 ##### Diviosne in sottolivelli:
 1. _Data-Link Control_:
@@ -35,7 +35,7 @@ Il livello di collegamento lavora con _Frame_ o _Trama_
 	- Regola per accedere al mezzo
 
 
-##### Servizzi offerti
+##### Servizi offerti
 - _Framing_: 
 	- I protocolli incapsulano i datagrammi del livello di rete all’interno di un frame a livello di link. 
 	- Frame: campo dati, intestazione e eventuale trailer 
@@ -55,8 +55,8 @@ Il livello di collegamento lavora con _Frame_ o _Trama_
 
 
 
-#### Implementazione Livello di collegammento 
-la proprozione puoi dipendere dalla _Network interface card_ (NIC) ma generalmente sono sia su hardware che software. in particolare la correzione degli errori 
+#### Implementazione Livello di collegamento 
+la proporzione puoi dipendere dalla _Network interface card_ (NIC) ma generalmente sono sia su hardware che software. in particolare la correzione degli errori 
 ![[Pasted image 20230109021430.png]]
 
 
@@ -85,7 +85,7 @@ _dato_: canale broadcast con rate R bps desiderata:
 
 ## Algoritmi
 
-### _suddivisne del canale_ 
+### _suddivisione del canale_ 
 #### TDMA: time division multiple access
 ogni stazione ha a disposizione in time slot di lunghezza fissa.
 ![[Pasted image 20230109022522.png]]
@@ -128,19 +128,25 @@ _funzionamento_:
 - non serve la sincronizzazione 
 - Quando il nodo ha dati da inviare  li trasmette immediatamente 
 - Probabilità di collisione maggiore rispetto allo slotted Aloha funzione circa la meta peggio 
-- Un frame inviato a $t0$ collide con altri frame inviati nell’intervallo [t0 -1,t0 +1]
+- Un frame inviato a $t0$ collide con altri frame inviati nell’intervallo \[t0 -1,t0 +1\]
 ![[Pasted image 20230109023509.png]]
 
 #### carrier sense multiple access: CSMA
 - Se il canale è libero inizia a trasmettere
 - se il canale è occupato, ritarda la trasmissione
-anche aspettando siccome c è ritardo di propagazione comuque ci potrebbero essere delle collisioni 
+anche aspettando siccome c è ritardo di propagazione comunque ci potrebbero essere delle collisioni 
 - In questi casi la trasmissione è persa e bisogna ritrasmettere
 ![[Pasted image 20230109024438.png]]
 #### CSMA/CD (Collision detection)
 come il CSMA normale ma se si nota la collisione si annulla la trasmissione per evitare di sprecare ulteriormente il canale
 ![[Pasted image 20230109024202.png]]
-1. NIC receives datagram from network layer, creates frame 2. If NIC senses channel idle, starts frame transmission. If NIC senses channel busy, waits until channel idle, then transmits. 3. If NIC transmits entire frame without detecting another transmission, NIC is done with frame! 4. If NIC detects another transmission while transmitting, aborts and sends jam signal 5. After aborting, NIC enters binary (exponential) backoff: – after mth collision, NIC chooses K at random from {0,1,2, …, 2m-1}. NIC waits K·512 bit times, returns to Step 2 – longer backoff interval with more collisions
+1. NIC receives datagram from network layer, creates frame 
+2. If NIC senses channel idle, starts frame transmission. If NIC senses channel busy, waits until channel idle, then transmits. 
+3. If NIC transmits entire frame without detecting another transmission, NIC is done with frame! 
+4. If NIC detects another transmission while transmitting, aborts and sends jam signal 
+5. After aborting, NIC enters binary (exponential) backoff: –
+	1. after mth collision, NIC chooses K at random from {0,1,2, …, 2m-1}. NIC waits K·512 bit times, returns to Step 2 
+	2. longer backoff interval with more collisions
 
 ### _Rotazioni_
 #### Polling
@@ -151,7 +157,7 @@ come il CSMA normale ma se si nota la collisione si annulla la trasmissione per 
 
 
 #### TokenRing
-puo parlare solo chi ha il token che gira per la topologia della rete
+può parlare solo chi ha il token che gira per la topologia della rete
 ![[Pasted image 20230109024738.png]]
 ##### Contro
 - overhead per l invio del token che non necessariamente deve parlare

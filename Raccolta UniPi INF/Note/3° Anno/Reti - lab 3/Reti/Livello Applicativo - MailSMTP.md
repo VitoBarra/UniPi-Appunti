@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Livello Applicativo - MailSMTP
 ---
@@ -75,6 +75,9 @@ ha 3 fasi
 		- _body_: l effettivo messaggio
 	- di tipo comando, e hanno una risposta formata da _codice di stato_ e _descrizione_ facoltativa
 		- ![[Pasted image 20230104030318.png]]
+		- Il comando _HELO_ è necessario affinché il client possa identificarsi (EHLO), utilizzando il proprio nome di dominio, durante la creazione del collegamento. 
+		- Il comando _MAIL FROM_ è necessario per indicare il mittente del messaggio e fornire al server un indirizzo e‐mail per eventuali messaggi di segnalazione o di errore. 
+		- Il comando  _RCPT TO_ è necessario per indicare il destinatario al mail server a cui viene trasferita la mail (se ci sono più destinatari viene inviato un comando RCPT TO per ciascun destinatario)
 - _Chiusura della connessione_
 
 
@@ -91,7 +94,12 @@ invece di sostituire il formato viene solo esteso, cosi facendo si possono conti
  ![[Pasted image 20230104031431.png]]
 
 #### Forma dei messaggi
-Client e server SMTP si aspettano messaggi ASCII (caratteri ASCII che usano 7 degli 8 bit di un byte). I dati binari usano invece tutti gli 8 bit di un byte (es. immagini, eseguibili, set estesi di caratteri). ● MIME fornisce vari schemi di transfer encoding, tra cui: ● ASCII encoding of binary data: base 64 encoding – Gruppi di 24 bit sono divisi in 4 unità da 6 bit e ciascuna unità viene inviata come un carattere ASCII ● Quoted-printable encoding: per messaggi testuali con pochi caratteri non-ASCII, più efficiente ● Oggigiorno i mail server possono negoziare l’invio di dati in codifica binaria (8 bit), se la negoziazione non ha successo si usano i caratteri ASCII
+- Client e server SMTP si aspettano messaggi ASCII (caratteri ASCII che usano 7 degli 8 bit di un byte). I dati binari usano invece tutti gli 8 bit di un byte (es. immagini, eseguibili, set estesi di caratteri). 
+- MIME fornisce vari schemi di transfer encoding, tra cui: 
+	- ASCII encoding of binary data: base 64 encoding 
+		- Gruppi di 24 bit sono divisi in 4 unità da 6 bit e ciascuna unità viene inviata come un carattere ASCII 
+	- Quoted-printable encoding: per messaggi testuali con pochi caratteri non-ASCII, più efficiente 
+	- Oggigiorno i mail server possono negoziare l’invio di dati in codifica binaria (8 bit), se la negoziazione non ha successo si usano i caratteri ASCII
 ![[Pasted image 20230104031735.png]]
 ![[Pasted image 20230104031746.png]]
 in confronto con HTTP il protocollo 

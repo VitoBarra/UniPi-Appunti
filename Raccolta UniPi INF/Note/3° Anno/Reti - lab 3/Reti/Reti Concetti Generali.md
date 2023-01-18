@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Reti Concetti Generali
 ---
@@ -21,7 +21,7 @@ la connessione di reti funziona grazie a dei protocolli che standardizano la con
 - Server: tipicamente un computer con elevate prestazioni destinato a eseguire programmi che forniscono servizio a diverse applicazioni utente come,
 	- per esempio, la posta elettronica o il Web
 - ![[Pasted image 20221117174117.png]]
-#### Dispositivi di interconnesione: 
+#### Dispositivi di interconnessione: 
 - Router: dispositivi che interconnettono reti
 - Switch: dispositivi che collegano fra loro più host a livello locale
 - ![[Pasted image 20221117174143.png]]

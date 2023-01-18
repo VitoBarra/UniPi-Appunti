@@ -1,8 +1,19 @@
-# Word Wide Web
+---
+type: nota
+course: Reti e Laboratorio di reti
+topic: 
+tags: RETI_LAB3 
+---
+
+Prev: [[Reti - lab 3]]
+
+# WWW - Word Wide Web
+---
+
 è la rete di dimensione globale ed è ha queste caratteristiche: 
 - un collezioni di informazioni nella quale le risorse sono distribuite e collegate l una al altra
-- Qualsiasi server web nel mondo puo aggiungere risorse
-- è Basato su [[Livello Applicativo - HTTP HyperText Transfer Protocol]]
+- Qualsiasi server web nel mondo può aggiungere risorse
+- è Basato su [[Livello Applicativo - HTTP|HTTP]]
 - fa largo uso di _Hyperlink_  ovvero risorse che hanno riferimenti ad altre risorse (testuali o media)
 
 
@@ -22,11 +33,11 @@ sotto insieme di URI che identifica le risorse attraverso il loro meccanismo di 
 - _Scheme_: protocollo di accesso alla risorsa
 - _host_: nome di dominio di un host o indirizzo IP
 - _Port_: numero si porta del server di solito si usano quelle di default
-- _Path_: contiene dati per l host e schema e identifica la risorsa nel contesto di quello schema e host può consistere in una sequenza di segmenti sperata di / ad esempio nel file system del serv3e ma non solo il path specifica la Request-URI
+- _Path_: contiene dati per l host e schema e identifica la risorsa nel contesto di quello schema e host può consistere in una sequenza di segmenti sperata di / ad esempio nel file system del serve ma non solo il path specifica la Request-URI
 #### HTTP URL
 - _query_: stringa di informazioni che deve essere interpretata dal server
 
-le url possono essere di 2 tipi
+le URL possono essere di 2 tipi
 1. _URL assoluta_ : identifica una risorsa indipendentemente dal contesto in cui è usata
 2. _URL relativa_ :informazioni per identificare una risorsa in relazione ad un’altra URL (è priva dello schema e della authority)
 	![[Pasted image 20230102192305.png]]

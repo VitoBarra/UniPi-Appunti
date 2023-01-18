@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Scheduled Thread Pool
 ---

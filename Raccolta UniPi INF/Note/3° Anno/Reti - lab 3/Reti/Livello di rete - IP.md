@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Livello di rete - IP
 ---
@@ -17,15 +17,15 @@ Prev: [[Reti - lab 3 MOC]]
 	- non ci sono connessione logiche tra mittenti e destinatario
 - best-effort
 	- quindi nessuna garanzia che i pacchetti vengano ricevuto nel rodine in cui sono stati inviati
-	- non è garantita la conesegna
+	- non è garantita la consegna
 - non affidabile
-	- Nessun meccanismo di recupero se un pacchetto è persp
-- nessuna garanzia sulla qualita dei servizio
+	- Nessun meccanismo di recupero se un pacchetto è perso
+- nessuna garanzia sulla qualità dei servizio
 	- nessuno controllo di flusso
 	- nessun limite sul tempo di consegna
 
 
-## Servizzi
+## Servizi
 #### Forwarding
 trasferimento del pacchetto sull’appropriato collegamento di uscita
 ![[Pasted image 20230106194734.png]]
@@ -132,13 +132,25 @@ Questo porta a dover scegliere come assegnare gli indirizzi
 - _Classe E_, riservata per usi futuri 
 	- 240.0.0.0 – 255.255.255
 
-##### classles Ddressing 
-piu flessibile rispetto al classfull Adressign
+##### classles addressing 
+più flessibile rispetto al classfull Addressign
 ![[Pasted image 20230106225423.png]]![[Pasted image 20230106225438.png]]Una rete con un prefisso di rete di n bit può avere al massimo $2 ^{32-n} -2$ host (devo sottrarre indirizzo di rete e indirizzo di broadcast)
 
 ##### Subnet mask
-una stiringa di 32 bit di cui i primi $n$ a 1, utile per ottenere solo l indirizzo di rete facendo l AND con l indirizzo IP 
+una siringa di 32 bit di cui i primi $n$ a 1, utile per ottenere solo l indirizzo di rete facendo l AND con l indirizzo IP 
 ![[Pasted image 20230106225751.png]]
+
+### Indirizzi speciali
+- _This-host_ 0.0.0.0 
+	- Usato quando un host ha necessità di inviare un datagramma ma non conosce il proprio indirizzo IP (indirizzo sorgente) 
+- _Limited-broadcast_ 255.255.255.255 
+	- Usato quando un router o un host devono inviare un datagramma a tutti i dispositivi che si trovano all’interno della rete. I router bloccano la propagazione alla sola rete locale. 
+- _Loopback_ 127.0.0.1 
+	- il datagramma con questo indirizzo di destinazione non lascia l’host locale (localhost). Per test e debug. 
+- _Indirizzi privati_ 
+	- Quattro blocchi riservati per indirizzi privati (riservati per reti locali): 
+	- 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, 169.254.0.0/16 
+- _Indirizzi multicast_  Blocco 224.0.0.0/4
 
 
 ## inoltro (Forwarding)
@@ -149,28 +161,45 @@ ogni datagramma IP deve essere inoltrato
 	- non viene interpellata nessun altra entita
 - _Inoltro indiretto_: il pacchetto IP ha come destinazione un host di un'altra rete (o subnet) IP
 	- viene delegato l invio ad un _router_
-	- l indirizzo di destinazione a livello link e quello del _router_
+	- l indirizzo di destinazione a [[Livello di collegamento]] e quello del _router_
 Per far sei che entrambi questi due casi siano fattibili devono essere vere due cose 
-1. siste un cammino diretto, a livello data-link tra tutt gli host che appartengono alla stessa sottorete
+1. c è un cammino diretto, a livello data-link tra tutti gli host che appartengono alla stessa sottorete
 2. ogni host coinvolto abbia un indirizzo IP ben formato 
 
 
 #### Router
 ![[Pasted image 20230107001213.png]]
 ![[Pasted image 20230107001229.png]]
+- Aggrego gli indirizzi di inoltro cambiando il numero di bit della parte di rete 
 ![[Pasted image 20230107001242.png]]
- Divisione di Ip associati in piu router
+- in questo caso ordino gli indirizzi partendo dalla netmask piu lunga
+- per inoltrare il pacchetto vado in ordine per scegliere
 ![[Pasted image 20230107001258.png]]
+ - Divisione di Ip associati in più router
 
 ##### NAT
 in casi di reti private che vogliono comunicare con esterno c è bisogno un router NAT, questo deve avere almeno un IP pubblico.
 - tutto il traffico in uscita dalla rete privata verso l esterno avrà come IP Sorgente l IP pubblico NAT
 - tutto il traffico in entrata dalla rete pubblica verso l interno avrà come IP Sorgente l IP pubblico NAT
 ![[Pasted image 20230107001702.png]]
-il Router mantiene una tabella di traduzione per reindirizzare i pachett nella rete privata.
+il Router mantiene una tabella di traduzione per reindirizzare i pacchetti nella rete privata.
+
+bisogna cambiare la porta nella traduzione siccome i messaggi arrivano da più host e potrebbero avere la stessa porta cambiando la porta se ne può assegnare una per comunicazione garantendone l univocità
 
 >[!Question]
 >Quante comunicazioni può gestire un router NAT con un solo indirizzo pubblico?
 >credo il numero massimo di porte quindi $2^{16}$
 
-
+## IPv6
+Motivazioni del protocollo IPv6
+-  Esaurimento indirizzi a 32 bit 
+	- indirizzi a 128 bit 
+- Velocizzare elaborazione e forwarding pacchetti 
+	- lunghezza fissa (40 byte) dell’header 
+	- eliminato checksum 
+- Risparmiare ai router costo frammentazione 
+	- ICMPv6: msg “packet too big” (sorgente deve preoccuparsi della frammentazione) 
+- Facilitare QoS 
+	- introdotta “flow label” per identificare datagram appartenenti allo stesso “flow”
+	- (p.e. insiemi di pacchetti che richiedono un trattamento speciale come QoS p.e. audio video, high-priority traffic)
+![[Pasted image 20230109004557.png]]

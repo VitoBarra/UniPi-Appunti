@@ -4,42 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3d627ed95e1580",
+        "id": "51d1dcfa23c61769",
         "type": "tabs",
         "children": [
           {
-            "id": "34b0fe277914dcad",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230111205145.png"
-              }
-            }
-          },
-          {
-            "id": "477611c7ff308086",
+            "id": "7d0c1ec8e4b3f8c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Channel NIO.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello trasporto - TCP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "c28b065ce460bcc8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Channel NIO.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello trasporto - TCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Channel NIO.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello trasporto - TCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Channel NIO.md"
+                "file": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello trasporto - TCP.md"
               }
             }
           },
@@ -186,17 +167,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "477611c7ff308086",
+  "active": "7d0c1ec8e4b3f8c8",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3 MOC.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool Specifiacare il comportamento.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool a singolo Thread.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Thread Pool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Cached ThreadPool.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230112012753.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ChannelSelector.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Interfaccia Java Callable.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230111205145.png"
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - indirizzi MAC.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - IP.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Sicurezza di una rete.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Peer-to-Peer.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - VLAN.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - Eternet.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Visione generale Comunicazione rete.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Relazione Progetto Wordle - Vito Barra 616830.md"
   ]
 }

@@ -6,7 +6,7 @@ tags: RETI_LAB3
 Status: ToReview
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Struttura di Internet
 ---

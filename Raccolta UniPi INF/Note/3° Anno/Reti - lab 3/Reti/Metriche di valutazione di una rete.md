@@ -6,12 +6,12 @@ tags: RETI_LAB3
 Status: ToReview
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Metriche di valutazione di una rete
 ---
  - _Larghezza di banda (Bandwidth)_:  larghezza dell’intervallo di frequenze utilizzato dal sistema trasmissivo. Si misura in Hertz (Hz – cycles per second) 
-- Velocità di trasmissione (bit rate o transmission rate) – quantità di dati (bits) che possono essere trasmessi (“inseriti nella linea”) nell'unità di tempo (bits/secondo or bps) su un certo collegamento 
+- _Velocità di trasmissione_ (bit rate o transmission rate):  quantità di dati (bits) che possono essere trasmessi (“inseriti nella linea”) nell'unità di tempo (bits/secondo or bps) su un certo collegamento 
 	- _Bit rate_: dipende dalla larghezza di banda ma è influenzato anche da altri fattori (tecnica trasmissiva usata, rumore, ecc.)
 - 
 ### Throughput
@@ -20,9 +20,8 @@ il Throughput è la quantità di dati che possono essere trasmessi con successo 
 - _Throughput_ < _transmission rate_
 ![[Pasted image 20221117201733.png]]
 ![[Pasted image 20221117201757.png]]
-
-- end-end Throughput per connessione: min(Rc ,Rs ,R/10) 
-- in pratica spesso Rc or Rs sono il collo di bottiglia (rete di accesso) 
+- _end-end Throughput_ per connessione: $min(R_c ,R_s ,R/n)$ 
+- in pratica spesso $R_c$ o $R_s$ sono il collo di bottiglia (rete di accesso) 
 >[!nota]
 >- Il throughput dipende non solo dalla velocità di trasmissione del collegamento ma anche dalla quantità di dati (flussi di traffico aggiuntivi rispetto a quello di interesse), effetti dei protocolli, ecc…
 ![[Pasted image 20221117201859.png]]
@@ -34,7 +33,7 @@ quando si verifica il ritardo nel caso della [[Tecniche di Commutazione#Commutaz
 - il tasso di arrivo dei pacchetti sul collegamento eccede la capacità del collegamento in uscita di evaderli
 - i pacchetti si accodano, in attesa del proprio turno
 ![[Pasted image 20221117232909.png]]
-i ritardi sono di 2 tipi
+#### Tipi di ritardo
 1. $R_{acc} =$ _Ritardo di accodamento_
 	 è il tempo in cui il pacchetto attende nella coda del router (dipende dalla congestione)
 	- attesa di trasmissione
@@ -51,7 +50,7 @@ i ritardi sono di 2 tipi
 	Tempo che serve a un bit per viaggiare da un punto A a un punto B sul mezzo trasmissivo. Dipende dalla distanza (valori tipici da pochi microsecondi a centinaia di millisecondi)
 	 - Tempo impiegato da 1 bit per essere propagato da un nodo all’altro
 	 - d = lunghezza del collegamento fisico
-	 - s = velocità di propagazione del mezzo (~3-2x108 m/sec)
+	 - s = velocità di propagazione del mezzo
 ![[Pasted image 20221117233413.png]]
 il ritardo totale si calcola
 $$R_{node} = R_{pr}+R_{tr}+R_{acc}+R_{el}$$

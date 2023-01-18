@@ -16,6 +16,8 @@ Prev: [[Uni MOC]]
 	2. [[]]
 3. [[Crittografia Moderna]]
 	1. [[RSA]]
+4. [[Cifrari a chiave Simmetrica]]
+5. [[Cifrario a chiave Asimmetrica]]
 
 
 ### Educational Material 🧱

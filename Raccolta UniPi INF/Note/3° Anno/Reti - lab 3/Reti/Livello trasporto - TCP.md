@@ -5,13 +5,13 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Livello trasporto - TCP
 ---
 il [[Protocollo]] TCP è un protocollo di [[Livello di trasporto]] 
 
-questo protocollo è _orientato_ alla connessione nonostante si basi sul utilizzo di [[Livello di rete - IP|IP]] che sono connection less
+questo protocollo è _orientato_ alla connessione nonostante si basi sul utilizzo di [[Livello di rete - IP|IP]] che è connection-less
 - _orientato_: perché lo stato della connessione risiede sui punti terminali non sugli elementi intermedi della rete
 
 _Funzioni base per il trasferimento di dati_: 
@@ -34,7 +34,7 @@ _Controllo di congestione_
 - ha lo scopo di recuperare situazioni di sovraccarico nella rete
 _Trasferimento bufferizzato_: 
 - Il software del protocollo TCP è libero di suddividere il flusso di byte in segmenti in modo indipendente dal programma applicativo che li ha generati. Per fare questo è necessario disporre di un BUFFER dove immagazzinare la sequenza di byte. Appena i dati sono sufficienti per riempire un segmento ragionevolmente grande, questo viene trasmesso attraverso la rete. 
--  La bufferizzazione consente una riduzione del traffico sulla rete "ottimizzando" in qualche modo il numero di segmenti da trasmettere
+-  La bufferizzazione consente una riduzione del traffico sulla rete "ottimizzando" il numero di segmenti da trasmettere
 ![[Pasted image 20230105192435.png]]
 Questo flusso di byte viene diviso in segmenti 
 ![[Pasted image 20230105193418.png]]
@@ -42,15 +42,15 @@ Questo flusso di byte viene diviso in segmenti
 
 ## Segmento TCP
 ![[Pasted image 20230105193953.png]]
-il Segmento TCP è composta da due parti itestazione Dati
+il Segmento TCP è composta da due parti intestazione e Dati
 Intestazione: 
 - Porte di sorgente e arrivo:  Utili per distinguere una connessione da un altra
-- _Numero di sequenza _: è il numero del primo byte di dati nello stream totale
-	- Se è settata la flag _SYN_ allora il numero di sequenza è _ISN_ (Initial sequence number) e il primo byte di dati è _SIN+1_
-- _numero di riscontro _: solo se la flag _ACK_ è settata questo campo contiene il valore del prossimo numeri di sequenza che il mittente del segmento si aspetta di ricevere dal altro host. 
+- _Numero di sequenza_ : è il numero del primo byte di dati nello stream totale
+	- Se è settata la flag _SYN_ allora il numero di sequenza è _ISN_ (Initial sequence number) e il primo byte di dati è _ISN+1_
+- _numero di riscontro_: solo se la flag _ACK_ è settata questo campo contiene il valore del prossimo numeri di sequenza che il mittente del segmento si aspetta di ricevere dal altro host. 
 	-  una volta che la connessione è stabilita è sempre inviato
-	- Si se $ACK = x+1$ si interpreta come ho ricevuto tutti i precedenti $x$ byte
-- _Hlen_: lunghezza del header TCP espressa on parole da 4 byte
+	- se $ACK = x+1$ si interpreta come ho ricevuto tutti i precedenti $x$ byte
+- _Hlen_: lunghezza del header TCP espressa in parole da 4 byte
 
 #### Flag
 - _URG_: Il campo Puntatore Urgente contiene dati significativi da trasferire in via prioritaria 
@@ -80,7 +80,7 @@ Intestazione:
 2. Il server estrae il segmento, alloca i 2 buffer (ingresso uscita) e le variabili TCP per il controllo di flusso, invia poi in risposta un segmento di connessione garantita al client (chiamato SYNACK) 
 	1. è attivo SYN, il numero di sequenza è il valore iniziale (es. server_isn = 78) 
 	2. è attivo ACK, il server aspetta client_isn+1 (es. 42) 
-	3. _Esempio_ SYN=1, ACK = client_isn +1, proprio numero di sequenza iniziale server_isn. Segmento SYNACK
+	3. _Esempio_ SYN=1, ACK = client_isn +1, proprio numero di sequenza iniziale server isn. Segmento SYNACK
 3. il client alloca buffer e variabili di connessione manda un riscontro positivo del messaggio del server. 
 	1.  _SYN_=0. Questo segmento può già trasportare dati 
 	2. il prossimo dato sarà client_isn+1 (42) ed il client attende _acq_= server_isn+1 (79) 
@@ -100,11 +100,11 @@ Intestazione:
 ![[Pasted image 20230105215055.png]]
 - _TIME_WAIT_ è lo stato finale in cui il capo di una connessione che esegue la chiusura attiva resta prima di passare alla chiusura definitiva della connessione 
 	- due volte la _MSL_ (Maximum Segment Lifetime). 
-	- La _MSL_ è la _stima_ del massimo periodo di tempo che un pacchetto IP può vivere sulla rete; questo tempo è limitato perché ogni pacchetto [[Livello di rete - IP|IP]] può essere ritrasmesso dai router un numero massimo di volte (detto hop limit). 
-	- Ogni implementazione del TCP sceglie un valore per la MSL (RFC 793 2 minuti, Linux 30 o 60 secondi). 
+		- _MSL_: è la _stima_ del massimo periodo di tempo che un pacchetto IP può vivere sulla rete; questo tempo è limitato perché ogni pacchetto [[Livello di rete - IP|IP]] può essere ritrasmesso dai [[Livello di rete - Router|Router]] un numero massimo di volte (detto hop limit). 
+	- Ogni implementazione del TCP sceglie un valore per la _MSL_ (RFC 793 2 minuti, Linux 30 o 60 secondi). 
 - Lo stato _TIME_WAIT_ viene utilizzato dal protocollo per due motivi principali: 
 	- implementare in maniera affidabile la terminazione della connessione in entrambe le direzioni. 
-		- Se l’ultimo _ACK_ della sequenza viene perso, chi esegue la chiusura passiva manderà un ulteriore _FIN_, chi esegue la chiusura attiva deve mantenere lo stato della connessione per poter reinvitare l'_ACK_ 
+		- Se l’ultimo _ACK_ della sequenza viene perso, chi es egue la chiusura passiva manderà un ulteriore _FIN_, chi esegue la chiusura attiva deve mantenere lo stato della connessione per poter reinvitare l'_ACK_ 
 	- consentire l'eliminazione dei segmenti duplicati in rete. (come no capito)
 #### Half-Closed
 ![[Pasted image 20230105215821.png]]
@@ -186,7 +186,7 @@ puo anche arrivare in pipeline
 - Deve essere maggiore di _RTT_ (Round Trip Time) 
 	- _RTT_: tempo trascorso da quando si invia un segmento a quando se ne riceve il riscontro 
 - Viene calcolato analizzando gli RTT dei segmenti non ritrasmessi (Sample RTT, stimato per un segmento trasmesso – non per ogni invio)
-		$$Estimated RTT = (1 - \alpha) * EstimatedRTT + \alpha * Sample RTT$$
+		$$RTT_{ESTIMATED}= (1 - \alpha) * RTT_{ESTIMATED} + \alpha * RTT_{SAMPLE}$$
 - _SampleRTT_ può fluttuare. Si considera _EstimatedRTT_: combinazione dei precedenti valori di EstimatedRTT con il nuovo valore SampleRTT
 - viene posto  $\alpha=1/8$ in modo da rendere via via meno importanti gli RTT dei pacchetti più vecchi (RFC 2988)
 - ![[Pasted image 20230105231152.png]]
@@ -197,7 +197,7 @@ puo anche arrivare in pipeline
 - Una volta ottenuti questi valori, il timeout viene normalmente calcolato come $$RTO = RTT_{ESTIMATED} + 4 RTT_{DEV} $$
 - In molte implementazioni, dopo un errore (es. ACK non ricevuto) si raddoppia il timeout: si tratta di un primo meccanismo di controllo della congestione
 
-### Finestra di trasmisisone
+### Finestra di trasmissione 
 - I dati inviati dal processo a livello applicativo sono mantenuti nel buffer di invio
 - La trasmissione dei dati si basa sulla finestra di trasmissione (_sliding window_). 
 	- finestra sovrapposta sulla sequenza\ da trasmettere 
@@ -232,13 +232,13 @@ puo anche arrivare in pipeline
 
 ### Controllo di congestione
 Il controllo della conestione serve per modulare la velocita di trasmissione di TPC a secondo della _congestione percepita_ sulla rete
-la congestione è alta se ci sono tropposorgenti che trasmettono troppi dati a una velocita elevata cio puo portare a 
+la congestione è alta se ci sono troppe sorgenti che trasmettono troppi dati a una velocita elevata ciò può portare a 
 - Lunghi ritardi  per gli accodamenti nei buffer dei router
-- perdita di pacchetti per l overflow dei bufferi dei router
+- perdita di pacchetti per l overflow dei buffer dei router
 
 ![[Pasted image 20230106000414.png]]
 questa gestione cambia la finestra di invio di TCP rendendola $=min(rwnd,cwnd)$
- Quindi rate di invio non può superare $min(rwnd,cwnd)/RTT$
+Quindi rate di invio non può superare $min(rwnd,cwnd)/RTT$
 
 #### Congestion Windows: cwnd
 -  Si misura tipicamente in MSS 
@@ -249,7 +249,7 @@ questa gestione cambia la finestra di invio di TCP rendendola $=min(rwnd,cwnd)$
 - _RTT_ (Round Trip Time) è il tempo impiegato da un segmento per effettuare il percorso di andata e ritorno
 
 
-### Fasi gestione Congesione
+### Fasi gestione Congestione
 #### Additive Increase Multiplicative Decrease: AIMD
 - TCP del mittente aumenta proporzionalmente la propria finestra di congestione ad ogni ACK ricevuto.
 - Ad ogni ACK $cwnd= cwnd+1/cwnd$
@@ -295,9 +295,14 @@ simile al TCP RENO ma senza fast recovery
 
 
 ### TCP CUBIC
-• Wmax: rate di invio quando è stata rilevata congestione • Lo stato di congestione del collegamento “collo di bottiglia” probabilmente (?) non è cambiato molto • Dopo aver dimezzato la finestra in seguito ad un evento di perdita, in una prima incremento verso Wmax più veloce, ma poi avvicinamento a Wmax più lento
+-  _Wmax_: rate di invio quando è stata rilevata congestione 
+- Lo stato di congestione del collegamento “collo di bottiglia” probabilmente (?) non è cambiato molto 
+- Dopo aver dimezzato la finestra in seguito ad un evento di perdita, in una prima incremento verso _Wmax_ più veloce, ma poi avvicinamento a Wmax più lento
 ![[Pasted image 20230106005203.png]]
-K: punto nel tempo in cui la cwnd raggiungerà Wmax • K stesso è configurabile • Incrementi maggiori quando siamo lontani da K • Incrementi più piccoli (cauti) quando siamo più vicini a K
+- K: punto nel tempo in cui la cwnd raggiungerà Wmax 
+- K stesso è configurabile 
+- Incrementi maggiori quando siamo lontani da K 
+- Incrementi più piccoli (cauti) quando siamo più vicini a K
 
 
 

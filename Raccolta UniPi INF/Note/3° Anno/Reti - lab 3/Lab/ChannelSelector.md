@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # ChannelSelector
 ---
@@ -45,14 +45,14 @@ nella pratica si utilizzano le costati statiche definite in _slectionKey_ per co
 Selectionkey key = channel.register(selector,SelectionKey.OP_READ | SelectionKey.OP_WRITE);
 ```
 ad ogni registrazione il metodo ritorna un oggetto _SelectionKey_ che contiene
--  il canale a cui si riferisce 
-- il selettore a cui si riferisce 
-- l'interest set 
+- _il canale_ a cui si riferisce 
+- _il selettore_ a cui si riferisce 
+- _l'interest set_ 
 	- utilizzato quando il metodo select viene invocato per monitorare i canali del selettore 
 	- definisce le operazioni su cui si deve fare il controllo di “readiness”, 
-- il ready set 
+- il _ready set_ 
 	- dopo la invocazione della select, contiene gli eventi che sono pronti su quel canale  
-- un allegato, attachment 
+- un allegato, _attachment_ 
 	- uno spazio di memorizzazione associato a quel canale per quel selettore
 
 un canale può registrarsi più volte sullo stesso selettore

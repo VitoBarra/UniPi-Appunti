@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOC",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -18,21 +18,21 @@
       "query": "tag:#RO",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 11982204
       }
     },
     {
       "query": "tag:#AL",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 4478495
       }
     },
     {
       "query": "tag:#RETI_LAB3",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 4607
       }
     },
     {
@@ -67,21 +67,21 @@
       "query": "tag:#STAT",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 16113664
       }
     },
     {
       "query": "tag:#FDI",
       "color": {
         "a": 1,
-        "rgb": 4150986
+        "rgb": 878041
       }
     },
     {
       "query": "tag:#MATH",
       "color": {
         "a": 1,
-        "rgb": 12256992
+        "rgb": 2037792
       }
     },
     {
@@ -105,10 +105,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.277142857142857,
-  "repelStrength": 9.00195694716243,
+  "centerStrength": 0.473958333333333,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 285,
-  "scale": 0.889738398345847,
+  "linkDistance": 275,
+  "scale": 0.042315902689759655,
   "close": false
 }

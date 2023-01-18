@@ -6,7 +6,7 @@ tags: RETI_LAB3
 Status: ToReview
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Tecniche di Commutazione
 ---
@@ -54,7 +54,7 @@ siccome le risorse sono condivisi ci potrebbe essere una contesa per l utilizzo 
 ![[Pasted image 20221117200136.png]]
 ogni volta che si manda un pacchetto ma il mezzo trasmissivo non ha ulteriore capacita per mandare i pacchetti ciò che arriva si accoda nei buffer del router.  il che porta a congestione se i pachetti iniziano ad essere tanti e i buffer si possono riempire 
 
-#### PRoblematiche
+#### Problematiche
 - _Ritardi di store and forward_ : Il commutatore (es. router) deve ricevere l’intero pacchetto prima di poter cominciare a trasmettere il primo bit del pacchetto sul collegamento in uscita
 - _Ritardo di accodamento_: Attesa dei pacchetti in code di output (buffer)
 - _Perdita di pacchetti_: succede se i buffer dei router o del destinatario sono pieni.

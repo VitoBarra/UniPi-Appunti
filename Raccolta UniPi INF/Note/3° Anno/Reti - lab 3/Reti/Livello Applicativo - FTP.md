@@ -5,7 +5,7 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
 # Livello Applicativo - FTP
 ---
@@ -26,15 +26,15 @@ FTP è lo standard per il trasferimento di file in reti TCP/IP le funzionalità 
 ## Modello FTP
 
 1. _connessione di controllo_: scambio di comanda e risposte tra client e server. 
-2. _Connessione dati_ : Connessione sui cui i dati sono trasferiti con modi e tipo specificati i dati trasferiti possono essere parte di un file,un file o un set di file
+2. _Connessione dati_ : Connessione sui cui i dati sono trasferiti con modi e tipo specificati i dati trasferiti possono essere parte di un file, un file o un set di file
 3. entrambi usano [[Livello trasporto - TCP|TCP]]
 4. è un protocollo _Stateful_
-	1. Tiene traccia dello stato del utente coem connessioni di controllo associata, directory attuale.
+	1. Tiene traccia dello stato del utente come connessioni di controllo associata, directory attuale.
 
 
 #### FTP: Connessione di Controllo
 - il client FTP contatta il Server FTP
-	- utilizza un porta casuale e si connette alla prota 21 del Server
+	- utilizza un porta casuale e si connette alla porta 21 del Server
 - il Client ottiene l autorizzazione sulla connessione di controllo
 - il client invia i comandi sulla connessione di controllo 
 	- Cambio directory invio file

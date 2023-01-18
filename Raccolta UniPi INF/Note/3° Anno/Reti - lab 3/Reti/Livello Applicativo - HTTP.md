@@ -5,11 +5,11 @@ topic:
 tags: RETI_LAB3 
 ---
 
-Prev: [[Reti - lab 3 MOC]]
+Prev: [[Reti - lab 3]]
 
-# Livello Applicativo - HTTP: HyperText Transfer Protocol
+# Livello Applicativo - HTTP
 ---
-è un protocollo di [[Livello Applicativo]] questo è
+l _HyperText Transfer Protocol_ (HTTP) è un protocollo di [[Livello Applicativo]] questo è
 - del tipo richiesta/risposta :
 	- _Client HTTP_ : programma che manda le richieste al server
 	- _Server HTTP_: programma che accetta richieste e risponde con messaggi di risposta
@@ -27,6 +27,7 @@ può essere:
 - _Persistente_ (http1.1: RFC 2616):  il client può assumere che il server mantenga la sua connessione attiva e può quindi mandare altre richieste sulla stessa connessione. la chiusura della connessione avviene se il client lo richiede con un messaggio ed è specificato nel _header_ o se c è in _Time out_. Una volta che la connessione chiusa il client non potrà più mandare messaggi su quella connessione
 
 
+### http1.1
 #### Vantaggi di una connessione persistente
 - Vengono aperte e chiuse meno connessioni TCP quindi si risparmia CPU-Time 
 - Ritardi delle connessioni successive ridotti siccome non si deve aspettare la riapertura della connessione
@@ -42,7 +43,7 @@ consiste nel mandare più richieste di più oggetti senza aspettare prima la ris
 
 ## Messaggi scambiati
 i messaggi possono essere di due tipi _richiesta_ e _risposta_ ed è composto da 
-- _Start-Line_: la riga iniziale che deffirenzia richiesta e risposta
+- _Start-Line_: la riga iniziale che differenzia richiesta e risposta
 - serie di  _header_: ovvero coppie nome-valone che specificano alcuni parametri del messaggi trasmesso o ricevuto
 	- _general Header_: relativi alla trasmissione 
 		- Es. Data, codifica, connessione, 
@@ -57,7 +58,8 @@ i messaggi possono essere di due tipi _richiesta_ e _risposta_ ed è composto da
 #### Request 
 ![[Pasted image 20230103023657.png]]
 - Request-Line:
-	- _Method_: operazione che il client richiede venga effettuata sulla risorsa identificata dalla Request-URI. Definizione della semantica dei metodi nella RFC 2616 
+	- _Method_: operazione che il client richiede venga effettuata sulla risorsa identificata dalla Request-URI. Definizione della semantica dei metodi nella
+	  ( RFC 2616 )
 	- _HTTP-Version_: il mittente indica il formato del messaggio e la sua capacità di comprendere ulteriori comunicazioni HTTP
 - Heaers: 
 	- ![[Pasted image 20230103024953.png]]
@@ -73,7 +75,7 @@ i messaggi possono essere di due tipi _richiesta_ e _risposta_ ed è composto da
 	- ![[Pasted image 20230103025116.png]]
 
 ## Content Negotiation
-le risorse possono essere disponibili in più rappresentazioni e la contente negotiation si occupa di selezione la rappresentazione più appropriata per la richiesta fatta. la rappresentazione viene scelta sulla base di Requesti e Entity headers.
+le risorse possono essere disponibili in più rappresentazioni e la contente negotiation si occupa di selezione la rappresentazione più appropriata per la richiesta fatta. la rappresentazione viene scelta sulla base di Request e Entity headers.
 ![[Pasted image 20230103025154.png]]
 esempi di rappresentazioni diverse sono un diverso formato o una diversa lingua.
 
@@ -83,19 +85,21 @@ esempi di rappresentazioni diverse sono un diverso formato o una diversa lingua.
 	- ![[Pasted image 20230103210312.png]]
 - _GET_: metodo richiede il trasferimento di una risposta indentificata da una URL o operazioni associate al URL stessa.
 	- Sono possibili _Conditianl get_ aggiungendo le condizioni nel header
-		- Header: if-Modified-Since, If-Unmodified-Since (date); If-Match, If-None-Match (ETag); or If-Range
+		- Header: 
+			- if-Modified-Since, If-Unmodified-Since (date);
+			- if-Match, if-None-Match (ETag); or If-Range
 		- ![[Pasted image 20230103214326.png]]
 		- ![[Pasted image 20230103214315.png]]
-	- partial get
+	- conditional GET
 		- Header: Range
 		- ![[Pasted image 20230103210642.png]]
 - _HEAD_: Simile al GET, ma il server non trasferisce il _message_ body nella risposta. Utile per controllare lo stato dei documenti (validità, modifiche, cache refresh).
 	- ![[Pasted image 20230103210736.png]]
 	- ![[Pasted image 20230103210756.png]]
 - _POST_:
-	- il metodo POST serve per inviare del client al serve per inviare dal client al server informazioni inserire nel body del messaggio .
+	- il metodo POST serve per inviare dal client al server informazioni inserite nel body del messaggio
 	- Si dovrebbe utilizzare per 
-		- il metodo POST è usata per chiedere che il server accetti l entità (risorsa) nel corpo della richiesta come una  nuova subordinata della risorsa identificata dalla _Request-URI_ nella _Request-Line_
+		- il metodo POST è usata per chiedere che il server accetti l'entità (risorsa) nel corpo della richiesta come una nuova subordinata della risorsa identificata dalla _Request-URI_ nella _Request-Line_
 	- nella realtà dei fatti   
 		- La funzione effettiva eseguita dal POST è determinata dal server e dipendente tipicamente dalla Request-URI. Esempi: Annotazioni ad URL esistenti, FORMs, Posting a message boards, newsgroups, mailing list, etc., scrittura su database
 	- ![[Pasted image 20230103211347.png]]
