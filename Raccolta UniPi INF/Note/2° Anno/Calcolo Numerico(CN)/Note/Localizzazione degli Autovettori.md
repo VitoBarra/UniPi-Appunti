@@ -7,7 +7,7 @@ tags: CN
 
 Prev: [[Calcolo Numerico(CN)]]
 
-# 
+# Localizzazione degli Autovettori
 ---
 ## Teorema di Hirsch
 data una matrice $A \in C^{n \times n}$ per ogni [[Norme Matriciali e Norme Vettoriali#Teorema norme matriciali indotte da norme vettoriali|norma matriciale indotta]] vale che per ogni [[Autovettori e Autovalori|autovalore]] di $A$ vale che $|\lambda| \leq \|A\|$ 
@@ -24,8 +24,8 @@ siccome $\|x\| > 0$ per le proprieta delle norme possiamo dividere tutto per $\|
 data una matrice $A \in \mathbb{C}^{n \times n}$ definiamo cerci di gershgoring $K_i$ con $\ \leq i \leq n$ come
 $$K_i= \{z \in \mathbb{C}: |z-a_{i,i}| \leq \sum^{n}_{j=1,j\not=i}|a_{i,j}|\}$$
 allora si ha che  se $\lambda$ è un autovalore di $A \implies \lambda \in \cup^n_{i=1}K_1$ 
-#### dimostrazione
 
+#### Dimostrazione
 
 
 ## Teorema di Gershgorin 2
@@ -60,4 +60,4 @@ da questo passo ragionando sulle definizione si ottiene che
 $$0 \not\in K_i $$
 siccome 
 $$K_i= \{z \in \mathbb{C}: |z-a_{i,i}| \leq \sum^{n}_{j=1,j\not=i}|a_{i,j}|\}$$
-e se 0 appartenesse  a $K_i$ avremmo $z=0$ ma ciò contradice con la definizione qundi $0 \not\in K_i$ 
+e se 0 appartenesse  a $K_i$ avremmo $z=0$ ma ciò contradice con la definizione quindi $0 \not\in K_i$ 

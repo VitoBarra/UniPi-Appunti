@@ -45,11 +45,11 @@ $$f(v) = \|v\|_\infty = max_{1\leq i\leq n} |v_i|$$
 ### Teorema di equivalenza topologica delle norme
 siano $\|\cdot\|$ e $\|\cdot\|’$ due norme su $\mathbb{F}^n$. Allora esistono costanti  $\alpha,\beta>0$ tali che 
 $$\forall v \in \mathbb{F}^n\ \ \ \ \ \alpha\|v\|’ \leq \|v\| \leq \beta\|v\|’$$
-qesto risultato implica che le proprietà topologiche di convergenza/divergenza di successioni e di continuità delle funzioni sono _invarianti_ risposto alla norma considerata
+questo risultato implica che le proprietà topologiche di convergenza/divergenza di successioni e di continuità delle funzioni sono _invarianti_ risposto alla norma considerata
 
 
 ## Norme Matriciali 
-si dice norma matriciale su $\mathbb{F}^{n\times n}$ una funzione $f:\mathbb{F}^{n \times n} \rightarrow \mathbb{R}$ che soddisfa le seguenti proprieta
+si dice norma matriciale su $\mathbb{F}^{n\times n}$ una funzione $f:\mathbb{F}^{n \times n} \rightarrow \mathbb{R}$ che soddisfa le seguenti proprietà
 1. $\forall A \in \mathbb{F}^{n\times n}, f(A)\geq, \ \  f(A)=0 \iff A =0$
 2. $\forall A \in \mathbb{F}^{n\times n}, \forall \alpha \in \mathbb{F} , f(\alpha A)= |\alpha|f(A)$
 3. $\forall A,B \in \mathbb{F}^{n \times n}, \ f(A+B) \leq f(A)+ f(B)$
@@ -58,7 +58,7 @@ se $f$ è una norma vettoriale su $\mathbb{F}^{n\times n}$ indicata come $f(A) =
 
 
 ### Distanza matriciale indotta
-dalla norma matriciale si puo indurre una distanza matriciale  $d:\mathbb{F}^{n\times n}\times \mathbb{F}^{n\times n} \rightarrow \mathbb{R}$ tra elementi di $\mathbb{F}^{n\times n}$ definita come
+dalla norma matriciale si può indurre una distanza matriciale  $d:\mathbb{F}^{n\times n}\times \mathbb{F}^{n\times n} \rightarrow \mathbb{R}$ tra elementi di $\mathbb{F}^{n\times n}$ definita come
  $$\forall A,B \in \mathbb{F}^{n\times n} , d(A,B) = \|A-B\|$$
 ### norma matriciale indotta o compatibile con la norma vettoriale 
 data una $\|\cdot\|$  una norma vettoriale su $\mathbb{F}^n$ si dice _norma matriciale indotta_ o compatibile con la _norma vettoriale_ la funzione $f:\mathbb{F}^{n\times n} \rightarrow \mathbb{R}$ definita da
@@ -68,25 +68,24 @@ $$\forall A \in \mathbb{F^{n \times n}}, \ \ f(A)=\smash{\displaystyle\max_{\{v 
 ### Teorema compatibilità delle norme
 Sia $\|\cdot\|_v$ una _norma vettoriale_ su $\mathbb{F}^n$ e sia $\|\cdot\|_m$ la _norma matriciale_ indotta vale
 $$\forall A\in\mathbb{F}^n, \forall v \in \mathbb{F}, \ \ \|Av\|_v\leq\|A\|_m\|v\|_v$$
-##### Dimostrazine
-Se $v=0$ allora la relazione vale. assiemiamo pertanto che $v \not = 0$ si ha 
+##### Dimostrazione
+Se $v=0$ allora la relazione vale. asseriamo pertanto che $v \not = 0$ si ha 
 $$\left\|A\frac{v}{\|v\|} \right\| \leq \|A\|= \smash{\displaystyle\max_{\{z \in \mathbb{F}^n:\|z\|=1\}}}\|Az\|$$
-e quindi la tesi segue la proprieta 2 delle norme vettoriali
+e quindi la tesi segue la proprietà 2 delle norme vettoriali
 
 
-### Teorema  norme matriciali indotte da norme vettoriali
+### Teorema norme matriciali indotte da norme vettoriali
 
 Sia $A=(a_{i,j}) \in \mathbb{F^{n\times n}}$ si ha
 $$
 \begin{align}
-\|A\|_\infty=max_{1\leq i\leq n} \sum^n_{j=1}|a_{i,j}| \\
-\|A\|_1=max_{1\leq j\leq n} \sum^n_{i=1}|a_{i,j}|
+\|A\|_\infty&=max_{1\leq i\leq n} \sum^n_{j=1}|a_{i,j}| \\
+\|A\|_1 &=max_{1\leq j\leq n} \sum^n_{i=1}|a_{i,j}|\\
+\|A\|_2&=\sqrt{p(A^HA)}
 \end{align}
 $$
-detto inoltre $p(B)$ il raggio spettrale di una matrice $B \in \mathbb{F}^{n\times n}$ definito come il modulo dell auto valore di modulo massimo di $B$
-$$\forall B \in \mathbb{F}^{n\times n}, p(B)= max|\lambda_i|,\ \ \  \lambda_i, 1 \leq i \leq n, \text{autovalore di } B$$
-_allora vale_
-$$\|A\|_2=\sqrt{p(A^HA)}$$
+dove  $p(B)$ è il _[[Raggio spettrale|raggio spettrale]]_ 
+
 Si osservi che mentre per la norma infinito e la norma 1 il calcolo si realizza facilmente con una sequenza finita di operazioni aritmetiche e confronti a partire dagli elementi della matrice, per la norma euclidea si richiede la risoluzione di un problema ausiliario (il calcolo del modulo dell’autovalore dominante di una matrice associata) di assai maggiore difficolta
 
 noi siamo interessati a tutti e gli n autovalori potrebbero esisterne complessi 

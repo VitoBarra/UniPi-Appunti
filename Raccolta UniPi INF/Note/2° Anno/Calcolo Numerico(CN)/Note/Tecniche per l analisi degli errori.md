@@ -14,7 +14,7 @@ La regolarità della funzione $f(x)$ ha implicazione sulla proprita del problema
 
 dalla relazione 
 $$\epsilon_{in}= \frac{f(\tilde x)-f(x)}{f(x)} = \frac{f(\tilde x)-f(x)}{\tilde x-x}\frac{x}{f(x)}\frac{\tilde x -x }{x}$$
-si ricava che la [[Funzioni differenziabil|differenziabilita]] di $f(x)$ è essenziale per il controllo dell errore inerente. il particolare se assumiamo che $f(x) \in C^2$  ovvero è derivabile due volte con continuità in $(a,b)$ allora vale lo [[Sviluppi di Taylor#Sviluppo con Resto di Lagrange|Sviluppo di Taylor con lagrange]]
+si ricava che la [[Funzioni differenziabili|differenziabilita]] di $f(x)$ è essenziale per il controllo dell errore inerente. il particolare se assumiamo che $f(x) \in C^2$  ovvero è derivabile due volte con continuità in $(a,b)$ allora vale lo [[Sviluppi di Taylor#Sviluppo con Resto di Lagrange|Sviluppo di Taylor con lagrange]]
 $$f(\tilde x)= f(x)+f’(x)(\tilde x-x)+\frac{f’’(\xi)}{2}(\tilde x-x)^2, \ \ |\xi -x| \leq|\tilde x-x|$$
 da cui si ottiene 
 $$\epsilon_{in}= \frac{f(\tilde x)-f(x)}{f(x)} \dot =\frac{f’(x)}{f(x)}x\epsilon_x = c_x\epsilon_x, \ \ \ c_x=\frac{f’(x)}{f(x)}x$$

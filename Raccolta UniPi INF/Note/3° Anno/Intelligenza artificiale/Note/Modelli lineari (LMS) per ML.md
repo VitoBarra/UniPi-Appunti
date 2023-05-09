@@ -32,7 +32,7 @@ Si definisce una funzione _$Loss$_ come
 $$ Loss(h_w)= E(w)= \sum_{p=1}^n(y_p-h_w(x_p))^2 $$
 questa è detta _Least mean square_ (LMS) da la media degli errori quadrati.
 >[!note]- perchè si usa il quadrato
->si utilizza il quadrato per rendere i numeri positivi. in piu il quadrato- è [[Funzioni differenziabil|differenziabile]] a differenza del valore assoluto 
+>si utilizza il quadrato per rendere i numeri positivi. in piu il quadrato- è [[Funzioni differenziabili|differenziabile]] a differenza del valore assoluto 
 
 minimizzare la $Loss$ significa ridurre la somma  residua degli errori.
 

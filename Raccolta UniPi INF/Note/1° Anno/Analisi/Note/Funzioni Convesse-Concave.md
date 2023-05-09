@@ -14,6 +14,6 @@ le la convessità o concavità delle [[Funzioni|funzioni]]  è un proprieta calc
 ### Proprietà
 - _convessa_: esistono più minimi tutti uguali 
 	-   _strettamente convesso_: il minimo è unico 
-- _concava_: esistno piu massimo tutti uguali 
+- _concava_: esistono più massimo tutti uguali 
 	-   _strettamente concava_: il massimo è unico 
 

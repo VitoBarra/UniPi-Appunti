@@ -7,5 +7,5 @@ tags: Analisi
 
 Prev: [[Analisi]]
 
-# Funzioni differenziabil
+# Funzioni differenziabili
 ---

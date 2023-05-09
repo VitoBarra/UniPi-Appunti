@@ -15,7 +15,7 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 
 ### Gradiente per scegliere la direzione
 Ipotesi:
-- Se la  funzione di valutazione $f$ è [[Funzioni Continue|continua]] e [[Funzioni differenzibili|differenziabile]] 
+- Se la  funzione di valutazione $f$ è [[Continuità di una funzione|continua]] e [[Funzioni differenzibili|differenziabile]] 
 tesi:
 - Il minimo p massimo si puoi cercare utilizzando il [[Gradiente di una funzione multivariabile|Gradiente]], che restituisce la direzione di massima pendenza del punto.
 

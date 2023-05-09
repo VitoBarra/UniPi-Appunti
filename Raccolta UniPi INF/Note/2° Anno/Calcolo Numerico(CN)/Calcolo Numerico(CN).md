@@ -17,11 +17,12 @@ Prev: [[Uni MOC]]
 7. [[Tecniche per l analisi degli errori]]
 8. [[Calcolo di una funzione non razionale]]
 9. [[Norme Matriciali e Norme Vettoriali]]
+	1. [[Raggio spettrale]]
 10. [[Condizionamento della risoluzione dei sistemi lineari]]
 11. [[Localizzazione degli Autovettori]]
-12. [[Fattorizazione LU]]
+12. [[Fattorizzazione LU]]
 13. [[Matrici elementari di gauss ed il metodo di eliminazione gaussiana]]
-14. [[]]
+14. [[Metodi Iterativi per la fattorizzazione LU]]
 
 
 

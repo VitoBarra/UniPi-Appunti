@@ -8,14 +8,17 @@ Prev: [[Uni MOC]]
 # Analisi
 
 ## Course MOC  📒
-1. [[Funzioni differenziabil]]
-2. [[Limiti]]
+1. [[Funzioni differenziabili]]
+2. [[Continuità di una funzione]]
+3. [[Teorema del confornto o dei carabinieri]]
+4. [[Limiti]]
 	1. [[Limiti notevoli]]
-3. [[Derivate fondamentali]]
-4. [[Delopithal]]
-5. [[Sviluppi di Taylor]]
-6. [[Serie geometrica]]
-7. [[Funzioni Convesse-Concave]]
+5. [[Derivate fondamentali]]
+6. [[Delopithal]]
+7. [[Sviluppi di Taylor]]
+8. [[Successioni]]
+9. [[Serie geometrica]]
+10. [[Funzioni Convesse-Concave]]
 
 
 

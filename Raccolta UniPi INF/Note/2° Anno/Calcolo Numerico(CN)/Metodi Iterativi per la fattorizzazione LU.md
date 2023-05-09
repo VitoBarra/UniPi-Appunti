@@ -1,0 +1,164 @@
+---
+type: nota
+course: Calcolo Numerico
+topic: 
+tags: CN
+---
+
+Prev: [[Calcolo Numerico(CN)]]
+
+# Metodi Iterativi per la fattorizzazione LU
+---
+sono metodi per ricavare la [[Fattorizzazione LU|fattorizzazione LU]] e si utilizzano quando il [[Matrici elementari di gauss ed il metodo di eliminazione gaussiana|metodo di eliminazione gaussiana]] non funziona bene per via della struttura della matrice che fa incorrere in un fenomeno di _Fill-in_
+
+un esempio dove questo può succedere è la seguente matrice
+$$
+\begin{bmatrix}
+x & x & x & x\\
+x & x & 0 & 0 \\
+x & 0 & x & 0 \\
+x & 0 & 0 & x
+\end{bmatrix}
+$$
+dove per _fill-in_ si intende la trasformazione degli elementi 0 in elementi diversi da zero dove qualche passo di gauss.
+$$
+\begin{bmatrix}
+x & x & x & x\\
+0 & x & x & x \\
+0 & x & x & x \\
+0 & x & x & x
+\end{bmatrix}
+$$
+x inteso come numero diversa do 0 non tutte le x solo lo stesso numero.
+
+
+## Metodi interativi
+sono metodi per cercare [[Soluzioni di un sistema lineare|soluzioni di sistemi lineari]].
+si cerca una sequenza di vettori $\boldsymbol{x}$ tale che $x^{(0)}$ sia il vettore di partenza e 
+- $\{x^{(k)}\}$ la sequenza di vettori 
+-  per $\{x^{(k)}\}_{k\to \infty} \rightarrow x$ sia _soluzione_ di $Ax=b$
+- $\lim_{k \to \infty}x^{(k)} = x \iff \lim_{k \to \infty}\|x^{(k)}-x\| = 0$ 
+	- per via della [[Norme Matriciali e Norme Vettoriali#Teorema di equivalenza topologica delle norme|Teorema di equivalenza topologica delle norme ]] posso scegliere una _qualsiasi norma_.
+- Criterio di arresto
+	- _interazioni successive_: $$\|x^{(k+1)}-x^{k}\| < tol$$
+	- _scarto_:$$\|Ax^{(k)}-b\| < tol$$
+
+### Metodi basati su decomposizione di matrice
+con questi metodi posso scomporre la matrice del mio sistema lineare $Ax=b$ come $A = M-N$ con $M,N$ due matrici. sotto l assunzione che $M$ sia [[Matrice inversa|invertibile]] e quindi $det(0)\not=0$ possiamo fare la seguente sequenza di passaggi logici
+$$\begin{array}{}
+(M-N)x =b &\iff \\
+Mx-Nx=b &  \iff \\ 
+Mx = Nx+b & \iff \\
+x = M^{-1}Nx+M^{-1}b
+\end{array}$$
+nominiamo 
+- _Matrice di iterazione_: $P = M^{-1}N$ con $P \in \mathbb{K}^{n\times n}$
+- un vettore $q = M^{-1}b$ con $q\in \mathbb{K}$ 
+e abbiamo la formula 
+$$x =Px+q$$
+da qui possiamo costruire un _metodo iterativo_ partendo da una relazione [[Induttività|Induttività]]
+$$
+\begin{cases}
+x^{(0)} \in \mathbb{K}^n&\\
+x^{(k+1)} = P x^{(k)}+q & k \geq 0
+\end{cases}
+$$
+con $x^{(0)}$ scelto a piacere
+si dice _metodo_ la successione di vettori ottenuto da questa relazione (le successioni cambiano se cambia il vettore iniziale $x^{(k)}$)
+
+un metodo si dice _convergente_ se tutte le [[Successioni|successioni]]  che ottengo variando il vettore iniziale sono _convergenti_ ovvero a $x = A^{-1}b$  
+
+
+#### Teorema della cosa giusta
+dato un sistema lineare $Ax=b$  e una successione di vettori $\{x^{(k)}\}$ e la _relazione sopra costruita_
+se $\{x^{(k)}\}$ è _convergente_ $\implies$ $\lim_{k\to \infty} x^{(k)} =x$  (cioè $x=Px+q$ )
+
+##### Dimostrazione
+impostando $g(x) = Px+q$ è $g: \mathbb{K}^n \rightarrow \mathbb{K}^n$ con $g$ [[Continuità di una funzione|continua]] 
+1. per dimostrare la continuità di $g$ si utilizza la definizione e dobbiamo quindi mostrare che $\forall \varepsilon>0,\  \exists \delta>0: \  \forall x^{(k)},x: \| x^{(k)}-x\| < \delta \implies \|g(x^{(k)})-g(x)\| \leq \varepsilon$
+$$
+\begin{array}{}
+\|g(x^{(k)})-g(x)\| &=\\
+\|Px^{(k)}+q - (Px+q)\| & = \\
+\|P(x^{(k)}-x)\| &\leq \\
+\|P\|\|x^{(k)}-x\| & \leq \\
+\|P\| \cdot\delta & =\\
+\varepsilon 
+
+\end{array}
+$$
+con $\delta = \cfrac{\epsilon}{\|P\|}$
+1. ora possiamo dire che
+	- $$
+	\begin{array}{}
+	x= \lim_{k\to \infty} x^{(k+1)} & =  & \text{dal ipotesi di convergenza}\\
+	\lim_{k\to \infty}g(x^{(k)}) &=  &\text{dalla dalla definizione del metodo}\\
+	g(\lim_{k \to \infty}x^{(k)}) & = & \text {dalla continuita di }g \\
+	g(x) &= & \text{dal ipotesi di convergenza}\\
+	Px+q & & \text{dalla definizione di } g
+	\end{array} $$
+>[!note]
+>se $x^{(k)}$ converge $x$ è un [[Punti Fissi|punto fisso]] di $g$
+ 
+questo ci dimostra che il _metodo iterativo_ porta effettivamente alla soluzione del sistema lineare
+
+
+### Criterio di convergenza
+
+#### 1. _Teorema_ Condizione Sufficiente:
+l'metodo è _convergente_ se esiste una [[Norme Matriciali e Norme Vettoriali#norma matriciale indotta o compatibile con la norma vettoriale|norma matriciale indotta]] tale che $\|P\|<1$
+##### Dimostrazione
+preso $e^{(k)} = x^{(k)}-x$  il vettore d errore basta dimostrare che se $\exists \|P\| <1 \implies \lim_{k \to \infty} \|e_k\| =0$ e allora posso dire
+$$
+\begin{array}{}
+e^{(k+1)} &= & \text{}\\ 
+x^{(k+1)}-x &= & \text{per definizine di errore}\\
+Px^{(k)}+q-(Px+q)& =& \text{per definizione di metodo}\\ 
+P(x^{(k)}-x) &= & \\
+Pe^{(k)} &= & \\
+P(Pe^{(k-1)}) &=&P^{(k+1)}e^{(0)}
+\end{array}
+$$
+sia la $\|\cdot\|$ la norma _vettoriale_ tale che $\|P\|<1$ allora
+
+$$
+\begin{array}{}
+\| e^{(k+1)}\| = \|P^{k+1}e^{(0)}\| & \leq & \|P^{k+1}\|\cdot\|e^{(0)}\|  &\leq \\ 
+\|P\| \cdot \|P^k\| \cdot \|e^{(0)}\| &\leq& \|P\|^{k+1}\cdot \|e^{(0)}\|
+\end{array}$$
+e allora possiamo scrivere 
+$$0 \leq \|e^{(k+1)}\| \leq \|P\|^{k+1}\cdot\|e^{(0)}\|$$
+- $0 \leq$ per le proprietà delle [[Norme Matriciali e Norme Vettoriali|norme]]
+utilizzando il [[Teorema del confornto o dei carabinieri|teorema dei carabinieri]]  siccome $\|P\|^{k+1}$ tende a $0$ possiamo dire che $\|e^{(k+1)}\|$ tende a $0$
+
+#### 2. Teorema condizione necessaria (e sufficiente):
+se il metodo è _convergente_ allora il [[Raggio spettrale|raggio spetrale]] della matrice di convergenza   $p(P)<1$. questo e si hanno i seguenti fatti
+- guardando il [[Determinante di una matrice|determinante]] $|det(P)| \geq 1$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$ $|\lambda_i|  \geq 1 \implies$ _non converge_
+	- il determinante è $\prod^n_{i=0}\lambda_i$
+- guardando la [[Traccia di una matrice|traccia]] $|tr(P)| \geq n$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$     $|\lambda_i| \geq 1 \implies$ _non converge_
+	- la traccia è $\sum^n_{i=0}\lambda_i$ 
+
+##### Dimostrazione di necessaria 
+preso un $\lambda = p(P)$  è sia $v$ il corrispondente _autovettore_. allora abbiamo
+- $Pv = \lambda v$
+- $v \not =0$
+se il metodo è convergente allora converge a prescindere da $x^{(0)}$. 
+allora _scelgo_ $x^{(0)} = x+v$ dove $x=A^{-1}b$  é la soluzione del _sistema lineare_ e questo deve convergere
+- $e^{(k+1)}= P^{k+1} e^{(0)}$ _converge_ per ipotesi di convergenza del metodo
+- $e^{(0)} = x^{(0)}-x = x-x+v = v$, trovato sostituendo $x^{(0)}$ con il vettore _scelto_.
+- $e^{(k+1)}= P^{k+1}v = \lambda^{k+1}v$  sostituendo il valore di $e^{(0)}$ e sfruttando $Pv = \lambda v$
+allora  mostriamo che deve essere vero che
+$$0 =\lim_{k\to\infty}\|e^{(k+1)}\| =\lim_{k\to\infty}\|\lambda^{k+1}v\| =\|v\|\lim_{k\to\infty}|\lambda|^{k+1}= 0 $$
+il che si verifica $\iff \lambda < 1$
+##### Dimostrazione di sufficienza
+richiede concetti più avanzati di algebra 
+ 
+
+
+
+
+
+
+
+
+

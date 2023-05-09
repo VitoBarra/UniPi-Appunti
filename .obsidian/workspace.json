@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "854117f550f41d50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "raggio spetrale",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +86,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "bb08cae72f31fb8b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -94,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md"
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md"
               }
             }
           },
@@ -169,32 +190,35 @@
   },
   "active": "bf31cd2bc7b58f07",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Algoritmi di ML Candidate elimination.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Algoritmi di ML Find-S.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Alberi di decisione per AI.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Statistical Learning Theory (SLT).md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/K-means algoritmo ML.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Support Vector Machine (SVM).md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Modelli lineari (LMS) per ML.md",
-    "Raccolta UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Note/Modelli.md",
-    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/2-3 Albero.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md",
-    "Senza nome.canvas",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Overfitting e Underfitting.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/K-Nearest Neighbor (K-NN) algoritmo ML.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Validazione per AI.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Forma normale disgiuntiva (DNF).md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Autovettori e Autovalori.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Isomorfismo e Endomorfismo.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolare autovalori e autovettori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema del confornto o dei carabinieri.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Funzioni Convesse-Concave.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Funzioni differenziabili.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Problema della Sodisfacibilita (SAT).md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Forma normale congiuntiva (CNF).md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Uso delle basi.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazione Lineari notevoli.md",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Concept Learning.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Induttività.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari  omogenei.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo numerico Appunti.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "Raccolta UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
+    "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
+    "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
+    "Senza nome.canvas",
     "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Media/31A291B5-63BC-4EF6-A489-2EF42483E7B1.jpeg",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media/Pasted image 20221104011454.png",
     "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media/Pasted image 20221014171634.png",
@@ -205,7 +229,6 @@
     "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026035044.png",
     "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026034547.png",
     "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026034606.png",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/31A291B5-63BC-4EF6-A489-2EF42483E7B1.jpeg.md",
     "Raccolta UniPi INF/Remove",
     "Raccolta UniPi INF/Removve",
     "Raccolta UniPi INF/remove",
@@ -214,8 +237,6 @@
     "Raccolta UniPi INF/remove",
     "Raccolta UniPi INF/Remove",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Media",
-    "Senza nome 1.canvas",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note"
+    "Senza nome 1.canvas"
   ]
 }

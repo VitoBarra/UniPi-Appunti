@@ -9,14 +9,10 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Spazio Vettoriale
 ---
+ Fissato un generico [[Insiemi|insieme]] $\mathbb{K}$ uno _spazio vettoriale_ su $\mathbb{K}$ è un insieme $V$ di elementi, detti vettori, dotato di due operazioni binarie:
 
-
-### Definizione
-
- Fissato un generico [[Insiemi|insieme]] $\mathbb{K}$ uno spazio Vettoriale su $\mathbb{K}$ è un insieme $V$ di elementi, detti vettori, dotato di due operazioni binarie:
-
-- somma:  associa a due vettori  $v, w ∈ V$ un terzo vettore $v + w ∈ V$
-- prodotto per scalare: che associa ad un vettore $v ∈ V$ e ad uno scalare  $λ ∈ \mathbb{K}$ un vettore $\lambda v \in V$
+- _somma_:  associa a due vettori  $v, w ∈ V$ un terzo vettore $v + w ∈ V$
+- _prodotto per scalare_: che associa ad un vettore $v ∈ V$ e ad uno scalare  $λ ∈ \mathbb{K}$ un vettore $\lambda v \in V$
 
 ### Esempi di spazi Vettoriali:
 

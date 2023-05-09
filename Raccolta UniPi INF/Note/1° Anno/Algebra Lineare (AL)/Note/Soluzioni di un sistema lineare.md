@@ -11,15 +11,16 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-l insieme delle soluzioni $S$ di un [[Sistemi Lineari|sistema lineare]] se $S \not= \{0\}$ si può descrivere a partire da un suo elemento  $x \in S$ chiamata soluzione particolare  e sommando tutto i vettori di $S_0$ ovvero le soluzioni del sistema lineare omogeneo associato
+l insieme delle soluzioni $S$ di un [[Sistemi lineari e lineari  omogenei|sistema lineare]] se $S \not= \{0\}$ si può descrivere a partire da un suo elemento  $x \in S$ chiamata soluzione particolare  e sommando tutto i vettori di $S_0$ ovvero le soluzioni del sistema lineare omogeneo associato
 
 Se $S \not= ∅$, allora $S$ è ottenuto prendendo una qualsiasi soluzione  e aggiungendo a questa tutti i vettori di $S_0$.
+
 #### Dimostrazione 
 sia $x \in S$ una soluzione del sistema e $x’ \in S_0$ una soluzione del sistema. si vede facilmente che $x+x’$ è anche essa soluzione del primo sistema, infatti
 $$a_{i1}(x_1+x_1’) + \cdots+a_in(x_n+x_n’) = b_1+0=b_i$$
-Se in vece $x’’$ è soluzuone del primo sistema . alllora $x’ = x’’-x$ è soluzione del secondo sistema perchè 
+Se in vece $x’’$ è soluzione del primo sistema . allora $x’ = x’’-x$ è soluzione del secondo sistema perché 
 $$a_{i1}(x_1’’-x_1’) + \cdots+a_{in}(x_n’’-x_n’) = b_i-b_i=0$$
-quindi la solzione del primo sistema si ottengono tutte precisamente aggiungendo ad un fissato $x \in S$ le solizioni $x’ \in S_0$ del secondo sistema 
+quindi la soluzione del primo sistema si ottengono tutte precisamente aggiungendo ad un fissato $x \in S$ le soluzioni $x’ \in S_0$ del secondo sistema 
 
 
 
