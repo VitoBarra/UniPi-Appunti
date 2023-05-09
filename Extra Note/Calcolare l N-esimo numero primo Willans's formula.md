@@ -15,7 +15,7 @@ la _formula di Willans_  riesce a computare l $n$-simo numero primo ma ha una co
 	\frac{n}{\sum^i_{j=1}
 	\left\lfloor 
 		\left (cos\pi\frac{(j-1)!+1}{j}\right )^2
-		\right\rfloor}
+	\right\rfloor}
 	\right )^{\frac{1}{n}}
 	\right\rfloor$$
 utilizza il [[teorema di Wilson]] per determinare se un numero è primo o no $\frac{(j-1)!+1}{j}$ è sempre un numero intero se $j$ è primo o 1

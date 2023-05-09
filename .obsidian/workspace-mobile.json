@@ -4,42 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "bbb58ea7e041e387",
+        "id": "8789699f96945f54",
         "type": "tabs",
         "children": [
           {
-            "id": "6ae88bfe51a5e742",
+            "id": "990ce862d5fbc90d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg"
+              }
+            }
+          },
+          {
+            "id": "f4553ccaf5c22b08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
+                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "ae8f772629756634",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg"
-              }
-            }
-          },
-          {
-            "id": "f29e082c5b8af2e0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +55,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "virtual network",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -113,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
+            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
+            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,24 +133,83 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg"
+            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg"
           }
+        }
+      },
+      {
+        "id": "268b720367bfc8ba",
+        "type": "leaf",
+        "state": {
+          "type": "advanced-tables-toolbar",
+          "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false
+    }
   },
   "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/72C09138-5530-4EAB-A614-996CAD9968F6.jpeg",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Media/34AB3510-0F48-4A1A-B7D8-991F87A4C925.jpeg",
-    "Extra Note/Progetto Finale lab appunti.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Metodi Black Box per generare valori di input per testing.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Information Hiding.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0565.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Cloud-Edge Continuum.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0588.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0587.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0586.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0585.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0584.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0583.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0582.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0581.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0580.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0579.jpeg",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Microservices.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/REST API e OpenAPI.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi di progettazione e qualità di un progetto.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
+    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi SOLID.md",
     "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/GoF Design Patterns.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Singleton.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Strategy.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - State.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - Proxy.md"
+    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Producer-Consumer.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - HTTP.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/WWW - Word Wide Web.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Cloud computing Introduzione.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Vendol Lock-in.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Function As A Service (Faas).md",
+    "Raccolta UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Interfaccia Socket.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - VLAN.md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Application Programming Interface (API).md",
+    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - IP.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)",
+    "Senza nome.canvas",
+    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Media",
+    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Note",
+    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC",
+    "trim.D050AE92-AAC4-41BB-8E45-BBABD17CCC60.mov",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Untitled",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Media"
   ]
 }

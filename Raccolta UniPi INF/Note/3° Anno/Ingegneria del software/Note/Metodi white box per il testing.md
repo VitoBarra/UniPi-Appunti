@@ -19,10 +19,10 @@ il test devono eseguire tutto il codice presente nel programma altrimenti non so
 per fare questa fase del testing s utilizzano i frati di flusso  che  definiscono la struttura del codice e come le varie parti sono collegate tra loro 
 ##### esempio
 ![[4BA97FD2-B6BB-49C4-883E-A265AA11766C.jpeg]]
-per misurare l adequante a dei controlli si utilizza la misura di copertura definita come
+per misurare l adeguante a dei controlli si utilizza la misura di copertura definita come
 _Comandi_
 $$\text{misura di copertura COMANDI} =\frac{\text{numero di comandi esercitati }}{\text{numero di comandi totali}}$$
-si cerca l insieme minimiale che compre il magistrale numero di comandi ma non sempre vale la pena cercare il _minimale_ per grafi molto complessi.
+si cerca l insieme minimale che compre il magistrale numero di comandi ma non sempre vale la pena cercare il _minimale_ per grafi molto complessi.
 _Decision_ :
 $$\text{misura di copertura DECISIONI} =\frac{\text{numero di archi esercitati }}{\text{numero di archi totali}}$$
 
@@ -30,6 +30,7 @@ _basic logic codition_:
 $$\text{misura di copertura Basic Condition}  =  \frac{\text{n.  valori assunti  basic condition }}{\text{2n. basic condition }}$$
 _Multiple codition coverage_:
 questo richiede di controllare $2^n$ condizioni ma sono riducibili con la [[Linguaggio formale| semantica del linguaggio]] 
+- con lazy operation su i booleani
 _Copertura dei cammini_:
 copertura del numero di cammini.
 questi in presenza di cicli potrebbero essere infiniti
@@ -39,9 +40,9 @@ questi in presenza di cicli potrebbero essere infiniti
 basata sul ipotizzare difetti
 
 ### Test Mutazionale
-data una batteria di test su cui abbiamo riustati corretti modifichiamo di poco il codice che stiamo testando generando cosi un codice _mutante_ e rilanciando il test possiamo fare delle osservazioni 
+data una batteria di test su cui abbiamo risultati corretti modifichiamo di poco il codice che stiamo testando generando cosi un codice _mutante_ e rilanciando il test possiamo fare delle osservazioni 
 - se nessun test fallisce allora la nostra batteria di test non era abbastanza solida
-- se solo il mutante viene ucciso ovvero almeno un test fallisce allora possiamo avere piu fiducia che quella batteria di test sia corretta.
+- se solo il mutante viene ucciso ovvero almeno un test fallisce allora possiamo avere più fiducia che quella batteria di test sia corretta.
 
 si possono classificare i mutanti: 
 - _invalido_ : se non sintatticamente corretto _valido_ altrimenti

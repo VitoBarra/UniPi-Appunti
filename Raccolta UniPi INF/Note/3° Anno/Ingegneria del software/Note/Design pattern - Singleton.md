@@ -34,8 +34,8 @@ Un singleton Si può inizializzare in modo lo Lazy ovvero
   ```
 cosi facendo si può ritardare una inizializzazione che può essere costata ma questo può portare problemi in un contesto di multithreading. se due thread diversi chiamano insieme _getInstance_() potrebbero entrambi creare un istanza cosi facendo c è ne sarebbero due diverse nel sistema.
 
-#### SOluzioni
-1. non usare inizializazione lazy e inizializzare subito il Singleton
+#### Soluzioni
+1. non usare inizializzazione lazy e inizializzare subito il Singleton
 2. Tecniche di sincronizzazione per il get instance cosa costosa in termini di performance 
 3. Double Checked locking: controllando due volte per [[Sincronizzazione di oggetti condivisi|sincronizzare]] solo la prima inizializzazione 
 ``` Java
@@ -52,10 +52,9 @@ public static Singleton getInstance()
 ```
 
 ### sotto classi di Singleton
-
 con le sotto classi abbiamo un rapporto esclusivo di istanza c è ne può essere una solo di qualsiasi tipo. per affrontare questa problematica con i singleton ci sono due metodi 
 1. il metodo _GetInstance_(string type) Decide di quale sotto classe si deve creare l istanza tramite un parametro 
-	- problematico perché può rompere il principio [[Principio SOLID#S*O*LID: *O*pen Closed Principle| open Closed]]
+	- problematico perché può rompere il principio [[Principi SOLID#S*O*LID: *O*pen Closed Principle| open Closed]]
 	-  i costruttori devono essere pubblici quindi il programmatore può comunque coreane altre istanze 
 2. Metodo static Instanciate();
 	-  ogni sotto classe ha un metodo insaniate

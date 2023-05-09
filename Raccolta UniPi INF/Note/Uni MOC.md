@@ -25,11 +25,15 @@ Prev: [[Studi]]
 	- [[Reti - lab 3]]
 	- [[Ingegneria Del Software (IS)]]
 	- [[Basi di dati]]
+	- [[Introduzione Intelligenza Artificiale (IIA)]]
 - Complementari
-	- [[Cloud and Green Computing]]
 	- [[Computer Grafica (CG)]]
 	- [[Elementi di Complessità e Calcolabilità (ECC)]]
-	- [[Sicurezza di sistema ICT]]
 	- [[Crittografia (CRI)]]
+	- [[Algebra (ALG)]]
+	- [[Cloud and Green Computing]]
+	- [[Sicurezza di sistema ICT]]
 - Informatica
 	- [[Transazioni]]
+- Orientamento professionale ITC
+	- [[Orientamento al lavoro ITC]]

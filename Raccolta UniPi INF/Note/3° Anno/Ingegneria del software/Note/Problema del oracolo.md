@@ -10,8 +10,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 # Problema del oracolo
 ---
 
-Il problema del oracolo si riferisce al problema del [[Testing]] di avere gia disposizione i valori di output. non sempre questi sono facili da conoscere.
-
+Il problema del oracolo si riferisce al problema del [[Testing]] di avere già disposizione i valori di output. non sempre questi sono facili da conoscere.
 
 - Si possono ricavare da
 	- specifiche formali
@@ -28,15 +27,15 @@ Il problema del oracolo si riferisce al problema del [[Testing]] di avere gia di
 	- programmi preesistenti 
 	- programmi ad hoc
 	- semplificare gli algoritmi
-	- inefficienti ma corretti
+		- inefficienti ma corretti
 - Semplificazione dei dati d ingresso
 	- provare le funzionalità su dati semplici
 	- risultati noti o calcolabili con altri mezzi
 	- ipotesi di comportamento costante
 - semplificazione dei risultati
 	- Accontentarsi di risultati plausibili
-	- tramite vincoli fra inflessi e uscite
-	- tramite in varianti sulle uscite
+	- tramite vincoli fra ingressi e uscite
+	- tramite invarianti sulle uscite
 
 ![[36AE7455-3080-4C0F-8A18-D4271994F274.jpeg]]
 

@@ -20,7 +20,8 @@ Quando siamo un una situazioni in cui c è bisogno di mixare comportamenti.
 ### Vantaggi
 - più flessibile rispetto ad usare eridarietà, siccome componiamo gli oggetti e possiamo farlo a run time invece che staticamente ereditando. 
 - può essere usato per fare mix and match
-- gli proprietà può essere aggiustano può volte 
+- una proprietà può essere aggiunta più volte
+	- può portare ad oggetti mal formati in caso questa debba essere unica
 - facile aggiungere nuovi feature in modo incrementale
 ##### Svantaggi
 - problemi di performance se i decoratori sono complessi e se ne usano troppi
@@ -28,7 +29,7 @@ Quando siamo un una situazioni in cui c è bisogno di mixare comportamenti.
 - bisogna creare molti oggetti piccoli 
 - difficile da debbugare
 
-#### Structure
+#### Struttura
 ![[B04D6621-942A-48EE-8E54-E9EE59693B68.jpeg]]
 ##### Componenti
 1. _Componet_: Interfaccia del oggetto decorato 

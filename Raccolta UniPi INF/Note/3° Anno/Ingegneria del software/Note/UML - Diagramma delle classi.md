@@ -29,8 +29,6 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 
 ## aggregazione e composizione 
-
-
 ![[8A0F3E7A-C753-409A-8AB7-56CB2DB4B993.jpeg]]
 ![[0B90A5CF-D33B-45A1-AC33-43F5F04D606E.jpeg]]
 ![[41CA9D1F-527B-4D46-89B1-EC3B625F3BA1.jpeg]]
@@ -61,7 +59,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 - limitare la specifica di tipi,valori,e t.
 - non inventare mai niente rispetto a quanto scritto nel documento. confrontarsi con il committente prima.
 
-#### TEcniche per l identificazione
+#### Tecniche per l identificazione
 1. _Data Driven_: tipico della fase i di analisi, si indentficano tutti i dati del sistema e si dividono in classi
 2. _Responsability driven_: soprattutto durante la fase di progettazione. si indentificano le responsabilità e si dividono in classi.
 

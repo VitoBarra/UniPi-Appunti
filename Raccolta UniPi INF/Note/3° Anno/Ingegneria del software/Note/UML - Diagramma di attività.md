@@ -10,7 +10,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 # UML - Diagramma di attività
 ---
 Un diagramma [[UML]] per modellare il flusso di lavoro
-- può essere un compito un algoritmo  o un processo o un attività.
+- può essere un compiuto un algoritmo  o un processo o un attività.
 
 Questo tipo di Diagramma è utile per rappresentare:
 - Processi aziendali (analisi)
@@ -30,7 +30,7 @@ Questo tipo di Diagramma è utile per rappresentare:
 
 
 ![[8B226EB0-4ACF-4A7C-AE86-7E3FDF251757.jpeg]]
-## Sintassi usl controllo
+## Sintassi del controllo
 ![[115B18E8-FA31-4519-B21E-98F6552EFC8B.jpeg]]
 - la guarda  delle scelta è indicata tra \[\]
 
@@ -38,7 +38,7 @@ Questo tipo di Diagramma è utile per rappresentare:
 
 ![[7727E08D-1079-44EB-95EE-38D5F6A8B6BD.jpeg]]
 
-- Le guardie devono comparire tutte le possibilità (il token non puo bloccarsi )
+- Le guardie devono comparire tutte le possibilità (il token non può bloccarsi )
 - meglio se le operazioni sono mutualmente esclusive ma non è necessario, in caso non lo siano comportamento non deterministico 
 - dato un nudo decisione non è obbligatorio un nodo fusione corrispondente
 	- potrebbe esserci un nodo di fine flusso 
@@ -49,7 +49,7 @@ Questo tipo di Diagramma è utile per rappresentare:
 		- dato un token in ingresso ne produce uno per ogni faccia uscente
 	-  _Join_ consuma i token
 		- si attende un token per ogni freccia entrante
-		- si consumano tutt e ne esce solo uno
+		- si consumano tutti e ne esce solo uno
 	- non è necessaria una join per ogni fork
 
 ## Fine attivita
@@ -68,10 +68,10 @@ fa terminare l flusso di esecuzione consumando il token ma non termina tutta l a
 ![[5FCAEC2C-E6C3-49AA-AB98-0A9C3774E864.jpeg]]
 
 #### Quando usare eventi e quanto azione
-1. _Azioni_ : quando è effettuata dal classificatere/ insieme dei classificatore di un ci sta descrivendo il comportamento
+1. _Azioni_ : quando è effettuata dal classificatore/ insieme dei classificatore che sta descrivendo il comportamento
 2. _Eventi_ : quando si comunica con una entità esterna
 
-## Sotto Attivita
+## Sotto Attività
 
 ![[1A5880A5-9FE8-44BF-A281-E9854B54395C.jpeg]]
 ![[63823130-7450-4874-974D-DDF206162D0E.jpeg]]

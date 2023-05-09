@@ -1,4 +1,4 @@
- ---
+---
 type: nota
 course: Reti e Laboratorio di reti
 topic: 

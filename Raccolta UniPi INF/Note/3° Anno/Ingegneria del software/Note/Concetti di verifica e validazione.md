@@ -24,11 +24,11 @@ Il problema di verifica e validazione è un problema [[Calcolabilità|indecidibi
 - _Errore_: è la causa di un difetto
 	- Incomprensione umana nel tentativi di comprendere o risolvere un problema o nel uso di strumenti 
 ##### Difficolta della V&V software
--  requisiti di qualità diversa
+- requisiti di qualità diversa
 - Se sempre in evoluzione
-- distribuzione irregolare dei questi
+- distribuzione irregolare dei quesiti
 - non linearità :
-	-  se un procedura ordina correttamente 256 elementi non è detto che lo faccia anche con meno o più elementi
+	- se un procedura ordina correttamente 256 elementi non è detto che lo faccia anche con meno o più elementi
 - Dipendenti dal linguaggio: 
 	- Deadlock o race condition over il software distribuito
 	- Problemi dovuto al polimorfismo o al binding dinamico nel software object-oriented
@@ -60,7 +60,7 @@ Le soluzioni sono quindi fatte ad hoc non ci si po' basare su ricette già fatte
 ## 2. quando sono complete? 
 - Il [[Testing]] è solo una parte della V&V
 - V&V iniziano non appena decidiamo di creare un prodotto software
-- V&V d’uragano per tutto il tempo in cui il software è in uno e servono anche per far fronte alle evoluzioni e agli adattamenti alle nuove condizioni
+- V&V durano per tutto il tempo in cui il software è in uno e servono anche per far fronte alle evoluzioni e agli adattamenti alle nuove condizioni
 ## 3. quali tecniche applicare?
 - Nessuna tecnica basta da sola
 - _principi di combinazione_ 

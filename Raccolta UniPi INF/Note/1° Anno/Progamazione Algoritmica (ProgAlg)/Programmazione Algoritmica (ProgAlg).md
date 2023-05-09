@@ -17,9 +17,10 @@ Prev: [[Uni MOC]]
 		4. [[DAG]]
 		5. [[B-Tree]]
 	3. [[Code]]
-	4. [[Pila]]
+	4. [[Pila struttura dati]]
 	5. [[Lista linkata]]
 	6. [[Hash Table]]
+	7. [[Coda di Priorita]]
 2. [[Record D'attivazione]]
 3. Complessità
 	1. Tecniche di analisi complessità

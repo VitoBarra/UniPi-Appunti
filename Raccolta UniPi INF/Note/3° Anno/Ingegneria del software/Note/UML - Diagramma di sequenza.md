@@ -13,7 +13,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 Un diagramma di [[UML]] per descrivere il comportamento dinamico dello scambio dei messaggi e dati tra oggetti 
 
 #### Componenti
-- un rettangolo che indica ruolo e/o tipo dell oggetto ( uno dei due obbligatori, entrambi solo se utile)
+- un rettangolo che indica ruolo e/o tipo del oggetto ( uno dei due obbligatori, entrambi solo se utile)
 
 - Linea verticale chiamata idea di vita del oggetto
 	- linea _tratteggiata_ quando l oggetto è inattivo

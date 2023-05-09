@@ -9,6 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Multiplexer e Decoder
 ---
+[[Componenti]]
 ## Multiplexer
 
 il multiplexer è un componente che scegli quale lavore dare in uscita tramite un input di selezione detto segnale di controllo

@@ -24,7 +24,7 @@ Viene fatto l [[Hash Table|hash]] del  il numero di pagina virtuale il risultato
 
 ![[Immagine_PNG.png]]
 
-Le collisione si gestiscono con le solite tecniche  del [[hash Table]]
+Le collisione si gestiscono con le solite tecniche  del [[Hash Table]]
 
 > [!info]
 Perché non usiamo direttamente un hash table per

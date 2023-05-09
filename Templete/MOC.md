@@ -1,6 +1,6 @@
 ---
 type: MOC 
-tags: MOC 
+tags: MOC
 ---
 
 Prev: [[Uni MOC]]

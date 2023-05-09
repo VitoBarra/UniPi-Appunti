@@ -1,0 +1,12 @@
+---
+type: nota
+course: Fondamenti Di Informatica
+topic: 
+tags: FDI
+---
+
+Prev: [[Fondamenti Del Informatica (FDI)]]
+
+# Ordinamenti
+---
+Un ordine parziale è una [[Relazioni|relazione]] binaria tra gli elementi di un insieme che soddisfa alcune proprietà, ad esempio la riflessività, l'antisimmetria e la transitività

@@ -5,7 +5,12 @@
   "obsidian-minimal-settings",
   "cm-editor-syntax-highlight-obsidian",
   "better-word-count",
-  "obsidian-git",
   "obsidian-kanban",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "obsidian-outliner",
+  "obsidian-icon-folder",
+  "obsidian-dictionary-plugin",
+  "execute-code",
+  "dataview",
+  "obsidian-git"
 ]

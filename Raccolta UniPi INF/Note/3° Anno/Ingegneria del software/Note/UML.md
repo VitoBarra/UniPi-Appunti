@@ -9,9 +9,9 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # UML
 ---
-Unified modeling Language: linguaggio per modello unificato è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] 
+_Unified modeling Language_: linguaggio per modello unificato è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] 
 
-è principalmente pensato per la di sistemi Object-Oriented. 
+è principalmente pensato per la di sistemi [[Paradigma Object Oriented Programming (OOP)|Object-Oriented]]. 
 
 è una famiglia di grafici atti a descrivere più aspetti della progettazioni software come la descrizione strutturale e la descrizione del comportamento 
 

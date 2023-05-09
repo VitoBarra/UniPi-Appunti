@@ -20,10 +20,10 @@ i casi di test sono triple (input, output (_atteso_), ambiente)
 	- l adeguatezza come è definita sopra è indecidibile
 
 l adeguatezza si decide con certi criteri di adeguatezza.
-1.  nella specifica ho due casi, i casi di test non testano che i due casi siano trattati differentemente. 
-2.  nel codice ci sono n istruzioni 
+1. nella specifica ho due casi, i casi di test non testano che i due casi siano trattati differentemente. 
+2. nel codice ci sono n istruzioni 
 
-_Test Obligation_: specifica descrizione di casi di test che richiede proprietà ritenute importanti per il testing 
+_Test Obligation_: specifica descrizione di casi di test delle proprietà ritenute importanti per il testing 
 
 i criteri di adeguatezza sono un insieme di test obligation.
 un insieme di test soddisfa un criterio di adeguatezza se: 
@@ -31,15 +31,15 @@ un insieme di test soddisfa un criterio di adeguatezza se:
 2. Ogni test obligation è soddisfatta da almeno un caso di test (nell’ insieme di casi di test scelto)
 
 ## Definizione test Obligations
-1. dalla funzionalità (a scatola chiusa, _black box_), guardando la specifica del sw
+1. dalla funzionalità (a scatola chiusa, _black box_), guardando la specifica del software
 	- mirati a evidenziare malfunzionamento relativi a funzionalità.
 	- [[Metodi Black Box per generare valori di input per testing]]
 2. dalla struttura (a scatola aperta, _white box_) guardando il codice
 	- Basati sulla conoscenza del codice
 	- mirati a esercitare il codice indipendentemente dalla funzionalità  
-	- [[Metodi White box per il testing]]
+	- [[Metodi white box per il testing]]
 3. dal modello del programma
-	- Modelli utilizzati nella specifica o nella progettazione o rivatti del codice
+	- Modelli utilizzati nella specifica o nella progettazione o derivati del codice
 4. da fault ipotetici
 	- Cercano difetti ipotizzato (bug comuni)
 
@@ -47,7 +47,7 @@ un insieme di test soddisfa un criterio di adeguatezza se:
 ## Fasi del testing 
 1. Batterie di prove (Test suite)
 ## Procedure di prova 
-- Procedure (automatiche e non ) per eseguire, registrare analizzar e valutare i risultati di una batteria di prova 
+- Procedure (automatiche e non ) per eseguire, registrare analizzare e valutare i risultati di una batteria di prova 
 1. definizione del obiettivo della prova
 2. Progettazione della prova
 	- Scelta e definizione dei casi di prova (batterie di prove)

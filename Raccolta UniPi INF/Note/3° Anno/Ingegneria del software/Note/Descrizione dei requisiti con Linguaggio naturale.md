@@ -11,7 +11,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 ---
 
 ## Fasi della definizione dl metodo naturale 
-la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale è divisa in più fasi: 
+la descrizione  dei [[Analisi dei requisiti|Requisiti]] con linguaggio naturale è divisa in più fasi: 
 1. _Acquisizione_ : 
 	-  facendo interviste con il cliente e con gli utenti 
 		- strutturate 
@@ -53,12 +53,12 @@ la descrizione  dei [[Analisi dei requisiti| Requisiti]] con linguaggio naturale
 		- Numero sequenziale  (1,2,3,4....) 
 		- Numero basato sulla struttura del documento (2.4.7) 
 		- Coppia <CATEGORIA, NUMERO>
-	2. Atributi:
+	2. Attributi:
 		- Stato 
 			- Proposto, approvato, rifiutato, incorporato 
 		- Priorità 
 		- Importanza, tipo MoSCoW 
-		- Sforzo in gg/uomo 
+		- Sforzo in gg/persona
 		- Rischio 
 			- Valutazione della fattibilità tecnica
 		- Stabilità 

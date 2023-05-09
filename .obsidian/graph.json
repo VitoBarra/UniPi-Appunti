@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-tag:#MOC",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#MOC",
@@ -97,6 +97,34 @@
         "a": 1,
         "rgb": 10492956
       }
+    },
+    {
+      "query": "tag:#ALG",
+      "color": {
+        "a": 1,
+        "rgb": 12762260
+      }
+    },
+    {
+      "query": "tag:#CRI",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#IA",
+      "color": {
+        "a": 1,
+        "rgb": 8404756
+      }
+    },
+    {
+      "query": "tag:#Analisi",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
     }
   ],
   "collapse-display": true,
@@ -105,10 +133,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.473958333333333,
+  "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 275,
-  "scale": 0.042315902689759655,
+  "linkDistance": 500,
+  "scale": 0.0078125,
   "close": false
 }

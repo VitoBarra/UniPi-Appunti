@@ -25,7 +25,7 @@ Prev: [[Uni MOC]]
 	4. [[Problema del flusso massimo]]
 		1. [[Condizione di Ottimalità Max flow - Min cut]]
 		2. [[Algoritmi di Ford-Fulkerson]]
-		3. [[Problemi Riducibili al Problema di flusso massimo]]
+		3. [[Problemi riducibili al Problema di flusso massimo]]
 	5. [[Problema del flusso di costo minimo]]
 		1. [[Condizione di ottimalità Pseudoflussi]]
 		2. [[Algoritmo dei cammini minimi successivi]]
@@ -43,18 +43,14 @@ Prev: [[Uni MOC]]
 	5. [[Dualità]]
 		1. [[Teoremi su Problema duale]]
 		2. [[Teorema degli scarti complementari]]
-
 	6. [[Basi e vertici]]
 	7. [[Algoritmo del Simplesso]]
-
 1. [[Programmazione lineare Intera]]
 	1. Soluzioni per Problemi di PLI
 		1. [[Metodo del piano di taglio]]
 		2. [[Branch and Bound]]
 	3. [[Problema dello zaino]]
 	4. [[Commesso Viaggiatore]]
-2. [[Domande Esame RO]]
-
 
 
 ### Educational Material 🧱

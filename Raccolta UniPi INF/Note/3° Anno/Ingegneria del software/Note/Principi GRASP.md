@@ -16,7 +16,15 @@ Principi _GRASP_:
 - *S*oftware:
 - *P*atterns:
 
+## Tipo di design
+Il design di una classe può essere partizionata in due gruppi
+- _Rappresentativo_: ovvero fatto pensando a cosa rappresenta l'oggetto che si sta creando
+- _Comportamentale_: non rappresentano nulla nel dominio e sono fatte per la convenienza di utilizzo
+	- utilizzate per mantenere alta coesione e basso
+
 ## Pure fabrication
-![[32B7226B-28DB-440D-BD5B-CECFF2FEFC39.jpeg]]
-![[C5A6B62A-0D58-4B97-9F2F-79EC18AE4FEF.jpeg]]
-![[E352625E-BE4C-4FBB-AA49-16529381AD79.jpeg]]
+è un tipo di [[Paradigma Object Oriented Programming (OOP)#Classi|classe]] di tipo _Comportamentale_ e serve quindi a  mantenere alta coesione e basso
+- le classi che implementano il [[Design pattern - Factory|pattern factory]] sono _pure fabrication_
+	-  confinare le responsabilità di creazione complesse in oggetto coesi
+	- incapsulare la complessità della logica di creazione
+

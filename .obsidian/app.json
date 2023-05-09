@@ -39,5 +39,6 @@
   "newFileFolderPath": "Temp Note",
   "defaultViewMode": "source",
   "spellcheck": true,
-  "spellcheckLanguages": null
+  "spellcheckLanguages": null,
+  "attachmentFolderPath": "Raccolta UniPi INF/Allegati"
 }

@@ -188,7 +188,7 @@ bisogna cambiare la porta nella traduzione siccome i messaggi arrivano da più h
 
 >[!Question]
 >Quante comunicazioni può gestire un router NAT con un solo indirizzo pubblico?
->credo il numero massimo di porte quindi $2^{16}$
+>credo il numero massimo di [[Interfaccia Socket#Identificare un processo|porte]] quindi $2^{16}$
 
 ## IPv6
 Motivazioni del protocollo IPv6

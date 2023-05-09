@@ -23,8 +23,8 @@ questa è composta dai nodi stati e da archi che rappresentano una transazione d
 	- può essere composto da più stati
 
 ### Sintassi
-1. _Stato_: Rapresentato da rettangolo arrotondadi
-2.  _Nodo finale_: cerchio bordato
+1. _Stato_: Rappresentato da rettangolo arrotondati
+2. _Nodo finale_: cerchio bordato
 3. _Nodo Iniziale_: cerchio 
 	 ![[6FE5C134-EA22-4377-AE8D-FB54284DCC8D.jpeg]]
 4. _Transazioni_: freccia che esce da uno stato e punta un altro 

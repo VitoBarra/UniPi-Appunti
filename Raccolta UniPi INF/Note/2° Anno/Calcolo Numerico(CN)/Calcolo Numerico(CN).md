@@ -5,11 +5,24 @@ tags: MOC CN
 
 Prev: [[Uni MOC]]
 
+[[Calcolo numerico Appunti]]
 
 ## Course MOC  📒
-1. [[Analisi del errore]]
-	1. [[Problemi Mal Condizionati]]
-	2. [[Rappresentazione in base di un numero]]
+1. [[Problemi Mal Condizionati]]
+2. [[Rappresentazione in base di un numero]]
+3. [[Insieme dei numeri di macchina]]
+4. [[Aritmetica di Macchina]]
+5. [[Errori nel calcolo di una funzione razionale]]
+6. [[Tipi di Errore nel calcolo numerico]]
+7. [[Tecniche per l analisi degli errori]]
+8. [[Calcolo di una funzione non razionale]]
+9. [[Norme Matriciali e Norme Vettoriali]]
+10. [[Condizionamento della risoluzione dei sistemi lineari]]
+11. [[Localizzazione degli Autovettori]]
+12. [[Fattorizazione LU]]
+13. [[Matrici elementari di gauss ed il metodo di eliminazione gaussiana]]
+14. [[]]
+
 
 
 

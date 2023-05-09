@@ -40,14 +40,14 @@ Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le f
 ### Generalizzazioni
 ![[4F681B23-0DB9-493B-AFEC-F88721FE35D0.jpeg]]
 ![[512B1F56-F974-42A5-879B-DE24BFA99EB6.jpeg]]
-#### errori di generilizazione 
+#### errori di generalizzazione 
 ![[C2018B79-D8D7-46C9-8120-064D2E253093.jpeg]]
 ![[C948108B-D549-45C2-85B7-3C64E5EE3649.jpeg]]
 
 ## Dipendenze tra casi di uso
 le dipendenze sono segnate con una freccia tratteggiata e va letta dalla dove parte verso la punta quindi: “caso d uso di partenza” dipende ”caso d uso di arrivo”. 
 
-per differenziare le varie dipendenze si scrive lo stereotipo  tra le doppie  parentesi angolate \<steriotipo\>
+per differenziare le varie dipendenze si scrive lo stereotipo  tra le doppie  parentesi angolate \<stereotipo\>
 
 ### Inclusione
 ![[78B67656-D399-4753-BEBC-EE12F1D672A4.jpeg]]
@@ -63,7 +63,7 @@ Extension Point
 ![[7BC9F030-070F-415F-A4DA-D024F507B06F.jpeg]]
 
 ## Componenti dinamici
-1. _narrazione associate al caso d uso_: Documento che descrive il modello deinamico 
+1. _narrazione associate al caso d uso_: Documento che descrive il modello dinamico 
 	- gli senari rilevanti di un caso d uso
 	- dal punto di vista degli attori
 	- Caratteristica: 
@@ -71,7 +71,7 @@ Extension Point
 		- Condizioni eccezionali
 		- precondizioni, Postcondizioni
 	![[D9F32881-A8A5-4F96-AD92-0AD7BEA584AD.jpeg]]
-la relazioni di pre condizione e post condizione sono identiche a quelle descritte dalle [[Triple di Hoare]] 
+la relazioni di per-condizione e post condizione sono identiche a quelle descritte dalle [[Triple di Hoare]] a meno del esecuzione dei casi eccezionali
 
 
 - Sintassi della sequenza principale:

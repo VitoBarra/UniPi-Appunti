@@ -51,6 +51,7 @@ Intestazione:
 	-  una volta che la connessione è stabilita è sempre inviato
 	- se $ACK = x+1$ si interpreta come ho ricevuto tutti i precedenti $x$ byte
 - _Hlen_: lunghezza del header TCP espressa in parole da 4 byte
+	- Solitamente vale 0101 ovvero 5 parole. quindi 20 byte totali
 
 #### Flag
 - _URG_: Il campo Puntatore Urgente contiene dati significativi da trasferire in via prioritaria 

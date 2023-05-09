@@ -14,11 +14,12 @@ il testing è una applicazione dei  [[Concetti di verifica e validazione]]
 Una prova formale di correttezza corrisponderebbe al esecuzione del sistema con tutti i _possibili input_ questo è definito come test esaustivo. questo risicherebbe tempo infinito con insieme infiniti e anche limitando l insieme se questo è molto grande ci vorrebbe troppo tempo per essere fattibile 
 
 
-## Tesi di Dijkstra
+>[!warning] Tesi di Dijkstra
 il test di un programma può rilevare la presenza di difetti ma non dimostrare l assenza 
 
+
 ## Tecniche di verifica: Verifica Statica
--  Verifica che non prevede l esecuzione del programma
+- Verifica che non prevede l esecuzione del programma
 - Metodi manuali 
 	- [[Tecniche di lettura del codice Strutturata|Basati sulla lettura del codice]] (desk-check)
 		- più pratica e intuitiva 

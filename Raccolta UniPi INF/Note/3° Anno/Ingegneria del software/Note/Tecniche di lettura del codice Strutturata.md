@@ -9,7 +9,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 # Tecniche di lettura del codice Strutturata
 ---
-  ## inspection
+## inspection
 - Si esegue una lettura mirata dal codice(guidata da un lista di controllo)
 - #### Obbiettivi 
 	- rivelare la presenza di difetti
@@ -38,11 +38,11 @@ Prev: [[Ingegneria Del Software (IS)]]
 	- gruppi misti ispettori e sviluppatori 
 
 ### Fasi
-1. Pianificazine
+1. Pianificazione
 2. lettura del codice
 3. correzione dei defetti
 
-#### VAntaggi 
+#### Vantaggi 
 - Pratica e intuitività 
 - ideale per alcune caratteristiche di qualità 
 - Convenzione economica
@@ -50,7 +50,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 	- bassi costi di infrastruttura 
 	- buona prevedibilità devo risultati 
 
-#### COnfronto tra tecniche 
+#### Confronto tra tecniche 
 
 1. _Affinità_  
 	- Controlli stati basati su desk-test

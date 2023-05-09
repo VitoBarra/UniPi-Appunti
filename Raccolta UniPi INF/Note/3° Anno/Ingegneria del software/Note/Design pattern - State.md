@@ -12,7 +12,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 
 tipo di [[GoF Design Patterns]] comportamentale
 
-Permette all oggetto di comportarsi in modo diverso in base allo stato interno 
+Permette al oggetto di comportarsi in modo diverso in base allo stato interno 
 
 
 ### Quando applicarlo
@@ -22,7 +22,7 @@ Permette all oggetto di comportarsi in modo diverso in base allo stato interno
 1. utilizzare una classe che funga da macchina a stati per il cliente il “Context” che tiene un riferimento di tipo _State_ che rappresenta lo stato corrente
 2. Creare una classe base _State_ che rispecchi l interfaccia delle operazioni sulla macchina a stati. questa ha bisogno di una parametro di riferimento a context e specifica i comportamenti di default.
 3. Derivare La classe _State_ definendo le operazioni e le transizioni di stato 
-4. tutte le richieste al context vengono delegate al oggetto satate
+4. tutte le richieste al context vengono delegate al oggetto state
 5. i metodi del oggetto state cambiano il contesto
 
 ### Vantaggi
@@ -36,7 +36,7 @@ Permette all oggetto di comportarsi in modo diverso in base allo stato interno
 #### Struttura
 ![[F684B1BD-A085-4045-87D1-14EC76A5DC6F.jpeg]]
 ##### Componenti
-_Cointext_: 
+_Context_: 
 - definisce l interfaccia
 - mantiene l Istanza di concrete state
 _State_:  Definisce l interfaccia del comportamento di uno specifico stato, eventualmente può a avere un comportamento di default
