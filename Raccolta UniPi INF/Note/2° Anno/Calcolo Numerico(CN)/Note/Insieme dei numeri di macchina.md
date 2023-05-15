@@ -32,10 +32,10 @@ questo  è un [[Insieme Simmetrico]]
 	- $w = \beta^{-m-1}$
 - numero piu _grande_  rappresentabile
 	- $\Omega = \beta^M(1-\beta^{-t})$
-- [[Cardanilita di un insieme|Cardinalità]] dei numeri di macchina:
+- [[Cardinalità di un insieme|Cardinalità]] dei numeri di macchina:
 	- $|\mathscr{F}| = 1 + 2(m+M+1)(\beta -1)(\beta^{t-1})$
 		- +1 per lo zero
-		- $\times 2$ perche è simmetrico
+		- $\times 2$ perché è simmetrico
 		- $(m+M+1)$ gli esponenti 
 		- $(\beta -1)(\beta^{t-1})$ possibili mantisse
 - Distanza tra due numeri

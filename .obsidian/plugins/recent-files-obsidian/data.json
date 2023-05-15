@@ -1,118 +1,207 @@
 {
   "recentFiles": [
     {
-      "basename": "Design pattern - State",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Design pattern - State.md"
+      "basename": "Calcolare gli zeri di una funzione",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
     },
     {
-      "basename": "Architetture e sistemi operativi (AESO)",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
+      "basename": "Calcolo Numerico(CN)",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
     },
     {
-      "basename": "Relazione Progetto Finale Wordle",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Relazione Progetto Finale Wordle.md"
+      "basename": "Pasted image 20230516004432",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png"
     },
     {
-      "basename": "Tecniche di Commutazione",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Tecniche di Commutazione.md"
+      "basename": "Interpolazione polinomiale",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
     },
     {
-      "basename": "Reti - lab 3",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md"
+      "basename": "Analisi",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md"
     },
     {
-      "basename": "Relazione Progetto VITO BARRA",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Laboratorio II/Relazione Progetto VITO BARRA.md"
+      "basename": "Teorema di Rolle",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema di Rolle.md"
     },
     {
-      "basename": "Calcolare l N-esimo numero primo Willans's formula",
-      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
+      "basename": "Condizionamento della risoluzione dei sistemi lineari",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md"
     },
     {
-      "basename": "To Read",
-      "path": "Extra Note/To Read.md"
+      "basename": "Tipi di Errore nel calcolo numerico",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
+    },
+    {
+      "basename": "Pasted image 20230515182103",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png"
+    },
+    {
+      "basename": "Algebra (ALG)",
+      "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+    },
+    {
+      "basename": "Polinomi",
+      "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Polinomi.md"
+    },
+    {
+      "basename": "Probabilità e variabili aleatorie",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md"
     },
     {
       "basename": "Critto Note temp",
       "path": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
     },
     {
-      "basename": "Uni MOC",
-      "path": "Raccolta UniPi INF/Note/Uni MOC.md"
+      "basename": "Nucleo",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Nucleo.md"
     },
     {
-      "basename": "Reti di calcolatori temp note",
-      "path": "Raccolta UniPi INF/Temp Note/Reti di calcolatori temp note.md"
+      "basename": "Matrice inversa",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md"
     },
     {
-      "basename": "Java Thread",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Java Thread.md"
+      "basename": "Dimensione di uno spazio vettoriale",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md"
     },
     {
-      "basename": "Thread Pool",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Thread Pool.md"
+      "basename": "Cardinalità di un insieme",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Cardinalità di un insieme.md"
     },
     {
-      "basename": "Cached ThreadPool",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Cached ThreadPool.md"
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
     },
     {
-      "basename": "Fixed ThreadPool",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Fixed ThreadPool.md"
+      "basename": "Algebra Lineare (AL)",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
     },
     {
-      "basename": "ThreadPool Specifiacare il comportamento",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool Specifiacare il comportamento.md"
+      "basename": "Base di uno spazio vettoriale",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md"
     },
     {
-      "basename": "Basi di dati temp",
-      "path": "Raccolta UniPi INF/Temp Note/Basi di dati temp.md"
+      "basename": "Funzioni",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md"
     },
     {
-      "basename": "ECC temp",
-      "path": "Raccolta UniPi INF/Temp Note/ECC temp.md"
+      "basename": "Sistemi lineari e lineari  omogenei",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari  omogenei.md"
     },
     {
-      "basename": "ThreadPool a singolo Thread",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/ThreadPool a singolo Thread.md"
+      "basename": "Soluzioni di un sistema lineare",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md"
     },
     {
-      "basename": "Stream IO",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Stream IO.md"
+      "basename": "Applicazioni Lineari",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md"
     },
     {
-      "basename": "Scheduled Thread Pool",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Scheduled Thread Pool.md"
+      "basename": "Teorema di Binet",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md"
     },
     {
-      "basename": "RETI Final",
-      "path": "Templete/Coure Finale/RETI Final.md"
+      "basename": "Forma cartesiana e forma parametrica",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md"
     },
     {
-      "basename": "MOC",
-      "path": "Templete/MOC.md"
+      "basename": "Combinazioni Lineari",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Combinazioni Lineari.md"
     },
     {
-      "basename": "Code Sincronizzate interfaccia Java blockingQueue",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Lab/Code Sincronizzate interfaccia Java blockingQueue.md"
+      "basename": "Spazio Vettoriale",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
     },
     {
-      "basename": "Pasted image 20220925221655",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20220925221655.png"
+      "basename": "Teorema di Rouché - Capellii",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Rouché - Capellii.md"
     },
     {
-      "basename": "Implementazione Thread",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Implementazione Thread.md"
+      "basename": "Pasted image 20230515170753",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230515170753.png"
     },
     {
-      "basename": "Astrazione Thread",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Astrazione Thread.md"
+      "basename": "Sviluppi di Taylor",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md"
     },
     {
-      "basename": "Pasted image 20220925200204",
-      "path": "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20220925200204.png"
+      "basename": "Teorema della divisione tra polinomi",
+      "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Teorema della divisione tra polinomi.md"
+    },
+    {
+      "basename": "Metodi Iterativi",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md"
+    },
+    {
+      "basename": "Geometria analitica",
+      "path": "Extra Note/Geometria Analitica/Geometria analitica.md"
+    },
+    {
+      "basename": "retta tangente",
+      "path": "Extra Note/Geometria Analitica/Note/retta tangente.md"
+    },
+    {
+      "basename": "Pasted image 20230512171901",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png"
+    },
+    {
+      "basename": "Pasted image 20230513011436",
+      "path": "Extra Note/Geometria Analitica/Media/Pasted image 20230513011436.png"
+    },
+    {
+      "basename": "Insieme dei numeri di macchina",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
+    },
+    {
+      "basename": "Rappresentazione in base di un numero",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di un numero.md"
+    },
+    {
+      "basename": "Aritmetica di Macchina",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
+    },
+    {
+      "basename": "Delopithal",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Delopithal.md"
+    },
+    {
+      "basename": "Teorema di Lagange",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagange.md"
+    },
+    {
+      "basename": "Teorema di approssimazione di Weierstrass",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
+    },
+    {
+      "basename": "Teorema della permanenza del segno",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
+    },
+    {
+      "basename": "Teorema del confronto dei carabinieri",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema del confronto dei carabinieri.md"
+    },
+    {
+      "basename": "Calcolare l N-esimo numero primo Willans's formula",
+      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
+    },
+    {
+      "basename": "Ricerca Binaria",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Ricerca Binaria.md"
+    },
+    {
+      "basename": "Pasted image 20230512163407",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512163407.png"
+    },
+    {
+      "basename": "Pasted image 20230511231344",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511231344.png"
+    },
+    {
+      "basename": "Pasted image 20230511224943",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511224943.png"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

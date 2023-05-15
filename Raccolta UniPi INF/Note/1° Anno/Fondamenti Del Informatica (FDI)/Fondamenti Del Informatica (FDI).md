@@ -10,9 +10,10 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Insiemi]]
+	3. [[Cardinalità di un insieme]]
 	1. [[Partizione]]
 	2. [[Relazioni]]
-	3. [[Funzioni]]
+		1. [[Funzioni]]
 2. [[Induttività]]
 3. [[Stringhe]]
 4. [[Combinatoria]]

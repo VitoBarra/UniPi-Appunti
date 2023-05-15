@@ -38,6 +38,7 @@ Prev: [[Uni MOC]]
 	3. [[Rango]]
 	4. [[Teorema di Rouché - Capellii]]
 	5. [[Determinante di una matrice]]
+		1. [[Teorema di Binet]]
 6. [[Applicazioni Lineari]]
 	1. [[Applicazione Lineari notevoli]]
 	2. [[Uso delle basi]]
@@ -50,7 +51,7 @@ Prev: [[Uni MOC]]
 	9. [[Punti Fissi]]
 7. [[Autovettori e Autovalori]]
 	1. [[Calcolare autovalori e autovettori]]
-	2. [[Diagonalizzabilità]]
+	2. [[Matrici Diagonalizzabili]]
 	3. [[Autospazio]]
 		1. [[Molteplicità algebrica e geometrica]]
 8. [[Ortogonalità E Ortonormalità]]
@@ -60,6 +61,7 @@ Prev: [[Uni MOC]]
 	4. [[Radicale]]
 9. Definizioni extra
 	1. [[Linearmente Separabili]]
+
 
 
 

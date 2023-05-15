@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
+                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "854117f550f41d50",
+            "id": "3185695c1a8868d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "raggio spetrale",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -115,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md"
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
               }
             }
           },
@@ -185,58 +186,59 @@
       "markdown-importer:Apri importazione Markdown": false,
       "audio-recorder:Avvia/ferma registrazione": false,
       "workspaces:Gestisci layout delle aree di lavoro": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "bf31cd2bc7b58f07",
+  "active": "3185695c1a8868d2",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Autovettori e Autovalori.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Isomorfismo e Endomorfismo.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolare autovalori e autovettori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Metodi Iterativi per la fattorizzazione LU.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004320.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004036.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004029.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516000755.png",
     "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema del confornto o dei carabinieri.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Funzioni Convesse-Concave.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Funzioni differenziabili.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Induttività.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema di Rolle.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
+    "Senza nome.canvas",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
+    "Raccolta UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Polinomi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md",
+    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Nucleo.md",
     "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Cardinalità di un insieme.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md",
     "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari  omogenei.md",
     "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo numerico Appunti.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
-    "Raccolta UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Combinazioni Lineari.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230515170753.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png",
+    "Extra Note/Geometria Analitica/Media/Pasted image 20230513011436.png",
+    "Extra Note/Geometria Analitica/Media",
+    "Extra Note/Geometria Analitica/Note",
+    "Extra Note/Geometria Analitica",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512163407.png",
+    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
     "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
-    "Senza nome.canvas",
-    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Media/31A291B5-63BC-4EF6-A489-2EF42483E7B1.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media/Pasted image 20221104011454.png",
-    "Raccolta UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media/Pasted image 20221014171634.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20230112014608.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026035524.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221117184845.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026035032.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026035044.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026034547.png",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Media/Pasted image 20221026034606.png",
     "Raccolta UniPi INF/Remove",
     "Raccolta UniPi INF/Removve",
     "Raccolta UniPi INF/remove",
     "Raccolta UniPi INF/remove",
-    "Raccolta UniPi INF/Note/remove",
-    "Raccolta UniPi INF/remove",
-    "Raccolta UniPi INF/Remove",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note",
     "Senza nome 1.canvas"
   ]
 }

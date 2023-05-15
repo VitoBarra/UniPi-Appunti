@@ -6,11 +6,15 @@
   "cm-editor-syntax-highlight-obsidian",
   "better-word-count",
   "obsidian-kanban",
-  "sliding-panes-obsidian",
   "obsidian-outliner",
   "obsidian-icon-folder",
   "obsidian-dictionary-plugin",
   "execute-code",
   "dataview",
-  "obsidian-git"
+  "obsidian-git",
+  "recent-files-obsidian",
+  "darlal-switcher-plus",
+  "obsidian-tikzjax",
+  "pseudocode-in-obs",
+  "obsidian-latex-suite"
 ]

@@ -25,7 +25,7 @@ non tutti i numeri sono rapresentabili con dei valori finiti per esempio $\pi$ o
 con $f(x) \not = 0$ SI dice errore inerente o inevitabile generato dal calcolo di 
 $$ \epsilon_{in} = \frac{f(\tilde x) - f(x)}{f(x)}$$
 -  l _errore inerente_ misura la sensibilità i della funzione e pertanto del  problema matematico considerato rispetto alla perturbazione del dato iniziale. è indipendente dal algoritmo (sequenza di operazioni aritmetiche) utilizzato per il calcolo di $f(x)$ e quindi per la risoluzione del programma matematico associato 
-- a secoda del valore del _errore inerente_ si possono definire i problemi in due modi
+- a seconda del valore del _errore inerente_ si possono definire i problemi in due modi
 	-  problema  _mal condizionato_. se l errore inerente è qualitativamente alto in valore assoluto (solitamente viste con i limiti dove $f$ va a 0 o $\infty$)
 	- problema _ben condizionato_   l errore inerente è qualitativamente modesto in valore assoluto
 il termine  “_qualitativamente_” è qui utilizzato per indicare che la valutazione è dipendente dal contesto applicativo 

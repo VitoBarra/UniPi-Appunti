@@ -9,12 +9,9 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Base di  uno spazio vettoriale 
 ---
-
-### Definizione
 Una sequenza  di $v_1,\dots,v_n \in V$ vettori dove $V$ è uno [[Spazio Vettoriale|spazio vettoriale]] è detta base se
-
 - I vettori sono indipendenti
-- I vettori generano $V$
+- I vettori _generano_ $V$
 
 ### Basi canoniche
 - spazio dei vettori $\mathbb{K}^n$ consistente da esattamente $n$  vettori:

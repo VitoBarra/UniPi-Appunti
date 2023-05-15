@@ -9,9 +9,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Autospazio
 ---
-
-
-Sia $T : V \rightarrow V$ un [[Isomorfismo e Endomorfismo#Endomorfismo|endomorfismo]]. Per ogni autovalore $\lambda$ di T definiamo l’autospazio $V\lambda \subset V$ nel modo seguente:
+Sia $T : V \rightarrow V$ un [[Isomorfismo e Endomorfismo#Endomorfismo|endomorfismo]]. Per ogni autovalore $\lambda$ di $T$ definiamo l’autospazio $V_{\lambda} \subset V$ nel modo seguente:
 
 $$
 V_\lambda = \{v \in V \ | \ T(v) = \lambda v \}

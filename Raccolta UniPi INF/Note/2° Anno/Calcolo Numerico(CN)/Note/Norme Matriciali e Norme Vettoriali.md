@@ -65,15 +65,6 @@ data una $\|\cdot\|$  una norma vettoriale su $\mathbb{F}^n$ si dice _norma matr
 $$\forall A \in \mathbb{F^{n \times n}}, \ \ f(A)=\smash{\displaystyle\max_{\{v \in \mathbb{F}^n:\|v\|=1\}}} \|Av\|$$
 
 
-### Teorema compatibilità delle norme
-Sia $\|\cdot\|_v$ una _norma vettoriale_ su $\mathbb{F}^n$ e sia $\|\cdot\|_m$ la _norma matriciale_ indotta vale
-$$\forall A\in\mathbb{F}^n, \forall v \in \mathbb{F}, \ \ \|Av\|_v\leq\|A\|_m\|v\|_v$$
-##### Dimostrazione
-Se $v=0$ allora la relazione vale. asseriamo pertanto che $v \not = 0$ si ha 
-$$\left\|A\frac{v}{\|v\|} \right\| \leq \|A\|= \smash{\displaystyle\max_{\{z \in \mathbb{F}^n:\|z\|=1\}}}\|Az\|$$
-e quindi la tesi segue la proprietà 2 delle norme vettoriali
-
-
 ### Teorema norme matriciali indotte da norme vettoriali
 
 Sia $A=(a_{i,j}) \in \mathbb{F^{n\times n}}$ si ha

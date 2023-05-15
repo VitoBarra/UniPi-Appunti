@@ -17,7 +17,7 @@ Prev: [[Algebra Lineare (AL)]]
 ### Esempi di spazi Vettoriali:
 
 - $\mathbb{K}^n$ ovvero $(x_1,x_2,...,x_n)$
-- $\mathbb{K}[x]$ ovvero lo spazo dei polinomi lineari $a_nx^n + a_{n-1}x^{n-1}+...+a_1$
+- $\mathbb{K}[x]$ ovvero lo spazio dei polinomi lineari $a_nx^n + a_{n-1}x^{n-1}+...+a_1$
 - $F (X, \mathbb{K})$ ovvero lo spazio delle funzioni $f:X\rightarrow \mathbb{K}$
  - $M(n,m,\mathbb{K})$ ovvero lo spazio delle matrici dove $n$: colonne ; $m$: righe
 

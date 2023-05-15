@@ -21,11 +21,13 @@ Prev: [[Uni MOC]]
 	5. [[Lista linkata]]
 	6. [[Hash Table]]
 	7. [[Coda di Priorita]]
-2. [[Record D'attivazione]]
-3. Complessità
+2. [[Algoritmi]]
+	1. [[Ricerca Binaria]]
+3. [[Record D'attivazione]]
+4. Complessità
 	1. Tecniche di analisi complessità
 		1. [[Albero di decisione]]
-4. [[Programmazione Dinamica]]
+5. [[Programmazione Dinamica]]
 
 
 

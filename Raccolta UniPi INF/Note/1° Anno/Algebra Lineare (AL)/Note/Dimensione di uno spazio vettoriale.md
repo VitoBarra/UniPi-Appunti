@@ -9,27 +9,23 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Dimensione di uno spazio vettoriale
 ---
+la _dimensione_ di uno [[Spazio Vettoriale|spazio vettoriale]] è il la [[Cardinalità di un insieme|cadinalita]] della sua [[Base di uno spazio vettoriale|base]], se lo spazio non ha una base allora la sua dimensione è $\infty$
 
-### Definizione
-la dimensione di uno spazio vettoriale è il numero di elementi che ha la sua base, se lo spazio non ha una base allora la sua dimensione è $\infty$
+> [!example]
+> - $dim(K^n)=n$
+> - $dim(K_n[x]) =n+1$ (spazio dei [[Polinomi|polinomi]])
+> - $dim(M(m,n,K)) =n \times m$
+> - $dim(V) =\infty$  se $V$ _non ha base_
 
 
-
-Esempi:
-
-- $dim(K^n)=n$
-- $dim(K_n[x]) =n+1$
-- $dim(M(m,n,K)) =n \times m$
-- $dim(V) =\infty$  se $V$ non ha base
-
-## Teoremi importanti:
-
+### Teorema
 Due basi dello stesso spazio vettoriale $V$ hanno lo stesso numero di elementi $n$
 
-Osservazione: questo è il motivo per cui possiamo dire che  $V$  ha un unica dimensione
+>[!note]
+> questo è il motivo per cui possiamo dire che  $V$  ha un unica dimensione
 
 ---
-
+### Teorema
 Sia $V$ uno spazio vettoriale e $U \subset V$ un [[Sottospazio Vettoriale]]. Vale $0 ≤ dim (U) ≤ dim (V)$. Inoltre:
 
 - $dim (U) = 0 \iff U =\{0\}$
@@ -67,7 +63,7 @@ le espressioni qui sotto sono modi equivalenti per esprimere $V = U \oplus W$
 - Ogni vettore $v ∈ V$ si scrive in modo unico come $v = u + w$ per
 qualche $u ∈ U$  e $w ∈ W$
 
->[!info] #### Osservazione
+>[!info] Osservazione
 > queste equivalenze si possono espandere al caso in cui i sottospazi siano $k$
 
 Esempi:
