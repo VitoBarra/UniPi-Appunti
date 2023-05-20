@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Calcolo di una funzione non razionale
 ---
-Si presenta l esigenza di calcolare funzioni non espresse dalle 4 operazioni base, come ad esempio gli esponenziali e i logaritmi. si usa quindi una funzione razionabile che sappiamo  [[Errori nel calcolo di una funzione razionale|calcolare]] che aprossima la funzione he vogliamo effettivamente calcolare.  cosi facendo introduciamo oltre gli errori del calcolo un  un’ulteriore errore chiamato _errore analitico_
+Si presenta l esigenza di calcolare funzioni non espresse dalle 4 operazioni base, come ad esempio gli esponenziali e i logaritmi. si usa quindi una funzione razionabile che sappiamo  [[Errori nel calcolo di una funzione razionale|calcolare]] che approssima la funzione he vogliamo effettivamente calcolare.  cosi facendo introduciamo oltre gli errori del calcolo un  un’ulteriore errore chiamato _errore analitico_
 
 
 ### Definizione errore analitico

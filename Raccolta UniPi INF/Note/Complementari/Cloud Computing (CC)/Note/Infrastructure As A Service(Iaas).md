@@ -14,7 +14,7 @@ Prev: [[Cloud Computing (CC)]]
 
 - _Definition of virtualization_
 	- è un layer di astrazione 
-	- OS non è piu legato al server/pc su cui gira
+	- OS non è più legato al server/pc su cui gira
 	- l [[Sistemi Operativi|OS]] è astratto dal hardwere e non è installato direttamente sulla macchina
 - _Server Virtualization_ 
 	- Layer di virtualizzazione tra il server fisico e l OS che normalmente sarebbe installato
@@ -29,9 +29,9 @@ Prev: [[Cloud Computing (CC)]]
 		- alto _rapporto di consolidamento_
 			- ovvero numero di machine virtuali che riusciamo a gestire nello stesso server
 	- _type 2_: carica in un sistema operativo installato sul hardware
-		- piu overhead
+		- più overhead
 		- usato per macchine desktop 
-		- piu basso  _rapporto di consolidamento_
+		- più basso  _rapporto di consolidamento_
 			- il sistema operativo originale gia occupa una parte dello spazio limitando la capacita utilizzabile dal _Hypervisor_
 		- utile quando l Hypervisor non è l unica applicazione su una macchina 
  ![[IMG_0516.jpeg]]

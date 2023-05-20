@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Calcolare gli zeri di una funzione",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
+      "basename": "Orchestrators di container e Kubernetes",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md"
+    },
+    {
+      "basename": "Cloud Computing (CC)",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md"
+    },
+    {
+      "basename": "Business Models",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md"
+    },
+    {
+      "basename": "Container e Docker",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md"
+    },
+    {
+      "basename": "Heroku",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Heroku.md"
+    },
+    {
+      "basename": "Platform As A Service(Paas)",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md"
+    },
+    {
+      "basename": "Infrastructure As A Service(Iaas)",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Infrastructure As A Service(Iaas).md"
+    },
+    {
+      "basename": "Cloud and Green Computing",
+      "path": "Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Cloud and Green Computing.md"
+    },
+    {
+      "basename": "Matrice inversa",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md"
+    },
+    {
+      "basename": "Matrici elementari di gauss ed il metodo di eliminazione gaussiana",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
     },
     {
       "basename": "Calcolo Numerico(CN)",
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+    },
+    {
+      "basename": "Fattorizzazione LU",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "Raccolta UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Algebra Lineare (AL)",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
+    },
+    {
+      "basename": "Mosse di Gauss",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Mosse di Gauss.md"
+    },
+    {
+      "basename": "Teorema di Binet",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md"
+    },
+    {
+      "basename": "Predominanza diagonale",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md"
+    },
+    {
+      "basename": "Tecniche per l analisi degli errori",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md"
+    },
+    {
+      "basename": "Calcolo di una funzione non razionale",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md"
+    },
+    {
+      "basename": "Errori nel calcolo di una funzione razionale",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Errori nel calcolo di una funzione razionale.md"
+    },
+    {
+      "basename": "Problemi Mal Condizionati",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md"
+    },
+    {
+      "basename": "Calcolare gli zeri di una funzione",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
     },
     {
       "basename": "Pasted image 20230516004432",
@@ -57,10 +137,6 @@
       "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Nucleo.md"
     },
     {
-      "basename": "Matrice inversa",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md"
-    },
-    {
       "basename": "Dimensione di uno spazio vettoriale",
       "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md"
     },
@@ -71,10 +147,6 @@
     {
       "basename": "Fondamenti Del Informatica (FDI)",
       "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Algebra Lineare (AL)",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
     },
     {
       "basename": "Base di uno spazio vettoriale",
@@ -95,10 +167,6 @@
     {
       "basename": "Applicazioni Lineari",
       "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md"
-    },
-    {
-      "basename": "Teorema di Binet",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md"
     },
     {
       "basename": "Forma cartesiana e forma parametrica",
@@ -131,74 +199,6 @@
     {
       "basename": "Metodi Iterativi",
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md"
-    },
-    {
-      "basename": "Geometria analitica",
-      "path": "Extra Note/Geometria Analitica/Geometria analitica.md"
-    },
-    {
-      "basename": "retta tangente",
-      "path": "Extra Note/Geometria Analitica/Note/retta tangente.md"
-    },
-    {
-      "basename": "Pasted image 20230512171901",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png"
-    },
-    {
-      "basename": "Pasted image 20230513011436",
-      "path": "Extra Note/Geometria Analitica/Media/Pasted image 20230513011436.png"
-    },
-    {
-      "basename": "Insieme dei numeri di macchina",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
-    },
-    {
-      "basename": "Rappresentazione in base di un numero",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di un numero.md"
-    },
-    {
-      "basename": "Aritmetica di Macchina",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
-    },
-    {
-      "basename": "Delopithal",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Delopithal.md"
-    },
-    {
-      "basename": "Teorema di Lagange",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagange.md"
-    },
-    {
-      "basename": "Teorema di approssimazione di Weierstrass",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
-    },
-    {
-      "basename": "Teorema della permanenza del segno",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
-    },
-    {
-      "basename": "Teorema del confronto dei carabinieri",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema del confronto dei carabinieri.md"
-    },
-    {
-      "basename": "Calcolare l N-esimo numero primo Willans's formula",
-      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
-    },
-    {
-      "basename": "Ricerca Binaria",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Ricerca Binaria.md"
-    },
-    {
-      "basename": "Pasted image 20230512163407",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512163407.png"
-    },
-    {
-      "basename": "Pasted image 20230511231344",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511231344.png"
-    },
-    {
-      "basename": "Pasted image 20230511224943",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511224943.png"
     }
   ],
   "omittedPaths": [],

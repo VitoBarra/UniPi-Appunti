@@ -9,28 +9,28 @@ Prev: [[Cloud Computing (CC)]]
 
 # Orchestrators di container e Kubernetes
 ---
-l orchestrazione di  [[Container e Docker|Container]] è il gruppo di operazioni che si fanno in certo casi verificabili diraunte il RunTime del applicazione/[[Microservices|microservizio]] alcuni esempi sono
+l orchestrazione di  [[Container e Docker|Container]] è il gruppo di operazioni che si fanno in certo casi verificabili durante il Runtime del applicazione/[[Microservices|microservizio]] alcuni esempi sono
 - fallimento  di un container 
 - la macchina che fa girare un container fallisce
-- in cui piu container devono comunicare come gestiamo il networking tra containers
-- se abbiamo piu macchine come decidiamo quali container vanno su quale machina
+- in cui più container devono comunicare come gestiamo il networking tra containers
+- se abbiamo più macchine come decidiamo quali container vanno su quale machina
 
 ## Kubernetes 
 è un software per l _orchestrazione dei container_. abbreviato spesso con K8s
 - questo gestisce l intero ciclo di vita di un container. li avvia se servono e li uccide se non sono necessari.
-- fornisce un meccanismo di comunicazione tra le app ache se i container sottostanti vengon creato o distrutti
-- dato un certo _work load_  e un insieme di macchine in un cluster. k8s analizza ogni container e assegna il task all macchina ottimale 
+- fornisce un meccanismo di comunicazione tra le appi anche se i container sottostanti vengono creati o distrutti
+- dato un certo _work load_  e un insieme di macchine in un cluster. k8s analizza ogni container e assegna il task al macchina ottimale 
 
 
 #### Dichiarativita
-Kubernetes utilizza l aproccio _dichiarativo_. quindi dichiariamo lo stato che vogliamo nel sistema e poi kubernetes se ne occuperà. 
+Kubernetes utilizza l approccio _dichiarativo_. quindi dichiariamo lo stato che vogliamo nel sistema e poi kubernetes se ne occuperà. 
 Kubernetes:
 - si accorge che lo stato corrente del sistema non è quello dichiarato.
 - lo corregge rendendo il sistema self-healing
 la _dichiarazione_ dello stato è fatta un un file .yaml
 
 lo _stato_ è definito come una collezione di oggetti
-- ogni oggetti ha specificato lo stato desiderato e uno status che rapresenta lo stato corrente
+- ogni oggetti ha specificato lo stato desiderato e uno status che rappresenta lo stato corrente
 - k8s richiede a gli oggetti di controllare se lo stato corrente è uguale allo stato desiderato
 	- se un oggetto non risponde k8s lo sostituisce con uno nuovo 
 	- se un oggetto ha lo stato diverso da quello disiderato k8s eseguirà i rispettivi comando per risolvere il problema 
@@ -50,7 +50,7 @@ le modifiche di stato dei _container_ devono essere fatte tramite [[Volumi|volum
 il file di dichiarazione dello stato di kubernetes è chiamato _manifest_ ed è una collezione di oggetti Chiamati _Pod_ (branco)
 ![[IMG_0565.jpeg]]
 questo consistono in 
-- uno o piu container che role tra loro connessi
+- uno o più container tra loro connessi
 - un netwoeklayer condiviso
 - Volume Condiviso
 
@@ -59,7 +59,7 @@ una collezione di _pod_ è detta _Deployment_
 un _Deployment_ Specifica i vari pod e il numero di repliche associate a quel pod 
 ![[IMG_0567.jpeg]]
 
-ad ogni pod è assegnato un [[Livello di rete - IP|IP]] unico che si puo usare per comunicare con esso
+ad ogni pod è assegnato un [[Livello di rete - IP|IP]] unico che si può usare per comunicare con esso
 
 Siccome gli esatti pod possono cambiare velocemente per via di rescaling o fallimenti dei pod, k8s offre un _Servizio_ che è un endpoint stabile che si occupera di direzionare il traffico al pod desiderato. anche se questo è cambiato nel frattempo.
 - il servizio conosce a quale _pod_ dove mandare il traffico grazie a delle associazione i chiavi valori definite nei metadata.
@@ -73,7 +73,7 @@ gli oggetti _ingress_ è un oggetto che fornisce un _endPoint_ stabile per rende
 
 ### K8S control plane 
 
-il sistema di kubernetes funziona con la presenza in un cluster di macchine di uno o piu nodi _master_ (se ne vuole piu di uno per _fail tollerance_) e nodi _worker_.
+il sistema di kubernetes funziona con la presenza in un cluster di macchine di uno o più nodi _master_ (se ne vuole più di uno per _fail tollerance_) e nodi _worker_.
 
 #### master node
 il master Node è diviso in put componenti
@@ -114,3 +114,5 @@ il _kube-Proxy_ permette ai container di comunicare tra di loro attraverso i var
 
 ## Confronto con [[Container e Docker|docker]]
 ![[IMG_0579.jpeg]]
+
+

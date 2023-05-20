@@ -15,7 +15,7 @@ Prev: [[Cloud Computing (CC)]]
 è un modo per fare virtualizzazione dei sistemi operativi in sostituzione a gli Hypervisor. in particolare si installa il Container Manager.
 
 ![[IMG_0517.jpeg]]
-funzionano perche sfruttano la capacita del [[Sistemi Operativi|OS]] linux di fa convivere piu istanze User-space isolate. 
+funzionano perché sfruttano la capacita del [[Sistemi Operativi|OS]] linux di fa convivere più istanze User-space isolate. 
 questo porta ai _vantaggi_ dei container che sono:  
 - Piu leggeri ed efficienti in termini di velocità e memoria
 - piu veloci da avviare 

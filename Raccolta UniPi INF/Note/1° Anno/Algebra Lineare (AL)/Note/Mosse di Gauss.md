@@ -9,16 +9,20 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Mosse di gauss
 ---
+_sia_ la $C_i$ la $i-esima$ riga di una [[Matrice|matrice]] possiamo fare le seguenti _mosse di guass_  senza modificare l [[Soluzioni di un sistema lineare|insieme delle soluzioni]] $\mathcal{S}$ del [[Sistemi lineari e lineari  omogenei|sistema]]. 
+1. $C_{i}\leftrightarrow C_{j}$
+	1. Scambiare due righe
+2. $C_{i}\rightarrow \lambda C_{i}, \lambda \not = 0$
+	1. moltiplicare una riga per un numero $\lambda \not=0$
+3. $C_{i}\rightarrow \lambda C_{i}+\lambda C_{j}$
+	1. aggiungere ad una riga un altra riga moltiplicato per  un $\lambda$ qualsiasi 
+
+Per ogni riga $C_i$ di $C$, chiamiamo _pivot_ il primo elemento non nullo della riga $C_i$. Una matrice a scalini è una matrice avente la proprietà seguente: il pivot di ogni riga è sempre strettamente più a _destra_ del pivot della riga precedente
 
 
-![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 15.png]]
 
-Per ogni riga $C_i$ di $C$, chiamiamo pivot il primo elemento non nullo della riga $C_i$. Una matrice a scalini è una matrice avente la proprietà seguente: il pivot di ogni riga è sempre strettamente più a
-destra del pivot della riga precedente
-
-### esempi di matrici a scalini:
-
-$$
+> [!example]-  Esempi di matrici a scalini
+> $$
 \begin{pmatrix}
 1 & 0 &5 \\
 0 & -1 & -1
@@ -28,11 +32,9 @@ $$
 0 & 0 & 1 \\
 0 & 0 & 0
 \end{pmatrix}
-$$
-
-mentre invece non sono metrici a scalini:
-
-$$
+>$$
+>mentre invece _non_ sono metrici a scalini:
+>$$
 \begin{pmatrix}
 1 & 2 & -1 \\
 4 & 0 & 6 \\
@@ -47,46 +49,30 @@ $$
 $$
 
 ### Matrice Gauss - Jordan:
-
 i pivot hanno sopra e sotto degli 0
 
-esempio:
+da teneri in considerazione quando si risolve un sistema con Gauss - Jordanci sono due casi da considerare.
 
+Se la colonna dei termini noti $b$ contiene un pivot, allora la matrice è indicativamente di questo tipo:
+$$\begin{bmatrix} & 
+\begin{array}{cccccc|c}
+0 & 1 & ? & 0 & 0 & ?  & ? \\
+0 & 0 & 0 & 1 & 0 & ?  & ? \\
+0 & 0 & 0 & 0 & 0 & 0  & 1
+\end{array} & 
+\end{bmatrix}
 $$
-\begin{pmatrix}
-1&0&4 \\
-0&1&1 \\
-0&0&0
-\end{pmatrix}
+la riga che contiene l ultimo pivot rappresenta l equazione $0=1$ che non ha soluzione. in questo caso l insieme delle soluzioni è vuoto $\mathcal{S}=\emptyset$
+
+considerando il caso in cui l ultimo colonna non contenga pivot. la matrice $C$ è indicativamente in questo tipo:
+$$\begin{bmatrix} & 
+\begin{array}{cccccc|c}
+0 & 1 & a_{13} & 0 & 0 & a_{16}  & b_{1} \\
+0 & 0 & 0 & 1 & 0 & a_{26}  & b_{2}  \\
+0 & 0 & 0 & 0 & 0 & a_{36}  & b_{3}
+\end{array} & 
+\end{bmatrix}
 $$
-
-da teneri in considerazione quando si risolve un sistema con Gauss - Jordan
-
-![[Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 9.png]]
-
 allora questa ha infinite soluzioni
-
-### soluzione di un sistema lineare con Gause - jordan:
-
-Rosolviamo il sistema seguente, gia rodotto con l’algoritmo di Gauss-Jordan:
-
-$$
-\begin{cases}
-x_1+3x_2+4x_5 =1 \\
-\ \ \ \ \ \ \ \ \ \ \ x_3-2x_4 =3
-\end{cases}
-$$
-
-Le variabili corrispondenti ai pivot sono $x_1$ e $x_3$. Le variabili libero sono $x_2,x_4$ e $x_5$. quindi scriviamo
-
-$$
-\begin{cases}
-x_1 =1 -3t-1 -4t_3 \\
-x_2 = t_1 \\
-x_3 = 3 +2t_2 \\
-x_4 = t_2 \\
-x_5 = t_3
-\end{cases}
-$$
 
 

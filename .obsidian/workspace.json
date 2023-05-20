@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
+                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
+                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
+                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
+                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md"
               }
             }
           },
@@ -193,7 +193,31 @@
   },
   "active": "3185695c1a8868d2",
   "lastOpenFiles": [
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Heroku.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Infrastructure As A Service(Iaas).md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud and Green Computing/Cloud and Green Computing.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517170805.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517163351.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/Uni MOC.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Mosse di Gauss.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/photo_2023-03-28_16-11-08.jpg",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Errori nel calcolo di una funzione razionale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004320.png",
@@ -203,35 +227,12 @@
     "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
     "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema di Rolle.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
     "Senza nome.canvas",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
-    "Raccolta UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
-    "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Polinomi.md",
-    "Raccolta UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md",
-    "Raccolta UniPi INF/Temp Note/Critto Note temp.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Nucleo.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Cardinalità di un insieme.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari  omogenei.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Combinazioni Lineari.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230515170753.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png",
-    "Extra Note/Geometria Analitica/Media/Pasted image 20230513011436.png",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",
     "Extra Note/Geometria Analitica",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512163407.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
     "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",

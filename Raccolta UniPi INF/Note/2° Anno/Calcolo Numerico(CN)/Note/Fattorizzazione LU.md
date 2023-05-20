@@ -11,16 +11,19 @@ Prev: [[Calcolo Numerico(CN)]]
 ---
 Data una [[Matrice|matrice]] $A \in \mathbb{R}^{n\times n}$ si dice fattorizzai le nella forma LU se esistono $U\in \mathbb{R}^{n\times n}$  [[Tipi di matrice quadrata|matrice triangolare superiore]] ed $L\in \mathbb{R}^{n\times n}$ [[Tipi di matrice quadrata|matrice triangolare inferiore]] con elementi uguali ad 1 sulla diagonale principale tali che $A = L\cdot U$ 
 
-
-
-Se $A \in \mathbb{R}^{n\times n}$ [[Matrice inversa|invertibile]] è fattorizzabile in forma $LU$ allora dal [[Teorema di Binet|Teorema di Binet]] segue che U è pure invertibile e dunque il sistema lineare $Ax = b$ può essere risolto mediante la sequenza di sistemi triangolare 
+Se $A \in \mathbb{R}^{n\times n}$ [[Matrice inversa|invertibile]] è fattorizzabile in forma $LU$ allora dal [[Teorema di Binet|Teorema di Binet]]  abbiamo $\det(U)\not=0$ e quindi $U$ è invertibile, dunque il [[Sistemi lineari e lineari  omogenei|sistema lineare]] $Ax = b$ può essere risolto mediante la sequenza di sistemi triangolare 
 $$\begin{cases}
 Ly=b \\
 Ux=y
 \end{cases}
 $$
-## Teorema di unicità 
-Sia $A_k \in \mathbb{R}^{k\times k}$  una sottomatrice di $A \in \mathbb{R}^{n\times n}$ con $1\leq k\leq n$ se sono [[Matrice inversa|invertibili]] tutte le matrici con $k= 1,\dots,n-1$   allora esiste un unica fattorizzazione $LU$ di $A$
+## Teorema di unicità
+_Sia_ $A_k \in \mathbb{R}^{k\times k}$  una _sottomatrice_ di $A \in \mathbb{R}^{n\times n}$ con $1\leq k\leq n$ 
+_se_ sono  [[Matrice inversa|invertibili]] tutte le matrici con $k= 1,\dots,n-1$
+_allora_ esiste _un unica_ fattorizzazione $LU$ di $A$
+
+> [!warning] 
+> questo teorema da solo delle condizioni _sufficienti_ ma _non necessarie_. quindi se non sono soddisfatti i criteri non possiamo dire nulla sul esistenza della fattorizzazione 
 
 #### Dimostrazione
 la dimostrazione procede per induzione sulla dimensione $n$ della matrice. Per $n=1, A=[a] = [1][a]$ è l unica fattorizzazione $LU$ di $A$ Supponiamo il teorema vero per matrici di ordine $m \leq n-1$ e dimostrazione per una matrice $A$ di ordine $n$ la relazione $A = LU$ può essere riscritta come 

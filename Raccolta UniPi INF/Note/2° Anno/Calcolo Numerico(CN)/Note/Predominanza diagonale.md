@@ -10,7 +10,7 @@ Prev: [[Calcolo Numerico(CN)]]
 # Predominanza diagonale
 --- 
 una [[Matrice|matrice]] $A \in \mathbb{C}^{n \times n}$ si dice a _predominanza diagonale_ per riga se vale 
-$$|a_{ii}| > \sum^n_{j=i,j\not=i} \ \ \ \forall i = 1,\dots,n$$
+$$|a_{ii}| > \sum^n_{j=1,j\not=i} \ \ \ \forall i = 1,\dots,n$$
 
 ### Teorema 
 Se $A$ è a predominanza diagonale allora $A$ è [[Matrice inversa|invertibile]] 
@@ -19,7 +19,7 @@ Se $A$ è a predominanza diagonale allora $A$ è [[Matrice inversa|invertibile]]
 bisogna verificare che $\lambda =0$ non sia un [[Calcolare autovalori e autovettori|autovalore]] di $A$ 
 lo facciamo utilizzando [[Localizzazione degli Autovettori#Teorema di Gershgorin|cerchi di Gershgorin]] e dobbiamo mostrare che $\lambda = 0 \not \in \cup^n_{i=1}K_i$
 
-$$|a_{ii}| = |0- a_{ii}| > \sum^{n_{j=i,j\not=i}}|a_{i,j}| \ \ \ \forall i = 1,\dots,n$$
+$$|a_{ii}| = |0- a_{ii}| > \sum^{n}_{j=1,j\not=i}|a_{i,j}| \ \ \ \forall i = 1,\dots,n$$
 da questo utilizzando la definizione di [[Localizzazione degli Autovettori#Teorema di Gershgorin|cerchi di Gershgorin]] posso concludere 
 $$0 \not\in K_i $$
 siccome 

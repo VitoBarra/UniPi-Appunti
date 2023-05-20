@@ -12,8 +12,8 @@ Prev: [[Cloud Computing (CC)]]
 un _Business model_ descrive razionalmente come un organizzazione, crea, consegna e cattura _Valore_
 
 ![[IMG_0545.jpeg]]
-## Bisness canvas
-per rappresentare un  business modle si utilizzano le bisness canvas
+## Business canvas
+per rappresentare un business model si utilizzano le business canvas
 ![[IMG_0546.jpeg]]
 - _Value Proposition_: descrive il gruppo di prodotto e di servizi che creano valore per uno specifico _customer segment_
 - _Customer segment_: definisce il gruppo di persone o organizzazione che l azienda intende servire
