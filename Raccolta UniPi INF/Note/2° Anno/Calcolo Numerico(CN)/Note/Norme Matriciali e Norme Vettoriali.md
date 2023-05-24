@@ -20,7 +20,7 @@ se $f$ è una norma vettoriale su $\mathbb{F}^n$ indichiamo per comodità di not
 
 
 ### Distanza indotta
-dalla norma vettoriale si puo costruire una distanza indotta $d:\mathbb{F}^n \times \mathbb{F}^n \rightarrow \mathbb{R}$
+dalla norma vettoriale si può costruire una distanza indotta $d:\mathbb{F}^n \times \mathbb{F}^n \rightarrow \mathbb{R}$
 $$\forall v,z \in \mathbb{F}^n, \ d(v,z)= \|v-z \|$$
 questa ha le _proprietà_ indotte dal fatto di usare una norma come definizione
 1. (non negativita) $\forall v,z \in \mathbb{F}^n, d(v,r) \geq 0$ e $d(v,z)=0 \iff v=z$
@@ -49,8 +49,8 @@ questo risultato implica che le proprietà topologiche di convergenza/divergenza
 
 
 ## Norme Matriciali 
-si dice norma matriciale su $\mathbb{F}^{n\times n}$ una funzione $f:\mathbb{F}^{n \times n} \rightarrow \mathbb{R}$ che soddisfa le seguenti proprietà
-1. $\forall A \in \mathbb{F}^{n\times n}, f(A)\geq, \ \  f(A)=0 \iff A =0$
+si dice _norma matriciale_ su $\mathbb{F}^{n\times n}$ una funzione $f:\mathbb{F}^{n \times n} \rightarrow \mathbb{R}$ che soddisfa le seguenti proprietà
+1. $\forall A \in \mathbb{F}^{n\times n}, f(A)\geq 0, \ \  f(A)=0 \iff A =0$
 2. $\forall A \in \mathbb{F}^{n\times n}, \forall \alpha \in \mathbb{F} , f(\alpha A)= |\alpha|f(A)$
 3. $\forall A,B \in \mathbb{F}^{n \times n}, \ f(A+B) \leq f(A)+ f(B)$
 4. $\forall A,B \in \mathbb{F}^{n \times n}, \ f(A\cdot B) \leq f(A)\cdot f(B)$

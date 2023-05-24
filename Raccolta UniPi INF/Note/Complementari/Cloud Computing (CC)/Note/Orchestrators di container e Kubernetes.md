@@ -51,7 +51,7 @@ il file di dichiarazione dello stato di kubernetes è chiamato _manifest_ ed è 
 ![[IMG_0565.jpeg]]
 questo consistono in 
 - uno o più container tra loro connessi
-- un netwoeklayer condiviso
+- un network layer condiviso
 - Volume Condiviso
 
 una collezione di _pod_ è detta _Deployment_

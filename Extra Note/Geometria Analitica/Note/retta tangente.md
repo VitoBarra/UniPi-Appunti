@@ -2,11 +2,15 @@
 type: nota
 course: Analisi
 topic: 
-tags: Analisi
+tags: GA
 ---
 
-Prev: [[Analisi]]
+Prev: [[Geometria analitica (GA)]]
 
-# retta tangente
+# Retta tangente
 ---
+un un particolare tipo di [[Retta|retta]] che passa per un punto specifico di un grafico 
+
+
+### Calcolo del coefficiente angolare
 ![[Pasted image 20230513011436.png]]

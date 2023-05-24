@@ -25,7 +25,12 @@ Prev: [[Uni MOC]]
 15. [[Metodi Iterativi]]
 	1. [[Metodi iterativi concreti]]
 16. [[Calcolo di autovalori]]
-17. [[Calcolare gli zeri di una funzione]]
+17. [[Metodi iterativi funzionali (calcolo degli zeri)]]
+	1. [[Metodo della bisezione]]
+	2. [[Metodo dei punti fissi]]
+	3. [[Convergenza locale per metodi interativi funzionali]]
+	4. [[Metodo delle tangenti o di Newton]]
+	5. [[Ordine di convergenza]]
 18. [[Interpolazione polinomiale]]
 
 

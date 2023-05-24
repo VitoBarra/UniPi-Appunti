@@ -49,11 +49,11 @@ $$x_i^{(k+1)}= \frac{1}{a_{ii}}\left[ b_{i} - \sum^{i-1}_{j=1} a_{ij}x_{j}^{(k)}
 - $M=D-L$ (la parte triangolare inferiore della matrice A)
 - $N = U$
 - la mia matrice di interazione $G=(D-L)^{-1}U$ 
-posso applicare questo metodo solo alle matrci con $a_{ii} \not= 0\ \ \ \forall i =1,\dots,n$ ovvero solo a quelle matrici che _NON_ hanno elementi nulli sulla _diagonale_. cosi non fosse $D-L$ non sarebbe [[Matrice inversa|invertibile]].
+posso applicare questo metodo solo alle matrici con $a_{ii} \not= 0\ \ \ \forall i =1,\dots,n$ ovvero solo a quelle matrici che _NON_ hanno elementi nulli sulla _diagonale_. cosi non fosse $D-L$ non sarebbe [[Matrice inversa|invertibile]].
 quindi il _metodo_ diventa
 $$\begin{cases}
 x^{(0)} \in \mathbb{K}^n\\
-x^{(k+1)} = Gx^{(k)}(D-L)^{-1}b
+x^{(k+1)} = Gx^{(k)}+(D-L)^{-1}b
 \end{cases}$$
 possiamo Riscrivere la seconda equazione come 
 $$
@@ -115,8 +115,6 @@ $$\begin{array}{}
 && \|(P-I)^{-1}\|\cdot tol
 \end{array}$$
 $\|(P-I)^{-1}\|$ _può_ diventare diventa  _molto grande_ quando il raggio spetrale tende ad 1 ( $p(P) \to 1$). si dice che la matrice $P-I$ sia quasi _singolare_ si avvicina cioè ad non essere invertibile.
-
-
 
 #### Teorema di convergenza sufficiente
 sia $A \in \mathbb{R}^{n \times n}$, se $A$ è a [[Predominanza diagonale|Predominanza diagonale]]

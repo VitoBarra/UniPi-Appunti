@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "Metodo dei punti fissi",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+    },
+    {
+      "basename": "Calcolo Numerico(CN)",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+    },
+    {
+      "basename": "Metodo delle tangenti o di Newton",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md"
+    },
+    {
+      "basename": "Mvt2_italian.svg",
+      "path": "Extra Note/Geometria Analitica/Media/Mvt2_italian.svg.png"
+    },
+    {
+      "basename": "Pasted image 20230523021918",
+      "path": "Extra Note/Geometria Analitica/Media/Pasted image 20230523021918.png"
+    },
+    {
+      "basename": "Analisi",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Teorema di Lagrange",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md"
+    },
+    {
+      "basename": "Teorema di Rolle",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md"
+    },
+    {
+      "basename": "Retta",
+      "path": "Extra Note/Geometria Analitica/Note/Retta.md"
+    },
+    {
+      "basename": "Geometria analitica (GA)",
+      "path": "Extra Note/Geometria Analitica/Geometria analitica (GA).md"
+    },
+    {
+      "basename": "Retta tangente",
+      "path": "Extra Note/Geometria Analitica/Note/Retta tangente.md"
+    },
+    {
+      "basename": "GA Final",
+      "path": "Templete/Coure Finale/GA Final.md"
+    },
+    {
+      "basename": "Analisi Final",
+      "path": "Templete/Coure Finale/Analisi Final.md"
+    },
+    {
+      "basename": "Calcolare l N-esimo numero primo Willans's formula",
+      "path": "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md"
+    },
+    {
+      "basename": "Pasted image 20230523005912",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Media/Pasted image 20230523005912.png"
+    },
+    {
+      "basename": "Sviluppi di Taylor",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md"
+    },
+    {
+      "basename": "Convergenza locale per metodi interativi funzionali",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md"
+    },
+    {
+      "basename": "Metodi iterativi funzionali (calcolo degli zeri)",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md"
+    },
+    {
+      "basename": "Ordine di convergenza",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md"
+    },
+    {
+      "basename": "Teorema di approssimazione di Weierstrass",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
+    },
+    {
+      "basename": "Metodi iterativi concreti",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi concreti.md"
+    },
+    {
+      "basename": "Interpolazione polinomiale",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
+    },
+    {
+      "basename": "Metodi Iterativi",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "Raccolta UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Serie geometrica",
+      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
+    },
+    {
+      "basename": "Norme Matriciali e Norme Vettoriali",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md"
+    },
+    {
       "basename": "Orchestrators di container e Kubernetes",
       "path": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md"
     },
@@ -41,16 +145,8 @@
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
     },
     {
-      "basename": "Calcolo Numerico(CN)",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
-    },
-    {
       "basename": "Fattorizzazione LU",
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "Raccolta UniPi INF/Note/Uni MOC.md"
     },
     {
       "basename": "Algebra Lineare (AL)",
@@ -85,24 +181,8 @@
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md"
     },
     {
-      "basename": "Calcolare gli zeri di una funzione",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md"
-    },
-    {
       "basename": "Pasted image 20230516004432",
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png"
-    },
-    {
-      "basename": "Interpolazione polinomiale",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Teorema di Rolle",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema di Rolle.md"
     },
     {
       "basename": "Condizionamento della risoluzione dei sistemi lineari",
@@ -119,86 +199,6 @@
     {
       "basename": "Algebra (ALG)",
       "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Polinomi",
-      "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Polinomi.md"
-    },
-    {
-      "basename": "Probabilità e variabili aleatorie",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md"
-    },
-    {
-      "basename": "Critto Note temp",
-      "path": "Raccolta UniPi INF/Temp Note/Critto Note temp.md"
-    },
-    {
-      "basename": "Nucleo",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Nucleo.md"
-    },
-    {
-      "basename": "Dimensione di uno spazio vettoriale",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md"
-    },
-    {
-      "basename": "Cardinalità di un insieme",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Cardinalità di un insieme.md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Base di uno spazio vettoriale",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md"
-    },
-    {
-      "basename": "Funzioni",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md"
-    },
-    {
-      "basename": "Sistemi lineari e lineari  omogenei",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari  omogenei.md"
-    },
-    {
-      "basename": "Soluzioni di un sistema lineare",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md"
-    },
-    {
-      "basename": "Applicazioni Lineari",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md"
-    },
-    {
-      "basename": "Forma cartesiana e forma parametrica",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md"
-    },
-    {
-      "basename": "Combinazioni Lineari",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Combinazioni Lineari.md"
-    },
-    {
-      "basename": "Spazio Vettoriale",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
-    },
-    {
-      "basename": "Teorema di Rouché - Capellii",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Rouché - Capellii.md"
-    },
-    {
-      "basename": "Pasted image 20230515170753",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230515170753.png"
-    },
-    {
-      "basename": "Sviluppi di Taylor",
-      "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md"
-    },
-    {
-      "basename": "Teorema della divisione tra polinomi",
-      "path": "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Teorema della divisione tra polinomi.md"
-    },
-    {
-      "basename": "Metodi Iterativi",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md"
     }
   ],
   "omittedPaths": [],

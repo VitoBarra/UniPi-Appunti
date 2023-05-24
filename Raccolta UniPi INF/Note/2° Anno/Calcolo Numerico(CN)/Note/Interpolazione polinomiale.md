@@ -61,18 +61,18 @@ $$ed è chiamatati _matrice di Vandermonde_ il calcolo dei coefficienti con ques
 \prod_{i=0}^{k-1}(x_{h}-x_{i})  &  \text{if }\ h\geq k\\
 0&  \text{if }\ h< k
 \end{cases} 
-$$i _polinomio di interpolazione_ $p(x)$ risultate con questa matrice è detto in _forma di Newton_ e il calcolo dei coefficienti è generalmente [[Tipi di Errore nel calcolo numerico#Errore Inerente|mal condizionata]] e e la risoluzione del sistema lineare richiede $O(n^{2})$ operazioni aritmetiche
+$$i _polinomio di interpolazione_ $p(x)$ risultate con questa matrice è detto in _forma di Newton_ e il calcolo dei coefficienti è generalmente [[Tipi di Errore nel calcolo numerico#Errore Inerente|mal condizionata]] e la risoluzione del [[Sistemi lineari e lineari  omogenei|sistema lineare]] richiede $O(n^{2})$ operazioni aritmetiche
 3. se $\phi_{j} = L_{j} = \prod^n_{i=0,i\not=j} \cfrac{x-x_{i}}{x_{j}-x_{i}},\ \ \  0 \leq k\leq n$ allora si ha che $\mathcal{V}(\mathcal{S},\Phi) = I_{n}$ $$(\mathcal{V}(\mathcal{S},\Phi))_{h+1,k+1}= L_{k}(x_{h})=
 \begin{cases} 
 1  &  \text{if }  h= k\\
 0 & \text{altrimenti}  
 \end{cases} 
-$$i _polinomio di interpolazione_ $p(x)=\sum^{n}_{j=0}y_{j}L_{j}(x)$ risultate con questa matrice è detto in _forma di Lagrange_. e il calcolo dei coefficienti $a_{j}=y_{j}$ è [[Tipi di Errore nel calcolo numerico#Errore Inerente|ottimamente condizionato]] e _non_ richiede operazioni aritmetiche
+$$i _polinomio di interpolazione_ $p(x)=\sum^{n}_{j=0}f(x_{j})L_{j}(x)$ risultate con questa matrice è detto in _forma di Lagrange_. e il calcolo dei coefficienti $a_{j}=y_{j}$ è [[Tipi di Errore nel calcolo numerico#Errore Inerente|ottimamente condizionato]] e _non_ richiede operazioni aritmetiche
 
 
 in contesti applicativi solitamente non si é interessati alla valutazione dei coefficenti ma a quella del polinomio in punti diversi da i punti già disponibili (_detti anche nodi_)  indicati con $\hat{x}$. nella _forma di langrange_ si ha che 
-$$P(\hat{x}) = \sum^{n}_{j=0}y_{j}L_{j}(\hat{x}) =\sum^{n}_{j=0}\left(y_{j}\prod^n_{i=0,i\not=j} \cfrac{\hat{x}-x_{i}}{x_{j}-x_{i}}\right) = \prod_{i=0}^{n}(\hat{x}-x_{i})\sum^{n}_{j=0} \frac{y_{j}}{\omega_j(\hat{x}-x_{j})}$$
-con $\omega_{j}=\prod^{n}_{i=0i\not=j}(x_{j}-x_{i}), 0\leq j\leq n$ se i pesi $\omega_{j}$ sono _precomputati_ computare $P(\hat{x})$ costa $O(n)$ operazioni aritmetiche
+$$P(\hat{x}) = \sum^{n}_{j=0}f(x_{j})L_{j}(\hat{x}) =\sum^{n}_{j=0}\left(f(x_{j})\prod^n_{i=0,i\not=j} \cfrac{\hat{x}-x_{i}}{x_{j}-x_{i}}\right) = \prod_{i=0}^{n}(\hat{x}-x_{i})\sum^{n}_{j=0} \frac{y_{j}}{\omega_j(\hat{x}-x_{j})}$$
+con $\omega_{j}=\prod^{n}_{i=0\ i\not=j}(x_{j}-x_{i}), 0\leq j\leq n$ se i pesi $\omega_{j}$ sono _precomputati_ computare $P(\hat{x})$ costa $O(n)$ operazioni aritmetiche
 
 
 

@@ -14,8 +14,8 @@ Prev: [[Analisi]]
 $$\sum^{+\infty}_{n=0}q^n$$
 - $q$ è detta la _ragione_ 
 
-##### Proprieta note
+##### Proprietà note
 - se la ragione $-1<q<1$ allora la serie _Converge_ a $\frac{1}{1-q}$
 - se $q\geq 1$ _diverge_ positivamente $+\infty$
-- se $q \leq -1$ è _inregolare_ 
+- se $q \leq -1$ è _irregolare_ 
 

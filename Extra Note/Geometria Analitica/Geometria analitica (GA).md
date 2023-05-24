@@ -8,7 +8,8 @@ Prev: [[Uni MOC]]
 # Geometria analitica
 
 ## Course MOC  📒
-1. [[retta tangente]]
+1. [[Retta tangente]]
+2. [[Retta]]
 
 
 
