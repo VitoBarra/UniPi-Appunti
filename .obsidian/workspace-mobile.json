@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "990ce862d5fbc90d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg"
-              }
-            }
-          },
-          {
             "id": "f4553ccaf5c22b08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Untitled.md",
+                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -55,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "virtual network",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -82,6 +72,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "8939f2ecccf886e5",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -104,7 +102,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg",
+            "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg",
+            "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0553.jpeg"
+            "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
           }
         }
       },
@@ -150,6 +148,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -162,54 +162,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0565.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Cloud-Edge Continuum.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0588.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0587.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0586.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0585.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0584.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0583.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0582.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0581.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0580.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media/IMG_0579.jpeg",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Microservices.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/REST API e OpenAPI.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi di progettazione e qualità di un progetto.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/Principi SOLID.md",
-    "Raccolta UniPi INF/Note/3° Anno/Ingegneria del software/Note/GoF Design Patterns.md",
-    "Raccolta UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Producer-Consumer.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello Applicativo - HTTP.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/WWW - Word Wide Web.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi concreti.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Untitled.md",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Cloud computing Introduzione.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Vendol Lock-in.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Function As A Service (Faas).md",
-    "Raccolta UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Interfaccia Socket.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di collegamento - VLAN.md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Application Programming Interface (API).md",
-    "Raccolta UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di rete - IP.md",
+    "Raccolta UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md",
+    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Heroku.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrici Diagonalizzabili.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
+    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Cardinalità di un insieme.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Teorema di Rolle.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema del confronto dei carabinieri.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md",
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagange.md",
+    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Ricerca Binaria.md",
+    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media/binarysearch.png",
+    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/photo_2023-03-28_16-11-08.jpg",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511180931.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511023123.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517170805.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510232155.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510215538.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004029.png",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolare gli zeri di una funzione.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
+    "Extra Note/Geometria Analitica/Note/retta tangente.md",
+    "Extra Note/Geometria Analitica/Geometria analitica.md",
+    "Extra Note/Geometria Analitica/Media",
+    "Extra Note/Geometria Analitica/Note",
+    "Extra Note/Geometria Analitica",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)",
     "Senza nome.canvas",
     "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Media",
     "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Note",
-    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC",
-    "trim.D050AE92-AAC4-41BB-8E45-BBABD17CCC60.mov",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Untitled",
-    "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Media"
+    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC"
   ]
 }

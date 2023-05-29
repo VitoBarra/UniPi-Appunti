@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Calcolo Numerico(CN)",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+    },
+    {
       "basename": "Metodo dei punti fissi",
       "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
     },
     {
-      "basename": "Calcolo Numerico(CN)",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+      "basename": "Metodi iterativi concreti",
+      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi concreti.md"
     },
     {
       "basename": "Metodo delle tangenti o di Newton",
@@ -79,10 +83,6 @@
     {
       "basename": "Teorema di approssimazione di Weierstrass",
       "path": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
-    },
-    {
-      "basename": "Metodi iterativi concreti",
-      "path": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi concreti.md"
     },
     {
       "basename": "Interpolazione polinomiale",

@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Metodi iterativi concreti
 ---
-è un [[Metodi Iterativi|metodi interativo]] utile siccome non c é bisogno di calcolare la matrice di iterazione.
+sono  [[Metodi Iterativi|metodi interativo]] utili siccome non c é bisogno di calcolare la matrice di iterazione.
 Scompongo la matrice A come
 $$A=D-L-U =$$
 ![[Pasted image 20230510215538.png]]
@@ -20,7 +20,7 @@ $$A=D-L-U =$$
 e quindi possimao scrivere come $A = M - N$ con 
 - $M=D$ 
 - $N=L+D$ 
-- la mia matrice di interazione $J =D^{-1}(L+U)$
+- la matrice di interazione $J =D^{-1}(L+U)$
 posso applicare questo metodo solo alle matrici con $a_{ii} \not= 0\ \ \ \forall i =1,\dots,n$ ovvero solo a quelle matrici che _NON_ hanno elementi nulli sulla _diagonale_. cosi non fosse $D$ non sarebbe [[Matrice inversa|invertibile]].
 quindi il _metodo_ diventa
 $$\begin{cases}
