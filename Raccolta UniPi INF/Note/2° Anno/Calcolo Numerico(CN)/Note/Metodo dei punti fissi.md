@@ -29,8 +29,8 @@ _allora_ $\alpha = g(\alpha)$
 $$\alpha =\lim_{ k \to \infty }x_{k+1} = \lim_{ k \to \infty }g(x_{k}) = g(\lim_{ k \to \infty }x_{k}) = g(\alpha) $$
 
 #### Teorema del punto fisso
-sia $g:[a,b]\rightarrow \mathbb{R}, \ \ g \in C^{1}([a,b])$ ovvero che sia [[Continuità di una funzione|continua]] e _derivabile con derivata continua_.  $g(\alpha) = \alpha , \ \ \alpha \in (a,b)$
-se $\exists \rho>0:|g'(x)|<1 \ \ \forall x \in [\alpha-\rho,\alpha +\rho] \implies$ 
+_sia_ $g:[a,b]\rightarrow \mathbb{R}, \ \ g \in C^{1}([a,b])$ ovvero che sia [[Continuità di una funzione|continua]] e _derivabile con derivata continua_.  $g(\alpha) = \alpha , \ \ \alpha \in (a,b)$
+_se_ $\exists \rho>0:|g'(x)|<1 \ \ \forall x \in [\alpha-\rho,\alpha +\rho] \implies$ 
 - ovvero se il coefficiente angolare è tra -1 e 1 (cresce o decresce _poco_ in ogni punto del _insieme circolare_ intorno al punto $\alpha$)
 $\forall x_{0} \in [\alpha-\rho,\alpha +\rho]$ 
 _vale che_ il metodo [[Convergenza locale per metodi interativi funzionali|converge localmente]] 

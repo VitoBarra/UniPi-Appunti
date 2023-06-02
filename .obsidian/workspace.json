@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "894e06963ee92442",
+        "id": "879338ac152f55d1",
         "type": "tabs",
         "children": [
           {
-            "id": "bf31cd2bc7b58f07",
+            "id": "aff424e11c0d87a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3185695c1a8868d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Esperimenti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
               }
             }
           },
@@ -167,8 +153,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "ff5f43eaad4d7bf3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -188,46 +183,48 @@
       "workspaces:Gestisci layout delle aree di lavoro": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3185695c1a8868d2",
+  "active": "aff424e11c0d87a5",
   "lastOpenFiles": [
+    "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "Pasted image 20230531175458.png",
+    "Pasted image 20230531173721.png",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Autovettori e Autovalori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
+    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
+    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
     "Extra Note/Geometria Analitica/Media/Mvt2_italian.svg.png",
     "Extra Note/Geometria Analitica/Media/Pasted image 20230523021918.png",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md",
-    "Extra Note/Geometria Analitica/Note/Retta.md",
-    "Extra Note/Geometria Analitica/Geometria analitica (GA).md",
-    "Extra Note/Geometria Analitica/Note/Retta tangente.md",
-    "Templete/Coure Finale/GA Final.md",
-    "Templete/Coure Finale/Analisi Final.md",
-    "Extra Note/Calcolare l N-esimo numero primo Willans's formula.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
     "Raccolta UniPi INF/Note/1° Anno/Analisi/Media/Pasted image 20230523005912.png",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi concreti.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi.md",
-    "Raccolta UniPi INF/Note/Uni MOC.md",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Orchestrators di container e Kubernetes.md",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517170805.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517163351.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/photo_2023-03-28_16-11-08.jpg",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004320.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004036.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004029.png",
     "Senza nome.canvas",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",

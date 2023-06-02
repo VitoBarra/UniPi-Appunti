@@ -7,36 +7,35 @@ tags: CN
 
 Prev: [[Calcolo Numerico(CN)]]
 
-# Metodi Iterativi
+# Metodi Iterativi per soluzioni di sistemi lineari
 ---
-sono metodi per ricavare una [[Soluzioni di un sistema lineare|soluzione]] del [[Sistemi lineari e lineari  omogenei|sistema lineare]] associato alla _matrice_ quando il [[Mosse di Gauss|metodo di Gauss]] non funziona bene per via della struttura della matrice che fa incorrere in un fenomeno di _Fill-in_
+sono metodi per ricavare una [[Soluzioni di un sistema lineare|soluzione]] del [[Sistemi lineari e lineari omogenei|sistema lineare]] associato alla _matrice_ quando il [[Mosse di Gauss|metodo di Gauss]] non funziona bene per via della struttura della matrice che fa incorrere in un fenomeno di _Fill-in_
 
 un esempio dove questo può succedere è la seguente matrice
 $$
 \begin{bmatrix}
-x & x & x & x\\
-x & x & 0 & 0 \\
-x & 0 & x & 0 \\
-x & 0 & 0 & x
+? & ? & ? & ?\\
+? & ? & 0 & 0 \\
+? & 0 & ? & 0 \\
+? & 0 & 0 & ?
 \end{bmatrix}
 $$
 dove per _fill-in_ si intende la trasformazione degli elementi 0 in elementi diversi da zero dove qualche passo di gauss.
 $$
 \begin{bmatrix}
-x & x & x & x\\
-0 & x & x & x \\
-0 & x & x & x \\
-0 & x & x & x
+? & ? & ? & ? \\
+0 & ? & ? & ? \\
+0 & ? & ? & ? \\
+0 & ? & ? & ?
 \end{bmatrix}
 $$
-x inteso come numero diversa do 0 non tutte le x solo lo stesso numero.
-
+con ? numeri qualsiasi anche diversi
 
 ## Metodi interativi
-sono metodi per cercare [[Soluzioni di un sistema lineare|soluzioni di sistemi lineari]].
-si cerca una sequenza di vettori $\boldsymbol{x}$ tale che $x^{(0)}$ sia il vettore di partenza e 
+sono _metodi iterativi_ per cercare [[Soluzioni di un sistema lineare|soluzioni di sistemi lineari]].
+si cerca una sequenza di vettori $\boldsymbol{x}$ tale che $x^{(0)}$ ossia il vettore di partenza e 
 - $\{x^{(k)}\}$ la sequenza di vettori 
--  per $\{x^{(k)}\}_{k\to \infty} \rightarrow x$ sia _soluzione_ di $Ax=b$
+-  per $\{x^{(k)}\}_{k\to \infty} \rightarrow x$ _soluzione_ di $Ax=b$
 - $\lim_{k \to \infty}x^{(k)} = x \iff \lim_{k \to \infty}\|x^{(k)}-x\| = 0$ 
 	- per via della [[Norme Matriciali e Norme Vettoriali#Teorema di equivalenza topologica delle norme|Teorema di equivalenza topologica delle norme ]] posso scegliere una _qualsiasi norma_.
 - Criterio di arresto
@@ -44,7 +43,7 @@ si cerca una sequenza di vettori $\boldsymbol{x}$ tale che $x^{(0)}$ sia il vett
 	- _scarto_:$$\|Ax^{(k)}-b\| < tol$$
 
 ### Metodi basati su decomposizione di matrice
-con questi metodi posso scomporre la matrice del mio sistema lineare $Ax=b$ come $A = M-N$ con $M,N$ due matrici. sotto l assunzione che $M$ sia [[Matrice inversa|invertibile]] e quindi $det(0)\not=0$ possiamo fare la seguente sequenza di passaggi logici
+con questi classe di metodi posso scomporre la matrice del mio sistema lineare $Ax=b$ come $A = M-N$ con $M,N$ due matrici. sotto l assunzione che $M$ sia [[Matrice inversa|invertibile]] e quindi $det(0)\not=0$ possiamo fare la seguente sequenza di passaggi logici
 $$\begin{array}{}
 (M-N)x =b &\iff \\
 Mx-Nx=b &  \iff \\ 
@@ -70,8 +69,9 @@ un metodo si dice _convergente_ se tutte le [[Successioni|successioni]]  che ott
 
 
 #### Teorema della cosa giusta
-dato un sistema lineare $Ax=b$  e una successione di vettori $\{x^{(k)}\}$ e la _relazione sopra costruita_
-se $\{x^{(k)}\}$ è _convergente_ $\implies$ $\lim_{k\to \infty} x^{(k)} =x$  (cioè $x=Px+q$ )
+_siano_ $Ax=b$ un [[Sistemi lineari e lineari omogenei|sistema lineare]] ,$\{x^{(k)}\}$ una successione di vettori e la _relazione sopra costruita_ $x^{(k+1)}=Px^{(k)}+q$ 
+_se_ $\{x^{(k)}\}$ è _convergente_ 
+_allora_ $$\lim_{k\to \infty} x^{(k)} =x$$ovvero se converge lo fa esattamente a $x$ la soluzione del sistema lineare 
 
 ##### Dimostrazione
 impostando $g(x) = Px+q$ è $g: \mathbb{K}^n \rightarrow \mathbb{K}^n$ con $g$ [[Continuità di una funzione|continua]] 
@@ -105,9 +105,6 @@ questo ci dimostra che il _metodo iterativo_ porta effettivamente alla soluzione
 
 ### Criterio di convergenza
 #### 1. _Teorema_ Condizione Sufficiente:
-
-^c2cecb
-
 l'metodo è _convergente_ se esiste una [[Norme Matriciali e Norme Vettoriali#norma matriciale indotta o compatibile con la norma vettoriale|norma matriciale indotta]] tale che $\|P\|<1$
 ##### Dimostrazione
 preso $e^{(k)} = x^{(k)}-x$  il vettore d errore basta dimostrare che se $\exists \|P\| <1 \implies \lim_{k \to \infty} \|e_k\| =0$ e allora posso dire
@@ -139,10 +136,6 @@ se il metodo è _convergente_ $\iff$ il [[Raggio spettrale|raggio spetrale]] del
 	- il determinante è $\prod^n_{i=0}\lambda_i$
 - guardando la [[Traccia di una matrice|traccia]] $|tr(P)| \geq n$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$     $|\lambda_i| \geq 1 \implies$ _non converge_
 	- la traccia è $\sum^n_{i=0}\lambda_i$ 
-
-
-
-
 
 ##### Dimostrazione di necessaria
 si vuole dimostrare che metodo _convergete_ $\implies p(P)<1$

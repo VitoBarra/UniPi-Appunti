@@ -25,4 +25,4 @@ le soluzioni di un sistema lineare sono
 
 dove è $dim(\mathbb{K}^n) =n$
 
-ne deduciamo che in un [[Sistemi lineari e lineari  omogenei|sistema lineare omogeneo]] esistono sempre soluzioni siccome $b=0$ e quindi  $rk(A|b) = rk(A)$ sempre
+ne deduciamo che in un [[Sistemi lineari e lineari omogenei|sistema lineare omogeneo]] esistono sempre soluzioni siccome $b=0$ e quindi  $rk(A|b) = rk(A)$ sempre

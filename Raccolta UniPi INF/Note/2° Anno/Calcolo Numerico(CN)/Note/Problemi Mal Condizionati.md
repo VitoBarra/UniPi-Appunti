@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Problemi Mal Condizionati
 ---
-non tutti i problemi sono numericamente calcolabili siccome esistono alcune situazioni in cui ina piccola variazione porta ad un errore oltre il 100%, questi casi vengono detti problemi mal condizionati
+Non tutti i problemi sono numericamente calcolabili siccome esistono alcune situazioni in cui una _piccola variazione_ porta ad un errore oltre il 100%, questi casi vengono detti problemi _mal condizionati_ caratterizzati da alto _[[Tipi di Errore nel calcolo numerico|errore inerente]]_
 
 ### Esempio
 

@@ -59,5 +59,5 @@ $$
 
 è al tempo stesso diagonale, triangolare superiore, triangolare inferiore e simmetrica
 
->[!info] #### Osservazione
-> La matrice nulla 0 è di tutti e 5 i tipi: è diagonale, triangolare superiore, triangolare inferiore, simmetrica e antisimmetrica.
+>[!info]  Osservazione
+> La matrice nulla 0 è di tutti e 5 i tipi: è _diagonale_, _triangolare superiore_, _triangolare inferiore_, _simmetrica_ e _antisimmetrica_.

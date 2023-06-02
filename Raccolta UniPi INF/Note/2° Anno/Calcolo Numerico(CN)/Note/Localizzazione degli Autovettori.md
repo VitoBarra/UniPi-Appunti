@@ -10,23 +10,46 @@ Prev: [[Calcolo Numerico(CN)]]
 # Localizzazione degli Autovettori
 ---
 ## Teorema di Hirsch
-data una matrice $A \in C^{n \times n}$ per ogni [[Norme Matriciali e Norme Vettoriali#Teorema norme matriciali indotte da norme vettoriali|norma matriciale indotta]] vale che per ogni [[Autovettori e Autovalori|autovalore]] di $A$ vale che $|\lambda| \leq \|A\|$ 
-
-
-questo teorema dice che possiamo locale tutti gli autovalori di una matrice $A$ in un cerchio di raggio $\|A\|$ sul piano complesso  
+_sia_ una matrice $A \in \mathbb{C}^{n \times n}$  e  $\lambda_{i}$ l $i$-esimo [[Autovettori e Autovalori|autovalore]]  di $A$ 
+_vale che_ per ogni [[Norme Matriciali e Norme Vettoriali#Teorema norme matriciali indotte da norme vettoriali|norma matriciale indotta]] $$|\lambda_{i}| \leq \|A\| \ \ \ \forall i $$ 
+questo teorema dice che possiamo _locale_ tutti gli autovalori di una matrice $A$ in un cerchio di raggio $\|A\|$ sul piano [[Numeri complessi|complesso]]  
 
 #### Dimostrazione
-$|\lambda| \cdot \|x\| = \|\lambda x\| = \|A x\| \leq \|A\| \cdot \|x\|$  
-siccome $\|x\| > 0$ per le proprietà delle norme possiamo dividere tutto per $\|x\|$ e otteniamo $|\lambda| \leq \|A\|$
-
+_siano_ $\lambda$ un _autovalore_ e $x$ l _autovettore_ associato a $\lambda$ di $A$ abbiamo quindi $Ax=\lambda x$
+e quindi 
+$$\begin{array}{}
+|\lambda| \cdot \|x\|  & = &  \\
+ \|\lambda x\|  & = &  \text{per linearita di } \|\cdot\| \\ 
+ \|A x\|  & \leq &  \|A\| \cdot \|x\|
+\end{array}
+$$
+abbiamo che  $\|x\| > 0$ per le _proprietà delle norme_ e quindi 
+$$\begin{array}{}
+|\lambda|\cdot\| x\|  & \leq & \|A\|\cdot\|x\|    & \implies\\
+|\lambda|  &  \leq  &\|A\|
+\end{array}$$
 
 
 ## Teorema di Gershgorin
-data una matrice $A \in \mathbb{C}^{n \times n}$ definiamo cerci di gershgoring $K_i$ con $\ \leq i \leq n$ come
-$$K_i= \{z \in \mathbb{C}: |z-a_{i,i}| \leq \sum^{n}_{j=1,j\not=i}|a_{i,j}|\}$$
-allora si ha che  se $\lambda$ è un autovalore di $A \implies \lambda \in \cup^n_{i=1}K_1$ 
+data una matrice $A \in \mathbb{C}^{n \times n}$ definiamo _cerchi di gershgoring_ $K_i$ con $1 \leq i \leq n$ come
+$$K_i= \left\{z \in \mathbb{C}: |z-a_{i,i}| \leq \sum^{n}_{j=1,j\not=i}|a_{i,j}|\right\}$$
+_allora_ si ha che se $\lambda$ è un [[Autovettori e Autovalori|autovalore]] di $A \implies \lambda \in \cup^n_{i=1}K_i$ 
 
 #### Dimostrazione
+Sia $\lambda$ _autovalore_ di $A$ con corrispondente autovettore x. La relazione $Ax = \lambda x$ implica che
+$$\sum^n_{j=1}a_{i,j}x_{j}=\lambda x_{i} \ \ 1\leq i \leq n$$
+da qui 
+$$(\lambda-a_{i,i})x_{i}=\sum^n_{j=1,j\not=i}a_{i,j}x_{j} \ \ \ 1\leq i \leq n$$
+sia $p$ l indice di $|x_{p}|=\|x\|_{\infty}$ ovvero della componente di modulo massimo.
+$$(\lambda a_{p,p})x_{p}=\sum^n_{j=1,j\not=p}a_{p,j}x_{j}$$
+e da qui passando ai _valori assoluti_
+$$|(\lambda-a_{p.p})x_{p}|=|\lambda-a_{p,p}||x_{p}|=\left|\sum^n_{j=1,j\not=p}a_{p,j}x_{j}\right| \leq \sum^n_{j=1,j\not=p}|a_{p,j}||x_{j}|$$ e siccome $|x_{p}|>0$ posso dividere è ottenere
+$$|\lambda-a_{p,p}|\leq\sum^n_{j=1,j\not=p}|a_{p,j}|\cfrac{|x_{j}|}{|x_{p}|}  $$
+ed essendo $|x_{p}|=\|x\|_{\infty}$ posso dire che 
+$$\sum^n_{j=1,j\not=p}|a_{p,j}|\cfrac{|x_{j}|}{|x_{p}|} \leq \sum^n_{j=1,j\not=p}|a_{p,j}|$$
+e quindi 
+$$|\lambda-a_{p,p}| \leq \sum^n_{j=1,j\not=p}|a_{p,j}| $$
+esattamente la tesi
 
 
 ## Teorema di Gershgorin 2

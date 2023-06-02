@@ -1,4 +1,3 @@
-
 ---
 type: MOC 
 tags: MOC AL 
@@ -11,7 +10,7 @@ Prev: [[Uni MOC]]
 ## Course MOC  📒
 
 1. Nozioni Base
-	1. [[Sistemi lineari e lineari  omogenei]]
+	1. [[Sistemi lineari e lineari omogenei]]
 	2. [[Forma cartesiana e forma parametrica]]
 	3. [[Combinazioni Lineari]]
 2. Matrici
@@ -59,7 +58,8 @@ Prev: [[Uni MOC]]
 	2. [[Sottospazio Ortogonale]]
 	3. [[Ricerca Base Ortogonale e Ortonormale]]
 	4. [[Radicale]]
-9. Definizioni extra
+9. [[Teorema Spetrale]]
+10. Definizioni extra
 	1. [[Linearmente Separabili]]
 
 

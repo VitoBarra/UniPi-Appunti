@@ -20,23 +20,23 @@ gli obbiettivi sono
 	- trovare modelli sotto forma di strumenti per risolvere problemi interdisciplinari 
 		- Biologia
 		- medicina 
-si utilizza un unico aproccio per raggiungere tutti questi obiettivi
+si utilizza un unico approccio per raggiungere tutti questi obiettivi
 
 
 
 ### Quando utile
 l utilità del machine learning si ha in casi di 
-- _nessuna o poca teoria_ del fenomeno che si vuole analizare
+- _nessuna o poca teoria_ del fenomeno che si vuole analizzare
 - dati incerti, perturbati o incompleti 
 - ambiente dinamico: non conosciuto a priori e necessita di adattamento personalizzato 
 ma richiede:
-- fonte di dati di training, con dei dati rappresentativi quindi di qualita
+- fonte di dati di training, con dei dati rappresentativi quindi di qualità
 - tolleranza sulla precisione dei risultati
 
 
 ### Perchè machine learning
 - serve a trovare _soluzioni aprossimate_ a problemi difficili che spesso sono difficili anche nella formulazione 
-- Scrivere sistemi applicabili in piu campi detti _sistemi inteligenti_
+- Scrivere sistemi applicabili in più campi detti _sistemi inteligenti_
 - è un _approccio rigoroso_ per trovare _[[Funzioni|funzioni aprossimate]]_ per risolvere problemi complessi 
 
 ![[83EC07C1-95F8-4264-A425-289F6F5AC1E9.jpeg]]
@@ -81,7 +81,7 @@ _modello_:
 - basato sui dati, compito da risolvere e modello
 - _Learning_  [[Algoritmi di ricerca informati per AI|ricerca con euristiche]] nello spazio delle ipotesi $H$ della _migliore Ipotesi_ 
 	- si cerca la migliore approssimazione per la funzione _sconosciuta_ 
-	- Tipicamente impostata come la riceca con il _minimo errore_
+	- Tipicamente impostata come la ricerca con il _minimo errore_
 	- la _Miglir ipotesi_   si misura con l _Errore di generalizazione_ che misura quanto accurato il modello predice su dati _nuovi_  
 - TIpicamente $H$ non coincide con l insieme di tutte le possibili funzioni, e la ricerca non puo essere esaustiva (sarebbe infinita): sono necessarie della assunzioni per ridurre lo spazio di ricerca, ti utlizza il _[[Bias Induttivo|bias induttivo]]_
 - ![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]

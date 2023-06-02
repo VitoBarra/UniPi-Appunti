@@ -1,4 +1,15 @@
+---
+type: nota
+course: Reti e Laboratorio di reti
+topic: 
+tags: LAB2 Report 
+---
+
+Prev: [[Laboratorio II]]
+
 # Relazione Progetto VITO BARRA
+---
+
 
 # Struttura
 

@@ -20,9 +20,10 @@ Prev: [[Uni MOC]]
 9. [[Derivate fondamentali]]
 10. [[Delopithal]]
 11. [[Sviluppi di Taylor]]
-12. [[Successioni]]
-13. [[Serie geometrica]]
-14. [[Funzioni Convesse-Concave]]
+12. [[Diseguaglianza triangolare]]
+13. [[Successioni]]
+14. [[Serie geometrica]]
+15. [[Funzioni Convesse-Concave]]
 
 
 

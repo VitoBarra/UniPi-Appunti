@@ -57,7 +57,6 @@ Prev: [[Uni MOC]]
 	3. [[Interfaccia Java Callable]]
 2. [[Channel NIO]]
 	1. [[ChannelSelector]]
-3. [[Considerazioni generali sulla implementazione di un server]]
 
 
 

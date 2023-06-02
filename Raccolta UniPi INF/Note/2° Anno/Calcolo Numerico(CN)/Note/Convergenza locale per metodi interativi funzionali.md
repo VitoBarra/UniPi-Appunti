@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Convergenza locale per metodi interativi funzionali
 ---
-formalmente la convergenza locale è definita come
+formalmente la _convergenza locale_ è definita come
 
 sia $g:[a,b]\rightarrow \mathbb{R} , \ \ \alpha = g(\alpha), \ \ \ \alpha \in (a,b)$ il metodo
 $$\begin{cases}

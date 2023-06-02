@@ -26,7 +26,7 @@ $$\begin{cases}
 v^{(0)} \in \mathbb{R}^n \\
 v^{(k+1)} = Av^{(k)}
 \end{cases}$$
-utilizzare questa metodo porta la [[Complessita|complessità]] del algoritmo a $O(k\cdot nnz(A))$ dove $nnz(A)$ sono i numeri di elementi non $0$ di $A$. questo si implementa sfruttando delle strutture date per memorizzare la _matrice sparsa_. senza questo algoritmo il procedimento normale sarebbe
+utilizzare questa metodo porta la [[Complessita|complessità]] del algoritmo a $O(k\cdot nnz(A))$ dove $nnz(A)$ sono i numeri di elementi non $0$ di $A$. questo si implementa sfruttando delle [[Strutture Dati|strutture dati]] per memorizzare la _matrice sparsa_. senza questo algoritmo il procedimento normale sarebbe
 $$\begin{array}{}
 v^{(1)} &=& Av^{(0)} \\
 v^{(2)} &=& Av^{(1)} &=&A^{2}v^{(1)}  \\
@@ -103,7 +103,7 @@ $$\begin{cases}
 v^{(0)} \in \mathbb{R}^n \\
 v^{(k+1)} = A^{-1}v^{(k)}
 \end{cases}$$
-ma siccome calcolare $A^{-1}$ può essere difficile si moltiplica per $A$ e va a si risolve il [[Sistemi lineari e lineari  omogenei|sistema lineare]] ottenendo.
+ma siccome calcolare $A^{-1}$ può essere difficile si moltiplica per $A$ e va a si risolve il [[Sistemi lineari e lineari omogenei|sistema lineare]] ottenendo.
 $$\begin{cases}
 v^{(0)} \in \mathbb{R}^n \\
 Av^{(k+1)} = v^{(k)}

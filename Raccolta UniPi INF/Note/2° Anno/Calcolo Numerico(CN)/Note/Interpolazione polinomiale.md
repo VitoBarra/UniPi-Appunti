@@ -9,12 +9,12 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Interpolazione polinomiale
 ---
-per l'interpolazione polinomiale si intende l aprossimazione in continuo di due dati discreti.
+per l'interpolazione polinomiale si intende l approssimazione in continuo di due dati discreti.
 ![[Pasted image 20230515170753.png]]
 le spezzate che collegano i punti sono le approssimazioni che riusciamo ad ottenere con l _interpolazione Lineare_. 
 
 #### Teorema di esistenza e unicità
-_sia_ $\Pi_{n}$ lo [[Spazio Vettoriale|spazio vettoriale]] dei [[Polinomi|polinomi]] di grado massimo $n$ a _coefficenti Reali_ e $\Phi = \{\phi_{0}(x),\dots,\phi_{n}(x)\}$ una base di $\Pi_{n}$. 
+_sia_ $\Pi_{n}$ lo [[Spazio Vettoriale|spazio vettoriale]] dei [[Polinomi|polinomi]] di grado massimo $n$ a _coefficienti Reali_ e $\Phi = \{\phi_{0}(x),\dots,\phi_{n}(x)\}$ una base di $\Pi_{n}$. 
 - Assegnati $\mathcal{S} =(x_{i},y_{i}) \in \mathbb{R}^{2}, 0 \leq i \leq n$ si hanno $n+1$ punti con $x_{i} \not = x_{j}$.
 	- praticamente è una funzione discontinua definita solo in alcuni punti.
 _allora_ esiste ed è unico un polinomio $P(x) \in \Pi_{n}$ tale che
@@ -61,7 +61,7 @@ $$ed è chiamatati _matrice di Vandermonde_ il calcolo dei coefficienti con ques
 \prod_{i=0}^{k-1}(x_{h}-x_{i})  &  \text{if }\ h\geq k\\
 0&  \text{if }\ h< k
 \end{cases} 
-$$i _polinomio di interpolazione_ $p(x)$ risultate con questa matrice è detto in _forma di Newton_ e il calcolo dei coefficienti è generalmente [[Tipi di Errore nel calcolo numerico#Errore Inerente|mal condizionata]] e la risoluzione del [[Sistemi lineari e lineari  omogenei|sistema lineare]] richiede $O(n^{2})$ operazioni aritmetiche
+$$i _polinomio di interpolazione_ $p(x)$ risultate con questa matrice è detto in _forma di Newton_ e il calcolo dei coefficienti è generalmente [[Tipi di Errore nel calcolo numerico#Errore Inerente|mal condizionata]] e la risoluzione del [[Sistemi lineari e lineari omogenei|sistema lineare]] richiede $O(n^{2})$ operazioni aritmetiche
 3. se $\phi_{j} = L_{j} = \prod^n_{i=0,i\not=j} \cfrac{x-x_{i}}{x_{j}-x_{i}},\ \ \  0 \leq k\leq n$ allora si ha che $\mathcal{V}(\mathcal{S},\Phi) = I_{n}$ $$(\mathcal{V}(\mathcal{S},\Phi))_{h+1,k+1}= L_{k}(x_{h})=
 \begin{cases} 
 1  &  \text{if }  h= k\\

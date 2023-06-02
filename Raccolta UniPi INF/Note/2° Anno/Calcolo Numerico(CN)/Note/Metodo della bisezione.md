@@ -1,4 +1,14 @@
-### Metodo della bisezione
+---
+type: nota
+course: Calcolo Numerico
+topic: 
+tags: CN
+---
+
+Prev: [[Calcolo Numerico(CN)]]
+
+# Metodo della bisezione
+---
 questo metodo per carcere gli _zeri_ di una [[Funzioni|funzione]] $f:[a,b]\rightarrow \mathbb{R}$ si può applicare sotto le _ipotesi_ che 
 - $f(a)f(b) < 0$. ovvero che i segni agli estremi del intervallo siano discordi.
 - $f \in C^{0}([a,b])$ ovvero che $f$ sia _[[Continuità di una funzione|continua]]_ 

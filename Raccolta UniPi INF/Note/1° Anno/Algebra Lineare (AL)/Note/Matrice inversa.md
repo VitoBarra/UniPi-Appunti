@@ -31,7 +31,7 @@ Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero
 
 
 > [!note] invertibilità e sistemi lineari
-> se una matrice é invertibile il suo [[Sistemi lineari e lineari  omogenei|sistema lineare associato]] ha un _unica_ soluzione [[Soluzioni di un sistema lineare|soluzione]] siccome una matrice invertibile implica [[Funzioni#Funzione Iniettiva|iniettiva]] e [[Funzioni#Funzione surgettiva|suriettiva]] della _funzione_ che esprimono
+> se una matrice é invertibile il suo [[Sistemi lineari e lineari omogenei|sistema lineare associato]] ha un _unica_ soluzione [[Soluzioni di un sistema lineare|soluzione]] siccome una matrice invertibile implica [[Funzioni#Funzione Iniettiva|iniettiva]] e [[Funzioni#Funzione surgettiva|suriettiva]] della _funzione_ che esprimono
 
 ##### Proprietà
 - $(AB)^{-1} = A^{-1} B^{-1}$

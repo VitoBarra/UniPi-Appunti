@@ -36,8 +36,12 @@ dove $c_x(\psi),c_y(\psi)$ sono rispettivamente i coefficienti di amplificazione
 
 ![[757FE8DA-6518-4975-A5E8-109F418BAEE2.jpeg]]
 l analisi in avanti del errore algoritmi conduce generalmente a valutazioni eccessivamente pessimistiche assumendo l amplificazione massima ad ogni passo intermedio del algoritmo
-![[photo_2023-03-28_16-11-08.jpg]]
 
+### coefficienti noti
+- $f(x,y)=x+y \ \ \ \epsilon_{in}=c_{x}\epsilon_{x}+c_{y}\epsilon_{y}  \ \ \ \ c_{x}=\cfrac{x}{x+y},\ \ c_{y}=\cfrac{y}{x+y}$
+- $f(x,y)=x-y \ \ \ \epsilon_{in}=c_{x}\epsilon_{x}+c_{y}\epsilon_{y}  \ \ \ \ c_{x}=\cfrac{x}{x+y}, \ \ c_{y}=-\cfrac{y}{x+y}$
+- $f(x,y)=x \cdot y \ \ \ \epsilon_{in}=c_{x}\epsilon_{x}+c_{y}\epsilon_{y}  \ \ \ \ c_{x}=1 , \ \ c_{y}=1$
+- $f(x,y)=x/y \ \ \ \epsilon_{in}=c_{x}\epsilon_{x}+c_{y}\epsilon_{y}  \ \ \ \ c_{x}=1 ,\ \ c_{y}=-1$
 
 ##### Analisi al indietro 
 

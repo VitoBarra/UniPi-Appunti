@@ -21,7 +21,6 @@ __Cruciale__ è la scelta dell'incremento per garantire l’ ottimalità
 
 
 ## Analisi
-
 Sia 
 - $b=$ fattore di ramificazione (*B*ranching) quindi il numero massimo di successori
 - $d=$ Profondità del nodo obiettivo più superficiale (*D*epth)
