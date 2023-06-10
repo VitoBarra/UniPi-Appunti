@@ -11,16 +11,27 @@
             "id": "aff424e11c0d87a5",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230609175635.png"
+              }
+            }
+          },
+          {
+            "id": "5c33829ed052a812",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Esperimenti",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raccolta UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md"
               }
             }
           },
@@ -187,55 +198,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aff424e11c0d87a5",
+  "active": "5c33829ed052a812",
   "lastOpenFiles": [
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
-    "Pasted image 20230531175458.png",
-    "Pasted image 20230531173721.png",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Autovettori e Autovalori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
-    "Raccolta UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
-    "Extra Note/Geometria Analitica/Media/Mvt2_italian.svg.png",
-    "Extra Note/Geometria Analitica/Media/Pasted image 20230523021918.png",
-    "Raccolta UniPi INF/Note/1° Anno/Analisi/Media/Pasted image 20230523005912.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517170805.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517163351.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/photo_2023-03-28_16-11-08.jpg",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004432.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004320.png",
+    "UniPi-Appunti_book.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190443.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610191809.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610191316.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190521.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190505.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610184619.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185913.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185745.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185731.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185710.png",
+    "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
+    "UniPi INF/Note/Complementari/Complementari_book.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM)_book.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le azioni degli utenti.md",
+    "Studi MOC.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Use Case.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma dei casi d uso.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User stories.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Scenario.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User Requirements.md",
     "Senza nome.canvas",
-    "Extra Note/Geometria Analitica/Media",
-    "Extra Note/Geometria Analitica/Note",
-    "Extra Note/Geometria Analitica",
-    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
-    "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
-    "Raccolta UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
-    "Raccolta UniPi INF/Remove",
-    "Raccolta UniPi INF/Removve",
-    "Raccolta UniPi INF/remove",
-    "Raccolta UniPi INF/remove",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Descrizione dei requisiti con Linguaggio naturale.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Tecniche.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Tecniche di progettazione casi di test.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Testing.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di macchina a stati.md",
+    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)",
+    "Superiori",
+    "Superiori/Geometria Analitica/Media",
+    "Superiori/Geometria Analitica/Note",
+    "Superiori/Geometria Analitica",
+    "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Senza nome 1.canvas"
   ]
 }

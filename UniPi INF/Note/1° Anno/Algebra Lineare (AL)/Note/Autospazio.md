@@ -1,0 +1,27 @@
+---
+type: nota
+course: Algebra Lineare
+topic: 
+tags: AL Imm2Text 
+---
+
+Prev: [[Algebra Lineare (AL)]]
+
+# Autospazio
+---
+Sia $T : V \rightarrow V$ un [[Isomorfismo e Endomorfismo#Endomorfismo|endomorfismo]]. Per ogni autovalore $\lambda$ di $T$ definiamo l’autospazio $V_{\lambda} \subset V$ nel modo seguente:
+
+$$
+V_\lambda = \{v \in V \ | \ T(v) = \lambda v \}
+$$
+
+![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 9.png]]
+
+![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 6.png]]
+
+![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 5.png]]
+
+---
+
+![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 3 2.png]]
+
