@@ -21,12 +21,9 @@
             "id": "5c33829ed052a812",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png"
               }
             }
           }
@@ -113,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md"
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png"
               }
             }
           },
@@ -198,22 +195,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5c33829ed052a812",
+  "active": "6e44a25d8b5adab1",
   "lastOpenFiles": [
-    "UniPi-Appunti_book.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161557.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161433.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611131402.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611124328.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611125200.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611125012.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611023453.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611115436.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611115427.png",
+    "UniPi-Appunti_book.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190443.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610191809.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610191316.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190521.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610190505.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610184619.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185913.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185745.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185731.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230610185710.png",
     "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
     "UniPi INF/Note/Complementari/Complementari_book.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM)_book.md",
@@ -236,7 +233,6 @@
     "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Testing.md",
     "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
     "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di macchina a stati.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di attività.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)",
