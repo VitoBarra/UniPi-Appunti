@@ -1,6 +1,6 @@
 ---
 type: nota
-course: Cloud Computing
+course: Cloud Computing, Interazione Uomo Macchina
 topic: 
 tags: CC
 ---

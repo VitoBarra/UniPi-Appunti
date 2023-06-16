@@ -1,6 +1,6 @@
 ---
 type: nota
-course: Statistica
+course: Interazione Uomo Macchina
 topic: 
 tags: IUM
 ---
@@ -119,7 +119,7 @@ gli user flow servono a descrivere le possibili azioni che l utente puo fare sul
 
 ##### Flowchart
 un modo per rapresentar il un userflow è usare un flowchart.
-si parte dalle [[User personas|personsa]] , [[Scenario|scenari]] e si descrive il viaggio del utente sul interfaccia.
+si parte dalle [[User personas|personsa]] , [[IUM - Scenario|scenari]] e si descrive il viaggio del utente sul interfaccia.
 ![[Pasted image 20230611161016.png]]
 bisogna pensare ai possibili punti di concontatto tra l utente e il sistema per poter costruire questo flowchart
 

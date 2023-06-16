@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "879338ac152f55d1",
+        "id": "22a73870a9409506",
         "type": "tabs",
         "children": [
           {
-            "id": "aff424e11c0d87a5",
+            "id": "fae54d8b34b8f3a3",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230609175635.png"
-              }
-            }
-          },
-          {
-            "id": "5c33829ed052a812",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png"
+                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png"
               }
             }
           },
@@ -197,42 +184,44 @@
   },
   "active": "6e44a25d8b5adab1",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161557.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161433.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611161016.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611131402.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611124328.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611125200.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611125012.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611023453.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611115436.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230611115427.png",
-    "UniPi-Appunti_book.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616204842.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616192930.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
-    "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
-    "UniPi INF/Note/Complementari/Complementari_book.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM)_book.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le azioni degli utenti.md",
-    "Studi MOC.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Use Case.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175757.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175728.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175642.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175627.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175433.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175405.png",
     "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma dei casi d uso.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User stories.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Scenario.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User Requirements.md",
+    "UniPi INF/Note/Complementari/Sviluppo Web/Sviluppo Web.md",
+    "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
+    "UniPi INF/Note/Orientamento al lavoro ITC/Orientamento al lavoro ITC.md",
+    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Principio di buon ordinamento e induzione.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita dei numeri.md",
+    "Templete/Theorem.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Tipi di dimostrazione.md",
+    "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md",
+    "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Sicurezza di sistema ICT.md",
+    "UniPi INF/Note/Complementari/Cloud and Green Computing/Cloud and Green Computing.md",
+    "UniPi INF/Note/Informatica/Transazioni.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/le Natural user Interface.md",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le interfacce utente.md",
+    "Extra Note/GDR Cartographer/GDR Cartographer Project Requisite.md",
+    "Excalidraw",
+    "UniPi INF/Thesis",
     "Senza nome.canvas",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Descrizione dei requisiti con Linguaggio naturale.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Concetti di verifica e validazione.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Tecniche.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Tecniche di progettazione casi di test.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Testing.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di sequenza.md",
-    "UniPi INF/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma di macchina a stati.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)",
@@ -241,8 +230,6 @@
     "Superiori/Geometria Analitica/Note",
     "Superiori/Geometria Analitica",
     "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Senza nome 1.canvas"
   ]
 }

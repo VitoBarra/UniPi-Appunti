@@ -1,6 +1,6 @@
 ---
 type: nota
-course: Statistica
+course: Interazione Uomo Macchina
 topic: 
 tags: IUM
 ---
@@ -9,7 +9,7 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 
 # Human centered Design
 ---
-l _human centered Design_ è una formamentis su cui si basa lo sviluppo dei prodotti
+l _human centered Design_ è una _formamentis_ (un modo di pensare) su cui si basa lo sviluppo dei prodotti
 
 ### Definizione
 l _Human-centered Design_ (HCD) è un approccio allo sviluppo di sistemi interattivi che punta a rendere i sistemi _usabili e utili_ focalizzandosi sui bisogni degli _utenti_.
@@ -49,5 +49,5 @@ possiamo schematizzare un processo di HCD come un flusso continuo ed iterativo c
 
 ![[Pasted image 20230605231125.png]]
 
-### Tracking delle attivita
+### Tracking delle attività
 per la realizzazione di un buon design è NECESSARIO il _tracking_ delle attività degli utenti sul interfaccia. Cosi da ottenere _analitica_ per poter migliorare l _esperienza utente_

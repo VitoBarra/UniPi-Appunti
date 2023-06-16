@@ -5,7 +5,7 @@ topic:
 tags: ALG
 ---
 
-Prev: [[Analisi]]
+Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
 # Funzioni Convesse-Comcave
 ---

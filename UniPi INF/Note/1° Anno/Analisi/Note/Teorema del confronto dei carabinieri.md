@@ -5,7 +5,7 @@ topic:
 tags: Analisi
 ---
 
-Prev: [[Analisi]]
+Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
 # Teorema del confronto o dei carabinieri
 ---

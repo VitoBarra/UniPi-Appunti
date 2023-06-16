@@ -28,11 +28,11 @@
   "showFrontmatter": false,
   "showLineNumber": true,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 65
   },
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
@@ -40,5 +40,5 @@
   "defaultViewMode": "source",
   "spellcheck": true,
   "spellcheckLanguages": null,
-  "attachmentFolderPath": "Raccolta UniPi INF/Allegati"
+  "attachmentFolderPath": "Extra Note/GDRCartografer"
 }

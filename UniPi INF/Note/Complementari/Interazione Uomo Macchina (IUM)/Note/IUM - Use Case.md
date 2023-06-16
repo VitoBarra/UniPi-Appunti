@@ -1,6 +1,6 @@
 ---
 type: nota
-course: Statistica
+course: Interazione Uomo Macchina
 topic: 
 tags: IUM
 ---
@@ -14,7 +14,7 @@ gli _user case_ (_caso d uso_) è una descrizione accurata e dettaglia del inter
 ogni _caso d uso_ è una sequenza di semplici passi che l utente fa per ottenere il suo goal e come reagisce il sistema ad ogni suo passo.
 
 
-rispetto agli [[Scenario|scenari]] gli use case sono più granulari infatti spesso ad ogni _scenario_ sono assegnati più _use case_
+rispetto agli [[IUM - Scenario|scenari]] gli use case sono più granulari infatti spesso ad ogni _scenario_ sono assegnati più _use case_
 
 gli _use case_ sono importanti siccome spiegano come il sistema dovrebbe reagire al interazione
 

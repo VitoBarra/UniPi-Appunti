@@ -1,13 +1,13 @@
 ---
 type: nota
-course: Statistica
+course: Interazione Uomo Macchina
 topic: 
 tags: IUM
 ---
 
 Prev: [[Interazione Uomo Macchina (IUM)]]
 
-# Scenario
+# IUM - Scenario
 ---
 Uno _Scenario_ è una _breve storia_ su come un utente raggiunge il suo _obiettivo_ tramite il _sistema_ preso in esame. 
 

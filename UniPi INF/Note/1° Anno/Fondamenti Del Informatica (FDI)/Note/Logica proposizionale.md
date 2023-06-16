@@ -28,14 +28,14 @@ l insieme dei valori assegnati ad ogni letterale è detta interpretazione
 - _Contraddizione_:  formula preposizionale che è sempre falsa per qualsiasi interpretazione
 
 ### Equivalenze logiche 
-|                | OR                                                   | AND                                           |
-| -------------- | ---------------------------------------------------- | --------------------------------------------- |
-| Unita          | $P \lor False \iff P$                                | $P \land True \iff P$                         |
-| Assorbimento   | $P \lor True \iff True$                              | $P \land False \iff False$                    |
-| idempotenza    | $P \lor P\iff P$                                     | $P \land P\iff P$                             |
-| Commutativita  | $P \lor Q \iff Q \lor P$| $P \land Q \iff Q \land P$                    |
-| Associtivita   | $P \lor (Q \lor R) \iff (P \lor Q) \lor R$           | $P \lor (Q \land R) \iff (P \land Q) \land R$ |
-| Distributivita | $P \lor (Q \land R) \iff (P \lor Q) \land (P \lor R)$ | $P \land (Q \lor R) \iff (P \land Q) \lor (P \land R)$                                              |
+|                      | OR                      | AND              |
+| -------------- | -----------------  | -------------- |
+| Unita            | $P \lor False \iff P$| $P \land True \iff P$|
+| Assorbimento  | $P \lor True \iff True$|$P \land False \iff False$|
+| idempotenza    | $P \lor P\iff P$  | $P \land P\iff P$   |
+| Commutatività  | $P \lor Q \iff Q \lor P$| $P \land Q \iff Q \land P$  |
+| Associatività   | $P \lor (Q \lor R) \iff (P \lor Q) \lor R$           | $P \lor (Q \land R) \iff (P \land Q) \land R$ |
+| Distributività | $P \lor (Q \land R) \iff (P \lor Q) \land (P \lor R)$ | $P \land (Q \lor R) \iff (P \land Q) \lor (P \land R)$|
 
 
 ![[D0CDB587-A471-4FCF-9E1C-BD57687332A4.jpeg]]

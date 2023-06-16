@@ -1,6 +1,6 @@
 ---
 type: nota
-course: Statistica
+course: Interazione Uomo Macchina
 topic: 
 tags: IUM
 ---

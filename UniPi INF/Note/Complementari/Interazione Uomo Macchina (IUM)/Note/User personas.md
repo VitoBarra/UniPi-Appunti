@@ -1,4 +1,14 @@
-### User personas
+---
+type: nota
+course: Interazione Uomo Macchina
+topic: 
+tags: IUM
+---
+
+Prev: [[Interazione Uomo Macchina (IUM)]]
+
+# User personas
+---
 le _user Personas_ sono dei _personaggi_ che rappresentano gli utenti potenzialmente del prodotto che si sta sviluppando.
 
 quando si fa ricerca sugli utente gli [[Ruoli e parti nel Interaction Design|UX designer]] recuperano le informazioni riguardante gli obbiettivi e la possibile frustrazione degli utenti e creano le _user Personas_ per mettere quei dati in un contesto.

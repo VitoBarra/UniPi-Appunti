@@ -21,10 +21,22 @@ Prev: [[Uni MOC]]
 	1. [[User personas]]
 	2. [[Analisi dei requisiti]]
 	3. [[User stories]]
-	4. [[Scenario]]
+	4. [[IUM - Scenario]]
 	5. [[IUM - Use Case]]
 7. [[Information Architecture]]
-8. [[Front-End Design Wireframing]]
+8. [[Definizione di Innovazione]]
+	1. [[Metodi e Framework per l Innovazione]]
+9. [[User experience per IOT]]
+10. [[Human Interface Devices]]
+	1.  [[Legge di Fitts]]
+11. [[Le interfacce utente]]
+	1. [[le Natural user Interface]]
+12. Progettazione e pratica
+	1. [[Front-End Design Wireframing]]
+	2. [[Pretotyping]]
+	3. [[Prototipi e Mockup]]
+	4. [[Test di Usabilita]]
+13. 
 
 ### Educational Material 🧱
 1. 

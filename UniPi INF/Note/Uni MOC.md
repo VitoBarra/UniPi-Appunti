@@ -10,7 +10,7 @@ Prev: [[Studi MOC]]
 ## Course MOC  📒
 - 1° Anno
 	- [[Fondamenti Del Informatica (FDI)]]
-	- [[Analisi]]
+	- [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 	- [[Algebra Lineare (AL)]]
 	- [[Laboratorio I]]
 	- [[Programmazione Algoritmica (ProgAlg)]]
