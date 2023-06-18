@@ -7,9 +7,9 @@ tags: IUM
 
 Prev: [[Interazione Uomo Macchina (IUM)]]
 
-# Le interfacce utente
+# Interfaccia utente
 ---
-un _interfaccia_ è qualcosa che sta tra due facce, è il punto di contatto tra due sistemi che tentano di comunicare. i due sistemi ! essere due macchine o una persona e una macchina.
+un _interfaccia_ è qualcosa che sta tra due facce, è il punto di contatto tra due sistemi che tentano di comunicare. i due sistemi possono essere due macchine o una persona e una macchina.
 
 una _Interfaccia utente_ (UI) è un mapping che parte dalle _capacita sensoriali cognitive_ e sociale del mondo umano e le collega alla collezione di funzioni esposte dal un programma.
 

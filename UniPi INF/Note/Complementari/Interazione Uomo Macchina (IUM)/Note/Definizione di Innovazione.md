@@ -31,12 +31,12 @@ questo tipo di innovazione ha le seguenti caratteristiche
 es. il frigorifero
 ![[Pasted image 20230614171552.png]]
 ##### Disruptive innovation
-questa tipologia di innovazione _crea un nuovo mercato_ e prima o poi _ne distrugge un altro_ sostando anche aziende leader del settore
+questa tipologia di innovazione _crea un nuovo mercato_ e prima o poi _ne distrugge un altro_ spostando anche aziende leader del settore
 
 questo termine ora identifica qualsiasi avanzamento scientifico/tecnologico distruttivo rispetto a ciò che c era prima 
 
 ci sono delle innovazioni che possono essere _rivoluzionarie_ ma non _Disruptive_. 
-ad esempio l auto mobileì
+ad esempio l auto mobile
 ![[Pasted image 20230614172218.png]]
 l l _innovazione_ arrivata con l _invenzione_ del automobile è stata _rivoluzionaria_ ma era un bene di lusso e potevano permettersela in pochi. questo ha fatto si che la società non è cambiato troppo e neanche il mercato. invece la Model-T di Ford è stata un invenzione non _rivoluzionaria_ (la machina gia esisteva) ma _disruptive_ essendo questa macchina a basso prezzo e facendo si che molte persone potessero permettersela. cosi facendo la società è cambiata e si è iniziato a fare le strade per le macchine.
 ![[Pasted image 20230614172600.png]]

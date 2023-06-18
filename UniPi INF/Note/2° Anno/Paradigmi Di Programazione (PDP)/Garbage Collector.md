@@ -23,4 +23,8 @@ Prev: [[Paradigmi Di Programmazione(PDP)]]
 
 ![[UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Untitled 5 1.png]]
 
+[[Reference Counting]]
+[[Mark-sweep]]
+[[Copyng collection]]
+
 

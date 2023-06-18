@@ -9,7 +9,7 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Macchina Astratta]]
-2. . [[Interpreti]]
+2. [[Interpreti]]
 	1. [[Prerequisiti interpreti]]
 		1. [[Abstract Syntax Tree]]
 		2. [[Record D'attivazione]]

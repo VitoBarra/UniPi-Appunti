@@ -9,7 +9,7 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 
 # User stories
 ---
-le _user stories_ sono strumenti della [[Design Thincking|design Thincking]] e del [[Analisi dei requisiti|ingegneria del software]] per avviare la discussione sul prodotto che si sta creando.
+le _user stories_ sono strumenti della [[Strumenti per la ricerca sugli utenti|per la ricerca sugli utenti]] e del [[Analisi dei requisiti|ingegneria del software]] per avviare la discussione sul prodotto che si sta creando.
 
 Queste sono delle piccole frasi che identificano i bisogni e gli obiettivi della varie [[User personas|User personas]]. Sono quindi dei [[Analisi dei requisiti|Requisiti user]] espresso dalla prospettiva del utente. 
 

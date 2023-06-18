@@ -17,9 +17,11 @@ Prev: [[Uni MOC]]
 3. [[Principi di progettazione del interazione]]
 4. [[Le azioni degli utenti]]
 5. [[Errori Umani]]
-6. [[Design Thincking]]
+	1. [[Root Causes Analysis]]
+6. [[Strumenti per la ricerca sugli utenti]]
 	1. [[User personas]]
 	2. [[Analisi dei requisiti]]
+		1. [[Requisiti utente]]
 	3. [[User stories]]
 	4. [[IUM - Scenario]]
 	5. [[IUM - Use Case]]
@@ -29,14 +31,14 @@ Prev: [[Uni MOC]]
 9. [[User experience per IOT]]
 10. [[Human Interface Devices]]
 	1.  [[Legge di Fitts]]
-11. [[Le interfacce utente]]
+11. [[interfaccia utente]]
 	1. [[le Natural user Interface]]
 12. Progettazione e pratica
 	1. [[Front-End Design Wireframing]]
 	2. [[Pretotyping]]
 	3. [[Prototipi e Mockup]]
 	4. [[Test di Usabilita]]
-13. 
 
 ### Educational Material 🧱
-1. 
+1. La caffetteria del masochista
+2. 

@@ -25,12 +25,12 @@ dove
 - il _device_ é la periferica input/output
 - l _host_ é il computer che riceve e manda dati alla periferica
 
-ogni device definisce i suoi pacchetti e e poi presenta un "_HID descriptor_" al host. Quest ultimo é un array di byte che descrive i pacchetti dati del dispositivo includendo:
+ogni device definisce i suoi pacchetti e poi presenta un "_HID descriptor_" al host. Quest ultimo é un array di byte che descrive i pacchetti dati del dispositivo includendo:
 - Quanti pacchetti supporta il device.
 - la dimensione dei pacchetti
 - il significa di ogni byte e bit nel pacchetto.
 
-Solitamente il _HID descriptor_ è scritto dentro una [[ROM|rom]] e non è detto che il device stesso sia in grado di processarlo, ma è un operazione deve fare l _Host_, e senza di questa l _host_ non puo comunicare bene con il dispositivo. 
+Solitamente il _HID descriptor_ è scritto dentro una [[ROM|rom]] e non è detto che il device stesso sia in grado di processarlo, ma è un operazione deve fare l _Host_, e senza di questa l _host_ non puo comunicare al massimo  con il dispositivo. 
 
 l _HID "boot protocol"_ è un protocollo che è nato siccome ci si è reso conto che l host non è sempre in grado di processare l _HID descriptor_. Si é creato un protocollo con pacchetti standard  atto al supporto funzionalità basilari di sole tastiere e mouse. Questo limita l innovazione infatti è usato solo dove è necessario.
 
@@ -42,7 +42,7 @@ le periferiche HID possono essere organizate in due categorie
 - _Output devices_: si basano su _atuatori_ e convertono informazioni analogiche o digitali in perturbazione nel mondo fisico.
 
 #### Input device
-la _Tastiera_ è l HID device più utilizzato e solitamente rispetta lo standard di layout ISO/IEC 9995-2 Ansi e solitamente ha 3 differenti layout
+la _Tastiera_ è l HID device più utilizzato e solitamente rispetta lo standard di layout ISO/IEC 9995-2 ANSI e solitamente ha 3 differenti layout
 1. _Layout fisico_: come i tasti sono disposti sulla tastiera 
 2. _Layout visuale_: come è disposta la leggenda sui tasti (etichette, marcature, rilievi)
 3. _Layout Funzionale_: come è mappato ogni tasto a quale significato nel software. Questo layout determina la risposta alla pressione di un tasto.
@@ -289,8 +289,8 @@ gli _HRM_ per i consumatori sono progettati per un uso quotidiano e non utilizza
 I sensori di _fotopletismografia (PPG)_ utilizzano una tecnologia basata sulla luce per misurare il volume di sangue controllato dall'azione di pompaggio del cuore. Alcuni dispositivi che utilizzano questa tecnologia sono in grado di misurare anche la saturazione di ossigeno nel sangue (SpO2).
 sono dei device per calcolare il ritmo di dilatazione dei capillari  in questi modo si puo calcolare il ritmo cardiaco 
 per fare ciò ci sono due tecniche
-- _luce verde_: penetra di più nella carne e puo dare risultati più accurati ma è molto suscettibile ai movimenti
-- _luce rossa_: un po' meno accurata ma si puo usare anche in contesti con disturbi 
+- _luce rosa_: penetra di più nella carne e può dare risultati più accurati ma è molto suscettibile ai movimenti
+- _luce verde_: un po' meno accurata ma si puo usare anche in contesti con disturbi 
 
 I sensori di _elettrocardiografia (ECG)_ misurano il potenziale bio-generato dai segnali elettrici che controllano l'espansione e la contrazione del cuore
 

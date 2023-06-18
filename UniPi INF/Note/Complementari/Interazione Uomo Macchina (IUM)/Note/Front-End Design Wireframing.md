@@ -24,7 +24,7 @@ infatti abbiamo i
 _Low-Fidelity Wireframes_: semplici disegni che si concertano sul mostrare la struttura e il layout del interfaccia
 _High-fidelity Wireframe_: una rappresentazione più dettagliata del interfaccia con una tipografia di base, icone e dettagli di documentazione 
 ![[Pasted image 20230611023932.png]]
-questi sono senza colori  o altri dettagli grafici. Si concentrano solo sulla struttura l aspetto grafico sono analizzati nel [[Mocup]]
+questi sono senza colori  o altri dettagli grafici. Si concentrano solo sulla struttura l aspetto grafico sono analizzati nel [[Prototipi e Mockup|Mocup]]
 
 
 per capire come struttura un Wireframe si da attenzione al _contesto_ per cui si sta progettando. esempi di contesti diversi sono ad esempio due utenti che guardano il sito da device mobile o da desktop avranno un eserienza e un comportamento diverso. in piu altri fattori sono la demografica, la cultura, le capacita ecc.

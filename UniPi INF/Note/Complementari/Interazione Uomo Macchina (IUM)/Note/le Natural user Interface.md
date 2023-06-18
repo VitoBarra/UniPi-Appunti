@@ -17,16 +17,12 @@ in una NUI un _utente_ é capace di passare velocemente dal essere un _novizio_ 
 una NUI durante l apprendimento da parte del utente gli da sempre la sensazione di star facendo la  cosa giusta
 
 >[!warning] 
->il termine "natural" è riferita al interazione non alla interfaccia stessa
-
-
-
+>il termine "natural" è riferita al interazione non alla interfaccia in se
 
 ![[Pasted image 20230615162256.png]]
 un forte esempio di NUI sono le gesture del Ipad motivo per cui è diventato famoso.
 ![[Pasted image 20230615162307.png]]
 ci sono delle gesture più complicate come quelle con 4 dita che van imparate apposta il che le rende più impegnative
-
 
 
 le NUI sfruttano tutto ciò che si è imparato in una vita nel mondo. il che minimizza lo sforzo cognitivo necessario per l utilizzo

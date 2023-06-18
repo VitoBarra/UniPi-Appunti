@@ -1,24 +1,168 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20230616190303",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png"
-    },
-    {
-      "basename": "Human Interface Devices",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md"
+      "basename": "Test di Usabilita",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
     },
     {
       "basename": "Interazione Uomo Macchina (IUM)",
       "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
     },
     {
-      "basename": "Pasted image 20230616175820",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png"
+      "basename": "Prototipi e Mockup",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md"
+    },
+    {
+      "basename": "Pretotyping",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md"
+    },
+    {
+      "basename": "Front-End Design Wireframing",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md"
+    },
+    {
+      "basename": "interfaccia utente",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/interfaccia utente.md"
+    },
+    {
+      "basename": "Human Interface Devices",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md"
+    },
+    {
+      "basename": "User experience per IOT",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User experience per IOT.md"
+    },
+    {
+      "basename": "Metodi e Framework per l Innovazione",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Metodi e Framework per l Innovazione.md"
+    },
+    {
+      "basename": "Definizione di Innovazione",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Definizione di Innovazione.md"
+    },
+    {
+      "basename": "Information Architecture",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md"
+    },
+    {
+      "basename": "IUM - Use Case",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Use Case.md"
+    },
+    {
+      "basename": "IUM - Scenario",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md"
+    },
+    {
+      "basename": "User stories",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User stories.md"
+    },
+    {
+      "basename": "User personas",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
+    },
+    {
+      "basename": "Strumenti per la ricerca sugli utenti",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Strumenti per la ricerca sugli utenti.md"
+    },
+    {
+      "basename": "Errori Umani",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Errori Umani.md"
+    },
+    {
+      "basename": "Le azioni degli utenti",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le azioni degli utenti.md"
+    },
+    {
+      "basename": "Principi di progettazione del interazione",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Principi di progettazione del interazione.md"
+    },
+    {
+      "basename": "Human centered Design",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md"
+    },
+    {
+      "basename": "Ruoli e parti nel Interaction Design",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Ruoli e parti nel Interaction Design.md"
+    },
+    {
+      "basename": "Pensiero computazionale Vs Design",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pensiero computazionale Vs Design.md"
+    },
+    {
+      "basename": "Concetti Generali del IUM",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Concetti Generali del IUM.md"
+    },
+    {
+      "basename": "Legge di Fitts",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Legge di Fitts.md"
     },
     {
       "basename": "Uni MOC",
       "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Paradigmi Di Programmazione(PDP)",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
+    },
+    {
+      "basename": "Generational garbage collector",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Generational garbage collector.md"
+    },
+    {
+      "basename": "Reference Counting",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Reference Counting.md"
+    },
+    {
+      "basename": "Tracing",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Tracing.md"
+    },
+    {
+      "basename": "Domande esame orale PDP",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Domande esame orale PDP.md"
+    },
+    {
+      "basename": "Copyng collection",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Copyng collection.md"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Garbage Collector.md"
+    },
+    {
+      "basename": "le Natural user Interface",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/le Natural user Interface.md"
+    },
+    {
+      "basename": "Requisiti utente",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Requisiti utente.md"
+    },
+    {
+      "basename": "Analisi dei requisiti",
+      "path": "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md"
+    },
+    {
+      "basename": "Root Causes Analysis",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Root Causes Analysis.md"
+    },
+    {
+      "basename": "Business Models",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md"
+    },
+    {
+      "basename": "Debito tecnico",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Debito tecnico.md"
+    },
+    {
+      "basename": "Studi MOC",
+      "path": "Studi MOC.md"
+    },
+    {
+      "basename": "Pasted image 20230616190303",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png"
+    },
+    {
+      "basename": "Pasted image 20230616175820",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png"
     },
     {
       "basename": "Sviluppo Web",
@@ -55,150 +199,6 @@
     {
       "basename": "Attacchi Denai of Service (DOS)",
       "path": "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md"
-    },
-    {
-      "basename": "Sicurezza di sistema ICT",
-      "path": "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Sicurezza di sistema ICT.md"
-    },
-    {
-      "basename": "Untitled 9",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 9.png"
-    },
-    {
-      "basename": "Untitled 8",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 8.png"
-    },
-    {
-      "basename": "Untitled 7",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 7.png"
-    },
-    {
-      "basename": "Untitled 6",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 6.png"
-    },
-    {
-      "basename": "Untitled 5",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 5.png"
-    },
-    {
-      "basename": "Untitled 4",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 4.png"
-    },
-    {
-      "basename": "Untitled 3",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 3.png"
-    },
-    {
-      "basename": "Untitled 2",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 2.png"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled 1.png"
-    },
-    {
-      "basename": "Untitled",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Media/Untitled.png"
-    },
-    {
-      "basename": "Cloud and Green Computing",
-      "path": "UniPi INF/Note/Complementari/Cloud and Green Computing/Cloud and Green Computing.md"
-    },
-    {
-      "basename": "Transazioni",
-      "path": "UniPi INF/Note/Informatica/Transazioni.md"
-    },
-    {
-      "basename": "User personas",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
-    },
-    {
-      "basename": "Pasted image 20230616161123",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616161123.png"
-    },
-    {
-      "basename": "Test di Usabilita",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
-    },
-    {
-      "basename": "IUM - Scenario",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md"
-    },
-    {
-      "basename": "Human centered Design",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md"
-    },
-    {
-      "basename": "Information Architecture",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md"
-    },
-    {
-      "basename": "Pasted image 20230616002951",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616002951.png"
-    },
-    {
-      "basename": "Prototipi e Mockup",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md"
-    },
-    {
-      "basename": "Pasted image 20230616002610",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616002610.png"
-    },
-    {
-      "basename": "Pretotyping",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md"
-    },
-    {
-      "basename": "Pasted image 20230615180234",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615180234.png"
-    },
-    {
-      "basename": "Pasted image 20230615164420",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615164420.png"
-    },
-    {
-      "basename": "Pasted image 20230615162256",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615162256.png"
-    },
-    {
-      "basename": "le Natural user Interface",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/le Natural user Interface.md"
-    },
-    {
-      "basename": "Le interfacce utente",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le interfacce utente.md"
-    },
-    {
-      "basename": "Pasted image 20230615145527",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615145527.png"
-    },
-    {
-      "basename": "Pasted image 20230615145511",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615145511.png"
-    },
-    {
-      "basename": "Pasted image 20230615145450",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615145450.png"
-    },
-    {
-      "basename": "Pasted image 20230615125302",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615125302.png"
-    },
-    {
-      "basename": "Pasted image 20230615123324",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230615123324.png"
-    },
-    {
-      "basename": "GDR Cartographer Project Requisite",
-      "path": "Extra Note/GDR Cartographer/GDR Cartographer Project Requisite.md"
-    },
-    {
-      "basename": "barcode",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/barcode.gif"
-    },
-    {
-      "basename": "Legge di Fitts",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Legge di Fitts.md"
     }
   ],
   "omittedPaths": [],

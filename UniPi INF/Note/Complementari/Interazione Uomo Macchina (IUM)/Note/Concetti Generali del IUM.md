@@ -19,9 +19,10 @@ il termine _design_ viene inteso sia come
 - l' output di questo processo  
 
 ## Filosofia generale
-nel interazione uomo macchina non è importante che il programma sia tecnicamente eccelso se l utente non vede un problema  sul _prodotto_ allora non è un problema 
+nel interazione uomo macchina non è importante che il programma sia tecnicamente eccelso se l utente non vede un problema sul _prodotto_ allora questo non è un problema 
 
-l obbiettivo nel design del interazione è quello di avere un utente soddisfatto non un software teoricamente perfetto so super-ricco di funzionalità.
+l obbiettivo nel design del interazione è quello di avere un utente soddisfatto. 
+il focus non è creare un software _tecnicamente_ perfetto o  super-ricco di funzionalità.
 
 il prodotto deve essere
 - _Helpful_: deve risolvere problemi non deve crearne di nuovi.

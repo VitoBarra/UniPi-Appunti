@@ -41,7 +41,7 @@ _Implementazione_: in questa fare si hanno le basi per poter costruire [[Prototi
 questo processo è diviso in più fasi
 1. _empatizza_: si studia l utente
 2. _definisci_: le necessita degli utente, i loro problemi e la tua comprensione
-3. _ideate_: sfidando le assunzione e creando idee innovative
+3. _ideate_: sfidando le assunzione e creando idee [[Definizione di Innovazione|innovative]]9
 4. _prototipi_: si crea il prototipo del idea
 5. _test_: si fanno dei test
 ![[Pasted image 20230614175506.png]]

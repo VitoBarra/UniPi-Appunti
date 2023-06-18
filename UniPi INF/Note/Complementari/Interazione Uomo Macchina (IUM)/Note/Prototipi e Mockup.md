@@ -27,7 +27,7 @@ I _mockup_ si usano per permettere al UX/UI team di comunicare più chiaramente 
 
 
 ### Prototipo
-un _prototipo_ è una versione _anticipata e sperimentale_ del prodotto finito. questo permette al utente di visualizzare ed interagire con il prodotto prima che venga totalmente sviluppato. i Prototipi  possono essere fatti a vari livelli di fedeltà.
+un _prototipo_ è una versione _preliminare e sperimentale_ del prodotto finito. questo permette al utente di visualizzare ed interagire con il prodotto prima che venga totalmente sviluppato. i Prototipi  possono essere fatti a vari livelli di fedeltà.
 
 la _prototipazione_ è il processo in cui designer ideano e sperimentano portando ad una forma tangibile i concetti del prodotto.
 
@@ -52,7 +52,7 @@ _pro_:
 - puo dare interazioni molto semplici, solitamente svolte da un umano simulando quelle vere
 - fatto velocemente
 - facile da modificare
-- incoraggia il [[Design Thincking|Design Thincking]].
+- incoraggia il [[Strumenti per la ricerca sugli utenti|Design Thincking]].
 _Cons_: 
 - manca di realismo e quindi è difficile per l utente dai dei feadback
 - i rusultati dalle prime versioni possono essere difficile da applicare
@@ -157,7 +157,7 @@ Solitamente questo tipo di prototipo è usato per fare testing
 
 
 
-### Confronto tra Wireframe, mockups prototipi
+### Confronto tra Wireframe, Mockups prototipi
 I _prototipi_ sono versioni avanzate dei _mockup_ questi includono navigazione e funzionalità, consentendo test più significativi dagli utenti. I designer utilizzano mockup e wireframe per creare prototipi che simulano l'esperienza utente del prodotto finale.
 
 come distinguerli

@@ -99,8 +99,6 @@ i pretotipi _one night stand_ serve a targhettare per un breve tempo un popolazi
 ![[Pasted image 20230615182058.png]]
 
 
-
-
 _facade_
 un pretotipo di _facade_ di facciata. si prendono in prestito o si affittano cose costose per poter simulare il sistema stabile e misurare l interesse
 ![[Pasted image 20230615182224.png]]

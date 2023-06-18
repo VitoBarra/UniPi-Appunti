@@ -9,18 +9,18 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 
 # Le azioni degli utenti
 ---
-i 7 stati delle azioni fatte dal utente è un modo semplificato per modellizzare come l utente interagirà con il sistema che stiamo costruendo.
+i 7 stati delle azioni fatte dal utente è un modello semplificato per modellizzare come l utente interagirà con il sistema che stiamo costruendo.
 queste azioni sono raggruppate in due _Gulf_
 ![[Pasted image 20230608150646.png]]
 - _Gulf of execution_: dove gli utenti cercano di capire cosa fare (_FeedForward_)
 - _Gulf of Evaluation_: dove gli utenti cercano di capire cosa è successo (_FeedBack_)
 
 il ruolo del design è quello di aiutare l utente a passare per questi due _gulf_ senza problemi. Questo tramite i [[Principi di progettazione del interazione|principi del design]] nello specifico si usano per
--  _Gulf of execution_: signifiers, constraints, mappings, and a conceptual model.
+-  _Gulf of execution_: signifiers, constraints, mappings, e conceptual model.
 - _Gulf of Evaluation_: Feedback and conceptual model
 
 
-la prima a zione è la specifica del gola e i due _gulf_ sono divisi in ulteriori 3 azioni ciascuno
+la prima azione è la _specifica del goal_ e i due _gulf_ sono divisi in ulteriori 3 azioni ciascuno
 ![[Pasted image 20230608150510.png]]
 1. Goal (form the goal)
 2. Plan (the action)
@@ -30,7 +30,6 @@ la prima a zione è la specifica del gola e i due _gulf_ sono divisi in ulterior
 6. Interpret (the perception)
 7. Compare (the outcome with the goal)
 
-
 questo è un modello _molto semplificato_, gli obiettivi possono cambiare durante l azione e non sempre tutte le fasi vengono attraversate. ad esempio l utente esperto non necessariamente passera per tutte le fasi mentre è più probabile che uno novizio lo faccia.
 infatti questo modello è usato come _linee guide_ per la [[Principi di progettazione del interazione|progettazione del interazione]].
 
@@ -39,10 +38,10 @@ queste domande ci guidano facendoci fare una domanda per ogni ogni passo
 
 
 ### Opportunistic Actions
-le azioni opportunistiche sono azioni che non seguono una pianificazione o un obiettivo preciso, sono azioni a basto costo mentale e posso essere facilmente sfruttate per indurre l utente a fare certe azioni. 
+le azioni opportunistiche sono azioni che non seguono una _pianificazione o un obiettivo preciso_, sono azioni a basto costo mentale e posso essere facilmente sfruttate per indurre l utente a fare certe azioni. 
 - ad esempio le adv su internet sfruttano questo tipo di azioni.
 in generale sono fugaci e chi li sfrutta deve essere veloce a rendere l utente "pagante" non deve quindi distrarlo con altro.
-
+es di elementi distraenti. chiedere la registrazione al sito, immettere dati  
 
 
 ### Pensiero conscio e inconscio
