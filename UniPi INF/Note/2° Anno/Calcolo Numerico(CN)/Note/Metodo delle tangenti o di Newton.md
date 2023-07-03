@@ -22,11 +22,11 @@ y = 0
 \end{cases}$$dove 
 - la prima espressione è la _retta tangente_
 - la seconda espressione é l intersezione con l asse $x$
-
 questo metodo funziona finche non arriviamo ad un [[Minimi e Massimi|minimo o ad un massimo]] in quei punti la [[derivata|derivata]] è pari a $0$ e il metodo non è definito. _geometricamente_ la tangente è parallela e non tocca l asse delle $x$.
 
 
-questo metodo può essere visto sotto forma del _[[Metodo dei punti fissi|metodo del punto fisso]]_ prendendo in particolare $g(x) =x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$
+> [!tip]
+> questo metodo può essere visto sotto forma del _[[Metodo dei punti fissi|metodo del punto fisso]]_ prendendo in particolare $g(x) =x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$
 
 #### Radici semplici 
 preso $\alpha:f(\alpha)=0$ è detta _radice semplice_ per $f\in C^{1}([a,b])$  se $\alpha \in (a,b)$ e $f'(\alpha)\not=0$

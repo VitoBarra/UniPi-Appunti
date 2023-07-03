@@ -48,7 +48,7 @@ per il caso $x \in \mathscr{F}(\beta,t,m,M)$ abbiamo che
 - $trn(x)-x =0$
 - $arr(x) -x =0$
 per il caso $x \not \in \mathscr{F}(\beta,t,m,M)$  e $\omega \leq |x| \leq \Omega$ sia a che 
-_sia_ $a = \beta^p\alpha$ un _numero di macchina_ qualsiasi e $b = \beta^p(\alpha + \beta^{-t})$ più _piccolo numero di marchiana_ successore di $a$ abbiamo che $|b-a| = \beta^{p-t}$
+_sia_ $a = \beta^p\alpha$ un _numero di macchina_ qualsiasi e $b = \beta^p(\alpha + \beta^{-t})$  _numero di marchiana successore_ di $a$ abbiamo che $|b-a| = \beta^{p-t}$
 e ci poniamo nel caso in cui  $a < x < b$  allora abbiamo che 
 1. $\tilde x = trn(x) = a$ e possiamo quindi maggiorare l errore assoluto come$$\begin{array}{}
   \mu_x = |trn(x)-x|=|a-x|<|a-b| = \beta^{p-t} \\  \\
@@ -66,7 +66,7 @@ $$
 _sia_ $x \in \mathbb{R}$ 
 _se_  $\omega \leq |x|\leq \Omega$ ovvero non ci sono casi di _overflow_ o _underflow_ 
 _allora_ vale
-$$|\epsilon_x| = \frac{|\tilde x-x|}{|x|} < u = 
+$$|\epsilon_x| = \frac{|\tilde x-x|}{|x|} \leq u = 
 \begin{cases}
 \beta^{1-t} &\text{if} &\tilde  x = trn(x)\\
 \frac{1}{2}\beta^{1-t} & \text{if}& \tilde x = arr(x)
@@ -76,11 +76,11 @@ la quantità $u$ è detta _precisione di macchina_
 ##### Dimostrazione
 - Sappiamo che $x \geq \beta^{p-1}$
 	- siccome $x=\beta^p(\sum^\infty_{i=1}d_{i}\beta^{-i})$ e $\beta^{p-1}= \beta^p(10\dots0)_t$
-	- essenzialmente stiamo dicendo che $x$ è maggiore del valore con solo con stesso esponente ma con valore della mantissa  più piccola possibile
+	- essenzialmente stiamo dicendo che $x$ è maggiore del valore con solo con stesso esponente ma con valore della mantissa minima
 - _Troncamento_: $\tilde x = trn(x)$
-	- Sappiamo che $|\tilde x-x| < \beta^{p-t}$ dal _teorema del errore assoluto_$$|\epsilon_x| = \frac{|\tilde x-x|}{|x|} < \frac{\beta^{p-t}}{\beta^{p-1}}=\beta^{1-t}$$
+	- Sappiamo che $|\tilde x-x| < \beta^{p-t}$ dal _teorema del errore assoluto_$$|\epsilon_x| = \frac{|\tilde x-x|}{|x|} \leq \frac{\beta^{p-t}}{\beta^{p-1}}=\beta^{1-t}$$
 - _Arrotondamento_: $\tilde x = arr(x)$
-	- Sappiamo che $|\tilde x-x| < \frac{1}{2} \beta^{p-t}$ dal _teorema del errore assoluto_ $$|\epsilon_x|=\frac{|\tilde x-x|}{|x|} < \frac{\frac{1}{2}\beta^{p-t}}{\beta^{p-1}} = \frac{1}{2}\beta^{1-t}$$
+	- Sappiamo che $|\tilde x-x| \leq \frac{1}{2} \beta^{p-t}$ dal _teorema del errore assoluto_ $$|\epsilon_x|=\frac{|\tilde x-x|}{|x|} \leq \frac{\frac{1}{2}\beta^{p-t}}{\beta^{p-1}} = \frac{1}{2}\beta^{1-t}$$
 ## Precisione di macchina
 la quantità $u = \beta^{1-t}$ detta _precisione di macchina_ ha le seguenti proprietà
 - è _indipendente_ dalla grandezza del numero 

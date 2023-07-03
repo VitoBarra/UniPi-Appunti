@@ -27,13 +27,14 @@ Prev: [[Studi MOC]]
 	- [[Basi di dati]]
 	- [[Introduzione Intelligenza Artificiale (IIA)]]
 - Complementari
+	- [[Cloud Computing (CC)]]
+	- [[Interazione Uomo Macchina (IUM)]]
+	- [[Crittografia (CRI)]]
 	- [[Computer Grafica (CG)]]
 	- [[Elementi di Complessità e Calcolabilità (ECC)]]
-	- [[Crittografia (CRI)]]
 	- [[Algebra (ALG)]]
 	- [[Cloud and Green Computing]]
 	- [[Sicurezza di sistema ICT]]
-	- [[Interazione Uomo Macchina (IUM)]]
 - Informatica
 	- [[Transazioni]]
 - Orientamento professionale ITC

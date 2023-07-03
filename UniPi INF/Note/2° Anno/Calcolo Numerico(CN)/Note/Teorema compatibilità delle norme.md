@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Teorema compatibilità delle norme
 ---
-Sia $\|\cdot\|_v$ una _norma vettoriale_ su $\mathbb{F}^n$ e sia $\|\cdot\|_m$ la _norma matriciale_ indotta vale
+Sia $\|\cdot\|_v$ una _[[Norme Matriciali e Norme Vettoriali|norma vettoriale]]_ su $\mathbb{F}^n$ e sia $\|\cdot\|_m$ la _[[Norme Matriciali e Norme Vettoriali#Teorema norme matriciali indotte da norme vettoriali|norma matriciale indotta]]_ vale
 $$\forall A\in\mathbb{F}^{n\times n}, \forall v \in \mathbb{F}^{n}, \ \ \|Av\|_v\leq\|A\|_m\|v\|_v$$
 ##### Dimostrazione
 per il caso $v=0$ la relazione è sempre vera

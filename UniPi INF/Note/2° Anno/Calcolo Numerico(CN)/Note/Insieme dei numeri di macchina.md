@@ -21,10 +21,10 @@ dove :
 - $m$ è il numero massimo del esponente negativo
 - $M$ è il numero massimo del esponente positivo
 e si ha che:
-- $-m \leq q \leq M$
+- $-m \leq p \leq M$
 -  $d_1 \not= 0$
 -  $0 \leq d_i \leq \beta -1$ interi
-questo  è un [[Insieme Simmetrico]] rispetto l origine
+questo è un [[Insieme Simmetrico]] rispetto l origine
 
 
 #### Proprietà

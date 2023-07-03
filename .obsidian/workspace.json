@@ -8,14 +8,72 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fae54d8b34b8f3a3",
+            "id": "e46cb876d13ab85f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf60e3f82238d356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42432571b1f535d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33372c65dfe1cee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fa90dd27b94e6fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png"
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
               }
             }
           },
@@ -182,13 +240,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e44a25d8b5adab1",
+  "active": "bf60e3f82238d356",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dipendenza Lineare.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolo pseudo-diagonali passando per uno punto.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di numeri reali.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616204842.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616192930.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175757.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175728.png",
@@ -196,29 +278,6 @@
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175627.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175433.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175405.png",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/Complementari/Sviluppo Web/Sviluppo Web.md",
-    "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md",
-    "UniPi INF/Note/Orientamento al lavoro ITC/Orientamento al lavoro ITC.md",
-    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Principio di buon ordinamento e induzione.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita dei numeri.md",
-    "Templete/Theorem.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Tipi di dimostrazione.md",
-    "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md",
-    "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Sicurezza di sistema ICT.md",
-    "UniPi INF/Note/Complementari/Cloud and Green Computing/Cloud and Green Computing.md",
-    "UniPi INF/Note/Informatica/Transazioni.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/le Natural user Interface.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le interfacce utente.md",
-    "Extra Note/GDR Cartographer/GDR Cartographer Project Requisite.md",
     "Excalidraw",
     "UniPi INF/Thesis",
     "Senza nome.canvas",

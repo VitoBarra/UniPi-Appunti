@@ -43,7 +43,7 @@ _norma infinito_:
 $$f(v) = \|v\|_\infty = max_{1\leq i\leq n} |v_i|$$
 
 ### Teorema di equivalenza topologica delle norme
-siano $\|\cdot\|$ e $\|\cdot\|’$ due norme su $\mathbb{F}^n$. Allora esistono costanti  $\alpha,\beta>0$ tali che 
+siano $\|\cdot\|$ e $\|\cdot\|’$ due _norme_ su $\mathbb{F}^n$. Allora esistono costanti  $\alpha,\beta>0$ tali che 
 $$\forall v \in \mathbb{F}^n\ \ \ \ \ \alpha\|v\|’ \leq \|v\| \leq \beta\|v\|’$$
 questo risultato implica che le proprietà topologiche di convergenza/divergenza di successioni e di continuità delle funzioni sono _invarianti_ risposto alla norma considerata
 

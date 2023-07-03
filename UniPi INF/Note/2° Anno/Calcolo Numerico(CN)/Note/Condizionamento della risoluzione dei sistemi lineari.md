@@ -17,15 +17,14 @@ volgiamo studiare il caso in cui la [[Soluzioni di un sistema lineare|soluzione 
 
 considerando le possibili perturbazioni prossimo riscrivere  il dato teorico $x = f(A,b)$ e il risultato perturbato come $\tilde x= f(\tilde A,\tilde b)$.
 per calcolare l [[Tipi di Errore nel calcolo numerico#Errore Inerente|errore inerente]] dovrei calcolare 
-$$\epsilon_{in} = \frac{\tilde x-x}{x}$$ma essendo $x \ \tilde x$ dei [[Vettori|vettori]] non possiamo a usare la divisione essendo questa _non definita_. usiamo quindi le [[Norme Matriciali e Norme Vettoriali|norme]]  $$\epsilon_{in} = \frac{\|\tilde x-x\|}{\|x\|}$$
+$$\epsilon_{in} = \frac{\tilde x-x}{x}$$ma essendo $x \ \tilde x$ dei [[Vettori|vettori]] non possiamo utilizzare la divisione essendo questa _non definita_ per i vettori. usiamo quindi le [[Norme Matriciali e Norme Vettoriali|norme]]  $$\epsilon_{in} = \frac{\|\tilde x-x\|}{\|x\|}$$
 ### Teorema
-supponiamo di non avere perturbazione sulla matrice $A$ quindi $\tilde A = A$ e che $A$ sia [[Matrice inversa|invertibile]], scelta una qualche norma che induce una norma matriciale 
+_Sia_ $\tilde A = A$ e $\|\cdot\|_{v}$ una qualche [[Norme Matriciali e Norme Vettoriali|norma]] che _induce una norma matriciale_ $\|\cdot\|_{m}$
+_Se_  $A$ è [[Matrice inversa|invertibile]] 
+_Allora_ abbiamo che
 $$\frac{\|\tilde x -x\|}{\|x\|} \leq \mathcal{K}(A) \cdot \frac{\|\tilde b-b\| }{\|b\|}$$
 $\mathcal{K}(A) = \|A\|\cdot\|A^{-1}\|$ è il numero di condizionamento 
-proprietà:
-- $\mathcal{K}(A) \geq 1$
-
-#### Dimostrazione
+##### Dimostrazione
 _sia_ $e=[b_{1}\delta_{1},\dots,b_{n}\delta_{n}]$ il vettore delle perturbazioni di $b$
 _abbiamo che_  $\tilde{b} = b+e$ e  dalla definizione di sistema lineare abbiamo $Ax=b\implies x=A^{-1}b$
 e quindi 
@@ -44,3 +43,7 @@ $$\begin{array}{}
 \end{array} $$
 e unendo le due relazioni possiamo scrivere
 $$\frac{\|\tilde x -x\|}{\|x\|} \leq \frac{\|A^{-1}\|\|e\| }{\cfrac{\|b\|}{\|A\|}}=\|A\|\cdot\|A^{-1}\| \cdot \frac{\|e\| }{\|b\|}$$
+
+#### Proprietà di $\mathcal{K}(A)$:
+questo è sempre $\mathcal{K}(A)\geq1$ siccome
+$$1=\|I_{n}\|=\|AA^{-1}\| \ \leq \|A\|\|A^{-1}\| =\mathcal{K}(A)$$

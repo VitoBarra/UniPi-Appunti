@@ -23,10 +23,10 @@ tale polinomio è detto _polinomio di interpolazione_ sui punti $(x_{i},y_{i})\i
 ##### Dimostrazione
 segue dalle condizioni del teorema la costruzione di un sistema lineare
 $$\begin{bmatrix}
-\phi_{0}(x_{0})  & \cdots & \cdots  & \phi_{n}(x_{0})  \\
-\phi_{0}(x_{1})  & \cdots & \cdots  & \phi_{n}(x_{1})  \\
-\vdots  & \vdots  & \vdots  & \vdots  \\
-\phi_{0}(x_{n})  & \cdots & \cdots  & \phi_{n}(x_{n})
+\phi_{0}(x_{0})   & \cdots  & \phi_{n}(x_{0})  \\
+\phi_{0}(x_{1})   & \cdots  & \phi_{n}(x_{1})  \\
+\vdots  & \ddots   & \vdots  \\
+\phi_{0}(x_{n})   & \cdots  & \phi_{n}(x_{n})
 \end{bmatrix} 
 \begin{bmatrix}
 a_{0} \\

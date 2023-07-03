@@ -93,10 +93,10 @@ essenzialmente cercare di ottenere i vantaggi di entrambi di low e Hight fidelit
 ### le 6 dimensione della fedelte di un prototipo
 1. _Visuali/Phisical realism_: quanto il prototipo sembra il prodotto finale in termine di visuale e grafica
 2. _scope_: l ampiezza e la profondità del design rappresentato nel prototipo.
-3. _funzionalita_: Cosa funziona nel prototipo, cose come link e bottoni nel app web
+3. _funzionalità_: Cosa funziona nel prototipo, cose come link e bottoni nel app web
 4. _data_: se il prototipo opera con dati veri o finti
 5. _Autonomia_:  se il prodotto puo operare da solo o richiede input dal designer o dal utente
-6. _piattaforma_: se un prodotto é un implementazione temporanea o un implementazione finale 
+6. _piattaforma_: se un prodotto é un implementazione temporanea o un implementazione finale, ovvero se il prototipo che è stato realizzato gira effettivamente sul tipo di dispositivo per cui è stato progettato 
 
 ##### Scope di un prototipo
 lo scope di un prototipo è quanto l utente è in grado di vedere e testare con il prototipo che gli si presenta

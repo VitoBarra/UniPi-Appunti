@@ -18,8 +18,8 @@ Ux=y
 \end{cases}
 $$
 ## Teorema di unicità
-_Sia_ $A_k \in \mathbb{R}^{k\times k}$  una _sottomatrice_ di $A \in \mathbb{R}^{n\times n}$ con $1\leq k\leq n$ 
-_se_ sono  [[Matrice inversa|invertibili]] tutte le matrici con $k= 1,\dots,n-1$
+_Sia_ $A_k \in \mathbb{R}^{k\times k}$  una _sottomatrice minore di testa_ di $A \in \mathbb{R}^{n\times n}$ con $1\leq k\leq n$ 
+_se_ sono [[Matrice inversa|invertibili]] tutte i $k= 1,\dots,n-1$ minori di testa
 _allora_ esiste _un unica_ fattorizzazione $LU$ di $A$
 
 > [!warning] 
@@ -57,7 +57,7 @@ $$
  \end{array} 
  \right] 
 $$
-dove la matrice $A$ e le matrici incognite $L$ ed $U$ sono partizionate a blocchi con $A_{n-1}, L_{n-1}, U_{n-1} \in \mathbb{R}^{(n-1) \times (n-1)}$   questa relazione è equivalente al sistema di equazioni
+dove la matrice $A$ e le matrici incognite $L$ ed $U$ sono partizionate a blocchi con $A_{n-1}, L_{n-1}, U_{n-1} \in \mathbb{R}^{(n-1) \times (n-1)}$  questa relazione è equivalente al sistema di equazioni
 $$
 \begin{cases}
 A_{n-1} = L_{n-1}U_{n-1} \\

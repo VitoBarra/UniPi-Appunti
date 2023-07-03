@@ -93,13 +93,14 @@ Spesso ai partecipanti viene chiesto di pensare ad alta voce durante il _test di
 ![[Pasted image 20230616020102.png]]
 
 #### Tipi di Test di usabilità
-ci sono due tipi di test di usabilita
-- _Qualitativi_: i dati sono osservazioni che identificano le caratteristiche del design facili o difficili da utilizzare
-	- Sono test che si basano su domande aperte al utente, con l osservazione e interviste successive per capire _come l utente interagisce_ con il prodotto e cosa ha provato durante l interazione.
+ci sono due tipi di test di usabilità
+- _Qualitativi_: i dati sono osservazioni che identificano le caratteristiche del design che sono facili o difficili da utilizzare
+	- sono test non misurabili, non ci sono metriche
+	- Sono test che si basano su domande aperte al utente, con l osservazione e interviste per capire _come l utente interagisce_ con il prodotto e cosa ha provato durante l interazione.
 	- Questo tipi di test è solitamente fatto nelle _prime fasi_ per carpire i bisogni del utente ma puo essere fatto anche più in la per validare decisioni di design
 - _Quantitativi_: si tratta di dati espressi attraverso una o più metriche, come il tasso di completamento delle attività o i tempi di esecuzione delle attività. questi dati rifletto quando un task è facile da fare
 	- Questi testi si fanno utilizzando _analitiche_, _questionari_,  _A/B testing_ e cet.
-	- Questi test sono un _metodo di ricerca_ e comprende il collezionare e analizzare dati _numerici_  per misurare il comportamento degli utenti e la loro attitudine riguardo al prodotto  
+	- Questi test sono un _metodo di ricerca_ e comprende il collezionare e analizzare dati _numerici_ per misurare il comportamento degli utenti e la loro attitudine riguardo al prodotto  
 	- l obbiettivo è quello di dare ai design [[Inferenza statistica|dati statistici]] per permettergli di fare decisioni informate
 
 entrambi i tipi di test sono importanti nella progettazione per la UX.

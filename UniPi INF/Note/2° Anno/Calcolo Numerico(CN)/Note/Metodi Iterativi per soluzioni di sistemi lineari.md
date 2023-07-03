@@ -43,7 +43,7 @@ si cerca una sequenza di vettori $\boldsymbol{x}$ tale che $x^{(0)}$ ossia il ve
 	- _scarto_:$$\|Ax^{(k)}-b\| < tol$$
 
 ### Metodi basati su decomposizione di matrice
-con questi classe di metodi posso scomporre la matrice del mio sistema lineare $Ax=b$ come $A = M-N$ con $M,N$ due matrici. sotto l assunzione che $M$ sia [[Matrice inversa|invertibile]] e quindi $det(0)\not=0$ possiamo fare la seguente sequenza di passaggi logici
+con questi classe di metodi posso scomporre la matrice del mio [[Sistemi lineari e lineari omogenei|sistema lineare]] $Ax=b$ come $A = M-N$ con $M,N$ due matrici. sotto l assunzione che $M$ sia [[Matrice inversa|invertibile]] e quindi $det(0)\not=0$ possiamo fare la seguente sequenza di passaggi logici
 $$\begin{array}{}
 (M-N)x =b &\iff \\
 Mx-Nx=b &  \iff \\ 
@@ -119,7 +119,6 @@ P(Pe^{(k-1)}) &=&P^{(k+1)}e^{(0)}
 \end{array}
 $$
 sia la $\|\cdot\|$ la norma _vettoriale_ tale che $\|P\|<1$ allora
-
 $$
 \begin{array}{}
 \| e^{(k+1)}\| = \|P^{k+1}e^{(0)}\| & \leq & \|P^{k+1}\|\cdot\|e^{(0)}\|  &\leq \\ 
@@ -132,22 +131,27 @@ utilizzando il [[Teorema del confronto dei carabinieri|teorema dei carabinieri]]
 
 #### 2. Teorema condizione necessaria (e sufficiente):
 se il metodo è _convergente_ $\iff$ il [[Raggio spettrale|raggio spetrale]] della matrice di convergenza   $p(P)<1$. da questo si hanno i seguenti fatti
-- guardando il [[Determinante di una matrice|determinante]] $|det(P)| \geq 1$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$ $|\lambda_i|  \geq 1 \implies$ _non converge_
+- Guardando il [[Determinante di una matrice|determinante]] $|det(P)| \geq 1$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$ $|\lambda_i|  \geq 1 \implies$ _non converge_
 	- il determinante è $\prod^n_{i=0}\lambda_i$
-- guardando la [[Traccia di una matrice|traccia]] $|tr(P)| \geq n$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$     $|\lambda_i| \geq 1 \implies$ _non converge_
+- Guardando la [[Traccia di una matrice|traccia]] $|tr(P)| \geq n$ allora esiste un [[Autovettori e Autovalori|autovalore]] di $P$     $|\lambda_i| \geq 1 \implies$ _non converge_
 	- la traccia è $\sum^n_{i=0}\lambda_i$ 
 
-##### Dimostrazione di necessaria
-si vuole dimostrare che metodo _convergete_ $\implies p(P)<1$
-preso un $\lambda = p(P)$  è sia $v$ il corrispondente _autovettore_. allora abbiamo
+##### Dimostrazione di necessita
+si vuole dimostrare che un metodo _convergete_$\implies p(P)<1$
+
+preso un _autovalore_ $\lambda = p(P)$  è sia $v$ il corrispondente _autovettore_.
+per definizione di _autovalore_ osserviamo che vale
 - $Pv = \lambda v$
 - $v \not =0$
-se il metodo è convergente allora converge a prescindere da $x^{(0)}$. 
-allora _scelgo_ $x^{(0)} = x+v$ dove $x=A^{-1}b$  é la soluzione del _sistema lineare_ e questo deve convergere
-- $e^{(k+1)}= P^{k+1} e^{(0)}$ _converge_ per ipotesi di convergenza del metodo
-- $e^{(0)} = x^{(0)}-x = x-x+v = v$, trovato sostituendo $x^{(0)}$ con il vettore _scelto_.
-- $e^{(k+1)}= P^{k+1}v = \lambda^{k+1}v$  sostituendo il valore di $e^{(0)}$ e sfruttando $Pv = \lambda v$
-allora  mostriamo che deve essere vero che
+ 
+il metodo per _ipotesi_ converge e quindi lo fa per qualsiasi $x^{(0)} \in \mathbb{R}^n$ e quindi in particolare _converge_ con  $x^{(0)} = x+v$ dove 
+- $x=A^{-1}b$  é la soluzione del _sistema lineare_
+- $v$ é il vettore associato al _autovalore_
+ 
+ per _ipotesi_ di convergenza $$e^{(k+1)}= P^{k+1} e^{(0)}=0 $$e usando la definizione di errore posso scrivere $e^{(0)} = x^{(0)}-x = x-x+v = v$ e quindi $$e^{(0)}=v$$Sostituendo ottengo $$e^{(k+1)}=P^{k+1}e^{(0)}= P^{k+1}v = \lambda^{k+1}v$$
+per _ipotesi_ di convergenza abbiamo anche che 
+$$\lim_{k\to\infty}\|e^{(k+1)}\|=0$$
+allora mostriamo che deve essere vero
 $$0 =\lim_{k\to\infty}\|e^{(k+1)}\| =\lim_{k\to\infty}\|\lambda^{k+1}v\| =\|v\|\lim_{k\to\infty}|\lambda|^{k+1}= 0 $$
 il che si verifica $\iff \lambda < 1$
 

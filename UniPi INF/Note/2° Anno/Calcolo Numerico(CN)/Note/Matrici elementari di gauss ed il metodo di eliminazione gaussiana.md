@@ -49,12 +49,20 @@ E_2 = I_{n}-
 valgono le Seguenti _proprietà_
 1. Le matrici elementare di gauss sono matrici [[Tipi di matrice quadrata|triangolari inferiori]]  con elementi uguali ad 1 sulla diagonale principale. per _queste due ragioni_ questa è [[Matrice inversa|invertibile]]
 2. Se $E = I_n-ve^T_k$ è una matrice elementare di gauss sua _inversa_ è  $E^{-1}= I_n+v_e^T$ infatti vale$$
-   \begin{array}{}
- EE^{-1} & =& (I_n-ve_k^T)(I_n+ve^T_k) & = &  I_n+ve_k^T-ve_k^T-ve^T_kve^T_k & = \\I_n -(e^T_kv)ve_k^T &= & I_{n}+0ve_k^T  & =  & I_{n} 
+\begin{array}{}
+EE^{-1} & =& (I_n-ve_k^T)(I_n+ve^T_k)\\
+I_n+ve_k^T-ve_k^T-ve^T_kve^T_k & = &  I_n -v(e^T_kv)e_k^T \\
+I_{n}+v0e_k^T  & = & I_{n} 
 \end{array}$$ ^714b11
 3. _Sia_ $x \in \mathbb{R}^n$ con $x_k \not = 0$. _allora_ esiste un matrice elementare di gauss $E \in \mathbb{R}^{n \times n}$ tale che $Ex= [x_1,\dots,x_k,0,\dots,0]^T$ ovvero che annulli tutti gli elementi della colonna $>k$. per _dimostrare_ questa proprietà abbiamo dalla definizione che $E=I-ve^T_{k}$ e da qui vediamo che $$x_j-v_jx_k=0 \iff v_j= \frac{x_j}{x_k}, \ \ k+1 \leq j \leq n$$ ^5ab199
 	-  $x_j-v_jx_k=0$ viene direttamente dalla _moltiplicazione_ $Ex$ 
-4. Se $E_{k}=I_n-ve_k^T$ e $E_{h} = I_n-we_\ell^T$ son matrici elementare  di gauss con $h > k$ allora $e^T_kw=0$ e dunque 	$$E_{k}\cdot  E_{h} = I_n-ve^T_k-we^T_\ell$$ciò implica che la matrice prodotto risulta costruita semplicemente apponendo nella corretta posizione i vettori $v$ e $w$  ![[Pasted image 20230517170805.png]] ^62bbc3
+4. Se $E_{k}=I_n-ve_k^T$ e $E_{h} = I_n-we_h^T$ son matrici elementare  di gauss con $h > k$ allora $e^T_kw=0$ e dunque $$
+   \begin{array}{}
+   E_{k}\cdot  E_{h}  & = & (I_n-ve_k^T)(I_n-we_h^T)\\
+    I-ve_k^T -we_h^T +v(e_k^Tw)e_h^T& = &I-ve_k^T -we_h^T +v0e_h^T \\
+ I_n-ve^T_k-we^T_h &  & 
+	\end{array}
+   $$ciò implica che la matrice prodotto risulta costruita semplicemente apponendo nella corretta posizione i vettori $v$ e $w$  ![[Pasted image 20230517170805.png]] ^62bbc3
 5. sia $E=I_n-ve^T_k$ una _matrice eleminare di gauss_ e $y$ un _vettore_ il prodotto $Ey$  può essere calcolata con al più $O(n-k)$ operazioni moltiplicative. si ha infatti che $$Ey=z\implies \begin{cases}
  z_j=y_j &per& 1 \leq j \leq k \\
  z_j=y_j-v_jy_k & per &j >k

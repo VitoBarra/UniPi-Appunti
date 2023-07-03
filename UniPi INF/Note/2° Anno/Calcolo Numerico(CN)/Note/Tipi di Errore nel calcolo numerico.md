@@ -12,7 +12,7 @@ Prev: [[Calcolo Numerico(CN)]]
 Analizzando un fenomeno del mondo reale se ne crea il **modello matematico continuo** questo può permetterci di trovarne le proprietà qualitative( esistenza, unica, regolarità, ecc.) ma non ci permette di trovare una soluzione concreta al problema di conseguenza il modello viene approssimato prendendo solo alcuni suoi punti creando quindi un **modello matematico discreto**
 
 ![[UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Untitled 1.png]]
-non tutti i numeri sono rappresentabili con dei valori finiti. ad esempio $\pi$ o $\sqrt{2}$non sono _rappresentabili finitamente_.
+non tutti i numeri sono rappresentabili con dei valori finiti. ad esempio $\pi$ o $\sqrt{2}$ non sono _rappresentabili finitamente_.
 posiamo solo calcolare con un aritmetica finita che approssima la soluzione reale, questo introduce alcuni errori
 
 ## Errori
@@ -47,17 +47,18 @@ l errore totale misura la differenza relativa tra l output atteso e l output eff
 #### Teorema
 si ha $\epsilon_{tot} \dot=\epsilon_{in}+\epsilon_{alg}$ 
 ##### Dimostrazione
+Osserviamo che le definizione di errore algoritmico e inerente si possono riscrivere come 
+1. $\epsilon_{in} = \cfrac{f(\tilde{x})}{f(x)}-1 \ \iff \epsilon_{in}+1 = \cfrac{f(\tilde{x})}{f(x)}$
+2. $\epsilon_{alg} = \cfrac{g(\tilde{x})}{f(\tilde{x})}-1 \ \iff \epsilon_{alg}+1 = \cfrac{g(\tilde{x})}{f(\tilde{x})}$
+e da qui possiamo precedere con la dimostrazione come
+
 $$
 \begin{array} {}
 \epsilon_{tot} & = \\
 \cfrac{g(\tilde x)-f(x)}{f(x)} & = &  \\
-\cfrac{g(\tilde x)}{f(x)} -\cfrac{f(x)}{f(x)} & = & \text{spezzo}\\ 
- \cfrac{g(\tilde x)-f( \tilde x)}{f(x)}+ \cfrac{f(\tilde x)-f(x)}{f(x)}  & =   & \text{aggiungo e sottraggo} \cfrac{f(\tilde{x})}{f(x)}\\
-\cfrac{g(\tilde x)-f( \tilde x)}{f(\tilde x)}\cfrac{f(\tilde x)}{f(x)}+\epsilon_{in} & = &  \text{moltiplico e divido} f(\tilde{x}) \\
-\epsilon_{alg}(\cfrac{f(\tilde{x})-f(x)}{f(x)}+\cfrac{f(x)}{f(x)})+\epsilon_{in} & = & \text{aggingo e sotraggo} f(x)\\
- 
-\epsilon_{alg}(1+\epsilon_{in})+\epsilon_{in}  & =\\ 
-\epsilon_{alg}+\epsilon_{alg}\epsilon_{in}+\epsilon_{in}& \dot =\\
+ \left(\cfrac{g(\tilde x)}{f(\tilde{x})}-\cfrac{f(x)}{f(\tilde{x})}\right) \cfrac{f(\tilde{x})}{f(x)} & = & \text{mol per} \cfrac{f(\tilde{x})}{f(\tilde{x})}  \\
+\left(\epsilon_{alg}+1-\cfrac{1}{\epsilon_{in}+1}\right)(\epsilon_{in}+1)  & = &  \text{sostitusico} \\
+\epsilon_{alg}+\epsilon_{alg}\epsilon_{in}+\epsilon_{in} +1 -1& \dot =\\
 \epsilon_{alg} + \epsilon_{in}
 \end{array}
 $$

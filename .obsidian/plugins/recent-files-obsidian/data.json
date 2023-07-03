@@ -1,12 +1,184 @@
 {
   "recentFiles": [
     {
-      "basename": "Test di Usabilita",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
+      "basename": "Calcolo Numerico(CN)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+    },
+    {
+      "basename": "Ordine di convergenza",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md"
+    },
+    {
+      "basename": "Interpolazione polinomiale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
+    },
+    {
+      "basename": "Metodo delle tangenti o di Newton",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md"
+    },
+    {
+      "basename": "Matrici elementari di gauss ed il metodo di eliminazione gaussiana",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
+    },
+    {
+      "basename": "Fattorizzazione LU",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md"
+    },
+    {
+      "basename": "Predominanza diagonale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md"
+    },
+    {
+      "basename": "Localizzazione degli Autovettori",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md"
+    },
+    {
+      "basename": "Norme Matriciali e Norme Vettoriali",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md"
+    },
+    {
+      "basename": "Algebra Lineare (AL)",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
+    },
+    {
+      "basename": "Dipendenza Lineare",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dipendenza Lineare.md"
+    },
+    {
+      "basename": "Base di uno spazio vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md"
+    },
+    {
+      "basename": "Spazio Vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
+    },
+    {
+      "basename": "Forma cartesiana e forma parametrica",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md"
+    },
+    {
+      "basename": "Sistemi lineari e lineari omogenei",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md"
+    },
+    {
+      "basename": "Traccia di una matrice",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md"
+    },
+    {
+      "basename": "Calcolo pseudo-diagonali passando per uno punto",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolo pseudo-diagonali passando per uno punto.md"
+    },
+    {
+      "basename": "Teorema di convergenza sufficiente per J e GS",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
+    },
+    {
+      "basename": "Metodi Iterativi per soluzioni di sistemi lineari",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md"
+    },
+    {
+      "basename": "Condizionamento della risoluzione dei sistemi lineari",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md"
+    },
+    {
+      "basename": "Teorema compatibilità delle norme",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md"
+    },
+    {
+      "basename": "Raggio spettrale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md"
+    },
+    {
+      "basename": "Rappresentazione in base di numeri reali",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di numeri reali.md"
+    },
+    {
+      "basename": "Insieme dei numeri di macchina",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
+    },
+    {
+      "basename": "Aritmetica di Macchina",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
+    },
+    {
+      "basename": "Convergenza locale per metodi interativi funzionali",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md"
+    },
+    {
+      "basename": "Metodo dei punti fissi",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+    },
+    {
+      "basename": "Teorema della permanenza del segno",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
+    },
+    {
+      "basename": "Criterio di Stop per metodi iterativi",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md"
+    },
+    {
+      "basename": "Teorema di Lagrange",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Teorema di Weierstrass",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md"
+    },
+    {
+      "basename": "Teorema di approssimazione di Weierstrass",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
+    },
+    {
+      "basename": "Metodo della bisezione",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md"
+    },
+    {
+      "basename": "Metodi iterativi funzionali (calcolo degli zeri)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md"
+    },
+    {
+      "basename": "Metodo di jacobi (metodo spostamenti successivi)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md"
+    },
+    {
+      "basename": "Tipi di Errore nel calcolo numerico",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
+    },
+    {
+      "basename": "Tecniche per l analisi degli errori",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md"
+    },
+    {
+      "basename": "Calcolo di autovalori",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md"
+    },
+    {
+      "basename": "Valore assoluto",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Valore assoluto.md"
+    },
+    {
+      "basename": "Teorema di Binet",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md"
+    },
+    {
+      "basename": "Calcolare autovalori e autovettori",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolare autovalori e autovettori.md"
+    },
+    {
+      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
     },
     {
       "basename": "Interazione Uomo Macchina (IUM)",
       "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
+    },
+    {
+      "basename": "Test di Usabilita",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
     },
     {
       "basename": "Prototipi e Mockup",
@@ -27,178 +199,6 @@
     {
       "basename": "Human Interface Devices",
       "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md"
-    },
-    {
-      "basename": "User experience per IOT",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User experience per IOT.md"
-    },
-    {
-      "basename": "Metodi e Framework per l Innovazione",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Metodi e Framework per l Innovazione.md"
-    },
-    {
-      "basename": "Definizione di Innovazione",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Definizione di Innovazione.md"
-    },
-    {
-      "basename": "Information Architecture",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md"
-    },
-    {
-      "basename": "IUM - Use Case",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Use Case.md"
-    },
-    {
-      "basename": "IUM - Scenario",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md"
-    },
-    {
-      "basename": "User stories",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User stories.md"
-    },
-    {
-      "basename": "User personas",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
-    },
-    {
-      "basename": "Strumenti per la ricerca sugli utenti",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Strumenti per la ricerca sugli utenti.md"
-    },
-    {
-      "basename": "Errori Umani",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Errori Umani.md"
-    },
-    {
-      "basename": "Le azioni degli utenti",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le azioni degli utenti.md"
-    },
-    {
-      "basename": "Principi di progettazione del interazione",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Principi di progettazione del interazione.md"
-    },
-    {
-      "basename": "Human centered Design",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md"
-    },
-    {
-      "basename": "Ruoli e parti nel Interaction Design",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Ruoli e parti nel Interaction Design.md"
-    },
-    {
-      "basename": "Pensiero computazionale Vs Design",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pensiero computazionale Vs Design.md"
-    },
-    {
-      "basename": "Concetti Generali del IUM",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Concetti Generali del IUM.md"
-    },
-    {
-      "basename": "Legge di Fitts",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Legge di Fitts.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Paradigmi Di Programmazione(PDP)",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
-    },
-    {
-      "basename": "Generational garbage collector",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Generational garbage collector.md"
-    },
-    {
-      "basename": "Reference Counting",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Reference Counting.md"
-    },
-    {
-      "basename": "Tracing",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Tracing.md"
-    },
-    {
-      "basename": "Domande esame orale PDP",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Domande esame orale PDP.md"
-    },
-    {
-      "basename": "Copyng collection",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Copyng collection.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Garbage Collector.md"
-    },
-    {
-      "basename": "le Natural user Interface",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/le Natural user Interface.md"
-    },
-    {
-      "basename": "Requisiti utente",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Requisiti utente.md"
-    },
-    {
-      "basename": "Analisi dei requisiti",
-      "path": "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Analisi dei requisiti.md"
-    },
-    {
-      "basename": "Root Causes Analysis",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Root Causes Analysis.md"
-    },
-    {
-      "basename": "Business Models",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md"
-    },
-    {
-      "basename": "Debito tecnico",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Debito tecnico.md"
-    },
-    {
-      "basename": "Studi MOC",
-      "path": "Studi MOC.md"
-    },
-    {
-      "basename": "Pasted image 20230616190303",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png"
-    },
-    {
-      "basename": "Pasted image 20230616175820",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png"
-    },
-    {
-      "basename": "Sviluppo Web",
-      "path": "UniPi INF/Note/Complementari/Sviluppo Web/Sviluppo Web.md"
-    },
-    {
-      "basename": "Requisiti Progetto Sviluppo Web - WalletShare - TipShare",
-      "path": "UniPi INF/Note/Complementari/Sviluppo Web/Requisiti Progetto Sviluppo Web - WalletShare - TipShare.md"
-    },
-    {
-      "basename": "Orientamento al lavoro ITC",
-      "path": "UniPi INF/Note/Orientamento al lavoro ITC/Orientamento al lavoro ITC.md"
-    },
-    {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Principio di buon ordinamento e induzione",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Principio di buon ordinamento e induzione.md"
-    },
-    {
-      "basename": "Divisibilita dei numeri",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita dei numeri.md"
-    },
-    {
-      "basename": "Theorem",
-      "path": "Templete/Theorem.md"
-    },
-    {
-      "basename": "Tipi di dimostrazione",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Tipi di dimostrazione.md"
-    },
-    {
-      "basename": "Attacchi Denai of Service (DOS)",
-      "path": "UniPi INF/Note/Complementari/Sicurezza di Sistemi ICT/Attacchi Denai of Service (DOS).md"
     }
   ],
   "omittedPaths": [],
