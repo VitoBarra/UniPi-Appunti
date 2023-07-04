@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Metodo dei punti fissi",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+    },
+    {
+      "basename": "Teorema di Weierstrass",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md"
+    },
+    {
       "basename": "Calcolo Numerico(CN)",
       "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
     },
     {
-      "basename": "Ordine di convergenza",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md"
+      "basename": "Metodi iterativi funzionali (calcolo degli zeri)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md"
     },
     {
-      "basename": "Interpolazione polinomiale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
+      "basename": "Teorema di convergenza sufficiente per J e GS",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
     },
     {
       "basename": "Metodo delle tangenti o di Newton",
       "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md"
     },
     {
-      "basename": "Matrici elementari di gauss ed il metodo di eliminazione gaussiana",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
+      "basename": "Condizionamento della risoluzione dei sistemi lineari",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md"
     },
     {
       "basename": "Fattorizzazione LU",
       "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md"
     },
     {
-      "basename": "Predominanza diagonale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md"
+      "basename": "Metodo di jacobi (metodo spostamenti successivi)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md"
     },
     {
       "basename": "Localizzazione degli Autovettori",
@@ -35,6 +43,82 @@
     {
       "basename": "Norme Matriciali e Norme Vettoriali",
       "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md"
+    },
+    {
+      "basename": "Convergenza locale per metodi interativi funzionali",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md"
+    },
+    {
+      "basename": "Aritmetica di Macchina",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
+    },
+    {
+      "basename": "Tecniche per l analisi degli errori",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md"
+    },
+    {
+      "basename": "Problemi Mal Condizionati",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md"
+    },
+    {
+      "basename": "Metodo della bisezione",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md"
+    },
+    {
+      "basename": "Ordine di convergenza",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md"
+    },
+    {
+      "basename": "Calcolo di autovalori",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md"
+    },
+    {
+      "basename": "Criterio di Stop per metodi iterativi",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md"
+    },
+    {
+      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
+    },
+    {
+      "basename": "Metodi Iterativi per soluzioni di sistemi lineari",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md"
+    },
+    {
+      "basename": "Matrici elementari di gauss ed il metodo di eliminazione gaussiana",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
+    },
+    {
+      "basename": "Predominanza diagonale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md"
+    },
+    {
+      "basename": "Raggio spettrale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md"
+    },
+    {
+      "basename": "Teorema compatibilità delle norme",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md"
+    },
+    {
+      "basename": "Calcolo di una funzione non razionale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md"
+    },
+    {
+      "basename": "Tipi di Errore nel calcolo numerico",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
+    },
+    {
+      "basename": "Insieme dei numeri di macchina",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
+    },
+    {
+      "basename": "Test di Usabilita",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
+    },
+    {
+      "basename": "Interpolazione polinomiale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
     },
     {
       "basename": "Algebra Lineare (AL)",
@@ -69,52 +153,12 @@
       "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolo pseudo-diagonali passando per uno punto.md"
     },
     {
-      "basename": "Teorema di convergenza sufficiente per J e GS",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
-    },
-    {
-      "basename": "Metodi Iterativi per soluzioni di sistemi lineari",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md"
-    },
-    {
-      "basename": "Condizionamento della risoluzione dei sistemi lineari",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md"
-    },
-    {
-      "basename": "Teorema compatibilità delle norme",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md"
-    },
-    {
-      "basename": "Raggio spettrale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md"
-    },
-    {
       "basename": "Rappresentazione in base di numeri reali",
       "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di numeri reali.md"
     },
     {
-      "basename": "Insieme dei numeri di macchina",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
-    },
-    {
-      "basename": "Aritmetica di Macchina",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
-    },
-    {
-      "basename": "Convergenza locale per metodi interativi funzionali",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md"
-    },
-    {
-      "basename": "Metodo dei punti fissi",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
-    },
-    {
       "basename": "Teorema della permanenza del segno",
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
-    },
-    {
-      "basename": "Criterio di Stop per metodi iterativi",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md"
     },
     {
       "basename": "Teorema di Lagrange",
@@ -125,36 +169,8 @@
       "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
     },
     {
-      "basename": "Teorema di Weierstrass",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md"
-    },
-    {
       "basename": "Teorema di approssimazione di Weierstrass",
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
-    },
-    {
-      "basename": "Metodo della bisezione",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md"
-    },
-    {
-      "basename": "Metodi iterativi funzionali (calcolo degli zeri)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md"
-    },
-    {
-      "basename": "Metodo di jacobi (metodo spostamenti successivi)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md"
-    },
-    {
-      "basename": "Tipi di Errore nel calcolo numerico",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
-    },
-    {
-      "basename": "Tecniche per l analisi degli errori",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md"
-    },
-    {
-      "basename": "Calcolo di autovalori",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md"
     },
     {
       "basename": "Valore assoluto",
@@ -169,16 +185,8 @@
       "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolare autovalori e autovettori.md"
     },
     {
-      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
-    },
-    {
       "basename": "Interazione Uomo Macchina (IUM)",
       "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
-    },
-    {
-      "basename": "Test di Usabilita",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
     },
     {
       "basename": "Prototipi e Mockup",
@@ -191,14 +199,6 @@
     {
       "basename": "Front-End Design Wireframing",
       "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md"
-    },
-    {
-      "basename": "interfaccia utente",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/interfaccia utente.md"
-    },
-    {
-      "basename": "Human Interface Devices",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md"
     }
   ],
   "omittedPaths": [],

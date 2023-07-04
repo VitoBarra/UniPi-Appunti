@@ -34,7 +34,7 @@ _Sia_ $g:[a,b]\rightarrow \mathbb{R}, \ \ g \in C^{1}([a,b])$ ovvero che sia [[C
 _Se_ $\exists \rho>0:|g'(x)|<1 \ \ \forall x \in [\alpha-\rho,\alpha +\rho] \subseteq [a,b]$ 
 - ovvero se il coefficiente angolare è tra -1 e 1 (cresce o decresce _poco_ in ogni punto del _insieme circolare_ intorno al punto $\alpha$)
 _Allora_ 
-1. $\forall x_{k} \in [\alpha-\rho,\alpha +\rho] \ \ \ \ \forall k \geq 0$ 
+1. $x_{k} \in [\alpha-\rho,\alpha +\rho] \ \ \ \ \forall k \geq 0$ 
 2. Il metodo [[Convergenza locale per metodi interativi funzionali|converge localmente]] 
 
 questo ci da un criterio per determinare se il metodo _converge localmente_.
@@ -79,5 +79,5 @@ da qui posso scrivere $$|g'(\eta_{k})||x_{k}-\alpha|\leq|g'(\eta_{k})|\lambda^{k
 sia $g:[a,b]\rightarrow \mathbb{R}, \ \ g \in C^{1}([a,b]) , \ \ g(\alpha) = \alpha , \ \ \alpha \in (a,b)$
 _se_  $|g'(\alpha)| <1 \implies$  allora il metodo è _localmente convergente_
 ##### Dimostrazione
-$h(x)= |g'(x)|-1$, e per composizione di funzioni continue si ha $h \in C^{0}([a,b])$
+$h(x)= |g'(x)|-1$, e per composizione di funzioni continue si ha $h \in C^{1}([a,b])$
 e quindi si ha che $h(\alpha)=|g'(\alpha)|-1<0$ e per [[Teorema della permanenza del segno|teorema della permanenza del segno]] ho che $\implies \exists\rho>0:\forall x \in [\alpha-\rho,\alpha +\rho]$ e quindi vale il [[#Teorema del punto fisso|teorema del punto fisso]]
