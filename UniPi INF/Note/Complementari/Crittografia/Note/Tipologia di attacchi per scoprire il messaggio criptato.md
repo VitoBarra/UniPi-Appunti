@@ -17,7 +17,7 @@ gli attacchi del crittoanalista possono essere di più tipi e dipende dal intenz
 - _Man in-the-middle_: viene interrotta la comunicazione diretta tra i due interlocutori e un terzo agente appunto in mezzo riceve e manda i messaggi che dovrebbero viaggiare direttamente , questo permetterebbe alla persona in mezzo di modificare quel messaggio o anche solo di leggerli a seconda delle intenzioni del attacco
 
 
->[!note]
->maquillage editoriale: serve a nascondere le struttore del linguaggio naturale per dare meno informazioni al critto analista es. rimuovere spazi, accetti e punteggiatura e aggiunta di inregolarita nella struttura
+>[!note] maquillage editoriale
+>serve a nascondere le struttore del linguaggio naturale per dare meno informazioni al critto analista es. rimuovere spazi, accetti e punteggiatura e aggiunta di inregolarita nella struttura
 
 

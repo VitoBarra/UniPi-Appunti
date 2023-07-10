@@ -11,7 +11,7 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 ---
 un algoritmo per [[Machine Learning (ML)|Machine learning ]] per il [[Concept Learning|Concept learning]]
 ## Definizioni
-- _Version Space_: $VS_{H,D}$ in accordo con lo spazio delle ipotesi $H$ è il training set D,  è il sotto [[Insiemi|insieme]] di ipotesi consistenti con tutte i dati di training $$VS_{H,D} = \{h\in H | consistent(h,D)\}$$
+- _Version Space_: $VS_{H,D}$ in accordo con lo spazio delle ipotesi $H$ è il training set D,  è il sotto [[Insiemi Matematici|insieme]] di ipotesi consistenti con tutte i dati di training $$VS_{H,D} = \{h\in H | consistent(h,D)\}$$
 - dove per definire $consistent$ si utilizza al definizione di consistenza ![[Concept Learning#Definizione di consistenza]]
  
 ### Algoritmi per calcolo di Version space

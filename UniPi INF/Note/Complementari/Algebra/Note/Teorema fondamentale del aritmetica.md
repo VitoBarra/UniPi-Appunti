@@ -10,7 +10,8 @@ Prev: [[Algebra (ALG)]]
 # Teorema fondamentale del aritmetica
 ---
 ## Teorema
-Ogni numero $n>1$ o è un  [[Numeri primi|numero primo]] o si può esprimere come prodotto di numeri primi. Tale rappresentazione è unica se non si considera l ordine dei fattori.
+Ogni numero $n>1$ o è un  [[Numeri primi|numero primo]] o si può esprimere come prodotto di numeri primi. 
+Tale rappresentazione è _unica_ ignorando l ordine dei fattori.
 
 ##### Dimostrazione  (ESISTENZA)
 Sia $P(n)$ la proposizione che l intero $n>1$ è un numero primo oppure può essere espresso come prodotto di numeri primi. allora $P(2)$ è vera. Supponiamo che $P(2)…P(n)$ siano vere. allora anche $P(n+1)$ è vera.

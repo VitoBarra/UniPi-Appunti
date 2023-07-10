@@ -12,7 +12,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Definizione
 
-Dati un [[Insiemi|insieme]] $I = \{1, \dots , m\}$ ed una famiglia $S_1, \dots, S_n \subset I$ ,
+Dati un [[Insiemi Matematici|insieme]] $I = \{1, \dots , m\}$ ed una famiglia $S_1, \dots, S_n \subset I$ ,
 ogni sottoinsieme $S_j$  ha un costo (o valore) $c_j$, per ogni $j = 1, \dots , n.$
 
 ### Problema di copertura

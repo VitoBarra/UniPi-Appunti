@@ -7,5 +7,5 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Numeri Pseudo Casuali
+# Cifrario Asimmetrico RSA
 ---

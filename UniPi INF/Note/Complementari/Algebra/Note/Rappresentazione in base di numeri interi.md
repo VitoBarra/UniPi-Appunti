@@ -10,7 +10,7 @@ Prev: [[Algebra (ALG)]]
 # Rappresentazione in base di numeri interi
 ---
 Siano $n\geq 0$ e  $b\geq 2$ interi. allora si dice che $n$ ha una rappresentazione in base $b$ se esiste una sequenza $\{a_0,\dots,a_k\}$ tale che  $0\leq a_j < b$
-$$n = a_kb^k+\dots+a_0b^0$$
+$$n = \sum_{i=0}^{k} a_ib^i$$
 questa stringa si chiama rappresentazione in base $b$ del intero $n$
 
 
@@ -18,7 +18,7 @@ questa stringa si chiama rappresentazione in base $b$ del intero $n$
 fissata una base $b \geq 2$ ogni intero $n\geq0$ _puo_ essere rappresentato in base $b$ _univocamente_
 
 ##### Dimostrazione esistenza
-sia $P(n)$ la preposizione che $n$. ha una rappresentazione in base b allora $P(0)$ è ovviamente vera.
+sia $P(n)$ la preposizione che $n$. ha una rappresentazione in base $b$ allora $P(0)$ è ovviamente vera.
 supponiamo che sia vera $p(0)\dots p(k)$ allora
 $$k+1 = bq +r, \ \ \\ 0 \leq r <b$$
 inoltro poiché $b>1$ sappiamo che $q<k+1$ per ipotesi 

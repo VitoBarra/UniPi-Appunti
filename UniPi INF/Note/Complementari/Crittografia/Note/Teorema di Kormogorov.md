@@ -7,5 +7,5 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Cifrario a chiave Asimmetrica
+# Teorema di Kormogorov
 ---

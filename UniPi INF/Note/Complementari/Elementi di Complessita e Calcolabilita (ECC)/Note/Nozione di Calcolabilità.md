@@ -22,6 +22,6 @@ la nazione di calcolabilità esprime le funzioni intuitivamente calcolabili. se 
 >[!note]
 >Sotto queste ipotesi, tutte le formulazioni fin ad ora sviluppate sono equivalenti e si postula che lo saranno anche tutte le future
 
->[!info] #### TEOREMA 
+>[!info]  TEOREMA 
 >non esiste nessun formalismo che esprime tutte e sole le funzioni totali e calcolabili
 >Dimostrato con [[Diagonalizzazione]]

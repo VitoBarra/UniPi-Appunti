@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Calcolo Numerico(CN)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+      "basename": "Cifrario a chiave Asimmetrica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md"
     },
     {
-      "basename": "Ordine di convergenza",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md"
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
-      "basename": "Interpolazione polinomiale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md"
+      "basename": "Funzioni One-Way Trapdoor",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md"
     },
     {
-      "basename": "Metodo delle tangenti o di Newton",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md"
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
     },
     {
-      "basename": "Matrici elementari di gauss ed il metodo di eliminazione gaussiana",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md"
+      "basename": "Rappresentazione in base di numeri interi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Rappresentazione in base di numeri interi.md"
     },
     {
-      "basename": "Fattorizzazione LU",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md"
+      "basename": "Teorema di Enumerazione",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Enumerazione.md"
     },
     {
-      "basename": "Predominanza diagonale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md"
+      "basename": "Teorema fondamentale del aritmetica",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema fondamentale del aritmetica.md"
     },
     {
-      "basename": "Localizzazione degli Autovettori",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md"
+      "basename": "Complessita",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
     },
     {
-      "basename": "Norme Matriciali e Norme Vettoriali",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md"
+      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
+    },
+    {
+      "basename": "Funzioni Ricorsive Primitive",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md"
+    },
+    {
+      "basename": "Diagonalizzazione",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Diagonalizzazione.md"
+    },
+    {
+      "basename": "Nozione di Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md"
+    },
+    {
+      "basename": "Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
+    },
+    {
+      "basename": "Numeri Pseudo Casuali",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md"
+    },
+    {
+      "basename": "Critto Note temp",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Critto Note temp.md"
+    },
+    {
+      "basename": "Teorema di Kormogorov",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md"
+    },
+    {
+      "basename": "Cifrario Asimmetrico RSA",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
+    },
+    {
+      "basename": "Rappresentazione di oggetti matematici con sequenze",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
+    },
+    {
+      "basename": "Cifrario a Composizione di blocchi",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md"
+    },
+    {
+      "basename": "Pasted image 20230709191538",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png"
+    },
+    {
+      "basename": "Cifrario a chiave Simmetrica AES",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
+    },
+    {
+      "basename": "Cifrario a chiave Simmetrica DES",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md"
+    },
+    {
+      "basename": "Pasted image 20230707222509",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222509.png"
+    },
+    {
+      "basename": "Pasted image 20230707222422",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222422.png"
+    },
+    {
+      "basename": "Pasted image 20230707195205",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png"
+    },
+    {
+      "basename": "Transazioni",
+      "path": "UniPi INF/Note/Informatica/Transazioni.md"
+    },
+    {
+      "basename": "Algoritmo di partia per il controllo degli errori",
+      "path": "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md"
+    },
+    {
+      "basename": "Criteri di Shannon per i cifrari",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Criteri di Shannon per i cifrari.md"
+    },
+    {
+      "basename": "Classificazione di cifrari",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Classificazione di cifrari.md"
+    },
+    {
+      "basename": "Cifrari a chiave Simmetrica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md"
+    },
+    {
+      "basename": "Cifrari perfetti",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari perfetti.md"
+    },
+    {
+      "basename": "Cifrario One-time Pad",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario One-time Pad.md"
+    },
+    {
+      "basename": "Critto analisi Statistica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Critto analisi Statistica.md"
+    },
+    {
+      "basename": "Pasted image 20230706210518",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230706210518.png"
+    },
+    {
+      "basename": "Crittografia Concetti Generali",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Crittografia Concetti Generali.md"
+    },
+    {
+      "basename": "Cifratura e Decifratura",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifratura e Decifratura.md"
+    },
+    {
+      "basename": "Pasted image 20230706150740",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230706150740.png"
+    },
+    {
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Probabilità condizionata e indipendenza",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilità condizionata e indipendenza.md"
+    },
+    {
+      "basename": "Probabilità e variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+    },
+    {
+      "basename": "Logica proposizionale",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md"
+    },
+    {
+      "basename": "Architetture e sistemi operativi (AESO)",
+      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
+    },
+    {
+      "basename": "Porte Logiche",
+      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Porte Logiche.md"
+    },
+    {
+      "basename": "Operazioni logiche",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni logiche.md"
+    },
+    {
+      "basename": "Espressioni Booleane",
+      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Espressioni Booleane.md"
     },
     {
       "basename": "Algebra Lineare (AL)",
       "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
     },
     {
-      "basename": "Dipendenza Lineare",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dipendenza Lineare.md"
+      "basename": "Dimensione di uno spazio vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md"
     },
     {
-      "basename": "Base di uno spazio vettoriale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md"
-    },
-    {
-      "basename": "Spazio Vettoriale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
-    },
-    {
-      "basename": "Forma cartesiana e forma parametrica",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md"
-    },
-    {
-      "basename": "Sistemi lineari e lineari omogenei",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md"
-    },
-    {
-      "basename": "Traccia di una matrice",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md"
-    },
-    {
-      "basename": "Calcolo pseudo-diagonali passando per uno punto",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolo pseudo-diagonali passando per uno punto.md"
-    },
-    {
-      "basename": "Teorema di convergenza sufficiente per J e GS",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
-    },
-    {
-      "basename": "Metodi Iterativi per soluzioni di sistemi lineari",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md"
-    },
-    {
-      "basename": "Condizionamento della risoluzione dei sistemi lineari",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md"
-    },
-    {
-      "basename": "Teorema compatibilità delle norme",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md"
-    },
-    {
-      "basename": "Raggio spettrale",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md"
-    },
-    {
-      "basename": "Rappresentazione in base di numeri reali",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di numeri reali.md"
-    },
-    {
-      "basename": "Insieme dei numeri di macchina",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
-    },
-    {
-      "basename": "Aritmetica di Macchina",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md"
-    },
-    {
-      "basename": "Convergenza locale per metodi interativi funzionali",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md"
-    },
-    {
-      "basename": "Metodo dei punti fissi",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
-    },
-    {
-      "basename": "Teorema della permanenza del segno",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
-    },
-    {
-      "basename": "Criterio di Stop per metodi iterativi",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md"
-    },
-    {
-      "basename": "Teorema di Lagrange",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Teorema di Weierstrass",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md"
-    },
-    {
-      "basename": "Teorema di approssimazione di Weierstrass",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md"
-    },
-    {
-      "basename": "Metodo della bisezione",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md"
-    },
-    {
-      "basename": "Metodi iterativi funzionali (calcolo degli zeri)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md"
-    },
-    {
-      "basename": "Metodo di jacobi (metodo spostamenti successivi)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md"
-    },
-    {
-      "basename": "Tipi di Errore nel calcolo numerico",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
-    },
-    {
-      "basename": "Tecniche per l analisi degli errori",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md"
-    },
-    {
-      "basename": "Calcolo di autovalori",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md"
-    },
-    {
-      "basename": "Valore assoluto",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Valore assoluto.md"
-    },
-    {
-      "basename": "Teorema di Binet",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema di Binet.md"
-    },
-    {
-      "basename": "Calcolare autovalori e autovettori",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolare autovalori e autovettori.md"
-    },
-    {
-      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
-    },
-    {
-      "basename": "Interazione Uomo Macchina (IUM)",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
-    },
-    {
-      "basename": "Test di Usabilita",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
-    },
-    {
-      "basename": "Prototipi e Mockup",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md"
-    },
-    {
-      "basename": "Pretotyping",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md"
-    },
-    {
-      "basename": "Front-End Design Wireframing",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md"
-    },
-    {
-      "basename": "interfaccia utente",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/interfaccia utente.md"
-    },
-    {
-      "basename": "Human Interface Devices",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md"
+      "basename": "Teorema della Dimensione",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema della Dimensione.md"
     }
   ],
   "omittedPaths": [],

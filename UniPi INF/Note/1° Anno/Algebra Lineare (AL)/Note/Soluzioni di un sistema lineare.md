@@ -9,10 +9,10 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Soluzioni di un sistema lineare
 ---
-l [[Insiemi|insieme]] delle _soluzioni_ $S$ di un [[Sistemi lineari e lineari omogenei|sistema lineare]] se $S \not= \{0\}$ si può descrivere a partire da un suo elemento  $x \in S$ chiamata _soluzione particolare_  e sommando tutto i vettori di $S_0$ ovvero le soluzioni del sistema _lineare omogeneo_ associato
+l [[Insiemi Matematici|insieme]] delle _soluzioni_ $S$ di un [[Sistemi lineari e lineari omogenei|sistema lineare]] se $S \not= \{0\}$ si può descrivere a partire da un suo elemento  $x \in S$ chiamata _soluzione particolare_  e sommando tutto i vettori di $S_0$ ovvero le soluzioni del sistema _lineare omogeneo_ associato
 
 ### Teorema
-_Sia_ $\mathcal{S}$ l [[Insiemi|insieme]] delle _soluzioni_ di un [[Sistemi lineari e lineari omogenei|sistema lineare]] e $S_0$ l insieme delle _soluzioni_ del sistema lineare associato a quel [[Sistemi lineari e lineari omogenei|sistema lineare]]
+_Sia_ $\mathcal{S}$ l [[Insiemi Matematici|insieme]] delle _soluzioni_ di un [[Sistemi lineari e lineari omogenei|sistema lineare]] e $S_0$ l insieme delle _soluzioni_ del sistema lineare associato a quel [[Sistemi lineari e lineari omogenei|sistema lineare]]
 _Se_ $S \not= ∅$, 
 _allora_ $S$ è ottenuto prendendo una qualsiasi soluzione e aggiungendo a questa tutti i vettori di $S_0$.
 

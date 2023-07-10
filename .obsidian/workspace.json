@@ -4,76 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "22a73870a9409506",
+        "id": "a5448e9b030dc6ab",
         "type": "tabs",
         "children": [
           {
-            "id": "e46cb876d13ab85f",
+            "id": "8e9813ede661c024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf60e3f82238d356",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42432571b1f535d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33372c65dfe1cee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fa90dd27b94e6fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md"
               }
             }
           },
@@ -240,44 +187,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf60e3f82238d356",
+  "active": "8e9813ede661c024",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dipendenza Lineare.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Forma cartesiana e forma parametrica.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Traccia di una matrice.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Calcolo pseudo-diagonali passando per uno punto.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Rappresentazione in base di numeri reali.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616204842.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616192930.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175757.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175728.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175642.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175627.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175433.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175405.png",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md",
+    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Rappresentazione in base di numeri interi.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Enumerazione.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema fondamentale del aritmetica.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Diagonalizzazione.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md",
+    "UniPi INF/Note/Complementari/Crittografia/Critto Note temp.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709184159.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709180943.png",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222509.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222422.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222316.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707223730.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707221817.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707214636.png",
+    "UniPi INF/Note/Informatica/Transazioni.md",
+    "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Criteri di Shannon per i cifrari.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Classificazione di cifrari.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md",
     "Excalidraw",
     "UniPi INF/Thesis",
     "Senza nome.canvas",

@@ -21,7 +21,7 @@ i dati in un cluster si organizzano attorno ad un _centroide_ ovvero un punto me
 
 ### Algoritmo
 _Goal_: cercare dei partizionamenti ottimi di una distribuzione sono sicura in $\boldsymbol x$-space in regioni (cluster)  approssimato ad un _centroide_
-- spazoni delle ipotesi $H$: un [[Insiemi|insieme]] di [[Quantizatori Vettoriali|quantizatori vettoriali]]  $x \rightarrow c(x)$ 
+- spazoni delle ipotesi $H$: un [[Insiemi Matematici|insieme]] di [[Quantizatori Vettoriali|quantizatori vettoriali]]  $x \rightarrow c(x)$ 
 	- si passa da uno spazio continuo ad uno discreto
 	- _Loss_$$L(h(\boldsymbol x_p))=\|\boldsymbol x_p-c(\boldsymbol x_p)\|^2$$
 1. scegli $k$ _centroidi_ come $k$ punti selezionati a caso

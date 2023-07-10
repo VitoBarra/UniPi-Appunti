@@ -20,11 +20,11 @@ $$
 
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 5.png]]
 
-### Caratterizazione iniettiva e suriettiva
+### Caratterizzazione iniettiva e suriettiva
 
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 3.png]]
 
-### Corrollari interessanti:
+### Corollari interessanti:
 
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 3.png]]
 

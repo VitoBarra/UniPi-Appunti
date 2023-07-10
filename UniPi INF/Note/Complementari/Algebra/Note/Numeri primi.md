@@ -9,7 +9,7 @@ Prev: [[Algebra (ALG)]]
 
 # Numeri primi
 ---
-un numero primo $p$ è un intero maggiore 1 che non ha divisori interi positivi diversi da 1 e $p$
+un _numero primo_ $p$ è un $n \in \mathbb{N}$ con $n>1$ che non ha divisori interi positivi diversi da $1$ e $p$
 
 
 ### Esistenza 

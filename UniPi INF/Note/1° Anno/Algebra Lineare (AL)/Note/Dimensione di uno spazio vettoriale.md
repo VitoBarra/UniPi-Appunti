@@ -32,9 +32,7 @@ Sia $V$ uno spazio vettoriale e $U \subset V$ un [[Sottospazio Vettoriale]]. Val
 - $dim (U) = dim (V) \iff U =V$
 
 ---
-
-### Formula di Gassman:
-
+### Formula di Gassman
 Sia $V$ uno [[Spazio Vettoriale]] di dimensione finita. Siano $U,W\subset V$ sottospazi. vale la formula
 
 $$

@@ -9,22 +9,24 @@ Prev: [[Uni MOC]]
 
 
 ## Course MOC  📒
-1. [[Insiemi]]
-	3. [[Cardinalità di un insieme]]
-	1. [[Partizione]]
-	2. [[Relazioni]]
+1. [[Insiemi Matematici]]
+	1. [[Cardinalità di un insieme]]
+	2. [[Partizione]]
+	3. [[Relazioni]]
 		1. [[Funzioni]]
 2. [[Induttività]]
-3. [[Stringhe]]
+3. [[Alfabeto]]
+	1. [[Stringhe]]
 4. [[Combinatoria]]
 5. [[Automa a stati finiti]]
 6. [[Serie di Fibonacci]]
 7. [[Logica proposizionale]]
-	1. [[Calcolo proposizionale (PROP)]]
-	2. [[Problema della Sodisfacibilita (SAT)]]
+	1. [[Operazioni logiche]]
+	2. [[Calcolo proposizionale (PROP)]]
+	3. [[Problema della Sodisfacibilita (SAT)]]
+	4. [[Forma normale congiuntiva (CNF)]]
+	5. [[Forma normale disgiuntiva (DNF)]]
 8. [[Logica del primo ordine (FOL)]]
-9. [[Forma normale congiuntiva (CNF)]]
-10. [[Forma normale disgiuntiva (DNF)]]
 
 ### Educational Material 🧱
 1. 

@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-tag:#MOC",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#MOC",
@@ -109,7 +109,7 @@
       "query": "tag:#CRI",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 4656514
       }
     },
     {
@@ -132,6 +132,13 @@
         "a": 1,
         "rgb": 328995
       }
+    },
+    {
+      "query": "tag:#IUM",
+      "color": {
+        "a": 1,
+        "rgb": 8750356
+      }
     }
   ],
   "collapse-display": true,
@@ -140,10 +147,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.541666666666667,
+  "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.059326171875001305,
+  "scale": 0.0078125,
   "close": false
 }

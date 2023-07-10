@@ -79,7 +79,7 @@ per ogni copia di espressione esistono più unificatori ma ne esiste uno che è 
 ### Algoritmo di risoluzione 
 dati due insieme di clausole $\Phi= \{\dots A \dots\}$ e $\Psi = \{\dots \lnot B \dots\}$ e $\gamma = MGU(A,B)$ l unificatore allora si ottiene
 $$((\Phi \backslash \{A\})\cup(\Psi \backslash \{\lnot B\}))\gamma$$
-dove $\backslash$ è la [[Insiemi|differenza insimistica]]
+dove $\backslash$ è la [[Insiemi Matematici|differenza insimistica]]
 
 #### Problema dei fattori
 ![[49181201-D9BA-46C1-8E0C-D64D453F554B.jpeg]]

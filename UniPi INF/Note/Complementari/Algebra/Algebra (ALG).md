@@ -20,14 +20,17 @@ Prev: [[Uni MOC]]
 10. [[Teorema dei numeri primi]]
 11. [[Distribuzione dei numeri primi]]
 12. [[Polinomi]]
-	2. [[Principio di identita per i polinomi]]
-	1. [[DIvisibilita tra polinomi]]
+	1. [[Principio di identita per i polinomi]]
+	2. [[DIvisibilita tra polinomi]]
 	3. [[Minimo comune multiplo tra polinomi]]
 	4. [[Teorema della divisione tra polinomi]]
 	5. [[Massimo comun Divisore Tra Polinomi]]
 	6. [[Riducibilita di un polinomio]]
 	7. [[Teorema di Fattorizazione Unica polinomi]]
-
+13. [[Reticoli]]
+14. [[Algebra modulare]]
+	1. [[Inverso di un numero in algebra modulare]]
+	2. [[Teorema di Eulero]]
 
 
 ### Educational Material 🧱

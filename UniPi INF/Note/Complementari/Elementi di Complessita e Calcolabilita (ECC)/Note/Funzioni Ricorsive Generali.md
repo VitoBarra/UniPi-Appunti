@@ -10,7 +10,7 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 # Funzioni Ricorsive Generali
 ---
 ## Pre-nozioni
-l operatore $\mu$ è l operatore di minimizzazione dove applicato ad un [[Insiemi|insieme]] di numeri naturali ne restituisce il valore minimo se questo esiste
+l operatore $\mu$ è l operatore di minimizzazione dove applicato ad un [[Insiemi Matematici|insieme]] di numeri naturali ne restituisce il valore minimo se questo esiste
 
 ## Definizione
 la classe delle funzioni ricorsive generali è un formalismo per esprimere un [[Nozione di Calcolabilità|Modello di calcolo]] ed è chiamato $\mu-$ricorsività, è la minima classe di [[Funzioni]] $\mathcal{R}$ che soddisfa le condizioni
