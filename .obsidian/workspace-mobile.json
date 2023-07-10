@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
+            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
+            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md"
+            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
           }
         }
       },
@@ -165,32 +165,32 @@
   },
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Prototipi e Mockup.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pretotyping.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/interfaccia utente.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human Interface Devices.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User experience per IOT.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Metodi e Framework per l Innovazione.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Definizione di Innovazione.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Information Architecture.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Use Case.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/IUM - Scenario.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User stories.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Strumenti per la ricerca sugli utenti.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Errori Umani.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Le azioni degli utenti.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Principi di progettazione del interazione.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Human centered Design.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Ruoli e parti nel Interaction Design.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pensiero computazionale Vs Design.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Concetti Generali del IUM.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Test di Usabilita.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Legge di Fitts.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media/binarysearch.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",

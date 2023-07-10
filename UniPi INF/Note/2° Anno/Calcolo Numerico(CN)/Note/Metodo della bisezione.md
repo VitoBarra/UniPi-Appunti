@@ -42,7 +42,7 @@ questo metodo trova _una sola soluzione_ dipendentemente da i parametri di inizi
 
 si utilizza un $for$ siccome posso calcolare esattamente il numero di _passi_ $k$ che mi servono per riuscire ad _approssimare_ il risultato con una tolleranza $tol$ scelta a piacere. questo sfruttando il fatto che posso sempre sapere la grandezza del intervallo che sto analizzando facendo $b_{k}-a_{k} = \cfrac{b-a}{2^{k}}$ e posso limitare questo intervallo dalla mia _tolleranza_ e avere quindi $\cfrac{b-a}{2^{k}} \leq tol$. risolvendo questa disequazione ottengo il numero di passi necessari.
 $$
-\begin{array}
+\begin{array}{}
 \cfrac{b-a}{2^{k}}  & \leq &  tol \iff  \\
 2^{k}\cdot tol  & \geq &  b-a  \\
 2^{k}\cdot tol  & \geq &  \cfrac{b-a}{tol}  \\

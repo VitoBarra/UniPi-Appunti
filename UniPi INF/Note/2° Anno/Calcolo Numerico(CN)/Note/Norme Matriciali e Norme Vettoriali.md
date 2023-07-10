@@ -63,7 +63,7 @@ dalla norma matriciale si può indurre una distanza matriciale  $d:\mathbb{F}^{n
 ### Norma matriciale indotta o compatibile con la norma vettoriale 
 data una $\|\cdot\|$  una norma vettoriale su $\mathbb{F}^n$ si dice _norma matriciale indotta_ o compatibile con la _norma vettoriale_ la funzione $f:\mathbb{F}^{n\times n} \rightarrow \mathbb{R}$ definita da
 $$\forall A \in \mathbb{F^{n \times n}}, \ \ f(A)=\smash{\displaystyle\max_{\{v \in \mathbb{F}^n:\|v\|=1\}}} \|Av\|$$
-
+e queste due sono relazionate dal [[Teorema compatibilità delle norme|Teorema compatibilità delle norme]]
 
 ### Teorema norme matriciali indotte da norme vettoriali
 
@@ -75,7 +75,7 @@ $$
 \|A\|_2&=\sqrt{p(A^HA)}
 \end{align}
 $$
-dove  $p(B)$ è il _[[Raggio spettrale|raggio spettrale]]_ 
+dove  $p(A)$ è il _[[Raggio spettrale|raggio spettrale]]_ di $A$ 
 
 Si osservi che mentre per la norma infinito e la norma 1 il calcolo si realizza facilmente con una sequenza finita di operazioni aritmetiche e confronti a partire dagli elementi della matrice, per la norma euclidea si richiede la risoluzione di un problema ausiliario (il calcolo del modulo dell’autovalore dominante di una matrice associata) di assai maggiore difficolta
 

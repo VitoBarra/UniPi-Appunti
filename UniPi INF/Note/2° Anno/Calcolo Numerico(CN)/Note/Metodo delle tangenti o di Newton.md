@@ -33,9 +33,9 @@ preso $\alpha:f(\alpha)=0$ è detta _radice semplice_ per $f\in C^{1}([a,b])$  s
 #### Teorema
 _sia_ $f:[a,b]\rightarrow\mathbb{R}, \ \ f\in C^{2}([a,b]), \ \ f(\alpha)=0$ e $\alpha \in (a,b)$ 
 _se_ $\alpha$ è _radice semplice_ cioè se $f'(\alpha) \not =0$
-_allora_ il metodo $x_{k+1}=x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$ è _localmente convergente_ ad $\alpha$ e
+_allora_ il metodo $x_{k+1}=x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$ è _[[Convergenza locale per metodi interativi funzionali|localmente convergente]]_ ad $\alpha$ e
 _se_ la successione ${x_k}$ con $x_k \not=\alpha$ 
-_allora_ la convergenza è almeno _quadratica_ ovvero
+_allora_ l [[Ordine di convergenza|ordine di convergenza]] è almeno _quadratico_ ovvero
 	$$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$
 - se $\ell \not = 0$ é quadratica altrimenti se $\ell = 0$ è più che quadratica siccome il numeratore va a $0$ _più velocemente_ del denominatore 
 ##### Dimostrazione di convergenza locale
@@ -53,7 +53,7 @@ g'(x) & = &  1- \cfrac{f'(x)f'(x) -f''(x)f(x)}{[f'(x)]^{2}} \\
 & = & \cfrac{f''(x)f(x)}{[f'(x)]^{2}}
 \end{array}
 $$
- e a questo punto ho quasi finito siccome mi basta dimostrare che $|g'(\alpha)|<1$ e usare il _[[#Corollario|corollario del punto fisso]]_. siccome $f'(\alpha) \not = 0$  allora $g'(x)$ é ben definita e siccome $f(\alpha) = 0$ $g'(\alpha) =0$ quindi ho che $|g'(\alpha)|<1$ e di conseguenza il metodo _converge localmente_
+ e a questo punto ho quasi finito siccome mi basta dimostrare che $|g'(\alpha)|<1$ e usare il _[[#Corollario|corollario del punto fisso]]_. siccome $f'(\alpha) \not = 0$  allora $g'(x)$ é ben definita e siccome $f(\alpha) = 0 \implies g'(\alpha) =0$ quindi ho che $|g'(\alpha)|<1$ e di conseguenza il metodo _converge localmente_
 ##### Dimostrazione di convergenza quadratica
 dobbiamo dimostrare che $$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$
 tenda ad un numero. quindi bisogna risolvere il [[Limiti|limite]] si fa lo [[Sviluppi di Taylor|sviluppo di Taylor]] applicato ad $f(x)$ nel punto $x_k$
