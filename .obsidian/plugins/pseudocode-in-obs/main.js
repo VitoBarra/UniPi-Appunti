@@ -34,610 +34,6 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// node_modules/pseudocode/src/ParseError.js
-var require_ParseError = __commonJS({
-  "node_modules/pseudocode/src/ParseError.js"(exports, module2) {
-    function ParseError2(message, pos, input) {
-      var error = "Error: " + message;
-      if (pos !== void 0 && input !== void 0) {
-        error += " at position " + pos + ": `";
-        input = input.slice(0, pos) + "\u21B1" + input.slice(pos);
-        var begin = Math.max(0, pos - 15);
-        var end = pos + 15;
-        error += input.slice(begin, end) + "`";
-      }
-      this.message = error;
-    }
-    ParseError2.prototype = Object.create(Error.prototype);
-    ParseError2.prototype.constructor = ParseError2;
-    module2.exports = ParseError2;
-  }
-});
-
-// node_modules/pseudocode/src/utils.js
-var require_utils = __commonJS({
-  "node_modules/pseudocode/src/utils.js"(exports, module2) {
-    function isString(str) {
-      return typeof str === "string" || str instanceof String;
-    }
-    function isObject(obj) {
-      return typeof obj === "object" && obj instanceof Object;
-    }
-    function toString(obj) {
-      if (!isObject(obj))
-        return obj + "";
-      var parts = [];
-      for (var member in obj)
-        parts.push(member + ": " + toString(obj[member]));
-      return parts.join(", ");
-    }
-    module2.exports = {
-      isString,
-      isObject,
-      toString
-    };
-  }
-});
-
-// node_modules/pseudocode/src/Lexer.js
-var require_Lexer = __commonJS({
-  "node_modules/pseudocode/src/Lexer.js"(exports, module2) {
-    var utils = require_utils();
-    var ParseError2 = require_ParseError();
-    var Lexer = function(input) {
-      this._input = input;
-      this._remain = input;
-      this._pos = 0;
-      this._nextAtom = this._currentAtom = null;
-      this._next();
-    };
-    Lexer.prototype.accept = function(type, text) {
-      if (this._nextAtom.type === type && this._matchText(text)) {
-        this._next();
-        return this._currentAtom.text;
-      }
-      return null;
-    };
-    Lexer.prototype.expect = function(type, text) {
-      var nextAtom = this._nextAtom;
-      if (nextAtom.type !== type)
-        throw new ParseError2("Expect an atom of " + type + " but received " + nextAtom.type, this._pos, this._input);
-      if (!this._matchText(text))
-        throw new ParseError2("Expect `" + text + "` but received `" + nextAtom.text + "`", this._pos, this._input);
-      this._next();
-      return this._currentAtom.text;
-    };
-    Lexer.prototype.get = function() {
-      return this._currentAtom;
-    };
-    var mathPattern = {
-      exec: function(str) {
-        var delimiters = [
-          { start: "$", end: "$" },
-          { start: "\\(", end: "\\)" }
-        ];
-        var totalLen = str.length;
-        for (var di = 0; di < delimiters.length; di++) {
-          var startDel = delimiters[di].start;
-          if (str.indexOf(startDel) !== 0)
-            continue;
-          var endDel = delimiters[di].end;
-          var endPos = startDel.length;
-          var remain = str.slice(endPos);
-          while (endPos < totalLen) {
-            var pos = remain.indexOf(endDel);
-            if (pos < 0)
-              throw new ParseError2(
-                "Math environment is not closed",
-                this._pos,
-                this._input
-              );
-            if (pos > 0 && remain[pos - 1] === "\\") {
-              var skipLen = pos + endDel.length;
-              remain = remain.slice(skipLen);
-              endPos += skipLen;
-              continue;
-            }
-            var res = [
-              str.slice(0, endPos + pos + endDel.length),
-              str.slice(startDel.length, endPos + pos)
-            ];
-            return res;
-          }
-        }
-        return null;
-      }
-    };
-    var atomRegex = {
-      // TODO: which is correct? func: /^\\(?:[a-zA-Z]+|.)/,
-      special: /^(\\\\|\\{|\\}|\\\$|\\&|\\#|\\%|\\_)/,
-      math: mathPattern,
-      ///^\$.*\$/
-      func: /^\\([a-zA-Z]+)/,
-      open: /^\{/,
-      close: /^\}/,
-      quote: /^(`|``|'|'')/,
-      ordinary: /^[^\\{}$&#%_\s]+/
-    };
-    var commentRegex = /^%.*/;
-    var whitespaceRegex = /^\s+/;
-    Lexer.prototype._skip = function(len) {
-      this._pos += len;
-      this._remain = this._remain.slice(len);
-    };
-    Lexer.prototype._next = function() {
-      var anyWhitespace = false;
-      while (1) {
-        var whitespaceMatch = whitespaceRegex.exec(this._remain);
-        if (whitespaceMatch) {
-          anyWhitespace = true;
-          var whitespaceLen = whitespaceMatch[0].length;
-          this._skip(whitespaceLen);
-        }
-        var commentMatch = commentRegex.exec(this._remain);
-        if (!commentMatch)
-          break;
-        var commentLen = commentMatch[0].length;
-        this._skip(commentLen);
-      }
-      this._currentAtom = this._nextAtom;
-      if (this._remain === "") {
-        this._nextAtom = {
-          type: "EOF",
-          text: null,
-          whitespace: false
-        };
-        return false;
-      }
-      for (var type in atomRegex) {
-        var regex = atomRegex[type];
-        var match = regex.exec(this._remain);
-        if (!match)
-          continue;
-        var matchText = match[0];
-        var usefulText = match[1] ? match[1] : matchText;
-        this._nextAtom = {
-          type,
-          /* special, func, open, close, ordinary, math */
-          text: usefulText,
-          /* the text value of the atom */
-          whitespace: anyWhitespace
-          /* any whitespace before the atom */
-        };
-        this._pos += matchText.length;
-        this._remain = this._remain.slice(match[0].length);
-        return true;
-      }
-      throw new ParseError2("Unrecoganizable atom", this._pos, this._input);
-    };
-    Lexer.prototype._matchText = function(text) {
-      if (text === null || text === void 0)
-        return true;
-      if (utils.isString(text))
-        return text.toLowerCase() === this._nextAtom.text.toLowerCase();
-      else {
-        text = text.map(function(str) {
-          return str.toLowerCase();
-        });
-        return text.indexOf(this._nextAtom.text.toLowerCase()) >= 0;
-      }
-    };
-    module2.exports = Lexer;
-  }
-});
-
-// node_modules/pseudocode/src/Parser.js
-var require_Parser = __commonJS({
-  "node_modules/pseudocode/src/Parser.js"(exports, module2) {
-    var utils = require_utils();
-    var ParseError2 = require_ParseError();
-    var ParseNode = function(type, val) {
-      this.type = type;
-      this.value = val;
-      this.children = [];
-    };
-    ParseNode.prototype.toString = function(level) {
-      if (!level)
-        level = 0;
-      var indent = "";
-      for (var i = 0; i < level; i++)
-        indent += "  ";
-      var res = indent + "<" + this.type + ">";
-      if (this.value)
-        res += " (" + utils.toString(this.value) + ")";
-      res += "\n";
-      if (this.children) {
-        for (var ci = 0; ci < this.children.length; ci++) {
-          var child = this.children[ci];
-          res += child.toString(level + 1);
-        }
-      }
-      return res;
-    };
-    ParseNode.prototype.addChild = function(childNode) {
-      if (!childNode)
-        throw "argument cannot be null";
-      this.children.push(childNode);
-    };
-    var AtomNode = function(type, value, whitespace) {
-      this.type = type;
-      this.value = value;
-      this.children = null;
-      this.whitespace = !!whitespace;
-    };
-    AtomNode.prototype = ParseNode.prototype;
-    var Parser = function(lexer) {
-      this._lexer = lexer;
-    };
-    Parser.prototype.parse = function() {
-      var root = new ParseNode("root");
-      while (true) {
-        var envName = this._acceptEnvironment();
-        if (envName === null)
-          break;
-        var envNode;
-        if (envName === "algorithm")
-          envNode = this._parseAlgorithmInner();
-        else if (envName === "algorithmic")
-          envNode = this._parseAlgorithmicInner();
-        else
-          throw new ParseError2("Unexpected environment " + envName);
-        this._closeEnvironment(envName);
-        root.addChild(envNode);
-      }
-      this._lexer.expect("EOF");
-      return root;
-    };
-    Parser.prototype._acceptEnvironment = function() {
-      var lexer = this._lexer;
-      if (!lexer.accept("func", "begin"))
-        return null;
-      lexer.expect("open");
-      var envName = lexer.expect("ordinary");
-      lexer.expect("close");
-      return envName;
-    };
-    Parser.prototype._closeEnvironment = function(envName) {
-      var lexer = this._lexer;
-      lexer.expect("func", "end");
-      lexer.expect("open");
-      lexer.expect("ordinary", envName);
-      lexer.expect("close");
-    };
-    Parser.prototype._parseAlgorithmInner = function() {
-      var algNode = new ParseNode("algorithm");
-      while (true) {
-        var envName = this._acceptEnvironment();
-        if (envName !== null) {
-          if (envName !== "algorithmic")
-            throw new ParseError2("Unexpected environment " + envName);
-          var algmicNode = this._parseAlgorithmicInner();
-          this._closeEnvironment();
-          algNode.addChild(algmicNode);
-          continue;
-        }
-        var captionNode = this._parseCaption();
-        if (captionNode) {
-          algNode.addChild(captionNode);
-          continue;
-        }
-        break;
-      }
-      return algNode;
-    };
-    Parser.prototype._parseAlgorithmicInner = function() {
-      var algmicNode = new ParseNode("algorithmic");
-      var node;
-      while (true) {
-        node = this._parseStatement(IO_STATEMENTS);
-        if (node) {
-          algmicNode.addChild(node);
-          continue;
-        }
-        node = this._parseBlock();
-        if (node.children.length > 0) {
-          algmicNode.addChild(node);
-          continue;
-        }
-        break;
-      }
-      return algmicNode;
-    };
-    Parser.prototype._parseCaption = function() {
-      var lexer = this._lexer;
-      if (!lexer.accept("func", "caption"))
-        return null;
-      var captionNode = new ParseNode("caption");
-      lexer.expect("open");
-      captionNode.addChild(this._parseCloseText());
-      lexer.expect("close");
-      return captionNode;
-    };
-    Parser.prototype._parseBlock = function() {
-      var blockNode = new ParseNode("block");
-      while (true) {
-        var controlNode = this._parseControl();
-        if (controlNode) {
-          blockNode.addChild(controlNode);
-          continue;
-        }
-        var functionNode = this._parseFunction();
-        if (functionNode) {
-          blockNode.addChild(functionNode);
-          continue;
-        }
-        var statementNode = this._parseStatement(STATEMENTS);
-        if (statementNode) {
-          blockNode.addChild(statementNode);
-          continue;
-        }
-        var commandNode = this._parseCommand(COMMANDS);
-        if (commandNode) {
-          blockNode.addChild(commandNode);
-          continue;
-        }
-        var commentNode = this._parseComment();
-        if (commentNode) {
-          blockNode.addChild(commentNode);
-          continue;
-        }
-        break;
-      }
-      return blockNode;
-    };
-    Parser.prototype._parseControl = function() {
-      var controlNode;
-      if (controlNode = this._parseIf())
-        return controlNode;
-      if (controlNode = this._parseLoop())
-        return controlNode;
-      if (controlNode = this._parseRepeat())
-        return controlNode;
-      if (controlNode = this._parseUpon())
-        return controlNode;
-    };
-    Parser.prototype._parseFunction = function() {
-      var lexer = this._lexer;
-      if (!lexer.accept("func", ["function", "procedure"]))
-        return null;
-      var funcType = this._lexer.get().text;
-      lexer.expect("open");
-      var funcName = lexer.expect("ordinary");
-      lexer.expect("close");
-      lexer.expect("open");
-      var argsNode = this._parseCloseText();
-      lexer.expect("close");
-      var blockNode = this._parseBlock();
-      lexer.expect("func", "end" + funcType);
-      var functionNode = new ParseNode(
-        "function",
-        { type: funcType, name: funcName }
-      );
-      functionNode.addChild(argsNode);
-      functionNode.addChild(blockNode);
-      return functionNode;
-    };
-    Parser.prototype._parseIf = function() {
-      if (!this._lexer.accept("func", "if"))
-        return null;
-      var ifNode = new ParseNode("if");
-      this._lexer.expect("open");
-      ifNode.addChild(this._parseCond());
-      this._lexer.expect("close");
-      ifNode.addChild(this._parseBlock());
-      var numElif = 0;
-      while (this._lexer.accept("func", ["elif", "elsif", "elseif"])) {
-        this._lexer.expect("open");
-        ifNode.addChild(this._parseCond());
-        this._lexer.expect("close");
-        ifNode.addChild(this._parseBlock());
-        numElif++;
-      }
-      var hasElse = false;
-      if (this._lexer.accept("func", "else")) {
-        hasElse = true;
-        ifNode.addChild(this._parseBlock());
-      }
-      this._lexer.expect("func", "endif");
-      ifNode.value = { numElif, hasElse };
-      return ifNode;
-    };
-    Parser.prototype._parseLoop = function() {
-      if (!this._lexer.accept("func", ["FOR", "FORALL", "WHILE"]))
-        return null;
-      var loopName = this._lexer.get().text.toLowerCase();
-      var loopNode = new ParseNode("loop", loopName);
-      this._lexer.expect("open");
-      loopNode.addChild(this._parseCond());
-      this._lexer.expect("close");
-      loopNode.addChild(this._parseBlock());
-      var endLoop = loopName !== "forall" ? "end" + loopName : "endfor";
-      this._lexer.expect("func", endLoop);
-      return loopNode;
-    };
-    Parser.prototype._parseRepeat = function() {
-      if (!this._lexer.accept("func", ["REPEAT"]))
-        return null;
-      var repeatName = this._lexer.get().text.toLowerCase();
-      var repeatNode = new ParseNode("repeat", repeatName);
-      repeatNode.addChild(this._parseBlock());
-      this._lexer.expect("func", "until");
-      this._lexer.expect("open");
-      repeatNode.addChild(this._parseCond());
-      this._lexer.expect("close");
-      return repeatNode;
-    };
-    Parser.prototype._parseUpon = function() {
-      if (!this._lexer.accept("func", "upon"))
-        return null;
-      var uponNode = new ParseNode("upon");
-      this._lexer.expect("open");
-      uponNode.addChild(this._parseCond());
-      this._lexer.expect("close");
-      uponNode.addChild(this._parseBlock());
-      this._lexer.expect("func", "endupon");
-      return uponNode;
-    };
-    var IO_STATEMENTS = ["ensure", "require", "input", "output"];
-    var STATEMENTS = ["state", "print", "return"];
-    Parser.prototype._parseStatement = function(acceptStatements) {
-      if (!this._lexer.accept("func", acceptStatements))
-        return null;
-      var stmtName = this._lexer.get().text.toLowerCase();
-      var stmtNode = new ParseNode("statement", stmtName);
-      stmtNode.addChild(this._parseOpenText());
-      return stmtNode;
-    };
-    var COMMANDS = ["break", "continue"];
-    Parser.prototype._parseCommand = function(acceptCommands) {
-      if (!this._lexer.accept("func", acceptCommands))
-        return null;
-      var cmdName = this._lexer.get().text.toLowerCase();
-      var cmdNode = new ParseNode("command", cmdName);
-      return cmdNode;
-    };
-    Parser.prototype._parseComment = function() {
-      if (!this._lexer.accept("func", "comment"))
-        return null;
-      var commentNode = new ParseNode("comment");
-      this._lexer.expect("open");
-      commentNode.addChild(this._parseCloseText());
-      this._lexer.expect("close");
-      return commentNode;
-    };
-    Parser.prototype._parseCall = function() {
-      var lexer = this._lexer;
-      if (!lexer.accept("func", "call"))
-        return null;
-      var anyWhitespace = lexer.get().whitespace;
-      lexer.expect("open");
-      var funcName = lexer.expect("ordinary");
-      lexer.expect("close");
-      var callNode = new ParseNode("call");
-      callNode.whitespace = anyWhitespace;
-      callNode.value = funcName;
-      lexer.expect("open");
-      var argsNode = this._parseCloseText();
-      callNode.addChild(argsNode);
-      lexer.expect("close");
-      return callNode;
-    };
-    Parser.prototype._parseCond = Parser.prototype._parseCloseText = function() {
-      return this._parseText("close");
-    };
-    Parser.prototype._parseOpenText = function() {
-      return this._parseText("open");
-    };
-    Parser.prototype._parseText = function(openOrClose) {
-      var textNode = new ParseNode(openOrClose + "-text");
-      var anyWhitespace = false;
-      var subTextNode;
-      while (true) {
-        subTextNode = this._parseAtom() || this._parseCall();
-        if (subTextNode) {
-          if (anyWhitespace)
-            subTextNode.whitespace |= anyWhitespace;
-          textNode.addChild(subTextNode);
-          continue;
-        }
-        if (this._lexer.accept("open")) {
-          subTextNode = this._parseCloseText();
-          anyWhitespace = this._lexer.get().whitespace;
-          subTextNode.whitespace = anyWhitespace;
-          textNode.addChild(subTextNode);
-          this._lexer.expect("close");
-          anyWhitespace = this._lexer.get().whitespace;
-          continue;
-        }
-        break;
-      }
-      return textNode;
-    };
-    var ACCEPTED_TOKEN_BY_ATOM = {
-      "ordinary": { tokenType: "ordinary" },
-      "math": { tokenType: "math" },
-      "special": { tokenType: "special" },
-      "cond-symbol": {
-        tokenType: "func",
-        tokenValues: ["and", "or", "not", "true", "false", "to", "downto"]
-      },
-      "quote-symbol": {
-        tokenType: "quote"
-      },
-      "sizing-dclr": {
-        tokenType: "func",
-        tokenValues: [
-          "tiny",
-          "scriptsize",
-          "footnotesize",
-          "small",
-          "normalsize",
-          "large",
-          "Large",
-          "LARGE",
-          "huge",
-          "Huge"
-        ]
-      },
-      "font-dclr": {
-        tokenType: "func",
-        tokenValues: [
-          "normalfont",
-          "rmfamily",
-          "sffamily",
-          "ttfamily",
-          "upshape",
-          "itshape",
-          "slshape",
-          "scshape",
-          "bfseries",
-          "mdseries",
-          "lfseries"
-        ]
-      },
-      "font-cmd": {
-        tokenType: "func",
-        tokenValues: [
-          "textnormal",
-          "textrm",
-          "textsf",
-          "texttt",
-          "textup",
-          "textit",
-          "textsl",
-          "textsc",
-          "uppercase",
-          "lowercase",
-          "textbf",
-          "textmd",
-          "textlf"
-        ]
-      },
-      "text-symbol": {
-        tokenType: "func",
-        tokenValues: ["textbackslash"]
-      }
-    };
-    Parser.prototype._parseAtom = function() {
-      for (var atomType in ACCEPTED_TOKEN_BY_ATOM) {
-        var acceptToken = ACCEPTED_TOKEN_BY_ATOM[atomType];
-        var tokenText = this._lexer.accept(
-          acceptToken.tokenType,
-          acceptToken.tokenValues
-        );
-        if (tokenText === null)
-          continue;
-        var anyWhitespace = this._lexer.get().whitespace;
-        if (atomType !== "ordinary" && atomType !== "math")
-          tokenText = tokenText.toLowerCase();
-        return new AtomNode(atomType, tokenText, anyWhitespace);
-      }
-      return null;
-    };
-    module2.exports = Parser;
-  }
-});
-
 // node_modules/katex/dist/katex.js
 var require_katex = __commonJS({
   "node_modules/katex/dist/katex.js"(exports, module2) {
@@ -732,7 +128,7 @@ var require_katex = __commonJS({
           function(module3, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            var katex2 = __webpack_require__(0);
+            var katex3 = __webpack_require__(0);
             var SourceLocation = /* @__PURE__ */ function() {
               function SourceLocation2(lexer, start, end) {
                 this.lexer = void 0;
@@ -766,9 +162,9 @@ var require_katex = __commonJS({
               };
               return Token;
             }();
-            var ParseError2 = (
+            var ParseError3 = (
               // Error position based on passed-in Token or ParseNode.
-              function ParseError3(message, token) {
+              function ParseError4(message, token) {
                 this.position = void 0;
                 var error = "KaTeX parse error: " + message;
                 var start;
@@ -799,13 +195,13 @@ var require_katex = __commonJS({
                 }
                 var self2 = new Error(error);
                 self2.name = "ParseError";
-                self2.__proto__ = ParseError3.prototype;
+                self2.__proto__ = ParseError4.prototype;
                 self2.position = start;
                 return self2;
               }
             );
-            ParseError2.prototype.__proto__ = Error.prototype;
-            var src_ParseError = ParseError2;
+            ParseError3.prototype.__proto__ = Error.prototype;
+            var src_ParseError = ParseError3;
             var contains = function contains2(list, elem) {
               return list.indexOf(elem) !== -1;
             };
@@ -11234,7 +10630,7 @@ var require_katex = __commonJS({
               return Namespace;
             }();
             var builtinMacros = {};
-            var macros = builtinMacros;
+            var macros2 = builtinMacros;
             function defineMacro(name, body) {
               builtinMacros[name] = body;
             }
@@ -11865,7 +11261,7 @@ var require_katex = __commonJS({
                 this.settings = settings;
                 this.expansionCount = 0;
                 this.feed(input);
-                this.macros = new Namespace_Namespace(macros, settings.macros);
+                this.macros = new Namespace_Namespace(macros2, settings.macros);
                 this.mode = mode;
                 this.stack = [];
               }
@@ -13458,7 +12854,7 @@ var require_katex = __commonJS({
                 };
               }
             }
-            var renderToString = function renderToString2(expression, options) {
+            var renderToString2 = function renderToString3(expression, options) {
               var markup = katex_renderToDomTree(expression, options).toMarkup();
               return markup;
             };
@@ -13507,7 +12903,7 @@ var require_katex = __commonJS({
                * Renders the given LaTeX into an HTML+MathML combination string,
                * for sending to the client.
                */
-              renderToString,
+              renderToString: renderToString2,
               /**
                * KaTeX error, usually during parsing.
                */
@@ -13574,6 +12970,617 @@ var require_katex = __commonJS({
         ])["default"]
       );
     });
+  }
+});
+
+// node_modules/pseudocode/src/ParseError.js
+var require_ParseError = __commonJS({
+  "node_modules/pseudocode/src/ParseError.js"(exports, module2) {
+    function ParseError3(message, pos, input) {
+      var error = `Error: ${message}`;
+      if (pos !== void 0 && input !== void 0) {
+        error += ` at position ${pos}: \``;
+        input = `${input.slice(0, pos)}\u21B1${input.slice(pos)}`;
+        var begin = Math.max(0, pos - 15);
+        var end = pos + 15;
+        error += `${input.slice(begin, end)}\``;
+      }
+      this.message = error;
+    }
+    ParseError3.prototype = Object.create(Error.prototype);
+    ParseError3.prototype.constructor = ParseError3;
+    module2.exports = ParseError3;
+  }
+});
+
+// node_modules/pseudocode/src/utils.js
+var require_utils = __commonJS({
+  "node_modules/pseudocode/src/utils.js"(exports, module2) {
+    function isString(str) {
+      return typeof str === "string" || str instanceof String;
+    }
+    function isObject(obj) {
+      return typeof obj === "object" && obj instanceof Object;
+    }
+    function toString(obj) {
+      if (!isObject(obj))
+        return `${obj}`;
+      var parts = [];
+      for (var member in obj)
+        parts.push(`${member}: ${toString(obj[member])}`);
+      return parts.join(", ");
+    }
+    module2.exports = {
+      isString,
+      isObject,
+      toString
+    };
+  }
+});
+
+// node_modules/pseudocode/src/Lexer.js
+var require_Lexer = __commonJS({
+  "node_modules/pseudocode/src/Lexer.js"(exports, module2) {
+    var utils = require_utils();
+    var ParseError3 = require_ParseError();
+    var Lexer = function(input) {
+      this._input = input;
+      this._remain = input;
+      this._pos = 0;
+      this._nextAtom = this._currentAtom = null;
+      this._next();
+    };
+    Lexer.prototype.accept = function(type, text) {
+      if (this._nextAtom.type === type && this._matchText(text)) {
+        this._next();
+        return this._currentAtom.text;
+      }
+      return null;
+    };
+    Lexer.prototype.expect = function(type, text) {
+      var nextAtom = this._nextAtom;
+      if (nextAtom.type !== type) {
+        throw new ParseError3(
+          `Expected an atom of ${type} but received ${nextAtom.type}`,
+          this._pos,
+          this._input
+        );
+      }
+      if (!this._matchText(text)) {
+        throw new ParseError3(
+          `Expected \`${text}\` but received \`${nextAtom.text}\``,
+          this._pos,
+          this._input
+        );
+      }
+      this._next();
+      return this._currentAtom.text;
+    };
+    Lexer.prototype.get = function() {
+      return this._currentAtom;
+    };
+    var mathPattern = {
+      exec: function(str) {
+        var delimiters = [
+          { start: "$", end: "$" },
+          { start: "\\(", end: "\\)" }
+        ];
+        var totalLen = str.length;
+        for (var di = 0; di < delimiters.length; di++) {
+          var startDel = delimiters[di].start;
+          if (str.indexOf(startDel) !== 0)
+            continue;
+          var endDel = delimiters[di].end;
+          var endPos = startDel.length;
+          var remain = str.slice(endPos);
+          while (endPos < totalLen) {
+            var pos = remain.indexOf(endDel);
+            if (pos < 0) {
+              throw new ParseError3(
+                "Math environment is not closed",
+                this._pos,
+                this._input
+              );
+            }
+            if (pos > 0 && remain[pos - 1] === "\\") {
+              var skipLen = pos + endDel.length;
+              remain = remain.slice(skipLen);
+              endPos += skipLen;
+              continue;
+            }
+            var res = [
+              str.slice(0, endPos + pos + endDel.length),
+              str.slice(startDel.length, endPos + pos)
+            ];
+            return res;
+          }
+        }
+        return null;
+      }
+    };
+    var atomRegex = {
+      // TODO: which is correct? func: /^\\(?:[a-zA-Z]+|.)/,
+      special: /^(\\\\|\\{|\\}|\\\$|\\&|\\#|\\%|\\_)/,
+      math: mathPattern,
+      ///^\$.*\$/
+      func: /^\\([a-zA-Z]+)/,
+      open: /^\{/,
+      close: /^\}/,
+      quote: /^(`|``|'|'')/,
+      ordinary: /^[^\\{}$&#%_\s]+/
+    };
+    var commentRegex = /^%.*/;
+    var whitespaceRegex = /^\s+/;
+    Lexer.prototype._skip = function(len) {
+      this._pos += len;
+      this._remain = this._remain.slice(len);
+    };
+    Lexer.prototype._next = function() {
+      var anyWhitespace = false;
+      while (1) {
+        var whitespaceMatch = whitespaceRegex.exec(this._remain);
+        if (whitespaceMatch) {
+          anyWhitespace = true;
+          var whitespaceLen = whitespaceMatch[0].length;
+          this._skip(whitespaceLen);
+        }
+        var commentMatch = commentRegex.exec(this._remain);
+        if (!commentMatch)
+          break;
+        var commentLen = commentMatch[0].length;
+        this._skip(commentLen);
+      }
+      this._currentAtom = this._nextAtom;
+      if (this._remain === "") {
+        this._nextAtom = {
+          type: "EOF",
+          text: null,
+          whitespace: false
+        };
+        return false;
+      }
+      for (var type in atomRegex) {
+        var regex = atomRegex[type];
+        var match = regex.exec(this._remain);
+        if (!match)
+          continue;
+        var matchText = match[0];
+        var usefulText = match[1] ? match[1] : matchText;
+        this._nextAtom = {
+          type,
+          /* special, func, open, close, ordinary, math */
+          text: usefulText,
+          /* the text value of the atom */
+          whitespace: anyWhitespace
+          /* any whitespace before the atom */
+        };
+        this._pos += matchText.length;
+        this._remain = this._remain.slice(match[0].length);
+        return true;
+      }
+      throw new ParseError3("Unrecoganizable atom", this._pos, this._input);
+    };
+    Lexer.prototype._matchText = function(text) {
+      if (text === null || text === void 0)
+        return true;
+      if (utils.isString(text))
+        return text.toLowerCase() === this._nextAtom.text.toLowerCase();
+      else
+        return text.some((str) => str.toLowerCase() === this._nextAtom.text.toLowerCase());
+    };
+    module2.exports = Lexer;
+  }
+});
+
+// node_modules/pseudocode/src/Parser.js
+var require_Parser = __commonJS({
+  "node_modules/pseudocode/src/Parser.js"(exports, module2) {
+    var utils = require_utils();
+    var ParseError3 = require_ParseError();
+    var ParseNode = function(type, val) {
+      this.type = type;
+      this.value = val;
+      this.children = [];
+    };
+    ParseNode.prototype.toString = function(level) {
+      if (!level)
+        level = 0;
+      var indent = "";
+      for (var i = 0; i < level; i++)
+        indent += "  ";
+      var res = `${indent}<${this.type}>`;
+      if (this.value)
+        res += ` (${utils.toString(this.value)})`;
+      res += "\n";
+      if (this.children) {
+        for (var ci = 0; ci < this.children.length; ci++) {
+          var child = this.children[ci];
+          res += child.toString(level + 1);
+        }
+      }
+      return res;
+    };
+    ParseNode.prototype.addChild = function(childNode) {
+      if (!childNode)
+        throw new Error("Argument must not be null");
+      this.children.push(childNode);
+    };
+    var AtomNode = function(type, value, whitespace) {
+      this.type = type;
+      this.value = value;
+      this.children = null;
+      this.whitespace = !!whitespace;
+    };
+    AtomNode.prototype = ParseNode.prototype;
+    var Parser = function(lexer) {
+      this._lexer = lexer;
+    };
+    Parser.prototype.parse = function() {
+      var root = new ParseNode("root");
+      while (true) {
+        var envName = this._acceptEnvironment();
+        if (envName === null)
+          break;
+        var envNode;
+        if (envName === "algorithm")
+          envNode = this._parseAlgorithmInner();
+        else if (envName === "algorithmic")
+          envNode = this._parseAlgorithmicInner();
+        else
+          throw new ParseError3(`Unexpected environment ${envName}`);
+        this._closeEnvironment(envName);
+        root.addChild(envNode);
+      }
+      this._lexer.expect("EOF");
+      return root;
+    };
+    Parser.prototype._acceptEnvironment = function() {
+      var lexer = this._lexer;
+      if (!lexer.accept("func", "begin"))
+        return null;
+      lexer.expect("open");
+      var envName = lexer.expect("ordinary");
+      lexer.expect("close");
+      return envName;
+    };
+    Parser.prototype._closeEnvironment = function(envName) {
+      var lexer = this._lexer;
+      lexer.expect("func", "end");
+      lexer.expect("open");
+      lexer.expect("ordinary", envName);
+      lexer.expect("close");
+    };
+    Parser.prototype._parseAlgorithmInner = function() {
+      var algNode = new ParseNode("algorithm");
+      while (true) {
+        var envName = this._acceptEnvironment();
+        if (envName !== null) {
+          if (envName !== "algorithmic")
+            throw new ParseError3(`Unexpected environment ${envName}`);
+          var algmicNode = this._parseAlgorithmicInner();
+          this._closeEnvironment();
+          algNode.addChild(algmicNode);
+          continue;
+        }
+        var captionNode = this._parseCaption();
+        if (captionNode) {
+          algNode.addChild(captionNode);
+          continue;
+        }
+        break;
+      }
+      return algNode;
+    };
+    Parser.prototype._parseAlgorithmicInner = function() {
+      var algmicNode = new ParseNode("algorithmic");
+      var node;
+      while (true) {
+        node = this._parseStatement(IO_STATEMENTS);
+        if (node) {
+          algmicNode.addChild(node);
+          continue;
+        }
+        node = this._parseBlock();
+        if (node.children.length > 0) {
+          algmicNode.addChild(node);
+          continue;
+        }
+        break;
+      }
+      return algmicNode;
+    };
+    Parser.prototype._parseCaption = function() {
+      var lexer = this._lexer;
+      if (!lexer.accept("func", "caption"))
+        return null;
+      var captionNode = new ParseNode("caption");
+      lexer.expect("open");
+      captionNode.addChild(this._parseCloseText());
+      lexer.expect("close");
+      return captionNode;
+    };
+    Parser.prototype._parseBlock = function() {
+      var blockNode = new ParseNode("block");
+      while (true) {
+        var controlNode = this._parseControl();
+        if (controlNode) {
+          blockNode.addChild(controlNode);
+          continue;
+        }
+        var functionNode = this._parseFunction();
+        if (functionNode) {
+          blockNode.addChild(functionNode);
+          continue;
+        }
+        var statementNode = this._parseStatement(STATEMENTS);
+        if (statementNode) {
+          blockNode.addChild(statementNode);
+          continue;
+        }
+        var commandNode = this._parseCommand(COMMANDS);
+        if (commandNode) {
+          blockNode.addChild(commandNode);
+          continue;
+        }
+        var commentNode = this._parseComment();
+        if (commentNode) {
+          blockNode.addChild(commentNode);
+          continue;
+        }
+        break;
+      }
+      return blockNode;
+    };
+    Parser.prototype._parseControl = function() {
+      var controlNode;
+      if (controlNode = this._parseIf())
+        return controlNode;
+      if (controlNode = this._parseLoop())
+        return controlNode;
+      if (controlNode = this._parseRepeat())
+        return controlNode;
+      if (controlNode = this._parseUpon())
+        return controlNode;
+    };
+    Parser.prototype._parseFunction = function() {
+      var lexer = this._lexer;
+      if (!lexer.accept("func", ["function", "procedure"]))
+        return null;
+      var funcType = this._lexer.get().text;
+      lexer.expect("open");
+      var funcName = lexer.expect("ordinary");
+      lexer.expect("close");
+      lexer.expect("open");
+      var argsNode = this._parseCloseText();
+      lexer.expect("close");
+      var blockNode = this._parseBlock();
+      lexer.expect("func", `end${funcType}`);
+      var functionNode = new ParseNode(
+        "function",
+        { type: funcType, name: funcName }
+      );
+      functionNode.addChild(argsNode);
+      functionNode.addChild(blockNode);
+      return functionNode;
+    };
+    Parser.prototype._parseIf = function() {
+      if (!this._lexer.accept("func", "if"))
+        return null;
+      var ifNode = new ParseNode("if");
+      this._lexer.expect("open");
+      ifNode.addChild(this._parseCond());
+      this._lexer.expect("close");
+      ifNode.addChild(this._parseBlock());
+      var numElif = 0;
+      while (this._lexer.accept("func", ["elif", "elsif", "elseif"])) {
+        this._lexer.expect("open");
+        ifNode.addChild(this._parseCond());
+        this._lexer.expect("close");
+        ifNode.addChild(this._parseBlock());
+        numElif++;
+      }
+      var hasElse = false;
+      if (this._lexer.accept("func", "else")) {
+        hasElse = true;
+        ifNode.addChild(this._parseBlock());
+      }
+      this._lexer.expect("func", "endif");
+      ifNode.value = { numElif, hasElse };
+      return ifNode;
+    };
+    Parser.prototype._parseLoop = function() {
+      if (!this._lexer.accept("func", ["FOR", "FORALL", "WHILE"]))
+        return null;
+      var loopName = this._lexer.get().text.toLowerCase();
+      var loopNode = new ParseNode("loop", loopName);
+      this._lexer.expect("open");
+      loopNode.addChild(this._parseCond());
+      this._lexer.expect("close");
+      loopNode.addChild(this._parseBlock());
+      var endLoop = loopName !== "forall" ? `end${loopName}` : "endfor";
+      this._lexer.expect("func", endLoop);
+      return loopNode;
+    };
+    Parser.prototype._parseRepeat = function() {
+      if (!this._lexer.accept("func", ["REPEAT"]))
+        return null;
+      var repeatName = this._lexer.get().text.toLowerCase();
+      var repeatNode = new ParseNode("repeat", repeatName);
+      repeatNode.addChild(this._parseBlock());
+      this._lexer.expect("func", "until");
+      this._lexer.expect("open");
+      repeatNode.addChild(this._parseCond());
+      this._lexer.expect("close");
+      return repeatNode;
+    };
+    Parser.prototype._parseUpon = function() {
+      if (!this._lexer.accept("func", "upon"))
+        return null;
+      var uponNode = new ParseNode("upon");
+      this._lexer.expect("open");
+      uponNode.addChild(this._parseCond());
+      this._lexer.expect("close");
+      uponNode.addChild(this._parseBlock());
+      this._lexer.expect("func", "endupon");
+      return uponNode;
+    };
+    var IO_STATEMENTS = ["ensure", "require", "input", "output"];
+    var STATEMENTS = ["state", "print", "return"];
+    Parser.prototype._parseStatement = function(acceptStatements) {
+      if (!this._lexer.accept("func", acceptStatements))
+        return null;
+      var stmtName = this._lexer.get().text.toLowerCase();
+      var stmtNode = new ParseNode("statement", stmtName);
+      stmtNode.addChild(this._parseOpenText());
+      return stmtNode;
+    };
+    var COMMANDS = ["break", "continue"];
+    Parser.prototype._parseCommand = function(acceptCommands) {
+      if (!this._lexer.accept("func", acceptCommands))
+        return null;
+      var cmdName = this._lexer.get().text.toLowerCase();
+      var cmdNode = new ParseNode("command", cmdName);
+      return cmdNode;
+    };
+    Parser.prototype._parseComment = function() {
+      if (!this._lexer.accept("func", "comment"))
+        return null;
+      var commentNode = new ParseNode("comment");
+      this._lexer.expect("open");
+      commentNode.addChild(this._parseCloseText());
+      this._lexer.expect("close");
+      return commentNode;
+    };
+    Parser.prototype._parseCall = function() {
+      var lexer = this._lexer;
+      if (!lexer.accept("func", "call"))
+        return null;
+      var anyWhitespace = lexer.get().whitespace;
+      lexer.expect("open");
+      var funcName = lexer.expect("ordinary");
+      lexer.expect("close");
+      var callNode = new ParseNode("call");
+      callNode.whitespace = anyWhitespace;
+      callNode.value = funcName;
+      lexer.expect("open");
+      var argsNode = this._parseCloseText();
+      callNode.addChild(argsNode);
+      lexer.expect("close");
+      return callNode;
+    };
+    Parser.prototype._parseCond = Parser.prototype._parseCloseText = function() {
+      return this._parseText("close");
+    };
+    Parser.prototype._parseOpenText = function() {
+      return this._parseText("open");
+    };
+    Parser.prototype._parseText = function(openOrClose) {
+      var textNode = new ParseNode(`${openOrClose}-text`);
+      var anyWhitespace = false;
+      var subTextNode;
+      while (true) {
+        subTextNode = this._parseAtom() || this._parseCall();
+        if (subTextNode) {
+          if (anyWhitespace)
+            subTextNode.whitespace |= anyWhitespace;
+          textNode.addChild(subTextNode);
+          continue;
+        }
+        if (this._lexer.accept("open")) {
+          subTextNode = this._parseCloseText();
+          anyWhitespace = this._lexer.get().whitespace;
+          subTextNode.whitespace = anyWhitespace;
+          textNode.addChild(subTextNode);
+          this._lexer.expect("close");
+          anyWhitespace = this._lexer.get().whitespace;
+          continue;
+        }
+        break;
+      }
+      return textNode;
+    };
+    var ACCEPTED_TOKEN_BY_ATOM = {
+      "ordinary": { tokenType: "ordinary" },
+      "math": { tokenType: "math" },
+      "special": { tokenType: "special" },
+      "cond-symbol": {
+        tokenType: "func",
+        tokenValues: ["and", "or", "not", "true", "false", "to", "downto"]
+      },
+      "quote-symbol": {
+        tokenType: "quote"
+      },
+      "sizing-dclr": {
+        tokenType: "func",
+        tokenValues: [
+          "tiny",
+          "scriptsize",
+          "footnotesize",
+          "small",
+          "normalsize",
+          "large",
+          "Large",
+          "LARGE",
+          "huge",
+          "Huge"
+        ]
+      },
+      "font-dclr": {
+        tokenType: "func",
+        tokenValues: [
+          "normalfont",
+          "rmfamily",
+          "sffamily",
+          "ttfamily",
+          "upshape",
+          "itshape",
+          "slshape",
+          "scshape",
+          "bfseries",
+          "mdseries",
+          "lfseries"
+        ]
+      },
+      "font-cmd": {
+        tokenType: "func",
+        tokenValues: [
+          "textnormal",
+          "textrm",
+          "textsf",
+          "texttt",
+          "textup",
+          "textit",
+          "textsl",
+          "textsc",
+          "uppercase",
+          "lowercase",
+          "textbf",
+          "textmd",
+          "textlf"
+        ]
+      },
+      "text-symbol": {
+        tokenType: "func",
+        tokenValues: ["textbackslash"]
+      }
+    };
+    Parser.prototype._parseAtom = function() {
+      for (var atomType in ACCEPTED_TOKEN_BY_ATOM) {
+        var acceptToken = ACCEPTED_TOKEN_BY_ATOM[atomType];
+        var tokenText = this._lexer.accept(
+          acceptToken.tokenType,
+          acceptToken.tokenValues
+        );
+        if (tokenText === null)
+          continue;
+        var anyWhitespace = this._lexer.get().whitespace;
+        if (atomType !== "ordinary" && atomType !== "math")
+          tokenText = tokenText.toLowerCase();
+        return new AtomNode(atomType, tokenText, anyWhitespace);
+      }
+      return null;
+    };
+    module2.exports = Parser;
   }
 });
 
@@ -13653,7 +13660,7 @@ var require_Renderer = __commonJS({
         this._fontSize = fontSize;
         return;
       }
-      throw new ParserError("unrecogniazed text-style command");
+      throw new ParserError("Unrecognized `text-style` command");
     };
     TextStyle.prototype.toCSS = function() {
       var cssStr = "";
@@ -13661,11 +13668,10 @@ var require_Renderer = __commonJS({
         var val = this._css[attr];
         if (val === void 0)
           continue;
-        cssStr += attr + ":" + val + ";";
+        cssStr += `${attr}:${val};`;
       }
-      if (this._fontSize !== this._outerFontSize) {
-        cssStr += "font-size:" + this._fontSize / this._outerFontSize + "em;";
-      }
+      if (this._fontSize !== this._outerFontSize)
+        cssStr += `font-size:${this._fontSize / this._outerFontSize}em;`;
       return cssStr;
     };
     function TextEnvironment(nodes, textStyle) {
@@ -13692,15 +13698,14 @@ var require_Renderer = __commonJS({
             this._html.putText(text);
             break;
           case "math":
-            if (typeof backend === "undefined") {
-              throw "No math backend found. Please setup KaTeX or MathJax.";
-            } else if (backend.name === "katex") {
+            if (typeof backend === "undefined")
+              throw EvalError("No math backend found. Please setup KaTeX or MathJax.");
+            else if (backend.name === "katex")
               this._html.putHTML(backend.driver.renderToString(text));
-            } else if (backend.name === "mathjax") {
-              this._html.putText("$" + text + "$");
-            } else {
-              throw "Unknown math backend " + backend;
-            }
+            else if (backend.name === "mathjax")
+              this._html.putText(`$${text}$`);
+            else
+              throw new EvalError(`Unknown math backend ${backend}`);
             break;
           case "cond-symbol":
             this._html.beginSpan("ps-keyword").putText(text.toLowerCase()).endSpan();
@@ -13775,7 +13780,7 @@ var require_Renderer = __commonJS({
             this._html.endSpan();
             break;
           default:
-            throw new ParseError("Unexpected ParseNode of type " + node.type);
+            throw new ParseError(`Unexpected ParseNode of type ${node.type}`);
         }
       }
       return this._html.toMarkup();
@@ -13844,30 +13849,30 @@ var require_Renderer = __commonJS({
       this._textBuf = [];
     };
     HTMLBuilder.prototype._beginTag = function(tag, className, style, extraStyle) {
-      var spanHTML = "<" + tag;
+      var spanHTML = `<${tag}`;
       if (className)
-        spanHTML += ' class="' + className + '"';
+        spanHTML += ` class="${className}"`;
       if (style) {
         var styleCode;
-        if (utils.isString(style))
+        if (utils.isString(style)) {
           styleCode = style;
-        else {
+        } else {
           styleCode = "";
           for (var attrName in style) {
             attrVal = style[attrName];
-            styleCode += attrName + ":" + attrVal + ";";
+            styleCode += `${attrName}:${attrVal};`;
           }
         }
         if (extraStyle)
           styleCode += extraStyle;
-        spanHTML += ' style="' + styleCode + '"';
+        spanHTML += ` style="${styleCode}"`;
       }
       spanHTML += ">";
       this._body.push(spanHTML);
       return this;
     };
     HTMLBuilder.prototype._endTag = function(tag) {
-      this._body.push("</" + tag + ">");
+      this._body.push(`</${tag}>`);
       return this;
     };
     var entityMap = {
@@ -13879,9 +13884,10 @@ var require_Renderer = __commonJS({
       "/": "&#x2F;"
     };
     HTMLBuilder.prototype._escapeHtml = function(string) {
-      return String(string).replace(/[&<>"'/]/g, function(s) {
-        return entityMap[s];
-      });
+      return String(string).replace(
+        /[&<>"'/]/g,
+        (s) => entityMap[s]
+      );
     };
     function RendererOptions(options) {
       options = options || {};
@@ -13890,6 +13896,7 @@ var require_Renderer = __commonJS({
       this.lineNumberPunc = options.lineNumberPunc !== void 0 ? options.lineNumberPunc : ":";
       this.lineNumber = options.lineNumber !== void 0 ? options.lineNumber : false;
       this.noEnd = options.noEnd !== void 0 ? options.noEnd : false;
+      this.scopeLines = options.scopeLines !== void 0 ? options.scopeLines : false;
       if (options.captionCount !== void 0)
         Renderer.captionCount = options.captionCount;
       this.titlePrefix = options.titlePrefix !== void 0 ? options.titlePrefix : "Algorithm";
@@ -13897,7 +13904,7 @@ var require_Renderer = __commonJS({
     RendererOptions.prototype._parseEmVal = function(emVal) {
       emVal = emVal.trim();
       if (emVal.indexOf("em") !== emVal.length - 2)
-        throw "option unit error; no `em` found";
+        throw new TypeError("Unit error; expected `em` suffix");
       return Number(emVal.substring(0, emVal.length - 2));
     };
     function Renderer(parser, options) {
@@ -13946,7 +13953,7 @@ var require_Renderer = __commonJS({
     Renderer.prototype._beginGroup = function(name, extraClass, style) {
       this._closeLineIfAny();
       this._html.beginDiv(
-        "ps-" + name + (extraClass ? " " + extraClass : ""),
+        `ps-${name}${extraClass ? ` ${extraClass}` : ""}`,
         style
       );
     };
@@ -13957,8 +13964,10 @@ var require_Renderer = __commonJS({
     Renderer.prototype._beginBlock = function() {
       var extraIndentForFirstBlock = this._options.lineNumber && this._blockLevel === 0 ? 0.6 : 0;
       var blockIndent = this._options.indentSize + extraIndentForFirstBlock;
+      if (this._options.scopeLines)
+        blockIndent /= 2;
       this._beginGroup("block", null, {
-        "margin-left": blockIndent + "em"
+        "margin-left": `${blockIndent}em`
       });
       this._blockLevel++;
     };
@@ -13975,15 +13984,17 @@ var require_Renderer = __commonJS({
       if (this._blockLevel > 0) {
         this._numLOC++;
         this._html.beginP("ps-line ps-code", this._globalTextStyle.toCSS());
+        var extraIndentSize = this._options.lineNumber ? indentSize * 1.25 : 0;
+        extraIndentSize += this._options.scopeLines ? indentSize * 0.1 : 0;
         if (this._options.lineNumber) {
           this._html.beginSpan("ps-linenum", {
-            "left": -((this._blockLevel - 1) * (indentSize * 1.25)) + "em"
+            "left": `${-((this._blockLevel - 1) * extraIndentSize)}em`
           }).putText(this._numLOC + this._options.lineNumberPunc).endSpan();
         }
       } else {
         this._html.beginP("ps-line", {
-          "text-indent": -indentSize + "em",
-          "padding-left": indentSize + "em"
+          "text-indent": `${-indentSize}em`,
+          "padding-left": `${indentSize}em`
         }, this._globalTextStyle.toCSS());
       }
     };
@@ -14048,8 +14059,10 @@ var require_Renderer = __commonJS({
           this._endGroup();
           break;
         case "algorithmic":
-          if (this._options.lineNumber) {
-            this._beginGroup("algorithmic", "with-linenum");
+          var divClasses = this._options.lineNumber ? " with-linenum " : "";
+          divClasses += this._options.scopeLines ? " with-scopelines " : "";
+          if (divClasses) {
+            this._beginGroup("algorithmic", divClasses);
             this._numLOC = 0;
           } else {
             this._beginGroup("algorithmic");
@@ -14068,7 +14081,7 @@ var require_Renderer = __commonJS({
           textNode = node.children[0];
           var blockNode = node.children[1];
           this._newLine();
-          this._typeKeyword(funcType + " ");
+          this._typeKeyword(`${funcType} `);
           this._typeFuncName(defFuncName);
           this._typeText("(");
           this._buildTree(textNode);
@@ -14077,7 +14090,7 @@ var require_Renderer = __commonJS({
           this._buildTree(blockNode);
           if (!this._options.noEnd) {
             this._newLine();
-            this._typeKeyword("end " + funcType);
+            this._typeKeyword(`end ${funcType}`);
           }
           break;
         case "if":
@@ -14121,7 +14134,7 @@ var require_Renderer = __commonJS({
             "forall": "for all",
             "while": "while"
           };
-          this._typeKeyword(displayLoopName[loopType] + " ");
+          this._typeKeyword(`${displayLoopName[loopType]} `);
           var loopCond = node.children[0];
           this._buildTree(loopCond);
           this._typeKeyword(" do");
@@ -14170,7 +14183,7 @@ var require_Renderer = __commonJS({
           break;
         case "caption":
           this._newLine();
-          this._typeKeyword(this._options.titlePrefix + " ");
+          this._typeKeyword(`${this._options.titlePrefix} `);
           textNode = node.children[0];
           this._buildTree(textNode);
           break;
@@ -14212,7 +14225,7 @@ var require_Renderer = __commonJS({
           this._html.putHTML(closeTextEnv.renderToHTML(this.backend));
           break;
         default:
-          throw new ParseError("Unexpected ParseNode of type " + node.type);
+          throw new ParseError(`Unexpected ParseNode of type ${node.type}`);
       }
     };
     module2.exports = Renderer;
@@ -14222,7 +14235,7 @@ var require_Renderer = __commonJS({
 // node_modules/pseudocode/pseudocode.js
 var require_pseudocode = __commonJS({
   "node_modules/pseudocode/pseudocode.js"(exports, module2) {
-    var ParseError2 = require_ParseError();
+    var ParseError3 = require_ParseError();
     var Lexer = require_Lexer();
     var Parser = require_Parser();
     var Renderer = require_Renderer();
@@ -14239,39 +14252,36 @@ var require_pseudocode = __commonJS({
       }
     }
     module2.exports = {
-      ParseError: ParseError2,
+      ParseError: ParseError3,
       render: function(input, baseDomEle, options) {
         if (input === null || input === void 0)
-          throw "input cannot be empty";
+          throw new ReferenceError("Input cannot be empty");
         var renderer = makeRenderer(input, options);
         var elem = renderer.toDOM();
         if (baseDomEle)
           baseDomEle.appendChild(elem);
-        if (renderer.backend.name === "mathjax") {
+        if (renderer.backend.name === "mathjax")
           mathjaxTypeset(elem);
-        }
         return elem;
       },
       renderToString: function(input, options) {
         if (input === null || input === void 0)
-          throw "input cannot be empty";
+          throw new ReferenceError("Input cannot be empty");
         var renderer = makeRenderer(input, options);
-        if (renderer.backend.name === "mathjax") {
+        if (renderer.backend.name === "mathjax")
           console.warn("Using MathJax backend -- math may not be rendered.");
-        }
         return renderer.toMarkup();
       },
       renderElement: function(elem, options) {
         if (!(elem instanceof Element))
-          throw "a DOM element is required";
+          throw new ReferenceError("A DOM element is required");
         elem.style.display = "none";
         var renderer = makeRenderer(elem.textContent, options);
         var newElem = renderer.toDOM();
         elem.replaceWith(newElem);
         if (renderer.backend) {
-          if (renderer.backend.name === "mathjax") {
+          if (renderer.backend.name === "mathjax")
             mathjaxTypeset(newElem);
-          }
         }
       },
       renderClass: function(className, options) {
@@ -14292,66 +14302,10 @@ __export(main_exports, {
   default: () => PseudocodePlugin
 });
 module.exports = __toCommonJS(main_exports);
+var import_obsidian3 = require("obsidian");
+
+// src/setting_tab.ts
 var import_obsidian = require("obsidian");
-var pseudocode = __toESM(require_pseudocode());
-var DEFAULT_SETTINGS = {
-  blockSize: 99,
-  jsSettings: {
-    indentSize: "1.2em",
-    commentDelimiter: "//",
-    lineNumber: false,
-    lineNumberPunc: ":",
-    noEnd: false,
-    captionCount: void 0
-  }
-};
-var PseudocodeBlockInit = "```pseudo\n	\\begin{algorithm}\n	\\caption{Algo Caption}\n	\\begin{algorithmic}\n\n	\\end{algorithmic}\n	\\end{algorithm} \n```";
-var BLOCK_NAME = "pseudo";
-var PseudocodePlugin = class extends import_obsidian.Plugin {
-  async pseudocodeHandler(source, el, ctx) {
-    const blockDiv = el.createDiv({ cls: "pseudocode-block" });
-    const blockWidth = this.settings.blockSize;
-    blockDiv.style.width = `${blockWidth}em`;
-    const preEl = blockDiv.createEl("pre", { cls: "code", text: source });
-    try {
-      pseudocode.renderElement(preEl, this.settings.jsSettings);
-    } catch (error) {
-      console.log(error);
-      const errorSpan = blockDiv.createEl("span", { text: "\u274C " + error.message });
-      errorSpan.classList.add("error-message");
-      blockDiv.empty();
-      blockDiv.appendChild(errorSpan);
-    }
-  }
-  async onload() {
-    await this.loadSettings();
-    this.registerMarkdownCodeBlockProcessor(
-      BLOCK_NAME,
-      this.pseudocodeHandler.bind(this)
-    );
-    this.registerEditorSuggest(new PseudocodeSuggestor(this));
-    this.addSettingTab(new PseudocodeSettingTab(this.app, this));
-    this.addCommand({
-      id: "pseudocode-in-obs",
-      name: "Insert a new pseudocode block",
-      editorCallback: (editor, view) => {
-        editor.replaceSelection(PseudocodeBlockInit);
-      }
-    });
-  }
-  onunload() {
-  }
-  async loadSettings() {
-    this.settings = Object.assign(
-      {},
-      DEFAULT_SETTINGS,
-      await this.loadData()
-    );
-  }
-  async saveSettings() {
-    await this.saveData(this.settings);
-  }
-};
 var PseudocodeSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -14361,6 +14315,7 @@ var PseudocodeSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h1", { text: "Pseudocode Plugin Settings" });
+    containerEl.createEl("h2", { text: "Render Behevior" });
     new import_obsidian.Setting(containerEl).setName("Block Size").setDesc(
       "The width of the pseudocode block. The unit is 'em'. The default value is 99, which will work as the max width of the editor. '30' looks good for me."
     ).addText(
@@ -14405,9 +14360,66 @@ var PseudocodeSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian.Setting(containerEl).setName("Scope Lines").setDesc(
+      "If enabled, pseudocode blocks will have lines indicating the scope of the block."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.jsSettings.scopeLines).onChange(async (value) => {
+        this.plugin.settings.jsSettings.scopeLines = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    containerEl.createEl("h2", { text: "Preamble Settings" });
+    new import_obsidian.Setting(containerEl).setName("Preamble Enabled").setDesc(
+      "Whether to load the preamble file. Please reload the plugin for this setting to take effect."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.preambleEnabled).onChange(async (value) => {
+        this.plugin.settings.preambleEnabled = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Preamble Path").setDesc(
+      "The path to the preamble file. The path is relative to the vault root."
+    ).addText(
+      (text) => text.setValue(this.plugin.settings.preamblePath).onChange(async (value) => {
+        this.plugin.settings.preamblePath = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Preamble Loaded Notice").setDesc(
+      "Whether to show a notice everytime the preamble is loaded."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.preambleLoadedNotice).onChange(async (value) => {
+        this.plugin.settings.preambleLoadedNotice = value;
+        await this.plugin.saveSettings();
+      })
+    );
   }
 };
-var PseudocodeSuggestor = class extends import_obsidian.EditorSuggest {
+
+// src/auto_complete.ts
+var import_obsidian2 = require("obsidian");
+
+// src/setting.ts
+var DEFAULT_SETTINGS = {
+  blockSize: 99,
+  preambleEnabled: false,
+  preamblePath: "preamble.sty",
+  preambleLoadedNotice: false,
+  jsSettings: {
+    indentSize: "1.2em",
+    commentDelimiter: "//",
+    lineNumber: false,
+    lineNumberPunc: ":",
+    noEnd: false,
+    captionCount: void 0,
+    scopeLines: false
+  }
+};
+var PseudocodeBlockInit = "```pseudo\n	\\begin{algorithm}\n	\\caption{Algo Caption}\n	\\begin{algorithmic}\n\n	\\end{algorithmic}\n	\\end{algorithm}\n```";
+var BLOCK_NAME = "pseudo";
+
+// src/auto_complete.ts
+var PseudocodeSuggestor = class extends import_obsidian2.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
     this.pseudocodeKeywords = [
@@ -14533,5 +14545,222 @@ var PseudocodeSuggestor = class extends import_obsidian.EditorSuggest {
       editor.setCursor(newCursor);
       this.close();
     }
+  }
+};
+
+// src/latex_translator.ts
+var katex2 = __toESM(require_katex());
+function translateUnsupportedMacrosPerf(input) {
+  const stripped = input.replace(/(?<!\\)%.*/gm, "").split("\n").filter((line) => line.trim() !== "").join("\n");
+  return stripped.replace(
+    /(\\DeclarePairedDelimiter\{(.*?)\}\{(.*?)\}\{(.*?)\})|(\\DeclareMathOperator\*\{(.*?)\}\{(.*?)\})|(\\DeclareMathOperator\{(.*?)\}\{(.*?)\})/g,
+    (match, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10) => {
+      if (p1) {
+        return `\\newcommand{${p2}}[1]{\\left${p3} #1 \\right${p4}}`;
+      } else if (p5) {
+        return `\\newcommand{${p6}}{\\mathop{\\mathrm{${p7}}}}`;
+      } else if (p8) {
+        return `\\newcommand{${p9}}{\\mathop{\\mathrm{${p10}}}}`;
+      } else {
+        console.error(`Unexpected match: ${match}`);
+        return match;
+      }
+    }
+  );
+}
+function checkTranslatedMacros(input) {
+  const lines = input.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    try {
+      katex2.renderToString(lines[i]);
+    } catch (error) {
+      if (error instanceof katex2.ParseError && /redefine/.test(error.message)) {
+        lines[i] = lines[i].replace("\\newcommand", "\\renewcommand");
+        console.log(`Redefining ${lines[i]}`);
+      } else {
+        throw error;
+      }
+    }
+  }
+  return lines.join("\n");
+}
+
+// src/export_button.ts
+var BUTTON_INFO = "Export to clipboard";
+var BUTTON_EXPORTED = "Exported!";
+var BUTTON_FAILED = "Failed to export";
+function createExportButton(parentPlugin, parentDiv, inlineMacros, blockContent) {
+  const button = parentDiv.createEl("button");
+  button.classList.add("hover-button");
+  button.textContent = BUTTON_INFO;
+  button.addEventListener("click", () => {
+    console.log(BUTTON_INFO);
+    if (blockContent !== null) {
+      const exportContent = "\\documentclass{article}\n" + macros(parentPlugin, inlineMacros) + "\n\\begin{document}\n" + processBlock(blockContent, parentPlugin) + "\n\\end{document}";
+      navigator.clipboard.writeText(exportContent).then(() => {
+        console.log("Copied to clipboard");
+        button.textContent = BUTTON_EXPORTED;
+        setTimeout(() => {
+          button.textContent = BUTTON_INFO;
+        }, 3e3);
+      }).catch((error) => {
+        console.error("Failed to copy to clipboard: ", error);
+        button.textContent = BUTTON_FAILED;
+      });
+    }
+  });
+  button.addEventListener("mouseover", () => {
+    button.textContent = BUTTON_INFO;
+  });
+}
+var macros = (parentPlugin, inlineMacros) => {
+  const noEnd = parentPlugin.settings.jsSettings.noEnd;
+  const scopeLines = parentPlugin.settings.jsSettings.scopeLines;
+  const inlineMacrosLine = inlineMacros.split("\n").map((line) => line.trim());
+  return `
+\\usepackage{algorithm}
+\\usepackage[noEnd=${noEnd},indLines=${scopeLines}]{algpseudocodex}
+
+\\newcommand{\\And}{\\textbf{and~}}
+\\newcommand{\\Or}{\\textbf{or~}}
+\\newcommand{\\Xor}{\\textbf{xor~}}
+\\newcommand{\\Not}{\\textbf{not~}}
+\\newcommand{\\To}{\\textbf{to~}}
+\\newcommand{\\DownTo}{\\textbf{downto~}}
+\\newcommand{\\True}{\\textbf{true~}}
+\\newcommand{\\False}{\\textbf{false~}}
+\\newcommand{\\Input}{\\item[\\textbf{Input:}]}
+\\renewcommand{\\Output}{\\item[\\textbf{Output:}]}
+\\newcommand{\\Print}{\\State \\textbf{print~}}
+\\renewcommand{\\Return}{\\State \\textbf{return~}}
+
+\\usepackage{amsmath}
+${inlineMacrosLine}
+`;
+};
+var processBlock = (block, parentPlugin) => {
+  if (parentPlugin.settings.jsSettings.lineNumber)
+    block = block.replace(
+      "\\begin{algorithmic}",
+      "\\begin{algorithmic}[1]"
+    );
+  else
+    ;
+  return block;
+};
+
+// src/inline_macro.ts
+function extractInlineMacros(source) {
+  const sourceLines = source.split("\n");
+  const macroStartIndex = sourceLines.findIndex((line) => line.includes("\\begin{algorithm}"));
+  const macroLines = sourceLines.slice(0, macroStartIndex).join("\n");
+  const nonMacroLines = sourceLines.slice(macroStartIndex).join("\n");
+  let inlineMacros = "";
+  try {
+    const translated = translateUnsupportedMacrosPerf(macroLines);
+    inlineMacros = checkTranslatedMacros(translated);
+  } catch (error) {
+    console.error(error);
+  }
+  return [inlineMacros, nonMacroLines];
+}
+
+// main.ts
+var pseudocode = __toESM(require_pseudocode());
+var PseudocodePlugin = class extends import_obsidian3.Plugin {
+  constructor() {
+    super(...arguments);
+    this.preamble = "";
+  }
+  async pseudocodeHandler(source, el, ctx) {
+    const blockDiv = el.createDiv({ cls: "pseudocode-block" });
+    const blockWidth = this.settings.blockSize;
+    blockDiv.style.width = `${blockWidth}em`;
+    const [inlineMacros, nonMacroLines] = extractInlineMacros(source);
+    const allPreamble = this.preamble + inlineMacros;
+    const mathRegex = /\$(.*?)\$/g;
+    const withPreamble = nonMacroLines.replace(mathRegex, (_, group1) => {
+      return `$${allPreamble}${group1}$`;
+    });
+    const preEl = blockDiv.createEl("pre", {
+      cls: "code",
+      text: withPreamble
+    });
+    try {
+      pseudocode.renderElement(preEl, this.settings.jsSettings);
+      createExportButton(this, blockDiv, inlineMacros, nonMacroLines);
+    } catch (error) {
+      console.log(error);
+      const errorSpan = blockDiv.createEl("span", {
+        text: "\u274C " + error.message
+      });
+      errorSpan.classList.add("error-message");
+      blockDiv.empty();
+      blockDiv.appendChild(errorSpan);
+    }
+  }
+  async onload() {
+    await this.loadSettings();
+    if (this.settings.preambleEnabled) {
+      console.log("Preamble is enabled.");
+      await this.loadPreamble();
+    }
+    this.registerMarkdownCodeBlockProcessor(
+      BLOCK_NAME,
+      this.pseudocodeHandler.bind(this)
+    );
+    this.registerEditorSuggest(new PseudocodeSuggestor(this));
+    this.addSettingTab(new PseudocodeSettingTab(this.app, this));
+    this.addCommand({
+      id: "pseudocode-in-obs",
+      name: "Insert a new pseudocode block",
+      editorCallback: (editor, view) => {
+        editor.replaceSelection(PseudocodeBlockInit);
+      }
+    });
+  }
+  onunload() {
+  }
+  async loadPreamble() {
+    try {
+      this.preamble = await this.app.vault.adapter.read(
+        this.settings.preamblePath
+      );
+    } catch (error) {
+      console.log(error);
+      const searchPath = error.message.match(/'(.*?)'/g)[0];
+      new import_obsidian3.Notice(
+        "Pseudocode Plugin: Preamble file not found at " + searchPath + "."
+      );
+      this.preamble = "";
+      return;
+    }
+    try {
+      this.preamble = translateUnsupportedMacrosPerf(this.preamble);
+      this.preamble = checkTranslatedMacros(this.preamble);
+      console.log("Loaded preamble:\n" + this.preamble);
+      console.log(
+        "Preamble file loaded. You can check the detail in console."
+      );
+      if (this.settings.preambleLoadedNotice) {
+        new import_obsidian3.Notice("Pseudocode Plugin: Preamble file loaded.");
+      }
+    } catch (error) {
+      console.log(error);
+      new import_obsidian3.Notice(
+        "Pseudocode Plugin: Preamble file contains invalid LaTeX. Please refer to console for details."
+      );
+      this.preamble = "";
+    }
+  }
+  async loadSettings() {
+    this.settings = Object.assign(
+      {},
+      DEFAULT_SETTINGS,
+      await this.loadData()
+    );
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
   }
 };

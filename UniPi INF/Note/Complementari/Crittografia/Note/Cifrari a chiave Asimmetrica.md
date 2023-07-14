@@ -7,7 +7,7 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Cifrario a chiave Asimmetrica
+# Cifrari a chiave Asimmetrica
 ---
 in generale sono un paradigma completamente diverso rispetto ai [[Cifrari a chiave Simmetrica|Cifrari a chiave Simmetrica]]  
 i cifrari a chiave asimmetrica sono chiamati cosi proprio per l asimmetrica che hanno i due ruoli di _mit_ e _dest_.
@@ -34,4 +34,11 @@ questi classe di cifrari devono soddisfare le seguenti proprietà
 le funzioni $\mathcal{C}$ per avere le prosperità sopra elencate devono essere di tipo [[Funzioni One-Way Trapdoor|One-Way Trapdoor]]. Ovvero facilmente calcolabili e difficilmente invertibili ameno che non si ha un informazione in piu. in questo caso la $k[prv]$
 
 
-### Pregi e difetti
+
+
+### Vulnerabilita
+il sistema è sensibile ad attacchi [[Tipologia di attacchi per scoprire il messaggio criptato|chosen plain-text]] siccome un critto analista puo scegliere una serie di messaggi $m_{1},\dots,m_{n}$ e crittarli per la chiave $k[pub]$ ottenendo i $c_{1},\dots,c_{n}$ per in destinatario $dest$ .
+se passa sul canale un messaggio cifrato $c^{*}$ e si ha che$c^{*}=c_{i}  \implies \mathcal{D}(c_{i})=m_{i}$ ed il messaggio è _automaticamente decifrato_.
+se invece si ha $c^{*}\not =c_{i}$ il crittoanalista ha comunque un informazione in piu ovvero che il messaggio non è uno di quelli scelti.
+questo attacco è particolarmente pericoloso se il critto analista si aspetta un messaggio specifico o se la struttura del messaggi è conosciuta. es indirizzo IP.
+

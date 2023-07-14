@@ -22,7 +22,7 @@ Sia $S \subseteq \mathbb{R}$ . Se $S$ ha un elemento massimo $m$, allora $S$ ha 
 Siano $m$ e $m’$ elementi massimi di $S$ . Allora $m \leq m’$ perché $m’$ è massimo. allo stesso modo $m’\leq m$ perché $m$ è massimo. Cosi $m=m’$
 
 #### Lemma 2 
-Sia $S \subseteq \mathbb{R}$ un insieme finito e non vuote. Allora, $S$ ha un elemento massimo
+Sia $S \subseteq \mathbb{R}$ un insieme finito e non vuoto. Allora, $S$ ha un elemento massimo
 ##### Dimostrazione
 Sia $P(n)$ la proposizione che se $S$ ha $n \geq 1$ elemento allora $S$ ha un elemento massimo. 
 - la Preposizione $P(1)$ è vera.
@@ -42,7 +42,7 @@ $m \in D(n) \implies \exists k \in \mathbb{Z} \ | \ n = km$. in particolare $k \
 $$|n|=|km|=|k||m| \implies |k|,|m| \leq |n|$$
 
 #### Definizione
-Siano $a$ e $b$ interi tale che $(a,b) \not=(0,0)$ il massimo comune divisione di $a$ e $b$, scritto $med(a,b)$ è il massimo elemento dell insieme $D(a)\cap D(b)$
+Siano $a$ e $b$ interi tale che $(a,b) \not=(0,0)$ il _massimo comune divisione_ di $a$ e $b$, scritto $mcd(a,b)$ è il massimo elemento dell insieme $D(a)\cap D(b)$
 
 > [!note] note
 > se $a =0, b\not=0 \implies mcd(a,b)=b$
@@ -61,34 +61,4 @@ int mcd(int a, int b) // Assumes a, b>0
 
 > [!note]
 > una altro metodo molto lento è fattorizzare $a$ e $b$
-
-### Algoritmo di Euclide
-siano $a$ e $b$  interi diversi da 0. allora $mcd(a+b,b) = mcd(a,b)$
-##### Dimostrazione 
-siamo $m=mcd(a+b,b)  \mu = mcd(a,b)$ allora
-	$$\begin{matrix}
-	m = mcd(a,b) \implies m|(a+b)\\
-	m|b \implies m|a\\
-	m|b \implies m \leq \mu   
-	\end{matrix} $$
-	allo stesso modo 
-	$$\begin{matrix}
-	\mu = mcd(a,b) \implies \mu|a\\
-	\mu|b \implies \mu (a+b)\\
-	\mu|b \implies \leq m
-	\end{matrix} $$
-	quindi $m = \mu$
-
-#### codice Algoritmo
-supponiamo $a \geq b > 0$ e scriviamo $a= qb+r$ dove $0 \leq r <b$ allora 
-$$mcd(a,b)= mcd(r+qb,b)= mcd (r,b)=mcd(b,r)$$
-l algoritmo si ferma quando  $r=0$. in questo modo ottimo un algoritmo ricorsivo per calcolare il _mcd_
-```C
-int mcd_euclid(int a, int b) 
-{   
-	if (b == 0) // mcd(a,0)=a
-	return a; 
-	if (b>a) mcd(b,a) // Switch roles of a and b
-	return mcd(b, a % b);
-}
-```
+> mentre uno piu veloce è l [[Algoritmo di Euclide per calcolare mcd|Algoritmo di Euclide per calcolare mcd]]

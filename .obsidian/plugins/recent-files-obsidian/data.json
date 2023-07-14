@@ -1,20 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "Cifrario a chiave Asimmetrica",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md"
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+    },
+    {
+      "basename": "Generatori di insieme di coprimi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
+    },
+    {
+      "basename": "Calcolare l inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
+    },
+    {
+      "basename": "Massimo comun divisore",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md"
+    },
+    {
+      "basename": "Algoritmo di Euclide per calcolare mcd",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md"
+    },
+    {
+      "basename": "Divisibilita tra polinomi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita tra polinomi.md"
     },
     {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
-      "basename": "Funzioni One-Way Trapdoor",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md"
+      "basename": "Teorema di Eulero",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md"
     },
     {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+      "basename": "Inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md"
+    },
+    {
+      "basename": "Basi Idea And Resource",
+      "path": "UniPi INF/Thesis/Basi Idea And Resource.md"
+    },
+    {
+      "basename": "Algoritmo di partia per il controllo degli errori",
+      "path": "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md"
+    },
+    {
+      "basename": "Transazioni",
+      "path": "UniPi INF/Note/Informatica/Transazioni.md"
+    },
+    {
+      "basename": "Divisibilità dei numeri",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilità dei numeri.md"
+    },
+    {
+      "basename": "Cifrario Asimmetrico RSA",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
+    },
+    {
+      "basename": "Insieme dei coprimi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md"
+    },
+    {
+      "basename": "Numeri primi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Numeri primi.md"
+    },
+    {
+      "basename": "Piccolo teorema di Fermat",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Piccolo teorema di Fermat.md"
+    },
+    {
+      "basename": "Algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md"
+    },
+    {
+      "basename": "Teorema della divisione",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema della divisione.md"
+    },
+    {
+      "basename": "Cifrario a Composizione di blocchi",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md"
+    },
+    {
+      "basename": "Confronto cifrari simmetrici e asimmetrici",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md"
+    },
+    {
+      "basename": "Cifrari a chiave Asimmetrica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Asimmetrica.md"
+    },
+    {
+      "basename": "Cifrari a chiave Simmetrica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md"
+    },
+    {
+      "basename": "Cifrario a chiave Simmetrica DES",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md"
+    },
+    {
+      "basename": "Support Vector Machine (SVM)",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Support Vector Machine (SVM).md"
+    },
+    {
+      "basename": "Introduzione Intelligenza Artificiale (IIA)",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md"
+    },
+    {
+      "basename": "Modelli lineari (LMS) per ML",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Modelli lineari (LMS) per ML.md"
+    },
+    {
+      "basename": "a-b Alberi",
+      "path": "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/a-b Alberi.md"
+    },
+    {
+      "basename": "Funzioni One-Way Trapdoor",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md"
     },
     {
       "basename": "Rappresentazione in base di numeri interi",
@@ -65,16 +165,8 @@
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md"
     },
     {
-      "basename": "Cifrario Asimmetrico RSA",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
-    },
-    {
       "basename": "Rappresentazione di oggetti matematici con sequenze",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
-    },
-    {
-      "basename": "Cifrario a Composizione di blocchi",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md"
     },
     {
       "basename": "Pasted image 20230709191538",
@@ -83,10 +175,6 @@
     {
       "basename": "Cifrario a chiave Simmetrica AES",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
-    },
-    {
-      "basename": "Cifrario a chiave Simmetrica DES",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md"
     },
     {
       "basename": "Pasted image 20230707222509",
@@ -101,14 +189,6 @@
       "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png"
     },
     {
-      "basename": "Transazioni",
-      "path": "UniPi INF/Note/Informatica/Transazioni.md"
-    },
-    {
-      "basename": "Algoritmo di partia per il controllo degli errori",
-      "path": "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md"
-    },
-    {
       "basename": "Criteri di Shannon per i cifrari",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Criteri di Shannon per i cifrari.md"
     },
@@ -117,88 +197,8 @@
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Classificazione di cifrari.md"
     },
     {
-      "basename": "Cifrari a chiave Simmetrica",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md"
-    },
-    {
       "basename": "Cifrari perfetti",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari perfetti.md"
-    },
-    {
-      "basename": "Cifrario One-time Pad",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario One-time Pad.md"
-    },
-    {
-      "basename": "Critto analisi Statistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Critto analisi Statistica.md"
-    },
-    {
-      "basename": "Pasted image 20230706210518",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230706210518.png"
-    },
-    {
-      "basename": "Crittografia Concetti Generali",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Crittografia Concetti Generali.md"
-    },
-    {
-      "basename": "Cifratura e Decifratura",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifratura e Decifratura.md"
-    },
-    {
-      "basename": "Pasted image 20230706150740",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230706150740.png"
-    },
-    {
-      "basename": "Indipendenza Stocastica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
-    },
-    {
-      "basename": "Probabilità condizionata e indipendenza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilità condizionata e indipendenza.md"
-    },
-    {
-      "basename": "Probabilità e variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilità e variabili aleatorie.md"
-    },
-    {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Logica proposizionale",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md"
-    },
-    {
-      "basename": "Architetture e sistemi operativi (AESO)",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
-    },
-    {
-      "basename": "Porte Logiche",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Porte Logiche.md"
-    },
-    {
-      "basename": "Operazioni logiche",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni logiche.md"
-    },
-    {
-      "basename": "Espressioni Booleane",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Espressioni Booleane.md"
-    },
-    {
-      "basename": "Algebra Lineare (AL)",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
-    },
-    {
-      "basename": "Dimensione di uno spazio vettoriale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dimensione di uno spazio vettoriale.md"
-    },
-    {
-      "basename": "Teorema della Dimensione",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Teorema della Dimensione.md"
     }
   ],
   "omittedPaths": [],

@@ -9,16 +9,19 @@ Prev: [[Algebra (ALG)]]
 
 # Teorema della divisione
 ---
-Siano $a$ e $b$ interi non-negativi tale che $a > 0$. Allora, esistono interi $q ≥ 0$ e $0 \leq r < a.\  b = qa+r.$
-- $q$ è il quoziente
-- $r$ è il resto 
+_Siano_ $a$ e $b$ interi non-negativi tale che $a > 0$.
+_Allora_ $\exists q,r \in \mathbb{N}\ \ \ \ \ \ q \geq 0 \ \ \ \ \   0 \leq r < a$
+$$b  =  qa+r$$
+con 
+- $q$ detto _quoziente_
+- $r$ detto _resto_ 
 ##### Dimostrazione
 
 $$S = \{b-ax \mid x \text{ è un intero non-negativo e } b -ax \geq0\}$$
  Allora, $S$ non è vuoto poiché  $b − ax = b \geq 0$ se $x = 0$. Allora, per il [[Principio di buon ordinamento e induzione|Principio di buon ordinamento]] implica che $S$ ha un elemento minimo $r$.
 1. Per costruzione del ipotesi possiamo ricavare  $r = b − qa$ per qualche $q \geq 0$.
 2. Dobbiamo dimostrare che $0 \leq r < a$.
-	1. Supponiamo che $r \geq a$. Allora, $r −a=b−qa−a\geq0$ che contraddice la proprieà di minimalità di $r$. Quindi,
+	1. Supponiamo che $r \geq a$. Allora, $r −a=b−qa−a\geq0$ che contraddice la proprieta di minimalità di $r$. Quindi,
  $$b= qa + r,\ \ \ \ \ \ 0 \le r <a $$
 
 #### univocità

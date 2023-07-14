@@ -25,7 +25,7 @@ la sicurezza di rete si occupa di evitare le interferenze nei raggiungimenti di 
 	- AES: Advanced Encryption Standard 
 		- 2001 standard, sostituisce DES, 
 		- Elabora dati in blocchi di 128 bit, chiave di 128, 192, o 2
-1. [[Cifrario a chiave Asimmetrica]]
+1. [[Cifrari a chiave Asimmetrica]]
 	-  ![[Pasted image 20230113182058.png]]
 	- Ognuno possiede
 		- una sua chiave pubblica nota a tutti 

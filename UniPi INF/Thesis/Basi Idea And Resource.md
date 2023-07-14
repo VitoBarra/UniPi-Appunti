@@ -41,6 +41,8 @@ gli input della rete saranno
 risorse per [catastrophic forgetting](https://ai.stackexchange.com/questions/14117/how-is-transfer-learning-used-to-mitigate-catastrophic-forgetting-in-neural-netw) ovvero cosa succede se cerco di sfruttare il transfer.
 
 
+[reinforment learning](https://www.youtube.com/watch?v=NFo9v_yKQXA&list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
+
 
 
 

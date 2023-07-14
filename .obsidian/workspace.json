@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md"
+                "file": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
               }
             }
           },
@@ -187,32 +187,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8e9813ede661c024",
+  "active": "6e44a25d8b5adab1",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
     "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Rappresentazione in base di numeri interi.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Enumerazione.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema fondamentale del aritmetica.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Diagonalizzazione.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md",
-    "UniPi INF/Note/Complementari/Crittografia/Critto Note temp.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita tra polinomi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema della congruenza.md",
+    "UniPi INF/Thesis/Basi Idea And Resource.md",
+    "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md",
+    "UniPi INF/Note/Informatica/Transazioni.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Divisibilità dei numeri.md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Asimmetrica.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Numeri primi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Piccolo teorema di Fermat.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema della divisione.md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Asimmetrica.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md",
+    "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Support Vector Machine (SVM).md",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709184159.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709180943.png",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica DES.md",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222509.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222422.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222316.png",
@@ -220,11 +225,6 @@
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707221817.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707214636.png",
-    "UniPi INF/Note/Informatica/Transazioni.md",
-    "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Criteri di Shannon per i cifrari.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Classificazione di cifrari.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Simmetrica.md",
     "Excalidraw",
     "UniPi INF/Thesis",
     "Senza nome.canvas",
