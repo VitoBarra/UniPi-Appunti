@@ -1,20 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+      "basename": "Binary_logarithm_plot_with_ticks",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg"
     },
     {
-      "basename": "Generatori di insieme di coprimi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
+      "basename": "Numeri Pseudo Casuali",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Stringhe Casuali",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Stringhe Casuali.md"
+    },
+    {
+      "basename": "Algoritmi Randomizzati",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi Randomizzati.md"
+    },
+    {
+      "basename": "Teorema di Kormogorov",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md"
+    },
+    {
+      "basename": "Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
+    },
+    {
+      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
+    },
+    {
+      "basename": "Complessita",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
+    },
+    {
+      "basename": "Teorema di Ricorsione Kleene II",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Ricorsione Kleene II.md"
+    },
+    {
+      "basename": "Nozione di Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+    },
+    {
+      "basename": "Funzione logaritmica",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Funzione logaritmica.md"
+    },
+    {
+      "basename": "Radicale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Radicale.md"
+    },
+    {
+      "basename": "Rappresentazione di oggetti matematici con sequenze",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
+    },
+    {
+      "basename": "Ordinamento canonico",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md"
     },
     {
       "basename": "Calcolare l inverso di un numero in algebra modulare",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
     },
     {
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+    },
+    {
       "basename": "Massimo comun divisore",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md"
+    },
+    {
+      "basename": "Generatori di insieme di coprimi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
     },
     {
       "basename": "Algoritmo di Euclide per calcolare mcd",
@@ -23,10 +91,6 @@
     {
       "basename": "Divisibilita tra polinomi",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita tra polinomi.md"
-    },
-    {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
       "basename": "Teorema di Eulero",
@@ -129,76 +193,12 @@
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema fondamentale del aritmetica.md"
     },
     {
-      "basename": "Complessita",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
-    },
-    {
-      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
-    },
-    {
       "basename": "Funzioni Ricorsive Primitive",
       "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md"
     },
     {
       "basename": "Diagonalizzazione",
       "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Diagonalizzazione.md"
-    },
-    {
-      "basename": "Nozione di Calcolabilità",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md"
-    },
-    {
-      "basename": "Calcolabilità",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
-    },
-    {
-      "basename": "Numeri Pseudo Casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md"
-    },
-    {
-      "basename": "Critto Note temp",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Critto Note temp.md"
-    },
-    {
-      "basename": "Teorema di Kormogorov",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md"
-    },
-    {
-      "basename": "Rappresentazione di oggetti matematici con sequenze",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
-    },
-    {
-      "basename": "Pasted image 20230709191538",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png"
-    },
-    {
-      "basename": "Cifrario a chiave Simmetrica AES",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
-    },
-    {
-      "basename": "Pasted image 20230707222509",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222509.png"
-    },
-    {
-      "basename": "Pasted image 20230707222422",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222422.png"
-    },
-    {
-      "basename": "Pasted image 20230707195205",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png"
-    },
-    {
-      "basename": "Criteri di Shannon per i cifrari",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Criteri di Shannon per i cifrari.md"
-    },
-    {
-      "basename": "Classificazione di cifrari",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Classificazione di cifrari.md"
-    },
-    {
-      "basename": "Cifrari perfetti",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari perfetti.md"
     }
   ],
   "omittedPaths": [],

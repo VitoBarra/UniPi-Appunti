@@ -11,7 +11,6 @@ Prev: [[Algebra Lineare (AL)]]
 ---
 
 ### Definizione
-
 il radicale è definito come l’insieme dei [[Ortogonalità E Ortonormalità|vettori ortogonali]] a tutti gli altri ovvero:
 
 $$

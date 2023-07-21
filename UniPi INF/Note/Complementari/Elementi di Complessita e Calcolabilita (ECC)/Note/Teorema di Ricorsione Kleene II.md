@@ -42,7 +42,7 @@ $$\varphi_n\stackrel{3}{=}\varphi_{d(v)}\stackrel{1}{=}\varphi_{\varphi_v(v)}\st
 ## Prosperità
 nelle ipotesi del teorema di ricorsione
 - il punto fisso è calcolabile mediante una [[Funzioni|funzione totale]] e [[Funzioni|iniettiva]] $g$ a partire dal indice di $f$
-- ci sono $|\N|$ punti fissi di $f$
+- ci sono $|\mathbb{N}|$ punti fissi di $f$
 #### Dimostrazione
 1. dato h(x) calcolabile e totale tale $\forall n$ 
 $$\varphi_{h(x)}(n)=\varphi_x(d(n)) \implies g(x)=d(h(x))$$

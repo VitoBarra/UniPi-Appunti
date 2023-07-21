@@ -10,23 +10,28 @@ Prev: [[Uni MOC]]
 ## Course MOC  📒
 1. [[Continuità di una funzione]]
 2. [[Funzioni differenziabili]]
-3. Teoremi fondamentali
+3. Proprietà delle operazioni e funzioni note
+	1. [[Funzione logaritmica]]
+	2. [[Funzione esponenziale]]
+	3. [[Radice]]
+	4. 
+4. Teoremi fondamentali
 	1. [[Teorema del confronto dei carabinieri]]
 	2. [[Teorema di approssimazione di Weierstrass]]
 	3. [[Teorema di Weierstrass]]
 	4. [[Teorema di Lagrange]]
 	5. [[Teorema di Rolle]]
 	6. [[Teorema della permanenza del segno]]
-4. [[Valore assoluto]]
-5. [[Limiti]]
+5. [[Valore assoluto]]
+6. [[Limiti]]
 	1. [[Limiti notevoli]]
-6. [[Derivate fondamentali]]
-7. [[Delopithal]]
-8. [[Sviluppi di Taylor]]
-9. [[Diseguaglianza triangolare]]
-10. [[Successioni]]
-11. [[Serie geometrica]]
-12. [[Funzioni Convesse-Concave]]
+7. [[Derivate fondamentali]]
+8. [[Delopithal]]
+9. [[Sviluppi di Taylor]]
+10. [[Diseguaglianza triangolare]]
+11. [[Successioni]]
+12. [[Serie geometrica]]
+13. [[Funzioni Convesse-Concave]]
 
 
 

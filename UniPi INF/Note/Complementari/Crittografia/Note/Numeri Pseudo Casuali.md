@@ -9,22 +9,6 @@ Prev: [[Crittografia (CRI)]]
 
 # Numeri Pseudo Casuali
 ---
-Dimostrare che una [[Teorema di Kormogorov|sequenza sia casuale secondo Kormogorov]] è un problema indecidibile. 
-_DImStrazione:_
-$$Random()=\begin{cases}0 \text{    se NON casuale} \\ 1 \text{Se Casuale}\end{cases}$$
-
-
-```C
-Random()
-{
-	while(true)
-	{
-	
-	}
-}
-```
-
-
 
 
 Sequenza binaria casuale:
@@ -72,24 +56,4 @@ GENERATORE BBS
 	LA parità è difficile da verificare (Predicato hard core ovvero in un singolo predicato c è tutta la difficolta computazione )  
 
 
-2022-10-04:
-Generatore basato su cifrari simmetrici:
-	r = # bit delle parole prodotte dal cifrario
-	s = seme casuale di r bit
-	k = chiave segreta del cifrario 
-
-```C
-Generatore(s,n)
-{
-	D= rapresentazione in r bit di data e ora
-	y = C(d,k)
-	z= s
-	for(int i =0 ; i < n; i++)
-	{
-		x[i]= C(y xor Z,k)
-		Z= C(y xor x[i],k)
-		Comunicazione al esterno
-	}
-}
-```
 
