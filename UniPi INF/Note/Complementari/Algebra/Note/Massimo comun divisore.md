@@ -10,7 +10,7 @@ Prev: [[Algebra (ALG)]]
 # Massimo comun divisore
 ---
 #### Definizione
-Sia $S$ un sottoinsieme dei numeri reali $\mathbb{R}$ allora $m \in \mathbb{R}$ è una elemento massimo di $S$ se 
+Sia $S$ un [[Insiemi Matematici|sottoinsieme]] dei numeri reali $\mathbb{R}$ allora $m \in \mathbb{R}$ è una elemento massimo di $S$ se 
 1. $m \in S$
 2. $s \in S \implies s \leq m$
 in generale pero non esiste sempre un elemento massimo un sotto insieme aperto di $\mathbb{R}$ non ha un  _massimo_
@@ -38,11 +38,11 @@ nota che $D(0) = \mathbb{Z}$
 #### Preposizione
 Sia $n$ un intero diverso da zero. Allora $D(n) \subseteq \{- |n|,\dots,|n|\}$. in particolare, $D(n)$ è un insieme finito
 ##### Dimostrazione
-$m \in D(n) \implies \exists k \in \mathbb{Z} \ | \ n = km$. in particolare $k \not=0$ e $m \not=0$ perche $n \not= 0$ allora
+$m \in D(n) \implies \exists k \in \mathbb{Z} \ | \ n = km$. in particolare $k \not=0$ e $m \not=0$ perché $n \not= 0$ allora
 $$|n|=|km|=|k||m| \implies |k|,|m| \leq |n|$$
 
 #### Definizione
-Siano $a$ e $b$ interi tale che $(a,b) \not=(0,0)$ il _massimo comune divisione_ di $a$ e $b$, scritto $mcd(a,b)$ è il massimo elemento dell insieme $D(a)\cap D(b)$
+Siano $a$ e $b$ interi tale che $(a,b) \not=(0,0)$ il _massimo comune divisione_ di $a$ e $b$, scritto $mcd(a,b)$ è il massimo elemento del insieme $D(a)\cap D(b)$
 
 > [!note] note
 > se $a =0, b\not=0 \implies mcd(a,b)=b$

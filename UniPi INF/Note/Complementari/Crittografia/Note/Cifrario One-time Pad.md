@@ -83,7 +83,7 @@ questa relazione puo dare informazioni al crittoanalista, ad esempio una parte d
 
 #### Generazione delle chiavi
  abbiamo quindi il problema di non poter _riutilizzare la chiave_ e la sequenza di bit deve essere _perfettamente casuale_ 
-le chiavi sono lunghe sequenze di bit e poter generarle si potrebbero usare i [[Numeri Pseudo Casuali|generatori di numeri pseudo cusuale]] _crittograficamente sicuri_
+le chiavi sono lunghe sequenze di bit e poter generarle si potrebbero usare i [[Generazione di numeri Pseudo Casuali|generatori di numeri pseudo cusuale]] _crittograficamente sicuri_
 cosi da dover gestri solo il problema di dover dare condividere il _seme_ del generatore.
 
 ci sono due sistemi per utilizzare i generatori e sono

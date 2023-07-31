@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a5448e9b030dc6ab",
+        "id": "cd5a48aeabc33e21",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9813ede661c024",
+            "id": "0ec7b480b8dd2d91",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg"
+                "file": "Extra Note/To Read.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg",
+                "file": "Extra Note/To Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg",
+                "file": "Extra Note/To Read.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg"
+                "file": "Extra Note/To Read.md"
               }
             }
           },
@@ -156,6 +159,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1545125392b6f085",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
               "state": {}
             }
           }
@@ -184,35 +195,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e44a25d8b5adab1",
+  "active": "0ec7b480b8dd2d91",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Crittografia/Note/Numeri Pseudo Casuali.md",
+    "Extra Note/TODO.md",
+    "Extra Note/To Read.md",
+    "UniPi INF/Note/Complementari/Crittografia/Cifrari ibridi.md",
     "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Stringhe Casuali.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi Randomizzati.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Ricorsione Kleene II.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "UniPi INF/Note/1° Anno/Analisi/Funzione logaritmica.md",
-    "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Radicale.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Crittografia/Cifrario a curve Ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
     "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Pseudo Casuali.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Principi di Bacone.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Riducibilita dei problemi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md",
+    "UniPi INF/Note/Complementari/Crittografia/Generazione di numeri Primi.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita tra polinomi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Piccolo teorema di Fermat.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema della congruenza.md",
-    "UniPi INF/Thesis/Basi Idea And Resource.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md",
+    "UniPi INF/Note/Complementari/Algebra/Distribuzione dei numeri primi.md",
+    "UniPi INF/Note/Complementari/Algebra/Media/Pasted image 20230723194307.png",
+    "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709184159.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709180943.png",
@@ -221,7 +233,6 @@
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222316.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707223730.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707221817.png",
     "Excalidraw",
     "UniPi INF/Thesis",
     "Senza nome.canvas",

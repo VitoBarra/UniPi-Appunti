@@ -7,7 +7,7 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Stringhe Casuali
+# Sequenza casuali
 ---
 scelto un [[Alfabeto|alfabeto]] $A$ con $|A|=c$ _caratteri_, numeriamo tutte le sequenze costruibili $X_{0},X_{1},\dots$  ordinante con [[Ordinamento canonico|l ordine canonico]] .
 

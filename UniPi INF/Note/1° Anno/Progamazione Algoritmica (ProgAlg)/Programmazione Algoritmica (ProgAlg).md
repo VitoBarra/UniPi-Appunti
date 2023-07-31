@@ -28,6 +28,7 @@ Prev: [[Uni MOC]]
 	1. Tecniche di analisi complessità
 		1. [[Albero di decisione]]
 5. [[Programmazione Dinamica]]
+6. [[Certificato di un algoritmo]]
 
 
 

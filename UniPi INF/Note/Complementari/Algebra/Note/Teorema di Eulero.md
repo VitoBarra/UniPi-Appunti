@@ -16,7 +16,7 @@ ovvero il numero di _interi minori_ di $n$ e _coprimi_ con $n$
 se $n$ è un numero primo avremo che $\Phi(n)= (n-1)$ 
 
 ### Teorema
-_sia_ $n$ il prodotto tra due [[Numeri primi|numeri primi]] $n =pq$
+_sia_ $n$ il prodotto tra due [[Numeri primi|numeri primi]] $n =p\times q$
 vale $$\Phi(n) = (p-1)(q-1)$$
 
 ### Teorema di Eulero

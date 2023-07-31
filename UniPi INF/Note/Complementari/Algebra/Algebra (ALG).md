@@ -38,6 +38,8 @@ Prev: [[Uni MOC]]
 		1. [[Calcolare l inverso di un numero in algebra modulare]]
 	4. [[Teorema della congruenza]]
 	5. [[Generatori di insieme di coprimi]]
+	6. [[Algoritmo delle Quadrature successive o esponenziazione veloce]]
+	7. [[Teorema del resto cinese]]
 
 
 ### Educational Material 🧱

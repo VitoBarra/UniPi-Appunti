@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Cifrario a Composizione di blocchi
 ---
-nei cifrari [[Cifrario a chiave Simmetrica AES|AES]] e [[Cifrario a chiave Simmetrica DES|DES]] in caso di blocchi blocchi si producono blocchi _cifrati_ uguali inducendo una periodicità nel crittogramma che fornisce utili informazioni per la crittoanalisi. 
+Nei cifrari [[Cifrario a chiave Simmetrica AES|AES]] e [[Cifrario a chiave Simmetrica DES|DES]] dividendo il messaggi in blocchi  si possono producono blocchi _cifrati_ uguali inducendo una periodicità nel crittogramma che fornisce utili informazioni per la crittoanalisi. 
 
 una soluzione è detta _Cipher Block Chaining_ (CBC). 
 CBC utilizza il risultato della cifratura del blocco precedente per crittografare il prossimo blocco cosi facendosi si segue [[Criteri di Shannon per i cifrari|principio della diffusione di Shannon]] inducendo una dipendenza di posizione tra il blocco in elaborazione e quelli precedenti.
@@ -30,7 +30,7 @@ $$
 la  _cifratura_ sia strettamente sequenziale siccome impiega il risultato $c_{i−1}$ del passo precedente
 la _decifrazione_ puo essere eseguito in _parallelo_ se tutti i blocchi cifrati sono disponibili.
 
-per garantire che blocchi uguali non creino valori uguali bisogna utilizzare per ogni messaggio una sequenza $c_0$ diversa essa puo essere costruita in modo _[[Numeri Pseudo Casuali|pseudocasuale]]_, per esempio una marca del orario del calcolatore. questa viene spedita in chiaro con il crittogramma e scartata all’atto della _decifrazione_.
+per garantire che blocchi uguali non creino valori uguali bisogna utilizzare per ogni messaggio una sequenza $c_0$ diversa essa puo essere costruita in modo _[[Generazione di numeri Pseudo Casuali|pseudocasuale]]_, per esempio una marca del orario del calcolatore. questa viene spedita in chiaro con il crittogramma e scartata all’atto della _decifrazione_.
 Tutto ciò non pregiudica in alcun modo la robustezza del sistema crittografico. I vantaggi offerti dal metodo CBC dovrebbero essere evidenti. 
 
 I processi di cifratura e decifrazione non sono apprezzabilmente piu lenti di quelli del _cifrario originale_ poiché le operazioni di composizione impiegano esclusivamente l’operazione di XOR. 
