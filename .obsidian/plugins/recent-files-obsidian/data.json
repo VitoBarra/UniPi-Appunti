@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "To Read",
-      "path": "Extra Note/To Read.md"
+      "basename": "Cifrari ibridi",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
     },
     {
-      "basename": "Cifrari ibridi",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Cifrari ibridi.md"
+      "basename": "Tipologia di attacchi per scoprire il messaggio criptato",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md"
+    },
+    {
+      "basename": "Generatori di insieme di coprimi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
     },
     {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
+      "basename": "Confronto cifrari simmetrici e asimmetrici",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md"
+    },
+    {
       "basename": "Cifrario a curve Ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Cifrario a curve Ellittiche.md"
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md"
     },
     {
       "basename": "Cifrario Asimmetrico RSA",
@@ -23,6 +31,26 @@
     {
       "basename": "Cifrario a Composizione di blocchi",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md"
+    },
+    {
+      "basename": "Cifrari a chiave Asimmetrica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Asimmetrica.md"
+    },
+    {
+      "basename": "Cifrario a chiave Simmetrica AES",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
+    },
+    {
+      "basename": "Test di primalità Miller-Rabin",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md"
+    },
+    {
+      "basename": "Metodo dei punti fissi",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+    },
+    {
+      "basename": "To Read",
+      "path": "Extra Note/To Read.md"
     },
     {
       "basename": "Teorema di Eulero",
@@ -39,10 +67,6 @@
     {
       "basename": "Calcolare l inverso di un numero in algebra modulare",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
-    },
-    {
-      "basename": "Test di primalità Miller-Rabin",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md"
     },
     {
       "basename": "Generazione di numeri Pseudo Casuali",
@@ -70,15 +94,11 @@
     },
     {
       "basename": "Generazione di numeri Primi",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Generazione di numeri Primi.md"
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Primi.md"
     },
     {
       "basename": "Massimo comun divisore",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md"
-    },
-    {
-      "basename": "Generatori di insieme di coprimi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
     },
     {
       "basename": "Insieme dei coprimi",
@@ -93,16 +113,12 @@
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md"
     },
     {
-      "basename": "Cifrario a chiave Simmetrica AES",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
-    },
-    {
       "basename": "Distribuzione dei numeri primi",
       "path": "UniPi INF/Note/Complementari/Algebra/Distribuzione dei numeri primi.md"
     },
     {
       "basename": "Algoritmo delle Quadrature successive o esponenziazione veloce",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Algoritmo delle Quadrature successive o esponenziazione veloce.md"
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmo delle Quadrature successive o esponenziazione veloce.md"
     },
     {
       "basename": "Programmazione Algoritmica (ProgAlg)",
@@ -183,18 +199,6 @@
     {
       "basename": "Algoritmo di partia per il controllo degli errori",
       "path": "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md"
-    },
-    {
-      "basename": "Transazioni",
-      "path": "UniPi INF/Note/Informatica/Transazioni.md"
-    },
-    {
-      "basename": "Divisibilità dei numeri",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilità dei numeri.md"
-    },
-    {
-      "basename": "Algebra modulare",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md"
     }
   ],
   "omittedPaths": [],

@@ -67,7 +67,7 @@ Ora per verificare che un numero $N$ sia primo si puo procedere con il seguente 
 	\end{algorithmic}
 	\end{algorithm}
 ```
-Se il risultato è 0 di questo algoritmo è 0 abbiamo che il numero $N$ sicuramente _non è primo_ ma se il risultato è 1 sappiamo che $N$ è [[Numeri primi|primo]] con probabilità $\left( 1-\left(\cfrac{1}{4}\right)^{k} \right)$ questo viene dal fatto che la [[Probabilità e variabili aleatorie|probabilità]] di scegliere un $y$ che soddisfa i predicati con $N$ non primo è  $\cfrac{1}{4}$ ed ad ogni nuova scelta di $y$  la probabilità di questa cosa si moltiplica, convertendo al evento a quello inverso abbiamo il valore indicato prima. 
+Se il risultato è $0$ di questo algoritmo è $0$ abbiamo che il numero $N$ sicuramente _non è primo_ ma se il risultato è 1 sappiamo che $N$ è [[Numeri primi|primo]] con probabilità $\left( 1-\left(\cfrac{1}{4}\right)^{k} \right)$ questo viene dal fatto che la [[Probabilità e variabili aleatorie|probabilità]] di scegliere un $y$ che soddisfa i predicati con $N$ non primo è  $\cfrac{1}{4}$ ed ad ogni nuova scelta di $y$  la probabilità di questa cosa si moltiplica, convertendo al evento a quello inverso abbiamo il valore indicato prima. 
 
 >[!warning]
 >questo funziona a patto che le scelte delle $y$ sia [[Indipendenza Stocastica|indipendenti]] utilizzano quindi un [[Generazione di numeri Pseudo Casuali|generatore di numeri pseudo casuli]] _crittograficamente sicuro_

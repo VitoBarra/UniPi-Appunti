@@ -18,7 +18,7 @@ essendo $\Phi(n)=|\mathcal{Z}_{n}^{*}|$ una sola ripetizione lascerebbe qualche 
 per il [[Teorema di Eulero|teorema di eulero]] sappiamo che $a^{\Phi(n)} \mod n=1$ e per $k=\Phi(n)$ l espressione genera $1$ che è sempre elemento di  $\mathcal{Z}_{n}^{*}$. 
 e deve quindi valere anche che $$a^{k} \not\equiv 1 \mod n \ \ \ \ \ 1 \leq k < \Phi(n)$$
 ### Teorema
-per ogni $n$ [[Numeri primi|primo]], $\mathcal{Z}_{n}^{*}$ ammette almeno un generatore
+per ogni $n$ [[Numeri primi|primo]], $\mathcal{Z}_{n}^{*}$ _ammette almeno_ un generatore
 
 ### Teorema
 per ogni $n$ [[Numeri primi|primo]], $\mathcal{Z}_{n}^{*}$ ammette esattamente $\Phi(n-1)$ generatori

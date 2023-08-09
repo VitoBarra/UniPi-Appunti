@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,6 +80,14 @@
           "type": "recent-files",
           "state": {}
         }
+      },
+      {
+        "id": "363dbee9ab33b350",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -102,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -119,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -131,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
           }
         }
       },
@@ -165,8 +173,20 @@
   },
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
-    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
+    "IMG_0598.jpeg",
+    "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari a chiave Asimmetrica.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
@@ -180,17 +200,6 @@
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo della bisezione.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Ordine di convergenza.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di autovalori.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Criterio di Stop per metodi iterativi.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi Iterativi per soluzioni di sistemi lineari.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Matrici elementari di gauss ed il metodo di eliminazione gaussiana.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Predominanza diagonale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Raggio spettrale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema compatibilità delle norme.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media/binarysearch.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
@@ -201,7 +210,6 @@
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510232155.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510215538.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230516004029.png",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",
     "Extra Note/Geometria Analitica",
