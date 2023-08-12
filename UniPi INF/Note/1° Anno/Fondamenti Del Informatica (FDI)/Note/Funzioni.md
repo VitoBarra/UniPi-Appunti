@@ -9,8 +9,10 @@ Prev: [[Fondamenti Del Informatica (FDI)]]
 
 # Funzioni
 ---
-Una _funzione_ è definita come $f \subseteq A \times B$ quindi un sottoinsieme di una  [[Relazioni|Relazione]] su insiemi
+Una _funzione_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una  [[Relazioni|Relazione]] su [[Insiemi Matematici|insiemi]]
 
+una natazione alternativa è quella del _mapping_ indicata come
+$$f:A \rightarrow B$$
 ## Proprietà
 
 ### Funzioni Biunivoche

@@ -21,5 +21,5 @@ dove $$c^{a}=b$$
 4. _Cambio di base_: $$log_ax = \frac{log_cx}{log_ca} $$
 5. _Proprietà dell'inverso_: $$a^{(\log_{a}(x))} = x$$
 
-### Esempio di logaritmo visuale 
+### Grafico di un logaritmo
 ![[Binary_logarithm_plot_with_ticks.svg]]

@@ -10,7 +10,7 @@ Prev: [[Algebra (ALG)]]
 # Teorema di Eulero
 ---
 ## Funzione di Eulero
-sia un  $n\in \mathbb{N}$ con $n>1$ si definisce la _funzione di euloero_ come 
+sia un  $n\in \mathbb{N}$ con $n>1$ si definisce la _funzione di euloro_ come 
 $$\Phi(n) = |\mathcal{Z_{n}^{*}}|$$
 ovvero il numero di _interi minori_ di $n$ e _coprimi_ con $n$
 se $n$ è un numero primo avremo che $\Phi(n)= (n-1)$ 

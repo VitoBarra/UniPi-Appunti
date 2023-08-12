@@ -1,6 +1,178 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20230812035526",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png"
+    },
+    {
+      "basename": "Cifrario a curve Ellittiche",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md"
+    },
+    {
+      "basename": "Residui quadratici",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Residui quadratici.md"
+    },
+    {
+      "basename": "Insieme dei coprimi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md"
+    },
+    {
+      "basename": "Campi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Campi.md"
+    },
+    {
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Teorema del resto cinese",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema del resto cinese.md"
+    },
+    {
+      "basename": "Algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md"
+    },
+    {
+      "basename": "Gruppo abeliano",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Gruppo abeliano.md"
+    },
+    {
+      "basename": "Gruppi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Gruppi.md"
+    },
+    {
+      "basename": "Strutture algebriche",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Strutture algebriche.md"
+    },
+    {
+      "basename": "Teorema di Eulero",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md"
+    },
+    {
+      "basename": "Inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md"
+    },
+    {
+      "basename": "Tipi di Errore nel calcolo numerico",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md"
+    },
+    {
+      "basename": "Calcolo Numerico(CN)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+    },
+    {
+      "basename": "Errori nel calcolo di una funzione razionale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Errori nel calcolo di una funzione razionale.md"
+    },
+    {
+      "basename": "Calcolo di una funzione non razionale",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md"
+    },
+    {
+      "basename": "Insieme dei numeri di macchina",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md"
+    },
+    {
+      "basename": "Differenziazione Implicita",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Funzione logaritmica",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md"
+    },
+    {
+      "basename": "Delopithal",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Delopithal.md"
+    },
+    {
+      "basename": "Teorema di Rolle",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md"
+    },
+    {
+      "basename": "Teorema della permanenza del segno",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md"
+    },
+    {
+      "basename": "Retta",
+      "path": "Superiori/Geometria Analitica/Note/Retta.md"
+    },
+    {
+      "basename": "Geometria analitica (GA)",
+      "path": "Superiori/Geometria Analitica/Geometria analitica (GA).md"
+    },
+    {
+      "basename": "Cifrario Asimmetrico RSA",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
+    },
+    {
+      "basename": "Algebra Lineare (AL)",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
+    },
+    {
+      "basename": "Funzioni differenziabili",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Funzioni differenziabili.md"
+    },
+    {
+      "basename": "Sviluppi di Taylor",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md"
+    },
+    {
+      "basename": "Derivate fondamentali",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Derivate fondamentali.md"
+    },
+    {
+      "basename": "Cifrari perfetti",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari perfetti.md"
+    },
+    {
+      "basename": "Spazio Vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
+    },
+    {
+      "basename": "Proprietà del operazioni-Associativà",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Proprietà del operazioni-Associativà.md"
+    },
+    {
+      "basename": "Elemento Neutro o identita di un operazione",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Elemento Neutro o identita di un operazione.md"
+    },
+    {
+      "basename": "Elemento inverso di un operazione",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Elemento inverso di un operazione.md"
+    },
+    {
+      "basename": "Proprietà del operazioni-Commutatività",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Proprietà del operazioni-Commutatività.md"
+    },
+    {
+      "basename": "Operazioni algebriche",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni algebriche.md"
+    },
+    {
+      "basename": "Funzioni",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md"
+    },
+    {
+      "basename": "Relazioni",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni.md"
+    },
+    {
+      "basename": "Insiemi Matematici",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md"
+    },
+    {
+      "basename": "Operazioni chiuse",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni chiuse.md"
+    },
+    {
       "basename": "Cifrari ibridi",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
     },
@@ -13,20 +185,8 @@
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
     },
     {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
-    },
-    {
       "basename": "Confronto cifrari simmetrici e asimmetrici",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md"
-    },
-    {
-      "basename": "Cifrario a curve Ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md"
-    },
-    {
-      "basename": "Cifrario Asimmetrico RSA",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
     },
     {
       "basename": "Cifrario a Composizione di blocchi",
@@ -39,166 +199,6 @@
     {
       "basename": "Cifrario a chiave Simmetrica AES",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md"
-    },
-    {
-      "basename": "Test di primalità Miller-Rabin",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md"
-    },
-    {
-      "basename": "Metodo dei punti fissi",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md"
-    },
-    {
-      "basename": "To Read",
-      "path": "Extra Note/To Read.md"
-    },
-    {
-      "basename": "Teorema di Eulero",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md"
-    },
-    {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Algoritmo di Euclide per calcolare mcd",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md"
-    },
-    {
-      "basename": "Calcolare l inverso di un numero in algebra modulare",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
-    },
-    {
-      "basename": "Generazione di numeri Pseudo Casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Pseudo Casuali.md"
-    },
-    {
-      "basename": "Principi di Bacone",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Principi di Bacone.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
-    },
-    {
-      "basename": "Riducibilita dei problemi",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Riducibilita dei problemi.md"
-    },
-    {
-      "basename": "Funzioni One-Way Trapdoor",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md"
-    },
-    {
-      "basename": "Generazione di numeri Primi",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Primi.md"
-    },
-    {
-      "basename": "Massimo comun divisore",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md"
-    },
-    {
-      "basename": "Insieme dei coprimi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md"
-    },
-    {
-      "basename": "Piccolo teorema di Fermat",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Piccolo teorema di Fermat.md"
-    },
-    {
-      "basename": "Inverso di un numero in algebra modulare",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md"
-    },
-    {
-      "basename": "Distribuzione dei numeri primi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Distribuzione dei numeri primi.md"
-    },
-    {
-      "basename": "Algoritmo delle Quadrature successive o esponenziazione veloce",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmo delle Quadrature successive o esponenziazione veloce.md"
-    },
-    {
-      "basename": "Programmazione Algoritmica (ProgAlg)",
-      "path": "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md"
-    },
-    {
-      "basename": "Algoritmi Randomizzati",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi Randomizzati.md"
-    },
-    {
-      "basename": "Teorema fondamentale del aritmetica",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema fondamentale del aritmetica.md"
-    },
-    {
-      "basename": "Numeri primi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Numeri primi.md"
-    },
-    {
-      "basename": "Sequenza casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md"
-    },
-    {
-      "basename": "Binary_logarithm_plot_with_ticks",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg"
-    },
-    {
-      "basename": "Teorema di Kormogorov",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Teorema di Kormogorov.md"
-    },
-    {
-      "basename": "Calcolabilità",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
-    },
-    {
-      "basename": "Complessita",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
-    },
-    {
-      "basename": "Teorema di Ricorsione Kleene II",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Teorema di Ricorsione Kleene II.md"
-    },
-    {
-      "basename": "Nozione di Calcolabilità",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Funzione logaritmica",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Funzione logaritmica.md"
-    },
-    {
-      "basename": "Radicale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Radicale.md"
-    },
-    {
-      "basename": "Rappresentazione di oggetti matematici con sequenze",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
-    },
-    {
-      "basename": "Ordinamento canonico",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md"
-    },
-    {
-      "basename": "Divisibilita tra polinomi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Divisibilita tra polinomi.md"
-    },
-    {
-      "basename": "Basi Idea And Resource",
-      "path": "UniPi INF/Thesis/Basi Idea And Resource.md"
-    },
-    {
-      "basename": "Algoritmo di partia per il controllo degli errori",
-      "path": "UniPi INF/Note/Informatica/Algoritmo di partia per il controllo degli errori.md"
     }
   ],
   "omittedPaths": [],

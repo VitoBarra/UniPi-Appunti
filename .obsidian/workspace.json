@@ -1,22 +1,19 @@
 {
   "main": {
-    "id": "03c1f15486cc4979",
+    "id": "3ea686aa8d179033",
     "type": "split",
     "children": [
       {
-        "id": "cd5a48aeabc33e21",
+        "id": "bc9d3692e32b93a4",
         "type": "tabs",
         "children": [
           {
-            "id": "0ec7b480b8dd2d91",
+            "id": "8206cbbc6448f536",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Extra Note/To Read.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png"
               }
             }
           }
@@ -26,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "094dbac1a98f8a2e",
+    "id": "6c33f7afc137e5d1",
     "type": "split",
     "children": [
       {
-        "id": "e3bc27cc321592fd",
+        "id": "ee99a43662cde4f8",
         "type": "tabs",
         "children": [
           {
-            "id": "6e44a25d8b5adab1",
+            "id": "d38bfb8f13276d3b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +41,7 @@
             }
           },
           {
-            "id": "c031ec425c0e40ca",
+            "id": "de948ba694558223",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,26 +56,18 @@
             }
           },
           {
-            "id": "5abb40ed398135e4",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "c65ba569ba518b61",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "bb08cae72f31fb8b",
+            "id": "c0ee1f095a275ad3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "bae3dba587ff7fe1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -89,20 +78,28 @@
     "width": 300
   },
   "right": {
-    "id": "dadc4c844a3686b6",
+    "id": "c5a8c80533b8892f",
     "type": "split",
     "children": [
       {
-        "id": "b4019ddf31f10f0d",
+        "id": "740cc69e4fb24284",
         "type": "tabs",
         "children": [
           {
-            "id": "f6fdc056a0cfe7b0",
+            "id": "dcbb2d741041b563",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae8738ec6f9fa626",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extra Note/To Read.md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +111,19 @@
             }
           },
           {
-            "id": "29380b0997bd6ad1",
+            "id": "e5a72e19a09580b9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extra Note/To Read.md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bc142ad36ad3638e",
+            "id": "4327429e85244b8f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,41 +134,16 @@
             }
           },
           {
-            "id": "2aaad1a05a00069d",
+            "id": "cb31db7019541405",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extra Note/To Read.md"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png"
               }
             }
-          },
-          {
-            "id": "e3238178290bc317",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ff5f43eaad4d7bf3",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "1545125392b6f085",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,70 +152,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Crea nuova lavagna": false,
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "markdown-importer:Apri importazione Markdown": false,
-      "audio-recorder:Avvia/ferma registrazione": false,
-      "workspaces:Gestisci layout delle aree di lavoro": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0ec7b480b8dd2d91",
+  "active": "d38bfb8f13276d3b",
   "lastOpenFiles": [
-    "Extra Note/TODO.md",
-    "Extra Note/To Read.md",
-    "UniPi INF/Note/Complementari/Crittografia/Cifrari ibridi.md",
-    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia/Cifrario a curve Ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
-    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Test di primalità Miller-Rabin.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Pseudo Casuali.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Principi di Bacone.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Riducibilita dei problemi.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md",
-    "UniPi INF/Note/Complementari/Crittografia/Generazione di numeri Primi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
+    "UniPi INF/Note/Complementari/Algebra/Note/Residui quadratici.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Piccolo teorema di Fermat.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Campi.md",
+    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema del resto cinese.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Gruppo abeliano.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Gruppi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Strutture algebriche.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811205047.png",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a chiave Simmetrica AES.md",
-    "UniPi INF/Note/Complementari/Algebra/Distribuzione dei numeri primi.md",
-    "UniPi INF/Note/Complementari/Algebra/Media/Pasted image 20230723194307.png",
-    "UniPi INF/Note/1° Anno/Analisi/Media/Binary_logarithm_plot_with_ticks.svg",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709191538.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709184159.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230709180943.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222509.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222422.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707222316.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707223730.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230707195205.png",
-    "Excalidraw",
-    "UniPi INF/Thesis",
-    "Senza nome.canvas",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Errori nel calcolo di una funzione razionale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811105325.png",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Delopithal.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md",
+    "Superiori/Geometria Analitica/Note/Retta.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230810135800.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/qr-code.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616204842.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616192930.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png",
+    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175757.png",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Generational",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)",
-    "Superiori",
-    "Superiori/Geometria Analitica/Media",
-    "Superiori/Geometria Analitica/Note",
-    "Superiori/Geometria Analitica",
-    "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
-    "Senza nome 1.canvas"
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media",
+    "UniPi INF/Note/Complementari/Crittografia/Note",
+    "UniPi INF/Note/Complementari/Crittografia/Media",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
+    "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
+    "UniPi INF/Note/Complementari/Cloud Computing (CC)/Media"
   ]
 }
