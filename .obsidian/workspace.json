@@ -11,9 +11,25 @@
             "id": "8206cbbc6448f536",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ddbd4cfff766fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -99,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md"
               }
             }
           }
@@ -169,50 +185,51 @@
   },
   "active": "d38bfb8f13276d3b",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
-    "UniPi INF/Note/Complementari/Algebra/Note/Residui quadratici.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Campi.md",
-    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario ElGamal.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
     "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema del resto cinese.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Gruppo abeliano.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Gruppi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Strutture algebriche.md",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811205047.png",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tipi di Errore nel calcolo numerico.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Errori nel calcolo di una funzione razionale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Calcolo di una funzione non razionale.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811105325.png",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi di firma digitale su curve ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/NON-Fungibile Token (NFT).md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230819182515.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230819205959.png",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Smart Contracts.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Moneta elettronica Bit Coin.md",
+    "UniPi INF/Note/Complementari/Teoria del informazione/Teoria del informazione (TDI).md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Alberi di decisione per AI.md",
+    "UniPi INF/Note/Complementari/Teoria del informazione",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
     "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Delopithal.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md",
-    "Superiori/Geometria Analitica/Note/Retta.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230817012508.png",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Protocollo di identificazione Fiat-Shamir.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Protocolli Zero Knowledge.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Protocollo Secure socket layer (SSL).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Pseudo Casuali.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Certification Authority.md",
+    "UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di trasporto.md",
+    "UniPi INF/Note/3° Anno/Reti - lab 3/Reti - lab 3.md",
+    "UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Sicurezza di una rete.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Protocolli di firma digitale.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Identificazione, autentificazione, Firma digitale.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Protocolli di Autenticazione.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230814181120.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230813213859.png",
+    "Extra Note/Preject Idea and Managment/BalisongCobo Finder",
+    "Extra Note/Preject Idea and Managment",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230812035526.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811205047.png",
+    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230811105325.png",
     "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230810135800.png",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/qr-code.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616204842.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616192930.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616190303.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175820.png",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media/Pasted image 20230616175757.png",
     "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Media/Generational",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note",
     "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Media",
     "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note",
     "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Media",
     "UniPi INF/Note/Complementari/Crittografia/Note",
-    "UniPi INF/Note/Complementari/Crittografia/Media",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note",
-    "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
-    "UniPi INF/Note/Complementari/Cloud Computing (CC)/Media"
+    "UniPi INF/Note/Complementari/Crittografia/Media"
   ]
 }

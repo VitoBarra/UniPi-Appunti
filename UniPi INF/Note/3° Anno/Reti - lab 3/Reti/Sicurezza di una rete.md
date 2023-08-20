@@ -19,10 +19,10 @@ la sicurezza di rete si occupa di evitare le interferenze nei raggiungimenti di 
 		- Es. Cifratura di Cesare (k-shift) 
 	- Cifrari polialfabetici 
 		- Cifrari a blocchi 
-	- DES: Data Encryption Standard 
+	- [[Cifrario a chiave Simmetrica DES|DES]]: Data Encryption Standard 
 		- Cifrario a blocchi 
 		- Chiave di cifratura 56 bit 
-	- AES: Advanced Encryption Standard 
+	- [[Cifrario a chiave Simmetrica AES|AES]]: Advanced Encryption Standard 
 		- 2001 standard, sostituisce DES, 
 		- Elabora dati in blocchi di 128 bit, chiave di 128, 192, o 2
 1. [[Cifrari a chiave Asimmetrica]]
@@ -43,9 +43,9 @@ si utilizza una chiave segreta condivisa.
 la chiave segreta può essere pero ripudiata si implementa cosi la 
 #### Firma digitale
 ![[Pasted image 20230113182906.png]]
-si cripta il messaggio con la chiave privata e lo si decripta con la pubblica
+nella [[Protocolli di firma digitale|firma digitale]] si cripta il messaggio con la chiave privata e lo si decripta con la pubblica
 - Problema ancora non risolto perché A può cambiare chiave
-- ci si affida a terza parti
+- ci si affida a terza parti le [[Certification Authority|Certification Authority]]
 
 ### IPSec
 Insieme di protocolli per fornire sicurezza a livello rete 

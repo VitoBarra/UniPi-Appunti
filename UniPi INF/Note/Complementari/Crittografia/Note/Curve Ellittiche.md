@@ -7,7 +7,7 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Cifrario a curve Ellittiche
+# Curve Ellittiche
 ---
 è un tipo di cifrario a [[Cifrari a chiave Asimmetrica|chiave asimmetrica]] quindi abbiamo il concetto di _chiave pubblica_ e _chiave privata_.
 
@@ -86,7 +86,7 @@ _se_ $Q \not= - P$ altrimenti $R =-R= O$
 _allora_ si può trovare il punto $-R=S=(x_{S},y_{S})$ come 
 $$
 \begin{array} {}
-x_{S} & = & \lambda -x_{P}-x_{Q} \\
+x_{S} & = & \lambda^{2} -x_{P}-x_{Q} \\
 y_{S}  & =  & -y_{P}+\lambda(x_{P}-x_{S})
 \end{array}$$
  dove $\lambda= \cfrac{y_{Q}-y_{P}}{x_{Q}-x_{P}}$ ovvero il [[Retta|coefficiente angolare]] della _retta_ passante per i punti $P$ e $Q$
@@ -135,11 +135,11 @@ sotto l assunzione che  $x^{3}+ax+b \mod  p$ non ha _radici multiple_ _ovvero va
 
 Le regole per calcolare $P+Q$ si possono riadattare dalla _versione continua_ facendo le operazioni in modulo quindi vale
 $$\begin{array} {}
-x_{S} & = & \lambda -x_{P}-x_{Q} \mod  p \\
+x_{S} & = & \lambda^{2} -x_{P}-x_{Q} \mod  p \\
 y_{S}  & =  & -y_{P}+\lambda(x_{P}-x_{S}) \mod  p
 \end{array}$$
 con $\lambda= \cfrac{y_{Q}-y_{P}}{x_{Q}-x_{P}} \mod  p$ nel caso $Q \not= \pm P$
-con $\lambda =\cfrac{3x^{2}_{P}+a}{2y_{P}} \mod  p$ nel caso $Q = P$. in questo caso $S = 2P$ e si deve calcolare l [[Inverso di un numero in algebra modulare|inverso]] del denominatore che _esiste unico_ [[Inverso di un numero in algebra modulare#Teorema esistenza ed unicità del inverso|perche]] $p$ [[Numeri primi|primo]]   
+con $\lambda =\cfrac{3x^{2}_{P}+a}{2y_{P}} \mod  p$ nel caso $Q = P$. in questo caso $S = 2P$ e si deve calcolare l [[Inverso di un numero in algebra modulare|inverso]] in modulo del denominatore che _esiste unico_ [[Inverso di un numero in algebra modulare#Teorema esistenza ed unicità del inverso|perche]] $p$ [[Numeri primi|primo]]   
 
 
 #### Ordine della curva
@@ -162,3 +162,47 @@ Valori diversi di $x$ possono generare lo _stesso residuo quadratico_ e quindi p
 	i valori sulla sinistra sono i valori di $y^{2}\mod 7$ che come si vede sono solo gli scarti quadratici, questi si ripetono per simmetria.
 	mentre i valori in altro sono i valori di $x^{3}+x \mod  7$ $a=1,b=0$ 
 	come si vede valori diversi di $x$ possono dare piu volte lo stesso _scarto quadratico_
+
+
+##### Teorema di Hasse
+_Sia_ $E(a,b)$ una curva ellittica
+_Allora_ L ordine $N$ di $E(a,b)$ verifica la diseguaglianza
+$$|N-(p+1)| \leq 2 \sqrt{ q }$$
+
+
+#### ordine di un punto
+l ordine di un punto su una _curva ellittica_ è il più piccolo intero positivo $n$ tale che $nP=O$  
+alcune proprietà del ordine dei punti sono
+- $n < N$ dove $N$ è l ordine della curva.
+	- il numero di salti su punti distinti minore del numero di punti, il minore stretto perché $N$ siccome si deve escludere il punto di partenza
+> [!question]-
+> si potrebbe tonare in un punto e generare un ciclo? capire se è possibile che succeda 
+### Curva ellittica binaria
+sono curve ellittiche dove coefficienti e valori vengono dal [[Campi|campo]] $GF(2^{m})$ dove $GF$ sta per [[Campo di Galois|Campo di Galois]]. Costituito da $2^{m}$ elementi che si possono pensare come tutti gli interi binari di $m$ cifre.
+
+La [[Campi#Caratteristica|Caratteristica]] di questo campo è 2 di conseguenza non si può utilizzare la _forma normale di Weierstrass_ e avremmo che la curva ellittica è definita come
+$$E_{2^{m}}(a,b)\{(x,y)\in  GF(2^{m})^{2}\mid y^{2}+xy=x^{3}+ax^{2}+b\} \cup \{O\}$$
+con $a,b \in GF(2^{m})$ 
+
+#### Definizione di somma
+se $b \not = 0$ possiamo dire che $E_{2^{m}(a,b)}$ è un [[Gruppo abeliano|gruppo abeliano additivo]] con la addizione definita come
+
+- $\forall P =(x_{p},y_{p}) \in E_{2^{m}}(a,b) : P+O =P$ e $-P = (x_{P},x_{P}+y_{P})$
+- $\forall P,Q \in E_{2^{m}(a,b)}$ con $P \not = \pm Q$ si ha che $P+Q=S$ dove $$\begin{array}é*
+	x_{S}  & =  & \lambda^{2}+\lambda+x_{P}+x_{Q}+a  \\
+	y_{P} &  =  & \lambda(x_{P}+x_{S})+x_{S}+y_{P}
+\end{array}$$ dove $\lambda = \cfrac{y_{P}+y_{Q}}{x_{P}+x_{Q}}$
+- $\forall P =(x_{p},y_{p}) \in E_{2^{m}}(a,b), 2P=O$ se $x_{P}=0$ altrimenti $2P=S$ con $$\begin{array}{}
+x_{S}  & =  & \lambda^{2}+\lambda +a \\
+y_{S}  & =   & x^{2}_{P}+(\lambda+1)x_{S}
+\end{array}$$dove $\lambda = \cfrac{x_{P}+y_{P}}{x_{P}}$
+
+
+#### Ordine della curva
+Anche per la _curva ellittica binaria_ vale il _teorema di hassel_ e quindi abbiamo che l ordine della curva $E_{2^{m}}(a,b)$ soddisfa l equazione  
+$$|N -(2^{m}+1)| \leq 2 r\sqrt{2^{m}}$$
+
+
+### Confronto curve prime e curve binarie
+per come sono fatte le _curve binarie prime_ sono più adatte al software mentre le _curve ellittiche binarie_ sono più adatte al hardware
+

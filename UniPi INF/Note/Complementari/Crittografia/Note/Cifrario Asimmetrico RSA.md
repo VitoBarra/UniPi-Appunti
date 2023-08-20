@@ -49,7 +49,7 @@ Per poter dimostrare questo teorema notiamo che  possiamo [[Algebra modulare|pro
 
 Per completare la dimostrazione dobbiamo analizzare de casi
 
-_caso_ $p,q$ non [[Divisibilità dei numeri|dividano]] $m$:
+_caso_ $p,q$ non [[Divisibilità tra numeri|dividano]] $m$:
 	abbiamo che il [[Massimo comun divisore|Massimo comun divisore]] $MCD(m,n)=1$ ovvero sono [[Numeri primi|coprimi]] e quindi per il [[Teorema di Eulero|Teorema di Eulero]] abbiamo che vale $m^{\Phi(n)} \equiv 1 \mod n$ 
 	essendo $d$ l inverso di $e \mod \Phi(n)$ ho che vale $e \times d \equiv 1 \mod \Phi(n) \implies e \times d=1+r\Phi(n)$ con $r$ positivo e opportuno.
 	otteniamo quindi 

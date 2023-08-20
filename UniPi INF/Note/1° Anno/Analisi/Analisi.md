@@ -38,5 +38,9 @@ Prev: [[Uni MOC]]
 
 
 
+
+
+### Exstra
+1. [Compattezza di insieme](https://www.youtube.com/watch?v=td7Nz9ATyWY)
 ### Educational Material 🧱
 1. 

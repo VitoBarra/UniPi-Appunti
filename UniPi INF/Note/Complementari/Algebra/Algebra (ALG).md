@@ -9,7 +9,7 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Principio di buon ordinamento e induzione]]
-2. [[Divisibilità dei numeri]]
+2. [[Divisibilità tra numeri]]
 3. [[Tipi di dimostrazione]]
 4. [[Numeri primi]]
 	1. [[Insieme dei coprimi]]

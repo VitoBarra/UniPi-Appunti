@@ -35,6 +35,7 @@ Prev: [[Studi MOC]]
 	- [[Algebra (ALG)]]
 	- [[Cloud and Green Computing]]
 	- [[Sicurezza di sistema ICT]]
+	- [[Teoria del informazione (TDI)]]
 - Informatica
 	- [[Transazioni]]
 - Orientamento professionale ITC

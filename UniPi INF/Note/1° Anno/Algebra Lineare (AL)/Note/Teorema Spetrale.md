@@ -1,11 +1,11 @@
 ---
 type: nota
-course: Algebra
+course: Algebra Lineare
 topic: 
-tags: ALG
+tags: AL
 ---
 
-Prev: [[Algebra (ALG)]]
+Prev: [[Algebra Lineare (AL)]]
 
 # Teorema Spetrale
 ---

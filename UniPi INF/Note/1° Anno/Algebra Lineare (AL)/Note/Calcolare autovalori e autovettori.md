@@ -1,15 +1,15 @@
 ---
 type: nota
-course: Algebra
+course: Algebra Lineare
 topic: 
-tags: ALG
+tags: AL
 ---
 
-Prev: [[Algebra (ALG)]]
+Prev: [[Algebra Lineare (AL)]]
 
 # Calcolare autovalori e autovettori
 ---
-per calcolare i [[Calcolare autovalori e autovettori|autovettori]] dobbiamo prima calcolare il _polinomio caratteristico definito_ come
+Per calcolare i [[Calcolare autovalori e autovettori|autovettori]] di una [[Matrice]] dobbiamo prima calcolare il _[[Polinomi|polinomio]] caratteristico definito_ come
 
 $$
 P_A(\lambda)=det(A-\lambda I_n)=det

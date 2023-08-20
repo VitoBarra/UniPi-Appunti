@@ -45,7 +45,7 @@ il _generatore lineare_ è un generatore di numeri _pseudo casuali_ che dati $a,
 per garantire una periodo lungo e quindi _indure una permutazione_ dei numeri $1,\dots,m-1$ si deve scegliere 
 - $m$ grande
 - $MCD(b,m)=1$ ovvero devono essere [[Numeri primi|coprimi]] 
-- $a-1$ deve essere [[Divisibilità dei numeri|divisibile]] per ogni [[Teorema fondamentale del aritmetica|fattore primo]] di $m$ 
+- $a-1$ deve essere [[Divisibilità tra numeri|divisibile]] per ogni [[Teorema fondamentale del aritmetica|fattore primo]] di $m$ 
 - _se_ $m$ è un multiplo di $4$ anche $a-1$ deve essere un multiplo di $4$ 
 
 

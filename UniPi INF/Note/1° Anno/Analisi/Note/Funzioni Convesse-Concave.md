@@ -1,15 +1,15 @@
 ---
 type: nota
-course: Algebra
+course: Analisi
 topic: 
-tags: ALG
+tags: Analisi
 ---
 
 Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
-# Funzioni Convesse-Comcave
+# Funzioni Convesse-Concave
 ---
-le la convessità o concavità delle [[Funzioni|funzioni]]  è un proprieta calcolabile con le [[DErivata|Derivate]] terza 
+le la convessità o concavità delle [[Funzioni|funzioni]]  è un proprietà calcolabile con le [[DErivata|Derivate]] terza 
 ![[C11CD0AD-4125-425F-A642-5B942C386D38.gif]]
 ### Proprietà
 - _convessa_: esistono più minimi tutti uguali 

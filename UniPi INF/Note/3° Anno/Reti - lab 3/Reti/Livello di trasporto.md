@@ -9,7 +9,7 @@ Prev: [[Reti - lab 3]]
 
 # Livello di trasporto
 ---
-il livello di trasporto è uno livello del [[Modello TCP-IP]] e realizza la _comunicazione logica_  fra __processi__ residenti un host system diversi. 
+il _livello di trasporto_ è uno livello del [[Modello TCP-IP]] e realizza la _comunicazione logica_  fra __processi__ residenti un host system diversi. 
 - Per _logico_ si intende che i processi si comportano come se fosse direttamente collegati senza preoccuparsi dei dettagli della comunicazione fisica usata per la comunicazione
 - questo Strato offre servizi allo strato applicazione
 	- L applicazione con questo strato per riceve e trasmettere dati, questa scegli lo stili di comunicazione ad esempio sequenza di  _messaggi singolo_ o _sequenza continua di byte_. i programma applicativo passa i dati nella forma richiesta al livello di trasporto per la consegna

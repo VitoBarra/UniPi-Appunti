@@ -46,7 +46,7 @@ questa misura l _impurità_ di una collezione di esempi, dipende dalla distribuz
 - $p_-$ è la porzione _negativa_ in $S$
 l entropia è definita come 
 $$Entropy(S)\equiv -p_+log_2(p_+)-p_-log_2(p_-) $$
-dove $p = \frac{ncasi}{ntotali}$
+dove $p = \cfrac{ncasi}{ntotali}$
 con questa definizione più il numero dei casi positivi e negativi si equivalgono più $Entropy$ tende ad 1. con $Entropy(S)=1$ la collezione è molto impura e l _omogenosita_ è bassa 
 - $0 \leq p \leq 1$
 - $0 \leq entropy \leq 1$
