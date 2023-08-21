@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Quantum computing",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
+    },
+    {
+      "basename": "Elementi di crittografica quantistica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md"
+    },
+    {
+      "basename": "IMG_0607",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0607.jpeg"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Cifrari ibridi",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
+    },
+    {
       "basename": "Pasted image 20230820172721",
       "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png"
     },
@@ -15,18 +35,6 @@
     {
       "basename": "Pasted image 20230820173637",
       "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png"
-    },
-    {
-      "basename": "Elementi di crittografica quantistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md"
-    },
-    {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
-    },
-    {
-      "basename": "Quantum computing",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
     },
     {
       "basename": "DataBase (DB)",
@@ -187,18 +195,6 @@
     {
       "basename": "Protocollo Secure socket layer (SSL)",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Protocollo Secure socket layer (SSL).md"
-    },
-    {
-      "basename": "Generazione di numeri Pseudo Casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Generazione di numeri Pseudo Casuali.md"
-    },
-    {
-      "basename": "Certification Authority",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Certification Authority.md"
-    },
-    {
-      "basename": "Livello di trasporto",
-      "path": "UniPi INF/Note/3° Anno/Reti - lab 3/Reti/Livello di trasporto.md"
     }
   ],
   "omittedPaths": [],

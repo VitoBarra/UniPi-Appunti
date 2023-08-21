@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
+                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
+            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
+            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
+            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
           }
         }
       },
@@ -171,13 +171,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f4553ccaf5c22b08",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0608.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0607.jpeg",
+    "IMG_0606.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0605.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0604.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0603.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md",
     "IMG_0598.jpeg",
     "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
-    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario a curve Ellittiche.md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
@@ -198,18 +206,10 @@
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Tecniche per l analisi degli errori.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Problemi Mal Condizionati.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media/binarysearch.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/photo_2023-03-28_16-11-08.jpg",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511180931.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230511023123.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230517170805.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510232155.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230512171901.png",
-    "Raccolta UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Media/Pasted image 20230510215538.png",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",
     "Extra Note/Geometria Analitica",

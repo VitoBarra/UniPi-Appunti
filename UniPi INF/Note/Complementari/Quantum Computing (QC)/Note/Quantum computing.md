@@ -50,8 +50,17 @@ Un algoritmo quantistico segue queste procedure
 ### Capacita di calcolo
 Il _quantum computing_ non viola la [[Tesi di Church-Turing|Tesi di Church-Turing]] siccome è potente quanto la macchia di turing e non riesce quindi a calcolare efficientemente i problemi $NP$-complete, ma ci sono certi problemi che il _quantum computing_ risolve velocemente  mentre la computazione con un sistema classico è esponenziale. 
 
-un esempio è l [[Algoritmo di Shor|algoritmo di Shor]] per la [[Funzioni One-Way Trapdoor|fattorizzazione in numeri primi]]  che ha [[Complessita|tempo polinomiale]] mentre su i sistemi classici ha tempo esponenziale
-un altro è [[Grover’s quantum search|Grover’s quantum search]] per la ricerca in un [[DataBase (DB)|database]] non strutturato che ha complessità $O(\sqrt{N})$ dove $N$ è il numero di entry mentre in un sistema normale la complessità è $N$ al caso pessimo e $\frac{N}{2}$ nel caso medio
+#### classe di complessità BQP
+_BQP_  (_bounded-error quantum polynomial_) è la classe di problemi risolubili con un algoritmo quantistico in tempo polinomiale con errore $<\cfrac{1}{2}$
+
+Si crede  crede che per questa classe valga che 
+- $\mathbf{P} \subset \mathbf{BQP}$ 
+-  $\mathbf{BQP} \cap \mathbf{NPC} = \emptyset$
+![[IMG_0608.jpeg]]
+
+un esempio di problemi che appartengono alla classe BQP sono  
+- [[Algoritmo di Shor|algoritmo di Shor]] per la [[Funzioni One-Way Trapdoor|fattorizzazione in numeri primi]]  che ha [[Complessita|tempo polinomiale]] mentre su i sistemi classici ha tempo esponenziale
+-  [[Grover’s quantum search|Grover’s quantum search]] per la ricerca in un [[DataBase (DB)|database]] non strutturato che ha complessità $O(\sqrt{N})$ dove $N$ è il numero di entry mentre in un sistema normale la complessità è $N$ al caso pessimo e $\frac{N}{2}$ nel caso medio
 
 
 
