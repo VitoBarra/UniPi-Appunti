@@ -1,31 +1,15 @@
-# Carrier Lab Temp
+---
+type: nota
+course: Orientamento al lavoro ITC
+topic: 
+tags: OLAITC
 ---
 
+Prev: [[Orientamento al lavoro ITC]]
 
-2022-10-07:
-
-# Linkedin
-
-
-Meglio non averlo che averlo male 
-
-Estimò e quotidiana di LinkedIn per una buona funzionalità 
-
-Usarlo anche dopo aver trovato lavoro 
-
-Non va usato come se fosse un curriculum 
-
-Non caricare il curriculum e mandartelo specifico per quello azienda 
-
-
-Struttura del profilo: HEADLINE
-Slide
-
-
-
-2022-10-11: Problem Solving  
-
-Azzienda devono creare valore a aggiuto ma di solito le aziende non riescono (?) 
+# Problem solving in ambito professionale
+---
+Azienda devono creare valore a aggiuto ma di solito le aziende non riescono (?) 
 
 
 Il problema per essere definito problema deve essere misurabile con unita di misura. Quel unita di misura  ci permette di afrontarlo e i parametro per considerarlo risolto. solitamente nelle aziende sono dette. Key parameter index (KPI).
@@ -33,7 +17,7 @@ Il problema per essere definito problema deve essere misurabile con unita di mis
 Teologia  di problema 
 
 Trouble shooting:
-- Problema con risposta risposta immediata _RIsposta Veloce_ :
+- Problema con risposta risposta immediata _Risposta Veloce_ :
 	- infarto -> rianimazione
 GAP dallo standard: 
 - Definizione del problema

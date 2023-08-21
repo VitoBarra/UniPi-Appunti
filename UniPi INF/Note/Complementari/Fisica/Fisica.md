@@ -1,17 +1,16 @@
 ---
 type: MOC 
-tags: MOC 
+tags: MOC
 ---
 
 Prev: [[Uni MOC]]
 
-# Basi di dati
+# Fisica
 
 ## Course MOC  📒
-1. 
+1. [[Meccanica quantistica]]
 
 
 
 ### Educational Material 🧱
 1. 
-

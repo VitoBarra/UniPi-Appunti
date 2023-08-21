@@ -9,7 +9,7 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Funzioni Ricorsive Primitive
 ---
-la classe delle funzioni ricorsive primitive è un formalismo per esprimere un [[Nozione di Calcolabilità|Modello di calcolo]] ed è la minima classe di [[Funzioni]] $\mathcal{C}: \N^n \rightarrow \N$ con $n\geq 0$ in cui appartengono
+la classe delle funzioni ricorsive primitive è un formalismo per esprimere un [[Nozione di Calcolabilità|Modello di calcolo]] ed è la minima classe di [[Funzioni]] $\mathcal{C}: \mathbb{N}^n \rightarrow \mathbb{N}$ con $n\geq 0$ in cui appartengono
 
 $$
 \begin{matrix}

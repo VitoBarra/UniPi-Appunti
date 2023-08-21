@@ -24,7 +24,7 @@ Prev: [[Studi MOC]]
 - 3° Anno
 	- [[Reti - lab 3]]
 	- [[Ingegneria Del Software (IS)]]
-	- [[Basi di dati]]
+	- [[DataBase (DB)]]
 	- [[Introduzione Intelligenza Artificiale (IIA)]]
 - Complementari
 	- [[Cloud Computing (CC)]]
@@ -36,6 +36,7 @@ Prev: [[Studi MOC]]
 	- [[Cloud and Green Computing]]
 	- [[Sicurezza di sistema ICT]]
 	- [[Teoria del informazione (TDI)]]
+	- [[Fisica]]
 - Informatica
 	- [[Transazioni]]
 - Orientamento professionale ITC
