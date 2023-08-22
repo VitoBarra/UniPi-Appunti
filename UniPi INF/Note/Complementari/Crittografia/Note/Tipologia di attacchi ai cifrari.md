@@ -7,10 +7,11 @@ tags: CRI
 
 Prev: [[Crittografia (CRI)]]
 
-# Tipologia di attacchi per scoprire il messaggio criptato
+# Tipologia di attacchi ai cifrari
 ---
-gli attacchi del crittoanalista possono essere di più tipi e dipende dal intenzione del attacco. un paio di tipologie sono:
+gli attacchi di un crittoanalista ad un certo cifrario possono essere di più tipi e dipende dal intenzione del attacco. 
 
+alcune tipologie tipologie sono:
 - _Cipher Text Attack_: Semplice rilevazione di una serie $c_1,\dots,c_n$ crittogrammi
 - _Known Plain-Text Attack_: sono state rilevate una serie di coppie $(m_1,c_1)\dots, (m_n,c_n)$ ovvero il testo in chiaro e il relativo crittogramma
 - _Chosen Plain-Text Attack_: sono state rilevate una serie di coppie $(m_1,c_1)\dots, (m_n,c_n)$ ovvero il testo in chiaro e il relativo crittogramma ma il critto analista ha scelto i messaggi in chiaro

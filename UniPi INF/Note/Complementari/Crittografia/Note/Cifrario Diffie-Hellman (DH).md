@@ -24,7 +24,7 @@ Si eseguono i seguenti passi.
 un __crittoanalista *passivo*__ per rompere questo cifrari dovrebbe risolvere l equazione usando i [[Funzioni One-Way Trapdoor|logaritmo discreto]], quindi deve risolvere un problema difficile.
 
 
-un __crittoanalista *attivo*__ se ha la possibilità di modificare i messaggi inviati può attuare un tipo di attacco [[Tipologia di attacchi per scoprire il messaggio criptato|man in-the-midle]] 
+un __crittoanalista *attivo*__ se ha la possibilità di modificare i messaggi inviati può attuare un tipo di attacco [[Tipologia di attacchi ai cifrari|man in-the-midle]] 
 
 ![[IMG_0598.jpeg]]
 _Eve_ (eavesdropper) è l intente malevolo che vuole infiltrarsi nella comunicazione e lo scegliendo un intero $z$ qualsiasi e calcolando $Z =g^{z} \mod  p$ e si trapone tra il canale di comunicazione di _alice_ e _Bob_ obbligandoli a comunicare con se stessa.

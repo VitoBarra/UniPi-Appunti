@@ -1,11 +1,11 @@
 ---
 type: nota
-course: Fisica, Elementi di calcolabilita e complessita
+course: Quantum Computing
 topic: 
-tags: FI ECC
+tags: QC
 ---
 
-Prev: [[Fisica]]
+Prev: [[Quantum Computing (QC)]]
 
 # Quantum computing
 ---

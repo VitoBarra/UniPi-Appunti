@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
+            "file": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md"
           }
         }
       },
@@ -171,19 +171,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md",
+    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi Randomizzati.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Principi di Bacone.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi ai cifrari.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifratura e Decifratura.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Crittografia Concetti Generali.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Quantum Computing (QC).md",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md",
     "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0608.jpeg",
     "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0607.jpeg",
     "IMG_0606.jpeg",
     "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0605.jpeg",
     "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0604.jpeg",
     "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0603.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi per scoprire il messaggio criptato.md",
     "IMG_0598.jpeg",
     "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md",
     "UniPi INF/Note/Complementari/Crittografia/Note/Confronto cifrari simmetrici e asimmetrici.md",
@@ -196,16 +206,6 @@
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo dei punti fissi.md",
     "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md",
     "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodi iterativi funzionali (calcolo degli zeri).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo delle tangenti o di Newton.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Condizionamento della risoluzione dei sistemi lineari.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di jacobi (metodo spostamenti successivi).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Localizzazione degli Autovettori.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Convergenza locale per metodi interativi funzionali.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Aritmetica di Macchina.md",
     "Raccolta UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Pasted image 20230515182103.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media/binarysearch.png",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",

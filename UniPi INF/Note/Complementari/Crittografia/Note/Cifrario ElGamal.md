@@ -50,5 +50,5 @@ se $r$ è un _[[Generazione di numeri Pseudo Casuali|intero casuale]]_
 
 
 ### Attacchi al cifrario
-questo cifrario è sensibile a tipi di attacchi [[Tipologia di attacchi per scoprire il messaggio criptato|man in the midle]]
+questo cifrario è sensibile a tipi di attacchi [[Tipologia di attacchi ai cifrari|man in the midle]]
 cosi come per il cifrario [[Cifrario Diffie-Hellman (DH)]]

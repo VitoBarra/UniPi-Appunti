@@ -10,7 +10,7 @@ Prev: [[Uni MOC]]
 ## Course MOC  📒
 1. [[Crittografia Concetti Generali]]
 	1. [[Cifratura e Decifratura]]
-	2. [[Tipologia di attacchi per scoprire il messaggio criptato]]
+	2. [[Tipologia di attacchi ai cifrari]]
 2. [[Principi di Bacone]]
 3. [[Rappresentazione di oggetti matematici con sequenze]]
 4. [[Algoritmi Randomizzati]]
