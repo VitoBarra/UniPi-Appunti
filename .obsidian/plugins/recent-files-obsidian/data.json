@@ -1,40 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Quantum computing",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
+      "basename": "Cifrario Asimmetrico RSA",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
     },
     {
-      "basename": "Elementi di crittografica quantistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md"
+      "basename": "Calcolare l inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
     },
     {
-      "basename": "IMG_0607",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0607.jpeg"
+      "basename": "Algoritmo di Euclide Esteso",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md"
+    },
+    {
+      "basename": "Identità di Bezout",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Identità di Bezout.md"
+    },
+    {
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
     },
     {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
-      "basename": "Cifrari ibridi",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrari ibridi.md"
+      "basename": "Algoritmo di Euclide per calcolare mcd",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md"
     },
     {
-      "basename": "Pasted image 20230820172721",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png"
+      "basename": "Teorema cinese del resto",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema cinese del resto.md"
     },
     {
-      "basename": "Pasted image 20230820173041",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png"
+      "basename": "Elementi di crittografica quantistica",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md"
+    },
+    {
+      "basename": "Pasted image 20230820173637",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png"
     },
     {
       "basename": "Pasted image 20230820173619",
       "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173619.png"
     },
     {
-      "basename": "Pasted image 20230820173637",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png"
+      "basename": "Pasted image 20230820173041",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png"
+    },
+    {
+      "basename": "Pasted image 20230820172721",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png"
+    },
+    {
+      "basename": "Massimo comun Divisore Tra Polinomi",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md"
+    },
+    {
+      "basename": "Quantum computing",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
     },
     {
       "basename": "DataBase (DB)",
@@ -149,10 +173,6 @@
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario ElGamal.md"
     },
     {
-      "basename": "Cifrario Asimmetrico RSA",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
-    },
-    {
       "basename": "Algoritmi di firma digitale su curve ellittiche",
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi di firma digitale su curve ellittiche.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Analisi",
       "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Pasted image 20230817012508",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230817012508.png"
-    },
-    {
-      "basename": "Protocollo di identificazione Fiat-Shamir",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Protocollo di identificazione Fiat-Shamir.md"
-    },
-    {
-      "basename": "Protocolli Zero Knowledge",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Protocolli Zero Knowledge.md"
-    },
-    {
-      "basename": "Protocollo Secure socket layer (SSL)",
-      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Protocollo Secure socket layer (SSL).md"
     }
   ],
   "omittedPaths": [],

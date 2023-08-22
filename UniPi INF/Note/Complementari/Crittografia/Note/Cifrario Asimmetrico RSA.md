@@ -18,7 +18,7 @@ per generare la chiave segue i seguenti step
 1. [[Generazione di numeri Primi|genera]] due numeri [[Numeri primi|primi]] $p,q$ 
 2. Calcola $n = q \times p$ e la [[Teorema di Eulero|funzione di Eulero]] $\Phi(n)=(q-1)(p-1)$ 
 3. _sceglie_ un intero $e<\Phi(n)$ e  $e \in \mathcal{Z}^{*}_{n}$ [[Insieme dei coprimi|coprimo]] con $n$ 
-4. calcola l intero $d$ [[Inverso di un numero in algebra modulare|inverso]] di $e\mod\Phi(n)$ con il [[Calcolare l inverso di un numero in algebra modulare|metodo di Euclide esteso]]
+4. calcola l intero $d$ [[Inverso di un numero in algebra modulare|inverso]] di $e\mod\Phi(n)$ con il [[Algoritmo di Euclide Esteso|metodo di Euclide esteso]]
 5. _assegna_ $k[pub]=\langle e,n\rangle$ e $k[prv]=\langle d\rangle$
 
 #### Cifratura 
@@ -61,8 +61,8 @@ m \times (m^{\Phi(n)})^{r}  & \mod n  & = &  \\
 m \times 1^{r}  & \mod n  & = & m
 \end{array}
 $$ 
-_caso_ solo uno tra $p$ e $q$ [[Divisibilità dei numeri|divide]] $m$:
-	poiche $p$ divide $m$ abbiamo $m\equiv m^{r} \equiv 0 \mod p$ ovvero $m-m^{r} \equiv 0 \mod p$ per qualunque $r$ intero positivo.
+_caso_ solo uno tra $p$ e $q$ [[Divisibilità tra numeri|divide]] $m$:
+	poiché $p$ divide $m$ abbiamo $m\equiv m^{r} \equiv 0 \mod p$ ovvero $m-m^{r} \equiv 0 \mod p$ per qualunque $r$ intero positivo.
 	abbiamo che 
 	$$
 	\begin{array}{}
@@ -123,21 +123,21 @@ Anche il valore di $e$ va scelto _attentamente_, infatti abbiamo che
 il valore $e$ per _motivi di efficienza_ si vorremmo sceglier piccolo, ma non si deve andare _sotto un certo limite_. 
 	Poniamo che che molti utenti abbiamo lo stesso valore di $e$ e che almeno $e$ di essi ricevano lo stesso messaggi $m$ attraverso i _crittogrammi_ $c_{1}=m^{e} \mod n_{1},\dots c_{e}=m^{e} \mod n_{e}$ 
 	dove $m<n_{i}$ e $1 \leq i \leq e$. Per le ipotesi del RSA possiamo assumere che i vari $n_{i}$ siano _coprimi_ tra loro, siccome la _probabilità_ che questo non accada è trascurabile.
-	per il [[Teorema del resto cinese|teorema del resto cinese]] esiste ed è unico un numero $m'<n=n_{1}\times n_{2}\times\dots\times n_{e}$ che sodisfa l equazione $m' \equiv m^{e} \mod n$. 
+	per il [[Teorema cinese del resto|teorema del resto cinese]] esiste ed è unico un numero $m'<n=n_{1}\times n_{2}\times\dots\times n_{e}$ che sodisfa l equazione $m' \equiv m^{e} \mod n$. 
 	Poiché $m<n_{i} \ \forall_{i}$ abbiamo che $m^{e}<n$ e possiamo quindi scrivere semplicemente $m^{'}=m^{e}$.
-	dunque calcolando $m'$ si puo procedere a calcolare il messaggio calcolando $m=\sqrt[e]{m'}$ cosa in questo caso facile non essendoci piu il modulo.
+	dunque calcolando $m'$ si può procedere a calcolare il messaggio calcolando $m=\sqrt[e]{m'}$ cosa in questo caso facile non essendoci più il modulo.
 nonostante questa vulnerabilità si preferisce prendere $e=3$ o altri primi piccoli cosi da tenere al massimo l efficienza e cancellare il problema aggiungendo un _paddig_ ad ogni messaggi
 
 
 
 è importante che due utenti abbiamo $n$ diverso anche se il parametro $e$ è diverso
 	Poniamo che due utenti abbiamo $n$ uguale e $e_{1}$ e $e_{2}$ diversi tale che $MCD(e_{1},e_{2})=1$ cosa molto _probabile_
-	_Allora_ esistono dune interi $r,s$ tale che vale $$e_{1}r+e_{2}s =1$$ calcolabili con l _[[Calcolare l inverso di un numero in algebra modulare|algoritmo di Euclide esteso]]_.
+	_Allora_ esistono dune interi $r,s$ tale che vale $$e_{1}r+e_{2}s =1$$ e questo è nella forma del [[Identità di Bezout|Identità di Bezout]] e quindi sono calcolabili con l _[[Algoritmo di Euclide Esteso|algoritmo di Euclide esteso]]_.
 	assumiamo che $r<0$ (caso simmetrico per $s<0$)
 	dati $c_1,c_2$ due crittogrammi relativi allo stesso messaggio $m$ 
 	abbiamo che $m=m^{e_{1}r+e_{2}s}=(c^{r}_{1}\times c_{2}^{s}) \mod  n =((c_{1}^{-1})^{-r}\times c_{2}^{s}) \mod n$
-	 si puo quindi calcolare $c_{1}^{-1}$ con l [[Calcolare l inverso di un numero in algebra modulare|algoritmo di Euclide esteso]] e $(c_{1}^{-1})^{-r}$  e $c_{2}^{s}$ per [[Algoritmo delle Quadrature successive o esponenziazione veloce|esponenziazione successive]] siccome $-r,s$ sono numeri positivi.
-	 da qui si puo ricostruire $m$
+	 si può quindi calcolare $c_{1}^{-1}$ con l [[Algoritmo di Euclide Esteso|algoritmo di Euclide esteso]] e $(c_{1}^{-1})^{-r}$  e $c_{2}^{s}$ per [[Algoritmo delle Quadrature successive o esponenziazione veloce|esponenziazione successive]] siccome $-r,s$ sono numeri positivi.
+	 da qui si può ricostruire $m$
 
 
 

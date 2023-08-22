@@ -11,19 +11,28 @@
             "id": "8206cbbc6448f536",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c2c35ae1131ffc6e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "0ddbd4cfff766fd8",
+            "id": "80707a2f5e9bf5e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png",
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png"
+                "file": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md"
               }
             }
           }
@@ -180,15 +189,28 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d38bfb8f13276d3b",
+  "active": "8206cbbc6448f536",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173619.png",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png",
-    "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Identità di Bezout.md",
+    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
     "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema cinese del resto.md",
+    "UniPi INF/Note/Complementari/Crittografia/Note/Elementi di crittografica quantistica.md",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173619.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png",
+    "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0608.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0607.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0605.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0604.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia/Media/IMG_0603.jpeg",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md",
     "UniPi INF/Note/3° Anno/Basi di dati/DataBase (DB).md",
     "UniPi INF/Note/Complementari/Teoria del informazione/Teoria del informazione (TDI).md",
     "UniPi INF/Note/Complementari/Teoria del informazione/Note/Algoritmo di compressione RIPEMD-160.md",
@@ -206,26 +228,14 @@
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820171554.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820170134.png",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820164306.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Ricerca Base Ortogonale e Ortonormale.md",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base Ortogonale e Ortonormale.md",
-    "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md",
     "UniPi INF/Note/Complementari/Fisica/Note",
     "UniPi INF/Note/Complementari/Fisica/Media",
     "UniPi INF/Note/Complementari/Fisica",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230819182515.png",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230819205959.png",
     "UniPi INF/Note/Complementari/Teoria del informazione",
-    "UniPi INF/Note/Complementari/Crittografia/Media/Pasted image 20230817012508.png",
     "Extra Note/Preject Idea and Managment/BalisongCobo Finder"
   ]
 }

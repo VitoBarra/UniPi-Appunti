@@ -7,12 +7,12 @@ tags: ALG
 
 Prev: [[Algebra (ALG)]]
 
-# Indentità di Bezout
+# Identità di Bezout
 ---
 _siano_ $a,b \in \mathbb{N}$
 _Se_ $(a,b) \not= (0,0)$ e  $d = MCD(a,b)$  ([[Massimo comun divisore]])
-_allora_ esistono due interi $u$ e $v$ tale che $d=au+bv$
-
+_allora_ esistono due interi $u$ e $v$ tale che 
+$$MCD(a,b)=d=au+bv$$
 ### Trovare u e v
 per trovare gli interi $u$ e $v$ tali che $m = MCD(a,b) = au+bv$
 $$au+bv= m \implies m= (qb+r)u + bv = ru + b(v+qu)$$
@@ -30,20 +30,10 @@ $$
 dove $\ell_1(u,b)=1, \ell_2(u,v)=0$ è un sistema di lineare $2 \times 2$ di equazioni in $u$ e $v$
 
 
-#### algoritmo in codice
-```C
-int MCD_esteso (int a, int b, int *u, int *v) 
-{ 
-int d, x, y;
- if (b == 0){ *u = 1; *v = 0; return a; } 
- d = MCD_esteso (b, a % b,&x,&y); 
- *u = y;
- *v = x + y*(a/b); 
- printf ( ”%d,%d|%d,%d\n” ,b,a % b,*u,*v); // Only for illustration return d;
-```
+[[Algoritmo di Euclide Esteso]]
 
 ### Lemma di euclide 
-Un intero$p > 1$ è un numero primo se e solo se $p|ab$ implica che $p | a$ o $p | b$, per tutti gli interi $a$ e $b$. 
+Un intero $p > 1$ è un numero primo se e solo se $p|ab$ implica che $p | a$ o $p | b$, per tutti gli interi $a$ e $b$. 
 ##### dimostrazione
 Supponiamo che $p$ sia un primo. notiamo $MCD(a,p) \not= 1 \implies p|a$
 Allo stesso modo, se $MCD(b,p) \not= 1 \implies p|b$. Quindi, dopo aver cambiato $a$ e $b$ se necessario, possiamo supporre che $MCD(a,p) = 1$. 
