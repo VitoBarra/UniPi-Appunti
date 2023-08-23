@@ -18,3 +18,8 @@ l elemento base per dire che quel cosa è calcolabile è l [[Nozione di Calcolab
 
 
 ## Semidecidibile
+il Programma termina in casi affermativi ma non termina in casi negativi
+
+### Indecidibili
+i Problemi indecidibili sono problemi per cui non si puo prendere una decisone, se si dovesse scrivere un programma per questi problemi si possono sempre costruire dei paradossi.
+[[Halting Problem]]

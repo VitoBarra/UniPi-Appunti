@@ -32,7 +32,7 @@ questo ci porta alla conclusione che una stringa per essere casuale non deve ave
 > [!warning]
 > Questa definizione _NON_ dice che la stringa  $h$ deve essere generata seguendo la regola che la spiega. Per essere definita _non casuale_ basta che questa regola esista,  poi se il procedimento che ha generato la stringa è casuale non importa.  
 
-### Complessità secondo Kolmogorov
+## Complessità secondo Kolmogorov
 Per dare una fondamenta teorica a questa nozione di casualità nasce la necessita di dimostrare che questa definizione è indipendente dal sistema di calcolo. e quindi si parta dalla [[Calcolabilità|teoria della calcolabilita]] per definire la seguente _complessità secondo Kolmogorov_.
 
 _Siano_ $S_{1},S_{2},\dots$ una serie di sistemi di calcolo. Un algoritmo per generare una sequenza binaria $h$ in un sistema $S_{i}$ è un programma $p$ per $S_{i}$ e quindi abbiamo $S_{i}(p) = h$.
@@ -44,20 +44,22 @@ dove $|p|$ indica la lunghezza di $p$
 nel caso in cui $h$ non sia generabile da una _regola semplice_ il piu piccolo programma e quella che assegna la sequenza stessa. E quindi abbiamo che in questo caso la complessità è
 $$\mathcal{K}_{S_{i}}(h)=|h|+c$$
 dove $c$ è una costante positiva che _dipende dal Sistema di calcolo_ $S_{i}$ e rappresenta l assegnamento. 
-ora come per la [[Macchina di Turing universale|macchina di turing universale]] anche in questo caso esiste almeno un sistema di calcolo $S_{u}$ detto _universale_ che puo simulare tutti gli altri sistemi di calcolo.
-questo prende in input _un indice_ $i$ che indica il sistema di calcolo $S_{i}$ e un programma $p$ che genera $h$. Abbiamo quindi  la il programma $q =\langle i,p\rangle$ e _vale che_
-$$h = S_{i}(p)=S_{u}(q)=S_{u}(\langle i,p\rangle)$$
+ora come per la [[Macchina di Turing universale|macchina di turing universale]] anche in questo caso esiste almeno un sistema di calcolo $S_{u}$ detto _universale_ che può simulare tutti gli altri sistemi di calcolo.
+
+questo prende in input  il programma $q =\langle i,p\rangle$ dove
+- $i$ è _un indice_  che indica il sistema di calcolo $S_{i}$ 
+- $p$ è un _programma_  per $S_{i}$ _tale che_  $S_{i}(p)=h$. 
+quindi abbiamo che _vale che_
+$$S_{u}(q) =S_{u}(\langle i,p\rangle)= S_{i}(p)=h $$
 abbiamo che la lunghezza di $$|q|= |p| + \lceil \log_{2}(i) \rceil$$
 dove $\lceil \log_{2}(i) \rceil$ è la lunghezza della rappresentazione del indice $i$ ed è _indipendente_ da $h$. 
 
-Analizzando la _complessità di Kolmogorov_ sul sistema universale avremo che varrà
+Analizzando la _complessità di Kolmogorov_ sul sistema universale abbiamo che
 $$
-\begin{array}{}
-\mathcal{K}_{S_u}(h)  & =  & |p|+c_{e}   \\
-	 & =  & \mathcal{K}_{S_e}(h)+c_{e}& 
-\end{array}
+\mathcal{K}_{S_u}(h) =  \mathcal{K}_{S_e}(h)+ \lceil \log_{2}(e) \rceil  =  |p|+c_{e}
 $$
-dove $c_{e}$ è una costante che dipende dal sistema di calcolo e $S_{e}$ è il sistema di calcolo _piu efficiente_ possibile, ovvero dove $\mathcal{K}_{S_e}(h)$ è minimo tra tutti i _sistemi di calcolo_.
+ dove $S_{e}$ è il sistema di calcolo _più efficiente_ possibile e  $c_{e}$ è una costante  positiva che dipende da quel sistema di calcolo,
+ essendo $S_{e}$ il più efficiente avremo che $\mathcal{K}_{S_e}(h)$ sara la complessità minima tra tutti i _sistemi di calcolo_.
 
 
 analizzando la complessità con gli altri Sistemi di calcolo otteniamo il risultato del _[teorema di invarianza del sistema di calcolo](https://en.wikipedia.org/wiki/Kolmogorov_complexity#Kolmogorov_randomness)_ che ci dice che vale che 
@@ -75,12 +77,15 @@ $$\mathcal{K}(h)$$
 e si rifinisce una _sequenza casuale_ quando $$\mathcal{K}(h) \geq |h|- \lceil \log_{2}|h| \rceil$$
 dove $\lceil \log_{2}|h| \rceil$ è aggiunto per rendere meno restrittiva la definizione senza cambiare le proprietà di causalità.
 
-
+ 
 ### Quantificare le sequenza casuali
 _siano_  $S= 2^{n}$ il numero di _sequenze_ di $n$ bit e $T$ il numero di sequenza _NON casuali_ e si vuole studiare la relazione tra $S$ e $T$.
-Abbiamo che esistono complessivamente $N=2^{n-\lceil \log_{2}n\rceil}-1$ sequenza piu corte di $n-\lceil \log_{2}n\rceil$ e tra queste cui sono tutti i programmi per generare le $T$ sequenze _non casuali_ lunghe $n$. 
-Vale che $T \leq N < S$. e quindi esistono sequenza _casuali_ per ogni $n$. 
-Si ha inoltre che $\cfrac{T}{S}<2^{-\lceil \log_{2}n\rceil}$ che è una funzione che tende a $0$ e quindi le _sequenze casuali_ esistono e sono molte piu numerose di quelle non casuali
+abbiamo che le sequenza più corte di $n-\lceil \log_{2}n\rceil$ bit  sono 
+$$N = \sum^{n-\lceil \log_{2}n\rceil -1}_{i=0}2^{i} = 2^{n-\lceil \log_{2}n\rceil}-1$$
+e tra sequenze queste cui sono tutti i _programmi_ per generare le $T$ sequenze _NON casuali_ lunghe $n$.
+	Sappiamo che queste sono _NON casuali_ perché la lunghezza del programma < $n$
+Vale che $$T \leq N < S$$ovvero ci sono più strige binarie che _programmi_ che generano stringhe _non casuali_ che a loro volta sono maggiori delle stringhe _NON_ casuali stesse e questo può essere vero $\iff$ esistono _stringhe casuali_ per ogni $n$. 
+Si ha inoltre che $\cfrac{T}{S}<2^{-\lceil \log_{2}n\rceil}$ che è una funzione che tende a $0$ e quindi le _sequenze casuali_ esistono e sono molte più numerose di quelle non casuali
 
 
 ### Decidere se una sequenza è casuale
@@ -107,7 +112,7 @@ ed una funzione $paradosso()$ dove $|P|$ è una _costante_ e indica la lunghezza
 	\end{algorithmic}
 	\end{algorithm}
 ```
-Siccome le sequenza casuali esistono prima o poi $h$ sarà una _sequenza casuale_ e il programma si dovrebbe fermare, ma questo non puo accadere perché le due clausola sono in contraddizione
+Siccome le sequenza casuali esistono prima o poi $h$ sarà una _sequenza casuale_ e il programma si dovrebbe fermare, ma questo non può accadere perché le due clausola sono in contraddizione
 Infatti la prima indica che il programma è "_breve_" e genera $h$ abbiamo quindi che $\mathcal{K}(h) < |h|-\lceil \log_{2}n\rceil$  che per definizione ci dice che $h$ _NON è casuale_ ma $Random(h)=1$ e quindi abbiamo un paradosso.
 questo ci conclude che la funzione $Random(h)$ non puo esistere. cioè è _indecidibile_
 

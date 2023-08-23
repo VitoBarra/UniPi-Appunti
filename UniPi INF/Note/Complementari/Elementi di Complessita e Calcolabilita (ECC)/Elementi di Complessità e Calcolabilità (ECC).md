@@ -19,17 +19,20 @@ Prev: [[Uni MOC]]
 	3. [[Funzioni Ricorsive Primitive]]
 	4. [[Diagonalizzazione]]
 	5. [[Funzioni Ricorsive Generali]]
-	6. Risultati Classici della calcolabilita
+	6. Risultati Classici della calcolabilità
 		1. [[Teorema di esistenza di funzioni NON calcolabili]]
-		2. [[Tesi di Church-Turing]]
+		2. [[Macchina di Turing]]
+		3. [[Tesi di Church-Turing]]
 			1. [[Turing-Equivalenza]]
-		3. [[Teorema di forma normale]]
-		4. [[Teorema di Enumerazione]]
+		4. [[Teorema di forma normale]]
+		5. [[Teorema di Enumerazione]]
 			1. [[Macchina di Turing universale]]
-		5. [[Teorema del parametro]]
-		6. [[Teorema di Ricorsione Kleene II]]
-		7. [[Riducibilita dei problemi]]
+		6. [[Teorema del parametro]]
+		7. [[Teorema di Ricorsione Kleene II]]
+		8. [[Riducibilita dei problemi]]
 2. [[Complessita]]
+	1. [[Macchina di turing k-nastri]]
+	2. [[Teorema di accelerazione]]
 
 
 
