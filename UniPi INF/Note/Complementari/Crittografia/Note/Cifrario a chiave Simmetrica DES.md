@@ -73,7 +73,7 @@ definite $\mathcal{C}_{DES}, \mathcal{D}_{DES}$ le funzione di [[Cifratura e Dec
 si ha che  ulteriore riduzione viene dal fatto che $\mathcal{C}_{DES}(m,k)=c \implies \mathcal{C}_{DES}(\bar{m},\bar{k} ) =\bar{c}$ dove l operazione $\bar{\cdot}$ è l operazione di [[Operazioni logiche|complemento]]. L operazione di complementazione nel cifrario influenza solo l output di XOR e della S-box e lo _XOR_ ha la stessa uscita se entrambi gli ingressi sono complimentati, di conseguenza l $S$-box riceve lo stesso input e di conseguenza da lo stesso output.
 da queste proprietà notiamo che nel successivo passaggio il blocco XOR riceverà l ingresso $S[i-1]$ complementato e uno diretto permutato da P di conseguenza dara un _output complementato_.
 
-su questa proprietà il _crittoanalista_ puo fare un attacco di tipo [[Tipologia di attacchi per scoprire il messaggio criptato|Chosen plain text]].
+su questa proprietà il _crittoanalista_ puo fare un attacco di tipo [[Tipologia di attacchi ai cifrari|Chosen plain text]].
 si procura due coppie _messaggio crittogramma_ $\langle m,c_1\rangle,\langle \bar{m},c_2\rangle$ e si prova a eseguire le funzione di crittazione $\mathcal{C}_{DES}(m,k)$ se abbiamo che 
 - $\mathcal{C}_{DES}(m,k) =c_{1}$ allora _probabilmente_ $k$ è la chiave perché general la coppia $\langle m,c_1\rangle$
 - $\mathcal{C}_{DES}(m,k) =\bar{c_2}$ allora _probabilmente_ $\bar{k}$ è la chiave perché genera la coppia $,\langle \bar{m},c_2\rangle$.

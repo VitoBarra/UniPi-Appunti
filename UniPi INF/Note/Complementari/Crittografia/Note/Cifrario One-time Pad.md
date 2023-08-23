@@ -75,7 +75,7 @@ che è la _definizione_ di [[Cifrari perfetti|cifrario perfetto]]
 
 
 #### Riutilizzo delle chiavi
-le chiavi per l _one-time pad_ deve essere scartata mano mano che viene usata altrimenti il cifrario sarebbe vulnerabile al [[Tipologia di attacchi per scoprire il messaggio criptato|cipher test]] 
+le chiavi per l _one-time pad_ deve essere scartata mano mano che viene usata altrimenti il cifrario sarebbe vulnerabile al [[Tipologia di attacchi ai cifrari|cipher test]] 
 infatti abbiamo che se usiamo _la stessa chiave_ $k$ per cifrare i due _messaggi_ $m'$ e $m''$ otterremmo  i due _crittogrammi_ $c'_i=m'_i\oplus k_i$ e $c_i''=m_i''\oplus k_i$  da ci per prosperità dello [[Operazioni logiche|XOR]] abbiamo che
 $$c'_i \oplus c''_i = m'_i \oplus m''_i$$ 
 questa relazione puo dare informazioni al crittoanalista, ad esempio una parte di zeri consecutivi significa parti dei _messaggi identici_.

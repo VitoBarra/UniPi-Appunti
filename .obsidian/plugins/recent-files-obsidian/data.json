@@ -5,6 +5,7 @@
       "path": "UniPi INF/Note/Complementari/Crittografia/Note/Sequenza casuali.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Calcolabilità",
       "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
     },
@@ -27,12 +28,17 @@
     {
       "basename": "Considerazione sulla nozione di calcolabilita",
       "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Considerazione sulla nozione di calcolabilita.md"
+=======
+      "basename": "Ordinamento canonico",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md"
+>>>>>>> 265bdbc867952d3384d452f43dc7246dfbca0a4b
     },
     {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md"
     },
     {
+<<<<<<< HEAD
       "basename": "Basi Idea And Resource",
       "path": "UniPi INF/Thesis/Basi Idea And Resource.md"
     },
@@ -75,6 +81,46 @@
     {
       "basename": "Diagonalizzazione",
       "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Diagonalizzazione.md"
+=======
+      "basename": "Algoritmi Randomizzati",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Algoritmi Randomizzati.md"
+    },
+    {
+      "basename": "Rappresentazione di oggetti matematici con sequenze",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Rappresentazione di oggetti matematici con sequenze.md"
+    },
+    {
+      "basename": "Combinatoria",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md"
+    },
+    {
+      "basename": "Principi di Bacone",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Principi di Bacone.md"
+    },
+    {
+      "basename": "Tipologia di attacchi ai cifrari",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Tipologia di attacchi ai cifrari.md"
+    },
+    {
+      "basename": "Cifratura e Decifratura",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifratura e Decifratura.md"
+    },
+    {
+      "basename": "Crittografia Concetti Generali",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Crittografia Concetti Generali.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Quantum Computing (QC)",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Quantum Computing (QC).md"
+    },
+    {
+      "basename": "Quantum computing",
+      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
+>>>>>>> 265bdbc867952d3384d452f43dc7246dfbca0a4b
     },
     {
       "basename": "Cifrario Asimmetrico RSA",
@@ -133,10 +179,6 @@
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun Divisore Tra Polinomi.md"
     },
     {
-      "basename": "Quantum computing",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
-    },
-    {
       "basename": "DataBase (DB)",
       "path": "UniPi INF/Note/3° Anno/Basi di dati/DataBase (DB).md"
     },
@@ -169,10 +211,6 @@
       "path": "UniPi INF/Note/Complementari/Fisica/Fisica.md"
     },
     {
-      "basename": "Quantum Computing (QC)",
-      "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Quantum Computing (QC).md"
-    },
-    {
       "basename": "Pasted image 20230820171554",
       "path": "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820171554.png"
     },
@@ -199,6 +237,37 @@
     {
       "basename": "Meccanica quantistica",
       "path": "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "basename": "Nozione di Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Nozione di Calcolabilità.md"
+    },
+    {
+      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
+    },
+    {
+      "basename": "Funzioni Ricorsive Primitive",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Funzioni Ricorsive Primitive.md"
+    },
+    {
+      "basename": "Calcolabilità",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Calcolabilità.md"
+    },
+    {
+      "basename": "Funzioni One-Way Trapdoor",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Funzioni One-Way Trapdoor.md"
+    },
+    {
+      "basename": "Cifrario Diffie-Hellman (DH)",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario Diffie-Hellman (DH).md"
+    },
+    {
+      "basename": "Cifrario ElGamal",
+      "path": "UniPi INF/Note/Complementari/Crittografia/Note/Cifrario ElGamal.md"
+>>>>>>> 265bdbc867952d3384d452f43dc7246dfbca0a4b
     }
   ],
   "omittedPaths": [],

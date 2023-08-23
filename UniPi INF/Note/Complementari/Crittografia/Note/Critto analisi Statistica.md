@@ -13,7 +13,7 @@ la critto analisi statistica si basa su delle proprietà del linguaggio naturale
 questo sono detti q-grammi perché crescono come $26^{q}$
 ![[Pasted image 20230705174154.png]]
 
-i [[Cifrari storici|Cifrari storici]] sono stati tutti attaccati con la critto _analisi statistica_ tramite attacchi [[Tipologia di attacchi per scoprire il messaggio criptato|cipher test]] 
+i [[Cifrari storici|Cifrari storici]] sono stati tutti attaccati con la critto _analisi statistica_ tramite attacchi [[Tipologia di attacchi ai cifrari|cipher test]] 
 
 e sotto l assunzione che il messaggio sia abbastanza lungo per fare _crittoanalisi statistica_ si puo ragionare per [[Classificazione di cifrari|famiglie di classificazione]]
 

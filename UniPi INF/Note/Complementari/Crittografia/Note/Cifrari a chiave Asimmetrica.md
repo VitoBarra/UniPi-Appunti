@@ -37,7 +37,7 @@ le funzioni $\mathcal{C}$ per avere le prosperità sopra elencate devono essere 
 
 
 ### Vulnerabilita
-il sistema è sensibile ad attacchi [[Tipologia di attacchi per scoprire il messaggio criptato|chosen plain-text]] siccome un critto analista puo scegliere una serie di messaggi $m_{1},\dots,m_{n}$ e crittarli per la chiave $k[pub]$ ottenendo i $c_{1},\dots,c_{n}$ per in destinatario $dest$ .
+il sistema è sensibile ad attacchi [[Tipologia di attacchi ai cifrari|chosen plain-text]] siccome un critto analista puo scegliere una serie di messaggi $m_{1},\dots,m_{n}$ e crittarli per la chiave $k[pub]$ ottenendo i $c_{1},\dots,c_{n}$ per in destinatario $dest$ .
 se passa sul canale un messaggio cifrato $c^{*}$ e si ha che$c^{*}=c_{i}  \implies \mathcal{D}(c_{i})=m_{i}$ ed il messaggio è _automaticamente decifrato_.
 se invece si ha $c^{*}\not =c_{i}$ il crittoanalista ha comunque un informazione in piu ovvero che il messaggio non è uno di quelli scelti.
 questo attacco è particolarmente pericoloso se il critto analista si aspetta un messaggio specifico o se la struttura del messaggi è conosciuta. es indirizzo IP.

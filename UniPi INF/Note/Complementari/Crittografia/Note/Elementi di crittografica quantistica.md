@@ -61,7 +61,7 @@ Dato il circuito il protocollo _segue come_:
 
 
 #### Attacchi al protocollo
-un possibile _crittoanalista attivo_ (_Eve_) che voglia condurre un attacco [[Tipologia di attacchi per scoprire il messaggio criptato|man in the middle]] sul _canale quantistico_ dovrebbe leggere la sequenza di fotoni mandati da _Alice_ e rimandarli a _bob_  ma _eve_ non conosce la base usata da _Alice_ dovrà sceglierne una a coso e _completamente scorrelata_ il che per il fenomeno di _decoerenza_ e del impossibilita di _clonare_ la sequenza prima di leggerla cambierà la polarizzazione dei fotoni della sequenza, per via di ciò  _eve_ non potrà rispedire a  _bob_ la stessa sequenza  ricevuta da _Alice_
+un possibile _crittoanalista attivo_ (_Eve_) che voglia condurre un attacco [[Tipologia di attacchi ai cifrari|man in the middle]] sul _canale quantistico_ dovrebbe leggere la sequenza di fotoni mandati da _Alice_ e rimandarli a _bob_  ma _eve_ non conosce la base usata da _Alice_ dovrà sceglierne una a coso e _completamente scorrelata_ il che per il fenomeno di _decoerenza_ e del impossibilita di _clonare_ la sequenza prima di leggerla cambierà la polarizzazione dei fotoni della sequenza, per via di ciò  _eve_ non potrà rispedire a  _bob_ la stessa sequenza  ricevuta da _Alice_
 ![[IMG_0607.jpeg]]
 pero a questo punto _eve_ avrà circa $\frac{1}{4}$ delle basi uguali a quelle di _alice_ e _bob_ e quindi riuscita comunque a scoprire un quarto della chiave, motivo per cui si esegue i _quinto punto_ del protocollo dove si comunicano alcuni dei bit sul canale standard. Siccome le basi sono uguali anche i bit dovrebbero essere uguali e se questo non è il caso c è stata un intrusione, questo è il motivo del controllo.    
 

@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Certification Authority
 ---
-la _certification authority_ è nata per risolvere il problema della sensibilità ad attacchi [[Tipologia di attacchi per scoprire il messaggio criptato|man in the midle]] della fragilità dei [[Cifrari a chiave Asimmetrica|sistemi a chiave assimetrica]]
+la _certification authority_ è nata per risolvere il problema della sensibilità ad attacchi [[Tipologia di attacchi ai cifrari|man in the midle]] della fragilità dei [[Cifrari a chiave Asimmetrica|sistemi a chiave assimetrica]]
 
 in generale un attacco di questo tipo avviene seguendo la procedura:
 1. $U$ richiede a $V$ la sua _chiave pubblica_
