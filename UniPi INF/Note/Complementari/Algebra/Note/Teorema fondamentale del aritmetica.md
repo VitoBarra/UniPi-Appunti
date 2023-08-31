@@ -9,7 +9,7 @@ Prev: [[Algebra (ALG)]]
 
 # Teorema fondamentale del aritmetica
 ---
-Ogni _numero_ $n>1$ o è un  [[Numeri primi|numero primo]] o si può esprimere come prodotto di _numeri primi_. 
+Ogni _numero_ $n>1$ o è un  [[Numeri primi|numero primo]] o si può esprimere come prodotto di _[[Numeri primi|numeri primi]]_. 
 Tale rappresentazione è _unica_ ignorando l ordine dei fattori.
 
 ##### Dimostrazione di esistenza
@@ -19,8 +19,8 @@ _Sia_ $P(n)$ la proposizione che l intero $n>1$ è un numero primo oppure può e
 
 
 ### Lemma di Euclide 
-un intero $p>1$ è un un numero primo se e solo se $p\mid ab \implies p \mid a \lor p \mid b \ \ \ \forall a,b \in \mathbb{N}$ 
-
+un intero $p>1$ è un un [[Numeri primi|numero primo]] se e solo se $$p\mid ab \implies p \mid a \lor p \mid b \ \ \ \forall a,b \in \mathbb{N}$$
+dove per $|$ si intende _[[Divisibilità tra numeri|divide]]_
 ##### Dimostrazione di unicita 
 _Sia_ $S$ l insieme degli interi $>1$ per i quali la parte di unicità del teorema fondamentale dell aritmetica fallisce. Se $S$ non è vuoto, ha un elemento più piccolo $n$. Siano 
 $$n = p_1,\dots,p_k, \ \ \ \ \ \ n = q_1, \dots,q_\ell$$

@@ -9,25 +9,23 @@ Prev: [[Algebra (ALG)]]
 
 # Teorema cinese del resto 
 ---
-_Sia_ dato il sistema di congruenze:
+_Sia_ un il sistema di congruenze:
 $$
 \begin{cases}
-x &\equiv a \pmod{n} \\
-x &\equiv b \pmod{m}
+x &\equiv a_{1} \mod{n_{1}} \\
+  & \vdots  \\ 
+x &\equiv a_{k} \mod{n_{k}} \\
 \end{cases}
 $$
-dove $a, b, n, m \in \mathbb{Z}$, $n, m > 0$, e $\text{mcd}(n, m) = 1$.
-_allora_
-1. Il sistema ammette soluzioni.
-2. La soluzione generale del sistema è della forma $x = x_0 + M(nm)$, dove $x_0$ è una soluzione particolare ed $M$ varia in $\mathbb{Z}$.
+dove $a_{1},\dots a_{k}\in \mathbb{N}$ con $n_{1},\dots ,n_{k} > 0$, e $N=\prod_{i=1}^{k}n_{i}$
+_se_ 
+- il [[Massimo comun divisore|massimo comun divisione]] $\text{MCD}(n_{i}, n_{j}) = 1 \forall i\not=j$ ovvero sono [[Insieme dei coprimi|coprimi]] a _due a due_
+- vale che $0 \leq a_{i} <n_{i}$
+_allora_  
+1. Esiste una _soluzione_ $x_{0}$ tale che $0 \leq x_{0} <N$ e il resto delle [[Teorema della divisione|divisione]] intera (_divisione euclidea_) $\cfrac{x_{0}}{n_{i}}$ è $a_{i}\ \forall i$ 
+2. la soluzione generale è della forma $x=x_{0}+rN \mod N$
+
+quindi prese due soluzioni $x_{0}$ e $x_{1}$ varra che $x_{0}\equiv x_{1} \mod  N$
+
 
 #### Dimostrazione
-Evidentemente, le congruenze del sistema hanno singolarmente soluzioni. Sostituendo la soluzione generale della prima congruenza $x = a + nk$, $k \in \mathbb{Z}$, nella seconda:
-
-$a + nk \equiv b \pmod{m} \Rightarrow nk \equiv (b - a) \pmod{m}$
-
-Otteniamo così una congruenza in $k$ che ammette soluzioni perché $1 = \text{mcd}(n, m)$ divide $(b - a)$. Questo dimostra il punto (1). Risolvendo la congruenza in $k$ e sostituendo la soluzione trovata nell'espressione $x = a + nk$, otteniamo tutte e sole le soluzioni della prima congruenza del sistema che sono anche soluzioni della seconda. Ciò fornisce la soluzione generale del sistema. Osserviamo che la soluzione generale della congruenza $nk \equiv (b - a) \pmod{m}$ è della forma $k = k_0 + hm$, dove $k_0$ è una soluzione particolare ed $h$ varia in $\mathbb{Z}$. Di conseguenza, la soluzione generale del sistema risulta essere:
-
-$x = a + n(k_0 + hm) = (a + nk_0) + hnm, \quad h \in \mathbb{Z}$
-
-È immediato verificare che $x_0 = (a + nk_0)$ è una soluzione particolare del sistema. Questo conclude la dimostrazione del punto (2).

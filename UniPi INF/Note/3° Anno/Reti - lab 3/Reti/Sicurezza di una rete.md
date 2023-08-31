@@ -19,10 +19,10 @@ la sicurezza di rete si occupa di evitare le interferenze nei raggiungimenti di 
 		- Es. Cifratura di Cesare (k-shift) 
 	- Cifrari polialfabetici 
 		- Cifrari a blocchi 
-	- [[Cifrario a chiave Simmetrica DES|DES]]: Data Encryption Standard 
+	- [[Cifrario simmetrico DES|DES]]: Data Encryption Standard 
 		- Cifrario a blocchi 
 		- Chiave di cifratura 56 bit 
-	- [[Cifrario a chiave Simmetrica AES|AES]]: Advanced Encryption Standard 
+	- [[Cifrario simmetrico AES|AES]]: Advanced Encryption Standard 
 		- 2001 standard, sostituisce DES, 
 		- Elabora dati in blocchi di 128 bit, chiave di 128, 192, o 2
 1. [[Cifrari a chiave Asimmetrica]]

@@ -44,7 +44,7 @@ $$y-y_{1}=m(x-x_{1})$$
 _siano_ $P_1=(x_{1},y_{1}),P_2=(x_{2},y_{2}) \in \mathbb{R}^{2}$ due punti
 
 ##### Equazione della Retta passante per 2 punti
-_se_ $x_{1} \not = x_{2} \ \ y_{1} \not = y_{2}$
+_se_ $x_{1} \not = x_{2}$ e  $y_{1} \not = y_{2}$
 _allora_ la formula per calcolare l equazione passata per i due punti è
 $$\frac{y-y_{1}}{y_{2}-y_{1}}=\frac{x-x_{1}}{x_{2}-x_{1}}$$
 

@@ -11,7 +11,6 @@ Prev: [[Algebra (ALG)]]
 ---
 
 ### Teorema dei numeri primi
-### Teorema
 _Sia_ $\pi:(1,\infty)\rightarrow\mathbb{N}^{*}$ la funzione 
 $$\pi(x)=\text{numeri primi }\leq x$$
 _Allora_ 

@@ -13,10 +13,11 @@ _Siano_ $a$ e $b$ interi non-negativi tale che $a > 0$.
 _Allora_ $\exists q,r \in \mathbb{N}\ \ \ \ \ \ q \geq 0 \ \ \ \ \   0 \leq r < a$
 $$b  =  qa+r$$
 con 
-- $q$ detto _quoziente_
-- $r$ detto _resto_ 
+- $q$ detto _quoziente_ ed è $q = \lfloor \frac{b}{a}\rfloor$ 
+- $r$ detto _resto_ $r=b-a\lfloor \frac{b}{a}\rfloor$  
+>[!note]
+>nella pratica sto dicendo che se divido $\frac{b}{a}$
 ##### Dimostrazione
-
 $$S = \{b-ax \mid x \text{ è un intero non-negativo e } b -ax \geq0\}$$
  Allora, $S$ non è vuoto poiché  $b − ax = b \geq 0$ se $x = 0$. Allora, per il [[Principio di buon ordinamento e induzione|Principio di buon ordinamento]] implica che $S$ ha un elemento minimo $r$.
 1. Per costruzione del ipotesi possiamo ricavare  $r = b − qa$ per qualche $q \geq 0$.

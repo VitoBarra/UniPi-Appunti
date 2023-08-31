@@ -9,12 +9,9 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Single Cicle
 ---
-
-
-è una [[Microarchitetture|microachitettura]] a ciclo unico ovvero tutte le istruzioni vengono eseguite in un unico ciclo di clock
+è una [[Microarchitetture|microachitettura]] a _ciclo unico_ ovvero tutte le istruzioni vengono eseguite in un unico _ciclo di clock_
 
 caratteristiche:
-
 - non ha bisogno di stato non architetturale (registri non del [[ARM V7|architettura ARM]] quindi registri diversi da r0-r15)
 - CLU semplice siccome è [[Reti Combinatorie|rete combinatoria]]
 - memoria dati e istruzioni separate

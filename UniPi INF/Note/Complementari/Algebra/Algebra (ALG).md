@@ -41,6 +41,7 @@ Prev: [[Uni MOC]]
 	2. [[Gruppi]]
 	3. [[Gruppo abeliano]]
 	4. [[Campi]]
+		1. [[Campo di Galois]]
 	5. [[Anelli]]
 15. [[Algebra modulare]]
 	1. [[Teorema di Eulero]]
@@ -52,7 +53,6 @@ Prev: [[Uni MOC]]
 	6. [[Algoritmo delle Quadrature successive o esponenziazione veloce]]
 	7. [[Teorema cinese del resto]]
 	8. [[Residui quadratici]]
-
 
 ### Educational Material 🧱
 1. Appunti prof Lezione

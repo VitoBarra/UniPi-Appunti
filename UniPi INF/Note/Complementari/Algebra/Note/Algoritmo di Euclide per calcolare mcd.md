@@ -12,32 +12,40 @@ Prev: [[Algebra (ALG)]]
 è un algoritmo per calcolare il [[Massimo comun divisore|Massimo comun divisore]]
 
 ### Algoritmo di Euclide
-siano $a$ e $b$  interi diversi da 0. allora $mcd(a+b,b) = mcd(a,b)$
+#### Lemma di Euclide
+_siano_ $a$ e $b$  interi diversi da 0. 
+_allora_ $MCD(a+b,b) = mcd(a,b)$
 ##### Dimostrazione 
-siamo $m=mcd(a+b,b)  \mu = mcd(a,b)$ allora
-	$$\begin{matrix}
-	m = mcd(a,b) \implies m|(a+b)\\
-	m|b \implies m|a\\
-	m|b \implies m \leq \mu   
-	\end{matrix} $$
-	allo stesso modo 
-	$$\begin{matrix}
-	\mu = mcd(a,b) \implies \mu|a\\
-	\mu|b \implies \mu (a+b)\\
-	\mu|b \implies \leq m
-	\end{matrix} $$
+_siano_ $m=MCD(a+b,b),   \mu = MCD(a,b)$ allora$$\begin{array}{}
+	m  & = &  mcd(a,b)  & \implies &  m|(a+b)\\
+	 &  & m|b  & \implies  &  m|a\\
+	 &  & m|b  & \implies  &  m \leq \mu   
+\end{array}
+$$
+	dove per $\mid$ si intende che _[[Divisibilità tra numeri|divide]]_ allo stesso modo 	$$
+\begin{array}{}
+	\mu  & = &  mcd(a,b)  & \implies &  \mu|a\\
+	 &  & \mu|b  & \implies &  \mu |(a+b)\\
+	 &  & \mu|b  & \implies &  \mu\leq m
+\end{array}
+ $$
 	quindi $m = \mu$
 
-#### codice Algoritmo
-supponiamo $a \geq b > 0$ e scriviamo $a= qb+r$ dove $0 \leq r <b$ allora 
-$$mcd(a,b)= mcd(r+qb,b)= mcd (r,b)=mcd(b,r)$$
+#### Algoritmo
+_siano_ $a,b$ due numeri interi
+Si vuole trovare il [[Massimo comun divisore|MCD]] tra $a$ e $b$
+_se_ $a \geq b > 0$ e poniamo $a= qb+r$  che posso farlo per il [[Teorema della divisione|Teorema della divisione]] dove $b>r\geq0$ 
+_allora_ vale che
+$$MCD(a,b)= MCD(r+qb,b)= MCD (r,b)=MCD(b,r)$$
 l algoritmo si ferma quando  $r=0$. in questo modo ottimo un algoritmo ricorsivo per calcolare il _mcd_
 ```C
-int mcd_euclid(int a, int b) 
+int MCD_euclid(int a, int b) 
 {   
-	if (b == 0) // mcd(a,0)=a
-	return a; 
-	if (b>a) mcd(b,a) // Switch roles of a and b
-	return mcd(b, a % b);
+	if (b>a) return MCD_euclid(b, a) 
+	// chiamata al massimo solo la prima volta 
+	if (b == 0) return a; // mcd(a,0)=a
+	else return MCD_euclid(b, a % b);
 }
 ```
+
+questo algoritmo ha [[Complessita|Complessita]] $O(\log a+b)$ che è polinomiale nella lunghezza della [[Rappresentazione di oggetti matematici con sequenze|Rappresentazione]]
