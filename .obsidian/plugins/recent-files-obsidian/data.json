@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Algoritmi di firma digitale su curve ellittiche (ECDSA)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md"
+    },
+    {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
     },
     {
-      "basename": "Protocollo Secure socket layer (SSL)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md"
+      "basename": "Certification Authority",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Certification Authority.md"
+    },
+    {
+      "basename": "Tipologia di attacchi ai cifrari",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Tipologia di attacchi ai cifrari.md"
     },
     {
       "basename": "Protocolli di firma digitale",
@@ -17,188 +25,28 @@
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md"
     },
     {
-      "basename": "Protocolli di Identificazione",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Identificazione.md"
-    },
-    {
       "basename": "Funzioni Hash One-Way",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash One-Way.md"
     },
     {
-      "basename": "Identificazione, autentificazione, Firma digitale",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Identificazione, autentificazione, Firma digitale.md"
+      "basename": "Protocolli di Identificazione",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Identificazione.md"
     },
     {
-      "basename": "Single Cicle",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Single Cicle.md"
-    },
-    {
-      "basename": "Far partire un nuovo processo",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Far partire un nuovo processo.md"
-    },
-    {
-      "basename": "Branch and Bound",
-      "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Note/Branch and Bound.md"
-    },
-    {
-      "basename": "Commesso Viaggiatore",
-      "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Note/Commesso Viaggiatore.md"
+      "basename": "Introduzione Intelligenza Artificiale (IIA)",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md"
     },
     {
       "basename": "Uni MOC",
       "path": "UniPi INF/Note/Uni MOC.md"
     },
     {
-      "basename": "Moneta elettronica Bit Coin",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md"
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
     },
     {
-      "basename": "Protocollo di identificazione Fiat-Shamir",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md"
-    },
-    {
-      "basename": "Protocolli Zero Knowledge",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md"
-    },
-    {
-      "basename": "Algoritmi di firma digitale su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche.md"
-    },
-    {
-      "basename": "Certification Authority",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Certification Authority.md"
-    },
-    {
-      "basename": "Algoritmo di Koblitz",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md"
-    },
-    {
-      "basename": "Tipologia di attacchi ai cifrari",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Tipologia di attacchi ai cifrari.md"
-    },
-    {
-      "basename": "Funzioni Hash",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash.md"
-    },
-    {
-      "basename": "Programmazione Algoritmica (ProgAlg)",
-      "path": "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Hash Table.md"
-    },
-    {
-      "basename": "Cifrario asimmetrico ElGamal",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
-    },
-    {
-      "basename": "Cifrario di Vigenere",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di Vigenere.md"
-    },
-    {
-      "basename": "Cifrario Diffie-Hellman su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman su curve ellittiche.md"
-    },
-    {
-      "basename": "Cifrario Diffie-Hellman (DH)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md"
-    },
-    {
-      "basename": "Cifrario di ElGamal su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md"
-    },
-    {
-      "basename": "Curve Ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md"
-    },
-    {
-      "basename": "Campi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Campi.md"
-    },
-    {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Gruppo abeliano",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Gruppo abeliano.md"
-    },
-    {
-      "basename": "Gruppi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Gruppi.md"
-    },
-    {
-      "basename": "Elemento inverso di un operazione",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Elemento inverso di un operazione.md"
-    },
-    {
-      "basename": "Elemento Neutro o identita di un operazione",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Elemento Neutro o identita di un operazione.md"
-    },
-    {
-      "basename": "Operazioni chiuse",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni chiuse.md"
-    },
-    {
-      "basename": "Generatori di insieme di coprimi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Generatori di insieme di coprimi.md"
-    },
-    {
-      "basename": "Ingegneria Del Software (IS)",
-      "path": "UniPi INF/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md"
-    },
-    {
-      "basename": "Testing",
-      "path": "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Testing.md"
-    },
-    {
-      "basename": "Tecniche di progettazione casi di test",
-      "path": "UniPi INF/Note/3° Anno/Ingegneria del software/Note/Tecniche di progettazione casi di test.md"
-    },
-    {
-      "basename": "Problema del logaritmi discreto su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Problema del logaritmi discreto su curve ellittiche.md"
-    },
-    {
-      "basename": "Retta tangente",
-      "path": "Superiori/Geometria Analitica/Note/Retta tangente.md"
-    },
-    {
-      "basename": "Retta",
-      "path": "Superiori/Geometria Analitica/Note/Retta.md"
-    },
-    {
-      "basename": "Differenziazione Implicita",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md"
-    },
-    {
-      "basename": "Residui quadratici",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Residui quadratici.md"
-    },
-    {
-      "basename": "Proprietà del operazioni-Associativà",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Proprietà del operazioni-Associativà.md"
-    },
-    {
-      "basename": "Campo di Galois",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Campo di Galois.md"
-    },
-    {
-      "basename": "Cifrari ibridi",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrari ibridi.md"
-    },
-    {
-      "basename": "Confronto cifrari simmetrici e asimmetrici",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Confronto cifrari simmetrici e asimmetrici.md"
-    },
-    {
-      "basename": "Cifrario a Composizione di blocchi",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a Composizione di blocchi.md"
-    },
-    {
-      "basename": "Funzioni One-Way Trapdoor",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md"
+      "basename": "Insiemi Matematici",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md"
     }
   ],
   "omittedPaths": [],

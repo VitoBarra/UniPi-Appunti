@@ -18,7 +18,7 @@ la _firma Digita_ vuole mimare le importanti proprietà della _firma manuale_ ch
 
 ## Protocolli di firma digitale
 in generale i protocolli di firma digitale possono essere realizzati sia con [[Cifrari a chiave Simmetrica|cifrari simmetrici]] che [[Cifrari a chiave Asimmetrica|assimetrici]]
-ma quelli simmetrici sono tendenzialmente piu complicati e computazionalmente costosi quindi non adatti a gestire al numero di messaggi che si scambiano oggi su internet.
+ma quelli simmetrici sono tendenzialmente più complicati e computazionalmente costosi quindi non adatti a gestire al numero di messaggi che si scambiano oggi su internet.
 
 ### Firma digitale Diffie-Hellman
 un protocollo che si basa si [[Cifrari a chiave Asimmetrica|cifrari assimetrici]]  dove la chiave privata è usata per _produrre la firma_ e quella pubblica _per verificala_.
@@ -27,9 +27,9 @@ un protocollo che si basa si [[Cifrari a chiave Asimmetrica|cifrari assimetrici]
 _Sia_ 
 - $m$ il messaggio
 -  $U$ un generico utente 
--  $k_{U}[pub]$ e $k_{U}[prv]$ l chiavi publiche e private di $U$
+-  $k_{U}[pub]$ e $k_{U}[prv]$ l chiavi pubbliche e private di $U$
 -  $\mathcal{C}$ e $\mathcal{D}$ le funzioni di [[Cifratura e Decifratura|cifratura e decifratura]]  e del _cifrario usato_ il protocollo segue:
-	_Firma_: L utente $U$ genera la firma $$f=\mathcal{D}(m,k_{U}[prv])$$ e il messaggio _firmato_ puo essere spedito ad un qualsiasi altro utente $V$ come $\langle U,m,f\rangle$
+	_Firma_: L utente $U$ genera la firma $$f=\mathcal{D}(m,k_{U}[prv])$$ e il messaggio _firmato_ può essere spedito ad un qualsiasi altro utente $V$ come $\langle U,m,f\rangle$
 	_Verifica_: L utente $V$ riceve la tripla $\langle U,m,f\rangle$ e la _verifica_ calcolando $$m'=\mathcal{C}(f,K_{U}[pub])$$ e controlla che $m'=m$ se è questo il caso la firma è _verificata_.
 In questo caso le funzioni di _cifratura e decifratura_ vengono usate in modo in verso ma questo non è un problema se il cifrario scelto è un cifrario _commutativo_ e vale 
 $$\mathcal{C}(\mathcal{D}(m))=\mathcal{D}(\mathcal{C}(m)) =m$$
@@ -81,7 +81,7 @@ Supponiamo che l utente $U$ invii una _risposta automatica_ ad ogni messaggio $m
 queste condizioni permettono ad  un crittoanalista $X$ di leggere i messaggi inviati dagli altri utente a $U$ seguento la procedura: 
 1.  $X$ intercettala coppia $\langle c,V \rangle$ ovvero il _crittogramma firmato_ $c= \mathcal{C}(f,k_{U}[pub])$ che è stato inviato a $U$ da un utente $V$ notiamo che $f=\mathcal{D}(m,k_{V}[priv])$
 	1. lo rimuove dal canale e spedisce a $U$ la coppia $\langle c,X \rangle$ facendogli credere che sia stato $X$ ad inviare quel messaggio. 
-2. $U$ _decifra_ $c$ ottenendo $f=\mathcal{D}(c,k_{U}[prv])$ ovvero la _firma corretta_ di $V$ su $m$, ma supponendo che il messaggio venga da $X$ calcolerà $$m'  = \mathcal{C}(f,k_{X}[pub])\not = m$$dove $m'$ sara  un messaggio _privo di senso_. A questo punto $U$ manderà un messaggio automatico di _ack_ a $X$ inviando $c'=\mathcal{C}(f',k_{x}[pub])$ dove $f'=\mathcal{D}(m',k_{U}[prv])$
+2. $U$ _decifra_ $c$ ottenendo $f=\mathcal{D}(c,k_{U}[prv])$ ovvero la _firma corretta_ di $V$ su $m$, ma supponendo che il messaggio venga da $X$ calcolerà $$m'  = \mathcal{C}(f,k_{X}[pub])\not = m$$dove $m'$ sara  un messaggio _privo di senso_. A questo punto $U$ manderà un messaggio _firmato_ automatico di _ack_ a $X$ inviando $c'=\mathcal{C}(f',k_{X}[pub])$ dove $f'=\mathcal{D}(m',k_{U}[prv])$
 3. Ora $X$ può risalire al messaggio originale $m$ usando $c'$ attraverso la seguente catena di calcoli $$\begin{array}{}
 \mathcal{D}(c',k_{X}[prv]) & = & f' \\
 \mathcal{C}(f',k_{U}[pub]) & = & m' \\
@@ -99,6 +99,8 @@ questo è il protocollo piu usata oggi per fare _firme sicure_ e la firma $f$ no
 >[!note] invertire l ordine delle operazioni
 >invertire l ordine del operazioni di cifratura e decifratura equinvale a crare una busta con una firma sopra piuttosto che firmare il documento, un utente malintenzionato puo usare la firma sostituendo il messaggio.
 
+##### Attacchi
+è comunque vulnerabile ad attacchi [[Tipologia di attacchi ai cifrari#attacco Man in the midle|Man in the midle]]
 
 
 #### protocollo 4  (Protocollo con certificato)

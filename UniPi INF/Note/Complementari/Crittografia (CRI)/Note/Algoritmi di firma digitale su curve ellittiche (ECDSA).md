@@ -12,12 +12,11 @@ Prev: [[Crittografia (CRI)]]
 è un _algoritmo_ per la [[Protocolli di firma digitale|firma digitale]] basata su [[Curve Ellittiche|Curve Ellittiche]] 
 
 si vuole quindi mandare un messaggio $m$ _firmato_   
-
-Scelta una _curva ellittica prima_ $E_{p}(a,b)$ con $p$ primo e un punto sulla curva $B$ di ordine $n$ elevato e primo.
+Scelta una _curva ellittica prima_ $E_{p}(a,b)$ con $p$ primo e un punto sulla curva $B$ di ordine $n$ _elevato_ e [[Numeri primi|primo]].
 
 sulla curva ogni utente $U$ genera la copia di chiave pubblica e privata come 
-1. seleziona un intero casuale $d \in [1,n-1]$
-2. calcola $Q=dB$
+1. Seleziona un intero casuale $d \in [1,n-1]$
+2. Calcola $Q=dB$
 3. $k[pub]= Q,k[prv]=d$
 
 e il protocollo di firma segue come:

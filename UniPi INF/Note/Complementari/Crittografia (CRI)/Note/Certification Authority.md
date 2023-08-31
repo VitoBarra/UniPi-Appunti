@@ -23,7 +23,7 @@ I certificato contengono:
 +  Firma della _CA_ eseguita su tutte le informazioni precedenti.
 
 
-Quando due utenti $U$ e $V$ vogliono comunicare basta che richiedano i rispettivi certificati alla _CA_ (_certification authority_) per essere sicuri di non subire un attacco _man in-the-midle_.
+Quando due utenti $U$ e $V$ vogliono comunicare basta che richiedano i rispettivi certificati alla _CA_ (_certification authority_) per essere sicuri di non subire un attacco _[[Tipologia di attacchi ai cifrari#attacco Man in the midle|man in-the-midle]]_.
 Gli utenti conoscono la _chiave pubblica_ della _CA_ potranno _verificare_ l autenticità del certificato controllandone la _[[Protocolli di firma digitale|firma]]_ applicata dalla $CA$ e il periodo di _valadita_. 
 Fatto ciò ogni utente potrà usare la _chiave pubblica_ che è contenuta nel certificato per comunicare con l altra utente interessato.
 Siccome ogni stato ha le proprie _CA_ organizzate eventualmente ad albero possono essereci situazioni più complicate dove la _CA_ di $U$ e la _CA_ di $V$ non siano le stesse e in quel caso si fa una sequenza ci _verifiche_ a catena

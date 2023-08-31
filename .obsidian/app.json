@@ -40,5 +40,7 @@
   "defaultViewMode": "source",
   "spellcheck": true,
   "spellcheckLanguages": null,
-  "attachmentFolderPath": "Extra Note/GDRCartografer"
+  "attachmentFolderPath": "Extra Note/GDRCartografer",
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }

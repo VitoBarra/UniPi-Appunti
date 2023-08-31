@@ -32,8 +32,9 @@ la famiglia _Secure Hash Algorithm_ (_SHA_) sono al momento le più usate. sono 
 
 ### SHA1
 La funzione _SHA_ è una _funzione hash one-way_ ed è una funzione che opera su sequenze fino a $2^{64}-1$ bit e produce _immagini_ a  160 bit
+$$h(x,k)$$
 
- la funzione SHA1 lavora con blocchi da 160 _bit_ messi in 5 registri da 32 _bit_ denominati A,B,C,D,E che alla prima iterazione ha dei valori _prefissati e publici_
+ la funzione SHA1 lavora con blocchi da 160 _bit_ messi in 5 registri da 32 _bit_ denominati A,B,C,D,E che alla prima iterazione ha dei valori _prefissati e pubblici_
 
 i _messaggi_ $m$ su cui si sta eseguendo la funzione di _SHA_ se non sono già lunghi un numero di bit multiplo di 512 gli si aggiunge un _padding_.
 
