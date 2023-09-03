@@ -24,7 +24,7 @@ le stringhe binarie verranno riconvertite da binario a _linguaggio naturale_ e i
 
 Dati
 - un _messaggio_ $m$ una sequenza di $m_{1}m_{2}\dots m_{n}$ _bit_ 
-- una _chiave_ $k$ una sequenza di $k_{1}k_{2}\dots k_{n}\dots k_{m}$ _bit_ scelti perfettamente a caso e conosciuti sia da _mittente_ che _destinatario_
+- una _chiave_ $k$ una sequenza di $k_{1}k_{2}\dots k_{n}\dots k_{m}$ _bit_ [[Sequenza casuali|scelti perfettamente a caso]] e conosciuti sia da _mittente_ che _destinatario_
 
 le operazioni di [[Cifratura e Decifratura|cifratura e decifratura]] si basano sullo [[Operazioni logiche#XOR|XOR]] bit a bit del _messaggio_ e della _chiave_ e abbiamo quindi che per $\forall i = 1 \dots n$
 $$
@@ -38,20 +38,20 @@ il processi ci _cifratura e decifratura_ consuma la chiave scorrendola in avanti
 un vantaggio di questo cifrario e che cancella qualsiasi tipo di patern periodici nel messaggio ad esempio 
 $m = 01010101$ e $k=01001110$ abbiamo che $c=00011011$
 
-questo cifrario è semplice e _perfetto_ ma una problematica è la l impossibilita di generare le chiavi in modo economico e veloce.
+questo cifrario è semplice e _perfetto_ ma una problematica è l impossibilita di generare le chiavi in modo economico e veloce.
 
 ### Teorema
 _Se_ 
 - tutti i messaggi hanno la stessa lunghezza $n$
 - tutte le sequenze di $n$ _bit_ sono messaggi possibili
 - impiegando una chiave $k$ scelta perfettamente a caso per ogni messaggi
-_Allora_ il cifrario _one time pad_ è [[Cifrari perfetti|perfetto]] e usa un numero minimo di chiavi.
+_Allora_ il cifrario _one time pad_ è [[Cifrari perfetti|perfetto]] e usa un numero _minimo_ di chiavi.
 
 >[!warning]
->se tutti i messaggi non fossere tutto di dimensione $n$la lunghezza del messaggio diventa un informazione per il critto analista e questo si evita con padding se il messaggio è crto o dividendo in blocchi il messaggio 
+>se tutti i messaggi non fossere tutto di dimensione $n$ la lunghezza del messaggio diventa un informazione per il crittoanalista e questo si evita con _padding_ se il messaggio è corto o dividendo in blocchi il messaggio se è troppo lungo 
 
 #### Dimostrazione
-la _minimalita delle chiavi_ discende dal fatto che $|Mes|=2^{n} =|K|$
+la _minimalita delle chiavi_ discende dal fatto che $$|Mes|=2^{n} =|K|$$ ed essendo lo stesso numero allora è _minimo_
 
 mentre per dimostrare che il _cifrario è perfetto_ dobbiamo distrare come _dalla definizione_ che 
 $$\mathcal{P}(M=m|C=c)=\mathcal{P}(M=m)$$
@@ -96,7 +96,7 @@ un secondo approccio è _generatore e seme_ segreti. ciò è in contrasto con i 
 un compromesso su i due approcci è quello di concordare un file ed utilizzare quello come sorgente della chiave tenendo segreto il punto di inizio. 
 	Un esempio di file utilizzabile è un genomico di un DNA.
 
-#### ridurre il numero di chiavi necessarie
+#### Ridurre il numero di chiavi necessarie
 Un approccio diverso quello di cercare di ridurre il numero di _bit casuali_ necessari alla chiave mantenendo la _perfezione_ del cifrario. 
 Si toglie la codinzone del  [[#Teorema]] che dice _tutte le sequenze di bit_ sono messaggi validi e si cerca di ridurre lo spazio dei messaggi in modo da poter ridurre anche quello delle chiavi.
 Anche senza quella condizione si puo dimostrare che il cifrario resta _perfetto_ ma il numero di chiavi non è piu minimo.
@@ -118,17 +118,19 @@ e quindi abbiamo che il numero di _bit casuali_ necessari è $0.12n$,
 con questo numero di bit  è poco probabile che _messaggi diversi_ portino a _crittogrammi uguali_ con _chiavi diverse_, cosa che invece _sicuramente succede_ se sono validi tutte le sequenze di lunghezza $2^{n}$ . questo è un problema perche critto analista potrebbe attaccare il cifrario con un _attacco esauriente_ invece se _più crittogrammi_ possono esserere decifrati in _piu messaggi significativi_ con _chiavi diverse_  il crittoanalista non puo essere sicuro di quale messaggio è stato effettivamente mandato
 ![[Pasted image 20230706210518.png]]
  se vogliamo associare ogni messaggio a piu crittogrammi con chiavi diverse dobbiamo avere $$\alpha^{n} \cdot 2^{t} \gg 2^{n}$$
- dove  $a^{n}\cdot 2^{t}$ è il numero di crittogrammi ottenibili cifrando ogni messaggio con ogni chiave e $2^{n}$ è il numero di sequenze binarie ottenibile con $n$ cifre.
+ dove  $a^{n}\cdot 2^{t}$ è il numero di crittogrammi ottenibili cifrando ogni messaggio con ogni chiave e $2^{n}$ è il numero di sequenze binarie ottenibile con $n$ cifre e quindi il _numero di crittogrammi diversi_
  
 da quella relazione si ricava
 $$
 \begin{array} {}
+ \log_{2}(\alpha^{n}\cdot 2^{t}) & \gg &  \log_{2}(2^{n})  &  \implies\\  
+\log_{2}(\alpha^{n})+\log_2(2^{t})  & \gg   & \log_{2}(2^{n})&  \implies\\
 n\log_{2}\alpha+t & \gg &  n  & \implies \\
  t  & \gg  & n - n\log_2 a  &  \implies\\
 t  & \gg &  0.88n &
 \end{array}
 $$
-quindi comunque molto vicino ad $n$ e di conseguenza _comunque molto costoso_ anche riducendo lo spazio dei messaggi.
+ricordando che $n\log_{2}a \approx 0.12$ abbiamo che $t$ è comunque molto _vicino_ ad $n$ e di conseguenza _comunque molto costoso_ anche riducendo lo spazio dei messaggi.
 
 
  

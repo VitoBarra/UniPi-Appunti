@@ -23,6 +23,8 @@ utilizzando più cicli di clock per ogni istruzione il singolo ciclo puoi essere
 
 ![[Untitled 26 1.png]]
 
+
 ![[Untitled 1 10 1.png]]
 
+la control unit è una [[Macchine a stati finiti| Macchine a stati finiti]]
 ![[Untitled 2 4 1.png]]

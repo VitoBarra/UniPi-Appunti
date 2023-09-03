@@ -113,7 +113,7 @@ _firma, cifratura e certificazione_:
 	 il destinatario $V$ riceve la tripla $\langle cert_{U},c,f \rangle$ e verifica l _autenticità_ di $cert_{U}$  utilizzando la _chiave pubblica_ $k_{CA}[pub]$ della _CA_
 _Decifrazione e verifica della firma_:
 	$V$ decifra il crittogramma $c$ mediante la sua chiave privata ottenendo $m= \mathcal{D}(c,k_{V}[prv])$; 
-	verifica l autenticità della firma apposta da $U$ su $m$ controllando che risulti $\mathcal{C}(f,k_{U}[pub])= h(m)$
+	verifica l autenticità della firma apposta da $U$ su $m$ controllando che risulti $\mathcal{C}(f,k_{U}[pub])= h(m)$ se questo è verificato la _firma è verificata_
 
 
 

@@ -76,7 +76,8 @@ _caso_ solo uno tra $p$ e $q$ [[Divisibilità tra numeri|divide]] $m$:
 	$$dove vale:
 - $\Phi(q)=(q-1)$ perchè $q$ è [[Numeri primi|primo]] .
  - sto usando il  [[Teorema di Eulero|teorema di eulero]] per $m^{\Phi(q)}\equiv 1 \mod q$ 
-	_dunque_ abbiamo che $$m^{ed} \equiv m \mod q\implies (m^{ed}-m) \equiv 0 \mod q$$ne consegue che $m^{eq}-m$ è [[Divisibilità tra numeri|divisibile]] sia per $p$ che per $q$, quindi è _[[Divisibilità tra numeri|divisibile]]_ per il loro prodotto $n=p\times q$ e _vale_ quindi  $$(m^{eq}-m)\equiv 0 \mod n \implies m^{eq}\equiv m \mod n$$ ovvero la tesi
+	1. _dunque_ abbiamo che $$m^{ed} \equiv m \mod q\implies (m^{ed}-m) \equiv 0 \mod q$$ne consegue che $m^{ed}-m$ è [[Divisibilità tra numeri|divisibile]] sia per $p$ che per $q$, quindi è _[[Divisibilità tra numeri|divisibile]]_ per il loro prodotto $n=p\times q$ e _vale_ quindi  $$(m^{ed}-m)\equiv 0 \mod n \implies m^{e
+	d}\equiv m \mod n$$ ovvero la tesi
 
 _caso_ sia $p$ che $q$ dividano $m$:
 	cosa in contradizione con le ipotesi siccome avremmo che $m \geq n$

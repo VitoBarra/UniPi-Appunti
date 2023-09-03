@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Protocolli Zero Knowledge
 ---
-I _protocolli Zero-Knowledge_ si bassano sulle _dimostrazioni Zero-Knowledge_, queste sono dimostrazioni matematiche dove dato un _provider_ $P$ e  un _verificatore_ $V$ il provider $P$ riesce a dimostrare a $V$ di avere una data _conoscenza o facoltà_ senza dare nessun informazioni a $V$ su metodo utilizzato per avere le informazioni necessarie per dimostrarlo.
+I _protocolli Zero-Knowledge_ si bassano sulle _dimostrazioni Zero-Knowledge_, queste sono dimostrazioni matematiche dove dato un _prover_ $P$ e  un _verificatore_ $V$ il provider $P$ riesce a dimostrare a $V$ di avere una data _conoscenza o facoltà_ senza dare nessun informazioni a $V$ su metodo utilizzato per avere le informazioni necessarie per dimostrarlo.
 
 la _dinamica_ della dimostrazione sarà del tipo
 $V$ chiederà a $P$ di dimostrare una certa facoltà per $k$ volte _se_ per $k$ vote $P$ è riuscito a fornire la dimostrazione _allora_ $V$ sarà sicuro che $P$ abbia effettivamente quella facoltà con una [[Probabilità e variabili aleatorie|probabilità]] prossima ad 1. Ovvero farà un test se la probabilità di indovinare a caso è $\cfrac{1}{2}$ avremmo che la probabilità che $P$ abbia effettivamente quella facoltà sarà $1-\cfrac{1}{2^{k}}$  

@@ -19,10 +19,10 @@ le transazioni operata vengono conservate in _blocchi_ e concatenati poi nella [
 
 
 lo _schema generale_ per eseguire una transazione si eseguono i seguenti passi.
-1. le nuove transazioni sono trasmesse sulla rete via broadcast
-2. ogni nodo del sistema raccoglie le nuove transizioni in un blocco
-3. Ogni nodo cerca di individuare una dimostrazione di correttezza per il suo blocco. Questo volutamente implica la soluzione di un “problema difficile”. 
-4. Quando un nodo trova una dimostrazione di correttezza la diffonde per broadcast a tutti i nodi per inserire il blocco nel block-chain. Un premio in bitcoin viene accreditato al nodo autore della dimostrazione. 
+1. le nuove transazioni sono trasmesse sulla rete via _broadcast_
+2. ogni nodo del sistema raccoglie le nuove transizioni in un _blocco_
+3. Ogni nodo cerca di individuare una dimostrazione di correttezza per il suo blocco. Questo volutamente implica la soluzione di un “_[[Complessita|problema difficile]]_”. 
+4. Quando un nodo trova una dimostrazione di correttezza la diffonde per broadcast a tutti i nodi per inserire il blocco nel [[Block chain|block-chain]]. Un premio in bitcoin viene accreditato al nodo autore della dimostrazione. 
 5. I nodi accettano il blocco solo se le transazioni in esso contente sono valide e non sono apparse in blocchi precedenti. 
 6. I nodi esprimono la loro accettazione del blocco iniziando a creare un nuovo blocco da inserire nel block-chain
 

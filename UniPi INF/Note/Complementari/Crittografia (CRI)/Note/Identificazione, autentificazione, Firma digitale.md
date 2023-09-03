@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Identificazione, autentificazione, Firma digitale
 ---
-L _Identificazione, autentificazione, Firma digitale_ sono tre nuove necessita che si sono venute a creare con l espandersi del bacino di untenza di [[Struttura di Internet|internet]] e sono definite come 
+L _[[Protocolli di Identificazione|Identificazione]], [[Protocolli di Autenticazione|autentificazione]], [[Protocolli di firma digitale|Firma digitale]]_ sono tre nuove necessita che si sono venute a creare con l espandersi del bacino di untenza di [[Struttura di Internet|internet]] e sono definite come 
 
 _Identificazione_: 
 	Un sistema di elaborazione isolato o inserto in una rete deve essere in grado di _accertare l identità_ di un utente che richiede di accedere ai suoi servizi

@@ -16,9 +16,9 @@ la sicurezza di rete si occupa di evitare le interferenze nei raggiungimenti di 
 1. [[Cifrari a chiave Simmetrica]]
 	1. ![[Pasted image 20230113182043.png]]
 	-  Cifrari monoalfabetici 
-		- Es. Cifratura di Cesare (k-shift) 
-	- Cifrari polialfabetici 
-		- Cifrari a blocchi 
+		- Es. [[Cifrario di Cesare|Cifratura di Cesare]] (k-shift) 
+	- [[Classificazione di cifrari|Cifrari polialfabetici]] 
+		- Es. [[Cifrario di Alberti|Cifrario di Alberti]] 
 	- [[Cifrario simmetrico DES|DES]]: Data Encryption Standard 
 		- Cifrario a blocchi 
 		- Chiave di cifratura 56 bit 
@@ -30,9 +30,10 @@ la sicurezza di rete si occupa di evitare le interferenze nei raggiungimenti di 
 	- Ognuno possiede
 		- una sua chiave pubblica nota a tutti 
 		- una sua chiave privata segreta, nota solo a lui
+
 #### Message digest
 per i casi in cui l integrità è più importante della riservatezza 
-- _Funzione hash_: Riceve un messaggio di lunghezza arbitraria e produce un digest di lunghezza fissa 
+- _[[Funzioni Hash One-Way|Funzione hash]]_: Riceve un messaggio di lunghezza arbitraria e produce un digest di lunghezza fissa 
 	- Esempi MD4 MD5 SHA
 
 ![[Pasted image 20230113182432.png]]
