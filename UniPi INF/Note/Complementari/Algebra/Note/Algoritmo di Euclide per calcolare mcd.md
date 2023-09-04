@@ -37,7 +37,7 @@ Si vuole trovare il [[Massimo comun divisore|MCD]] tra $a$ e $b$
 _se_ $a \geq b > 0$ e poniamo $a= qb+r$  che posso farlo per il [[Teorema della divisione|Teorema della divisione]] dove $b>r\geq0$ 
 _allora_ vale che
 $$MCD(a,b)= MCD(r+qb,b)= MCD (r,b)=MCD(b,r)$$
-l algoritmo si ferma quando  $r=0$. in questo modo ottimo un algoritmo ricorsivo per calcolare il _mcd_
+l algoritmo si ferma quando  $r=0$. in questo modo ottimo un algoritmo ricorsivo per calcolare il _MCD_
 ```C
 int MCD_euclid(int a, int b) 
 {   

@@ -2,11 +2,10 @@
 type: nota
 course: Crittografia
 topic: 
-tags: CRI
+tags:
+  - CRI
+Parent MOC: "[[Crittografia (CRI)]]"
 ---
-
-Prev: [[Crittografia (CRI)]]
-
 # Cifrario One-time Pad
 ---
 l _One-time Pad_ é un [[Cifrari perfetti|cifrario perfetto]]
@@ -64,7 +63,7 @@ $$
 \begin{array} {}
 \mathcal{P}(M=m|C=c) & = &  
 \cfrac{\mathcal{P}(M=m\cap C=c)}{\mathcal{P}(C=c)} \\
- & =& \cfrac{\mathcal{P}(M=m) \times \mathcal{P} (C =c))}{\mathcal{P}(C=c)} \\
+ & =& \cfrac{\mathcal{P}(M=m) \times \cancel{ \mathcal{P} (C =c) }}{\cancel{ \mathcal{P}(C=c) }} \\
 & =&\mathcal{P}(M=m)
 \end{array}
 $$

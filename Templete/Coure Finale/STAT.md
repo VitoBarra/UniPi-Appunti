@@ -2,10 +2,9 @@
 type: nota
 course: Statistica
 topic: 
-tags: STAT
+tags:
+  - STAT
+Parent MOC: "[[Statistica (STAT)]]"
 ---
-
-Prev: [[Statistica (STAT)]]
-
 # {{title}}
 ---

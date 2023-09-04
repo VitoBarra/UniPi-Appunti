@@ -23,7 +23,7 @@ per scambiare _messaggi_ direttamente sulla [[Curve Ellittiche|curva ellittica]]
 
 Si sceglie _pubblicamente_:
 - una [[Curve Ellittiche]] _pirma_ $E_{p}(a,b)$ 
--  un punto $B$ della curva con [[Curve Ellittiche#ordine di un punto|ordine del punto]] $n$ 
+-  un punto $B$ della curva con [[Curve Ellittiche#ordine di un punto|ordine del punto]] $n$
 - un intero $h$ da usare nel algoritmo di [[Algoritmo di Koblitz|Algoritmo di Koblitz]]
 
 ogni utente $U$ genera la propria coppia chiave _pubblica e privata_ scegliendo un numero casuale $n_{u}<n$  e  calcola $P_{u}=n_{u}B$ si avra

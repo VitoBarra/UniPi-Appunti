@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Criteri di Shannon per i cifrari
 ---
-grazie alla [[Critto analisi Statistica|crittoanalisi statistica]] Shannon proropose dei criteri che son ancora alla base dei [[Cifrari a chiave Simmetrica|cifrari a chiave simmetrica]] questi sono 
+grazie alla [[Critto analisi Statistica|crittoanalisi statistica]] Shannon propose dei criteri che son ancora alla base dei [[Cifrari a chiave Simmetrica|cifrari a chiave simmetrica]] questi sono 
 - _Diffusione_: si deve alterare la struttura del messaggi in chiaro "spargendo" i caratteri su tutto il testo cifrato.
 	- Questo si ottiene permutando le lettere (o i bit) come avviene nei cifrari a [[Classificazione di cifrari|cifrari trasposizione]]
 	- In questo modo si mantiene la distribuzione delle singole lettere ma si perde informazione sulla distribuzione dei $q$-grammi.

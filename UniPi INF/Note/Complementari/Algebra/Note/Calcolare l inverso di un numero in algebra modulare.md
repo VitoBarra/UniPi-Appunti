@@ -27,5 +27,7 @@ la relazione $$ax \equiv 1 \mod b$$dove $x$ è il valore incognito tale che $x =
 è _equivalente_ alla relazione
 $$ax =bz+1$$per un opportuno $z$.
 da questa relazione sostituendo $y=-z$ e $MCD(a,b)=1$  e riordinando otteniamo $$MCD(a,b)=ax+by $$
- e questa nuova espressione è l [[Identità di Bezout|Identità di Bezout]] e può essere risolta tramite l [[Algoritmo di Euclide Esteso]] e quindi avremo che $x$ sarà calcolato direttamente come uno dei risultati del algoritmo
+ e questa nuova espressione è l [[Identità di Bezout|Identità di Bezout]] e può essere risolta tramite l [[Algoritmo di Euclide Esteso]] e quindi avremo che $x$ sarà calcolato direttamente come uno dei risultati del algoritmo dove l inverso sarà
+ $x$ se $a>b$
+ $y$ se $b>a$
  

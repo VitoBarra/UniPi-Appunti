@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC 
+type: MOC
+tags:
+  - MOC
+Parent MOC: "[[Studi MOC]]"
 ---
-
-Prev: [[Studi MOC]]
-
 # Uni MOC
 
 ## Course MOC  📒

@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC 
+type: MOC
+tags:
+  - MOC
+"prev:": "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Crittografia
 
 ## Course MOC  📒

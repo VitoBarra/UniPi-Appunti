@@ -14,7 +14,7 @@ il problema del _logaritmo discreto su curve ellittiche_  è un _problema_ che s
 Il problema è _analogo_ a quella del [[Funzioni One-Way Trapdoor|logaritmo discreto del algebra modulare]] e consiste Invertire la _moltiplicazione_ per $k$ di un punto $P$ una una _curva ellittica_, Ovvero dato $P$ e dato $Q =kP$ voglio sapere il valore di $k$ 
 il numero $k$ è detto _logaritmo in base $P$ di $Q$_ 
 
-calcolare $Q$ conoscendo $P$ e $k$ è un problema computazionale _facile_, mentre calcolare $k$ conoscendo solo $P$ e $Q$ è un problema intrattabile siamo quindi davanti ad una [[Funzioni One-Way Trapdoor|funzione One-Way Trapdoor]] e quindi questo problema è utilizzabile a scopi crittografici.
+calcolare $Q$ conoscendo $P$ e $k$ è un problema computazionale _facile_, mentre calcolare $k$ conoscendo solo $P$ e $Q$ è un problema intrattabile siamo quindi davanti ad una [[Funzioni One-Way|funzione One-Way]] e quindi questo problema è utilizzabile a scopi crittografici.
 
 ### Calcolare velocemente $Q$
 Possiamo fare il calcolo di $Q =kP = P+\dots+P$ ($k$ volte)  _velocemente_ utilizzando un metodo analogo al [[Algoritmo delle Quadrature successive o esponenziazione veloce|metodo di esponenziazione veloce]].

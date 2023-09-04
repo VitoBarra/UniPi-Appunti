@@ -16,7 +16,7 @@ questo algoritmo ha una probabilità di fallire _arbitrariamente abbassabile_
 ### Algoritmo di Koblitz
 _Sia_ $m$ un numero intero $m < p$ e $E_{p}(a,b)$ una _[[Curve Ellittiche|curva ellittica]] prima_ sul campo finito $\mathcal{Z}_{p}$ 
 usando $m$ come ascissa  la probabilità che $(m^{3}+am+b)\mod p$ sia un [[Residui quadratici|residuo quadratico]] è di circa $\cfrac{1}{2}$
-detto ciò si può fissare un intero $h$ tale che $(m+1)h<p$ (questo serve ad evitare che il messaggio venga corrotto dalle _operazioni di modulo_) e si considerano potenziali ascisse di un punto della curva i valori $mh+i$ dove $0 \leq i \leq h-1$. 
+detto ciò si può fissare un intero $h$ tale che $(m+1)h<p$ (questo serve ad evitare che il messaggio venga corrotto dalle _operazioni di modulo_) e si considerano potenziali ascisse di un punto della curva i valori $mh+i$ dove $0 \leq i < h$. 
 Siccome per essere un punto della curva ellittica deve valore $$y^{2}\equiv x^{3}+ax+b \mod   p$$abbiamo che per ogni diverso $x$ se l equazione è verificata _allora esiste_ la radice quadrata 
 $$y = \sqrt{ x^{3}+ax+b } \mod   p$$
 calcolare questa radice ha [[Complessita|costo polinomiale]] visto che  $p$ è [[Numeri primi|primo]].

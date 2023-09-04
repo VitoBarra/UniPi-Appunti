@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "3ea686aa8d179033",
+    "id": "03c1f15486cc4979",
     "type": "split",
     "children": [
       {
-        "id": "bc9d3692e32b93a4",
+        "id": "cd5a48aeabc33e21",
         "type": "tabs",
         "children": [
           {
-            "id": "8206cbbc6448f536",
+            "id": "0ec7b480b8dd2d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6c33f7afc137e5d1",
+    "id": "094dbac1a98f8a2e",
     "type": "split",
     "children": [
       {
-        "id": "ee99a43662cde4f8",
+        "id": "e3bc27cc321592fd",
         "type": "tabs",
         "children": [
           {
-            "id": "d38bfb8f13276d3b",
+            "id": "6e44a25d8b5adab1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "de948ba694558223",
+            "id": "c031ec425c0e40ca",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,18 +59,26 @@
             }
           },
           {
-            "id": "c0ee1f095a275ad3",
+            "id": "5abb40ed398135e4",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "starred",
               "state": {}
             }
           },
           {
-            "id": "bae3dba587ff7fe1",
+            "id": "c65ba569ba518b61",
             "type": "leaf",
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb08cae72f31fb8b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -81,28 +89,20 @@
     "width": 300
   },
   "right": {
-    "id": "c5a8c80533b8892f",
+    "id": "dadc4c844a3686b6",
     "type": "split",
     "children": [
       {
-        "id": "740cc69e4fb24284",
+        "id": "b4019ddf31f10f0d",
         "type": "tabs",
         "children": [
           {
-            "id": "dcbb2d741041b563",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ae8738ec6f9fa626",
+            "id": "f6fdc056a0cfe7b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +114,19 @@
             }
           },
           {
-            "id": "e5a72e19a09580b9",
+            "id": "29380b0997bd6ad1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md",
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4327429e85244b8f",
+            "id": "bc142ad36ad3638e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,16 +137,41 @@
             }
           },
           {
-            "id": "cb31db7019541405",
+            "id": "2aaad1a05a00069d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md"
+                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
               }
             }
+          },
+          {
+            "id": "e3238178290bc317",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff5f43eaad4d7bf3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1545125392b6f085",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -155,68 +180,70 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Crea nuova lavagna": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "markdown-importer:Apri importazione Markdown": false,
+      "audio-recorder:Avvia/ferma registrazione": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8206cbbc6448f536",
+  "active": "0ec7b480b8dd2d91",
   "lastOpenFiles": [
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Certification Authority.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Tipologia di attacchi ai cifrari.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di firma digitale.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash One-Way.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Identificazione.md",
-    "UniPi INF/Note/Complementari/Crittografia/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Test di primalità Miller-Rabin.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Sequenza casuali.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Rappresentazione di oggetti matematici con sequenze.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a Composizione di blocchi.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Criteri di Shannon per i cifrari.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman su curve ellittiche.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Problema del logaritmi discreto su curve ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Principi di Bacone.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/NON-Fungibile Token (NFT).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Identificazione, autentificazione, Firma digitale.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generazione di numeri Primi.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generatori di numeri Pseudo Casuali.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230812035526.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819205959.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819182515.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230817012508.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230814181120.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230813213859.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230811205047.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230811105325.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230810135800.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230709191538.png",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a griglia.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Critto analisi Statistica.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Principi di Bacone.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario One-time Pad.md",
+    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generazione di numeri Primi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema cinese del resto.md",
+    "UniPi INF/Note/3° Anno/Basi di dati",
     "UniPi INF/Note/Complementari/Teoria del informazione/Note",
-    "UniPi INF/Note/Complementari/Teoria del informazione/Media",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media",
+    "UniPi INF/Note/Complementari/Teoria del informazione",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173619.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820172721.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820171554.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820170134.png",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820164306.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note",
+    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)",
     "UniPi INF/Note/Complementari/Fisica/Note",
-    "UniPi INF/Note/Complementari/Fisica/Media"
+    "UniPi INF/Note/Complementari/Fisica",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819205959.png",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819182515.png",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note",
+    "Senza nome.canvas",
+    "Senza nome 1.canvas"
   ]
 }
