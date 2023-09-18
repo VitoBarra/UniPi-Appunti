@@ -63,7 +63,7 @@ m \times 1^{r}  & \mod n  & = & m
 \end{array}
 $$ 
 _caso_ solo uno tra $p$ e $q$ [[Divisibilità tra numeri|divide]] $m$:
-	poiché $p$ divide $m$ abbiamo $$m\equiv m^{r} \equiv 0 \mod p\implies (m-m^{r}) \equiv 0 \mod p$$per qualunque $r$ intero positivo.
+	poiché $p$ divide $m$ abbiamo $$m\equiv m^{r} \equiv 0 \mod p\implies (m^{r}-m) \equiv 0 \mod p$$per qualunque $r$ intero positivo.
 	ora _osserviamo che_ $MCD(q,m)=1$ e usando un ragionamento simile al punto precedente abbiamo $$
 	\begin{array}{}
 	m^{ed}  & \mod q  & =  \\
@@ -150,7 +150,7 @@ Anche il valore di $e$ va scelto _attentamente_, infatti abbiamo che
 
 
 il valore $e$ per _motivi di efficienza_ si vorremmo sceglier piccolo, ma non si deve andare _sotto un certo limite_. 
-	Poniamo che che molti utenti abbiamo lo stesso valore di $e$ e che almeno $e$ di essi ricevano lo stesso messaggi $m$ attraverso i _crittogrammi_ $$c_{1}=m^{e} \mod n_{1},\dots c_{e}=m^{e} \mod n_{e}$$ dove $m<n_{i} \forall i. 1 \leq i \leq e$. Per le ipotesi del RSA possiamo assumere che i vari $n_{i}$ siano _coprimi_ tra loro, siccome la _probabilità_ che questo non accada  ha [[Probabilità e variabili aleatorie|probabilita trascurabile]]. allora posso impostare il sistema come segue $$
+	Poniamo che che molti utenti abbiamo lo stesso valore di $e$ e che almeno $e$ di essi ricevano lo stesso messaggi $m$ attraverso i _crittogrammi_ $$c_{1}=m^{e} \mod n_{1},\dots c_{e}=m^{e} \mod n_{e}$$ dove $m<n_{i} \forall i. 1 \leq i \leq e$. Per le ipotesi del RSA possiamo assumere che valga $MCD(n_{i},n_{j}) \forall ij$ ovvero i vari $n_{i}$ siano _coprimi_ tra loro, siccome la _probabilità_ che questo non accada è [[Probabilità e variabili aleatorie|trascurabile]]. allora posso impostare il sistema come segue $$
 	\begin{cases}
 	m’ & \equiv & m^{e} \mod n_{1} \\
      & \vdots &   \\

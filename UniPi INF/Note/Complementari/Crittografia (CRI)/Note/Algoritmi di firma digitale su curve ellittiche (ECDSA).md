@@ -26,7 +26,7 @@ _Firma_: l utente _Bob_
 	- _Se_ $r = 0$, riparte dal punto 1 
 3. Calcola $s = k^{-1} (e + d r) \mod n$, dove
 	1.  $d$ è la  chiave privata di _bob_ 
-	2.  $k^{-1} \mod n$ è  l[[Inverso di un numero in algebra modulare|inverso in modulo]] $n$ del valore $k$
+	2.  $k^{-1} \mod n$ è l [[Inverso di un numero in algebra modulare|inverso in modulo]] $n$ del valore $k$
 	3. Calcola $e = h(m)$, dove $h$ è una funzione [[Funzioni Hash One-Way|hash crittografica]] 
 	- _Se_ $s = 0$, riparte dal punto 1 
 4. La firma del messaggio è la coppia $f=\langle r, s\rangle$
@@ -36,7 +36,7 @@ _alice_ riceve il messaggio formato come $\langle m,f=\langle r, s\rangle\rangle
 2.  Calcola $e = h(m)$ e  $w = s^{-1} \mod n$ 
 4. Calcola $u_{1} = e w$ e $u_{2} = r w$
 5. Calcola il punto $E = (x_{E} , y_{E}) = u_{1} B + u_{2} Q$
-6. _Se_ $X = O$, rifiuta la firma, _altrimenti_ calcola $v = x_{E} \mod n$
+6. _Se_ $E = O$, rifiuta la firma, _altrimenti_ calcola $v = x_{E} \mod n$
 7. Accetta la firma se e solo se $v = r$
 
 

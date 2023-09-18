@@ -36,7 +36,7 @@ questo ci porta alla conclusione che una stringa per essere casuale non deve ave
 Per dare una fondamenta teorica a questa nozione di casualità nasce la necessita di dimostrare che questa definizione è indipendente dal sistema di calcolo. e quindi si parta dalla [[Calcolabilità|teoria della calcolabilita]] per definire la seguente _complessità secondo Kolmogorov_.
 
 _Siano_ $S_{1},S_{2},\dots$ una serie di sistemi di calcolo. Un algoritmo per generare una sequenza binaria $h$ in un sistema $S_{i}$ è un programma $p$ per $S_{i}$ e quindi abbiamo $S_{i}(p) = h$.
-Si _Definisce_ la _complessità secondo Kolmogorov_ della [[Rappresentazione di oggetti matematici con sequenze|sequenza]] $h$  rispetto al sistema di calcolo $S_{i}$ come
+Si _Definisce_ la _complessità secondo Kolmogorov_ della [[Rappresentazione di oggetti matematici con sequenze|sequenza]] $h$  rispetto al [[Calcolabilità|sistema di calcolo]] $S_{i}$ come
 $$\mathcal{K}_{S_{i}}(h)= \min\{|p|: S_{i}(p)=h\}$$
 dove $|p|$ indica la lunghezza di $p$
 
@@ -86,18 +86,24 @@ $$N = \sum^{n-\lceil \log_{2}n\rceil -1}_{i=0}2^{i} = 2^{n-\lceil \log_{2}n\rcei
 e tra sequenze queste cui sono tutti i _programmi_ per generare le $T$ sequenze _NON casuali_ lunghe $n$.
 	Sappiamo che queste sono _NON casuali_ perché la lunghezza del programma < $n$
 Vale che $$T \leq N < S$$ovvero ci sono più strige binarie che _programmi_ che generano stringhe _non casuali_ che a loro volta sono maggiori delle stringhe _NON_ casuali stesse e questo può essere vero $\iff$ esistono _stringhe casuali_ per ogni $n$. 
-Si ha inoltre che $\cfrac{T}{S}<2^{-\lceil \log_{2}n\rceil}$ che è una funzione che tende a $0$ e quindi le _sequenze casuali_ esistono e sono molte più numerose di quelle non casuali
+Si ha inoltre che $$
+\begin{array}{}
+T & \leq & N & <S \\
+\cfrac{T}{S}  &  \leq & \cfrac{N}{S} \\
+\cfrac{T}{S} & \leq & 
+\cfrac{2^{n-\lceil \log_{2}n\rceil}}{S}  \\
+\cfrac{T}{S}& \leq & \cfrac{2^{n-\lceil \log_{2}n\rceil}}{2^{n}} \\
+\cfrac{T}{S}& \leq & 2^{-\lceil \log_{2}n\rceil}
+\end{array}
+$$ che è una funzione che tende a $0$ e quindi le _sequenze casuali_ esistono e sono molte più numerose di quelle non casuali
 
 
 ### Decidere se una sequenza è casuale
 decidere se una data sequenza $h$ è una _sequenza casuale_ è un problema [[Calcolabilità|indecidible]]
 
-per mostrare questo si teorizza  una funziona $Random()$ come
-
-$$Random(h)=
+per mostrare questo si teorizza  una funziona $Random(h)$ come$$Random(h)=
 \begin{cases}0 &   \text{Se NON casuale} \\ 1  & \text{Se casuale} \\
-\end{cases}$$
-ed una funzione $paradosso()$ dove $|P|$ è una _costante_ e indica la lunghezza del programma $paradosso + random$ 
+\end{cases}$$ed una funzione $paradosso()$ dove $|P|$ è una _costante_ e indica la lunghezza del programma $paradosso + random$ 
  
 L algoritmo segue come
 ```pseudo
@@ -120,7 +126,3 @@ Siccome le _sequenza casuali_ esistono di qualsiasi lunghezza prima o poi $h$ sa
 questo pero crea una contraddizione siccome se la _prima clausola_ è soddisfatta avremmo che un programma "_breve_" genera $h$ e quindi  $h$ _NON è casuale_  il che crea un paradosso.
 
 questo ci fa conclude che la funzione $Random(h)$ non può esistere ovvero è _indecidibile_ e questo risultato è conosciuto come _paradosso di berry_
-
-
-
-

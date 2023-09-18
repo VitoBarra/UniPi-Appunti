@@ -21,8 +21,8 @@ non possiamo cioè risalire al messaggio $m$ a partire dal valore di $\mathcal{A
 
 
 ### Realizazioni
-per realizzare i protocolli di autenticazioni solitamente si sceglie una funzione [[Funzioni Hash One-Way|hash-one way]] e quindi abbiamo che 
-$$\mathcal{A}(m,k)=h(m,k)$$
+per realizzare i protocolli di autenticazioni solitamente si sceglie una _funzione_ [[Funzioni Hash One-Way|hash-one way]] e quindi abbiamo che 
+$$\mathcal{A}(m,k)=h(mk)$$
 scagliando $h$ tra le _funzioni hash crittograficamente_ sicure come SHA256 e MD5.
 
 

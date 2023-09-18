@@ -48,7 +48,7 @@ Con $n=2$ canonicamente $\Gamma = \{0,1\}$  abbiamo una  Rappresentazione detta 
 in questa rappresentazione le possibili _sequenze distinte_ di lunghezza $k$ sono le [[Combinatoria|disposizioni con ripetizioni]] in gruppi di $k$ di $0$ e $1$.
 La somma di tutte le _possibili sequenze distinte_ è $$\sum^{k}_{i=0}2^{i}=2^{k+1}-1$$ e  togliendo la stringa vuota diventa il numero di _sequenze_ diventa $2^{k+1}-2$
 
-per rappresentare $N$ oggetti c è quindi bisogni che le _sequenza distenete_ siano $\geq N$ e quindi abbiamo che $$2^{k+1}-2\geq N$$e risolvendo per $k$ si ottiene che deve essere vero
+per rappresentare $N$ oggetti c è quindi bisogni che le _sequenza distinte_ siano $\geq N$ e quindi abbiamo che $$2^{k+1}-2\geq N$$e risolvendo per $k$ si ottiene che deve essere vero
 $$k \geq \log_{2}(N+2)-1$$
 dove $k$ è il numero di _spazi_ necessari
 siccome $d(2,N)_{min}$ é il _minimo numero **intero**_ $k$ che soddisfa questa diseguaglianza abbiamo che vale che 

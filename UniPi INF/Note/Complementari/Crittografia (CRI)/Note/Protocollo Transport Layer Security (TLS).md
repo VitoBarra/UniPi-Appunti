@@ -81,9 +81,7 @@ Nelle versioni precedenti ([[Protocollo Secure socket layer (SSL)|SSL]], _TLS 1.
 - per garantire la _FORWARD SECRECY_, cioè la segretezza delle chiavi di sessione precedenti nel caso di un server compromesso
 
 La _forward secrecy_ è una proprietà dei protocolli 
-di negoziazione delle chiavi che assicura che _se una chiave 
-di cifratura a lungo termine viene compromessa, le chiavi di 
-sessione generate a partire da essa rimangono riservate_.
+di negoziazione delle chiavi che assicura che _se una chiave di cifratura a lungo termine viene compromessa, le chiavi di sessione generate a partire da essa rimangono riservate_.
 
 
 _DH_ garantisce _FORWARD SECRECY_ dato che il valore $y$ del 

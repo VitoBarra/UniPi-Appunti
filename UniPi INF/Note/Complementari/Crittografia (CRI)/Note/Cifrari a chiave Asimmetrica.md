@@ -24,7 +24,7 @@ $$
 $$
 
 questi classe di cifrari devono soddisfare le seguenti proprietà
-1. Per ogni possibile messaggio m si ha: $\mathcal{D}(\mathcal{C}(m, k[pub]), k[prv]) = m$. Ossia _Dest_ deve avere la possibilità di interpretare qualunque messaggio che gli altri utenti decidano di spedirgli. 
+1. Per ogni possibile messaggio $m$ si ha: $\mathcal{D}(\mathcal{C}(m, k[pub]), k[prv]) = m$. Ossia _Dest_ deve avere la possibilità di interpretare qualunque messaggio che gli altri utenti decidano di spedirgli. 
 2.  La sicurezza e l’efficienza del sistema dipendono dalle funzioni $\mathcal{C}$ e $\mathcal{D}$, e dalla relazione che esiste tra le chiavi $k[prv]$ e $k[pub]$ di ogni coppia. Piu esattamente: 
 	1. a) la coppia $k[prv]$, $k[pub]$ è _facile_ da generare, e deve risultare praticamente impossibile che due utenti scelgano la _stessa chiave_
 	2. b) dati $m$ e $k[pub]$, è _facile per il mittente_ calcolare il crittogramma $\mathcal{C}(m, k[pub]) = c$;
@@ -37,8 +37,8 @@ le funzioni $\mathcal{C}$ per avere le prosperità sopra elencate devono essere 
 
 
 ### Vulnerabilita
-il sistema è sensibile ad attacchi [[Tipologia di attacchi ai cifrari|chosen plain-text]] siccome un critto analista puo scegliere una serie di messaggi $m_{1},\dots,m_{n}$ e crittarli per la chiave $k[pub]$ ottenendo i $c_{1},\dots,c_{n}$ per in destinatario $dest$ .
-se passa sul canale un messaggio cifrato $c^{*}$ e si ha che$c^{*}=c_{i}  \implies \mathcal{D}(c_{i})=m_{i}$ ed il messaggio è _automaticamente decifrato_.
+il sistema è sensibile ad attacchi [[Tipologia di attacchi ai cifrari|chosen plain-text]] siccome un critto analista puo scegliere una serie di messaggi $m_{1},\dots,m_{n}$ e crittarli per la chiave $k[pub]$ ottenendo i $c_{1},\dots,c_{n}$ per in destinatario $dest$ 
+se passa sul canale un messaggio cifrato $c^{*}$ e si ha che $c^{*}=c_{i}  \implies \mathcal{D}(c_{i})=m_{i}$ ed il messaggio è _automaticamente decifrato_.
 se invece si ha $c^{*}\not =c_{i}$ il crittoanalista ha comunque un informazione in piu ovvero che il messaggio non è uno di quelli scelti.
 questo attacco è particolarmente pericoloso se il critto analista si aspetta un messaggio specifico o se la struttura del messaggi è conosciuta. es indirizzo IP.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md",
+                "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +123,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md",
+            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md",
+            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -152,7 +152,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md"
+            "file": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
           }
         }
       },
@@ -186,42 +186,42 @@
   },
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Identificazione, autentificazione, Firma digitale.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/NON-Fungibile Token (NFT).md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash One-Way.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Transport Layer Security (TLS).md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di firma digitale.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Identificazione.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Identificazione, autentificazione, Firma digitale.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman su curve ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/La macchina enigma.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico RSA.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrari a chiave Asimmetrica.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario One-time Pad.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario simmetrico AES.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0635.jpeg",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
     "IMG_0637.jpeg",
     "IMG_0635.jpeg",
     "IMG_0632.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario simmetrico DES.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario One-time Pad.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Crittografia Concetti Generali.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Transport Layer Security (TLS).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
-    "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Single Cicle.md",
-    "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Microarchitettura Multy Cicle.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/NON-Fungibile Token (NFT).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Certification Authority.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0627.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0629.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0615.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0619.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0618.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0617.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0616.jpeg",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",

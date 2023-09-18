@@ -31,14 +31,14 @@ _trasformazione iniziale_:
 	- $40$ perchè se ne usano $4$ ad ogni fase e queste sono 10	![[IMG_0617.jpeg]]
 	  ogni colonna viene calcolata come $$
 	\begin{cases}
-	 W[i]= W[i-4] \oplus W[i-1] & if & i \text{ multiplo di 4}  \\
-	 W[i]= W[i-4] \oplus T(W[i-1]) & else &
+	 W[i]= W[i-4] \oplus W[i-1] &   \\
+	 W[i]= W[i-4] \oplus T(W[i-1]) & if & i \text{ multiplo di 4} 
 	\end{cases}
 	  $$
 	  dove $T(W[i])$ è una trasformazione non lineare che segue come:
    1. _Shift ciclico_ di una posizione verso l alto 
    2. ad ogni byte viene sostituito con $b_{i}’=S(b_{i})$ dove $S$ è $S$-box 
-   3. al byte $b’_{1}$ si aggiunge in _XOR_ un numero _RC_ che cambia per ogni fase secondo la regola $$\begin{array}{}RC_1 & = & 1 \\RC_{i}& = & RC_{i-1}\end{array}$$
+   3. al byte $b’_{1}$ si aggiunge in _XOR_ un numero _RC_ che cambia per ogni fase secondo la regola $$\begin{array}{}RC_1 & = & 1 \\RC_{i}& = & 2RC_{i-1}\end{array}$$
 	  e la _chiave locale_ risultate è$$
 	  k(i)=W[4i],W[4i+1],W[4i+2],W[4i+3]
 	  $$

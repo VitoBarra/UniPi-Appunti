@@ -22,10 +22,10 @@ gli strumenti per manipolare la polarizazione sono
 - _cella di pockets_ (_PC_): consente di imporre una polarizazione ad un fotone
 - _beam splitter polarizante_ (_PBS_): che dirotta i fotoni in ingresso verso una delle due uscite $A$ e $R$ dove $A$ utilizza un fenomeno di _attraversamento_ e $R$ uno di _riflessione_. Questo strumento ha al suo interno un asse di polarizazione $\mathcal{S}$ sia $\mathcal{F}$ un fotone polarizzato e $\theta$ l angolo compreso tra $\mathcal{S}$ e $\mathcal{F}$ e si ha che il fotone viene inviato
 	- al uscita $A$ con [[Probabilità e variabili aleatorie|probabilita]] $\cos^{2}(\theta)$ con polarizazione $\mathcal{S}$
-	- al uscita $R$ con [[Probabilità e variabili aleatorie|probabilita]] $\sin^{2}(\theta)$ con polarizazione ortogonale ad $\mathcal{S}$
+	- al uscita $R$ con [[Probabilità e variabili aleatorie|probabilita]] $\sin^{2}(\theta)$ con polarizazione _ortogonale_ ad $\mathcal{S}$
 	e quindi abbiamo che con
 	-  $\theta =0°$ abbiamo $\cos(\theta)=1$ sarà sicuramente $A$ ($\mathcal{F}=\mathcal{S}$ )
-	- $\theta =90°$ abbiamo $\sin(\theta)=1$ sarà sicuramente $R$ ($\mathcal{F}$_ortogonale_ a $\mathcal{S}$ )
+	- $\theta =90°$ abbiamo $\sin(\theta)=1$ sarà sicuramente $R$ ($\mathcal{F}$ _ortogonale_ a $\mathcal{S}$ )
 	- $\theta = \pm45°$ abbiamo $\cos(\theta)=\sin(\theta) = \frac{1}{2}$ e quindi è equiprobabile che esca da $A$ o $R$
 	in ogni caso questo despisitovo cambia la polarizazione del fotone in uscita
 #### protocollo BB84

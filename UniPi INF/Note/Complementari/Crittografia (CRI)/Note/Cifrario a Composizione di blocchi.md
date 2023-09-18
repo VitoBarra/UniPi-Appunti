@@ -21,7 +21,7 @@ _altrimenti_ si aggiunge al messaggio un intero nuovo blocco $m_{s+1} = 10000\do
 In entrambi i casi la nuova sequenza funge da terminatore del messaggio. 
 
 ![[Pasted image 20230709191538.png]]
-Sia ora $c_0$ una sequenza di $b$ bit scelta per esempio in modo casuale e diversa per ogni messaggio (nulla osta a che c0 sia pubblica).
+Sia ora $c_0$ una sequenza di $b$ bit scelta per esempio in modo casuale e diversa per ogni messaggio (niente impedisce che $c_0$ sia pubblico).
 funzione di  [[Cifratura e Decifratura|cifratura e decifratura]]: 
 $$
 \begin{array}{}

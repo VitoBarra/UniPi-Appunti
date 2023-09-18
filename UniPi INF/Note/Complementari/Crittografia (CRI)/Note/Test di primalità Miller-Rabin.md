@@ -15,7 +15,7 @@ Il _test di primalità di Miller e Rabin_ è un [[Algoritmi Randomizzati|Algorit
 _Sia_ $N$ un numero _dispari_ 
 	(cosi non fosse questo ovviamente non sarebbe primo)
 Poniamo $N-1=2^{w}z$ con $z$ dispari e $w$ è il piu grande esponente che si puo dare a $2$
-_sia_ $y$ un intero arbitrario con $1 < y < N$.
+_sia_ $y$ un intero arbitrario con $y \in [2,N-1]$.
 
 _Se_ $N$ è _primo_ 
 _allora_ sono veri entrambi i due  predicati
@@ -46,7 +46,7 @@ Questa funzione di _verifica_ è interessante solo se il suo tempo di esecuzione
 
 Per trovare i valori $w$ e $z$ tali che $N-1=2^{w}z$ con $z$ dispari bisogna dividere $N-1$ per $2$ $O(\log N)$ volte
  
-Per verificare il _primo predicato_ si utilizza l [[Algoritmo di Euclide per calcolare mcd|algoritmo di euclide]] che è _polinomiale_
+Per verificare il _primo predicato_ si utilizza l [[Algoritmo di Euclide per calcolare mcd|algoritmo di euclide]] che è _polinomiale_ nella rappresentazione
 per verificare il _secondo predicato_ si utilizza l [[Algoritmo delle Quadrature successive o esponenziazione veloce|algoritmo delle esponenziazione successive]] per calcolare $y^{z} \mod N$ cosa a costo _polinomiale_ e poi si calcola in successione $y^{2z},\dots y^{2^{w-1}z}$ elevando al quadrato ogni volta il precedente valore questo rende l algoritmo ancora _polinomiale_
 
 e questo ci porta a concludere che _$verifica(N,y)$_ è in totale _polinomiale_

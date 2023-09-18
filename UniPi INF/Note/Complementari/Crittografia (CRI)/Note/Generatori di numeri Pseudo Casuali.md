@@ -69,8 +69,7 @@ il _generatore BBS_ è un generatore di numeri _pseudo casuali_ che
 _sia_ $n =p \cdot q$ il prodotto di due numeri [[Numeri primi|primi]] gradi _tali che_   
 - $p \mod 4 =3$  
 - $q \mod 4=3$ 
-- $2\cdot\left\lfloor\cfrac{p}{4}\right\rfloor+1$ è [[Numeri primi|primo]]
-- $2\cdot\left\lfloor\cfrac{q}{4}\right\rfloor+1$ è [[Numeri primi|primo]]
+- $MCD(2\cdot\left\lfloor\cfrac{p}{4}\right\rfloor+1,2\cdot\left\lfloor\cfrac{q}{4}\right\rfloor+1)=1$ 
 e _sia_
 - $f(x)=x^{2}\mod n$  una [[Funzioni One-Way|funzione one way]]  
 -  $b(x)= \text{ è dispari}$ un _[[Funzioni One-Way#Predicati Hard-core|predicato hard-hardcore]]_  per $f(x)$

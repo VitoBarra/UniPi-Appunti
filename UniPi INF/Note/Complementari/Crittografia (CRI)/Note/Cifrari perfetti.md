@@ -43,7 +43,7 @@ _allora_ il critto analista è riuscito a capire
 in tutti e tre i casi ho che $\mathcal{P}(M=m|C=c) \not= \mathcal{P}(M=m)$ e il critto analista ha nuove informazioni
 l'unico modo per evitarlo è avere che$$\mathcal{P}(M=m|C=c) = \mathcal{P}(M=m)$$
 
-### Teorema
+### Teorema di shannon
 _Sia_ 
 - $N_{k}$ il numero delle _chiavi possibili_, ovvero $N_{k}=|K|$ 
 - $N_{m}$  il numero dei _messaggi possibili_, ovvero i messaggi tali che $\mathcal{P}(M=m)>0$ 

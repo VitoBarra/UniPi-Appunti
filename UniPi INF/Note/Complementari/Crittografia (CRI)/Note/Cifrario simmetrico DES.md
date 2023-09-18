@@ -138,13 +138,13 @@ le varianti _triple DEA_ (_triple data encryption algorithm_)
 - 3TDEA: dove si utilizzano 3 chiavi 
 in queste varianti date $k_1, k_2,k_3$ con eventualmente $k_3=k_{1}$ _chiavi indipendenti_ le funzioni di [[Cifratura e Decifratura|Cifratura e Decifratura]] sono 
 $$
-\begin{array}
+\begin{array}{}
 \mathcal{C}_{DES}(\mathcal{D}_{DES}(\mathcal{C}_{DES}(m,k_{1}),k_{2}),k_{3})  &  =  & c \\
 \mathcal{D}_{DES}(\mathcal{C}_{DES}(\mathcal{D}_{DES}(c,k_{1}),k_{2}),k_{3})  & = & m 
 \end{array}
 $$
 anche qui il gain di sicurezza non è pari alla somma delle chiavi si arriva solo alla sicurezza di una chiave a $112$
-si puo strutturare un attacco _meet in the midle_ osservando che $$\begin{array}
+si puo strutturare un attacco _meet in the midle_ osservando che $$\begin{array}{}
 \mathcal{D}(c,k_{3})=\mathcal{D}_{DES}(\mathcal{C}_{DES}(m,k_{1}),k_{2}) \\
 \mathcal{C}_{DES}(\mathcal{D}_{DES}(c,k_{3}),k_{2})=\mathcal{C}_{DES}(m,k_{1})
 \end{array}

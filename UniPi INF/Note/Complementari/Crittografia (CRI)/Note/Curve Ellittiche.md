@@ -126,7 +126,7 @@ $$
 P &  = &  (x,y)  & \\
 -P & = & (x,-y \mod  p) & =  & (x,p-y)
 \end{array}
-$$sotto l assunzione che  $x^{3}+ax+b \mod  p$ non ha _radici multiple_ _ovvero vale_ che  $4a^{3}+27b^{2} \mod p\not=0$  la curva _ellittica prima_  $E_{P}(a,b)$ a cu si può associare la [[Strutture algebriche|struttura algebrica]] del [[Gruppo abeliano|Gruppo abeliano]] _finito_ rispetto al operazione di addizione
+$$sotto l assunzione che  $x^{3}+ax+b \mod  p$ non ha _radici multiple_ _ovvero vale_ che  $$4a^{3}+27b^{2} \mod p\not=0$$alla curva _ellittica prima_  $E_{p}(a,b)$  si può associare la [[Strutture algebriche|struttura algebrica]] del [[Gruppo abeliano|Gruppo abeliano]] _finito_ rispetto al operazione di addizione
 
 Le regole per calcolare $P+Q$ si possono riadattare dalla _versione continua_ facendo le operazioni in modulo quindi
 _siano_ $P=(x_{P},y_{P})$ e $Q =(x_{Q},y_{Q})$ 
