@@ -2,11 +2,10 @@
 type: nota
 course: Algebra
 topic: 
-tags: ALG
+tags:
+  - ALG
+Parent MOC: "[[Algebra (ALG)]]"
 ---
-
-Prev: [[Algebra (ALG)]]
-
 # Calcolare l inverso di un numero in algebra modulare
 ---
 per _calcolare_ l [[Inverso di un numero in algebra modulare|inverso]] di $a\mod n$ abbiamo i seguenti metodi 

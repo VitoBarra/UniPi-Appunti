@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md"
               }
             }
           },
@@ -169,6 +169,16 @@
               "type": "code-execute-manage-executors",
               "state": {}
             }
+          },
+          {
+            "id": "ef77c430626fcf19",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -191,39 +201,40 @@
       "workspaces:Gestisci layout delle aree di lavoro": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
   "active": "0ec7b480b8dd2d91",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md",
+    "Excalidraw",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "UniPi INF/Note/1° Anno/Analisi/Derivate.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "Templete/Coure Finale/STAT.md",
+    "Templete/Coure Finale/Analisi template.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Diseguaglianza triangolare.md",
+    "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico RSA.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Inverso di un numero in algebra modulare.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide per calcolare mcd.md",
     "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a Composizione di blocchi.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Criteri di Shannon per i cifrari.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman (DH).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md",
-    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman su curve ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Problema del logaritmi discreto su curve ellittiche.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a griglia.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Critto analisi Statistica.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Principi di Bacone.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario One-time Pad.md",
-    "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Algebra modulare.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generazione di numeri Primi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Insieme dei coprimi.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Teorema cinese del resto.md",
     "UniPi INF/Note/3° Anno/Basi di dati",
     "UniPi INF/Note/Complementari/Teoria del informazione/Note",
     "UniPi INF/Note/Complementari/Teoria del informazione",
@@ -242,7 +253,6 @@
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819205959.png",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819182515.png",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]

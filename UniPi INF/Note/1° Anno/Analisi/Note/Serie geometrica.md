@@ -16,6 +16,6 @@ $$\sum^{+\infty}_{n=0}q^n$$
 
 ##### Proprietà note
 - se la ragione $-1<q<1$ allora la serie _Converge_ a $\frac{1}{1-q}$
+	- e la serie converge ad una valore $<1$ se $q<\frac{1}{2}$
 - se $q\geq 1$ _diverge_ positivamente $+\infty$
 - se $q \leq -1$ è _irregolare_ 
-

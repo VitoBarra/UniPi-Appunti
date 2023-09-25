@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Statistica Descrittiva - Dati Numerici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md"
+    },
+    {
+      "basename": "Drawing 2023-09-22 11.51.47.excalidraw",
+      "path": "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md"
+    },
+    {
+      "basename": "Continuità di una funzione",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Derivate",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Derivate.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "STAT",
+      "path": "Templete/Coure Finale/STAT.md"
+    },
+    {
+      "basename": "Analisi template",
+      "path": "Templete/Coure Finale/Analisi template.md"
+    },
+    {
+      "basename": "Serie geometrica",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
+    },
+    {
+      "basename": "Diseguaglianza triangolare",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Diseguaglianza triangolare.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Statistica descrittiva",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva.md"
+    },
+    {
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Inferenza statistica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md"
+    },
+    {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Calcolare l inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
     },
     {
       "basename": "Curve Ellittiche",
@@ -139,66 +199,6 @@
     {
       "basename": "Cifrario di Alberti",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di Alberti.md"
-    },
-    {
-      "basename": "Cifrario affine e cifrari completo",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario affine e cifrari completo.md"
-    },
-    {
-      "basename": "Cifrario di Cesare",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di Cesare.md"
-    },
-    {
-      "basename": "Generazione di numeri Primi",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generazione di numeri Primi.md"
-    },
-    {
-      "basename": "Generatori di numeri Pseudo Casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Generatori di numeri Pseudo Casuali.md"
-    },
-    {
-      "basename": "Test di primalità Miller-Rabin",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Test di primalità Miller-Rabin.md"
-    },
-    {
-      "basename": "Sequenza casuali",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Sequenza casuali.md"
-    },
-    {
-      "basename": "Funzioni One-Way",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way.md"
-    },
-    {
-      "basename": "Rappresentazione di oggetti matematici con sequenze",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Rappresentazione di oggetti matematici con sequenze.md"
-    },
-    {
-      "basename": "Principi di Bacone",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Principi di Bacone.md"
-    },
-    {
-      "basename": "Tipologia di attacchi ai cifrari",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Tipologia di attacchi ai cifrari.md"
-    },
-    {
-      "basename": "Cifrari perfetti",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrari perfetti.md"
-    },
-    {
-      "basename": "Calcolare l inverso di un numero in algebra modulare",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
-    },
-    {
-      "basename": "Algoritmo di Euclide Esteso",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Algoritmo di Euclide Esteso.md"
-    },
-    {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Massimo comun divisore",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Massimo comun divisore.md"
     }
   ],
   "omittedPaths": [],

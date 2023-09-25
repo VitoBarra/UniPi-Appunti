@@ -9,7 +9,7 @@ Parent MOC: "[[Studi MOC]]"
 ## Course MOC  📒
 - 1° Anno
 	- [[Fondamenti Del Informatica (FDI)]]
-	- [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
+	- [[Analisi]]
 	- [[Algebra Lineare (AL)]]
 	- [[Laboratorio I]]
 	- [[Programmazione Algoritmica (ProgAlg)]]

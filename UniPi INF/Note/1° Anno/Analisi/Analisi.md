@@ -16,7 +16,7 @@ Prev: [[Uni MOC]]
 	4. 
 6. [[Limiti]]
 	1. [[Limiti notevoli]]
-3. [[Derivata]]
+3. [[Derivate]]
 	1. [[Funzioni differenziabili]]
 	3. [[Derivate fondamentali]]
 	2. [[Derivate - Chaning rule]]
