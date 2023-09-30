@@ -9,12 +9,12 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 
 # Ricerca Tempra simulata o Simulated annealing per AI
 ---
-è un algoritmo di [[Ricerca locale|Ricerca locale]] Scelta [[Probabilità e variabili aleatorie|stocastica]] ma non del tutto casuale perché poco efficiente
+è un algoritmo di [[Ricerca locale|Ricerca locale]] Scelta [[Probabilita|stocastica]] ma non del tutto casuale perché poco efficiente
 
 
 ad ogni passi si sceglie un successore $n’$ a caso:
 - Se migliora lo stato corrente si passa a quello stato
-- altrimenti quel nodo viene scelto con [[Probabilità e variabili aleatorie|Probabilita]] $p = e^{\Delta E/T}$
+- altrimenti quel nodo viene scelto con [[Probabilita|Probabilita]] $p = e^{\Delta E/T}$
 	- dove $\Delta E = f(n’)-f(n)$ e $T$ è un parametro detto _temperatura_ che decresce seguendo un piano definito (anche esso parametro) con il _progredire temporalmente_  del algoritmo
 	- Cosi facendo la $p$ è inversamente proporzionale al peggioramento, se $\Delta E$ è un numero molto alto negativo $p$ si abbassa
 

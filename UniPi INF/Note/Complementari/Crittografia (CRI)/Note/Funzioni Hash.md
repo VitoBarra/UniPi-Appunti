@@ -22,7 +22,7 @@ ovvero c è una [[famiglia di Insiemi|famiglia di sottoinsiemi]] del _dominio_ $
 
 una __*buona*__ funzione _hash_ ha le seguenti proprietà
 1. I _sotto insiemi_ $X_{1}\dots X_{m}$ hanno circa la stessa [[Cardinalità di un insieme|cardinalità]]
-	- questo assicura che presi su valori a caso da $X$ hanno una [[Probabilità e variabili aleatorie|probabilita]] è circa $\frac{1}{m}$ di avere la stessa _immagine_ in $Y$
+	- questo assicura che presi su valori a caso da $X$ hanno una [[Probabilita|probabilita]] è circa $\frac{1}{m}$ di avere la stessa _immagine_ in $Y$
 2. Elemento di $X$ _molti simili_ tra loro appartengono a sotto insiemi diversi
 	- ad esempio se $X= \mathbb{N}$ allora numeri prossimi devono avere immagine molto diverse.
 

@@ -23,8 +23,8 @@ dove $\alpha,\beta \in \mathbb{C}$ e $|\alpha|^{2}+|\beta|^{2}=1$ e gli stati $|
 
 Se un registro di $n$ _bit_ può conservare $n$ bit di informazione un registro di $n$ _qubit_ conservare $2^{n}$  _bit_ di informazioni (ovvero tutte le [[Combinatoria|sequenza]] costruibili con 2 simboli), questo avviene siccome in _qubit_ è in sovrapposizione tra $2$ stati e quindi $n$ qubit sono in sovrapposizione di $2^{n}$ stati 
 Non si possono pero leggere contemporaneamente tutte le configurazioni siccome _durante la lettura_ interverrà il fenomeno di _decoerenza_  che farà collassare il valore e ogni _qubit_ nel  in uno stato 
-- $| 0 \rangle$ con [[Probabilità e variabili aleatorie|probabilità]] $|\alpha|^{2}$ 
-- $| 1 \rangle$ con [[Probabilità e variabili aleatorie|probabilità]] $|\beta|^{2}$
+- $| 0 \rangle$ con [[Probabilita|probabilità]] $|\alpha|^{2}$ 
+- $| 1 \rangle$ con [[Probabilita|probabilità]] $|\beta|^{2}$
 restituendo cosi un risultato _classico_ in _bit_. 
 una volta letto il registro tutta l informazione sulla _superposizione_ è _persa_ rileggere il registro piu volte dara sempre lo stesso risultato della prima lettura.
 

@@ -54,7 +54,7 @@ la _minimalita delle chiavi_ discende dal fatto che $$|Mes|=2^{n} =|K|$$ ed esse
 
 mentre per dimostrare che il _cifrario è perfetto_ dobbiamo distrare come _dalla definizione_ che 
 $$\mathcal{P}(M=m|C=c)=\mathcal{P}(M=m)$$
-e per farlo applichiamo la _definizione_ di  [[Probabilità condizionata e indipendenza|probabilita condizionata]] 
+e per farlo applichiamo la _definizione_ di  [[Probabilita condizionata|probabilita condizionata]] 
 Abbiamo quindi che $$\mathcal{P}(M=M\mid C=c)=\frac{\mathcal{P}(M=m\cap C=c)}{\mathcal{P}(C=c)}$$con $\mathcal{P}(M=m\cap C=c)$ stiamo rappresentando i casi in cui il _messaggio_ sia generato da $mit$ è $m$ e il _crittogramma_ generato è esattamente $c$ 
 per definizione di [[Operazioni logiche#XOR|XOR]] con un $m$ fissato abbiamo che _chiavi diverse_ danno _crittogrammi diversi_ e usando tutte le _chiavi possibili_ possiamo raggiungere ogni _crittogramma possibile_ ed ognuno di questi può essere generato con probabilità $\left( \frac{1}{2} \right)^{n}$ perciò abbiamo perciò che $\mathcal{P}(C=c)= \left( \frac{1}{2} \right)^{n} \ \ \forall c$  quindi $\mathcal{P}(C=c)$ è costante e di conseguenza è [[Indipendenza Stocastica|indipendente]] da $m$ e perciò vale che
 $$\mathcal{P}(M=m\cap C=c) = \mathcal{P}(M=m) \times \mathcal{P} (C =c)$$

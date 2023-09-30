@@ -21,7 +21,7 @@ con $n$ non [[Numeri primi|primo]].
 
 #### Predicati Hard-core
 Un _[[Predicati|predicato]]_ $b(x)$  per una funzione _One-way_ $f(x)$
-è detto _Hard-Core_ se è facile da calcolare conoscendo $x$ ma difficile da prevedere con [[Probabilità e variabili aleatorie|probabilita]] $>\cfrac{1}{2}$ (quindi con probabilità maggiore di tirare a caso) conoscendo solo il valore di $y=f(x)$
+è detto _Hard-Core_ se è facile da calcolare conoscendo $x$ ma difficile da prevedere con [[Probabilita|probabilita]] $>\cfrac{1}{2}$ (quindi con probabilità maggiore di tirare a caso) conoscendo solo il valore di $y=f(x)$
 
 per la funzione $f(x)=x^{2}\mod n$ un predicato _hardcore_ è
 $$b(x)= x \text{ è dispari}$$

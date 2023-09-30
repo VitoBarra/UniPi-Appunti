@@ -1,8 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "Statistica Descrittiva - Dati Numerici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Numerici.md"
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Statistica descrittiva - Dati Numerici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md"
+    },
+    {
+      "basename": "Statistica Descrittiva - Dati Multivariati",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
+    },
+    {
+      "basename": "Retta di regressione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md"
+    },
+    {
+      "basename": "Quantili e Percentili",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Quantili e Percentili.md"
+    },
+    {
+      "basename": "Funzione di Ripartizione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md"
+    },
+    {
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Probabilita sui numeri Reali",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
+    },
+    {
+      "basename": "Variabili Aleatorie (Casuali)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md"
+    },
+    {
+      "basename": "Alberi di decisione per AI",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Alberi di decisione per AI.md"
+    },
+    {
+      "basename": "Quantili di variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Quantili di variabili aleatorie.md"
+    },
+    {
+      "basename": "Probabilita condizionata",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+    },
+    {
+      "basename": "Probabilita con distribuzione uniforme",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md"
+    },
+    {
+      "basename": "Probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita.md"
+    },
+    {
+      "basename": "Funzioni di ripartizione di variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzioni di ripartizione di variabili aleatorie.md"
+    },
+    {
+      "basename": "Formula di Bayes",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
+    },
+    {
+      "basename": "Partizione",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+    },
+    {
+      "basename": "Insiemi infiniti numerabili",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Insiemi infiniti numerabili.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Integrali",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md"
+    },
+    {
+      "basename": "Operazioni chiuse",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni chiuse.md"
+    },
+    {
+      "basename": "Insiemi Matematici",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md"
+    },
+    {
+      "basename": "Induttività",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Induttività.md"
+    },
+    {
+      "basename": "Teorema cinese del resto",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema cinese del resto.md"
     },
     {
       "basename": "Drawing 2023-09-22 11.51.47.excalidraw",
@@ -13,16 +121,8 @@
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
     },
     {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
       "basename": "Derivate",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Derivate.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Derivate.md"
     },
     {
       "basename": "STAT",
@@ -41,24 +141,12 @@
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Diseguaglianza triangolare.md"
     },
     {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
-    },
-    {
       "basename": "Statistica descrittiva",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva.md"
     },
     {
-      "basename": "Indipendenza Stocastica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
-    },
-    {
       "basename": "Inferenza statistica",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md"
-    },
-    {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
     },
     {
       "basename": "Calcolare l inverso di un numero in algebra modulare",
@@ -107,98 +195,6 @@
     {
       "basename": "Cifrario asimmetrico ElGamal",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
-    },
-    {
-      "basename": "Protocollo Transport Layer Security (TLS)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Transport Layer Security (TLS).md"
-    },
-    {
-      "basename": "Protocollo Secure socket layer (SSL)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md"
-    },
-    {
-      "basename": "Protocolli di firma digitale",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di firma digitale.md"
-    },
-    {
-      "basename": "Protocolli di Autenticazione",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md"
-    },
-    {
-      "basename": "Protocolli di Identificazione",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Identificazione.md"
-    },
-    {
-      "basename": "Identificazione, autentificazione, Firma digitale",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Identificazione, autentificazione, Firma digitale.md"
-    },
-    {
-      "basename": "Cifrario di ElGamal su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di ElGamal su curve ellittiche.md"
-    },
-    {
-      "basename": "Algoritmo di Koblitz",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmo di Koblitz.md"
-    },
-    {
-      "basename": "Cifrario Diffie-Hellman su curve ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario Diffie-Hellman su curve ellittiche.md"
-    },
-    {
-      "basename": "Cifrario asimmetrico RSA",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico RSA.md"
-    },
-    {
-      "basename": "Teorema di Eulero",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Teorema di Eulero.md"
-    },
-    {
-      "basename": "Cifrari a chiave Asimmetrica",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrari a chiave Asimmetrica.md"
-    },
-    {
-      "basename": "Cifrario One-time Pad",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario One-time Pad.md"
-    },
-    {
-      "basename": "Cifrario simmetrico AES",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario simmetrico AES.md"
-    },
-    {
-      "basename": "Cifrario a Composizione di blocchi",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a Composizione di blocchi.md"
-    },
-    {
-      "basename": "Cifrario simmetrico DES",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario simmetrico DES.md"
-    },
-    {
-      "basename": "Critto analisi Statistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Critto analisi Statistica.md"
-    },
-    {
-      "basename": "Criteri di Shannon per i cifrari",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Criteri di Shannon per i cifrari.md"
-    },
-    {
-      "basename": "Cifrario a griglia",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a griglia.md"
-    },
-    {
-      "basename": "La macchina enigma",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/La macchina enigma.md"
-    },
-    {
-      "basename": "Cifrario a permutazione di colonna",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a permutazione di colonna.md"
-    },
-    {
-      "basename": "Cifrario a permutazione semplice",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario a permutazione semplice.md"
-    },
-    {
-      "basename": "Cifrario di Alberti",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario di Alberti.md"
     }
   ],
   "omittedPaths": [],

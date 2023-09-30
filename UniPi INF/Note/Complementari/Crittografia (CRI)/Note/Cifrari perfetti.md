@@ -17,7 +17,7 @@ Questo tipo di cifrario per quanto abbia una _segretezza_ perfetta è in pratico
 per dare una formalizzazione del _cifrario perfetto_ bisogna formalizzare il concetto di trasmissione crittografica come un modello matematico [[Statistica (STAT)|stocastico]], formalizzando cos è l informazione e la trasmissione.
 
 
-la comunicazione tra un mittente $mit$ e un destinatario $dest$ è descritto tramite una [[Probabilità e variabili aleatorie|variabili aleatore]] $M$ che ha valori nello _spazio dei messaggi_ $Msg$ e le comunicazione sul canale sono descritti da una variabile aleatoria $C$ che assume valori nello spazio e dei _crittogrammi_ $Cri$  
+la comunicazione tra un mittente $mit$ e un destinatario $dest$ è descritto tramite una [[Probabilita|variabili aleatore]] $M$ che ha valori nello _spazio dei messaggi_ $Msg$ e le comunicazione sul canale sono descritti da una variabile aleatoria $C$ che assume valori nello spazio e dei _crittogrammi_ $Cri$  
 ##### Definizione
 Sotto l assunzione che il _crittoanalista_  
 - Intercetti sempre $c$
@@ -26,8 +26,8 @@ Sotto l assunzione che il _crittoanalista_
 - Conosca il _cifrario utilizzato_
 
 _sia_
-- $\mathcal{P}(M=m)$ la [[Probabilità e variabili aleatorie|probabilità]] che $mit$ mandi il messaggio $m$
-- $\mathcal{P}(M=m|C=c)$ la _[[Probabilità e variabili aleatorie|probabilità]] a posteriori_ che il messaggio inviato sia effettivamente $m$ dato che $c$ è il crittogramma in transito.
+- $\mathcal{P}(M=m)$ la [[Probabilita|probabilità]] che $mit$ mandi il messaggio $m$
+- $\mathcal{P}(M=m|C=c)$ la _[[Probabilita|probabilità]] a posteriori_ che il messaggio inviato sia effettivamente $m$ dato che $c$ è il crittogramma in transito.
 
 
 un cifrario è detto _perfetto_ se $\forall m \in Msg$ e $\forall c \ \in Cri$ vale che $$\mathcal{P}(M=m|C=c) = \mathcal{P}(M=m)$$

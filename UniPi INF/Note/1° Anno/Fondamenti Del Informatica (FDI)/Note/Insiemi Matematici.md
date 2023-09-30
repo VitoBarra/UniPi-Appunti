@@ -17,3 +17,8 @@ sia un insieme $A = \{a,b,c\}$ un _sottoinsieme proprio_ $B=\{a,b\}$ indicato co
 $$A  \subset B$$
 mentre _sottoinsieme improprio_ con $B = \{a,b,c\}$
 $$A\subseteq B$$
+
+### Famiglie di insiemi 
+
+### Famiglie di sottoinsiemi
+

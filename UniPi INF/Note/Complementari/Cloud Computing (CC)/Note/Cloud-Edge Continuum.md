@@ -65,7 +65,7 @@ L approccio dichiaravativo funziona come una lista di requisiti e poi si lascia 
 
 
 
-Si utilizzano la [[Probabilità e variabili aleatorie|probabilita]] per modellare _la dinamicita del infrastruttura_    
+Si utilizzano la [[Probabilita|probabilita]] per modellare _la dinamicita del infrastruttura_    
 ![[IMG_0587.jpeg]]
 il problema della _Trust_ non è [[Funzione Monotona|Monotona]]
 

@@ -28,7 +28,7 @@ Se i due predicati sono veri si può dire solo che il numero $N$ è primo con un
 #### Lemma Miller e Rabin
 _se_ $N$ è _non primo_ (composto) i numeri $y$ con $1< y < N$ che _soddisfano entrambi i predicati_ sono minori di $\cfrac{N}{4}$
 
-questo significa che il _test di primalità_ ha meno di $\cfrac{1}{4}$ di [[Probabilità e variabili aleatorie|probabilità]] di dichiarare un numero _composto_ come [[Numeri primi|numero primo]]
+questo significa che il _test di primalità_ ha meno di $\cfrac{1}{4}$ di [[Probabilita|probabilità]] di dichiarare un numero _composto_ come [[Numeri primi|numero primo]]
 
 #### Verifica Probabilistica
 Utilizzando il _lemma_ possiamo costruire l algoritmo di _verifica_ per il [[Certificato di un algoritmo|certificato Probabilistico]] $y$ 
@@ -70,7 +70,7 @@ Ora per verificare che un numero $N$ sia primo si puo procedere con il seguente 
 	\end{algorithm}
 ```
 Se il risultato è $false$ abbiamo che il numero $N$ è sicuramente _non è primo_ 
-Se il risultato è $true$ sappiamo che $N$ è [[Numeri primi|primo]] con una certa [[Probabilità e variabili aleatorie|probabilità]] e sapendo che $Verifica(N,y)$ dichiara come _primo_ un numero _non primo_ con una probabilità di $\cfrac{1}{4}$, _ripetendo il test_, che sono indipendenti, $k$ volte abbiamo che la probabilita che $N$  sia _effettivamente primo_ è  $1-\left(\cfrac{1}{4}\right)^{k}$
+Se il risultato è $true$ sappiamo che $N$ è [[Numeri primi|primo]] con una certa [[Probabilita|probabilità]] e sapendo che $Verifica(N,y)$ dichiara come _primo_ un numero _non primo_ con una probabilità di $\cfrac{1}{4}$, _ripetendo il test_, che sono indipendenti, $k$ volte abbiamo che la probabilita che $N$  sia _effettivamente primo_ è  $1-\left(\cfrac{1}{4}\right)^{k}$
 
 >[!warning]
 >questo funziona a patto che le scelte delle $y$ sia [[Indipendenza Stocastica|indipendenti]] utilizzano quindi un [[Generatori di numeri Pseudo Casuali|generatore di numeri pseudo casuli]] _crittograficamente sicuro_

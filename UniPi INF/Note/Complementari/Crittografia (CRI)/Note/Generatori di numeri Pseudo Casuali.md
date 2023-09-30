@@ -9,7 +9,7 @@ Prev: [[Crittografia (CRI)]]
 
 # Generatori di numeri Pseudo Casuali
 ---
-Generare numeri casuali è un compito difficile ma di grande importanza, siccome questo ha innumerevoli applicazioni in _crittografia_ e in altri campi. Ogni _numero_ puo essere [[Rappresentazione di oggetti matematici con sequenze|espresso in sequenza]] e abbiamo che una [[Sequenza casuali|Sequenza casuale]],in questo caso con _rappresentazione binaria_, per essere tale deve valere che la [[Probabilità e variabili aleatorie|probabilità]] di avere uno 0 e quella di avere un 1 è uguale per entrambi e quindi $\mathcal{P}=\frac{1}{2}$, ciò implica che ogni _bit_ deve essere _indipendente_ dal precedente/i.
+Generare numeri casuali è un compito difficile ma di grande importanza, siccome questo ha innumerevoli applicazioni in _crittografia_ e in altri campi. Ogni _numero_ puo essere [[Rappresentazione di oggetti matematici con sequenze|espresso in sequenza]] e abbiamo che una [[Sequenza casuali|Sequenza casuale]],in questo caso con _rappresentazione binaria_, per essere tale deve valere che la [[Probabilita|probabilità]] di avere uno 0 e quella di avere un 1 è uguale per entrambi e quindi $\mathcal{P}=\frac{1}{2}$, ciò implica che ogni _bit_ deve essere _indipendente_ dal precedente/i.
 
 > [!note]
 > in realtà l avere probabilità uguali non è strettamente necessario siccome nella pratica se una delle due probabilità è piu altra si possono raggruppare le coppie $00$ e $11$ e sostituirle in modo da rendere la probabilità di nuovo uguali
@@ -18,11 +18,11 @@ Generare numeri casuali è un compito difficile ma di grande importanza, siccome
 #### Test statistici per la casualità
 i _generatori_ o le _fonti_ si valutano confrontano le sequenze $S$ che _queste generano_ con una sequenza perfettamente casuale, le sequenze $S$ devono superare certi _test statistici_ per essere definite _casuali_. Questi sono
 1. _Test di frequenza_: per sequenza lunghe tutti i caratteri sono equiprobabili, ovvero tutti i caratteri compiano approssimativamente lo stesso numero di volte in $S$
-2. _Poker test_: le sotto sequenza di una data lunghezza fissa sono [[Probabilità e variabili aleatorie|equiprobabili]], ovvero non esiste una specifica sotto sequenza che compare piu spesso delle altre nella sequenza $S$
+2. _Poker test_: le sotto sequenza di una data lunghezza fissa sono [[Probabilita|equiprobabili]], ovvero non esiste una specifica sotto sequenza che compare piu spesso delle altre nella sequenza $S$
 3. _Test di autocorrelazione_: verificano che non ci siano valori o sotto sequenze che si ripetono a distanze regolari. 
 4. _Ran test_: l frequenza delle sotto sequenze massimali di simboli tutti uguali devono avere una [[distribuzione di probabilita|distribuzione di probabilita]] esponenzialmente negativa nella lunghezza della stringa 
 questi 4 test bastano per applicazioni normali ma per essere anche _crittografamene sicuri_, e quindi utilizzabili per generare chiavi segrete devono soddisfare l ulteriore 
-5. _Test di prossimo bit_:  non deve esiste un algoritmo  di tempo polinomiale in grado di _prevedere_ l $i +1$ bit della sequenza a partire dalla conoscenza degli i bit già generati con [[Probabilità e variabili aleatorie|probabilità]] maggiore di $\cfrac{1}{2}$
+5. _Test di prossimo bit_:  non deve esiste un algoritmo  di tempo polinomiale in grado di _prevedere_ l $i +1$ bit della sequenza a partire dalla conoscenza degli i bit già generati con [[Probabilita|probabilità]] maggiore di $\cfrac{1}{2}$
 
 
 #### Fonti
