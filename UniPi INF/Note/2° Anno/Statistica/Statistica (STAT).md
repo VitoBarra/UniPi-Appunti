@@ -24,8 +24,15 @@ Prev: [[Uni MOC]]
 	1. [[Funzioni di ripartizione di variabili aleatorie]]
 	2. [[Quantili di variabili aleatorie]]
 	3. [[Variabili Aleatorie Notevoli]]
-4. [[Inferenza statistica]]
-5. [[Intervalli di confidenza]]
+		1. [[Trasformazioni di variabili con densita]]
+		2. [[Variabili aleatorie Gaussiane]]
+	4. Valori riassuntivi per variabili aleatoria
+		1. [[Variabili aleatoria - Momenti]]
+			1. [[Diseguaglianza di Markov]]
+		2. [[Variabili aleatorie - Varianza]]
+4. [[Variabili Aleatorie Multivariate]]
+5. [[Inferenza statistica]]
+6. [[Intervalli di confidenza]]
 
 
 

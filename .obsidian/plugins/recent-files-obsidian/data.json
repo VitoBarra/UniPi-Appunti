@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
+      "basename": "IMG_0660",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
+      "basename": "Variabili Aleatorie Multivariate",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md"
+    },
+    {
+      "basename": "Variabili aleatorie - Varianza",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
+    },
+    {
+      "basename": "Diseguaglianza di Markov",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
+    },
+    {
+      "basename": "Variabili aleatorie Gaussiane",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md"
+    },
+    {
+      "basename": "Trasformazioni di variabili con densita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
+    },
+    {
+      "basename": "Variabili aleatoria - Momenti",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
+    },
+    {
       "basename": "Statistica descrittiva - Dati Numerici",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Studi MOC",
+      "path": "Studi MOC.md"
     },
     {
       "basename": "Statistica Descrittiva - Dati Multivariati",
@@ -167,34 +199,6 @@
     {
       "basename": "Smart Contracts",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md"
-    },
-    {
-      "basename": "Protocollo di identificazione Fiat-Shamir",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md"
-    },
-    {
-      "basename": "Moneta elettronica Bit Coin",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md"
-    },
-    {
-      "basename": "Funzioni Hash One-Way",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash One-Way.md"
-    },
-    {
-      "basename": "Funzioni One-Way Trapdoor",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md"
-    },
-    {
-      "basename": "Algoritmi di firma digitale su curve ellittiche (ECDSA)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md"
-    },
-    {
-      "basename": "Protocolli Zero Knowledge",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md"
-    },
-    {
-      "basename": "Cifrario asimmetrico ElGamal",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
     }
   ],
   "omittedPaths": [],

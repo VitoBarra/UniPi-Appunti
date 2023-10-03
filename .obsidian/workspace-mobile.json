@@ -11,12 +11,9 @@
             "id": "f4553ccaf5c22b08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "UniPi INF/Note/Uni MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
               }
             }
           }
@@ -110,7 +107,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Uni MOC.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +124,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Uni MOC.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,7 +136,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Uni MOC.md"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
           }
         }
       },
@@ -156,10 +153,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,15 +161,28 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f4553ccaf5c22b08",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "IMG_0656.jpeg",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md",
+    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "Studi MOC.md",
+    "IMG_0656.jpeg",
     "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Quantili e Percentili.md",
@@ -192,13 +198,6 @@
     "UniPi INF/Note/2° Anno/Statistica/Note/Funzioni di ripartizione di variabili aleatorie.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
     "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Insiemi infiniti numerabili.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md",
-    "UniPi INF/Note/Complementari/Algebra/Note/Operazioni chiuse.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0635.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
@@ -207,7 +206,6 @@
     "IMG_0632.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0627.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0629.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0615.jpeg",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",
