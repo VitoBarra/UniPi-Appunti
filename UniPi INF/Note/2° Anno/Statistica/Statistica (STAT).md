@@ -31,6 +31,8 @@ Prev: [[Uni MOC]]
 			1. [[Diseguaglianza di Markov]]
 		2. [[Variabili aleatorie - Varianza]]
 4. [[Variabili Aleatorie Multivariate]]
+	1. [[Indipendenza di Variabili aleatorie Multivariate]]
+	2. [[Variabili aleatorie - Covarianza e correlazione]]
 5. [[Inferenza statistica]]
 6. [[Intervalli di confidenza]]
 

@@ -11,9 +11,12 @@
             "id": "f4553ccaf5c22b08",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
+                "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -107,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -124,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -136,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md"
           }
         }
       },
@@ -168,22 +171,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Indipendenza di Variabili aleatorie Multivariate.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "UniPi INF/Note/1° Anno/Analisi/Teorema di Fubini-Tonelli.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
+    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md",
-    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
     "UniPi INF/Note/Uni MOC.md",
     "Studi MOC.md",
     "IMG_0656.jpeg",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Quantili e Percentili.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md",
@@ -193,11 +201,6 @@
     "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Alberi di decisione per AI.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Quantili di variabili aleatorie.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Funzioni di ripartizione di variabili aleatorie.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0635.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",

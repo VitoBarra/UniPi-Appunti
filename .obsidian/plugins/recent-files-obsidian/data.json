@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "IMG_0660",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
+      "basename": "Variabili aleatorie - Covarianza e correlazione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
+      "basename": "Indipendenza di Variabili aleatorie Multivariate",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Indipendenza di Variabili aleatorie Multivariate.md"
+    },
+    {
       "basename": "Variabili Aleatorie Multivariate",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md"
+    },
+    {
+      "basename": "Integrali",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Teorema di Fubini-Tonelli",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Teorema di Fubini-Tonelli.md"
+    },
+    {
+      "basename": "Statistica Descrittiva - Dati Multivariati",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
+    },
+    {
+      "basename": "IMG_0660",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg"
     },
     {
       "basename": "Variabili aleatorie - Varianza",
@@ -47,10 +71,6 @@
     {
       "basename": "Studi MOC",
       "path": "Studi MOC.md"
-    },
-    {
-      "basename": "Statistica Descrittiva - Dati Multivariati",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
     },
     {
       "basename": "Retta di regressione",
@@ -109,10 +129,6 @@
       "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md"
     },
     {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
       "basename": "Fondamenti Del Informatica (FDI)",
       "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
     },
@@ -123,10 +139,6 @@
     {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
-    },
-    {
-      "basename": "Integrali",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md"
     },
     {
       "basename": "Operazioni chiuse",
@@ -187,18 +199,6 @@
     {
       "basename": "Curve Ellittiche",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md"
-    },
-    {
-      "basename": "Elementi di crittografica quantistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md"
-    },
-    {
-      "basename": "NON-Fungibile Token (NFT)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/NON-Fungibile Token (NFT).md"
-    },
-    {
-      "basename": "Smart Contracts",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md"
     }
   ],
   "omittedPaths": [],
