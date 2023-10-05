@@ -19,5 +19,11 @@
   "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
   "file-explorer-note-count",
-  "obsidian2book"
+  "obsidian2book",
+  "multi-column-markdown",
+  "mermaid-tools",
+  "obsidian-charts",
+  "obsidian-pandoc",
+  "obsidian-reading-time",
+  "smart-connections"
 ]
