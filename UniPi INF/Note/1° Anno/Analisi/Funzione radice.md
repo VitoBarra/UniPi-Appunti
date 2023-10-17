@@ -6,5 +6,5 @@ tags:
   - Analisi
 Parent MOC: "[[Analisi]]"
 ---
-# {{title}}
+# Funzione radice
 ---

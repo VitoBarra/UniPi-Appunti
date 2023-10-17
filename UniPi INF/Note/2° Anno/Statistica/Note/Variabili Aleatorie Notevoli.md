@@ -19,8 +19,9 @@ dove
 - $p^{h}(1-p)^{n-h}$ è la probabilità che compaia u risultato con $h$ _successi_ e $(n-h)$ _insuccessi_. e questo vale per l _indipendenza_ dei risultati
 - $\begin{pmatrix}n \\h \end{pmatrix}$ è il numero di modi di [[Combinatoria|disporre]] gli $h$ _successi_ e $(n-h)$ _insuccessi_
 
-la [[Probabilita|probabilità]] totale è $1$ come conseguenza dell _binomiale_.
+la [[Definizione di Probabilita|probabilità]] totale è $1$ come conseguenza dell _binomiale_.
 
+##### Variabile di bernulli 
 una variabile _aleatoria_ $X:\Omega \rightarrow\{ 1,\dots,n\}$ per cui $\mathcal{P}\{ X=h \}$ è data da questa formula con un qualsiasi $p \in (0,1)$ allora è detta _variabile binomiare_ di parametri $n,p$ indicata con $B(n,p)$ se $n=1$ allora viene detta _variabile di bernulli_ $B(p)$
 
 #### variabili geometriche
@@ -54,7 +55,7 @@ la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ con densita esponenzi
 	\lambda e^{-\lambda x} &  x>0 \\
     0  & x \leq 0
 \end{cases}$$
-e si vede che la densita è effettivamente una [[Probabilita|probabilità]] con l espressone $$  \left .\int_{0}^{+\infty} \lambda e^{-\lambda x}  \, dx =-e^{-\lambda x}\right|_{0}^{+\infty}=1$$
+e si vede che la densita è effettivamente una [[Definizione di Probabilita|probabilità]] con l espressone $$  \left .\int_{0}^{+\infty} \lambda e^{-\lambda x}  \, dx =-e^{-\lambda x}\right|_{0}^{+\infty}=1$$
 poiché la densita prende valori diversi da $0$ solo per $x$ positivi si ha che $\mathcal{P}\{X \leq 0  \}=0$
 
 >[!tip]

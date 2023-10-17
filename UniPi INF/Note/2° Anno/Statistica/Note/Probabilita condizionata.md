@@ -9,7 +9,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 # Probabilità condizionata
 ---
 ### Probabilità condizionata
-preso uno _[[Probabilita#Probabilità assiomatica secondo Kolmogorov (definizione)|spazio delle probabilità]]_ $(\Omega,\mathcal{F},\mathbf{P})$ conoscendo l’esito di un evento $B$ _non trascurabile_ si possono fare delle considerazioni su un _altro evento_ $A$ anche esse non trascurabile modificandone cosi la _[[Probabilita|Probabilita]]_
+preso uno _[[Definizione di Probabilita#Probabilità assiomatica secondo Kolmogorov (definizione)|spazio delle probabilità]]_ $(\Omega,\mathcal{F},\mathbf{P})$ conoscendo l’esito di un evento $B$ _non trascurabile_ si possono fare delle considerazioni su un _altro evento_ $A$ anche esse non trascurabile modificandone cosi la _[[Definizione di Probabilita|Definizione di Probabilita]]_
 infatti abbiamo che la _Probabilità Condizionata_ di $A$ rispetto a $B$ è definita come$$
 \mathcal{P}(A|B) = \frac{\mathcal{P}(A \cap B)}{\mathcal{P}(B)}
 $$

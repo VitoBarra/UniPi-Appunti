@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,6 +88,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "6a86f12f0a968b89",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -110,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
           }
         }
       },
@@ -156,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -174,33 +185,33 @@
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili aleatorie - Covarianza e correlazione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Indipendenza di Variabili aleatorie Multivariate.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Integrali.md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/1° Anno/Analisi/Teorema di Fubini-Tonelli.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
-    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Intervalli di fiducia - Campioni grandi.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
+    "Extra Note/Note CP.md",
+    "Extra Note/To Read.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Idd - varianza campionaria.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Stima Campionaria.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Idd - Media Campionaria.md",
     "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
     "Studi MOC.md",
+    "Templete/Theorem.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/funzione Gamma di Eulero.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "IMG_0656.jpeg",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Quantili e Percentili.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md",
-    "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Alberi di decisione per AI.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Quantili di variabili aleatorie.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0635.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",

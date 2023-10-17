@@ -46,7 +46,7 @@ Possiamo utilizzare $R_{emp}$ per  approssimare $R$ ?
 	- Dove 
 		- $\epsilon$ è una funzione  detta _VC-confidece_ che cresce con il crescere di $VC$ e decresce al crescere di $l$ (numero di dati) e $\delta$ 
 		-  $R_{emp}$ decresce con modelli complessi
-		- $\delta$ è la [[Intervalli di confidenza|confidenza]] con cui si decide che la maggiorazione regga
+		- $\delta$ è la [[Intervalli di fiducia|confidenza]] con cui si decide che la maggiorazione regga
 - Intuizioni:
 -  $l$ (data) più alto. $\rightarrow$ VC-confidence più bassa minorazione più vicina a $R$
 - modello troppo semplice (VC-dim bassa) $\rightarrow$ $R_{emp}$ troppo alto (_undefitting_) 

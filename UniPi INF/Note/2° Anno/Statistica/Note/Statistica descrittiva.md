@@ -8,7 +8,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Statistica descrittiva
 ---
-la _statistica descrittiva_ riguarda l’analisi di dati senza l’utilizzo di [[Probabilita|modelli probabilistici]]
+la _statistica descrittiva_ riguarda l’analisi di dati senza l’utilizzo di [[Definizione di Probabilita|modelli probabilistici]]
 
 
 ### Terminologia e metodologia

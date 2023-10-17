@@ -12,7 +12,7 @@ Prev: [[Crittografia (CRI)]]
 gli _[[Algoritmi|algoritmi]] randomizati_ sono particolari tipi di algoritmi che includono degli elementi di casualità.
 
 l idea è del tipo: 
-invece di trovare una soluzione  _sicuramente esatta_ ad un problema [[Complessita|tempo esponenziale]] si accetta di trovarne una con una [[Probabilita|probabilità]] piccola, misurabile e arbitrariamente diminuibile che questa sia _sbagliata_
+invece di trovare una soluzione  _sicuramente esatta_ ad un problema [[Complessita|tempo esponenziale]] si accetta di trovarne una con una [[Definizione di Probabilita|probabilità]] piccola, misurabile e arbitrariamente diminuibile che questa sia _sbagliata_
 
 
 due classi di algoritmi randomizzati sono

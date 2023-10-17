@@ -26,7 +26,7 @@ La conseguenza di questo e che dura _variabili aleatorie_ che hanno la stessa _f
 
 #### Funzioni di ripartizione discreta
 la _funzione di ripartizione_ $F_{X}$ di una [[Variabili Aleatorie (Casuali)|Variabile Aleatoria]] $X$ discreta che assume valori $x_1,x_{2}\dots$ è una funzione _costante a gradini_ $$F_{x}(t)= \sum_{x_{i}\leq t}p(x_{i})$$
-nella funzione c è un salto in corrispondenza di ogni punto $x$ tale che $\mathcal{P}\{ X=x \}>0$ e l _ampiezza_ del salto è la _[[Probabilita|probabilita]]_ di quel punto.
+nella funzione c è un salto in corrispondenza di ogni punto $x$ tale che $\mathcal{P}\{ X=x \}>0$ e l _ampiezza_ del salto è la _[[Definizione di Probabilita|probabilita]]_ di quel punto.
 Abbiamo quindi che 
 $$\mathcal{P}\{ X=x\}=F_{X}(x)-F_{X-}(x)$$dove $F_{X-}=\lim_{ y \to x }F(y)$ si intende il _[[Limiti|limite]] sinistro_ di $F_{X}$ nel punto $x$ 
 

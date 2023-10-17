@@ -1,160 +1,22 @@
 {
-  "collapse-filter": false,
-  "search": "-tag:MOC",
+  "collapse-filter": true,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag:#MOC",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#RO",
-      "color": {
-        "a": 1,
-        "rgb": 11982204
-      }
-    },
-    {
-      "query": "tag:#AL",
-      "color": {
-        "a": 1,
-        "rgb": 4478495
-      }
-    },
-    {
-      "query": "tag:#RETI_LAB3",
-      "color": {
-        "a": 1,
-        "rgb": 4607
-      }
-    },
-    {
-      "query": "tag:#ProgAlgo",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "tag:#CN",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#AESO",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "tag:#PDP",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "tag:#STAT",
-      "color": {
-        "a": 1,
-        "rgb": 16113664
-      }
-    },
-    {
-      "query": "tag:#FDI",
-      "color": {
-        "a": 1,
-        "rgb": 878041
-      }
-    },
-    {
-      "query": "tag:#MATH",
-      "color": {
-        "a": 1,
-        "rgb": 2037792
-      }
-    },
-    {
-      "query": "tag:#IS",
-      "color": {
-        "a": 1,
-        "rgb": 7354451
-      }
-    },
-    {
-      "query": "tag:#ECC",
-      "color": {
-        "a": 1,
-        "rgb": 10492956
-      }
-    },
-    {
-      "query": "tag:#ALG",
-      "color": {
-        "a": 1,
-        "rgb": 12762260
-      }
-    },
-    {
-      "query": "tag:#CRI",
-      "color": {
-        "a": 1,
-        "rgb": 4656514
-      }
-    },
-    {
-      "query": "tag:#IA",
-      "color": {
-        "a": 1,
-        "rgb": 8404756
-      }
-    },
-    {
-      "query": "tag:#Analisi",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "tag:#CC",
-      "color": {
-        "a": 1,
-        "rgb": 328995
-      }
-    },
-    {
-      "query": "tag:#IUM",
-      "color": {
-        "a": 1,
-        "rgb": 8750356
-      }
-    }
-  ],
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": true,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 20,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 500,
-<<<<<<< Updated upstream
-  "scale": 0.15593339098672804,
-=======
-  "scale": 0.03935492363347085,
->>>>>>> Stashed changes
+  "linkDistance": 250,
+  "scale": 1,
   "close": false
 }

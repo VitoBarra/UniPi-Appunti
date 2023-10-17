@@ -73,7 +73,7 @@ _modello_:
 >[!example]- 
 > - [[Logica del primo ordine (FOL)|Logica del primo ordine]]
 > - Equazioni numeriche
-> - [[Probabilita|Probabilita]]
+> - [[Definizione di Probabilita|Definizione di Probabilita]]
 
 ## Algoritmo di apprendimento 
 

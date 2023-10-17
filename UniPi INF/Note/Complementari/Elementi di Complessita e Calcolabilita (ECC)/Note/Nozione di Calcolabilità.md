@@ -15,7 +15,7 @@ la nazione di _calcolabilità_ esprime le funzioni intuitivamente calcolabili. s
 1. ) Un algoritmo è costituito da un insieme __finito__ di istruzioni;
 2. ) Le istruzioni possibili sono in numero finito e hanno un effetto limitato su dati discreti, esprimibili in maniera finita ovvero (x=y) posso cambiare y in modo infinito  ma e rappresentato finitamente (2 termini);
 3. ) Una computazione è eseguita per passi discreti (singoli), ciascuno dei quali impiega un tempo finito;
-4. ) Ogni passo dipende solo dai precedenti e da una porzione finita dei dati, in modo deterministico (ciò è senza essere soggetti ad alcuna distribuzione [[Probabilita|probabilistica]] non banale);
+4. ) Ogni passo dipende solo dai precedenti e da una porzione finita dei dati, in modo deterministico (ciò è senza essere soggetti ad alcuna distribuzione [[Definizione di Probabilita|probabilistica]] non banale);
 5. ) non c’ e limite al numero di passi necessari all’esecuzione di un algoritmo, ne alla memoria richiesta per contenere i dati (finiti) iniziali, intermedi ed eventualmente finali (i numero dei passi è finito solo se prima o poi si raggiunge uno stato finale o c è uno stallo quindi quando non esiste una prossima istruzione da eseguire).
 
 

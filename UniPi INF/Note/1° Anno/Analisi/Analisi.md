@@ -12,7 +12,7 @@ Prev: [[Uni MOC]]
 2. Proprietà delle operazioni e funzioni note
 	1. [[Funzione logaritmica]]
 	2. [[Funzione esponenziale]]
-	3. [[Radice]]
+	3. [[Funzione radice]]
 	4. 
 3. [[Limiti]]
 	1. [[Limiti notevoli]]

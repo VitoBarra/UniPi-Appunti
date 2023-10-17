@@ -21,8 +21,8 @@ gli strumenti per manipolare la polarizazione sono
 - _one photon gun_ (_OPG_): permette di sparare un unico fotone
 - _cella di pockets_ (_PC_): consente di imporre una polarizazione ad un fotone
 - _beam splitter polarizante_ (_PBS_): che dirotta i fotoni in ingresso verso una delle due uscite $A$ e $R$ dove $A$ utilizza un fenomeno di _attraversamento_ e $R$ uno di _riflessione_. Questo strumento ha al suo interno un asse di polarizazione $\mathcal{S}$ sia $\mathcal{F}$ un fotone polarizzato e $\theta$ l angolo compreso tra $\mathcal{S}$ e $\mathcal{F}$ e si ha che il fotone viene inviato
-	- al uscita $A$ con [[Probabilita|probabilita]] $\cos^{2}(\theta)$ con polarizazione $\mathcal{S}$
-	- al uscita $R$ con [[Probabilita|probabilita]] $\sin^{2}(\theta)$ con polarizazione _ortogonale_ ad $\mathcal{S}$
+	- al uscita $A$ con [[Definizione di Probabilita|probabilita]] $\cos^{2}(\theta)$ con polarizazione $\mathcal{S}$
+	- al uscita $R$ con [[Definizione di Probabilita|probabilita]] $\sin^{2}(\theta)$ con polarizazione _ortogonale_ ad $\mathcal{S}$
 	e quindi abbiamo che con
 	-  $\theta =0°$ abbiamo $\cos(\theta)=1$ sarà sicuramente $A$ ($\mathcal{F}=\mathcal{S}$ )
 	- $\theta =90°$ abbiamo $\sin(\theta)=1$ sarà sicuramente $R$ ($\mathcal{F}$ _ortogonale_ a $\mathcal{S}$ )
@@ -45,7 +45,7 @@ la tabella  delle possibili letture risulta quindi come
 ![[IMG_0604.jpeg]]
 dove due frecce nelle caselle indiano un comportamento _imprevedibile_.
 
-Essendo le due basi scelte per ogni fotone _completamente scorrelate_ avremmo che ad ogni scambio di fotone la [[Probabilita|probabilita]] che il bit inviato e quelli ricevuto siano uguali è $\cfrac{1}{2}$ e quindi se si invia una sequenza di fotoni saranno recepiti correttamente solo la meta degli elementi.
+Essendo le due basi scelte per ogni fotone _completamente scorrelate_ avremmo che ad ogni scambio di fotone la [[Definizione di Probabilita|probabilita]] che il bit inviato e quelli ricevuto siano uguali è $\cfrac{1}{2}$ e quindi se si invia una sequenza di fotoni saranno recepiti correttamente solo la meta degli elementi.
 
 
 Dato il circuito il protocollo _segue come_:
