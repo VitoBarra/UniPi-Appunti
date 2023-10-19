@@ -58,10 +58,16 @@ Prev: [[Uni MOC]]
 		3. [[Intervalli di fiducia - Campioni grandi]]
 	5. [[Test Statistici]]
 		1. [[Z-Test]]
+		2. [[T-Test]]
+		3. [[Test approssimato su un campione di bernoulli]]
+		4. [[Test approssimato sulla media di un campione di taglia grande]]
+		5. [[Test sulla varianza di un campione gaussiano]]
+		6. [[Confronto tra due campioni statistici]]
 
 
 
 ### Educational Material 🧱
-1.  Dispensa Statistica unipi
+1.  [[Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf]]
+2. 
 
 

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Z-Test",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md"
+      "basename": "Test sulla varianza di un campione gaussiano",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
+    },
+    {
+      "basename": "T-Test",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md"
+    },
+    {
+      "basename": "Test approssimato su un campione di bernoulli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md"
+    },
+    {
+      "basename": "Confronto tra due campioni statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
+    },
+    {
+      "basename": "Dispensa Statistica - Grotto, Maurelli, Pratelli",
+      "path": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
-      "basename": "Test Statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
+      "basename": "Test approssimato sulla media di un campione di taglia grande",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md"
     },
     {
-      "basename": "Intervalli di fiducia - Variabili gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md"
+      "basename": "Z-Test",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Z-Test.md"
     },
     {
       "basename": "Intervalli di fiducia - Campioni grandi",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Intervalli di fiducia - Campioni grandi.md"
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md"
     },
     {
-      "basename": "Intervalli di fiducia - Variabile di bernulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
-    },
-    {
-      "basename": "Note CP",
-      "path": "Extra Note/Note CP.md"
-    },
-    {
-      "basename": "To Read",
-      "path": "Extra Note/To Read.md"
-    },
-    {
-      "basename": "Densita di probabilita Student",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md"
-    },
-    {
-      "basename": "Idd - varianza campionaria",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Idd - varianza campionaria.md"
-    },
-    {
-      "basename": "Intervalli di fiducia",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia.md"
-    },
-    {
-      "basename": "Variabili aleatorie Gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md"
-    },
-    {
-      "basename": "Campione Statistico",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md"
-    },
-    {
-      "basename": "Famiglia di variabili aleatorie Indipendenti e identicamente distribuite",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md"
-    },
-    {
-      "basename": "Statistiche campionarie su variabili gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md"
-    },
-    {
-      "basename": "Stima Campionaria",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stima Campionaria.md"
-    },
-    {
-      "basename": "Statistica Parametrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md"
-    },
-    {
-      "basename": "Idd - Media Campionaria",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Idd - Media Campionaria.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Inferenza statistica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md"
-    },
-    {
-      "basename": "Studi MOC",
-      "path": "Studi MOC.md"
-    },
-    {
-      "basename": "Theorem",
-      "path": "Templete/Theorem.md"
-    },
-    {
-      "basename": "funzione Gamma di Eulero",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/funzione Gamma di Eulero.md"
-    },
-    {
-      "basename": "Densita di probabilita Gamma",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md"
-    },
-    {
-      "basename": "Densita di probabilita Chi-quadro",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md"
-    },
-    {
-      "basename": "Variabili aleatoria - Momenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
-    },
-    {
-      "basename": "Proprieta variabili aleatorie indipendenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Proprieta variabili aleatorie indipendenti.md"
-    },
-    {
-      "basename": "Indipendenza di Variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Multivariate",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md"
-    },
-    {
-      "basename": "Variabili aleatorie multivariate - Momenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie multivariate - Momenti.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Varianza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
-    },
-    {
-      "basename": "Trasformazioni di variabili con densita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
-    },
-    {
-      "basename": "Variabili Aleatorie (Casuali)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md"
-    },
-    {
-      "basename": "Diseguaglianza di Markov",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Covarianza e correlazione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
-    },
-    {
-      "basename": "Probabilita sui numeri Reali",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
-    },
-    {
-      "basename": "Teorema centrale del limite",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md"
-    },
-    {
-      "basename": "Convergenza in distribuzione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md"
-    },
-    {
-      "basename": "Teorema debole dei grandi numeri",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md"
-    },
-    {
-      "basename": "Statistica descrittiva - Dati Numerici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md"
-    },
-    {
-      "basename": "Convergenza in probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md"
-    },
-    {
-      "basename": "Definizione di Probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Funzione radice",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Funzione radice.md"
-    },
-    {
-      "basename": "Analisi template",
-      "path": "Templete/Coure Finale/Analisi template.md"
-    },
-    {
-      "basename": "Radicale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Radicale.md"
-    },
-    {
-      "basename": "Statistica Descrittiva - Dati Multivariati",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
+      "basename": "Kanban senza titolo",
+      "path": "UniPi INF/Kanban senza titolo.md"
     },
     {
       "basename": "Ricerca Operativa (RO)",
       "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md"
     },
     {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Studi MOC",
+      "path": "Studi MOC.md"
+    },
+    {
+      "basename": "Interazione Uomo Macchina (IUM)",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
+    },
+    {
+      "basename": "Business Models",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md"
+    },
+    {
+      "basename": "Debito tecnico",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Debito tecnico.md"
+    },
+    {
+      "basename": "Pensiero computazionale Vs Design",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Pensiero computazionale Vs Design.md"
+    },
+    {
+      "basename": "Concetti Generali del IUM",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Concetti Generali del IUM.md"
+    },
+    {
+      "basename": "Probabilita sui numeri Reali",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
+    },
+    {
+      "basename": "Variabili aleatorie - Covarianza e correlazione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
+    },
+    {
       "basename": "Basi Idea And Resource",
       "path": "UniPi INF/Thesis/Basi Idea And Resource.md"
+    },
+    {
+      "basename": "Dati",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Dati.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
+    },
+    {
+      "basename": "Drawing 2023-09-22 11.51.47.excalidraw",
+      "path": "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md"
+    },
+    {
+      "basename": "Continuità di una funzione",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "STAT",
+      "path": "Templete/Coure Finale/STAT.md"
+    },
+    {
+      "basename": "Analisi template",
+      "path": "Templete/Coure Finale/Analisi template.md"
+    },
+    {
+      "basename": "Serie geometrica",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
+    },
+    {
+      "basename": "Diseguaglianza triangolare",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Diseguaglianza triangolare.md"
+    },
+    {
+      "basename": "Statistica descrittiva",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva.md"
+    },
+    {
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Inferenza statistica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Calcolare l inverso di un numero in algebra modulare",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
+    },
+    {
+      "basename": "Curve Ellittiche",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md"
+    },
+    {
+      "basename": "Elementi di crittografica quantistica",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md"
+    },
+    {
+      "basename": "NON-Fungibile Token (NFT)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/NON-Fungibile Token (NFT).md"
+    },
+    {
+      "basename": "Smart Contracts",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Smart Contracts.md"
+    },
+    {
+      "basename": "Protocollo di identificazione Fiat-Shamir",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo di identificazione Fiat-Shamir.md"
+    },
+    {
+      "basename": "Moneta elettronica Bit Coin",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Moneta elettronica Bit Coin.md"
+    },
+    {
+      "basename": "Funzioni Hash One-Way",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash One-Way.md"
+    },
+    {
+      "basename": "Funzioni One-Way Trapdoor",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md"
+    },
+    {
+      "basename": "Algoritmi di firma digitale su curve ellittiche (ECDSA)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md"
+    },
+    {
+      "basename": "Protocolli Zero Knowledge",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md"
+    },
+    {
+      "basename": "Cifrario asimmetrico ElGamal",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
+    },
+    {
+      "basename": "Protocollo Transport Layer Security (TLS)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Transport Layer Security (TLS).md"
+    },
+    {
+      "basename": "Protocollo Secure socket layer (SSL)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md"
+    },
+    {
+      "basename": "Protocolli di firma digitale",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di firma digitale.md"
+    },
+    {
+      "basename": "Protocolli di Autenticazione",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md"
     }
   ],
   "omittedPaths": [],
