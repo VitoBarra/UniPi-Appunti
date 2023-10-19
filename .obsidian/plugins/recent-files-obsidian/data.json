@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Test Statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
+      "basename": "Z-Test",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Test Statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
     },
     {
       "basename": "Intervalli di fiducia - Variabili gaussiane",
@@ -195,10 +199,6 @@
     {
       "basename": "Basi Idea And Resource",
       "path": "UniPi INF/Thesis/Basi Idea And Resource.md"
-    },
-    {
-      "basename": "Dati",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Dati.md"
     }
   ],
   "omittedPaths": [],

@@ -57,6 +57,7 @@ Prev: [[Uni MOC]]
 		2. [[Intervalli di fiducia - Variabile di bernulli]]
 		3. [[Intervalli di fiducia - Campioni grandi]]
 	5. [[Test Statistici]]
+		1. [[Z-Test]]
 
 
 

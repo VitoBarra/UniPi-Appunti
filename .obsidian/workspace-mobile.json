@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Z-Test.md"
           }
         }
       },
@@ -185,6 +185,8 @@
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Z-Test.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md",
     "UniPi INF/Note/2° Anno/Statistica/Intervalli di fiducia - Campioni grandi.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md",
@@ -203,13 +205,11 @@
     "UniPi INF/Note/2° Anno/Statistica/Note/Idd - Media Campionaria.md",
     "UniPi INF/Note/Uni MOC.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
     "Studi MOC.md",
     "Templete/Theorem.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/funzione Gamma di Eulero.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
     "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "IMG_0656.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
