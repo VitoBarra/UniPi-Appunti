@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Combinatoria",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md"
+    },
+    {
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Probabilita condizionata",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Formula di Bayes",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
+    },
+    {
       "basename": "Test sulla varianza di un campione gaussiano",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
     },
@@ -21,10 +49,6 @@
       "path": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
     },
     {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
-    },
-    {
       "basename": "Test approssimato sulla media di un campione di taglia grande",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md"
     },
@@ -43,10 +67,6 @@
     {
       "basename": "Ricerca Operativa (RO)",
       "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
     },
     {
       "basename": "Studi MOC",
@@ -133,10 +153,6 @@
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md"
     },
     {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
-    },
-    {
       "basename": "Calcolare l inverso di un numero in algebra modulare",
       "path": "UniPi INF/Note/Complementari/Algebra/Note/Calcolare l inverso di un numero in algebra modulare.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Cifrario asimmetrico ElGamal",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
-    },
-    {
-      "basename": "Protocollo Transport Layer Security (TLS)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Transport Layer Security (TLS).md"
-    },
-    {
-      "basename": "Protocollo Secure socket layer (SSL)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocollo Secure socket layer (SSL).md"
-    },
-    {
-      "basename": "Protocolli di firma digitale",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di firma digitale.md"
-    },
-    {
-      "basename": "Protocolli di Autenticazione",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli di Autenticazione.md"
     }
   ],
   "omittedPaths": [],

@@ -68,6 +68,4 @@ Prev: [[Uni MOC]]
 
 ### Educational Material 🧱
 1.  [[Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf]]
-2. 
-
 
