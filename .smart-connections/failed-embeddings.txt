@@ -1089,6 +1089,7 @@ UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md#Retta di regress
 UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md#Retta di regressione#Teorema e Definizione retta di regressione
 UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md#Retta di regressione#Teorema e Definizione retta di regressione#Dimostrazione
 UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md#Retta di regressione#Teorema e Definizione retta di regressione#Esempi
+UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md
 UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md
 UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md#Statistica Descrittiva - Dati Multivariati
 UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md#Statistica Descrittiva - Dati Multivariati#Coefficiente di correlazione (Definizione)
@@ -1138,6 +1139,9 @@ UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md#Test Statistici#P-val
 UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md#Test Statistici#P-value#P-value (Definito)
 UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md#Test Statistici#Regione critica e Test (Definizione)
 UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md#Test Statistici#livello e poterne a di un test
+UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md
+UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md
+UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md
 UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md
 UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md#Trasformazioni di variabili con densità
 UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md#Trasformazioni di variabili con densità#Regola del cambio di variabile
@@ -2818,3 +2822,4 @@ UniPi INF/Note/Orientamento al lavoro ITC/Note/Problem solving in ambito profess
 UniPi INF/Note/Orientamento al lavoro ITC/Orientamento al lavoro ITC.md
 UniPi INF/Note/Uni MOC.md
 UniPi INF/Thesis/Basi Idea And Resource.md
+prodotto vettoriale.md

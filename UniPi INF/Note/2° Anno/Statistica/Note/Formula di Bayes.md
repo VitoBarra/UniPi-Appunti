@@ -8,10 +8,8 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Formula di Bayes
 ---
-si chiama _sistema di alternative_ una [[Partizione|partizione]] di $\Omega$ in $n$ _eventi_ ($B\subset \Omega$ ) non trascurabili $B_1,\dots,B_n$
-
 #### Formula di Bayes
-_sia_ $B_1,\dots,B_n$ un _sistema di alternative_ e  $A$ un _evento non trascurabile_
+_sia_ $B_1,\dots,B_n$ un _[[Sistema di alternative|sistema di alternative]]_ e  $A$ un _evento non trascurabile_
 _allora_ valgono le formule
 
 $$

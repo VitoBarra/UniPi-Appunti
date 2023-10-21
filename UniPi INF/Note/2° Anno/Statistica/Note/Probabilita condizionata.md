@@ -8,12 +8,12 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Probabilità condizionata
 ---
-### Probabilità condizionata
-preso uno _[[Definizione di Probabilita#Probabilità assiomatica secondo Kolmogorov (definizione)|spazio delle probabilità]]_ $(\Omega,\mathcal{F},\mathbf{P})$ conoscendo l’esito di un evento $B$ _non trascurabile_ si possono fare delle considerazioni su un _altro evento_ $A$ anche esse non trascurabile modificandone cosi la _[[Definizione di Probabilita|Definizione di Probabilita]]_
+#### Probabilità condizionata
+preso uno _[[Definizione di Probabilita#Probabilità assiomatica secondo Kolmogorov (definizione)|spazio delle probabilità]]_ $(\Omega,\mathcal{F},\mathcal{P})$ conoscendo l’esito di un evento $B$ _non trascurabile_ si possono fare delle considerazioni su un _altro evento_ $A$ anche esse non trascurabile modificandone cosi la _[[Definizione di Probabilita|Definizione di Probabilita]]_
 infatti abbiamo che la _Probabilità Condizionata_ di $A$ rispetto a $B$ è definita come$$
 \mathcal{P}(A|B) = \frac{\mathcal{P}(A \cap B)}{\mathcal{P}(B)}
 $$
-ed è immediato notare che $\mathcal{P}(A|B)\mathcal{P}(B)=\mathcal{P}(B|A)\mathcal{P}(A)$
+ed è immediato notare che $$\mathcal{P}(A|B)\mathcal{P}(B)=\mathcal{P}(B|A)\mathcal{P}(A)$$
 >[!example]-
 >nel caso del uscita di un numero sulla rullette
 >- $A = \{16\}$

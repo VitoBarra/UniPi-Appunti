@@ -1,52 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Combinatoria",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md"
+      "basename": "Confronto tra due campioni statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
     },
     {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+      "basename": "prodotto vettoriale",
+      "path": "prodotto vettoriale.md"
     },
     {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Probabilita condizionata",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
-    },
-    {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+      "basename": "Meccanica quantistica",
+      "path": "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md"
     },
     {
       "basename": "Formula di Bayes",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
     },
     {
-      "basename": "Test sulla varianza di un campione gaussiano",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Probabilita condizionata",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+    },
+    {
+      "basename": "Sistema di alternative",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
+    },
+    {
+      "basename": "Definizione di Probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
+    },
+    {
+      "basename": "Dispensa Statistica - Grotto, Maurelli, Pratelli",
+      "path": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
     },
     {
       "basename": "T-Test",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md"
     },
     {
+      "basename": "Probabilita con distribuzione uniforme",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md"
+    },
+    {
+      "basename": "Test sulla varianza di un campione gaussiano",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
+    },
+    {
       "basename": "Test approssimato su un campione di bernoulli",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md"
-    },
-    {
-      "basename": "Confronto tra due campioni statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
-    },
-    {
-      "basename": "Dispensa Statistica - Grotto, Maurelli, Pratelli",
-      "path": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
     },
     {
       "basename": "Test approssimato sulla media di un campione di taglia grande",
@@ -187,18 +191,6 @@
     {
       "basename": "Funzioni One-Way Trapdoor",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md"
-    },
-    {
-      "basename": "Algoritmi di firma digitale su curve ellittiche (ECDSA)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Algoritmi di firma digitale su curve ellittiche (ECDSA).md"
-    },
-    {
-      "basename": "Protocolli Zero Knowledge",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Protocolli Zero Knowledge.md"
-    },
-    {
-      "basename": "Cifrario asimmetrico ElGamal",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Cifrario asimmetrico ElGamal.md"
     }
   ],
   "omittedPaths": [],

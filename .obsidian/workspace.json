@@ -37,13 +37,8 @@
             "id": "220f6c83b5c62c37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -135,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,7 +153,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +169,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +228,7 @@
             }
           },
           {
-            "id": "e54fb91df6899c22",
+            "id": "fcca2c8f8045a085",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -245,7 +236,7 @@
             }
           },
           {
-            "id": "f7b21f23c2b9726f",
+            "id": "151a586c0961da0e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -277,48 +268,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "floating": {
-    "id": "321f2f05fc912465",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0f2c8a22b04cba05",
-        "type": "window",
-        "children": [
-          {
-            "id": "8722b1c8010af2e3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0ec7b480b8dd2d91",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 435,
-        "y": 27,
-        "width": 1342,
-        "height": 1000,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "6e44a25d8b5adab1",
+  "active": "151a586c0961da0e",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md",
-    "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf",
+    "prodotto vettoriale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md",
+    "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md",
+    "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf",
+    "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Z-Test.md",
@@ -333,15 +296,9 @@
     "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md",
-    "UniPi INF/Note/1° Anno/Analisi/Funzione radice.md",
-    "Extra Note/Note CP.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "Studi MOC.md",
-    "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md",
     "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "Excalidraw",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
