@@ -8,7 +8,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # T-Test
 ---
-il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili aleatorie Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] sconosciuta
+il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] sconosciuta
 
 Consideriamo ora il caso (più realistico) di campione gaussiano di cui non conosciamo la deviazione standard: si chiama T-test il test sulla media di un campione Gaussiano con varianza sconosciuta.
 Sia $X_1, \ldots X_n$ un campione aleatorio di legge gaussiana $N\left(m, \sigma^2\right)$, e ricordiamo la notazione

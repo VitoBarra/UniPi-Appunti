@@ -25,8 +25,16 @@ Prev: [[Uni MOC]]
 	1. [[Funzioni di ripartizione di variabili aleatorie]]
 	2. [[Quantili di variabili aleatorie]]
 	3. [[Variabili Aleatorie Notevoli]]
-		1. [[Trasformazioni di variabili con densita]]
-		2. [[Variabili aleatorie Gaussiane]]
+		1. Modellazione di successo binario discreto
+			1. [[Variabili Aleatorie Notevoli - Binomiale]]
+			2. [[Variabili Aleatorie Notevoli - Bernulli]]
+			3. [[Variabili Aleatorie Notevoli - Ipergeometrica]]
+			4. [[Variabili Aleatorie Notevoli - Geometrica]]
+		2. Variabili con densita
+			1. [[Variabili Aleatorie Notevoli - Poisson]]
+			2. [[Variabili Aleatorie Notevoli - Esponenziale]]
+			3. [[Trasformazioni di variabili con densita]]
+			4. [[Variabili Aleatorie Notevoli - Gaussiane]]
 	4. Valori riassuntivi per variabili aleatoria
 		1. [[Variabili aleatoria - Momenti]]
 			1. [[Diseguaglianza di Markov]]
@@ -36,7 +44,7 @@ Prev: [[Uni MOC]]
 		1. [[Proprieta variabili aleatorie indipendenti]]
 	2. [[Variabili aleatorie multivariate - Momenti]]
 	3. [[Variabili aleatorie - Covarianza e correlazione]]
-5. Teoremi serie di variabili aleatorie
+5. Teoremi serie di variabili aleatorie (campioni)
 	1. [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite]]
 		1. [[Idd - Media Campionaria]]
 		2. [[Idd - varianza campionaria]]

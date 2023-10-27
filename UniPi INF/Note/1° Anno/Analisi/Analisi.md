@@ -32,10 +32,9 @@ Prev: [[Uni MOC]]
 7. [[Delopithal]]
 8. [[Sviluppi di Taylor]]
 9. [[Diseguaglianza triangolare]]
-10. [[Successioni]]
-11. [[Serie geometrica]]
-12. [[Funzioni Convesse-Concave]]
-13. [[Integrali]]
+10. [[Serie geometrica]]
+11. [[Funzioni Convesse-Concave]]
+12. [[Integrali]]
 	1.  [[Teorema di Fubini-Tonelli]]
 
 

@@ -9,7 +9,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 # Variabili aleatorie Chi-quadro
 ---
 #### Densita chi-quadro
-_siano_ $X_{1}\dots,X_{n}$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] [[Variabili Aleatorie Notevoli|gaussiane standard]] 
+_siano_ $X_{1}\dots,X_{n}$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane standard]] 
 _se_  sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
 _allora_ la variabile $(X_{1}^{2}+\dots+X_{n}^{2})$ ha [[Densita di probabilita Gamma|densita]] $\Gamma\left( \frac{n}{2},\frac{1}{2} \right)$. ed è chiamata _densita chi-quadro_ con $n$ _gradi di libertà_ indicata con $\chi^{2}(n)$
 
@@ -38,10 +38,10 @@ _allora_ vale che $X+Y$ ha densita $\chi^{2}(n+m)$
 
 #### Proposizione
 _sia_ $C_{n}$ una [[Variabili Aleatorie (Casuali)|Variabile aleatoria]] con _densta_ $\chi^{2}$ 
-_allora_ si può pensare a $C_{n}$ come $C_{n}=X^{2}_{1},\dots X^{2}_{n}$ dove le $X_{i}$ sono [[Variabili Aleatorie Notevoli|gaussiane standard]] dove vale che 
+_allora_ si può pensare a $C_{n}$ come $C_{n}=X^{2}_{1},\dots X^{2}_{n}$ dove le $X_{i}$ sono [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane standard]] dove vale che 
 - il [[Variabili aleatoria - Momenti|momento primo]] vale $\mathbb{E}[X_{i}^{2}]=1$ 
 - la [[Variabili aleatorie - Varianza]] vale $Var(X_{i}^{2})=2$
 e valgono i seguenti fatti
 - per la [[Teorema debole dei grandi numeri|teorema dei grandi numeri]] vale che $\frac{C_{n}}{n}\xrightarrow{n \to \infty}1$ con  [[Convergenza in probabilita|converge in probabilita]] 
-- Per il [[Teorema centrale del limite|Teorema centrale del limite]] la successione $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ [[Convergenza in distribuzione|converge in dostribuzione]] alla variabile $N(0,1)$ e quindi $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ è approssimativamente una [[Variabili Aleatorie Notevoli|gaussiana standard]]
+- Per il [[Teorema centrale del limite|Teorema centrale del limite]] la successione $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ [[Convergenza in distribuzione|converge in dostribuzione]] alla variabile $N(0,1)$ e quindi $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ è approssimativamente una [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana standard]]
 	

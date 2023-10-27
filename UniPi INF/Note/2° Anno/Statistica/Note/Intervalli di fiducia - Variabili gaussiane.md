@@ -10,7 +10,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 
 #### Intervalli di fiducia per variabili gaussiane
-_sia_ $X_{1},\dots,X_{n}$ un [[Campione Statistico|campione statistico]] con [[Probabilita sui numeri Reali|legge di probabilita]] [[Variabili aleatorie Gaussiane|gaussiana]] $N(m,\sigma^{2})$  questa ha due parametri la media $m$ e la varianza $\sigma^{2}$
+_sia_ $X_{1},\dots,X_{n}$ un [[Campione Statistico|campione statistico]] con [[Probabilita sui numeri Reali|legge di probabilita]] [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana]] $N(m,\sigma^{2})$  questa ha due parametri la media $m$ e la varianza $\sigma^{2}$
 
 un [[Statistica Parametrica#Stimatore corretto (Definizione)|buon stimatore]] per la [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]] è la [[Idd - Media Campionaria|medica campionaria]] $\overline{X}$  quindi cerchiamo [[Intervalli di fiducia#Intervallo di fiducia|Intervallo di fiducia]] della forma $$I=[\overline{X}-d,\overline{X}+d]= [\overline{X} \pm d]$$dove $d> 0$ e l ultima espressione è un abbreviazione della prima, $d$ deve assicurare livello di _[[Intervalli di fiducia|fiducia alto]]_ ma non deve o essere _troppo grande_
 
@@ -22,7 +22,7 @@ _allora_ è detto
 
 #### Intervalli di fiducia per la media di un campione gaussiano, varianza nota
 _Sia_
-- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili aleatorie Gaussiane|gaussiana]]
+- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana]]
 -  $\overline{X}_{n}$ la [[Idd - Media Campionaria|media campionaria]] 
 - $\alpha \in (0,1)$  un numero 
 -  $\sigma > 0$ la [[Variabili aleatorie - Varianza|varianza]] nota 
@@ -80,7 +80,7 @@ $$ è un [[Intervalli di fiducia|intervallo di fiducia]] per la media $m$ del ca
 
 #### Intervalli di fiducia  unilaterali per la media di un campione gaussiano, varianza NON nota
 _Sia_
-- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili aleatorie Gaussiane|gaussiana]]
+- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana]]
 -  $\overline{X}_{n}$ la [[Idd - Media Campionaria|media campionaria]] 
 - $\alpha \in (0,1)$  un numero 
 -  $S^{2}_{n}$ la  [[Idd - varianza campionaria|varianza campionaria]]  (questa è [[Statistica Parametrica#Stimatore corretto (Definizione)|stimatore corretto]]  della varianza $\sigma^{2}$)
@@ -97,7 +97,7 @@ $$$$I=\left[  \right] $$dove $\uptau$ è il [[Quantili di variabili aleatorie|qu
 
 #### Intervalli di fiducia per la varianza
 _Sia_
-- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili aleatorie Gaussiane|gaussiana]]
+- $X_{1},\dots X_{n}$ un [[Campione Statistico|Campione Statistico]] con _legge di probabilita_ [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana]]
 - $\overline{X}_{n}$ la [[Idd - Media Campionaria|media campionaria]] 
 - $S^{2}_{n}$ la  [[Idd - varianza campionaria|varianza campionaria]]  (questa è [[Statistica Parametrica#Stimatore corretto (Definizione)|stimatore corretto]]  della varianza $\sigma^{2}$)
 - $\alpha \in (0,1)$  un numero 
@@ -112,6 +112,6 @@ $$Sono [[Intervalli di fiducia|intervalli di fiducia]] per la [[Variabili aleato
 Dove $\chi_{(\beta,n-1)}^{2}$ indica il [[Quantili di variabili aleatorie|quantile]] della variabile di tipo [[Densita di probabilita Chi-quadro|Chi-quadro]] $\chi^{2}(n-1)$.
 
 infatti questo dipende dal fatto che 
-_se_ $X_{1},\dots,X_{n}$ è un campione di tipo [[Variabili aleatorie Gaussiane|gaussiano]] $N(m,\sigma^{2})$
+_se_ $X_{1},\dots,X_{n}$ è un campione di tipo [[Variabili Aleatorie Notevoli - Gaussiane|gaussiano]] $N(m,\sigma^{2})$
 _allora_ la [[Variabili Aleatorie (Casuali)|variabile]]  $$\sum^{n}_{i=1}\frac{(X_{i}-\overline{X}_{n})^{2}}{\sigma^{2}}=(n-1)\frac{S^{2}_{n}}{\sigma^{2}}$$ è di tipo [[Densita di probabilita Chi-quadro|chi-quadro]] $\chi^{2}(n-1)$
 

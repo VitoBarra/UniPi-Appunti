@@ -8,9 +8,9 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Variabili aleatorie Gaussiane
 ---
-l _variabile gaussiana_ è una [[Variabili Aleatorie Notevoli|variabile aleatoria notevole]] 
+ 
 #### Variabile Gausiana
-la funzione $f(x)=e^{-\cfrac{x^{2}}{2}}$ è una funzione molto regolare siccome è infinitamente derivabile e tende velocemente a 0. infatti è [[Integrali|integrabile]], ma non si puo rappresentare la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_ tranne per alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ e la sua [[Funzioni di ripartizione di variabili aleatorie|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{+\infty}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dx$$
+la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a 0. infatti è [[Integrali|integrabile]], ma non si puo rappresentare la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_ tranne per alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ e la sua [[Funzioni di ripartizione di variabili aleatorie|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{+\infty}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dx$$
 questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
 - $\varphi(x)$ la _densita gaussiana_
 - $\Phi(x)$ la _funzione di ripartizione_ 
@@ -24,7 +24,7 @@ ci sono dei casi in cui vorremmo sapere il valore di $$\mathcal{P}\{ a < X <b \}
 \mathcal{P}\{-2\leq X \leq 2\}  & \approx  & 0,94  \\
 \mathcal{P}\{-3\leq X \leq 3\}  & \approx &  0,997  
 \end{array}$$
-### QUALCOSA
+#### Teoria
 _sia_  
 - $X$ una  _variabile aleatoria gaussiana standard_ 
 - $\sigma$  un numero positivo

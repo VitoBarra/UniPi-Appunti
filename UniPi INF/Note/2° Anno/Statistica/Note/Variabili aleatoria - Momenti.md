@@ -8,11 +8,11 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Variabili aleatoria - Momenti
 ---
-sono dei valori “attorno” a cui la _[[Variabili Aleatorie (Casuali)|variabili aleatore]]_ si concentrano e riprendono le stesse idee di [[Statistica descrittiva - Dati Numerici|media e varianza]] per i semplici valori numerici
+sono dei valori “attorno” a cui la _[[Variabili Aleatorie (Casuali)|variabili aleatore]]_ si concentrano e riprendono le stesse idee di [[Statistica descrittiva - Dati Numerici|media e varianza]] per i semplici [[Statistica descrittiva - Dati Numerici|valori numerici]]
 
 ### Valore atteso (momento primo)
 _Discreta_:
-	_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] _discreta_ con la funzione di massa $p$ che assume i valori $x_{1},x_{2},\dots$
+	_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] _discreta_ con la _funzione di massa_ $p$ che assume i valori $x_{1},x_{2},\dots$
 	_se_ vale che $\sum_{i}|x_{i}|p(x_{i}) < + \infty$ 
 	_allora_ si dice che $X$ ha _valore atteso_ (detto momento primo) ed è il numero $$\mathbb{E}[X]=\sum_{i}x_{i}p(x_{i})$$
 _con densita_:
@@ -58,7 +58,7 @@ se la _[[Variabili Aleatorie (Casuali)|variabile discreta]]_ ha _valore atteso_ 
 #### Mementi
 _sia_ $X$ una [[Variabili Aleatorie (Casuali)|Variabile Aleatoria]] , e $n> 0$ un numero 
 _se_  $\mathbb{E}[|X|^{n}]<+\infty$ 
-_allora_ il numero $\mathbb{E}[X^{n}]$ è detto _momento di ordine_ $n$ 
+_allora_ il numero $\mathbb{E}[X^{n}]$ è detto _momento di ordine_ $n$ con formula _discreta_:$$\mathbb{E}[X]=\sum_{i}x_{i}^{n}p_{X}(x_{i})$$e formula _continua_: $$\mathbb{E}[X]=\int ^{+\infty}_{-\infty}x^{n}f(x) \, dx $$
 
 #####  Proposizione 
 _siano_ $1 \leq m < n$ 

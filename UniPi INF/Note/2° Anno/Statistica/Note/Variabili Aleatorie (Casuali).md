@@ -41,7 +41,7 @@ Nelle applicazioni pratiche spesso non vengono definite lo _spazzio di probabili
 #### Variabile aleatoria discreta
 una _variabile aleatoria_ è detta discreta se la sua immagine $X(\Omega) \subset \mathbb{R}$ è un sotto insieme _finito_ o _numerabile_ di $\mathbb{R}$ o _equivalentemente_ se la sua _legge di probabilita_ è _discreta_
 
-Conoscere la _legge di probabilita_ di una variabile aleatoria discreta equivale a conoscere quali sono i valori $\{ x_{1},x_{2},\dots \}$  ed i numeri $p(x_{i}=\mathcal{P}_{X}(x_{i})=\mathcal{P}(X=x_{i}))$ ovvero bisogna conoscere la sua funzione di _massa_ o _densità discreta_
+Conoscere la _legge di probabilita_ di una variabile aleatoria discreta equivale a conoscere quali sono i valori $\{ x_{1},x_{2},\dots \}$  ed i numeri $p(x_{i})=\mathcal{P}_{X}(x_{i})=\mathcal{P}(X=x_{i})$ ovvero bisogna conoscere la sua funzione di _massa_ o _densità discreta_
 
 
 #### Variabile aleatoria con densita

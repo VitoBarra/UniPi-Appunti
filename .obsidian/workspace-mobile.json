@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed1244bd2bd62476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Poisson.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +133,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +162,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
           }
         }
       },
@@ -184,32 +197,32 @@
   },
   "active": "f4553ccaf5c22b08",
   "lastOpenFiles": [
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
-    "UniPi INF/Note/2° Anno/Statistica/Z-Test.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Intervalli di fiducia - Campioni grandi.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Poisson.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
-    "Extra Note/Note CP.md",
-    "Extra Note/To Read.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Idd - varianza campionaria.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Stima Campionaria.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Idd - Media Campionaria.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Inferenza statistica.md",
-    "Studi MOC.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Proprieta variabili aleatorie indipendenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md",
+    "Templete/Coure Finale/STAT.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Serie.md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
     "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
     "IMG_0656.jpeg",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",

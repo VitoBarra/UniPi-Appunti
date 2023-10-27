@@ -11,7 +11,6 @@ Parent MOC: "[[Statistica (STAT)]]"
 due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] $X$ e $Y$ sono dette _indipendenti_ se presi comunque $A$ e $B$ sottoinsiemi di $\mathbb{R}$ gli aventi $X^{-1}(A)$ e $Y^{-1}(B)$ sono indipendenti. cioè vale $$\mathcal{P}\{ X \in  A , Y \in  B \}=\mathcal{P}\{ X \in  A  \} \cdot \mathcal{P} \{ Y \in  B \}$$piu in generalele variabili $X_{1},\dots X_{n}:\Omega \rightarrow\mathbb{R}$ si dicono indipendenti se presi comunque $A_{1},\dots A_{n} \subseteq \mathbb{R}$ vale $$\mathcal{P}(X_{1}\in  A_{1},\dots X_{n} \in  A_{n})=\mathcal{P}(X_{1}\in  A_{1})\dots\mathcal{P}(X_{n} \in  A_{n}) $$
 #### Proposizione
 _siano_  $X$ e $Y$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] _discrete_ con immagine rispettivi nei punti $x_{i},y_{i}$ questi sono _indipendenti_ $\iff$ vale l e uguaglianza tra le _[[Probabilita sui numeri Reali#Funzione di massa (Definizione)|funzioni di massa]]_ $$p(x_{i},y_{i})=p(x_{i})p(y_{i}) \ \ \ \forall  (x_{i},y_{i}) $$
-
 _siano_ $X,Y$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] _tali che_ $(X,Y)$ abbia _[[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densita]]_, le due variabili sono _indipendenti_ $\iff$ vale l eguaglianza $$f(x,y)=f_{X}(x)\cdot f_{Y}(y)\ \ \ \ \forall  (x,y)$$
 
 _Dimostrazione_

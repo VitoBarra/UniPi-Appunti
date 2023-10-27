@@ -10,7 +10,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 
 #### Proposizione
-_siano_ $X$ e $Y$ sono rispettivamente variabili aleatorie _[[Variabili Aleatorie Notevoli|Binomiali]]_ $B(n,p)$ e $B(m,p)$ 
+_siano_ $X$ e $Y$ sono rispettivamente variabili aleatorie _[[Variabili Aleatorie Notevoli - Binomiale|Binomiali]]_ $B(n,p)$ e $B(m,p)$ 
 _se_ sono _indipendenti_ 
 _allora_ la _variabile aleatoria_ $Z= X+Y$ è _binomiale_ $B(n+m,p)$ 
 

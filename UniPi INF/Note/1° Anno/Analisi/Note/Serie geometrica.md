@@ -2,11 +2,10 @@
 type: nota
 course: Analisi
 topic: 
-tags: Analisi
+tags:
+  - Analisi
+Parent MOC: "[[Analisi]]"
 ---
-
-Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
-
 # Serie geometrica
 ---
 è un particolare tipo di [[Serie]] molto studiata di cui si conoscono le  proprietà

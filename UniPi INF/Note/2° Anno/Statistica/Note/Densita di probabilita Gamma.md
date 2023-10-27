@@ -17,7 +17,7 @@ Si chiama _densita gamma_ di parametri $r,\lambda>0$ indicata con $\Gamma(r,\lam
 0 & x\leq 0
 \end{cases}$$e questa è effettivamente una [[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densità]] siccome vale $$\int ^{+\infty}_{0}(\lambda x)^{r-1}e^{-\lambda x}\lambda \, dx = \int^{+\infty}_{0}t^{r-1}e^{-t}  \, dt=\Gamma(r) $$ con $t=(x\lambda)$. 
 >[!tip]
-> la [[Variabili Aleatorie Notevoli|densita esponenziale]] corrispondendosi alla _densita gamma_ $\Gamma(1,\lambda)$
+> la [[Variabili Aleatorie Notevoli - Esponenziale|densita esponenziale]] corrispondendosi alla _densita gamma_ $\Gamma(1,\lambda)$
 
 
 #### Proposizione
