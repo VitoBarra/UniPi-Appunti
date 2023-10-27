@@ -40,7 +40,8 @@ Prev: [[Uni MOC]]
 
 
 ### Educational Material 🧱
-1. 
+1. [[Dispensa prof. Bevilacqua-Menchi.pdf]]
+2. [[Dispensa prof. Luca Gemmignani.pdf]]
 
 
 

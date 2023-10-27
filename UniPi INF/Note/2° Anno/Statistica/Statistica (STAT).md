@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC 
+type: MOC
+tags:
+  - MOC
+Pare: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Statistica (STAT)
 
 ## Course MOC  📒

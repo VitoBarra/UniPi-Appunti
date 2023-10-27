@@ -208,6 +208,7 @@ UniPi INF/Note/1° Anno/Analisi/Note/Diseguaglianza triangolare.md
 UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md
 UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md#Funzione logaritmica
 UniPi INF/Note/1° Anno/Analisi/Note/Funzione logaritmica.md#Funzione logaritmica#proprietà algebriche
+UniPi INF/Note/1° Anno/Analisi/Note/Funzione radice.md
 UniPi INF/Note/1° Anno/Analisi/Note/Funzioni Convesse-Concave.md
 UniPi INF/Note/1° Anno/Analisi/Note/Funzioni Convesse-Concave.md#Funzioni Convesse-Concave
 UniPi INF/Note/1° Anno/Analisi/Note/Funzioni Convesse-Concave.md#Funzioni Convesse-Concave#Proprietà
@@ -218,11 +219,16 @@ UniPi INF/Note/1° Anno/Analisi/Note/Multipli di Lagrange.md
 UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md
 UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md#Serie geometrica
 UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md#Serie geometrica#Proprietà note
+UniPi INF/Note/1° Anno/Analisi/Note/Serie.md
+UniPi INF/Note/1° Anno/Analisi/Note/Serie.md#Serie
+UniPi INF/Note/1° Anno/Analisi/Note/Serie.md#Serie#Serie (Definizione)
+UniPi INF/Note/1° Anno/Analisi/Note/Serie.md#Serie#Serie (Definizione)#Serie (Teoria)
 UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md
 UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md#Sviluppi di Taylor#Sviluppo con Resto di Lagrange
 UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md#Sviluppi di Taylor#Sviluppo con il resto di Peano
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema del confronto dei carabinieri.md
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema della permanenza del segno.md
+UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md#Teorema di Lagrange#Teorema di Lagrange
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Lagrange.md#Teorema di Lagrange#Teorema di Lagrange#Corollario 1
@@ -231,6 +237,9 @@ UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Rolle.md
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Weierstrass.md
 UniPi INF/Note/1° Anno/Analisi/Note/Teorema di approssimazione di Weierstrass.md
 UniPi INF/Note/1° Anno/Analisi/Note/Valore assoluto.md
+UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md
+UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md#Funzione Gamma di Eulero
+UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md#Funzione Gamma di Eulero#Funzione $\Gamma$ di eulero
 UniPi INF/Note/1° Anno/Analisi/Teorema di Fubini-Tonelli.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Insiemi infiniti numerabili.md
@@ -257,6 +266,7 @@ UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Induttività.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md#Insiemi Matematici
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi Matematici.md#Insiemi Matematici#Sottoinsiemi
+UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Insiemi infiniti numerabili.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica del primo ordine (FOL).md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica del primo ordine (FOL).md#Logica del primo Ordine
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica del primo ordine (FOL).md#Logica del primo Ordine#Semantica
@@ -273,6 +283,7 @@ UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizion
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Definizioni
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Definizioni#Equivalenze logiche
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Semantica#Interpretazione
+UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni logiche.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md
 UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Problema della Sodisfacibilita (SAT).md
@@ -804,6 +815,36 @@ UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/MiniOcamel.md
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/MiniOcamel.md#MiniOcamel#Linguaggio funzionale didattico:
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/MiniOcamel.md#Obiettivi
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/MiniOcamel.md#Obiettivi#Processo per modificare Minicamel:
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Copyng collection.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Dati.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Domande esame orale PDP.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Garbage Collector.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Generational garbage collector.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Gestore della memoria.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Gestore della memoria.md#Gestore della memoria
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Gestore della memoria.md#Gestore della memoria#Esempi
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Gestore della memoria.md#Gestore della memoria#Memoria dinamica
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Gestore della memoria.md#Gestore della memoria#Memoria statica
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Interpreti.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Lambda calcolo.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Macchina Astratta.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Mark-sweep.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/MiniOcamel.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Ambiente
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Ambiente#Tipi di ambiente:
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Entita
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Implementazione efficiente di scoping statico
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Scoping e binding
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Scoping e binding#A runtime,
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Scoping e binding#Controlli statici:
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Scoping e binding#Le regole di visibilità degli identificatori sono basate su:
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Scoping e binding#Nello scoping statico, un identificatore viene cercato, in ordine, tra:
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Prerequisiti interpreti.md#Shallow binding
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Reference Counting.md
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Reference Counting.md#Reference Counting
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Reference Counting.md#Reference Counting#Esempio reference counting
+UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Reference Counting.md#Reference Counting#Problemtiche
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md#Paradigmi Di Programmazione (PDP)#Course MOC  📒
 UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md#Paradigmi Di Programmazione (PDP)#Course MOC  📒#Educational Material 🧱
@@ -991,6 +1032,7 @@ UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Note/Vertice ottimo.md#Vertice ot
 UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md
 UniPi INF/Note/2° Anno/Statistica/Intervalli di fiducia - Campioni grandi.md
 UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md
+UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md
 UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md
 UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md
 UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md#Convergenza in probabilita
@@ -1160,6 +1202,28 @@ UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md#Vari
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md#Variabili Aleatorie Multivariate#Variabile doppia con densità (Definizione)#Proposizione
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md#Variabili Aleatorie Multivariate#Variabili aleatorie doppie discrete
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md#Variabili Aleatorie Multivariate#Variabili aleatorie doppie discrete#Proposizione
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Bernulli.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Bernulli.md#Variabili Aleatorie Notevoli - Bernulli
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Bernulli.md#Variabili Aleatorie Notevoli - Bernulli#Variabile di Bernulli (Definizione)
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md#Variabili Aleatorie Notevoli - Binomiale
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md#Variabili Aleatorie Notevoli - Binomiale#Variabile Binoiale
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili esponenziali
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili esponenziali#Memoria della variabile (Teoria)
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili uniformi su intervalli
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md#Variabili aleatorie Gaussiane#Proprieta sulla guassiana
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md#Variabili aleatorie Gaussiane#Teoria
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md#Variabili aleatorie Gaussiane#Variabile Gausiana
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica#variabili geometriche (Definizione)
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica#variabili geometriche (Definizione)#Memoria della variabile (Teoria)
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Ipergeometrica.md
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Ipergeometrica.md#Variabili Aleatorie Notevoli - Ipergeometrica
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Ipergeometrica.md#Variabili Aleatorie Notevoli - Ipergeometrica#Variabile Ipergeometrica (Definizione)
+UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md#Variabili Aleatorie Notevoli
 UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md#Variabili Aleatorie Notevoli#Variabile Binoiale
@@ -1209,6 +1273,23 @@ UniPi INF/Note/2° Anno/Statistica/T-Test.md
 UniPi INF/Note/2° Anno/Statistica/Test approssimato su un campione di bernoulli.md
 UniPi INF/Note/2° Anno/Statistica/Test approssimato sulla media di un campione di taglia grande.md
 UniPi INF/Note/2° Anno/Statistica/Test sulla varianza di un campione gaussiano.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md#Variabili Aleatorie Notevoli - Bernulli
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md#Variabili Aleatorie Notevoli - Bernulli#Variabile di Bernulli (Definizione)
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md#Variabili Aleatorie Notevoli - Binomiale
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md#Variabili Aleatorie Notevoli - Binomiale#Variabile Binoiale
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili esponenziali
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili esponenziali#Memoria della variabile (Teoria)
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md#Variabili Aleatorie Notevoli - Esponenziale#Variabili uniformi su intervalli
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica#variabili geometriche (Definizione)
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md#Variabili Aleatorie Notevoli - Geometrica#variabili geometriche (Definizione)#Memoria della variabile (Teoria)
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md#Variabili Aleatorie Notevoli - Ipergeometrica
+UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md#Variabili Aleatorie Notevoli - Ipergeometrica#Variabile Ipergeometrica (Definizione)
 UniPi INF/Note/2° Anno/Statistica/Z-Test.md
 UniPi INF/Note/2° Anno/Statistica/Z-Test.md#Z-Test
 UniPi INF/Note/2° Anno/Statistica/Z-Test.md#Z-Test#Calcolo del p-value

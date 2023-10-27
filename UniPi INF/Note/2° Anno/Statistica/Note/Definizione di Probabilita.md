@@ -2,17 +2,16 @@
 type: nota
 course: Statistica
 topic: 
-tags: STAT
+tags:
+  - STAT
+Parent MOC: "[[Statistica (STAT)]]"
 ---
-
-Prev: [[Statistica (STAT)]]
-
 # Definizione di Probabilita
 ---
 Si parla di _probabilità_ quando si analizza un evento il cui _esito_ non è sicuro e vogliamo misurare quanto con quale confidenza un esito specifico accade
 
 
-l _universo_ di cui analizziamo gli eventi è l _[[Insiemi Matematici|insieme]]_ $\Omega$ chiamato _spazio dei campioni_,  gli _eventi_ sono una [[Insiemi Matematici|famiglia di sottoinsiemi]] di $\Omega$
+l _universo_ di cui analizziamo gli _eventi_ è l _[[Insiemi Matematici|insieme]]_ $\Omega$ chiamato _spazio dei campioni_,  gli _eventi_ sono una [[Insiemi Matematici|famiglia di sottoinsiemi]] di $\Omega$
 
 > [!example]- 
 >lo _spazio dei campioni_ sono i valori della roulette quindi   $\Omega = \{0,1,2,\dots,36\}$ e alcuni dei possibili _eventi_ (sotto insiemi di $\Omega$) sono

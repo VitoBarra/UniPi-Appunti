@@ -118,7 +118,7 @@ ovvero si può implicitamente gestire il _feature space_ con una _kernel functio
 ##### Definizione Kernel function
 un _Kernel function_ $K:\mathbb{R}^n\times\mathbb{R}^n \rightarrow \mathbb{R}$ è una funzione che dato un [[Hilbert Space|Hilbert space]] $X^m$ e una funzione $\phi:\mathbb{R}^n\rightarrow X^m$ esiste tale che 
 $$K(\boldsymbol x_i,\boldsymbol x_j) = \phi(\boldsymbol x_i)^T\phi(\boldsymbol x_j)$$
-si utilizza $K$ per calcolare il [[prodotto vettoriale]] direttamente in _feature space_ 
+si utilizza $K$ per calcolare il [[Prodotto vettoriale|prodotto vettoriale]] direttamente in _feature space_ 
 
 
 #### Kernel ben conosciuti

@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC 
+type: MOC
+tags:
+  - MOC
+Pare: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Fondamenti Del Informatica (FDI)
 
 
@@ -31,6 +30,6 @@ Prev: [[Uni MOC]]
 8. [[Logica del primo ordine (FOL)]]
 
 ### Educational Material 🧱
-1. 
+1. [[Fondamenti Del Informatica (FDI)]]
 
 

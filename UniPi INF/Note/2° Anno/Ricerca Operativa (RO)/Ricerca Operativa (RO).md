@@ -54,5 +54,5 @@ Prev: [[Uni MOC]]
 
 
 ### Educational Material 🧱
-1. 
+1. [[Ricerca Operativa - Mauro Passacantando.pdf]]
 

@@ -1,72 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "Probabilita condizionata",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+      "basename": "Calcolo Numerico(CN)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
     },
     {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+      "basename": "Laboratorio II",
+      "path": "UniPi INF/Note/2° Anno/Laboratorio II/Laboratorio II.md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Binomiale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md"
+      "basename": "architetture14",
+      "path": "Book/Ingegneria del software/Dispense/architetture14.pdf"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Bernulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md"
+      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
+      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Poisson",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Poisson.md"
+      "basename": "ECC Dispenza Degano",
+      "path": "Book/ECC/ECC Dispenza Degano.pdf"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Geometrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md"
+      "basename": "linguaggio C",
+      "path": "Book/Lab2/linguaggio C.pdf"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Ipergeometrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md"
+      "basename": "LinguaggioC-R&K-italiano",
+      "path": "Book/Lab2/LinguaggioC-R&K-italiano.pdf"
     },
     {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
+      "basename": "Dispensa prof. Luca Gemmignani",
+      "path": "Book/CN/Dispensa prof. Luca Gemmignani.pdf"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md"
+      "basename": "Ricerca Operativa (RO)",
+      "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md"
+      "basename": "Ricerca Operativa - Mauro Passacantando",
+      "path": "Book/RO/Ricerca Operativa - Mauro Passacantando.pdf"
     },
     {
-      "basename": "Combinatoria",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md"
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md"
+      "basename": "Analisi 1 v.3 - Flavio Romano",
+      "path": "Book/Analisi/Dispense studenti/Analisi 1 v.3 - Flavio Romano.pdf"
     },
     {
-      "basename": "Variabili aleatoria - Momenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
+      "basename": "Analisi 2 - Flavio Romano",
+      "path": "Book/Analisi/Dispense studenti/Analisi 2 - Flavio Romano.pdf"
     },
     {
-      "basename": "Statistica Parametrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md"
+      "basename": "Fondameti di informatica - LibroCompleto",
+      "path": "Book/FDI/Fondameti di informatica - LibroCompleto.pdf"
     },
     {
-      "basename": "Proprieta variabili aleatorie indipendenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Proprieta variabili aleatorie indipendenti.md"
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
     },
     {
-      "basename": "Intervalli di fiducia - Variabile di bernulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md"
+      "basename": "Paradigmi Di Programmazione(PDP)",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
     },
     {
-      "basename": "Statistiche campionarie su variabili gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md"
+      "basename": "Domande esame orale PDP",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Domande esame orale PDP.md"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Garbage Collector.md"
+    },
+    {
+      "basename": "Dati",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Dati.md"
+    },
+    {
+      "basename": "MiniOcamel",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/MiniOcamel.md"
+    },
+    {
+      "basename": "Tracing",
+      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Tracing.md"
+    },
+    {
+      "basename": "Teorema di Fubini-Tonelli",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md"
+    },
+    {
+      "basename": "funzione Gamma di Eulero",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md"
+    },
+    {
+      "basename": "Funzione di Ripartizione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md"
+    },
+    {
+      "basename": "Formula di Bayes",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
+    },
+    {
+      "basename": "Famiglia di variabili aleatorie Indipendenti e identicamente distribuite",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md"
+    },
+    {
+      "basename": "Diseguaglianza di Markov",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
     },
     {
       "basename": "Densita di probabilita Student",
@@ -77,80 +117,60 @@
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md"
     },
     {
-      "basename": "Teorema centrale del limite",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md"
-    },
-    {
       "basename": "Densita di probabilita Chi-quadro",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md"
-    },
-    {
-      "basename": "Convergenza in distribuzione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md"
-    },
-    {
-      "basename": "STAT",
-      "path": "Templete/Coure Finale/STAT.md"
-    },
-    {
-      "basename": "Indipendenza di Variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
-    },
-    {
-      "basename": "Serie geometrica",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
-    },
-    {
-      "basename": "Serie",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie.md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Variabili Aleatorie (Casuali)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md"
-    },
-    {
-      "basename": "Variabili aleatorie - Varianza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Problema della Sodisfacibilita (SAT)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Problema della Sodisfacibilita (SAT).md"
-    },
-    {
-      "basename": "Confronto tra due campioni statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
-    },
-    {
-      "basename": "prodotto vettoriale",
-      "path": "prodotto vettoriale.md"
-    },
-    {
-      "basename": "Meccanica quantistica",
-      "path": "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md"
-    },
-    {
-      "basename": "Formula di Bayes",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
-    },
-    {
-      "basename": "Sistema di alternative",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
     },
     {
       "basename": "Definizione di Probabilita",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
     },
     {
+      "basename": "Confronto tra due campioni statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
+    },
+    {
+      "basename": "Convergenza in probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md"
+    },
+    {
+      "basename": "Convergenza in distribuzione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md"
+    },
+    {
+      "basename": "Campione Statistico",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Ipergeometrica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Ipergeometrica.md"
+    },
+    {
+      "basename": "Support Vector Machine (SVM)",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Support Vector Machine (SVM).md"
+    },
+    {
       "basename": "Dispensa Statistica - Grotto, Maurelli, Pratelli",
-      "path": "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
+      "path": "Book/Statistica/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
+    },
+    {
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Probabilita condizionata",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+    },
+    {
+      "basename": "Meccanica quantistica",
+      "path": "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md"
+    },
+    {
+      "basename": "Sistema di alternative",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
     },
     {
       "basename": "T-Test",
@@ -179,26 +199,6 @@
     {
       "basename": "Intervalli di fiducia - Campioni grandi",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md"
-    },
-    {
-      "basename": "Kanban senza titolo",
-      "path": "UniPi INF/Kanban senza titolo.md"
-    },
-    {
-      "basename": "Ricerca Operativa (RO)",
-      "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md"
-    },
-    {
-      "basename": "Studi MOC",
-      "path": "Studi MOC.md"
-    },
-    {
-      "basename": "Interazione Uomo Macchina (IUM)",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Interazione Uomo Macchina (IUM).md"
-    },
-    {
-      "basename": "Business Models",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Business Models.md"
     }
   ],
   "omittedPaths": [],

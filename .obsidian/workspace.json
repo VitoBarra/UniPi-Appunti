@@ -37,8 +37,46 @@
             "id": "220f6c83b5c62c37",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Tracing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ca33066d6080c03",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Book/Analisi/Dispense studenti/Analisi 1 v.3 - Flavio Romano.pdf"
+              }
+            }
+          },
+          {
+            "id": "8fff16dfea51c1b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Book/Analisi/Dispense studenti/Analisi 2 - Flavio Romano.pdf"
+              }
+            }
+          },
+          {
+            "id": "d6272303cdd59fbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -55,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+              }
             }
           }
         ]
@@ -153,6 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,6 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +270,7 @@
             }
           },
           {
-            "id": "fcca2c8f8045a085",
+            "id": "08f81bc34cc1741c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -236,7 +278,7 @@
             }
           },
           {
-            "id": "151a586c0961da0e",
+            "id": "6c6ac76598ccd48e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -268,43 +310,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "151a586c0961da0e",
+  "active": "d6272303cdd59fbe",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md",
-    "prodotto vettoriale.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md",
-    "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
-    "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md",
-    "Book/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf",
-    "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Z-Test.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi 1.md",
-    "UniPi INF/Kanban senza titolo.md",
-    "Nuovo documento di testo.txt",
+    "UniPi INF/Note/2° Anno/Laboratorio II/Laboratorio II.md",
+    "Book/Ingegneria del software/Dispense/architetture14.pdf",
+    "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md",
+    "Book/ECC/ECC Dispenza Degano.pdf",
+    "Book/ECC",
+    "Book/Ingegneria del software/Dispensa/Senza nome.md",
+    "Book/Ingegneria del software/Dispense/uml2_diagrams.pdf",
+    "Book/Ingegneria del software/Dispense/dispensatesting2014.pdf",
+    "Book/Ingegneria del software/Dispense",
+    "Book/Ingegneria del software/mauro pezze software testing andan alysis 2020.pdf",
+    "Book/Ingegneria del software/martina seidl uml classroom an introduction to object.pdf",
+    "Book/Ingegneria del software/Handbook of Software Engineering.pdf",
+    "Book/Ingegneria del software",
+    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
     "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md",
-    "Book",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Domande esame orale PDP.md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Garbage Collector.md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Dati.md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/MiniOcamel.md",
+    "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Tracing.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md",
     "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
-    "Excalidraw",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
-    "UniPi INF/Note/3° Anno/Basi di dati",
-    "UniPi INF/Note/Complementari/Teoria del informazione/Note",
-    "UniPi INF/Note/Complementari/Teoria del informazione",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173637.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173619.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820173041.png",
@@ -312,9 +356,6 @@
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820171554.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820170134.png",
     "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media/Pasted image 20230820164306.png",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Note",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)/Media",
-    "UniPi INF/Note/Complementari/Quantum Computing (QC)",
     "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/Pasted image 20230819205959.png",
     "Senza nome.canvas",
     "Senza nome 1.canvas"

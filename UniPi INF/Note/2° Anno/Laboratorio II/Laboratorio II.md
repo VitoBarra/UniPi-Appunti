@@ -14,5 +14,6 @@ Prev: [[Uni MOC]]
 [[Relazione Progetto VITO BARRA]]
 
 ### Educational Material 🧱
-1. 
+1. [[linguaggio C.pdf]]
+2. [[LinguaggioC-R&K-italiano.pdf]]
 

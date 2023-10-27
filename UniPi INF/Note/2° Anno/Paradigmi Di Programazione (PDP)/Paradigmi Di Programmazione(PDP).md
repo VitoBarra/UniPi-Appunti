@@ -1,10 +1,10 @@
 ---
-type: MOC 
-tags: MOC FileNotFound 
+type: MOC
+tags:
+  - MOC
+  - FileNotFound
+Parent MOC: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Paradigmi Di Programmazione (PDP)
 
 ## Course MOC  📒
