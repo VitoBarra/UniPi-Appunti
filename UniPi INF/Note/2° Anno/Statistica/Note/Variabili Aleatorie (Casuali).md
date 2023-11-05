@@ -25,7 +25,6 @@ si usa la notazione $$
 \end{array}
 $$
 
-
 #### Proposizione
 la funzione di insiemi $\mathcal{P}_{X}$ è una [[Probabilita sui numeri Reali|Probabilità]] su $\mathbb{R}$ detta _legge di pobabilità_ di $X$ 
 
@@ -45,5 +44,5 @@ Conoscere la _legge di probabilita_ di una variabile aleatoria discreta equivale
 
 
 #### Variabile aleatoria con densita
-una variabile aleatoria è detta con _densità_ (o _assolutamente continua_) se la sua _legge di probabilità_ è definita da una densita $f$, cioè se esiste una densita di probabilita $f$ tale che valga $$\mathcal{P}_{X}(A)=\mathcal{P}\{ X \in  A \}= \int_{A} f(x)\, dx $$
-in particolare se $A=[a,b]$ è un segmento,  per una variabile $X$ con densità $f$ vale$$ \mathcal{P}(a \leq X \leq b)=\int ^{b}_{a}f(x) \, dx $$
+una variabile aleatoria è detta con _densità_ (o _assolutamente continua_) se la sua _legge di probabilità_ è definita da una densita $f$, cioè se esiste una _densita di probabilita_ $f$ tale che valga $$\mathcal{P}_{X}(A)=\mathcal{P}\{ X \in  A \}= \int_{A} f(x)\, dx $$
+in particolare se $A=[a,b]$ è un segmento,  per una variabile $X$ con densità $f$ vale$$ \mathcal{P}\{a \leq X \leq b)=\int ^{b}_{a}f(x) \, dx $$

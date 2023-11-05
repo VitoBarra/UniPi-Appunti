@@ -12,9 +12,9 @@ Parent MOC: "[[Statistica (STAT)]]"
 _Sia_ $X$ una variabile aleatoria che ammette [[Variabili aleatoria - Momenti|momento secondo]] 
 _allora_ è detta _varianza_ il numero 
 $$Var(X)=\mathbb{E}[(X-\mathbb{E}[X])^{2}]$$
-e questa dipende solo dalla _legge di probabilita_ $P_{X}$ e sviluppando i calcoli si ottiene $$Var(x)=\mathbb{E}[X^{2}]-\mathbb{E}[X]^{2}$$
+e questa dipende solo dalla _legge di probabilita_ $\mathcal{P}_{X}$ e sviluppando i calcoli si ottiene $$Var(x)=\mathbb{E}[X^{2}]-\mathbb{E}[X]^{2}$$
 e vale $$Var(aX+b)=a^{2}Var(X)$$
-#### Variazione standard (Definizione)
+#### Deviazione standard (Definizione)
 _sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] che ammette [[Variabili aleatoria - Momenti|momento secondo]] 
 _allora_ si dice _scarto quadratico medio_ o _deviazione standard_ il numero $$\sigma(X)=\sqrt{ Var(X) }$$
 

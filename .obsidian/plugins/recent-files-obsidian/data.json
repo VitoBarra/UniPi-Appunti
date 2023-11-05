@@ -1,204 +1,196 @@
 {
   "recentFiles": [
     {
-      "basename": "Calcolo Numerico(CN)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+      "basename": "IMG_0714",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0714.png"
     },
     {
-      "basename": "Laboratorio II",
-      "path": "UniPi INF/Note/2° Anno/Laboratorio II/Laboratorio II.md"
+      "basename": "illuminanti",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/illuminanti.md"
     },
     {
-      "basename": "architetture14",
-      "path": "Book/Ingegneria del software/Dispense/architetture14.pdf"
+      "basename": "Color Space",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space.md"
     },
     {
-      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
-      "path": "UniPi INF/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
+      "basename": "Color Space Assoluti standard",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md"
     },
     {
-      "basename": "ECC Dispenza Degano",
-      "path": "Book/ECC/ECC Dispenza Degano.pdf"
+      "basename": "Computer Grafica (CG)",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
     },
     {
-      "basename": "linguaggio C",
-      "path": "Book/Lab2/linguaggio C.pdf"
+      "basename": "Rasterizazione VS Ray Tracing",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rasterizazione VS Ray Tracing.md"
     },
     {
-      "basename": "LinguaggioC-R&K-italiano",
-      "path": "Book/Lab2/LinguaggioC-R&K-italiano.pdf"
+      "basename": "Pipeline di Rasterizazione",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Pipeline di Rasterizazione.md"
     },
     {
-      "basename": "Dispensa prof. Luca Gemmignani",
-      "path": "Book/CN/Dispensa prof. Luca Gemmignani.pdf"
+      "basename": "Microarchitettura Pipeline",
+      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Microarchitettura Pipeline.md"
     },
     {
-      "basename": "Ricerca Operativa (RO)",
-      "path": "UniPi INF/Note/2° Anno/Ricerca Operativa (RO)/Ricerca Operativa (RO).md"
+      "basename": "Algoritmi di renderizazione",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Algoritmi di renderizazione.md"
     },
     {
-      "basename": "Ricerca Operativa - Mauro Passacantando",
-      "path": "Book/RO/Ricerca Operativa - Mauro Passacantando.pdf"
+      "basename": "Ray Tracing",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing.md"
+    },
+    {
+      "basename": "Rappresentazione delle immagini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md"
+    },
+    {
+      "basename": "Color Space Relativi",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md"
+    },
+    {
+      "basename": "Sistemi di rappresentazioni dei colori",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Sistemi di rappresentazioni dei colori.md"
+    },
+    {
+      "basename": "Funzionamento della vista umana (HVS)",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md"
+    },
+    {
+      "basename": "IMG_0711",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0711.png"
+    },
+    {
+      "basename": "IMG_0709",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0709.jpeg"
+    },
+    {
+      "basename": "Studi MOC",
+      "path": "Studi MOC.md"
+    },
+    {
+      "basename": "IMG_0708",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0708.jpeg"
+    },
+    {
+      "basename": "Introduzione alla computer grafica",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Introduzione alla computer grafica.md"
+    },
+    {
+      "basename": "Utilizzi della computer grafica",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Utilizzi della computer grafica.md"
+    },
+    {
+      "basename": "CG",
+      "path": "Templete/Coure Finale/CG.md"
+    },
+    {
+      "basename": "Integrali impropri",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali impropri.md"
     },
     {
       "basename": "Analisi",
       "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
     },
     {
-      "basename": "Analisi 1 v.3 - Flavio Romano",
-      "path": "Book/Analisi/Dispense studenti/Analisi 1 v.3 - Flavio Romano.pdf"
+      "basename": "Integrazione per parti",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrazione per parti.md"
     },
     {
-      "basename": "Analisi 2 - Flavio Romano",
-      "path": "Book/Analisi/Dispense studenti/Analisi 2 - Flavio Romano.pdf"
+      "basename": "integrazione per sostituzione",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/integrazione per sostituzione.md"
     },
     {
-      "basename": "Fondameti di informatica - LibroCompleto",
-      "path": "Book/FDI/Fondameti di informatica - LibroCompleto.pdf"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Paradigmi Di Programmazione(PDP)",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
-    },
-    {
-      "basename": "Domande esame orale PDP",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Domande esame orale PDP.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Garbage Collector.md"
-    },
-    {
-      "basename": "Dati",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Dati.md"
-    },
-    {
-      "basename": "MiniOcamel",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/MiniOcamel.md"
-    },
-    {
-      "basename": "Tracing",
-      "path": "UniPi INF/Note/2° Anno/Paradigmi Di Programazione (PDP)/Note/Tracing.md"
-    },
-    {
-      "basename": "Teorema di Fubini-Tonelli",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md"
-    },
-    {
-      "basename": "funzione Gamma di Eulero",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/funzione Gamma di Eulero.md"
-    },
-    {
-      "basename": "Funzione di Ripartizione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md"
-    },
-    {
-      "basename": "Formula di Bayes",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
-    },
-    {
-      "basename": "Famiglia di variabili aleatorie Indipendenti e identicamente distribuite",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Famiglia di variabili aleatorie Indipendenti e identicamente distribuite.md"
-    },
-    {
-      "basename": "Diseguaglianza di Markov",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
-    },
-    {
-      "basename": "Densita di probabilita Student",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md"
-    },
-    {
-      "basename": "Densita di probabilita Gamma",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md"
-    },
-    {
-      "basename": "Densita di probabilita Chi-quadro",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md"
-    },
-    {
-      "basename": "Definizione di Probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
-    },
-    {
-      "basename": "Confronto tra due campioni statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Confronto tra due campioni statistici.md"
-    },
-    {
-      "basename": "Convergenza in probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md"
-    },
-    {
-      "basename": "Convergenza in distribuzione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md"
-    },
-    {
-      "basename": "Campione Statistico",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Campione Statistico.md"
+      "basename": "IMG_0707",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Media/IMG_0707.png"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Ipergeometrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Ipergeometrica.md"
+      "basename": "Trasformazioni di variabili con densita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
     },
     {
-      "basename": "Support Vector Machine (SVM)",
-      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Support Vector Machine (SVM).md"
+      "basename": "Variabili Aleatorie Notevoli - Densità uniforme",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Densità uniforme.md"
     },
     {
-      "basename": "Dispensa Statistica - Grotto, Maurelli, Pratelli",
-      "path": "Book/Statistica/Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf"
+      "basename": "Variabili Aleatorie (Casuali)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md"
     },
     {
-      "basename": "Indipendenza Stocastica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+      "basename": "Definizione di Probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
     },
     {
-      "basename": "Probabilita condizionata",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
     },
     {
-      "basename": "Meccanica quantistica",
-      "path": "UniPi INF/Note/Complementari/Fisica/Note/Meccanica quantistica.md"
+      "basename": "Variabili Aleatorie Notevoli - Poisson",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md"
     },
     {
-      "basename": "Sistema di alternative",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
+      "basename": "Quantili di variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Quantili di variabili aleatorie.md"
     },
     {
-      "basename": "T-Test",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/T-Test.md"
+      "basename": "Calcolo Numerico(CN)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
     },
     {
-      "basename": "Probabilita con distribuzione uniforme",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md"
+      "basename": "Teorema di convergenza sufficiente per J e GS",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
     },
     {
-      "basename": "Test sulla varianza di un campione gaussiano",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
+      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
+      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
     },
     {
-      "basename": "Test approssimato su un campione di bernoulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md"
+      "basename": "Funzione di ripartizione di variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di ripartizione di variabili aleatorie.md"
     },
     {
-      "basename": "Test approssimato sulla media di un campione di taglia grande",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato sulla media di un campione di taglia grande.md"
+      "basename": "Continuità di una funzione",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
     },
     {
-      "basename": "Z-Test",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Z-Test.md"
+      "basename": "Algebra (ALG)",
+      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
     },
     {
-      "basename": "Intervalli di fiducia - Campioni grandi",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md"
+      "basename": "Limiti di una funzione",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Limiti di una funzione.md"
+    },
+    {
+      "basename": "Differenziazione Implicita",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md"
+    },
+    {
+      "basename": "Teorema di Fubini-Tonelli",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md"
+    },
+    {
+      "basename": "Derivate",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Derivate.md"
+    },
+    {
+      "basename": "Funzione di Ripartizione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md"
+    },
+    {
+      "basename": "Variabili aleatorie - Varianza",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
+    },
+    {
+      "basename": "Convergenza in probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md"
+    },
+    {
+      "basename": "Variabili aleatoria - Momenti",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
     }
   ],
   "omittedPaths": [],

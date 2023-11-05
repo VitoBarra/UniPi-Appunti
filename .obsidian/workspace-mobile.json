@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8789699f96945f54",
+        "id": "ed5205198c32229e",
         "type": "tabs",
         "children": [
           {
-            "id": "f4553ccaf5c22b08",
+            "id": "364a27bfbbc3be90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed1244bd2bd62476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Poisson.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -133,7 +115,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -150,7 +131,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -162,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+            "file": "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md"
           }
         }
       },
@@ -195,44 +175,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f4553ccaf5c22b08",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Binomiale.md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Bernulli.md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Poisson.md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Geometrica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Ipergeometrica.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Esponenziale.md",
-    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Combinatoria.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Proprieta variabili aleatorie indipendenti.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Student.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Gamma.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Densita di probabilita Chi-quadro.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md",
-    "Templete/Coure Finale/STAT.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Serie.md",
+    "Excalidraw/Drawing 2023-10-28 23.29.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0714.png",
+    "2023-11-05.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/illuminanti.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rasterizazione VS Ray Tracing.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Pipeline di Rasterizazione.md",
+    "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Microarchitettura Pipeline.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Algoritmi di renderizazione.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0726.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0725.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0724.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0718.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0721.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0720.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0723.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0719.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0722.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Sistemi di rappresentazioni dei colori.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md",
+    "Studi MOC.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Untitled.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Introduzione alla computer grafica.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Utilizzi della computer grafica.md",
+    "Templete/Coure Finale/CG.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Integrali impropri.md",
     "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0660.jpeg",
-    "IMG_0656.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0637.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0635.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0632.jpeg",
-    "IMG_0637.jpeg",
-    "IMG_0635.jpeg",
-    "IMG_0632.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0627.jpeg",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Media/IMG_0629.jpeg",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Integrazione per parti.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/integrazione per sostituzione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "Untitled.canvas",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",
@@ -242,7 +224,6 @@
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)",
     "Senza nome.canvas",
     "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Media",
-    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Note",
-    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC"
+    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Note"
   ]
 }

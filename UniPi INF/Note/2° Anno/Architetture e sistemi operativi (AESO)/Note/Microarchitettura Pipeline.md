@@ -2,15 +2,13 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Pare: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Pipeline
 ---
-
-è una microarchitettura a più cicli di clock ovvero ogni istruzione viene eseguita più cicli di clock  ma utilizza il concetto di [[Forme di Parallelismo#Temporale Pipeline|PipeLine]] per eseguire più istruzioni contemporaneamente
+è una [[Microarchitetture|microarchitettura]] a più cicli di _clock_ ovvero ogni [[Istruzioni Machina|istruzione]] viene eseguita più cicli di _clock_  ma utilizza il concetto di [[Forme di Parallelismo#Temporale Pipeline|PipeLine]] per eseguire più istruzioni contemporaneamente
 
 caratteristiche:
 

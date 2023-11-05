@@ -9,11 +9,6 @@ Parent MOC: "[[Statistica (STAT)]]"
 # Variabili Aleatorie Notevoli - Esponenziale
 ---
 
-#### Variabili uniformi su intervalli
-dati due numeri reali $a <b$ la densita uniforme sul intervallo $[a,b]$ è costate sul intervallo e nulla al di fuori $$f(x)= \begin{cases}
-	\frac{1}{b-a} & if  & a <x <b \\
-0  & else & 
-\end{cases}$$
 #### Variabili esponenziali
 la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ con densita esponenziale di parametro $\lambda>0$ è definita come $$f(x)=\begin{cases}
 	\lambda e^{-\lambda x} &  x>0 \\

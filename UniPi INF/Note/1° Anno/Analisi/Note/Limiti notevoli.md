@@ -9,7 +9,7 @@ Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
 # Limiti notevoli
 ---
-utili per la risoluzioni dei [[Limiti]] e sono alcuni tipo di limiti di cui si sa gia il risultato 
+utili per la risoluzioni dei [[Limiti di una funzione]] e sono alcuni tipo di limiti di cui si sa gia il risultato 
 
 
 | nome                    | espressione in f(x)                                                   | F.intereminazione          |

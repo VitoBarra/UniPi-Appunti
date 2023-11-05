@@ -1,18 +1,28 @@
 ---
-type: MOC 
-tags: MOC 
+type: MOC
+tags:
+  - MOC
+pare: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Computer Grafica (CG)
-[[Appunti lezioni Computer grafica ]]
 
 ## Course MOC  📒
-1. [[Introduzione a cosa serve la computer grafica]]
-2. [[Paradigmi di rendering]]
-3. [[Trasformazioni]]
-4. 
+1. [[Introduzione alla computer grafica]]
+2. [[Utilizzi della computer grafica]]
+3. [[Funzionamento della vista umana (HVS)]]
+4. [[Sistemi di rappresentazioni dei colori]]
+	1. [[Color Space]]
+	2. [[Color Space Assoluti standard]]
+	3. [[Color Space Relativi]]
+	4. [[illuminanti]]
+5. [[Rappresentazione delle immagini]]
+6. [[Algoritmi di renderizazione]]
+	1. [[Ray Tracing]]
+	2. [[Pipeline di Rasterizazione]]
+	3. [[Rasterizazione VS Ray Tracing]]
+7. 
+8. [[Trasformazioni]]
+9. 
 
 
 

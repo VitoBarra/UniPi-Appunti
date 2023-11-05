@@ -21,7 +21,7 @@ Pare: "[[Uni MOC]]"
 	5. [[Indipendenza Stocastica]]
 	6. [[Probabilita sui numeri Reali]]
 3. [[Variabili Aleatorie (Casuali)]]
-	1. [[Funzioni di ripartizione di variabili aleatorie]]
+	1. [[Funzione di ripartizione di variabili aleatorie]]
 	2. [[Quantili di variabili aleatorie]]
 	3. [[Variabili Aleatorie Notevoli]]
 		1. Modellazione di successo binario discreto
@@ -29,11 +29,12 @@ Pare: "[[Uni MOC]]"
 			2. [[Variabili Aleatorie Notevoli - Bernulli]]
 			3. [[Variabili Aleatorie Notevoli - Ipergeometrica]]
 			4. [[Variabili Aleatorie Notevoli - Geometrica]]
+			2. [[Variabili Aleatorie Notevoli - Poisson]]
 		2. Variabili con densita
-			1. [[Variabili Aleatorie Notevoli - Poisson]]
-			2. [[Variabili Aleatorie Notevoli - Esponenziale]]
-			3. [[Trasformazioni di variabili con densita]]
-			4. [[Variabili Aleatorie Notevoli - Gaussiane]]
+			1. [[Variabili Aleatorie Notevoli - Densità uniforme]]
+			3. [[Variabili Aleatorie Notevoli - Esponenziale]]
+			4. [[Trasformazioni di variabili con densita]]
+			5. [[Variabili Aleatorie Notevoli - Gaussiane]]
 	4. Valori riassuntivi per variabili aleatoria
 		1. [[Variabili aleatoria - Momenti]]
 			1. [[Diseguaglianza di Markov]]

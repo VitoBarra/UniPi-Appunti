@@ -24,7 +24,7 @@ l _universo_ di cui analizziamo gli _eventi_ è l _[[Insiemi Matematici|insieme]
 >- l’evento sicuro $\Omega$
 >- l’evento impossibile $\emptyset$
 
-#### Algebra Delle parti (def)
+#### Algebra Delle parti (Definizione)
 La _famiglia di sottoinsiemi_ $\mathcal{F}$ dello _spazio dei campioni_ $\Omega$ è chiamata “_eventi_” se questa è [[Operazioni chiuse|stabile (chiusa)]] per
 - Unione (finita)
 - Intersezione
@@ -46,7 +46,7 @@ Alcune conseguenza di questa definizione sono
 3. se $B \subset A,\mathcal{P}(A\backslash B) =\mathcal{P}(A)-\mathcal{P}(B)$, dove si è posto $A \backslash B = A \cap B^c$
 4. $\mathcal{P}(A\cup B) =\mathcal{P}(A)+\mathcal{P}(B) -\mathcal{P}(A\cap B)$
 5. $\mathcal{P}(A\cup B \cup C) =\mathcal{P}(A)+\mathcal{P}(B) +\mathcal{P}(C) -\mathcal{P}(A\cap B)-\mathcal{P}(A\cap C)-\mathcal{P}(B\cap C) + \mathcal{P}(A\cap B \cap C)$
-Questa definizione di _probabilità_ utilizza l _additivita semplice_ che pero ha un _limitazione tecnica_ non permettere di fare il [[Limiti|limite]] e non permette quindi di [[Integrali|integrare]]
+Questa definizione di _probabilità_ utilizza l _additivita semplice_ che pero ha un _limitazione tecnica_ non permettere di fare il [[Limiti di una funzione|limite]] e non permette quindi di [[Integrali|integrare]]
 
 #### $\sigma$-Algebra
 per risolvere estendere l _addivita semplice_ si definisce l _addività numerabile_ anche detta _$\sigma$-additivita_ 
