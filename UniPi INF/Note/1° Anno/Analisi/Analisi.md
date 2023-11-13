@@ -13,7 +13,8 @@ Parent MOC: "[[Uni MOC]]"
 	1. [[Funzione logaritmica]]
 	2. [[Funzione esponenziale]]
 	3. [[Funzione radice]]
-	4. 
+	4. [[Tringonometria]]
+		1. [[Formule Trigronometriche]]
 4. [[Limiti di una funzione]]
 	1. [[Limiti notevoli]]
 5. [[Derivate]]
@@ -37,8 +38,8 @@ Parent MOC: "[[Uni MOC]]"
 13. [[Integrali]]
 	1.  [[Teorema di Fubini-Tonelli]]
 	2. Metodi risolutivi
-		2. [[integrazione per sostituzione]]
-		1. [[Integrazione per parti]]
+		1. [[integrazione per sostituzione]]
+		2. [[Integrazione per parti]]
 14. [[Integrali impropri]]
 
 

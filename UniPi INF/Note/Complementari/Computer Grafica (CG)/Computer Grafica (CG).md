@@ -20,8 +20,10 @@ pare: "[[Uni MOC]]"
 	1. [[Ray Tracing]]
 	2. [[Pipeline di Rasterizazione]]
 	3. [[Rasterizazione VS Ray Tracing]]
-7. 
-8. [[Trasformazioni]]
+7. [[Trasformazioni Geometriche affini]]
+	1. [[Composizione di trasformazioni]]
+	2. [[Inversa di una trasformazioni affini]]
+8. [[Frames]]
 9. 
 
 

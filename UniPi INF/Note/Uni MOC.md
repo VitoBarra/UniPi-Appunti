@@ -32,7 +32,6 @@ Parent MOC: "[[Studi MOC]]"
 	- [[Computer Grafica (CG)]]
 	- [[Elementi di Complessità e Calcolabilità (ECC)]]
 	- [[Algebra (ALG)]]
-	- [[Cloud and Green Computing]]
 	- [[Sicurezza di sistema ICT]]
 	- [[Teoria del informazione (TDI)]]
 	- [[Fisica]]

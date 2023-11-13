@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "IMG_0729",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg"
+    },
+    {
+      "basename": "IMG_0728",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0728.jpeg"
+    },
+    {
+      "basename": "IMG_0730",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0730.jpeg"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Elementi di crittografica quantistica",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md"
+    },
+    {
+      "basename": "Computer Grafica (CG)",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
+    },
+    {
+      "basename": "Inversa di una trasformazioni affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Inversa di una trasformazioni affini.md"
+    },
+    {
+      "basename": "Trasformazioni Geometriche affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni Geometriche affini.md"
+    },
+    {
+      "basename": "Composizione di trasformazioni",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Composizione di trasformazioni.md"
+    },
+    {
+      "basename": "Formule Trigronometriche",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Formule Trigronometriche.md"
+    },
+    {
+      "basename": "Analisi",
+      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+    },
+    {
+      "basename": "Trasformazioni affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni affini.md"
+    },
+    {
       "basename": "IMG_0714",
       "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0714.png"
     },
@@ -15,10 +67,6 @@
     {
       "basename": "Color Space Assoluti standard",
       "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md"
-    },
-    {
-      "basename": "Computer Grafica (CG)",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
     },
     {
       "basename": "Rasterizazione VS Ray Tracing",
@@ -89,10 +137,6 @@
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali impropri.md"
     },
     {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
       "basename": "Integrazione per parti",
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrazione per parti.md"
     },
@@ -155,42 +199,6 @@
     {
       "basename": "Continuità di una funzione",
       "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
-    },
-    {
-      "basename": "Algebra (ALG)",
-      "path": "UniPi INF/Note/Complementari/Algebra/Algebra (ALG).md"
-    },
-    {
-      "basename": "Limiti di una funzione",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Limiti di una funzione.md"
-    },
-    {
-      "basename": "Differenziazione Implicita",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Differenziazione Implicita.md"
-    },
-    {
-      "basename": "Teorema di Fubini-Tonelli",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Teorema di Fubini-Tonelli.md"
-    },
-    {
-      "basename": "Derivate",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Derivate.md"
-    },
-    {
-      "basename": "Funzione di Ripartizione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di Ripartizione.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Varianza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
-    },
-    {
-      "basename": "Convergenza in probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita.md"
-    },
-    {
-      "basename": "Variabili aleatoria - Momenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
     }
   ],
   "omittedPaths": [],
