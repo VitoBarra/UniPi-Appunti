@@ -2,16 +2,14 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL Imm2Text 
+tags:
+  - AL
+  - Imm2Text
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Prodotto Scalare
 ---
-
-### Definizione
-Il prodotto scalare è un operazione definita su due vettori è restituiscono un numero in un campo $\mathbb{K}$ che di solito è il campo $\mathbb{R}$
+Il _prodotto scalare_ è un [[Operazioni algebriche|operazione]] definita su due vettori, _restituiscono_ un numero in un campo $\mathbb{K}$ che di solito è il campo $\mathbb{R}$
 
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 22.png]]
 

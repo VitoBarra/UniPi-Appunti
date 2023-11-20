@@ -2,14 +2,15 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Matrice inversa
 ---
-sia una [[Matrice|matrice]] $A \in M(n)$ la sua inversa è denotata con $A^{-1}$ ed è una altra matrice tale che:
+_sia_ una [[Matrice|matrice]] $A \in M(n)$ 
+_allora_ la sua _inversa_ denotata con $A^{-1}$ è una altra matrice tale che:
 
 $$
 AA^{-1}=A^{-1}A=I_n

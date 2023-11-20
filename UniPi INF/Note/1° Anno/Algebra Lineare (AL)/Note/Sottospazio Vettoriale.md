@@ -29,14 +29,6 @@ $$
 \{0\} \subseteq W \subseteq V
 $$
 
-## Sottospazio Generato
-
-Sia $V$ uno spazio Vettoriali e  $v_1,\dots,v_k  \in V$ il sottospazio generato da $v_1,\dots,v_k$   è il sottoinsieme di $V$ formato da tutte le [[Combinazioni Lineari]] dei vettori $v_1,\dots,v_k$ il cui simbolo:
-
-$$
-Span(v_1,\dots,v_k)
-$$
-
 ### Esempi di sottospazio:
 
 - **Polinomi con restrizioni:**

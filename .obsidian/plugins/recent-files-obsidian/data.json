@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "IMG_0729",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg"
-    },
-    {
-      "basename": "IMG_0728",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0728.jpeg"
-    },
-    {
-      "basename": "IMG_0730",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0730.jpeg"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
-    },
-    {
-      "basename": "Elementi di crittografica quantistica",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md"
+      "basename": "Rotazioni in 3D",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md"
     },
     {
       "basename": "Computer Grafica (CG)",
       "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
     },
     {
-      "basename": "Inversa di una trasformazioni affini",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Inversa di una trasformazioni affini.md"
+      "basename": "Trasformazioni affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni affini.md"
     },
     {
-      "basename": "Trasformazioni Geometriche affini",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni Geometriche affini.md"
+      "basename": "Frames",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Frames.md"
+    },
+    {
+      "basename": "Grafo struttura dati",
+      "path": "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Grafo struttura dati.md"
+    },
+    {
+      "basename": "Matrice Inversa di trasformazioni affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Matrice Inversa di trasformazioni affini.md"
+    },
+    {
+      "basename": "Ortogonalità E Ortonormalità",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Ortogonalità E Ortonormalità.md"
     },
     {
       "basename": "Composizione di trasformazioni",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Composizione di trasformazioni.md"
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Composizione di trasformazioni.md"
     },
     {
-      "basename": "Formule Trigronometriche",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Formule Trigronometriche.md"
+      "basename": "Trasformazioni Geometriche affini",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni Geometriche affini.md"
     },
     {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
+      "basename": "Sottospazii affini",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sottospazii affini.md"
     },
     {
-      "basename": "Trasformazioni affini",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni affini.md"
+      "basename": "Algebra Lineare (AL)",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
     },
     {
-      "basename": "IMG_0714",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0714.png"
+      "basename": "Applicazioni Lineari",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md"
     },
     {
-      "basename": "illuminanti",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/illuminanti.md"
+      "basename": "Applicazione Lineari notevoli",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazione Lineari notevoli.md"
     },
     {
-      "basename": "Color Space",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space.md"
+      "basename": "Coordinate omogenee",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Coordinate omogenee.md"
     },
     {
-      "basename": "Color Space Assoluti standard",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md"
+      "basename": "Prodotto Scalare",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Scalare.md"
     },
     {
-      "basename": "Rasterizazione VS Ray Tracing",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rasterizazione VS Ray Tracing.md"
+      "basename": "Vettori isotropi",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori isotropi.md"
     },
     {
-      "basename": "Pipeline di Rasterizazione",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Pipeline di Rasterizazione.md"
+      "basename": "ProgAlgo",
+      "path": "Templete/Coure Finale/ProgAlgo.md"
     },
     {
-      "basename": "Microarchitettura Pipeline",
-      "path": "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Microarchitettura Pipeline.md"
+      "basename": "GA",
+      "path": "Templete/Coure Finale/GA.md"
     },
     {
-      "basename": "Algoritmi di renderizazione",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Algoritmi di renderizazione.md"
+      "basename": "FDI",
+      "path": "Templete/Coure Finale/FDI.md"
     },
     {
-      "basename": "Ray Tracing",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing.md"
+      "basename": "Rette perpendicolari",
+      "path": "Superiori/Geometria Analitica/Rette perpendicolari.md"
     },
     {
-      "basename": "Rappresentazione delle immagini",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md"
+      "basename": "Retta",
+      "path": "Superiori/Geometria Analitica/Note/Retta.md"
     },
     {
-      "basename": "Color Space Relativi",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md"
+      "basename": "Geometria analitica (GA)",
+      "path": "Superiori/Geometria Analitica/Geometria analitica (GA).md"
     },
     {
-      "basename": "Sistemi di rappresentazioni dei colori",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Sistemi di rappresentazioni dei colori.md"
+      "basename": "Rette Parallele",
+      "path": "Superiori/Geometria Analitica/Rette Parallele.md"
     },
     {
-      "basename": "Funzionamento della vista umana (HVS)",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md"
+      "basename": "AL",
+      "path": "Templete/Coure Finale/AL.md"
     },
     {
-      "basename": "IMG_0711",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0711.png"
+      "basename": "Algebra",
+      "path": "Templete/Coure Finale/Algebra.md"
     },
     {
-      "basename": "IMG_0709",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0709.jpeg"
+      "basename": "Retta tangente",
+      "path": "Superiori/Geometria Analitica/Note/Retta tangente.md"
     },
     {
-      "basename": "Studi MOC",
-      "path": "Studi MOC.md"
+      "basename": "Base di uno spazio vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base di uno spazio vettoriale.md"
     },
     {
-      "basename": "IMG_0708",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0708.jpeg"
+      "basename": "Soluzioni di un sistema lineare",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Soluzioni di un sistema lineare.md"
     },
     {
-      "basename": "Introduzione alla computer grafica",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Introduzione alla computer grafica.md"
+      "basename": "Sistemi lineari e lineari omogenei",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sistemi lineari e lineari omogenei.md"
     },
     {
-      "basename": "Utilizzi della computer grafica",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Utilizzi della computer grafica.md"
+      "basename": "Algoritmi per trovare basi",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Algoritmi per trovare basi.md"
     },
     {
-      "basename": "CG",
-      "path": "Templete/Coure Finale/CG.md"
+      "basename": "Coordinate Rispetto ad una base",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Coordinate Rispetto ad una base.md"
     },
     {
-      "basename": "Integrali impropri",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrali impropri.md"
+      "basename": "Dipendenza Lineare",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Dipendenza Lineare.md"
     },
     {
-      "basename": "Integrazione per parti",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Integrazione per parti.md"
+      "basename": "Uso delle basi",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Uso delle basi.md"
     },
     {
-      "basename": "integrazione per sostituzione",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/integrazione per sostituzione.md"
+      "basename": "Base Ortogonale e Ortonormale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Base Ortogonale e Ortonormale.md"
     },
     {
-      "basename": "IMG_0707",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Media/IMG_0707.png"
+      "basename": "Sottospazzio Vettoriale generato",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Sottospazzio Vettoriale generato.md"
+    },
+    {
+      "basename": "Span",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Span.md"
+    },
+    {
+      "basename": "Sottospazio Vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sottospazio Vettoriale.md"
+    },
+    {
+      "basename": "Spazio Vettoriale",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
+    },
+    {
+      "basename": "Matrice",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice.md"
+    },
+    {
+      "basename": "Matrice inversa",
+      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice inversa.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Gaussiane",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
-      "basename": "Trasformazioni di variabili con densita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
+      "basename": "Variabili aleatorie multivariate - Momenti",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie multivariate - Momenti.md"
     },
     {
-      "basename": "Variabili Aleatorie Notevoli - Densità uniforme",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Variabili Aleatorie Notevoli - Densità uniforme.md"
-    },
-    {
-      "basename": "Variabili Aleatorie (Casuali)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie (Casuali).md"
-    },
-    {
-      "basename": "Definizione di Probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
+      "basename": "Variabili Aleatorie Notevoli - Binomiale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md"
     },
     {
       "basename": "Variabili Aleatorie Notevoli - Poisson",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md"
     },
     {
-      "basename": "Quantili di variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Quantili di variabili aleatorie.md"
+      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
     },
     {
-      "basename": "Calcolo Numerico(CN)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md"
+      "basename": "Proprieta variabili aleatorie indipendenti",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Proprieta variabili aleatorie indipendenti.md"
     },
     {
-      "basename": "Teorema di convergenza sufficiente per J e GS",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Teorema di convergenza sufficiente per J e GS.md"
+      "basename": "Indipendenza di Variabili aleatorie",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
     },
     {
-      "basename": "Metodo di  gauss-seidel (metodo di spostamento simultanei)",
-      "path": "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Metodo di  gauss-seidel (metodo di spostamento simultanei).md"
+      "basename": "Variabili Aleatorie Multivariate",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Multivariate.md"
     },
     {
-      "basename": "Funzione di ripartizione di variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione di ripartizione di variabili aleatorie.md"
-    },
-    {
-      "basename": "Continuità di una funzione",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
+      "basename": "Variabili aleatorie - Covarianza e correlazione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
     }
   ],
   "omittedPaths": [],

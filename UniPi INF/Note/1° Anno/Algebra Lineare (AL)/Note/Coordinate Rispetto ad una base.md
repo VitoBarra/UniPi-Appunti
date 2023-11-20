@@ -2,14 +2,13 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Coordinate Rispetto ad una base
 ---
-
+Ogni vettore è espresso relativamente ad una _[[Base di uno spazio vettoriale|base]]_   
 ### Algoritmo
 per trovare le coordinate rispetto ad una [[Base di uno spazio vettoriale]] si utilizza un vettore generico di codiante e utilizziamo i parametri come coefficienti per la base scelta risolvendo il [[Soluzioni di un sistema lineare|sistema Lineare]] troveremo la relazione che lega le coordinate alla base
 

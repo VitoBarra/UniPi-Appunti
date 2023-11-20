@@ -13,7 +13,7 @@ _siano_ $X,C_{n}$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]]
 - $X$ con [[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|denstia]]  $N(0,1)$ ovvero [[Variabili Aleatorie Notevoli - Gaussiane]] 
 - $C_{n}$  con [[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|denstia]] $\chi^{2}$ ovvero [[Densita di probabilita Chi-quadro|chi-quadro]]  
 _se_ queste sono indipendenti 
-_allora_ per $n>1$ la variabile aleatoria $$T_{n}=\frac{X}{\sqrt{ \frac{C_{n}}{n} }}=\sqrt{ n }\frac{X}{C_{n}}$$ ha _densita_ che è $$f_{T_{n}}(t)=\frac{\Gamma(n/2+1/2)}{\sqrt{ n \pi }\Gamma(n/2)}\left( 1+\frac{t^{2}}{n} \right)^{-n/2-1/2}$$ che dipende dalla [[funzione Gamma di Eulero|funzione gamma]]. e questa è detta _variabile di student_ a $n$ gradi di liberta
+_allora_ per $n>1$ la variabile aleatoria $$T_{n}=\frac{X}{\sqrt{ \frac{C_{n}}{n} }}=\sqrt{ n }\frac{X}{C_{n}}$$ ha _densita_ che è $$f_{T_{n}}(t)=\frac{\Gamma(n/2+1/2)}{\sqrt{ n \pi }\Gamma(n/2)}\left( 1+\frac{t^{2}}{n} \right)^{-n/2-1/2}$$ che dipende dalla [[Funzione Gamma di Eulero|funzione gamma]]. e questa è detta _variabile di student_ a $n$ gradi di liberta
 
 
 

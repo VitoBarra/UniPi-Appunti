@@ -9,7 +9,7 @@ Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Strutture Dati]]
-	1. [[Grafo]]
+	1. [[Grafo struttura dati]]
 	2. [[Albero struttura dati]]
 		1. [[a-b Alberi]]
 		2. [[ABR]]

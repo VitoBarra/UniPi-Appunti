@@ -2,23 +2,23 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Sottospazii affini
 ---
 
-### Definizione
-
-![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 16.png]]
-
-val $dim(S) = dim (S_0)$
-
-![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 10.png]]
-
+#### Sottospazio affine
+_sia_ $V$ un [[Spazio Vettoriale]] e $W \subset V$ un [[Sottospazio Vettoriale|sotto spazio vettoriale]]
+_allora_ un _sotto spazio affine_ di $V$ è un insieme $S$ [[Soluzioni di un sistema lineare|delle soluzioni]]  $S$ di un [[Sistemi lineari e lineari omogenei|sistema lineare]] tale che
+$$S= \{ x+v\mid v\in W \}$$
+e per indicare un sotto spazio affine si usa na _notazione implicita_ $$S=x+W=\{ x+v\mid v \in  W \}$$
+#### Teoria
+lo stesso _sottospazio affine_ puo essere descritto in io modi diversi infatti
+##### Proposizione
+_siano_  $x+W$ e $x’+W’$  due _spazzi affini_ 
+_allora_ questi _coincidono_ se e solo se  $$W=W’ \ \ e \ \ x-x’ \in W$$
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 8.png]]
-
-### esempi :
-Un sottospazio affine di dimensione 0 è un qualsiasi punto di V. Un sottospazio affine di dimensione 1 o 2 è detto *retta affine* e *piano affine*. lo spazio $\mathcal{R}^3$ cintine ovviamente molte rette affini e molti piani affini.
+#### Esempi di spazzi affini
+ Un _sottospazio affine_ di [[Dimensione di uno spazio vettoriale|dimensione]] 0 è un qualsiasi punto di $V$. Un sottospazio affine di dimensione $1$ è detto *retta affine* e  di dimensione $2$ è detto _piano affine_. lo spazio $\mathbb{R}^3$ contiene ovviamente _infinite_ rette affini e _infiniti_ piani affini.

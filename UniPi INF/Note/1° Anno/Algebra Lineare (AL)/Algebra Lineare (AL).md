@@ -1,10 +1,10 @@
 ---
-type: MOC 
-tags: MOC AL 
+type: MOC
+tags:
+  - MOC
+  - AL
+Parent MOC: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Algebra Lineare (AL)
 
 ## Course MOC  📒
@@ -13,7 +13,7 @@ Prev: [[Uni MOC]]
 	1. [[Sistemi lineari e lineari omogenei]]
 	2. [[Forma cartesiana e forma parametrica]]
 	3. [[Combinazioni Lineari]]
-2. Matrici
+2. [[Matrice|Matrici]]
 	1. Matrici ricavabili
 		1. [[Matrice inversa]]
 		2. [[Matrice Trasposta]]
@@ -26,6 +26,8 @@ Prev: [[Uni MOC]]
 3. [[Spazio Vettoriale]]
 	1. [[Operazioni con sottospazi]]
 	2. [[Sottospazio Vettoriale]]
+	3. [[Span]]
+	4. [[Sottospazzio Vettoriale generato]]
 4. [[Base di uno spazio vettoriale]]
 	1. [[Dipendenza Lineare]]
 	2. [[Coordinate Rispetto ad una base]]
@@ -53,14 +55,15 @@ Prev: [[Uni MOC]]
 	2. [[Matrici Diagonalizzabili]]
 	3. [[Autospazio]]
 		1. [[Molteplicità algebrica e geometrica]]
-8. [[Ortogonalità E Ortonormalità]]
-	1. [[Prodotto Scalare]]
+8. [[Prodotto Scalare]]
+9. [[Ortogonalità E Ortonormalità]]
+	1. [[Vettori isotropi]]
 	2. [[Sottospazio Ortogonale]]
 	3. [[Base Ortogonale e Ortonormale]]
 		1. [[Ricerca Base Ortogonale e Ortonormale]]
 	4. [[Radicale]]
-9. [[Teorema Spetrale]]
-10. Definizioni extra
+10. [[Teorema Spetrale]]
+11. Definizioni extra
 	1. [[Linearmente Separabili]]
 
 

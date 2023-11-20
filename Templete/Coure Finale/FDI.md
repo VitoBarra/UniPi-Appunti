@@ -2,10 +2,10 @@
 type: nota
 course: Fondamenti Di Informatica
 topic: 
-tags: FDI
+tags:
+  - FDI
+Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
-
-Prev: [[Fondamenti Del Informatica (FDI)]]
 
 # {{title}}
 ---

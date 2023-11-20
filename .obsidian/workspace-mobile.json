@@ -11,9 +11,12 @@
             "id": "364a27bfbbc3be90",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg"
+                "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -130,7 +133,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg",
+            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,7 +150,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg",
+            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,7 +162,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg"
+            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md"
           }
         }
       },
@@ -194,41 +197,41 @@
   },
   "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0728.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0730.jpeg",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Elementi di crittografica quantistica.md",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Inversa di una trasformazioni affini.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni Geometriche affini.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0733.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Composizione di trasformazioni.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0732.jpeg",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Formule Trigronometriche.md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Trasformazioni affini.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0731.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0729.jpeg",
-    "Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-28 23.29.18.excalidraw.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0714.png",
-    "2023-11-05.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/illuminanti.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rasterizazione VS Ray Tracing.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Pipeline di Rasterizazione.md",
-    "UniPi INF/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Microarchitettura Pipeline.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Algoritmi di renderizazione.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0726.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0725.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0724.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Sistemi di rappresentazioni dei colori.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni affini.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0756.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Frames.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0755.jpeg",
+    "UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Grafo struttura dati.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Matrice Inversa di trasformazioni affini.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Ortogonalità E Ortonormalità.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Composizione di trasformazioni.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0751.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni Geometriche affini.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Sottospazii affini.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazione Lineari notevoli.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Coordinate omogenee.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0754.jpeg",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Scalare.md",
+    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori isotropi.md",
+    "Templete/Coure Finale/ProgAlgo.md",
+    "Templete/Coure Finale/GA.md",
+    "Templete/Coure Finale/FDI.md",
+    "Superiori/Geometria Analitica/Rette perpendicolari.md",
+    "Superiori/Geometria Analitica/Note/Retta.md",
+    "Superiori/Geometria Analitica/Geometria analitica (GA).md",
+    "Superiori/Geometria Analitica/Rette Parallele.md",
+    "Templete/Coure Finale/AL.md",
+    "Templete/Coure Finale/Algebra.md",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0753.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0752.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0750.jpeg",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0736.png",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0735.gif",
+    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0734.jpeg",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Untitled.canvas",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",

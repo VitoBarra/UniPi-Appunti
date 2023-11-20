@@ -2,11 +2,10 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Sistemi lineari e lineari omogenei
 ---
 Una _equazione lineare_ è un equazione con $n$ variabili $x_1,\dots,x_n$ del tipo 

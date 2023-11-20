@@ -2,44 +2,31 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Base di  uno spazio vettoriale 
 ---
-Una sequenza  di $v_1,\dots,v_n \in V$ vettori dove $V$ è uno [[Spazio Vettoriale|spazio vettoriale]] è detta base se
-- I vettori sono indipendenti
-- I vettori _generano_ $V$
-
-### Basi canoniche
-- spazio dei vettori $\mathbb{K}^n$ consistente da esattamente $n$  vettori:
-
-    $$
-    e_1=
-    \begin{pmatrix}
-    1\\
-    0\\
-    \vdots\\
-    0
-    \end{pmatrix}\ \ \ \ \
-    e_2=
-    \begin{pmatrix}
-    0\\
-    1\\
-    \vdots\\
-    0
-    \end{pmatrix}\ \ \ \ \
-    \cdots \ \ \ \ \
-
-    e_n=
-    \begin{pmatrix}
-    0\\
-    0\\
-    \vdots\\
-    1
+_sia_  $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  e  $v_1,\dots,v_n \in V$ una sequenza di vettori 
+_allora_ la sequenza è detta _base_ di $V$ se
+- I vettori sono tutti tra loro _[[Dipendenza Lineare|indipendenti]]_
+- I vettori _[[Sottospazzio Vettoriale generato|generano]]_ $V$
+e questo puo essere scritta anche come [[Matrice|matrice]] dove ogni colonna è un vettore
+#### Basi canoniche
+- spazio dei vettori $\mathbb{K}^n$ consistente da esattamente $n$  vettori:$$
+    \begin{array}{}
+e_1=\begin{pmatrix}
+    1\\0\\\vdots\\0
+    \end{pmatrix} & 
+e_2=\begin{pmatrix} 
+    0\\1\\ \vdots\\0
+    \end{pmatrix} & 
+    \cdots  & 
+e_n=\begin{pmatrix}
+    0\\0\\\vdots\\1
     \end{pmatrix}
+\end{array}
     $$
 
 

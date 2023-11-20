@@ -2,10 +2,10 @@
 type: nota
 course: Algebra
 topic: 
-tags: ALG
+tags:
+  - ALG
+Parent MOC: "[[Algebra (ALG)]]"
 ---
-
-Prev: [[Algebra (ALG)]]
 
 # {{title}}
 ---

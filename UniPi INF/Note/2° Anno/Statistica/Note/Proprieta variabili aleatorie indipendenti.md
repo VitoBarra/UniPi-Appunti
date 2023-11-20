@@ -10,8 +10,8 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 
 #### Proposizione
-_siano_ $X$ e $Y$ sono rispettivamente variabili aleatorie _[[Variabili Aleatorie Notevoli - Binomiale|Binomiali]]_ $B(n,p)$ e $B(m,p)$ 
-_se_ sono _indipendenti_ 
+_siano_ $X$ e $Y$ sono  [[Variabili Aleatorie (Casuali)|variabili aleatorie]] _[[Variabili Aleatorie Notevoli - Binomiale|Binomiali]]_ $B(n,p)$ e $B(m,p)$ 
+_se_ sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
 _allora_ la _variabile aleatoria_ $Z= X+Y$ è _binomiale_ $B(n+m,p)$ 
 
 _Dimostrazione_
@@ -25,19 +25,20 @@ ovvero $Z$ è del tipo $B(n+1,p)$ e la dimostrazione si completa per [[Tipi di d
 
 
 
-
-#### Proposizione
-_siano_  $X,Y:\Omega \rightarrow \mathbb{N}$  _[[Variabili Aleatorie (Casuali)|variabili aleatorie]] discrete_ a valori naturali  _indipendenti_ e $Z=X+Y$ e siano $p_{X},p_{Y},p_{Z}$ le rispettive _[[Probabilita sui numeri Reali#Funzione di massa discreta (Definizione)|funzioni di massa]]_
+#### Formula di convoluzione discreta
+_siano_  $X,Y:\Omega \rightarrow \mathbb{N}$  _[[Variabili Aleatorie (Casuali)|variabili aleatorie]] discrete_ a valori naturali 
+_se_ queste sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
+_allora_ sia $Z=X+Y$ e siano $p_{X},p_{Y},p_{Z}$ le rispettive _[[Probabilita sui numeri Reali#Funzione di massa discreta (Definizione)|funzioni di massa]]_
 _allora_ vale che $$p_{Z}(n)=\sum_{h=0}^{n}p_{X}(h)\cdot p_{Y}(n-h)$$ 
 _dimostrazione_
-	questa equazione è una conseguenza della seguente e uguaglianza insiemistica$$\{ Z=n \}=\bigcup^{n}_{h=0}\{ X = h,Y= n-h\} $$e di conseguenza $$
+	questa equazione è una conseguenza della seguente uguaglianza insiemistica$$\{ Z=n \}=\bigcup^{n}_{h=0}\{ X = h,Y= n-h\} $$e di conseguenza $$
 	\begin{array}{}
     p_{Z}(n)=\mathcal{P}\{ Z=n \} & = \\
 \displaystyle\sum^{n}_{h=0}\mathcal{P}\{ X=h\}\mathcal{P}\{ Y=n-h \}  & = \\
 \displaystyle\sum^{n}_{h=0}p_{X}(h)p_{Y}(n-h)
 \end{array}
 $$
-dove il secondo passaggio fa uso dell indipendeza
+dove il secondo passaggio fa uso dell _[[Indipendenza di Variabili aleatorie|indipendeza]]_
 
 
 

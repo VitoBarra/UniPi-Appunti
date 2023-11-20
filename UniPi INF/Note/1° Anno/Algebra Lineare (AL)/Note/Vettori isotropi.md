@@ -2,26 +2,20 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Vettori isotropi
 ---
-
-### Definizione
-i vettori isotropi sono vettori [[Ortogonalità E Ortonormalità|Ortogonali]] a se stessi ovvero
-
-$$
+_sia_ $v$ un vettore 
+_allora_ i vettori _isotropi_ sono vettori [[Ortogonalità E Ortonormalità|Ortogonali]] a se stessi ovvero vale che il [[Prodotto Scalare|prodotto scalare]]$$
 \langle v,v \rangle = 0
-$$
+$$sono inclusi nella definizione i vettori nulli
 
-sono inclusi nella definizione i vettori nulli
-
-### Esistenza:
-
-se il prodotto scalare è degenere esiste almeno uno vettore isotropo siccome esiste un $v \in V$ tale che $\langle v,w \rangle = 0\ \forall w \in V$  e quindi anche con se stesso
+#### Teorema di esistenza
+_se_ il [[Prodotto Scalare|prodotto scalare]] è _degenere_ esiste almeno uno vettore _isotropo_ siccome esiste un $v \in V$ tale che $\langle v,w \rangle = 0\ \forall w \in V$  e quindi anche quando $w=v$
 
 
 

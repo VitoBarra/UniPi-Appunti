@@ -10,20 +10,32 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
  
 #### Variabile Gausiana
-la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a 0. infatti è [[Integrali|integrabile]], ma non si puo rappresentare la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_ tranne per alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ e la sua [[Funzione di ripartizione di variabili aleatorie|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{+\infty}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dx$$
-questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
+la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a 0. infatti è [[Integrali|integrabile]], ma non si puo rappresentare la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_ tranne per alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ che è una funzione _[[funzioni|pari]]_ e quindi $\varphi(x)=\varphi(-x)$ 
+e la sua [[Funzione di ripartizione di variabili aleatorie|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{x}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dt$$questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
 - $\varphi(x)$ la _densita gaussiana_
 - $\Phi(x)$ la _funzione di ripartizione_ 
 - $q_{\alpha}$ il $a$-[[Quantili e Percentili|quantile]]
 
 
 
+##### Proprieta
+essendo $\varphi(x)$ _pari_ si ha che 
+dato $x \in \mathbb{R}$ e $0< \alpha <1$ si ha $$\Phi(-x)=1-\Phi(x)$$
+e che $$q_{1-\alpha}=-q_{\alpha}$$
+una conseguenza di questo è $$\mathcal{P}\{-t \leq X \leq t\}=\Phi(t)-\Phi(-t)=2\Phi(t)-1$$
+>[!tip]
+>queste proprieta vale per qualsiasi tipo di _guassiana_
+
+
+
+
 #### Proprieta sulla guassiana
-ci sono dei casi in cui vorremmo sapere il valore di $$\mathcal{P}\{ a < X <b \}=\int ^{b}_{a} \varphi(x) \, dx=\Phi(a) - \Phi(b)$$ ma questo non è possibile siccome non possiamo esprimere con funzioni semplici $\Phi(x)$ allora ci sono delle approssimazioni numeriche che possiamo usare $$\begin{array}{}
+ci sono dei casi in cui vorremmo sapere il valore di $$\mathcal{P}\{ a < X <b \}=\int ^{b}_{a} \varphi(x) \, dx=\Phi(b) - \Phi(a)$$ ma questo non è possibile siccome non possiamo esprimere con funzioni semplici $\Phi(x)$ allora ci sono delle approssimazioni numeriche che possiamo usare $$\begin{array}{}
 \mathcal{P}\{-1\leq X \leq 1\}  & \approx  & 0,68  \\
 \mathcal{P}\{-2\leq X \leq 2\}  & \approx  & 0,94  \\
 \mathcal{P}\{-3\leq X \leq 3\}  & \approx &  0,997  
-\end{array}$$
+\end{array}$$ e la tabella di valori precalcolati per tutto il resto 
+![[IMG_0736.png]]
 #### Teoria
 _sia_  
 - $X$ una  _variabile aleatoria gaussiana standard_ 
@@ -40,7 +52,7 @@ e questa è chiamata _densita gaussiana_(o normale) $N(m,\sigma^{2})$  e diciamo
 si possono ricondurre tutti i calcoli relativi alla _funzione di ripartizione_ di una  generica variabile guassiana a quelli sulla _funzione di ripartizione_ della _gaussiana standard_ $\Phi$ sostituendo ad $Y$ l espressione $\sigma X + m$
 
 un esempio di questo si vede con 
-$$\mathcal{P}\{a <Y <b  \}= \mathcal{P}\left\{  \frac{a-m}{\sigma} < X \frac{b-m}{\sigma}  \right\}$$
+$$\mathcal{P}\{a <Y <b  \}= \mathcal{P}\left\{  \frac{a-m}{\sigma} < X <\frac{b-m}{\sigma}  \right\}$$
 e le approssimazioni numeriche diventano $$\begin{array}{}
 \mathcal{P}\{m-\sigma\leq X \leq m+\sigma\}  & \approx  & 0,68  \\
 \mathcal{P}\{m-2\sigma\leq X \leq m+2\sigma\}  & \approx  & 0,94  \\

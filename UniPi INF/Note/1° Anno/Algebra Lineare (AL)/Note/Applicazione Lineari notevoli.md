@@ -2,11 +2,10 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Applicazioni Lineari notevoli
 
 ## Proiezione
@@ -31,17 +30,11 @@ $$
 
 ## Riflessione
 
-sia $V = U \oplus W$  definiamo una [[Applicazioni Lineari|applicazione lineare]] come
-
-$$
+sia $V = U \oplus W$  definiamo una [[Applicazioni Lineari|applicazione lineare]] come$$
 r_U: V\rightarrow V
 $$
 
-sia $v\in V$ definito in modo unico come $\space v= u +w$  con $u\in U,w\in W$ definiamo un riflessione come
-
-
-
-$$
+sia $v\in V$ definito in modo unico come $\space v= u +w$  con $u\in U,w\in W$ definiamo un riflessione come$$
 r_U(v)=u-v
 $$
 

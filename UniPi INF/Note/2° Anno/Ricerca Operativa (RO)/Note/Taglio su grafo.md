@@ -15,7 +15,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Taglio su grafo
 
-Dato un [[Grafo]] orientato $G(N,A)$, un taglio è una [[Partizione]] $(N',N'')$ del insieme dei nodi, quindi valgo le proprietà
+Dato un [[Grafo struttura dati]] orientato $G(N,A)$, un taglio è una [[Partizione]] $(N',N'')$ del insieme dei nodi, quindi valgo le proprietà
 
 $$
 \begin{aligned} 

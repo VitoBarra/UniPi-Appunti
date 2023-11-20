@@ -21,10 +21,13 @@ pare: "[[Uni MOC]]"
 	2. [[Pipeline di Rasterizazione]]
 	3. [[Rasterizazione VS Ray Tracing]]
 7. [[Trasformazioni Geometriche affini]]
-	1. [[Composizione di trasformazioni]]
-	2. [[Inversa di una trasformazioni affini]]
+	1. [[Coordinate omogenee]]
+	2. [[Trasformazioni affini]]
+	3. [[Composizione di trasformazioni]]
+	4. [[Matrice Inversa di trasformazioni affini]]
 8. [[Frames]]
-9. 
+9. [[Rotazioni in 3D]]
+10. 
 
 
 

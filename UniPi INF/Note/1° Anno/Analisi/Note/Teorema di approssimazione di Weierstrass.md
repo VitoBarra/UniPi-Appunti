@@ -2,10 +2,10 @@
 type: nota
 course: Analisi
 topic: 
-tags: Analisi
+tags:
+  - Analisi
+Parent MOC: "[[Analisi]]"
 ---
-
-Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
 # Teorema di approssimazione di Weierstrass
 ---

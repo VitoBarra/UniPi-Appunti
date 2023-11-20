@@ -6,7 +6,7 @@ tags:
   - CG
 Parent MOC: "[[Computer Grafica (CG)]]"
 ---
+	
 
-
-# Trasformazioni affini
+# Rotazioni in 3D
 ---

@@ -40,6 +40,9 @@ _caso discreto_$$\begin{array}{}
 \end{array}$$
 che dimostra che $XY$ ha valore atteso e togliendo i valori assoluti si ottiene la formula $\mathbb{E}[XY]=\mathbb{E}[X]\cdot  \mathbb{E}[Y]$ come da tesi.
 
+
+##### Corollario
+se le due [[Variabili Aleatorie (Casuali)|variabili]] $X$ e $Y$ hanno _[[Variabili aleatoria - Momenti|momento secondo]]_ allora queste sono _scorrelate_
 #### Proposizione 3
 _siano_ $X$ e $Y$ _[[Variabili Aleatorie (Casuali)|variabili aleatoria]]_ 
 _se_ queste sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
@@ -54,4 +57,4 @@ _dimostrazione_
 	segue quella nel caso $\mathbb{R}^{2}$ 
 
 >[!tip]
->in generale $XY$ non è detto che abbia valore atteso ma abbiamo due criteri, se $X$ e $Y$ e la diseguaglianza di Schwartz che ci dice che $X$ e $Y$ hanno [[Variabili aleatoria - Momenti|memento secondo]] allora $XY$ ha _sicuramente_ valore atteso 
+>in generale $XY$ non è detto che abbia valore atteso ma abbiamo dei criteri, per la [[Diseguaglianza di Schwartz|diseguaglianza di Schwartz]] se $X$ e $Y$ hanno [[Variabili aleatoria - Momenti|memento secondo]] allora $XY$ ha _sicuramente_ valore atteso 

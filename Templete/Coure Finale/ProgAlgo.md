@@ -2,10 +2,10 @@
 type: nota
 course: Programmazione e Algoritmica
 topic: 
-tags: ProgAlgo
+tags:
+  - ProgAlgo
+Parent MOC: "[[Programmazione Algoritmica (ProgAlg)]]"
 ---
-
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
 
 # {{title}}
 ---

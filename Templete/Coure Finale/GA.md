@@ -1,11 +1,11 @@
 ---
 type: nota
-course: Analisi
+course: Geometria analitica
 topic: 
-tags: GA
+tags:
+  - GA
+Parent MOC: "[[Geometria analitica (GA)]]"
 ---
-
-Prev: [[Geometria analitica (GA)]]
 
 # {{title}}
 ---

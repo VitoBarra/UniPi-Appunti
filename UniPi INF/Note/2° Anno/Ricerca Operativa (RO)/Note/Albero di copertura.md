@@ -11,4 +11,4 @@ Prev: [[Ricerca Operativa (RO)]]
 ---
 
 ### Definizione
-dato un [[Grafo|grafo]] $G = (V,E)$, un [[Albero struttura dati|albero]] di copertura di $G$ è un albero $T = (V,E')$ con $E' \subseteq E$
+dato un [[Grafo struttura dati|grafo]] $G = (V,E)$, un [[Albero struttura dati|albero]] di copertura di $G$ è un albero $T = (V,E')$ con $E' \subseteq E$

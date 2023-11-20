@@ -36,7 +36,7 @@ $$ In particolare la _legge congiunta_ $\mathcal{P}_{(X,Y)}$ _determine univocam
 #### Variabili aleatorie doppie discrete
 _sia_ $(X,Y)$ una _variabile aleatoria_ doppia
 _se_ la sua immagine è un _[[Insiemi Matematici|insieme]] finito_ o _[[Insiemi infiniti numerabili|numerabile]]_ di punti $(x_{i},y_{i})$ 
-_allora_ questa è detta _discreta_ e la sua [[Probabilita|probabilita]] $\mathcal{P}_{(X,Y)}$ è definita dalla _funzione di massa_ $p(x_{i},y_{i})=\mathcal{P}\{ X=x_{i},Y=y_{i} \}$ e si ha che per  $A \subseteq \mathbb{R}^{2}$ $$\mathcal{P}_{(X,Y)}(A)=\mathcal{P}\{  (X,Y) \in  A\}=\sum_{(x_{i},y_{i})\in A}p(x_{i},y_{i})$$
+_allora_ questa è detta _discreta_ e la sua [[Definizione di Probabilita|probabilita]] $\mathcal{P}_{(X,Y)}$ è definita dalla _funzione di massa_ $p(x_{i},y_{i})=\mathcal{P}\{ X=x_{i},Y=y_{i} \}$ e si ha che per  $A \subseteq \mathbb{R}^{2}$ $$\mathcal{P}_{(X,Y)}(A)=\mathcal{P}\{  (X,Y) \in  A\}=\sum_{(x_{i},y_{i})\in A}p(x_{i},y_{i})$$
 ##### Proposizione
 Data una _variabile aleatoria doppia discreta_ $(X,Y)$ con _funzione di massa_ $p(x_{i},y_{i})$ le sue componenti sono _[[Variabili Aleatorie (Casuali)|variabili aleatorie]]_ _discrete_ con funzioni di massa $$
 \begin{array}{}

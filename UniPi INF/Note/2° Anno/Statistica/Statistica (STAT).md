@@ -53,7 +53,7 @@ Pare: "[[Uni MOC]]"
 	4. [[Convergenza in distribuzione]]
 	5. [[Teorema centrale del limite]]
 	6. [[Densita di probabilita Gamma]]
-		1. [[funzione Gamma di Eulero]]
+		1. [[Funzione Gamma di Eulero]]
 	7. [[Densita di probabilita Chi-quadro]]
 	8. [[Densita di probabilita Student]]
 6. [[Inferenza statistica]]
