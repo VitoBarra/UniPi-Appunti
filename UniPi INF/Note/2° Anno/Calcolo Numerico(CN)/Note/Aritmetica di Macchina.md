@@ -2,10 +2,10 @@
 type: nota
 course: Calcolo Numerico
 topic: 
-tags: CN
+tags:
+  - CN
+Parent MOC: "[[Calcolo Numerico(CN)]]"
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
 
 # Aritmetica di Macchina
 ---

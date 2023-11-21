@@ -1,9 +1,10 @@
 ---
-type: MOC 
-tags: MOC CN
+type: MOC
+tags:
+  - MOC
+  - CN
+Parent MOC: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
 
 ## Course MOC  📒
 1. [[Rappresentazione in base di numeri reali]]

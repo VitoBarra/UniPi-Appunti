@@ -2,10 +2,10 @@
 type: nota
 course: Calcolo Numerico
 topic: 
-tags: CN
+tags:
+  - CN
+Parent MOC: "[[Calcolo Numerico(CN)]]"
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
 
 # Tipi di Errore nel calcolo numerico
 ---
@@ -21,8 +21,7 @@ posiamo solo calcolare con un aritmetica finita che approssima la soluzione real
 
 
 ### Errore Inerente
-_sia_ $f(x) \not = 0$ si dice errore _inerente o inevitabile_ la quantità
-$$ \epsilon_{in} = \frac{f(\tilde x) - f(x)}{f(x)}$$
+_sia_ $f(x) \not = 0$ si dice errore _inerente o inevitabile_ la quantità$$ \epsilon_{in} = \frac{f(\tilde x) - f(x)}{f(x)}$$
 -  l _errore inerente_ misura la sensibilità i della funzione e pertanto del  problema matematico considerato rispetto alla perturbazione del dato iniziale. è indipendente dal algoritmo (sequenza di operazioni aritmetiche) utilizzato per il calcolo di $f(x)$ e quindi per la risoluzione del programma matematico associato 
 - a seconda del valore del _errore inerente_ si possono classificare i problemi in due modi
 	-  problema  _mal condizionato_. se l errore inerente è qualitativamente alto in valore assoluto (solitamente viste con i limiti dove $f$ va a $0$ o $\infty$)
@@ -30,8 +29,7 @@ $$ \epsilon_{in} = \frac{f(\tilde x) - f(x)}{f(x)}$$
 il termine  “_qualitativamente_” è qui utilizzato per indicare che la valutazione è dipendente dal contesto applicativo 
 
 ### Errore Algoritmo
-_sia_ $f(\tilde x) \not =0$ si diche _errore algoritmico_ generato nel calcolo tramite [[Aritmetica di Macchina#Operazioni di macchina |l aritmetica di macchina]] la quantità
-$$\epsilon_{alg} =  \frac{g(\tilde x)-f(\tilde x)}{f(\tilde x)}$$
+_sia_ $f(\tilde x) \not =0$ si diche _errore algoritmico_ generato nel calcolo tramite [[Aritmetica di Macchina#Operazioni di macchina |l aritmetica di macchina]] la quantità$$\epsilon_{alg} =  \frac{g(\tilde x)-f(\tilde x)}{f(\tilde x)}$$
 - la Funzione $g(x)$ dipende dal algoritmo utilizzato per calcolare $f(x)$ 
 	- ad esempio per $f(x)=\cfrac{x^2+1}{x}$ potremmo avere  $g(x)=g_1(x)=((x \otimes x)\oplus1) \oslash x$ In generale differenti algoritmi conducono a differenti _errori algoritmici_ 
 - a seconda del valore del _errore algoritmico_  si possono classificare gli [[Algoritmi|algoritmi]] in  due modi 

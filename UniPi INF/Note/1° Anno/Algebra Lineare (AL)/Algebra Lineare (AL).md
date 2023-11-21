@@ -56,14 +56,15 @@ Parent MOC: "[[Uni MOC]]"
 	3. [[Autospazio]]
 		1. [[Molteplicità algebrica e geometrica]]
 8. [[Prodotto Scalare]]
-9. [[Ortogonalità E Ortonormalità]]
+9. [[Prodotto Vettoriale]]
+10. [[Ortogonalità E Ortonormalità]]
 	1. [[Vettori isotropi]]
 	2. [[Sottospazio Ortogonale]]
 	3. [[Base Ortogonale e Ortonormale]]
 		1. [[Ricerca Base Ortogonale e Ortonormale]]
 	4. [[Radicale]]
-10. [[Teorema Spetrale]]
-11. Definizioni extra
+11. [[Teorema Spetrale]]
+12. Definizioni extra
 	1. [[Linearmente Separabili]]
 
 

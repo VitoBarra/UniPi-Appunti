@@ -10,7 +10,6 @@ Parent MOC: "[[Computer Grafica (CG)]]"
 
 # Trasformazioni affini
 ---
-#### Trasformazione affine
 nella _computer grafica_ usiamo la trasformazioni usate sono  un sotto insieme delle trasformazioni possibili, e sono quelle più facili e sono dette _[[Trasformazioni Geometriche affini|trsformazioni affini]]_ 
 una _trasformazione_ è _affine_ se
 1. mantiene la _colinearita_ dei punti, ovvero due punti se sono sulla stessa linea ci restano anche dopo la trasformazione 
