@@ -2,24 +2,19 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 
-Prev: [[Algebra Lineare (AL)]]
 
-# Algebra Delle Matrici
+# Prodotto tra matrici
 ---
-
-### Prodotto riga per colonna
-
- Se $A$ è una [[Matrice]] $m\times n$ e $B$ è una matrice $n \times p$  il prodotto $AB$ è una nuova matrice $m \times p$ definita nel modo seguente: l’elemento $(AB)_{ij}$ della nuova matrice $AB$ è
-
-$$
+ _sia_ $A$ una [[Matrice]] $\mathbb{K}^{m\times n}$ e $B$ è una [[Matrice|matrice]] $\mathbb{K}^{n \times p}$  il _prodotto_ $AB$ è una nuova matrice $\mathbb{K}^{m \times p}$ tale che l’elemento $(AB)_{ij}$ della nuova matrice $AB$ risulti$$
 (AB)_{ij} =
 \sum_{k=1}^n A_{ik}B_{kj} =
 A_{i1}B_{1j}+\cdots+A_{in}B_{nj}
 $$
-
 Questo tipo di prodotto fra matrici si chiama prodotto riga per colonna perché l’elemento $(AB)_{ij}$ si ottiene facendo un opportuno prodotto fra la riga $i\text{-esima } A_i$ di $A$ e la colonna $j\text{-esima } B^j$ di $B$
 
 un esempio:
@@ -46,6 +41,7 @@ $$
 
 ![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 13.png]]
 
+![[IMG_0763.jpeg]]
 ### proprietà algebriche matrici:
 
 - $A =  M^{-1}BM,C=M^{-1}DM \implies AC=M^{-1}BDM$

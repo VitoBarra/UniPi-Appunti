@@ -12,7 +12,8 @@ Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 #### Rendering (Definizione)
-Il _rendering_ è un processo che prende in input dei dati e genera in output delle immagini.
+Il _rendering_ è un processo che prende in input dei dati che descrivono la scena e genera in _output_ delle _immagini rasterizate_.
+![[IMG_0774.jpeg]]
 
 #### Paradigmi di rendering
 per algoritmi di Renderinig si intendono algoritmi per proiettre scente 3D su uno schermo 2D. Questa tipologia di algoritmi solitamente dividono in due _paradigmi di rendering_ e questi sono

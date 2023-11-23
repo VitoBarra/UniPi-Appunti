@@ -2,16 +2,13 @@
 type: nota
 course: Calcolo Numerico
 topic: 
-tags: CN
+tags:
+  - CN
+Parent MOC: "[[Calcolo Numerico(CN)]]"
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
-
 # Interpolazione polinomiale
 ---
-per l'interpolazione polinomiale si intende l approssimazione in continuo di due dati discreti.
-![[Pasted image 20230515170753.png]]
-le spezzate che collegano i punti sono le approssimazioni che riusciamo ad ottenere con l _interpolazione Lineare_. 
+per l'interpolazione polinomiale si intende l approssimazione in continuo di due dati discreti., questo metodo cerca di migliorare quello che si puo fare con l [[Interpolazione Lineare|interpolazione lineare]]
 
 #### Teorema di esistenza e unicità
 _sia_ $\Pi_{n}$ lo [[Spazio Vettoriale|spazio vettoriale]] dei [[Polinomi|polinomi]] di grado massimo $n$ a _coefficienti Reali_ e $\Phi = \{\phi_{0}(x),\dots,\phi_{n}(x)\}$ una base di $\Pi_{n}$. 

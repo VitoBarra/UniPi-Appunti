@@ -14,7 +14,7 @@ _allora_ due vettori $v,w \in V$ sono _ortogonali_ se$$
 $$
 _geometricamente_ significa che questi due vettori  sono su [[Rette perpendicolari|perpendicolari]] 
 
-Consideriamo il [[Prodotto Scalare|prodotto scalare]] euclideo su $\mathbb{R}^2$. i vettori _ortogonali_ ad un vettore $\begin{pmatrix}a\\b \end{pmatrix}\not= 0$ sono quei vettori $\begin{pmatrix}x\\y \end{pmatrix}$ tali che
+Consideriamo il [[Prodotto scalare euclideo (Dot product)|prodotto scalare euclideo]] su $\mathbb{R}^2$. i vettori _ortogonali_ ad un vettore $\begin{pmatrix}a\\b \end{pmatrix}\not= 0$ sono quei vettori $\begin{pmatrix}x\\y \end{pmatrix}$ tali che
 
 $$
 ax + by =0
@@ -38,7 +38,3 @@ il vettore $\begin{pmatrix}-b\\a\end{pmatrix}$ forma effettivamente un angolo re
 ### nota:
 - due vettori colonna con $i \not=j$ della stessa base canonica sono ortogonali tra di loro infatti $\langle e_1,e_j \rangle = {}^te_i \cdot e^i =0$
 - un prodotto scalare degenere può essere espresso anche con l’esistenza di un vettore $v \in V$ortogonale a tutto i vettore di $V$
-
-
-
-[[Vettori isotropi]]

@@ -9,8 +9,8 @@ Parent MOC: "[[Uni MOC]]"
 ## Course MOC  📒
 1. [[Rappresentazione in base di numeri reali]]
 2. [[Insieme dei numeri di macchina]]
-4. [[Aritmetica di Macchina]]
-3. [[Tipi di Errore nel calcolo numerico]]
+3. [[Aritmetica di Macchina]]
+4. [[Tipi di Errore nel calcolo numerico]]
 	1. [[Problemi Mal Condizionati]]
 	2. [[Errori nel calcolo di una funzione razionale]]
 	3. [[Calcolo di una funzione non razionale]]
@@ -35,6 +35,7 @@ Parent MOC: "[[Uni MOC]]"
 	3. [[Convergenza locale per metodi interativi funzionali]]
 	4. [[Metodo delle tangenti o di Newton]]
 	5. [[Ordine di convergenza]]
+16. [[Interpolazione Lineare]]
 15. [[Interpolazione polinomiale]]
 
 

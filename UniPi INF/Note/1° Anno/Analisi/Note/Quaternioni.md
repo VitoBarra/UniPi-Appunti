@@ -35,6 +35,11 @@ a_{w}b_{w}-\boldsymbol{a}\cdot \boldsymbol{b} \\
 	a_{w}\boldsymbol{b}+b_{w}\boldsymbol{a}+\boldsymbol{a}\times\boldsymbol{b}
 \end{bmatrix}$$
 
-dove l [[Elemento Neutro o identita di un operazione|indentita]] è $\boldsymbol{1}=(1,0,0,0)$ e l [[Elemento inverso di un operazione|inverso]] è l elemento $$a^{-1}=\frac{1}{\|a\|^{2}}(a_{w},-\boldsymbol{a})$$
+dove l [[Elemento Neutro o identita di un operazione|indentita]] è $\boldsymbol{1}=(1,0,0,0)$ 
+
+l [[Elemento inverso di un operazione|inverso]] è l elemento $$a^{-1}=\frac{1}{\|a\|^{2}}(a_{w},-\boldsymbol{a})$$
+il _coniugato_ di un _quaternione_ è
+$$\overline{\boldsymbol{q}}=(a_{w},-\boldsymbol a)$$
+
 la _magniduto_ di un quaternione è definita come $$\|a\|=\sqrt{  a_{w}^{2}+a_{x}^2+a_y^2+a_z^2}$$
 

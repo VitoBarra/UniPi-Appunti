@@ -50,13 +50,13 @@ otteniamo quindi con la notazione a matrice
 $$R_{\alpha,r}=F^{-1}_{r}R_{\alpha,z}F_{r}$$
 per applicare questo metodo bisogna quindi costruire il [[Frames|frame]] $F_{r}$ 
 
-per costruire il [[Frames|frame]] $F_{r}$ possiamo scegliere un _qualsiasi_ vettore $a$  e possiamo calcolare gli altri due _assi_ usando il [[Prodotto Vettoriale|Prodotto Vettoriale]] che genera un vettore  [[Ortogonalità E Ortonormalità|ortogonale]] ad entrambi i _vettori_ che partecipano al operazione. Ricordando che vogliamo fare in modo di far coincidere $r$ con $z$ abbiamo che $r=z_{r}$ e otteniamo quindi$$\begin{array}{}
+per costruire il [[Frames|frame]] $F_{r}$ possiamo scegliere un _qualsiasi_ vettore $a$  e possiamo calcolare gli altri due _assi_ usando il [[Prodotto Vettoriale (Cross product)|Prodotto Vettoriale (Cross product)]] che genera un vettore  [[Ortogonalità E Ortonormalità|ortogonale]] ad entrambi i _vettori_ che partecipano al operazione. Ricordando che vogliamo fare in modo di far coincidere $r$ con $z$ abbiamo che $r=z_{r}$ e otteniamo quindi$$\begin{array}{}
 x_{r} & = & \boldsymbol{r}\times a \\
 y_{r} & = &  \boldsymbol{r} \times x_{r}
 \end{array}
 $$in questo modo si ottiene il _frame_ [[Ortogonalità E Ortonormalità|ortogonale]] $F_{r}$ 
 
-la scelta di $a$ _determina_ il frame $F_{r}$, bisogna stare attendi a non scegliere un vettore $a$ [[Dipendenza Lineare|dipendente]] con l _asse_ $r$ siccome in quel caso il [[Prodotto Vettoriale|prodotto vettoriale]] restituirebbe il _vettore nullo_.
+la scelta di $a$ _determina_ il frame $F_{r}$, bisogna stare attendi a non scegliere un vettore $a$ [[Dipendenza Lineare|dipendente]] con l _asse_ $r$ siccome in quel caso il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]] restituirebbe il _vettore nullo_.
 $a$ scegliere a caso ha [[Definizione di Probabilita|probabilita]] bassa di selezionare un vettore _dipendente_(_colineare_) con $r$ ma non zero e per via del [[Aritmetica di Macchina|algebra finita]] del calcolatore anche i vettori *__quasi__*  _colineari_ hanno lo stesso problema
 
 Quindi si _sceglie_ il vettore _tale che_
@@ -71,13 +71,13 @@ Creazione di un _frame_
 ##### Teoria
 questo metodo utilizza un vettore $a$ che determina il [[Frames|frame]] invoca mente tra gli _infiniti_ possibili, questi puo pero essere tedioso e ci sono dei metodo che permettono di semplificare e non fare questo passaggio.
 
-#### Rotazione intorno ad un asse approccio geometrico
+#### Rotazione asse-angolo
 Questo metodo permette di trovare _geometricamente_ una formula per calcolare direttamente il punto di arrivo di una rotazione intorno ad un asse $r$
 
 _siano_   $\boldsymbol{p}$ il punto che vogliamo _ruotare_ attorno ad un asse $r$ di un angolo $\alpha$ e sia $\boldsymbol{p}’$ il punto di arrivo della rotazione 
 _sia_ $O_{F}$ il punto di _intersenzione_ tra il piano ortogonale e l asse di rotazione $r$
 $\boldsymbol{p}$ e $\boldsymbol{p}’$ sono sullo _stesso piano_ [[Ortogonalità E Ortonormalità|ortogonale]] al asse attorno a cui voglio ruotare  
-creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $x_{F}=\boldsymbol{p}-O_{F}$ e con il [[Prodotto Vettoriale|prodotto vettoriale]]  l _asse_ $y_{F}=\boldsymbol{r}\times x_{r}$
+creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $x_{F}=\boldsymbol{p}-O_{F}$ e con il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]]  l _asse_ $y_{F}=\boldsymbol{r}\times x_{r}$
 
 in questo grame il punto $p’$ ha coordinate $[\cos \alpha, \sin \alpha,0]^{T}$
 ![[IMG_0761.jpeg]]
@@ -104,5 +104,5 @@ y_{F} & = & r \times \boldsymbol{x}_{F}= r\times (\boldsymbol{p}-\boldsymbol{O}_
  & = & r \times \boldsymbol{p}-r\times(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r} \\
  & = & \boldsymbol{r} \times\boldsymbol{p}
 \end{array}$$
-e quindi otteniamo la _formula finale_:
+e quindi otteniamo la _formula di Rodriguez_:
 $$\boldsymbol{p}’=\cos \alpha \ \boldsymbol{p}+(1-\cos \alpha)(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}+ \sin \alpha (\boldsymbol{r} \times \boldsymbol{p})$$

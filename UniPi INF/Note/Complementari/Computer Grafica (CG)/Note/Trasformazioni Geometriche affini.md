@@ -10,6 +10,7 @@ Parent MOC: "[[Computer Grafica (CG)]]"
 
 # Trasformazioni Geometriche affini
 ---
+
 #### Elementri geometrici
 gli elementi del _dominio_ della [[Computer Grafica (CG)|computer grafica]] sono
 - _scalari_: sono _monodimensionali_ e rappresentano la _magnituto_ di qualcosa (temperatura, velocita)
@@ -19,19 +20,27 @@ gli elementi del _dominio_ della [[Computer Grafica (CG)|computer grafica]] sono
 
 _punti_ e _vettori_ sono multi dimensionali ma la _dimensione_ dipende dalla dimensione in cui stiamo lavorando.
 
-![[IMG_0728.jpeg]]
-
 ##### Operazioni
 Sugli _elementi geometrici_ si  possono eseguire le seguenti operazioni
 _somma punto-vettore_: restituisce una nuovo _punto_ che rappresenta la nuova posizione dopo lo spostamento partendo dal punto iniziale. e quindi si ha $$\boldsymbol{p}=\boldsymbol{p_{1}}+\boldsymbol{\mathit{v}} $$
-
 _somma vettore-vettore_: restituisce un vettore e rappresenta due spostamenti consecutivi. e quindi $$\boldsymbol{\mathit{v}}=\boldsymbol{\mathit{v}_{1}}+\boldsymbol{\mathit{v}_{2}}$$
 _sotrazione punto-punto_:  restituisce un vettore e rappresenta lo spostamento necessari da punto $\boldsymbol{p_1}$ per raggiungere il punto $\boldsymbol{p_2}$. la _magnitudo_ di questo vettore e quindi $$\boldsymbol{\mathit{v}}=\boldsymbol{p_{1}}- \boldsymbol{p_{2}}$$
 _moltipliczione scalare-vettore_ restituisce un _vettore_ partendo dal vettore $v_{1}$ ne coserva la _direzione_ ma ne cambia la _magnitudo_ moltiplicandola per un fattore. quindi $$\boldsymbol{\mathit{v}}=a\boldsymbol{\mathit{v}}_{1}$$
+$$\begin{array}{}
+\boldsymbol{p}_{0} +v_{0}=\boldsymbol{p}_{1} \\
+\boldsymbol{p}_{1}-\boldsymbol{p}_{0}=v_{0} \\
+v_{0}+v_{1}=v_{1}+v_{0}=v_{2} \\ \boldsymbol{p}_{0}+2v_{2}=\boldsymbol{p}_{4}
+
+\end{array}$$
+![[IMG_0728.jpeg]]
 
 
-#### Operazioni su oggetti
-solitamente un computer grafica le operazioni si intendono su tutto i vertici di un dato _oggetto_ ma le operazioni qui elencate sono sul singolo vertice ma vengono eseguite su tutto l oggetto.
+
+
+#### Trasformazione geometriche
+le _trasformazioni geometriche_ sono [[Funzioni|funzioni]] che mappano _punti in punti_ e _vettori in vettori_ e quando si parla _trasformare_ un _oggetto_ si intende su tutti i punti e i vettori del _oggetto_ 
+
+le operazioni qui elencate sono sul singolo vertice solitamente vengono complessivamente sul oggetto. 
 ##### Traslazioni
 la _traslazione_ è una [[Trasformazioni affini|trasformazione affina]] ed è l  _operazione_ di spostare nello spazio un _vertice_.
 solitamente vengono definite come $$T_{v}(\boldsymbol{p})=\boldsymbol{p}+\mathit{
@@ -41,8 +50,10 @@ per _Scaling_ è una [[Trasformazioni affini|trasformazione affine]] ed è ed è
 s_x p_{x} \\
 s_y p_{y}
 \end{bmatrix}$$
-questa operazione è detta _uniforme_ se $s_x=s_y$ altrimenti è detta _non uniforme_ 
-con una trasformazione uniforme si _mantengono_ le proporzioni mentre un uno _non uniforme_ no 
+questa operazione puo essere
+- _uniforme_ se $s_x=s_y$ (_isotropic_)
+-  _non uniforme_ se $s_{x} \neq s_{y}$ (_antisotropic_)
+con una trasformazione _uniforme_ si _mantengono_ le proporzioni mentre un uno _non uniforme_ no 
 ![[IMG_0729.jpeg]]
 ##### Rotazioni
 una _rotazione_ è una [[Trasformazioni affini|trasformazione affine]] ed è la rotazione un punto nello spazio seguendo la formula $$R_{\alpha}(\boldsymbol{p})=\begin{bmatrix}

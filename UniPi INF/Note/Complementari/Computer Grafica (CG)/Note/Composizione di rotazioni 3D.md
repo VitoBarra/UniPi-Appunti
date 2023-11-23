@@ -49,11 +49,11 @@ _allora_ tutti i valori di $\alpha$ e $\gamma$ tale che $\alpha=-\gamma$ danno l
 quando questo caso va preso in considerazione
 
 #### Rotazioni con quaternioni 
-i [[Quaternioni|Quaternioni]] termini si usano siccome sono più veloci da moltiplicare e sono piu [[Tipi di Errore nel calcolo numerico|stabili numericamente]] ma sono piu difficili da capire.
+un [[Quaternioni|quanternione]] $q=(0,x,y,z)$ rappresenta un _punto_ nello spazio $(x,y,z)$
 
-un quanternione $q=(0,x,y,z)$ rappresenta un _punto_ nello spazio $(x,y,z)$
+considerando il _[[Quaternioni|quaternione]]_ _unitario_ $$q=\left( \cos \frac{\alpha}{2} ,\sin \frac{\alpha}{2}\boldsymbol{r}\right)$$ con $\|\boldsymbol{r}\|=1$ questo rappresenta un rotazione di tipo [[Rotazioni in 3D#Rotazione intorno ad un asse approccio geometrico|asse-angolo]]  dove i parametri $\boldsymbol{r}$ e $\alpha$ sono i parametri.
 
-considerando il _[[Quaternioni|quaternione]]_ $$q=\left( \cos \frac{\alpha}{2} ,\sin \frac{\alpha}{2}\boldsymbol{r}\right)$$ con $\|\boldsymbol{r}\|=1$ questo puo essere usato per _ruotare_ un _punto_ $\boldsymbol{p}=(0,p_{x},p_{y},p_{z})$ attorno al asse $r$ usando la seguente formula $$\mathbf{p}’=q\mathbf{p}q^{-1}$$
+ un [[Quaternioni|quaternione]] _puro_ fatto come $\boldsymbol{p}=(0,p_{x},p_{y},p_{z})$ puo interpretato come un _punto_ in posizione  $p_{x},p_{y},p_{z}$   ed essendo un _quaternione_ puo essere moltiplicato con il _quaternione unitario_ per _ruotare_ un _punto_ attorno al asse $r$ usando la seguente formula $$\mathbf{p}’=q\mathbf{p}q^{-1}$$
 
 Questa formula va _dimostrata_ e con i seguenti passaggi $$\begin{array}{}
  & q\mathbf{p}q^{-1}    \\
@@ -61,7 +61,7 @@ Questa formula va _dimostrata_ e con i seguenti passaggi $$\begin{array}{}
   = & \left( \cos \frac{\alpha}{2},\sin \frac{\alpha}{2}\boldsymbol{r} \right)\left( \sin \frac{\alpha}{2}(\boldsymbol{p}\cdot\boldsymbol{r}),\cos \frac{\alpha}{2}\boldsymbol{p}-\sin \frac{\alpha}{2}(\boldsymbol{p}\times\boldsymbol{r}) \right) \\
   = & \left( 0,\left( \cos ^{2} \frac{\alpha}{2} -\sin^{2} \frac{\alpha}{2}\right)\boldsymbol{p}+2\sin^{2} \frac{\alpha}{2}\boldsymbol{r}(\boldsymbol{p}\cdot\boldsymbol{r}) +2\sin \frac{\alpha}{2}\cos \frac{\alpha}{2}(\boldsymbol{p}\times\boldsymbol{r})\right)
 \end{array}
-$$ e _applicando _le _seguenti_ [[Formule Trigronometriche|formule trigonometriche]]  $$\begin{array}{}
+$$ e _applicando le seguenti_ [[Formule Trigronometriche|formule trigonometriche]]  $$\begin{array}{}
 \cos^{2}\frac{\alpha}{2}-\sin ^{2}\frac{\alpha}{2}=\cos \alpha \\
 2\sin ^{2} \frac{\alpha}{2}=(1-\cos \alpha) \\
 2\cos \frac{\alpha}{2}\sin  \frac{\alpha}{2}=\sin \alpha
@@ -69,6 +69,36 @@ $$ e _applicando _le _seguenti_ [[Formule Trigronometriche|formule trigonometric
 ottieniamo la tesi.
 
 
+con i [[Quaternioni|quaternioni]] possiamo concatenare piu rotazioni siccome moltiplicare piu _quaternioni unitario_ che (rappresentano una rotazione) restituisce un _quaternione unitario_ che corrisponde alla rotazione voluta.
+_Infatti_ si ha che 
+_siano_$$
+\begin{array}
+\boldsymbol{q}=\boldsymbol{q}_4\boldsymbol{q}_3\boldsymbol{q}_2\boldsymbol{q}_1 \\
+\boldsymbol{\overline{q}}=\boldsymbol{\overline{q}}_1\boldsymbol{\overline{q}}_2\boldsymbol{\overline{q}}_3\boldsymbol{\overline{q}}_4
+\end{array}
+$$
+_allora_ le due espressioni $$\begin{array}{}
+\boldsymbol{ q}\mathbf{p}\boldsymbol{ \overline{q}}
+ \\ \\
+\boldsymbol{q}_4\boldsymbol{q}_3\boldsymbol{q}_2\boldsymbol{q}_1 \mathbf{p}\boldsymbol{\overline{q}}_1\boldsymbol{\overline{q}}_2\boldsymbol{\overline{q}}_3\boldsymbol{\overline{q}}_4
+\end{array}$$rappresentano la stessa rotazione
+
+
+##### Conversione ad altri sistemi
+_Conversine_ rotazione [[Rotazioni in 3D|angolo-asse]]$$\begin{array}{}
+\alpha=2\arctan(a_{w},\boldsymbol{a}) \\
+\boldsymbol{r}= \frac{\boldsymbol{a}}{\|\boldsymbol{a}\|}
+\end{array}$$
+_Conversine_ con Matrici di rotazione
+![[IMG_0785.jpeg]]
+
+##### Vantaggi
+i [[Quaternioni|Quaternioni]]  si usano nelle rotazioni siccome sono
+- _più veloci da moltiplicare_ siccome hanno meno [[Rappresentazione in base di numeri reali|floating point]] della [[Prodotto tra matrici|moltiplicazione tra matrici]] 
+- Quindi anche  piu [[Tipi di Errore nel calcolo numerico|stabili numericamente]] 
+- Sono ottimi per l [[Interpolazione di Rotazioni|Interpolazione tra rotazioni]]
+- possono essere convertiti ad altri _sistemi di rotazione_
+sono pero più difficili da _capire_.
  
 
 

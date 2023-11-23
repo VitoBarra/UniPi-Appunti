@@ -2,18 +2,17 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL Imm2Text 
+tags:
+  - AL
+  - Imm2Text
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Teorema della Dimensione
 ---
 
 ### Definizione
-
-Sia $f : V \rightarrow W$ una [[Applicazioni Lineari]]. Se $V$ ha dimensione finita $n$, allora
-
+Sia $f : V \rightarrow W$ una [[Applicazioni Lineari|applicazione lineare]]. Se $V$ ha [[Dimensione di uno spazio vettoriale|dimensione]] finita $n$, allora
 $$
 dim(ker(f)) + dim(Im(f)) =n
 $$
