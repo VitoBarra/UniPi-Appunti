@@ -10,8 +10,8 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
  
 #### Variabile Gausiana
-la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a 0. infatti è [[Integrali|integrabile]], ma non si puo rappresentare la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_ tranne per alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ che è una funzione _[[funzioni|pari]]_ e quindi $\varphi(x)=\varphi(-x)$ 
-e la sua [[Funzione di ripartizione di variabili aleatorie|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{x}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dt$$questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
+la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a $0$. infatti è [[Integrali|integrabile]], ma non si può esprimere la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_, fanno eccezioni alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{e^{-\cfrac{x^{2}}{2}}}{\sqrt{ 2 \pi }}$$ che è una funzione _[[Funzioni|pari]]_ e quindi $\varphi(x)=\varphi(-x)$ 
+e la sua [[Variabili aleatorie - Funzione di ripartizione|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{x}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dt$$questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
 - $\varphi(x)$ la _densita gaussiana_
 - $\Phi(x)$ la _funzione di ripartizione_ 
 - $q_{\alpha}$ il $a$-[[Quantili e Percentili|quantile]]
@@ -19,12 +19,10 @@ e la sua [[Funzione di ripartizione di variabili aleatorie|funzioni di ripartizi
 
 
 ##### Proprieta
-essendo $\varphi(x)$ _pari_ si ha che 
-dato $x \in \mathbb{R}$ e $0< \alpha <1$ si ha $$\Phi(-x)=1-\Phi(x)$$
-e che $$q_{1-\alpha}=-q_{\alpha}$$
-una conseguenza di questo è $$\mathcal{P}\{-t \leq X \leq t\}=\Phi(t)-\Phi(-t)=2\Phi(t)-1$$
+essendo $\varphi(x)$ una _[[Funzioni#Funzini pari| funzione pari]]_ si ha che dato $x \in \mathbb{R}$ e $0< \alpha <1$ si ha $$\Phi(-x)=1-\Phi(x)$$e che $$q_{1-\alpha}=-q_{\alpha}$$una conseguenza di questo è $$\mathcal{P}\{-t \leq X \leq t\}=\Phi(t)-\Phi(-t)=2\Phi(t)-1$$
+
 >[!tip]
->queste proprieta vale per qualsiasi tipo di _guassiana_
+>queste proprieta vale per qualsiasi tipo di _guassiana_ siccome tutte sono [[Funzioni#Funzini pari|funzioni pari]]
 
 
 
@@ -61,3 +59,21 @@ e le approssimazioni numeriche diventano $$\begin{array}{}
 
 ![[IMG_0660.jpeg]]
 
+
+
+#### Momenti e varianza
+per la _variabile_ $Z$ _gaussiana standard_ $N(0,1)$ si ha che siccome le  [[Funzione esponenziale| funzioni esponenziali]] (in questo caso $e^{x^{2}/2}$) crescono più velocemente di qualsiasi altra potenza vale _sempre_ che  $$ \frac{1}{\sqrt{ 2\pi}}\int ^{+\infty}_{\infty} \frac{|x|^{n}}{e^{x^{2}/2}}\, dx < +\infty
+$$e quindi la _gaussiana standard_ ha sempre tutti i [[Variabili aleatoria - Momenti|momenti]].
+Se $n=2h+1$ ovvero è un numero _dispari_ vale che $$\begin{array}{}
+\mathbb{E}[Z^{n}] & = &\displaystyle \frac{1}{\sqrt{ 2\pi }}\int ^{+\infty}_{-\infty}\frac{x^{n}}{e^{x^{2}/2}} \, dx \\
+ & = &\displaystyle \lim_{ M \to \infty }\int ^{+M}_{-M} \frac{x^{n}}{e^{x^{2}/2}}\, dx    & =0
+\end{array}$$questo siccome $x^{n}$ diventa una [[Funzioni#Funzioni Dispari|funzione dispari]] e quindi vale che le due aree tra $[-M,0]$ e $[0,+M]$ siano uguali ma una delle due è _negativa_, motivo per cui nel [[Integrali|integrale]] questa risulti zero  
+
+se invece $n$ è un _numero pari_ utilizzando l [[Integrazione per parti|integrazione per parti]] si ottiene  $$\begin{array}{}
+\mathbb{E}[Z^{2}] & = & \displaystyle \frac{1}{\sqrt{ 2\pi}}\int^{+\infty}_{-\infty} \frac{x^{2}}{e^{x^{2}/2}} \, dx \\
+ & = & \displaystyle\left. \frac{-x}{e^{x^2/2}\sqrt{ 2\pi }  }\right|^{+\infty}_{-\infty}+\frac{1}{\sqrt{ 2\pi }}\int ^{+\infty}_{-\infty} \, \frac{1}{e^{x^2/2}}\,dx  \\
+ & = & 0+1 \\& = & 1
+\end{array}$$dove si usa il fatto che $-xe^{-x^{2}/2}$ è la [[Derivate|derivata]] di $e^{-x^{2}/2}$ 
+in _generale_ con conti simili vale che con $n=2h+2$ ovvero pari vale che $$\mathbb{E}[Z^{2h+2}]=(2h+1)\mathbb{E}[Z^{2h}]$$e vale che la [[Variabili aleatorie - Varianza|varianza]] è $$Var(Z)=1$$
+##### Gaussiana non standard
+Considerando invece una _variabile_ $X$ _gaussiana_ generica $N(m,\sigma^{2})$ si ha che si può riportare $X$ ad una _gaussiana standard_ e usare poi le proprietà dei [[Variabili aleatoria - Momenti|momenti]] ottenendo $$\mathbb{E}[X]=\mathbb{E}[\sigma Z+m]=\sigma\mathbb{E}[Z]+m=m$$e con le proprietà della [[Variabili aleatorie - Varianza|varianza]] si ottiene $$Var(X)=Var(\sigma Z+m)=\sigma^{2}Var(Z)=\sigma^{2}$$

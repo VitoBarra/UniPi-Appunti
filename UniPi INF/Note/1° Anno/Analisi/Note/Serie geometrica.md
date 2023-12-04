@@ -8,13 +8,9 @@ Parent MOC: "[[Analisi]]"
 ---
 # Serie geometrica
 ---
-è un particolare tipo di [[Serie]] molto studiata di cui si conoscono le  proprietà
-
-$$\sum^{+\infty}_{n=0}q^n$$
-- $q$ è detta la _ragione_ 
-
-##### Proprietà note
-- se la ragione $-1<q<1$ allora la serie _Converge_ a $\frac{1}{1-q}$
-	- e la serie converge ad una valore $<1$ se $q<\frac{1}{2}$
-- se $q\geq 1$ _diverge_ positivamente $+\infty$
-- se $q \leq -1$ è _irregolare_ 
+#### Serie geometrica (Definizione) 
+_sia_ $q$ un numero detta _ragione_
+_allora_ la _[[Serie|serie]] geometrica_ è definita da  $$\sum^{+\infty}_{n=0}q^n$$questa ha le seguenti _proprieta_ note
+- con _ragione_ $q \in (-1,1)$ allora la serie _Converge_ al numero $$\cfrac{1}{1-q}$$ e la serie converge ad una _valore_ $<1$ se $q<\frac{1}{2}$
+- con  $q\geq 1$ _diverge_ positivamente $+\infty$
+- con $q \leq -1$ è _irregolare_ 

@@ -12,7 +12,7 @@ _Supponiamo_ che $X:\Omega \rightarrow \mathbb{R}$ sia una _[[Variabili Aleatori
 ha densità. 
 Non è detto che $Y$ abbia densità con tutte le possibili $h$  e se ha densita non _esiste_ una regola _generale_ per calcolarla. Esiste pero per alcuni casi specifici, infatti  
 
-_Se_ si riesce a calcolare la _[[Funzione di ripartizione di variabili aleatorie|funzione di ripartizione]]_ $F_{Y}$ di $Y$ con $$F_{Y}= \mathcal{P}\{ Y \leq y \} =\mathcal{P}\{ h(X) \leq y  \} $$
+_Se_ si riesce a calcolare la _[[Variabili aleatorie - Funzione di ripartizione|funzione di ripartizione]]_ $F_{Y}$ di $Y$ con $$F_{Y}= \mathcal{P}\{ Y \leq y \} =\mathcal{P}\{ h(X) \leq y  \} $$
 se la [[Funzioni|funzione]] $h$ ha delle buone _prorietà_ ovvero risulta che $F_{Y} \in C^{1}$ ovvero è [[Continuità di una funzione|continua]] con [[Derivate|derivata]] [[Continuità di una funzione|continua]] su tutto $\mathbb{R}$ 
 _allora_ la [[Definizione di Probabilita|densità di probabilita]] $f_{y}$ puo essere calcolata derivando $F_{Y}$ e quindi vale $$f_{y}=\frac{dF_{Y}(y)}{dy}$$ 
 Questo risultato può essere usato per definire la _seguente regola_ 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ed5205198c32229e",
+        "id": "ace26109f72c0f68",
         "type": "tabs",
         "children": [
           {
-            "id": "76584e883e302ceb",
+            "id": "dc1448b5263d5e58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/1° Anno/Analisi/Note/Formule Trigronometriche.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,27 @@
             }
           },
           {
-            "id": "1b59572070615310",
+            "id": "1dc132d19ac41859",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "64cd43e2a7008520",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +66,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "somma diretta",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -134,7 +141,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,7 +157,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -163,7 +168,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
+            "file": "Untitled 1.canvas"
           }
         }
       },
@@ -196,22 +201,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b59572070615310",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie notevoli - Student.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Notevoli - Chi-quadro.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie multivariate - Momenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Schwartz.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Formule della convoluzione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Densità uniforme.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Sommare variabili aleatorie indipendenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
+    "UniPi INF/Note/2° Anno/Statistica/nuova nota.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Funzione di ripartizione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie senza memoria.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabile aleatorie Notevoli - Gamma.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Funzione generatrice di momenti (MTF).md",
+    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
+    "UniPi INF/Note/1° Anno/Analisi/Note/Funzione Gamma di Eulero.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Excalidraw",
+    "Statistica.canvas",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0795.jpeg",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0766.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazio di vista.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Formule Trigronometriche.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Interpolazione di Rotazioni.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Interpolazione Lineare.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Calcolo Numerico(CN).md",
-    "UniPi INF/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Frames.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni Geometriche affini.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "Studi MOC.md",
     "Superiori/Geometria Analitica/Media/Pasted image 20230523021918.png",
     "Superiori/Geometria Analitica/Media/Pasted image 20230513011436.png",
     "Superiori/Geometria Analitica/Media/Mvt2_italian.svg.png",
@@ -220,22 +243,7 @@
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0791.jpeg",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0790.jpeg",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0788.jpeg",
-    "Excalidraw/Drawing 2023-11-22 19.24.06.excalidraw.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Coordinate Polari.md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Funzione esponenziale.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Tringonometria.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Esprimere gli angoli.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Piano cartesiano.md",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Note/Composizione di rotazioni 3D.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto tra matrici.md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Vettoriale (Cross product).md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto scalare euclideo (Dot product).md",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Scalare.md",
-    "Excalidraw",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
-    "Untitled.canvas",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
     "Extra Note/Geometria Analitica/Note",

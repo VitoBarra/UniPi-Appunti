@@ -9,26 +9,13 @@ Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 
 # Funzioni
 ---
-Una _funzione_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una  [[Relazioni|Relazione]] su [[Insiemi Matematici|insiemi]]
-
-una natazione alternativa è quella del _mapping_ indicata come
-$$f:A \rightarrow B$$
-## Proprietà
-
-### Funzioni Biunivoche
-
-### Funzioni totali
-
-### Funzioni Invertibili
-
-### Funzione surgettiva
-![[01B1AF8A-6AD6-4FCC-8CB9-570EFCE0A908.png]]
-ad ogni elemento del _Codominio_ è associato _almeno_ e del _dominio_
-### Funzione Iniettiva
-è una Funzioni che associa, a elementi distinti del dominio, elementi distinti del Codominio 
-![[funzione-inettiva-esempio.gif]]
-ad ogni elemento del _Codominio_ è associato _al più_ un e del _dominio_
+una funzione è un particolare tipo di [[Applicazioni tra insiemi|applicazioni tra insiemi]] per cui valgono la proprieta di 
+ _univalente_,_surgetive_,
 
 
-
-![[Pasted image 20230515182103.png]]
+#### Proprietà particolari
+##### Funzioni Dispari
+una _funzione_ è detta dispari se vale che $$f(-x)=-f(x)$$ e quindi è simmetria dispetto al _[[Piano cartesiano]]_
+##### Funzini pari
+una _funzione_ è detta pari se vale che $$f(x)=f(-x)$$ e quindi è simmetrica rispetto al [[Piano cartesiano|asse]] delle $y$
+ 

@@ -17,5 +17,5 @@ _siano_ $X_1,\dots X_{n}$ un [[Campione Statistico|campione statistico]] [[Varia
 _allora_ vale
 1. $\overline{X}_{n}$ e $S^{2}_{n}$ sono indipendenti
 2. la variabile $\overline{X}_{n}$ ha densita $N\left( m,\frac{\sigma^{2}}{n} \right)$
-3. la variabile $\frac{n-1}{\sigma^{2}}S^{2}_{n}$ ha densita ([[Densita di probabilita Chi-quadro|chi-quadro]] $X^{2}(n-1)$)
-4. la variabile $T=\sqrt{ n }\frac{\overline{X}_{n}-m}{S}$ ha [[Densita di probabilita Student|densita di student]] $T(n-1)$
+3. la variabile $\frac{n-1}{\sigma^{2}}S^{2}_{n}$ ha densita ([[Variabili aleatorie Notevoli - Chi-quadro|chi-quadro]] $X^{2}(n-1)$)
+4. la variabile $T=\sqrt{ n }\frac{\overline{X}_{n}-m}{S}$ ha [[Variabili aleatorie notevoli - Student|densita di student]] $T(n-1)$

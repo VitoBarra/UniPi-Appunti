@@ -10,7 +10,7 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 #### Stime parametriche
 Avendo un [[Campione Statistico|campione statistico]] $X_{1}\dots X_{n}$ se non si hanno informazioni in piu non si puo arrivare a nessuna conclusione, al meno di usare la [[Statistica non parametrica|statistica non parametrica]].
-Esistono pero i casi in cui la  [[Probabilita sui numeri Reali|legge di probabilita]] $\mathcal{P}_{X}$ è _parzialmente specificata_ ovvero si conosce a quale _famiglia di leggi_ ( le [[Variabili Aleatorie Notevoli|leggi notevoli]]) la _legge di probabilita_ appartiene ma questa è _dipendente_ da un _parametro_ incognito. 
+Esistono pero i casi in cui la  [[Probabilita sui numeri Reali|legge di probabilita]] $\mathcal{P}_{X}$ è _parzialmente specificata_ ovvero si conosce a quale _famiglia di leggi_ ( ovvero di che tipo di _variabile aleatoria notevole_ è) la _legge di probabilita_ appartiene ma questa è _dipendente_ da un _parametro_ incognito. 
 Il parametro in generale è indicati con $\theta$ o con  $\theta_{1} \dots \theta_{n}$ se i parametri sono multipli.
 
 

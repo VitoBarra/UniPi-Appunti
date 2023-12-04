@@ -6,12 +6,12 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Variabili aleatorie Chi-quadro
+# Variabili aleatorie notevoli - Chi-quadro
 ---
 #### Densita chi-quadro
 _siano_ $X_{1}\dots,X_{n}$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane standard]] 
 _se_  sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
-_allora_ la variabile $(X_{1}^{2}+\dots+X_{n}^{2})$ ha [[Densita di probabilita Gamma|densita]] $\Gamma\left( \frac{n}{2},\frac{1}{2} \right)$. ed è chiamata _densita chi-quadro_ con $n$ _gradi di libertà_ indicata con $\chi^{2}(n)$
+_allora_ la variabile $(X_{1}^{2}+\dots+X_{n}^{2})$ ha [[Variabile aleatorie Notevoli - Gamma|densita]] $\Gamma\left( \frac{n}{2},\frac{1}{2} \right)$. ed è chiamata _densita chi-quadro_ con $n$ _gradi di libertà_ indicata con $\chi^{2}(n)$
 
 _dimostrazione_
 	per completare la dimostrazione basta dimostrare che se $X$ è gaussiana allora $X^{2}$ è $\Gamma\left( \frac{1}{2},\frac{1}{2} \right)$

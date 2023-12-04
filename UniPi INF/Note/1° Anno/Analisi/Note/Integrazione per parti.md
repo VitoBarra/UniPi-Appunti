@@ -8,7 +8,8 @@ Parent MOC: "[[Analisi]]"
 ---
 # Integrazione per parti
 ---
-è un metodo per svolgere [[Integrali|integrali]] 
+l _integrazione per parti_ è una _metodologia_ per calcolare [[Integrali|integrali]] 
+Si applica la seguente  formula$$\int f(x)g’(x) \, dx=f(x)g(x)-\int f’(x)g(x) \, dx  $$
 
-si utilizza questo metodo quando vogliamo risolvere un integrale 
-$$\int f(x)g’(x) \, dx=f(x)g(x)-\int f’(x)g(x) \, dx  $$
+>[!tip]
+>[Video di elia bombardelli](https://youtu.be/2D2-g93Kljo?si=JS82a6O34LxL7Fcb)

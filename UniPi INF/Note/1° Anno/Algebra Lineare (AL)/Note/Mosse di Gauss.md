@@ -2,11 +2,10 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL Imm2Text 
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Mosse di gauss
 ---
 _sia_ la $C_i$ la $i-esima$ riga di una [[Matrice|matrice]] possiamo fare le seguenti _mosse di guass_  senza modificare l [[Soluzioni di un sistema lineare|insieme delle soluzioni]] $\mathcal{S}$ del [[Sistemi lineari e lineari omogenei|sistema]]. 
@@ -48,7 +47,7 @@ Per ogni riga $C_i$ di $C$, chiamiamo _pivot_ il primo elemento non nullo della 
 \end{pmatrix}
 $$
 
-### Matrice Gauss - Jordan:
+#### Matrice Gauss - Jordan:
 i pivot hanno sopra e sotto degli 0
 
 da teneri in considerazione quando si risolve un sistema con Gauss - Jordanci sono due casi da considerare.
@@ -62,7 +61,7 @@ $$\begin{bmatrix} &
 \end{array} & 
 \end{bmatrix}
 $$
-la riga che contiene l ultimo pivot rappresenta l equazione $0=1$ che non ha soluzione. in questo caso l insieme delle soluzioni è vuoto $\mathcal{S}=\emptyset$
+la riga che contiene l ultimo _pivot_ rappresenta l equazione $0=1$ che non ha soluzione. in questo caso l insieme delle soluzioni è vuoto $\mathcal{S}=\emptyset$
 
 considerando il caso in cui l ultimo colonna non contenga pivot. la matrice $C$ è indicativamente in questo tipo:
 $$\begin{bmatrix} & 

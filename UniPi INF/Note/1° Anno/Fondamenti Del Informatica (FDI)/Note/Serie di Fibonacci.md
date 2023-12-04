@@ -2,11 +2,10 @@
 type: nota
 course: Fondamenti Di Informatica
 topic: 
-tags: FDI
+tags:
+  - FDI
+Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
-
-Prev: [[Fondamenti Del Informatica (FDI)]]
-
 # Serie di Fibonacci
 ---
 
@@ -18,6 +17,5 @@ $$fib(x)=
 	fib(x+2) & = fib(x+1)+fib(x)
 \end{cases}$$
 
-## Formula chiusa
-
-$$fib(x)=\frac{\sqrt5}{5}(\frac{1+\sqrt5}{2})^x-\frac{\sqrt5}{5}(\frac{1-\sqrt5}{2})^x$$
+### Formula chiusa
+$$fib(x)=\frac{\sqrt5}{5}\left( \frac{1+\sqrt5}{2} \right)^x-\frac{\sqrt5}{5}\left( \frac{1-\sqrt5}{2} \right)^x$$

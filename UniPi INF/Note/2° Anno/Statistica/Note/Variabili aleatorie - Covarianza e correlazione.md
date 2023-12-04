@@ -32,7 +32,7 @@ _allora_ vale
 - $|\rho(X,Y)| \leq 1$
 - $\min_{a,b\in \mathbb{R}^{2}}\mathbb{E}[(Y-a-bX)^{2}]=Var(Y)\cdot (1-\rho(X,Y)^{2})$
 _Dimostrazione_
-	la prima priorità segue dalla _[[diseguaglianza di Schwarz|diseguaglianza di Schwarz]]_$$\begin{array}{}
+	la prima priorità segue dalla _[[Diseguaglianza di Schwartz|diseguaglianza di Schwarz]]_$$\begin{array}{}
 	| Cov(X,Y)|  & \leq \\
    \mathbb{E}[|X- \mathbb{E}[X]||Y-\mathbb{E}[Y]|]  & \leq \\
 \sqrt{ \mathbb{E}[(X -\mathbb{E}[X])^{2}] } \sqrt{ \mathbb{E}[(Y-\mathbb{E}[Y])^{2}] }  & = \\
@@ -43,9 +43,8 @@ _Dimostrazione_
 
 
 #### Teoria 
-presi i $a_{*}$ e $b_{*}$ che realizzano $\min_{a,b \in \mathbb{R}}\mathbb{E}[(Y-a-bX)^{2}]$ la [[Retta|retta]] $y=a_{*}+b_{*}x$ è la _migliore_ approssimazione _lineare_ tra $X$ e $Y$ .
+presi i $a_{*}$ e $b_{*}$ che realizzano $$\min_{a,b \in \mathbb{R}}\mathbb{E}[(Y-a-bX)^{2}]$$ la [[Retta|retta]] $y=a_{*}+b_{*}x$ è la _migliore_ approssimazione _lineare_ tra $X$ e $Y$ .
 poiché il valore del minimo è _proporzionale_ al valore $1 - \rho^{2}$ e quindi piu $|\rho| \approx 1$ piu i valori sono ben approssimati da una [[Retta|retta]].
 Il _coefficente di correlazione_ è la misura di  dipendenza _lineare_ tra $X$ e $Y$.
 Due [[Variabili Aleatorie (Casuali)|variabili]] se sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ allora sono anche _scorrelate_ e $\rho =0$, non è necessariamente vero il contrario infatti il termine _lineare_ sta proprio ad indicare l approssimazione con una _retta_. Se questo non è possibile i dati potrebbero comunque risultare non _indipendenti_ ma _scorrelati_. 
 Esempio $Y=X^{2}$
-- [ ] 

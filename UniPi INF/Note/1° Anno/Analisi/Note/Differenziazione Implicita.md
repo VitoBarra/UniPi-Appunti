@@ -9,7 +9,7 @@ Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
 
 # Differenziazione Implicita
 ---
-si utilizza per calcolare la derivata [[Derivate|derivata]] di una curva che non è una [[funzioni|Funzioni]]
+si utilizza per calcolare la derivata [[Derivate|derivata]] di una curva che non è una [[Funzioni|Funzioni]]
 
 nella pratica ogni volta che derivo una pezzo di funzione devo aggiungere $dx$  o $dy$ a seconda di per quale variabile sto derivando. quando avrò tutte la parti derivate dovrò risolvere per $\cfrac{dy}{dx}$.
 

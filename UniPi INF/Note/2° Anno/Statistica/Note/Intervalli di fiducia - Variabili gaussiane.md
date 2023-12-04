@@ -88,7 +88,7 @@ _allora_ l [[Intervalli di fiducia#Intervallo aleatorio o casuale (Definizione)|
 \begin{array}{}
 I_+  & = & \left(-\infty, \overline{X}_{n}+ \frac{S^{2}_{n}}{\sqrt{ n }}\uptau_{1-\frac{\alpha}{2},n-1} \right] \\ I_-  & = &  \left[\overline{X}_{n}- \frac{S^{2}_{n}}{\sqrt{ n }}\uptau_{1-\frac{\alpha}{2},n-1},+\infty \right)
 \end{array}
-$$$$I=\left[  \right] $$dove $\uptau$ è il [[Quantili di variabili aleatorie|quantile]] della [[Densita di probabilita Student|variabile di student]]  
+$$$$I=\left[  \right] $$dove $\uptau$ è il [[Quantili di variabili aleatorie|quantile]] della [[Variabili aleatorie notevoli - Student|variabile di student]]  
 è un [[Intervalli di fiducia|intervallo di fiducia]] per la _media_ $m$ del campione $X_{1},\dots,X_{n}$ con _livello di fiducia_ $1-\alpha$ 
 
 
@@ -109,9 +109,9 @@ _allora_ l [[Intervalli di fiducia#Intervallo aleatorio o casuale (Definizione)|
 & = & \displaystyle\left[\frac{(n-1)S^{2}_{n}}{\chi^{2}_{(1-\alpha,n-1)}},+\infty\right) 
 \end{array}
 $$Sono [[Intervalli di fiducia|intervalli di fiducia]] per la [[Variabili aleatorie - Varianza|Varianza]] per $\sigma^{2}$ rispettivamente _sinistro e destro_ con _livello di fiducia_ $1-\alpha$ 
-Dove $\chi_{(\beta,n-1)}^{2}$ indica il [[Quantili di variabili aleatorie|quantile]] della variabile di tipo [[Densita di probabilita Chi-quadro|Chi-quadro]] $\chi^{2}(n-1)$.
+Dove $\chi_{(\beta,n-1)}^{2}$ indica il [[Quantili di variabili aleatorie|quantile]] della variabile di tipo [[Variabili aleatorie Notevoli - Chi-quadro|Chi-quadro]] $\chi^{2}(n-1)$.
 
 infatti questo dipende dal fatto che 
 _se_ $X_{1},\dots,X_{n}$ è un campione di tipo [[Variabili Aleatorie Notevoli - Gaussiane|gaussiano]] $N(m,\sigma^{2})$
-_allora_ la [[Variabili Aleatorie (Casuali)|variabile]]  $$\sum^{n}_{i=1}\frac{(X_{i}-\overline{X}_{n})^{2}}{\sigma^{2}}=(n-1)\frac{S^{2}_{n}}{\sigma^{2}}$$ è di tipo [[Densita di probabilita Chi-quadro|chi-quadro]] $\chi^{2}(n-1)$
+_allora_ la [[Variabili Aleatorie (Casuali)|variabile]]  $$\sum^{n}_{i=1}\frac{(X_{i}-\overline{X}_{n})^{2}}{\sigma^{2}}=(n-1)\frac{S^{2}_{n}}{\sigma^{2}}$$ è di tipo [[Variabili aleatorie Notevoli - Chi-quadro|chi-quadro]] $\chi^{2}(n-1)$
 

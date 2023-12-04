@@ -23,4 +23,4 @@ dove $\times$ è il [[Prodotto Cartesiano|Prodotto Cartesiano]]
 
 
 > [!tip]
-> Le _operazioni_ non hanno bisogno di essere [[funzioni|Funzioni Totali]] possono essere [[Funzioni#|funzioni parziali]] 
+> Le _operazioni_ non hanno bisogno di essere [[Funzioni|Funzioni Totali]] possono essere [[Funzioni#|funzioni parziali]] 

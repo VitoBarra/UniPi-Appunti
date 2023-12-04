@@ -6,25 +6,12 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Proprieta variabili aleatorie indipendenti
+# Formule della convoluzione
 ---
-
-#### Proposizione
-_siano_ $X$ e $Y$ sono  [[Variabili Aleatorie (Casuali)|variabili aleatorie]] _[[Variabili Aleatorie Notevoli - Binomiale|Binomiali]]_ $B(n,p)$ e $B(m,p)$ 
-_se_ sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
-_allora_ la _variabile aleatoria_ $Z= X+Y$ è _binomiale_ $B(n+m,p)$ 
-
-_Dimostrazione_
-	$$\begin{array}{}
-	\mathcal{P}\{ Z =h \}  & =  \\
-\mathcal{P}\{ X=h,Y=0 \} + \mathcal{P}\{ X=h-1,Y=1\} & = \\
-\binom{n}{h}p^{h}(1-p)^{n-h}(1-p)+\binom{n}{h-1}p^{h-1}(1-p)^{n-h+1}p  & =\\
-\binom{n+1}{h}p^{h}(1-p)^{n+1-h}
-\end{array}$$
-ovvero $Z$ è del tipo $B(n+1,p)$ e la dimostrazione si completa per [[Tipi di dimostrazione|induzione]]
+La  convoluzione è un [[Operazioni algebriche|Operazione]] solitamente denotata con $*$ e questa è un usata in vari contesti come nelle [[Convolutional neuronal Network]] che prendono il nome da quest operazione e nel _imagin Processing_ che li utilizza ampiamente. 
 
 
-
+Quei ne viene mostrata l applicazione in _statistica_
 #### Formula di convoluzione discreta
 _siano_  $X,Y:\Omega \rightarrow \mathbb{N}$  _[[Variabili Aleatorie (Casuali)|variabili aleatorie]] discrete_ a valori naturali 
 _se_ queste sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
@@ -40,11 +27,13 @@ _dimostrazione_
 $$
 dove il secondo passaggio fa uso dell _[[Indipendenza di Variabili aleatorie|indipendeza]]_
 
+>[!note]
+>$n$ in questo contesto rappresenta una _somma fissa_ $y$ e $x$ con il vincolo $x+y=n$ infatti il parametro è della funzione di convoluzione è proprio il valore di questa somma e l output è la probabilita associata 
 
 
 
-#### Formula della convoluzione
-_siano_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] con densità $f_{X},f_{Y}$ _indipendenti_ 
+#### Formula della convoluzione continua
+_siano_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] con densità $f_{X},f_{Y}$ _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
 _sia_ $Z=X+Y$ 
 _allora_ la variabile $Z$ ha densità $$
 \begin{array}{}
@@ -61,10 +50,13 @@ _dimostrazone_
  & = &  \{ (x,y)\in  \mathbb{R}^{2}: x \leq z-y \}
    \end{array}
 	$$e dunque la _funzione di ripartizione_ di $Z$ è data da $$\begin{array}{}
-F_{Z}  & = & \mathcal{P}\{ X+Y \leq z\}  & = \\ &  & 
-\displaystyle\int \int_{A_{z}}f_{X}(x)f_{Y}(y)  \, dx  \, dy  & = \\ &  & 
-\displaystyle\int_{-\infty}^{+\infty}  \left( \int^{z-y}_{-\infty}f_{X}(x)  \, dx  \right)f_{Y}(y)\, dy  & = \\ &  & 
+F_{Z}  & =\\  \mathcal{P}\{ X+Y \leq z\}  & = \\  
+\displaystyle\int \int_{A_{z}}f_{X}(x)f_{Y}(y)  \, dx  \, dy  & = \\  
+\displaystyle\int_{-\infty}^{+\infty}  \left( \int^{z-y}_{-\infty}f_{X}(x)  \, dx  \right)f_{Y}(y)\, dy  & = \\  
 \displaystyle\int_{-\infty}^{+\infty}\left( \int^{z}_{-\infty}f_{X}(x’-y)  \, dx’  \right)  f_{Y}(y)\, dy 
 \end{array}$$
 dove $x’=x+y$ e da qui la tesi deriva immediatamente [[Derivate|derivando]] in $z$ sotto il segno di [[Integrali|integrarle]] 
 
+
+>[!tip] video 3B1B
+>questo da un [idea visuale](https://youtu.be/IaSGqQa5O-M?si=H2xv8S8jRUAUTuHl) di cosa rappresentano le convoluzioni

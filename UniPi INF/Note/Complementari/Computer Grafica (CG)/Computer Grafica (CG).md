@@ -2,6 +2,7 @@
 type: MOC
 tags:
   - MOC
+  - CG
 pare: "[[Uni MOC]]"
 ---
 # Computer Grafica (CG)

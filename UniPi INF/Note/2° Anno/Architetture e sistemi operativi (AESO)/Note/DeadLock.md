@@ -2,11 +2,10 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # DeadLock
 ---
 Un deadlock é  un attesa circolare su di un set di [[Astrazione Thread|thread]]
@@ -58,12 +57,11 @@ Può accadere in più occasioni:
     lock1.relese();
     ```
 
-
-Un caso classico di deadlock è il problema dei filosofi a cena dove ogni filosofo ha bisogno di due bastoncini per mangiare e quindi deve prenderne uno a sinistra e uno a destra ma c è un solo bastoncino per ogni filosofo quindi mentre uno mangia quelli affianco dovranno necessariamente aspettare che il primo finisca e rilasci i bastoncini se voglio fare la stessa cosa
+Un caso classico di [[DeadLock|deadlock]] durante la [[Sincronizzazione di oggetti condivisi|Sincronizzazione di oggetti condivisi]] è il problema dei filosofi a cena dove ogni filosofo ha bisogno di due bastoncini per mangiare e quindi deve prenderne uno a sinistra e uno a destra ma c è un solo bastoncino per ogni filosofo quindi mentre uno mangia quelli affianco dovranno necessariamente aspettare che il primo finisca e rilasci i bastoncini se voglio fare la stessa cosa
 
 ![[9CB27C61-5A69-4561-B92F-7715EF75DFAE.jpeg]]
 
->[!info] #### _Deadlock_ vs __Starvation__
+>[!info]  _Deadlock_ vs __Starvation__
 Entrambi sono problemi di livness ma la deadlock é una condizione più forte quindi deadlock implica starvation.
 
 

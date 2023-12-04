@@ -8,52 +8,39 @@ Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
 # Combinatoria
 ---
-
-### Definizione
-
-![[UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled.png]]
 #### Permutazioni
-il numero di modi in cui si possono rovinare gli elementi di $\{ 1,\dots,n \}$ è la formula $$n!$$
+_sia_ $n$ un numero 
+_allora_ il numero di modi in cui si possono ordinare gli elementi di $\{ 1,\dots,n \}$ è la formula $$n!$$
+ovvero questo è il numero delle diverse permutazioni che si possono generare usando gli elementi del insieme. 
+
+costruendo iterativamente la permutazione possiamo immaginare di dover riempire $n$ spazzi e per farlo al primo spazio abbiamo $n$ scelte al secondo $n-1$ e al terzo $n-2$ e cosi via, motivo per cui il [[Fattoriale|fattoriale]] descrive perfettamente questo numero.
 ##### Permutazione cona ripetizioni
-le permutazioni con ripetizioni 
-
-$$P^{n_{1},\dots,n_{n}}_{n}=\frac{n!}{n_{1}!,\dots,n_{n}!}$$
-
-1. Principio dei fattoriali: Iniziamo con il fatto che il fattoriale di un numero rappresenta il numero di modi unici in cui è possibile disporre quei numeri in un ordine specifico. Ad esempio, il fattoriale di 5 (scritto come 5!) rappresenta il numero di modi in cui è possibile disporre 5 oggetti distinti in ordine. Quindi, 5! = 5 x 4 x 3 x 2 x 1 = 120 rappresenta tutti i modi unici in cui puoi riordinare 5 oggetti diversi.
-
-  
-
-2. Trattamento delle lettere ripetute: Quando hai una parola con lettere ripetute, non tutte le lettere sono diverse tra loro. Alcune sono identiche, e quindi devi considerare il modo in cui queste lettere identiche possono essere riordinate tra loro. Questo è dove entrano in gioco i fattoriali delle lettere ripetute. Ad esempio, nella parola "MISSISSIPPI", hai 4 "I", 4 "S" e 2 "P". Pertanto, stai considerando il modo in cui queste lettere identiche possono essere riordinate tra loro senza cambiare l'aspetto generale della parola.
-
-  
-
-3. Divisione per i fattoriali delle lettere ripetute: La divisione per i fattoriali delle lettere ripetute serve a evitare il conteggio duplicato degli anagrammi. Quando hai lettere identiche, senza la divisione per i fattoriali, otterresti un conteggio in eccesso poiché molteplici anagrammi sarebbero identici a causa della presenza di lettere ripetute. La divisione per i fattoriali delle lettere ripetute serve a correggere questo problema, assicurando che ogni anagramma venga conteggiato solo una volta.
-
-  
-
-In breve, la formula tiene conto del numero totale di lettere nella parola e considera come le lettere identiche possono essere riordinate tra loro senza duplicare gli anagrammi. Questo è il motivo per cui funziona per calcolare il numero di anagrammi di una parola.
+le _permutazioni_ con ripetizioni, ovvero abbiamo un insieme dove alcuni elementi sono equivalenti è descritto dal numero   $$P^{n_{1},\dots,n_{n}}_{n}=\frac{n!}{n_{1}!,\dots,n_{n}!}$$
+dove come prima stiamo effettuando delle _scelte_ ma va tenuto in considerazione il fatto di avere _piu elementi equivalenti_ che quindi non contano come scelte separate. Gli elementi ripetuti si possono contare e per torglieli dal conteggio finale si divide per il numero di modi _diversi_ che si ha di scegliere tra quei elementi _equivalenti_, questo spiega il [[fattoriale|fattoriale]]  
 >[!tip]
->ci si puo contare il numero di _anagrammi_
+>Ci si puo contare il numero di _anagrammi_ di una parola
 
 
+#### Combinazioni
+_siano_ $0 \leq k \leq n$ dei numeri naturali
+_allora_ il numero di sottoinsiemi _NON ordinati_ di $\{ 1,\dots,n \}$ formati da $k$ elementi  è$$\begin{pmatrix}
+n \\k
+\end{pmatrix}=\frac{n!}{k!(n-k)!}$$
+dove dividiamo per $k!$ per togliere dal conto tutti i vari possibili modi di _permutare_ gli elementi scelti
+
+#### Disposizioni
+_sia_  $A$ un [[Insiemi Matematici|insieme]] finito con $|A| = n$ e un intero $k ≤ n$
+_allora_ una _disposizione_ degli elementi di $A$ è il numero di [[Insiemi Matematici|sottoinsiemi]] ordinati di $A$ di $k$ elementi ed è il numero $$\frac{n!}{(n-k)!}$$Questo numero coincide con il numero di _[[Applicazioni tra insiemi#Iniettiva|applicazioni iniettive]]_ da $\{ 1,\dots,k \}$ in $\{ 1,\dots,n \}$
+
+lo si puo immaginare come una _sequenza ordinata_ di lunghezza $k$ $a_1, \dots , a_k$ dove esattamente $k$ elementi di $A$ appaiono esattamente una volta.
 
 
-![[UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled 1.png]]
-
-![[UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Media/Untitled 2.png]]
-
-### Disposizioni
-Dato un [[Insiemi Matematici|insieme]] finito $A$ con $|A| = n$ e un intero $k ≤ n$, una _disposizione_ degli elementi di $A$ in $k$ posti è una sequenza ordinata $a_1, \dots , a_k$ dove esattamente $k$ elementi di $A$ appaiono esattamente una volta.
-
-
-si puo ridurre una disposizione ad una combinazione con la formula
-$$\begin{pmatrix}
+si puo esprimere una _disposizione_ con una _combinazione_ con la formula$$\begin{pmatrix}
 n \\ k
 \end{pmatrix} \cdot k! = \frac{n!}{(n-k)!}$$
-##### Disposizione con ripetizione
-se vogliamo permettere la ripetizione di elementi 
-la formula diventa 
-$$n^{k}$$
+ovvero si genera una sola combinazione degli elementi e poi li si _permuta_  
 
-
+##### Disposizione con ripetizioni
+_Siano_ $k$ ed $n$ due interi
+_allora_ il numero di [[Applicazioni tra insiemi|applicazioni]] di $\{1,\dots,k\}$ a $\{ 1,\dots,n \}$ è $$n^{k}$$ovvero il numero di modi in cui possiamo _scrivere_ $n$caratteri in $k$ _spazzi_ senza nessun costrizione su quali e quanti caratteri usare.
 

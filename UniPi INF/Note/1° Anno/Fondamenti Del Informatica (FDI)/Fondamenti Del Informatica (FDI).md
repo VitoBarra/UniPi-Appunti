@@ -2,6 +2,7 @@
 type: MOC
 tags:
   - MOC
+  - FDI
 Pare: "[[Uni MOC]]"
 ---
 # Fondamenti Del Informatica (FDI)
@@ -12,16 +13,17 @@ Pare: "[[Uni MOC]]"
 	1. [[Cardinalità di un insieme]]
 	2. [[Partizione]]
 	3. [[Relazioni]]
-		1. [[Funzioni]]
+		1. [[Applicazioni tra insiemi]]
+		2. [[Funzioni]]
 	4.  [[Insiemi infiniti numerabili]]
 2. [[Induttività]]
 	1. [[Fattoriale]]
 3. [[Ricorsione]]
 4. [[Ricorsione Vs Induzione]]
-5. [[Alfabeto]]
+5. [[Combinatoria]]
+6. [[Alfabeto]]
 	1. [[Stringhe]]
 	2. [[Ordinamento canonico]]
-6. [[Combinatoria]]
 7. [[Automa a stati finiti]]
 8. [[Serie di Fibonacci]]
 9. [[Logica proposizionale]]

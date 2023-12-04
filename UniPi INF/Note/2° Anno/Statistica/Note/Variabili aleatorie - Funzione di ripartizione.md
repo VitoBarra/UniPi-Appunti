@@ -6,7 +6,7 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Funzione di ripartizione di variabili aleatorie
+# Variabili aleatorie - Funzione di ripartizione
 ---
 Data una [[Variabili Aleatorie (Casuali)|vatiabile aleatoria]] $X:\Omega \rightarrow \mathbb{R}$  per studiare la sua _[[Definizione di Probabilita]]_ $\mathcal{P}_{X}$  (che è una [[Misura|Misura]] su $\mathbb{R}$) si può utilizzare la _fuzione di ripartizione_ (_cumulative distribution function_ c.d.f.) 
 
@@ -39,10 +39,14 @@ nei casi in cui $f$ si [[Continuità di una funzione|continua]] o continua _a tr
 
 
 #### Applicazioni  pratiche
-_sia_ $F_{X}$ la _funzione di ripartizione_ della variabile aleatoria $X$ si puo ricavare la _probabilita_ che questa raicada in un dato intervallo $[a,b]$ calcolando $$\mathcal{P}\{a < X \leq b\}=F_{X}(b)-F_{X}(A)$$
+_sia_ $F_{X}$ la _funzione di ripartizione_ della variabile aleatoria $X$ si puo ricavare la _probabilita_ che questa raicada in un dato intervallo $[a,b]$ calcolando $$\mathcal{P}\{a < X \leq b\}=F_{X}(b)-F_{X}(a)$$
 e questo si verifiche siccome vale che $\{ a <X\leq b \}= \{ X \leq b \}\backslash\{ X\leq a \}$. e questa formula è _estendibile_ ai casi in cui
 - $a = -\infty$ ($\mathcal{P}\{ X \leq b \}$) 
 - $b=+ \infty$ ($\mathcal{P}\{ X>a \}$) 
 ponendo 
 - $F_{X}(-\infty)=0$
 - $F_{X}(+\infty)=1$ 
+
+
+
+

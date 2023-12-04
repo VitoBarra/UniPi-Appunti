@@ -9,7 +9,7 @@ Parent MOC: "[[UniPi INF/Note/1° Anno/Analisi/Analisi|Analisi]]"
 # Teorema di Fubini-Tonelli
 ---
 
-### Teorema di Fubini-Tonelli 
+#### Teorema di Fubini-Tonelli 
 _Sia_ $A$ un [[Insiemi Misurabili|Insiemi Misurabili]] tale che $A = A_{1}\times A_{2}$
 _Se_ $f(x)$ è una [[Funzioni|funzione]] non negativa
 _Allora_ $$

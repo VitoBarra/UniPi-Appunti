@@ -2,11 +2,10 @@
 type: nota
 course: Algebra Lineare
 topic: 
-tags: AL
+tags:
+  - AL
+Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Spazio Vettoriale
 ---
  Fissato un generico [[Campi|Campo]] $\mathbb{K}$ i cui elementi sono detto _scalari_ uno _spazio vettoriale_ su $\mathbb{K}$ è un insieme $V$ di elementi, detti _vettori_, dotato di due _[[Operazioni algebriche|operazioni]] binarie_:

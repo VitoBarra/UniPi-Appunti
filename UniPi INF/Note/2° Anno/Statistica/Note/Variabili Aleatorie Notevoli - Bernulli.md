@@ -16,3 +16,7 @@ chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di 
 \mathcal{P}\{X=1 \} & = & p \\
 \mathcal{P}\{X=0  \} & = & q & = &  1-p
 \end{array}$$
+#### Calcolo dei momenti e varianza
+[[Variabili Aleatorie Notevoli - Bernulli|lavariabile di Bernoulli]] essa assume il valore 1 con [[Definizione di Probabilita|probabilità]] $p$ ed il valore $0$ con [[Definizione di Probabilita|probabilita]] $(1−p)$, ed è dunque immediato constatare i [[Variabili aleatoria - Momenti|momenti]] _primo e secondo_ siano $$E[X]=p \ \ \ \ \ \ \ E[X^{2}] =p$$
+ e quindi la [[Variabili aleatorie - Varianza|varianza]] risulta $$Var(X) =p−p^{2}=p(1−p)$$
+ e la [[Funzione generatrice di momenti (MTF)|Funzione generatrice di momenti]] risulta essere $$M_{X}(t)=pe^{t}+1-p$$
