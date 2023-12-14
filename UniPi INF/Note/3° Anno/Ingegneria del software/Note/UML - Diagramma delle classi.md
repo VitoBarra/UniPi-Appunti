@@ -2,10 +2,11 @@
 type: nota
 course: Ingegneria del software
 topic: 
-tags: IS NotFinished 
+tags:
+  - IS
+  - NotFinished
+Parent MOC: "[[Ingegneria Del Software (IS)]]"
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
 
 # UML - Diagramma delle classi
 ---

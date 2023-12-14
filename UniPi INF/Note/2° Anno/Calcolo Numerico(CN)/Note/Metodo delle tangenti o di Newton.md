@@ -22,7 +22,7 @@ y = 0
 \end{cases}$$dove 
 - la prima espressione è la _retta tangente_
 - la seconda espressione é l intersezione con l asse $x$
-questo metodo funziona finche non arriviamo ad un [[Minimi e Massimi|minimo o ad un massimo]] in quei punti la [[Derivate|Derivate]] è pari a $0$ e il metodo non è definito. _geometricamente_ la tangente è parallela e non tocca l asse delle $x$.
+questo metodo funziona finche non arriviamo ad un [[Massimi e minimi|minimo o ad un massimo]] in quei punti la [[Derivate|Derivate]] è pari a $0$ e il metodo non è definito. _geometricamente_ la tangente è parallela e non tocca l asse delle $x$.
 
 
 > [!tip]

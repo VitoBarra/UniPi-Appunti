@@ -6,6 +6,5 @@ tags:
   - Analisi
 Parent MOC: "[[Analisi]]"
 ---
-
-# Funzioni differenziabili
+# Integrali notevoli
 ---

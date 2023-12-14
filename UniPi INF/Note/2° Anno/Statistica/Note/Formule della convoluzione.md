@@ -37,7 +37,7 @@ _siano_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] con dens
 _sia_ $Z=X+Y$ 
 _allora_ la variabile $Z$ ha densità $$
 \begin{array}{}
-f_{Z}= \\
+f_{Z}(z)= \\
 \displaystyle\int ^{+\infty}_{-\infty}f_{X}(x)f_{Y}(z-x) \, dx = \\
 \displaystyle\int ^{+\infty}_{-\infty}f_{Y}(y)f_{X}(z-y) \, dy 
 

@@ -11,8 +11,8 @@ Parent MOC: "[[Statistica (STAT)]]"
 sono probabilita mappate dai reali a valori che rispettano la definizione di [[Definizione di Probabilita|Definizione di Probabilita]]
 #### Funzione di massa discreta (Definizione)
 si parla di _probabilita discreta_ dove la probabilita è concentrata su una successione _finita_ o _finita e numerabile_ che è la stessa della [[Probabilita con distribuzione uniforme|Probabilita con distribuzione uniforme]] 
-_siano_ $x_1, \dots,x_{n}$  una successione di punti e posto $p(x_{i})= \mathcal{P}(\{x_{i}\})$
-_allora_ per oggi $A\subseteq \mathbb{R}$ vale $$\mathcal{P}(A)=\sum_{x_{i}\in  A}\mathcal{P}(x_{i})=\sum_{x_{i}\in  A}p(x_{i})$$
+_siano_ $x_1, \dots,x_{n}$  una successione di punti, e posto che $p(x_{i})= \mathcal{P}(\{x_{i}\})$
+_allora_ per oggi $A\subseteq \mathbb{R}$ vale $$\mathcal{P}(A)=\sum_{x_{i}\in  A}\mathcal{P}(\{   x_{i}\})=\sum_{x_{i}\in  A}p(x_{i})$$
 >[!tip]
 > è importante che la definizione si possa applicare a qualsiasi sottoinsieme di $\mathbb{R}$
 ##### Funzione di massa (Definizione)

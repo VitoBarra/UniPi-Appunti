@@ -15,7 +15,7 @@ I due utenti della scambio di messaggi generano la chiave $k[session]$ in modo i
 
 Si eseguono i seguenti passi.
 1.  _Alice e Bob_ si accordano pubblicamente su 
-	- un [[Numeri primi|numero primo]]  $p$ _molto grande_, solitamente di un migliaio di _bit_, questo si può ottenere con la [[Generazione di numeri Primi|Generazione di numeri Primi]] 
+	- un [[Numeri primi|numero primo]]  $p$ _molto grande_, solitamente di un migliaio di _bit_, questo si può ottenere con l [[Generazione di numeri Primi|algoritmo di generazione di numeri Primi]] 
 	- su un [[Generatori di insieme di coprimi|generatore]] $g$ di $\mathcal{Z}_{p}^{*}$ che _esiste sicuramente_ essendo $p$ primo. 
 	- in caso non si riesca a generare questa coppia si può perdere una coppia pubblica nel sistema senza compromettere il cifrario
 2. _Alice_ estrae un numero casuale $x<p$  e calcola $X = g^{x} \mod p$ e lo spedisce in chiaro a _Bob_ 

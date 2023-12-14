@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC
+type: MOC
+tags:
+  - MOC
+Parent MOC: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Interazione Uomo Macchina (IUM)
 
 ## Course MOC  📒

@@ -16,5 +16,5 @@ Per face c io c è bisogno di fare alcune _assunzioni_ quella di base e la possi
 
 Le ipotesi della _inferenza statistica_ sono 
 - ogni nuova estrazione del campione della popolazione non è condizionata dalla precedente; questo corrisponderà all’ipotesi di [[Indipendenza di Variabili aleatorie|indipendenza]] 
--  l’estrazione di ogni nuovo individuo per il campione sia effettuata in modo uguale alle precedenti: questo corrisponderà all’ipotesi di equidistribuzione.
+-  l’estrazione di ogni nuovo individuo per il campione sia effettuata in modo uguale alle precedenti: questo corrisponderà all’ipotesi di _equidistribuzione_
 

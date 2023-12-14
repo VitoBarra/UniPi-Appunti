@@ -13,32 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
+                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "1dc132d19ac41859",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64cd43e2a7008520",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -141,6 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -157,6 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -168,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Untitled 1.canvas"
+            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
           }
         }
       },
@@ -201,34 +182,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "dc1448b5263d5e58",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie notevoli - Student.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Notevoli - Chi-quadro.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie multivariate - Momenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici - Z-Test.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Stima parametrica - Binomiale.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Stima Parametrica - Metodo di Massima Verosomiglianza.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita - criterio di sufficienza.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Schwartz.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Formule della convoluzione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Densità uniforme.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Sommare variabili aleatorie indipendenti.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli.md",
-    "UniPi INF/Note/2° Anno/Statistica/nuova nota.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Funzione di ripartizione.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie senza memoria.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabile aleatorie Notevoli - Gamma.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Funzione generatrice di momenti (MTF).md",
-    "UniPi INF/Note/1° Anno/Analisi/Analisi.md",
-    "UniPi INF/Note/1° Anno/Analisi/Note/Funzione Gamma di Eulero.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
+    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md",
+    "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0865.jpeg",
+    "IMG_0864.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Excalidraw",
@@ -240,9 +223,6 @@
     "Superiori/Geometria Analitica/Media/Mvt2_italian.svg.png",
     "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0789.jpeg",
     "UniPi INF/Note/1° Anno/Analisi/Media/IMG_0793.jpeg",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0791.jpeg",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0790.jpeg",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0788.jpeg",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",

@@ -21,7 +21,7 @@ in piu vale l eguaglianza $$\sum^{n}_{i=1}(y_{i}-a^*-b^*x_{i})^{2}= \sum^{n}_{i=
 
 ###### Dimostrazione
 _sia_ $Q(a,b)=\sum^{n}_{i=1}(y_{i}-a-bx_{i})^{2}$ che è una [[Funzioni|funzione]] [[Continuità di una funzione|continua]] ($C^{\infty}$) e che tende ad $Q(a,b)\to\infty$ quando $|a|,|b| \to \infty$
-_Vogliamo dimostrare_ che il punto di [[Minimi e Massimi|minimo]] di $Q(a,b)$ é il punto $Q(b^{*},a^{*})$ con  $b^* = \cfrac{cov(x,y)}{var(x)}$ e $a^* = -b^*\overline{x} + \overline{y}$ 
+_Vogliamo dimostrare_ che il punto di [[Massimi e minimi|minimo]] di $Q(a,b)$ é il punto $Q(b^{*},a^{*})$ con  $b^* = \cfrac{cov(x,y)}{var(x)}$ e $a^* = -b^*\overline{x} + \overline{y}$ 
 
 un punto è di minimo se la sua [[Derivate|derivata]] è nulla. deve quindi valere $\frac{\partial Q}{\partial a}=0$ e $\frac{\partial Q}{\partial b}=0$ e bisogna risolvere$$\begin{cases}
 \sum_{i}y_{i}-na-b\sum_{i}x_{i} & =0 \\

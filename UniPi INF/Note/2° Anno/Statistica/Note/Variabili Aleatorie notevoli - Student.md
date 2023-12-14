@@ -6,12 +6,12 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Densità di probabilità Student
+# Variabili Aleatorie notevoli - Student
 ---
 #### Densita di student (Definizione)
 _siano_ $X,C_{n}$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] 
 - $X \sim N(0,1)$  [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana standard]] 
-- $C_{n} \sim \chi^{2}$ ovvero [[Variabili aleatorie Notevoli - Chi-quadro|chi-quadro]]  
+- $C_{n} \sim \chi^{2}$ ovvero [[Variabili Aleatorie Notevoli - Chi-quadro|chi-quadro]]  
 _se_ queste sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
 _allora_ per $n>1$ la variabile aleatoria $$T_{n}=\frac{X}{\sqrt{ \frac{C_{n}}{n} }}=\sqrt{ n }\frac{X}{C_{n}}$$ ha _[[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densita]]_ valida che è $$f_{T_{n}}(t)=\frac{\Gamma(n/2+1/2)}{\sqrt{ n \pi }\Gamma(n/2)}\left( 1+\frac{t^{2}}{n} \right)^{-n/2-1/2}$$ che dipende dalla [[Funzione Gamma di Eulero|funzione gamma]]. e questa è detta _variabile di student_ a $n$ gradi di liberta
 
@@ -34,4 +34,8 @@ per via di questo teorema quando si usano le variabili di Student e si hanno tan
 
 La differenza tra  variabile di _student_ e _gaussiana_ le due e che la variabile di _student_  per $|x| \to \infty$ tende a $0$ più lentamente 
 
+
+
+#### Tavola quantili Student
+![[IMG_0864.jpeg]]
  

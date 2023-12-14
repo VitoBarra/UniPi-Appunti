@@ -2,11 +2,10 @@
 type: nota
 course: Crittografia
 topic: 
-tags: CRI
+tags:
+  - CRI
+Parent MOC: "[[Crittografia (CRI)]]"
 ---
-
-Prev: [[Crittografia (CRI)]]
-
 # Generazione di numeri Primi
 ---
 la generazione di numeri primi è un _problema importante_ per la crittografia siccome questi sono spesso utilizzati da i cifrari piu avanzati
@@ -15,7 +14,7 @@ Dal [[Distribuzione dei numeri primi|teorema dei numeri primi]] sappiamo che
 $$\lim_{ N \to \infty} numero \ di  \ primi \leq N = \frac{N}{\ln(N)} $$
 e questi implica che se $N$ è grande cade un numero [[Numeri primi|primo]] in un [[Intorno|intorno]] di $N$ di lunghezza $\ln(N)$.
 
-### Generazione di primi
+### Algoritmo di generazione di primi
 Si puo scrivere il seguente _algoritmo_  che genera un numero [[Numeri primi|primo]]  di lunghezza di rappresentazione $n$  _bit_ questo è possibile utilizzando il [[Test di primalità Miller-Rabin|Test di primalità Miller-Rabin]] è una _sequenza_ $S$ di $n-2$ bit _generato casualmente_ da un [[Generatori di numeri Pseudo Casuali|generatore di numeri Pseudo Casuali]]
 
 ```pseudo

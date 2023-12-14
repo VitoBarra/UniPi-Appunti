@@ -2,11 +2,10 @@
 type: nota
 course: Ingegneria del software
 topic: 
-tags: IS
+tags:
+  - IS
+Parent MOC: "[[Ingegneria Del Software (IS)]]"
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # UML - Diagramma di attività
 ---
 Un diagramma [[UML]] per modellare il flusso di lavoro
@@ -18,7 +17,8 @@ Questo tipo di Diagramma è utile per rappresentare:
 - funzionamento delle operazioni di una classe (progettazione)
 
 
->[!info] derivate da i [[Flow Chart]] e dalle [[Reti di petri]]
+>[!info] 
+>derivate da i [[Flow Chart]] e dalle [[Reti di petri]]
 
 ## Sintassi 
 

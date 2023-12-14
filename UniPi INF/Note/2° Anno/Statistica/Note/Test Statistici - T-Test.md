@@ -8,19 +8,19 @@ Parent MOC: "[[Statistica (STAT)]]"
 ---
 # T-Test
 ---
-il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] sconosciuta
+il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] __sconosciuta__
+rispetto allo [[Test Statistici - Z-Test|Z-test]] questo è piu “realistico” siccome _solitamente non si conosce la varianza_
 
-Consideriamo ora il caso (più realistico) di campione gaussiano di cui non conosciamo la deviazione standard: si chiama T-test il test sulla media di un campione Gaussiano con varianza sconosciuta.
-Sia $X_1, \ldots X_n$ un campione aleatorio di legge gaussiana $N\left(m, \sigma^2\right)$, e ricordiamo la notazione
-$$
-\bar{X}_n=\frac{X_1+\cdots+X_n}{n}, \quad S_n^2=\frac{1}{n-1} \sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2 .
-$$
+#### Z-Test (Definizione)
+_Sia_ $X_1, \ldots X_n$ un [[Campione Statistico|campione aleatorio]] di [[Variabili Aleatorie Notevoli - Gaussiane|legge gaussiana]] $N\left(m, \sigma^2\right)$, 
+_allora_ la variabile $$T=\sqrt{n}\frac{\left(\bar{X}_n-m\right)}{S_{n}} $$ha [[Variabili Aleatorie notevoli - Student|densità di Student]] $T(n-1)$. 
 
-Il procedimento per formulare il test è analogo a quanto visto per lo Z-test, ma questa volta il punto di partenza è il fatto che, se la media è $m$, la variabile $T=\sqrt{n}\left(\bar{X}_n-m\right) / S_n$ ha densità di Student $T(n-1)$. Consideriamo il test bilatero dell'ipotesi
+Consideriamo il test bilatero dell'ipotesi
 $$
 \left.\left.\mathscr{H}_0\right) m=m_0 \quad \text { contro } \quad \mathscr{H}_1\right) m \neq m_0 \text {. }
 $$
-- Formulazione del test: Anche in questo caso cerchiamo una regione critica della forma $C=\left\{\left|\bar{X}-m_0\right|>d\right\}$. Imponiamo $\mathbb{P}_{m_0}(C)=\alpha$ e usiamo la statistica $T=\sqrt{n}\left(\bar{X}_n-m\right) / S$ :
+_Formulazione del test_: 
+Cerchiamo una regione critica della forma $$C=\left\{\left|\bar{X}-m_0\right|>d\right\}$$. Imponiamo $\mathcal{P}_{m_0}(C)=\alpha$ e usiamo la statistica $$T=\sqrt{n}\frac{\left(\bar{X}_n-m\right)}{S_{n}} $$ 
 $$
 \mathbb{P}_{m_0}\left\{\left|\bar{X}-m_0\right|>d\right\}=\mathbb{P}_{m_0}\left\{\frac{\sqrt{n}}{S}\left|\bar{X}-m_0\right|>\frac{d \sqrt{n}}{S}\right\}=\mathbb{P}\left\{|T|>\frac{d \sqrt{n}}{S}\right\}=\alpha
 $$

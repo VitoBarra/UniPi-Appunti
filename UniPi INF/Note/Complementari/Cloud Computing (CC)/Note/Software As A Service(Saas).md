@@ -2,10 +2,10 @@
 type: nota
 course: Cloud Computing
 topic: 
-tags: CC
+tags:
+  - CC
+Parent MOC: "[[Cloud Computing (CC)]]"
 ---
-
-Prev: [[Cloud Computing (CC)]]
 
 # Software As A Service(Saas)
 ---

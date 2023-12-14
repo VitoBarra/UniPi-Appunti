@@ -1,180 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
+      "basename": "Stimatori statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
+    },
+    {
+      "basename": "IMG_0864",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg"
     },
     {
       "basename": "Statistica (STAT)",
       "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
-      "basename": "Variabili aleatorie notevoli - Student",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie notevoli - Student.md"
+      "basename": "Test Statistici - Z-Test",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici - Z-Test.md"
     },
     {
-      "basename": "Variabili aleatorie Notevoli - Chi-quadro",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie Notevoli - Chi-quadro.md"
+      "basename": "Stima parametrica - Binomiale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stima parametrica - Binomiale.md"
+    },
+    {
+      "basename": "Stima Parametrica - Metodo di Massima Verosomiglianza",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stima Parametrica - Metodo di Massima Verosomiglianza.md"
+    },
+    {
+      "basename": "Statistiche campionarie su variabili gaussiane",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md"
+    },
+    {
+      "basename": "Teorema centrale del limite",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md"
+    },
+    {
+      "basename": "Teorema debole dei grandi numeri",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md"
+    },
+    {
+      "basename": "Convergenza in probabilita - criterio di sufficienza",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita - criterio di sufficienza.md"
     },
     {
       "basename": "Diseguaglianza di Markov",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
     },
     {
-      "basename": "Diseguaglianza di Schwartz",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Schwartz.md"
-    },
-    {
-      "basename": "Variabili aleatoria - Momenti",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatoria - Momenti.md"
+      "basename": "Variabili aleatorie - Covarianza e correlazione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
     },
     {
       "basename": "Formule della convoluzione",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formule della convoluzione.md"
     },
     {
-      "basename": "Statistica Parametrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Parametrica.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Densità uniforme",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Densità uniforme.md"
-    },
-    {
       "basename": "Indipendenza di Variabili aleatorie",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Funzione di ripartizione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Funzione di ripartizione.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md"
-    },
-    {
-      "basename": "Variabili aleatorie senza memoria",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie senza memoria.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Poisson",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Geometrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md"
-    },
-    {
-      "basename": "Variabile aleatorie Notevoli - Gamma",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabile aleatorie Notevoli - Gamma.md"
-    },
-    {
-      "basename": "Probabilita sui numeri Reali",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Binomiale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md"
-    },
-    {
-      "basename": "Funzione generatrice di momenti (MTF)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Funzione generatrice di momenti (MTF).md"
-    },
-    {
-      "basename": "Analisi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Analisi.md"
-    },
-    {
-      "basename": "Funzione Gamma di Eulero",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Funzione Gamma di Eulero.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Bernulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Bernulli.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Funzioni Polinomiali",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Funzioni Polinomiali.md"
-    },
-    {
-      "basename": "Espanzioni di funzioni in polinomi",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Espanzioni di funzioni in polinomi.md"
-    },
-    {
-      "basename": "Sviluppi di Taylor",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Sviluppi di Taylor.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Covarianza e correlazione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
-    },
-    {
-      "basename": "Convergenza in distribuzione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in distribuzione.md"
-    },
-    {
-      "basename": "Statistica descrittiva - Dati Numerici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica descrittiva - Dati Numerici.md"
-    },
-    {
-      "basename": "Serie geometrica",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie geometrica.md"
-    },
-    {
-      "basename": "Serie di Fibonacci",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Serie di Fibonacci.md"
-    },
-    {
-      "basename": "Serie",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Serie.md"
-    },
-    {
-      "basename": "Laboratorio I",
-      "path": "UniPi INF/Note/1° Anno/Laboratorio I/Laboratorio I.md"
-    },
-    {
-      "basename": "Funzioni",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Funzioni.md"
-    },
-    {
-      "basename": "Variabili aleatorie - Varianza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Varianza.md"
-    },
-    {
-      "basename": "Algebra Lineare (AL)",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md"
-    },
-    {
-      "basename": "Mosse di Gauss",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Mosse di Gauss.md"
-    },
-    {
-      "basename": "Drawing 2023-11-30 14.59.43.excalidraw",
-      "path": "Excalidraw/Drawing 2023-11-30 14.59.43.excalidraw.md"
-    },
-    {
-      "basename": "Spazio Vettoriale",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Spazio Vettoriale.md"
-    },
-    {
-      "basename": "Campi",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Campi.md"
-    },
-    {
-      "basename": "Matrice",
-      "path": "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Note/Matrice.md"
     },
     {
       "basename": "Trasformazioni di variabili con densita",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
     },
     {
-      "basename": "Continuità di una funzione",
-      "path": "UniPi INF/Note/1° Anno/Analisi/Note/Continuità di una funzione.md"
+      "basename": "Indipendenza Stocastica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+    },
+    {
+      "basename": "Formula di Bayes",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
+    },
+    {
+      "basename": "Probabilita condizionata",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+    },
+    {
+      "basename": "Sistema di alternative",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
+    },
+    {
+      "basename": "Statistica Descrittiva - Dati Multivariati",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
+    },
+    {
+      "basename": "Retta di regressione",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Gaussiane",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Crittografia (CRI)",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
+    },
+    {
+      "basename": "Curve Ellittiche",
+      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md"
+    },
+    {
+      "basename": "Probabilita con distribuzione uniforme",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Densità uniforme",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Densità uniforme.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Geometrica",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Poisson",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Binomiale",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md"
+    },
+    {
+      "basename": "Probabilita sui numeri Reali",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
+    },
+    {
+      "basename": "Definizione di Probabilita",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
+    },
+    {
+      "basename": "Test Statistici",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
+    },
+    {
+      "basename": "Test approssimato su un campione di bernoulli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md"
+    },
+    {
+      "basename": "Principi di progettazione del interazione",
+      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Principi di progettazione del interazione.md"
+    },
+    {
+      "basename": "Cloud Computing (CC)",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md"
+    },
+    {
+      "basename": "Container e Docker",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md"
+    },
+    {
+      "basename": "Software As A Service(Saas)",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Software As A Service(Saas).md"
+    },
+    {
+      "basename": "Platform As A Service(Paas)",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md"
+    },
+    {
+      "basename": "Infrastructure As A Service(Iaas)",
+      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Infrastructure As A Service(Iaas).md"
+    },
+    {
+      "basename": "Computer Grafica (CG)",
+      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
+    },
+    {
+      "basename": "Intervalli di fiducia - Variabili gaussiane",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md"
+    },
+    {
+      "basename": "Idd - varianza campionaria",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Idd - varianza campionaria.md"
+    },
+    {
+      "basename": "Intervalli di fiducia - Variabile di bernulli",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md"
+    },
+    {
+      "basename": "Intervalli di fiducia - Campioni grandi",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md"
+    },
+    {
+      "basename": "Intervalli di fiducia",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia.md"
+    },
+    {
+      "basename": "Variabili Aleatorie notevoli - Student",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie notevoli - Student.md"
+    },
+    {
+      "basename": "Test sulla varianza di un campione gaussiano",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
+    },
+    {
+      "basename": "Variabili Aleatorie Notevoli - Chi-quadro",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Chi-quadro.md"
     }
   ],
   "omittedPaths": [],

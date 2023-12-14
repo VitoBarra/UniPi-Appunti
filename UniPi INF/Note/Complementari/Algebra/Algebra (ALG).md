@@ -52,7 +52,7 @@ Parent MOC: "[[Uni MOC]]"
 	5. [[Generatori di insieme di coprimi]]
 	6. [[Algoritmo delle Quadrature successive o esponenziazione veloce]]
 	7. [[Teorema cinese del resto]]
-	8. [[Residui quadratici]]
+	8. [[Residui quadratici in modulo]]
 
 ### Educational Material 🧱
 1. Appunti prof Lezione

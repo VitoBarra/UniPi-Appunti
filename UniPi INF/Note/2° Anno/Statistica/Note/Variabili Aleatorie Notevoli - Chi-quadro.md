@@ -6,14 +6,14 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Variabili aleatorie notevoli - Chi-quadro
+# Variabili Aleatorie notevoli - Chi-quadro
 ---
 #### Densita chi-quadro
 _siano_ $X_{1}\dots,X_{n}$ [[Variabili Aleatorie (Casuali)|variabili aleatorie]] [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane standard]] 
 _se_  sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
-_allora_ la variabile $(X_{1}^{2}+\dots+X_{n}^{2})$ ha [[Variabile aleatorie Notevoli - Gamma|densita]] $\Gamma\left( \frac{n}{2},\frac{1}{2} \right)$. ed è chiamata _densita chi-quadro_ con $n$ _gradi di libertà_ indicata con $\chi^{2}(n)$
+_allora_ la variabile $(X_{1}^{2}+\dots+X_{n}^{2})$ ha [[Variabile Aleatorie Notevoli - Gamma|densita gamma]] $\Gamma\left( \frac{n}{2},\frac{1}{2} \right)$. ed è chiamata _densita chi-quadro_ con $n$ _gradi di libertà_ indicata con $\chi^{2}(n)$
 
-_dimostrazione_
+_Dimostrazione_
 	per completare la dimostrazione basta dimostrare che se $X$ è gaussiana allora $X^{2}$ è $\Gamma\left( \frac{1}{2},\frac{1}{2} \right)$
 	e per fare ciò vale $$
 	\begin{array}{}
@@ -45,3 +45,8 @@ e valgono i seguenti fatti
 - per la [[Teorema debole dei grandi numeri|teorema dei grandi numeri]] vale che $\frac{C_{n}}{n}\xrightarrow{n \to \infty}1$ con  [[Convergenza in probabilita|converge in probabilita]] 
 - Per il [[Teorema centrale del limite|Teorema centrale del limite]] la successione $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ [[Convergenza in distribuzione|converge in dostribuzione]] alla variabile $N(0,1)$ e quindi $\cfrac{C_{n}-n}{\sqrt{ 2n }}$ è approssimativamente una [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana standard]]
 	
+
+
+
+#### Tabella quantili
+![[IMG_0865.jpeg]]

@@ -6,7 +6,7 @@ tags:
   - STAT
 Parent MOC: "[[Statistica (STAT)]]"
 ---
-# Variabile aleatorie Notevoli - Gamma
+# Variabile Aleatorie Notevoli - Gamma
 ---
 
 

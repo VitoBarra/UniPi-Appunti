@@ -16,7 +16,7 @@ e questa dipende solo dalla _legge di probabilita_ $\mathcal{P}_{X}$ e sviluppan
 e vale $$Var(aX+b)=a^{2}Var(X)$$
 #### Deviazione standard (Definizione)
 _sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] che ammette [[Variabili aleatoria - Momenti|momento secondo]] 
-_allora_ si dice _scarto quadratico medio_ o _deviazione standard_ il numero $$\sigma(X)=\sqrt{ Var(X) }$$
+_allora_ si dice [[Residui quadratici in modulo]]_scarto quadratico medio_ o _deviazione standard_ il numero $$\sigma(X)=\sqrt{ Var(X) }$$
 
 #### Diseguaglianza di Chebyshev
 _sia_ $X$  una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] e $d>0$ un numero 

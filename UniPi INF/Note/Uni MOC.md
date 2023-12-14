@@ -6,7 +6,7 @@ Parent MOC: "[[Studi MOC]]"
 ---
 # Uni MOC
 
-## Course MOC  📒
+## MOC 📒
 - 1° Anno
 	- [[Fondamenti Del Informatica (FDI)]]
 	- [[Analisi]]

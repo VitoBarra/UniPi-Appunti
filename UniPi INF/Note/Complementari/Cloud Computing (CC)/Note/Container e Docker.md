@@ -2,11 +2,10 @@
 type: nota
 course: Cloud Computing
 topic: 
-tags: CC
+tags:
+  - CC
+Parent MOC: "[[Cloud Computing (CC)]]"
 ---
-
-Prev: [[Cloud Computing (CC)]]
-
 # Container e Docker
 ---
 
@@ -50,7 +49,7 @@ le componenti del software come il software che si sta sviluppando e tutte le su
 	 
 ![[IMG_0518.jpeg]]
 
-###  comandi Docker
+###  Comandi Docker
 per costruire delle imagini si utilizza il _DockerFile_. 
 in questi file si parte da delle immagini prese dai i _docker registry_. si parte da altre porte per fare lo stack di immagini che volgiamo utilizzare 
 
@@ -110,4 +109,4 @@ docker possiamo mandarlo in _sworm mode_ ovvero  una modalità che gestisce dei 
 - i nodi di _swarm manager_ monitorano lo stato del cluster e cercano di colmare la differenza tra lo stato attuale del cluster e quello _dichiarato_
 	- un esempio è se dichiariamo di avere 10 servizi attivi di un immagine e ne cade una. i nodi _manager_ provvederanno ad avviare una nuova istanza 
 ![[IMG_0521.jpeg]]![[IMG_0520.jpeg]]
-questo approccio si chiama _Declarative approach_.
+questo approccio si chiama _Declarative approach_

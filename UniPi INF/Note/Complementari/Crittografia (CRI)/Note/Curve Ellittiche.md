@@ -2,10 +2,10 @@
 type: nota
 course: Crittografia
 topic: 
-tags: CRI
+tags:
+  - CRI
+Parent MOC: "[[Crittografia (CRI)]]"
 ---
-
-Prev: [[Crittografia (CRI)]]
 
 # Curve Ellittiche
 ---
@@ -151,16 +151,16 @@ dove $2p$ sono le coppie $(x,y),(x,-y)$ che soddisfano le equazione e il $+1$ vi
 >[!question]- da capire
 >perchè solo $p$ punti?
 
-Si può dimostrare che ci sono esattamente $\cfrac{p-1}{2}$ _[[Residui quadratici|residui quadratici]]_  tra gli elementi di  $\mathcal{Z}_{p}$ oltre allo 0 
+Si può dimostrare che ci sono esattamente $\cfrac{p-1}{2}$ _[[Residui quadratici in modulo|residui quadratici]]_  tra gli elementi di  $\mathcal{Z}_{p}$ oltre allo 0 
 
-da qui possiamo dire che in _generale_ la curva $E(a,b)$ contiene $\Theta(p)$ _punti_ considerando che i _[[Residui quadratici|residui quadratici]]_ in $\mathcal{Z}_{p}$ sono $\cfrac{p-1}{2}$ e che per simmetria si moltiplica per 2 il numero di punti.
+da qui possiamo dire che in _generale_ la curva $E(a,b)$ contiene $\Theta(p)$ _punti_ considerando che i _[[Residui quadratici in modulo|residui quadratici]]_ in $\mathcal{Z}_{p}$ sono $\cfrac{p-1}{2}$ e che per simmetria si moltiplica per 2 il numero di punti.
 
 
-In generale non tutti i valori di $x \in \mathcal{Z}_{p}$ danno luogo ad un _[[Residui quadratici|residuo quadratico]]_ presente nel campo infatti ci sono esattamente  $\cfrac{p-1}{2}$ punti che non hanno un _residuo quadratico_, ragionando sulla definizione della curva e notato che l espressione $y^{2}\mod p$ avrà sempre e solo valori che sono residui quadratici in $\mathcal{Z}_{p}$ possiamo dire che non ci sarà mai un punto sulla curva che abbia come _ordinata_ un numero che non è un _residuo quadrato_ 
+In generale non tutti i valori di $x \in \mathcal{Z}_{p}$ danno luogo ad un _[[Residui quadratici in modulo|residuo quadratico]]_ presente nel campo infatti ci sono esattamente  $\cfrac{p-1}{2}$ punti che non hanno un _residuo quadratico_, ragionando sulla definizione della curva e notato che l espressione $y^{2}\mod p$ avrà sempre e solo valori che sono residui quadratici in $\mathcal{Z}_{p}$ possiamo dire che non ci sarà mai un punto sulla curva che abbia come _ordinata_ un numero che non è un _residuo quadrato_ 
 
 Valori diversi di $x$ possono generare più volte _stesso residuo quadratico_
 ![[Pasted image 20230812035526.png]]
-	i valori sulla sinistra sono i valori di $y^{2}\mod 7$ che come si vede sono solo i _[[Residui quadratici]]_, e questi si ripetono per simmetria.
+	i valori sulla sinistra sono i valori di $y^{2}\mod 7$ che come si vede sono solo i _[[Residui quadratici in modulo]]_, e questi si ripetono per simmetria.
 	mentre i valori in altro sono i valori di $x^{3}+x \mod  7$ $a=1,b=0$ 
 	come si vede valori diversi di $x$ possono dare piu volte lo stesso _scarto quadratico_ 
 	riga e colonna dove scarto quadratico e valore del equazione sono uguali sono segnati con una $X$ e indicano un punto nella curva ellittica $E_{p}(a,b)$

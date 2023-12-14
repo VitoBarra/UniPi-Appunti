@@ -2,11 +2,10 @@
 type: nota
 course: Analisi
 topic: 
-tags: Analisi
+tags:
+  - Analisi
+Parent MOC: "[[Analisi]]"
 ---
-
-Prev: [[UniPi INF/Note/1° Anno/Analisi/Analisi]]
-
 # Funzione logaritmica
 ---
 i _logaritmi_ sono un particolare tipo di [[Funzioni|funzione]]  definita sul _Dominio_ $\mathbb{R}^{+}\rightarrow \mathbb{R}$ ovvero solo su i reali _positivi_. 

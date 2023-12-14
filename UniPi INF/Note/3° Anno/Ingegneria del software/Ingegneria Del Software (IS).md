@@ -1,10 +1,10 @@
 ---
-type: MOC 
-tags: MOC IS 
+type: MOC
+tags:
+  - MOC
+  - IS
+Parent MOC: "[[Uni MOC]]"
 ---
-
-Prev: [[Uni MOC]]
-
 # Ingegneria Del Software (IS)
 
 ## Course MOC  📒

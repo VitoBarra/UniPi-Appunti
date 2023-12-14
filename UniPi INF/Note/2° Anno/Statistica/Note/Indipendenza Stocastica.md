@@ -28,6 +28,6 @@ $$e valgono i seguenti fatti
 _siano_ $n$  _eventi_ $A_1,\dots,A_n$, questi si dicono _indipendenti_ se per ogni intero $k \in [2, n]$ e per ogni scelta di $1 \leq i_1 < \dots < i_k \leq n$  , vale l’eguaglianza
 
 $$
-\mathbf{P}(A_{i_1} \cap \cdots \cap A_{i_k}) = \mathbf{P}(A_{i_1}) \dots \mathbf{P}(A_{i_k})
+\mathcal{P}(A_{i_1} \cap \cdots \cap A_{i_k}) = \mathcal{P}(A_{i_1}) \dots \mathcal{P}(A_{i_k})
 $$
 e per ogni $n$ vanno verificate $2^{n}-n-1$ 

@@ -2,12 +2,11 @@
 type: nota
 course: Algebra
 topic: 
-tags: ALG
+tags:
+  - ALG
+Parent MOC: "[[Algebra (ALG)]]"
 ---
-
-Prev: [[Algebra (ALG)]]
-
-# Residui quadratici
+# Residui quadratici in modulo
 ---
 un _residuo quadratico_ [[Algebra modulare|modulo]] $n$ è un intero $q$ congruente ad un _quadrato perfetto_ in [[Algebra modulare|modulo]] $n$  ovvero 
 $$x^{2} \equiv q \mod   n$$

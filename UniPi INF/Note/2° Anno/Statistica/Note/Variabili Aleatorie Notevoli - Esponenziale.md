@@ -29,6 +29,6 @@ _sia_  $X$ una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ _esponenz
 \displaystyle\mathbb{E}[X] & = &\displaystyle \int ^{+\infty}_{0}\lambda xe^{-\lambda x} \, dx  \\
 & = & \displaystyle\frac{1}{\lambda}\int ^{+\infty}_{0}te^{-t} \, dt  
 & =  &\displaystyle \frac{1}{\lambda}
-\end{array}$$ e con conti simili si ottiene [[Variabili aleatoria - Momenti|momento secondo]]   $$\mathbb{E}[X^{2}]=\frac{2}{\lambda} $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$Var(X)=\frac{2}{\lambda^{2}}-\left( \frac{1}{\lambda} \right)^{2}=\frac{1}{\lambda^{2}}
+\end{array}$$ e con conti simili si ottiene [[Variabili aleatoria - Momenti|momento secondo]]   $$\mathbb{E}[X^{2}]=\frac{2}{\lambda^{2}} $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$Var(X)=\frac{2}{\lambda^{2}}-\left( \frac{1}{\lambda} \right)^{2}=\frac{1}{\lambda^{2}}
 $$
 e la funzione di [[Funzione generatrice di momenti (MTF)|funzione generatrice di momenti]] è $$M_{x}(t)=\left( 1-\frac{t}{\lambda} \right)^{-1}$$

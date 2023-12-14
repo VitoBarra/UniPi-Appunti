@@ -2,11 +2,10 @@
 type: nota
 course: Interazione Uomo Macchina
 topic: 
-tags: IUM
+tags:
+  - IUM
+Parent MOC: "[[Interazione Uomo Macchina (IUM)]]"
 ---
-
-Prev: [[Interazione Uomo Macchina (IUM)]]
-
 # Principi di progettazione del interazione
 ---
 si affrontano i problemi di progettazioni del interazioni 
