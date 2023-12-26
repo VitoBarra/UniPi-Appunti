@@ -2,63 +2,99 @@
   "recentFiles": [
     {
       "basename": "Normalizzazione di schemi relazionali",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
     },
     {
       "basename": "Data Base (DB)",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Data Base (DB).md"
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
-      "basename": "Dipendenze funzionali nei DB",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
-    },
-    {
-      "basename": "Algebra Relazionale",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md"
-    },
-    {
-      "basename": "Modellazione della conoscenza",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md"
-    },
-    {
-      "basename": "Progettazione DB",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
-    },
-    {
-      "basename": "Introduzione ai Data Base",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md"
-    },
-    {
-      "basename": "Database Managment System (DBMS)",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md"
-    },
-    {
-      "basename": "Sistemi informativi",
-      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md"
-    },
-    {
-      "basename": "Relazioni tra insiemi",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
-    },
-    {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
-      "basename": "Prodotto Cartesiano",
-      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
-    },
-    {
-      "basename": "Operazioni algebriche",
-      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni algebriche.md"
-    },
-    {
-      "basename": "Machine Learning (ML)",
-      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md"
+      "basename": "Triennale informatica MOC",
+      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
     },
     {
       "basename": "Studi MOC",
-      "path": "Studi MOC.md"
+      "path": "Studi/Studi MOC.md"
+    },
+    {
+      "basename": "Base MOC",
+      "path": "Base MOC.md"
+    },
+    {
+      "basename": "Project MOC",
+      "path": "Project/Project MOC.md"
+    },
+    {
+      "basename": "To Read",
+      "path": "Studi/Personal/To Read.md"
+    },
+    {
+      "basename": "Calcolare l N-esimo numero primo Willans's formula",
+      "path": "Studi/Personal/Calcolare l N-esimo numero primo Willans's formula.md"
+    },
+    {
+      "basename": "Principio di Pareto",
+      "path": "Studi/Personal/Principio di Pareto.md"
+    },
+    {
+      "basename": "User personas",
+      "path": "Studi/Triennale Informatica/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
+    },
+    {
+      "basename": "GDR Cartografer MOC",
+      "path": "Project/GDR Cartographer/GDR Cartografer MOC.md"
+    },
+    {
+      "basename": "GDR Cartographer Project Requisite",
+      "path": "Project/GDR Cartographer/GDR Cartographer Project Requisite.md"
+    },
+    {
+      "basename": "Balisong Combo finder MOC",
+      "path": "Project/BalisongCobo Finder/Balisong Combo finder MOC.md"
+    },
+    {
+      "basename": "Dipendenze funzionali nei DB",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
+    },
+    {
+      "basename": "Algebra Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md"
+    },
+    {
+      "basename": "Modellazione della conoscenza",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md"
+    },
+    {
+      "basename": "Progettazione DB",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
+    },
+    {
+      "basename": "Introduzione ai Data Base",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md"
+    },
+    {
+      "basename": "Database Managment System (DBMS)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md"
+    },
+    {
+      "basename": "Sistemi informativi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md"
+    },
+    {
+      "basename": "Relazioni tra insiemi",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
+    },
+    {
+      "basename": "Prodotto Cartesiano",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
+    },
+    {
+      "basename": "Operazioni algebriche",
+      "path": "Studi/Triennale Informatica/Note/Complementari/Algebra/Note/Operazioni algebriche.md"
+    },
+    {
+      "basename": "Machine Learning (ML)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md"
     },
     {
       "basename": "FDI",
@@ -74,131 +110,87 @@
     },
     {
       "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
       "basename": "Stimatori statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
     },
     {
       "basename": "IMG_0864",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/IMG_0864.jpeg"
     },
     {
       "basename": "Test Statistici - Z-Test",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici - Z-Test.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Test Statistici - Z-Test.md"
     },
     {
       "basename": "Stima parametrica - Binomiale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stima parametrica - Binomiale.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Stima parametrica - Binomiale.md"
     },
     {
       "basename": "Stima Parametrica - Metodo di Massima Verosomiglianza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stima Parametrica - Metodo di Massima Verosomiglianza.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Stima Parametrica - Metodo di Massima Verosomiglianza.md"
     },
     {
       "basename": "Statistiche campionarie su variabili gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md"
     },
     {
       "basename": "Teorema centrale del limite",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md"
     },
     {
       "basename": "Teorema debole dei grandi numeri",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md"
     },
     {
       "basename": "Convergenza in probabilita - criterio di sufficienza",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita - criterio di sufficienza.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Convergenza in probabilita - criterio di sufficienza.md"
     },
     {
       "basename": "Diseguaglianza di Markov",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md"
     },
     {
       "basename": "Variabili aleatorie - Covarianza e correlazione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md"
     },
     {
       "basename": "Formule della convoluzione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formule della convoluzione.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Formule della convoluzione.md"
     },
     {
       "basename": "Indipendenza di Variabili aleatorie",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md"
     },
     {
       "basename": "Trasformazioni di variabili con densita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md"
     },
     {
       "basename": "Indipendenza Stocastica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md"
     },
     {
       "basename": "Formula di Bayes",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Formula di Bayes.md"
     },
     {
       "basename": "Probabilita condizionata",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
     },
     {
       "basename": "Sistema di alternative",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
     },
     {
       "basename": "Statistica Descrittiva - Dati Multivariati",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
     },
     {
       "basename": "Retta di regressione",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Esponenziale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
-    },
-    {
-      "basename": "Crittografia (CRI)",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
-    },
-    {
-      "basename": "Curve Ellittiche",
-      "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md"
-    },
-    {
-      "basename": "Probabilita con distribuzione uniforme",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita con distribuzione uniforme.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Densità uniforme",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Densità uniforme.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Geometrica",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Geometrica.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Poisson",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Poisson.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Binomiale",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Binomiale.md"
-    },
-    {
-      "basename": "Probabilita sui numeri Reali",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita sui numeri Reali.md"
-    },
-    {
-      "basename": "Definizione di Probabilita",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Retta di regressione.md"
     }
   ],
   "omittedPaths": [],

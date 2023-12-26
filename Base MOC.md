@@ -4,12 +4,7 @@ tags:
   - MOC
 Parent MOC: "[[Triennale informatica MOC]]"
 ---
-# {{title}}
+# Base MOC
 
-## Course MOC  📒
-1. 
-
-
-
-### Educational Material 🧱
-1. 
+1. [[Studi MOC]]
+2. [[Project MOC]]
