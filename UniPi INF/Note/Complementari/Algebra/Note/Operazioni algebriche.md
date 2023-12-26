@@ -2,11 +2,10 @@
 type: nota
 course: Algebra
 topic: 
-tags: ALG
+tags:
+  - ALG
+Parent MOC: "[[Algebra (ALG)]]"
 ---
-
-Prev: [[Algebra (ALG)]]
-
 # Operazioni algebriche
 ---
 Un _operazione_ su [[Insiemi Matematici|insiemi]] è un mapping da un insieme o un gruppo di insiemi ad un altro insieme o gruppi di insiemi

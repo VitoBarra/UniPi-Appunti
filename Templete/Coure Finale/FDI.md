@@ -10,4 +10,3 @@ Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 # {{title}}
 ---
 
-### Definizione

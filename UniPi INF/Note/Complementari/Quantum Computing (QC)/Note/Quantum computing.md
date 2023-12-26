@@ -60,7 +60,7 @@ Si crede  crede che per questa classe valga che
 
 un esempio di problemi che appartengono alla classe BQP sono  
 - [[Algoritmo di Shor|algoritmo di Shor]] per la [[Funzioni One-Way Trapdoor|fattorizzazione in numeri primi]]  che ha [[Complessita|tempo polinomiale]] mentre su i sistemi classici ha tempo esponenziale
--  [[Grover’s quantum search|Grover’s quantum search]] per la ricerca in un [[DataBase (DB)|database]] non strutturato che ha complessità $O(\sqrt{N})$ dove $N$ è il numero di entry mentre in un sistema normale la complessità è $N$ al caso pessimo e $\frac{N}{2}$ nel caso medio
+-  [[Grover’s quantum search|Grover’s quantum search]] per la ricerca in un [[Data Base (DB)|database]] non strutturato che ha complessità $O(\sqrt{N})$ dove $N$ è il numero di entry mentre in un sistema normale la complessità è $N$ al caso pessimo e $\frac{N}{2}$ nel caso medio
 
 
 

@@ -23,7 +23,7 @@ Parent MOC: "[[Studi MOC]]"
 - 3° Anno
 	- [[Reti - lab 3]]
 	- [[Ingegneria Del Software (IS)]]
-	- [[DataBase (DB)]]
+	- [[Data Base (DB)]]
 	- [[Introduzione Intelligenza Artificiale (IIA)]]
 - Complementari
 	- [[Cloud Computing (CC)]]

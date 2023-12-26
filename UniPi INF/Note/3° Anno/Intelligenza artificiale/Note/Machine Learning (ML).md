@@ -2,11 +2,10 @@
 type: nota
 course: Intelligenza Artificiale
 topic: 
-tags: IA
+tags:
+  - IA
+Parent MOC: "[[Introduzione Intelligenza Artificiale (IIA)]]"
 ---
-
-Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
-
 # Machine Learning (ML)
 ---
 il _machine learning_ (ML) in italiano Apprendimento automatico. questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 

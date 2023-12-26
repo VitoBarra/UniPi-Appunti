@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
+                "file": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
+            "file": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
+            "file": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
+            "file": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
           }
         }
       },
@@ -182,47 +182,49 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dc1448b5263d5e58",
+  "active": "d4f27b03d7ad3fb7",
   "lastOpenFiles": [
-    "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media",
+    "UniPi INF/Note/3° Anno/Basi di dati/Data Base (DB).md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Progettazione DB.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1028.jpeg",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1029.jpeg",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md",
+    "UniPi INF/Note/Uni MOC.md",
+    "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md",
+    "UniPi INF/Note/Complementari/Algebra/Note/Operazioni algebriche.md",
+    "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1027.jpeg",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1026.jpeg",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1025.jpeg",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1024.jpeg",
+    "UniPi INF/Note/3° Anno/Basi di dati/Media/IMG_1023.jpeg",
+    "Studi MOC.md",
+    "Templete/Coure Finale/FDI.md",
+    "Templete/Coure Finale/GA.md",
+    "Templete/Coure Finale/DB.md",
     "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md",
+    "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg",
     "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici - Z-Test.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Stima parametrica - Binomiale.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Stima Parametrica - Metodo di Massima Verosomiglianza.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Statistiche campionarie su variabili gaussiane.md",
     "UniPi INF/Note/2° Anno/Statistica/Note/Teorema centrale del limite.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Teorema debole dei grandi numeri.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Convergenza in probabilita - criterio di sufficienza.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Diseguaglianza di Markov.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili aleatorie - Covarianza e correlazione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Formule della convoluzione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza di Variabili aleatorie.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Trasformazioni di variabili con densita.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Indipendenza Stocastica.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Formula di Bayes.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Probabilita condizionata.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Sistema di alternative.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Retta di regressione.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Gaussiane.md",
-    "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md",
-    "UniPi INF/Note/Uni MOC.md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md",
-    "UniPi INF/Note/Complementari/Crittografia (CRI)/Note/Curve Ellittiche.md",
     "UniPi INF/Note/2° Anno/Statistica/Media/IMG_0865.jpeg",
     "IMG_0864.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Excalidraw",
     "Statistica.canvas",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0795.jpeg",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media/IMG_0766.jpeg",
-    "Superiori/Geometria Analitica/Media/Pasted image 20230523021918.png",
-    "Superiori/Geometria Analitica/Media/Pasted image 20230513011436.png",
-    "Superiori/Geometria Analitica/Media/Mvt2_italian.svg.png",
-    "UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/IMG_0789.jpeg",
-    "UniPi INF/Note/1° Anno/Analisi/Media/IMG_0793.jpeg",
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
@@ -231,7 +233,6 @@
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media",
     "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)",
-    "Senza nome.canvas",
-    "Raccolta UniPi INF/Note/Orientamento al lavoro ITC/Media"
+    "Senza nome.canvas"
   ]
 }

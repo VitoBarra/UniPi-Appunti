@@ -9,7 +9,7 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Relazioni Ricorsive primitive
 ---
-una [[Relazioni|relazione]] $P(x_1,\dots,x_k) \subseteq \N^k$ è [[Funzioni Ricorsive Primitive|ricorsiva primitiva]] se lo è la sua funzione caratteristica $\mathcal{X}_P$ che è definita come
+una [[Relazioni tra insiemi|relazione]] $P(x_1,\dots,x_k) \subseteq \N^k$ è [[Funzioni Ricorsive Primitive|ricorsiva primitiva]] se lo è la sua funzione caratteristica $\mathcal{X}_P$ che è definita come
 $$
 \mathcal{X}_P(x_1,\dots,x_k) =
 \begin{cases}

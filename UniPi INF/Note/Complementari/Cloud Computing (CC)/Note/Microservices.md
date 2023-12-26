@@ -65,7 +65,7 @@ consigli:
 
 
 #### 3. Decentralizza data management 
-- ogni servizio gestisce i primo dati, il proprio [[DataBase (DB)|Database]] 
+- ogni servizio gestisce i primo dati, il proprio [[Data Base (DB)|Database]] 
 - questo puo portare ad errori ma su utilizza il concetto di _Eventual consistency_
 ##### CAP Theorem
 in presenza di _Partizione_ sul Network non si puo avere sia _Availability_ e _Consistency_

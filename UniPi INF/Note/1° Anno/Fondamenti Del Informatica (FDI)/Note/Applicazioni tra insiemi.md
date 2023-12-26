@@ -9,7 +9,7 @@ Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 
 # Applicazioni tra insiemi
 ---
-Una _applicazioni_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una  [[Relazioni|Relazione]] su [[Insiemi Matematici|insiemi]]
+Una _applicazioni_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una  [[Relazioni tra insiemi|Relazione]] su [[Insiemi Matematici|insiemi]]
 
 
 una natazione alternativa è quella del _mapping_ indicata come

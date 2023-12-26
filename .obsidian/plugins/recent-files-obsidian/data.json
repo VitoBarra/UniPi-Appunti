@@ -1,16 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Normalizzazione di schemi relazionali",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+    },
+    {
+      "basename": "Data Base (DB)",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Data Base (DB).md"
+    },
+    {
+      "basename": "Dipendenze funzionali nei DB",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
+    },
+    {
+      "basename": "Algebra Relazionale",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md"
+    },
+    {
+      "basename": "Modellazione della conoscenza",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md"
+    },
+    {
+      "basename": "Progettazione DB",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
+    },
+    {
+      "basename": "Introduzione ai Data Base",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md"
+    },
+    {
+      "basename": "Database Managment System (DBMS)",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md"
+    },
+    {
+      "basename": "Sistemi informativi",
+      "path": "UniPi INF/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md"
+    },
+    {
+      "basename": "Relazioni tra insiemi",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
+    },
+    {
+      "basename": "Uni MOC",
+      "path": "UniPi INF/Note/Uni MOC.md"
+    },
+    {
+      "basename": "Prodotto Cartesiano",
+      "path": "UniPi INF/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
+    },
+    {
+      "basename": "Operazioni algebriche",
+      "path": "UniPi INF/Note/Complementari/Algebra/Note/Operazioni algebriche.md"
+    },
+    {
+      "basename": "Machine Learning (ML)",
+      "path": "UniPi INF/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md"
+    },
+    {
+      "basename": "Studi MOC",
+      "path": "Studi MOC.md"
+    },
+    {
+      "basename": "FDI",
+      "path": "Templete/Coure Finale/FDI.md"
+    },
+    {
+      "basename": "GA",
+      "path": "Templete/Coure Finale/GA.md"
+    },
+    {
+      "basename": "DB",
+      "path": "Templete/Coure Finale/DB.md"
+    },
+    {
+      "basename": "Statistica (STAT)",
+      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
+    },
+    {
       "basename": "Stimatori statistici",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Stimatori statistici.md"
     },
     {
       "basename": "IMG_0864",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/IMG_0864.jpeg"
-    },
-    {
-      "basename": "Statistica (STAT)",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Statistica (STAT).md"
     },
     {
       "basename": "Test Statistici - Z-Test",
@@ -93,10 +165,6 @@
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Esponenziale.md"
     },
     {
-      "basename": "Uni MOC",
-      "path": "UniPi INF/Note/Uni MOC.md"
-    },
-    {
       "basename": "Crittografia (CRI)",
       "path": "UniPi INF/Note/Complementari/Crittografia (CRI)/Crittografia (CRI).md"
     },
@@ -131,74 +199,6 @@
     {
       "basename": "Definizione di Probabilita",
       "path": "UniPi INF/Note/2° Anno/Statistica/Note/Definizione di Probabilita.md"
-    },
-    {
-      "basename": "Test Statistici",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test Statistici.md"
-    },
-    {
-      "basename": "Test approssimato su un campione di bernoulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test approssimato su un campione di bernoulli.md"
-    },
-    {
-      "basename": "Principi di progettazione del interazione",
-      "path": "UniPi INF/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/Principi di progettazione del interazione.md"
-    },
-    {
-      "basename": "Cloud Computing (CC)",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Cloud Computing (CC).md"
-    },
-    {
-      "basename": "Container e Docker",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Container e Docker.md"
-    },
-    {
-      "basename": "Software As A Service(Saas)",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Software As A Service(Saas).md"
-    },
-    {
-      "basename": "Platform As A Service(Paas)",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Platform As A Service(Paas).md"
-    },
-    {
-      "basename": "Infrastructure As A Service(Iaas)",
-      "path": "UniPi INF/Note/Complementari/Cloud Computing (CC)/Note/Infrastructure As A Service(Iaas).md"
-    },
-    {
-      "basename": "Computer Grafica (CG)",
-      "path": "UniPi INF/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md"
-    },
-    {
-      "basename": "Intervalli di fiducia - Variabili gaussiane",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabili gaussiane.md"
-    },
-    {
-      "basename": "Idd - varianza campionaria",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Idd - varianza campionaria.md"
-    },
-    {
-      "basename": "Intervalli di fiducia - Variabile di bernulli",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Variabile di bernulli.md"
-    },
-    {
-      "basename": "Intervalli di fiducia - Campioni grandi",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia - Campioni grandi.md"
-    },
-    {
-      "basename": "Intervalli di fiducia",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Intervalli di fiducia.md"
-    },
-    {
-      "basename": "Variabili Aleatorie notevoli - Student",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie notevoli - Student.md"
-    },
-    {
-      "basename": "Test sulla varianza di un campione gaussiano",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Test sulla varianza di un campione gaussiano.md"
-    },
-    {
-      "basename": "Variabili Aleatorie Notevoli - Chi-quadro",
-      "path": "UniPi INF/Note/2° Anno/Statistica/Note/Variabili Aleatorie Notevoli - Chi-quadro.md"
     }
   ],
   "omittedPaths": [],

@@ -47,7 +47,7 @@ un Interpretazione $I$ stabilisce una corrispondenza precisa tra elementi atomic
 $I$ interpreta:
 - I simboli di costante come elementi del dominio $D$
 - I simboli di funzione come funzioni da $n-$uple di $D$ in $D$
-- i simboli di predicato come insieme di $n-$uple ([[Relazioni]])
+- i simboli di predicato come insieme di $n-$uple ([[Relazioni tra insiemi]])
 
 #### Semantica ($\forall$)
 - $\forall x.A(x)$ è _vera_ se lo è per ciascun elemento del dominio $A$

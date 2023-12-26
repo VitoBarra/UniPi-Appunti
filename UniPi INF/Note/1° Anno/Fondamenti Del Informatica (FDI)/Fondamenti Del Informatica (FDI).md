@@ -12,7 +12,7 @@ Pare: "[[Uni MOC]]"
 1. [[Insiemi Matematici]]
 	1. [[Cardinalità di un insieme]]
 	2. [[Partizione]]
-	3. [[Relazioni]]
+	3. [[Relazioni tra insiemi]]
 		1. [[Applicazioni tra insiemi]]
 		2. [[Funzioni]]
 	4.  [[Insiemi infiniti numerabili]]
