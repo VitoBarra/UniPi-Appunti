@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Normalizzazione di schemi relazionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+      "basename": "Progettazione DB",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
+    },
+    {
+      "basename": "Progettazione DB - Modello ad oggetti",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Progettazione DB - Modello ad oggetti.md"
+    },
+    {
+      "basename": "Modellazione della conoscenza",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md"
+    },
+    {
+      "basename": "Dipendenze funzionali nei DB",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
     },
     {
       "basename": "Triennale informatica MOC",
@@ -15,6 +27,26 @@
     {
       "basename": "Studi MOC",
       "path": "Studi/Studi MOC.md"
+    },
+    {
+      "basename": "Normalizzazione di schemi relazionali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+    },
+    {
+      "basename": "Operazioni tra insiemi",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md"
+    },
+    {
+      "basename": "Fondamenti Del Informatica (FDI)",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
+    },
+    {
+      "basename": "Partizione",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md"
+    },
+    {
+      "basename": "Applicazioni tra insiemi",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Applicazioni tra insiemi.md"
     },
     {
       "basename": "Base MOC",
@@ -53,20 +85,8 @@
       "path": "Project/BalisongCobo Finder/Balisong Combo finder MOC.md"
     },
     {
-      "basename": "Dipendenze funzionali nei DB",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
-    },
-    {
       "basename": "Algebra Relazionale",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md"
-    },
-    {
-      "basename": "Modellazione della conoscenza",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md"
-    },
-    {
-      "basename": "Progettazione DB",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
     },
     {
       "basename": "Introduzione ai Data Base",
@@ -179,18 +199,6 @@
     {
       "basename": "Probabilita condizionata",
       "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Probabilita condizionata.md"
-    },
-    {
-      "basename": "Sistema di alternative",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Sistema di alternative.md"
-    },
-    {
-      "basename": "Statistica Descrittiva - Dati Multivariati",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Statistica Descrittiva - Dati Multivariati.md"
-    },
-    {
-      "basename": "Retta di regressione",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Note/Retta di regressione.md"
     }
   ],
   "omittedPaths": [],

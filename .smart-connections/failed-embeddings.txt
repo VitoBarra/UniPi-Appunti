@@ -352,6 +352,16 @@ Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Serie di Fibonacci.md#Serie di Fibonacci#Formula ricorsiva
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Serie di Fibonacci.md#Serie di Fibonacci#Formula ricorsiva#Formula chiusa
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Stringhe.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni su insiemi.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni su insiemi.md#Operazioni su insiemi#Complemento
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni su insiemi.md#Operazioni su insiemi#Differenza
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni su insiemi.md#Operazioni su insiemi#Intersezione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni su insiemi.md#Operazioni su insiemi#Unione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni tra insiemi.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni tra insiemi.md#Operazioni tra insiemi#Complemento
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni tra insiemi.md#Operazioni tra insiemi#Differenza
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni tra insiemi.md#Operazioni tra insiemi#Intersezione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Operazioni tra insiemi.md#Operazioni tra insiemi#Unione
 Studi/Triennale Informatica/Note/1° Anno/Laboratorio I/Laboratorio I.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/ABR.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Abstract Syntax Tree.md
@@ -1353,6 +1363,7 @@ Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md#Sistemi informativi#Tipologia di Sistemi informatici
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md#Sistemi informativi#Tipologia di Sistemi informatici#Sistema Informativo Operazionale
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md#Sistemi informativi#Tipologia di Sistemi informatici#Sistemi informativi direzionali
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Progettazione DB - Modello ad oggetti.md
 Studi/Triennale Informatica/Note/3° Anno/Ingegneria del software/Ingegneria Del Software (IS).md
 Studi/Triennale Informatica/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori.md
 Studi/Triennale Informatica/Note/3° Anno/Ingegneria del software/Note/Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori.md#Analisi dei Requisiti  In linguaggio Naturale - Convalida - Errori

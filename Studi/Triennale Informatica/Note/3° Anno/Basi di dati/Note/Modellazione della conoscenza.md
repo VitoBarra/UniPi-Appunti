@@ -9,13 +9,19 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # Modellazione della conoscenza
 ---
-si vuole _modella la conosceza_ ovvero si vuole descrivere un modo _formale_ la conoscenza di interesse.
+Si vuole creare un _modello astratto_ del _universo del discorso_ questo rappresentare la parte della realtà che ci interessa, fare ciò ci permette di analizzare e lavorare più facilmente sui dati che ci interessano  
 
+
+#### Modello Astratto (Definizione)
+Un _modello astratto_ è la rappresentazione _formale_ di idee e conoscenze relative ad un fenomeno.
+
+Questa definizione mette in evidenza
+1. Il modello è una _rappresentazione_ di alcuni fatti di un fenomeno
+2. la rappresentazione è data con un _linguaggio formale_
+3. il Modello è il risultato di un processo di _interpretazione_ di un fenomeno, guidato dalle _idee_ e _conoscenze_ già possedute dal soggetto che interpreta
 
 ### Creazione di un modello
-Per creare un modello ciò bisogna chiedersi _cosa_ e _come_ si vuole modellare, queste domande vengono risposte da vari aspetti
-
-il _come_ riguarda la scelta di un _linguaggio formale_ per la descrizione della realtà 
+Per creare un modello ciò bisogna chiedersi _cosa_ e _come_ si vuole modellare, queste domande vengono risposte dai vari aspetti del modello
 
 #### Aspetto ontologico
 l _aspetto ontologico_ (Descrizione di ciò che esiste) riguarda il _cosa_ si vuole modellare, quali _fatti_ ci interessano, ovvero quali parti della realtà ci interessa considerare come _universo del discorso_. Questo ci permette di _eliminare dettagli inutili_ agli scopi per cui si sta realizzando il modello stesso.

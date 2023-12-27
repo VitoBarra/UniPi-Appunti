@@ -10,14 +10,35 @@ Parent MOC: "[[Data Base (DB)]]"
 # Normalizzazione di schemi relazionali
 ---
 lo [[Progettazione DB - Modello Relazionale|schema relazionale]] è semplice siccome si basa al concetto semplice di [[Relazioni tra insiemi|relazione tra insiemi]] ma per ogni relazione ci sono diverse rappresentazioni valide e quindi uno dei problemi e la _scelta_ di questa rappresentazione.
-Per fare la corretta scelta si ricorre al processo di _normalizzazione degli schemi relazionali_ ovvero si trasforma una _rappresentazione esistente_ in una rappresentazione _equivalente_ ma in una forma detta _forma normale_.
-una _forma normale_ è una forma che assicura le buone qualità di un [[Introduzione ai Data Base|Database]], dove la qualità è misurata con l assenze di _anomalie_
+Ci sono vari parametri su cui basare la scelta tra cui il _costo delle operazioni_ e la presenza o Assenza di _anomalie_
+
+#### Teoria della normalizazione
+per operare una scelta si utilizza la _Teoria della normalizzazione_ che ha lo scopo di 
+- Definire quando due _schemi sono equivalenti_
+- Definire _criteri di bontà_ per schemi, ovvero definire formalmente cosa significa che uno schema è _migliore o peggiore_ di un altro
+	- Definito come Assenza di _anomalie_
+- Trovare _metodo algoritmici_ per ottenere da uno schema esistente uno altro schema _migliore ed equivalente_ 
+
+Dalla _teoria di normalizzazione_ deriva il processo di __*normalizzazione degli schemi relazionali*__ che trasforma una _rappresentazione esistente_ in una rappresentazione in _forma normale_
+una _forma normale_ è una forma _equivalente_ al originaria che assicura le buone qualità di un [[Introduzione ai Data Base|Database]], ovvero è migliore secondo la _teoria della normalizzazione_
 
 
-#### Anomalie
+il  _processo di normalizzazione_ tiene conto solo del eliminazione delle _anomalie_ e NON tiene conto del _costo del operazioni_  
+
+##### Assunto della normalizzazione 
+La _Teoria della Normalizzazione_ assume l esistenza di uno  _schema di relazione Universale del DB_, questo assicura che _attributi_ con lo _stesso nome_ anche in _relazioni_ diverse abbiano lo stesso significato, ovvero condividono il dominio e il _fatto_ che stanno rappresentando 
+Questo permette di evitare di fare _ridenominazioni_ durante le operazioni di normalizzazione e permette di usare sempre il [[Algebra Relazionale|Join Naturale]]   
+###### Schema di relazione universale (Definizione)
+ uno _Schema di relazione universale_ $U$ di un _database Relazionale_ ha come attributi l [[Operazioni tra insiemi|unione]] degli attributi di tutte le [[Relazioni tra insiemi|relazioni]] del _database_
+ 
+##### Anomalie
 Le anomalie per un database sono definite come
 
-_Ripetizione dell’informazione_: Ripetere piu volte la stessa informazione e problematico sia per spreco di  memoria e per l aggiornamento delle informazioni 
-_Impossibilità di rappresentare certi fatti_
-	Informazioni relative agli utenti della biblioteca possono essere memorizzate solo quando questi hanno un libro in prestito, non potendo lasciare l’attributo chiave NumeroLibro non specificata.
+_Ridondanza dell’informazione_: Ripetere più volte la stessa informazione e problematico sia per spreco di  memoria e per l aggiornamento delle informazioni 
+_Impossibilità di rappresentare certi fatti_: questo succede quando la rappresentazione di certi _fatti_ dipende dalla rappresentazione di altri fatti
+
+per evitare questi problemi si decompongono le relazioni in Piu relazioni diverse collegate tra loro tramite uno degli attributi.
+La decomposizione è un processo delicato e va fatto con cura infatti si possono incappare nei problemi di 
+_Perdita di informazioni_: questo avviene quando il [[Algebra Relazionale|Join]] tre le due relazioni prodotto della decomposizione produce più ennuple della relazione originale, Questo avviene quando viene scelta come [[Progettazione DB - Definizione Chiavi|chiave esterna]] per una delle due relazione un _[[Modellazione della conoscenza|Atributo]]_ che non rappresenta univocamente quel _[[Modellazione della conoscenza|Entità]]_, ovvero che non è una [[Progettazione DB - Definizione Chiavi|chiave valida]] per quel entità 
+_Perdita di dipendenze funzionali_: questo avviene quando una [[Dipendenze funzionali nei DB|dipendenza funzionale]] presente nella [[Relazioni tra insiemi|relazione]] originale non è più deducibile dalle due _relazioni_ di decomposizione. 
 
