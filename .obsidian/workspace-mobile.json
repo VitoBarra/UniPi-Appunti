@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md",
+                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md",
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md",
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md"
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md"
           }
         }
       },
@@ -166,7 +166,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,15 +178,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "dc1448b5263d5e58",
   "lastOpenFiles": [
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Schemi relazionali - Dipendenze derivate.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Assiomi di Armstrong.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1062.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggi per basi di dati.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1041.jpeg",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1060.jpeg",
@@ -203,22 +212,14 @@
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Rappresentazione Grafica.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md",
     "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modelli di dati.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Modelli di dati.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md",
-    "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Calcolo proposizionale (PROP).md",
-    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md",
-    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Coda di Priorita.md",
-    "Studi/Triennale Informatica/Note/Complementari/Crittografia (CRI)/Note/Funzioni Hash.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Hash Table.md",
     "UniPi INF/Note/3° Anno/Basi di dati/Note",
     "UniPi INF/Note/3° Anno/Basi di dati/Media",
     "Untitled 1.canvas",

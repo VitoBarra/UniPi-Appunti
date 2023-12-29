@@ -54,10 +54,10 @@ Due _tipo relazione_ sono uguali se hanno la stesso _tipo ennupla_
 
 ##### Schema di relazione (Definizione)
 uno _Schema di relazionale_ $R:\{T\}$ è una _coppia_ dove $R$ è il _nome della relazione_ è $\{T\}$ è  un _tipo relazione_
-
 ##### Schema relazionale (Definizione)
 lo _schema relazionale_ è costituito da un insieme di _schemi di relazioni_ $R_{i}:\{T_{i}\}$ e da un _[[Insiemi Matematici|insieme]]_ di _vincoli di integrità_ relativi a tali schemi.
 
+Può essere abbreviato con $R(T)$
 #### Aspetto estensionale
 ##### Ennupla (Definizione)
 _siano_ 

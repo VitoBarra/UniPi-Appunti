@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Algebra Relazionale - Trasformazione di espressioni",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md"
+      "basename": "Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md"
+    },
+    {
+      "basename": "Dipendenze funzionali derivate - Chiusura rispetto gli attributi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
+    },
+    {
+      "basename": "Schemi relazionali - Dipendenze derivate",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Schemi relazionali - Dipendenze derivate.md"
+    },
+    {
+      "basename": "Schemi relazionali - Dipendenze funzionali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md"
+    },
+    {
+      "basename": "Modello dati - Modello Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
+    },
+    {
+      "basename": "Aspetti della modellazione della conoscenza",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md"
+    },
+    {
+      "basename": "Dipendenze funzionali derivate - Assiomi di Armstrong",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Dipendenze funzionali derivate - Assiomi di Armstrong.md"
+    },
+    {
+      "basename": "Normalizzazione di schemi relazionali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+    },
+    {
+      "basename": "Relazioni tra insiemi",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
+    },
+    {
+      "basename": "Algebra Relazionale - Trasformazione di espressioni",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md"
     },
     {
       "basename": "Modello relazionale - Algebra Relazionale",
@@ -61,10 +97,6 @@
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Rappresentazione Grafica.md"
     },
     {
-      "basename": "Modello dati - Modello Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
-    },
-    {
       "basename": "Modello Relazionale - Chiavi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
     },
@@ -83,10 +115,6 @@
     {
       "basename": "Modello dati - Modello ad oggetti",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
-    },
-    {
-      "basename": "Aspetti della modellazione della conoscenza",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md"
     },
     {
       "basename": "Modelli di dati",
@@ -171,34 +199,6 @@
     {
       "basename": "UML - Diagramma degli oggetti",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Ingegneria del software/Note/UML - Diagramma degli oggetti.md"
-    },
-    {
-      "basename": "Triennale informatica MOC",
-      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
-    },
-    {
-      "basename": "Studi MOC",
-      "path": "Studi/Studi MOC.md"
-    },
-    {
-      "basename": "Dipendenze funzionali nei DB",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md"
-    },
-    {
-      "basename": "Normalizzazione di schemi relazionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Applicazioni tra insiemi",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Applicazioni tra insiemi.md"
-    },
-    {
-      "basename": "Base MOC",
-      "path": "Base MOC.md"
     }
   ],
   "omittedPaths": [],

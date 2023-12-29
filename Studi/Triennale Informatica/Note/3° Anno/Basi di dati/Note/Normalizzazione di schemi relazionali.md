@@ -40,5 +40,5 @@ _Impossibilità di rappresentare certi fatti_: questo succede quando la rapprese
 per evitare questi problemi si decompongono le relazioni in Piu relazioni diverse collegate tra loro tramite uno degli attributi.
 La decomposizione è un processo delicato e va fatto con cura infatti si possono incappare nei problemi di 
 _Perdita di informazioni_: questo avviene quando il [[Modello relazionale - Algebra Relazionale|Join]] tre le due relazioni prodotto della decomposizione produce più ennuple della relazione originale, Questo avviene quando viene scelta come [[Modello Relazionale - Chiavi|chiave esterna]] per una delle due relazione un _[[Aspetti della modellazione della conoscenza|Atributo]]_ che non rappresenta univocamente quel _[[Aspetti della modellazione della conoscenza|Entità]]_, ovvero che non è una [[Modello Relazionale - Chiavi|chiave valida]] per quel entità 
-_Perdita di dipendenze funzionali_: questo avviene quando una [[Dipendenze funzionali nei DB|dipendenza funzionale]] presente nella [[Relazioni tra insiemi|relazione]] originale non è più deducibile dalle due _relazioni_ di decomposizione. 
+_Perdita di dipendenze funzionali_: questo avviene quando una [[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]] presente nella [[Relazioni tra insiemi|relazione]] originale non è più deducibile dalle due _relazioni_ di decomposizione. 
 

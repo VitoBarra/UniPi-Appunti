@@ -25,8 +25,12 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	2. [[Progettazione DB - Progettazione Logica Relazionale]]
 	3. [[Progettazione DB - Viste]]
 7. [[Normalizzazione di schemi relazionali]]
-	1. [[Dipendenze funzionali nei DB]]
-	2. [[Algoritmi per Le forme normali]]
+	1. [[Schemi relazionali - Dipendenze funzionali]]
+	2. [[Schemi relazionali - Dipendenze derivate]]
+		1. [[Dipendenze funzionali derivate - Assiomi di Armstrong ]]
+		2. [[Dipendenze funzionali derivate - Chiusura rispetto gli attributi]]
+		3. [[Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze]]
+	3. [[Algoritmi per Le forme normali]]
 8. [[Linguaggio per Database - SQL]]
 	1. [[SQL - Data Manipulation Lenguage]]
 	2. [[SQL - Query avanzate]]
@@ -39,7 +43,6 @@ Parent MOC: "[[Triennale informatica MOC]]"
 		1. [[DBMS - Ottimizzazione fisica]]
 	4. [[DBMS - Transazioni]]
 		1. [[DBMS - Transazioni e concorrenza]]
-	5. 
 
 
 
@@ -49,8 +52,9 @@ Parent MOC: "[[Triennale informatica MOC]]"
 
 
 ## ToDo del corso
-- [ ] Trasformazione oggetti -> relazionale (27)
-- [ ] Algebra Relazionale (28)
+- [x] Trasformazione oggetti -> relazionale (27)
+- [x] Algebra Relazionale (28)
+	- [ ] Trasformazione di formule (da fare alla fine)
 - [ ] Dipendenze funzionali (29)
 - [ ] Forme Normali (29-30)
 	- [ ] Algoritmi per forme normali
