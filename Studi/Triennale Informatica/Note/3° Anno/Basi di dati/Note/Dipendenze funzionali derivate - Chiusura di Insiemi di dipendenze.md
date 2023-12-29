@@ -100,4 +100,9 @@ Rimane da provare che r soddisfa ogni dipendenza in F. Sia W → V una di￾pend
 dipendenza. Se W ⊆ XPIU, si ha che V ⊆ XPIU poiche l’algoritmo termina con ´
 XPIU. Ma V ⊆ XPIU implica t[V] = t
 0
-[V] e quindi r soddisfa la dipendenza
+[V] e quindi r soddisfa la dipendenza++
+
+
+
+
+
