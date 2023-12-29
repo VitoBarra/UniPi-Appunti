@@ -2,6 +2,7 @@
 Base MOC.md
 Excalidraw/Drawing 2023-09-22 11.51.47.excalidraw.md
 Excalidraw/Drawing 2023-11-30 14.59.43.excalidraw.md
+Excalidraw/Drawing 2023-12-29 22.06.39.excalidraw.md
 Extra Note/Calcolare l N-esimo numero primo Willans's formula.md
 Extra Note/Latex Util/Macros.md
 Extra Note/Latex Util/Resource.md
@@ -340,7 +341,18 @@ Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Definizioni
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Definizioni#Equivalenze logiche
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica proposizionale.md#Logica proposizionale#Semantica#Interpretazione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md#Operazioni Insiemistiche
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md#Operazioni Insiemistiche#Complemento
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md#Operazioni Insiemistiche#Differenza
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md#Operazioni Insiemistiche#Intersezione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni Insiemistiche.md#Operazioni Insiemistiche#Unione
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni logiche.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md#Operazioni tra insiemi#Complemento
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md#Operazioni tra insiemi#Differenza
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md#Operazioni tra insiemi#Intersezione
+Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Operazioni tra insiemi.md#Operazioni tra insiemi#Unione
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Ordinamento canonico.md
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md
 Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Problema della Sodisfacibilita (SAT).md
@@ -382,6 +394,20 @@ Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Not
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Programmazione Dinamica.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Record D'attivazione.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Ricerca Binaria.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati -  ABR.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - A-B Alberi.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - A-B Alberi.md#A-B Alberi
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - A-B Alberi.md#A-B Alberi#Definizione
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Albero.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - B-Tree.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Coda di Priorita.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - DAG.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Grafo.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Hash Table.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Heap.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Lista linkata.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - MultiInsieme.md
+Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - Pila.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Strutture Dati.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/a-b Alberi.md
 Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md
@@ -768,6 +794,7 @@ Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei 
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md#Insieme dei numeri di macchina#Insieme dei numeri di macchina#Proprietà
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md#Insieme dei numeri di macchina#Insieme dei numeri di macchina#Rappresentazione in memoria
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Insieme dei numeri di macchina.md#Insieme dei numeri di macchina#Virgola fissa
+Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione Lineare.md
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md#Interpolazione polinomiale
 Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione polinomiale.md#Interpolazione polinomiale#Basi utilizzabili per l interpolazione
@@ -1324,10 +1351,52 @@ Studi/Triennale Informatica/Note/2° Anno/Statistica/Statistica (STAT).md
 Studi/Triennale Informatica/Note/2° Anno/Statistica/Statistica (STAT).md#Statistica (STAT)#Course MOC  📒
 Studi/Triennale Informatica/Note/2° Anno/Statistica/Statistica (STAT).md#Statistica (STAT)#Course MOC  📒#Educational Material 🧱
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md#Algebra Relazionale - Trasformazione di espressioni#Algoritmo
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md#Algebra Relazionale - Trasformazione di espressioni#Proprietà delle operazioni
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto Programmatico(come si procede nella costruzione del modello?)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto linguistico astratto (come si modella?)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto linguistico concreto (con quale linguaggio formale si definisci il modello?)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Comunicazione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza Astratta
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Associazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Cardinalita (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Collezione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Conoscenza concreta (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Entità (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Generalizzazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Istanza di associazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Molteplicità (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Proprietà (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Struttura della conoscenza concfreta (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Tipo (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza concreta#Totalità di un associazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Creazione di un modello#Aspetto ontologico (cosa si modella?)#Conoscenza procedurale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Modellazione della conoscenza
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md#Aspetti della modellazione della conoscenza#Modellazione della conoscenza#Modello Astratto (Definizione)
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md#Dipendenze funzionali derivate - Assiomi di Armstrong#Assiomi di Armstrong (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md#Dipendenze funzionali derivate - Assiomi di Armstrong#Assiomi di Armstrong (Definizione)#Regole derivate
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md#Dipendenze funzionali derivate - Assiomi di Armstrong#Teorema
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md#Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze#Chiusura di un insieme di dipendenze (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md#Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze#Problema di inlusione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md#Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze#Problema di inlusione#Algoritmo di chiusura lenta
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md#Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze#Problema di inlusione#Algoritmo di chiusura lenta#Teorema
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md#Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze#Problema di inlusione#Algoritmo esaustivo
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md#Dipendenze funzionali derivate - Chiusura rispetto gli attributi#Chiusura di insieme  attributi su insieme di dipendenze (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md#Dipendenze funzionali derivate - Chiusura rispetto gli attributi#Chiusura di insieme  attributi su insieme di dipendenze (Definizione)#Teorema
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali nei DB.md
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggi per basi di dati.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md#Modellazione della conoscenza
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md#Modellazione della conoscenza#Creazione di un modello
@@ -1351,10 +1420,91 @@ Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della c
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md#Modellazione della conoscenza#Creazione di un modello#Aspetto ontologico#Conoscenza concreta#Tipo (Definizione)
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md#Modellazione della conoscenza#Creazione di un modello#Aspetto ontologico#Conoscenza concreta#Totalità di un associazione (Definizione)
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modellazione della conoscenza.md#Modellazione della conoscenza#Creazione di un modello#Aspetto ontologico#Conoscenza procedurale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modelli di dati.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md#Modello Relazionale - Chiavi
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md#Modello Relazionale - Chiavi#Chiave (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md#Modello Relazionale - Chiavi#Chiave (Definizione)#Chiave primaria (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md#Modello Relazionale - Chiavi#Chiave (Definizione)#Chiavi esterne (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md#Modello Relazionale - Chiavi#Superchiave (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Rappresentazione Grafica.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Introduzione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Introduzione#Confronto con modello ad oggetti
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto Intenzionale#Schema di relazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto Intenzionale#Schema relazionale (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto Intenzionale#Tipo Relazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto Intenzionale#Tipo ennupla (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto estensionale#Cardinalita di una relazione (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto estensionale#Ennupla (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Aspetto estensionale#Istanza dello schema (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Modello relazionale#Notazione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md#Modello dati - Modello Relazionale#Vincoli di integrita
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Conoscenza Astratta
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Conoscenza Astratta#Rappresentazione del conoscenza proceduraleEcco il testo con la formattazione corretta:
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Conoscenza Astratta#Rappresentazione della comunicazione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Conoscenza Astratta#Rappresentazione grafica
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi gerarchiche#Definizione per ereditarieta
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi gerarchiche#Gerarchia di inclusione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi gerarchiche#Gerarchia di tipi (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi#Classe (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Classi#Rappresentazione grafica
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)#Identificatore del oggetto (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)#Interfaccia del oggetto (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)#Interfaccia tipo oggetto (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)#Rappresentazione grafica
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Oggetto(Definizione)#Tipo del oggetto (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Rappresentazione delle associazioni#Associazioni Binarie
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md#Progettazione DB - Modello ad oggetti#Rappresentazione della struttura della conoscenza concreta#Rappresentazione delle associazioni#Associazioni n-arie
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Altri Operatori
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Altri Operatori#Funzione di aggregazione e raggruppamento
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Altri Operatori#Proiezione generalizata
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Espressione dell’algebra relazionale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Notazione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati#Divisione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati#Giunzione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati#Giunzione naturale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati#Intersezione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operatori Derivati#Semi-giunzione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Differenza
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Prodotto
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Proiezione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Restrizione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Ridenominazione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md#Modello relazionale -Algebra Relazionale#Algebra relazionale#Operazioni primitive#Unione
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md#Normalizzazione di schemi relazionali
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md#Normalizzazione di schemi relazionali#Anomalie
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#1.Rappresentazioni delle associazioni uno a molti e uno a molti
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#2.Rappresentazioni delle associazioni molti a molti
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#3.Rappresentazioni delle gerarchie tra classi
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#4. Definizione delle chiavi primarie
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#5. Rappresentazione degli atributo multi valore
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md#Progettazione DB - Progettazione Logica Relazionale#Traduzione#6. Appiattimento degli attributi composti
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md#Schemi relazionali - Dipendenze derivate
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md#Schemi relazionali - Dipendenze derivate#Dipendenza Derivata (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md#Schemi relazionali - Dipendenze derivate#Ricerca Delle dipendenze derivate
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md#Schemi relazionali - Dipendenze derivate#Ricerca Delle dipendenze derivate#Definizione
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md#Schemi relazionali - Dipendenze derivate#Ricerca Delle dipendenze derivate#Derivazione di una dipendenza (Definizione)
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md#Schemi relazionali - Dipendenze funzionali
+Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md#Schemi relazionali - Dipendenze funzionali#Dipendenza funzionale (Definizione)
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md#Sistemi informativi
 Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md#Sistemi informativi#Big data

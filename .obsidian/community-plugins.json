@@ -6,9 +6,7 @@
   "better-word-count",
   "obsidian-kanban",
   "obsidian-outliner",
-  "obsidian-icon-folder",
   "obsidian-dictionary-plugin",
-  "execute-code",
   "dataview",
   "obsidian-git",
   "recent-files-obsidian",
@@ -24,5 +22,15 @@
   "obsidian-charts",
   "obsidian-pandoc",
   "obsidian-reading-time",
-  "smart-connections"
+  "editing-toolbar",
+  "file-tree-alternative",
+  "note-refactor-obsidian",
+  "obsidian-plantuml",
+  "obsidian-tasks-plugin",
+  "tag-wrangler",
+  "obsidian-spaced-repetition",
+  "omnisearch",
+  "dbfolder",
+  "text-extractor",
+  "obsidian-scroll-to-top-plugin"
 ]

@@ -3,7 +3,7 @@ type: nota
 course: Data Base
 topic: 
 tags:
-  - FDI
+  - DB
 Parent MOC: "[[Data Base (DB)]]"
 ---
 

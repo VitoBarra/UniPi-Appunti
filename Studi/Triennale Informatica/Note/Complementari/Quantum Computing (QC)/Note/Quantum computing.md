@@ -2,10 +2,10 @@
 type: nota
 course: Quantum Computing
 topic: 
-tags: QC
+tags:
+  - QC
+Parent MOC: "[[Quantum Computing (QC)]]"
 ---
-
-Prev: [[Quantum Computing (QC)]]
 
 # Quantum computing
 ---
