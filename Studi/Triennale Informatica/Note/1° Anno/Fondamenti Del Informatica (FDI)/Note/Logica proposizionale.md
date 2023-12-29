@@ -2,15 +2,13 @@
 type: nota
 course: Fondamenti Di Informatica
 topic: 
-tags: FDI
+tags:
+  - FDI
+Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
-
-Prev: [[Fondamenti Del Informatica (FDI)]]
-
 # Logica proposizionale
 ---
 un modo per esprimere le espressioni logiche Tramite simboli detti _letterali_ e operazioni, questo tipo di logica lavora espressioni di verità, ovvero i valori ammessi sono solo _True_ e _False_
-
 
 ## Sintassi
 
@@ -39,3 +37,5 @@ l insieme dei valori assegnati ad ogni letterale è detta interpretazione
 
 
 ![[D0CDB587-A471-4FCF-9E1C-BD57687332A4.jpeg]]
+
+Queste formule sono utilzate dalla [[Calcolo proposizionale (PROP)|Calcolo proposizionale]] per la semplificazione delle espressioni

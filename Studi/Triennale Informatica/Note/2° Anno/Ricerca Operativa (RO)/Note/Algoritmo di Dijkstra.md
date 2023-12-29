@@ -58,4 +58,4 @@ per ogni arco $(u,v)\in A$ se $\pi_v > \pi_u +c_{uv}$ allora
 
 
 > [!note]
-> di solito per selezionare il nodo minimo si salvano i nodi in una [[Coda di Priorita|coda di priorità]] dove si utilizzano i potenziali come chiave di ordinamento 
+> di solito per selezionare il nodo minimo si salvano i nodi in una [[Struttura dati - Coda di Priorita|coda di priorità]] dove si utilizzano i potenziali come chiave di ordinamento 

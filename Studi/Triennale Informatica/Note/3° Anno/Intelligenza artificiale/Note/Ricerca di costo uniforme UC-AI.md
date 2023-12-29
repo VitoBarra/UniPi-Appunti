@@ -9,7 +9,7 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 
 # Ricerca di costo uniforme UC-AI
 ---
-è un [[Algoritmi di ricerca per AI|Algoritmo di ricerca]] che utilizza una [[Coda di Priorita|Coda di priorita]]  ed è una generalizzazione con i costi di [[Ricerca in ampiezza BF-AI|BF]] ma invece di espandere la frontiera si espande il nodo di costo più basso non ancora esplorato
+è un [[Algoritmi di ricerca per AI|Algoritmo di ricerca]] che utilizza una [[Struttura dati - Coda di Priorita|Coda di priorita]]  ed è una generalizzazione con i costi di [[Ricerca in ampiezza BF-AI|BF]] ma invece di espandere la frontiera si espande il nodo di costo più basso non ancora esplorato
 
 
 ```python

@@ -14,7 +14,7 @@ Sono _particolari_ tipi di [[Funzioni Hash|funzioni hash]] $h:X\rightarrow Y$ ch
 1. ogni elemento $\forall  x \in X$ è [[Complessita|computazionalmente facile]] calcolare $y=h(x)$
 2. (_One-way_) per la _maggior parte_ degli elementi $y \in Y$ è computazionalmente difficile determinare un $x$  tale che $h(x)=y$ 
 3. (_strong Collision-resistant_) è _computazionalmente difficile_ determinare $x',x''$ tale che $$h(x')=h(x'')$$
-l avere queste proprietà le rende adatta ad applicazioni Crittografiche. Queste applicazione dovranno gestire il _problema delle collisioni_. Un modo è con la struttura dati [[Hash Table|Hash Table]] altre proprietà che devono soddisfare per essere buone _funzione hash one way_ per applicazioni crittografiche sono
+l avere queste proprietà le rende adatta ad applicazioni Crittografiche. Queste applicazione dovranno gestire il _problema delle collisioni_. Un modo è con la struttura dati [[Struttura dati - Hash Table|Struttura dati - Hash Table]] altre proprietà che devono soddisfare per essere buone _funzione hash one way_ per applicazioni crittografiche sono
 1. prendono in input una valore di _qualsiasi grandezza_
 2. danno in output un valore di una _grandezza fissa_
 3. (_Weak collision resistent_) dato un blocco $x’$ deve essere difficile trovare un $x’’$ tale che  $x’’ \not =x’ . h(x’) = h(x’’)$

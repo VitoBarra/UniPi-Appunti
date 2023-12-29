@@ -9,7 +9,7 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 
 # Ricerca A* per AI
 ---
-L A diverso da A* è un [[Algoritmi di ricerca informati per AI|Algoritmo di ricerca Informato]] di tipo Best-Frist  funziona come la [[Ricerca di costo uniforme UC-AI|UC]] ma utilizza nella [[Coda di Priorita|Coda di priorita]] la funzione $$f(n) = g(n)+h(n)$$
+L A diverso da A* è un [[Algoritmi di ricerca informati per AI|Algoritmo di ricerca Informato]] di tipo Best-Frist  funziona come la [[Ricerca di costo uniforme UC-AI|UC]] ma utilizza nella [[Struttura dati - Coda di Priorita|Coda di priorita]] la funzione $$f(n) = g(n)+h(n)$$
 dove
 - $g(n)$ è il costo del cammino dal nodo di partenza al nodo $n$
 - $h(n)$ è il la funzione di valutazione euristica

@@ -27,9 +27,9 @@ il  _processo di normalizzazione_ tiene conto solo del eliminazione delle _anoma
 
 ##### Assunto della normalizzazione 
 La _Teoria della Normalizzazione_ assume l esistenza di uno  _schema di relazione Universale del DB_, questo assicura che _attributi_ con lo _stesso nome_ anche in _relazioni_ diverse abbiano lo stesso significato, ovvero condividono il dominio e il _fatto_ che stanno rappresentando 
-Questo permette di evitare di fare _ridenominazioni_ durante le operazioni di normalizzazione e permette di usare sempre il [[Algebra Relazionale|Join Naturale]]   
+Questo permette di evitare di fare _ridenominazioni_ durante le operazioni di normalizzazione e permette di usare sempre il [[Modello relazionale - Algebra Relazionale|Join Naturale]]   
 ###### Schema di relazione universale (Definizione)
- uno _Schema di relazione universale_ $U$ di un _database Relazionale_ ha come attributi l [[Operazioni tra insiemi|unione]] degli attributi di tutte le [[Relazioni tra insiemi|relazioni]] del _database_
+ uno _Schema di relazione universale_ $U$ di un _database Relazionale_ ha come attributi l [[Operazioni Insiemistiche|unione]] degli attributi di tutte le [[Relazioni tra insiemi|relazioni]] del _database_
  
 ##### Anomalie
 Le anomalie per un database sono definite come
@@ -39,6 +39,6 @@ _Impossibilità di rappresentare certi fatti_: questo succede quando la rapprese
 
 per evitare questi problemi si decompongono le relazioni in Piu relazioni diverse collegate tra loro tramite uno degli attributi.
 La decomposizione è un processo delicato e va fatto con cura infatti si possono incappare nei problemi di 
-_Perdita di informazioni_: questo avviene quando il [[Algebra Relazionale|Join]] tre le due relazioni prodotto della decomposizione produce più ennuple della relazione originale, Questo avviene quando viene scelta come [[Progettazione DB - Definizione Chiavi|chiave esterna]] per una delle due relazione un _[[Modellazione della conoscenza|Atributo]]_ che non rappresenta univocamente quel _[[Modellazione della conoscenza|Entità]]_, ovvero che non è una [[Progettazione DB - Definizione Chiavi|chiave valida]] per quel entità 
+_Perdita di informazioni_: questo avviene quando il [[Modello relazionale - Algebra Relazionale|Join]] tre le due relazioni prodotto della decomposizione produce più ennuple della relazione originale, Questo avviene quando viene scelta come [[Modello Relazionale - Chiavi|chiave esterna]] per una delle due relazione un _[[Aspetti della modellazione della conoscenza|Atributo]]_ che non rappresenta univocamente quel _[[Aspetti della modellazione della conoscenza|Entità]]_, ovvero che non è una [[Modello Relazionale - Chiavi|chiave valida]] per quel entità 
 _Perdita di dipendenze funzionali_: questo avviene quando una [[Dipendenze funzionali nei DB|dipendenza funzionale]] presente nella [[Relazioni tra insiemi|relazione]] originale non è più deducibile dalle due _relazioni_ di decomposizione. 
 

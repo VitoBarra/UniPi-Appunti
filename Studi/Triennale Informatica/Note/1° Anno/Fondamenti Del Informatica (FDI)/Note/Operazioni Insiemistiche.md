@@ -7,7 +7,7 @@ tags:
 Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
 
-# Operazioni tra insiemi
+# Operazioni Insiemistiche
 ---
 operazioni tra [[Insiemi Matematici|insiemi]]
 ## Unione

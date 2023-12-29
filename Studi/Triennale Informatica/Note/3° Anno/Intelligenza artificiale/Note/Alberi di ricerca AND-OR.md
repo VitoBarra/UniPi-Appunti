@@ -14,7 +14,7 @@ si utilizzano in [[Definizione di problemi per AI - Ambienti|ambienti]] più rea
 gli [[Agenti Razionali|agenti]] in questo caso elabora una “Strategia” che tiene conto delle diverse eventualità, queste scoperte con delle percezioni sul ambiente. l agente sviluppa un _piano con contingenza_ 
 
 ## Alberi di ricerca AND-OR
-è un [[Albero struttura dati|albero]] di cui 
+è un [[Struttura dati - Albero|albero]] di cui 
 - I nodi _OR_ sono le _scelte del agente_, un unica azione
 - i nodi _AND_ sono le _diverse contingenze_ ovvero al esecuzione del azione si presentano i vari stati possibili, e sono tutte da considerare
 una soluzione a un problema di ricerca _AND-OR_ è un albero che 

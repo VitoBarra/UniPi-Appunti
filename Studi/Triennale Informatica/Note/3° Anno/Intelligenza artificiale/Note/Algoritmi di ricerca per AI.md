@@ -20,7 +20,7 @@ questi sono utilizzati dai [[Agenti risolutori di problemi]] sotto le seguenti  
 		- Possiamo valutare gli algoritmi sul costo della ricerca e ottimizzare il costo del cammino
 
 
-Definito il problema si passa alla ricerca della soluzione. per farlo si utilizza una [[Albero struttura dati|Albero]] _di ricerca_ sovrapposto allo _spazio degli stati_. non è pero detto che un nodo sia uno stato diverso, si possono rincontrare stati già incontrati durante l esplorazione del albero.
+Definito il problema si passa alla ricerca della soluzione. per farlo si utilizza una [[Struttura dati - Albero|Albero]] _di ricerca_ sovrapposto allo _spazio degli stati_. non è pero detto che un nodo sia uno stato diverso, si possono rincontrare stati già incontrati durante l esplorazione del albero.
 
 Un _nodo_ $n$ è una struttura dati con quattro componenti: 
 - Uno stato: $n.stato$ 

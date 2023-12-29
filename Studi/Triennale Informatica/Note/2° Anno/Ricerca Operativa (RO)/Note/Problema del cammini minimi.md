@@ -11,7 +11,7 @@ Prev: [[Ricerca Operativa (RO)]]
 ---
 
 ### Definizione
-sia $G(N,A)$ un [[Grafo struttura dati|grafo]] orientato in cui  definito un costo $c_{ij}$ per ogni arco $(i,j)\in A$ Dati un nodo origine $s \in N$ e un nodo destinazione $t\in N$, trovare un [[cammini su grafi|cammino orientato]] da $s$ a $t$ di costo minimo, dove il costo di un cammino è definito come la soma dei costi degli archi da cui è formato
+sia $G(N,A)$ un [[Struttura dati - Grafo|grafo]] orientato in cui  definito un costo $c_{ij}$ per ogni arco $(i,j)\in A$ Dati un nodo origine $s \in N$ e un nodo destinazione $t\in N$, trovare un [[cammini su grafi|cammino orientato]] da $s$ a $t$ di costo minimo, dove il costo di un cammino è definito come la soma dei costi degli archi da cui è formato
 
 ## Modello
 

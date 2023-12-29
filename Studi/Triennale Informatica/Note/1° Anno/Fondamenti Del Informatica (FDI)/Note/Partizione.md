@@ -14,4 +14,4 @@ una _partizione_ di una [[Insiemi Matematici|insieme]] $A$ è una _famiglia di s
 \bigcup_{P_{i}\in F}P_{i} & = & A
 \end{array}
 $$
-dove $\cup,\cap$ le operazioni di [[operazioni su Insiemi|unione e intersezione]]
+dove $\cup,\cap$ le operazioni di [[Operazioni su Insiemi|unione e intersezione]]

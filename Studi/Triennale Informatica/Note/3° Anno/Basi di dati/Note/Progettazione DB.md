@@ -23,19 +23,18 @@ per la _manutenzione_ e messa a punto del DB – _Gestione del DBMS_
 
 
 
-Nella Progettazione di un Modello informatico si passa per 2 fasi
-- Si "_Definisce_" il modello, ovvero si rappresentala struttura della conoscenza concreta, la conoscenza astratta, la conoscenza procedurale i tipi di comunicazione
-	- Ovvero si definisce lo schema e le applicazioni
+Nella Progettazione di un _Modello informatico_ si passa per 2 fasi
+- Si "_Definisce_" il modello, ovvero si rappresentala la [[Aspetti della modellazione della conoscenza|conoscenza]] ( struttura della conoscenza concreta, la conoscenza astratta, la conoscenza procedurale i tipi di comunicazione) con un [[Modelli di dati|modello dati]]
+	- Ovvero si definisce lo _schema_ e le _applicazioni_
 - si "_costruisce_" la rappresentazione di fatti specifici conformi alle definizioni date ovvero la rappresentazione della conoscenza concreta
-	- Ovvero si immettono i dati concreti
+	- Ovvero si _immettono_ i dati concreti
 
 
-Per _definire_ un modello bisogna scegliere il formalismo da usare e questi possono differire per
-- i modi in cui si rappresenta la struttra della conoscenza concreta
-- La possibilità di rappresentare aspetti [[Modellazione della conoscenza|procedurali]]
-- gli operatori disponibili sui fatti rappresentati
+I modelli _informatici si differenziano_ per i [[Modelli di dati|modelli di dati]] che supportano
 
 
-due Formalismi importanti sono i modelli
-- [[Progettazione DB - Modello ad oggetti|Modello ad oggetti]]
-- [[Progettazione DB - Modello Relazionale|modello Relazionale]]
+
+La progettazione di un DB si basa su piu fasi 
+![[IMG_1041.jpeg]]
+partendo dal [[Analisi dei requisiti|Analisi dei requisiti]] 
+![[IMG_1042.jpeg]]

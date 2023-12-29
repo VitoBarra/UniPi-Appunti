@@ -2,11 +2,10 @@
 type: nota
 course: Ingegneria del software
 topic: 
-tags: IS
+tags:
+  - IS
+Parent MOC: "[[Ingegneria Del Software (IS)]]"
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # UML - Diagramma degli oggetti
 ---
 è uno dei diagrammi di [[UML]] è rappresenta gli oggetti concreti.

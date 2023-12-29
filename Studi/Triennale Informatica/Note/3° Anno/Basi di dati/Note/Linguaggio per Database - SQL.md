@@ -7,5 +7,6 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Progettazione DB - Modello ad oggetti
+# SQL
 ---
+l _SQL_ è un [[Linguaggio per Database - SQL|linguaggio per database]]

@@ -7,9 +7,11 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Modellazione della conoscenza
+# Aspetti della modellazione della conoscenza
 ---
-Si vuole creare un _modello astratto_ del _universo del discorso_ questo rappresentare la parte della realtà che ci interessa, fare ciò ci permette di analizzare e lavorare più facilmente sui dati che ci interessano  
+
+### Modellazione della conoscenza
+Si vuole quindi creare un _modello astratto_ del _universo del discorso_ questo rappresentare la parte della realtà che ci interessa, fare ciò ci permette di analizzare e lavorare più facilmente sui dati che ci interessano  
 
 
 #### Modello Astratto (Definizione)
@@ -23,7 +25,7 @@ Questa definizione mette in evidenza
 ### Creazione di un modello
 Per creare un modello ciò bisogna chiedersi _cosa_ e _come_ si vuole modellare, queste domande vengono risposte dai vari aspetti del modello
 
-#### Aspetto ontologico
+#### Aspetto ontologico (cosa si modella?)
 l _aspetto ontologico_ (Descrizione di ciò che esiste) riguarda il _cosa_ si vuole modellare, quali _fatti_ ci interessano, ovvero quali parti della realtà ci interessa considerare come _universo del discorso_. Questo ci permette di _eliminare dettagli inutili_ agli scopi per cui si sta realizzando il modello stesso.
 
  si divide in 3 categorie
@@ -159,42 +161,25 @@ la conoscenza procedurale è classificata come
 ##### Comunicazione
 La _comunicazione_ riguarda le modalità offerte agli utenti del sistema informativo per `
 scambiare _informazioni_ con il sistema e per accedere alle risorse informative rispettando le regole e le possibilità loro concesse.
-Modellare la comunicazione significa anche rappresentare le interfacce del sistema informativo, quali ad esempio l’aspetto dei moduli cartacei e delle schermate che vanno riempite per comunicare con tale sistema.
-Si osservi che la conoscenza concreta, astratta e delle operazioni di base puo essere modellata facendo riferimento essenzialmente all’universo del discorso, sia pure visto in funzione delle necessita del sistema informativo di un’organizzazione. Passando invece alla conoscenza delle operazioni degli utenti, e ancor piu alla comunicazione, l’interesse si sposta gradatamente dall’universo del discorso al sistema informativo stesso. Poiche la modellazione e in generale finalizzata alla progettazione di un sistema informativo che modifichi quello preesistente, gli strumenti per modellare procedure e comunicazione possono essere usati per rappresentare tanto il sistem informativo esistente quanto quello in via di progettazione.L’interesse verso questo aspetto della progettazione e della modellazione, in particolare verso la modellazione dei dialoghi fra gli utenti e il sistema informatico, e molto `
+Modellare _la comunicazione significa_ anche rappresentare le _interfacce del sistema_ informativo
+Si osservi che la conoscenza concreta, astratta e delle operazioni di base puo essere modellata facendo riferimento essenzialmente all’universo del discorso, sia pure visto in funzione delle necessita del sistema informativo di un’organizzazione. 
+Passando invece alla conoscenza delle operazioni degli utenti, e ancor piu alla comunicazione, l’interesse si sposta gradatamente dall’universo del discorso al sistema informativo stesso. 
+Poiche la modellazione è in generale finalizzata alla progettazione di un sistema informativo che modifichi quello preesistente, gli strumenti per modellare procedure e comunicazione possono essere usati per rappresentare tanto il sistem informativo esistente quanto quello in via di progettazione.L’interesse verso questo aspetto della progettazione e della modellazione, in particolare verso la modellazione dei dialoghi fra gli utenti e il sistema informatico, e molto `
 cresciuto negli ultimi anni poiche, con lo sviluppo degli strumenti hardware e software che supportano la realizzazione di applicazioni con interfaccia grafica, la realizzazione di modalità di interazione gradevoli e personalizzate ai diversi tipi di utenti coinvolti ha assunto un’importanza sempre maggiore, sia come requisito, sia per cio che riguarda la quantita di lavoro che i programmatori dedicano alla realizzazione `
 dell’interfaccia stessa.
 
-#### Aspetto linguistico astratto
-L’aspetto linguistico astratto riguarda gli strumenti concettuali, o meccanismi di astra￾zione, adottati per modellare l’universo del discorso.
-Non sorprende che negli studi sull’argomento sia stata posta la massima attenzione
-su questi meccanismi, perche l’astrazione ´ e lo strumento concettuale principale per `
-acquisire e organizzare conoscenza.
-S`ı come a voler che i calcoli tornino sopra i zuccheri, le sete e le lane, bisogna che il
-computista faccia le sue tare di casse, invoglie e altre bagaglie, cos`ı, quando il filoso￾fo geometra vuol riconoscere in concreto gli effetti dimostrati in astratto, bisogna che
-difalchi gli impedimenti della materia.
-— Galileo Galilei, Dialogo sopra i due massimi sistemi del mondo.
-Un meccanismo di astrazione e lo strumento fondamentale per cogliere un aspetto `
-della situazione da descrivere, tralasciando dettagli ritenuti in quel momento poco
-significativi (l’astrazione come forza semplificatrice). Vedremo nelle prossime sezioni
-i meccanismi proposti per modellare alcuni dei fatti precedentemente elencati.
+#### Aspetto linguistico astratto (come si modella?)
+L’_aspetto linguistico astratto_ riguarda gli _strumenti concettuali_, o _meccanismi di astrazione_ adottati per modellare l’universo del discorso.
 
-#### Aspetto linguistico concreto
-L’aspetto linguistico concreto riguarda le caratteristiche, e la definizione, del linguag￾gio formale usato per costruire il modello. Una volta fissati i meccanismi di astrazione
-da usare per modellare, si possono usare linguaggi formali con caratteristiche molto
-diverse che supportano i meccanismi di astrazione prescelti, a seconda degli obiettivi
-che ci si prefigge con la costruzione del modello. Si possono usare linguaggi di spe￾cifica non eseguibili, linguaggi logici o linguaggi di programmazione. In questo libro
-l’attenzione sara sui formalismi grafici. `
+Un _meccanismo di astrazione_ è lo strumento fondamentale per cogliere un aspetto `
+della situazione da descrivere, _tralasciando dettagli_ ritenuti in quel momento poco
+significativi (l’astrazione come forza semplificatrice).
 
-#### Aspetto Programmatico
-L’aspetto pragmatico riguarda la metodologia da seguire nel processo di modellazio￾ne. Una metodologia e un insieme di regole finalizzate alla costruzione del modello `
-informatico. La natura delle metodologie dipende dal tipo di modello da costruire e
-quindi dal livello di dettaglio al quale vanno trattati i vari aspetti del modello.
-Nel prossimo capitolo ci limiteremo a mostrare un esempio di metodologia per pro￾gettare uno schema concettuale del modello, cioe una rappresentazione ad alto livello `
-della struttura della conoscenza concreta da trattare. Un’analoga metodologia da uti￾lizzare per la progettazione degli altri aspetti del modello informatico e molto pi ` u`
-complessa e la sua presentazione esula dai fini di questo libro. Si rinvia alle note
-bibliografiche per riferimenti a testi specifici.
-Nel resto del capitolo si approfondisce l’aspetto linguistico astratto della modellazione
-presentando dei meccanismi di astrazione per modellare alcuni dei fatti precedente￾mente elencati e si mostra un formalismo grafico per rappresentare tali fatti. Sebbene
-il formalismo grafico non consenta di rappresentare ogni aspetto di un modello informatico, vedremo come esso sia molto utile nelle fasi di specifica dei requisiti e di
-progettazione dello schema di una base di dati, quando occorre ragionare sui fatti piu`
-importanti da trattare.
+#### Aspetto linguistico concreto (con quale linguaggio formale si definisci il modello?)
+L’_aspetto linguistico concreto_ riguarda le caratteristiche, e la definizione, del _linguaggio formale_ usato per costruire il modello. 
+Una volta _fissati i meccanismi di astrazione_ da usare per modellare, si possono usare linguaggi formali con caratteristiche molto diverse che _supportano i meccanismi di astrazione_ prescelti, a seconda degli obiettivi che ci si prefigge con la costruzione del modello. Si possono usare linguaggi di specifica non eseguibili, linguaggi logici o linguaggi di programmazione
+
+#### Aspetto Programmatico(come si procede nella costruzione del modello?)
+L’_aspetto pragmatico_ riguarda la _metodologia_ da seguire nel processo di modellazione.
+Una _metodologia_ è un insieme di regole finalizzate alla _costruzione del modello  informatico_. 
+La natura delle metodologie dipende dal tipo di modello da costruire e quindi dal _livello di dettaglio_ al quale vanno trattati i vari aspetti del modello.

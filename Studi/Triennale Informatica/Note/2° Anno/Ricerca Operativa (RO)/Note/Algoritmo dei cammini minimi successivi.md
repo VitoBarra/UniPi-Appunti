@@ -13,7 +13,7 @@ Prev: [[Ricerca Operativa (RO)]]
 ![[Studi/Triennale Informatica/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 9.png]]
 
 ### *Teorema*
-Se le capacita ed i bilanci  degli archi di un [[Grafo struttura dati|grafo]] sono numeri interi, allora l [[Algoritmi|algoritmo]] trova una soluzione ottima dopo un numero finito di iterazioni
+Se le capacita ed i bilanci  degli archi di un [[Struttura dati - Grafo|grafo]] sono numeri interi, allora l [[Algoritmi|algoritmo]] trova una soluzione ottima dopo un numero finito di iterazioni
 
 ### dimostrazione
 

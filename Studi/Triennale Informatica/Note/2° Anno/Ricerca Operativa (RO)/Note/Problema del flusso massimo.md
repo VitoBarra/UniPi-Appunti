@@ -12,7 +12,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Definizione
 
-Sia $(N,A)$ un [[Grafo struttura dati|grafo]] orientato in cui è definita una capacita superiore $u_{ij}$ per ogni arco $(i,j) \in A$. Dati un nodo origine $s\in N$ ed un nodo destinazione $t \in N$, vogliamo spedicare la massima quantità possibile si flusso da $s$  a $t$ in modo da rispettare le capacita superiori degli archi.
+Sia $(N,A)$ un [[Struttura dati - Grafo|grafo]] orientato in cui è definita una capacita superiore $u_{ij}$ per ogni arco $(i,j) \in A$. Dati un nodo origine $s\in N$ ed un nodo destinazione $t \in N$, vogliamo spedicare la massima quantità possibile si flusso da $s$  a $t$ in modo da rispettare le capacita superiori degli archi.
 
 ![[Studi/Triennale Informatica/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 17.png]]
 

@@ -9,7 +9,7 @@ Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
 
 # Ricerca in ampiezza BF-AI
 ---
-è un [[Algoritmi di ricerca per AI|Algoritmo di ricerca]] che utilizza la strategia [[Pila struttura dati|FIFO]] implementando cosi un algoritmo di esplorazione [[Algoritmo di ricerca Breadth-Frist]] con la differenza di fare un controllo del raggiungimento del nodo goal al momento della generazione dei nodi, questi riduce la complessità
+è un [[Algoritmi di ricerca per AI|Algoritmo di ricerca]] che utilizza la strategia [[Struttura dati - Pila|FIFO]] implementando cosi un algoritmo di esplorazione [[Algoritmo di ricerca Breadth-Frist]] con la differenza di fare un controllo del raggiungimento del nodo goal al momento della generazione dei nodi, questi riduce la complessità
 
 con la BF su alberi si fa un esplorazione per livelli
 ![[Pasted image 20230212003152.png]]

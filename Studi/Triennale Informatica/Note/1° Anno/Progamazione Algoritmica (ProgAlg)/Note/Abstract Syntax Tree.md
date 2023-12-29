@@ -10,4 +10,4 @@ Prev: [[Programmazione Algoritmica (ProgAlg)]]
 # Abstract Syntax Tree
 ---
 
-si basa su [[Albero struttura dati]]
+si basa su [[Struttura dati - Albero]]

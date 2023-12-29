@@ -15,7 +15,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Variabili decisionali
 
-su un [[Grafo struttura dati|grafo]]  $G(N,A)$ per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
+su un [[Struttura dati - Grafo|grafo]]  $G(N,A)$ per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
 
 $$
 \begin{cases}

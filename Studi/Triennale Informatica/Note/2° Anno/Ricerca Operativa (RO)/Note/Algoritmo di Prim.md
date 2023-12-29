@@ -31,5 +31,5 @@ Segue dalla [[Condizione di ottimalità sui tagli|condizione di ottimalità basa
 
 
 >[!note] #### Osservazione
-Ad ogni iterazione dell’ algorismo di Prim l‘ insieme  $T$ è un [[Albero struttura dati|albero]]
+Ad ogni iterazione dell’ algorismo di Prim l‘ insieme  $T$ è un [[Struttura dati - Albero|albero]]
 

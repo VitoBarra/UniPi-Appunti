@@ -2,11 +2,10 @@
 type: nota
 course: Programmazione e Algoritmica
 topic: 
-tags: ProgAlgo
+tags:
+  - ProgAlgo
+Parent MOC: "[[Programmazione Algoritmica (ProgAlg)]]"
 ---
-
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
-
 # Funzioni Hash
 ---
 sono particolari tipi di [[Funzioni|funzioni]] $h:X \rightarrow Y$ dove _vale che_

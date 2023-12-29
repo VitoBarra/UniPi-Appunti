@@ -10,7 +10,7 @@ Pare: "[[Triennale informatica MOC]]"
 
 ## Course MOC  📒
 1. [[Insiemi Matematici]]
-	1. [[Operazioni tra insiemi]]
+	1. [[Operazioni Insiemistiche]]
 	2. [[Cardinalità di un insieme]]
 	3. [[Partizione]]
 	4. [[Relazioni tra insiemi]]
