@@ -5,6 +5,18 @@
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md"
     },
     {
+      "basename": "Dipendenze funzionali derivate - Chiusura rispetto gli attributi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md"
+    },
+    {
+      "basename": "Schemi relazionali - Dipendenze derivate",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md"
+    },
+    {
+      "basename": "Dipendenze funzionali derivate - Assiomi di Armstrong",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md"
+    },
+    {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
@@ -25,24 +37,12 @@
       "path": "Studi/Triennale Informatica/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
     },
     {
-      "basename": "Dipendenze funzionali derivate - Chiusura rispetto gli attributi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md"
-    },
-    {
       "basename": "Modello Relazionale - Chiavi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
     },
     {
       "basename": "Linguaggio per Database - SQL",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md"
-    },
-    {
-      "basename": "Dipendenze funzionali derivate - Assiomi di Armstrong",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md"
-    },
-    {
-      "basename": "Schemi relazionali - Dipendenze derivate",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md"
     },
     {
       "basename": "Normalizzazione di schemi relazionali",

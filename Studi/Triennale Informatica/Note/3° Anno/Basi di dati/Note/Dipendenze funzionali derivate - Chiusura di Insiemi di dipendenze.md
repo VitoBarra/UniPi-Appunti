@@ -40,7 +40,7 @@ e quindi l algoritmo segue come:
 \Function{ChiusuraLenta}{F,X}
 \State $X^+ :=X$
 \While{$X^+$ è cambiato}
-	\For {$\boldsymbol{ea} \ W \rightarrow V \in F\mid W \subseteq X^+ \land V \not \subseteq X^+$ }
+	\For {$\boldsymbol{e} \ W \rightarrow V \in F\mid W \subseteq X^+ \land V \not \subseteq X^+$ }
 	\State $X^+:=X^+ \cup V$
 	\EndFor
 \EndWhile
@@ -53,54 +53,71 @@ e quindi l algoritmo segue come:
 L’algoritmo _Chiusura lenta_ è _corretto_. `
 
 _Dimostrazione_:
-Terminazione. Ad ogni iterazione si aggiunge qualche attributo a XPIU oppure si
-termina. Poiche il numero degli attributi ´ e finito segue che l’algoritmo non pu ` o`
-ciclare indefinitamente.
-Correttezza. Per dimostrare che quando l’algoritmo termina XPIU = X
-+, si dimo￾stra che XPIU ⊆ X
-+ e X
-+ ⊆ XPIU.
-Per dimostrare che XPIU ⊆ X
-+ e sufficiente provare per induzione sul numero `
-di iterazioni j che XPIUj ⊆ X
-+, per ogni j. Per j = 0 l’affermazione e ovvia `
-essendo XPIU0 = X ⊆ X
-+ per riflessivita. Per l’ipotesi induttiva, sia ` XPIUj ⊆ X
-+
-e proviamo che XPIUj+1 ⊆ X
-+. Sia A un attributo aggiunto alla j + 1-esima
-iterazione. Per come e stato definito l’algoritmo si ha che ` A ∈ V, W → V ∈ F,
-W ⊆ XPIUj
-. Per l’ipotesi induttiva W ⊆ X
-+, e dal Teorema 5.2, X → W; per
-transitivita` X → V e quindi X → A. Pertanto A ∈ X
-+.
-Dimostriamo ora che X
-+ ⊆ XPIU. Si noti innanzitutto che se V ⊆ W, allora
-V
-+ ⊆ W+. Pertanto, poiche´ X ⊆ XPIU, X
-+ ⊆ XPIU+. Basta allora dimostrare
-che XPIU+ ⊆ XPIU, ovvero che se A 6∈ XPIU allora A 6∈ XPIU+, cioe esiste `
-un’istanza valida r di R che non soddisfa XPIU → A. Si costruisce una relazione
-r = {t, t0
-} di due ennuple distinte che dipendono dal risultato dell’algoritmo
-ponendo t[A] = t
-0
-[A] per ogni A ∈ XPIU e t[B] 6= t
-0
-[B] per ogni B ∈ T−XPIU.
-Supponiamo di aver dimostrato che r soddisfa ogni dipendenza in F; si dimostra
-che r non soddisfa XPIU → A: t e t
-0
-coincidono su XPIU per costruzione, mentre
-non coincidono su A perche per ipotesi ´ A 6∈ XPIU.
-Rimane da provare che r soddisfa ogni dipendenza in F. Sia W → V una di￾pendenza di F. Se W 6⊆ XPIU, allora t[W] 6= t
-0
-[W], ed r soddisfa ovviamente la
-dipendenza. Se W ⊆ XPIU, si ha che V ⊆ XPIU poiche l’algoritmo termina con ´
-XPIU. Ma V ⊆ XPIU implica t[V] = t
-0
-[V] e quindi r soddisfa la dipendenza++
+_Terminazione_
+	Ad ogni iterazione si aggiunge qualche attributo a $XPIU$ oppure si _termina_.
+	siccome il numero degli attributi è _finito_ l’algoritmo non può _ciclare indefinitamente_.
+_Correttezza_: c è bisogno che al termine del programma  $XPIU = X^+$, per mostrare ciò basa  dimostra che $XPIU \subseteq X^+$ e $X^+\subseteq XPIU$.
+
+ $(XPIU \subseteq X^+)$:
+ _sia_ $j$ il numero di interazioni
+ Si vuole dimostrare che $XPIU^j \subseteq  X^+ \ \forall j$. 
+si procede per [[Tipi di dimostrazione#Dimostrazione per induzione|induzione]]  
+   
+- (_caso base_): $j = 0$ 
+	- l’affermazione è ovvia  essendo $XPIU^0 = X \subseteq X^+$ _per [[Dipendenze funzionali derivate - Assiomi di Armstrong|riflessività]]_.
+- (_l’ipotesi induttiva_):  $XPIU^j \subseteq X^+$ 
+ si _dimostra_ che che $XPIU^{j+1} \subseteq X^+$ 
+_Sia_ $A$ un attributo aggiunto alla $j + 1$-esima iterazione. 
+Per come e stato definito l’algoritmo si ha che 
+- $A \in V$
+- $W \rightarrow V \in  F$
+- $W \subseteq XPIU^j$
+ Per l’ _ipotesi induttiva_ vale $W \subseteq XPIU^j\subseteq X^+$, e  da questo usando il [[Dipendenze funzionali derivate - Chiusura rispetto gli attributi|Teorema di chiusura rispetto a gli attributi]] si ha che $X \rightarrow W$; 
+per [[Dipendenze funzionali derivate - Assiomi di Armstrong|transitivita]] $X \rightarrow V \implies X \rightarrow A$. 
+_Pertanto_ $A \in  X^+$ e quindi  $A \in XPIU^{j+1} \subseteq X^+$
+
+
+$(X^+ \subseteq XPIU)$
+osservando che in _generale vale_ $V \subseteq W \implies V^+\subseteq W^+$ 
+Possiamo dire che  $X \subseteq XPIU \implies X^+\subseteq XPIU^+$
+e allora basta _dimostrare_ che $XPIU^+ \subseteq XPIU$, ovvero che $A \notin  XPIU \implies A \notin XPIU^+$ 
+cioè esiste un’istanza valida $r$ di $R$ che non soddisfa $XPIU \rightarrow A$. 
+Si costruisce una relazione
+$r = \{t, t’\}$ di due _ennuple_ distinte che dipendono dal risultato dell’algoritmo 
+_ponendo_ 
+- $t[A] = t’[A]$ per ogni $A \in  XPIU$ 
+- $t[B] \not= t’[B]$ per ogni $B \in T−XPIU$
+_Supponiamo_ di aver dimostrato che $r$ soddisfa ogni dipendenza in $F$;
+Si dimostra che $r$ non soddisfa $XPIU \rightarrow A$
+- $t$ e $t’$ coincidono su $XPIU$ per _costruzione_
+- mentre _non coincidono_ su $A$ perchè per ipotesi  $A \notin XPIU$.
+bisogna provare che $r$ _soddisfa_ ogni dipendenza in $F$. 
+
+_Sia_ $W \rightarrow V$ una dipendenza di $F$ 
+i 
+_Se_ $W \not\subseteq XPIU$
+	_allora_ $t[W] \not= t’[W]$, ed $r$ soddisfa ovviamente la dipendenza. 
+
+_Se_ $W \subseteq XPIU$, 
+	_allora_  $V \subseteq XPIU$ per _costruzione del algoritmo_ 
+	questo implica $V \subseteq XPIU \implies  t[V] = t’[V]$ e quindi $r$ soddisfa la [[Schemi relazionali - Dipendenze funzionali|dipendenza]] 
+
+
+##### Analisi della complessita
+Sia a il numero degli attributi di $T$ e $p$ il numero delle dipendenze funzionali in $F$, Il __ciclo while__ viene eseguito al più $p$ volte (perche ogni dipendenza funzionale da
+il suo contributo alla chiusura al piu una volta) e al più $a$ volte (perche si possono aggiungere al piu $a$ attributi).
+Per ogni ciclo while, il ciclo interno viene eseguito
+al piu $p$ volte e ogni volta si controllano due inclusioni di insiemi.
+Poiche il test di contenuto tra insiemi ordinati di a elementi ha una complessita di tempo $O(a)$
+si conclude che l’algoritmo _Chiusura lenta_ ha [[Complessita|complessita]] di tempo, nel caso peggiore, `
+di $O(ap \cdot min\{a, p\})$.
+
+
+
+#### Algoritmo di chiusura veloce
+Con lo dovute [[Strutture Dati|struttura dati]] si puo scrivere un algoritmo di _chiusura veloce_ con [[Complessita|complessità]] in tempo $O(ap)$ 
+
+
 
 
 
