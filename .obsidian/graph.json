@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#MOC",
@@ -158,6 +158,6 @@
   "repelStrength": 10,
   "linkStrength": 0.703742203742204,
   "linkDistance": 171,
-  "scale": 0.07636783263884167,
+  "scale": 0.032813584575227844,
   "close": false
 }

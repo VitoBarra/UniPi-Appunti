@@ -10,32 +10,44 @@ Parent MOC: "[[Data Base (DB)]]"
 # Modello Relazionale - Chiavi
 ---
 le Chiavi sono un concetto nel [[Modello dati - Modello Relazionale|modello relazionale]]
-##### Superchiave (Definizione)
+#### Superchiave (Definizione)
 _sia_ 
-- $R$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
-- $X$ Un _sotto insieme_ degli attributi di $R$
-_se_ per ogni _Instanza valida_ di $R$ vale che i valori degli atributi $X$ _determinano univocamente_ un'_ennupla_ di $R$ 
-_allora_ $X$ è una __*superchiave*__ per $R$.
+- $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
+- $W \subseteq T$ Un _sottoinsieme_ degli attributi di $R$
+_se_ la [[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]] $W \rightarrow T \in F^+$ è nella [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] di $F$      
+_allora_ $W$ è una __*superchiave*__ per $R$.
+
+_Ovvero_ per ogni _Istanza valida_ di $R$ vale che i valori degli attributi $W$ _determinano univocamente_ un'_ennupla_ di $R$
 
 #### Chiave (Definizione)
 _sia_ 
-- $R$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
-- $X$ una _superchiave_ di $R$
-_se_  $X$ è _minimale_
-_allora_ la $X$ è una __*chiave*__ per $R$.
+- $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
+- $W \subseteq T$ una _superchiave_ di $R$
+_se_  _NON esiste_ un $X \subset W$ che sia _superchiave_
+_allora_ la $W$ è una __*chiave*__ per $R$.
 
-> [!tip] Minimale
-> 	 Togliendo un qualsiasi attributo da $X$ questo non è piu _superchiave_
-##### Chiave primaria (Definizione)
+cioè $W$ è _minimale_ ovvero rimuovendo un qualsiasi attributo da $W$ questo smette di essere _superchiave_
+
+#### Attributo primo (Definizione)
 _sia_
-- $R$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
-- $X_{1},\dots X_{n}$ un insieme di _chiavi_ per $R$
-_allora_ una _chiave primaria_ $X_{i}$ è una _chiave_ scelta tra $X_{1},\dots,X_{n}$
+- $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
+_Se_ $A \in T$ appartiene ad una _chiave_
+_allora_ $A$ è detto _attributo primo_ 
+_altrimenti_ $A$ è detto _NON primo_
 
->[!note]
+> [!note]
+> Determinare se un attributo è _primo_ richiede un _algoritmo esponenziale_ ed è un problema [[Classi di Complessita|NP-Completo]]
+
+#### Chiave primaria (Definizione)
+_sia_
+- $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
+- $W_{1},\dots W_{n}$ un insieme di _chiavi_ per $R$
+_allora_ una _chiave primaria_ $W_{i}$ è una _chiave_ scelta tra $W_{1},\dots W_{n}$
+
+>[!tip] scelta
 >Solitamente si sceglie la chiave con meno _attributi_
 
-##### Chiavi esterne (Definizione)
+#### Chiavi esterne (Definizione)
 __Sia__ 
 - $R,S$ due [[Modello dati - Modello Relazionale|schemi relazionali]]
 - $B$ la _chiave primaria_ di $S$

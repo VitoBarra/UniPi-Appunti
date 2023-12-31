@@ -7,21 +7,21 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze
+# Schema relazionali - Chiusura di Insiemi di dipendenze
 ---
 
 #### Chiusura di un insieme di dipendenze (Definizione)
 _sia_
 - $R \langle T,F\rangle$ un _[[Modello dati - Modello Relazionale|schema relazionale]]_
 - $F$ un insieme di [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionli]]
-_allora_ la _chiusara di_ $F$ è $$F^+=\{ X \rightarrow Y \mid F \vdash X \rightarrow Y \}$$ovvero è l [[Insiemi Matematici|insieme]] di tutte le _dipendenze funzionali_ [[Schemi relazionali - Dipendenze derivate|derivabili]] da $F$ 
+_allora_ la _chiusura di_ $F$ è $$F^+=\{ X \rightarrow Y \mid F \vdash X \rightarrow Y \}$$ovvero è l [[Insiemi Matematici|insieme]] di tutte le _dipendenze funzionali_ [[Schemi relazionali - Dipendenze funzionali derivate|derivabili]] da $F$ 
 
 
-### Problema di inlusione
-un problema comune è decidere se una data _[[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]]_ $X \rightarrow Y$ appartiene alla chiusara $F^+$ detto _Problema di inclusione_
+### Problema di inclusione
+un problema comune è decidere se una data _[[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]]_ $X \rightarrow Y$ appartiene alla chiusura $F^+$ detto _Problema di inclusione_
 
 #### Algoritmo esaustivo 
-un _Algoritmo Esaustivo_ è quello di applicare ad $F$ esaustivamente gli [[Dipendenze funzionali derivate - Assiomi di Armstrong|Assiomi di Armstrong]], questo è complesto è corretto ma molto lento infatti ha [[Complessita|complessita]] esponenziale nel numero degli attributi dello [[Modello dati - Modello Relazionale|schema relazionale]]
+un _Algoritmo Esaustivo_ è quello di applicare ad $F$ esaustivamente gli [[Schema relazionali - Assiomi di Armstrong|Assiomi di Armstrong]], questo è _completo e corretto_ ma molto lento infatti ha [[Complessita|complessita]] esponenziale nel numero degli attributi dello [[Modello dati - Modello Relazionale|schema relazionale]]
 
 Infatti 
 _sia_ 
@@ -30,7 +30,7 @@ _allora_ il numero di _Dipendenze banali_ $T \rightarrow X$ con $X \subseteq T$ 
 
 
 #### Algoritmo di chiusura lenta
-Un algoritmo piu _veloce di quello esaustivo_ è formulabile grazie al [[Dipendenze funzionali derivate - Chiusura rispetto gli attributi#Teorema|teorema di Inclusione nella chiusure degli attributi]] , Questo ci dice che $X \rightarrow Y \in F^+ \iff Y \subseteq X^+_{F}$   e quindi si puo cercare direttamente la seconda parte del _se e solo se_
+Un algoritmo piu _veloce di quello esaustivo_ è formulabile grazie al [[Schema relazionali - Chiusura rispetto gli attributi#Teorema|teorema di Inclusione nella chiusure degli attributi]] , Questo ci dice che $X \rightarrow Y \in F^+ \iff Y \subseteq X^+_{F}$   e quindi si puo cercare direttamente la seconda parte del _se e solo se_
 
 e quindi l algoritmo segue come:
 ```pseudo
@@ -64,7 +64,7 @@ _Correttezza_: c è bisogno che al termine del programma  $XPIU = X^+$, per most
 si procede per [[Tipi di dimostrazione#Dimostrazione per induzione|induzione]]  
    
 - (_caso base_): $j = 0$ 
-	- l’affermazione è ovvia  essendo $XPIU^0 = X \subseteq X^+$ _per [[Dipendenze funzionali derivate - Assiomi di Armstrong|riflessività]]_.
+	- l’affermazione è ovvia  essendo $XPIU^0 = X \subseteq X^+$ _per [[Schema relazionali - Assiomi di Armstrong|riflessività]]_.
 - (_l’ipotesi induttiva_):  $XPIU^j \subseteq X^+$ 
  si _dimostra_ che che $XPIU^{j+1} \subseteq X^+$ 
 _Sia_ $A$ un attributo aggiunto alla $j + 1$-esima iterazione. 
@@ -72,8 +72,8 @@ Per come e stato definito l’algoritmo si ha che
 - $A \in V$
 - $W \rightarrow V \in  F$
 - $W \subseteq XPIU^j$
- Per l’ _ipotesi induttiva_ vale $W \subseteq XPIU^j\subseteq X^+$, e  da questo usando il [[Dipendenze funzionali derivate - Chiusura rispetto gli attributi|Teorema di chiusura rispetto a gli attributi]] si ha che $X \rightarrow W$; 
-per [[Dipendenze funzionali derivate - Assiomi di Armstrong|transitivita]] $X \rightarrow V \implies X \rightarrow A$. 
+ Per l’ _ipotesi induttiva_ vale $W \subseteq XPIU^j\subseteq X^+$, e  da questo usando il [[Schema relazionali - Chiusura rispetto gli attributi|Teorema di chiusura rispetto a gli attributi]] si ha che $X \rightarrow W$; 
+per [[Schema relazionali - Assiomi di Armstrong|transitivita]] $X \rightarrow V \implies X \rightarrow A$. 
 _Pertanto_ $A \in  X^+$ e quindi  $A \in XPIU^{j+1} \subseteq X^+$
 
 
@@ -94,7 +94,7 @@ Si dimostra che $r$ non soddisfa $XPIU \rightarrow A$
 bisogna provare che $r$ _soddisfa_ ogni dipendenza in $F$. 
 
 _Sia_ $W \rightarrow V$ una dipendenza di $F$ 
-i 
+
 _Se_ $W \not\subseteq XPIU$
 	_allora_ $t[W] \not= t’[W]$, ed $r$ soddisfa ovviamente la dipendenza. 
 
@@ -104,22 +104,26 @@ _Se_ $W \subseteq XPIU$,
 
 
 ##### Analisi della complessita
-Sia a il numero degli attributi di $T$ e $p$ il numero delle dipendenze funzionali in $F$, Il __ciclo while__ viene eseguito al più $p$ volte (perche ogni dipendenza funzionale da
-il suo contributo alla chiusura al piu una volta) e al più $a$ volte (perche si possono aggiungere al piu $a$ attributi).
-Per ogni ciclo while, il ciclo interno viene eseguito
-al piu $p$ volte e ogni volta si controllano due inclusioni di insiemi.
-Poiche il test di contenuto tra insiemi ordinati di a elementi ha una complessita di tempo $O(a)$
-si conclude che l’algoritmo _Chiusura lenta_ ha [[Complessita|complessita]] di tempo, nel caso peggiore, `
-di $O(ap \cdot min\{a, p\})$.
+_Sia_ 
+- $|T|=a$ il _numero_ degli attributi
+- $|F|=p$ il _numero_ delle [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]
+Il __ciclo while__ viene eseguito 
+- _al più_ $p$ volte siccome ogni dipendenza funzionale da il suo contributo alla chiusura _al più_ una volta
+- _al più_ $a$ volte siccome si possono aggiungere _al più_ $a$ attributi.
+risultando in esecuzione $O(min(a,p))$
 
+Per ogni __ciclo while__, il ciclo interno viene eseguito al più $p$ volte e ogni volta si controllano _due inclusioni di [[Insiemi Matematici|insiemi]]_.
+il test di inclusione _tra insiemi ordinati_ di $a$ elementi ha una [[Complessita|complessità]] di tempo $O(a)$
+e quindi la complessità del ciclo interno è $O(pa)$
+
+quindi in totale l’algoritmo _Chiusura lenta_ ha [[Complessita|complessità]] di tempo, nel caso peggiore, `
+di $O(ap \cdot min(a, p))$.
 
 
 #### Algoritmo di chiusura veloce
-Con lo dovute [[Strutture Dati|struttura dati]] si puo scrivere un algoritmo di _chiusura veloce_ con [[Complessita|complessità]] in tempo $O(ap)$ 
+Con lo dovute [[Strutture Dati|struttura dati]] si può scrivere un algoritmo di _chiusura veloce_ con [[Complessita|complessità]] in tempo $O(ap)$ 
 
 
 
 
-
-
-
+[[Modello Relazionale - Chiavi]]

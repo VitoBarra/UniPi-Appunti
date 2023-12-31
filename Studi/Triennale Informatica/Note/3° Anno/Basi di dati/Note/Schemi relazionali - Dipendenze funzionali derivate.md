@@ -37,7 +37,7 @@ _allora_  si indica con $F \vdash X \rightarrow Y$ la derivabilita di $X \righta
 - l Insieme $RI$ è _completo_ se $F \models X \rightarrow Y \implies F \vdash X \rightarrow Y$
 
 > [!tip]
-> L insieme piu famoso sono gli [[Dipendenze funzionali derivate - Assiomi di Armstrong|assiomi di Armstrong]]
+> L insieme piu famoso sono gli [[Schema relazionali - Assiomi di Armstrong|assiomi di Armstrong]]
 
 ##### Derivazione di una dipendenza (Definizione)
 una _derivazione_ di $f$ da $F$ è una sequenza finita $f_{1},\dots f_{m}$ di _dipendenze_ dove 

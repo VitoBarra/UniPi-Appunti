@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura di Insiemi di dipendenze.md"
+      "basename": "Schema relazionali - Cercare le chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Cercare le chiavi.md"
     },
     {
-      "basename": "Dipendenze funzionali derivate - Chiusura rispetto gli attributi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Chiusura rispetto gli attributi.md"
-    },
-    {
-      "basename": "Schemi relazionali - Dipendenze derivate",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze derivate.md"
-    },
-    {
-      "basename": "Dipendenze funzionali derivate - Assiomi di Armstrong",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Dipendenze funzionali derivate - Assiomi di Armstrong.md"
+      "basename": "Schemi Relazionali - Decomposizione di schemi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
+    },
+    {
+      "basename": "Schema relazionali - Copertura di insieme di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Copertura di insieme di dipendenze.md"
+    },
+    {
+      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
+    },
+    {
+      "basename": "Schema relazionali - Chiusura rispetto gli attributi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura rispetto gli attributi.md"
+    },
+    {
+      "basename": "Schemi relazionali - Dipendenze funzionali derivate",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali derivate.md"
+    },
+    {
+      "basename": "Schema relazionali - Assiomi di Armstrong",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Assiomi di Armstrong.md"
+    },
+    {
+      "basename": "Modello Relazionale - Chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
+    },
+    {
+      "basename": "Complessita",
+      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
+    },
+    {
+      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
+      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
     },
     {
       "basename": "Drawing 2023-12-29 22.06.39.excalidraw",
@@ -35,10 +59,6 @@
     {
       "basename": "Quantum computing",
       "path": "Studi/Triennale Informatica/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
-    },
-    {
-      "basename": "Modello Relazionale - Chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
     },
     {
       "basename": "Linguaggio per Database - SQL",
@@ -179,26 +199,6 @@
     {
       "basename": "Prodotto Cartesiano",
       "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
-    },
-    {
-      "basename": "Operazioni algebriche",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Algebra/Note/Operazioni algebriche.md"
-    },
-    {
-      "basename": "Machine Learning (ML)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md"
-    },
-    {
-      "basename": "FDI",
-      "path": "Templete/Coure Finale/FDI.md"
-    },
-    {
-      "basename": "GA",
-      "path": "Templete/Coure Finale/GA.md"
-    },
-    {
-      "basename": "Statistica (STAT)",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Statistica/Statistica (STAT).md"
     }
   ],
   "omittedPaths": [],

@@ -33,6 +33,7 @@ Prev: [[Triennale informatica MOC]]
 2. [[Complessita]]
 	1. [[Macchina di turing k-nastri]]
 	2. [[Teorema di accelerazione]]
+	3. [[Classi di Complessita]]
 
 
 

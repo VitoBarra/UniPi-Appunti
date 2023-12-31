@@ -7,10 +7,10 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Dipendenze funzionali derivate - Assiomi di Armstrong
+# Schema relazionali - Assiomi di Armstrong
 ---
 #### Assiomi di Armstrong (Definizione)
-gli _assiomi di armstrong_ sono un insieme di [[Regole di inferenza]] per la [[Schemi relazionali - Dipendenze derivate|derivazione]] di [[Schemi relazionali - Dipendenze funzionali|Dipendenze funzionali]] _corretto_ e _completo_
+gli _assiomi di armstrong_ sono un insieme di [[Regole di inferenza]] per la [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] di [[Schemi relazionali - Dipendenze funzionali|Dipendenze funzionali]] _corretto_ e _completo_
 
 - _Riflessività_: se $Y \subseteq X$ allora $X \rightarrow Y$
 - _Arricchimento_: se $X \rightarrow Y$ e $W \subseteq T$ allora $XW \rightarrow YW$

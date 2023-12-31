@@ -7,20 +7,20 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Dipendenze funzionali derivate - Chiusura rispetto gli attributi
+# Schema relazionali - Chiusura rispetto gli attributi
 ---
 #### Chiusura di insieme  attributi su insieme di dipendenze (Definizione)
 _sia_
 - $R\langle T,F \rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
 -  $X \subseteq T$ un sotto insieme di _attributi_
  _allora_ la _chiusare_ di $X$ rispetto a $F$ è data da $$X_F^+=\{ A \in  T \mid F \vdash X \rightarrow A \}$$
-ovvero è l [[Insiemi Matematici|insieme]] di tutti gli _attributi_ che _[[Schemi relazionali - Dipendenze funzionali|dipendono funzionalmente]]_ direttamente o tramite [[Schemi relazionali - Dipendenze derivate|derivazione]] da $X$  
+ovvero è l [[Insiemi Matematici|insieme]] di tutti gli _attributi_ che _[[Schemi relazionali - Dipendenze funzionali|dipendono funzionalmente]]_ direttamente o tramite [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] da $X$  
 
 è indicato con $X^+$ quando $F$ è chiaro dal contesto
 
 ##### Teorema
 _sia_ $F$ un [[Insiemi Matematici|insieme]] di _[[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]_ 
-_Se_ la [[Schemi relazionali - Dipendenze derivate|derivazione]] è fatta con gli [[Dipendenze funzionali derivate - Assiomi di Armstrong|Assiomi di Armstrong]]
+_Se_ la [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] è fatta con gli [[Schema relazionali - Assiomi di Armstrong|Assiomi di Armstrong]]
 _allora_ $$F \vdash X \rightarrow Y \iff Y \subseteq X^+$$
 _Dimostrazione_: _Sia_ $Y = A_1 \dots A_k, A_i \in  T$.
 $(\implies)$ :
