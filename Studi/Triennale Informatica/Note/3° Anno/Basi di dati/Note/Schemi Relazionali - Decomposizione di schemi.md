@@ -98,4 +98,110 @@ poiché $Y_1,Y_2$ non sono _vuoti_ $\pi_{T_1}(r)$ e $\pi_{T_2}(r)$ contengono du
 
 #### Decomposizione che preservano le dipendenze
 
+Una delle proprietà della decomposizione degli schemi relazionali e quello di conservare le _dipendenze_.
 
+Questo è importante siccome _se non_ si conservassero le dipendenze dello schema originale si potrebbero inserire nel database delle _ennuple_ che soddisfano le dipendenze delle singole tabelle della decomposizione ma _non_ le dipendenze della tabella originali, rendendo cosi i due schemi relazionali non equivalenti
+
+
+##### Proiezione di un insieme di dipendenze (definizione)
+_sia_ 
+- $R \langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
+- $T_i \subseteq T$ un sotto _insieme di attributi_
+_allora_  la [[Modello relazionale - Algebra Relazionale|proiezione]] di $F$ su $T_i$ è definita come $$\pi_{T_i}(F)=\{ X \rightarrow Y \in  F^+ \mid X,Y \subseteq T_i \}$$
+##### Algoritmo banale
+un algoritmo _banale_ di [[Complessita|complessità]] _esponenziale_  per calcolare un _copertura_  di $\pi_{T_i}(F)$ è il seguente
+```pseudo
+	\begin{algorithm}
+	\caption{Copertura di $\pi_{T_i}(F)$ }
+	\begin{algorithmic}
+	\Function{FindCover}{F,$T_i$}
+	\State $\pi_{T_i}=\emptyset$
+	\For{$\boldsymbol{each} \ Y \subset T_i$ }
+	\State $Z:=Y^+_F-Y$
+	\State $\pi_{T_i} += Y\rightarrow (Z \cap T_i)$
+	\EndFor 
+	\Return $\pi_{T_i}$
+	\EndFunction 
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+##### Decomposizione che preserva le dipendenze (definizione)
+_sia_  
+- $R \langle T,F\rangle$ uno _[[Modello dati - Modello Relazionale|schema relazionale]]_
+- $\rho=\{ R_1(T_1),\dots R_n(T_n) \}$ una _decomposizione_ di $R$
+_se e solo se_ $\bigcup \pi_{T_i}(F) \equiv F$ dove $\pi_{T_i}$ è una _proiezione_ su $F$ 
+_allora_ $\rho$ preserva le dipendenze 
+
+
+##### Determinare se un algoritmo preserva le dipendenze
+per controllare che una data decomposizione preservi le dipendenze dobbiamo controllare che $\forall X \rightarrow Y \in F$ valga che $X \rightarrow Y \in G^+$ con la  $G^+$ [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] e $G = \bigcup \pi_{T_i}(F)$ 
+
+calcolando la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura]] di $X$ rispetto a $G$ indicata con $X^+_G$ si può evitare di _calcolare esplicitamente_ $G^+$
+
+```pseudo
+	\begin{algorithm}
+	\caption{Copertura di $X$ rispetto $G$}
+	\begin{algorithmic}
+	\Function{CalcoloXPIU}{$\rho$,$X$}
+	\State $X_G^+=X$
+	\While{$X_G^+$ è cambiato}
+	\For{$\boldsymbol{each} \ i=1 \ \boldsymbol{to}\ k$}
+	\State $X_G^+=X_G^+\cup ((X^+_G \cap T_i)^+\cap T_i)$
+	\EndFor
+	\EndWhile
+	\Return $X_G^+$
+	\EndFunction
+	\end{algorithmic}
+	\end{algorithm}
+```
+e $(X^+_G \cap T_i)^+$ viene [[Schema relazionali - Chiusura di Insiemi di dipendenze#Algoritmo di chiusura veloce|con l algoritmo di chiusare veloce]] che ha [[Complessita|complessità polinomiale]]
+ed agni passo l _istruzione_ nel for  aggiunge a $X^+_G$ gli attributi $A_i$ tali che $(X_G^+ \cap T_i \rightarrow A_i \in \pi_{T_i}(F)$ 
+
+e quindi l algoritmo di determinazione segue come
+```pseudo
+	\begin{algorithm}
+	\caption{decidere se $\rho$ preserva le dipendenze}
+	\begin{algorithmic}
+	\Function{CheckIfPreserveDipendency}{$\rho$}
+	\For{$\boldsymbol{each}\  X \rightarrow Y \in F$}
+	\State $X_G^+ =$ \Call{CalcolaXPIU}{$\rho$,$X$}
+	\If{$Y \not\subseteq X_G^+$}
+	\Return false
+	\EndIf
+	\EndFor
+	\Return true
+	\EndFunction
+	\end{algorithmic}
+	\end{algorithm}
+```
+e questo è un algoritmo _polinomiale_
+
+#### Decomposizione che preserva Dati e dipendenze
+il _preservare_ dati e _dipendenze_ di una decomposizione sono due __proprietà indipendenti__, Ma esiste un criterio per assicurare di averli entrambi
+
+##### Criterio di Sufficenze
+_sia_
+- $R \langle T,F\rangle$
+- $\rho=\{ R_i\langle T_i,F_i\rangle \}$ una _decomposizione_ di $R$
+_Se_
+- $\rho$ _preserva e dipendenze_
+- $\exists j. T_j$ è [[Modello Relazionale - Chiavi|super chiave]] per $R$
+_allora_ $\rho$ preserva _anche i dati_
+
+
+_Dimostrazione_
+si assume senza perdita di generalità che $T_1$ sia [[Modello Relazionale - Chiavi|superchiave]] di $R$
+Dobbiamo dimostrare che per ogni istanza $r$ di $R$ valga $$\pi_{T_1}(r) \bowtie \dots \bowtie \pi_{T_n}(r) \subseteq r$$ sia $e \in  \pi_{T_1}(r) \bowtie \dots \bowtie \pi_{T_n}(r)$ 
+per _[[Modello relazionale - Algebra Relazionale|definizione di giunzione]]_ si ha che esistono $e_i \in \pi_{T_i}(r)$ tale che per $i$ in $i,\dots,n,e_i[T_i]=e[T_i]$
+per _[[Modello relazionale - Algebra Relazionale|definizione di proiezione]]_  esistono $e_i' \in r$ tale che per $i$ in $1,\dots,n,e'_i[T_i]=e_i[T_i]$ da cui $e'_i[T_i]=e[T_i]$
+
+allora basta dimostrare che $e=e_1'$ siccome da questo segue la tesi poiché $e'_1 \in r$
+
+Costruendo la relazione $s$ con schema $R(T)$ con solo le due ennuple $e$ e $e'_1$ se questa soddisfa $F$ allora vale $e=e_1'$ siccome queste due coincidono sulla _superchiave_
+
+Poiché la scomposizione _preserva le dipendenze_, è sufficiente dimostrare che $s$ soddisfa $\pi_{T_i}(F)$ per ogni $i$  
+osservando che per goni dipendenze $X \rightarrow Y$ e per ogni $T' \subseteq T$ che includa $X,Y$ un relazione $r \in \langle T,F \rangle$ soddisfa la dipendenza se e solo se la soddisfa $\pi_{T'}(r)$.
+Quindi anche $s$ soddisfa $\bigcup_i\pi_{T_i}(F) \iff \pi_{T_i}$ ovvero $\{ e[T_i],e'[T_i]\}$ soddisfa $\pi_{T_i}(F)$ per ogni $i$
+
+$\{ e[T_i],e'[T_i]\}$ soddisfa $\pi_{T_i}(F)$  poiché $\{ e[T_i],e'[T_i]\} \subseteq \pi_{T_i}(r)$ e quindi $e_i'[T_i]=e_i[T_i]$ e $e'_1$ ed $e_i'$ sonno entrambi in $r$

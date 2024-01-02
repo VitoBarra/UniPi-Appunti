@@ -30,7 +30,7 @@ _allora_ il numero di _Dipendenze banali_ $T \rightarrow X$ con $X \subseteq T$ 
 
 
 #### Algoritmo di chiusura lenta
-Un algoritmo piu _veloce di quello esaustivo_ è formulabile grazie al [[Schema relazionali - Chiusura rispetto gli attributi#Teorema|teorema di Inclusione nella chiusure degli attributi]] , Questo ci dice che $X \rightarrow Y \in F^+ \iff Y \subseteq X^+_{F}$   e quindi si puo cercare direttamente la seconda parte del _se e solo se_
+Un algoritmo più _veloce di quello esaustivo_ è formulabile grazie al [[Schema relazionali - Chiusura rispetto gli attributi#Teorema|teorema di Inclusione nella chiusure degli attributi]] , Questo ci dice che $X \rightarrow Y \in F^+ \iff Y \subseteq X^+_{F}$   e quindi si può cercare direttamente la seconda parte del _se e solo se_
 
 e quindi l algoritmo segue come:
 ```pseudo
@@ -122,8 +122,3 @@ di $O(ap \cdot min(a, p))$.
 
 #### Algoritmo di chiusura veloce
 Con lo dovute [[Strutture Dati|struttura dati]] si può scrivere un algoritmo di _chiusura veloce_ con [[Complessita|complessità]] in tempo $O(ap)$ 
-
-
-
-
-[[Modello Relazionale - Chiavi]]

@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Schema relazionali - Cercare le chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Cercare le chiavi.md"
+      "basename": "Architettura di un DBMS",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
     },
     {
-      "basename": "Schemi Relazionali - Decomposizione di schemi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
+      "basename": "Forme Normali - Boyce-Codd",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
+      "basename": "Normalizzazione di schemi relazionali -Dipendenze multivalore",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali -Dipendenze multivalore.md"
+    },
+    {
+      "basename": "Normalizzazione di schemi relazionali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+    },
+    {
+      "basename": "Forme Normali - Terza forma",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md"
+    },
+    {
       "basename": "Schema relazionali - Copertura di insieme di dipendenze",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Copertura di insieme di dipendenze.md"
+    },
+    {
+      "basename": "Normalizzazione  di schemi relazionali - Forme normali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione  di schemi relazionali - Forme normali.md"
+    },
+    {
+      "basename": "Schemi Relazionali - Decomposizione di schemi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
+    },
+    {
+      "basename": "Modello Relazionale - Chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
     },
     {
       "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
@@ -25,16 +49,16 @@
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura rispetto gli attributi.md"
     },
     {
+      "basename": "Schema relazionali - Cercare le chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Cercare le chiavi.md"
+    },
+    {
       "basename": "Schemi relazionali - Dipendenze funzionali derivate",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali derivate.md"
     },
     {
       "basename": "Schema relazionali - Assiomi di Armstrong",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Assiomi di Armstrong.md"
-    },
-    {
-      "basename": "Modello Relazionale - Chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
     },
     {
       "basename": "Complessita",
@@ -63,10 +87,6 @@
     {
       "basename": "Linguaggio per Database - SQL",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md"
-    },
-    {
-      "basename": "Normalizzazione di schemi relazionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
     },
     {
       "basename": "Progettazione DB - Progettazione Logica Relazionale",
@@ -179,26 +199,6 @@
     {
       "basename": "User personas",
       "path": "Studi/Triennale Informatica/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
-    },
-    {
-      "basename": "GDR Cartografer MOC",
-      "path": "Project/GDR Cartographer/GDR Cartografer MOC.md"
-    },
-    {
-      "basename": "GDR Cartographer Project Requisite",
-      "path": "Project/GDR Cartographer/GDR Cartographer Project Requisite.md"
-    },
-    {
-      "basename": "Balisong Combo finder MOC",
-      "path": "Project/BalisongCobo Finder/Balisong Combo finder MOC.md"
-    },
-    {
-      "basename": "Relazioni tra insiemi",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
-    },
-    {
-      "basename": "Prodotto Cartesiano",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
     }
   ],
   "omittedPaths": [],
