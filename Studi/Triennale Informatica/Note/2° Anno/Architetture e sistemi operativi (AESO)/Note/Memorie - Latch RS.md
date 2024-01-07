@@ -2,12 +2,12 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
 
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
-# Latch RS
+# Memorie - Latch RS
 ---
 
 

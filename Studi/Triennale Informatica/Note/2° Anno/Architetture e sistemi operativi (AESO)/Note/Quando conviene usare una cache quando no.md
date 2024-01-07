@@ -2,14 +2,13 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Quando conviene usare una cache e quando no
 ---
-
 L’efficacia della [[Cache]] dipende dalla dimensione della cache e dal tipo di lavoro che viene eseguito infatti lo stesso programma eseguito due volte potrebbe avere performance diverse. Detto questo prendendoli individualmente non riusciamo a predire la performance del programma mentre le iterazione tra le due determinano l efficacia della [[Cache]]
 
 ## Modello Working set
@@ -29,7 +28,6 @@ Si può provare a scrivere algoritmi che sfruttano la dimensione della cache per
 ![[BBAA1F6A-AA4F-485C-BEC8-FB61E7AFB04E.jpeg]]
 
 ## Zipf Model
-
 In alcuni casi il modello migliore capire il comportamento delle cache è la zipf distribution siccome i fenomeni di popolarità  seguono approssimativamente questa curva
 
 ![[A54C3A39-F16A-4BD6-8555-6B92F8438069.jpeg]]

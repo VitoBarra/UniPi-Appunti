@@ -11,14 +11,14 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-il file system è un astrazione del [[Sistemi Operativi|sistema operativo]] su i [[Storage device|device di storage]] fisici che offre dei dati che sono
+il file system è un astrazione del [[Sistemi Operativi|sistema operativo]] su i [[Dispositivi per Memoria permanente|device di storage]] fisici che offre dei dati che sono
 
 - **Persistenti**: ovvero vengono mantenuti finche non viene richiesta la cancellazione
 - **Nominati**: ovvero posso essere accessi  e ricercato in un formato Human-readable.
 
 e deve provvedere a più aspetti che sono
 
-- **Performance**: ovvero deve dare delle performance ragionevoli gestendo le limitazioni imposte dai [[Storage device|device di storage fisici]] . questo è fatto garantendo una buona località spaziale
+- **Performance**: ovvero deve dare delle performance ragionevoli gestendo le limitazioni imposte dai [[Dispositivi per Memoria permanente|device di storage fisici]] . questo è fatto garantendo una buona località spaziale
 - **Flessibilità**: la possibilità di essere usati in contesti variegati, quindi deve gestire sia file piccoli che grandi che temporanei ecc.
 - **Persistenza**: il file system deve mantenere sia i dati del utente che quelle delle strutture dati del file system stesso sul device fisco in modo che questi persistano anche in caso di crash o banale spegnimento
 - **Affidabilità**: deve mantenere i dati anche in casi di crash o di malfunzionamento hardware, un sistema per questo sono le tecnologia [[RAID]]

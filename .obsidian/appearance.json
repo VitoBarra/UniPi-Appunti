@@ -1,5 +1,7 @@
 {
-  "cssTheme": "Things",
-  "baseFontSize": 30,
-  "accentColor": ""
+  "cssTheme": "ITS Theme",
+  "baseFontSize": 21,
+  "accentColor": "",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Big Caslon"
 }

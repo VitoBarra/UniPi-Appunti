@@ -2,11 +2,10 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # HardDisk Driver(HDD)
 ---
 Dispositivi per il mantenimento persistente di dati. Questi dischi sono formati da più dischi inpilati su di uno spindle che puo far ruotare i dischi. I dati sono salvati su ogni faccia dei deschi e sono letti e scritti da delle testine attaccate a dei bracci attacchati anche essi ad un palo con un motore alla fine detto arm assembly. C è un braccio per ogni superficie e una testina puo leggere almeno un settore alla volta.

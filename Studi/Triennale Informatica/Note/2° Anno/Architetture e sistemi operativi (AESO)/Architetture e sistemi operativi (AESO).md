@@ -1,12 +1,12 @@
-
 ---
-type: MOC 
-tags: MOC 
+type: nota
+tags:
+  - AESO
+Parent MOC: "[[Triennale informatica MOC]]"
+course: Architettura E Sistemi Operativi
+topic:
 ---
 
-Prev: [[Triennale informatica MOC]]
-
-# Architetture e sistemi operativi (AESO)
 ## Course MOC  📒
 1. Conoscenze generali
 	1. [[Progettazione Le tre -Y]]
@@ -20,8 +20,8 @@ Prev: [[Triennale informatica MOC]]
 2. [[Componenti]]
 	1. [[Multiplexer e Decoder]]
 	2. [[Memorie]]
-		1. [[Latch RS]]
-		2. [[Latch D]]
+		1. [[Memorie - Latch RS]]
+		2. [[Memorie - Latch D]]
 		3. [[Flip-flop D]]
 			1. [[Varianti Flip-Flop]]
 		4. [[Registro]]
@@ -51,9 +51,10 @@ Prev: [[Triennale informatica MOC]]
 	1. [[Data Transfers]]
 	2. [[Gestione della fine di oprazione IO]]
 7. [[Architettura]]
-	1. [[Istruzioni Machina]]
-	2. [[Programmazione Assembly]]
-	3. [[Istruzioni thumb]]
+	1. [[Architettura Von-Neumann]]
+	2. [[Istruzioni Machina]]
+	3. [[Programmazione Assembly]]
+	4. [[Istruzioni thumb]]
 8. [[Microarchitetture]]
 	1. [[ARM V7]]
 		1. [[Single Cicle]]
@@ -116,11 +117,11 @@ Prev: [[Triennale informatica MOC]]
 		2. [[Super Page]]
 		3. [[Virtually Addressed Caches]]
 		4. [[Physically Addressed Caches]]
-14. [[Architetture e sistemi operativi (AESO) ]]
+14. [[Cache]]
 	1.  [[Quando conviene usare una cache quando no]]
 	2. [[Memory Cache lookup]]
 	3. [[Politiche di rimpiazzamento cache]]
-15. [[Storage device]]
+15. [[Dispositivi per Memoria permanente]]
 	1. [[HardDisk Driver(HDD)]]
 		1. [[Accesso al disco e performance]]
 		2. [[HardDisk Operation Scheduling]]

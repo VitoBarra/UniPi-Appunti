@@ -33,17 +33,13 @@ Parent MOC: "[[Triennale informatica MOC]]"
 		4. [[Schema relazionali - Cercare le chiavi]]
 		5. [[Schema relazionali - Copertura di insieme di dipendenze]]
 	3. [[Schemi Relazionali - Decomposizione di schemi]]
-	4. [[Algoritmi per Le forme normali]]
 8. [[Linguaggio per Database - SQL]]
 	1. [[SQL - Data Manipulation Lenguage]]
-	2. [[SQL - Query avanzate]]
-	3. [[SQL - Subquery]]
-	4. [[SQL - Data Declaration Lenguage]]
+	2. [[SQL - Data Declaration Lenguage]]
 9. [[Architettura di un DBMS]]
-	1. [[DBMS - Gestione degli accessi]]
-	2. [[DBMS - Affidabilita]]
-	3. [[DBMS - Livello Fisico]]
-		1. [[DBMS - Ottimizzazione fisica]]
+	1. [[DBMS - Macchina Fisica]]
+	2. [[DBMS - Macchina Logica]]
+	3. [[DBMS - Affidabilita]]
 	4. [[DBMS - Transazioni]]
 		1. [[DBMS - Transazioni e concorrenza]]
 
@@ -55,13 +51,13 @@ Parent MOC: "[[Triennale informatica MOC]]"
 
 
 ## ToDo del corso
-- [x] Trasformazione oggetti -> relazionale (27)
-- [x] Algebra Relazionale (28)
-	- [ ] Trasformazione di formule (da fare alla fine)
-- [ ] Dipendenze funzionali (29)
-- [ ] Forme Normali (29-30)
-	- [ ] Algoritmi per forme normali
-- [ ] SQL (31 X -> 1 X-> 2-3)
+- [x] Trasformazione oggetti -> relazionale (27) ✅ 2024-01-05
+- [x] Algebra Relazionale (28) ✅ 2024-01-05
+	- [x] Trasformazione di formule (da fare alla fine) ✅ 2024-01-05
+- [x] Dipendenze funzionali (29) ✅ 2024-01-05
+- [x] Forme Normali (29-30) ✅ 2024-01-05
+	- [x] Algoritmi per forme normali ✅ 2024-01-05
+- [ ] SQL (2-3)
 	- [ ] Data Manipulation
 	- [ ] Data Creation
 	- [ ] SubQuery

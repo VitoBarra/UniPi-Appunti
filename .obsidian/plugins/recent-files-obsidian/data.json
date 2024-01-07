@@ -1,16 +1,148 @@
 {
   "recentFiles": [
     {
+      "basename": "IMG_1069",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg"
+    },
+    {
+      "basename": "DBMS - Macchina Logica",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
+    },
+    {
+      "basename": "Data Base (DB)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
+    },
+    {
+      "basename": "Architettura di un DBMS",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
+    },
+    {
+      "basename": "DBMS - Macchina Fisica",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Fisica.md"
+    },
+    {
+      "basename": "SQL - Data Manipulation Lenguage",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md"
+    },
+    {
+      "basename": "Progettazione DB - Progettazione Logica Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
+    },
+    {
+      "basename": "SQL - Data Declaration Lenguage",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md"
+    },
+    {
+      "basename": "Linguaggio per Database - SQL",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md"
+    },
+    {
+      "basename": "Progettazione DB - Progettazione Concettuale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md"
+    },
+    {
+      "basename": "Modello dati - Modello Entita-Relazioni",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md"
+    },
+    {
+      "basename": "Modello dati - Modello ad oggetti",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
+    },
+    {
+      "basename": "Memoria Paginata",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memoria Paginata.md"
+    },
+    {
+      "basename": "Drawing 2024-01-04 05.02.49.excalidraw",
+      "path": "Excalidraw/Drawing 2024-01-04 05.02.49.excalidraw.md"
+    },
+    {
+      "basename": "Modello dati - Modello Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
+    },
+    {
+      "basename": "Architetture e sistemi operativi (AESO)",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
+    },
+    {
+      "basename": "Architettura Von-Neumann",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architettura Von-Neumann.md"
+    },
+    {
+      "basename": "HardDisk Driver(HDD)",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/HardDisk Driver(HDD).md"
+    },
+    {
+      "basename": "Lock",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Lock.md"
+    },
+    {
+      "basename": "Dispositivi per Memoria permanente",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Dispositivi per Memoria permanente.md"
+    },
+    {
+      "basename": "Memorie - Latch D",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch D.md"
+    },
+    {
+      "basename": "Memorie - Latch RS",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch RS.md"
+    },
+    {
+      "basename": "RAM",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/RAM.md"
+    },
+    {
+      "basename": "Case Study Booting an Operating System Kernel",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Case Study Booting an Operating System Kernel.md"
+    },
+    {
+      "basename": "Quando conviene usare una cache quando no",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Quando conviene usare una cache quando no.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Cache.md"
+    },
+    {
+      "basename": "AESO",
+      "path": "Templete/Coure Finale/AESO.md"
+    },
+    {
+      "basename": "Triennale informatica MOC",
+      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
+    },
+    {
+      "basename": "Programmazione Algoritmica (ProgAlg)",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md"
+    },
+    {
+      "basename": "IMG_1066",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1066.jpeg"
+    },
+    {
+      "basename": "Database Managment System (DBMS)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md"
+    },
+    {
+      "basename": "Struttura dati - B-Tree",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - B-Tree.md"
+    },
+    {
+      "basename": "Struttura dati - Bplus-Tree",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Struttura dati - Bplus-Tree.md"
+    },
+    {
+      "basename": "Struttura dati - A-B Alberi",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Struttura dati - A-B Alberi.md"
+    },
+    {
       "basename": "Schema relazionali - Cercare le chiavi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Cercare le chiavi.md"
     },
     {
       "basename": "Schemi Relazionali - Decomposizione di schemi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
-    },
-    {
-      "basename": "Data Base (DB)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
       "basename": "Schema relazionali - Copertura di insieme di dipendenze",
@@ -61,144 +193,12 @@
       "path": "Studi/Triennale Informatica/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
     },
     {
-      "basename": "Linguaggio per Database - SQL",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md"
-    },
-    {
       "basename": "Normalizzazione di schemi relazionali",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
     },
     {
-      "basename": "Progettazione DB - Progettazione Logica Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
-    },
-    {
-      "basename": "Progettazione DB - Progettazione Concettuale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md"
-    },
-    {
       "basename": "Progettazione DB",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
-    },
-    {
-      "basename": "Algebra Relazionale - Trasformazione di espressioni",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Algebra Relazionale - Trasformazione di espressioni.md"
-    },
-    {
-      "basename": "Modello relazionale - Algebra Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello relazionale - Algebra Relazionale.md"
-    },
-    {
-      "basename": "Modello Relazionale - Rappresentazione Grafica",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Rappresentazione Grafica.md"
-    },
-    {
-      "basename": "Modello dati - Modello Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
-    },
-    {
-      "basename": "Modello dati - Modello Entita-Relazioni",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md"
-    },
-    {
-      "basename": "Modello dati - Modello ad oggetti",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
-    },
-    {
-      "basename": "Aspetti della modellazione della conoscenza",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Aspetti della modellazione della conoscenza.md"
-    },
-    {
-      "basename": "Modelli di dati",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modelli di dati.md"
-    },
-    {
-      "basename": "Database Managment System (DBMS)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Database Managment System (DBMS).md"
-    },
-    {
-      "basename": "Linguaggi per basi di dati",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggi per basi di dati.md"
-    },
-    {
-      "basename": "Introduzione ai Data Base",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Introduzione ai Data Base.md"
-    },
-    {
-      "basename": "Sistemi informativi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Sistemi informativi.md"
-    },
-    {
-      "basename": "Schemi relazionali - Dipendenze funzionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali.md"
-    },
-    {
-      "basename": "DB",
-      "path": "Templete/Coure Finale/DB.md"
-    },
-    {
-      "basename": "Triennale informatica MOC",
-      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
-    },
-    {
-      "basename": "Studi MOC",
-      "path": "Studi/Studi MOC.md"
-    },
-    {
-      "basename": "Fondamenti Del Informatica (FDI)",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Fondamenti Del Informatica (FDI).md"
-    },
-    {
-      "basename": "Partizione",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Partizione.md"
-    },
-    {
-      "basename": "Applicazioni tra insiemi",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Applicazioni tra insiemi.md"
-    },
-    {
-      "basename": "Base MOC",
-      "path": "Base MOC.md"
-    },
-    {
-      "basename": "Project MOC",
-      "path": "Project/Project MOC.md"
-    },
-    {
-      "basename": "To Read",
-      "path": "Studi/Personal/To Read.md"
-    },
-    {
-      "basename": "Calcolare l N-esimo numero primo Willans's formula",
-      "path": "Studi/Personal/Calcolare l N-esimo numero primo Willans's formula.md"
-    },
-    {
-      "basename": "Principio di Pareto",
-      "path": "Studi/Personal/Principio di Pareto.md"
-    },
-    {
-      "basename": "User personas",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Interazione Uomo Macchina (IUM)/Note/User personas.md"
-    },
-    {
-      "basename": "GDR Cartografer MOC",
-      "path": "Project/GDR Cartographer/GDR Cartografer MOC.md"
-    },
-    {
-      "basename": "GDR Cartographer Project Requisite",
-      "path": "Project/GDR Cartographer/GDR Cartographer Project Requisite.md"
-    },
-    {
-      "basename": "Balisong Combo finder MOC",
-      "path": "Project/BalisongCobo Finder/Balisong Combo finder MOC.md"
-    },
-    {
-      "basename": "Relazioni tra insiemi",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Relazioni tra insiemi.md"
-    },
-    {
-      "basename": "Prodotto Cartesiano",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Prodotto Cartesiano.md"
     }
   ],
   "omittedPaths": [],

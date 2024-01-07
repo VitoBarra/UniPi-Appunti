@@ -11,7 +11,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-i dispositivi flash o detti a stato solido sono [[Storage device|dispositivi per l immagazzinamento di grandi dati]] non hanno parti mobili  il che li rende meno vulnerabili permetto un random access migliore
+i dispositivi flash o detti a stato solido sono [[Dispositivi per Memoria permanente|dispositivi per l immagazzinamento di grandi dati]] non hanno parti mobili  il che li rende meno vulnerabili permetto un random access migliore
 
 ![[Untitled 48.png]]
 

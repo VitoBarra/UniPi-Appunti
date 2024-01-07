@@ -6,7 +6,7 @@ tags:
   - DB
 Parent MOC: "[[Data Base (DB)]]"
 ---
-
+	
 # Progettazione DB - Progettazione Logica Relazionale
 ---
 la _progettazione logica_ è una parte delle [[Progettazione DB|progettazione di DB]] è questa traduce la [[Progettazione DB - Progettazione Concettuale|progettazione concettuale]] in qualcosa di più usabile in un sistema informatico, _NON_ Tiene conto degli aspetti della _performance_
@@ -30,12 +30,9 @@ Se l’associazione nella direzione _univoca_ è _parziale_ ci sono due rapprese
 
 ![[IMG_1054.jpeg]]
 
-Per le associazioni _uno a uno_ si procede in maniera analoga, considerandole un caso
-particolare di associazioni _molti a uno_.
+Per le associazioni _uno a uno_ si procede in maniera analoga, considerandole un caso particolare di associazioni _molti a uno_.
 
-Si consideri che quando una associazione ha
-sia la diretta che l’inversa, e si aggiunge una relazione con due _chiavi esterne_, una
-qualunque delle due può essere scelta come _chiave primaria_. 
+Si consideri che quando una associazione ha sia la diretta che l’inversa, e si aggiunge una relazione con due _chiavi esterne_, una qualunque delle due può essere scelta come _chiave primaria_. 
 ![[IMG_1055.jpeg]]
 
 ##### 2.Rappresentazioni delle associazioni molti a molti

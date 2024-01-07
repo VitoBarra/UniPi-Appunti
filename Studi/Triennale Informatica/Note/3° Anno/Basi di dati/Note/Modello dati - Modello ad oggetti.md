@@ -147,8 +147,7 @@ si possono definiscono più _sottoclassi_ di una _stessa classe_, e sul insieme 
 - _vincolo di copertura_ (sottoclassi copertura): se l’[[Operazioni Insiemistiche|unione]] degli elementi delle sottoclassi _coincide_ con l’insieme degli elementi della _superclasse_
 
 I _due vincoli_ sono _indipendenti_ fra loro;
-se sono entrambi soddisfatti, l’_insieme
-di sottoclassi_ costituisce una _[[Partizione|partizione]]_ della _superclasse_.
+se sono entrambi soddisfatti, l’ _insieme di sottoclassi_ costituisce una _[[Partizione|partizione]]_ della _superclasse_.
 
 Una _sottoclasse_ puo essere definita anche a partire da un’altra sottoclasse, modellando cosi _gerarchie a più livelli_. 
 
@@ -162,11 +161,9 @@ Una _sottoclasse_ puo essere definita anche a partire da un’altra sottoclasse,
 ### Conoscenza Astratta
 della [[Aspetti della modellazione della conoscenza|conoscenza astratta]] nel modellare una situazione reale, vanno rappresentati i _vincoli d’integrita_ che impongono restrizioni sui possibili valori della _conoscenza concreta_.
 I vincoli possono essere descritti in due modi 
-- _Dichiarativo_: con formule del [[Logica proposizionale]]|calcolo dei
-predicati]]
+- _Dichiarativo_: con formule del [[Logica proposizionale|calcolo dei predicati]]
 - _Operativo_: mediante controlli da eseguire nelle operazioni (di base o degli utenti).
- si preferisce l’approccio _dichiarativo_ siccome
--  più facile stabilire la _coerenza dei vincoli_ con la _definizione dei [[Analisi dei requisiti|requisiti]]_ ed apportare modifiche per _adeguarli a nuove esigenze_
+- si preferisce l’approccio _dichiarativo_ siccome più facile stabilire la _coerenza dei vincoli_ con la _definizione dei [[Analisi dei requisiti|requisiti]]_ ed apportare modifiche per _adeguarli a nuove esigenze_
 - sono utili per gli _strumenti di progettazione_ per trovare eventuali _inconsistenze o ridondanze_, cioè vincoli logicamente implicati da altri
 - si _evita di ripetere i controlli_ in più operazioni.
 

@@ -9,7 +9,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Volumi
 ---
-I volumi sono una collezione di [[Storage device|risorse fisiche di immagazzinamento ]]dati che formano un device logico.
+I volumi sono una collezione di [[Dispositivi per Memoria permanente|risorse fisiche di immagazzinamento ]]dati che formano un device logico.
 
 Il caso più semplice è un solo disco ma potrebbe rappresentare più dischi separati ad esempio un volume può rappresentare dei dischi in [[RAID]]
 

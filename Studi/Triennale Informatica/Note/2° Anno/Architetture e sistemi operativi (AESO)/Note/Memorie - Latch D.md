@@ -2,14 +2,14 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC:
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Latch D
 ---
-il latch D Come il [[Latch RS]] è una rete bistrate e risolve due problemi di questo 
+il latch D Come il [[Memorie - Latch RS|Latch RS]] è una rete bistrate e risolve due problemi di questo 
 
 - semplifica l interfaccia del componente prendendo un solo ingresso D che rappresenta quale valore dare alla memoria
 - permette di controllare il quando far cambiare il valore

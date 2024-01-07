@@ -2,14 +2,13 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Cache
 ---
-
 
 Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con loro riporgono tre problematiche da tenere in conto
 

@@ -11,7 +11,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-il file system è un problema di traduzione dai i dati human-readable che vuole offrire e i blocchi fisici del [[Storage device|device di storage]],
+il file system è un problema di traduzione dai i dati human-readable che vuole offrire e i blocchi fisici del [[Dispositivi per Memoria permanente|device di storage]],
 
 per risolvere il problema il file system deve avere
 
