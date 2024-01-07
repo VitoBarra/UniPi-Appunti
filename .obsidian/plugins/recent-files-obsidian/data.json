@@ -1,44 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "IMG_1069",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg"
+      "basename": "Architettura di un DBMS",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
     },
     {
-      "basename": "DBMS - Macchina Logica",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
+      "basename": "Forme Normali - Boyce-Codd",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
-      "basename": "Architettura di un DBMS",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
+      "basename": "Normalizzazione di schemi relazionali -Dipendenze multivalore",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali -Dipendenze multivalore.md"
     },
     {
-      "basename": "DBMS - Macchina Fisica",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Fisica.md"
+      "basename": "Normalizzazione di schemi relazionali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+    },
+    {
+      "basename": "Forme Normali - Terza forma",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md"
+    },
+    {
+      "basename": "Schema relazionali - Copertura di insieme di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Copertura di insieme di dipendenze.md"
+    },
+    {
+      "basename": "Normalizzazione  di schemi relazionali - Forme normali",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione  di schemi relazionali - Forme normali.md"
+    },
+    {
+      "basename": "Schemi Relazionali - Decomposizione di schemi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
+    },
+    {
+      "basename": "Modello Relazionale - Chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
+    },
+    {
+      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
     },
     {
       "basename": "SQL - Data Manipulation Lenguage",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md"
     },
     {
-      "basename": "Progettazione DB - Progettazione Logica Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
+      "basename": "Schema relazionali - Cercare le chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Cercare le chiavi.md"
+    },
+    {
+      "basename": "Schemi relazionali - Dipendenze funzionali derivate",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali derivate.md"
     },
     {
       "basename": "SQL - Data Declaration Lenguage",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md"
     },
     {
-      "basename": "Linguaggio per Database - SQL",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md"
-    },
-    {
-      "basename": "Progettazione DB - Progettazione Concettuale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md"
+      "basename": "Complessita",
+      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
     },
     {
       "basename": "Modello dati - Modello Entita-Relazioni",
@@ -65,12 +89,8 @@
       "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
     },
     {
-      "basename": "Architettura Von-Neumann",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architettura Von-Neumann.md"
-    },
-    {
-      "basename": "HardDisk Driver(HDD)",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/HardDisk Driver(HDD).md"
+      "basename": "Progettazione DB - Progettazione Logica Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
     },
     {
       "basename": "Lock",

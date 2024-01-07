@@ -9,7 +9,7 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # Normalizzazione di schemi relazionali
 ---
-lo [[Progettazione DB - Modello Relazionale|schema relazionale]] è semplice siccome si basa al concetto semplice di [[Relazioni tra insiemi|relazione tra insiemi]] ma per ogni relazione ci sono diverse rappresentazioni valide e quindi uno dei problemi e la _scelta_ di questa rappresentazione.
+lo [[Progettazione DB - Progettazione Logica Relazionale|schema relazionale]] è semplice siccome si basa al concetto semplice di [[Relazioni tra insiemi|relazione tra insiemi]] ma per ogni relazione ci sono diverse rappresentazioni valide e quindi uno dei problemi e la _scelta_ di questa rappresentazione.
 Ci sono vari parametri su cui basare la scelta tra cui il _costo delle operazioni_ e la presenza o Assenza di _anomalie_
 
 #### Teoria della normalizazione
@@ -42,3 +42,19 @@ La decomposizione è un processo delicato e va fatto con cura infatti si possono
 _Perdita di informazioni_: questo avviene quando il [[Modello relazionale - Algebra Relazionale|Join]] tre le due relazioni prodotto della decomposizione produce più ennuple della relazione originale, Questo avviene quando viene scelta come [[Modello Relazionale - Chiavi|chiave esterna]] per una delle due relazione un _[[Aspetti della modellazione della conoscenza|Atributo]]_ che non rappresenta univocamente quel _[[Aspetti della modellazione della conoscenza|Entità]]_, ovvero che non è una [[Modello Relazionale - Chiavi|chiave valida]] per quel entità 
 _Perdita di dipendenze funzionali_: questo avviene quando una [[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]] presente nella [[Relazioni tra insiemi|relazione]] originale non è più deducibile dalle due _relazioni_ di decomposizione. 
 
+### Forme normali
+Le _forme normali_ sono un criterio di valutazione su cio controllare i _schemi relazionali_ esistenti in modo da trasformarli in schemi che rispettano i criteri
+
+#### Prima e seconda forma normale
+le prime de _forme normali_ sono elencante per motivi storici siccome sono vere implicitamente con i sistemi moderni usati
+1. _prima forma normale_: ogni valori dei domini di una relazione sono _atomici_
+2. _seconda forma normale_: tutti gli attributi dipendono dalla [[Modello Relazionale - Chiavi|chiave primaria completa]]
+3. [[Forme Normali - Terza forma|Terza forma normale]]
+4. [[Forme Normali - Boyce-Codd|Forma normale Boyce-Codd]]
+
+ognuna di questa _implica la precedente_
+
+
+#### Scelta tra BCNF e 3NF
+la scelta tra la _3NF_ e la _BCNF_ nel processo di normalizzazione richiede al progettista di decidere in anticipo.
+La strategia di controllare prima la possibilità di una decomposizione in BCNF che preservi le dipendenze, e in caso negativo adottare la 3NF, non è praticabile dato che richiede un algoritmo con _[[Complessita|complessità]] esponenziale_.
