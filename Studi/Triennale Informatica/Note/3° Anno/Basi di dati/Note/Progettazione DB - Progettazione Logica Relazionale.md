@@ -57,9 +57,9 @@ ci sono 3 modi per rappresentare questa situazione
 3. _partizionamento orizzontale_: si definiscono _tre relazioni_ $R_A(X_A), R_B(X_A,X_B), R_C(X_A, X_C)$. $R_A$ contiene solo gli elementi della classe $A$ che _non stanno in nessuna delle sottoclassi_, mentre $R_B$ ed $R_C$ contengono tutti gli elementi di $B$ e di $C$; se le sottoclassi costituiscono una copertura, la relazione $R_A(X_A)$ _non viene definita_ perchè sarebbe _sempre vuota_.
 
 Dei criteri per scegliere cosa usare sono i seguneti
-1. Se gli _attributi propri_ delle sottoclassi sono _pochi_ si sceglie la _relazione unica_, per la sua semplicita semplice.
+1. Se gli _attributi propri_ delle sottoclassi sono _pochi_ si sceglie la _relazione unica_, per la sua semplicità 
 2. il _partizionamento orizzontale_ divide gli elementi della _superclasse_ in piu relazioni diverse, per cui _non e possibile mantenere un vincolo referenziale_ verso la _superclasse_ stessa; 
-	1. _Quindi_, _NON_ si usa se un altra relazione fa riferimento alla superclasse tramite _chiave esterna_, ovvero se nello _schema relazionale_ grafico c’e una freccia che entra nella _superclasse_; `
+	1. _Quindi_, _NON_ si usa se un altra relazione fa riferimento alla superclasse tramite _chiave esterna_, ovvero se nello _schema relazionale_ grafico c’e una freccia che entra nella _superclasse_
 3. il _partizionamento verticale_ rende più complessa la ricostituzione di tutte le informazioni relative ad un elemento della sottoclasse, mentre _il partizionamento orizzontale_ rende piu complessa l’operazione di visita a tutti gli elementi della superclasse, per cui e necessario valutare _l’importanza relativa_ di queste due operazioni;
 4. il _partizionamento orizzontale_ e preferibile in presenza di un vincolo di _copertura_ perchè ne può _garantire il mantenimento_; 
 5. il _partizionamento orizzontale_ funziona al meglio in presenza di un _vincolo di disgiunzione_, perche, in caso contrario un oggetto puo appartiene a piu sottoclassi, e siccome il _partizionamento orizontale_ replica la chiave e gli attributi della _superclasse_ in tutte le relazioni _sottoclassi_ a cui l’oggetto appartiene si pone il problema di gestire la ridondanza dei dati 
@@ -79,7 +79,8 @@ per le classi derivate da _sotto classi_  la chiave primaria sarà la stessa del
 per le relazioni che corrispondono ad associazioni _molti a molti_ nello schema originario, la _chiave primaria_ sara costituita dalla _concatenazione delle chiavi esterne_. `
 
 L’_inserimento_ di una _chiave primaria_ in ogni collezione trasforma effettivamente tutte le classi in [[Relazioni tra insiemi|relazioni]] in senso matematico
-##### 5. Rappresentazione degli atributo multi valore
+
+##### 5. Rappresentazione degli attributo multi valore
 Una _proprieta multivalore_ di una classe  $C$ si rappresenta eliminando il corrispondente attributo da $C$ e creando una nuova relazione $N$ con una chiave di _due attributi_: 
 - una _chiave esterna_ che fa riferimento alla _chiave primaria_ di $C$ 
 -  un attributo che corrisponde all’attributo multivalore da trasformare.

@@ -14,7 +14,7 @@ le Chiavi sono un concetto nel [[Modello dati - Modello Relazionale|modello rela
 _sia_ 
 - $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
 - $W \subseteq T$ Un _sottoinsieme_ degli attributi di $R$
-_se_ la [[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]] $W \rightarrow T \in F^+$ è nella [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] di $F$      
+_se_ la [[Schemi relazionali - Dipendenze funzionali|dipendenza funzionale]] $W \rightarrow T \in F^+$ è nella [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] di $F$  
 _allora_ $W$ è una __*superchiave*__ per $R$.
 
 _Ovvero_ per ogni _Istanza valida_ di $R$ vale che i valori degli attributi $W$ _determinano univocamente_ un'_ennupla_ di $R$

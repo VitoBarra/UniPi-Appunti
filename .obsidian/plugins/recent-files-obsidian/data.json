@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Architettura di un DBMS",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
+      "basename": "DBMS - Macchina Logica",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
+    },
+    {
+      "basename": "Architetture e sistemi operativi (AESO)",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
+    },
+    {
+      "basename": "Tecniche di prevenzione Deadlock - Two phase lock",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Tecniche di prevenzione Deadlock - Two phase lock.md"
+    },
+    {
+      "basename": "Data Base (DB)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
       "basename": "Forme Normali - Boyce-Codd",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md"
     },
     {
-      "basename": "Data Base (DB)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
+      "basename": "Prevenzione Deadlock",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Prevenzione Deadlock.md"
+    },
+    {
+      "basename": "Triennale informatica MOC",
+      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
+    },
+    {
+      "basename": "Paradigmi Di Programmazione(PDP)",
+      "path": "Studi/Triennale Informatica/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
+    },
+    {
+      "basename": "Progettazione DB - Progettazione Logica Relazionale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
+    },
+    {
+      "basename": "Modello Relazionale - Chiavi",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
+    },
+    {
+      "basename": "Progettazione DB - Progettazione Concettuale",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md"
+    },
+    {
+      "basename": "Modello dati - Modello ad oggetti",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
+    },
+    {
+      "basename": "Forme Normali - Terza forma",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md"
+    },
+    {
+      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
+    },
+    {
+      "basename": "Architettura di un DBMS",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
     },
     {
       "basename": "Normalizzazione di schemi relazionali -Dipendenze multivalore",
@@ -19,10 +67,6 @@
     {
       "basename": "Normalizzazione di schemi relazionali",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
-    },
-    {
-      "basename": "Forme Normali - Terza forma",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md"
     },
     {
       "basename": "Schema relazionali - Copertura di insieme di dipendenze",
@@ -35,14 +79,6 @@
     {
       "basename": "Schemi Relazionali - Decomposizione di schemi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
-    },
-    {
-      "basename": "Modello Relazionale - Chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
-    },
-    {
-      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
     },
     {
       "basename": "SQL - Data Manipulation Lenguage",
@@ -69,10 +105,6 @@
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md"
     },
     {
-      "basename": "Modello dati - Modello ad oggetti",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
-    },
-    {
       "basename": "Memoria Paginata",
       "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memoria Paginata.md"
     },
@@ -83,14 +115,6 @@
     {
       "basename": "Modello dati - Modello Relazionale",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
-    },
-    {
-      "basename": "Architetture e sistemi operativi (AESO)",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
-    },
-    {
-      "basename": "Progettazione DB - Progettazione Logica Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
     },
     {
       "basename": "Lock",
@@ -129,10 +153,6 @@
       "path": "Templete/Coure Finale/AESO.md"
     },
     {
-      "basename": "Triennale informatica MOC",
-      "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
-    },
-    {
       "basename": "Programmazione Algoritmica (ProgAlg)",
       "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md"
     },
@@ -169,10 +189,6 @@
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Copertura di insieme di dipendenze.md"
     },
     {
-      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
-    },
-    {
       "basename": "Schema relazionali - Chiusura rispetto gli attributi",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura rispetto gli attributi.md"
     },
@@ -183,42 +199,6 @@
     {
       "basename": "Schema relazionali - Assiomi di Armstrong",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Assiomi di Armstrong.md"
-    },
-    {
-      "basename": "Modello Relazionale - Chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
-    },
-    {
-      "basename": "Complessita",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
-    },
-    {
-      "basename": "Elementi di Complessità e Calcolabilità (ECC)",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Elementi di Complessità e Calcolabilità (ECC).md"
-    },
-    {
-      "basename": "Drawing 2023-12-29 22.06.39.excalidraw",
-      "path": "Excalidraw/Drawing 2023-12-29 22.06.39.excalidraw.md"
-    },
-    {
-      "basename": "Interpolazione Lineare",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Calcolo Numerico(CN)/Note/Interpolazione Lineare.md"
-    },
-    {
-      "basename": "Principi di progettazione e qualità di un progetto",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Ingegneria del software/Note/Principi di progettazione e qualità di un progetto.md"
-    },
-    {
-      "basename": "Quantum computing",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Quantum Computing (QC)/Note/Quantum computing.md"
-    },
-    {
-      "basename": "Normalizzazione di schemi relazionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
-    },
-    {
-      "basename": "Progettazione DB",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB.md"
     }
   ],
   "omittedPaths": [],

@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md",
+                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "5edc70b11a6db23e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +108,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 7
   },
   "right": {
     "id": "0b0f3a5a0715456f",
@@ -139,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg",
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -156,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg",
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -168,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg"
+            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
           }
         }
       },
@@ -220,38 +209,38 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d4f27b03d7ad3fb7",
+  "active": "dc1448b5263d5e58",
   "lastOpenFiles": [
+    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
+    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Tecniche di prevenzione Deadlock - Two phase lock.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md",
+    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Prevenzione Deadlock.md",
+    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
+    "Studi/Triennale Informatica/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Fisica.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1072.jpeg",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md",
     "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memoria Paginata.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1070.jpeg",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg",
     "Excalidraw/Drawing 2024-01-04 05.02.49.excalidraw.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
     "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architettura Von-Neumann.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1068.gif",
     "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/HardDisk Driver(HDD).md",
     "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Lock.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Dispositivi per Memoria permanente.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch D.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch RS.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/RAM.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Case Study Booting an Operating System Kernel.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Quando conviene usare una cache quando no.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Cache.md",
-    "Templete/Coure Finale/AESO.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1066.jpeg",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1067.jpeg",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1062.jpeg",

@@ -2,10 +2,10 @@
 type: nota
 course: Architettura E Sistemi Operativi
 topic: 
-tags: AESO
+tags:
+  - AESO
+Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Prevenzione Deadlock
 ---
@@ -115,11 +115,11 @@ bool ResourceMgr::isSafe()
 }
 ```
 
-<aside>
-💡 questo algoritmo di solito non viene usato nella sua interezza ma vengono usate delle versioni semplificate.
+>[!note]
+questo algoritmo di solito non viene usato nella sua interezza ma vengono usate delle versioni semplificate.
 l idea di base può essere utilizzata per capire in che contesti il programma può diventare unsafe
 
-</aside>
+
 
 ---
 

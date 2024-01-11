@@ -88,6 +88,7 @@ topic:
 		4. [[Semafori]]
 		5. [[DeadLock]]
 			1. [[Prevenzione Deadlock]]
+			2. [[Tecniche di prevenzione Deadlock - Two phase lock]]
 		6. [[Multy-Threaded design pattern]]
 			1. [[Producer-Consumer]]
 			2. [[Bulk Synchronous]]
@@ -139,9 +140,9 @@ topic:
 	3. [[Tecniche di Affidabilita]]
 		1. [[RAID]]
 17. [[Verilog]]
-18. [[Domande Esame AESO]]
 
 
+[[Domande Esame AESO]]
 
 
 ### Educational Material 🧱
