@@ -9,11 +9,11 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # Progettazione DB - Modello ad oggetti
 ---
-La _modellazione ad oggetti_ è  [[Modelli di dati|modello dati]] per la _[[Aspetti della modellazione della conoscenza|Modellazione della conoscenza]]_
+La _modellazione ad oggetti_ è [[Modelli di dati|modello dati]] per la _[[Modellazione della conoscenza|Modellazione della conoscenza]]_
 
 ### Rappresentazione della struttura della conoscenza concreta
-#### Oggetto(Definizione)
-Un _oggetto_ e un’entità _software_ con stato, comportamento e identità, che modella un’entita dell’_universo del discorso_. 
+#### Oggetto (Definizione)
+Un _oggetto_ e un’entità _software_ con stato, comportamento e identità, che modella un’[[Modellazione della conoscenza|entità]] dell’_universo del discorso_. 
 Lo stato è costituito da un _insieme di campi_  di qualsiasi complessità che modellano le _proprietà dell’entità_.
 Il _comportamento_ è costituito da un insieme di _metodi_, eventualmente _dotate di parametri_, questi modellano le operazioni di base che riguardano l’oggetto e le proprieta derivabili da altre dello stato
 Le _operazioni_ applicabili ad un oggetto sono dette _messaggi_ a cui l’oggetto risponde, utilizzando i _propri metodi e manipolando il proprio stato_.
@@ -25,8 +25,7 @@ l _interfaccia di un oggetto_ specifica l’insieme dei messaggi a cui esso puo 
 ##### Identificatore del oggetto (Definizione)
 L’_identità di un oggetto_ (_Object Identifier, OID_) e una caratteristica che è associata all’oggetto al momento della creazione, questo _non può essere modificata_ in nessun modo 
 _L’identita_ di due oggetti diversi è sempre diversa. 
-_L’identità_ modella quelle caratteristiche di un’entità del mondo reale che fanno si che tale
-entità sia sempre percepita come la stessa anche quando cambiano i valori di alcune delle sue proprietà.
+_L’identità_ modella quelle caratteristiche di un’entità del mondo reale che fanno si che tale entità sia sempre percepita come la stessa anche quando cambiano i valori di alcune delle sue proprietà.
 
 ##### Tipo del oggetto (Definizione) 
 Un _tipo_ definisce un _insieme di possibili valori_ e le _operazioni ad essi applicabili_. 
@@ -101,7 +100,7 @@ il _vincolo di totalità_ e rappresentato dall’assenza del taglio.
 
 Le associazioni stesse possono avere delle _proprietà_ che descrivono l _associazione_ e sono rappresentata con un rettangolo collegato alla linea dell _associazione_
 ![[IMG_1034.jpeg]]
-Alternativamente puo essere modellata interpretando l _associazione_ come un _[[Aspetti della modellazione della conoscenza|entita]]_ è ottenendo quindi qualcosa del tipo
+Alternativamente puo essere modellata interpretando l _associazione_ come un _[[Modellazione della conoscenza|entita]]_ è ottenendo quindi qualcosa del tipo
 ![[IMG_1035.jpeg]]
 
 
@@ -159,11 +158,11 @@ Una _sottoclasse_ puo essere definita anche a partire da un’altra sottoclasse,
 
 
 ### Conoscenza Astratta
-della [[Aspetti della modellazione della conoscenza|conoscenza astratta]] nel modellare una situazione reale, vanno rappresentati i _vincoli d’integrita_ che impongono restrizioni sui possibili valori della _conoscenza concreta_.
+della  [[Modellazione della conoscenza|conoscenza astratta]] nel modellare una situazione reale, vanno rappresentati i _vincoli d’integrita_ che impongono restrizioni sui possibili valori della _conoscenza concreta_.
 I vincoli possono essere descritti in due modi 
 - _Dichiarativo_: con formule del [[Logica proposizionale|calcolo dei predicati]]
 - _Operativo_: mediante controlli da eseguire nelle operazioni (di base o degli utenti).
-- si preferisce l’approccio _dichiarativo_ siccome più facile stabilire la _coerenza dei vincoli_ con la _definizione dei [[Analisi dei requisiti|requisiti]]_ ed apportare modifiche per _adeguarli a nuove esigenze_
+si preferisce l’approccio _dichiarativo_ siccome più facile stabilire la _coerenza dei vincoli_ con la _definizione dei [[Analisi dei requisiti|requisiti]]_ ed apportare modifiche per _adeguarli a nuove esigenze_
 - sono utili per gli _strumenti di progettazione_ per trovare eventuali _inconsistenze o ridondanze_, cioè vincoli logicamente implicati da altri
 - si _evita di ripetere i controlli_ in più operazioni.
 
@@ -178,8 +177,7 @@ Vincoli _generali andrebbero_ espressi usando un opportuno formalismo, come l’
 > [!tip]
 > In uno _stadio iniziale_ del progetto può essere sufficiente descrivere i vincoli usando il _linguaggio naturale_
 
-#### Rappresentazione del conoscenza proceduraleEcco il testo con la formattazione corretta:
-
+#### Rappresentazione del conoscenza procedurale
 Mentre la conoscenza delle operazioni di base viene modellata con il meccanismo dei metodi degli oggetti, le operazioni degli utenti vengono modellate con il meccanismo delle transazioni, programmi sequenziali che consentono di modellare l'evoluzione dell'universo del discorso astrae da malfunzionamenti e da interferenze indesiderate con altre transazioni che accedono concorrentemente ai dati. Un'operazione (di base o degli utenti) si specifica, a questo livello di astrazione, dando le seguenti informazioni:
 - Il nome, un identificatore non già utilizzato per altri elementi dello schema;
 - Lo scopo dell'operazione, descritto con un testo in linguaggio naturale;

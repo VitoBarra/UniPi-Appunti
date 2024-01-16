@@ -9,7 +9,7 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # Modello dati - Modello Relazionale
 ---
-il _modello relazionale_ è  [[Modelli di dati|modello dati]] per la _[[Aspetti della modellazione della conoscenza|Modellazione della conoscenza]]_
+il _modello relazionale_ è  [[Modelli di dati|modello dati]] per la _[[Modellazione della conoscenza|Modellazione della conoscenza]]_
 
 ### Introduzione
 I meccanismi per definire una [[Introduzione ai Data Base|base di dati]] con questo modello sono l'_ennupla_ e la _[[Relazioni tra insiemi|relazione]]_. 
@@ -54,11 +54,14 @@ Due _tipo relazione_ sono uguali se hanno la stesso _tipo ennupla_
 
 ##### Schema di relazione (Definizione)
 uno _Schema di relazionale_ $R:\{T\}$ è una _coppia_ dove $R$ è il _nome della relazione_ è $\{T\}$ è  un _tipo relazione_
+
 ##### Schema relazionale (Definizione)
 lo _schema relazionale_ è costituito da un insieme di _schemi di relazioni_ $R_{i}:\{T_{i}\}$ e da un _[[Insiemi Matematici|insieme]]_ di _vincoli di integrità_ relativi a tali schemi.
 
 Può essere abbreviato con $R(T)$
+
 #### Aspetto estensionale
+
 ##### Ennupla (Definizione)
 _siano_ 
 - $T=(A_{1}:T_{1},\dots,A_{n}:T_{n})$ un _tipo ennupla_
@@ -79,7 +82,7 @@ _allora_ la cardinalità di $I$ è il numero delle sue _ennuple_.
 #### Notazione
 uno _schema di relazione_, invece della
 notazione $R : {(A_1 : T_1, \dots , A_n : T_n)}$, 
-si usera la notazione $R(A_1 : T_1, \dots , A_n : T_n)$, o  $R(A_1, \dots , A_n)$ quando _non interessa_ evidenziare il tipo degli _attributi_.
+si userà la notazione $R(A_1 : T_1, \dots , A_n : T_n)$, o  $R(A_1, \dots , A_n)$ quando _non interessa_ evidenziare il tipo degli _attributi_.
 In questo caso si assume che _attributi uguali_ in schemi di _relazione diversi_ abbiano lo _stesso tipo_
 
 $dom(A_i)$: indica l _insieme_ dei possibili valori
@@ -89,15 +92,14 @@ $adom(A_i) \subseteq dom(A_{i})$: indica l _insieme_ di valori presi dal attribu
 
 
 
-### Vincoli di integrita
-Uno _schema relazionale_ è composta anche da _vincoli di intergrità_ questo sono vincoli sui dati per assicurarsi che un _instanza_ sia _valida_.
+### Vincoli di integrità
+Uno _schema relazionale_ è composta anche da _vincoli di integrità_ questo sono vincoli sui dati per assicurarsi che un _istanza_ sia _valida_.
 
-La _validità di un instanza_ è un concetto _semantico_ ovvero è legata alla realtà che volgiamo rappresentare
+La _validità di un istanza_ è un concetto _semantico_ ovvero è legata alla realtà che volgiamo rappresentare
 Un istanza _valida_ rispetta la struttura della relata 
 
-I _vincoli di integrita_ servono a modellare parte della struttura della realtà.
+I _vincoli di integrità_ servono a modellare parte della struttura della realtà.
 
 Esempi di vincoli:
 - _NULL/not NULL_ : vincolo sulla null abilità di un _attributo_. Può capitare che un dato sia mancante o non si possa conosce in un dato momento questo si modella con un attributo che accetta _NULL_ quando questo non deve succedere si utilizza il vincolo _not NULL_
-
-Altri vincoli sono quelli di [[Modello Relazionale - Chiavi|chiave]]
+- Altri vincoli sono quelli di [[Modello Relazionale - Chiavi|chiave]]

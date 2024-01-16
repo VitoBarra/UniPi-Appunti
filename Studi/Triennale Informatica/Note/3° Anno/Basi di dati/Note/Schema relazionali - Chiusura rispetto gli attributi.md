@@ -13,8 +13,8 @@ Parent MOC: "[[Data Base (DB)]]"
 _sia_
 - $R\langle T,F \rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
 -  $X \subseteq T$ un sotto insieme di _attributi_
- _allora_ la _chiusare_ di $X$ rispetto a $F$ è data da $$X_F^+=\{ A \in  T \mid F \vdash X \rightarrow A \}$$
-ovvero è l [[Insiemi Matematici|insieme]] di tutti gli _attributi_ che _[[Schemi relazionali - Dipendenze funzionali|dipendono funzionalmente]]_ direttamente o tramite [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] da $X$  
+ _allora_ la _chiusura_ di $X$ rispetto a $F$ è data da $$X_F^+=\{ A \in  T \mid F \vdash X \rightarrow A \}$$
+ovvero è l [[Insiemi Matematici|insieme]] di tutti gli _attributi_ che _[[Schemi relazionali - Dipendenze funzionali|dipendono funzionalmente]]_ direttamente o tramite [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] da $X$ utilizzando gli [[Schema relazionali - Assiomi di Armstrong|assiomi di Armstrong]]  
 
 è indicato con $X^+$ quando $F$ è chiaro dal contesto
 

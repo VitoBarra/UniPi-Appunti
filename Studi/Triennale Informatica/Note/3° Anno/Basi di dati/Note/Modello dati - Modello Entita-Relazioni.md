@@ -9,7 +9,7 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # Modello dati - Modello Entita-Relazioni
 ---
-Il _modello entità-relazione_ è  [[Modelli di dati|modello dati]] per la _[[Aspetti della modellazione della conoscenza|Modellazione della conoscenza]]_ .
+Il _modello entità-relazione_ è  [[Modelli di dati|modello dati]] per la _[[Modellazione della conoscenza|Modellazione della conoscenza]]_ .
 é il modello più popolare per il disegno concettuale di basi di dati. Verrà presentato nella sua forma originaria, estesa successivamente per trattare altri aspetti, in particolare la generalizzazione.
 
 Rispetto al [[Modello dati - Modello ad oggetti|modello ad oggetti]], questo modello non tratta aspetti procedurali (metodi) né gerarchie di inclusione tra collezioni, non distingue collezioni e tipi, non supporta alcun meccanismo di ereditarietà. 

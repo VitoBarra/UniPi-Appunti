@@ -15,17 +15,17 @@ per _algebra relazionale_ si intendono proprio queste tipologie di operazioni
 
 ### Algebra relazionale
 #### Notazione
-- $R,S$ sono [[Relazioni tra insiemi|Relazioni]]
-- $A,B$ sono _attributi_.
+- $R,S$  sono [[Relazioni tra insiemi|Relazioni]]
+- $A,B$  sono _attributi_.
 - $X,Y$ sono _insiemi di attributi_.
-- $XY$ e un’abbreviazione per $X \cup Y$;
+- $XY$ e' un’abbreviazione per $X \cup Y$;
 - $\{t_1, t_2, \dots , t_n\}$ indica le _ennuple_ $t_1, t_2, .\dots , t_n$  della relazione 
-- {$t_1, t_2, \dots , t_n$} induca una relazione _vuota_
+- $\{t_1, t_2, \dots , t_n\}$ induca una relazione _vuota_
 - $t_k.A_i$  indica il valore del _attributo_ $A_i$ nell’_ennupla_ $t_k$  
 - $t.X$ o $t[X]$ con $X$  un _sottoinsieme degli attributi_ di $t$, _Indica_ l’ennupla ottenuta da $t$ considerando solo gli _attributi_ in $X$;
 - se due relazioni $R$ ed $S$ hanno lo stesso attributo $A_j$  
-	- $R.A_j$ denota l’_attributo_ $A_j$ della _relazione_ R
-	-  $S.A_j$ denota l’_attributo_ $A_j$ della _relazione_ $S$.
+	- $R.A_j$ denota l’_attributo_ $A_j$ della _relazione_ $R$
+	- $S.A_j$ denota l’_attributo_ $A_j$ della _relazione_ $S$
 
 #### Operazioni primitive
 ##### Ridenominazione
@@ -33,9 +33,11 @@ la _ridenominazione_ cambia il _[[Modello dati - Modello Relazionale|tipo di una
 
 _Siano_ 
 - $X$ gli _attributi_ di $R$,
--  $A,B$  due _attributi_ tali che $A \in  X$ e $B \notin X$. 
-_allora_  la _Rinominazione_ del attributo $A$ in in attributo $B$ di $R$ è una relazione definita come:$$\rho_{A\leftarrow B}(R) = \{t \mid \exists u \in   R . t[B] = u[A] \land  t[C] = u[C]\}$$ con $C \not=B$
-dove parte sinistra del _[[Logica proposizionale|and]]_($\land$) rinomina l attributo mantenendo i valori uguali e quella a destra assicura che gli attributi non rinominate non cambino valore 
+- $A,B$  due _attributi_ tali che $A \in  X$ e $B \notin X$. 
+_allora_  la _Ridenominazione_ del attributo $A$ in in attributo $B$ di $R$ è una relazione definita come:$$\rho_{A\leftarrow B}(R) = \{t \mid \exists u \in   R . t[B] = u[A] \land  t[C] = u[C]\}$$ con $C \not=B$
+dove rispetto al _[[Logica proposizionale|and]]_($\land$)
+- la parte sinistra rinomina l attributo mantenendo i valori uguali 
+- la parte destra assicura che gli attributi non rinominate non cambino valore 
 
 La relazioni ha _attributi_
 $$\rho_{A\leftarrow B}(R) :\{  X − {A} ∪ {B}\}$$
@@ -49,7 +51,7 @@ delle ennuple di $R$ con quelle di $S$
 ##### Differenza
 _siano_ $R,S$ relazioni dello stesso tipo
 _allora_ la _differenza_ tra le due è definita come $$R - S = \{t \mid t \in  R \land t \notin S\}$$Restituisce la _relazione_ contenente le ennuple
-di R non presenti in S
+di $R$ non presenti in $S$
 ##### Proiezione
 _siano_  $A_1, A_2,\dots , A_m$ _attributi_ di $R$
 $$\pi_{A_1,\dots,A_m}(R) = \{t[A_1A_2 \dots A_m] \mid t ∈ R\}$$
@@ -77,14 +79,16 @@ _allora_ il loro _prodotto_ è definito $$R \times S = \{tu \mid t \in   R \land
 
 La _concatenazione_ $tu$ di due _ennuple_ $t$ e $u$ è un’ennupla che ha come coppie $(A_i, V_i)$ tutte quelle di $t$ e di $u$, e si indica anche con $t ◦ u$. 
 
-La relazione _risultante_ ha _grado uguale_ alla _somma dei gradi degli operandi_, e _cardinalita_ uguale al _prodotto delle cardinalita_ degli operandi. 
+La relazione _risultante_ ha
+- _grado uguale_ alla _somma dei gradi degli operandi_, 
+- _[[Cardinalità di un insieme|cardinalità]]_ uguale al _prodotto delle cardinalità_ degli operandi. 
 
 Il nome di questo _operatore_ e dato dalla sua somiglianza con il [[Prodotto Cartesiano|prodotto cartesiano]] di insiemi, sebbene dia come risultato un insieme di ennuple concatenate invece di un insieme di coppie di ennuple, come accadrebbe nel normale _prodotto cartesiano_.
 
 
 #### Espressione dell’algebra relazionale
 Un’espressione dell’_algebra relazionale_ e definita come segue: 
--  una relazione $R$ o una relazione ${t_1, t_2, \dots , t_n}$ sono espressioni dell’algebra;
+- Una relazione $R$ o una relazione ${t_1, t_2, \dots , t_n}$ sono espressioni dell’algebra;
 - _se_ $E, E_1 E_2$ sono _espressioni dell’algebra_, lo sono anche
 	- $E_1 \cap E_2$, se $E_1$ e $E_2$ hanno lo stesso tipo;
 	- $E_1 − E_2$ , se $E_1$ e $E_2$ hanno lo stesso tipo;
@@ -104,7 +108,7 @@ Vale l’equivalenza $R \cap S \equiv R − (R − S)$.
 ##### Divisione
 _Siano_
 - $XY$ gli _attributi_ di $R$ 
--  $Y$ gli attributi di $S$. 
+- $Y$ gli attributi di $S$. 
 _allora_ l operazione di _divisione_ è definita come 
 $$
 \begin{array}{}
@@ -118,8 +122,8 @@ Vale l’equivalenza $$R \div S \equiv \pi_X(R) − R_1$$con $R_1 = \pi_X((\pi_X
 
 
 _Se_ 
-- gli attributi di $S$ e $W$ sono _disgiunti_ e 
-- la loro unione dia gli attributi di $R$
+- Gli attributi di $S$ e $W$ sono _disgiunti_ 
+- La loro unione restituisce gli attributi di $R$
 _allora_ Il _prodotto_ e la _divisione_ sono legati dalle seguenti relazioni
 $$(W \times S) \div S = W,(R \div S) \times S \subseteq R$$
  $R \div S$ è il _massimo insieme_ per cui vale $$(R \div S) \times S \subseteq R$$
@@ -132,7 +136,7 @@ $$(W \times S) \div S = W,(R \div S) \times S \subseteq R$$
 ##### Giunzione
 _Sia_  
 - $R(A_1 : T_1, \dots , A_n : T_n)$ ed $S(A_{n+1} : T_{n+1}, \dots , A_{n+m} : T_{n+m})$ _relazioni_ con attributi distinti,
--  $A_i$ _attributo_ di $R$ e $A_j$ _attributo_ di $S$.
+- $A_i$ _attributo_ di $R$ e $A_j$ _attributo_ di $S$.
 _allora_ l operazione di _giunzione_ è definito come:
 $$R \underset{A_i=A_j}{\bowtie}  S = \{tu \mid t \in   R, u \in   S, t.A_i = u.A_j
 \}$$
@@ -167,8 +171,8 @@ $$\rho_{RA_1\leftarrow A_1
 Si ottiene cosi una _relazione_ che ha come attributi l’_unione_ di quelli degli _operandi_, con le ennuple formate concatenando quelle di $R$ ed $S$ con _valori uguali_ per gli attributi in comune eliminando le coppie ridondanti.
 La _giunzione naturale_, è una abbreviazione dell’ _equi join_ applicato a relazioni in cui l’associazione fra le ennuple e descritta con la _[[Modello Relazionale - Chiavi|chiave esterna]]_ e la chiave _primaria costituite_ da attributi uguali.
 Si noti che:
-- se $R$ ed $S$ non hanno attributi comuni, $$R \bowtie S \equiv R \times S$$
-- se $R$ ed $S$ hanno lo stesso schema, $$R \bowtie S \equiv R \cap S$$
+- se $R$ ed $S$ non hanno attributi comuni: $$R \bowtie S \equiv R \times S$$
+- se $R$ ed $S$ hanno lo stesso schema: $$R \bowtie S \equiv R \cap S$$
 
 ##### Semi-giunzione
 _sia_ $X$  gli attributi comuni tra $R$ ed $S$ 
@@ -187,16 +191,14 @@ con $A_1, A_2, \dots , A_m$ gli attributi di $R$
 altri _operatori del algebra_ relazionale sono stati introdotti per la loro utilità in campo. 
 questi non possono essere derivati direttamente dagli _operatori base_
 
-##### Proiezione generalizata
+##### Proiezione generalizzata
 _siano_
- - $e_1, \dots , e_n$ espressioni aritmetiche, ottenute a partire da costanti e attributi di E
+ - $e_1, \dots , e_n$ espressioni aritmetiche, ottenute a partire da costanti e attributi di $E$
  - $ide1, \dots , ideN$ etichette distinte.
 _allora_ la _proiezione generalizata_ è definita da $$\pi_{e_1 \ \boldsymbol{AS} \ ide1,\dots, e_n\  \boldsymbol{AS} \ ideN}(E)$$
 
-La _proiezione generalizzata_ estende la _proiezione_ con la possibilita di usare costanti o `
-espressioni aritmetiche nella lista degli attributi. 
-Per comodita si può anche assegnare `
-un’etichetta ad un’espressione con l’operatore _AS_:
+La _proiezione generalizzata_ estende la _proiezione_ con la possibilità di usare costanti o espressioni aritmetiche nella lista degli attributi. 
+Per comodità si può anche assegnare un’etichetta ad un’espressione con l’operatore _AS_
 
 
 

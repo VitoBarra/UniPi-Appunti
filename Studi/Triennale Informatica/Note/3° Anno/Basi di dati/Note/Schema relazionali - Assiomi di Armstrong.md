@@ -10,7 +10,7 @@ Parent MOC: "[[Data Base (DB)]]"
 # Schema relazionali - Assiomi di Armstrong
 ---
 #### Assiomi di Armstrong (Definizione)
-gli _assiomi di armstrong_ sono un insieme di [[Regole di inferenza]] per la [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] di [[Schemi relazionali - Dipendenze funzionali|Dipendenze funzionali]] _corretto_ e _completo_
+gli _assiomi di Armstrong_ sono un insieme di [[Regole di inferenza]] per la [[Schemi relazionali - Dipendenze funzionali derivate|derivazione]] di [[Schemi relazionali - Dipendenze funzionali|Dipendenze funzionali]] _corretto_ e _completo_
 
 - _Riflessività_: se $Y \subseteq X$ allora $X \rightarrow Y$
 - _Arricchimento_: se $X \rightarrow Y$ e $W \subseteq T$ allora $XW \rightarrow YW$
@@ -18,16 +18,16 @@ gli _assiomi di armstrong_ sono un insieme di [[Regole di inferenza]] per la [[S
 
 ##### Regole derivate
 Dagli assiomi base si possono dimostrare le seguenti formule:
+- _Identità_ $\{ \} \vdash X \rightarrow X$
+- _Decomposizione_: $\{ X \rightarrow YZ \} \vdash X \rightarrow Y,X \rightarrow Z$
 - _Unione_: $\{ X \rightarrow Y,X \rightarrow Z \} \vdash X \rightarrow YZ$
-- _Decomposizione_: $\{ X \rightarrow YZ \} \vdash X \rightarrow Y$
 - _Indebolimento_: $\{ X \rightarrow Y \} \vdash XZ \rightarrow Y$
-- _Identita_ $\{ \} \vdash x \rightarrow X$
 
 #### Teorema
-Gli _assiomi di Armstrong_ sono _corretti e completi_.
+Gli _assiomi di Armstrong_ sono __corretti__ e __completi__
 
-_Dimostrazione_:
-	Supponiamo di avere un insieme di dipendenze funzionali F su T, e una dipen￾denza X → Y.
+###### _Dimostrazione_
+	Supponiamo di avere un insieme di dipendenze funzionali $F$ su $T$, e una dipendenza $X \to Y$.
 Correttezza. Si deve dimostrare che se F ` X → Y allora F |= X → Y. Si procede
 per induzione sulla lunghezza della derivazione. Sia f1, . . . , fm la derivazione
 di X → Y da F, e supponiamo che il teorema valga per tutte le derivazioni piu`

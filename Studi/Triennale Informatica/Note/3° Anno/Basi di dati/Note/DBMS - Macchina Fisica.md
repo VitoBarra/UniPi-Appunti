@@ -32,11 +32,13 @@ Il _gestore del buffer_ gestisce uno _spazio della memoria temporanea_ destinato
 è un _astrazione_ sul _trasferimento_ dalla _memoria temporanea_ a quella _permanente_
 Offre agli altri _moduli_ un servizio per l interazione con la _memoria permanente_ 
 chi utilizza questo servizio vede la memoria come un _insieme di pagine_ in _memoria temporanea_
-		una _pagina_ è una _struttura logica_ che rappresenta in _memoria temporanea_ una _pagina fisica_  
+	una _pagina_ è una _struttura logica_ che rappresenta in _memoria temporanea_ una _pagina fisica_  
 
 
-le operazioni vengono eseguite sui record nel _buffer_, quindi lo _stesso record_ può subire _piu operazioni_ prima che questo venga salvato in _memoria permanente_, Infatti il trasferimento da _buffer_ a _memoria permanente_ viene fatto solo quando è necessario _liberare il buffer_ o quando il protocollo per la [[DBMS - Affidabilita|gestione dell’affidabilita]] lo richiede.
-Per questo Il Buffer è una [[Cache|cache]] per i dati e quindi una delle problematiche è scegliere la _politica di rimpiazzamento_, Siccome conoscere la [[SQL- Query|Query]] significa conoscere anche il _pattern di accesso ai dati_ si possono fare scelte _più informate_ su quale politica applicare dipendenti dal l’operazione da eseguire. il che aumenta _molto l efficenza del operazione_
+le operazioni vengono eseguite sui record nel _buffer_, quindi lo _stesso record_ può subire _piu operazioni_ prima che questo venga salvato in _memoria permanente_, Infatti il trasferimento da _buffer_ a _memoria permanente_ viene fatto solo quando è necessario _liberare il buffer_ o quando il protocollo per la [[DBMS - Gestione affidabilita e concorrenza|gestione dell’affidabilita]] lo richiede.
+Per questo Il Buffer è una [[Cache|cache]] per i dati e quindi una delle problematiche è scegliere la _politica di rimpiazzamento_, Siccome conoscere la [[SQL - Data Manipulation Lenguage|Query]] significa conoscere anche il _pattern di accesso ai dati_ si possono fare scelte _più informate_ su quale politica applicare dipendenti dal l’operazione da eseguire. il che aumenta _molto l efficienza del operazione_.
+
+Molto spesso si utilizza la politica __most recently used__ (MRU) siccome le pagine appena usate e' difficile che serviranno di nuovo subito
 
 ![[IMG_1069.jpeg]]
 
@@ -74,8 +76,7 @@ nel caso in cui un record venga spostato in un _altra pagina_ se successivamente
 
 
 #### Gestore delle strutture di memorizzazione
-Il _gestore delle strutture di memorizzazione_ 
-_astrae_ dalle _strutture fisiche_ usate per la loro memorizzazione in _memoria permanente_.
+Il _gestore delle strutture di memorizzazione_  _astrae_ dalle _strutture fisiche_ usate per la loro memorizzazione in _memoria permanente_.
 Offre _agli altri moduli_ del sistema una visione dei dati permanenti organizzati in _collezioni di record e indici_
 
 questo livello si occupa di
@@ -83,14 +84,14 @@ questo livello si occupa di
 - come gestire le situazioni in cui una sequenza di cancellazioni o di inserimenti rendono una pagina _troppo vuota_ o _troppo piena_;
 - quali _strutture ausiliarie_ prevedere per facilitare l’esecuzione delle ricerche. 
 
-per fare ciò si usano particolari _organizzazione dei dati_ che sono un insieme di _algoritmi_ per gestire le operazioni su una _collezione di record_ 
+per fare ciò si usano particolari _organizzazione dei dati_ e un insieme di _algoritmi_ per gestire le operazioni su una _collezione di record_ 
 
 ###### Organizzazione seriale 
 nel _organizzazione seriale_ (_heap_) i record di una collazione vengono memorizzati consecutivamente nell’_ordine_ in cui vengono _inseriti_.
 
 Le _prestazioni_ delle _operazioni_ su record sono  
 - _Inserzioni_:  __Veloce__ non ci sono strutture da mantenere 
-- _Ricerca_ (valore di una chiave o di piccoli sottoinsiemi):  __Lente__ se i dati sono molti.
+- _Ricerca_ (valore di una chiave o di piccoli sottoinsiemi di record):  __Lente__ se i dati in cui cercare sono molti.
 è adatto per _piccole collezioni_ o quando si opera su _grandi sottoinsiemi di record_.
 
 è un organizzazione molto semplice di solita scelta di default se non se ne specificano altre
@@ -115,8 +116,6 @@ L’_organizzazione procedurale_, o [[Struttura dati - Hash Table|hash]], si uti
 ![[IMG_1070.jpeg]]
 
 
-
-
 Le _prestazioni_ delle _operazioni_ su record sono  
 - _Inserzioni_: __Veloce__ con gestione di _collisioni_
 - _Ricerca_: 
@@ -126,9 +125,7 @@ Le _prestazioni_ delle _operazioni_ su record sono
 
 
 >[!warning] gibberish della prof 
->Svantaggi: Trade-off:
-> - Se il _numero di blocchi_ è troppo piccolo rispetto al Database si hanno frequenti collisioni (con catene di overflow, etc). 
-> - Se il _numero di blocchi_ è troppo grande rispetto al Database si ha un fattore di riempimento dei blocchi molto basso.
+>
 >
 >il file (Collezione di pagine fisiche)  può prevedere un numero di blocchi(pagine fisiche) $B=\lceil d\rceil$ con  $d=\frac{N}{Mc}$
 $d$ è la Frazione dello spazio fisico disponibile mediamente utilizzata, dove 
@@ -138,12 +135,16 @@ $d$ è la Frazione dello spazio fisico disponibile mediamente utilizzata, dove
 
 è un organizzazione _statica_ quindi funziona solo con _pagine_ che non cambiano
 
+Trade-off da considerare:
+ - Se il _numero di blocchi_ è troppo piccolo rispetto al Database si hanno frequenti collisioni (con catene di overflow, etc). 
+ - Se il _numero di blocchi_ è troppo grande rispetto al Database si ha un fattore di riempimento dei blocchi molto basso.
+
 ###### Organizzazione ad albero
 L’_organizzazione ad albero_ di una collezione $C$ sulla chiave $A$ prevede l’utilizzo di una [[Strutture Dati|struttura dati]] in _memoria permanente_ 
 
 si usa un [[Struttura dati - Bplus-Tree|B+-albero]] che ha le seguenti caratteristiche:
-1. Permette di trovare il record con un valore della chiave A, se esiste, con pochi accessi alla memoria permanente.
-2. Mantiene la collezione C ordinata sulla chiave A.
+1. Permette di trovare il record con un valore della chiave $A$, se esiste, con pochi accessi alla memoria permanente.
+2. Mantiene la collezione $C$ ordinata sulla chiave $A$.
 
 
 Le _prestazioni_ delle _operazioni_ su record sono  

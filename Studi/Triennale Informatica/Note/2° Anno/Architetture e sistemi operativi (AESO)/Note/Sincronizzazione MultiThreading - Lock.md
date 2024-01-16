@@ -7,7 +7,7 @@ tags: AESO
 
 Prev: [[Architetture e sistemi operativi (AESO)]]
 
-# Lock
+# Sincronizzazione MultiThreading - Lock
 ---
 le lock servono a garantire la mutua esclusione utile per gestire la  [[Sincronizzazione di oggetti condivisi]]
 

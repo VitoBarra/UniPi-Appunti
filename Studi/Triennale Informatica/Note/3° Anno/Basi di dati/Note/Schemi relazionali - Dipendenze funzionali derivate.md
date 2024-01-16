@@ -10,7 +10,7 @@ Parent MOC: "[[Data Base (DB)]]"
 # Schemi relazionali - Dipendenze derivate
 ---
 Le _dipende derivate_ in uno _[[Modello dati - Modello Relazionale|schema relazionale]] $R \langle T,F\rangle$_ sono tutte le [[Schemi relazionali - Dipendenze funzionali|dipende funzionali]] _Derivabili_ da quelle presenti in $F$.
-Un [[Modello dati - Modello Relazionale|instanza valida]] oltre le dipendenze in $F$ deve sodisfare anche tutte _quelle derivate_
+Un [[Modello dati - Modello Relazionale|istanza valida]] oltre le dipendenze in $F$ deve sodisfare anche tutte _quelle derivate_
 
 
 ##### Dipendenza Derivata (Definizione)
@@ -20,24 +20,24 @@ _se_ ogni istanza $r$ di $R(T)$ che soddisfa $F$ soddisfa anche $X \rightarrow Y
 
 
 Da questa definizione vale immediatamente che 
-- $\{ X \rightarrow Y,X \rightarrow Y \}\models X \rightarrow YZ$
+- $\{ X \rightarrow Y,X \rightarrow Z \}\models X \rightarrow YZ$
 - $\{  \} \models X \rightarrow X$ 
 
 
 #### Ricerca Delle dipendenze derivate
 per cercare tutte le _dipendenze derivate_ partendo da un insieme $F$ di [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]] c è bisogno di un _insieme di regole_ che permettono di costruire un [[Algoritmi|algoritmo]]. 
-Si utilizzano le [[Regole di inferenza|regole di ingernza]] in questo contesto detti “assiamo”
+Si utilizzano le [[Regole di inferenza|regole di inferenza]] in questo contesto detti “assiomi”
 
 ##### Definizione
 _sia_
 - $F$ un insieme di _[[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]_
-- $RI$ un [[Insiemi Matematici|insieme]] di [[Regole di inferenza|regole di infernza]] per $F$
-_allora_  si indica con $F \vdash X \rightarrow Y$ la derivabilita di $X \rightarrow Y$ usando $RI$ e
+- $RI$ un [[Insiemi Matematici|insieme]] di [[Regole di inferenza|regole di inferenza]] per $F$
+_allora_  si indica con $F \vdash X \rightarrow Y$ la derivabilità di $X \rightarrow Y$ usando $RI$ e
 - L insieme $RI$ è _corretto_ se: $F \vdash X \rightarrow Y \implies F \models X \rightarrow Y$
-- l Insieme $RI$ è _completo_ se $F \models X \rightarrow Y \implies F \vdash X \rightarrow Y$
+- L Insieme $RI$ è _completo_ se $F \models X \rightarrow Y \implies F \vdash X \rightarrow Y$
 
 > [!tip]
-> L insieme piu famoso sono gli [[Schema relazionali - Assiomi di Armstrong|assiomi di Armstrong]]
+> L insieme corretto e completo piu famoso sono gli [[Schema relazionali - Assiomi di Armstrong|assiomi di Armstrong]]
 
 ##### Derivazione di una dipendenza (Definizione)
 una _derivazione_ di $f$ da $F$ è una sequenza finita $f_{1},\dots f_{m}$ di _dipendenze_ dove 

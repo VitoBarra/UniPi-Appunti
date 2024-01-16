@@ -13,7 +13,6 @@ l _SQL_ è un [[Linguaggio per Database - SQL|linguaggio per database]] che oggi
 
 è divisivo in due sotto linguaggio
 - [[SQL - Data Manipulation Lenguage|Data Manipulation Lenguage (DML)]]
-	- si occupa delle interrogazioni e delle modifiche dei dati su un instanza di [[Introduzione ai Data Base|Database]]
+	- si occupa delle interrogazioni e delle modifiche dei dati su un intanza di [[Introduzione ai Data Base|Database]]
 - [[SQL - Data Declaration Lenguage |Data Declaration Lenguage (DDL)]]
 	- Si occupa della creazione di _schemi e di tabelle_ piu altre operazioni 
-	- 

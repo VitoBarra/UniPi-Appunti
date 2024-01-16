@@ -15,8 +15,8 @@ questo si fa _scomponendo_ che si presentano con _relazioni grandi_ in _relazion
 
 #### Decomposizione (Definizione)
 _sia_ $R(T)$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
-_se_ $\bigcup_{i}T_{i} =I$
-_allora_ $\rho=\{ R_{1}(T_{1}),\dots R_{K}(T_{K}) \}$ è una _decomposizione_  di $R(T)$
+_se_ $\bigcup_{i}T_{i} =T$
+_allora_ $\rho=\{ R_{1}(T_{1}),\dots R_{K}(T_{K}) \}$ è una _decomposizione_ di $R(T)$
 
 >[!note]
 >le relazione nella decomposizione $\rho$ non sono _necessariamente disgiunte_
@@ -26,7 +26,7 @@ _allora_ $\rho=\{ R_{1}(T_{1}),\dots R_{K}(T_{K}) \}$ è una _decomposizione_  d
 _Sia_ 
 - $R \langle T,F \rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
 - $\rho= \{ R_{1}(T_{1}),\dots,R_{k}(T_{k})\}$ è una _decomposizione_ di $R$
-_Se_ per ogni relazione $r$ che soddisfa $R \langle T,F \rangle$ vale che $$r = \pi_{T_1}(r)\bowtie,\dots \bowtie\pi_{T_k}(r)$$_allora_ $\rho$ è una _decomposizione che preserva i dati_ 
+_Se_ per ogni relazione $r$ che soddisfa $R \langle T,F \rangle$ vale che $$r = \pi_{T_1}(r)\bowtie\dots \bowtie\pi_{T_k}(r)$$_allora_ $\rho$ è una _decomposizione che preserva i dati_ 
 
 
 
@@ -34,11 +34,11 @@ _Se_ per ogni relazione $r$ che soddisfa $R \langle T,F \rangle$ vale che $$r = 
 _sia_
 - $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
 - $\rho= \{ R_{1}(T_{1}),\dots,R_{k}(T_{k}) \}$ una _decomposizione_ di $R$
-_allora_ si ha che _per ogni istanza_ $r$ di $R(T)$ vale $$r \subseteq \pi_{T_1}(r) \bowtie,\dots \bowtie\pi_{T_k}(r)$$
+_allora_ si ha che _per ogni istanza_ $r$ di $R(T)$ vale $$r \subseteq \pi_{T_1}(r) \bowtie\dots \bowtie\pi_{T_k}(r)$$
 
-_dimostrazione_:
-	siccome $\bigcup_{i}T_{i}$ anche la relazione $\pi_{T_1}(r) \bowtie,\dots \bowtie\pi_{T_k}(r)$ è definita su $T$
-	Data l _ennupla_ $t\in r,t[T_{i}]\in \pi_{T_i}(r)$ e data la definizione di [[Modello relazionale - Algebra Relazionale|giunzione naturale]] segue che $t\in \pi_{T_1}(r) \bowtie,\dots \bowtie\pi_{T_k}(r)$
+###### _dimostrazione_
+siccome $\bigcup_{i}T_{i}=T$ anche la relazione $\pi_{T_1}(r) \bowtie\dots \bowtie\pi_{T_k}(r)$ è definita su $T$
+Data l _ennupla_ $t\in r,t[T_{i}]\in \pi_{T_i}(r)$ e data la definizione di [[Modello relazionale - Algebra Relazionale|giunzione naturale]] segue che $t\in \pi_{T_1}(r) \bowtie\dots \bowtie\pi_{T_k}(r)$
 
 
 ##### Teoria 
@@ -48,13 +48,16 @@ Questo teorema definisce cos è una _perdita di informazione_, Con perdita di in
 
 ##### Teorema
 _sia_ 
-- $R(T)$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
-- $\rho= \{ R_1(T_1),R_2(T_2) \}$ una _decomposizione_ di $R$
-_se e solo se_ $T_{1} \cap T_{2} \rightarrow T_{1} \in F^+$ oppure $T_{1} \cap T_{2} \rightarrow T_{2} \in F^+$
+- $R\langle T ,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
+- $\rho= \{ R_1(T_1),R_2(T_2) \}$ con $\bigcup_iT_i =T$ una _decomposizione_ di $R$
+_se e solo se_ $T_{1} \cap T_{2} \rightarrow T_{1} \in F^+$ oppure $T_{1} \cap T_{2} \rightarrow T_{2} \in F^+$ ovvero nella [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] di $F$
 _allora_ La _decomposizione_ $\rho$ _preserva i dati_
 
 
-_Dimostrazione_:
+> [!note]
+> ovvero non devono esserci [[Normalizzazione di schemi relazionali#Linee guida per la progettazione|ennuple spurie]]
+
+###### _Dimostrazione_
 $( \ \Longleftarrow\ )$: 
 _Sopponiamo_ che $T_{1} \cap T_{2} \rightarrow T_1 \in F^+$
 _sia_ 
@@ -109,7 +112,7 @@ _sia_
 - $T_i \subseteq T$ un sotto _insieme di attributi_
 _allora_  la [[Modello relazionale - Algebra Relazionale|proiezione]] di $F$ su $T_i$ è definita come $$\pi_{T_i}(F)=\{ X \rightarrow Y \in  F^+ \mid X,Y \subseteq T_i \}$$
 ##### Algoritmo banale
-un algoritmo _banale_ di [[Complessita|complessità]] _esponenziale_  per calcolare un _copertura_  di $\pi_{T_i}(F)$ è il seguente
+un algoritmo _banale_ di [[Complessita|complessità]] _esponenziale_ per calcolare un _copertura_  di $\pi_{T_i}(F)$ è il seguente
 ```pseudo
 	\begin{algorithm}
 	\caption{Copertura di $\pi_{T_i}(F)$ }
@@ -118,7 +121,7 @@ un algoritmo _banale_ di [[Complessita|complessità]] _esponenziale_  per calcol
 	\State $\pi_{T_i}=\emptyset$
 	\For{$\boldsymbol{each} \ Y \subset T_i$ }
 	\State $Z:=Y^+_F-Y$
-	\State $\pi_{T_i} += Y\rightarrow (Z \cap T_i)$
+	\State $\pi_{T_i} =\pi_{T_i} \cup Y\rightarrow (Z \cap T_i)$
 	\EndFor 
 	\Return $\pi_{T_i}$
 	\EndFunction 
@@ -134,11 +137,10 @@ _se e solo se_ $\bigcup \pi_{T_i}(F) \equiv F$ dove $\pi_{T_i}$ è una _proiezio
 _allora_ $\rho$ preserva le dipendenze 
 
 
-##### Determinare se un algoritmo preserva le dipendenze
+##### Determinare se una decomposizione preserva le dipendenze
 per controllare che una data decomposizione preservi le dipendenze dobbiamo controllare che $\forall X \rightarrow Y \in F$ valga che $X \rightarrow Y \in G^+$ con la  $G^+$ [[Schema relazionali - Chiusura di Insiemi di dipendenze|chiusura]] e $G = \bigcup \pi_{T_i}(F)$ 
 
 calcolando la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura]] di $X$ rispetto a $G$ indicata con $X^+_G$ si può evitare di _calcolare esplicitamente_ $G^+$
-
 ```pseudo
 	\begin{algorithm}
 	\caption{Copertura di $X$ rispetto $G$}
@@ -147,7 +149,7 @@ calcolando la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura]] 
 	\State $X_G^+=X$
 	\While{$X_G^+$ è cambiato}
 	\For{$\boldsymbol{each} \ i=1 \ \boldsymbol{to}\ k$}
-	\State $X_G^+=X_G^+\cup ((X^+_G \cap T_i)^+\cap T_i)$
+	\State $X_G^+=X_G^+\cup ((X^+_G \cap T_i)^+_G\cap T_i)$
 	\EndFor
 	\EndWhile
 	\Return $X_G^+$
@@ -155,7 +157,7 @@ calcolando la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura]] 
 	\end{algorithmic}
 	\end{algorithm}
 ```
-e $(X^+_G \cap T_i)^+$ viene [[Schema relazionali - Chiusura di Insiemi di dipendenze#Algoritmo di chiusura veloce|con l algoritmo di chiusare veloce]] che ha [[Complessita|complessità polinomiale]]
+e $(X^+_G \cap T_i)^+$ viene [[Schema relazionali - Chiusura di Insiemi di dipendenze#Algoritmo di chiusura veloce|con l algoritmo di chiusure veloce]] che ha [[Complessita|complessità polinomiale]]
 ed agni passo l _istruzione_ nel for  aggiunge a $X^+_G$ gli attributi $A_i$ tali che $(X_G^+ \cap T_i \rightarrow A_i \in \pi_{T_i}(F)$ 
 
 e quindi l algoritmo di determinazione segue come
@@ -180,7 +182,7 @@ e questo è un algoritmo _polinomiale_
 #### Decomposizione che preserva Dati e dipendenze
 il _preservare_ dati e _dipendenze_ di una decomposizione sono due __proprietà indipendenti__, Ma esiste un criterio per assicurare di averli entrambi
 
-##### Criterio di Sufficenze
+##### Criterio di Sufficienze
 _sia_
 - $R \langle T,F\rangle$
 - $\rho=\{ R_i\langle T_i,F_i\rangle \}$ una _decomposizione_ di $R$
@@ -190,7 +192,7 @@ _Se_
 _allora_ $\rho$ preserva _anche i dati_
 
 
-_Dimostrazione_
+###### _Dimostrazione_
 si assume senza perdita di generalità che $T_1$ sia [[Modello Relazionale - Chiavi|superchiave]] di $R$
 Dobbiamo dimostrare che per ogni istanza $r$ di $R$ valga $$\pi_{T_1}(r) \bowtie \dots \bowtie \pi_{T_n}(r) \subseteq r$$ sia $e \in  \pi_{T_1}(r) \bowtie \dots \bowtie \pi_{T_n}(r)$ 
 per _[[Modello relazionale - Algebra Relazionale|definizione di giunzione]]_ si ha che esistono $e_i \in \pi_{T_i}(r)$ tale che per $i$ in $i,\dots,n,e_i[T_i]=e[T_i]$

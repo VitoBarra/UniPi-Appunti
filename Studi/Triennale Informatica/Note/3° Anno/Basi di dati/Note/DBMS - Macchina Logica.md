@@ -40,7 +40,7 @@ Gli operatori dell’[[Modello relazionale - Algebra Relazionale|algebra relazio
 Durante la _riscrittura algebrica_ si applicano tecniche di [[Algebra Relazionale - Trasformazione di espressioni|trasformazione dell’interrogazione]], basate sulle proprietà algebriche degli [[Modello relazionale - Algebra Relazionale|operatori relazionali]]
 
 #### Ottimizzatore fisico
-SI occupa di tradurre l _albero logico_  in un _albero fisico_ o _piano di accesso_ di operazioni fisiche che rappresentano le operazioni da fare per relaziare le operazioni del _albero logico_
+SI occupa di tradurre l _albero logico_  in un _albero fisico_ o _piano di accesso_ di operazioni fisiche che rappresentano le operazioni da fare per realizzare le operazioni del _albero logico_
 
 
 ogni DBMS ha i suoi operatori fisici qui si usano le operazioni fisiche del sistema _JRS_.
@@ -146,7 +146,39 @@ _NestedLoop_: l Algoritmo immediato che non ha bisogno di nulla per funzionare
 	\end{algorithmic}
 	\end{algorithm}
 ```
-Complessita: $O(nm)$
+questo algoritmo preserva l ordine della relazione esterna $R$
+
+Complessità  in numero di accessi alla memoria: $Npag(R)+NRec(R)*Npag(S)$
+ma dipende anche dallo spazio che e' disponibile nel buffer, infatti se c e' spazio per mantenere $Npage(S)$ lo si fa e non bisogna leggere piu volte le pagine di $S$ portando il numero di operazioni a $Npag(R)+Npag(S)$  
+
+
+PagedNestedLoop: Come nested loop ma piu usato per la sua efficienza
+```pseudo
+	\begin{algorithm}
+	\caption{PagedNestedLoop}
+	\begin{algorithmic}
+	\Function{NestedLoop}{R,S}
+	\State risultato = []
+	\For{$\boldsymbol{each } \ page \ p_r \in R$}
+		\For{$\boldsymbol{each} \ page \ p_s \in S$}
+			\For{$\boldsymbol{each } \ tuple \ r \in p_r$}
+				\For{$\boldsymbol{each} \ tuple \ s \in p_s$}
+					\If{$r[B]=s[D]$}
+					\State risultato += $<r,s>$
+					\EndIf
+				\EndFor
+			\EndFor
+		\EndFor
+	\EndFor
+	\Return risultato
+	\EndFunction
+	\end{algorithmic}
+	\end{algorithm}
+```
+questa versione NON preserva nessun ordine 
+la complessità in numero di accessi alla memoria: $Npag(R)+Npag(S)$ 
+
+
 
 _IndexNestedLoop_: una versione più efficiente del NestedLoop che si puo usare solo se esiste l indice del parametro di giunzione delle relazione interna $O_I$ (in questo caso $S.D$)
 ```pseudo
@@ -244,17 +276,5 @@ Il __Sort__ è l’unico operatore che si discosta da questo schema: il metodo c
 
 
 
-#### Gestore della concorrenza 
-La tecnica utilizzata più comunemente per realizzare il controllo della concorrenza nei sistemi centralizzati è la tecnica del [[Tecniche di prevenzione Deadlock - Two phase lock |blocco a due fasi]] (Two Phase Lock, 2PL) . 
-Utilizzando questa tecnica, si associa ad ogni dato usato da un’operazione un blocco ([[Lock|lock]]) in lettura o in scrittura. Ogni transazione, prima di eseguire un’azione su di un dato, richiede il blocco corrispondente di lettura o scrittura.
-Due transazioni non possono avere blocchi incompatibili sullo stesso dato, ovvero blocchi con almeno uno dei due di scrittura. Pertanto in ogni momento, per ogni dato possono essere stati assegnati o più blocchi in lettura o un solo blocco in scrittura.
-La transazione che richiede un blocco incompatibile su un dato viene messa in attesa, e risvegliata solo quando il dato diventa disponibile. Per garantire la serializzabilità e l’isolamento, ogni transazione viene di solito eseguita con la tecnica del blocco a due fasi stretto, che prevede che i blocchi di una transazione vengano rilasciati tutti assieme, solo dopo che la transazione sia terminata. La tecnica del blocco prevede che una transazione venga posta in attesa quando richiede un blocco che non pu`o ottenere. Pu`o accadere che questa attesa diventi infinita: supponiamo che T1 ottenga un blocco in scrittura su X1 e T2 ottenga un blocco in scrittura su X2, e che successivamente T1 richieda anch’essa un blocco in scrittura su X2: in questo caso T1 viene messa in attesa del fatto che T2 rilasci il proprio blocco. Se a questo punto T2 richiede un blocco su X1, anche T2 va in attesa del fatto che T1 rilasci il proprio blocco, e si crea una situazione di attesa “circolare”, ovvero di stallo (deadlock). I metodi comunemente usati per sbloccare una situazione di stallo sono i seguenti.– Rilevazione tramite grafo delle attese: si costruisce un grafo avente come nodi le transazioni, aggiungendo un arco da T1 a T2 ogni volta che T1 va in attesa del rilascio di un blocco da parte di T2. Ogni volta che si crea un ciclo nel grafo, una delle transazioni coinvolta viene fatta abortire (tipicamente la pi` u giovane, quella che ha meno risorse o quella il cui aborto ha il minor costo).– Rilevazione per time-out: ogni volta che un’attesa si prolunga oltre un certo limite, la transazione in attesa viene abortita, presupponendo l’esistenza di uno stallo. Il blocco a due fasi garantisce la serializzabilit`a, ma limita la concorrenza possibile tra diverse transazioni. Ad esempio, un’applicazione lunga che legge una grande quantit`a di dati potrebbe non riuscire mai ad acquisire tutti i blocchi necessari, oppure, quando li avesse acquisiti tutti, potrebbe impedire ad ogni altra transazione che vo glia effettuare modifiche di partire. Per questo motivo, molti sistemi permettono al programmatore di limitare la quantit`a di blocchi richiesti dalle applicazioni, anche se questo comporta la perdita della serializzabilit`
+`
 
-
-
-#### Gestore del affidabilita
-
-Compito del gestore dell’affidabilit`a `e di eseguire le operazioni delle transazioni e la loro terminazione garantendo che la base di dati contenga solo gli effetti delle transazioni terminate normalmente e sia protetta da fallimenti di transazione, di sistema e disastri. Le operazioni delle transazioni possono essere eseguite con algoritmi diversi. Supponiamo che si adotti l’algoritmo disfare-rifare, come accade nei sistemi DB2 e Oracle:– Unamodifica di un dato pu` o essere riportata sulla base di dati prima che la transazione termini. Nel caso di fallimento di transazione o di sistema occorre annullare le modifiche fatte dalla transazione sulla base di dati (disfare).– Unatransazione T ` e considerata terminata normalmente, e viene scritto nel giornale (descritto pi` u avanti) il record (T, commit), senza che le sue modifiche vengano preventivamente riportate nella base di dati; questo compito viene svolto dal gestore del buffer quando lo ritiene opportuno. Nel caso di fallimento di sistema occorre rifare le modifiche fatte dalle transazioni terminate normalmente perch´ e non si ` e certi che i loro effetti siano stati riportati sulla base di dati. La struttura dati che viene utilizzata in maniera cruciale tanto per disfare che per rifare gli effetti delle transazioni ` e il giornale delle modifiche (log). Questo `e un archivio gestito in maniera sicura (cio` e mantenuto in due copie su dispositivi con fallimento indipendente) che contiene, per ogni operazione effettuata da una transazione sui dati, le seguenti informazioni
-– L’identificatore della transazione che ha effettuato l’operazione.– L’operazione eseguita (inserzione, aggiornamento, cancellazione, inizio transazione, commit, abort).– L’identificatore del record modificato.– Il vecchio ed il nuovo valore del record. Poich´e un malfunzionamento pu`o anche intercorrere tra il momento in cui un’operazione viene eseguita ed il momento in cui tale operazione viene registrata nel giornale, ` e essenziale registrare tutte le operazioni nel giornale prima che esse vengano eseguite. Pi` u precisamente, ` e necessario seguire le due regole seguenti: 1. Regola per disfare (Write ahead log): prima di eseguire una modifica, occorre salvare il vecchio valore nel giornale, in modo che non vada perduto in caso di malfunzionamento. 2. Regola per rifare (Commit Rule): prima di considerare terminata una transazione, occorre salvare nel giornale i nuovi valori dei dati modificati, in modo da poter rieseguire la transazione in caso di fallimento di sistema o di disastro.
-
-286 Avendoadisposizione il giornale, ed una vecchia copia della base di dati, la procedura di ripristino in caso di malfunzionamento `e la seguente:– In caso di fallimento di transazione, si disfano gli effetti di tutte le operazioni della transazione, utilizzando le informazioni sul giornale, ed infine si memorizza una marca di abort sul giornale stesso.– Incasodifallimento di sistema, prima di rendere operativa la base di dati, si esegue il comando restart che scandisce il giornale per disfare gli effetti delle transazioni attive al momento del fallimento e per rifare gli effetti delle transazioni terminate normalmente. Per limitare poi la porzione di giornale da scandire, i DBMS effettuano ad intervalli brevi e regolari un’operazione di allineamento (checkpoint) che consiste nel riportare in memoria permanente tutti gli aggiornamenti effettuati nei buffer, e nel memorizzare poi sul giornale una marca di checkpoint. In questo modo, in caso di fallimento di sistema, la procedura di ripristino pu`o partire dallo stato del giornale e della base di dati in linea, avendo la certezza che non c’` e bisogno di rifare nessuna delle operazioni eseguite prima del checkpoint. Si osservi tuttavia che ` e necessario disfare le operazioni eseguite prima e dopo il checkpoint da transazioni non terminate normalmente.– In caso di disastro, si porta in linea la vecchia copia stabile dello stato della base di dati e si riapplicano ad essa tutte le operazioni registrate sul giornale da parte di transazioni che abbiano effettuato il commit. Se la vecchia copia era stata presa in un momento di attivit` a del sistema, ` e anche necessario disfare gli effetti di tutte le transazioni che erano in corso al momento della copia e che non avevano ancora effettuato il commit al momento del malfunzionamento. Si osservi che la regola per disfare garantisce che il vecchio valore di un record modificato non vada mai perduto, ma implica che, in seguito ad un malfunzionamento avvenuto poco dopo la scrittura del record nel giornale, non sia possibile sapere se l’operazione fosse stata realmente effettuata sui dati. Si osservi inoltre che un malfunzionamento pu`o avere luogo anche durante il ripristino. Per ambedue questi motivi, ` e importante che le operazioni di “disfacimento” e “rifacimento” che si effettuano durante il ripristino siano effettuate in maniera “idempotente”, ovvero in modo da ottenere l’effetto voluto sia che si stia disfacendo un’operazione realmente effettuata, sia che si stia disfacendo un’operazione gi`a disfatta.

@@ -9,7 +9,7 @@ Parent MOC: "[[Data Base (DB)]]"
 
 # SQL - Data Manipulation Lenguage
 ---
-Il _Data Manipulation Lenguage_ è una parte del [[Linguaggio per Database - SQL|SQL]] ed è un sotto insieme di comandi che si occupa del _interrogazione_ e _modifca_ dei dati su un instanza di [[Introduzione ai Data Base|Database]] 
+Il _Data Manipulation Lenguage_ è una parte del [[Linguaggio per Database - SQL|SQL]] ed è un sotto insieme di comandi che si occupa del _interrogazione_ e _modifica_ dei dati su un istanza di [[Introduzione ai Data Base|Database]] 
 
 ### Interrogazione DB
 I _comandi di interrogazione_, o __QUERY__, permettono di effettuare una ricerca dei dati presenti nel database che soddisfano particolari condizioni, richieste dall’utente
@@ -39,7 +39,7 @@ $IN$ per selezionare righe che hanno attributi che assume valori contenuti in un
 
 $BETWEEN$ per selezionare righe che hanno attributi in un certo range 
 
-$IS NULL$ per selezionare righe che hanno attributi nulli
+$IS\ NULL$ per selezionare righe che hanno attributi nulli
 
 I valori NULL rappresentano l’assenza di informazione, 
 cioè: 
@@ -63,26 +63,20 @@ Le _funzioni diaggregazione_ sono funzione che aggregano tutta la tabella e ne r
 
 In generale i valori NULLI vengono ignorati da queste funzioni
 ```SQL
-	SELECT FAGREGAZIONE(A1)
+	SELECT FAGREGAZIONE([Specifica] A1)
 	FROM T
-	WHERE T.A2 OP ESP
+	[WHERE T.A2 OP ESP]
 ```
 
-Si possono aggiungere le seguenti specifiche
+dove \[Specifica\] puo assumere i seguenti valori
 - $*$ considera tutte le righe anche i _null_
 - $ALL$ considera tutto tranne i _null_
-- $DISTINCT$considera solo i valori _distinti_
+- $DISTINCT$ considera solo i valori _distinti_
 
-si usano come 
-```SQL
-	SELECT FAGREGAZIONE([Specifica] A)
-	FROM T
-	[WHERE CONDIZIONE]
-```
 
 Non tutte le funzioni supportano tutte le specifiche infatti
 
-- _$MIN/MAX$_: non le supportano hanno sempre $ALL$
+- _$MIN/MAX$_: non le supportano , vale di default hanno sempre $ALL$
 - $Count(*)$ : le supporta tutte e tre
 - $AVR/SUM$: sopportano solo $ALL$ e $DISTINCT$
 
@@ -93,7 +87,7 @@ Non tutte le funzioni supportano tutte le specifiche infatti
 >	FROM T
 >	[WHERE CONDIZIONE] 
 >```
->perché cosi la tabella target non è omogenea e non si saprebbe a quale riga appartiene l atributo $A$
+>perché cosi la tabella target non è omogenea e non si saprebbe a quale riga appartiene l attributo $A1$
 
 
 
@@ -120,7 +114,8 @@ la clausola _HAVING_ si usa per fare una restrizione, Come lo _WHERE_ ma solo do
 	SELECT A1,FAGREGAZIONE1(A2)
 	FROM T1
 	GROUP BY A1, ATRIBUTI
-	HAVING FAGREGAZIONE2(A3) CONDIZIONE
+	HAVING FAGREGAZIONE2(A3) OP C
+	[WHERE CONDIZIONE]
 ```
 
 
@@ -192,15 +187,14 @@ il _Natural Join_ implementa il _[[Modello relazionale - Algebra Relazionale|joi
 	SELECT ATTRIBUTI
 	FROM T1 NATURAL JOIN T2
 ```
-
-
-usando la clausola _using_ si può fare il _join_ su di un sotto insieme delle colonne che hanno lo stesso nome
+usando la clausola _using_ si può fare il _ natural join_ su di un sotto insieme delle colonne che hanno lo stesso nome
 
 ```SQL
 	SELECT ATTRIBUTI
-	FROM T1 JOIN T2
+	FROM T1 NATURAL JOIN T2
 	USING (A1,A2)
 ```
+
 
 
 gli _outer Join_ si usano in caso di Join su colonne dove una delle due parti potrebbe non avere valori, ovvero potrebbe avere dei _null_
@@ -222,7 +216,7 @@ dove rispettivamente il
 - _FULL_ preserva entrambi le colonne 
 
 #### SubQuery
-Una _subquery_ è un comando selecta racchiuso tra parentesi tonde e inserito in un altra query
+Una _subquery_ è un comando select racchiuso tra parentesi tonde e inserito in un altra query
 
 
 Le _subquery_ sono di 3 tipo
@@ -384,3 +378,9 @@ DELETE FROM TABELLA
 WHERE CONDIZIONE
 ```
 
+
+
+
+
+la sintassi della select
+![[Pasted image 20240113013351.png]]

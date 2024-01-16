@@ -18,7 +18,7 @@ la _terza forma normale_ preserva i [[Schemi Relazionali - Decomposizione di sch
 ##### Terza forma normale (Definizione)
 _sia_
 - $R \langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
-_se e solo se_ $\forall X \to A \in F^+$ se $X$ è [[Modello Relazionale - Chiavi|superchiave]] o è [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|Primo]]
+_se e solo se_ $\forall X \to A \in F^+$ se $X$ è [[Modello Relazionale - Chiavi|superchiave]] o se $A$ è [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|Primo]]
 _allora_ $R$ è in _terza forma normale_ (3NF)
 
 
@@ -28,10 +28,10 @@ _allora_ $R$ è in _terza forma normale_ (3NF)
 ##### Teorema
 _sia_
 - $R \langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
-_se e solo se_ $\forall X \to A_1\dots A_n \in F$   
-- $\forall i. A_i \in X$ oppure 
-- $X$ è [[Modello Relazionale - Chiavi|superchiave]] oppure
--  $\forall i. A_i$ è [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|Primo]]
+_se e solo se_ $\forall X \to A_1\dots A_n \in F$     $\forall i. A_i \in X$ 
+- $X$ è [[Modello Relazionale - Chiavi|superchiave]] 
+oppure
+- $\forall i. A_i$ è [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|Primo]]
 _allora_ $R$ è in _terza forma normale_ (3NF)
 
 ##### Corollario
@@ -40,19 +40,19 @@ _sia_
 - $F$ una [[Schema relazionali - Copertura di insieme di dipendenze|copertura canonica]]
 _se e solo se_ $\forall X \to A \in F$ $X$ è [[Modello Relazionale - Chiavi|superchiave]] 
 - con $X \to A$ un _[[Schema relazionali - Copertura di insieme di dipendenze#Dipendenza elementare|dipendenza elementare]]_
+oppure
+- $A$ e' [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|primo]]
 _allora_ $R$ è in _terza forma normale_ (3NF)
 
 
 ##### Proposizione
-il problema di decidere se uno _schema di relazione_ è in _3NF_ è [[Classi di Complessita|NP-Completo]]
+il problema di decidere se uno _schema di relazione_ è in _3NF_ è [[Classi di Complessita|NP-Completo]] perché decidere se un attributo e' [[Modello Relazionale - Chiavi#Attributo primo (Definizione)|primo]] e' un problema NP-completo
 
->[!note]
->questo viene dal fatto che decidere se un _attributo_ è primo è NP-complesto
 
 #### Normalizzazione in forma 3NF
 Un algoritmo per trasformare uno schema $R$ in uno schema in _forma normale 3NF_ si basa sulla seguente idea
 
-dato un insieme di attributi $T$ è un [[Schema relazionali - Copertura di insieme di dipendenze|copertura canonica]] $G$ si [[partizione|partizione]] $G$ in gruppi $G_i$ tali che tutte le dipendenza in $G_i$ hanno la stessa parte sinistra
+dato un insieme di attributi $T$ è un [[Schema relazionali - Copertura di insieme di dipendenze#Copertura canonica|copertura canonica]] $G$ si [[partizione|partizione]] $G$ in gruppi $G_i$ tali che tutte le dipendenza in $G_i$ hanno la stessa parte sinistra per
 ogni $G_i$ da origine ad una relazione composta da tutti gli attributi che appaiono, e come [[Modello Relazionale - Chiavi|chiave]] (detta chiave _sintetizzata_ ) si sceglie la parte _sinistra comune_
 
 
@@ -68,21 +68,21 @@ La _complessità_ del algoritmo dipende da quella del calcolo della _[[Schema re
 
 
 ##### Teorema
-_Sia_ $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]_
+_Sia_ $R\langle T,F\rangle$ uno _[[Modello dati - Modello Relazionale|schema relazionale]]_
 _allora_ l _algoritmo di sintesi_ produce una _decomposizione_ $\rho=\{ S_i \}_{i=1,\dots,n}$ che preserva [[Schemi Relazionali - Decomposizione di schemi|dati e dipendenze]]
 
-_Dimostrazione_:
+###### _Dimostrazione_
 l _algoritmo_ produce una decomposizione perché tutti gli attribuiti di $T$ appartengono allo _schema generato_, se ci sono attributi che non partecipano a nessuna dipendenza questi fanno parte di ogni chiave di $R$, per ciò compaiono nella relazione gita al passo 5
 la _decomposizione_ preserva _le dipendenza_ perché per ogni dipendenza $X\to A_i \in G$ esiste uno schema che contiene $XA_i$. 
-la _decomposizione_ preserva i dati poiché grazie al passo $5$, soddisfa la condizione espressa dal[[Schemi Relazionali - Decomposizione di schemi#Teorema|teorema di mantenimento dei dati]]
+la _decomposizione_ preserva i dati poiché grazie al passo 5, soddisfa la condizione espressa dal[[Schemi Relazionali - Decomposizione di schemi#Teorema|teorema di mantenimento dei dati]]
 
 
 
 ##### Teorema
-_Sia_ $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]_
+_Sia_ $R\langle T,F\rangle$ uno _[[Modello dati - Modello Relazionale|schema relazionale]]_
 _allora_ l _algoritmo di sintesi_ produce una _decomposizione_ $\rho=\{ S_i \}_{i=1,\dots,n}$ che è in _terza forma normale_
 
-_dimostrazione_:
+###### _dimostrazione_
 Supponiamo, per assurdo, che nella decomposizione ci sia uno schema $S$ non in 3NF, con attributi $XA_1\cdots A_h$, dove $X$ e la “_chiave sintetizzata_”. 
 $X$ e una chiave di $S$
 $X$ implica tutti gli altri attributi perché $\forall i.X \to A_i\in G$ , e non contiene _[[Schema relazionali - Copertura di insieme di dipendenze#Dipendenza ridondante|attributi ridondanti]]_ perché altrimenti  $G$ non sarebbe una _copertura canonica_.

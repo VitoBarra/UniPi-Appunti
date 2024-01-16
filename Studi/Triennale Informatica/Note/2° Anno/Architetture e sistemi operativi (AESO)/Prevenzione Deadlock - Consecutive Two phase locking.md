@@ -7,11 +7,11 @@ tags:
 Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
 
-# Tecniche di prevenzione Deadlock - Two phase lock
+# Prevenzione Deadlock - Consecutive Two phase locking
 ---
+[da leggere meglio, evidentente qui voglio parlare del consecutive two phase locking](https://en.wikipedia.org/wiki/Two-phase_locking)
 
-
-
+[[Prevenzione Deadlock]]
  # Two-Phase Locking Protocol
 
 Il protocollo di bloccaggio a due fasi (Two-Phase Locking, 2PL) è un meccanismo critico nei sistemi di gestione dei database per garantire la consistenza e l'isolamento delle transazioni.

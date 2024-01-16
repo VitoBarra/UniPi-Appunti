@@ -7,30 +7,30 @@ tags:
 Parent MOC: "[[Data Base (DB)]]"
 ---
 
-# Schema relazionali - Cercare le chiavi
+# Schema relazionali - Ricerca delle chiavi
 ---
 #### Algoritmo di ricerca per tutte le chiavi
 _Sia_ $R \langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]] 
 Un [[Algoritmi|algoritmo]] per cercare tutte le [[Modello Relazionale - Chiavi|chiavi]] di $R$  si basa sulle seguenti osservazioni
-1. _Se_ un attributo $A\in T$ _appare_ a _sinistra_ e __MAI__ a _destra_ nelle _[[Schemi relazionali - Dipendenze funzionali|dipendenze]]_ in $F$ 
-	- _allora_ appartiene ad _ogni chiave_ di $R$
-2. _Se_ un attributo $A \in T$ _Appare_ a _destra_ ma _MAI_ a _sinistra_  nelle dipendenze in $F$
+1. _Se_ un attributo $A\in T$ non appare __MAI__ a _destra_ nelle _[[Schemi relazionali - Dipendenze funzionali|dipendenze]]_ in $F$
+	- _allora_ appartiene a _tutte le chiave_ di $R$
+2. _Se_ un attributo $A \in T$ _Appare_ a _destra_ ma __MAI__ a _sinistra_ nelle dipendenze in $F$
 	- _allora_ non appartiene ad _nessuna chiave_ di $R$
 
 da questi possiamo dire che 
-_sia_ $X$ gli attributi che compaiono _solo a sinistra_  
+_sia_ $X$ gli attributi che non appaiono a destra
 _se_  $X^+=T$ dove $X^+$ è la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura rispetto agli attributi]]
-_allora_ (per osservazione 1) $X^+$ è _[[Modello Relazionale - Chiavi|chiave]]_  ed è l _unica possibile_ 
+_allora_ (per osservazione 1) $X^+$ è _[[Modello Relazionale - Chiavi|chiave]]_ ed è l _unica possibile_ 
  
  _se_ $X^+ \not=T$ dove $X^+$ è la [[Schema relazionali - Chiusura rispetto gli attributi|chiusura rispetto agli attributi]] 
  _allora_ (per osservazione 2 ) per _trovare le chiavi_ bisogna aggiunge _uno alla volta_ a $X$ degli elementi di $W \in T$ che compaiono sia a _destra che a sinistra_ delle dipendenze, evitando 
- -  elemento già in $X^+$  che sarebbero ridondanti
- - gli elementi che producono un insieme  $X'$ che contengono una chiave _precedentemente trovata_, perché questo è _superchiave_ ma non _chiave_
+ - Elemento già in $X^+$ che sarebbero ridondanti
+ - Gli elementi che producono un insieme  $X'$ che contengono una chiave _precedentemente trovata_, perché  $X'$  diventata una _[[Modello Relazionale - Chiavi#Superchiave (Definizione)|superchiave]]_ ma non una _[[Modello Relazionale - Chiavi#Chiave (Definizione)|chiave]]_
 
 E allora un _algoritmo_ che cerca tutte le possibili chiavi segue come
 ![[photo1703945663.jpeg]]
-funzioni
-- _First_($list$) : restituisce il primo lemento della lista
+Funzioni
+- _First_($list$) : restituisce il primo elemento della lista
 - _rest_($list$): restituisce il resto della [[Matematica - liste |lista]] escludendo il primo
 - $list_{1}$ _append_ $list_2$: mette in coda a $list_1$ gli elementi di $List_{2}$  
 
@@ -52,7 +52,7 @@ _quindi_  _sia_ $Y-X^+=\{ A_{1},\dots,A_{n}\}$
 si aggiungono a _candidati_ le liste $XA_{1}::(A_{2,\dots,A_{n}}),XA_{2}::(A_{3,\dots,A_{n}}),\dots ,XA_{n}::()$ e queste _coprono_ completamente $(X::(A_{1},\dots A_{n}))-\{ X \}$
  
 
-Il _test_ $X^+=T$ assicura che $X$ è un _superchiave_  e per assicurarci che sia anche _chiave_ dobbiamo controllare che non siano presenti in $X$ altre chiavi.
+Il _test_ $X^+=T$ assicura che $X$ è un _superchiave_ e per assicurarci che sia anche _chiave_ dobbiamo controllare che non siano presenti in $X$ altre chiavi.
 
 Mentre le _chiavi gia trovate_ non potranno mai contenere le chiavi trovate successive e quindi non c è bisogno di ricontrollarle. Questo è vero siccome si estrae sempre il primo elemento di _candidati_ è candidati è una lista ordinata in modo _crescente_ sulla _lunghezza_ del elemento, e gli elementi avranno _sempre lunghezza maggiore o uguale_ a quella del ultima _chiave trovata_.
 Questo _invariante_ è assicurata siccome si aggiungono sempre i nuovi elementi infondo alla lista con _append_ e gli elementi generati hanno sempre lunghezza uguale o meggiore. 

@@ -17,7 +17,7 @@ _allora_ $F,G$ si dicono _equivalenti_ indicato con $F \equiv G$ e sono l uno un
 
 
 
-#### Copertura canonica (Definizione)
+#### Copertura canonica 
 _sia_ $F$ un insieme di _dipendenze funzionali_
 
 ##### Dipendenza elementare
@@ -38,7 +38,7 @@ _se_ $(F-\{ X \rightarrow Y \}) \equiv F$
 _allora_ $X \rightarrow Y$ è una _dipendenza ridondante_
 
 
-##### Copertura canonica
+##### Copertura canonica (Definizione)
 nu _insieme di dipendenze_ $F$ è una _copertura canonica_
 _se_
 - ogni parte destra di una dipendenza ha _un unico attributo_ (Dipendenza elementare)
@@ -54,22 +54,23 @@ _per ogni_ insieme di dipendenze $F$ esiste una _copertura canonica_
 
 #### Algoritmo per trovare coperture canoniche
 Il _teorema di esistenza della copertura canonica_ viene dimostrato con il seguente algoritmo che calcola la copertura canonica.
+Assumendo che ogni dipendenza come Elementare siccome e' semplice fare la trasformazione 
 ```pseudo
 	\begin{algorithm}
 	\caption{calcolo copertura canonica}
 	\begin{algorithmic}
 	\Function{TravaCoperturaCanonica}{F}
 	\State G=F
-	\For{$\boldsymbol{each}\  X \rightarrow y \in G$}
+	\For{$\boldsymbol{each}\  X \rightarrow Y \in G$}
 	\State Z =X
 	\For{$\boldsymbol{each} \ A \in X$}
 		\If{$Y \subseteq [Z- \{A\}]^+_F$}
 		 \State $Z = Z - \{A\}$
 		 \EndIf
-	 \State $G=(G-\{x \rightarrow Y\})\cup \{Z \rightarrow Y\}$
 	 \EndFor
+	 \State $G=(G-\{X \rightarrow Y\})\cup \{Z \rightarrow Y\}$
 	 \EndFor
-	\For{$\boldsymbol{each} f \in G$}
+	\For{$\boldsymbol{each}\ f \in G$}
 		\If{$f \in (G-\{f\})^+$}
 		\State $G=G-\{f\}$
 		\EndIf
@@ -85,11 +86,10 @@ si osservi che
 - $f \in (G-\{ f \})^+$ va fatta _togliendo_ $f$ altrimenti sarebbe _banalmente verificata_
 
 ##### Calcolo complessita
-
 la [[Complessita|complessita]] del _algoritmo_ è calcolata come segue
 _sia_
 - $|T|=a$ il numero di _[[Modello dati - Modello Relazionale|attributi]]_
-- $|F|=p$ il numero di _diependenze funzionali_
+- $|F|=p$ il numero di _dipendenze funzionali_
 
 per l eliminazione degli _attributi estranei_ e delle _dipendenze ridondanti_ vengono calcolate la [[Schema relazionali - Chiusura di Insiemi di dipendenze#Algoritmo di chiusura lenta|chiusura degli attributi]] e questa ha complessità $O(ap\cdot\min(a,p))$ 
 
@@ -106,7 +106,7 @@ _se_ ha meno dipendenze di _ogni alto_ insieme _equivalente_
 _allora_ $F$ è un _insieme di dipendenze minimo_
 
 
-#### Insieme di Dipendenza Ottimo
+#### Insieme di Dipendenza Ottimo (Definizione)
 _sia_ $F$ un insieme di [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]
 _se_ ha meno _simboli di attributi_ di _ogni alto_ insieme _equivalente_
 _allora_ $F$ è un _insieme di dipendenze ottimo_

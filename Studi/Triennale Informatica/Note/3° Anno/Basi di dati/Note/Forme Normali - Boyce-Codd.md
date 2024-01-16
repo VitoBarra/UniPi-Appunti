@@ -41,29 +41,28 @@ _allora_ $R$ è in _BCNF_ (Boyce-Codd normal form)
 _sia_
 - $R\langle T,F\rangle$ uno [[Modello dati - Modello Relazionale|schema relazionale]]
 - $F$ in forma di [[Schema relazionali - Copertura di insieme di dipendenze|copertura canonica]]
-_se e solo se_  $\forall X\to Y \in F$  vale che $X$ è _[[Modello Relazionale - Chiavi|superchiave]]_ in queto caso anche _chiave_
+_se e solo se_  $\forall X\to Y \in F$  vale che $X$ è _[[Modello Relazionale - Chiavi|superchiave]]_ in questo caso anche _chiave_
 - con $X \to Y$ _dipendenza elementare_ e _non banale_
 _allora_ $R$ è in _BCNF_ (Boyce-Codd normal form)
 
 
 
 #### Normalizzazione in BCNF
-il processo di normalizzazione in BCNF è fatto tramite un algoritmo detto di _analisi_ per la trasformazione di un _schema relazionale_ con _dipendenze anomale_ in uno senza dipende anomale in _forma normale BCNF_
-
+il processo di normalizzazione in BCNF è fatto tramite un algoritmo detto di __analisi__ per la trasformazione di un _schema relazionale_ con _dipendenze anomale_ in uno senza dipende anomale in _forma normale BCNF_
 ```pseudo
 	\begin{algorithm}
 	\caption{Normalizazione in forma BCNF}
 	\begin{algorithmic}
 	\Function{NormalizationBCNF}{$R\langle T,F\rangle$}
-	\State $rho = \{\langle T,F\rangle\}$
+	\State $\rho = \{R\langle T,F\rangle\}$
 	\State $n=1$
-	\While{$\exists R\langle T_i,F_i\rangle \in rho$ non in BCNF per dipendenze $X \to A$}
+	\While{$\exists R\langle T_i,F_i\rangle \in \rho$ non in BCNF per dipendenze $X \to A$}
 	\State $n=n+1$
 	\State $T'=X^+$
 	\State $F'=\pi_{T'}(F_i)$
 	\State $T'' = T_i - (T'-X)$
 	\State $F'' = \pi_{T''}(F_i)$
-	\State $\rho=\rho - R_i\langle T_i,F_i\rangle + \{R_i\langle T',F'\rangle,R_i \langle T'',F'' \rangle\}$
+	\State $\rho=\rho - R_i\langle T_i,F_i\rangle + \{R_i\langle T',F'\rangle,R_n \langle T'',F'' \rangle\}$
 	\EndWhile
 	\EndFunction
 	\end{algorithmic}

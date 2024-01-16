@@ -35,13 +35,15 @@ Un algoritmo più _veloce di quello esaustivo_ è formulabile grazie al [[Schema
 e quindi l algoritmo segue come:
 ```pseudo
 \begin{algorithm} 
-\caption{Chiusura lenta}
+\caption{problema di inclusione}
 \begin{algorithmic}
 \Function{ChiusuraLenta}{F,X}
 \State $X^+ :=X$
 \While{$X^+$ è cambiato}
-	\For {$\boldsymbol{e} \ W \rightarrow V \in F\mid W \subseteq X^+ \land V \not \subseteq X^+$ }
+	\For {$\boldsymbol{each} \ W \rightarrow V \in F$ }
+	\If{$W \subseteq X^+\  \boldsymbol{and}\ V \not \subseteq X^+$}
 	\State $X^+:=X^+ \cup V$
+	\EndIf
 	\EndFor
 \EndWhile
 \Return $X^+$
@@ -50,9 +52,9 @@ e quindi l algoritmo segue come:
 \end{algorithm}
 ```
 ##### Teorema
-L’algoritmo _Chiusura lenta_ è _corretto_. `
+L’algoritmo _Chiusura lenta_ è _corretto_. 
 
-_Dimostrazione_:
+###### _Dimostrazione_
 _Terminazione_
 	Ad ogni iterazione si aggiunge qualche attributo a $XPIU$ oppure si _termina_.
 	siccome il numero degli attributi è _finito_ l’algoritmo non può _ciclare indefinitamente_.
@@ -103,21 +105,20 @@ _Se_ $W \subseteq XPIU$,
 	questo implica $V \subseteq XPIU \implies  t[V] = t’[V]$ e quindi $r$ soddisfa la [[Schemi relazionali - Dipendenze funzionali|dipendenza]] 
 
 
-##### Analisi della complessita
+##### Analisi della complessità
 _Sia_ 
 - $|T|=a$ il _numero_ degli attributi
 - $|F|=p$ il _numero_ delle [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]
 Il __ciclo while__ viene eseguito 
-- _al più_ $p$ volte siccome ogni dipendenza funzionale da il suo contributo alla chiusura _al più_ una volta
-- _al più_ $a$ volte siccome si possono aggiungere _al più_ $a$ attributi.
+- _Al più_ $p$ volte siccome ogni dipendenza funzionale da il suo contributo alla chiusura _al più_ una volta
+- _Al più_ $a$ volte siccome si possono aggiungere _al più_ $a$ attributi.
 risultando in esecuzione $O(min(a,p))$
 
-Per ogni __ciclo while__, il ciclo interno viene eseguito al più $p$ volte e ogni volta si controllano _due inclusioni di [[Insiemi Matematici|insiemi]]_.
+Per ogni ciclo While, il __ciclo interno for__ viene eseguito al più $p$ volte e ogni volta si controllano _due inclusioni di [[Insiemi Matematici|insiemi]]_.
 il test di inclusione _tra insiemi ordinati_ di $a$ elementi ha una [[Complessita|complessità]] di tempo $O(a)$
 e quindi la complessità del ciclo interno è $O(pa)$
 
-quindi in totale l’algoritmo _Chiusura lenta_ ha [[Complessita|complessità]] di tempo, nel caso peggiore, `
-di $O(ap \cdot min(a, p))$.
+quindi in totale l’algoritmo _Chiusura lenta_ ha [[Complessita|complessità]] di tempo, nel caso peggiore $O(ap \cdot min(a, p))$.
 
 
 #### Algoritmo di chiusura veloce
