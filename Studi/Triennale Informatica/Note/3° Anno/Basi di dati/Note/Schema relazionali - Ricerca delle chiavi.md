@@ -56,3 +56,12 @@ Il _test_ $X^+=T$ assicura che $X$ è un _superchiave_ e per assicurarci che sia
 
 Mentre le _chiavi gia trovate_ non potranno mai contenere le chiavi trovate successive e quindi non c è bisogno di ricontrollarle. Questo è vero siccome si estrae sempre il primo elemento di _candidati_ è candidati è una lista ordinata in modo _crescente_ sulla _lunghezza_ del elemento, e gli elementi avranno _sempre lunghezza maggiore o uguale_ a quella del ultima _chiave trovata_.
 Questo _invariante_ è assicurata siccome si aggiungono sempre i nuovi elementi infondo alla lista con _append_ e gli elementi generati hanno sempre lunghezza uguale o meggiore. 
+
+
+
+##### Algoritmo Lineare nelle chiusure
+Sfruttando le due osservazioni viste si puo trovare __una__ sola chiave in modo lineare
+
+si parte dalla [[Modello Relazionale - Chiavi#Superchiave (Definizione)|superchiave]] banale, ovvero quella composta da tutti gli attributi e si escludono mano gli elementi finche quello che resta e’ una chiave 
+
+per saltare dei passaggi si possono escludere direttamente gli attributi che non appaiono mai a sx

@@ -124,7 +124,8 @@ questi algoritmi si differenziano a seconda del modo in cui si trattano le __scr
 - NonDisfare - Rifare
 - NonDisfare - NonRifare
 
-Supponiamo che si adotti l’algoritmo __disfare-rifare__ allora si ha:
+###### __Disfare-Rifare__ 
+Allora si ha che:
 - __modifica Libera__ : un dato puo essere scritto sul DB in memoria permanente prima che la transazione termini, in caso di abort della transizione si riscrivono i vecchi valori leggendoli dal __log__
 	- Necessita della regola "__Write Ahead Log__" (regola per disfare) 
 - __commit libero__: Una transazione $T$ e' considerata terminata normalmente, e viene scritto nel __file Di log__  il record $(T, commit)$, senza che le sue modifiche vengano riportate nella base di dati. Nel caso di fallimento di sistema occorre rifare  le modifiche fatte dalle transazioni terminate normalmente prendendo i nuovi dati dal __log__ perché non si e' certi che i loro effetti siano stati riportati sulla [[Introduzione ai Data Base|base di dati]] questo siccome e' il [[DBMS - Macchina Fisica#Gestore buffer|gestore del buffer]] a gestire quando verranno scritte le modifiche sul DB in memoria premente e al momento del malfunzionamento potrebbero esserci delle modifiche ancora non salvate
@@ -174,6 +175,18 @@ questo e' importante per due motivi
 - un malfunzionamento può avere luogo anche durante il ripristino
 
 
+###### __Disafre-NonRifare__
+Operazioni direttamente in memoria permanente 
+- si cancella solo le parti della transizione fallite
+
+
+###### __NonDisfare-Rifare__
+Operazioni in memoria temporanea fino al commit
+- se ci sono disastri non c ‘ e nulla da Disfare perchè non viene salvato in memoria
+
+
+###### NonDisfare-NonRifare
+Swapping di ShadowPages (Da approfondire)
 
 #### Gestore della concorrenza 
 Il __gestore della concorrenza__ garantisce la proprietà di __isolamento__ delle transizione

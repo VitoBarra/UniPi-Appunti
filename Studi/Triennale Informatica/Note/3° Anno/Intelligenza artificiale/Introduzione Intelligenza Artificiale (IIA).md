@@ -66,8 +66,14 @@ Terza parte corso:
 7. Modelli non supervisionati 
 	1. [[K-means algoritmo ML]]
 8. Altri modelli
-	1. [[Reti Neurali AI]]
-
+9. [[Funzioni di attivazione]]
+	1. [[Funzioni di attivazione - Sigmoide]]
+	2. [[Funzione di attivazione - TanH]]
+10. Modelli - Reti neurali
+	3. [[Reti Neurali (NN)]]
+	4. [[Reti Neurali Ricorrenti (RNN)]]
+	5. [[Reti Neurali - Long Short-term Memory (LSTM)]]
+	6. [[Reti Neurali - Transofmers]]
 
 ### Educational Material 🧱
 1. Artificial Intelligence a modern approach (AIMA)

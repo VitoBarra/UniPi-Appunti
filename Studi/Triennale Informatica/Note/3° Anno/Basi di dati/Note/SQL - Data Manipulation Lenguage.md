@@ -101,6 +101,8 @@ Il raggruppamento si usa quando si vuole usare funzioni di _aggregazione_ non su
 ```
 
 una regola importante da ricordare e che si possono mettere anche degli attributi nella select che non sono _funzioni aggreganti_ ma questi devono comparire anche nella clausola _Group by_
+- Questo non é sempre vero, ci sono standard che permettono di usare  nella SELECT anche attributi che non sono nella GROUP BY se questi desumibili univocamente  
+
 
 ```SQL
 	SELECT A1,FAGREGAZIONE(A2)

@@ -6,6 +6,7 @@ tags:
   - DB
 Parent MOC: "[[Data Base (DB)]]"
 ---
+id1([Some text])
 
 # Forme Normali - Boyce-Codd
 ---

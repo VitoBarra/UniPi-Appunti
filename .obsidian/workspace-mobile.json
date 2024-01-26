@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
+                "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
         }
       }
     ],
-    "currentTab": 7
+    "currentTab": 0
   },
   "right": {
     "id": "0b0f3a5a0715456f",
@@ -128,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
+            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
+            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
+            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md"
           }
         }
       },
@@ -211,42 +211,46 @@
   },
   "active": "dc1448b5263d5e58",
   "lastOpenFiles": [
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Tecniche di prevenzione Deadlock - Two phase lock.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Prevenzione Deadlock.md",
-    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Fisica.md",
+    "Project/Project MOC.md",
+    "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
+    "GDR Note/DND5e",
+    "GDR Note",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali - Long Short-term Memory (LSTM).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzioni di attivazione - Sigmoide.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzione di attivazione - TanH.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Reti Neurali (NN).md",
+    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali Ricorrenti (RNN).md",
+    "Studi/Triennale Informatica/Thesis/Reservoir Computing.md",
+    "Studi/Triennale Informatica/Thesis/Basi Idea And Resource.md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md",
     "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1072.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Linguaggio per Database - SQL.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memoria Paginata.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1070.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1069.jpeg",
-    "Excalidraw/Drawing 2024-01-04 05.02.49.excalidraw.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architettura Von-Neumann.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1068.gif",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/HardDisk Driver(HDD).md",
-    "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Lock.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1066.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1067.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1062.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1041.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1060.jpeg",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/IMG_1059.jpeg",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Gestione affidabilita e concorrenza.md",
+    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md",
+    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Algoritmo di ricerca Breadth-Frist.md",
+    "Project/GridSystem/GridSystem Kanban.md",
+    "Project/GridSystem/Refactor Logic-World.md",
+    "Refactor Logic-World.md",
+    "Project/GridSystem/Organization",
+    "Project/GridSystem",
+    "Project/GridSystem/GridSystem - Idee e pensieri.md",
+    "Project/GridSystem/GridSystem MOC.md",
+    "Base MOC.md",
+    "Studi/Studi MOC.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Ricerca delle chiavi.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113013351.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112000749.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113013805.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112000920.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112001156.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004339.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004302.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113020330.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004315.png",
+    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240114180811.png",
     "UniPi INF/Note/3° Anno/Basi di dati/Note",
     "UniPi INF/Note/3° Anno/Basi di dati/Media",
     "Untitled 1.canvas",
@@ -256,10 +260,6 @@
     "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
     "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
     "Extra Note/Geometria Analitica/Media",
-    "Extra Note/Geometria Analitica/Note",
-    "Extra Note/Geometria Analitica",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Note",
-    "Raccolta UniPi INF/Note/Complementari/Cloud Computing (CC)/Media",
     "Senza nome.canvas"
   ]
 }

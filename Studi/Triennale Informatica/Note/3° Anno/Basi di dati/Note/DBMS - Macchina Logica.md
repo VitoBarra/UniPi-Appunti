@@ -176,7 +176,7 @@ PagedNestedLoop: Come nested loop ma piu usato per la sua efficienza
 	\end{algorithm}
 ```
 questa versione NON preserva nessun ordine 
-la complessità in numero di accessi alla memoria: $Npag(R)+Npag(S)$ 
+la complessità in numero di accessi alla memoria: $Npag(R)+Npag(R)*Npag(S)$ 
 
 
 
@@ -231,6 +231,7 @@ _mergeJoin_ (o detto _SortMerge_): si può usare se le relazioni sono ordinate s
 	\end{algorithm}
 ```
 dove _succ_($w$) il record successivo a $w$  oppure il valore null se $w$ e l’ultimo
+la complessità in numero di accessi alla memoria: $Npag(R)+Npag(S)$ 
 
 
 

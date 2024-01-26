@@ -12,7 +12,7 @@ l idea e di fa giocare più intelligenze artificiali [[Machine Learning (ML)|all
 va implementato prima il mondo di gioco per ogni gioco
 
 i modelli andranno fatto in ottica di classificazione delle carte da giocare. 
-va fatto un approfondimento su [[Reti Neurali AI|neural network]]
+va fatto un approfondimento su [[Reti Neurali (NN)|neural network]]
 
 
 voglio studiare anche il transfer delle abilita tra giochi simili e completamente diversi 

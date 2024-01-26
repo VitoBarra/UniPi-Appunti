@@ -2,12 +2,12 @@
 type: nota
 course: Intelligenza Artificiale
 topic: 
-tags: IA
+tags:
+  - IA
+Parent MOC: "[[Introduzione Intelligenza Artificiale (IIA)]]"
 ---
 
-Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
-
-# Reti Neurali AI
+# Reti Neurali (NN)
 ---
 sono un paradigma di [[Machine Learning (ML)|Machine learning]] sia per dati supervisionavi che per dati non supervisionati 
 
@@ -23,4 +23,13 @@ avere piu layer permette di creare delle feature astratte sopra i dati
 ![[EB46EDF4-4878-493A-BFAF-34A6CD08DE61.jpeg]]
 
 
-è un modello multo buono che utilizza la composizionalita  per avere un gain esponenziale 
+è un modello multo buono che utilizza la composizionalita per avere un gain esponenziale 
+
+
+
+
+#### Backwards propagation
+Il sistema con cui le reti neurali imparano 
+
+
+
