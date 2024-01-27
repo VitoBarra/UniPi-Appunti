@@ -4,11 +4,11 @@ course: Intelligenza Artificiale
 topic: 
 tags:
   - IA
-Parent MOC: "[[Introduzione Intelligenza Artificiale (IIA)]]"
+Parent MOC: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 ---
 # Machine Learning (ML)
 ---
-il _machine learning_ (ML) in italiano Apprendimento automatico. questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
+il _machine learning_ (ML) in italiano Apprendimento automatico e' un sotto campo del [[AI - Concetti generali|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
 
 gli obbiettivi sono
 - come metodologia per l Ai
@@ -33,18 +33,18 @@ ma richiede:
 - tolleranza sulla precisione dei risultati
 
 
-### Perchè machine learning
-- serve a trovare _soluzioni aprossimate_ a problemi difficili che spesso sono difficili anche nella formulazione 
-- Scrivere sistemi applicabili in più campi detti _sistemi inteligenti_
-- è un _approccio rigoroso_ per trovare _[[Funzioni|funzioni aprossimate]]_ per risolvere problemi complessi 
+### Perché machine learning
+- serve a trovare _soluzioni approssimate_ a problemi difficili che spesso sono difficili anche nella formulazione 
+- Scrivere sistemi applicabili in più campi detti _sistemi intelligenti_
+- è un _approccio rigoroso_ per trovare _[[Funzioni|funzioni approssimate]]_ per risolvere problemi complessi 
 
 ![[83EC07C1-95F8-4264-A425-289F6F5AC1E9.jpeg]]
 
 ## Learning supervisionato
 un tipo di apprendimento che utilizza dei dati _Etichettati_ 
 _dati_: dati di training detti _training example_ formalizzati  come $<input,output> = (x,d)$, sono delle associazioni per una funzione sconosciuta $f$ detta _target function_. con i training example se ne definiscono alcuni punti 
-- le associazioni sono dati da un _teacher_ e sono prese per vere e utilizzate per stimare le funzione coretta
-_Trova_: un approssimazione di $f$ detta _ipotesi_ che verra poi utilizzata per predirei il valore dei nuovi dati non visti 
+- le associazioni sono dati da un _teacher_ e sono prese per vere e utilizzate per stimare le funzione corretta
+_Trova_: un approssimazione di $f$ detta _ipotesi_ che verrà poi utilizzata per predirei il valore dei nuovi dati non visti 
 
 
 ci sono due tipi problemi risolvibili con questo tipo di apprendimento 
@@ -78,11 +78,11 @@ _modello_:
 
 
 - basato sui dati, compito da risolvere e modello
-- _Learning_  [[Algoritmi di ricerca informati per AI|ricerca con euristiche]] nello spazio delle ipotesi $H$ della _migliore Ipotesi_ 
+- _Learning_  [[AI - Algoritmi di ricerca informati|ricerca con euristiche]] nello spazio delle ipotesi $H$ della _migliore Ipotesi_ 
 	- si cerca la migliore approssimazione per la funzione _sconosciuta_ 
 	- Tipicamente impostata come la ricerca con il _minimo errore_
 	- la _Miglir ipotesi_   si misura con l _Errore di generalizazione_ che misura quanto accurato il modello predice su dati _nuovi_  
-- TIpicamente $H$ non coincide con l insieme di tutte le possibili funzioni, e la ricerca non puo essere esaustiva (sarebbe infinita): sono necessarie della assunzioni per ridurre lo spazio di ricerca, ti utlizza il _[[Bias Induttivo|bias induttivo]]_
+- TIpicamente $H$ non coincide con l insieme di tutte le possibili funzioni, e la ricerca non puo essere esaustiva (sarebbe infinita): sono necessarie della assunzioni per ridurre lo spazio di ricerca, ti utlizza il _[[ML - Bias Induttivo|bias induttivo]]_
 - ![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]
 
 

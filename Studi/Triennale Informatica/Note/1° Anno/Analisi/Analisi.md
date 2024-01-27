@@ -47,15 +47,17 @@ Parent MOC: "[[Triennale informatica MOC]]"
 13. [[Integrali]]
 	1.  [[Teorema di Fubini-Tonelli]]
 	2. Metodi risolutivi
-		3. [[Integrali notevoli]]
-		1. [[integrazione per sostituzione]]
-		2. [[Integrazione per parti]]
+		1. [[Integrali notevoli]]
+		2. [[integrazione per sostituzione]]
+		3. [[Integrazione per parti]]
 14. [[Integrali impropri]]
 15. [[Serie]]
 	1. [[Serie geometrica]]
 16. [[Successioni]]
 17. [[Espanzioni di funzioni in polinomi]]
 18. [[Funzione Gamma di Eulero]]
+19. funzioni multi Variate
+	1. [[Funzioni Multivariata - Gradiente]]
 
 
 

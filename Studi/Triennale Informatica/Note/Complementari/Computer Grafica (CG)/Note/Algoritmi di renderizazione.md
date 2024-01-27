@@ -16,7 +16,7 @@ Il _rendering_ è un processo che prende in input dei dati che descrivono la sce
 ![[IMG_0774.jpeg]]
 
 #### Paradigmi di rendering
-per algoritmi di Renderinig si intendono algoritmi per proiettre scente 3D su uno schermo 2D. Questa tipologia di algoritmi solitamente dividono in due _paradigmi di rendering_ e questi sono
-[[Ray Tracing]]
-[[Pipeline di Rasterizazione]]
+per algoritmi di Rendering si intendono algoritmi per proiettare scene 3D su uno schermo 2D. Questa tipologia di algoritmi solitamente dividono in due _paradigmi di rendering_ e questi sono
+- [[Ray Tracing|Ray Tracing]]
+- [[Pipeline di Rasterizazione|rasterizazione]]
 

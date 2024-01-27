@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Il Dittatore - Campagna FJAS",
-      "path": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md"
+      "basename": "STAT",
+      "path": "Templete/Coure head/STAT.md"
     },
     {
-      "basename": "Project MOC",
-      "path": "Project/Project MOC.md"
+      "basename": "RO",
+      "path": "Templete/Coure head/RO.md"
     },
     {
-      "basename": "Introduzione Intelligenza Artificiale (IIA)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md"
+      "basename": "RETI",
+      "path": "Templete/Coure head/RETI.md"
     },
     {
-      "basename": "Reti Neurali - Long Short-term Memory (LSTM)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali - Long Short-term Memory (LSTM).md"
+      "basename": "ProgAlgo",
+      "path": "Templete/Coure head/ProgAlgo.md"
     },
     {
-      "basename": "Funzioni di attivazione - Sigmoide",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzioni di attivazione - Sigmoide.md"
+      "basename": "PDP",
+      "path": "Templete/Coure head/PDP.md"
     },
     {
-      "basename": "Funzione di attivazione - TanH",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzione di attivazione - TanH.md"
+      "basename": "IUM",
+      "path": "Templete/Coure head/IUM.md"
     },
     {
-      "basename": "Reti Neurali (NN)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Reti Neurali (NN).md"
+      "basename": "ITC",
+      "path": "Templete/Coure head/ITC.md"
     },
     {
-      "basename": "Reti Neurali Ricorrenti (RNN)",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali Ricorrenti (RNN).md"
+      "basename": "IS",
+      "path": "Templete/Coure head/IS.md"
     },
     {
-      "basename": "Reservoir Computing",
-      "path": "Studi/Triennale Informatica/Thesis/Reservoir Computing.md"
+      "basename": "IA",
+      "path": "Templete/Coure head/IA.md"
     },
     {
-      "basename": "Basi Idea And Resource",
-      "path": "Studi/Triennale Informatica/Thesis/Basi Idea And Resource.md"
+      "basename": "GA",
+      "path": "Templete/Coure head/GA.md"
     },
     {
-      "basename": "SQL - Data Manipulation Lenguage",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md"
+      "basename": "FDI",
+      "path": "Templete/Coure head/FDI.md"
+    },
+    {
+      "basename": "ECC",
+      "path": "Templete/Coure head/ECC.md"
+    },
+    {
+      "basename": "DB",
+      "path": "Templete/Coure head/DB.md"
+    },
+    {
+      "basename": "CRI",
+      "path": "Templete/Coure head/CRI.md"
+    },
+    {
+      "basename": "CN",
+      "path": "Templete/Coure head/CN.md"
+    },
+    {
+      "basename": "Cloud",
+      "path": "Templete/Coure head/Cloud.md"
+    },
+    {
+      "basename": "CG",
+      "path": "Templete/Coure head/CG.md"
+    },
+    {
+      "basename": "Analisi template",
+      "path": "Templete/Coure head/Analisi template.md"
+    },
+    {
+      "basename": "Algebra",
+      "path": "Templete/Coure head/Algebra.md"
+    },
+    {
+      "basename": "AL",
+      "path": "Templete/Coure head/AL.md"
+    },
+    {
+      "basename": "AESO",
+      "path": "Templete/Coure head/AESO.md"
     },
     {
       "basename": "Data Base (DB)",
       "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md"
     },
     {
-      "basename": "SQL - Data Declaration Lenguage",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md"
-    },
-    {
-      "basename": "DBMS - Gestione affidabilita e concorrenza",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Gestione affidabilita e concorrenza.md"
-    },
-    {
       "basename": "Triennale informatica MOC",
       "path": "Studi/Triennale Informatica/Note/Triennale informatica MOC.md"
     },
     {
-      "basename": "Programmazione Algoritmica (ProgAlg)",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md"
+      "basename": "Introduzione al Intelligenza Artificiale (IIA)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Introduzione al Intelligenza Artificiale (IIA).md"
     },
     {
-      "basename": "Algoritmo di ricerca Breadth-Frist",
-      "path": "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Algoritmo di ricerca Breadth-Frist.md"
+      "basename": "Pasted image 20240112001317",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112001317.png"
     },
     {
-      "basename": "GridSystem Kanban",
-      "path": "Project/GridSystem/GridSystem Kanban.md"
+      "basename": "Artificial Intelligence a modern approach (AIMA)",
+      "path": "Libri/Intelligenza artificiale/Artificial Intelligence a modern approach (AIMA).pdf"
     },
     {
-      "basename": "GridSystem - Idee e pensieri",
-      "path": "Project/GridSystem/GridSystem - Idee e pensieri.md"
+      "basename": "Tom Mitchell - Machine Learning",
+      "path": "Libri/Intelligenza artificiale/Tom Mitchell - Machine Learning.pdf"
     },
     {
-      "basename": "GridSystem MOC",
-      "path": "Project/GridSystem/GridSystem MOC.md"
+      "basename": "Sistema di inferenza per FOL",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Sistema di inferenza per FOL.md"
     },
     {
-      "basename": "Base MOC",
-      "path": "Base MOC.md"
+      "basename": "AI - Ricerca Hill Climbing",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/AI - Ricerca Hill Climbing.md"
     },
     {
-      "basename": "Studi MOC",
-      "path": "Studi/Studi MOC.md"
+      "basename": "AI - Agenti logici - Sistemi a regole",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/AI - Agenti logici - Sistemi a regole.md"
     },
     {
-      "basename": "Schema relazionali - Ricerca delle chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Ricerca delle chiavi.md"
+      "basename": "AI - Agenti Logici con FOL",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/AI - Agenti Logici con FOL.md"
     },
     {
-      "basename": "DBMS - Macchina Logica",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md"
+      "basename": "Logica del primo ordine (FOL)",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Logica del primo ordine (FOL).md"
     },
     {
-      "basename": "Forme Normali - Boyce-Codd",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Boyce-Codd.md"
+      "basename": "Semantica Database per FOL",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Semantica Database per FOL.md"
     },
     {
-      "basename": "Forme Normali - Terza forma",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Forme Normali - Terza forma.md"
+      "basename": "Forma normale disgiuntiva (DNF)",
+      "path": "Studi/Triennale Informatica/Note/1° Anno/Fondamenti Del Informatica (FDI)/Note/Forma normale disgiuntiva (DNF).md"
     },
     {
-      "basename": "Architetture e sistemi operativi (AESO)",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Architetture e sistemi operativi (AESO).md"
+      "basename": "AI - Algoritmi di ricerca",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/AI - Algoritmi di ricerca.md"
     },
     {
-      "basename": "Prevenzione Deadlock",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Prevenzione Deadlock.md"
+      "basename": "Reti neurali MOC",
+      "path": "Studi/Magistrale Machine Learning/Reti neurali MOC.md"
     },
     {
-      "basename": "Paradigmi Di Programmazione(PDP)",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Paradigmi Di Programazione (PDP)/Paradigmi Di Programmazione(PDP).md"
+      "basename": "ML - K-means",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - K-means.md"
     },
     {
-      "basename": "Progettazione DB - Progettazione Logica Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Logica Relazionale.md"
+      "basename": "ML - Support Vector Machine (SVM)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Support Vector Machine (SVM).md"
     },
     {
-      "basename": "Modello Relazionale - Chiavi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello Relazionale - Chiavi.md"
+      "basename": "ML - K-Nearest Neighbor (K-NN)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - K-Nearest Neighbor (K-NN).md"
     },
     {
-      "basename": "Progettazione DB - Progettazione Concettuale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Progettazione DB - Progettazione Concettuale.md"
+      "basename": "ML - Alberi di decisione",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Alberi di decisione.md"
     },
     {
-      "basename": "Modello dati - Modello ad oggetti",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello ad oggetti.md"
+      "basename": "ML - Modelli lineari (LMS)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Modelli lineari (LMS).md"
     },
     {
-      "basename": "Schema relazionali - Chiusura di Insiemi di dipendenze",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Chiusura di Insiemi di dipendenze.md"
+      "basename": "Ml - Modelli supervisionati",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Ml - Modelli supervisionati.md"
     },
     {
-      "basename": "Architettura di un DBMS",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Architettura di un DBMS.md"
+      "basename": "ML - Candidate elimination",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Candidate elimination.md"
     },
     {
-      "basename": "Normalizzazione di schemi relazionali",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Normalizzazione di schemi relazionali.md"
+      "basename": "ML - Find-S",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Find-S.md"
     },
     {
-      "basename": "Schema relazionali - Copertura di insieme di dipendenze",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Copertura di insieme di dipendenze.md"
+      "basename": "ML - Concept Learning",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Concept Learning.md"
     },
     {
-      "basename": "Schemi Relazionali - Decomposizione di schemi",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi Relazionali - Decomposizione di schemi.md"
+      "basename": "Machine Learning (ML)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Machine Learning (ML).md"
     },
     {
-      "basename": "Schemi relazionali - Dipendenze funzionali derivate",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schemi relazionali - Dipendenze funzionali derivate.md"
+      "basename": "ML - Validazione",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Validazione.md"
     },
     {
-      "basename": "Complessita",
-      "path": "Studi/Triennale Informatica/Note/Complementari/Elementi di Complessita e Calcolabilita (ECC)/Note/Complessita.md"
+      "basename": "ML - Overfitting e Underfitting",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Overfitting e Underfitting.md"
     },
     {
-      "basename": "Modello dati - Modello Entita-Relazioni",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Entita-Relazioni.md"
-    },
-    {
-      "basename": "Memoria Paginata",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memoria Paginata.md"
-    },
-    {
-      "basename": "Modello dati - Modello Relazionale",
-      "path": "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Modello dati - Modello Relazionale.md"
-    },
-    {
-      "basename": "Dispositivi per Memoria permanente",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Dispositivi per Memoria permanente.md"
-    },
-    {
-      "basename": "Memorie - Latch D",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch D.md"
-    },
-    {
-      "basename": "Memorie - Latch RS",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Memorie - Latch RS.md"
-    },
-    {
-      "basename": "RAM",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/RAM.md"
-    },
-    {
-      "basename": "Case Study Booting an Operating System Kernel",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Case Study Booting an Operating System Kernel.md"
-    },
-    {
-      "basename": "Quando conviene usare una cache quando no",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Quando conviene usare una cache quando no.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Studi/Triennale Informatica/Note/2° Anno/Architetture e sistemi operativi (AESO)/Note/Cache.md"
+      "basename": "ML - Statistical Learning Theory (SLT)",
+      "path": "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/ML - Statistical Learning Theory (SLT).md"
     }
   ],
   "omittedPaths": [],

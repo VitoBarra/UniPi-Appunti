@@ -52,4 +52,4 @@ Parent MOC: "[[Triennale informatica MOC]]"
 
 
 ### Educational Material 🧱
-1. [[Fondamenti di Basi di dati con soluzioni esercizi.pdf]]
+1. [[Fondamenti di Basi di dati con soluzioni esercizi.pdf|Fondamenti di Basi di dati]]

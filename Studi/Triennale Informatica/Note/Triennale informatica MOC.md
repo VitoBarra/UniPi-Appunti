@@ -24,7 +24,7 @@ Parent MOC: "[[Studi MOC]]"
 	- [[Reti - lab 3]]
 	- [[Ingegneria Del Software (IS)]]
 	- [[Data Base (DB)]]
-	- [[Introduzione Intelligenza Artificiale (IIA)]]
+	- [[Introduzione al Intelligenza Artificiale (IIA)]]
 - Complementari
 	- [[Cloud Computing (CC)]]
 	- [[Interazione Uomo Macchina (IUM)]]

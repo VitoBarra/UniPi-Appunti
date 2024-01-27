@@ -30,7 +30,7 @@ pare: "[[Triennale informatica MOC]]"
 9. [[Rotazioni in 3D]]
 	1. [[Composizione di rotazioni 3D]]
 	2. [[Interpolazione di Rotazioni]]
-10. [[Trasformazio di vista]]
+10. [[Trasformazioni di vista]]
 
 
 

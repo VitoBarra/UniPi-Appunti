@@ -5,11 +5,11 @@ topic:
 tags: IA
 ---
 
-Prev: [[Introduzione Intelligenza Artificiale (IIA)]]
+Prev: [[Introduzione al Intelligenza Artificiale (IIA)]]
 
 # Risoluzione SLD
 ---
-è un [[Sistemi di deduzione (o di Inferenza)|Sistema di deduzione]]  utilizzato dal [[Agenti logici - Sistemi a regole]] 
+è un [[AI - Sistemi di deduzione (o di Inferenza)|Sistema di deduzione]]  utilizzato dal [[AI - Agenti logici - Sistemi a regole]] 
 - La risoluzione SLD(Selection linear Definite-clauses) è una strategia ordinata
 - la risoluzione SLD è completa per clausole Horn
 - A partire da un programma P e da un goal G si costruisce l albero di risoluzione 

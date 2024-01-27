@@ -6,7 +6,7 @@ tags:
   - CG
 Parent MOC: "[[Computer Grafica (CG)]]"
 ---
-	
+
 # Rotazioni in 3D
 ---
 Le rotazioni in 3D sono [[Trasformazioni affini|Trasformazioni affini]] e un estensione delle [[Trasformazioni Geometriche affini|rotazioni]] geometriche in 2D  Infatti possiamo vedere le _rotazioni 2D_ come una rotazione su di un piano [[Ortogonalità E Ortonormalità|ortogonale]] al asse $z$ e passane per il _punto da ruotare_ e al _origine_, ottenendo cosi la  _rotazione 3D_ attorno al asse $z$ $$R_{a,z}=\begin{bmatrix}
@@ -82,7 +82,7 @@ creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $
 in questo grame il punto $p’$ ha coordinate $[\cos \alpha, \sin \alpha,0]^{T}$
 ![[IMG_0761.jpeg]]
 
-mentre le coordinate del  _frame cononico_ sono $$
+mentre le coordinate del  _frame canonico_ sono $$
 \begin{array}{}
 
 \boldsymbol{p}’=\begin{bmatrix}  
@@ -97,7 +97,7 @@ mentre le coordinate del  _frame cononico_ sono $$
 \cos \alpha \boldsymbol{x}_{F} +\sin \alpha  \boldsymbol{y_{F}}+0r+O_{F}
 \end{array}
 $$
-dove $O_{F}$ è la [[Applicazione Lineari notevoli#Proiezione|proiezione]] di $p$ su $r$ e quindi $$O_{F}=(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{p}$$
+dove $O_{F}$ è la [[Applicazione lineare - Proiezione|proiezione]] di $p$ su $r$ e quindi $$O_{F}=(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{p}$$
 e quindi $$\begin{array}{}
 x_{F} & =  & \boldsymbol{p}-\boldsymbol{O}_{F}=\boldsymbol{p}- (\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}  \\
 y_{F} & = & r \times \boldsymbol{x}_{F}= r\times (\boldsymbol{p}-\boldsymbol{O}_{F}) \\

@@ -47,3 +47,7 @@ risorse per [catastrophic forgetting](https://ai.stackexchange.com/questions/141
 
 
 https://openai.com/research/openai-five-defeats-dota-2-world-champions
+
+
+[[Reti Neurali - Reservoir Computing|Reservoir Computing]]
+un altro approccio che  e' piu adatto siccome e' in grado di mantenere la memoria di cio che e' stato fatto in precedenza, ed e' un architettura di [[Reti Neurali (NN)|reti neurali]]  che utilizza i concetti di [[Reti Neurali - Ricorrenti (RNN)| reti neuranali riccorrenti]]
