@@ -1,22 +1,19 @@
 ---
-type: nota
-course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: 
-tags: AL
+tags:
+  - AL
 ---
 
-Prev: [[Algebra Lineare (AL)]]
 
 # Matrice Trasposta
 ---
-### Definizione
-la [[Matrice]] trasposta di una matrice $A$  è indicata come $^tA$  ed è definita scambiando righe e colonne
+sia $A$ una [[Matrice]] 
+_allora_ la trasposta di $A$ e' indicata come $A^T$  e' una matrice tale che$$
+a^T_{ij} =a_{ji}
+$$ovvero si scambiano righe e colonne
 
-$$
-({}^t\!A)_{ij} =A_{ji}
-$$
-
-### esempi:
+### esempi
 
 $$
 A=
@@ -40,6 +37,6 @@ $$
 
 ### relazioni con gli spazi delle matrici:
 
-- $A\in M(n) \implies {}^t\!A\in M(n)$[[]]
-- $A \in S(n) \iff {}^t\!A=A$[[]]
-- $A \in A(n) \iff {}^t\!A=-A$[[]]
+- $A\in M(n) \implies {}^t\!A\in M(n)$
+- $A \in S(n) \iff {}^t\!A=A$
+- $A \in A(n) \iff {}^t\!A=-A$

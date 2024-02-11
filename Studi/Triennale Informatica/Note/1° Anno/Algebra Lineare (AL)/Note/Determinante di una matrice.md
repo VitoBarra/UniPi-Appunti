@@ -30,7 +30,7 @@ dove:
 
 ### casi semplici:
 
-se la matrice $A \in M(n)$ è [[Tipi di matrice quadrata|triangolare (superiore o inferiore) o diagonale]]
+se la matrice $A \in M(n)$ è [[Matrici quadrate|triangolare (superiore o inferiore) o diagonale]]
 
 $$
 A=

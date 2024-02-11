@@ -3,6 +3,7 @@ type: MOC
 tags:
   - MOC
   - AL
+  - Rimpianti
 Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Algebra Lineare (AL)
@@ -19,7 +20,7 @@ Parent MOC: "[[Triennale informatica MOC]]"
 		2. [[Matrice Trasposta]]
 		3. [[Sottomatrici]]
 		4. [[Minori di una matrice]]
-	2. [[Tipi di matrice quadrata]]
+	2. [[Matrici quadrate]]
 	3. [[Prodotto tra matrici]]
 	4. [[Traccia di una matrice]]
 	5. [[Calcolo pseudo-diagonali passando per uno punto]]
@@ -32,8 +33,8 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	1. [[Dipendenza Lineare]]
 	2. [[Coordinate Rispetto ad una base]]
 	3. [[Dimensione di uno spazio vettoriale]]
-		2. [[Formula di Grassman]]
-		1. [[Spazi vettoriali in somma diretta]]
+		1. [[Formula di Grassman]]
+		2. [[Spazi vettoriali in somma diretta]]
 	4. [[Algoritmi per trovare basi]]
 5. [[Mosse di Gauss]]
 	1. [[Soluzioni di un sistema lineare ]]
@@ -64,14 +65,16 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	1. [[Prodotto scalare euclideo (Dot product)]]
 	2. [[Prodotto scalare su matrici]]
 9. [[Prodotto Vettoriale (Cross product)]]
-10. [[Ortogonalità E Ortonormalità]]
-	1. [[Vettori isotropi]]
-	2. [[Sottospazio Ortogonale]]
-	3. [[Base Ortogonale e Ortonormale]]
-		1. [[Ricerca Base Ortogonale e Ortonormale]]
-	4. [[Radicale]]
-11. [[Teorema Spetrale]]
-12. Definizioni extra
+10. [[Vettori Ortogonali]]
+	1. [[Vettori Ortonormali]]
+	2. [[Vettori isotropi]]
+	3. [[Sottospazio Ortogonale]]
+	4. [[Base Ortogonale e Ortonormale]]
+	5. [[Ricerca Base Ortogonale e Ortonormale]]
+	6. [[Radicale]]
+11. [[Matrici ortogonali]]
+12. [[Teorema Spetrale]]
+13. Definizioni extra
 	1. [[Linearmente Separabili]]
 
 

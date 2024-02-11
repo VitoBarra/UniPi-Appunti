@@ -1,14 +1,14 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
-
-# Algoritmi di renderizazione
+# Algoritmi di renderizzazione
 ---
 
 #### Rendering (Definizione)
@@ -18,5 +18,5 @@ Il _rendering_ è un processo che prende in input dei dati che descrivono la sce
 #### Paradigmi di rendering
 per algoritmi di Rendering si intendono algoritmi per proiettare scene 3D su uno schermo 2D. Questa tipologia di algoritmi solitamente dividono in due _paradigmi di rendering_ e questi sono
 - [[Ray Tracing|Ray Tracing]]
-- [[Pipeline di Rasterizazione|rasterizazione]]
+- [[Pipeline di Rasterizazione|Rasterizazione]]
 

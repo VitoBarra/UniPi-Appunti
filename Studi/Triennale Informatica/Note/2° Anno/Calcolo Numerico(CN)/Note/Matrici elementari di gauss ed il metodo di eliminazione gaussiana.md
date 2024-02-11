@@ -47,7 +47,7 @@ E_2 = I_{n}-
 
 
 valgono le Seguenti _proprietà_
-1. Le matrici elementare di gauss sono matrici [[Tipi di matrice quadrata|triangolari inferiori]]  con elementi uguali ad 1 sulla diagonale principale. per _queste due ragioni_ questa è [[Matrice inversa|invertibile]]
+1. Le matrici elementare di gauss sono matrici [[Matrici quadrate|triangolari inferiori]]  con elementi uguali ad 1 sulla diagonale principale. per _queste due ragioni_ questa è [[Matrice inversa|invertibile]]
 2. Se $E = I_n-ve^T_k$ è una matrice elementare di gauss sua _inversa_ è  $E^{-1}= I_n+v_e^T$ infatti vale$$
 \begin{array}{}
 EE^{-1} & =& (I_n-ve_k^T)(I_n+ve^T_k)\\
@@ -83,7 +83,7 @@ $$A_{1}=E_{1}A_{0}, \ \ \ \ b_{1} = E_{1}b_{0} $$
 
 a questo punto alla fine del processo abbiamo che 
 $$E_{n-1}E_{n-2}\dots,E_{1}A_{0}=A_{n-1} =R$$
-con $R$ una matrice [[Tipi di matrice quadrata|triangolare superiore]] 
+con $R$ una matrice [[Matrici quadrate|triangolare superiore]] 
 
 possiamo riscrivere le relazioni $A_{k}=E_{k}A_{k-1}$ e $b_{k}=E_{k}b_{k-1}$ in termini di componenti e abbiamo 
 $$

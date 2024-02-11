@@ -32,8 +32,8 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	7. [[Teorema di Fattorizazione Unica polinomi]]
 13. [[Operazioni algebriche]]
 	1. [[Operazioni chiuse]]
-	2. [[Proprietà del operazioni-Associativà]]
-	3. [[Proprietà del operazioni-Commutatività]]
+	2. [[Proprietà del operazioni - Associativà]]
+	3. [[Proprietà del operazioni - Commutatività]]
 	4. [[Elemento Neutro o identita di un operazione]]
 	5. [[Elemento inverso di un operazione]]
 14. [[Strutture algebriche]]
@@ -53,6 +53,8 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	6. [[Algoritmo delle Quadrature successive o esponenziazione veloce]]
 	7. [[Teorema cinese del resto]]
 	8. [[Residui quadratici in modulo]]
+	9. [[Numeri complessi]]
+		1. [[Numeri primi gaussiani]]
 
 ### Educational Material 🧱
 1. Appunti prof Lezione

@@ -1,12 +1,12 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
-
 
 # {{title}}
 ---

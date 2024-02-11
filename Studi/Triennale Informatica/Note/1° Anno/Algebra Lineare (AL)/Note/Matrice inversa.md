@@ -1,17 +1,14 @@
 ---
-type: nota
-course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: 
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 
 # Matrice inversa
 ---
 _sia_ una [[Matrice|matrice]] $A \in M(n)$ 
-_allora_ la sua _inversa_ denotata con $A^{-1}$ è una altra matrice tale che:
-
+_allora_ la sua _inversa_ denotata con $A^{-1}$ è una altra matrice tale che
 $$
 AA^{-1}=A^{-1}A=I_n
 $$
@@ -49,23 +46,4 @@ ottenuta affiancando $A$ e la matrice identità $l_n$. Trasformiamo quindi $C$ u
 
 $$
  C' = (I_n | A^{-1})
-$$
-
-### esempio:
-
-$$
-\begin{pmatrix}
-2 & 1 &| &1&0 \\
-1 & 1 &| &0&1
-\end{pmatrix}
-\rightarrow
-\begin{pmatrix}
-1 & 0 &| &1&-1 \\
-1 & 1 &| &0&1
-\end{pmatrix}
-\rightarrow
-\begin{pmatrix}
-1 & 0 &| &1&-1 \\
-0 & 1 &| &-1&2
-\end{pmatrix}
 $$

@@ -1,15 +1,16 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
-
 
 # Composizione di trasformazioni
 ---
+
 #### Rotazioni
 In generale le [[Trasformazioni Geometriche affini|rotazioni]] funzionano attorno ad uno _specifico punto_, per effettuare una _rotazione_ di $\alpha$ attorno ad uno specifico _punto_ $\boldsymbol{c}$  bisogna
 1. _applicare_ la traslazione $T_{-c}$ mettendo cosi al centro il punto $\boldsymbol{c}$ 

@@ -12,7 +12,7 @@ Parent MOC: "[[Algebra Lineare (AL)]]"
 Il _prodotto scalare_ è un [[Operazioni algebriche|operazione]] definita su due vettori, _restituiscono_ un numero in $\mathbb{R}$
 
 _sia_ $V$ una [[Spazio Vettoriale|spazio vettoriale]]
-_allora_ ill _prodotto scalare_ su $V$ è definito dal applicazione 
+_allora_ il _prodotto scalare_ su $V$ è definito dal applicazione 
 $$\begin{array}{}
 V \times V \rightarrow \mathbb{R} \\
 (v,w)\mapsto\langle v,w\rangle

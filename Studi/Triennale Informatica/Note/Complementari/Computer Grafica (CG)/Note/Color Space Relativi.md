@@ -1,10 +1,11 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 
@@ -65,7 +66,7 @@ In questo sistema la distanza tra due colori è espressa dalla formula della _di
 
 
 ##### Conversione CIRXYZ to CIELab
-_siano_ $X_{n},Y_{n},Z_{n}$ dei fattori di normalizzazione dipendenti dagli [[illuminanti|illuminanti]]
+_siano_ $X_{n},Y_{n},Z_{n}$ dei fattori di normalizzazione dipendenti dagli [[Rappresentazione di colori - illuminanti|Rappresentazione di colori - illuminanti]]
 _allora_ le formule di conversione sono$$
 \begin{array}
 L^{*} & = & 116f(X/X_{n})-16 \\

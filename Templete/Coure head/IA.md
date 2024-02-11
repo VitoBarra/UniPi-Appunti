@@ -1,11 +1,11 @@
 ---
-type: nota
-course: Intelligenza Artificiale
-topic: 
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Subject: "[[Intelligenza Artificiale]]"
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - IA
-Parent MOC: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 ---
-
 # {{title}}
 ---

@@ -1,10 +1,11 @@
 ---
-type: nota
-course: Paradigmi Di Programmazione
-topic: 
+Course: "[[Paradigmi Di Programmazione(PDP)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - PDP
-Parent MOC: "[[Paradigmi Di Programmazione(PDP)]]"
 ---
 
 # {{title}}

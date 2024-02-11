@@ -1,13 +1,13 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
+Course: "[[Programmazione Algoritmica (ProgAlg)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - ProgAlgo
-Parent MOC: "[[Programmazione Algoritmica (ProgAlg)]]"
 ---
 
 # {{title}}
 ---
 
-### Definizione

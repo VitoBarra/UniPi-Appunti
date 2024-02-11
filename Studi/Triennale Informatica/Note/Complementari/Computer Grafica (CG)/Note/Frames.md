@@ -1,15 +1,15 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 # Frames
 ---
-#### Frames
 un _frame_ $F=\{O, \boldsymbol{\mathit{v}}_{1},\dots,\boldsymbol{\mathit{v}_{n}}\}$ in $n$-dimensionale è _caratterizzato_ da 
 - $n$ _vettori_ che rappresentano gli _assi_
 - un _punto_ detto _origine_ del frame
@@ -29,7 +29,7 @@ Questo _frame_ è una [[Base Ortogonale e Ortonormale|base ortonormale]]
 ##### Cambio di frame
 per convertire un punto espresso in termini di un _frame_ $F_{0}$ in un altro espresso in termini un _frame_ $F_{1}$
 
-partendo da una _generico_ $F_{0}$ _non canonico_ ad il _frame canonico_$$\boldsymbol{p}=O_{0}+\boldsymbol{p}_{0_{x}}\boldsymbol{\mathit{u}}_{0}+\boldsymbol{p}_{1_{y}}\boldsymbol{\mathit{v}}_{0} $$_geometricamente_ stiamo prima _traslando_ il punto verso l origine $O_{0}$ e poi _trasiamo_ di $\boldsymbol{p}_{0_{x}}$ lungo l asse $\boldsymbol{\mathit{u}}_{0}$ e poi di  $\boldsymbol{p}_{0_{y}}$ lungo l asse $\boldsymbol{\mathit{v}}_{0}$  ottenendo così un punto espresso in _coordinate canoniche_
+partendo da una _generico_ $F_{0}$ _non canonico_ ad il _frame canonico_$$\boldsymbol{p}=O_{0}+\boldsymbol{p}_{0_{x}}\boldsymbol{\mathit{u}}_{0}+\boldsymbol{p}_{1_{y}}\boldsymbol{\mathit{v}}_{0} $$_geometricamente_ stiamo prima _traslando_ il punto verso l origine $O_{0}$ e poi _transliamo_ di $\boldsymbol{p}_{0_{x}}$ lungo l asse $\boldsymbol{\mathit{u}}_{0}$ e poi di  $\boldsymbol{p}_{0_{y}}$ lungo l asse $\boldsymbol{\mathit{v}}_{0}$  ottenendo così un punto espresso in _coordinate canoniche_
 ![[IMG_0752.jpeg]]
 questa operazione puo essere anche scritta sotto forma di matrice di _[[Trasformazioni Geometriche affini|rototraslazione]]_  $M_{1}$ come $$\boldsymbol{p}=\underbrace{ \begin{bmatrix}
 v_{0_{x}}  & u_{0_{x}}  & O_{0_{x}} \\
@@ -54,10 +54,10 @@ e quindi moltiplicando entrambi i lati per la matrice [[Matrice inversa|inversa]
 \boldsymbol{p_{0}}=
 \boldsymbol{p_{1}}$$ che significa che usare la matrice $M_{1}^{-1}M_{0}$ per passare dal _frame_ $F_{0}$ al _frame_ $F_{1}$ 
 
-Essendo le metrici matrici di [[Trasformazioni Geometriche affini|rototraslazione]] stiamo lavorando con [[Trasformazioni affini|trasformazioni affini]] e ciò rende facile _[[Matrice Inversa di trasformazioni affini|inversa]]_ $M_{1}^{-1}$  
+Essendo le metrici matrici di [[Trasformazioni Geometriche affini|rototraslazione]] stiamo lavorando con [[Trasformazioni affini|trasformazioni affini]] e ciò rende facile calcolare l inversa _[[Matrice inversa|inversa]]_ $M_{1}^{-1}$  
 
 #### Frame generici
-il _frame_ possono anche non essere [[Ortogonalità E Ortonormalità|ortonormali]]  infatti possiamo vedere ogni [[Trasformazioni affini|trasformazione affine]] come un _cambio di frame_, dal punto di vista matematico è la stessa cosa del applicare la trasformazione ma la trasformazione è piu facile da immaginare.
+il _frame_ possono anche non essere [[Vettori Ortogonali|ortonormali]]  infatti possiamo vedere ogni [[Trasformazioni affini|trasformazione affine]] come un _cambio di frame_, dal punto di vista matematico è la stessa cosa del applicare la trasformazione ma la trasformazione è piu facile da immaginare.
 
 #### Frame gerachici
 piu _frame_ posso essere ordinati in modo gerarchico in questo modo siamo in grado di descrivere la scena in termini di altri frame, ad esempio ogni _frame_ puo essere un oggetto o una parte di un oggetto.

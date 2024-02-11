@@ -1,10 +1,11 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
+Course: "[[Architetture e sistemi operativi (AESO)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - AESO
-Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
 
 # {{title}}

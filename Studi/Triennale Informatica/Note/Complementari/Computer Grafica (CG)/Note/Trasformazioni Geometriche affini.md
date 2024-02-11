@@ -1,17 +1,16 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
-
 
 # Trasformazioni Geometriche affini
 ---
-
-#### Elementri geometrici
+#### Elementi geometrici
 gli elementi del _dominio_ della [[Computer Grafica (CG)|computer grafica]] sono
 - _scalari_: sono _monodimensionali_ e rappresentano la _magnituto_ di qualcosa (temperatura, velocita)
 -  _punti_: rasentano _posizioni_ nello spazio 

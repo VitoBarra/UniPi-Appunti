@@ -10,7 +10,7 @@ Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 il _prodotto scalare su matrici_ è un tipo di [[Prodotto Scalare]] definito come segue.
 #### Definizione
-_sia_ [[Matrice|matrice]] $S$ una matrice [[Tipi di matrice quadrata|simmetrica]] 
+_sia_ [[Matrice|matrice]] $S$ una matrice [[Matrici quadrate|simmetrica]] 
 _allora_ il prodotto scalare tra matrice è definito come$$
 g_S(x,y) = {}^tx \cdot S \cdot y
 $$

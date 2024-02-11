@@ -1,36 +1,58 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
+  - AL
 ---
 
 
 # Coordinate omogenee
 ---
-le _coordinate_ omogenee sono un sistema di coodinate per rappresentano _punti_ e _vettori_ come segue
+le _coordinate_ omogenee sono un sistema di coordinate per rappresentano _punti_  $\boldsymbol{p}$ e _vettori_ $\boldsymbol{v}$ come segue
 $$\boldsymbol{p}=\begin{bmatrix}
-p_{x}\\p_{y} \\ 1 
+p_{x}\\p_{y}\\p_{z} \\ 1 
 \end{bmatrix}
-\ \ \ \ \ \boldsymbol{\mathit{v}}=\begin{bmatrix}
-v_{1}\\v_{2} \\0
-\end{bmatrix}$$
-dove per distingue i due si guardo al ultimo valore
-- $\boldsymbol{p}$ rappresenta un _punto_ con 1 come ultimo valore e  _rappresenta_ 
-- $\boldsymbol{\mathit{v}}$ rappresenta un _vettore_ con 0 come ultimo valore
+\ \ \ \ \ \boldsymbol{v}=\begin{bmatrix}
+v_{1}\\v_{2}\\v_{3} \\0
+\end{bmatrix}$$ dove $p_i$ e $v_i$ i componenti delle coordinate nel [[Piano cartesiano|piano cartesiano]]
 
-questa notazione preserva le operazioni definite tra _punti_ e _vettori_ infatti 
-_adizone punto-vettore_ $1+0=1$ e quindi è un punto
-_adizione vettore-vettore_ $0+0=0$ e quindi è un vettore
-_sotrazione punto-vettore_ $1-1=0$ e quindi è un vettore
+per distinguere tra vettori e punti si guarda al ultimo componente e infatti abbiamo che con 
+- $1$   rappresenta un _punto_ $\boldsymbol{p}$ 
+- $0$ rappresenta un _vettore_ $\boldsymbol{v}$
 
-Come definito prima.
+
+> [!tip]
+> sono stati usati $3$ componenti del vettore ma le definizioni restano valide per $n$ componenti
+
+##### Operazioni
+questa sistema di coordinate si definiscono le [[Operazioni chiuse|operazioni chiuse]] tra _punti_ e _vettori_ 
+- _adizione punto-vettore_ $1+0=1$ e quindi è un punto
+- _adizione vettore-vettore_ $0+0=0$ e quindi è un vettore
+- _sottrazione punto-vettore_ $1-1=0$ e quindi è un vettore
+e quindi le operazioni restituiscono una coordinata omogenea
+
 ##### Equivalenza punti vettori
-per semplificare l uso delle coordinate omogenee si definisce la seguente equivalenza $$\boldsymbol{\mathit{v}}=\boldsymbol{p}-\begin{bmatrix}
-0\\0\\1
+per semplificare l uso delle coordinate omogenee si definisce la seguente equivalenza 
+Sia
+- $p$ un punto 
+- $\boldsymbol{\mathit{v}}$ il _vettore_ tra l origine $O$ e il _punto_ $\boldsymbol{p}$
+$$\boldsymbol{\mathit{v}}=\boldsymbol{p}-\begin{bmatrix}
+0\\0\\0\\1
 \end{bmatrix}\ \ \ \ \boldsymbol{p}=\boldsymbol{\mathit{v}}+\begin{bmatrix}
-0\\0\\1
+0\\0\\0\\1
 \end{bmatrix}$$
-dove $\boldsymbol{\mathit{v}}$ indica il _vettore_ tra l origine e il _punto_ $\boldsymbol{p}$ e $\boldsymbol{p}$ rappresenta il punto raggiunto dal vettore $\mathit{\boldsymbol{v}}$. _Ricordando_ che l ultimo valore del vettore non è una coordinata ma indica solo se il vettore rappresenta un _punto_ o una _vettore_
+
+##### Forma canonica
+Nelle coordinate omogenee __punti__ diversi possono rappresentare lo stesso punto in [[Piano cartesiano|coordinate cartesiane]]  infatti abbiamo che 
+$$\underbrace{ \boldsymbol{p} }_{ cartesian }=\underbrace{\lambda
+ \begin{bmatrix}
+p_{x}\\p_{y}\\p_{z} \\ 1 
+\end{bmatrix} }_{ Homogeneus }$$dove se $\lambda =1$ vengono dette in __forma canonica__ e nel caso dei punti per passare dalla forma non canonico ad una canonica basta dividere per l ultimo componente. 
+
+Questo __non__ vale per i vettori che invece hanno una rappresentazione __unica__ 
+
+

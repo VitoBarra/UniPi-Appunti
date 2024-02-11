@@ -1,10 +1,11 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Course: "[[Algebra Lineare (AL)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 # {{title}}
 ---

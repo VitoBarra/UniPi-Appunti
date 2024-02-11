@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: 
-tags: AL Imm2Text 
+tags:
+  - AL
+  - Imm2Text
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Sottospazio Ortogonale
 ---
@@ -18,10 +17,10 @@ $$
 W^\bot =\{v\in V\ |\ \langle v,w\rangle = 0 \ \ \forall w \in W \}
 $$
 
-### Proprieta:
+### Proprietà:
 
 - se il [[Prodotto Scalare]] è definito positivo allora sono $W,W^\bot$in somma diretta
-- Se il [[Prodotto Scalare]] è degenere, puo acccadere che $W^\bot$  abbia dimensione maggiore delle aspettate intuitivamente
+- Se il [[Prodotto Scalare]] è degenere, puo accadere che $W^\bot$  abbia dimensione maggiore delle aspettate intuitivamente
 
 ![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 20.png]]
 

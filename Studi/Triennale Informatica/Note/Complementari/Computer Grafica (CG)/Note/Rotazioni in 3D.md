@@ -1,22 +1,23 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 # Rotazioni in 3D
 ---
-Le rotazioni in 3D sono [[Trasformazioni affini|Trasformazioni affini]] e un estensione delle [[Trasformazioni Geometriche affini|rotazioni]] geometriche in 2D  Infatti possiamo vedere le _rotazioni 2D_ come una rotazione su di un piano [[Ortogonalità E Ortonormalità|ortogonale]] al asse $z$ e passane per il _punto da ruotare_ e al _origine_, ottenendo cosi la  _rotazione 3D_ attorno al asse $z$ $$R_{a,z}=\begin{bmatrix}
+Le rotazioni in 3D sono [[Trasformazioni affini|Trasformazioni affini]] e un estensione delle [[Trasformazioni Geometriche affini|rotazioni]] geometriche in 2D  Infatti possiamo vedere le _rotazioni 2D_ come una rotazione su di un piano [[Vettori Ortogonali|ortogonale]] al asse $z$ e passane per il _punto da ruotare_ e al _origine_, ottenendo cosi la  _rotazione 3D_ attorno al asse $z$ $$R_{a,z}=\begin{bmatrix}
 \cos \alpha  & -\sin \alpha  & 0  & 0\\
 \sin \alpha  & \cos \alpha & 0  & 0\\
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}$$
 
-In _generale_ un _rotazione 3D_ cambia solo 2 valori di posizione su 3 e il _punto ruotato_ resta sullo stesso piano [[Ortogonalità E Ortonormalità|ortogonale]] al asse e passante per il punto su cui era prima della rotazione
+In _generale_ un _rotazione 3D_ cambia solo 2 valori di posizione su 3 e il _punto ruotato_ resta sullo stesso piano [[Vettori Ortogonali|ortogonale]] al asse e passante per il punto su cui era prima della rotazione
 
 le _Rotazioni in 3D_ sono _definite_ rispetto ad un _Asse di rotazione_ definito da $$r=O_{r}+t\boldsymbol{d_{ir}}\ \ \ t\in (+\infty,-\infty)$$ dove per le applicazioni pratiche il punto $O_{r}=[0,0,0,1]^{T}$ è l _origine canonica_, ovvero gli assi di rotazione passano sempre per l origine. Questa pero non è una limitazione siccome in caso di assi che non passano per l origine  questo puo sempre essere [[Trasformazioni Geometriche affini#Traslazioni|traslato]] verso _l origine_ applicare la rotazione e portato _alla posizione originale_. 
 
@@ -50,11 +51,11 @@ otteniamo quindi con la notazione a matrice
 $$R_{\alpha,r}=F^{-1}_{r}R_{\alpha,z}F_{r}$$
 per applicare questo metodo bisogna quindi costruire il [[Frames|frame]] $F_{r}$ 
 
-per costruire il [[Frames|frame]] $F_{r}$ possiamo scegliere un _qualsiasi_ vettore $a$  e possiamo calcolare gli altri due _assi_ usando il [[Prodotto Vettoriale (Cross product)|Prodotto Vettoriale (Cross product)]] che genera un vettore  [[Ortogonalità E Ortonormalità|ortogonale]] ad entrambi i _vettori_ che partecipano al operazione. Ricordando che vogliamo fare in modo di far coincidere $r$ con $z$ abbiamo che $r=z_{r}$ e otteniamo quindi$$\begin{array}{}
+per costruire il [[Frames|frame]] $F_{r}$ possiamo scegliere un _qualsiasi_ vettore $a$  e possiamo calcolare gli altri due _assi_ usando il [[Prodotto Vettoriale (Cross product)|Prodotto Vettoriale (Cross product)]] che genera un vettore  [[Vettori Ortogonali|ortogonale]] ad entrambi i _vettori_ che partecipano al operazione. Ricordando che vogliamo fare in modo di far coincidere $r$ con $z$ abbiamo che $r=z_{r}$ e otteniamo quindi$$\begin{array}{}
 x_{r} & = & \boldsymbol{r}\times a \\
 y_{r} & = &  \boldsymbol{r} \times x_{r}
 \end{array}
-$$in questo modo si ottiene il _frame_ [[Ortogonalità E Ortonormalità|ortogonale]] $F_{r}$ 
+$$in questo modo si ottiene il _frame_ [[Vettori Ortogonali|ortogonale]] $F_{r}$ 
 
 la scelta di $a$ _determina_ il frame $F_{r}$, bisogna stare attendi a non scegliere un vettore $a$ [[Dipendenza Lineare|dipendente]] con l _asse_ $r$ siccome in quel caso il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]] restituirebbe il _vettore nullo_.
 $a$ scegliere a caso ha [[Definizione di Probabilita|probabilita]] bassa di selezionare un vettore _dipendente_(_colineare_) con $r$ ma non zero e per via del [[Aritmetica di Macchina|algebra finita]] del calcolatore anche i vettori *__quasi__*  _colineari_ hanno lo stesso problema
@@ -63,7 +64,7 @@ Quindi si _sceglie_ il vettore _tale che_
 _sia_ $i$ alla posizione della componente di  $\boldsymbol{r}$ piu piccola e _diversa_ da $1$
 	prendendo anche il valore $1$ essendo vettori  _normalizato_ otterremmo un $a$ colineare
 _allora_ il vettore $a$ ha come $i$-esima componente 1 e 0 altrove 
- cosi facendo si selezione il vettore “_piu [[Ortogonalità E Ortonormalità|ortogonale]]_ ad $\boldsymbol{r}$”
+ cosi facendo si selezione il vettore “_piu [[Vettori Ortogonali|ortogonale]]_ ad $\boldsymbol{r}$”
 
 ![[IMG_0773.jpeg]]
 Creazione di un _frame_
@@ -76,7 +77,7 @@ Questo metodo permette di trovare _geometricamente_ una formula per calcolare di
 
 _siano_   $\boldsymbol{p}$ il punto che vogliamo _ruotare_ attorno ad un asse $r$ di un angolo $\alpha$ e sia $\boldsymbol{p}’$ il punto di arrivo della rotazione 
 _sia_ $O_{F}$ il punto di _intersenzione_ tra il piano ortogonale e l asse di rotazione $r$
-$\boldsymbol{p}$ e $\boldsymbol{p}’$ sono sullo _stesso piano_ [[Ortogonalità E Ortonormalità|ortogonale]] al asse attorno a cui voglio ruotare  
+$\boldsymbol{p}$ e $\boldsymbol{p}’$ sono sullo _stesso piano_ [[Vettori Ortogonali|ortogonale]] al asse attorno a cui voglio ruotare  
 creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $x_{F}=\boldsymbol{p}-O_{F}$ e con il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]]  l _asse_ $y_{F}=\boldsymbol{r}\times x_{r}$
 
 in questo grame il punto $p’$ ha coordinate $[\cos \alpha, \sin \alpha,0]^{T}$

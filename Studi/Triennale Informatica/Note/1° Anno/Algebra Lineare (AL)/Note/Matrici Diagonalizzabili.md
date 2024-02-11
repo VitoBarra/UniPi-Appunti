@@ -30,7 +30,7 @@ e $D$  è _diagonale_
 
 > [!tip] osservazioni
 > - Un [[Isomorfismo e Endomorfismo|endomorfismo]] $T : V \rightarrow V$ è diagonalizzabile $\iff$ la matrice associata $A = [T]^\mathcal{B}_\mathcal{B}$ è diagonalizzabile
-> - solitamente le matrici diagonalizzabili sono le [[Tipi di matrice quadrata|matrice simmetriche]]
+> - solitamente le matrici diagonalizzabili sono le [[Matrici quadrate|matrice simmetriche]]
 
 #### Teorema Criterio di diagonalizzabilità
 Un [[Isomorfismo e Endomorfismo|endomorfismo]] $T : V \rightarrow V$ è _diagonalizzabile_ $\iff$ valgono entrambi i fatti seguenti:

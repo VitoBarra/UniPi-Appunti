@@ -35,6 +35,10 @@ Parent MOC: "[[Studi MOC]]"
 	- [[Sicurezza di sistema ICT]]
 	- [[Teoria del informazione (TDI)]]
 	- [[Fisica]]
+- Tesi
+	- [[Tesi IA e giochi di certe]]
+	- [[Reti Neurali - Reservoir Computing]]
+	- [[Domande per prof gallicchio]]
 - Informatica
 	- [[Transazioni]]
 - Orientamento professionale ITC

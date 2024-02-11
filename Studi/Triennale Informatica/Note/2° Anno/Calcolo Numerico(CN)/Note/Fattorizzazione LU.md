@@ -9,7 +9,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Fattorizzazione LU
 ---
-_Data_ una [[Matrice|matrice]] $A \in \mathbb{R}^{n\times n}$ si dice fattorizzai le nella forma LU se esistono $U\in \mathbb{R}^{n\times n}$  [[Tipi di matrice quadrata|matrice triangolare superiore]] ed $L\in \mathbb{R}^{n\times n}$ [[Tipi di matrice quadrata|matrice triangolare inferiore]] con elementi uguali ad $1$ sulla diagonale principale tali che $A = L\cdot U$ 
+_Data_ una [[Matrice|matrice]] $A \in \mathbb{R}^{n\times n}$ si dice fattorizzai le nella forma LU se esistono $U\in \mathbb{R}^{n\times n}$  [[Matrici quadrate|matrice triangolare superiore]] ed $L\in \mathbb{R}^{n\times n}$ [[Matrici quadrate|matrice triangolare inferiore]] con elementi uguali ad $1$ sulla diagonale principale tali che $A = L\cdot U$ 
 
 Se $A \in \mathbb{R}^{n\times n}$ [[Matrice inversa|invertibile]] il suo $\det(A)\not = 0$  ed è fattorizzabile in forma $LU$ allora dal [[Teorema di Binet|Teorema di Binet]]  abbiamo $\det(LU) =\det(L)\det(U)\not=0$ con $\det(L)=1$ sempre. quindi anche  $U$ è invertibile, dunque il [[Sistemi lineari e lineari omogenei|sistema lineare]] $Ax = b$ può essere risolto mediante la sequenza di sistemi triangolare 
 $$\begin{cases}

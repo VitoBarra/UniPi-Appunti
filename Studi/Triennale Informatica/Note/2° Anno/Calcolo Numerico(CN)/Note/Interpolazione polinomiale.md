@@ -53,7 +53,7 @@ la rappresentazione e il calcolo dei _coefficienti_ $\alpha_{i}$ dipendendo dall
 1  & \cdots & \cdots  &  x_{n}^n
 \end{bmatrix} 
 $$ed è chiamatati _matrice di Vandermonde_ il calcolo dei coefficienti con questa matrice è generalmente [[Tipi di Errore nel calcolo numerico#Errore Inerente|mal condizionata]] e la risoluzione del sistema lineare richiede $O(n^{3})$ operazioni aritmetiche
-2. se $\phi_{0} = 1,\phi_{j} = \prod^{j-1}_{i=0}(x-x_{i}), \ \ 0 \leq j\leq n$  si ha che la matrice $\mathcal{V}(\mathcal{S},\Phi)$ è [[Tipi di matrice quadrata|triangolare inferiore]] $$(\mathcal{V}(\mathcal{S},\Phi))_{h+1,k+1}=
+2. se $\phi_{0} = 1,\phi_{j} = \prod^{j-1}_{i=0}(x-x_{i}), \ \ 0 \leq j\leq n$  si ha che la matrice $\mathcal{V}(\mathcal{S},\Phi)$ è [[Matrici quadrate|triangolare inferiore]] $$(\mathcal{V}(\mathcal{S},\Phi))_{h+1,k+1}=
 \begin{cases} 
 \prod_{i=0}^{k-1}(x_{h}-x_{i})  &  \text{if }\ h\geq k\\
 0&  \text{if }\ h< k

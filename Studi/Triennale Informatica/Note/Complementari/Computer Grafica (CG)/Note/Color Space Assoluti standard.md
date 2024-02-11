@@ -1,15 +1,17 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 
 # Color Space Assoluti standard
 ---
+
 #### Color space CIE  
 i _Color Space_ _CIE RGB_ e successivamente _CIE XYZ_ sono nati per essere _sistemi standard_ che sono _indipendenti_ dal device e si basano sui fenomeni fisici e sulla percezione umana. sono quindi _Color Space Assoluti_ .
 Si basano su dati empirici presi da un esperimento, questo consiste nel chiedere a degli osservatori di cambiare i valori di luce di 3 lampade  _blu_ , _rossa_ e  _verde_ per riuscire ricreare un altro colore a lui mostrato che è ”_puro_” ovvero generato da una luce che emette la specifica frequenza del colore e non è una combinazione di piu luci

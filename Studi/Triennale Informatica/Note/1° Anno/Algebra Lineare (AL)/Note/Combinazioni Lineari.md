@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: 
-tags: AL
+tags:
+  - AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Combinazioni Lineari
 ---

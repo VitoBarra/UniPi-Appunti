@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: 
-tags: AL Imm2Text 
+tags:
+  - AL
+  - Imm2Text
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Forma cartesiana e forma parametrica
 ---

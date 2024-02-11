@@ -73,4 +73,4 @@ $$H_i= \{z \in \mathbb{C}: |z-a_{j,j}| \leq \sum^{n}_{i=1,j\not=i}|a_{i,j}|\}$$
 gli [[Autovettori e Autovalori|autovalori]]  devono appartenere sia ai cerchi fatti sulle colonne che quelli fatte sulle righe  ne deriva quindi che gli autovalori appartengono a 
 $$\lambda \in (\cup_{i=1}^nK_i) \cap(\cup_{j=1}^nH_j )$$
 >[!note]
->l unione dei due cerchi sono uguali solo se la matrice è [[Tipi di matrice quadrata|simmetrica]] 
+>l unione dei due cerchi sono uguali solo se la matrice è [[Matrici quadrate|simmetrica]] 

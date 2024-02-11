@@ -1,5 +1,5 @@
 ---
-type: MOC
+Type: MOC
 tags:
   - MOC
 Parent MOC: "[[Triennale informatica MOC]]"

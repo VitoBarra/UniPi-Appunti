@@ -1,10 +1,11 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
 
 
@@ -15,7 +16,7 @@ nella computer grafica è importante capire come sono _rappresentate le immagini
 Ci sono due famiglie di grafiche
 
 ##### Vector Graphic
-Sono formati di _immagini rappresentate_ forme semplice come punti,linee, cerchi e altre forme basilari. 
+Sono formati di _immagini rappresentate_ forme semplice come punti, linee, cerchi e altre forme basilari. 
 in questo modo _le immagini_ possono essere descritte da una lista di proprietà, compreso il colore, degli oggetti basilari.
 Un esempio è il sottostante.
 ![[IMG_0718.jpeg]]
@@ -25,7 +26,7 @@ dove l _SVG_ viene solitamente usato per rappresentare solo immagini e il _PC_ �
 
 
 #### Raster Images
-è un Modo per rappresentare le immagini è tramite l utilizzo di _Pixel_ (__*Pic*ture *El*ement__), ovvero delle piccole celle che rapresentano una piccola parte del immagine.
+è un Modo per rappresentare le immagini è tramite l utilizzo di _Pixel_ (__*Pic*ture *El*ement__), ovvero delle piccole celle che rappresentano una piccola parte del immagine.
 ![[IMG_0719.jpeg]]
 I _pixel_ posso essere rapresentati in modo diverso a seconda del tipo di immagine che si vuole rappresentare.
 Ad esempio possono essere un solo _scalare_ che indica la _lucentezza_ di un dato pixel, risultando cosi in una scala di grigio, oppure puo avere un _vettore_ di scalari per rappresentare i casi in cui ci sono piu colori. il numero di valori nel vettore è chiamato il _numero di canali_, solitamente si usano 3 Channel, _Red, Green, Blue_, una combinazione di questi esprime il colore finale in accordo al [[Funzionamento della vista umana (HVS)|sistema visivo umano]]. I canali possono essere eventualmente isolati e visti singolarmente.

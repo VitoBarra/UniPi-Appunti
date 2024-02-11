@@ -1,18 +1,18 @@
 ---
-type: nota
-course: Computer grafica
-topic: 
+Course: "[[Computer Grafica (CG)]]"
+Subject: Computer Grafica
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - CG
-Parent MOC: "[[Computer Grafica (CG)]]"
 ---
-
 
 # Pipeline di Rasterizazione
 ---
-la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]] di restirazione_ è un [[Algoritmi di renderizazione|algoritmi di rendering]] usato specialmente per il rendering di scene _dinamiche_. 
+la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]]_ di rasterizazione è un [[Algoritmi di renderizazione|algoritmi di rendering]] usato specialmente per il rendering di scene _dinamiche_. 
 
-un problema che risolve questo algoritmi e quello di trasformare una scena 3D in una 2D proiettata sullo schermo, crea una _rasterizazione_, ovviamente scene gia in 2D restano in 2D
+un problema che risolve questo algoritmi e quello di trasformare una scena 3D in una 2D proiettata sullo schermo, crea una _rasterizzazione_, ovviamente scene gia in 2D restano in 2D
 
 la _pipeline_ trasforma una sequenza di _primitive geometriche_ quali _punti_, _linee_, _triangoli_ e _poligoni_ in _pixel_ sullo schermo, genera quindi un [[Rappresentazione delle immagini#Raster Images|immagine rasterizata]]
 

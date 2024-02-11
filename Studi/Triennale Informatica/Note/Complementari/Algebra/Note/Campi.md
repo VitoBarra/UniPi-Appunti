@@ -16,8 +16,8 @@ le due operazioni devono soddisfare Le proprietà
  - Chiusura sul insieme $F$ Ovvero i risultati di quelle operazioni sono elementi del _insieme_ $F$ vale quindi che 
 	 - $+:F\times F \rightarrow F$
 	 - $\cdot:F\times F \rightarrow F$
-- _[[Proprietà del operazioni-Associativà| proprietà Associativa]]_
-- _[[Proprietà del operazioni-Commutatività|proprieta Commutativa]]_
+- _[[Proprietà del operazioni - Associativà| proprietà Associativa]]_
+- _[[Proprietà del operazioni - Commutatività|proprieta Commutativa]]_
 - esistenza _elemento [[Elemento Neutro o identita di un operazione|neutro]]_ 
 - esistenza _[[Elemento inverso di un operazione|elemento Inveso]]_ per ogni elemento ad eccezione dello 0 per la moltiplicazione.
 
