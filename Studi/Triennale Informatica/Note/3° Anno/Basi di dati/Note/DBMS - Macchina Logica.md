@@ -245,7 +245,7 @@ Operatore per il raggruppamento($\gamma$):
 
 Operazione di unione, differenza e intersezione ($\cup,-,\cap$)
 - UnionAll ($O_E,O_I$): ritorna l’unione dei record degli operandi senza l’eliminazione dei duplicati.
-- Union($O_E, O_I$ ), Except ($O_E,O_I$), Intersect ($O_E, O_I$): ritornano la collezione dei record delle [[Operazioni Insiemistiche|operazioni insiemistiche]], supponendo che
+- Union($O_E, O_I$ ), Except ($O_E,O_I$), Intersect ($O_E, O_I$): ritornano la collezione dei record delle [[Insiemi Matematici|operazioni insiemistiche]], supponendo che
 	- i record degli operandi siano _dello stesso tipo_, _ordinati_ e _privi di duplicati_.
 
 

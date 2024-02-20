@@ -26,7 +26,7 @@ dove
 - $x =$ è il vettore d’elogio stato attuale
 - $\eta=$ la dimensione del passo di movimento
 - $\nabla f(x)=$ il gradiente di $f$
-- $\pm$ da scegliere $+$ se si cerca un massimo (si sale sulla [[Superfici - Analisi|superficie]]) $-$ se si cerca un minimo (si scende sulla superficie)
+- $\pm$ da scegliere $+$ se si cerca un massimo (si sale sulla [[Superfici|superficie]]) $-$ se si cerca un minimo (si scende sulla superficie)
 ![[AE4E90A6-22E4-4080-B2C1-682C7D8872CC.jpeg]]
 
 

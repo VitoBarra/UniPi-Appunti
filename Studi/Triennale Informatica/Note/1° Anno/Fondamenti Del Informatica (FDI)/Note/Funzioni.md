@@ -1,16 +1,17 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - FDI
-Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
 
 # Funzioni
 ---
 una funzione è un particolare tipo di [[Applicazioni tra insiemi|applicazioni tra insiemi]] per cui valgono la proprieta di 
- _univalente_,_surgetive_,
+ _univalente_,_ surgetive_
 
 
 #### Proprietà particolari

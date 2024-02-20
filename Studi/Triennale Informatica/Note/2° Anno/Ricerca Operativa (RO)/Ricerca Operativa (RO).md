@@ -1,9 +1,10 @@
 ---
-type: MOC 
-tags: MOC RO 
+Parent MOC: "[[Triennale informatica MOC]]"
+type: MOC
+tags:
+  - MOC
+  - RO
 ---
-
-Prev: [[Triennale informatica MOC]]
 
 # Ricerca Operativa (RO)
 

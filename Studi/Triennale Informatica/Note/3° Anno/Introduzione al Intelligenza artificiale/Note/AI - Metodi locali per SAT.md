@@ -10,7 +10,7 @@ Parent MOC: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 
 # Metodi locali per SAT
 ---
-è una classe di algoritmi di tipo [[AI - Ricerca locale|locale]] per la risoluzione di [[Problema della Sodisfacibilita (SAT)|SAT]] nel contesto del utilizzo di [[AI - Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]. dove:
+è una classe di algoritmi di tipo [[AI - Ricerca locale|locale]] per la risoluzione di [[Problema della Soddisfacibilita (SAT)|SAT]] nel contesto del utilizzo di [[AI - Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]. dove:
 -  Gli stati Sono interpretazioni complete
 	- A _tutti_ i simboli preposizionali è assegnato un valore
 - l _obiettivo_ è un assegnamento che soddisfa tutte le clausole, ovvero un _modello_

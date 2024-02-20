@@ -1,5 +1,4 @@
 ---
-type: MOC
 tags:
   - MOC
 Parent MOC: "[[Studi MOC]]"

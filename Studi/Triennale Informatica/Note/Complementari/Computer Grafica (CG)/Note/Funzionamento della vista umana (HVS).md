@@ -11,7 +11,6 @@ tags:
 
 # Funzionamento della vista umana (HVS)
 ---
-
 il _sistema visivo umano_ o _human Visual System_ (_HVS_) è un sistema comporto da agli occhi, che sogno gli _organi_ recettori della _luce_ nello specifico del _colore_ sono _recettori_ della per  _[[Onde - Fisica|lunghezza d onda]]_, e una volta recepito questo verrà inviato al cervello sotto forma di segnali che verranno interpretarti come i calori che _vediamo_. 
 gli _stimoli del colore_ passano per la _cornea_ per colpire poi la _retina_
 ![[IMG_0708.jpeg]]

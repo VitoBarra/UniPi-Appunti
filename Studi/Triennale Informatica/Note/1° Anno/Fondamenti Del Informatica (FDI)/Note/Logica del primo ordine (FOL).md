@@ -1,13 +1,14 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
-tags: FDI
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
+tags:
+  - FDI
 ---
 
-Prev: [[Fondamenti Del Informatica (FDI)]]
-
-# Logica del primo Ordine
+# Logica del primo ordine (FOL)
 ---
 è una logica che estende la [[Logica proposizionale|Logica proposizionale]] permettendo di lavorare con oggetti piu complessi dei semplici valori di verità  
 

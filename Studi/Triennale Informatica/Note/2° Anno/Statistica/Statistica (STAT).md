@@ -1,9 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - STAT
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Statistica (STAT)
 

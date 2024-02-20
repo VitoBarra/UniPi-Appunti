@@ -1,11 +1,12 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
-tags: FDI
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
+tags:
+  - FDI
 ---
-
-Prev: [[Fondamenti Del Informatica (FDI)]]
 
 # Alfabeto
 ---

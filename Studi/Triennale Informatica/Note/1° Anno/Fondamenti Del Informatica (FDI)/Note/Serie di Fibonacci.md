@@ -1,15 +1,18 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - FDI
-Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
+
 # Serie di Fibonacci
 ---
 
 ## Formula ricorsiva
+una versione [[Ricorsione|riscorsiva]] dalla formula e' 
 $$fib(x)=
 \begin{cases}
 	fib(0)   & =0 \\

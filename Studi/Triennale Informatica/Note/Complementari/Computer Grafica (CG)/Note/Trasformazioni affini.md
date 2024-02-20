@@ -34,13 +34,16 @@ Una trasformazione affine ha le seguente proprietà
 
 
 #### Matrice Inversa di trasformazioni affini
-le [[Matrice|matrici]] delle [[Trasformazioni affini|trasformazioni affine]] sono facilmente [[Matrice inversa|invertibili]] e si calcolano come $$\begin{bmatrix}
+le [[Matrice|matrici]] delle __trasformazioni affine__ sono [[Matrice inversa|invertibili]] con la formula $$\begin{bmatrix}
 A & v \\
 0 & 1
 \end{bmatrix}^{-1}=\begin{bmatrix}
   A^{-1}&-A^{-1}\boldsymbol{\mathit{v}} \\
 0  & 1 
-\end{bmatrix}$$
+\end{bmatrix}$$ dove $A$ e la sotto matrice senza l ultima riga e l ultima colonna e $v$ il vettore __affine__, ovvero l ultima collana meno  ultimo componente. La matrice $A$ deve essere [[Matrice inversa|invertibile]]
+
+
+
 le inverse geometricamente rappresentano l inversione del operazione, infatti abbiamo che: 
 - _Traslazione_: $T_{v}^{-1}=T_{-v}$
 - _Rotazioni_: $R^{-1}_{\alpha}=R_{-\alpha}$

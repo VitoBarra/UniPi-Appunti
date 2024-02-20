@@ -11,7 +11,7 @@ tags:
 
 # Utilizzi della computer grafica
 ---
-ti usi della _computer grafica_ sono variegati e possono essere impieghi in molti campi alcuni esempi sono
+gli usi della _computer grafica_ sono variegati e possono essere impieghi in molti campi alcuni esempi sono
 
 _Mantenimento culturale_: 
 	La digitalizzazione di monumenti o opere per poterne avere una versione _digitale_ allo scopo di conservare l opera 

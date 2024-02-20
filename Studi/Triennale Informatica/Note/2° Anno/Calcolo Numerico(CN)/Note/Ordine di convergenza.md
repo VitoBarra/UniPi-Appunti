@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
-tags: CN
+Course: "[[Calcolo Numerico(CN)]]"
+tags:
+  - CN
+topic:
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
 
 # Ordine di convergenza
 --- 
@@ -34,4 +32,4 @@ nomenclature
 - con $p=1$ e $\gamma =1$ si dice _convergenza sublineare_ 
 	- converge molto lentamente
 - con $p=2$ e $\gamma>0$ si dice _convergenza quadratica_
-	- il metodo converge molto velocemente verso un errore vicino alla [[Aritmetica di Macchina#Precisione di macchina|precisione di macchina]]
+	- il metodo converge molto velocemente verso un errore vicino alla [[Precisione di macchina|precisione di macchina]]

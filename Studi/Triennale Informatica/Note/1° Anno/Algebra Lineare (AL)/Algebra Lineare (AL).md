@@ -1,19 +1,19 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - AL
   - Rimpianti
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Algebra Lineare (AL)
 
 ## Course MOC  📒
 
 1. Nozioni Base
+	2. [[Equazioni Lineari e Lineari omogenee]]
 	1. [[Sistemi lineari e lineari omogenei]]
-	2. [[Forma cartesiana e forma parametrica]]
-	3. [[Combinazioni Lineari]]
+	3. [[Forma cartesiana e forma parametrica]]
+	4. [[Combinazioni Lineari]]
 2. [[Matrice|Matrici]]
 	1. Matrici ricavabili
 		1. [[Matrice inversa]]

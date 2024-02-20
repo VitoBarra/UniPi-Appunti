@@ -1,18 +1,16 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO
+Course: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic:
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Cono
 ---
 
 ### Combinazione conica
 
-Siano dei vettori $x_1,\dots,x_m \in \mathbb{R}^n$ un [[vettore]] $x \in \mathbb{R}^n$ è detto combinazione conica se esistono coefficienti $\lambda_1,\dots,\lambda_m \geq 0$ tali che
+Siano dei vettori $x_1,\dots,x_m \in \mathbb{R}^n$ un [[vettore|vettori]] $x \in \mathbb{R}^n$ è detto combinazione conica se esistono coefficienti $\lambda_1,\dots,\lambda_m \geq 0$ tali che
 
 $$
 x =\sum_{i=1}^m \lambda_ix_i
@@ -33,7 +31,7 @@ Un cono può essere convesso oppure non convesso
 
 ![[Studi/Triennale Informatica/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 24.png]]
 
-Cono Convesso
+Cono [[Convessità|Convesso]]
 
 ![[Studi/Triennale Informatica/Note/2° Anno/Ricerca Operativa (RO)/Media/Untitled 1 19.png]]
 

@@ -143,10 +143,10 @@ Questo si fa per evitare problemi di _tipo_
 
 si possono definiscono più _sottoclassi_ di una _stessa classe_, e sul insieme di _sottoclassi_ si definiscono i _vincoli_:
 - _vincolo di disgiunzione_(sottoclassi disgiunte): se ogni _coppia di sottoclassi_ nel insieme è _disgiunta_, ovvero e priva di elementi comuni 
-- _vincolo di copertura_ (sottoclassi copertura): se l’[[Operazioni Insiemistiche|unione]] degli elementi delle sottoclassi _coincide_ con l’insieme degli elementi della _superclasse_
+- _vincolo di copertura_ (sottoclassi copertura): se l’[[Insiemi Matematici|unione]] degli elementi delle sottoclassi _coincide_ con l’insieme degli elementi della _superclasse_
 
 I _due vincoli_ sono _indipendenti_ fra loro;
-se sono entrambi soddisfatti, l’ _insieme di sottoclassi_ costituisce una _[[Partizione|partizione]]_ della _superclasse_.
+se sono entrambi soddisfatti, l’ _insieme di sottoclassi_ costituisce una _[[Partizione di un insieme|partizione]]_ della _superclasse_.
 
 Una _sottoclasse_ puo essere definita anche a partire da un’altra sottoclasse, modellando cosi _gerarchie a più livelli_. 
 

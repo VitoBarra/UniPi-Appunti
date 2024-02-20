@@ -30,7 +30,7 @@ La _Teoria della Normalizzazione_ assume l esistenza di uno  _schema di relazion
 Questo permette di evitare di fare _ridenominazioni_ durante le operazioni di normalizzazione e permette di usare sempre il [[Modello relazionale - Algebra Relazionale|Join Naturale]]   
 
 ###### Schema di relazione universale (Definizione)
- uno _Schema di relazione universale_ $U$ di un _database Relazionale_ ha come attributi l [[Operazioni Insiemistiche|unione]] degli attributi di tutte le [[Relazioni tra insiemi|relazioni]] del _database_
+ uno _Schema di relazione universale_ $U$ di un _database Relazionale_ ha come attributi l [[Insiemi Matematici|unione]] degli attributi di tutte le [[Relazioni tra insiemi|relazioni]] del _database_
  
 ##### Anomalie
 Le anomalie per un database sono definite come

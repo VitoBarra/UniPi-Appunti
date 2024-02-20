@@ -30,5 +30,5 @@ la conseguenza logica si utilizza per formalizzazione di [[AI - Sistemi di deduz
 
 ### Teorema di refutazione 
 $$KB \models \alpha \iff (KB \land \lnot \alpha) \text{ è insodisfacibbile}$$  
- questo ci dice quindi che la conseguenza logica si puo riportare ad un problema [[Problema della Sodisfacibilita (SAT)|SAT]]
+ questo ci dice quindi che la conseguenza logica si puo riportare ad un problema [[Problema della Soddisfacibilita (SAT)|SAT]]
  

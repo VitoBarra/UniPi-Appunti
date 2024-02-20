@@ -1,11 +1,11 @@
 ---
-type: nota
+Type: MOC
 tags:
+  - MOC
   - AESO
 Parent MOC: "[[Triennale informatica MOC]]"
-course: Architettura E Sistemi Operativi
-topic:
 ---
+# Architetture e sistemi operativi (AESO)
 
 ## Course MOC  📒
 1. Conoscenze generali

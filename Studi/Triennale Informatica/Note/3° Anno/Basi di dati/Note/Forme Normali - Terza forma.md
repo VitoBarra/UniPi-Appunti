@@ -52,7 +52,7 @@ il problema di decidere se uno _schema di relazione_ è in _3NF_ è [[Classi di 
 #### Normalizzazione in forma 3NF
 Un algoritmo per trasformare uno schema $R$ in uno schema in _forma normale 3NF_ si basa sulla seguente idea
 
-dato un insieme di attributi $T$ è un [[Schema relazionali - Copertura di insieme di dipendenze#Copertura canonica|copertura canonica]] $G$ si [[partizione|partizione]] $G$ in gruppi $G_i$ tali che tutte le dipendenza in $G_i$ hanno la stessa parte sinistra per
+dato un insieme di attributi $T$ è un [[Schema relazionali - Copertura di insieme di dipendenze#Copertura canonica|copertura canonica]] $G$ si [[Partizione di un insieme|Partizione di un insieme]] $G$ in gruppi $G_i$ tali che tutte le dipendenza in $G_i$ hanno la stessa parte sinistra per
 ogni $G_i$ da origine ad una relazione composta da tutti gli attributi che appaiono, e come [[Modello Relazionale - Chiavi|chiave]] (detta chiave _sintetizzata_ ) si sceglie la parte _sinistra comune_
 
 

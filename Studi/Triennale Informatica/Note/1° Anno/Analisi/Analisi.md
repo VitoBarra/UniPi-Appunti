@@ -1,8 +1,7 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Analisi
 
@@ -25,43 +24,50 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	5. [[Tringonometria]]
 		1. [[Esprimere gli angoli]]
 		2. [[Formule Trigronometriche]]
-6. [[Limiti di una funzione]]
+6. [[sistema di equazioni]]
+7. [[Limiti di una funzione]]
 	1. [[Limiti notevoli]]
 	2. [[Delopithal]]
 	3. [[Sviluppi di Taylor]]
-7. [[Derivate]]
+8. [[Derivate]]
 	1. [[Funzioni differenziabili]]
 	2. [[Derivate fondamentali]]
 		1. [[Differenziazione Implicita]]
-8. Teoremi fondamentali
+9. Teoremi fondamentali
 	1. [[Teorema della permanenza del segno]]
 	2. [[Teorema del confronto dei carabinieri]]
 	3. [[Teorema di approssimazione di Weierstrass]]
 	4. [[Teorema di Weierstrass]]
 	5. [[Teorema di Lagrange]]
 	6. [[Teorema di Rolle]]
-9. [[Valore assoluto]]
-10. [[Diseguaglianza triangolare]]
-11. [[Serie geometrica]]
-12. [[Funzioni Convesse-Concave]]
-13. [[Integrali]]
+10. [[Valore assoluto]]
+11. [[Diseguaglianza triangolare]]
+12. [[Serie geometrica]]
+13. [[Funzioni Convesse-Concave]]
+14. [[Integrali]]
 	1.  [[Teorema di Fubini-Tonelli]]
 	2. Metodi risolutivi
 		1. [[Integrali notevoli]]
 		2. [[integrazione per sostituzione]]
 		3. [[Integrazione per parti]]
-14. [[Integrali impropri]]
-15. [[Serie]]
+15. [[Integrali impropri]]
+16. [[Serie]]
 	1. [[Serie geometrica]]
-16. [[Successioni]]
-17. [[Espanzioni di funzioni in polinomi]]
-18. [[Funzione Gamma di Eulero]]
-19. funzioni multi Variate
+17. [[Successioni]]
+18. [[Espanzioni di funzioni in polinomi]]
+19. [[Funzione Gamma di Eulero]]
+20. funzioni multi Variate
 	1. [[Funzioni Multivariata - Gradiente]]
+21. [[Superfici]]
+	1. [[Topologia]]
+	2. [[Manifolds]]
 
 
-
-### Exstra
-1. [Compattezza di insieme](https://www.youtube.com/watch?v=td7Nz9ATyWY)
 ### Educational Material 🧱
 1. [[Librro Analisi Lorenzo Sassari.pdf]]
+
+
+#### Exstra
+1. [Compattezza di insieme](https://www.youtube.com/watch?v=td7Nz9ATyWY)
+2. [Corso topologia](https://www.youtube.com/watch?v=Ty3ZLl7cOI0&list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1&index=3)
+3. 

@@ -10,6 +10,7 @@ Parent MOC: "[[Triennale informatica MOC]]"
 1. [[Rappresentazione in base di numeri reali]]
 2. [[Insieme dei numeri di macchina]]
 3. [[Aritmetica di Macchina]]
+	1. [[Precisione di macchina]]
 4. [[Tipi di Errore nel calcolo numerico]]
 	1. [[Problemi Mal Condizionati]]
 	2. [[Errori nel calcolo di una funzione razionale]]
@@ -35,8 +36,8 @@ Parent MOC: "[[Triennale informatica MOC]]"
 	3. [[Convergenza locale per metodi interativi funzionali]]
 	4. [[Metodo delle tangenti o di Newton]]
 	5. [[Ordine di convergenza]]
-16. [[Interpolazione Lineare]]
-15. [[Interpolazione polinomiale]]
+15. [[Interpolazione Lineare]]
+16. [[Interpolazione polinomiale]]
 
 
 

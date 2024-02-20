@@ -1,8 +1,7 @@
 ---
-type: MOC
+Parent MOC: "[[Base MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Base MOC]]"
 ---
 # Studi
 

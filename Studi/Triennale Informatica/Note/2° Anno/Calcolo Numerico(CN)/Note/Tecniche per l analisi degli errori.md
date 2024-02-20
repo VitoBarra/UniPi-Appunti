@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
-tags: CN
+Course: "[[Calcolo Numerico(CN)]]"
+tags:
+  - CN
+topic:
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
 
 # Tecniche per l analisi degli errori
 ---
@@ -25,7 +23,6 @@ $$c_{x_i}(f)=\frac{1}{f(x)}\frac{\partial f}{\partial x_i}(x)x_i, \ \ \ \ 1 \leq
 detti coefficiente di amplificazione della funzione $f$ rispetto alla $x_i$
 
 ## Analisi per l errore Algoritmico
-
 l analisi del [[Tipi di Errore nel calcolo numerico|errore algoritmico]] può basarsi sui risultato ottenuto per l errore inerente. si distinguono 
 1. tecniche di analisi in avanti
 2. tecniche di analisi al indietro

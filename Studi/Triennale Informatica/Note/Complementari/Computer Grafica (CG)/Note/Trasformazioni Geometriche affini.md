@@ -10,48 +10,24 @@ tags:
 
 # Trasformazioni Geometriche affini
 ---
-#### Elementi geometrici
-gli elementi del _dominio_ della [[Computer Grafica (CG)|computer grafica]] sono
-- _scalari_: sono _monodimensionali_ e rappresentano la _magnituto_ di qualcosa (temperatura, velocita)
--  _punti_: rasentano _posizioni_ nello spazio 
-- _vettori_: rappresentano una _direzione_,
-	- I _vettori_ si usano anche per descrivere gli spostamenti  che hanno associato una _direzione_ e una _magnitudo_, che rappresentano rispettivamente la linea su cui avviene lo spostamento e il “_di quanto_” avviene lo spostamento.
-
-_punti_ e _vettori_ sono multi dimensionali ma la _dimensione_ dipende dalla dimensione in cui stiamo lavorando.
-
-##### Operazioni
-Sugli _elementi geometrici_ si  possono eseguire le seguenti operazioni
-_somma punto-vettore_: restituisce una nuovo _punto_ che rappresenta la nuova posizione dopo lo spostamento partendo dal punto iniziale. e quindi si ha $$\boldsymbol{p}=\boldsymbol{p_{1}}+\boldsymbol{\mathit{v}} $$
-_somma vettore-vettore_: restituisce un vettore e rappresenta due spostamenti consecutivi. e quindi $$\boldsymbol{\mathit{v}}=\boldsymbol{\mathit{v}_{1}}+\boldsymbol{\mathit{v}_{2}}$$
-_sotrazione punto-punto_:  restituisce un vettore e rappresenta lo spostamento necessari da punto $\boldsymbol{p_1}$ per raggiungere il punto $\boldsymbol{p_2}$. la _magnitudo_ di questo vettore e quindi $$\boldsymbol{\mathit{v}}=\boldsymbol{p_{1}}- \boldsymbol{p_{2}}$$
-_moltipliczione scalare-vettore_ restituisce un _vettore_ partendo dal vettore $v_{1}$ ne coserva la _direzione_ ma ne cambia la _magnitudo_ moltiplicandola per un fattore. quindi $$\boldsymbol{\mathit{v}}=a\boldsymbol{\mathit{v}}_{1}$$
-$$\begin{array}{}
-\boldsymbol{p}_{0} +v_{0}=\boldsymbol{p}_{1} \\
-\boldsymbol{p}_{1}-\boldsymbol{p}_{0}=v_{0} \\
-v_{0}+v_{1}=v_{1}+v_{0}=v_{2} \\ \boldsymbol{p}_{0}+2v_{2}=\boldsymbol{p}_{4}
-
-\end{array}$$
-![[IMG_0728.jpeg]]
-
-
-
 
 #### Trasformazione geometriche
 le _trasformazioni geometriche_ sono [[Funzioni|funzioni]] che mappano _punti in punti_ e _vettori in vettori_ e quando si parla _trasformare_ un _oggetto_ si intende su tutti i punti e i vettori del _oggetto_ 
 
-le operazioni qui elencate sono sul singolo vertice solitamente vengono complessivamente sul oggetto. 
+le operazioni qui elencate sono fatte sul singolo vertice ma l effetto complessivo di applicare la trasformazione a tutti i vertici del oggetto e quello di aver applicato la trasformazione al oggetto stesso
+
 ##### Traslazioni
 la _traslazione_ è una [[Trasformazioni affini|trasformazione affina]] ed è l  _operazione_ di spostare nello spazio un _vertice_.
 solitamente vengono definite come $$T_{v}(\boldsymbol{p})=\boldsymbol{p}+\mathit{
 \boldsymbol{v}}$$
 ##### Scaling
-per _Scaling_ è una [[Trasformazioni affini|trasformazione affine]] ed è ed è l _operazine_ di cambiare la dimensione complessiva del oggetto mantenendone le proporzioni questo è fatto con $$S_{(s_x,s_y)}(\boldsymbol{p}) = \begin{bmatrix}
+per _Scaling_ è una [[Trasformazioni affini|trasformazione affine]] ed è ed è l _operazione_ di cambiare la dimensione complessiva del oggetto mantenendone le proporzioni questo è fatto con $$S_{(s_x,s_y)}(\boldsymbol{p}) = \begin{bmatrix}
 s_x p_{x} \\
 s_y p_{y}
 \end{bmatrix}$$
 questa operazione puo essere
 - _uniforme_ se $s_x=s_y$ (_isotropic_)
--  _non uniforme_ se $s_{x} \neq s_{y}$ (_antisotropic_)
+- _non uniforme_ se $s_{x} \neq s_{y}$ (_antisotropic_)
 con una trasformazione _uniforme_ si _mantengono_ le proporzioni mentre un uno _non uniforme_ no 
 ![[IMG_0729.jpeg]]
 ##### Rotazioni
@@ -95,10 +71,11 @@ h & 1  \\
 
 >[!tip]
 > lo sharing puo essere ottenuto anche da uno _scaling non uniforme_ e da una _rotazione_ 
+
 #### Notazione matrice
 un situazione molto comune e quando si vogliono applicare consecutivamente _rotazioni_, _traslazioni_ e _scaling_, ciò diventa _praticamente_ ingestibile e per risolvere questo problema si utilizzano le [[Matrice|matrici]].
 
-siccome le operazioni di _scaling_ e _rotazioni_ sono  _[[Combinazioni Lineari|combinazioni lineari]]_  delle componenti del _punto_$$\begin{array}{}
+siccome le operazioni di _scaling_ e _rotazioni_ sono _[[Combinazioni Lineari|combinazioni lineari]]_ delle componenti del _punto_$$\begin{array}{}
 p_{x}’  & =a_{xx}p_{x}+a_{xy}p_{x}\\
 p_{y}’ & =a_{yx}p_{y}+a_{yy}p_{y}
 \end{array}$$possiamo riscrivere le operazioni in modo piu compatto usando una matrice  della forma $$\boldsymbol{p}’ = \begin{bmatrix}
@@ -121,8 +98,9 @@ p_{x}\\p_{y}
 \end{bmatrix}$$ed è un [[Applicazioni Lineari|applicazione lineare]]
 
  non essendo una _[[Combinazioni Lineari|combinazione lineare]]_ la  _traslazione_ non puo essere espressa nello stesso modo.
+ 
 #### Matrici Roto-traslazioni
-usando le _[[Coordinate omogenee|coordinate omogeene]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrice|matrice]] detta _matrice di [[Trasformazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
+usando le _[[Coordinate omogenee|coordinate omogenee]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrice|matrice]] detta _matrice di [[Trasformazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
 a_{xx} & a_{xy} & v_{x} \\
 a_{yx}  & a_{yy}& v_{y}  \\
 0 & 0 & 1  

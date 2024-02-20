@@ -23,13 +23,13 @@ Una _relazione_ è un _[[Insiemi Matematici|insieme]] di ennuple_ con lo stesso 
 nel _modello relazionale_ esiste il concetto di [[Modello Relazionale - Chiavi|chiave]]
 ![[IMG_1046.jpeg]]
 
-Il vantaggio del _Modello relazionale_ oltre alla sua _intuitivita_ sono le [[Operazioni Insiemistiche|operazioni insiemistiche]] che restituiscono sempre altre [[Relazioni tra insiemi|relazioni]],  
+Il vantaggio del _Modello relazionale_ oltre alla sua _intuitività_ sono le [[Insiemi Matematici|operazioni insiemistiche]] che restituiscono sempre altre [[Relazioni tra insiemi|relazioni]],  
 c è anche un _operazione_ che consente di creare una _nuova relazione come giunzione_ di due relazioni
 
 ##### Confronto con modello ad oggetti
-Questo modello si differenzia dal [[Modello dati - Modello ad oggetti|modello ad oggetti]], in particolare, per l'_assenza di metodi_, di _gerarchie di inclusione e di ereditarietà_, per il fatto che gli attributi di un'ennupla _devono avere un tipo primitivo_ e poichè non esiste un concetto simile all'_identità_ del modello ad oggetti due ennuple con gli stessi valori degli _attributi coincidono_ rappresentano la stessa entità.
+Questo modello si differenzia dal [[Modello dati - Modello ad oggetti|modello ad oggetti]], in particolare, per l'_assenza di metodi_, di _gerarchie di inclusione e di ereditarietà_, per il fatto che gli attributi di un'ennupla _devono avere un tipo primitivo_ e poiché non esiste un concetto simile all'_identità_ del modello ad oggetti due ennuple con gli stessi valori degli _attributi coincidono_ rappresentano la stessa entità.
  
- Il _Modello relazionale_ ha una semantica _insiemistica estremamente semplice_, rendendolo più facile da comprendere ed è particolarmente adatto a un _trattamento formale_, che ha consentito lo sviluppo di una teoria della progettazione di basi di dati come i processi di [[Normalizzazione di schemi relazionali|normalizazione]] 
+ Il _Modello relazionale_ ha una semantica _insiemistica estremamente semplice_, rendendolo più facile da comprendere ed è particolarmente adatto a un _trattamento formale_, che ha consentito lo sviluppo di una teoria della progettazione di basi di dati come i processi di [[Normalizzazione di schemi relazionali|normalizzazione]] 
 
 
 

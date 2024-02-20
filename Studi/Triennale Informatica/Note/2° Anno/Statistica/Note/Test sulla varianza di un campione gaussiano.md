@@ -1,14 +1,12 @@
 ---
-type: nota
-course: Statistica
-topic: 
+Course: "[[Statistica (STAT)]]"
 tags:
   - STAT
-Parent MOC: "[[Statistica (STAT)]]"
+topic:
 ---
 # Test sulla varianza di un campione gaussiano
 ---
-Come per gli intervalli di fiducia, ci occupiamo solo del caso unilatero,
+[[Test Statistici|Test statistico]] sulla varianza di un campione gaussiano. Come per gli intervalli di fiducia, ci occupiamo solo del caso unilatero,
 $$
 \left.\left.\mathscr{H}_0\right) \sigma^2 \leq \sigma_0^2 \quad \text { contro } \quad \mathscr{H}_1\right) \sigma^2>\sigma_0^2,
 $$
@@ -26,7 +24,7 @@ $$
 e questo ci porta a scegliere $\frac{d}{\sigma_0^2}=\chi_{1-\alpha, n-1}^2$. Si ottiene quindi la regione critica di livello $\alpha$
 $$
 C=\left\{\frac{\sum_{i=1}^n\left(X_i-\bar{X}\right)^2}{\sigma_0^2}>\chi_{1-\alpha, n-1}^2\right\}
-$$p-value: Il $p$-value dei dati $\left(x_1, \ldots x_n\right)$ è
+$$$p$-value: Il $p$-value dei dati $\left(x_1, \ldots x_n\right)$ è
 $$
 \mathbb{P}_{\sigma_0}\left\{\frac{\sum_{i=1}^n\left(X_i-\bar{X}\right)^2}{\sigma_0^2}>\frac{\sum_{i=1}^n\left(x_i-\bar{x}\right)^2}{\sigma_0^2}\right\}=1-G_{n-1}\left(\frac{\sum_{i=1}^n\left(x_i-\bar{x}\right)^2}{\sigma_0^2}\right),
 $$

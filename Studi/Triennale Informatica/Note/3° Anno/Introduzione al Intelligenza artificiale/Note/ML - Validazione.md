@@ -55,7 +55,7 @@ _regola per una corretta validazione_: mantenne una chiara separazione tra obiet
 
 
 ### K-fold Cross validation
-- Si [[Partizione|partizionano]] i dati in  $k$ set $D_i$ con $i = 1,\dots,k$ 
+- Si [[Partizione di un insieme|partizionano]] i dati in  $k$ set $D_i$ con $i = 1,\dots,k$ 
 - Si da l aprendimento su Tutti gli insimi $D$ tranne che sun un certo $D_i$ e si fa la _validazione_ su $D_i$
 - si fa la media di tutti i testi su $D_i$
 - si possono poi usare tutti i dati per il training del modello scelto precedentemente 

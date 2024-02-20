@@ -224,10 +224,12 @@ Dal __clip space__ per passare al __CVV__ bisogna normalizzare i punti al suo in
 ![[Immagine 2024-02-10 140419.png]]
 
 #### View Port
-A questo punto avremmo il __View Plane__ (o View windows) mappato sul faccia $(-1,-1,-1),(1,-1,1),(1,1,-1),(-1,1,-1)$  del __CVV__ e bisogna trasformare questa faccia nella __view Port__
-
 la __view Port__ e' una porzione di un rettangolo piu grande chiamato __application window__ che e' dove e permesso al applicazione di disegnare i suoi elementi.
 ![[Pasted image 20240131002825.png]]
+Questa ha Coordinate Discrete siccome disegna utilizzando i pixel dello schermo.
+
+la __View Port__ viene riempito con ciò che e' presente nel __View Plane__ (o View windows) dopo la proiezione
+il __View Plane__ e' mappato sul faccia $(-1,-1,-1),(1,-1,1),(1,1,-1),(-1,1,-1)$  del __CVV__ e bisogna trasformare questa faccia nella __view Port__. Per fare cio si utilizza il seguente algoritmo
 sia
 - $(v_x,v_y)^T$ l angolo in basso a sinistra della __view port__ 
 - $(v_X,v_Y)^T$ l angolo in alto a destra della __view port__

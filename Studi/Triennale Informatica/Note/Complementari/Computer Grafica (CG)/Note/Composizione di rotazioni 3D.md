@@ -65,7 +65,7 @@ $$ e _applicando le seguenti_ [[Formule Trigronometriche|formule trigonometriche
 2\sin ^{2} \frac{\alpha}{2}=(1-\cos \alpha) \\
 2\cos \frac{\alpha}{2}\sin  \frac{\alpha}{2}=\sin \alpha
 \end{array}$$
-ottieniamo la tesi.
+otteniamo la tesi.
 
 
 con i [[Quaternioni|quaternioni]] possiamo concatenare piu rotazioni siccome moltiplicare piu _quaternioni unitario_ che (rappresentano una rotazione) restituisce un _quaternione unitario_ che corrisponde alla rotazione voluta.

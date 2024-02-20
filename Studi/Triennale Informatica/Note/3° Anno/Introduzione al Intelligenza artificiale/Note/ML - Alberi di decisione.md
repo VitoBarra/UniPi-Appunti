@@ -55,7 +55,7 @@ con questa definizione più il numero dei casi positivi e negativi si equivalgon
 ![[2589D1C6-6FAC-48B8-B665-411E979FCDBD.jpeg]]
 
 #### Information gain 
-l _information gain_ è la riduzione attesa del entropia data dalla [[Partizione]] degli esempi su un attributo $A$.
+l _information gain_ è la riduzione attesa del entropia data dalla [[Partizione di un insieme]] degli esempi su un attributo $A$.
 $$Gain(S,A) = Entropy(S)-\sum_{v \in Values (A)}\frac{|Sv|}{|S|}Entropy(Sv)$$
 dove  
 - $Values(A)$ sono i possibili valori per l attributo $A$

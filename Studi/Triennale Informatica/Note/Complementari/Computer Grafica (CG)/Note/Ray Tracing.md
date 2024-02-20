@@ -10,7 +10,7 @@ tags:
 
 # Ray Tracing
 ---
-il _[[Algoritmi di renderizazione|Ray Tracing]]_ è uno dei paradigmi di _renderizzazione_.
+il _[[Algoritmi di renderizzazione|Ray Tracing]]_ è uno dei paradigmi di _renderizzazione_.
 Osservando il funzionamento fisico della luce avremmo che i _fotoni_ che arrivano dallo spazio rimbalzano sugli oggetti e l osservatore vede quei fotoni quando e se questi raggiungono il suo occhio. 
 Il _Ray Tracing_ si basa esattamente sulla simulazioni di questo fenomeno, ma invece di calcolare tutti i fotoni si calcolano solo quelli che raggiungono l _osservatore_, questo si fa per ottimizzare e evitare di calcolare fotoni che l _osservatore_ non puo vedere.
 per fare ciò si _spara_ un raggio direttamente da un punto del osservazione, ovvero da un pixel, e si calcola la traiettoria del raggio, se questo colpisce una fonte di luce allora si _renderizza_ il pixel.
@@ -45,7 +45,8 @@ _siano_
 - $n_{r}\geq n_{p}$ _raggi_
 - $k$ il numero di _rinbalsi_
 - $m$ il numero di _primitive_.
-   _allora_ il vostro del algoritmo sarà $$cost(rayTracyng)= n_{p}k\sum^{m}_{i=0}Int(o_{i})$$dove $Int(o_{i})$ è il costo del _test_ di intersezione del _raggio_ con l _oggetto_ $o_{i}$. ci sono delle [[Strutture Dati|strutture dati]] che  fanno scendere il costo di $\sum^{m}_{i=0}Int(o_{i})$ ad una [[Complessita|complessita]] $O(\log (m))$ ma queste non sono adatte ad una scena dinamica siccome in quel caso si deve aggiungere il costo del _update_ della _struttura dati_.
+- $Int(o_{i})$  il costo del _test_ di intersezione del _raggio_ con l _oggetto_ $o_{i}$
+   _allora_ il costo del algoritmo sarà $$cost(rayTracyng)= n_{p}k\sum^{m}_{i=0}Int(o_{i})$$Ci sono delle [[Strutture Dati|strutture dati]] che  fanno scendere il costo di $\sum^{m}_{i=0}Int(o_{i})$ ad una [[Complessita|complessita]] $O(\log (m))$ ma queste non sono adatte ad una scena dinamica siccome in quel caso si deve aggiungere il costo del _update_ della _struttura dati_.
 
 Le _primitive_ possono essere qualsiasi geometrica con cui si puo fare il test di intersezione.
 ![[IMG_0781.jpeg]]

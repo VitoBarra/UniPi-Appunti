@@ -313,9 +313,9 @@ con il _NOT EXISTS_ può capitare di usare una _variabile esterna_ nella __subqu
 Si può passare ad una forma con il _NOT IN_ per portare la variabile esterna fuori dalla subquery e quindi _decorrelare_, in questo modo la subquery viene eseguita una svolta volta
 
 
-#### Unione, intersezione e diffenreza
+#### Unione, intersezione e differeza
 
-Nei database avvolte è utile utilizzare [[Operazioni Insiemistiche|operazioni insiemistiche]]
+Nei database avvolte è utile utilizzare [[Insiemi Matematici|operazioni insiemistiche]]
 
 Queste operano su due tabelle _omogenee_ ovvero dello stesso tipo ovvero hanno lo stesso dominio (magari con nomi diversi)
 
@@ -323,7 +323,7 @@ e operazioni sono
 - $UNION$: prende due tabelle e restituisce una tabella con tutte le righe della prima e tutte le righe della seconda
 - $INTERSECT$:  prende due tabelle r restituisce tutte le righe comuni ad entrambi le tabelle
 - $EXCEPT$ (o $MINUS$): prende due tabelle e restituisce tutte le righe che sono nella prima ma che non sono nella seconda
-ed essendo [[Operazioni Insiemistiche|operazioni insiemistiche]] di default vengono ignorati i  duplicati almeno di specificare con $ALL$ che questi si vogliono
+ed essendo [[Insiemi Matematici|operazioni insiemistiche]] di default vengono ignorati i  duplicati almeno di specificare con $ALL$ che questi si vogliono
 
 
 I nomi della tabella risultante dipendono dal [[Database Managment System (DBMS)|DBMS]] solitamente si usano i nomi della primo operando.

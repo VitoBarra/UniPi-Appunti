@@ -1,13 +1,13 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
-tags: FDI
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
+tags:
+  - FDI
 ---
-
-Prev: [[Fondamenti Del Informatica (FDI)]]
 
 # Calcolo proposizionale (PROP)
----
 Algoritmi per la semplificazione delle espressioni  della [[Logica proposizionale|logica]]
 

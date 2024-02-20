@@ -35,7 +35,7 @@ $$
 
 # Flussi e tagli
 
-un taglio è una [[Partizione|partizione]] di $N$ in due sottoinsiemi $(N_s,N_t)$
+un taglio è una [[Partizione di un insieme|partizione]] di $N$ in due sottoinsiemi $(N_s,N_t)$
 
 Un taglio ammissibile è un taglio $(N_s,N_t)$ tale che $s \in N_s$ e $t \in N_t$
 

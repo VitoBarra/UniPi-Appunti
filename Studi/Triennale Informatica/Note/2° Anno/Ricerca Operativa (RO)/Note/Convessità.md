@@ -1,24 +1,24 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO
+course: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic:
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Convessità
 ---
 
 ### Combinazione convessa
 
-Siano dei vettori $x_1,\dots,x_m \in \mathbb{R}^n$ un vettore $x \in \mathbb{R}^n$ è detto combinazione convessa se esistono coefficienti $\lambda_1,\dots,\lambda_m \in [0,1]$ con $\sum_{i=1}^m\lambda_i=1$, tale che
-
-$$
+Siano $\boldsymbol{x}_1,\dots,\boldsymbol{x}_m \in \mathbb{R}^n$ dei [[Vettori|vettori]]  
+se esistono coefficienti $\lambda_1,\dots,\lambda_m \in [0,1]$ con $\sum_{i=1}^m\lambda_i=1$, tale che$$
 x =\sum_{i=1}^m \lambda_ix_i
-$$
+$$Allora un vettore $\boldsymbol{x} \in \mathbb{R}^n$ è detto combinazione convessa 
 
-la combinazione convessa è proprio se $\lambda_1,\dots,\lambda_m \in (0,1)$ impropria altrimenti
+la combinazione convessa è detta
+- proprio se $\lambda_1,\dots,\lambda_m \in (0,1)$
+- impropria  se $\lambda_1,\dots,\lambda_m \not\in (0,1)$
 
 ---
 

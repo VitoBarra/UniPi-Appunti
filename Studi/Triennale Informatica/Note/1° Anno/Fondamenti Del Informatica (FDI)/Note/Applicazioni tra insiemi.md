@@ -1,22 +1,22 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - FDI
-Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
 
 # Applicazioni tra insiemi
 ---
-Una _applicazioni_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una  [[Relazioni tra insiemi|Relazione]] su [[Insiemi Matematici|insiemi]]
+Una _applicazioni_ è definita come $$f \subseteq A \times B$$ quindi un sottoinsieme di una [[Relazioni tra insiemi|Relazione]] su [[Insiemi Matematici|insiemi]]
 
 
 una natazione alternativa è quella del _mapping_ indicata come
 $$f:A \rightarrow B$$
 
 #### Proprietà delle applicazioni
-
 
 ##### Totali
 ad ogni elemento del dominio è associato almeno un elemento del _codominio_ 
@@ -34,4 +34,5 @@ Questa proprieta rende l applicazione, che è anche una [[Funzioni|funzione]] un
 
 
 #### Relazione tra Cardinalita e proprieta
+per controllare decidere le prosperità soddisfatte si puo usare un criterio basato sulla [[Cardinalità di un insieme|Cardinalita]]
 ![[Pasted image 20230515182103.png]]

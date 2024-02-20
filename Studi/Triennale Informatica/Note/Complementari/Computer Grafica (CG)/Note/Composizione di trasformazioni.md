@@ -35,6 +35,6 @@ S_{(s_{x},s_{y})}  & (I-S_{(s_{x},s_{y})})\boldsymbol{c} \\
 \end{bmatrix}$$
 
 #### Commutatività
-le matrici di _traslazione_ sono tra loro commutative e lo sono anche tra loro le matrici di _rotazione_ e _scaling_, questa cosa non vale in generale 
+le matrici di _traslazione_ sono tra loro commutative e lo sono anche tra loro le matrici di _rotazione_ e _scaling_, questa cosa pero non vale in generale ad esempio NON sono commutative le matrici di rotazione e traslazione
 ![[IMG_0751.jpeg]]
 

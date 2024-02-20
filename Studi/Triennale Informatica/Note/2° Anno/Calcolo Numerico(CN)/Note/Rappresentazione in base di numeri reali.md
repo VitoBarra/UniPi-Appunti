@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Course: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
-Parent MOC: "[[Calcolo Numerico(CN)]]"
+topic:
 ---
 
 # Rappresentazione in base di numeri reali

@@ -84,7 +84,7 @@ _sia_
 - $W = (T_1 \cap T_2)^+$
 - $Y_1=T_1-W$
 - $Y_2=T_2 - W$
-abbiamo che $Y_1,Y_2$ sono non vuoti per _ipotesi_ e $Y_1,Y_2,W$ sono una [[partizione|Partizione]] di $T$ 
+abbiamo che $Y_1,Y_2$ sono non vuoti per _ipotesi_ e $Y_1,Y_2,W$ sono una [[Partizione di un insieme|Partizione]] di $T$ 
 
 per ogni $A_i\in T,1\leq i\leq k$ consideriamo due valori $a_i,a_i'\in dom(A_i)$ con $a_i\not=a_i'$
 _costruiamo_ le relazione $r$ con attributi $WY_1Y_2$ formate dalle due ennuple

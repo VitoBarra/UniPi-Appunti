@@ -1,11 +1,13 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Course: "[[Fondamenti Del Informatica (FDI)]]"
+Subject: 
+Area: 
+Topic: 
+SubTopic: 
 tags:
   - FDI
-Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
+
 # Combinatoria
 ---
 #### Permutazioni

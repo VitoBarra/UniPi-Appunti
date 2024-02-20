@@ -1,18 +1,16 @@
 ---
-type: MOC
+parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - FDI
-Pare: "[[Triennale informatica MOC]]"
 ---
 # Fondamenti Del Informatica (FDI)
 
 
 ## Course MOC  📒
 1. [[Insiemi Matematici]]
-	1. [[Operazioni Insiemistiche]]
 	2. [[Cardinalità di un insieme]]
-	3. [[Partizione]]
+	3. [[Partizione di un insieme]]
 	4. [[Relazioni tra insiemi]]
 		1. [[Applicazioni tra insiemi]]
 		2. [[Funzioni]]
@@ -30,12 +28,12 @@ Pare: "[[Triennale informatica MOC]]"
 9. [[Logica proposizionale]]
 	1. [[Operazioni logiche]]
 	2. [[Calcolo proposizionale (PROP)]]
-	3. [[Problema della Sodisfacibilita (SAT)]]
+	3. [[Problema della Soddisfacibilita (SAT)]]
 	4. [[Forma normale congiuntiva (CNF)]]
 	5. [[Forma normale disgiuntiva (DNF)]]
 10. [[Logica del primo ordine (FOL)]]
 
 ### Educational Material 🧱
-1. [[Fondamenti Del Informatica (FDI)]]
+1. [[Fondameti di informatica - LibroCompleto.pdf]]
 
 

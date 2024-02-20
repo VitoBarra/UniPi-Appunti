@@ -1,6 +1,5 @@
 ---
 Parent MOC: "[[Triennale informatica MOC]]"
-type: MOC
 tags:
   - MOC
   - CG
@@ -17,19 +16,24 @@ tags:
 	3. [[Color Space Relativi]]
 	4. [[Rappresentazione di colori - illuminanti]]
 5. [[Rappresentazione delle immagini]]
-6. [[Algoritmi di renderizazione]]
+6. [[Algoritmi di renderizzazione]]
 	1. [[Ray Tracing]]
 	2. [[Pipeline di Rasterizazione]]
 	3. [[Rasterizazione VS Ray Tracing]]
-7. [[Trasformazioni Geometriche affini]]
+7. [[Computer grafica - Primitive geometriche]]
+8. [[Trasformazioni Geometriche affini]]
 	1. [[Coordinate omogenee]]
 	2. [[Trasformazioni affini]]
 	3. [[Composizione di trasformazioni]]
-8. [[Frames]]
-9. [[Rotazioni in 3D]]
+9. [[Frames]]
+10. [[Rotazioni in 3D]]
 	1. [[Composizione di rotazioni 3D]]
 	2. [[Interpolazione di Rotazioni]]
-10. [[Proiettare una scena sullo schermo]]
+11. Pipeline di renderizzazione
+	1. [[Proiettare una scena sullo schermo]]
+	2. [[Trasformare da Vertici a Frammenti (Rasterizazione)]]
+	3. [[Trasformazione Frammenti in Pixel]]
+12. [[Rappresentazione dei modelli 3D]]
 
 
 
