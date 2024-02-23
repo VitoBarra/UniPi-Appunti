@@ -1,11 +1,11 @@
 ---
-Subject: "[[Intelligenza Artificiale]]"
-Area: "[[Machine Learning (ML)]]"
-Topic: "[[Reti neurali MOC|Reti neurali]]"
-SubTopic: 
 tags:
   - IA
   - ML
+Subject: "[[Intelligenza Artificiale]]"
+Area: "[[Machine Learning (ML)]]"
+topic: "[[Reti neurali MOC|Reti neurali]]"
+SubTopic:
 ---
 
 # Funzione di attivazione - TanH

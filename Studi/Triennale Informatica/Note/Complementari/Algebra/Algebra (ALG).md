@@ -2,6 +2,7 @@
 Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
+  - ALG
 ---
 
 # Algebra
@@ -29,6 +30,8 @@ tags:
 	5. [[Massimo comun Divisore Tra Polinomi]]
 	6. [[Riducibilita di un polinomio]]
 	7. [[Teorema di Fattorizazione Unica polinomi]]
+	8. Polinomi particolari
+		1. [[Polinomio di Bernstein]]
 13. [[Operazioni algebriche]]
 	1. [[Operazioni chiuse]]
 	2. [[Proprietà del operazioni - Associativà]]
@@ -52,7 +55,7 @@ tags:
 	6. [[Algoritmo delle Quadrature successive o esponenziazione veloce]]
 	7. [[Teorema cinese del resto]]
 	8. [[Residui quadratici in modulo]]
-	9. [[Numeri complessi]]
+	9. [[Insieme dei Numeri complessi]]
 		1. [[Numeri primi gaussiani]]
 
 ### Educational Material 🧱

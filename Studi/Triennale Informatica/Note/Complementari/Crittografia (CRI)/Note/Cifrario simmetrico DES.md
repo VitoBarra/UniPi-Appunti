@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Crittografia
-topic: 
+Subject: Crittografia
+topic: nota
 tags: CRI
 ---
 
@@ -18,7 +17,7 @@ il DES ha la seguente struttura.
 - il messaggi $m$ è suddiviso in blocchi tutti lunghi $64$ bit
 - la cifratura e la decifratura avviene attraverso $r$ fasi consecutive dette _rounds_.
 	-  nel implementazione classica $r=16$
-- la chiave $k$  e composta da $b$ _byte_ di cui per ogni byte 7 sono scelti arbitrariamente e l ottavo è un [[Algoritmo di partia per il controllo degli errori|bit di parità]]
+- la chiave $k$  e composta da $b$ _byte_ di cui per ogni byte 7 sono scelti arbitrariamente e l ottavo è un [[Algoritmo di parita per il controllo degli errori|bit di parità]]
 - Dalla chiave vengono create $r$ sottochiavi $k[0],k[1],\dots,k[r-1]$
 - Indicando con $i$ il _round_ corrente e con  $i+1$ la fase successiva con $i = 1, \dots,r$ nel cifrario un _round_ $i$ vengono eseguiti i passi 
 	1. per $i=1$  il messaggio viene diviso in due meta sinistra $S$ e destra $D$  

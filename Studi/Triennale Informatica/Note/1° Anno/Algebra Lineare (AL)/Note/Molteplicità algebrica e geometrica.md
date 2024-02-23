@@ -1,8 +1,7 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL #Imm2Text 
+Subject: Algebra Lineare
+topic: nota
+tags: AL
 ---
 
 Prev: [[Algebra Lineare (AL)]]

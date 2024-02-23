@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Intelligenza Artificiale
-topic: 
+Subject: Intelligenza Artificiale
+topic: nota
 tags: IA
 ---
 

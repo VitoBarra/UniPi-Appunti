@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: Calcolo Numerico
+topic: nota
 tags: CN
 ---
 
@@ -19,7 +18,7 @@ Prev: [[Calcolo Numerico(CN)]]
 		- ![[Pasted image 20230511180931.png]]
 	- assumiamo inoltre che l [[Autovettori e Autovalori|autovalore]] di modulo massimo sia unico
 		- $|\lambda_{1}| > |\lambda_{2}| \geq |\lambda_{3}|\geq  \dots \geq|\lambda_{n}|$
-		- il modulo è essenziale siccome potrei dover confrontare dei [[Numeri complessi|numeri complessi]] e numeri reali.
+		- il modulo è essenziale siccome potrei dover confrontare dei [[Insieme dei Numeri complessi|numeri complessi]] e numeri reali.
 	
 il metodo delle potenze cerca una sequenza di $k$ passi  
 $$\begin{cases}

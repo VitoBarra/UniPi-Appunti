@@ -1,9 +1,8 @@
 ---
-Type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - AESO
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Architetture e sistemi operativi (AESO)
 

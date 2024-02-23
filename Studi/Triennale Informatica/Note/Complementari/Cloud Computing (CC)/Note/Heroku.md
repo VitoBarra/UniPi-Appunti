@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Cloud Computing
-topic: 
+Subject: Cloud Computing
+topic: nota
 tags: CC
 ---
 

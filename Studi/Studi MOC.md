@@ -1,5 +1,5 @@
 ---
-Parent MOC: "[[Base MOC]]"
+Parent MOC: "[[Root MOC]]"
 tags:
   - MOC
 ---

@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
-tags: CN
+Subject: "[[Calcolo Numerico(CN)]]"
+tags:
+  - CN
+topic: nota
 ---
 
-Prev: [[Calcolo Numerico(CN)]]
 
 # Norme Matriciali e Norme Vettoriali
 ---

@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Algebra
-topic: 
+Subject: Algebra
+topic: nota
 tags: ALG
 ---
 

@@ -1,5 +1,5 @@
 ---
-Course: "[[Ricerca Operativa (RO)]]"
+Subject: "[[Ricerca Operativa (RO)]]"
 tags:
   - RO
 topic:
@@ -10,7 +10,7 @@ topic:
 
 ### Combinazione conica
 
-Siano dei vettori $x_1,\dots,x_m \in \mathbb{R}^n$ un [[vettore|vettori]] $x \in \mathbb{R}^n$ è detto combinazione conica se esistono coefficienti $\lambda_1,\dots,\lambda_m \geq 0$ tali che
+Siano dei vettori $x_1,\dots,x_m \in \mathbb{R}^n$ un [[Vettori|Vettori]] $x \in \mathbb{R}^n$ è detto combinazione conica se esistono coefficienti $\lambda_1,\dots,\lambda_m \geq 0$ tali che
 
 $$
 x =\sum_{i=1}^m \lambda_ix_i

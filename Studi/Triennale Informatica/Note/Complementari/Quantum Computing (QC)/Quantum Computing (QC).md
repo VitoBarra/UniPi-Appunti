@@ -1,9 +1,9 @@
 ---
-type: MOC 
-tags: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - QC
 ---
-
-Prev: [[Triennale informatica MOC]]
 
 # Quantum Computing (QC)
 

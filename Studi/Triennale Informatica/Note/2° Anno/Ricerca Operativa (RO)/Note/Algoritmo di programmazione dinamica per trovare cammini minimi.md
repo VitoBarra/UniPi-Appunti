@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO Algoritmo  
+Subject: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic: nota
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # [[Algoritmi|Algoritmo]] di [[Programmazione Dinamica|programmazione dinamica ]]per trovare cammini minimi
 ---

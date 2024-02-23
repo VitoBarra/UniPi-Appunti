@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
+Subject: Ricerca Operativa
+topic: nota
 tags: RO
 ---
 

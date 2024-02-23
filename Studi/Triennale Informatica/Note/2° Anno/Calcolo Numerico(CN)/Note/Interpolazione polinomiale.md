@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
-Parent MOC: "[[Calcolo Numerico(CN)]]"
+topic:
 ---
 # Interpolazione polinomiale
 ---
@@ -67,7 +65,7 @@ $$i _polinomio di interpolazione_ $p(x)$ risultate con questa matrice è detto i
 $$i _polinomio di interpolazione_ $p(x)=\sum^{n}_{j=0}f(x_{j})L_{j}(x)$ risultate con questa matrice è detto in _forma di Lagrange_. e il calcolo dei coefficienti $a_{j}=y_{j}$ è [[Tipi di Errore nel calcolo numerico#Errore Inerente|ottimamente condizionato]] e _non_ richiede operazioni aritmetiche
 
 
-in contesti applicativi solitamente non si é interessati alla valutazione dei coefficenti ma a quella del polinomio in punti diversi da i punti già disponibili (_detti anche nodi_)  indicati con $\hat{x}$. nella _forma di langrange_ si ha che 
+in contesti applicativi solitamente non si é interessati alla valutazione dei coefficienti ma a quella del polinomio in punti diversi da i punti già disponibili (_detti anche nodi_)  indicati con $\hat{x}$. nella _forma di langrange_ si ha che 
 $$P(\hat{x}) = \sum^{n}_{j=0}f(x_{j})L_{j}(\hat{x}) =\sum^{n}_{j=0}\left(f(x_{j})\prod^n_{i=0,i\not=j} \cfrac{\hat{x}-x_{i}}{x_{j}-x_{i}}\right) = \prod_{i=0}^{n}(\hat{x}-x_{i})\sum^{n}_{j=0} \frac{y_{j}}{\omega_j(\hat{x}-x_{j})}$$
 con $\omega_{j}=\prod^{n}_{i=0\ i\not=j}(x_{j}-x_{i}), 0\leq j\leq n$ se i pesi $\omega_{j}$ sono _precomputati_ computare $P(\hat{x})$ costa $O(n)$ operazioni aritmetiche
 

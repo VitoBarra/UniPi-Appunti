@@ -1,13 +1,12 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
+Subject: "[[Computer Grafica (CG)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG
 ---
-
+A
 
 # Proiettare una scena sullo schermo 
 Data una scena nello spazio 3D  per visualizzarla bisogna [[Applicazione lineare - Proiezione|proiettarla]] in uno spazio 2D che rappresenta lo schermo
@@ -57,7 +56,7 @@ $$V_{RF} = \begin{bmatrix}
 \boldsymbol{x}_z & \boldsymbol{y}_z  &  \boldsymbol{z}_z & o_z  \\
 0 & 0 & 0 & 1
 \end{bmatrix}$$
-$V_{RF}$ ci permette di passare __View reference frame__ al __Word Space__ ed e' importante anche fare l operazione inversa e abbiamo quindi bisogno del [[Matrice inversa|inversa]] di $V_{RF}$ che essendo [[Trasformazioni affini|affine]] e [[Matrici ortogonali|ortogonale]] puo essere calcolata come 
+$V_{RF}$ ci permette di passare __View reference frame__ al __Word Space__ ed e' importante anche fare l operazione inversa e abbiamo quindi bisogno del [[Matrice inversa|inversa]] di $V_{RF}$ che essendo [[Applicazioni affini|affine]] e [[Matrici ortogonali|ortogonale]] puo essere calcolata come 
 $$
 V_{RF}^{-1}=
 \begin{bmatrix}
@@ -71,7 +70,7 @@ R_{xyz}=\begin{bmatrix}
 \end{bmatrix}
 $$
 
-tutte le [[Trasformazioni affini|trasformazioni]] che si fanno in rispetto del frame di vista si chiamano Trasformazione di vista (view Transformation)
+tutte le [[Applicazioni affini|trasformazioni]] che si fanno in rispetto del frame di vista si chiamano Trasformazione di vista (view Transformation)
 ![[Pasted image 20240210031247.png]]
 
 #### Proiezioni
@@ -176,7 +175,7 @@ p_x \\ p_y \\ p_z \\ 1
 p_x \\p_y \\-d\\1
 \end{bmatrix} 
 $$
-questa e' una [[Trasformazioni affini|trasformazione affine]] ma non e' [[Matrice inversa|invertibile]]
+questa e' una [[Applicazioni affini|trasformazione affine]] ma non e' [[Matrice inversa|invertibile]]
 
 #### View Volume
 il __View volume__ e' una porzione dello spazio 3D visto dalla camera.

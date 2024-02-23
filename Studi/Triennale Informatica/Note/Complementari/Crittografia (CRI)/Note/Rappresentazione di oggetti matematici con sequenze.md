@@ -1,12 +1,9 @@
-
 ---
-type: nota
-course: Crittografia
-topic: 
-tags: CRI
+Subject: "[[Crittografia (CRI)]]"
+tags:
+  - CRI
+topic:
 ---
-
-Prev: [[Crittografia (CRI)]]
 
 # Rappresentazione di oggetti matematici con sequenze
 ---

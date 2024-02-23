@@ -1,8 +1,6 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
-Area: 
-Topic: 
+Subject: "[[Computer Grafica (CG)]]"
+topic: 
 SubTopic: 
 tags:
   - CG
@@ -54,10 +52,10 @@ e quindi moltiplicando entrambi i lati per la matrice [[Matrice inversa|inversa]
 \boldsymbol{p_{0}}=
 \boldsymbol{p_{1}}$$ che significa che usare la matrice $M_{1}^{-1}M_{0}$ per passare dal _frame_ $F_{0}$ al _frame_ $F_{1}$ 
 
-Essendo le metrici matrici di [[Trasformazioni Geometriche affini|rototraslazione]] stiamo lavorando con [[Trasformazioni affini|trasformazioni affini]] e ciò rende facile calcolare l inversa _[[Matrice inversa|inversa]]_ $M_{1}^{-1}$  
+Essendo le metrici matrici di [[Trasformazioni Geometriche affini|rototraslazione]] stiamo lavorando con [[Applicazioni affini|trasformazioni affini]] e ciò rende facile calcolare l inversa _[[Matrice inversa|inversa]]_ $M_{1}^{-1}$  
 
 #### Frame generici
-il _frame_ possono anche non essere [[Vettori Ortogonali|ortonormali]]  infatti possiamo vedere ogni [[Trasformazioni affini|trasformazione affine]] come un _cambio di frame_, dal punto di vista matematico è la stessa cosa del applicare la trasformazione ma la trasformazione è piu facile da immaginare.
+il _frame_ possono anche non essere [[Vettori Ortogonali|ortonormali]]  infatti possiamo vedere ogni [[Applicazioni affini|trasformazione affine]] come un _cambio di frame_, dal punto di vista matematico è la stessa cosa del applicare la trasformazione ma la trasformazione è piu facile da immaginare.
 
 #### Frame gerachici
 piu _frame_ posso essere ordinati in modo gerarchico in questo modo siamo in grado di descrivere la scena in termini di altri frame, ad esempio ogni _frame_ puo essere un oggetto o una parte di un oggetto.

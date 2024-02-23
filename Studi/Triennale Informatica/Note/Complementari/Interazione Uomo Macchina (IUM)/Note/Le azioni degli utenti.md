@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Interazione uomo macchina
-topic: 
+Subject: Interazione uomo macchina
+topic: nota
 tags: IUM
 ---
 

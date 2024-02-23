@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Algebra
-topic: 
+Subject: "[[Algebra (ALG)]]"
+topic: nota
 tags:
   - ALG
-Parent MOC: "[[Algebra (ALG)]]"
 ---
 
 # Proprietà del operazioni-Associativà

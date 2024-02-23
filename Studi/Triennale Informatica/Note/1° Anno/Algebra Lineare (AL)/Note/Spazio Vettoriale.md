@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
+topic: nota
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 # Spazio Vettoriale
 ---

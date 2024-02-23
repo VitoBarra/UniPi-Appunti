@@ -1,9 +1,10 @@
 ---
-type: MOC 
-tags: MOC 
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - ECC
 ---
 
-Prev: [[Triennale informatica MOC]]
 
 # Elementi di Complessità e Calcolabilità (ECC)
 

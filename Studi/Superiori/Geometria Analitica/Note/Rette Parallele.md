@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Geometria analitica
-topic: 
+Subject: "[[Geometria analitica (GA)]]"
 tags:
   - GA
-Pare:
+topic:
 ---
 
 # Rette Parallele

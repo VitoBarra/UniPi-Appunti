@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Ingegneria del software
-topic: 
+Subject: "[[Ingegneria Del Software (IS)]]"
+topic: nota
 tags:
   - IS
-  - NotFinished
-Parent MOC: "[[Ingegneria Del Software (IS)]]"
+  - Imm2Text
 ---
 
 # UML - Diagramma delle classi

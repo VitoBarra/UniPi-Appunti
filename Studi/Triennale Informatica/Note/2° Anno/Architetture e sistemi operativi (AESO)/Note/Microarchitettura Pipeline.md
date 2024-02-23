@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
 topic: 
 tags:
   - AESO
-Pare: "[[Architetture e sistemi operativi (AESO)]]"
 ---
 # Pipeline
 ---

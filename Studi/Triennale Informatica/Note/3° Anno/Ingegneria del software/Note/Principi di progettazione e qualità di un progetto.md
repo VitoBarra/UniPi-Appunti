@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Ingegneria del software
-topic: 
+Subject: "[[Ingegneria Del Software (IS)]]"
+topic: nota
 tags:
   - IS
-Parent MOC: "[[Ingegneria Del Software (IS)]]"
 ---
 # Principi di progettazione e qualità di un progetto
 ---

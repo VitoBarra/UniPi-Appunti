@@ -1,13 +1,14 @@
 ---
-type: nota
+Subject: "[[Algebra (ALG)]]"
 topic: 
-tags: MATH
+tags:
+  - ALG
 ---
 
 # Calcolare l N-esimo numero primo Willans's formula
 ---
 
-fonte: https://www.youtube.com/watch?v=j5s0h42GfvM
+fonte: [link](https://www.youtube.com/watch?v=j5s0h42GfvM)
 
 la _formula di Willans_  riesce a computare l $n$-simo numero primo ma ha una complessità troppo alta per essere utilizzabile di fatti non passa il [[test di Wilf]]
 	$$\large1+\sum^{2^n}_{i=1}\left\lfloor
@@ -18,7 +19,7 @@ la _formula di Willans_  riesce a computare l $n$-simo numero primo ma ha una co
 	\right\rfloor}
 	\right )^{\frac{1}{n}}
 	\right\rfloor$$
-utilizza il [[teorema di Wilson]] per determinare se un numero è primo o no $\frac{(j-1)!+1}{j}$ è sempre un numero intero se $j$ è primo o 1
+utilizza il [[teorema di Wilson]] per determinare se un numero è primo o no $\cfrac{(j-1)!+1}{j}$ è sempre un numero intero se $j$ è primo o 1
 
 
 

@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Data Base
-topic: 
+Subject: "[[Data Base (DB)]]"
+topic: nota
 tags:
   - DB
-Parent MOC: "[[Data Base (DB)]]"
 ---
 
 # DBMS - Sort Delle tabelle nei DB

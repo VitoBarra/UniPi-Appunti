@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Statistica
-topic: 
+Subject: "[[Statistica (STAT)]]"
+topic: nota
 tags:
   - STAT
-Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Test approssimato su un campione di bernoulli
 ---

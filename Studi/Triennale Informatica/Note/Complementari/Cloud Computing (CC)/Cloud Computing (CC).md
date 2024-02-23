@@ -1,9 +1,9 @@
 ---
-type: MOC 
-tags: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - CC
 ---
-
-Prev: [[Triennale informatica MOC]]
 
 # Cloud Computing (CC)
 

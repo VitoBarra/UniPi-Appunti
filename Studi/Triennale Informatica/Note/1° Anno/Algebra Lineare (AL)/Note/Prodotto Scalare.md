@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
+topic: nota
 tags:
   - AL
   - Imm2Text
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 # Prodotto Scalare
 ---

@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Analisi
-topic: 
+Subject: Analisi
+topic: nota
 tags: GA
 ---
 

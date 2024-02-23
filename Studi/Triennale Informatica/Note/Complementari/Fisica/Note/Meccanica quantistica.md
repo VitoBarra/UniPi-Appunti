@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Fisica
-topic: 
+Subject: Fisica
+topic: nota
 tags: FI
 ---
 

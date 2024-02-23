@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
-Parent MOC: "[[Calcolo Numerico(CN)]]"
+topic:
 ---
 
 # Tipi di Errore nel calcolo numerico
@@ -33,8 +31,8 @@ _sia_ $f(\tilde x) \not =0$ si diche _errore algoritmico_ generato nel calcolo t
 - la Funzione $g(x)$ dipende dal algoritmo utilizzato per calcolare $f(x)$ 
 	- ad esempio per $f(x)=\cfrac{x^2+1}{x}$ potremmo avere  $g(x)=g_1(x)=((x \otimes x)\oplus1) \oslash x$ In generale differenti algoritmi conducono a differenti _errori algoritmici_ 
 - a seconda del valore del _errore algoritmico_  si possono classificare gli [[Algoritmi|algoritmi]] in  due modi 
-	- Numericamente _instabili_: se l errore algoritmico è qualitativamente alto
-	- Numericamente _stabili_: se _NON_ sono instabili
+	- __Numericamente instabili__: se l errore algoritmico è qualitativamente alto
+	- __Numericamente stabili__: se _NON_ sono instabili
 
 in generale è difficile stabilire se un algoritmo è stabile o instabile
 
@@ -43,7 +41,7 @@ si dice _errore totale_ generato nel calcolo di $f(x) \not = 0$ mediante l algor
 $$\epsilon_{tot}= \frac{g(\tilde x)-f(x)}{f(x)}$$
 l errore totale misura la differenza relativa tra l output atteso e l output effettivamente calcolato. in un analisi a _primo ordine_ vale
 #### Teorema
-si ha $\epsilon_{tot} \dot=\epsilon_{in}+\epsilon_{alg}$ 
+si ha $$\epsilon_{tot} \ \dot= \ \epsilon_{in}+\epsilon_{alg}$$ dove $\dot=$ è l approssimazione a prim'ordine
 ##### Dimostrazione
 Osserviamo che le definizione di errore algoritmico e inerente si possono riscrivere come 
 1. $\epsilon_{in} = \cfrac{f(\tilde{x})}{f(x)}-1 \ \iff \epsilon_{in}+1 = \cfrac{f(\tilde{x})}{f(x)}$

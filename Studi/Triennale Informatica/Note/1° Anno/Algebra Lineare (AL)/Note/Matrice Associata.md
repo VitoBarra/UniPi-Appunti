@@ -1,16 +1,13 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL Imm2Text
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
+  - Imm2Text
+topic:
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Matrice Associata
 ---
-
-### Definizione
 sia $f$  una [[Applicazioni Lineari|applicazione lineare]] la [[Matrice]] associata è una matrice
 
 ![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 2.png]]

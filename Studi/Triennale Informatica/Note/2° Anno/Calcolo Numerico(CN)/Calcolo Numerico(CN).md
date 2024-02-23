@@ -1,9 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - CN
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 
 ## Course MOC  📒

@@ -1,8 +1,7 @@
 ---
-type: nota
-course: 
-topic: 
-tags: 
+Subject: 
+topic: nota
+tags:
 ---
 
 Prev: [[]]

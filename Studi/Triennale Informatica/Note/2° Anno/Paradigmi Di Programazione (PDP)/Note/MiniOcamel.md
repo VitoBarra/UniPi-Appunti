@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Paradigmi Di Programmazione
-topic: 
+Subject: Paradigmi Di Programmazione
+topic: nota
 tags: PDP
 ---
 

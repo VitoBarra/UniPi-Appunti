@@ -1,8 +1,8 @@
 ---
-type: MOC
+Subject: "[[Triennale informatica MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Triennale informatica MOC]]"
+  - IUM
 ---
 # Interazione Uomo Macchina (IUM)
 

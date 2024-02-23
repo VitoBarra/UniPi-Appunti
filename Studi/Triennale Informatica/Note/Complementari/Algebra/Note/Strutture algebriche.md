@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Algebra
-topic: 
-tags: ALG
+Subject: "[[Algebra (ALG)]]"
+tags:
+  - ALG
+topic: "[[Strutture algebriche]]"
 ---
-
-Prev: [[Algebra (ALG)]]
 
 # Strutture algebriche
 ---

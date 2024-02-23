@@ -23,7 +23,7 @@ tags:
 7. [[Computer grafica - Primitive geometriche]]
 8. [[Trasformazioni Geometriche affini]]
 	1. [[Coordinate omogenee]]
-	2. [[Trasformazioni affini]]
+	2. [[Applicazioni affini]]
 	3. [[Composizione di trasformazioni]]
 9. [[Frames]]
 10. [[Rotazioni in 3D]]
@@ -33,7 +33,12 @@ tags:
 	1. [[Proiettare una scena sullo schermo]]
 	2. [[Trasformare da Vertici a Frammenti (Rasterizazione)]]
 	3. [[Trasformazione Frammenti in Pixel]]
-12. [[Rappresentazione dei modelli 3D]]
+12. [[Rappresentazione di modelli 3D]]
+	1. [[Mesh Poligonali]]
+	2. [[Superfici implicite]]
+	3. [[Curve parametriche]]
+		1. [[Curve parametriche - Curve di Bezier]]
+	4. [[Superfici parametriche]]
 
 
 

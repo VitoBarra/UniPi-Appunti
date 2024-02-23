@@ -1,16 +1,12 @@
-
 ---
-type: nota
-course: Elementi di calcolabilita e complessita
-topic: 
-tags: ECC
+Subject: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
+tags:
+  - ECC
+topic:
 ---
-
-Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
-
 # Funzioni con più parametri o con dati strutturati
 ---
-la [[Macchina di Turing]] e i [[Linguaggi FOR e WHILE]] possono [[Turing-Calcolabilita|calcolare]] una [[Funzioni|funzione]] con un solo parametro nei numeri naturali $\mathbb{N}$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
+la [[Macchina di Turing]] e i [[Linguaggi FOR e WHILE]] possono [[Turing-Calcolabilita|calcolare]] una [[Funzioni|funzione]] con un solo parametro nei [[Insieme dei Numeri naturali|numeri naturali]] $\mathbb{N}$ ma questo non ci limita l utilizzo di più parametri e di dati strutturati siccome basta trovare una codifica di quei dati in un numero naturale.
 La [[Funzioni|funzione]] di codifica deve essere una  [[Funzioni#Funzioni Biunivoche|funzioni biunivoca]] siccome devono essere [[Funzioni]] per rendere la decodifica non ambigua.
 
 e si utilizzano come :

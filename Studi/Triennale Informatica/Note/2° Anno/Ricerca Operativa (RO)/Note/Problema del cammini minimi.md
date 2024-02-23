@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO Problema
+Subject: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic: nota
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Problema del cammini minimi
 ---

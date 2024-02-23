@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Orientamento al lavoro ITC
-topic: 
-tags: OLAITC
+Subject: "[[Orientamento al lavoro ITC]]"
+tags:
+  - OLAITC
+topic: nota
 ---
 
-Prev: [[Orientamento al lavoro ITC]]
 
 # Linkedin a sostegno del lavoro
 ---

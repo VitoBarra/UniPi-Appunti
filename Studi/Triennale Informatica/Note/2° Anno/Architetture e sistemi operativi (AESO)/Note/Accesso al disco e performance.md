@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
 topic: 
-tags: AESO
+tags:
+  - AESO
 ---
 
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Accesso al disco e performance
 ---

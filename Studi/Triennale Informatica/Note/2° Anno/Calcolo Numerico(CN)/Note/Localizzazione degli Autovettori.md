@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: Calcolo Numerico
+topic: nota
 tags: CN
 ---
 
@@ -12,7 +11,7 @@ Prev: [[Calcolo Numerico(CN)]]
 ## Teorema di Hirsch
 _sia_ una matrice $A \in \mathbb{C}^{n \times n}$  e  $\lambda_{i}$ l $i$-esimo [[Autovettori e Autovalori|autovalore]]  di $A$ 
 _vale che_ per ogni [[Norme Matriciali e Norme Vettoriali#Teorema norme matriciali indotte da norme vettoriali|norma matriciale indotta]] $$|\lambda_{i}| \leq \|A\| \ \ \ \forall i $$ 
-questo teorema dice che possiamo _locale_ tutti gli autovalori di una matrice $A$ in un cerchio di raggio $\|A\|$ sul piano [[Numeri complessi|complesso]]  
+questo teorema dice che possiamo _locale_ tutti gli autovalori di una matrice $A$ in un cerchio di raggio $\|A\|$ sul piano [[Insieme dei Numeri complessi|complesso]]  
 
 #### Dimostrazione
 _siano_ $\lambda$ un _autovalore_ e $x$ l _autovettore_ associato a $\lambda$ di $A$ abbiamo quindi $Ax=\lambda x$

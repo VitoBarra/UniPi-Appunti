@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Analisi
-topic: 
+Subject: Analisi
+topic: nota
 tags: Analisi
 ---
 
-Prev: [[Analisi]]
+Prev: [[UniPi-Appunti/Studi/Triennale Informatica/Note/1° Anno/Analisi/Analisi]]
 
 # Teorema della permanenza del segno
 ---

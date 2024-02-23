@@ -1,17 +1,14 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 # Base di  uno spazio vettoriale 
 ---
 _sia_  $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  e  $v_1,\dots,v_n \in V$ una sequenza di vettori 
 _allora_ la sequenza è detta _base_ di $V$ se
 - I vettori sono tutti tra loro _[[Dipendenza Lineare|indipendenti]]_
-- I vettori _[[Sottospazzio Vettoriale generato|generano]]_ $V$
+- I vettori _[[Sottospazio Vettoriale generato|generano]]_ $V$
 e questo puo essere scritta anche come [[Matrice|matrice]] dove ogni colonna è un vettore
 #### Basi canoniche
 - spazio dei vettori $\mathbb{K}^n$ consistente da esattamente $n$  vettori:$$

@@ -1,5 +1,5 @@
 ---
-Course: "[[Calcolo Numerico(CN)]]"
+Subject: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
 topic:

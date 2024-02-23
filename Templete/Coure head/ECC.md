@@ -1,11 +1,10 @@
 ---
-Course: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
-Subject: 
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
 tags:
   - ECC
+Area: 
+topic: 
+SubTopic:
 ---
 
 

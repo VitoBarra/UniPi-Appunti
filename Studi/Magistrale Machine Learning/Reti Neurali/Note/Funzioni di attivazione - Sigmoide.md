@@ -1,12 +1,11 @@
 ---
-Subject: Intelligenza artificiale
-Area: Machine Learning
-Topic: Reti Neurali
-SubTopic: 
 tags:
   - IA
   - ML
-Parent MOC: "[[Reti neurali MOC]]"
+Subject: "[[Reti neurali MOC]]"
+Area: Machine Learning
+topic: Reti Neurali
+SubTopic:
 ---
 # Funzioni di attivazione - Sigmoide
 ---

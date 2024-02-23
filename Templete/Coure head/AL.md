@@ -1,11 +1,10 @@
 ---
-Course: "[[Algebra Lineare (AL)]]"
-Subject: 
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Algebra Lineare (AL)]]"
 tags:
   - AL
+Area: 
+topic: 
+SubTopic:
 ---
 # {{title}}
 ---

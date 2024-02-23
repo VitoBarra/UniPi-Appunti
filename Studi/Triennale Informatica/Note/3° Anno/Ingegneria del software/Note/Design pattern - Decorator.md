@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Ingegneria del software
-topic: 
+Subject: Ingegneria del software
+topic: nota
 tags: IS
 ---
 

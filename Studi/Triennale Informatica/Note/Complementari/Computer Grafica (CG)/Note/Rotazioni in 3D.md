@@ -1,8 +1,7 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
+Subject: "[[Computer Grafica (CG)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG
@@ -10,7 +9,7 @@ tags:
 
 # Rotazioni in 3D
 ---
-Le rotazioni in 3D sono [[Trasformazioni affini|Trasformazioni affini]] e un estensione delle [[Trasformazioni Geometriche affini|rotazioni]] geometriche in 2D  Infatti possiamo vedere le _rotazioni 2D_ come una rotazione su di un piano [[Vettori Ortogonali|ortogonale]] al asse $z$ e passane per il _punto da ruotare_ e al _origine_, ottenendo cosi la  _rotazione 3D_ attorno al asse $z$ $$R_{a,z}=\begin{bmatrix}
+Le rotazioni in 3D sono [[Applicazioni affini|Applicazioni affini]] e un estensione delle [[Trasformazioni Geometriche affini|rotazioni]] geometriche in 2D  Infatti possiamo vedere le _rotazioni 2D_ come una rotazione su di un piano [[Vettori Ortogonali|ortogonale]] al asse $z$ e passane per il _punto da ruotare_ e al _origine_, ottenendo cosi la  _rotazione 3D_ attorno al asse $z$ $$R_{a,z}=\begin{bmatrix}
 \cos \alpha  & -\sin \alpha  & 0  & 0\\
 \sin \alpha  & \cos \alpha & 0  & 0\\
 0 & 0 & 1 & 0 \\

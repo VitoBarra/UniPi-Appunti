@@ -1,15 +1,15 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
+topic:
 ---
 
 # Dipendenza Lineare
 ---
-_sia_ $V$ uno [[Spazio Vettoriale|spazio vettoriali]] $V$  e $v_{1},\dots v_{k}$ vettori con $k \geq 2$ 
+_sia_ 
+- $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  
+- $v_{1},\dots v_{k} \in V$ [[Vettori|vettori]] con $k \geq 2$ 
 _allora_ questi sono detti _dipendenti_ 
 _se_ esiste almeno un coefficiente $\lambda_i \not= 0$  tale che$$
 \lambda_1v_1+...+\lambda_kv_k=0$$

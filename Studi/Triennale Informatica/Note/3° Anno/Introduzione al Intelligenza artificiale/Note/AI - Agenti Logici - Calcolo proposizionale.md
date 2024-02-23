@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Intelligenza Artificiale
-topic: 
+Subject: "[[Interazione Uomo Macchina (IUM)]]"
+topic: nota
 tags:
   - IA
-Parent MOC: "[[Interazione Uomo Macchina (IUM)]]"
 ---
 
 # Agenti Logici - Calcolo proposizionale

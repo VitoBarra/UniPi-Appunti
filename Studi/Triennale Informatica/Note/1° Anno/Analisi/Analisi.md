@@ -2,13 +2,16 @@
 Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
+  - Analisi
 ---
 # Analisi
 
 ## Course MOC  📒
 1. [[Insiemi dei Numeri]]
-	1. [[Numeri complessi]]
-	2. [[Quaternioni]]
+	1. [[Insieme dei Numeri naturali]]
+	2. [[Insieme dei Numeri Reali]]
+	3. [[Insieme dei Numeri complessi]]
+	4. [[Quaternioni]]
 2. [[Piano cartesiano]]
 3. [[Coordinate Polari]]
 4. [[Funzioni]]

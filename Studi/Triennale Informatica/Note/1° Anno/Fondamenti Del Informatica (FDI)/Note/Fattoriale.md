@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Subject: "[[Fondamenti Del Informatica (FDI)]]"
+topic: nota
 tags:
   - FDI
-Parent MOC: "[[Fondamenti Del Informatica (FDI)]]"
 ---
 # Fattoriale
 ---

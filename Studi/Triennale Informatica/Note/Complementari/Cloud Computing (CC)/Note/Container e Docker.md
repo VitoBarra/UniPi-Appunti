@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Cloud Computing
-topic: 
+Subject: "[[Cloud Computing (CC)]]"
+topic: nota
 tags:
   - CC
-Parent MOC: "[[Cloud Computing (CC)]]"
 ---
 # Container e Docker
 ---

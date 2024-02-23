@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: Calcolo Numerico
+topic: nota
 tags: CN
 ---
 

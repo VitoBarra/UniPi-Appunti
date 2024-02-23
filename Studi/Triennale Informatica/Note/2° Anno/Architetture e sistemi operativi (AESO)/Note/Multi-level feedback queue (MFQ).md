@@ -1,19 +1,15 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
-tags: AESO FileNotFound 
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+topic: Thread Scheduling
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Multi-level feedback queue (MFQ)
 ---
+è una politica in cui si scegliere il task utilizzando una coda di livelli.
+ogni livello avrà una priorità un task livello di priorità più alta fra periclasio su i task delle code più basse e i task nello stesso livello vengono eseguite con una politica [[Round Robin|round robin]]. ogni coda ha un quanto di tempo diverso e i livelli a priorità più alta hanno un quanto di tempo più breve rispetto a quelle di livello più basso
 
-
-è una politica in cui si scegliere il task utilizzando una coda di livelli ogni livello avrà una priorita un task livello di priorità più alta fra periclasio su i task delle code più basse e i task nello stesso livello vengono eseguite con una politica round robin. ogni coda ha un quanto di tempo diverso e i livelli a priorità più alta hanno un quanto di tempo più breve rispetto a quelle di livello più basso
-
-[[Multi-level feedback queue (MFQ]]%20e1eeeb4672224abf8e432f78270c8d87/Untitled.png)
 
 i task si muovono nei vali livelli:
 

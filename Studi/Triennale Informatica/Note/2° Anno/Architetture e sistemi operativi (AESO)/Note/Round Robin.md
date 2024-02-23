@@ -1,16 +1,12 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
-tags: AESO
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+topic: Thread Scheduling
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Round Robin
 ---
-
-
 è una politica di [[Scheduler|scheduling]] in cui si dividono i task in Time Slice detti "quanti di tempo" questi quanti di tempo devono essere scelte con cura siccome fare cambiare da un task ad un altro aggiunge overhead sia per fare lo [[Switch di contesto]] che per caricare in [[Architetture e sistemi operativi (AESO)]] quello che serve al thread scelto; quindi scegliere un quanto ti tempo troppo corto significa aggiungere molto overhead e sceglierne uno troppo lungo significa far aspettare molto dei task.
 
 ## Caratteristiche

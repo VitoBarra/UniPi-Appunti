@@ -1,8 +1,7 @@
 ---
-Course: "[[Geometria]]"
-Subject: Geometria
+Subject: "[[Geometria]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG

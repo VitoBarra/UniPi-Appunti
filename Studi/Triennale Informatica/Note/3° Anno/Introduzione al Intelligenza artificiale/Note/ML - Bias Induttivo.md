@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Intelligenza Artificiale
-topic: 
+Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+topic: nota
 tags:
   - IA
-Parent MOC: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 ---
 
 # Bias Induttivo

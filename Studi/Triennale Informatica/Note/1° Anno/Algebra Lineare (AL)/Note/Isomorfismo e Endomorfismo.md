@@ -1,24 +1,21 @@
-
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
+topic:
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Isomorfismo e Endomorfismo
 ---
 
 ## Isomorfismo
 
-un [[Applicazioni Lineari|applicazione lineare]] $f:V \rightarrow W$ è un isomorfismo se questa è bigettiva
+un [[Applicazioni Lineari|applicazione lineare]] $f:V \rightarrow W$ è un isomorfismo se questa è [[Funzioni#Proprietà particolari|bigettiva]]
 
 
->[!info]
->- se una applicazione lineare è isomorfa esiste la sua inversa e anch'essa è lineare
-> - applicazioni $L_A : \mathbb{K}^n \rightarrow \mathbb{K}^m$ è un isomorfismo se $A$  è invertibile
+Proprieta
+- se una [[Applicazioni lineari|applicazione lineare]] è isomorfa esiste la sua inversa e anch'essa è lineare
+ - applicazioni $L_A : \mathbb{K}^n \rightarrow \mathbb{K}^m$ è un isomorfismo se $A$  è invertibile
 
 ## Endomorfismo
 

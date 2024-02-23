@@ -1,7 +1,7 @@
 ---
+Parent MOC: "[[Studi MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Studi MOC]]"
 ---
 # Triennale informatica MOC
 
@@ -11,7 +11,7 @@ Parent MOC: "[[Studi MOC]]"
 	- [[Analisi]]
 	- [[Algebra Lineare (AL)]]
 	- [[Laboratorio I]]
-	- [[Programmazione Algoritmica (ProgAlg)]]
+	- [[Programmazione e Algoritmica (PEA)]]
 - 2° Anno
 	- [[Ricerca Operativa (RO)]]
 	- [[Paradigmi Di Programmazione(PDP)]]

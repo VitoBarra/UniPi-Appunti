@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL ToReview
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
+topic:
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Dimensione di uno spazio vettoriale
 ---
@@ -24,7 +22,6 @@ Due basi dello stesso spazio vettoriale $V$ hanno lo stesso numero di elementi $
 >[!note]
 > questo è il motivo per cui possiamo dire che  $V$  ha un unica dimensione
 
----
 ### Teorema
 Sia $V$ uno spazio vettoriale e $U \subset V$ un [[Sottospazio Vettoriale]]. Vale $0 ≤ dim (U) ≤ dim (V)$. Inoltre:
 

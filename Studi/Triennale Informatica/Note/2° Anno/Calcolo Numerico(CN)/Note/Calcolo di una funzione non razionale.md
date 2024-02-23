@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: "[[Calcolo Numerico(CN)]]"
+topic: nota
 tags:
   - CN
-Parent MOC: "[[Calcolo Numerico(CN)]]"
 ---
 
 # Calcolo di una funzione non razionale

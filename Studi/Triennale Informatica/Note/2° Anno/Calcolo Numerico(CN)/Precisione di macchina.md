@@ -1,8 +1,7 @@
 ---
-Course: "[[Calcolo Numerico(CN)]]"
-Subject: Calcolo Numerico
+Subject: "[[Calcolo Numerico(CN)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CN

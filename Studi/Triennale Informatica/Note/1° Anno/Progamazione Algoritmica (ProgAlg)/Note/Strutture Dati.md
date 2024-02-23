@@ -1,12 +1,9 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
-tags: ProgAlgo Data_Structure
+Subject: "[[Programmazione e Algoritmica (PEA)]]"
+topic: Strutture Dati
+tags:
+  - PEA
 ---
-
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
-
 # Strutture Dati
 ---
 

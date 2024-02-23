@@ -1,10 +1,9 @@
 ---
-type: MOC 
-tags: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - TDI
 ---
-
-Prev: [[Triennale informatica MOC]]
-
 # Teoria del informazione (TDI)
 
 ## Course MOC  📒

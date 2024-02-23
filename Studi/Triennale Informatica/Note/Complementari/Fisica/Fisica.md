@@ -1,14 +1,15 @@
 ---
-type: MOC 
-tags: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - Fisica
 ---
-
-Prev: [[Triennale informatica MOC]]
-
 # Fisica
 
 ## Course MOC  📒
 1. [[Meccanica quantistica]]
+2. [[Fisica - Onde]]
+	1. [[Onde - Spetro visibile]]
 
 
 

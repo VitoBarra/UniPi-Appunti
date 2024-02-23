@@ -1,9 +1,9 @@
 ---
-type: MOC 
-tags: MOC 
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - LAB_II
 ---
-
-Prev: [[Triennale informatica MOC]]
 
 # Laboratorio II
 

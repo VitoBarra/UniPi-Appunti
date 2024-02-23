@@ -1,8 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
-"prev:": "[[Triennale informatica MOC]]"
+  - CRI
 ---
 # Crittografia
 

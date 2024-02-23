@@ -1,11 +1,10 @@
 ---
-Course: "[[Paradigmi Di Programmazione(PDP)]]"
-Subject: 
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Paradigmi Di Programmazione(PDP)]]"
 tags:
   - PDP
+Area: 
+topic: 
+SubTopic:
 ---
 
 # {{title}}

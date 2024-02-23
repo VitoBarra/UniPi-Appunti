@@ -1,11 +1,10 @@
 ---
-Course: "[[Fondamenti Del Informatica (FDI)]]"
-Subject: 
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Fondamenti Del Informatica (FDI)]]"
 tags:
   - FDI
+Area: 
+topic: 
+SubTopic:
 ---
 
 # Logica proposizionale

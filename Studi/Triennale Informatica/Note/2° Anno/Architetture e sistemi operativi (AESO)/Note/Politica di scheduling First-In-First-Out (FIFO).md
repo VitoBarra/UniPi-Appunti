@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
-tags: AESO FileNotFound
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+topic: nota
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # First-In-First-Out (FIFO)
 ---
@@ -34,4 +32,3 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 - il workload è composto da molti task corti e pochi molto lungi. è il peggiore per il tempo di risposta medio
 
-    [[First-In-First-Out (FIFO]]%20225eae1f95774e86b44941e2c34d6767/Untitled.png)

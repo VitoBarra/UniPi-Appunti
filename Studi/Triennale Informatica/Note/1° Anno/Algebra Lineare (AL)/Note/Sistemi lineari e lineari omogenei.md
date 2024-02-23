@@ -1,5 +1,5 @@
 ---
-Course: "[[Algebra Lineare (AL)]]"
+Subject: "[[Algebra Lineare (AL)]]"
 tags:
   - AL
 topic:

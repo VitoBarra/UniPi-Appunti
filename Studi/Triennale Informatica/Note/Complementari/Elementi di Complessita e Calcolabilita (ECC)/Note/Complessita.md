@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Elementi di calcolabilita e complessita
-topic: 
+Subject: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
+topic: nota
 tags:
   - ECC
-Parent MOC: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
 ---
 # Complessita
 ---

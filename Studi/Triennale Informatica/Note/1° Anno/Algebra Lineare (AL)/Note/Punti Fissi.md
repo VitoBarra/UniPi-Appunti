@@ -1,18 +1,15 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
 ---
 
-Prev: [[Algebra Lineare (AL)]]
 
 # Punti Fissi
 ---
-
-### Definizione
-Sia $f : V → V$ un endomorfismo. Un vettore $v \in V$ è un punto fisso se
-
-$$
+Sia 
+- $f : V → V$ un [[Isomorfismo e Endomorfismo|endomorfismo]]
+- $v \in V$ Un [[Vettori|vettore]]   
+se$$
 f(v)=v
-$$
+$$allora  $v$ è un __punto fisso__ 

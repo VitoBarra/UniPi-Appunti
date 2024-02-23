@@ -1,9 +1,9 @@
 ---
-type: MOC 
-tags: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - GA
 ---
-
-Prev: [[Triennale informatica MOC]]
 
 # Geometria analitica
 

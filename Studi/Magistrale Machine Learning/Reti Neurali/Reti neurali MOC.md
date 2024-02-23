@@ -1,8 +1,7 @@
 ---
-type: MOC
+Parent MOC: "[[Magistrale Machine Learning MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Magistrale Machine Learning MOC]]"
 ---
 # Reti neurali MOC
 

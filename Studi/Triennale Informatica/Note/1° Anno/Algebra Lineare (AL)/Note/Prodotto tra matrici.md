@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
+topic: nota
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
 ---
 
 
@@ -39,7 +37,6 @@ $$
 $$
 
 
-![[UniPi INF/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 13.png]]
 
 ![[IMG_0763.jpeg]]
 ### proprietà algebriche matrici:

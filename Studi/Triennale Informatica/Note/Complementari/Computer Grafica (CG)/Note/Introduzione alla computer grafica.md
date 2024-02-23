@@ -1,11 +1,10 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Computer Grafica (CG)]]"
 tags:
   - CG
+Area: 
+topic: 
+SubTopic:
 ---
 
 

@@ -1,8 +1,7 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
+Subject: "[[Computer Grafica (CG)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG
@@ -37,9 +36,9 @@ F_{3} & = & R_{z,\gamma}\mathcal{C}
 > gli _assi_ usati,  _ordine di applicazione della rotazione_ sui 3 assi, e rotazioni _intrinseche_ o _estrinseche_ sono __convenzioni__ 
 
 il _mapping_ tra gli _angoli_ e la _rotazione finale_ è 
-- una [[Funzioni|funzione surrigettiva]] quindi ogni _rotazione_ è raggiungibile 
+- una [[Applicazioni tra insiemi#Surgettiva|funzione surgettiva]] quindi ogni _rotazione_ è raggiungibile 
 - ma __non__ è una _[[Funzioni|funzione iniettiva]]_ quindi  si puo raggiungere la stessa rotazione usando diversi _angoli_
- quindi non è [[Funzioni|bigettiva]]
+ quindi non è [[Applicazioni tra insiemi#Biunivoche o bigettive|bigettiva]]
 Una conseguenza di questo è il __gimbal lock__ che è un _caso degenere_ dove si _perde un grado di liberta_, nel senso che in questo modo muovere due assi risulta nella rotazione attorno allo stesso _asse_ . Abbiamo che
 _se_ $\beta=\frac{2}{\pi}$ 
 _allora_ tutti i valori di $\alpha$ e $\gamma$ tale che $\alpha=-\gamma$ danno la stessa _rotazione finale_ 

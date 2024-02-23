@@ -1,7 +1,6 @@
 ---
-type: nota
-course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
-topic: 
+Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+topic: nota
 tags:
   - IA
 ---

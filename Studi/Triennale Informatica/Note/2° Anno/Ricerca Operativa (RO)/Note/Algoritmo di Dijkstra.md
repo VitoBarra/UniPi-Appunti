@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO Algoritmo 
+Subject: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic:
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Algoritmo di Dijkstra
 ---

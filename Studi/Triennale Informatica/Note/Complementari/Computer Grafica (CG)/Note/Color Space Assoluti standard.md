@@ -1,8 +1,7 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
+Subject: "[[Computer Grafica (CG)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG

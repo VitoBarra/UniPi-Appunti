@@ -1,12 +1,9 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: "[[Algebra Lineare (AL)]]"
 tags:
   - AL
-Parent MOC: "[[Algebra Lineare (AL)]]"
+topic:
 ---
 # Matrice
 ---
-
-### Definizione
+piu [[Vettori|vettori]] 

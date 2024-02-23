@@ -1,14 +1,12 @@
 ---
-type: nota
-course: Analisi
-topic: 
+Subject: "[[UniPi-Appunti/Studi/Triennale Informatica/Note/1° Anno/Analisi/Analisi]]"
+topic: nota
 tags:
   - Analisi
-Parent MOC: "[[Analisi]]"
 ---
 # Quaternioni
 ---
-I _quaternioni_ sono un _estensione_ dei [[Numeri complessi|numeri complessi]] con altre due parti _immaginarie_
+I _quaternioni_ sono un _estensione_ dei [[Insieme dei Numeri complessi|numeri complessi]] con altre due parti _immaginarie_
 sono quindi della forma
 $$a_{w}+\boldsymbol{i}a_{x}+\boldsymbol{j}a_{y}+\boldsymbol{k}a_{z}$$
 dove $\boldsymbol{i}a_{x},\boldsymbol{j}a_{y},\boldsymbol{k}d_{z}$ sono la parte _immaginaria_, spesso abbreviato come $$a=(a_{w},\boldsymbol{a})$$

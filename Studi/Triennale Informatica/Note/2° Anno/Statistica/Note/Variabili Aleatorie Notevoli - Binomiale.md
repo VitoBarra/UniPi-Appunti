@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Statistica
-topic: 
+Subject: "[[Statistica (STAT)]]"
+topic: nota
 tags:
   - STAT
-Parent MOC: "[[Statistica (STAT)]]"
 ---
 # Variabili Aleatorie Notevoli - Binomiale
 ---
@@ -13,23 +11,27 @@ chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di 
 
 >[!tip]
 >lo stesso caso _senza rimpiazzo_ è modellizzato dalla variaible [[Variabili Aleatorie Notevoli - Ipergeometrica|ipergiometrica]]
-#### Variabile Binoiale
+#### Variabile Binomiale
 _sia_ $X:\Omega \rightarrow\{ 1,\dots,n\}$ la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ che _conta_ il numero di _successi_ __con rimpiazzo__
 _se_ vale che $$\mathcal{P}(X=h)=\begin{pmatrix}n \\ h\end{pmatrix} p^{h}(1-p)^{n-h} \ \ \ \ , 0 \leq h\leq n$$
-_allora_ è detta _variabilie binomiale_ di parametri $n,p$ indicata con $B(n,p)$ 
+_allora_ è detta __variabile binomiale__ di parametri $n,p$ indicata con $B(n,p)$ 
 dove 
 - $p^{h}(1-p)^{n-h}$ è la probabilità che compaia un risultato con $h$ _successi_ e $(n-h)$ _insuccessi_. e questo vale per l _[[Indipendenza Stocastica|indipendenza]]_ dei risultati
 - $\begin{pmatrix}n \\h \end{pmatrix}$ è il numero di modi di [[Combinatoria#Disposizioni|disporre]] gli $h$ _successi_ e $(n-h)$ _insuccessi_
 
-la [[Definizione di Probabilita|probabilità]] totale è $1$ come conseguenza dell _binomiale_.
+la somma di tutte le probabilità ovvero la [[Definizione di Probabilita|probabilità]] totale  è $1$ come conseguenza del _binomiale_.
+
+
+> [!tip]
+> Questa definizione é identica al [[Polinomio di Bernstein|polinomio di bernstein]] 
 
 
 > [!tip] Variabile di bernulli 
->con $n=1$ diventa la _[[Variabili Aleatorie Notevoli - Bernulli|variabile di bernulli]]_ 
+>con $n=1$ é identica alla _[[Variabili Aleatorie Notevoli - Bernulli|variabile di bernulli]]_ 
 
 
 #### Momenti e varianza
-una _variabile_ $X$ _Binomiale_ $B(n,p)$ può essere vista come somma di $n$ [[Variabili Aleatorie Notevoli - Bernulli|variabili di Bernoulli]] $B(p)$ [[Indipendenza di Variabili aleatorie|indipendenti]] e si ha quindi che i [[Variabili aleatoria - Momenti|momenti]] _primi e secondsi_ sono $$\begin{array}{}
+una _variabile_ $X$ _Binomiale_ $B(n,p)$ può essere vista come somma di $n$ [[Variabili Aleatorie Notevoli - Bernulli|variabili di Bernulli]] $B(p)$ [[Indipendenza di Variabili aleatorie|indipendenti]] e si ha quindi che i [[Variabili aleatoria - Momenti|momenti]] _primi e secondi_ sono $$\begin{array}{}
 \mathbb{E}[X] & = & np\\ \mathbb{E}[X^{2}] & = & np+np^{2}(n-1)
 \end{array}
 $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$

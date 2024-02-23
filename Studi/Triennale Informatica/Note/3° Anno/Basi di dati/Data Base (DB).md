@@ -1,8 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Triennale informatica MOC]]"
+  - DB
 ---
 # DataBase (DB)
 

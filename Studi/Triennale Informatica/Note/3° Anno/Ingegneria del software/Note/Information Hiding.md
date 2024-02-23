@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Ingegneria del Software
-topic: 
+Subject: Ingegneria del Software
+topic: nota
 tags: IS
 Status: ToReview
 ---

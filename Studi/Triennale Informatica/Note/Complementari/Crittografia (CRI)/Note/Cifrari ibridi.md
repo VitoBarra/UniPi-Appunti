@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Crittografia
-topic: 
+Subject: Crittografia
+topic: nota
 tags: CRI
 ---
 

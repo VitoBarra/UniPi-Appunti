@@ -1,8 +1,7 @@
 ---
-type: nota
-course: Reti e Laboratorio di reti
-topic: 
-tags: RETI_LAB3 
+Subject: Reti e Laboratorio di reti
+topic: nota
+tags: RETI_LAB_III
 ---
 
 Prev: [[Reti - lab 3]]

@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
+Subject: Algebra Lineare
+topic: nota
 tags: AL
 ---
 

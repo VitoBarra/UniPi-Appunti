@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
+Subject: Architettura E Sistemi Operativi
+topic: nota
 tags: AESO
 ---
 

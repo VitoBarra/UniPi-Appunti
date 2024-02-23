@@ -1,12 +1,9 @@
-
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
-tags: AESO
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+topic:
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Translation look aside buffer (TLB)
 ---

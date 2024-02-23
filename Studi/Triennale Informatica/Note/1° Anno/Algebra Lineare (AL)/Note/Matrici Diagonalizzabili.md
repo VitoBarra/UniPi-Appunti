@@ -1,15 +1,13 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL Imm2Text 
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
+  - Imm2Text
+topic:
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Matrici Diagonalizzabili
 ---
-sia un [[Isomorfismo e Endomorfismo#Endomorfismo|endomorfismo]] $F:V \rightarrow  V$ è _diagonalizzabile_ $\iff$ esiste una base $\mathcal{B}$ di $V$ è composta solo da [[Autovettori e Autovalori|autovettori]] $\iff$la [[Matrice Associata]] $[f]^\mathcal{B}_\mathcal{B}$ è diagonale e contiene solo autovalori sulla diagonale
+_sia_ un [[Isomorfismo e Endomorfismo#Endomorfismo|endomorfismo]] $F:V \rightarrow  V$ è _diagonalizzabile_ $\iff$ esiste una base $\mathcal{B}$ di $V$ è composta solo da [[Autovettori e Autovalori|autovettori]] $\iff$la [[Matrice Associata]] $[f]^\mathcal{B}_\mathcal{B}$ è diagonale e contiene solo autovalori sulla diagonale
 
 $$
 A=

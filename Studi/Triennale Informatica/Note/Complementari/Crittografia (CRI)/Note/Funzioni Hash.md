@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
+Subject: "[[Programmazione e Algoritmica (PEA)]]"
+topic: nota
 tags:
-  - ProgAlgo
-Parent MOC: "[[Programmazione Algoritmica (ProgAlg)]]"
+  - PEA
 ---
 # Funzioni Hash
 ---

@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Ricerca Operativa
-topic: 
-tags: RO Problema 
+Subject: "[[Ricerca Operativa (RO)]]"
+tags:
+  - RO
+topic:
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Problema del flusso massimo
 ---

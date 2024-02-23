@@ -1,8 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Studi MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Studi MOC]]"
+  - ML
 ---
 
 # Magistrale Machine Learning MOC

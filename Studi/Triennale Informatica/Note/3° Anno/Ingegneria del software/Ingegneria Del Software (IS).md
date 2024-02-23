@@ -1,9 +1,8 @@
 ---
-type: MOC
+Parent MOC: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - IS
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 # Ingegneria Del Software (IS)
 

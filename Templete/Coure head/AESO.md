@@ -1,11 +1,10 @@
 ---
-Course: "[[Architetture e sistemi operativi (AESO)]]"
-Subject: 
-Area: 
-Topic: 
-SubTopic: 
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
 tags:
   - AESO
+Area: 
+topic: 
+SubTopic:
 ---
 
 # {{title}}

@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
-tags: ProgAlgo Algoritmo 
+Subject: "[[Programmazione e Algoritmica (PEA)]]"
+tags:
+  - PEA
+topic:
 ---
 
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
 
 # Breadth-Frist
 ---

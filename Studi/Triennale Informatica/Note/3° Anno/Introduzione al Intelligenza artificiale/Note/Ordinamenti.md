@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Fondamenti Di Informatica
-topic: 
+Subject: Fondamenti Di Informatica
+topic: nota
 tags: FDI
 ---
 

@@ -1,9 +1,10 @@
 ---
-type: MOC 
-tags: MOC RETI_LAB3
+Parent MOC: "[[Triennale informatica MOC]]"
+tags:
+  - MOC
+  - RETI_LAB_III
 ---
 
-Prev: [[Triennale informatica MOC]]
 
 # Reti - lab 3
 

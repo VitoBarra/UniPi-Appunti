@@ -1,10 +1,9 @@
 ---
-Course: "[[Interazione Uomo Macchina (IUM)]]"
+Subject: "[[Interazione Uomo Macchina (IUM)]]"
 tags:
   - IUM
-Subject: 
 Area: 
-Topic: 
+topic: 
 SubTopic:
 ---
 # Acquisizione modelli 3D dal mondo fisico

@@ -1,9 +1,8 @@
 ---
-type: MOC
+Subject: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - IA
-Parent MOC: "[[Triennale informatica MOC]]"
 ---
 
 # Introduzione al Intelligenza Artificiale (IIA)

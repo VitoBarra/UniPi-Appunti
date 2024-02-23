@@ -1,8 +1,7 @@
 ---
-Course: "[[Fondamenti Del Informatica (FDI)]]"
-Subject: 
+Subject: "[[Fondamenti Del Informatica (FDI)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - FDI

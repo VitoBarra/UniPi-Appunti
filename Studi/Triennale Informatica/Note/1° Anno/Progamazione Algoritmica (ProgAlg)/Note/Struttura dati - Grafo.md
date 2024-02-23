@@ -1,11 +1,8 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
+Subject: "[[Programmazione e Algoritmica (PEA)]]"
 tags:
-  - ProgAlgo
-  - Data_Structure
-Parent MOC: "[[Programmazione Algoritmica (ProgAlg)]]"
+  - PEA
+topic: Strutture Dati
 ---
 # Grafo
 ---

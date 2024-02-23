@@ -1,8 +1,7 @@
 ---
-Course: "[[Computer Grafica (CG)]]"
-Subject: Computer Grafica
+Subject: "[[Computer Grafica (CG)]]"
 Area: 
-Topic: 
+topic: 
 SubTopic: 
 tags:
   - CG
@@ -17,11 +16,11 @@ le _trasformazioni geometriche_ sono [[Funzioni|funzioni]] che mappano _punti in
 le operazioni qui elencate sono fatte sul singolo vertice ma l effetto complessivo di applicare la trasformazione a tutti i vertici del oggetto e quello di aver applicato la trasformazione al oggetto stesso
 
 ##### Traslazioni
-la _traslazione_ è una [[Trasformazioni affini|trasformazione affina]] ed è l  _operazione_ di spostare nello spazio un _vertice_.
+la _traslazione_ è una [[Applicazioni affini|trasformazione affina]] ed è l  _operazione_ di spostare nello spazio un _vertice_.
 solitamente vengono definite come $$T_{v}(\boldsymbol{p})=\boldsymbol{p}+\mathit{
 \boldsymbol{v}}$$
 ##### Scaling
-per _Scaling_ è una [[Trasformazioni affini|trasformazione affine]] ed è ed è l _operazione_ di cambiare la dimensione complessiva del oggetto mantenendone le proporzioni questo è fatto con $$S_{(s_x,s_y)}(\boldsymbol{p}) = \begin{bmatrix}
+per _Scaling_ è una [[Applicazioni affini|trasformazione affine]] ed è ed è l _operazione_ di cambiare la dimensione complessiva del oggetto mantenendone le proporzioni questo è fatto con $$S_{(s_x,s_y)}(\boldsymbol{p}) = \begin{bmatrix}
 s_x p_{x} \\
 s_y p_{y}
 \end{bmatrix}$$
@@ -31,7 +30,7 @@ questa operazione puo essere
 con una trasformazione _uniforme_ si _mantengono_ le proporzioni mentre un uno _non uniforme_ no 
 ![[IMG_0729.jpeg]]
 ##### Rotazioni
-una _rotazione_ è una [[Trasformazioni affini|trasformazione affine]] ed è la rotazione un punto nello spazio seguendo la formula $$R_{\alpha}(\boldsymbol{p})=\begin{bmatrix}
+una _rotazione_ è una [[Applicazioni affini|trasformazione affine]] ed è la rotazione un punto nello spazio seguendo la formula $$R_{\alpha}(\boldsymbol{p})=\begin{bmatrix}
 p_{x}\cos(\alpha)-p_{y}\sin (\alpha) \\
 p_{x}\sin(\alpha)+p_{y} \cos(\alpha)
 \end{bmatrix}$$ e questa formula puo essere _dimostrata_ seguendo i passaggi.
@@ -59,7 +58,7 @@ concludendo cosi la dimostrazione
 ![[IMG_0730.jpeg]]
 
 ##### Shearing
-lo _shearing_ è una [[Trasformazioni affini|trasformazione affine]] ed è  per cui i punti vengono _scalati_ in una dimensione in modo _proporzionale_ ad una altra _dimensione_ 
+lo _shearing_ è una [[Applicazioni affini|trasformazione affine]] ed è  per cui i punti vengono _scalati_ in una dimensione in modo _proporzionale_ ad una altra _dimensione_ 
 
 $$Sh_{(h,k)}(\boldsymbol{p})=\begin{bmatrix}
 1 & k  \\
@@ -100,7 +99,7 @@ p_{x}\\p_{y}
  non essendo una _[[Combinazioni Lineari|combinazione lineare]]_ la  _traslazione_ non puo essere espressa nello stesso modo.
  
 #### Matrici Roto-traslazioni
-usando le _[[Coordinate omogenee|coordinate omogenee]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrice|matrice]] detta _matrice di [[Trasformazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
+usando le _[[Coordinate omogenee|coordinate omogenee]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrice|matrice]] detta _matrice di [[Applicazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
 a_{xx} & a_{xy} & v_{x} \\
 a_{yx}  & a_{yy}& v_{y}  \\
 0 & 0 & 1  

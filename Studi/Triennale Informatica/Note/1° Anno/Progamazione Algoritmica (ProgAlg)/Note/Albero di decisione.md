@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
-tags: ProgAlgo
+Subject: Programmazione e Algoritmica
+topic: nota
+tags: PEA
 ---
 
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
+Prev: [[Programmazione e Algoritmica (PEA)]]
 
 # Albero di decisione
 ---

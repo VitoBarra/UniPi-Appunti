@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Crittografia
-topic: 
+Subject: "[[Crittografia (CRI)]]"
+topic: nota
 tags:
   - CRI
-Parent MOC: "[[Crittografia (CRI)]]"
 ---
 # Cifrario One-time Pad
 ---

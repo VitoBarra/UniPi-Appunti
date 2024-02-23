@@ -1,12 +1,9 @@
 ---
-type: nota
-course: Paradigmi Di Programmazione
-topic: 
-tags: PDP
+Subject: "[[Paradigmi Di Programmazione(PDP)]]"
+tags:
+  - PDP
+topic:
 ---
-
-Prev: [[Paradigmi Di Programmazione(PDP)]]
-
 # Gestore della memoria
 ---
 

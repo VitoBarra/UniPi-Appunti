@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Calcolo Numerico
-topic: 
+Subject: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
-Parent MOC: "[[Calcolo Numerico(CN)]]"
+topic:
 ---
 # Interpolazione Lineare
 ---

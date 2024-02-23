@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Geometria analitica
-topic: 
+Subject: "[[Geometria analitica (GA)]]"
+topic: nota
 tags:
   - GA
-Parent MOC: "[[Geometria analitica (GA)]]"
 ---
 
 # Rette perpendicolari

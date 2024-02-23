@@ -1,12 +1,10 @@
 ---
-type: nota
-course: Reti e Laboratorio di reti
+Subject: "[[Reti - lab 3]]"
+tags:
+  - RETI_LAB_III
 topic: 
-tags: RETI_LAB3
 Status: ToReview
 ---
-
-Prev: [[Reti - lab 3]]
 
 # Metriche di valutazione di una rete
 ---

@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Elementi di calcolabilita e complessita
-topic: 
+Subject: Elementi di calcolabilita e complessita
+topic: nota
 tags: ECC
 ---
 

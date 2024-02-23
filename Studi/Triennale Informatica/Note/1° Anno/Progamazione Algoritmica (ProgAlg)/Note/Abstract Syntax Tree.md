@@ -1,11 +1,9 @@
 ---
-type: nota
-course: Programmazione e Algoritmica
-topic: 
-tags: ProgAlgo
+Subject: "[[Programmazione e Algoritmica (PEA)]]"
+tags:
+  - PEA
+topic:
 ---
-
-Prev: [[Programmazione Algoritmica (ProgAlg)]]
 
 # Abstract Syntax Tree
 ---

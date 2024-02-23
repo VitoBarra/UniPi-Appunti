@@ -1,13 +1,9 @@
-
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
-tags: AESO
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+topic:
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Mappe Di Karnaugh
 ---
 le mappe di _Karnaugh_ servono a semplificare le [[Espressioni Booleane]] con un massimo di 4 variabili.

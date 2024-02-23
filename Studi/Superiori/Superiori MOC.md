@@ -1,8 +1,7 @@
 ---
-type: MOC
+Parent MOC: "[[Studi MOC]]"
 tags:
   - MOC
-Parent MOC: "[[Studi MOC]]"
 ---
 # Superiori MOC
 

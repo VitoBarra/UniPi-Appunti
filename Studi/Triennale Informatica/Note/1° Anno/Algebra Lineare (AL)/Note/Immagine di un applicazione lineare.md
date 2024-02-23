@@ -1,18 +1,12 @@
 ---
-type: nota
-course: Algebra Lineare
-topic: 
-tags: AL
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Immagine di un applicazione lineare
 ---
-
-### Definizione
-sia $f:V \rightarrow W$ un [[Applicazioni Lineari|applicazione lineare]]. Come tutte le
-funzioni, la $f$ ha una immagine che indichiamo con $Im(f) \subset W$ questa è un sottospazio di $W$
+sia $f:V \rightarrow W$ un [[Applicazioni Lineari|applicazione lineare]]. 
+Come tutte le funzioni, la $f$ ha una immagine che indichiamo con $Im(f) \subset W$ questa è un sottospazio di $W$
 
 $$
 f \ è \ surgettuva \iff Im(f) = W

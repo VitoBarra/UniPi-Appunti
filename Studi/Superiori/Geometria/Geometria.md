@@ -1,10 +1,9 @@
 ---
 Parent MOC: "[[Triennale informatica MOC]]"
-Type: MOC
 tags:
   - MOC
+  - GEOM
 ---
-
 # Geometria
 
 ## Course MOC  📒

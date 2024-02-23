@@ -1,7 +1,6 @@
 ---
-type: nota
-course: Statistica
-topic: 
+Subject: Statistica
+topic: nota
 tags: STAT
 ---
 

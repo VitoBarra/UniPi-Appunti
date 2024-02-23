@@ -1,10 +1,8 @@
 ---
-type: nota
-course: Architettura E Sistemi Operativi
-topic: 
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
+topic: nota
 tags:
   - AESO
-Parent MOC: "[[Architetture e sistemi operativi (AESO)]]"
 ---
 # Memoria Paginata
 ---

@@ -1,11 +1,10 @@
 ---
-type: nota
-course: Analisi
-topic: 
-tags: Analisi
+Subject: "[[Analisi]]"
+topic: nota
+tags:
+  - Analisi
 ---
 
-Prev: [[Analisi]]
 
 # Delopithal
 ---
