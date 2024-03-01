@@ -1,7 +1,7 @@
 ---
 Subject: "[[Computer Grafica (CG)]]"
 Area: 
-topic: 
+topic: "[[Sistemi di rappresentazioni dei colori]]"
 SubTopic: 
 tags:
   - CG

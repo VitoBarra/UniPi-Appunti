@@ -37,6 +37,8 @@ _se_ la successione ${x_k}$ con $x_k \not=\alpha$
 _allora_ l [[Ordine di convergenza|ordine di convergenza]] è almeno _quadratico_ ovvero
 	$$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$
 - se $\ell \not = 0$ é quadratica altrimenti se $\ell = 0$ è più che quadratica siccome il numeratore va a $0$ _più velocemente_ del denominatore 
+
+
 ##### Dimostrazione di convergenza locale
 poiché $f'(\alpha) \not = 0$ allora $f'(\alpha)$ avrà un segno e dal [[Teorema della permanenza del segno|Teorema della permanenza del segno]] possiamo dire $\exists \eta>0: \forall x \in [\alpha-\eta,\alpha+\eta] \ \ \ \ \ f'(x)\not =0$ 
 mi definisco una funzione 
@@ -53,6 +55,7 @@ g'(x) & = &  1- \cfrac{f'(x)f'(x) -f''(x)f(x)}{[f'(x)]^{2}} \\
 \end{array}
 $$
  e a questo punto ho quasi finito siccome mi basta dimostrare che $|g'(\alpha)|<1$ e usare il _[[#Corollario|corollario del punto fisso]]_. siccome $f'(\alpha) \not = 0$  allora $g'(x)$ é ben definita e siccome $f(\alpha) = 0 \implies g'(\alpha) =0$ quindi ho che $|g'(\alpha)|<1$ e di conseguenza il metodo _converge localmente_
+
 ##### Dimostrazione di convergenza quadratica
 dobbiamo dimostrare che $$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$
 tenda ad un numero. quindi bisogna risolvere il [[Limiti di una funzione|limite]] si fa lo [[Sviluppi di Taylor|sviluppo di Taylor]] applicato ad $f(x)$ nel punto $x_k$

@@ -13,14 +13,11 @@ la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]]_ di rasterizazione è 
 
 un problema che risolve questo algoritmi e quello di trasformare una scena 3D in una 2D proiettata sullo schermo, crea una _rasterizzazione_, ovviamente scene gia in 2D restano in 2D
 
-la _pipeline_ trasforma una sequenza di _primitive geometriche_ quali _punti_, _linee_, _triangoli_ e _poligoni_ in _pixel_ sullo schermo, genera quindi un [[Rappresentazione delle immagini#Raster Images|immagine rasterizata]]
-
-Ogni _primitiva_ e rappresentata da dei vertici, 1 per il punto 2 per le linee, 3 per i _triangoli_
-ogni _vertice_ è specificato dalle sole coordinate ma ad ogni vertice si possono aggiungere più attributi ad esempio il colore del vertice. In generale gli si puo dare qualsiasi attributo abbia senso per l applicazione.  
+la _pipeline_ trasforma una sequenza di _[[Computer grafica - Primitive Geometriche|primitive geometriche]]_  in _pixel_ sullo schermo, genera quindi un [[Rappresentazione delle immagini#Raster Images|immagine rasterizata]]  
 ![[IMG_0723.jpeg]]
 Le fasi della Pipeline _sono_:
 _Per-Vertex trasformation_ : 
-	in questa fase ogni vertice della scena viene trasformato in modo _user specific_ ovvero ogni vertice, con trasformazioni _lineare_ come [[Trasformazioni Geometriche affini|rotazioni e traslazioni]].
+	in questa fase ogni [[Computer grafica - Primitive Geometriche|vertice]] della scena viene trasformato in modo _user specific_ ovvero ogni vertice, con trasformazioni _lineare_ come [[Trasformazioni Geometriche affini|rotazioni e traslazioni]].
 _Primitive Processing_:
 	Prende in input i _vertici_ e le _primitive_ specificate per l utente e puo aggiungere delle primitive _suddividendo_ delle primitive in primitive piu piccole
 _Rasterization stage_:

@@ -8,7 +8,7 @@ tags:
 ---
 A
 
-# Proiettare una scena sullo schermo 
+# Proiettare una scena 3D in 2D 
 Data una scena nello spazio 3D  per visualizzarla bisogna [[Applicazione lineare - Proiezione|proiettarla]] in uno spazio 2D che rappresenta lo schermo
 per fare cio si segue una pipeline operazionale
 ![[Pasted image 20240210022744.png]]
@@ -182,7 +182,7 @@ il __View volume__ e' una porzione dello spazio 3D visto dalla camera.
 
 Questo si costruisce utilizzando 2 piani detti __near plane__ e __far palce__, il near plane corrisponde al View Plane utilizzato nelle definizione delle proiezioni, mentre il far plane e' un  alto piano che si utilizza per delimitare fin dove gli oggetti devono essere "visti".  
 Gli oggetti dietro in near plane e dopo il far plane (rispetto al punto di osservazione) vengono ignorati e per questo motivo i due piani vengono chiamati __Cliping planes__ siccome si utilizzano per "tagliare" la scena       
-![[Senzanome.png]]
+![[Senzanome 1.png]]
 
 il _View volume_ e'  controllato da alcuni parametri che sono:
 - $r$ right

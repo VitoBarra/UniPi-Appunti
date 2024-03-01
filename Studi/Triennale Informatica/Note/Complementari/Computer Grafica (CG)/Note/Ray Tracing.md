@@ -48,5 +48,4 @@ _siano_
    _allora_ il costo del algoritmo sarà $$cost(rayTracyng)= n_{p}k\sum^{m}_{i=0}Int(o_{i})$$Ci sono delle [[Strutture Dati|strutture dati]] che  fanno scendere il costo di $\sum^{m}_{i=0}Int(o_{i})$ ad una [[Complessita|complessita]] $O(\log (m))$ ma queste non sono adatte ad una scena dinamica siccome in quel caso si deve aggiungere il costo del _update_ della _struttura dati_.
 
 Le _primitive_ possono essere qualsiasi geometrica con cui si puo fare il test di intersezione.
-![[IMG_0781.jpeg]]
 

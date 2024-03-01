@@ -9,9 +9,7 @@ tags:
 
 # Trasformazioni Geometriche affini
 ---
-
-#### Trasformazione geometriche
-le _trasformazioni geometriche_ sono [[Funzioni|funzioni]] che mappano _punti in punti_ e _vettori in vettori_ e quando si parla _trasformare_ un _oggetto_ si intende su tutti i punti e i vettori del _oggetto_ 
+le __trasformazioni geometriche__ sono [[Funzioni|funzioni]] su [[Computer grafica - Primitive algebriche|primitive algebriche]] che mappano _[[Computer grafica - Primitive algebriche|punti]] in punti_ e _[[Computer grafica - Primitive algebriche|vettori]] in vettori_ e quando si parla _trasformare_ un _oggetto_ si intende su tutti i punti e i vettori del _oggetto_ 
 
 le operazioni qui elencate sono fatte sul singolo vertice ma l effetto complessivo di applicare la trasformazione a tutti i vertici del oggetto e quello di aver applicato la trasformazione al oggetto stesso
 

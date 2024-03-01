@@ -1,10 +1,10 @@
 ---
-Subject: "[[UniPi-Appunti/Studi/Triennale Informatica/Note/1° Anno/Analisi/Analisi]]"
+Subject: "[[Formule Trigronometriche]]"
 topic: nota
 tags:
   - Analisi
 ---
-# Esprimere gli angoli
+# Radianti
 ---
 ### Angolo in Gradi e Radianti
 L'_angolo_ $\theta$ può essere espresso in _gradi_ o in _radianti_. La conversione è data da:
