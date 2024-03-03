@@ -26,8 +26,8 @@ Questo __modello Phong__ non prende in considerazione la visibilità della luce 
 il componente ambientale $L_{\text{ambient}}$ è un componente che approssima tutto ciò che puo venire dal ambiente circostante, come ad esempio rimbalzi dal altre superfici, senza pero calcolarlo davvero ma aggiungendo una piccola costante indipendentemente dalla situazione che dovrebbe emulare la luce che viene da tutte le direzioni.
 è definita come 
 _sia_
-- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Sistemi di rappresentazioni dei colori|colore]] della luce incidente
-- $[R_M,G_M,B_M]$ il [[Sistemi di rappresentazioni dei colori|colore]] ambientale di un [[Illuminazione - Materiali|materiale]]
+- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Rappresentazione di colori|colore]] della luce incidente
+- $[R_M,G_M,B_M]$ il [[Rappresentazione di colori|colore]] ambientale di un [[Illuminazione - Materiali|materiale]]
 _allora_ $$L_{\text{ambient}}=L_{\text{incident}}
 \begin{bmatrix}
 R_M\\G_M\\B_M
@@ -37,7 +37,7 @@ R_M\\G_M\\B_M
 #### Componente Diffusivo
 il __componente diffusivo__ del modello Phong $L_{\text{diffuse}}$ è identico a quello del [[Illuminazione - Interazione della luce con la materia#Luce Diffusa|modello lambertiano]] e quindi 
 _sia_
-- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Sistemi di rappresentazioni dei colori|colore]] della luce incidente
+- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Rappresentazione di colori|colore]] della luce incidente
 - $\boldsymbol{L}=\omega_i$ la direzione della luce
 - $N$ la [[Normalizzazione di schemi relazionali|normale]]
 - $\theta$ è l [[Angoli|angolo]] tra $\boldsymbol{L}$ e $\boldsymbol{N}$
@@ -46,7 +46,7 @@ _allora_ il __componente diffusivo__ è definito come  $$L_{\text{diffuse}} = L_
 #### Componente Speculare
 l __componente speculare__ del modello Phong $L_{\text{specular}}$ è identico a quello del [[Illuminazione - Interazione della luce con la materia#Luce Diffusa|modello lambetaniano]] e quindi 
 _sia_
-- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Sistemi di rappresentazioni dei colori|colore]] della luce incidente
+- $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Rappresentazione di colori|colore]] della luce incidente
 - $\boldsymbol{V}$ è  la direzione di vista
 - $\boldsymbol{R}$ la [[Illuminazione - Interazione della luce con la materia#Luce Riflessa|direzione di riflessione]]
 - $\alpha$ è l [[Angoli|angolo]] tra $\boldsymbol{R}$ e $\boldsymbol{V}$

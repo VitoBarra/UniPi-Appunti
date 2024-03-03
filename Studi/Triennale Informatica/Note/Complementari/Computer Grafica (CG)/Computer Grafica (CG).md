@@ -10,7 +10,7 @@ tags:
 1. [[Introduzione alla computer grafica]]
 2. [[Utilizzi della computer grafica]]
 3. [[Funzionamento della vista umana (HVS)]]
-4. [[Sistemi di rappresentazioni dei colori]]
+4. [[Rappresentazione di colori]]
 	1. [[Color Space]]
 	2. [[Color Space Assoluti standard]]
 	3. [[Color Space Relativi]]
@@ -68,7 +68,9 @@ tags:
 	1. [[Texture]]
 	2. [[Texture Mapping con Proiezione Prospettica]]
 	3. [[Texture Filtering]]
-	4. 
+	4. [[Texture - Environment mapping]]
+	5. [[Texuture - Aggiungere dettagli geometrici]]
+	6. [[Texture - Parametrizzazione mesh]]
 
 
 ### Educational Material 🧱

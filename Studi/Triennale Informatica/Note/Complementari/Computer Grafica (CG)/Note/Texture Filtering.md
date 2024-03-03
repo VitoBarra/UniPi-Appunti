@@ -9,7 +9,7 @@ SubTopic:
 
 # Texture Filtering
 ---
-per passare dal [[Pipeline di Rasterizazione|frammento]] che mantiene delle coordinate in __Texture space__ ad un [[Sistemi di rappresentazioni dei colori|colore]] corrispondente a quello sulla [[Texture|texture]] per via delle coordinate discrete dei __texel__ possono succedere due cose
+per passare dal [[Pipeline di Rasterizazione|frammento]] che mantiene delle coordinate in __Texture space__ ad un [[Rappresentazione di colori|colore]] corrispondente a quello sulla [[Texture|texture]] per via delle coordinate discrete dei __texel__ possono succedere due cose
 - _Magnification_: Il [[Texture Mapping con Proiezione Prospettica|pixel proiettato]] è piu piccolo di un __Texel__ 
 - _Minification_: il [[Texture Mapping con Proiezione Prospettica|pixel proiettato]] è piu grande di un __Texel__
 ![[Pasted image 20240301054347.png]]

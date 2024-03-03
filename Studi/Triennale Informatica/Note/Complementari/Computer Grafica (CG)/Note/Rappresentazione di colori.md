@@ -8,9 +8,9 @@ tags:
 ---
 
 
-# Sistemi di rappresentazioni dei colori
+# Rappresentazione di colori
 ---
-_colori_ sono definiti da fattori oggettivi e soggettivi:
+i __colori__ sono definiti da fattori oggettivi e soggettivi:
 i motive __oggettivi__ sono la composizione della [[Fisica - Onde|luce]], la luce è un [[Fisica - Onde|onda]]  e una [[Fisica - Energia|energia]] ed e generalmente composta da piu onde a frequenze diverse e ad ogni frequenza è associato un colore specifico, la somma di queste frequenze generano il colore della luce che vediamo, in questo cosa la luce viene delta __multicoromatica__. Nel caso dove la luce che viedamo è composta da un unica onda ad un unica frequenza abbiam che la luce è detta __monocromatica__ ad esempio i _laser_  
 i motivo __soggettivi__  dipendano da [[Funzionamento della vista umana (HVS)|il sistema visivo umano]] che è _tricromico_  ovvero è in grado di percepire 3 colori e poi a seconda della percezione di questi tre si possono percepire tutti gli altri.
 Propri per questo si possono modellizzare tutti i colori, ovvero tutte le frequenze di luce con solo 3 colori primari e da questi si derivando gli altri.
