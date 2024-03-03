@@ -40,7 +40,8 @@
   "defaultViewMode": "source",
   "spellcheck": true,
   "spellcheckLanguages": null,
-  "attachmentFolderPath": "Extra Note/GDRCartografer",
+  "attachmentFolderPath": "/",
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "vimMode": true
 }

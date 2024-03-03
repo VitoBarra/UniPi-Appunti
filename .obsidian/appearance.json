@@ -1,7 +1,10 @@
 {
   "cssTheme": "ITS Theme",
-  "baseFontSize": 17,
+  "baseFontSize": 15,
   "accentColor": "",
   "interfaceFontFamily": "",
-  "textFontFamily": "Big Caslon"
+  "textFontFamily": "Big Caslon",
+  "theme": "system",
+  "nativeMenus": false,
+  "translucency": false
 }
