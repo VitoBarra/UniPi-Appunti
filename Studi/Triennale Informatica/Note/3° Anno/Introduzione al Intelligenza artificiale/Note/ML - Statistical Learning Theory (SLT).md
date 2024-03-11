@@ -29,7 +29,7 @@ Aumentando la _complessità_ del modello sono richiesti più dati per evitare l 
 - si cerca di stimare la [[Funzioni|funzione]] sconosciuta  $f(\boldsymbol x)=d$ 
 - Si vuole minimizzare la funzione di rischio $R=\int L(d,h(\boldsymbol x))dP(\boldsymbol x,d))$ (il _vero errore su tutti i dati_ )
 - dato
-	- il valore dal theatcher ($d$) e la [[distribuzione di probabilita|distribuzione di probabilita]] $P(\boldsymbol x,d)$
+	- il valore dal theatcher ($d$) e la [[Distribuzione di probabilita|Distribuzione di probabilita]] $P(\boldsymbol x,d)$
 	- una funzione di $Loss$ 
 - si cerca una ipotesi $h \in H$ tale che $\min R$
 	- dove $H$ è lo spazio delle possibili ipotesi 

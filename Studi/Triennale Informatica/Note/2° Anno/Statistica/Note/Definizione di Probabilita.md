@@ -1,6 +1,5 @@
 ---
 Subject: "[[Statistica (STAT)]]"
-topic: nota
 tags:
   - STAT
 ---

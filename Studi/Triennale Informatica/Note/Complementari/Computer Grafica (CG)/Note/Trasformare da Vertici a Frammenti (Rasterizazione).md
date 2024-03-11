@@ -36,5 +36,3 @@ L algoritmo garantisce che  tutti i pixel della _linea_ sono _adiacenti_
 ![[IMG_0783.jpeg]]
 ![[IMG_0782.jpeg]]
 
-
-[[Eliminazione di Superfici non visibili]]

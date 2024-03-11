@@ -58,7 +58,7 @@ la __Rifrazione__ è un fenomeno che accade quando una parte della luce non vien
 - il cambio di direzione della [[Fisica- Luce|luce]] dipende sia dal materiale in cui la luce viaggia che dal materiale che la luce colpisce
 questo fenomeno è descritto dalla __legge di riflettanza__ (o legge di snell) che dice
 _sia_
-- $\eta_1, \eta_2$ gli [[Fisica- Luce|indici refrattivi]] (velocita della luce al interno di un materiale) dei materiali 1 e 2
+- $\eta_1, \eta_2$ gli [[Illuminazione - Materiali#Indice di refrazzione|indici refrattivi]] (velocita della luce al interno di un materiale) dei materiali 1 e 2
 - $\theta_{1}$ l angolo tra [[Normale di una superfice|normale]] e luce incidente
 - $\theta_2$ l angolo tra [[Normale di una superfice|normale]] e luce rifratta
 _allora_ vale che $$\eta_1\sin \theta_1=\eta_2\sin \theta_2$$

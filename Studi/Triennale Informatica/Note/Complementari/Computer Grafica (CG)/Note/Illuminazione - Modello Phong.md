@@ -9,7 +9,7 @@ SubTopic:
 
 # Illuminazione - Modello Phong
 ---
-il __modello Phong__ è un modello per calcolare l [[Illuminazione nella Computer Grafica|illuminazione locale]], è derivata empiricamente ed è piu semplice da collare rispetto al [[Illuminazione - Equazione di Radianza|equazione di irradianza]].
+il __modello Phong__ è un modello per di [[Illuminazione nella Computer Grafica|illuminazione locale]], è derivata empiricamente ed è piu semplice da collare rispetto al [[Illuminazione - Equazione di Radianza|equazione di irradianza]].
 
 il __modello Phong__ è definito astrattamente come
 _sia_
@@ -69,10 +69,10 @@ e fa variare il cose come
 
 
 ### Modello Blinn-Phong con piu luci
-l effetto della luce totale è una somma di tutta la luce nella scena e quindi il modello chhe considera $n$ luci diventa naturalmente $$
+l effetto della luce totale è una somma di tutta la luce nella scena e quindi il modello che considera $n$ luci diventa naturalmente $$
 \begin{align}{}
-L_{\text{tot}} & =L_{\text{reflected}} +k_{\text{emmissiveMat}}\\
-L_{\text{reflected}} & =k_{\text{ambientMat}}L_{\text{ambient}}+\sum_i^nk_{\text{diffusiveMat}}L_{\text{diffuse}}+k_{\text{specularMat}}L_{\text{secular}}
+L_{\text{tot}} & = k_{\text{ambientMat}}L_{\text{ambient}} +k_{\text{emmissiveMat}}+L_{\text{reflected}}\\
+L_{\text{reflected}} & =\sum_i^n (k_{\text{diffusiveMat}}L_{\text{diffuse}}+k_{\text{specularMat}}L_{\text{secular}})
 \end{align}
 $$
 

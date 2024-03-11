@@ -7,7 +7,7 @@ topic: "[[Texture Mapping]]"
 SubTopic:
 ---
 
-# Texuture - Aggiungere dettagli geometrici
+# Texture - Aggiungere dettagli geometrici
 ---
 si puo usare utilizzare delle [[Texture|Texture]] per aggiungere dettagli geometrici agli oggetti senza pero cambiarne davvero la geometria.
 

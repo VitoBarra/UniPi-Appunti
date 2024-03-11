@@ -19,7 +19,7 @@ i _generatori_ o le _fonti_ si valutano confrontano le sequenze $S$ che _queste 
 1. _Test di frequenza_: per sequenza lunghe tutti i caratteri sono equiprobabili, ovvero tutti i caratteri compiano approssimativamente lo stesso numero di volte in $S$
 2. _Poker test_: le sotto sequenza di una data lunghezza fissa sono [[Definizione di Probabilita|equiprobabili]], ovvero non esiste una specifica sotto sequenza che compare piu spesso delle altre nella sequenza $S$
 3. _Test di autocorrelazione_: verificano che non ci siano valori o sotto sequenze che si ripetono a distanze regolari. 
-4. _Ran test_: l frequenza delle sotto sequenze massimali di simboli tutti uguali devono avere una [[distribuzione di probabilita|distribuzione di probabilita]] esponenzialmente negativa nella lunghezza della stringa 
+4. _Ran test_: l frequenza delle sotto sequenze massimali di simboli tutti uguali devono avere una [[Distribuzione di probabilita|Distribuzione di probabilita]] esponenzialmente negativa nella lunghezza della stringa 
 questi 4 test bastano per applicazioni normali ma per essere anche _crittografamene sicuri_, e quindi utilizzabili per generare chiavi segrete devono soddisfare l ulteriore 
 5. _Test di prossimo bit_:  non deve esiste un algoritmo  di tempo polinomiale in grado di _prevedere_ l $i +1$ bit della sequenza a partire dalla conoscenza degli i bit già generati con [[Definizione di Probabilita|probabilità]] maggiore di $\cfrac{1}{2}$
 

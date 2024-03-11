@@ -20,4 +20,4 @@ ci sono due tipi di illuminazione nella computer grafica
 l __Illuminazione locale__ tratta solo i casi in cui la luce arrivi alla telecamera solo o da un __emettitore__ o da una __[[Illuminazione - Interazione della luce con la materia|riflessione]]__ ignorando tutto il resto 
 ![[Pasted image 20240228010841.png]]
 #### Illuminazione globale
-l __Illuminazione globale__ oltre alla __illuminazione locale__ prende in considerazione anche i fenomeni di [[Illuminazione - Interazione della luce con la materia|refrazione]] e di [[Illuminazion - Ombre|ombre]]
+l __Illuminazione globale__ oltre alla __illuminazione locale__ prende in considerazione anche i fenomeni di [[Illuminazione - Interazione della luce con la materia|refrazione]] e di [[Illuminazione - Ombre|ombre]]

@@ -1,16 +1,13 @@
 ---
 Subject: "[[Statistica (STAT)]]"
-topic: nota
 tags:
   - STAT
 ---
 # Variabili aleatorie Gaussiane
 ---
- 
-#### Variabile Gausiana
-la funzione $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a $0$. infatti è [[Integrali|integrabile]], ma non si può esprimere la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _funzioni elementari_, fanno eccezioni alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]]_ $$\varphi(x)=\frac{1}{\sqrt{ 2 \pi }}e^{-x^{2}/2}$$ che è una funzione _[[Funzioni|pari]]_ e quindi $\varphi(x)=\varphi(-x)$ 
+la [[Funzioni|funzione]] $f(x)=e^{-x^{2}/{2}}$ è una funzione molto regolare siccome è infinitamente [[Derivate|derivabile]] e tende velocemente a $0$. infatti è [[Integrali|integrabile]], ma non si può esprimere la  _primitiva_ di $\int^{t}_{0} e^{-x^{2}/2}   \, dx$  per un qualunque valore di $t$ con _[[Funzioni analitiche|funzioni elementari]]_, fanno eccezioni alcuni _casi particolari_ come $$\int^{+\infty}_{-\infty} e^{-\cfrac{x^{2}}{2}} \, dx  = \sqrt{ 2\pi }$$ e da qui dividendo abbiamo la _[[Definizione di Probabilita|densista di probabilita]] gaussiana_ $$\varphi(x)=\frac{1}{\sqrt{ 2 \pi }}e^{-x^{2}/2}$$ che è una funzione _[[Funzioni|pari]]_ e quindi $\varphi(x)=\varphi(-x)$ 
 e la sua [[Variabili aleatorie - Funzione di ripartizione|funzioni di ripartizione]] è $$\Phi(x)=\frac{1}{\sqrt{ 2\pi }}\int^{x}_{-\infty} e^{-\cfrac{t^{2}}{2}} \, dt$$questa _variabile gaussiana standard_ indicata con $N(0,1)$ è cosi importante in [[Statistica (STAT)|statistica]] che gli sono stati riservati dei simboli 
-- $\varphi(x)$ la _densita gaussiana_
+- $\varphi(x)$ la __densita gaussiana__
 - $\Phi(x)$ la _funzione di ripartizione_ 
 - $q_{\alpha}$ il $a$-[[Quantili e Percentili|quantile]]
 

@@ -19,7 +19,7 @@ _sia_
 - $x$ il punto del oggetto che si sta guardando
 - $f_r(\omega_i,\omega_r)$ la [[Illuminazione - Proprieta di riflessione dei materiali#Funzione di distribuzione Riflettanza bidirezionale (BRDF)|BRDF]] del [[Illuminazione - Materiali|materiale]]
 - $E_i(\cdot)$ l [[Illuminazione - Radiometria#Irradiance e exitance|irradianza]] proveniente da una direzione 
-_allora_ l __equazione di radianza__ è $$ \begin{align}
+_allora_ l __equazione di radianza__ o __rendering__ è $$ \begin{align}
 
 L_r(x,\omega_r) & =  \displaystyle\int_{\omega_i \in  \Omega}dL_r(x,\omega_r) \, d\omega_i \\
  & =   \displaystyle\int_{\omega_i \in  \Omega}  f_r(x,\omega_i,\omega_r)E_i(x,\omega_i)\, d\omega_i\\

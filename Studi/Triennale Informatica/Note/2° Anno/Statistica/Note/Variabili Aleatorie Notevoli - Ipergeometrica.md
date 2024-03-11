@@ -6,7 +6,7 @@ tags:
 ---
 # Variabili Aleatorie Notevoli - Ipergeometrica
 ---
-Consideriamo il caso in cui vogliamo trovate la _[[Probabilita sui numeri Reali|legge di probabilità]]_  della situazione in cui ci interessano solo _due esiti_ di una prova ripetuta $n$ volte _senza rimpiazzo_,
+Consideriamo il caso in cui vogliamo trovate la _[[Legge di Probabilita|legge di probabilità]]_  della situazione in cui ci interessano solo _due esiti_ di una prova ripetuta $n$ volte _senza rimpiazzo_,
 chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di Probabilita|probabilita]] $p\in (0,1)$ essendo _senza rimpiazzo_ $p$  varia ad ogni estrazione.
 
 >[!tip]

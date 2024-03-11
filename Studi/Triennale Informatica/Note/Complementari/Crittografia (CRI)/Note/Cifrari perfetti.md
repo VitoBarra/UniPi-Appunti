@@ -20,7 +20,7 @@ la comunicazione tra un mittente $mit$ e un destinatario $dest$ è descritto tra
 ##### Definizione
 Sotto l assunzione che il _crittoanalista_  
 - Intercetti sempre $c$
-- Sappia la [[distribuzione di probabilita|distribuzione di probabilita]] dei messaggi $m$ di $Mit$
+- Sappia la [[Distribuzione di probabilita|Distribuzione di probabilita]] dei messaggi $m$ di $Mit$
 - Conosca lo _spazio delle chiavi_ $K$
 - Conosca il _cifrario utilizzato_
 

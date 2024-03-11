@@ -20,13 +20,16 @@ $$f:A \rightarrow B$$
 ##### Totali
 ad ogni elemento del dominio è associato almeno un elemento del _codominio_ 
 
+
 #####  Surgettiva
 ad ogni elemento del _Codominio_ è associato _almeno_ e del _dominio_
 ![[01B1AF8A-6AD6-4FCC-8CB9-570EFCE0A908.png]]
+
 ##### Iniettiva
 è una Funzioni che associa, a elementi distinti del dominio, elementi distinti del Codominio 
 ![[funzione-inettiva-esempio.gif]]
 ad ogni elemento del _Codominio_ è associato _al più_ un e del _dominio_
+
 #####  Biunivoche o bigettive
 una applicazione biunivoca è un _applicazione_ _totale_, _univalente_ , _surgettiva_ , _iniettiva_. 
 Questa proprietà rende l applicazione, che è anche una [[Funzioni|funzione]] una _funzione invertibile_  

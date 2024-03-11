@@ -6,9 +6,7 @@ tags:
 ---
 # Variabili Aleatorie Notevoli - Esponenziale
 ---
-
-#### Variabili esponenziali
-la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ con densita esponenziale di parametro $\lambda>0$ è definita come $$f(x)=\begin{cases}
+la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_  __esponenziale__ ha [[Legge di Probabilita|Legge di Probabilita]] definita dalla __densita esponenziale__ di parametro $\lambda>0$ e questa è definita come $$f(x)=\begin{cases}
 	\lambda e^{-\lambda x} &  x>0 \\
     0  & x \leq 0
 \end{cases}$$

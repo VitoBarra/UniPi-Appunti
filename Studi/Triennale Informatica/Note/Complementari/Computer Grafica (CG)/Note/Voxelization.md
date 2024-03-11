@@ -35,7 +35,7 @@ in una versione 2D si divide per 4 invece che per 8 e alcuni esempi sono
 ![[Pasted image 20240224015807.png]]![[Voxel oct-tree.png]]
 
 #### Rappresentazione di oggetti con Voxel
-Ogni [[Voxel]] Mantiene un float che pu essere un qualsiasi valore, Questo è mantenuto al centro del volume o dualmente in un angolo.
+Ogni __Voxel__ Mantiene un float che puo essere un qualsiasi valore, Questo è mantenuto al centro del volume o dualmente in un angolo.
 ![[Pasted image 20240224022240.png]]
 
 #### Applicazioni

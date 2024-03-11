@@ -99,7 +99,7 @@ Si toglie la codinzone del  [[#Teorema]] che dice _tutte le sequenze di bit_ son
 Anche senza quella condizione si puo dimostrare che il cifrario resta _perfetto_ ma il numero di chiavi non è piu minimo.
 
 si utilizza quindi un [[Critto analisi Statistica|approccio statistico]] e partendo dal _ipotesi_ che
-- il mittente manda messaggi fatti in accordo alla [[distribuzione di probabilita|distribuzioni di probabilità]] delle lettere della lingua scelta 
+- il mittente manda messaggi fatti in accordo alla [[Distribuzione di probabilita|distribuzioni di probabilità]] delle lettere della lingua scelta 
 - che la probabilità del prossimo carattere è in funzione dei $q-1$ precedenti
 - e in accordo alla distribuzione dei q-grammi della lingua
 si ha la "fedeltà" tanto migliore tanto piu è grande $q$ e non si generano messaggi con sequenze inesistenti nel linguaggio.

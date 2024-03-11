@@ -6,7 +6,7 @@ tags:
 ---
 # Formule della convoluzione
 ---
-La  convoluzione è un [[Operazioni algebriche|Operazione]] solitamente denotata con $*$ e questa è un usata in vari contesti come nelle [[Convolutional neuronal Network]] che prendono il nome da quest operazione e nel _imagin Processing_ che li utilizza ampiamente. 
+La  convoluzione è un [[Operazioni algebriche|Operazione]] solitamente denotata con $*$ e questa è un usata in vari contesti come nelle [[Convolutional neuronal Network]] che prendono il nome da quest operazione e nel _image Processing_ che li utilizza ampiamente ad esempio nel [[Filtering|filtering]]
 
 
 Quei ne viene mostrata l applicazione in _statistica_

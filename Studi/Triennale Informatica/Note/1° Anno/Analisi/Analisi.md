@@ -18,7 +18,7 @@ tags:
 	1. [[Continuità di una funzione]]
 	2. [[Crescenza e Decrescenza di una funzione]]
 	3. [[Massimi e minimi]]
-5. Proprietà delle operazioni e funzioni note
+5. [[Funzioni analitiche]]
 	1. [[Funzioni Polinomiali]]
 		1. [[Decomposizione di polinomi]]
 	2. [[Funzione logaritmica]]
@@ -27,7 +27,7 @@ tags:
 	5. [[Tringonometria]]
 		1. [[Radianti]]
 		2. [[Formule Trigronometriche]]
-		4. [[Steradianti]]
+		3. [[Steradianti]]
 6. [[sistema di equazioni]]
 7. [[Limiti di una funzione]]
 	1. [[Limiti notevoli]]
@@ -66,12 +66,18 @@ tags:
 	1. [[Topologia]]
 	2. [[Manifolds]]
 
+### Extra
+1. [[Integrazione numerica]]
+	1. [[Integrazione numerica - Quadratura numerica]]
+	2. [[Integrazione Monte Carlo]]
+
+
 
 ### Educational Material 🧱
 1. [[Librro Analisi Lorenzo Sassari.pdf]]
 
 
-#### Exstra
+#### Extra
 1. [Compattezza di insieme](https://www.youtube.com/watch?v=td7Nz9ATyWY)
 2. [Corso topologia](https://www.youtube.com/watch?v=Ty3ZLl7cOI0&list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1&index=3)
 3. 

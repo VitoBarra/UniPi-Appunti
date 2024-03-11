@@ -7,9 +7,11 @@ topic: "[[Pipeline di Rasterizazione]]"
 SubTopic:
 ---
 
-# Eliminazione di Superfici non visibili
+# Rimozione di Superfici Nascoste
 ---
-Se la scena ha molto [[Computer grafica - Primitive Geometriche|primitive]] è probabile che possa succedere che non tutte siano visibili contemporaneamente e questo puo succedere per 3 ragioni:
+La rimozioen delle superfici nascoste è una parte della [[Trasformare da Vertici a Frammenti (Rasterizazione)|trasforamzione da vertici a frammenti]]
+
+se la scena ha molto [[Computer grafica - Primitive Geometriche|primitive]] è probabile che possa succedere che non tutte siano visibili contemporaneamente e questo puo succedere per 3 ragioni:
 1. __occlusion culling__: sono interamente o parzialmente occluse da un altra primitiva
 	 - Serve un algoritmo di __Hidden surface removal__ (HSR) che ci permette di evitare di rasterizzare le superfici coperte
 2. __Frustum culling__: Sono totalmente fuori dal Frustum 
@@ -17,8 +19,10 @@ Se la scena ha molto [[Computer grafica - Primitive Geometriche|primitive]] è p
 3. __clipping__: Sono solo parzialmente al interno del frustum
 	- Si deve rasterizzare solo la parte al interno del frustum
 ![[Pasted image 20240214020332.png]]
+
+
 #### Hidden Surface Removal (HSR)
-Un algoritmo di questo tipo serve a rimuovere le superfici di primitive che sono coperte da altre primitive.
+Un algoritmo di questo tipo serve a rimuovere le superfici di primitive che sono coperte da altre primitive. 
 
 ##### Algoritmo del pittore 
 l Idea di base e' quella di disegnare a partire dal oggetto piu lontano in modo che gli oggetti piu vicini re-scrivano i pixel degli oggetti piu vicini.
@@ -53,7 +57,7 @@ l algoritmo dipende dal punto di osservazione (ViewPoint) e quindi  le [[Struttu
 >![[Pasted image 20240214031348.png]]
 
 #### Z-Buffer
-utilizzare lo __z-Buffer__ e' lo standard defacto per l __hidden surface removal_ (HSR)_.
+utilizzare lo __z-Buffer__ e' lo standard defacto per l __hidden surface removal (HSR)_.
 
 Durante la rasterizazione si scrive su un buffer i valori della $z$ che normalmente andrebbero ignorati. Questi vengono poi usati successivamente per decidere la distanza dal osservatore di ogni singolo pixel.
 
@@ -80,7 +84,7 @@ l algoritmo segue come
 	\end{algorithmic}
 	\end{algorithm}
 ```
-I vantaggio di questo alogirtmo e' che e' molto semplice e siccome le primitive sono processate per pixel e' altamento paralelizabili, siccome questi sono indipendenti.
+I vantaggio di questo algoritmo e' che e' molto semplice e siccome le primitive sono processate per pixel e' altamente parallelizzabile, siccome questi sono indipendenti.
 
 ![[Pasted image 20240214031511.png]]![[Pasted image 20240214031546.png]]
 

@@ -1,6 +1,5 @@
 ---
 Subject: "[[Statistica (STAT)]]"
-topic: nota
 tags:
   - STAT
 ---
@@ -9,7 +8,7 @@ tags:
 #### Variabili uniformi su intervalli
 la [[Variabili Aleatorie (Casuali)|variabile aleatoria]] definita uniforme è definita come
 _siano_  $a <b$ dati due numeri reali
-_allora_ la [[Variabili Aleatorie (Casuali)|densita]] _uniforme_ sul intervallo $[a,b]$ è costate sul intervallo e nulla al di fuori $$f(x)= \begin{cases}
+_allora_ la [[Legge di Probabilita|legge di probabilita]] è definita dalla [[Variabili Aleatorie (Casuali)|densita]] che è  _uniforme_ sul intervallo $[a,b]$ è costate sul intervallo e nulla al di fuori  definendo  $$f(x)= \begin{cases}
 	\frac{1}{b-a} & if  & a <x <b \\
 0  & else & 
 \end{cases}$$

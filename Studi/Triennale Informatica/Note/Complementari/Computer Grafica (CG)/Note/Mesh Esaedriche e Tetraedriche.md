@@ -1,7 +1,7 @@
 ---
-Subject: "[[Algebra Lineare (AL)]]"
+Subject: "[[Computer Grafica (CG)]]"
 tags:
-  - AL
+  - CG
 Area: 
 topic: "[[Rappresentazione di modelli 3D]]"
 SubTopic:

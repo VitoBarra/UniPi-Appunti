@@ -6,19 +6,17 @@ tags:
 ---
 # Variabile Aleatorie Notevoli - Gamma
 ---
-
-
-#### Densità Gamma (Definizione)
-Si chiama _densita gamma_ di parametri $r,\lambda>0$ indicata con $\Gamma(r,\lambda)$ la funzione definita come $$f(x)=\begin{cases}
+la [[Variabili Aleatorie (Casuali)|variaible aleatoria]] gamma ha [[Legge di Probabilita|Legge di Probabilita]] definita dalla __densita gamma__ di parametri $r,\lambda>0$ indicata con $\Gamma(r,\lambda)$ questa è definita come $$\Gamma(r,\lambda)=\begin{cases}
 \frac{1}{\Gamma(r)}\lambda^{r}x^{r-1}e^{-\lambda x} & x>0 \\
 0 & x\leq 0
-\end{cases}$$e questa è effettivamente una [[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densità]] siccome vale $$\int ^{+\infty}_{0}(\lambda x)^{r-1}e^{-\lambda x}\lambda \, dx = \int^{+\infty}_{0}t^{r-1}e^{-t}  \, dt=\Gamma(r) $$ con $t=(x\lambda)$. 
+\end{cases}$$dove $\Gamma(r)$ è l [[Funzione Gamma di Eulero|estesione del fattoriale a numeri reali]] 
+questa è effettivamente una [[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densità]] siccome vale $$\int ^{+\infty}_{0}(\lambda x)^{r-1}e^{-\lambda x}\lambda \, dx = \int^{+\infty}_{0}t^{r-1}e^{-t}  \, dt=\Gamma(r) $$ con $t=(x\lambda)$. 
 >[!tip]
 > la [[Variabili Aleatorie Notevoli - Esponenziale|densita esponenziale]] corrisponde alla _densita gamma_ $\Gamma(1,\lambda)$
 
 
 #### Momenti e varianza
-_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variaible aleatoria]] con [[Probabilita sui numeri Reali|densita]] $\Gamma(r,\lambda)$ 
+_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variaible aleatoria]]  $\Gamma(r,\lambda)$ 
 _allora_ questa ha tutti i [[Variabili aleatoria - Momenti|momenti]] e $\forall \beta>0$ vale $$\mathbb{E}\left[ X^{\beta}\right]= \frac{\Gamma(r+\beta)}{\Gamma(r)\lambda^{\beta}}$$ in particolare vale che i _momenti primi e secondi siano_$$
 \begin{array}
 \mathbb{E}[X] & = & \cfrac{\Gamma(r+1)}{\Gamma(r)\lambda} & = & \cfrac{r}{\lambda}  \\
