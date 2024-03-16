@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ace26109f72c0f68",
+        "id": "d653c75f59964636",
         "type": "tabs",
         "children": [
           {
-            "id": "dc1448b5263d5e58",
+            "id": "3cef1dd43ab9bbfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
+                "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "trasformazioni affini",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -95,7 +95,9 @@
         "state": {
           "type": "all-properties",
           "state": {
-            "sortOrder": "frequency"
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
           }
         }
       },
@@ -128,7 +130,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
+            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
+            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +159,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md"
+            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md"
           }
         }
       },
@@ -190,67 +192,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "dbfolder:Create a new database table": false,
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "audio-recorder:Start/stop recording": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dc1448b5263d5e58",
+  "active": "3cef1dd43ab9bbfb",
   "lastOpenFiles": [
-    "Project/Project MOC.md",
-    "GDR Note/DND5e/Il Dittatore - Campagna FJAS.md",
+    "Studi/Superiori/Geometria Analitica/Note/Rette perpendicolari.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto scalare euclideo (Dot product).md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortonormali.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Composizione di rotazioni 3D.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni Geometriche affini.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Determinante di una matrice.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Calcolare il determinante - Sviluppi di Laplace.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Matrici quadrate.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
+    "Studi/Triennale Informatica/Note/Complementari/Crittografia (CRI)/Media/IMG_0785.jpeg",
+    "Studi/Triennale Informatica/Note/1° Anno/Analisi/Note/Quaternioni.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Proiettare una scena 3D in 2D.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Applicazioni affini.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Vettoriale (Cross product).md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Frames.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Coordinate omogenee.md",
+    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Superfici implicite.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Filtering.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Illuminazione globale - Photon Mapping.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1098 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Filtering - Gaussian Blur.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1136 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1135 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing - Intersezioni.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Illuminazione globale - Radiosita.md",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1134 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1133 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1132 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1131 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1130 1 1.jpeg",
+    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1129 1 1.jpeg",
     "GDR Note/DND5e",
     "GDR Note",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Introduzione Intelligenza Artificiale (IIA).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali - Long Short-term Memory (LSTM).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzioni di attivazione - Sigmoide.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Funzione di attivazione - TanH.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Note/Reti Neurali (NN).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Intelligenza artificiale/Reti Neurali Ricorrenti (RNN).md",
-    "Studi/Triennale Informatica/Thesis/Reservoir Computing.md",
-    "Studi/Triennale Informatica/Thesis/Basi Idea And Resource.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Manipulation Lenguage.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Data Base (DB).md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/SQL - Data Declaration Lenguage.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Gestione affidabilita e concorrenza.md",
-    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Programmazione Algoritmica (ProgAlg).md",
-    "Studi/Triennale Informatica/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Note/Algoritmo di ricerca Breadth-Frist.md",
-    "Project/GridSystem/GridSystem Kanban.md",
-    "Project/GridSystem/Refactor Logic-World.md",
-    "Refactor Logic-World.md",
     "Project/GridSystem/Organization",
     "Project/GridSystem",
-    "Project/GridSystem/GridSystem - Idee e pensieri.md",
-    "Project/GridSystem/GridSystem MOC.md",
-    "Base MOC.md",
-    "Studi/Studi MOC.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/Schema relazionali - Ricerca delle chiavi.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Note/DBMS - Macchina Logica.md",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113013351.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112000749.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113013805.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112000920.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240112001156.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004339.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004302.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240113020330.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240116004315.png",
-    "Studi/Triennale Informatica/Note/3° Anno/Basi di dati/Media/Pasted image 20240114180811.png",
     "UniPi INF/Note/3° Anno/Basi di dati/Note",
     "UniPi INF/Note/3° Anno/Basi di dati/Media",
     "Untitled 1.canvas",

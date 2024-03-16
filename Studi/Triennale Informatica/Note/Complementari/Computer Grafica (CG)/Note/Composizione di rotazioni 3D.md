@@ -47,13 +47,13 @@ _allora_ tutti i valori di $\alpha$ e $\gamma$ tale che $\alpha=-\gamma$ danno l
 quando questo caso va preso in considerazione
 
 #### Rotazioni con quaternioni 
-un [[Quaternioni|quanternione]] $q=(0,x,y,z)$ rappresenta un _punto_ nello spazio $(x,y,z)$
+un [[Quaternioni|quanternione]] $q=(w,x,y,z)=(w,\boldsymbol{v})$ 
 
-considerando il _[[Quaternioni|quaternione]]_ _unitario_ $$q=\left( \cos \frac{\alpha}{2} ,\sin \frac{\alpha}{2}\boldsymbol{r}\right)$$ con $\|\boldsymbol{r}\|=1$ questo rappresenta un rotazione di tipo [[Rotazioni in 3D#Rotazione intorno ad un asse approccio geometrico|asse-angolo]]  dove i parametri $\boldsymbol{r}$ e $\alpha$ sono i parametri.
+considerando il _[[Quaternioni|quaternione]]_ _unitario_ $$q=\left( \cos \frac{\alpha}{2} ,\sin \frac{\alpha}{2}\boldsymbol{v}\right)$$ con $\|\boldsymbol{v}\|=1$ corrisponde ad ua rotazione di tipo [[Rotazioni in 3D#Rotazione intorno ad un asse approccio geometrico|asse-angolo]] dove i parametri diventano 
+- $\boldsymbol{r}=\boldsymbol{v}$ l asse di rotazione 
+- $\alpha$ rappresenta l angolo in entrambi i casi
 
- un [[Quaternioni|quaternione]] _puro_ fatto come $\boldsymbol{p}=(0,p_{x},p_{y},p_{z})$ puo interpretato come un _punto_ in posizione  $p_{x},p_{y},p_{z}$   ed essendo un _quaternione_ puo essere moltiplicato con il _quaternione unitario_ per _ruotare_ un _punto_ attorno al asse $r$ usando la seguente formula $$\mathbf{p}’=q\mathbf{p}q^{-1}$$
-
-Questa formula va _dimostrata_ e con i seguenti passaggi $$\begin{array}{}
+ un [[Quaternioni|quaternione]] _puro_ è fatto come $\boldsymbol{p}=(0,p_{x},p_{y},p_{z})$ può essere interpretato come un _punto_ in posizione  $(p_{x},p_{y},p_{z})$   questo puo essere  moltiplicato con il __quaternione unitario__ per ottenere la _rotazione_ del punto $\boldsymbol{p}$ che rappresenta attorno al asse $r$ di $\alpha$ gradi, usando la seguente formula $$\mathbf{p}’=q\mathbf{p}q^{-1}$$Dimostrazione: $$\begin{array}{}
  & q\mathbf{p}q^{-1}    \\
  = & \left( \cos \frac{\alpha}{2},\sin \frac{\alpha}{2}\boldsymbol{r} \right)(0,\boldsymbol{p})\left( \cos \frac{\alpha}{2},-\sin \frac{\alpha}{2}\boldsymbol{r} \right) \\
   = & \left( \cos \frac{\alpha}{2},\sin \frac{\alpha}{2}\boldsymbol{r} \right)\left( \sin \frac{\alpha}{2}(\boldsymbol{p}\cdot\boldsymbol{r}),\cos \frac{\alpha}{2}\boldsymbol{p}-\sin \frac{\alpha}{2}(\boldsymbol{p}\times\boldsymbol{r}) \right) \\
@@ -64,10 +64,12 @@ $$ e _applicando le seguenti_ [[Formule Trigronometriche|formule trigonometriche
 2\sin ^{2} \frac{\alpha}{2}=(1-\cos \alpha) \\
 2\cos \frac{\alpha}{2}\sin  \frac{\alpha}{2}=\sin \alpha
 \end{array}$$
-otteniamo la tesi.
+si ottiene la [[Rotazioni in 3D|formula di rodriguez]] e quindi la testi 
 
 
-con i [[Quaternioni|quaternioni]] possiamo concatenare piu rotazioni siccome moltiplicare piu _quaternioni unitario_ che (rappresentano una rotazione) restituisce un _quaternione unitario_ che corrisponde alla rotazione voluta.
+con i [[Quaternioni|quaternioni]] possiamo concatenare piu rotazioni siccome moltiplicare piu _quaternioni unitario_ (che rappresentano una rotazione) restituisce un __quaternione unitario__ e questo viene dal fatto che vale che $$\| q_1q_2 \|=\| q_1 \| \| q_2 \|   $$
+Il risultato della concatenazione corrisponde alla rotazione ottenuta effettuando le due rotazioni consecutivamente
+
 _Infatti_ si ha che 
 _siano_$$
 \begin{array}
@@ -84,11 +86,16 @@ _allora_ le due espressioni $$\begin{array}{}
 
 ##### Conversione ad altri sistemi
 _Conversine_ rotazione [[Rotazioni in 3D|angolo-asse]]$$\begin{array}{}
-\alpha=2\arctan(a_{w},\boldsymbol{a}) \\
-\boldsymbol{r}= \frac{\boldsymbol{a}}{\|\boldsymbol{a}\|}
+\alpha=2\arctan2({w},\boldsymbol{v}) \\
+\boldsymbol{r}= \cfrac{\boldsymbol{v}}{\|\boldsymbol{v}\|}
 \end{array}$$
-_Conversine_ con Matrici di rotazione
-![[IMG_0785.jpeg]]
+_Conversine_ con [[Trasformazioni Geometriche affini|Matrici di rotazione]]
+$$R_\boldsymbol{q}=\begin{bmatrix}
+1-2(q_y^2+q_z^2) & 2(q_xq_y-q_zq_w) & 2(q_xq_z+q_wq_y) \\
+2(q_xq_y+q_wq_z) & 1-2(q_x^2+q_z^2) & 2(q_yq_z-q_wq_x) \\
+2(q_xq_z-q_wq_y) & 2(q_yq_z+q_wq_x) & q-2(q_x^2+q_y^2)
+\end{bmatrix}$$
+
 
 ##### Vantaggi
 i [[Quaternioni|Quaternioni]]  si usano nelle rotazioni siccome sono

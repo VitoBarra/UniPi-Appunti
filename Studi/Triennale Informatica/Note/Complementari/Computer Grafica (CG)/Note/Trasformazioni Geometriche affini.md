@@ -55,6 +55,8 @@ $$
 concludendo cosi la dimostrazione
 ![[IMG_0730.jpeg]]
 
+Per determinare se una [[Matrice|matrice]] è di rotazione si puo controllare il [[Determinante di una matrice|determinate]]. se è uno potrebbe essere di rotazione altrimenti sicuramente non lo è
+
 ##### Shearing
 lo _shearing_ è una [[Applicazioni affini|trasformazione affine]] ed è  per cui i punti vengono _scalati_ in una dimensione in modo _proporzionale_ ad una altra _dimensione_ 
 

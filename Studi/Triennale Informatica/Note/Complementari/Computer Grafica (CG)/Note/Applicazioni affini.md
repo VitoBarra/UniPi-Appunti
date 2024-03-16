@@ -22,6 +22,7 @@ a_{yx}  & a_{yy} & v_{y}  \\
 Una trasformazione affine ha le seguente proprietà
 1. Mantiene la _[[Vettori Collineari|colinearità]]_ dei punti, ovvero due punti se sono sulla stessa linea ci restano anche dopo la trasformazione 
 2. Mantiene le _proporzioni_ ovvero presi 3 punti $p_{1},p_{2},p_{3}$ sulla stessa linea il rapporto $$\frac{\|p_{2}-p_{1}\|}{\|p_{3}-p_{1}\|}$$è preservato dopo la _trasformazione_.
+3. Preservano le linee parallele 
 
 ![[IMG_0731.jpeg]]
 

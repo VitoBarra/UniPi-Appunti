@@ -18,7 +18,7 @@ $S$ é anche detto __insieme zero__ di $f$.
 Questo tipo di superfici definiscono implicitamente se un punto é al interno o al sterno della superfice con il seguente criterio
 1. $f(\boldsymbol{p})<0 \iff$ $\boldsymbol{p}$ interno
 2. $f(\boldsymbol{p})>0 \iff$ $\boldsymbol{p}$ esterno
-3. $f(\boldsymbol{p})=0 \iff$ $\boldsymbol{p}$ é
+3. $f(\boldsymbol{p})=0 \iff$ $\boldsymbol{p}$ é sul bordo
 
 alcuni esempi sono $f(x,y)=x^{2}+y^{2}-r^{2}$
 ![[Pasted image 20240221011322.png]]

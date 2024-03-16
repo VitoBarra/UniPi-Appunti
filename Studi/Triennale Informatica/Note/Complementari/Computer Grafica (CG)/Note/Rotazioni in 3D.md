@@ -76,7 +76,7 @@ Questo metodo permette di trovare _geometricamente_ una formula per calcolare di
 
 _siano_   $\boldsymbol{p}$ il punto che vogliamo _ruotare_ attorno ad un asse $r$ di un angolo $\alpha$ e sia $\boldsymbol{p}’$ il punto di arrivo della rotazione 
 _sia_ $O_{F}$ il punto di _intersenzione_ tra il piano ortogonale e l asse di rotazione $r$
-$\boldsymbol{p}$ e $\boldsymbol{p}’$ sono sullo _stesso piano_ [[Vettori Ortogonali|ortogonale]] al asse attorno a cui voglio ruotare  
+$\boldsymbol{p}$ e $\boldsymbol{p}’$ appartengono a quel  __piano [[Vettori Ortogonali|ortogonale]]__ al asse attorno a cui voglio ruotare  
 creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $x_{F}=\boldsymbol{p}-O_{F}$ e con il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]]  l _asse_ $y_{F}=\boldsymbol{r}\times x_{r}$
 
 in questo grame il punto $p’$ ha coordinate $[\cos \alpha, \sin \alpha,0]^{T}$
@@ -86,7 +86,7 @@ mentre le coordinate del  _frame canonico_ sono $$
 \begin{array}{}
 
 \boldsymbol{p}’=\begin{bmatrix}  
-   & O_{F_{x}}\\\boldsymbol{x}_{F}\boldsymbol{y}_{F}\boldsymbol{z}_{F} & O_{F_{y}} \\
+   & O_{F_{x}}\\\boldsymbol{x}_{F}\boldsymbol{y}_{F}\boldsymbol{r} & O_{F_{y}} \\
   & O_{F_{z}}\\
 0 &1 
 \end{bmatrix}\begin{bmatrix}
@@ -94,15 +94,15 @@ mentre le coordinate del  _frame canonico_ sono $$
 \sin \alpha \\
 0 \\1
 \end{bmatrix}= \\ \\
-\cos \alpha \boldsymbol{x}_{F} +\sin \alpha  \boldsymbol{y_{F}}+0r+O_{F}
+\cos \alpha \boldsymbol{x}_{F} +\sin \alpha  \boldsymbol{y_{F}}+0\boldsymbol{r}+O_{F}
 \end{array}
 $$
-dove $O_{F}$ è la [[Applicazione lineare - Proiezione|proiezione]] di $p$ su $r$ e quindi $$O_{F}=(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{p}$$
+dove $O_{F}$ è la [[Applicazione lineare - Proiezione|proiezione]] ortogonale di $p$ su $r$ e quindi si puo riscrivere sotto forma di [[Prodotto scalare euclideo (Dot product)|dot product]]$$O_{F}=(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}$$
 e quindi $$\begin{array}{}
 x_{F} & =  & \boldsymbol{p}-\boldsymbol{O}_{F}=\boldsymbol{p}- (\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}  \\
 y_{F} & = & r \times \boldsymbol{x}_{F}= r\times (\boldsymbol{p}-\boldsymbol{O}_{F}) \\
  & = & r \times \boldsymbol{p}-r\times(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r} \\
  & = & \boldsymbol{r} \times\boldsymbol{p}
 \end{array}$$
-e quindi otteniamo la _formula di Rodriguez_:
-$$\boldsymbol{p}’=\cos \alpha \ \boldsymbol{p}+(1-\cos \alpha)(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}+ \sin \alpha (\boldsymbol{r} \times \boldsymbol{p})$$
+e quindi otteniamo la ___formula di Rodriguez___:
+$$\boldsymbol{p}’=\cos \alpha \ \boldsymbol{p}+(1-\cos \alpha)(\boldsymbol{p}\cdot \boldsymbol{r})\boldsymbol{r}+ \sin \alpha (\boldsymbol{r} \times \boldsymbol{p})$$ questa è una formula chiusa che ci permette di saltare la costruzione del [[Frames|frame]] di rotazione 

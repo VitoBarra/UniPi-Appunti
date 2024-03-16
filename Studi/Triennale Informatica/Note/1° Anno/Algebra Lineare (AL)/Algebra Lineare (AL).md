@@ -44,7 +44,8 @@ tags:
 	3. [[Rango]]
 	4. [[Teorema di Rouché - Capellii]]
 	5. [[Determinante di una matrice]]
-		1. [[Teorema di Binet]]
+		1. [[Calcolare il determinante - Sviluppi di Laplace]]
+		2. [[Teorema di Binet]]
 7. [[Applicazioni Lineari]]
 	1. Applicazione Lineari notevoli
 		1. [[Applicazione lineare - Proiezione]]

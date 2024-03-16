@@ -7,7 +7,7 @@ topic:
 SubTopic:
 ---
 
-# Introduzione Ray Tracing
+# Ray Tracing
 ---
 il _[[Algoritmi di renderizzazione|Ray Tracing]]_ è uno dei paradigmi di _renderizzazione_.
 Osservando il funzionamento fisico della luce avremmo che i _fotoni_ che arrivano dallo spazio rimbalzano sugli oggetti e l osservatore vede quei fotoni quando e se questi raggiungono il suo occhio. 
@@ -58,52 +58,6 @@ _siano_
 - $l,r$ dimensioni in view space 
 ![[Pasted image 20240310052506.png]]
 _allora_ i ray Vengono generati per ogni pixel dello schermo $(i,j)$ come $$p_x=l+\cfrac{\left(\cfrac{1}{2}+i\right)}{w}(r-l)=-\cfrac{s_x}{2}+\cfrac{\left(\cfrac{1}{2}+i\right)}{w}s_x$$ con $r=-l$ e $s_x=r-l$$$p_y=b+\cfrac{\left(\cfrac{1}{2}+j\right)}{h}(r-b)=-\cfrac{s_y}{2}+\cfrac{\left(\cfrac{1}{2}+j\right)}{w}s_y$$ con $t=-b$ e $s_y=t-b$
-
-
-#### Intersezione Ray oggetti
-la base del __ray tracing__ sono gli algoritmi di test di intersezione con i vari tipi di [[Rappresentazione di modelli 3D|modello 3D]]  
-
-##### Intersezioni superfici algebriche
-per intersecare un _ray_ con delle [[Superfici implicite|superfici algebriche]] è facile basta sostituire un punto con la definizione di raggio e trovare una soluzione infatti abbiamo che   
-
-
-intersezione di un __ray__ con una __sfera__ centrata in $c$ con raggio $r$ e rappresentata dalla [[Superfici implicite|curva implicita]] $$S=\{ \boldsymbol{p} \in  \mathbb{R}^3 \mid (\boldsymbol{p}-\boldsymbol{c})(\boldsymbol{p}-\boldsymbol{c})=r^2 \}$$ e bisogna testare se un __ray__ $\boldsymbol{o}+ t\boldsymbol{d}$ appartiene ad $S$. Si procede quindi per sostituzione 
-![[Pasted image 20240310170345.png]]
-$$
-\begin{align}
-(\boldsymbol{o}+t\boldsymbol{d}-c)(\boldsymbol{o}+t\boldsymbol{d}-\boldsymbol{c}) & =r^2\\
- ((\boldsymbol{o}-c)+t\boldsymbol{d})((\boldsymbol{o}-\boldsymbol{c})+t\boldsymbol{d}) & =r^2 \\
- \underbrace{ (\boldsymbol{o}-\boldsymbol{c})(\boldsymbol{o}-\boldsymbol{c})-\boldsymbol{r}^2 }_{ C }+t^2\underbrace{ \boldsymbol{d}^2 }_{ A }+t\underbrace{2\boldsymbol{d} (\boldsymbol{o}-\boldsymbol{c}) }_{ B }& =\boldsymbol{0}
-\end{align}
-$$
-e quindi vale che si puo scrivere come $At^2+Bt+C=0$  e quindi $$t=\cfrac{-B\pm\sqrt{(B^2-4AC)}}{2A}$$ e il numero di soluzioni reali indicano il numero di intersezioni
-![[Pasted image 20240310165822.png]]
-
-
-l per il test di intersezione di un __ray__ con un __piano__ si usa la definizione de piano come $$P=\{\boldsymbol{p} \in  \mathbb{R}^3 \mid (\boldsymbol{p}-\boldsymbol{c})\boldsymbol{n}=\boldsymbol{0} \}$$
-![[Pasted image 20240310172901.png]]
-e si a $p$ sostituisce la definizione di  un raggio ottenendo$$(\boldsymbol{o}+ t\boldsymbol{d}-\boldsymbol{c})\boldsymbol{n}=\boldsymbol{0}$$
-e quindi si ha che $$t=-\cfrac{(\boldsymbol{o}-\boldsymbol{c})\cdot\boldsymbol{n} }{d\cdot \boldsymbol{n}}$$ e vale che 
-1. $t>0 \implies$ il ray ha un intersezione
-2. $d\cdot \boldsymbol{n} \not=\boldsymbol{0} \implies$ una soluzione
-3. $d\cdot \boldsymbol{n} =\boldsymbol{0} \implies$ ray parallelo al piano
-4. $d\cdot \boldsymbol{n} \land (\boldsymbol{o}-\boldsymbol{c})\cdot\boldsymbol{n} \implies$ ray incluso totalmente nel piano
-
-
-
-
-per l intersezione con un __quad__ che è definito a partire da un frame di riferimeto $F=\{ \boldsymbol{c},\boldsymbol{x},\boldsymbol{y},\boldsymbol{n} \}$ come $$Q=\{  (\boldsymbol{x},\boldsymbol{y},\boldsymbol{0}) \mid-\boldsymbol{a}<\boldsymbol{x}<\boldsymbol{a},-\boldsymbol{b}<\boldsymbol{y}<\boldsymbol{b}\}$$
-![[Pasted image 20240310175021.png]]
-e per cercare un punto di intersezione si puo
-1. calcolare l intersezione ray-piano per trovare $t_i$
-2. esprimere $\boldsymbol{o}+t_i\cdot d$ in $F$
-3. testare se  le componenti $x,y$ coincidono
-oppure piu efficientemente si puo calcolare direttamente in object-space
-1. Esprimere il raggio in $F$ trasformandolo in $O_F+t\cdot d_F=F^{-1}\boldsymbol{o}+t\cdot F^{-1}\boldsymbol{d}$
-2. calcolare l intersezione Ray-pianoXY per cercare $t_i$ e in questo caso il test diventa $t=- \cfrac{O_{F_z}}{d_{F_z}}$
-3. testare se  le componenti $x,y$ coincidono 
-![[Pasted image 20240310175737.png]]
-
 
 
 

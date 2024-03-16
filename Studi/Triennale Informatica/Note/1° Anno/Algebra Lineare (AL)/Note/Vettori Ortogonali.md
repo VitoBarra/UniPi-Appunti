@@ -18,8 +18,8 @@ $$
 ax + by =0
 $$
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 19.png]]
-Figura 7.1. Il prodotto scalare euclideo sul piano cartesiano $\R^2$ e se $\R^3$ corrisponde alla familiare geometria euclidea; se però scegliamo un altro prodotto scalare su $\R^2$ o $\R^3$ la nozione di ortogonalità può cambiare considerevolmente.
+![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 19.png]]
+Il [[Prodotto scalare euclideo (Dot product)|prodotto scalare euclideo]] anche detto __Dot product__ sul piano cartesiano $\mathbb{R}^2$ e se $\mathbb{R}^3$ corrisponde alle [[Rette perpendicolari|rette perpendicolari (o ortogonali)]] della geometria euclidea ma se si sceglie un  prodotto scalare diverso su $\mathbb{R}^2$ o $\mathbb{R}^3$ la nozione di __ortogonalità__ può cambiare considerevolmente.
 
 Risolvendo il sistema, ne deduciamo che i vettori ortogonali ad $\begin{pmatrix}a\\b\end{pmatrix}$
  sono precisamente i vettori che stanno nella retta

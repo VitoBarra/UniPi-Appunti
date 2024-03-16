@@ -56,9 +56,10 @@ $$V_{RF} = \begin{bmatrix}
 \boldsymbol{x}_z & \boldsymbol{y}_z  &  \boldsymbol{z}_z & o_z  \\
 0 & 0 & 0 & 1
 \end{bmatrix}$$
-$V_{RF}$ ci permette di passare __View reference frame__ al __Word Space__ ed e' importante anche fare l operazione inversa e abbiamo quindi bisogno del [[Matrice inversa|inversa]] di $V_{RF}$ che essendo [[Applicazioni affini|affine]] e [[Matrici ortogonali|ortogonale]] puo essere calcolata come 
+Applicare il __View reference frame__ $V_{RF}$  ad un punto espresso in __View-space__ ci da la rappresentazione di quel punto in  __Word Space__. 
+Per passare dal __Word space__ al __View-space__ si utilizza la __View matrix__ che è l inversa [[Matrice inversa|inversa]] di $V_{RF}$ ed essendo $V_{RF}$ [[Applicazioni affini|affine]] e [[Matrici ortogonali|ortogonale]] la __View Matrix__ puo essere calcolata come 
 $$
-V_{RF}^{-1}=
+VM=V_{RF}^{-1}=
 \begin{bmatrix}
 R^T_{xyz} &(-R_{xyz}^To) \\
 0 & 1
@@ -150,13 +151,6 @@ cambiando i valori parametri della proiezione prospettica possiamo controllare c
  - $d$ alto  ci spostiamo verso la proiezione ortogonale dove le linee di proiezione sono parallele.
 
 
-possiamo anche variare la dimensione del __View Plane__ (VP)
-![[Pasted image 20240210014256.png]]
-
-![[Pasted image 20240210015150.jpg]]
-![[Pasted image 20240210015206.png]]
-
-
 
 ##### Proiezione ortografica
 La __proiezione ortografica__ e' una proiezione dove tutti le linee di proiezione (projectors) sono paraleli e [[Vettori Ortogonali|ortogonali]] al piano di vista $VP$  
@@ -182,24 +176,45 @@ il __View volume__ e' una porzione dello spazio 3D visto dalla camera.
 
 Questo si costruisce utilizzando 2 piani detti __near plane__ e __far palce__, il near plane corrisponde al View Plane utilizzato nelle definizione delle proiezioni, mentre il far plane e' un  alto piano che si utilizza per delimitare fin dove gli oggetti devono essere "visti".  
 Gli oggetti dietro in near plane e dopo il far plane (rispetto al punto di osservazione) vengono ignorati e per questo motivo i due piani vengono chiamati __Cliping planes__ siccome si utilizzano per "tagliare" la scena       
-![[Senzanome 1.png]]
+![[Senzanome.png]]
 
-il _View volume_ e'  controllato da alcuni parametri che sono:
-- $r$ right
-- $l$ left
-- $t$ top
-- $b$ bottom
-- $n$ near
-- $f$ far
-questi definisco la dimensione del near place e la distanza dal punto di osservazione e il near e far plane![[Pasted image 20240210182346 1.png]]
 
-la proiezione nella pipeline non e' l ultimo step e' siccome la forma del __View volume__ cambia con proiezioni diverse nasce il problema di dover parametrizzare la pipeline per adattarsi al tipo di View Volume, questo renderebbe pero le cose piu difficile e quindi si segue un altro approccio
 
-Si trasforma il __View Volume__ delle proiezione in un __Canonical view volume__ (_CVV_), questo farà da interfaccia comune che permettere alla pipeline di funzionare a prescindere dalla proiezione 
+#### Dimensione View palne e View Volume
+per specificare la dimensione del __View Window__ (VW) e del __View Volume__ (VV) ci si divide in due modo uno applicare solo in caso di proiezione prospettica, l altro invece applicabile piu in generale
 
-il __Canonical view volume__ e' un cubo di lato 2 centrato al origine e quindi i suoi angoli sono ai punti $[1,1,1]$ e $[-1,-1,-1]$  
+In generale la __View Window__ è un rettangolo sul __View Plane__ e scegliere è necessario a determinare  la dimensione del __View Volume__  
 
-per effettuare la trasformazione da __View space__ a __clip space__ si utilizzano le seguenti matrici.
+
+Ne caso della __proiezione Prospettica__ si ha che un modo per rappresentare la __finestra di vista__ è utilizzare Il __Field of View__ (__FOV__), Ovvero si specificano i parametri del [[Angoli|angolo]] di vista e la dimensione della finestra di vista, entrambi in modo indipendente a seconda della direzione 
+- $FoV_v = yFov$ Un [[Angoli|angolo]] per la __dimensione verticale__ quindi sul asse $y$ e questo determina la lunghezza verticale della __View Window__ $h$ 
+- $FoV_h=xFov$ Un [[Angoli|angolo]] per la dimensione orizzontale quindi sul asse $x$ e questo determina  la lunghezza orizzontale della __View Window__ $w$
+![[Pasted image 20240210014256.png]]
+![[Pasted image 20240210015150.jpg]]
+![[Pasted image 20240210015206.png]]
+In piu va specificate la distanza del __Far plane__ $f$ in modo da determinare l intero __View Volume__
+
+un modo alternativo valido per entrambi i tipi di proiezione è specificare via parametri l intero __View volume__. questi sono che sono:
+- $r$ right: distanza versodestra del rettangolo
+- $l$ left: distanza verso sinistra  del rettangolo
+- $t$ top: distanza verso l altro  del rettangolo
+- $b$ bottom:  distanza verso il basso  del rettangolo
+- $n$ near: la distanza tra il  __punto di vista__ è il __View Plane__ 
+- $f$ far: la distanza tra il __punto di vista__ e fino a dove si deve guardare 
+A seconda dei tipi di camera ottieniamo diversi View Volume, In 2D sono visti come![[Pasted image 20240210182346 1.png]]
+
+#### Cononical View Volume
+la proiezione nella pipeline non e' l ultimo step e' siccome la forma del __View volume__ cambia a seconda della proiezione scelta nasce la problematica di dover parametrizzare la pipeline per adattarsi al tipo di __View Volume__, questo renderebbe pero le cose più difficile e quindi si segue un altro approccio
+
+Si trasforma il __View Volume__ in un __Canonical view volume__ (_CVV_), questo farà da interfaccia comune che permettere alla pipeline di funzionare a prescindere dalla proiezione 
+
+il __Canonical View Volume__ (CVV) e' un cubo di lato 2 centrato al origine e quindi i suoi angoli sono ai punti $[1,1,1]$ e $[-1,-1,-1]$  
+
+
+Prima di Arrivare al __CVV__ si deve passare al __clip space__ per poter eseguire le operazioni di [[Clipping di Frammenti nascosti|clipping delle primitive]] 
+il  __Clip space__ è uno spazio 4D   che e' dove le primitive geometriche parzialmente fuori dal volume ottenuto vengono tagliate via da ciò che va renderizzato.
+
+Per effettuare la trasformazione da __View space__ a __Clip space__ si utilizzano le seguenti matrici.
 
 $$\begin{matrix}
 P_{persp}= \underbrace{ \begin{bmatrix}
@@ -216,14 +231,15 @@ P_{persp}= \underbrace{ \begin{bmatrix}
 0 & 0 & 0 & 0
 \end{bmatrix} }_{ orthographic\ \ projection }   
 \end{matrix}$$
-a questo punto siamo in una spazio 4D chiamato __Clip space__ che e' dove le primitive geometriche parzialmente fuori dal volume ottenuto vengono cancellate.
 
-Dal __clip space__ per passare al __CVV__ bisogna normalizzare i punti al suo interno. Per indicare la necessita di questo processo di normalizzazione il __CVV__ viene anche chiamato __Normalized Device Context__ (NDC) e le coordinate di questo spazio sono dette __Normalized device coordinates__ 
+Per passare dal __clip space__ al __CVV__ bisogna normalizzare i punti al suo interno. Per indicare la necessita di questo processo di normalizzazione il __CVV__ viene anche chiamato __Normalized Device Context__ (NDC) e le coordinate di questo spazio sono dette __Normalized device coordinates__ 
 ![[Pasted image 20240131002757.png]]
 ![[Immagine 2024-02-10 140419.png]]
 
+
+
 #### View Port
-la __view Port__ e' una porzione di un rettangolo piu grande chiamato __application window__ che e' dove e permesso al applicazione di disegnare i suoi elementi.
+la __View Port__ e' una porzione di un rettangolo più grande chiamato __Application Window__ che e' dove e permesso al applicazione di disegnare i suoi elementi.
 ![[Pasted image 20240131002825.png]]
 Questa ha Coordinate Discrete siccome disegna utilizzando i pixel dello schermo.
 

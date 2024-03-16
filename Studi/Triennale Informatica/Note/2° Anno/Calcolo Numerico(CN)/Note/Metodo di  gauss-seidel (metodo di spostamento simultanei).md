@@ -1,11 +1,9 @@
 ---
-Subject: Calcolo Numerico
-topic: nota
-tags: CN
+Subject: "[[Calcolo Numerico(CN)]]"
+tags:
+  - CN
+topic: "[[Metodi Iterativi per soluzioni di sistemi lineari]]"
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
-
 # Metodo di  gauss-seidel (metodo di spostamento simultanei)
 ---
 è un [[Metodi Iterativi per soluzioni di sistemi lineari|metodo iterativo]] basato su decomposizione di $A$ per il calcolo di una [[Soluzioni di un sistema lineare|soluzione di un sistema lineare]].

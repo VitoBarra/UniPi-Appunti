@@ -28,8 +28,8 @@ tags:
 			1. [[Aliasing e  Anti-Aliasing]]
 			2. [[Back Face Culling]]
 			3. [[Clipping di Frammenti nascosti]]
-	2. [[Introduzione Ray Tracing]]
-		1. [[Ray Tracing]]
+	2. [[Ray Tracing]]
+		1. [[Ray Tracing - Intersezioni]]
 	3. [[Rasterizazione VS Ray Tracing]]
 9. Trasformazioni
 	1. [[Trasformazioni Geometriche affini]]
@@ -72,6 +72,9 @@ tags:
 	11. [[Illuminazione - Ombre]]
 		1. [[Illuminazione - Aliasing nelle Ombre]]
 		2. [[Illuminazione - Occlusione ambientale]]
+	12. [[Illuminazione globale]]
+		1. [[Illuminazione globale - Radiosita]]
+		2. [[Illuminazione globale - Photon Mapping]]
 12. [[Texture Mapping]]
 	1. [[Texture]]
 	2. [[Texture Mapping con Proiezione Prospettica]]
@@ -81,6 +84,7 @@ tags:
 	6. [[Texture - Parametrizzazione mesh]]
 13. [[Immage Processing]]
 	1. [[Filtering]]
+	2. [[Filtering - Gaussian Blur]]
 
 
 ### Educational Material 🧱

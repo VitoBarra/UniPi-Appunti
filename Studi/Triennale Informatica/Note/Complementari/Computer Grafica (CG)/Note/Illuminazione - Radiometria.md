@@ -24,11 +24,11 @@ Questa unita di misura da sola non basta a specificare la luminosità di una sup
 - non distingue se il passaggio di energia è uniforme o ha aree che sono preferite rispetto ad altre
 
 
-###  Irradiance e exitance
+###  Irradiance e exitance (Radiosita)
 l __Irradiance e exitance__ (avvolte espresso chiamate anche __Radiosità incidente__ e __Radiosità uscente__) sono una misura di _Densità di area_ per __flux__ ovvero specificano quanta di __flux__ che passa per una area unitaria. Si Utilizzano due termini siccome si distingue tra _flux_ entranti e uscenti
 - __Irradiance__: Misura la quantità di luce _entrante_ o anche detta _incidente_
 - __Exitance__: Misura la quantità di luce _uscente_ 
-__Irradiance e exitance__ sono espressi come la quantità di __flux__ che passa per una superfice sufficientemente piccola anche infinitesimale e considerando superfici con flusso di __flux__ non-uniforme si definiscono la [[Funzioni|funzione]] dipendente dalla posizione sulla superfice $x$ $$E(x)=\cfrac{d\Phi(x)}{dA}$$e nel caso il flusso sia uniforme abbiamo che la formula diventi $$E=\cfrac{\Phi}{A}$$ la sua unita di misura è il __Watt su metro quadro__ ($W/m^2$)
+__Irradiance e exitance__ sono espressi come la quantità di __flux__ che passa per una superfice sufficientemente piccola anche infinitesimale e considerando superfici con flusso di __flux__ non-uniforme si definiscono la [[Funzioni|funzione]] dipendente dalla posizione sulla superfice $x$ $$E(x)=\cfrac{d\Phi(x)}{dA}$$e nel caso il flusso sia uniforme sul area abbiamo che la formula diventi $$E=\cfrac{\Phi}{A}$$ la sua unita di misura è il __Watt su metro quadro__ ($W/m^2$)
 
 dalla definizione si puo ricavare la relazione con il __flux__ come $$d\Phi = E\ dA$$
 ![[Pasted image 20240227045938.png]]

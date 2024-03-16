@@ -4,7 +4,7 @@ tags:
   - CG
 Area: 
 topic: "[[Illuminazione nella Computer Grafica]]"
-SubTopic: "[[Illuminazione - Interazione della luce con la materia]]"
+SubTopic: "[[Illuminazione - Proprieta di riflessione dei materiali]]"
 ---
 
 # Superfice lambertiana
