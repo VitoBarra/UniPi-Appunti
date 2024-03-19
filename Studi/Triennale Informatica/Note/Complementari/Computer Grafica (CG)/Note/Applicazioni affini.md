@@ -16,7 +16,7 @@ Usando le [[Coordinate omogenee|coordinate omogenee]] una __trasformazione affin
 a_{xx} & a_{xy}   & v_{x} \\
 a_{yx}  & a_{yy} & v_{y}  \\
 0 & 0 & 1  
-\end{bmatrix}$$dove la prima sotto matrice $2\times 2$ e rappresenta la parte _lineare_ ovvero _[[Trasformazioni Geometriche affini#Rotazioni|rotazione]]_ e _[[Trasformazioni Geometriche affini#Scaling|scaling]]_ e l ultima colonna rappresenta la parte _[[Sottospazii affini|affine]]_ ovvero la _traslazione_ del punto d origine 
+\end{bmatrix}$$dove la prima sotto matrice $2\times 2$ e rappresenta la parte _lineare_ ovvero _[[Trasformazioni Geometriche#Rotazioni|rotazione]]_ e _[[Trasformazioni Geometriche#Scaling|scaling]]_ e l ultima colonna rappresenta la parte _[[Sottospazii affini|affine]]_ ovvero la _traslazione_ del punto d origine 
 ![[IMG_0756.jpeg]]
 
 Una trasformazione affine ha le seguente proprietà

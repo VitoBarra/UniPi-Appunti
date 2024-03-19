@@ -28,15 +28,16 @@ e $f(x,y,z)=x^{2}+y^{2}+z^{2}-r^{2}$
 
 
 #### Normale di superfici implicite
-la [[Normale di una superfice|normale]] di una superfice é  
+la [[Normale di una superfice|normale]] di una __superfice implicita__ é  
 
 _sia_ $\boldsymbol{p}$ un punto tale che $f(\boldsymbol{p})=0$ ovvero é sulla superfice.
-_allora_ la direzione $d$ che bisogna seguire allontanandosi da $\boldsymbol{p}$ per massimizzare $f(\boldsymbol{p}+k\boldsymbol{d})$ 
-per calcolare la normale si usa qundi il gradiente come $$normal(f)=\cfrac{\nabla f(\boldsymbol{p})}{\| \nabla f(\boldsymbol{p})) \|   } = \begin{bmatrix}
-\cfrac{d}{dx}f(\boldsymbol{p}) \\
-\cfrac{d}{dy}f(\boldsymbol{p}) \\
-\cfrac{d}{dz}f(\boldsymbol{p})
-\end{bmatrix} $$
+_allora_ la normale corrisponde alla direzione $d$ che bisogna seguire allontanandosi da $\boldsymbol{p}$ per massimizzare $f(\boldsymbol{p}+k\boldsymbol{d})$ 
+per calcolare la normale si usa quindi il gradiente come $$normal(f)=\cfrac{\nabla f(\boldsymbol{p})}{\| \nabla f(\boldsymbol{p})) \|   } = 
+\cfrac{\begin{bmatrix}
+\cfrac{df(\boldsymbol{p})}{dx} \\
+\cfrac{df(\boldsymbol{p})}{dy} \\
+\cfrac{df(\boldsymbol{p})}{dz}
+\end{bmatrix}}{{\| \nabla f(\boldsymbol{p})) \|}} $$
 
 #### Operazioni booleane 
 sia  $A$ e $B$ due oggetti solidi descritti con una superfice implicita.

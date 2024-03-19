@@ -20,10 +20,20 @@ a_{x} & a_{y} & a_{z} \\
 b_{x} & b_{y} & b_{z}
 \end{bmatrix}\right)=\boldsymbol{i}(a_{y}b_{z}-b_{y}a_{z})-\boldsymbol{j}(a_{x}b_{z}-b_{x}a_{z})+\boldsymbol{k}(a_{x}b_{y}-b_{x}a_{y})$$
 ##### Proprietà algebriche
-è [[Proprietà del operazioni-Anticommutatività|Anticomutativa]] ovvero vale $$\boldsymbol{a} \times \boldsymbol{b}=-\boldsymbol{b} \times \boldsymbol{a}$$
+è [[Proprietà del operazioni-Anticommutatività|Anticomutativa]] ovvero vale $$\boldsymbol{a} \times \boldsymbol{b}=-(\boldsymbol{b} \times \boldsymbol{a})$$
 ![[IMG_0790.jpeg]]
 ed è _distributiva_ sulla somma $$\boldsymbol{a} \times(\boldsymbol{b}+\boldsymbol{c})=\boldsymbol{a} \times \boldsymbol{c}+\boldsymbol{a}\times \boldsymbol{b}$$
 ##### Proprietà geometriche
 la [[Norme Matriciali e Norme Vettoriali|norma]] (euclidea) del _prodotto vettoriale_ vale$$\|\boldsymbol{a}\times \boldsymbol{b}\|=\|\boldsymbol{a}\|\| \boldsymbol{b}\|\sin(\theta)$$  che equivale al area del _paralelogramma_ $$\boldsymbol{p},\boldsymbol{p}+\boldsymbol{a},\boldsymbol{p}+\boldsymbol{a}+\boldsymbol{b},\boldsymbol{p}+\boldsymbol{b}$$
 ![[IMG_0791.jpeg]]
 che significa che l area del triangolo $\boldsymbol{p}_{0},\boldsymbol{p}_{1},\boldsymbol{p}_{2}$ può essere calcolata come $$\|(\boldsymbol{p}_{1}-\boldsymbol{p}_{0})\times (\boldsymbol{p}_{2}-\boldsymbol{p}_{0})\|=2area(\boldsymbol{p}_{1},\boldsymbol{p}_{2},\boldsymbol{p}_{3})$$![[IMG_0792.jpeg]]
+
+
+
+
+### Cross Pruduct 2D
+il coss pruduct 2D è un prodotto scalere e vale che $$\begin{bmatrix}
+a \\b
+\end{bmatrix} \times \begin{bmatrix}
+c \\d
+\end{bmatrix} = ad -cd$$

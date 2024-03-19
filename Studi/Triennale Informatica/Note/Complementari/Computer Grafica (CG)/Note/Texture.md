@@ -19,7 +19,7 @@ La texture non deve essere necessariamente quadrata ma i lati devono essere pote
 il _texture weapping_ è la pratica di espandere il dominio delle texture da $[0,1]^2$ a $[-\infty,-\infty]\times[+\infty,+\infty]$.
 
 Questi si puo fare con $2$ strategie alternative 
-_sia_ $x$ una coordianta nel __texuture space__
+_sia_ $x$ una coordinata nel __texuture space__
 _allora_ le 2 strategia sono $$\begin{array}{}
 clapm(x) & = & min(max(0.0,x),1.0) \\
 repeat(x) & = & x-\lfloor x\rfloor

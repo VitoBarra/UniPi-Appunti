@@ -9,7 +9,7 @@ SubTopic:
 
 # Texture Mapping
 ---
-il __Texture mapping__ è il processo di applicare una [[Texture|Texture]] ad una [[Rappresentazione di modelli 3D|modello 3D]]. Fare cio è utile siccome ad esempio se volessimo colorare un [[Mesh Poligonali|mesh]] senza le texture dovremmo adattare la geometria, aggiungendo vertici, ai colori che vogliamo ottenere e questo porta velocemente ad un sistema molto inefficiente ottenendo lo stesso risultato.
+il __Texture mapping__ è il processo di applicare una [[Texture|Texture]] ad una [[Rappresentazione di modelli 3D|modello 3D]]. Fare ciò è utile siccome ad esempio se volessimo colorare un [[Mesh Poligonali|mesh]] senza le texture dovremmo adattare la geometria, aggiungendo vertici, ai colori che vogliamo ottenere e questo porta velocemente ad un sistema molto inefficiente ottenendo lo stesso risultato.
 
 Ad esempio volessimo realizzare una scacchiera con una __texture__ basterebbero 6 quads mentre senza dovremmo fare un vertice per ogni quadrato e quindi ci servono 5+64 quads 
 ![[Pasted image 20240301042024.png]] il risultato è il medesimo ma senza texture stiamo aggiungendo vertici inutilmente.

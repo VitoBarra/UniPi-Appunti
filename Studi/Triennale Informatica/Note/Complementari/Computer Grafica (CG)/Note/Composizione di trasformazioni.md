@@ -11,7 +11,7 @@ tags:
 ---
 
 #### Rotazioni
-In generale le [[Trasformazioni Geometriche affini|rotazioni]] funzionano attorno ad uno _specifico punto_, per effettuare una _rotazione_ di $\alpha$ attorno ad uno specifico _punto_ $\boldsymbol{c}$  bisogna
+In generale le [[Trasformazioni Geometriche|rotazioni]] funzionano attorno ad uno _specifico punto_, per effettuare una _rotazione_ di $\alpha$ attorno ad uno specifico _punto_ $\boldsymbol{c}$  bisogna
 1. _applicare_ la traslazione $T_{-c}$ mettendo cosi al centro il punto $\boldsymbol{c}$ 
 2. _applicare_ la rotazione $R_{\alpha}$
 3. _applicare_ la traslazione $T_{c}=T_{-c}^{-1}$ ovvero i [[Matrice inversa|inversa]] per rimettere l _oggetto_ alla posizione originale

@@ -18,14 +18,14 @@ $$
 >- $Det(A) \not= 0 \iff$
 >- Tutti gli [[Autovettori e Autovalori| autovalori]] sono $\lambda_i \not = 0 \iff$
 >- i nucleo [[Nucleo]] deve essere $ker (A) = \{0\} \iff$
->-  il  [[Rango]] pieno avvero $rank(A) = Dim(A)$  [[Dimensione di uno spazio vettoriale| ^]] 
+>-  il [[Rango]] pieno avvero il rango è uguale alla [[Dimensione di uno spazio vettoriale| dimensione dello spazio vettoriale]]  $rank(A) = Dim(A)$  
 >
 >in piu anche se 
 >- ha [[Predominanza diagonale]]
 >
 
 
-Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero, se è questo il caso allora è _non invertibile_, eventualmente se non si vede subito si può controllare dopo aver ridotto a scalino con il metodo [[Mosse di Gauss|gauss-giornad]]
+Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero, se è questo il caso allora è _non invertibile_, eventualmente se non si vede subito si può controllare dopo aver ridotto a scalino con il metodo [[Mosse di Gauss|gauss-jordan]]
 
 
 > [!note] invertibilità e sistemi lineari
@@ -36,14 +36,9 @@ Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero
 
 ### Algoritmo per ricavare la matrice inversa
 
- Si prende la matrice $n × (2n)$
-
-$$
-C = (A|l_n)
-$$
-
-ottenuta affiancando $A$ e la matrice identità $l_n$. Trasformiamo quindi $C$ usando l’algoritmo di Gauss-Jordan. Se $rk(A) = n$, alla fine dell’algoritmo tutti i pivot stanno nelle prime $n$ colonne. In particolare abbiamo ottenuto una nuova matrice $n × (2n)$
-
-$$
- C' = (I_n | A^{-1})
+ Sia $C$ una [[Matrice|matrice]]  $n \times (2n)$ definita come $$C = (A\mid I_n)$$ 
+$C$ è ottenuta affiancando ad $A$ la matrice identità $I_n$. 
+Trasformiamo  $C$ in modo da ottenere  $A$ in forma Gauss-Jordan.
+Se $A$ è invertibile, alla fine dell’algoritmo tutti i pivot stanno nelle prime $n$ colonne. In particolare abbiamo ottenuto $C'$ una nuova matrice  $n\times (2n)$ tale che$$
+ C' = (I_n \mid A^{-1})
 $$

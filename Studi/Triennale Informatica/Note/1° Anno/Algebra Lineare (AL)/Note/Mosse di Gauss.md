@@ -45,7 +45,7 @@ Per ogni riga $C_i$ di $C$, chiamiamo _pivot_ il primo elemento non nullo della 
 \end{pmatrix}
 $$
 
-#### Matrice Gauss - Jordan:
+#### Matrice Gauss - jordan
 i pivot hanno sopra e sotto degli 0
 
 da teneri in considerazione quando si risolve un sistema con Gauss - Jordanci sono due casi da considerare.

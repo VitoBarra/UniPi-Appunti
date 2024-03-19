@@ -25,6 +25,6 @@ la tecnica di Anti-Aliasing di super Sampling consiste nel renderizare la scena 
 Questo funziona ma costa molto in memoria infatti, se si usa un sample $n \times n$ costerà $n^2$ volte la memoria che sarebbe servita normalmente
 
 ##### Multi sampling anti-Aliasing (MSAA)
-per ogni pixel si utilizzano piu "sample" ovvero piu punti dello stesso pixel oltre al centro, se almeno un punto e' coperto dalla primitiva allora il framento si attiva con un intensita del colore proporzionale al numero di sample coperti
+per ogni pixel si utilizzano piu "sample" ovvero piu punti dello stesso pixel oltre al centro, se almeno un punto e' coperto dalla primitiva allora il frammento si attiva con un intensità del colore proporzionale al numero di sample coperti
 ![[Pasted image 20240216143254.png]]
 questo richiede solo piu memoria per il depth buffer e lo stencill buffer.

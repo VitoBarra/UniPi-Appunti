@@ -43,7 +43,7 @@ Possiamo costruire il frame a partire  da $View \ dirction$ e $up$.
 ricordando che stiamo  cercando un frame ortonormale i passi sono:
 1.  normalizzare $z=\cfrac{View \ direction}{\|View \ direction\|}$ e $y' = \cfrac{up}{\|up\|}$ 
 	- $y$ non e' per un vettore ortogonale a $z$ e quindi si procede come
-2. calcolare $x=z \times y'$ usando [[Prodotto Vettoriale (Cross product)|Cross product]]  
+2. calcolare $x=y' \times z$ usando [[Prodotto Vettoriale (Cross product)|Cross product]]  
 3. calcolare $y=z \times x$ usando [[Prodotto Vettoriale (Cross product)|Cross product]]   
 cosi facendo si ottengono 3 [[Vettori Ortonormali|vettorii ortonormali]]  
 ![[Immagine 2024-02-10 023037 1.png]]
@@ -139,7 +139,7 @@ p_x \\p_y \\p_z\\
 \end{bmatrix}
 $$e l operazione di dividere tutti i componenti per la quarta componente per portare il punto nella forma canonica si chiama __prespective division__ (divisine prospettica).
 
-Questa operazione __NON__ e' una [[Trasformazioni affini|trasformazione affine]] infatti preserva la colinearità tra punti ma non preserva il rapporto tra le distanze, gli angoli e le lunghezze delle linee
+Questa operazione __NON__ e' una [[Applicazioni affini|trasformazione affine]] infatti preserva la colinearità tra punti ma non preserva il rapporto tra le distanze, gli angoli e le lunghezze delle linee
  
 ###### Effetto dei parametri
 cambiando i valori parametri della proiezione prospettica possiamo controllare come cambia cio che vediamo. 
@@ -153,12 +153,12 @@ cambiando i valori parametri della proiezione prospettica possiamo controllare c
 
 
 ##### Proiezione ortografica
-La __proiezione ortografica__ e' una proiezione dove tutti le linee di proiezione (projectors) sono paraleli e [[Vettori Ortogonali|ortogonali]] al piano di vista $VP$  
+La __proiezione ortografica__ e' una proiezione dove tutti le linee di proiezione (projectors) sono paralleli e [[Vettori Ortogonali|ortogonali]] al piano di vista $VP$  
 
 ![[Immagine 2024-02-10 020704.jpg]]
 Questa si ottiene settando la coordinata $p_z$ alla distanza $-d$ (near)  questo viene dal fatto che $p'_x$ e $p'_x$ sono indipendenti da $d$ e la coordinata $p_z$ non importa siccome per motivi geometrici questa viene mappata a prescindere alla distanza $-d$ dal punto di vista.
 In forma matriciale abbiamo quindi:
-$$\boldsymbol{p}' = O_{oth} \ \boldsymbol{p} = \underbrace{ \begin{bmatrix}
+$$\boldsymbol{p}' = O_{rth} \ \boldsymbol{p} = \underbrace{ \begin{bmatrix}
 1  & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
 0 & 0 & 0 & -d \\
@@ -228,7 +228,7 @@ P_{persp}= \underbrace{ \begin{bmatrix}
 \frac{2}{r-l} & 0 & 0 & \frac{r+l}{r-l} \\
 0 & \frac{2}{t-b}  & 0 & \frac{t+b}{t-b} \\
 0 & 0 & \frac{-2}{f-n}  & -\frac{f+n}{f-n} \\
-0 & 0 & 0 & 0
+0 & 0 & 0 & 1
 \end{bmatrix} }_{ orthographic\ \ projection }   
 \end{matrix}$$
 
@@ -249,10 +249,10 @@ sia
 - $(v_x,v_y)^T$ l angolo in basso a sinistra della __view port__ 
 - $(v_X,v_Y)^T$ l angolo in alto a destra della __view port__
 per effettuare la trasformazione da __CVV__ a __view port__ bisogna 
-1. [[Trasformazioni Geometriche affini#Traslazioni|traslare]] in modo da portare l angolo in basso a sinistra al origine
+1. [[Trasformazioni Geometriche#Traslazioni|traslare]] in modo da portare l angolo in basso a sinistra al origine
 2. scalare di $\cfrac{v_X-v_x}{2}$ sul asse $x$
-3. [[Trasformazioni Geometriche affini#Scaling|scalare]] di $\cfrac{v_Y-v_y}{2}$ sul asse $y$
-4. [[Trasformazioni Geometriche affini#Traslazioni|traslare]] di $(v_x,v_y)$ 
+3. [[Trasformazioni Geometriche#Scaling|scalare]] di $\cfrac{v_Y-v_y}{2}$ sul asse $y$
+4. [[Trasformazioni Geometriche#Traslazioni|traslare]] di $(v_x,v_y)$ 
  dove i passi 2-3 servono a trasformare la faccio del CVV in un rettangolo grande quando la __View Port__ e il passo 4 serve per posizionarlo dove e' la __view port__.
  
 In forma matriciale si puo scrivere come:

@@ -20,7 +20,7 @@ in caso di __magnification__ si possono attuare due strategie.
 
 __Nearest neighbot filtering__: è la soluzione piu veloce si prende il colore del __texel__  con __centro__ piu vicino. 
 Questo pero porta al fatto che piu la texture viene ingrandita, ovvero piu la proiezione del pixel sulla texture è piccolo, piu si vedranno i singoli __texel__ dando dei risultati mediocri 
-[[Pasted image 20240301055241.png]]
+![[Pasted image 20240301055241.png]]
 una altra strategia è
 __interpolazione bi-lineare__: si prendono i 4 __texel__ piu vicini e si [[Interpolazione Lineare|interpola linearmente]] tra i 4 centri con la formula: 
 _sia_
@@ -35,7 +35,7 @@ $$
 ![[Pasted image 20240301061120.png]]
 
 alternativamente puo essere visto come un quadrato grande quanto un __texel__ centrato nelle coordinate $(u,v)$ e pesate con la la porzione dei texel coperti da quel quadrato, questo utilizzando la formula
-$$c=(1-u)(1-v)\ c_{00}+(1-u)v\ c_{01}+(1-v)\ c_{10}+uv\ c_{11}$$
+$$c=(1-u)(1-v)\ c_{00}+(1-u)v\ c_{01}+(1-v)u\ c_{10}+uv\ c_{11}$$
 ![[Pasted image 20240301061343.png]]
 
 ![[Pasted image 20240301061611.png]]

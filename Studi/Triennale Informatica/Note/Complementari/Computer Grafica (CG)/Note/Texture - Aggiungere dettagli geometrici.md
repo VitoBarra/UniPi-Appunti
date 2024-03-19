@@ -48,25 +48,23 @@ Questa funziona bene in casi in cui
 #### Tangent Space
 Una __normal map__ puo essere definita in __Object space__ ovvero nel [[Frames|frame di riferimento]] del oggetto, se cosi definita pero la normal map non puo essere riutilizzata in altri contesti siccome è sta prodotta pensando anche a dove le norme dovessero andare
 ![[Pasted image 20240302080831.png]]
-un modo per poter applicare la __normal map__ a tutte le possibili superfici __tanget space__.
-un __tange space__ è un altro [[Frames|frame]] e per calcolarlo 
+un modo per poter applicare la __normal map__ a tutte le possibili superfici è l utilizzo di __tanget space__.
+un __tange space__ è un altro [[Frames|frame]], e per calcolarlo si procede come
 _sia_
 - $t$ un punto della texture
 - $f(\cdot)$ una funzione che mappa da texture a oggetto
 - $p = f(t)$ un punto 
-- $C_t$ un [[Frames|frame]] centrato in $p$ e con assi $\boldsymbol{u}=[1,0,0],\boldsymbol{v}=[0,1,0],\boldsymbol{n}=[0,0,1]$
-_allora_ il __tangent frame per superfici analitiche__ $T_f$ è costruito come
-$$\begin{array}{}
-	\boldsymbol{u}_{os}= \cfrac{\partial f}{\partial u}(p) \\
-\boldsymbol{v}_{os}= \cfrac{\partial f}{\partial v}(p) \\
+_allora_ il __tangent frame per [[Superfici implicite|superfici analitiche]]__ $T_f$ con origine  $p$  è costruito come$$\begin{array}{}
+	\boldsymbol{u}_{os}= \cfrac{\partial f}{\partial u}(t) \\
+\boldsymbol{v}_{os}= \cfrac{\partial f}{\partial v}(t) \\
 \boldsymbol{n}_{os}= u_{os} \times v_{os}
-\end{array}$$
-in questo modo stiamo costruendo un frame che ha gli assi $X$,$Y$ in un piano tangente alla superfice e l asse $Z$ che corrisponde alla norma
+\end{array}$$in questo modo stiamo costruendo un frame che ha gli assi $X$,$Y$ in un piano tangente alla superfice e l asse $Z$ che \corrisponde alla [[Normale di una superfice|normale]] 
 ![[Pasted image 20240302080857.png]]
+![[Pasted image 20240319020707.png]]
 e a questo punto si puo mappare da texture space ad object space come $$\boldsymbol{p}_{os}=T_f \ \boldsymbol{p}_{ts}$$
 
 
-##### Calcolare il Tanget Frame di una mesh[[
+##### Calcolare il Tanget Frame di una mesh
 Per calcolare il __tangent frame__ per [[Mesh Poligonali|mesh poligonali]] si usa la seguente formula
 _sia_
 - $v_0,v_1,v_2$ dei punti in object space
@@ -79,6 +77,10 @@ con
 $$\begin{align}
 u_1  & = \cfrac{(t_0+\boldsymbol{u})-t_0) \times \boldsymbol{t}_{20}}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}}=\cfrac{\boldsymbol{u} \times \boldsymbol{t}_{20}}{\boldsymbol{t}_{10} \times \boldsymbol{t}_{20}}=\cfrac{[1,0]^T\times \boldsymbol{t}_{20}}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}}=\cfrac{t_{20_v}}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}} \\
 u_2  & =\cfrac{\boldsymbol{t}_{10}\times((t_0+u)-t_0)}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}}=\cfrac{\boldsymbol{t}_{10}\times \boldsymbol{u}}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}} =\cfrac{\boldsymbol{t}_{10}\times [1,0]^T}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}}=\cfrac{-t_{10_u}}{t_{10}\times t_{20}}
+\end{align}$$
+quindi $$\begin{align}
+u_1   & =\cfrac{t_{20_v}}{\boldsymbol{t}_{10}\times \boldsymbol{t}_{20}} \\
+u_2   & =\cfrac{-t_{10_u}}{t_{10}\times t_{20}}
 \end{align}$$
 
 ![[Pasted image 20240302085513.png]]

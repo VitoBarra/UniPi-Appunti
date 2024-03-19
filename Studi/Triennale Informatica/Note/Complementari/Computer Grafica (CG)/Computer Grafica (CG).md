@@ -32,7 +32,7 @@ tags:
 		1. [[Ray Tracing - Intersezioni]]
 	3. [[Rasterizazione VS Ray Tracing]]
 9. Trasformazioni
-	1. [[Trasformazioni Geometriche affini]]
+	1. [[Trasformazioni Geometriche]]
 		1. [[Coordinate omogenee]]
 		2. [[Applicazioni affini]]
 		3. [[Composizione di trasformazioni]]

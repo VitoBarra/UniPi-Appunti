@@ -21,14 +21,16 @@ $$
 
 ![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 18.png]]
 
-esempi:
 
 $$
+\begin{array}{}
+
 det\begin{pmatrix}
 1 & -1 & 0 \\
 2 & -1 & 5 \\
 1 & 1 & -1
-\end{pmatrix}=
+\end{pmatrix} & = \\
+
 1 \cdot
 det\begin{pmatrix}
 -1 &5 \\
@@ -43,7 +45,8 @@ det\begin{pmatrix}
 det\begin{pmatrix}
 2 &-1 \\
 1 & 1
-\end{pmatrix}= -4-7+0=-11
-
+\end{pmatrix}  & = \\
+ -4-7+0=-11
+\end{array}
 $$
 

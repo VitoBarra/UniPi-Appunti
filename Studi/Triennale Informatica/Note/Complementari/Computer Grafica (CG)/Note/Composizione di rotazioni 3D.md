@@ -89,7 +89,7 @@ _Conversine_ rotazione [[Rotazioni in 3D|angolo-asse]]$$\begin{array}{}
 \alpha=2\arctan2({w},\boldsymbol{v}) \\
 \boldsymbol{r}= \cfrac{\boldsymbol{v}}{\|\boldsymbol{v}\|}
 \end{array}$$
-_Conversine_ con [[Trasformazioni Geometriche affini|Matrici di rotazione]]
+_Conversine_ con [[Trasformazioni Geometriche|Matrici di rotazione]]
 $$R_\boldsymbol{q}=\begin{bmatrix}
 1-2(q_y^2+q_z^2) & 2(q_xq_y-q_zq_w) & 2(q_xq_z+q_wq_y) \\
 2(q_xq_y+q_wq_z) & 1-2(q_x^2+q_z^2) & 2(q_yq_z-q_wq_x) \\

@@ -17,7 +17,7 @@ la _pipeline_ trasforma una sequenza di _[[Computer grafica - Primitive Geometri
 ![[IMG_0723.jpeg]]
 Le fasi della Pipeline _sono_:
 _Per-Vertex trasformation_ : 
-	in questa fase ogni [[Computer grafica - Primitive Geometriche|vertice]] della scena viene trasformato in modo _user specific_ ovvero ogni vertice, con trasformazioni _lineare_ come [[Trasformazioni Geometriche affini|rotazioni e traslazioni]].
+	in questa fase ogni [[Computer grafica - Primitive Geometriche|vertice]] della scena viene trasformato in modo _user specific_ ovvero ogni vertice, con trasformazioni _lineare_ come [[Trasformazioni Geometriche|rotazioni e traslazioni]].
 _Primitive Processing_:
 	Prende in input i _vertici_ e le _primitive_ specificate per l utente e puo aggiungere delle primitive _suddividendo_ delle primitive in primitive piu piccole
 _Rasterization stage_:

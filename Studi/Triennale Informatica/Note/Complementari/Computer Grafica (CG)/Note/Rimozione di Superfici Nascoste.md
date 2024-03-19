@@ -56,8 +56,8 @@ l algoritmo dipende dal punto di osservazione (ViewPoint) e quindi  le [[Struttu
 >Questo Algoritmo deve essere eseguito prima di mandare le primitive nella [[Pipeline di Rasterizazione|Pipeline di Rasterizazione]] quindi nella CPU, ma le coordinate dei vertici in __view space__ si sanno solo dopo la trasformazione cosa che avviene GPU nella pipeline 
 >![[Pasted image 20240214031348.png]]
 
-#### Z-Buffer
-utilizzare lo __z-Buffer__ e' lo standard defacto per l __hidden surface removal (HSR)_.
+#### Depth-Buffer (Z-buffer)
+utilizzare lo __Depth-Buffer__ (o __z-buffer__) e' lo standard defacto per l __hidden surface removal (HSR)_.
 
 Durante la rasterizazione si scrive su un buffer i valori della $z$ che normalmente andrebbero ignorati. Questi vengono poi usati successivamente per decidere la distanza dal osservatore di ogni singolo pixel.
 

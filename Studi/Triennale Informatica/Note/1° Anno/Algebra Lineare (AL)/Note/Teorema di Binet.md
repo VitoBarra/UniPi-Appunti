@@ -1,12 +1,11 @@
 ---
-Subject: Algebra Lineare
+Subject: "[[Algebra Lineare (AL)]]"
+tags:
+  - AL
 topic: nota
-tags: AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Teorema di Binet
 ---
-_siano_ due matrici $A,B \in \mathbb{K}^{n}$ vale che il [[Determinante di una matrice|determinante]]
+_siano_ due [[Matrice|matrici]] quadrate $A,B \in \mathbb{K}^{n \times n}$ 
+allora vale che il [[Determinante di una matrice|determinante]] del loro prodotto si
 $$\det(AB)=\det(A)\det(B)$$

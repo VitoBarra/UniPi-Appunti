@@ -78,8 +78,8 @@ d_R \\d_G \\d_B \\d_{\alpha}
 $$
 l alpha della colore di destinazione non é mai usato, questo funziona perché é gia sul buffer quindi sarà gia stato applicato
 
-#### Problematiche e ottimizazioni
-alcune problematiche e ottimizazione di questa fase
+#### Problematiche e ottimizzazioni
+alcune problematiche e ottimizzazione di questa fase
 - [[Aliasing e  Anti-Aliasing]]
 - [[Back Face Culling]]
 - [[Clipping di Frammenti nascosti]]
