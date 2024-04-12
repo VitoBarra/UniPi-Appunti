@@ -1,10 +1,10 @@
 ---
-Subject: "[[UniPi-Appunti/Studi/Triennale Informatica/Note/1° Anno/Analisi/Analisi|Analisi]]"
+Subject: "[[Analisi|Analisi]]"
 tags:
   - Analisi
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 # {{title}}
 ---

@@ -33,4 +33,4 @@ dove $\|\cdot\|$ e' la [[Norme Matriciali e Norme Vettoriali#Norma vettoriale|no
 
 
 
-una problemtatica del resorvoir computing e' l inabilita a lavorare con diversi time scale, cosa che migliora usando  leaking integrator echo state macchine (LI-ESM), ovvero si ha un modo per regolare il timescale e si usano neuroni con diversi time scale nello stesso reservoir
+una problematica del resorvoir computing e' l inabilita a lavorare con diversi time scale, cosa che migliora usando  leaking integrator echo state macchine (LI-ESM), ovvero si ha un modo per regolare il timescale e si usano neuroni con diversi time scale nello stesso reservoir

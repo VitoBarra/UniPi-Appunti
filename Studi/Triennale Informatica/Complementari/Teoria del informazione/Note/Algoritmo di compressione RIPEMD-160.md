@@ -1,0 +1,1 @@
+Un algoritmo che prende una stringa e la comprime in un immagine da $160$ _bit_
