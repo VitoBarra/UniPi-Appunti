@@ -25,9 +25,10 @@ tags:
 			1. [[Rimozione di Superfici Nascoste]]
 			2. [[Interpolazione di vertici - Coordinate Baricentriche]]
 		3. [[Trasformazione Frammenti in Pixel]]
-			1. [[Aliasing e  Anti-Aliasing]]
-			2. [[Back Face Culling]]
-			3. [[Clipping di Frammenti nascosti]]
+			1. [[Blending di colore]]
+			2. [[Aliasing e Anti-Aliasing]]
+			3. [[Back Face Culling]]
+			4. [[Clipping di Frammenti nascosti]]
 	2. [[Ray Tracing]]
 		1. [[Ray Tracing - Intersezioni]]
 	3. [[Rasterizazione VS Ray Tracing]]
@@ -85,7 +86,7 @@ tags:
 13. [[Immage Processing]]
 	1. [[Filtering]]
 	2. [[Filtering - Gaussian Blur]]
-
+14. [[Special Tequinique]]
 
 ### Educational Material 🧱
 1. 

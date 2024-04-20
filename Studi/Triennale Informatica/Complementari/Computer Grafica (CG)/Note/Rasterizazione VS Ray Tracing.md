@@ -18,5 +18,5 @@ il confronto tra il [[Ray Tracing|ray tracing]] e la [[Pipeline di Rasterizazion
 
 **Rasterizzazione**:
 - La _rasterizzazione_ ha tempi di rendering più prevedibili, poiché elabora ogni poligono in modo _indipendente_.
-- gestisce l'_[[Aliasing e  Anti-Aliasing|antialiasing]]_ in modo naturale.
+- gestisce l'_[[Aliasing e Anti-Aliasing|antialiasing]]_ in modo naturale.
 - Storicamente, l'hardware grafico è stato sviluppato per la _rasterizzazione_, ma l'hardware moderno è più versatile e può essere utilizzato per qualsiasi calcolo parallelo e quindi  anche per il _ray tracing_ 

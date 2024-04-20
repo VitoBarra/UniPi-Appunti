@@ -20,6 +20,7 @@ La luce e calcolata una volta per faccia e cio porta al fatto che tutta una facc
 ![[Pasted image 20240306043614.png]]
 Questo porta a rendere piu evidente la tasselizazione della [[Mesh Poligonali|mesh]]
 ![[Pasted image 20240306043635.png]]
+
 ##### Gauraud shading
 la luce viene calcolata nei [[Computer grafica - Primitive Geometriche|vertici]] e poi interpolata con [[Interpolazione di vertici - Coordinate Baricentriche|coordinate baricentriche]] nel [[Mesh Poligonali|triangolo]]
 ![[Pasted image 20240306055550.png]]

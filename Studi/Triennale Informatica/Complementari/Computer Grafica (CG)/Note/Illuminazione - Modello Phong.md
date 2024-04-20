@@ -47,12 +47,19 @@ _allora_ il __componente diffusivo__ è definito come  $$L_{\text{diffuse}} = L_
 l __componente speculare__ del modello Phong $L_{\text{specular}}$ è identico a quello del [[Illuminazione - Interazione della luce con la materia#Luce Diffusa|modello lambetaniano]] e quindi 
 _sia_
 - $L_{\text{incident}}=[R_L,G_L,B_L]$ il [[Rappresentazione di colori|colore]] della luce incidente
-- $\boldsymbol{V}$ è  la direzione di vista
+- $\boldsymbol{V}$ è la direzione di vista
 - $\boldsymbol{R}$ la [[Illuminazione - Interazione della luce con la materia#Luce Riflessa|direzione di riflessione]]
 - $\alpha$ è l [[Angoli|angolo]] tra $\boldsymbol{R}$ e $\boldsymbol{V}$
 _allora_ il __componente diffusivo__ è definito come  $$L_{\text{specular}} = L_{\text{incident}}(\cos \alpha)^{n_s}$$e quindi per la relazione [[Prodotto scalare euclideo (Dot product)|coseno-dotpuduct]] si ha $$\cos \alpha = \boldsymbol{R} \cdot \boldsymbol{V}$$![[Pasted image 20240229211157.png]]
 ![[Pasted image 20240229211209.png]]
-una variante di questo modello chiamata __Blinn-Phong__ cambia il modo di calcolare $\cos \alpha$ ottenendo risultati simili ma risparmiando la computazione di $\boldsymbol{R}$, 
+
+L esponente $n_n$ controlla la __glossines__  (o __shinies__) della superficie, ovvero quanto è concentrato il riflesso. 
+![[Pasted image 20240229210014.png]]
+e fa variare il cose come 
+![[Pasted image 20240229211125.png]]
+
+######  Variante Phong-Blinn
+una variante di questo modello chiamata __Phong-Blinn__ cambia il modo di calcolare $\cos \alpha$ ottenendo risultati simili ma risparmiando la computazione di $\boldsymbol{R}$, 
 _sia_
 - $\boldsymbol{N}$ la [[Normale di una superfice|normale]]
 - $\boldsymbol{L}$ la direzione della luce incidente 
@@ -62,10 +69,6 @@ _allora_ con il modello __Blinn-Phong__ si calcola $$\cos \alpha = \boldsymbol{N
 questo funziona siccome il vettore $\boldsymbol{R}$ è quasi uguale a $\boldsymbol{V}$ se $\boldsymbol{N}$ è quasi la media $\boldsymbol{H}$ tra $\boldsymbol{V}$ e $\boldsymbol{L}$ 
 ![[Pasted image 20240229210848.png]]
 
-L esponente $n_n$ controlla la __glossines__ della superfice, ovvero quanto è concentrato il riflesso. 
-![[Pasted image 20240229210014.png]]
-e fa variare il cose come 
-![[Pasted image 20240229211125.png]]
 
 
 ### Modello Blinn-Phong con piu luci

@@ -7,9 +7,9 @@ topic: "[[Pipeline di Rasterizazione]]"
 SubTopic: "[[Trasformazione Frammenti in Pixel]]"
 ---
 
-# Aliasing e  Anti-Aliasing
+# Aliasing e Anti-Aliasing
 ---
-l' __Aliasing__ è una problematica della  [[Trasformazione Frammenti in Pixel|trasformazione da frammenti in pixel]] e ci si riferisce al fatto che siccome stiamo approssimando una rappresentazione in coordinate reali con delle coordinate discrete puo succedere che [[Computer grafica - Primitive Geometriche|segmenti]] diversi possono essere mappati negli stessi pixel, infatti una data lineea puo essere mappata dai infiniti segmenti, e senza una conoscenza a priori non possiamo sapere a quale segmenti la linea si riferisce.
+l' __Aliasing__ è una problematica della  [[Trasformazione Frammenti in Pixel|trasformazione da frammenti in pixel]] e ci si riferisce al fatto che siccome stiamo approssimando una rappresentazione in coordinate reali con delle coordinate discrete può succedere che [[Computer grafica - Primitive Geometriche|segmenti]] diversi possono essere mappati negli stessi pixel, infatti una data lineea può essere mappata dai infiniti segmenti, e senza una conoscenza a priori non possiamo sapere a quale segmenti la linea si riferisce.
 ![[Pasted image 20240216143210.png]]
 L effetto visivo di cio e' l avere delle linee dentellate chhe non danno l effetto di essere un effettiva linea ma ci sono delle tecniche dette di __anti-aliasing__ che mitigano questo effetto. 
 ![[Pasted image 20240216143230.png]]

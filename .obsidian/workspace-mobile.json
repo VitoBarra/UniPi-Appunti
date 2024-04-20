@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
+                "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "trasformazioni affini",
+            "query": "Phong",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "0b0f3a5a0715456f",
@@ -130,7 +130,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
+            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
+            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,7 +159,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md"
+            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md"
           }
         }
       },
@@ -207,36 +207,36 @@
   },
   "active": "3cef1dd43ab9bbfb",
   "lastOpenFiles": [
-    "Studi/Superiori/Geometria Analitica/Note/Rette perpendicolari.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortogonali.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto scalare euclideo (Dot product).md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Vettori Ortonormali.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
-    "Studi/Triennale Informatica/Note/Triennale informatica MOC.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Composizione di rotazioni 3D.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Trasformazioni Geometriche affini.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Determinante di una matrice.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Calcolare il determinante - Sviluppi di Laplace.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Matrici quadrate.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Rotazioni in 3D.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modelli avanzati.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Ombre.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Aliasing nelle Ombre.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Occlusione ambientale.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture - Environment mapping.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Trasformazione Frammenti in Pixel.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Aliasing e Anti-Aliasing.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Blending di colore.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture Filtering.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture - Aggiungere dettagli geometrici.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Rappresentazione di colori - illuminanti.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Point Cloud.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Shading.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Equazione di Radianza.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md",
+    "Studi/Triennale Informatica/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space.md",
+    "Studi/Triennale Informatica/Complementari/Interazione Uomo Macchina (IUM)/Note/Acquisizione modelli 3D dal mondo fisico.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione nella Computer Grafica.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Proprieta di riflessione dei materiali.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Materiali.md",
     "Studi/Triennale Informatica/Note/Complementari/Crittografia (CRI)/Media/IMG_0785.jpeg",
-    "Studi/Triennale Informatica/Note/1° Anno/Analisi/Note/Quaternioni.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Proiettare una scena 3D in 2D.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Applicazioni affini.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Prodotto Vettoriale (Cross product).md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Frames.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Coordinate omogenee.md",
-    "Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Note/Applicazioni Lineari.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Superfici implicite.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Filtering.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Illuminazione globale - Photon Mapping.md",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1098 1 1.jpeg",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Filtering - Gaussian Blur.md",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1136 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1135 1 1.jpeg",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Ray Tracing - Intersezioni.md",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Note/Illuminazione globale - Radiosita.md",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1134 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1133 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1132 1 1.jpeg",

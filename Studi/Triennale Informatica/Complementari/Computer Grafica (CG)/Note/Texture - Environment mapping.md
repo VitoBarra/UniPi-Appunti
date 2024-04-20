@@ -22,6 +22,7 @@ Con l assunzione che l ambiente è infinitamente lontano  si hanno due tipi di _
 
 #### Mapping su cubi
 Immaginando di piazzare un cubo attorno a tutta la scena e facendo foto a tutti i 6 lati abbiamo rappresentato tutto l ambiente.
+
 il cubo puo essere disposto come texture su 6 quadrati
 ![[Pasted image 20240302050955.png]]
 per calcolare il mapping si utilizza la seguente formula

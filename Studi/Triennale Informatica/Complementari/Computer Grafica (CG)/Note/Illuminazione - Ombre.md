@@ -11,12 +11,13 @@ SubTopic:
 ---
 le __ombre__ sono ciò che rendono piu realistica una scena aiutano a capire la forma di un oggetto in caso di __self-shadowing__ e danno informazione spaziali
 
-un ombra intuitivamente è una regione piu scura rispetto alla regione intorno al __ombra__ per via di qualche oggetto che sta bloccando l arrivo della luce a quella specifica regione.
-è formalmente definita come:
+intuitivamente un __ombra__  è una regione più scura rispetto alla regione intorno al __ombra__ stessa per via di qualche oggetto che sta bloccando l’ arrivo della luce a quella specifica regione, ovvero è una regione più scura circondata da una regione piu chiara
+
+formalmente abbiamo che l __ombra__ è definita come :
 	un punto $p$ è detto in __ombra__ rispetto ad una [[Illuminazione - Tipi di fonte di luce|fonte di luce]] se il raggio di luce che parte dalla forte verso $p$ colpisce un altro punto $p'$ prima di raggiungere $p$
-Questa è una definizione geometrica e non specifica di quanto la zona deve essere piu scura, questa informazione dipende dall [[Illuminazione nella Computer Grafica|modello di illuminazione]] usato
+Questa è una definizione geometrica e non specifica di quanto la zona deve essere piu scura infatti questa informazione  dipende dal [[Illuminazione nella Computer Grafica|modello di illuminazione]] usato
 ![[Pasted image 20240306061803.png]]
-le ombre che si formano dipendono dal [[Illuminazione - Tipi di fonte di luce|tipo fonte di luce]] che si utilizza.
+le __ombre__ che si formano dipendono dal [[Illuminazione - Tipi di fonte di luce|tipo fonte di luce]] che si utilizza.
 il tipo di luce ad area genera effetti di area parzialmente in ombra siccome alcuni raggi che partano da quella raggiungono un altro oggetto mentre altri arrivano sulla superfice, questo fenomeno e chiamato penombra.
 Questo nella realta è il caso piu comune ma è piu complesso da calcolare 
 ![[Pasted image 20240306063756.png]]
@@ -30,7 +31,7 @@ Assumendo
 
 lo __Shadow mapping__  è una metodologia intuitiva per calcolare le ombre. Si renderizza la scena e per ogni frammento si calcola se questo è in ombra.
 
-per fare effecentemente questo testi si utilizza una seconda camera  oltre a quella per [[Trasformare da Vertici a Frammenti (Rasterizazione)|rendeirzzare sullo schermo]] posizionata sulla luce e quindi chiamata __Light camera__, si renderizza la scena dalla __Light camera__ e si utilizza il [[Rimozione di Superfici Nascoste#Z-Buffer|depth buffer]] per capire se un oggetto è visibile, se lo è allora significa che non ci sono ostacoli e di conseguenza è illuminata e non in ombra. successivamente si usa questa informazione nel seguente __algoritmo di shadow mapping__
+Per eseguire efficientemente questo test si utilizza una seconda camera oltre a quella per [[Trasformare da Vertici a Frammenti (Rasterizazione)|rendeirzzare sullo schermo]] posizionata sulla luce e quindi chiamata __Light camera__, si renderizza la scena dalla __Light camera__ e si utilizza il [[Rimozione di Superfici Nascoste#Z-Buffer|depth buffer]] per capire se un oggetto è visibile, se lo è allora significa che non ci sono ostacoli e di conseguenza è illuminata e non in ombra. successivamente si usa questa informazione nel seguente __algoritmo di shadow mapping__
 1. \[__Shadow Pass__\] renderizza la scena dalla __light camera__ e conserva lo z-buffer
 2. \[__Lighting Pass__\] renderizza la scena dalla camera di vista e per ogni frammento proietta il punto $p$ corrispondente sulla __light camera__, a questo si puo controllare lo z-buffer e vale che $z_p<d_p\implies$ in ombra, dove
 	- $z_p$ è il valore conservato nello z-buffer della cella corspondente alla proiezione di $p$  
