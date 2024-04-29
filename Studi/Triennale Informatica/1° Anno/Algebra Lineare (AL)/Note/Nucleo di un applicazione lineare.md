@@ -1,24 +1,18 @@
 ---
-Subject: Algebra Lineare
+Subject: "[[Algebra Lineare (AL)]]"
 topic: nota
-tags: AL
+tags:
+  - AL
+Area: 
+SubTopic:
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
-# Nucleo
+# Nucleo di un applicazione lineare
 ---
-sia $f: V\rightarrow W$ una [[Applicazioni Lineari|applicazione lineare]]  e $v\in V$ un vettore. 
-Il _nucleo_   di $f$ ($ker(f)$) è un sotto insieme di  $V$ _tale che_ 
-
+sia $f: V\rightarrow W$ una [[Applicazioni Lineari|applicazione lineare]]  e $v\in V$ un [[Vettori|vettore]]. 
+_allora_ Il __nucleo__  $ker(f)$ di $f$  è un [[Sottospazio Vettoriale|Sottospazio Vettoriale]] di  $V$ _tale che_ $$
+ker (f) =\{ v \in V  \mid f(v)=0\}
 $$
-ker (f) =\{ v \in V\  |\  f(v)=0\}
-$$
-il nucleo é [[Sottospazio Vettoriale]] di $V$
-
----
-
-utilizziamo il nucleo per capire se una funzione è [[Funzioni|iniettiva]] infatti
+si usa il nucleo per capire se una funzione è [[Funzioni|iniettiva]] infatti
 
 $$
  f\ \  inniettiva\ \ \iff ker(f) = \{0\}

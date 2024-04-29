@@ -7,7 +7,7 @@ topic:
 
 # Determinante di una matrice
 ---
-Il __determinate__ di una [[Matrice|matrice]] rappresenta il fattore per cui cambia l area di ciò che cè sul piano dopo che viene applicata la [[Matrice|matrice]]
+Il __determinate__ di una [[Matrici|matrice]] rappresenta il fattore per cui cambia l area di ciò che cè sul piano dopo che viene applicata la [[Matrici|matrice]]
 
 Sia $A$ una matrice quadrata $n \times n$. 
 _allora_ Il __determinante__ di $A$ è il numero
@@ -55,7 +55,7 @@ $$
 det(A)=\lambda_1 det(B_1)+\cdots+\lambda_h det(B_h)
 $$
 
-Corrolario: siccome $det(A) =det({}^t\!A)$ questo vale anche per le righe
+Corollario: siccome $det(A) =det({}^t\!A)$ questo vale anche per le righe
 
 Esempi:
-![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 11.png]]
+![[Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 11.png]]

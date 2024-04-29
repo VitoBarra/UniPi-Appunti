@@ -19,7 +19,7 @@ L'autospazio $V_\lambda$ è composto da tutti gli [[Autovettori e Autovalori|aut
 Per ogni autovalore $\lambda$ di $T$, ha senso considerare I'[[Isomorfismo e Endomorfismo|endomorfismo]] $T - \lambda \cdot id$ di $V$ che manda $v$ in $T(v)-\lambda v$ e la proposizione seguente lo mette in relazione con l'autospazio $V_\lambda$. 
 
 ##### Preposizione
-Per ogni autovalore $\lambda$  di $T$ abbiamo $$V_\lambda = ker(T - \lambda\cdot id)$$dove $ker$ indica il [[Nucleo|nucleo]]
+Per ogni autovalore $\lambda$  di $T$ abbiamo $$V_\lambda = ker(T - \lambda\cdot id)$$dove $ker$ indica il [[Nucleo di un applicazione lineare|nucleo]]
 
 ###### Corollario
 sia $V_\lambda \subset V$ un __autospazio__ 

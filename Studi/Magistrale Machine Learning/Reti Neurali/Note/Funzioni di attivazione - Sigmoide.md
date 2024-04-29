@@ -2,10 +2,10 @@
 tags:
   - IA
   - ML
-Subject: "[[Reti neurali MOC]]"
+Subject: "[[Intelligenza Artificiale (IA)]]"
 Area: Machine Learning
 topic: Reti Neurali
-SubTopic:
+SubTopic: 
 ---
 # Funzioni di attivazione - Sigmoide
 ---

@@ -6,7 +6,7 @@ tags:
 ---
 # Mosse di gauss
 ---
-_sia_ la $C_i$ la $i-esima$ riga di una [[Matrice|matrice]] possiamo fare le seguenti _mosse di guass_  senza modificare l [[Soluzioni di un sistema lineare|insieme delle soluzioni]] $\mathcal{S}$ del [[Sistemi lineari e lineari omogenei|sistema]]. 
+_sia_ la $C_i$ la $i-esima$ riga di una [[Matrici|matrice]] possiamo fare le seguenti _mosse di guass_  senza modificare l [[Soluzioni di un sistema lineare|insieme delle soluzioni]] $\mathcal{S}$ del [[Sistemi lineari e lineari omogenei|sistema]]. 
 1. $C_{i}\leftrightarrow C_{j}$
 	1. Scambiare due righe
 2. $C_{i}\rightarrow \lambda C_{i}, \lambda \not = 0$

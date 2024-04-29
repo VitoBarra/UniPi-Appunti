@@ -1,7 +1,7 @@
 ---
-Subject: "[[Intelligenza Artificiale]]"
+Subject: "[[Intelligenza Artificiale (IA)]]"
 Area: "[[Machine Learning (ML)]]"
-topic: "[[Reti neurali MOC|Reti neurali]]"
+topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
   - IA

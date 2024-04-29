@@ -9,7 +9,7 @@ SubTopic: "[[Illuminazione - Ombre]]"
 
 # Illuminazione - Aliasing nelle Ombre
 ---
-il concetto di [[Aliasing e Anti-Aliasing|aliasing]] colpisce anche le __ombre__ con lo [[Illuminazione - Ombre|shadow mapping]]. Infatti a tutti gli effeti uno shadow map è una metodologia basta su lockup di una tabella (lo z-buffer) e quindi il suo effetti dipende dalla dimensione di questa tabella.
+il concetto di [[Aliasing e Anti-Aliasing|aliasing]] colpisce anche le [[Illuminazione - Ombre|ombre]] con lo shadow mapping. Infatti a tutti gli effeti uno shadow map è una metodologia basta su lockup di una tabella (lo z-buffer) e quindi il suo effetti dipende dalla dimensione di questa tabella.
 Il problema finale che si ottiene con risuluzioni basse e che piu frammenti vengon omappati nella stessa cella generando quindi l __aliasing__ e vedendo la tabella come un [[Texture|texture]] si ha che stiamo avendo __magnification__ ovvero un texel viene mappato a piu frammenti ottenendo quidi.
 ![[Pasted image 20240308025859.png]]
 #### Percentage closer filtering (PCF)

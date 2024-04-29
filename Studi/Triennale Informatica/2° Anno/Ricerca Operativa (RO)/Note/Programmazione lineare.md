@@ -9,7 +9,7 @@ Prev: [[Ricerca Operativa (RO)]]
 # Programmazione lineare
 ---
 
-nella programmazione lineare il [[Modelli|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrice|Matriciale]]
+nella programmazione lineare il [[Modelli|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
 
 ![[UniPi-Appunti/Studi/Triennale Informatica/2° Anno/Ricerca Operativa (RO)/Media/Untitled 14.png]]
 
@@ -34,7 +34,7 @@ x_P \geq 0 \\
 \end{cases}
 $$
 
-bisogna prima riscriverlo in forma canonica riscrivendo tutte le equazioni nella forma $x \leq b$ per poi poter essere riscritto in forma [[Matrice|matriciale]]
+bisogna prima riscriverlo in forma canonica riscrivendo tutte le equazioni nella forma $x \leq b$ per poi poter essere riscritto in forma [[Matrici|matriciale]]
 
 $$
 \begin{cases}

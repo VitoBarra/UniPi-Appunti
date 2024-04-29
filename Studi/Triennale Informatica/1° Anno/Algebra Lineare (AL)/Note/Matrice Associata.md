@@ -8,7 +8,7 @@ topic:
 
 # Matrice Associata
 ---
-sia $f$  una [[Applicazioni Lineari|applicazione lineare]] la [[Matrice]] associata è una matrice
+sia $f$  una [[Applicazioni Lineari|applicazione lineare]] la [[Matrici]] associata è una matrice
 
 ![[UniPi-Appunti/Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 2.png]]
 

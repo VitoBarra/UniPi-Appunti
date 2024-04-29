@@ -8,7 +8,7 @@ Prev: [[Calcolo Numerico(CN)]]
 
 # Predominanza diagonale
 --- 
-una [[Matrice|matrice]] $A \in \mathbb{C}^{n \times n}$ si dice a _predominanza diagonale_ per riga se vale 
+una [[Matrici|matrice]] $A \in \mathbb{C}^{n \times n}$ si dice a _predominanza diagonale_ per riga se vale 
 $$|a_{ii}| > \sum^n_{j=1,j\not=i}|a_{i,j}| \ \ \ \forall i = 1,\dots,n$$
 
 ### Teorema 

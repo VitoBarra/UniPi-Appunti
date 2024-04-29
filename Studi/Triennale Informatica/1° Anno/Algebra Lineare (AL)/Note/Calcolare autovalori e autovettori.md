@@ -8,7 +8,7 @@ Prev: [[Algebra Lineare (AL)]]
 
 # Calcolare autovalori e autovettori
 ---
-Per calcolare i [[Calcolare autovalori e autovettori|autovettori]] di una [[Matrice]] dobbiamo prima calcolare il _[[Polinomi|polinomio]] caratteristico definito_ come
+Per calcolare i [[Calcolare autovalori e autovettori|autovettori]] di una [[Matrici]] dobbiamo prima calcolare il _[[Polinomi|polinomio]] caratteristico definito_ come
 
 $$
 P_A(\lambda)=det(A-\lambda I_n)=det

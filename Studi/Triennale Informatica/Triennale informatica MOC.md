@@ -35,7 +35,7 @@ tags:
 	- [[Teoria del informazione (TDI)]]
 	- [[Fisica]]
 - Tesi
-	- [[Reti Neurali - Reservoir Computing]]
+	- [[Intelligenza Artificiale (IA)]]
 	- [[Domande per prof gallicchio]]
 - Informatica
 	- [[Transazioni]]

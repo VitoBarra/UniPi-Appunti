@@ -6,7 +6,7 @@ tags:
 ---
 # Machine Learning (ML)
 ---
-il _machine learning_ (ML) in italiano Apprendimento automatico e' un sotto campo del [[AI - Concetti generali|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
+il __machine learning__ (ML) in italiano Apprendimento automatico e' un sotto campo del [[AI - Concetti generali|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
 
 gli obbiettivi sono
 - come metodologia per l Ai
@@ -15,7 +15,7 @@ gli obbiettivi sono
 	- costruire strumenti Predittivi per l analisi dati
 -  come metodologia per l informatica
 	- trovare modelli sotto forma di strumenti per risolvere problemi interdisciplinari 
-		- Biologia
+		- Biolgia
 		- medicina 
 si utilizza un unico approccio per raggiungere tutti questi obiettivi
 

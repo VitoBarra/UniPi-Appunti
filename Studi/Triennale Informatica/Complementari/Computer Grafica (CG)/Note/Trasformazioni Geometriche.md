@@ -73,7 +73,7 @@ h & 1  \\
 > lo sharing puo essere ottenuto anche da uno _scaling non uniforme_ e da una _rotazione_ 
 
 #### Notazione matrice
-un situazione molto comune e quando si vogliono applicare consecutivamente _rotazioni_, _traslazioni_ e _scaling_, ciò diventa _praticamente_ ingestibile e per risolvere questo problema si utilizzano le [[Matrice|matrici]].
+un situazione molto comune e quando si vogliono applicare consecutivamente _rotazioni_, _traslazioni_ e _scaling_, ciò diventa _praticamente_ ingestibile e per risolvere questo problema si utilizzano le [[Matrici|matrici]].
 
 siccome le operazioni di _scaling_ e _rotazioni_ sono _[[Combinazioni Lineari|combinazioni lineari]]_ delle componenti del _punto_$$\begin{array}{}
 p_{x}’  & =a_{xx}p_{x}+a_{xy}p_{x}\\
@@ -100,7 +100,7 @@ p_{x}\\p_{y}
  non essendo una _[[Combinazioni Lineari|combinazione lineare]]_ la  _traslazione_ non puo essere espressa nello stesso modo.
  
 #### Matrici Roto-traslazioni
-usando le _[[Coordinate omogenee|coordinate omogenee]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrice|matrice]] detta _matrice di [[Applicazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
+usando le _[[Coordinate omogenee|coordinate omogenee]]_ abbiamo che possiamo rappresentate tutte le _trasformazioni_ (_traslazione_,_scaling_,_rotazioni_,_shearing_) con una sola [[Matrici|matrice]] detta _matrice di [[Applicazioni affini|trasformazione affine]]_ ed è della forma  $$\begin{bmatrix}
 a_{xx} & a_{xy} & v_{x} \\
 a_{yx}  & a_{yy}& v_{y}  \\
 0 & 0 & 1  

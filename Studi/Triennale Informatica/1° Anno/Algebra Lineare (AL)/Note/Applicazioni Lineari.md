@@ -14,7 +14,7 @@ _allora_ Un’_applicazione lineare_ è una [[Funzioni|funzione]] fra [[Spazio V
 - $f (\lambda v ) = \lambda f (v)$  per ogni $v \in V$   e $\lambda \in\mathbb{K}$
 
 ##### Esempi di applicazioni lineari
-sia $A \in M(m,n,\mathbb{K})$ una [[Matrice|matrice]] e $f: \mathbb{K}^n\rightarrow \mathbb{K}^m$
+sia $A \in M(m,n,\mathbb{K})$ una [[Matrici|matrice]] e $f: \mathbb{K}^n\rightarrow \mathbb{K}^m$
 - $f(v) = A v$  una funzione parametrizzata da $A$
     - $f(v)=0$ l’applicazione banale con $A$ è la matrice nulla
     - $id_V(v)$ o $id(v) = v$ l’applicazione indetta  con $A$  è la matrice $I_n$

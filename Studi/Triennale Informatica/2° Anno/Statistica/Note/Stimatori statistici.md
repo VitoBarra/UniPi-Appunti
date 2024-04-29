@@ -6,13 +6,8 @@ tags:
 ---
 # Stimatori statistici
 ---
-#### Statistica campionaria (Definizione)
-una funzione $g(X_{1}\dots X_{n})$ è detta _statistica campionaria_ 
-
-alcuni esempi sono la [[Idd - Media Campionaria|Media campionaria]] e la [[Idd - varianza campionaria|varianza campionaria]]
-
 #### Stimatore (Definizione)
-una _stimatore_ di una parametro $\theta$ è una [[#Statistica campionaria (Definizione)|statistica campionaria]] ovvero è una _[[Funzioni|funzione]] del campione_  $g(X_{1}\dots X_{n})$ atta a stimare $\theta$ 
+una __stimatore__ di una parametro $\theta$ è una [[Statistica campionaria|statistica campionaria]] ovvero è una _[[Funzioni|funzione]] del campione_  $g(X_{1}\dots X_{n})$ atta a stimare $\theta$ 
 
 >[!tip] 
 >siccome uno stimatore è una funzione di [[Variabili Aleatorie (Casuali)|variaibli aleatorie]] è anche esso una _variabile aleatoria_

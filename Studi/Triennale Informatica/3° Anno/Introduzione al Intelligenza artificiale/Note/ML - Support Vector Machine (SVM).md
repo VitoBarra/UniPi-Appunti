@@ -1,16 +1,16 @@
 ---
 Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
-topic: nota
 tags:
   - IA
+Area: 
+topic: 
+SubTopic:
 ---
 
 # Support Vector Machine (SVM)
 ---
-uno dei modelli di [[Machine Learning (ML)|machne learning]] che al momento sono considerati allo “state-of-the-art” ovvero sono tra le ultime cose piu avanzate scoperte in utilizzo.
-
-è un concetto che viene direttamente dalla [[ML - Statistical Learning Theory (SLT)|SLT]]  e ha i 3 seguenti obiettivi
-1. Controllare la complessità del modello tramite un un aproccio di ottimizzazione [[Formulazione problema di programmazione di lineare|problema di ottimizzazione]]
+la __Support Vector Macchine__ (SVM) è modello di [[Machine Learning (ML)|machne learning]]  che fonda la sua base teorica ne  [[ML - Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
+1. Controllare la complessità del modello tramite un un approccio di ottimizzazione [[Formulazione problema di programmazione di lineare|problema di ottimizzazione]]
 2. Espandere la flessibilità con una _Basis Expansion_ cosi come fatto nel [[ML - Modelli lineari (LMS)|modello lineare]]
 
 
@@ -46,7 +46,7 @@ _Margin_:  è definito da $\frac{2}{\|\boldsymbol w\|}$  quindi
 il _VC-Dim_ delta [[ML - Statistical Learning Theory (SLT)|SLT]] è l inverso del margine ovvero decresce come l aumentare del margine 
 - con questo fatto si può quindi controllare la complessità del modello
 
-e quindi si conclude che l _iperpiano ottimale_ è quello che massimizza il margine e soddisfa il problema (sui [[ML - Validazione|dati di training]])
+e quindi si conclude che l _iperpiano ottimale_ è quello che massimizza il margine e soddisfa il problema (sui [[ML - Validazione e test|dati di training]])
 
 ### Espressione formale del problema di apprendimento 
 problema [[Formulazione problema di programmazione di lineare|problema primare di ottimizzazione]] 
@@ -119,7 +119,7 @@ $$K(\boldsymbol x_i,\boldsymbol x_j) = \phi(\boldsymbol x_i)^T\phi(\boldsymbol x
 si utilizza $K$ per calcolare il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]] direttamente in _feature space_ 
 
 
-#### Kernel ben conosciuti
+alcuni dei kernel piu usati sono:
 1. _lineare_: $K(\boldsymbol x_i,\boldsymbol x_j)$
 	- Mapping $\phi: x\rightarrow \phi$ dove $\phi(x)=x$
 2. _Polinomiale_: di potenza $p:K(\boldsymbol x_i,\boldsymbol x_j)=(1+\boldsymbol x_i^T\boldsymbol x_j)^k$
@@ -136,7 +136,5 @@ RBF è una scelta molto popolare può essere usata per fare decision boundry int
 - abbiamo un modello dove si deve scegliere un _parametro_ $C$ per  il trade off per l errore e un _kernel_ $K$
 	- si risolve il problema di ottimizzazione cercando $\alpha$
 		- questo scala computazionalmente con il numero di dati non il _feature space dimension_
-		- molto modulare: basta cambiare il _kernel_
-
-#### Modello
+		- molto modulare: basta cambiare  funzione _kernel_
 $$h(x) = sign\left(\sum_{p \in SV}\alpha_py_pK(\boldsymbol x_p,\boldsymbol x)\right)$$

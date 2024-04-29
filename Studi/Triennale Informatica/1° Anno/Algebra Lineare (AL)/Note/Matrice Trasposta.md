@@ -8,7 +8,7 @@ tags:
 
 # Matrice Trasposta
 ---
-sia $A$ una [[Matrice]] 
+sia $A$ una [[Matrici]] 
 _allora_ la trasposta di $A$ e' indicata come $A^T$  e' una matrice tale che$$
 a^T_{ij} =a_{ji}
 $$ovvero si scambiano righe e colonne

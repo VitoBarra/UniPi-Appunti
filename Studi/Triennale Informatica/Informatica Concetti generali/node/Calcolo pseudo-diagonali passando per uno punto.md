@@ -10,7 +10,7 @@ topic: nota
 ---
 
 ### algoritmo
-con una [[Matrice]] di qualsiasi tipo si può ciacolare una simile diagonale principale passando per una qualsiasi coppia $ij$ usando la formula
+con una [[Matrici]] di qualsiasi tipo si può ciacolare una simile diagonale principale passando per una qualsiasi coppia $ij$ usando la formula
 
 $$
 Dp_{kh}=

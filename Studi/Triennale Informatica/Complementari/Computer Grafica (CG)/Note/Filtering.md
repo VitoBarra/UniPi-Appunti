@@ -10,7 +10,7 @@ SubTopic:
 # Filtering
 ---
 il filter è una pratica del [[Immage Processing|immage processing]]. Applicare un __Filtro__ ad un immagine consiste nel sostituire ogni pixel con una somma pesata dei pixel suoi vicini.
-Questi pixel vengono selezionati e pesati con una [[Matrice|matrice]] di pesi solitamente [[Matrici quadrate|quadrata]] chiamata __filtering kernel__ $K$  è detta __dimensione del kernel__ 
+Questi pixel vengono selezionati e pesati con una [[Matrici|matrice]] di pesi solitamente [[Matrici quadrate|quadrata]] chiamata __filtering kernel__ $K$  è detta __dimensione del kernel__ 
 ![[Pasted image 20240308171458.png]]
 
 _sia_ 

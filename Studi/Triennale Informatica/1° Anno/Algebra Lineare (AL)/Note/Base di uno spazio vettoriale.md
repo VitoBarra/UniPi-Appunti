@@ -9,7 +9,7 @@ _sia_  $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  e  $v_1,\dots,v_n \in V$
 _allora_ la sequenza è detta _base_ di $V$ se
 - I vettori sono tutti tra loro _[[Dipendenza Lineare|indipendenti]]_
 - I vettori _[[Sottospazio Vettoriale generato|generano]]_ $V$
-e questo puo essere scritta anche come [[Matrice|matrice]] dove ogni colonna è un vettore
+e questo puo essere scritta anche come [[Matrici|matrice]] dove ogni colonna è un vettore
 #### Basi canoniche
 - spazio dei vettori $\mathbb{K}^n$ consistente da esattamente $n$  vettori:$$
     \begin{array}{}

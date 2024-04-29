@@ -37,7 +37,7 @@ y_{n}
 \end{bmatrix}
 $$
 da qui per dimostrare esistenza e unicità ci basta dimostrare che la matrice dei coefficienti $\mathcal{V}(\mathcal{S},\Phi)$ sia [[Matrice inversa|invertibile]].
-uno dei modi è provare che il [[Nucleo|nucleo]] di $\mathcal{V}(\mathcal{S},\Phi) = \{0\}$. e quindi
+uno dei modi è provare che il [[Nucleo di un applicazione lineare|nucleo]] di $\mathcal{V}(\mathcal{S},\Phi) = \{0\}$. e quindi
 (sia) $\boldsymbol \beta = [\beta_{0},\dots,\beta_{n}]^{T}$ un _vettore del nucleo_. definizione di nucleo si ha che $$\mathcal{V}(\mathcal{S},\Phi)\boldsymbol \beta =0$$
 da qui abbiamo che il [[Polinomi|polinomi]] $b(x)= \sum^{n}_{i=0}\beta_{i}\phi_{i}(x)$ si deve annullare in $n+1$ punti _distinti_.
 ma siccome $\Phi$ è una base per $\Pi_{n}$ questo _è possibile_ $\iff \beta_{0} = \dots =\beta_{n} = 0$ 

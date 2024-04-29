@@ -8,7 +8,7 @@ tags:
 # Introduzione al Intelligenza Artificiale (IIA)
 
 ## Course MOC  📒
-1. [[Intelligenza Artificiale]]
+1. [[Intelligenza Artificiale (IA)]]
 2. [[AI - Concetti generali]]
 3. [[AI - Definizione di problemi-Ambienti]]
 4. [[AI - Agenti Razionali]]
@@ -54,7 +54,7 @@ Terza parte corso:
 2. [[ML - Bias Induttivo]]
 3. [[ML - Statistical Learning Theory (SLT)]]
 4. [[ML - Overfitting e Underfitting]]
-5. [[ML - Validazione]]
+5. [[ML - Validazione e test]]
 6. [[ML - Modelli supervisionati]]
 	1. [[ML - Concept Learning]]
 		1. [[ML - Find-S]]
@@ -66,7 +66,7 @@ Terza parte corso:
 7. Modelli non supervisionati 
 	1. [[ML - K-means]]
 8. Altri modelli
-	1. [[Reti neurali MOC]]
+	1. [[Intelligenza Artificiale (IA)]]
 
 
 ### Educational Material 🧱

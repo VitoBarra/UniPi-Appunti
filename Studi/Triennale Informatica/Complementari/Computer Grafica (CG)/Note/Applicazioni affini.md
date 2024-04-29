@@ -12,11 +12,11 @@ tags:
 ---
 Le __applicazioni affini__ sono delle _[[Applicazioni Lineari|Applicazioni lineari]]_ che pero non hanno piu un _punto di origine fisso_ che è quindi libero di variare ed essere spostato per _traslazione_.
 
-Usando le [[Coordinate omogenee|coordinate omogenee]] una __trasformazione affine__ viene espressa dalla [[Matrice|matrice]] $$\begin{bmatrix}
+Usando le [[Coordinate omogenee|coordinate omogenee]] una __trasformazione affine__ viene espressa dalla [[Matrici|matrice]] $$\begin{bmatrix}
 a_{xx} & a_{xy}   & v_{x} \\
 a_{yx}  & a_{yy} & v_{y}  \\
 0 & 0 & 1  
-\end{bmatrix}$$dove la prima sotto matrice $2\times 2$ e rappresenta la parte _lineare_ ovvero _[[Trasformazioni Geometriche#Rotazioni|rotazione]]_ e _[[Trasformazioni Geometriche#Scaling|scaling]]_ e l ultima colonna rappresenta la parte _[[Sottospazii affini|affine]]_ ovvero la _traslazione_ del punto d origine 
+\end{bmatrix}$$dove la prima sotto matrice $2\times 2$ e rappresenta la parte _lineare_ ovvero _[[Trasformazioni Geometriche#Rotazioni|rotazione]]_ e _[[Trasformazioni Geometriche#Scaling|scaling]]_ e l ultima colonna rappresenta la parte _[[Sottospazi affini|affine]]_ ovvero la _traslazione_ del punto d origine 
 ![[IMG_0756.jpeg]]
 
 Una trasformazione affine ha le seguente proprietà
@@ -34,7 +34,7 @@ Una trasformazione affine ha le seguente proprietà
 
 
 #### Matrice Inversa di trasformazioni affini
-le [[Matrice|matrici]] delle __trasformazioni affine__ sono [[Matrice inversa|invertibili]] con la formula $$\begin{bmatrix}
+le [[Matrici|matrici]] delle __trasformazioni affine__ sono [[Matrice inversa|invertibili]] con la formula $$\begin{bmatrix}
 A & v \\
 0 & 1
 \end{bmatrix}^{-1}=\begin{bmatrix}

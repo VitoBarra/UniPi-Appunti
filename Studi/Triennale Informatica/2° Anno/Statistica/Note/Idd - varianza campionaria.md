@@ -9,10 +9,10 @@ tags:
 #### Varianza campionaria (Definizione)
 _sia_ $X_{1},\dots X_{n}$ una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|i.d.d]] 
 _se_ $X_{1}\dots ,X_{n}$ è un [[Campione Statistico|campione]] 
-_allora_ $$S_{n}^{2}:= \frac{\sum^{n}_{i=1}(X_{i} - \overline{X}_{n})^{2}}{n-1}$$ $S_{n}^{2}$ rapresenta la _varianza campionaria_, e il comportamento di questa variabile determinato dal [[Teorema debole dei grandi numeri|teorema dei grandi numeri]]
+_allora_ $$S_{n}^{2}:= \frac{\sum^{n}_{i=1}(X_{i} - \overline{X}_{n})^{2}}{n-1}$$ $S_{n}^{2}$ rappresenta la _varianza campionaria_, e il comportamento di questa variabile determinato dal [[Teorema debole dei grandi numeri|teorema dei grandi numeri]]
 
 
-##### Convergena della varianza
+##### Convergenza della varianza
 _sia_ $X_{1},\dots X_{n},\dots$ una _successione_ [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|i.d.d]] 
 _se_ $X_{i}$ ha [[Variabili aleatoria - Momenti|momento quarto]] 
 _sia_ $\sigma^{2} = Var(X_{i})$ la [[Variabili aleatorie - Varianza|varianza]]

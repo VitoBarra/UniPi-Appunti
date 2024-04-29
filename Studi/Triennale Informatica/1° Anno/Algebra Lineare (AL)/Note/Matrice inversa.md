@@ -7,7 +7,7 @@ tags:
 
 # Matrice inversa
 ---
-_sia_ una [[Matrice|matrice]] $A \in M(n)$ 
+_sia_ una [[Matrici|matrice]] $A \in M(n)$ 
 _allora_ la sua _inversa_ denotata con $A^{-1}$ è una altra matrice tale che
 $$
 AA^{-1}=A^{-1}A=I_n
@@ -17,7 +17,7 @@ $$
 >una matrice non invertibile è chiamata anche _singolare_ questa è invertibile se una di queste cose _equivalenti_  è vera:
 >- $Det(A) \not= 0 \iff$
 >- Tutti gli [[Autovettori e Autovalori| autovalori]] sono $\lambda_i \not = 0 \iff$
->- i nucleo [[Nucleo]] deve essere $ker (A) = \{0\} \iff$
+>- i nucleo [[Nucleo di un applicazione lineare]] deve essere $ker (A) = \{0\} \iff$
 >-  il [[Rango]] pieno avvero il rango è uguale alla [[Dimensione di uno spazio vettoriale| dimensione dello spazio vettoriale]]  $rank(A) = Dim(A)$  
 >
 >in piu anche se 
@@ -36,7 +36,7 @@ Nella pratica basta vedere se una colonna e una riga sono composte da tutti zero
 
 ### Algoritmo per ricavare la matrice inversa
 
- Sia $C$ una [[Matrice|matrice]]  $n \times (2n)$ definita come $$C = (A\mid I_n)$$ 
+ Sia $C$ una [[Matrici|matrice]]  $n \times (2n)$ definita come $$C = (A\mid I_n)$$ 
 $C$ è ottenuta affiancando ad $A$ la matrice identità $I_n$. 
 Trasformiamo  $C$ in modo da ottenere  $A$ in forma Gauss-Jordan.
 Se $A$ è invertibile, alla fine dell’algoritmo tutti i pivot stanno nelle prime $n$ colonne. In particolare abbiamo ottenuto $C'$ una nuova matrice  $n\times (2n)$ tale che$$

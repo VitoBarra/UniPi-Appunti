@@ -33,3 +33,7 @@ $$
 ### Relazioni
 $A$ e $A^{n}$: siano  $\lambda_{i}$ gli _autovalori_ di $A$ sono allora $\lambda_{i}^{n}$ sono autovalori di $A^{n}$
 $A$ e $C=A+I$: siano  $\lambda_{i}$ gli _autovalori_ di $A$ sono allora $\lambda_{i}+1$ sono autovalori di $C$
+
+
+>[!tip]
+>spiegazione geometrica [qui](https://youtu.be/PFDu9oVAE-g?si=16LM0hSv0a3owhfw)

@@ -12,7 +12,7 @@ tags:
 un use-case comune è quello di _comporre piu [[Rotazioni in 3D|rotazioni]]_, per descrivere una rotazione finale. per fare ciò ci sono varie metodologie.
 
 #### Rotazione con angoli euleriani
-un modo per esprimere delle _rotazione_ come composizione di rotazioni è l utilizzo degli _angoli di euler_, per immaginarli si usa la _gimbal_, questo è composto da  3 anelli $r_{1},r_{2},r_{3}$ _concentrici_ uno collegato al altro e hanno la libertà di girare.  Ogni anello è rappresentato da un  [[Frames|frame]] $F_{1},F_{2},F_{3}$ 
+un modo per esprimere delle _rotazione_ come composizione di rotazioni è l utilizzo degli _angoli di euler_, per immaginarli si usa la _gimbal_, questo è composto da  3 anelli $r_{1},r_{2},r_{3}$ _concentrici_ uno collegato al altro e hanno la libertà di girare.  Ogni anello è rappresentato da un [[Frames|frame]] $F_{1},F_{2},F_{3}$ 
 Ogni _anello_ corrisponde ad un _asse_ e una rotazione del anello corrisponde a fare una rotazione attorno al corrispettivo asse.
 le rotazioni sono espresse da 3 angoli $\alpha,\beta,\gamma$ dove
 - $\alpha$ ad una rotazione intorno a _asse_ X chiamata _yaw_

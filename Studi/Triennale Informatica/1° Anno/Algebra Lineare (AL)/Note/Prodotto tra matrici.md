@@ -8,7 +8,7 @@ tags:
 
 # Prodotto tra matrici
 ---
- _sia_ $A$ una [[Matrice]] $\mathbb{K}^{m\times n}$ e $B$ è una [[Matrice|matrice]] $\mathbb{K}^{n \times p}$  il _prodotto_ $AB$ è una nuova matrice $\mathbb{K}^{m \times p}$ tale che l’elemento $(AB)_{ij}$ della nuova matrice $AB$ risulti$$
+ _sia_ $A$ una [[Matrici]] $\mathbb{K}^{m\times n}$ e $B$ è una [[Matrici|matrice]] $\mathbb{K}^{n \times p}$  il _prodotto_ $AB$ è una nuova matrice $\mathbb{K}^{m \times p}$ tale che l’elemento $(AB)_{ij}$ della nuova matrice $AB$ risulti$$
 (AB)_{ij} =
 \sum_{k=1}^n A_{ik}B_{kj} =
 A_{i1}B_{1j}+\cdots+A_{in}B_{nj}

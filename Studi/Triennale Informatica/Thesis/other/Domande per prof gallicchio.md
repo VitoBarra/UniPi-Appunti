@@ -22,3 +22,7 @@
 
 
 
+1. questione licenza del layer LMU
+2. Questione machina 
+	1. aggiornamento py a versione nuova
+	2. pacchetti mancanti sulla machina
