@@ -1,22 +1,47 @@
-Preliminari: 
-- [ ] introduzione al [[Machine Learning (ML)|ML]] classico 
+
+Concetti generali del ML:
+- [x] introduzione al [[Machine Learning (ML)|ML]] classico 
 - [x] introduzione al [[Machine Learning (ML)|ML]] con reti neurali
-- [ ] studio framework keras
-	- [ ] capire come creare un nuovo layer
-	- [ ]  fare test sul layer creato (LRMU)
-		- [ ] scaricare i dataset 
-		- [ ] seguire stesso schema di normalizzazione e encoding dei dati 
-		- [ ] avviare molti test con più parametri
-- [ ] Approfondire Reservoir computing
-	- [ ] capire come generare matrici che rispettano il criterio di stabilità
-		- [ ] criteri di stabilita trovabili in [[Re-visiting the echo state property.pdf|questo paper]]  o una formulazione equivalente [[A tighter bound for the echo state property.pdf|qui]]
-		- [ ] capire le echo state network (ESN)
+- [x] Capire meglio gli algoritmi di Linear regression 
+
+macchine learning con sakit-learn: 
+- [ ] leggere qualcosa sul framework
+- [ ] Capire come fare la regressione lineare e usarla come output del modello
+
+
+Test Machine learning con keras:
+- [x] studio framework keras
+	- [x] capire come creare un nuovo layer
+- [x] scaricare i dataset 
+- [x] Fare qualche test su qualche dataset per provare
+
+Sperimentazione ESN:
+- [x]  Leggere paper originale su echo state network
+- [x] Approfondire Reservoir computing
+	- [x] capire le echo state network (ESN)
+- [x] criteri di stabilita trovabili in [[Re-visiting the echo state property.pdf|questo paper]] o una formulazione equivalente [[A tighter bound for the echo state property.pdf|qui]]
+	- [x] capire come generare matrici che rispettano il criterio di stabilità
+	- [x] Sperimentazione [[Note Sperimentazione Stabilita criterio per echo state proerty| in questa nota]]
 	- [ ] capire come portarlo al edge of stability
-		- [ ] facendo ricerche questo non necessariamente è necessario o vantaggioso, si puo sperimentare
+	- [ ] Fare esperimenti sul utilità di questo (a quanto letto non necessariamente è una cosa positiva)
+- [ ] seguire stesso schema di normalizzazione e encoding dei dati 
+- [ ] Fare qualche esperimento per avere dei confronti
 
 
-Sviluppo:
-- [ ] capire come funziona in codice la cella di memoria LMU
-- [ ] modificarla eliminando la parte trainabile interna alla memoria 
+Sviluppo LRMU (Legandre Reservoir memory unit): 
+- [x] Leggere paper sulle LMU
+- [x] capire come funziona in codice la cella di memoria LMU
+	- [x] Re implementazione Del layer LMU
+	- [ ] Validare che il modello implementatio sia equivalente
+- [ ] Capire che dataset usare per la sperimentazione
+- [ ]  sperimentare il layer con diverse configurazioni di cosa sia trainabile e cosa no
 
+
+
+Scrittura
+- [ ] motivazione
+- [ ] Itroduzione teorica
+- [ ] Spegazione di cosa si è fatto
+- [ ] Risutati
+- [ ]  Conclusioni
 

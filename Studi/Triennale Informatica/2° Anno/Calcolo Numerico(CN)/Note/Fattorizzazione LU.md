@@ -1,10 +1,9 @@
 ---
-Subject: Calcolo Numerico
+Subject: "[[Calcolo Numerico(CN)]]"
 topic: nota
-tags: CN
+tags:
+  - CN
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
 
 # Fattorizzazione LU
 ---
@@ -23,6 +22,7 @@ _allora_ esiste _un unica_ fattorizzazione $LU$ di $A$
 
 > [!warning] 
 > questo teorema da solo delle condizioni _sufficienti_ ma _non necessarie_. quindi se non sono soddisfatti i criteri non possiamo dire nulla sul esistenza della fattorizzazione 
+
 
 #### Dimostrazione
 dimostriamo per induzione sulla dimensione $n$ della matrice. Per il caso $n=1$ vale

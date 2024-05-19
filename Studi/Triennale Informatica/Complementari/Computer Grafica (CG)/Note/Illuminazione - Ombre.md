@@ -34,9 +34,9 @@ lo __Shadow mapping__  è una metodologia intuitiva per calcolare le ombre. Si r
 Per eseguire efficientemente questo test si utilizza una seconda camera oltre a quella per [[Trasformare da Vertici a Frammenti (Rasterizazione)|rendeirzzare sullo schermo]] posizionata sulla luce e quindi chiamata __Light camera__, si renderizza la scena dalla __Light camera__ e si utilizza il [[Rimozione di Superfici Nascoste#Z-Buffer|depth buffer]] per capire se un oggetto è visibile, se lo è allora significa che non ci sono ostacoli e di conseguenza è illuminata e non in ombra. successivamente si usa questa informazione nel seguente __algoritmo di shadow mapping__
 1. \[__Shadow Pass__\] renderizza la scena dalla __light camera__ e conserva lo z-buffer
 2. \[__Lighting Pass__\] renderizza la scena dalla camera di vista e per ogni frammento proietta il punto $p$ corrispondente sulla __light camera__, a questo si puo controllare lo z-buffer e vale che $z_p<d_p\implies$ in ombra, dove
-	- $z_p$ è il valore conservato nello z-buffer della cella corspondente alla proiezione di $p$  
+	- $z_p$ è il valore conservato nello z-buffer della cella corrispondente alla proiezione di $p$  
 	- $d_p$ è la $z$ del punto  $p$ rispetto alla __light camera__  
-in pratica con la __Light Camera__ si crea un modo per decidere se considerare un framento in ombra o meno  
+in pratica con la __Light Camera__ si crea un modo per decidere se considerare un frammento in ombra o meno  
 ![[Pasted image 20240306061842.png]]
 #### Modellare i tipi di luce
 Per utilizzare lo __Shadow Mapping__ bisogna modellizzare i [[Illuminazione - Tipi di fonte di luce|tipi di luce]] con un tipo di [[Proiettare una scena 3D in 2D#Proiezioni|camera]] adatto per riempire correttamente lo z-buffer. Bisogna anche fre in modo che il view Volume della camera corrisponda con la luce che ci interessa modellare
@@ -83,8 +83,9 @@ si puo quindi scegliere un $\varepsilon$ che dipende da questo slope e allora si
 _sia_
 - $n$ la [[Normale di una superfice|normale della superfice]]
 - $L$ la direzione della luce
+- $\cdot$ è il [[Prodotto scalare euclideo (Dot product)|Dot product]]
 - $\alpha,min\_\varepsilon,max\_\varepsilon$ fattori arbitrari di fine tuning
-_allora_ vale che $$\varepsilon=\text{clamp}(\alpha \tan \arccos(n\cdot L),min\_\varepsilon,max\_\varepsilon)$$![[Pasted image 20240306065133.png]]
+_allora_ vale che $$\varepsilon=\text{clamp}(\alpha \tan (\arccos(n\cdot L)),min\_\varepsilon,max\_\varepsilon)$$![[Pasted image 20240306065133.png]]
 
 
 ##### Soluzione: Geometria chiusa

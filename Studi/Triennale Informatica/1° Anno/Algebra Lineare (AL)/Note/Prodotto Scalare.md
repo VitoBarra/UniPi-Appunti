@@ -23,7 +23,7 @@ e questa soddisfa i seguenti _assiomi_
 5. $\langle v,w\rangle=\langle w,v\rangle$
 per ogni $v,v’,w,w’ \in V$ e ogni $\lambda \in \mathbb{R}$
 
-### Classificazione  prodotti scalari:
+### Classificazione  prodotti scala9ri:
 ![[UniPi-Appunti/Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 14.png]]
 
 ![[UniPi-Appunti/Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 2 11.png]]

@@ -9,17 +9,17 @@ SubTopic: "[[Illuminazione - Ombre]]"
 
 # Illuminazione - Aliasing nelle Ombre
 ---
-il concetto di [[Aliasing e Anti-Aliasing|aliasing]] colpisce anche le [[Illuminazione - Ombre|ombre]] con lo shadow mapping. Infatti a tutti gli effeti uno shadow map è una metodologia basta su lockup di una tabella (lo z-buffer) e quindi il suo effetti dipende dalla dimensione di questa tabella.
-Il problema finale che si ottiene con risuluzioni basse e che piu frammenti vengon omappati nella stessa cella generando quindi l __aliasing__ e vedendo la tabella come un [[Texture|texture]] si ha che stiamo avendo __magnification__ ovvero un texel viene mappato a piu frammenti ottenendo quidi.
+il concetto di [[Aliasing e Anti-Aliasing|aliasing]] colpisce anche le [[Illuminazione - Ombre|ombre]] con lo shadow mapping. Infatti a tutti gli effetti uno shadow map è una metodologia basta su lockup di una tabella (lo z-buffer) e quindi il suo effetti dipende dalla dimensione di questa tabella.
+Il problema finale che si ottiene con risoluzioni basse e che piu frammenti vengono mappati nella stessa cella generando quindi l __aliasing__ e vedendo la tabella come un [[Texture|texture]] si ha che stiamo avendo __magnification__ ovvero un texel viene mappato a piu frammenti ottenendo quindi.
 ![[Pasted image 20240308025859.png]]
 #### Percentage closer filtering (PCF)
-il  __Percentage closer filtering__ è una metodologia  per mitigare il problema del __aliasing__ nelle ombre infatti questo serve ad ammorbidirla.
+il  __Percentage closer filtering__ è una metodologia per mitigare il problema del __aliasing__ nelle ombre infatti questo serve ad ammorbidirla.
 
 _siano_
 - $f$ il frammento che si vuole renderizare
 - $K$  l insieme dei suoi vicini chiamato __kernel__ 
 ![[Pasted image 20240308041604.png]]
-_allora_ si calcola se  $f$ è in ombra eseguendo il test dello shadow mapping su $f$ per ogni suo vicini in $K$  ottenendo per ogni frammento testato un valore booleano e facendo la [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]]  con la formula $$lit=1-\cfrac{1}{|K|}\sum (z_{ij}<z_r)=\cfrac{1}{|K|}\sum (z_{ij}>z_r)$$dove $|K|$ è la [[Cardinalità di un insieme|cardinalita]] del [[Insiemi Matematici|insieme]] $K$ottenendo un valore tra $[0,1]$  questo valore si utilizzerà per calcolare l ombra
+_allora_ si calcola se  $f$ è in ombra eseguendo il test dello shadow mapping su $f$ per ogni suo vicini in $K$  ottenendo per ogni frammento testato un valore booleano e facendo la [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]]  con la formula $$lit=1-\cfrac{1}{|K|}\sum (z_{ij}<z_r)=\cfrac{1}{|K|}\sum (z_{ij}>z_r)$$dove $|K|$ è la [[Cardinalità di un insieme|cardinalita]] del [[Insiemi Matematici|insieme]] $K$  __lit__ è  un valore tra $[0,1]$  questo valore si utilizza per calcolare l ombra
 ![[Pasted image 20240308034946.png]]
 
 Non si prende la media dei punti siccome altrimenti staremo andando a fare il sample di superfici inesistenti

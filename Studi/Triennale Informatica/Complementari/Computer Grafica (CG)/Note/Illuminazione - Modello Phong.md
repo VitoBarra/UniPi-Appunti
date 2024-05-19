@@ -17,7 +17,7 @@ _sia_
 $$
 \begin{align}{}
 L_{\text{tot}} & =L_{\text{reflected}} +k_{\text{emmissiveMat}}\\
-L_{\text{reflected}} & =k_{\text{ambientMat}}L_{\text{ambient}}+k_{\text{diffusiveMat}}L_{\text{diffuse}}+k_{\text{specularMat}}L_{\text{secular}}
+L_{\text{reflected}} & =k_{\text{ambientMat}}L_{\text{ambient}}+k_{\text{diffusiveMat}}L_{\text{diffuse}}+k_{\text{specularMat}}L_{\text{specular}}
 \end{align}
 $$
 Questo __modello Phong__ non prende in considerazione la visibilità della luce e utilizza solo [[Illuminazione - Tipi di fonte di luce|luce direzionale]] 
@@ -64,11 +64,16 @@ _sia_
 - $\boldsymbol{N}$ la [[Normale di una superfice|normale]]
 - $\boldsymbol{L}$ la direzione della luce incidente 
 - $\boldsymbol{V}$ la direzione di vista
-- $\boldsymbol{H}$ un [[Vettori|vettore]] tale che $\boldsymbol{H}=\cfrac{L+V}{\| L+V \|}$
+- $\boldsymbol{H}$ un [[Vettori|vettore]] tale che $\boldsymbol{H}=\cfrac{L+V}{\| L+V \|}$ detto __halfway__
 _allora_ con il modello __Blinn-Phong__ si calcola $$\cos \alpha = \boldsymbol{N} \cdot \boldsymbol{H}$$ 
 questo funziona siccome il vettore $\boldsymbol{R}$ è quasi uguale a $\boldsymbol{V}$ se $\boldsymbol{N}$ è quasi la media $\boldsymbol{H}$ tra $\boldsymbol{V}$ e $\boldsymbol{L}$ 
 ![[Pasted image 20240229210848.png]]
+questo modello funziona meglio in casi dove il vettore della riflessione crea un angolo di 90 gradi con la direzione di vista, infatti in questo caso una parte della luce rifleassa viene moltiplicata per 0 creando artefatti come quelli nel immagine a sinistra che vengono correti con questo modello
+![[Pasted image 20240430054704.png]]
+l uno svantaggio e che in generale non è da esattamente gli stessi risultati, infatti l angolo con il vettore halfway è generalmente piu corto e per compensare di deve alzare il valore del esponente che controlla la __glossines__ moltiplicando dalle 2 alle 4 quello che si userebbe per __Phong__
 
+l esempio ha esponente 8 per Phong e 32 per Blinn-Phong 
+![[Pasted image 20240430055019.png]]
 
 
 ### Modello Blinn-Phong con piu luci
