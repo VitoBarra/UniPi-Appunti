@@ -22,19 +22,19 @@ Sperimentazione ESN:
 - [x] criteri di stabilita trovabili in [[Re-visiting the echo state property.pdf|questo paper]] o una formulazione equivalente [[A tighter bound for the echo state property.pdf|qui]]
 	- [x] capire come generare matrici che rispettano il criterio di stabilità
 	- [x] Sperimentazione [[Note Sperimentazione Stabilita criterio per echo state proerty| in questa nota]]
-	- [ ] capire come portarlo al edge of stability
-	- [ ] Fare esperimenti sul utilità di questo (a quanto letto non necessariamente è una cosa positiva)
-- [ ] seguire stesso schema di normalizzazione e encoding dei dati 
-- [ ] Fare qualche esperimento per avere dei confronti
+	- [x] Capire come portarlo al edge of stability
+	- [x] Fare esperimenti sul utilità di questo (a quanto letto non necessariamente è una cosa positiva)
+- [x] seguire stesso schema di normalizzazione e encoding dei dati 
+- [x] Fare qualche esperimento per avere dei confronti
 
 
 Sviluppo LRMU (Legandre Reservoir memory unit): 
 - [x] Leggere paper sulle LMU
 - [x] capire come funziona in codice la cella di memoria LMU
 	- [x] Re implementazione Del layer LMU
-	- [ ] Validare che il modello implementatio sia equivalente
-- [ ] Capire che dataset usare per la sperimentazione
-- [ ]  sperimentare il layer con diverse configurazioni di cosa sia trainabile e cosa no
+	- [x] Validare che il modello implementato sia equivalente
+- [x] Capire che dataset usare per la sperimentazione
+- [x]  sperimentare il layer con diverse configurazioni di cosa sia trainabile e cosa no
 
 
 
