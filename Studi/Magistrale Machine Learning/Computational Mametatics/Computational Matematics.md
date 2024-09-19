@@ -2,8 +2,9 @@
 Parent MOC: "[[Magistrale Inteligenza artificiale MOC]]"
 tags:
   - MOC
+  - "#CMLDA"
 ---
-# {{title}}
+# Computational Matematics
 
 ## Course MOC  📒
 1. 
@@ -14,5 +15,6 @@ tags:
 1. 
 
 
-
+# Lecture Note
+[[CMLDA lecture 2024–09-18]]
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d653c75f59964636",
+        "id": "2c8fe7b4ef563fc2",
         "type": "tabs",
         "children": [
           {
-            "id": "3cef1dd43ab9bbfb",
+            "id": "44fff8ae8f42d319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
+                "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Phong",
+            "query": "tag:FDI",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "0b0f3a5a0715456f",
@@ -130,7 +130,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
+            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
+            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,7 +159,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md"
+            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md"
           }
         }
       },
@@ -205,8 +205,33 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3cef1dd43ab9bbfb",
+  "active": "44fff8ae8f42d319",
   "lastOpenFiles": [
+    "Studi/Magistrale Machine Learning/Computational Mametatics/Computational Matematics.md",
+    "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Artificial Inteligence Fundamentals (AIF).md",
+    "Studi/Magistrale Machine Learning/Computational Mametatics",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/AIF Lecture 17-09-2024.md",
+    "Templete/Coure head/AIF.md",
+    "Templete/Coure head/FDI.md",
+    "Templete/Coure head/Untitled.md",
+    "Templete/Coure head/PDP.md",
+    "Templete/MOC.md",
+    "Studi/Magistrale Machine Learning/Magistrale Inteligenza artificiale MOC.md",
+    "Studi/Magistrale Machine Learning/Reti Neurali/Intelligenza Artificiale (IA).md",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamental/Lecture 17-09-2024.md",
+    "Studi/Triennale Informatica/3° Anno/Introduzione al Intelligenza artificiale/Introduzione al Intelligenza Artificiale (IIA).md",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Note",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Media",
+    "Studi/Triennale Informatica/Triennale informatica MOC.md",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals",
+    "Studi/Triennale Informatica/3° Anno/Introduzione al Intelligenza artificiale/Note/AI - Algoritmo DPLL per SAT.md",
+    "Studi/Triennale Informatica/3° Anno/Ingegneria del software/Media/0B90A5CF-D33B-45A1-AC33-43F5F04D606E.jpeg",
+    "Studi/Triennale Informatica/Thesis/Media/uniform.png",
+    "Studi/Triennale Informatica/Thesis/ReferenceBook/Reservoir  Computing Theory, physical implementation , and application.pdf",
+    "Studi/Superiori/Geometria Analitica/Note/Rette Parallele.md",
+    "Studi/Triennale Informatica/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
+    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modelli avanzati.md",
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Ombre.md",
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Aliasing nelle Ombre.md",
@@ -215,24 +240,6 @@
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture - Environment mapping.md",
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Trasformazione Frammenti in Pixel.md",
     "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Aliasing e Anti-Aliasing.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Blending di colore.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture Filtering.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture - Aggiungere dettagli geometrici.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Rappresentazione di colori - illuminanti.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Rappresentazione delle immagini.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Point Cloud.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Shading.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Equazione di Radianza.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Funzionamento della vista umana (HVS).md",
-    "Studi/Triennale Informatica/Complementari/Interazione Uomo Macchina (IUM)/Note/Front-End Design Wireframing.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space Relativi.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space Assoluti standard.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Color Space.md",
-    "Studi/Triennale Informatica/Complementari/Interazione Uomo Macchina (IUM)/Note/Acquisizione modelli 3D dal mondo fisico.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione nella Computer Grafica.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Proprieta di riflessione dei materiali.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Materiali.md",
     "Studi/Triennale Informatica/Note/Complementari/Crittografia (CRI)/Media/IMG_0785.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1098 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1136 1 1.jpeg",
@@ -241,21 +248,14 @@
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1133 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1132 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1131 1 1.jpeg",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1130 1 1.jpeg",
-    "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1129 1 1.jpeg",
     "GDR Note/DND5e",
     "GDR Note",
     "Project/GridSystem/Organization",
     "Project/GridSystem",
     "UniPi INF/Note/3° Anno/Basi di dati/Note",
-    "UniPi INF/Note/3° Anno/Basi di dati/Media",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Excalidraw",
     "Statistica.canvas",
-    "UniPi INF/Note/Complementari/Computer Grafica (CG)/Media",
-    "Raccolta UniPi INF/Note/1° Anno/Progamazione Algoritmica (ProgAlg)/Media",
-    "Extra Note/Geometria Analitica/Media",
     "Senza nome.canvas"
   ]
 }

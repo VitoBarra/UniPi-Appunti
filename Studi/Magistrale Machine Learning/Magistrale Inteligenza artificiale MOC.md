@@ -8,8 +8,7 @@ tags:
 # Magistrale Machine Learning MOC
 
 ## MOC 
-1. [[Introduzione al Intelligenza Artificiale (IIA)]]
-2. 
+2. [[Artificial Inteligence Fundamentals (AIF)]]
 3. [[Intelligenza Artificiale (IA)]]
 
 
