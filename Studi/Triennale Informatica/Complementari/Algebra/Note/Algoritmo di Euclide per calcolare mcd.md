@@ -1,14 +1,12 @@
 ---
+Parent MOC: "[[Algebra (ALG)]]"
+tags:
+  - ALG
 Subject: Algebra
-topic: nota
-tags: ALG
 ---
-
-Prev: [[Algebra (ALG)]]
-
 # Algoritmo di Euclide per calcolare mcd
 ---
-è un algoritmo per calcolare il [[Massimo comun divisore|Massimo comun divisore]]
+l __Algoritmo di Euclide__ è un [[Algoritmi|algoritmo]] per calcolare il [[Massimo comun divisore|Massimo comun divisore]]
 
 ### Algoritmo di Euclide
 #### Lemma di Euclide
@@ -37,7 +35,7 @@ _se_ $a \geq b > 0$ e poniamo $a= qb+r$  che posso farlo per il [[Teorema della 
 _allora_ vale che
 $$MCD(a,b)= MCD(r+qb,b)= MCD (r,b)=MCD(b,r)$$
 l algoritmo si ferma quando  $r=0$. in questo modo ottimo un algoritmo ricorsivo per calcolare il _MCD_
-```C
+```C++
 int MCD_euclid(int a, int b) 
 {   
 	if (b>a) return MCD_euclid(b, a) 

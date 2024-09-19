@@ -1,5 +1,5 @@
 ---
-Parent MOC: "[[Magistrale Inteligenza artificiale MOC]]"
+Parent MOC: "[[Magistrale Machine Learning MOC]]"
 tags:
   - MOC
 ---
