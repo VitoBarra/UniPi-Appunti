@@ -57,7 +57,7 @@ $$V_{RF} = \begin{bmatrix}
 0 & 0 & 0 & 1
 \end{bmatrix}$$
 Applicare il __View reference frame__ $V_{RF}$  ad un punto espresso in __View-space__ ci da la rappresentazione di quel punto in  __Word Space__. 
-Per passare dal __Word space__ al __View-space__ si utilizza la __View matrix__ che è l inversa [[Matrice inversa|inversa]] di $V_{RF}$ ed essendo $V_{RF}$ [[Applicazioni affini|affine]] e [[Matrici ortogonali|ortogonale]] la __View Matrix__ puo essere calcolata come 
+Per passare dal __Word space__ al __View-space__ si utilizza la __View matrix__ che è l inversa [[Matrice inversa|inversa]] di $V_{RF}$ ed essendo $V_{RF}$ [[Applicazioni affini|affine]] e [[Matrici ortogonali e ortonormali|ortogonale]] la __View Matrix__ puo essere calcolata come 
 $$
 VM=V_{RF}^{-1}=
 \begin{bmatrix}

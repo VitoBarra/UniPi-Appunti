@@ -29,16 +29,17 @@ questa ha le _proprietà_ indotte dal fatto di usare una norma come definizione
 
 
 ## Esempi di norme
-le seguenti funzioni $f(v),v=[v_1,\dots,v_n]^T \in \mathbb{F}^n$ sono norme su $\mathbb{F}^n$ dove $F^n \in \{\mathbb{R}^n,\mathbb{C}^n\}$
-_norma euclidea_:
+le seguenti funzioni $f(v),v=[v_1,\dots,v_n]^T \in \mathbb{F}^n$ sono __norme__ su $\mathbb{F}^n$ dove $F^n \in \{\mathbb{R}^n,\mathbb{C}^n\}$
+###### _Norma euclidea_:
 $$f(v)= \|v\|_2=\sqrt{\sum^n_{i=1} |v_i|^2}= \begin{cases}
 	\sqrt{v^Tv}& if & \mathbb{F} = \mathbb{R} \\
 	\sqrt{v^Hv}& if & \mathbb{F} = \mathbb{C}
 \end{cases}$$
 $H$ :trasposto coniugato ovvero se coefficienti complessi traspongo e faccio i coniugati dei numeri complessi 
-_norma 1_:
+
+###### _Norma 1_:
 $$f(v)= \|v\|_1= \sqrt{\sum_{i=1}^n}|v_i|$$
-_norma infinito_:
+###### _Norma infinito_:
 $$f(v) = \|v\|_\infty = max_{1\leq i\leq n} |v_i|$$
 
 ### Teorema di equivalenza topologica delle norme

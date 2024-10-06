@@ -1,10 +1,9 @@
 ---
-Subject: Algebra Lineare
+Subject: "[[Algebra Lineare (AL)]]"
 topic: nota
-tags: AL
+tags:
+  - AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Teorema Spetrale
 ---
@@ -14,3 +13,4 @@ questo è autoaggiunto $\iff$ ha una [[Base di uno spazio vettoriale|Base]] [[Ve
 
 >[!tip]
 >tutte le matrici simmetriche hanno autovalori reali
+

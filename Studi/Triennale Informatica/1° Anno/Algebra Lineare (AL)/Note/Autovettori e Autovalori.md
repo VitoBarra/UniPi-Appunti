@@ -1,14 +1,12 @@
 ---
-Subject: Algebra Lineare
+Subject: "[[Algebra Lineare (AL)]]"
 topic: nota
-tags: AL
+tags:
+  - AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Autovettori e Autovalori
 ---
-sua di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{K}$ e $T:V \rightarrow V$ un [[Isomorfismo e Endomorfismo|endomorfismo]] , è chiamiamo _autovettore_ un vettore $v \in V,v \not= 0$  e un _autovalore_ di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
+sua di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{K}$ e $T:V \rightarrow V$ un [[Isomorfismo e Endomorfismo|endomorfismo]] , è chiamiamo __autovettore__ un vettore $v \in V,v \not= 0$  e un __autovalore__ di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
 
 $$
 T(v)=\lambda v
@@ -19,10 +17,6 @@ $$
 > - Gli _autovettori_ $v$ con _autovalore_ $\lambda =0$ sono i vettori $v \not =0 \land v \in ker(T)$
 > - Gli _autovettori_ $v$ con _autovalore_ $\lambda =1$ sono i vettori $v \not =0$  che sono [[Punti Fissi]]
 
-
-![[UniPi-Appunti/Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 7.png]]
-
-![[UniPi-Appunti/Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 4.png]]
 
 ### Esistenza di autovettori
 - se $dim(\mathbb{R}^n)$ é dispari esiste sempre almeno un _autovettore_ in $\mathbb{R}$ questo perché se $P_A(\lambda)$  ha grado dispari ha sempre una radice in $\mathbb{R}$

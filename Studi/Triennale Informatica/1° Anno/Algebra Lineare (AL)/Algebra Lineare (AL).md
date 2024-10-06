@@ -76,7 +76,7 @@ tags:
 	4. [[Base Ortogonale e Ortonormale]]
 	5. [[Ricerca Base Ortogonale e Ortonormale]]
 	6. [[Radicale]]
-12. [[Matrici ortogonali]]
+12. [[Matrici ortogonali e ortonormali]]
 13. [[Teorema Spetrale]]
 
 ### extra

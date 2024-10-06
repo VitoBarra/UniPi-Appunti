@@ -17,4 +17,4 @@ tags:
 
 
 ### Lecture note 🧱
-1. [[AIF Lecture 17-09-2024]]
+1. [[AIF Lecture]]

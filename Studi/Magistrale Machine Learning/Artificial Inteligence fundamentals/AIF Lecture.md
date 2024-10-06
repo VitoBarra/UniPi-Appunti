@@ -7,8 +7,13 @@ topic:
 SubTopic: 
 ---
 
-# AIF Lecture 17-09-2024
----
+# 17-09-2024
 
 
 de base l AIMA
+
+
+# 20 -09-2024
+
+
+# 24-09-2024
