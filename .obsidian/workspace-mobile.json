@@ -11,16 +11,27 @@
             "id": "44fff8ae8f42d319",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Studi/Triennale Informatica/Thesis/Reference Paper/Legendre Memory Units Continuvos-Time Rappresentation in RNN.pdf"
+              }
+            }
+          },
+          {
+            "id": "f050f3af2314d539",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
+                "file": "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3GMP lecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +141,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
+            "file": "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3GMP lecture.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,7 +158,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
+            "file": "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3GMP lecture.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,7 +170,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md"
+            "file": "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3GMP lecture.md"
           }
         }
       },
@@ -205,13 +216,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "44fff8ae8f42d319",
+  "active": "f050f3af2314d539",
   "lastOpenFiles": [
-    "Studi/Magistrale Machine Learning/Computational Mametatics/Computational Matematics.md",
+    "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3D Geometry for Modeling and Processinga (3GMP).md",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Note/Base Ortogonale e Ortonormale.md",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Algebra Lineare (AL).md",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Note/Matrici quadrate.md",
+    "Studi/Triennale Informatica/2° Anno/Calcolo Numerico(CN)/Note/Fattorizzazione LU.md",
+    "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing/3GMP lecture.md",
+    "Studi/Triennale Informatica/Thesis/Reference Paper/RC-2019-Gallicchio.pdf",
+    "Studi/Triennale Informatica/Thesis/Reference Paper/Legendre Memory Units Continuvos-Time Rappresentation in RNN.pdf",
+    "Studi/Triennale Informatica/Thesis/Reference Paper/Recent advances in physical reservoir computing A review.pdf",
+    "Studi/Triennale Informatica/Thesis/Reference Paper/Reservoir coputing approaches to recurrrent neural networl training.pdf",
+    "Studi/Magistrale Machine Learning/Macchine Learning (ML)/Macchine Learning ML.md",
+    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/AIF Lecture.md",
+    "Studi/Magistrale Machine Learning/Macchine Learning (ML)",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Note/Teorema Spetrale.md",
+    "Studi/Magistrale Machine Learning/3D Geometry  for Modeling and Processing",
     "Studi/Magistrale Machine Learning/Computational Mametatics/CMLDA lecture 2024–09-18.md",
+    "Studi/Magistrale Machine Learning/Computational Mametatics/Computational Matematics.md",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Note/Autovettori e Autovalori.md",
+    "Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Note/Matrici ortogonali e ortonormali.md",
+    "Studi/Triennale Informatica/2° Anno/Calcolo Numerico(CN)/Note/Norme Matriciali e Norme Vettoriali.md",
+    "Studi/Magistrale Machine Learning/Magistrale Machine Learning MOC.md",
+    "Studi/Magistrale Machine Learning/Reti Neurali/Note/Funzioni di attivazione - SoftMax.md",
+    "Studi/Magistrale Machine Learning/Reti Neurali/Note/Tensori.md",
+    "Studi/Magistrale Machine Learning/Reti Neurali/Note/Funzioni di attivazione.md",
     "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Artificial Inteligence Fundamentals (AIF).md",
     "Studi/Magistrale Machine Learning/Computational Mametatics",
-    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/AIF Lecture 17-09-2024.md",
     "Templete/Coure head/AIF.md",
     "Templete/Coure head/FDI.md",
     "Templete/Coure head/Untitled.md",
@@ -219,27 +251,11 @@
     "Templete/MOC.md",
     "Studi/Magistrale Machine Learning/Magistrale Inteligenza artificiale MOC.md",
     "Studi/Magistrale Machine Learning/Reti Neurali/Intelligenza Artificiale (IA).md",
-    "Studi/Magistrale Machine Learning/Artificial Inteligence fundamental/Lecture 17-09-2024.md",
-    "Studi/Triennale Informatica/3° Anno/Introduzione al Intelligenza artificiale/Introduzione al Intelligenza Artificiale (IIA).md",
     "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Note",
     "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals/Media",
-    "Studi/Triennale Informatica/Triennale informatica MOC.md",
     "Studi/Magistrale Machine Learning/Artificial Inteligence fundamentals",
-    "Studi/Triennale Informatica/3° Anno/Introduzione al Intelligenza artificiale/Note/AI - Algoritmo DPLL per SAT.md",
     "Studi/Triennale Informatica/3° Anno/Ingegneria del software/Media/0B90A5CF-D33B-45A1-AC33-43F5F04D606E.jpeg",
     "Studi/Triennale Informatica/Thesis/Media/uniform.png",
-    "Studi/Triennale Informatica/Thesis/ReferenceBook/Reservoir  Computing Theory, physical implementation , and application.pdf",
-    "Studi/Superiori/Geometria Analitica/Note/Rette Parallele.md",
-    "Studi/Triennale Informatica/Complementari/Crittografia (CRI)/Note/Funzioni One-Way Trapdoor.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modello Phong.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Modelli avanzati.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Ombre.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Aliasing nelle Ombre.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Illuminazione - Occlusione ambientale.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Computer Grafica (CG).md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Texture - Environment mapping.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Trasformazione Frammenti in Pixel.md",
-    "Studi/Triennale Informatica/Complementari/Computer Grafica (CG)/Note/Aliasing e Anti-Aliasing.md",
     "Studi/Triennale Informatica/Note/Complementari/Crittografia (CRI)/Media/IMG_0785.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1098 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1136 1 1.jpeg",
@@ -248,11 +264,6 @@
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1133 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1132 1 1.jpeg",
     "Studi/Triennale Informatica/Note/Complementari/Computer Grafica (CG)/Media/IMG_1131 1 1.jpeg",
-    "GDR Note/DND5e",
-    "GDR Note",
-    "Project/GridSystem/Organization",
-    "Project/GridSystem",
-    "UniPi INF/Note/3° Anno/Basi di dati/Note",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Statistica.canvas",

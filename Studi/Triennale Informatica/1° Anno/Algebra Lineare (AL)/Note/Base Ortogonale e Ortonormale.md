@@ -10,7 +10,7 @@ _sia_ $V$ uno [[Spazio Vettoriale|Spazio vettoriale]] munito di [[Prodotto Scala
 _allora_ Una _base Ortogonale_ di $V$  è una [[Base di uno spazio vettoriale|base]] dove tutti i _[[Vettori Ortogonali|vettori sono ortogonali]]_ tra loro, ovvero vale che $$\langle v_i,v_j\rangle=0 \ \forall i\not=j$$
 e' detta _ortonormale_ il prodotto scalare e' definito positivo e se il numero $g(v_i,v_i)$ é 1,0,-1
 
-### Teorema di Sylvester (esistenza)
+### Teorema di Sylvester (Esistenza)
 esiste sempre una _base ortogonale_ per uno [[Spazio Vettoriale|spazio vettoriale]] 
 
 ### Normalizzazione
