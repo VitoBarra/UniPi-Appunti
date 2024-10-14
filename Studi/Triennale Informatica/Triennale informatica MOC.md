@@ -20,7 +20,7 @@ tags:
 	- [[Laboratorio II]]
 	- [[Statistica (STAT)]]
 - 3° Anno
-	- [[Reti - lab 3]]
+	- [[Reti]]
 	- [[Ingegneria Del Software (IS)]]
 	- [[Data Base (DB)]]
 	- [[Introduzione al Intelligenza Artificiale (IIA)]]

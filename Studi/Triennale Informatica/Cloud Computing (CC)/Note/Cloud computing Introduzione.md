@@ -52,7 +52,7 @@ sui i contatti si basano la risoluzione dei problemi
 Risorse di computazione o memorizzazione a cui si accede tramite servizi 
 
 ##### Definizione formale NIST
-il cloud computing è un _modello_, per consentire un accesso tramite la [[Reti - lab 3|Rete]], onnipresente, conveniente, e su richiesta ad un insieme condiviso di risorese computazionali configurabili (es: rete,servers, storage, applicazioni e servizi) con _pochissima_ gestione da parte del provider.
+il cloud computing è un _modello_, per consentire un accesso tramite la [[Reti|Rete]], onnipresente, conveniente, e su richiesta ad un insieme condiviso di risorese computazionali configurabili (es: rete,servers, storage, applicazioni e servizi) con _pochissima_ gestione da parte del provider.
 - Modello: Hardware, Software
 
 #### Idee chiave

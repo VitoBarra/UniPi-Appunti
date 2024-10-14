@@ -7,6 +7,6 @@ tags:
 
 1. [[Superiori MOC]]
 2. [[Triennale informatica MOC]]
-5. [[Magistrale Machine Learning MOC]]
+5. [[Magistrale Informatica IA MOC]]
 4. [[Magistrale BioInformatica MOC]]
 

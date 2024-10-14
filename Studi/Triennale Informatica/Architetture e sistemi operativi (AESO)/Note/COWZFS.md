@@ -1,10 +1,9 @@
 ---
-Subject: Architettura E Sistemi Operativi
+Subject: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
-tags: AESO
+tags:
+  - AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # COWZFS
 ---

@@ -3,7 +3,7 @@ Parent MOC: "[[Magistrale Informatica IA MOC]]"
 tags:
   - MOC
 ---
-# {{title}}
+# 3D Geometry for Modeling and Processinga (3GMP)
 
 ## Course MOC  📒
 1. 
@@ -16,3 +16,5 @@ tags:
 
 
 
+# Lecture Note
+[[3GMP lecture]]
