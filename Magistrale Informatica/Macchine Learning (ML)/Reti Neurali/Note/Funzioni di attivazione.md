@@ -3,9 +3,9 @@ Subject: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
   - ML
-Area: "[[Machine Learning (ML)]]"
+Area: "[[Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
-SubTopic:
+SubTopic: 
 ---
 # Funzioni di attivazione
 ---

@@ -6,7 +6,7 @@ tags:
 ---
 # K-means algoritmo ML
 ---
-un algoritmo _non supervisionato_ per il [[Machine Learning (ML)|Machine Learning]]
+un algoritmo _non supervisionato_ per il [[Machine Learning|Machine Learning]]
 
 si lavora con dati $<\boldsymbol x>$ senza lable
 l obiettivo è trovare un raggruppamento naturale per i dati ovvero trovare dei _cluster_

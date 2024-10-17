@@ -20,7 +20,7 @@ Si tratta di
 
 #### Concept learning
 _Concept Learning_: capacita di inferire una funzione _booleana_ da esempi negativi e positivi. 
-#### dati d Esempio per la [[Machine Learning (ML)#Learning supervisionato|Classificazione]]
+#### dati d Esempio per la [[Machine Learning#Learning supervisionato|Classificazione]]
 - definitivo come $<input,output> \rightarrow <x,c(x)>$ 
 	- dove $c(x)$ è una funzione booleana che va da $X \rightarrow \{t,f\}$
 		- $X$ è lo spazio delle istanze

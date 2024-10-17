@@ -12,3 +12,4 @@ due insiemi di punti si dicono __linearmente separabili__ quando i due insiemi p
 
 
 in generale due gruppi si dicono _linearmente separabili_ in un spazio $n-$dimensionale se possono essere separati da un solo iperpiano $(n-1)-$dimensionale 
+

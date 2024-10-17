@@ -50,7 +50,7 @@ Seconda parte corso:
 6. [[AI - Agenti logici - Sistemi a regole]]
 	1. [[Risoluzione SLD]]
 Terza parte corso:
-1. [[Machine Learning (ML)]]
+1. [[Machine Learning]]
 2. [[ML - Bias Induttivo]]
 3. [[ML - Statistical Learning Theory (SLT)]]
 4. [[ML - Overfitting e Underfitting]]
@@ -70,6 +70,6 @@ Terza parte corso:
 
 
 ### Educational Material 🧱
-1. [[Artificial Intelligence a modern approach (AIMA) 3th edition.pdf|Artificial Intelligence a modern approach (AIMA)]]
+1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf|Artificial Intelligence a modern approach (AIMA)]]
 	1. [[AIMA-appendixA.pdf| Appendice A]]
 2. [[Tom Mitchell - Machine Learning.pdf|T.M.Mitchell, machine learning, Mc Graw-HIll]]

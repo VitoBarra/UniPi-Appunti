@@ -8,4 +8,4 @@ tags:
 # Modelli supervisionati
 ---
 
-![[Machine Learning (ML)#Learning supervisionato]]
+![[Machine Learning#Learning supervisionato]]

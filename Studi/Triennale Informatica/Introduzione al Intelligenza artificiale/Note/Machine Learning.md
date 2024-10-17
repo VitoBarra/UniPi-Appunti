@@ -4,7 +4,7 @@ topic: nota
 tags:
   - IA
 ---
-# Machine Learning (ML)
+# Machine Learning
 ---
 il __machine learning__ (ML) in italiano Apprendimento automatico e' un sotto campo del [[AI - Concetti generali|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
 

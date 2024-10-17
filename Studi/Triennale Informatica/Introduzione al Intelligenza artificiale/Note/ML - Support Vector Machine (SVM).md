@@ -9,7 +9,7 @@ SubTopic:
 
 # Support Vector Machine (SVM)
 ---
-la __Support Vector Macchine__ (SVM) è modello di [[Machine Learning (ML)|machne learning]]  che fonda la sua base teorica ne  [[ML - Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
+la __Support Vector Macchine__ (SVM) è modello di [[Machine Learning|machne learning]]  che fonda la sua base teorica ne  [[ML - Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
 1. Controllare la complessità del modello tramite un un approccio di ottimizzazione [[Formulazione problema di programmazione di lineare|problema di ottimizzazione]]
 2. Espandere la flessibilità con una _Basis Expansion_ cosi come fatto nel [[ML - Modelli lineari (LMS)|modello lineare]]
 

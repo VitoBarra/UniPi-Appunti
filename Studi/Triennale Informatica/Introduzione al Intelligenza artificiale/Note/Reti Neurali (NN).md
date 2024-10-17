@@ -1,6 +1,6 @@
 ---
 Subject: "[[Intelligenza Artificiale (IA)]]"
-Area: "[[Machine Learning (ML)]]"
+Area: "[[Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
@@ -10,7 +10,7 @@ State: Trash
 ---
 # Reti Neurali (NN)
 ---
-sono un paradigma di [[Machine Learning (ML)|Machine learning]] sia per algoritmi di learning supervisionavi non supervisionati 
+sono un paradigma di [[Machine Learning|Machine learning]] sia per algoritmi di learning supervisionavi non supervisionati 
 
 
 è una rete di  threshold unit , ha capacita di approssimazione universale 

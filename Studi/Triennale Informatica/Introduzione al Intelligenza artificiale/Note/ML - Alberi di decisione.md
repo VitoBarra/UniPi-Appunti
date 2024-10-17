@@ -7,7 +7,7 @@ tags:
 
 # Alberi di decisione
 ---
-modello di  [[Machine Learning (ML)|machine lerning]] per imparare degli [[Albero di decisione|Albero di decisione]] per il [[ML - Concept Learning|concept Learning]]
+modello di  [[Machine Learning|machine lerning]] per imparare degli [[Albero di decisione|Albero di decisione]] per il [[ML - Concept Learning|concept Learning]]
 
 sono espressi come [[Forma normale disgiuntiva (DNF)|Disgiungzione di congiunzioni]]. quindi una sequenza di clausole tutte in  _and_ unite da _or_. essenzialmente regole  _if else_
 

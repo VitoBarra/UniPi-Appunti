@@ -12,7 +12,7 @@ tags:
 
 
 ### Educational Material 🧱
-1. [[Artificial Intelligence a modern approach (AIMA) 3th edition.pdf]]
+1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf]]
 
 
 

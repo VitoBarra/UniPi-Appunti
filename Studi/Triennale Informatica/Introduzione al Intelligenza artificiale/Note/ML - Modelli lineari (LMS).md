@@ -7,7 +7,7 @@ tags:
 
 # Modelli lineari
 ---
-il modello lineare e' un modello di [[Machine Learning (ML)|Machine Learning]] generalmente utile per le regressioni
+il modello lineare e' un modello di [[Machine Learning|Machine Learning]] generalmente utile per le regressioni
 
 ### Univariato 
 Si unica con un caso uni variato ovvero abbiamo un unico input $x$ ed un unico output $y$. abbiamo quindi una [[Funzioni|funzione]] del tipo 

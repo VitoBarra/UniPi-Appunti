@@ -2,7 +2,7 @@
 Subject: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
-Area: "[[Machine Learning (ML)]]"
+Area: "[[Machine Learning]]"
 topic: 
 SubTopic: 
 ---

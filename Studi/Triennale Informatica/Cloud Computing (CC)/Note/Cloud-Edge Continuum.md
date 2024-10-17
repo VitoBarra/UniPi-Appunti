@@ -51,7 +51,7 @@ per questo piazzamento ci d sono diversi approccio da considerare
 - _MILP_: si fomalizza il problema come un problema di [[Programmazione lineare]] e si risolve con l [[Algoritmo del Simplesso|Algoritmo del Simplesso]].
 	-  Trova l _ottimo_ ma puo richiedere molto tempo
 	- difficolta di esprimere informazioni non numeriche. come la possibilità di escludere certi nodi
-- _[[Machine Learning (ML)|MAchine learning]]_: si puo utilizzare l intelligenza artificiale 
+- _[[Machine Learning|MAchine learning]]_: si puo utilizzare l intelligenza artificiale 
 	- si puo imparare una strategia ma molti difficile per via della variabilità dei dati in casi di reti grandi
 	- manca di Explainability la soluzione è difficile da capire e spiegare
 - _Dichiarativo_:Servizio S puo essere piazzata al nodo N se

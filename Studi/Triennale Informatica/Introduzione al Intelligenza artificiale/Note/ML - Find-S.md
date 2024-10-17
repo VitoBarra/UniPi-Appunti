@@ -7,7 +7,7 @@ tags:
 
 # Find-S
 ---
-Find-S è un algoritmo di [[Machine Learning (ML)| Machine learning]] per il [[ML - Concept Learning|concept learning]] che utilizza l ordinamento parziale costruibile sullo spazio delle ipotesi 
+Find-S è un algoritmo di [[Machine Learning| Machine learning]] per il [[ML - Concept Learning|concept learning]] che utilizza l ordinamento parziale costruibile sullo spazio delle ipotesi 
 
 
 ### Ipotesi

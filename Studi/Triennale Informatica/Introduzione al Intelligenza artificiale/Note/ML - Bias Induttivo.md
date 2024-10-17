@@ -7,7 +7,7 @@ tags:
 
 # Bias Induttivo
 ---
-è un concetto di [[Machine Learning (ML)|ML]] fondamentale per l apprendere senza _BIas_ non puo esistere generalizzazione 
+è un concetto di [[Machine Learning|ML]] fondamentale per l apprendere senza _BIas_ non puo esistere generalizzazione 
 
 ### proprietà
 un apprendere senza bias è incapace di generalizzare, ovvero è solo in grado di classificare correttamente i dati dati di esempio
