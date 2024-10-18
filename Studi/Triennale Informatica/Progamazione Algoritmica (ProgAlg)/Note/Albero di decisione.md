@@ -1,10 +1,9 @@
 ---
-Course: Programmazione e Algoritmica
+Course: "[[Programmazione e Algoritmica (PEA)]]"
 topic: nota
-tags: PEA
+tags:
+  - PEA
 ---
-
-Prev: [[Programmazione e Algoritmica (PEA)]]
 
 # Albero di decisione
 ---

@@ -1,16 +1,16 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
-Course 2: "[[Macchine Learning (ML)]]"
+Course 2: "[[Machine Learning (ML)]]"
 tags:
   - IA
 Area: "[[Machine Learning]]"
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
 # Apprendimento NON supervisionato
 ---
-l __apprendimento NON supervisionato__ è una categoria di algoritmi di [[Macchine Learning (ML)|apprendimento]] che come dati semplici vettori.
+l __apprendimento NON supervisionato__ è una categoria di algoritmi di [[Algoritmi di Apprendimento automatico|apprendimento]] che come dati semplici vettori.
 
 Si hanno _dati di training_ di cui non si sa il valore certo ma si vuole comunque approssimate la funzione si fa quindi 
 - _Clustering_

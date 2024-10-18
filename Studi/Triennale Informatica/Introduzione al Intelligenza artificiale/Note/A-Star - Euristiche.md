@@ -7,7 +7,7 @@ topic:
 
 # A*- Euristiche 
 ---
-le euristiche utilizzate negli [[AI - Algoritmi di ricerca informati|Algoritmi di ricerca informati]] come l [[AI - Ricerca A-Star|A*]]  possono essere confrontate e misurate.
+le euristiche utilizzate negli [[Algoritmi di ricerca informati|Algoritmi di ricerca informati]] come l [[Ricerca A-Star|A*]]  possono essere confrontate e misurate.
 la scelta del euristica più adatta si fa solitamente basandosi sul _Grado di informazione posseduto_
 in generale un euristica più è informata più questa rende efficiente la ricerca, ma più si alza anche il costo del calcolo del euristica.
 di solito per le euristiche ammissibili si ha  
@@ -70,5 +70,5 @@ dove:
 - $x_1(n)$ sono  le caratteriste influenzanti
 - $c_i$ sono coefficienti, un peso che si da alla caratteristiche
 	- questi coefficienti si possono aggiustare con l esperienza 
-- con questa metodologia l ammissibilità e la [[AI - Ricerca A-Star#Consistenza di un euristica|consistenza]] _non_ sono garantite
+- con questa metodologia l ammissibilità e la [[Ricerca A-Star#Consistenza di un euristica|consistenza]] _non_ sono garantite
 

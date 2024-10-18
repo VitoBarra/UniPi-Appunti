@@ -19,7 +19,7 @@ tags:
 	1. Design di questo per ora _non_ automatico
 	2. rappresentazione degli _stati_
 	3. rappresentazioni delle _azioni_
-3. Determinazione della soluzione mediante [[AI - Algoritmi di ricerca|Ricerca]] (esecuzione di un piano un algoritmo)
+3. Determinazione della soluzione mediante [[Algoritmi di ricerca|Ricerca]] (esecuzione di un piano un algoritmo)
 4. Esecuzione del piano
 
 

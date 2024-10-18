@@ -7,10 +7,10 @@ tags:
 
 # Sistema di inferenza per FOL
 ---
-è un [[AI - Sistemi di deduzione (o di Inferenza)|Sistema di deduzione]] per il [[Logica del primo ordine (FOL)|calcolo della logica del primo ordine]]  utilizzato dal [[AI - Agenti Logici con FOL|agenti logici con FOL]]
+è un [[Sistemi di deduzione (o di Inferenza)|Sistema di deduzione]] per il [[Logica del primo ordine (FOL)|calcolo della logica del primo ordine]]  utilizzato dal [[Agenti Logici con FOL|agenti logici con FOL]]
 
 ## Riduzione ad inferenza proposizionale
-per fare inferenza si cerca di ridurrà la formula dalla logica del primo ordina alla [[Logica proposizionale|Logica proposizionale]] in modo da poter utilizzare  il [[AI - Sistema di inferenza per PROP|AI - Sistema di inferenza per PROP]]
+per fare inferenza si cerca di ridurrà la formula dalla logica del primo ordina alla [[Logica proposizionale|Logica proposizionale]] in modo da poter utilizzare  il [[Sistema di inferenza per PROP|Sistema di inferenza per PROP]]
 
 #### Regola di  eliminazione del $\forall$
 $$\frac{\forall x . A[x]}{A[x/g]}$$
@@ -37,7 +37,7 @@ $$\begin{array}{c:c}
 - se ci sono funzioni il numero di _istanza_ cresce al infinito siccome posso sempre riapplicare quella funzione al suo risultato. 
 $$P_1(a),P_1(P_1(a)),\dots$$
 ## Teorema di Herbard
-Se $KB \models \alpha$ una [[AI - Base di conoscenza (KB)|Base di conoscenza]] allora c è una dimostrazione che coinvolge solo un sottoinsieme finito della $KB$ proposizionalizata
+Se $KB \models \alpha$ una [[Base di conoscenza (KB)|Base di conoscenza]] allora c è una dimostrazione che coinvolge solo un sottoinsieme finito della $KB$ proposizionalizata
 
 quindi per capire se $\alpha$ è conseguenza logica si procede incrementalente
 1. Crea le instanza con le constanti
@@ -87,6 +87,6 @@ dove $\backslash$ è la [[Insiemi Matematici|differenza insimistica]]
 la deduzione per risoluzione è _corretta_
 ma _non è completa_
 - $\{\} \models \{P,\lnot P\}$ ma non $\{\} \vdash_{RES} \{P, \lnot P\}$
-diventa completo con il [[AI - Base di conoscenza (KB)#Teorema di refutazione|Teorema di refutazione]]
+diventa completo con il [[Base di conoscenza (KB)#Teorema di refutazione|Teorema di refutazione]]
 
  

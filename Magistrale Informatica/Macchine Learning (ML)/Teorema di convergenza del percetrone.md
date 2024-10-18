@@ -1,11 +1,11 @@
 ---
-Course: "[[Macchine Learning (ML)]]"
+Course: "[[Machine Learning (ML)]]"
 tags:
   - ML
   - NotFinisced
 Area: "[[Machine Learning]]"
 topic: 
-SubTopic:
+SubTopic: 
 ---
 # Teorema di convergenza del percetrone
 ---
