@@ -35,8 +35,7 @@ tags:
 	- [[Teoria del informazione (TDI)]]
 	- [[Fisica]]
 - Tesi
-	- [[Intelligenza Artificiale (IA)]]
-	- [[Domande per prof gallicchio]]
+	- [[Tesi di Laurea LRMU Vito Barra A.A.2324.pdf]]
 - Informatica
 	- [[Transazioni]]
 - Orientamento professionale ITC

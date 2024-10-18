@@ -18,7 +18,7 @@ Gestione Del IO, con Java.IO basato sul concetto di stream che sono
 
 gli stream di input output son astrazioni del linguaggio su i dispositivi di ingresso uscita, comunicano tramite Row Byte
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Reti/Media/Untitled 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Reti/Media/Untitled 3.png]]
 
 
 
@@ -37,5 +37,5 @@ utilizzare BufferedIOStream che estendono FilterIOStream da vantaggio in termini
 
 altri Stream come i DataIOStream che trasformano una sequenza di byte Row in dei dati a più alto livello.
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Reti/Media/Untitled 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Reti/Media/Untitled 1 1.png]]
 

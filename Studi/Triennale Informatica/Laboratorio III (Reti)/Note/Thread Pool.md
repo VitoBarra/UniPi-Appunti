@@ -16,7 +16,7 @@ I thread hanno un overhead di gestione (interazione con OS ) e e un cost in term
 
 questo può essere un problema di fatto si potrebbe arrivare a pagare più overhead del vantaggio che si ottiene usando più thread.
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Reti/Media/Untitled.png]]
+![[UniPi-Appunti/Triennale Informatica/Reti/Media/Untitled.png]]
 
 
 >[!info]
@@ -24,7 +24,7 @@ per evitare questo i [[Sistemi Operativi]] di solito limitano il numero di Threa
 
 
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Reti/Media/Untitled 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Reti/Media/Untitled 1.png]]
 
 numero di thread limitato dal livello di capacità di [[Implementazione Thread#Kernel Multi-Thread|kernel thread]]
 
@@ -45,7 +45,7 @@ le ThreadPool sono di più tipi e deferisco sulle politiche di gestione
 	- AbortPolicy : politica di default, consiste nel sollevare __RejectedExecutionException__ 
 	-  DiscardPolicy, DiscardOldestPolicy, CallerRunsPolicy: altre politiche predefinite
 
-![[UniPi-Appunti/Studi/Triennale Informatica/Reti/Media/Untitled 2.png]]
+![[UniPi-Appunti/Triennale Informatica/Reti/Media/Untitled 2.png]]
 ## Chiusura Thread pool
 la thradPool può essere chiusa in due modi
 1. __Graduale__: cerca di finire i task che in esecuzione e in coda e non accetta i nuovi task che arrivano
