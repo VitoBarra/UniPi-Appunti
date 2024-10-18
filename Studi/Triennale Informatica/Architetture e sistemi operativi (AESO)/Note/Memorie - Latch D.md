@@ -1,5 +1,5 @@
 ---
-Subject: Architettura E Sistemi Operativi
+Course: Architettura E Sistemi Operativi
 topic: nota
 tags:
   - AESO

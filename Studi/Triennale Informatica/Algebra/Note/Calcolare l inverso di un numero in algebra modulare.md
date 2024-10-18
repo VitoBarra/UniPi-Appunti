@@ -1,5 +1,5 @@
 ---
-Subject: "[[Algebra (ALG)]]"
+Course: "[[Algebra (ALG)]]"
 topic: nota
 tags:
   - ALG

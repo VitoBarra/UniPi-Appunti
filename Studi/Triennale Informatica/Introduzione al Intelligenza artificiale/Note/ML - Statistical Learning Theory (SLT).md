@@ -1,5 +1,6 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Macchine Learning (ML)]]"
 topic: nota
 tags:
   - IA
@@ -8,7 +9,7 @@ tags:
 # Statistical Learning Theory (SLT)
 ---
 ### Numero dei dati di input
-Aumentando la __complessità__ del modello sono richiesti più dati per evitare l __[[ML - Overfitting e Underfitting|overfitting]]__. infatti l _overfitting_ è un fenomeno che dipende dalla complessità e dal numero dei dati. al aumentare dei dati il modello può essere anche più complesso senza andare in over fitting 
+Aumentando la __complessità__ del modello sono richiesti più dati per evitare l __[[Overfitting e Underfitting|overfitting]]__. infatti l _overfitting_ è un fenomeno che dipende dalla complessità e dal numero dei dati. al aumentare dei dati il modello può essere anche più complesso senza andare in over fitting 
 
 >[!example]- polinomio di grado 9
 > ![[AD987627-2D22-47F8-B3ED-7EC8512A4295.jpeg]]
@@ -20,7 +21,7 @@ Aumentando la __complessità__ del modello sono richiesti più dati per evitare 
 è una teoria matematica che unifica i concetti di [[Machine Learning|machine Learning]] 
 1. Capacita di generalizare
 	1. misurata come _rischio_ è _errore sul test_
-	2. considerando le problematiche di [[ML - Overfitting e Underfitting|overfitting e underfitting]]
+	2. considerando le problematiche di [[Overfitting e Underfitting|overfitting e underfitting]]
 2.  il ruolo della complessità del modello 
 3. il ruolo della quantità di dati
 

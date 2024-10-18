@@ -1,10 +1,10 @@
 ---
-Subject: "[[Intelligenza Artificiale (IA)]]"
+Course: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
 Area: "[[Machine Learning]]"
 topic: 
-SubTopic: 
+SubTopic:
 ---
 # Tensori
 ---

@@ -1,5 +1,5 @@
 ---
-Subject: "[[Paradigmi Di Programmazione(PDP)]]"
+Course: "[[Paradigmi Di Programmazione(PDP)]]"
 tags:
   - PDP
 topic:

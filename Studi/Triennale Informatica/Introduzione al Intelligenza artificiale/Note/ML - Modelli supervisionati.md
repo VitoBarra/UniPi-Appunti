@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -8,4 +8,4 @@ tags:
 # Modelli supervisionati
 ---
 
-![[Machine Learning#Learning supervisionato]]
+[[Machine Learning#Learning supervisionato]]

@@ -1,5 +1,5 @@
 ---
-Subject: Fisica
+Course: Fisica
 topic: nota
 tags: FI
 ---

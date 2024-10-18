@@ -1,5 +1,5 @@
 ---
-Subject: "[[Teoria del informazione (TDI)]]"
+Course: "[[Teoria del informazione (TDI)]]"
 tags:
   - TDI
 Area: 

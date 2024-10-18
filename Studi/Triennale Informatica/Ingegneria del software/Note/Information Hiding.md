@@ -1,5 +1,5 @@
 ---
-Subject: Ingegneria del Software
+Course: Ingegneria del Software
 topic: nota
 tags: IS
 Status: ToReview

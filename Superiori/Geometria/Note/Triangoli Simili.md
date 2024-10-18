@@ -1,5 +1,5 @@
 ---
-Subject: "[[Geometria]]"
+Course: "[[Geometria]]"
 Area: 
 topic: 
 SubTopic: 

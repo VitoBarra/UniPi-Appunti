@@ -1,5 +1,5 @@
 ---
-Subject: "[[Formule Trigronometriche]]"
+Course: "[[Formule Trigronometriche]]"
 topic: nota
 tags:
   - Analisi

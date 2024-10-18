@@ -1,5 +1,5 @@
 ---
-Subject: Intelligenza Artificiale
+Course: Intelligenza Artificiale
 topic: nota
 tags: IA
 ---

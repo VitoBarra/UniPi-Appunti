@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -7,7 +7,7 @@ tags:
 
 # Algoritmi di ricerca
 ---
-questi sono utilizzati dai [[AI - Agenti risolutori di problemi|Agenti risolutori di problemi]] sotto le seguenti  assunzioni sul [[AI - Definizione di problemi-Ambienti|Ambiente]] , questo è
+questi sono utilizzati dai [[Agenti risolutori di problemi|Agenti risolutori di problemi]] sotto le seguenti  assunzioni sul [[Definizione di problemi-Ambienti|Ambiente]] , questo è
             _Statico_ | _Osservabile_ | _Discreto_ | _Deterministico_
 
 ### Algoritmi di ricerca

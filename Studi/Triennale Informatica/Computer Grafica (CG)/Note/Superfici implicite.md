@@ -1,7 +1,7 @@
 ---
 tags:
   - CG
-Subject: "[[Computer Grafica (CG)]]"
+Course: "[[Computer Grafica (CG)]]"
 Area: 
 topic: "[[Rappresentazione di modelli 3D]]"
 SubTopic:

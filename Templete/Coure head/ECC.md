@@ -1,5 +1,5 @@
 ---
-Subject: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
+Course: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
 tags:
   - ECC
 Area: 

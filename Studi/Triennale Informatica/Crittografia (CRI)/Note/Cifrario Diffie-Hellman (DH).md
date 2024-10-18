@@ -1,5 +1,5 @@
 ---
-Subject: Crittografia
+Course: Crittografia
 topic: nota
 tags: CRI
 ---

@@ -1,5 +1,5 @@
 ---
-Subject: "[[Algebra (ALG)]]"
+Course: "[[Algebra (ALG)]]"
 tags:
   - ALG
 topic: "[[Strutture algebriche]]"

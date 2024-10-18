@@ -2,7 +2,7 @@
 Parent MOC: "[[Algebra (ALG)]]"
 tags:
   - ALG
-Subject: Algebra
+Course: Algebra
 ---
 # Algoritmo di Euclide per calcolare mcd
 ---

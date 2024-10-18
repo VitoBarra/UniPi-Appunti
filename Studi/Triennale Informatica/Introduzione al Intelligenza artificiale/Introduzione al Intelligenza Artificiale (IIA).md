@@ -1,5 +1,5 @@
 ---
-Subject: "[[Triennale informatica MOC]]"
+Course: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - IA
@@ -9,10 +9,10 @@ tags:
 
 ## Course MOC  📒
 1. [[Intelligenza Artificiale (IA)]]
-2. [[AI - Concetti generali]]
-3. [[AI - Definizione di problemi-Ambienti]]
-4. [[AI - Agenti Razionali]]
-5. [[AI - Agenti risolutori di problemi]]
+2. [[Concetti generali]]
+3. [[Definizione di problemi-Ambienti]]
+4. [[Agenti Razionali]]
+5. [[Agenti risolutori di problemi]]
 	1. [[AI - Algoritmi di ricerca]]
 		1. [[AI - Ricerca in ampiezza BF]]
 		2. [[AI - Ricerca di costo uniforme UC]]
@@ -51,9 +51,12 @@ Seconda parte corso:
 	1. [[Risoluzione SLD]]
 Terza parte corso:
 1. [[Machine Learning]]
+	1. [[Apprendimento supervisionato]]
+	2. [[Apprendimento NON supervisionato]]
+	3. [[Reinforcement Learning]]
 2. [[ML - Bias Induttivo]]
-3. [[ML - Statistical Learning Theory (SLT)]]
-4. [[ML - Overfitting e Underfitting]]
+3. [[Overfitting e Underfitting]]
+4. [[ML - Statistical Learning Theory (SLT)]]
 5. [[ML - Validazione e test]]
 6. [[ML - Modelli supervisionati]]
 	1. [[ML - Concept Learning]]

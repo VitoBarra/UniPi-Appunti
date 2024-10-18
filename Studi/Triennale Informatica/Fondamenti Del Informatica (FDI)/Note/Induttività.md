@@ -1,5 +1,5 @@
 ---
-Subject: Fondamenti Di Informatica
+Course: Fondamenti Di Informatica
 topic: nota
 tags: FDI
 ---

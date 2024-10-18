@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -7,9 +7,9 @@ tags:
 
 # Alberi di ricerca AND-OR
 ---
-si utilizzano in [[AI - Definizione di problemi-Ambienti|ambienti]] più realistici dove questo è parzialmente osservabile e non deterministico.
+si utilizzano in [[Definizione di problemi-Ambienti|ambienti]] più realistici dove questo è parzialmente osservabile e non deterministico.
 
-gli [[AI - Agenti Razionali|agenti]] in questo caso elabora una “Strategia” che tiene conto delle diverse eventualità, queste scoperte con delle percezioni sul ambiente. l agente sviluppa un _piano con contingenza_ 
+gli [[Agenti Razionali|agenti]] in questo caso elabora una “Strategia” che tiene conto delle diverse eventualità, queste scoperte con delle percezioni sul ambiente. l agente sviluppa un _piano con contingenza_ 
 
 ## Alberi di ricerca AND-OR
 è un [[Struttura dati - Albero|albero]] di cui 

@@ -1,5 +1,5 @@
 ---
-Subject: "[[Reti]]"
+Course: "[[Reti]]"
 tags:
   - RETI_LAB_III
 topic: 

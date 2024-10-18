@@ -1,5 +1,5 @@
 ---
-Subject: "[[Interazione Uomo Macchina (IUM)]]"
+Course: "[[Interazione Uomo Macchina (IUM)]]"
 topic: nota
 tags:
   - IUM

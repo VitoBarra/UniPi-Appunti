@@ -1,10 +1,10 @@
 ---
 tags:
   - Analisi
-Subject: "[[Analisi]]"
+Course: "[[Analisi]]"
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 # Superfici
 ---

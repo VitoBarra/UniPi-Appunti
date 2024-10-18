@@ -1,5 +1,5 @@
 ---
-Subject: Cloud Computing, Interazione Uomo Macchina
+Course: Cloud Computing, Interazione Uomo Macchina
 topic: nota
 tags: CC
 ---

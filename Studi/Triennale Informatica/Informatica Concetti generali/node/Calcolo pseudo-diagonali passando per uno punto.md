@@ -1,5 +1,5 @@
 ---
-Subject: "[[Informatica concetti generali]]"
+Course: "[[Informatica concetti generali]]"
 tags:
   - Esperimenti
 topic: nota

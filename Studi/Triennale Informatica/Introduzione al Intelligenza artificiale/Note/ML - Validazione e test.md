@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: "[[ML - Validazione e test]]"
 tags:
   - IA
@@ -15,7 +15,7 @@ Gli __iperparametri__ sono dei parametri che definiscano il modello, questi sono
 
 il __processo di validazione__ aiuta a scegliere dei buoni __iperparametri__ in base alle performance osservate dallo un modello con la stessa architettura ma con __iperparametri__ diversi. Si migliora iterativamente la scelta degli __iperparametri__ che si usano in base alla valutazione di diversi modelli con l'obiettivo di trovare quello più adatto al problema. Per scegliere gli __iperparametri__  iniziali non esiste nessuna teoria o regola e quindi si procede in base al esperienza
 Nella pratica si scegli un sotto insieme dei dati chiamato __Validation set__ che non viene usato per il learning ma solo per calcolare alcune statistiche che ci permettono di capire quali __iperparametri__ sono generano un modello più adatto. 
-Per scegliere il modello piu adatto si cerca di minimizzare la __loss__ calcolata sul __validation set__ ma bisogna stare attenti siccome ad ogni iterazione avviene l'__information leackage__ ovvero si sta dando al modello informazioni sui dati su cui si sta facendo la validazione, facendo troppe iterazioni il modello potrebbe andare in [[ML - Overfitting e Underfitting|overfitting]] sul __validation set__
+Per scegliere il modello piu adatto si cerca di minimizzare la __loss__ calcolata sul __validation set__ ma bisogna stare attenti siccome ad ogni iterazione avviene l'__information leackage__ ovvero si sta dando al modello informazioni sui dati su cui si sta facendo la validazione, facendo troppe iterazioni il modello potrebbe andare in [[Overfitting e Underfitting|overfitting]] sul __validation set__
 
 il __processo di testing__ serve a capire quanto il modello scelto tramite la __validazione__ sia in grado di generalizzare su nuovi dati mai visti. Questo vieni fatto mostrando al modello una parte del data set detto __test set__.
 il __test set__ deve essere scelto prima del allenamento e non deve contenere dati usati nel __training set__ o nel __validation set__. Questo processo costruisce una [[Statistica campionaria|statistica]] indicativa per valutare il modello    

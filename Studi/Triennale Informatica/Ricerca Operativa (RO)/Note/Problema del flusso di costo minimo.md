@@ -1,5 +1,5 @@
 ---
-Subject: "[[Ricerca Operativa (RO)]]"
+Course: "[[Ricerca Operativa (RO)]]"
 tags:
   - RO
 topic: nota

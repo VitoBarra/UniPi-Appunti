@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -55,7 +55,7 @@ L architettura astratta di un agente è del tipo
 	- Un agente il cui comportamento fosse determinato solo dalla sua conoscenza built-in (pregressa), sarebbe non autonomo e poco flessibile
 
 ## Struttura degli agenti
-ogni agente si interafaccia con l [[AI - Definizione di problemi-Ambienti|Ambiente]] in cui vive e opera
+ogni agente si interafaccia con l [[Definizione di problemi-Ambienti|Ambiente]] in cui vive e opera
 è formato come
 $$Agente = Architettura + Programma$$
 ![[F69349A9-C2E7-4B42-8EFA-AB4AD09D99D0.jpeg]]

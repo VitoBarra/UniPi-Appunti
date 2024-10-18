@@ -1,5 +1,5 @@
 ---
-Subject: "[[Tringonometria]]"
+Course: "[[Tringonometria]]"
 topic: nota
 tags:
   - Analisi

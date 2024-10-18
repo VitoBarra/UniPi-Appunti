@@ -1,5 +1,5 @@
 ---
-Subject: "[[Calcolo Numerico(CN)]]"
+Course: "[[Calcolo Numerico(CN)]]"
 Area: 
 topic: 
 SubTopic: 

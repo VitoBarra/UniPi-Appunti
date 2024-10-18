@@ -1,5 +1,5 @@
 ---
-Subject: Reti e Laboratorio di reti
+Course: Reti e Laboratorio di reti
 topic: nota
 tags: RETI_LAB_III
 Status: ToReview

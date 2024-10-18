@@ -1,5 +1,5 @@
 ---
-Subject: 
+Course: 
 topic: nota
 tags:
 ---

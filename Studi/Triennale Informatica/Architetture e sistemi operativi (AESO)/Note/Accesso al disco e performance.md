@@ -1,5 +1,5 @@
 ---
-Subject: "[[Architetture e sistemi operativi (AESO)]]"
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: 
 tags:
   - AESO

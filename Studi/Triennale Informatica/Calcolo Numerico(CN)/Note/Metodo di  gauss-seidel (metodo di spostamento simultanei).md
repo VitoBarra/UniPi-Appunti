@@ -1,5 +1,5 @@
 ---
-Subject: "[[Calcolo Numerico(CN)]]"
+Course: "[[Calcolo Numerico(CN)]]"
 tags:
   - CN
 topic: "[[Metodi Iterativi per soluzioni di sistemi lineari]]"

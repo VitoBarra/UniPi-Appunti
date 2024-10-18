@@ -1,5 +1,5 @@
 ---
-Subject: "[[Quantum Computing (QC)]]"
+Course: "[[Quantum Computing (QC)]]"
 topic: nota
 tags:
   - QC

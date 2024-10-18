@@ -1,5 +1,5 @@
 ---
-Subject: "[[Interazione Uomo Macchina (IUM)]]"
+Course: "[[Interazione Uomo Macchina (IUM)]]"
 topic: nota
 tags:
   - IA
@@ -7,7 +7,7 @@ tags:
 
 # Agenti Logici - Calcolo proposizionale
 ---
-Per gli [[AI - Agenti Razionali|agenti]] che utilizzano il [[Calcolo proposizionale (PROP)]]  hanno bisogno delle componenti tipiche del calcolo proposizionale
+Per gli [[Agenti Razionali|agenti]] che utilizzano il [[Calcolo proposizionale (PROP)]]  hanno bisogno delle componenti tipiche del calcolo proposizionale
 
 #### Sintassi
 la sintassi definisce quali sono le frasi legittime (_ben formate_) del linguaggio definita cone una [[Grammatica formale]]

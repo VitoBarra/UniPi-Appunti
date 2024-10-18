@@ -1,7 +1,7 @@
 ---
 tags:
   - AL
-Subject: "[[Algebra Lineare (AL)]]"
+Course: "[[Algebra Lineare (AL)]]"
 Area: Geometria
 topic: 
 SubTopic:

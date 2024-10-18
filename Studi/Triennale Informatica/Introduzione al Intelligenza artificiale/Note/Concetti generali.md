@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -14,4 +14,4 @@ Diversi approcci a quali possono essere gli obbiettivi del intelligenza artifici
 	2.   _Pensare umanamente_: modelli cognitivi per descrivere il funzionamento della mente umana 
 - Raggiungere risultati ottimali 
 	1. _Pensare razionalmente_: studio di facoltà mentali tramite modelli computazionali, e.g. la tradizione logicista (per lo studio delle leggi/processi del pensiero che si ritiene «guidino» la mente)
-	2.  _Agire razionalmente_: [[AI - Agenti Razionali]], automazione del comportamento intelligente 
+	2.  _Agire razionalmente_: [[Agenti Razionali]], automazione del comportamento intelligente 

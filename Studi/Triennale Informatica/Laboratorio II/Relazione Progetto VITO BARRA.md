@@ -1,5 +1,5 @@
 ---
-Subject: "[[Laboratorio II]]"
+Course: "[[Laboratorio II]]"
 tags:
   - LAB_II
 topic: nota

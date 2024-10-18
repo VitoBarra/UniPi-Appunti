@@ -1,7 +1,7 @@
 ---
 tags:
   - IA
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic:
 ---
 

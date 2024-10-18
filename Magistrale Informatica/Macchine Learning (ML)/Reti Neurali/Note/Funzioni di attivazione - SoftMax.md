@@ -1,11 +1,11 @@
 ---
-Subject: "[[Intelligenza Artificiale (IA)]]"
+Course: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
   - ML
 Area: "[[Machine Learning]]"
 topic: 
-SubTopic: 
+SubTopic:
 ---
 # Funzioni di attivazione - SoftMax
 ---

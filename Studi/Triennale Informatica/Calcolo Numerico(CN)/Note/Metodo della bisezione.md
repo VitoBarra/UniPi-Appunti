@@ -1,5 +1,5 @@
 ---
-Subject: Calcolo Numerico
+Course: Calcolo Numerico
 topic: nota
 tags: CN
 ---

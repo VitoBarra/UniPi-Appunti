@@ -1,5 +1,5 @@
 ---
-Subject: "[[Statistica (STAT)]]"
+Course: "[[Statistica (STAT)]]"
 tags:
   - STAT
 ---

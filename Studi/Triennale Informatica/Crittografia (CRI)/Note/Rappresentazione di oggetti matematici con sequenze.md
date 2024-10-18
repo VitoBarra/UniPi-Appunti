@@ -1,5 +1,5 @@
 ---
-Subject: "[[Crittografia (CRI)]]"
+Course: "[[Crittografia (CRI)]]"
 tags:
   - CRI
 topic:

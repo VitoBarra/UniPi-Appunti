@@ -1,5 +1,5 @@
 ---
-Subject: Programmazione e Algoritmica
+Course: Programmazione e Algoritmica
 topic: nota
 tags: PEA
 ---

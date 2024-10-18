@@ -1,5 +1,5 @@
 ---
-Subject: "[[Computer Grafica (CG)]]"
+Course: "[[Computer Grafica (CG)]]"
 Area: 
 topic: "[[Rappresentazione di colori]]"
 SubTopic: 

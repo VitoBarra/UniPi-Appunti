@@ -1,5 +1,5 @@
 ---
-Subject: Interazione uomo macchina
+Course: Interazione uomo macchina
 topic: nota
 tags: IUM
 ---

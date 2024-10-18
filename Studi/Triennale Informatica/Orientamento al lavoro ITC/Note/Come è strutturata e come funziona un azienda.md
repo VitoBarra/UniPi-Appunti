@@ -1,5 +1,5 @@
 ---
-Subject: "[[Orientamento al lavoro ITC]]"
+Course: "[[Orientamento al lavoro ITC]]"
 tags:
   - OLAITC
 topic: nota

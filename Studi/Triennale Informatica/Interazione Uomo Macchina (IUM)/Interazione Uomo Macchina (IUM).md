@@ -1,5 +1,5 @@
 ---
-Subject: "[[Triennale informatica MOC]]"
+Course: "[[Triennale informatica MOC]]"
 tags:
   - MOC
   - IUM

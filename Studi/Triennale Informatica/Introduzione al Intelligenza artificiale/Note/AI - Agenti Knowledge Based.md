@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -7,7 +7,7 @@ tags:
 
 # Agenti Knowledge Based
 ---
-- una [[AI - Agenti Razionali|agente]] basato sulla conoscenza mantiene una _[[AI - Base di conoscenza (KB)|Base di conoscenza]]_ detta _knowledg base_ o _KB_: un insieme di enunciati espressi in un linguaggio di rappresentazione
+- una [[Agenti Razionali|agente]] basato sulla conoscenza mantiene una _[[AI - Base di conoscenza (KB)|Base di conoscenza]]_ detta _knowledg base_ o _KB_: un insieme di enunciati espressi in un linguaggio di rappresentazione
 - interagisce con la KB mediante una interfaccia funzionale tell-ask
 	- _tell_: per aggiungere nuovi enunciati da KB
 	- _ask_: per interrogare la knowledge base

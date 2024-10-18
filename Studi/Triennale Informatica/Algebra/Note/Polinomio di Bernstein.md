@@ -1,7 +1,7 @@
 ---
 tags:
   - ALG
-Subject: "[[Algebra (ALG)]]"
+Course: "[[Algebra (ALG)]]"
 Area: 
 topic: 
 SubTopic:

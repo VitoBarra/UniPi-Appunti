@@ -1,5 +1,5 @@
 ---
-Subject: Algebra Lineare
+Course: Algebra Lineare
 topic: nota
 tags: AL Imm2Text
 ---

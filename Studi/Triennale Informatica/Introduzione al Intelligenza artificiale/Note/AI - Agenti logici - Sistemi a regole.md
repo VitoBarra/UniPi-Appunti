@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -8,7 +8,7 @@ tags:
 
 # Agenti logici - Sistemi a regole
 ---
-è un tipo  di [[AI - Agenti Razionali|Agente razionale]] che utilizzano come motore un _Sotto insieme_ della [[Logica del primo ordine (FOL)|Logica del primo ordine]] 
+è un tipo  di [[Agenti Razionali|Agente razionale]] che utilizzano come motore un _Sotto insieme_ della [[Logica del primo ordine (FOL)|Logica del primo ordine]] 
 
 si utilizzano le clausole _Horn Definite_: ovvero hanno esattamente un letterale positivo 
 $$\{Q,\lnot P_1,\dots,\lnot P_k\} \ \ con\ \  k \ge 0$$

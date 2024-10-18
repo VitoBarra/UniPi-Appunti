@@ -1,5 +1,5 @@
 ---
-Subject: Cloud Computing
+Course: Cloud Computing
 topic: nota
 tags: CC
 ---

@@ -1,10 +1,10 @@
 ---
-Subject: "[[Artificial Inteligence Fundamentals (AIF)]]"
+Course: "[[Artificial Inteligence Fundamentals (AIF)]]"
 tags:
   - AIF
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 
 # {{title}}

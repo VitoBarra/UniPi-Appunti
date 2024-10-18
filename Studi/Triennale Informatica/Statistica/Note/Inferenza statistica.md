@@ -1,5 +1,5 @@
 ---
-Subject: Statistica
+Course: Statistica
 topic: nota
 tags: STAT
 ---

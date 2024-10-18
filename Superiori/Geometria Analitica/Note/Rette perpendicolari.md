@@ -1,5 +1,5 @@
 ---
-Subject: "[[Geometria analitica (GA)]]"
+Course: "[[Geometria analitica (GA)]]"
 topic: nota
 tags:
   - GA

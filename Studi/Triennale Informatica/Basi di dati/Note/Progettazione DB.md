@@ -1,5 +1,5 @@
 ---
-Subject: "[[Data Base (DB)]]"
+Course: "[[Data Base (DB)]]"
 topic: nota
 tags:
   - DB

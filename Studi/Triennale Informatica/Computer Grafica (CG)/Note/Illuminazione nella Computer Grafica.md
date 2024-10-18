@@ -1,10 +1,10 @@
 ---
-Subject: "[[Computer Grafica (CG)]]"
+Course: "[[Computer Grafica (CG)]]"
 tags:
   - CG
 Area: 
 topic: "[[Illuminazione nella Computer Grafica]]"
-SubTopic: 
+SubTopic:
 ---
 
 # Illuminazione nella Computer Grafica

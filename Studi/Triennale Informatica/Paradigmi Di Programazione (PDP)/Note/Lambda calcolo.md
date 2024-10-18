@@ -1,5 +1,5 @@
 ---
-Subject: Paradigmi Di Programmazione
+Course: Paradigmi Di Programmazione
 topic: nota
 tags: PDP
 ---

@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -9,8 +9,8 @@ tags:
 ---
 ## Agenti risolutori di problemi
 - Adottano il paradigma della _risoluzione di problemi_ come ricerca in uno spazio di stati (problem solving). 
--  Sono [[AI - Agenti Razionali#Agenti basati su modello|agenti con modello]] (storia percezioni e stati) che adottano una rappresentazione atomica dello stato 
--  Sono particolari [[AI - Agenti Razionali#Agenti con obiettivo|agenti con obiettivo]], che _pianificano_ l’intera sequenza di mosse prima di agire
+-  Sono [[Agenti Razionali#Agenti basati su modello|agenti con modello]] (storia percezioni e stati) che adottano una rappresentazione atomica dello stato 
+-  Sono particolari [[Agenti Razionali#Agenti con obiettivo|agenti con obiettivo]], che _pianificano_ l’intera sequenza di mosse prima di agire
 
 
 ## Passi da eseguire per l utilizzo

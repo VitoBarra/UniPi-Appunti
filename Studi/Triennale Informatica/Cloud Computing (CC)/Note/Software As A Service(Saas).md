@@ -1,5 +1,5 @@
 ---
-Subject: "[[Cloud Computing (CC)]]"
+Course: "[[Cloud Computing (CC)]]"
 topic: nota
 tags:
   - CC

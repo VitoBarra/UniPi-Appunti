@@ -1,5 +1,5 @@
 ---
-Subject: "[[Intelligenza Artificiale (IA)]]"
+Course: "[[Intelligenza Artificiale (IA)]]"
 Area: "[[Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 

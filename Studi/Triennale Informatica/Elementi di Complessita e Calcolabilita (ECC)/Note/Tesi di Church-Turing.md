@@ -1,5 +1,5 @@
 ---
-Subject: Elementi di calcolabilita e complessita
+Course: Elementi di calcolabilita e complessita
 topic: nota
 tags: ECC
 ---

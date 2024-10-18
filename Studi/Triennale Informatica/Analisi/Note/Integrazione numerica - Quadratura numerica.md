@@ -1,10 +1,10 @@
 ---
-Subject: "[[Analisi|Analisi]]"
+Course: "[[Analisi|Analisi]]"
 tags:
   - Analisi
 Area: 
 topic: "[[Integrazione numerica]]"
-SubTopic: 
+SubTopic:
 ---
 # Integrazione numerica - Quadratura numerica
 ---

@@ -1,8 +1,8 @@
 ---
-Subject: "[[Analisi|Analisi]]"
+Course: "[[Analisi|Analisi]]"
 tags:
   - Analisi
-topic: 
+topic:
 ---
 
 # Funzioni Convesse-Concave

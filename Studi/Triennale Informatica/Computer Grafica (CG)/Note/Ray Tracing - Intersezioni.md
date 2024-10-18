@@ -1,10 +1,10 @@
 ---
-Subject: "[[Computer Grafica (CG)]]"
+Course: "[[Computer Grafica (CG)]]"
 tags:
   - CG
 Area: 
 topic: "[[Ray Tracing]]"
-SubTopic: 
+SubTopic:
 ---
 
 # Ray Tracing - Intersezioni

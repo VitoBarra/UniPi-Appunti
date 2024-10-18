@@ -1,5 +1,5 @@
 ---
-Subject: Ingegneria del software
+Course: Ingegneria del software
 topic: nota
 tags: IS
 ---

@@ -1,5 +1,5 @@
 ---
-Subject: "[[Fondamenti Del Informatica (FDI)]]"
+Course: "[[Fondamenti Del Informatica (FDI)]]"
 Area: 
 topic: 
 SubTopic: 

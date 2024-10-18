@@ -1,5 +1,5 @@
 ---
-Subject: "[[Studio tesi]]"
+Course: "[[Studio tesi]]"
 tags: 
 Area: 
 topic: 

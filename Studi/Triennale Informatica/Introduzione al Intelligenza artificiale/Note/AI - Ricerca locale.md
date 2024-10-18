@@ -1,5 +1,5 @@
 ---
-Subject: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
@@ -13,7 +13,7 @@ questa classi di ricerca si puo utilizzare sotto le seguenti  assunzioni che
 	1. e.s.  problema delle regine regine: ci sono tutte le regine negli stati non goal il vincolo delle regine che non si attaccano non è rispettato
 in generale non ci interessa il path per la soluzione ma solo la soluzione stessa
 
-sul [[AI - Definizione di problemi-Ambienti|Ambiente]]  le assunzioni 
+sul [[Definizione di problemi-Ambienti|Ambiente]]  le assunzioni 
   _Statico_ | _Parzialmente Osservabile_ | _Continuo_ | _Non Deterministico_ | _Sconosciuto_
             
 
