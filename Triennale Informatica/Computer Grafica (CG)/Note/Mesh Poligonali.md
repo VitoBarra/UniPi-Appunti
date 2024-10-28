@@ -1,5 +1,6 @@
 ---
 Course: "[[Computer Grafica (CG)]]"
+Course 2: "[[3D Geometry for Modeling and Processinga (3GMP)]]"
 Area: 
 topic: "[[Rappresentazione di modelli 3D]]"
 SubTopic: 
@@ -9,31 +10,60 @@ tags:
 
 # Mesh Poligonali
 ---
-una __Mesh poligonale__ é un modo per [[Rappresentazione di modelli 3D|rappresentare un oggetto in uno spazio 3D digitale]] una [[Partizione di un insieme|partizione]] di un [[Superfici|superfice]] continua divisa in celle poligonali 
-Formalmente si ha che 
-_Sia_ 
+una __Mesh poligonale__ é un modo per [[Rappresentazione di modelli 3D|rappresentare un oggetto in uno spazio 3D digitale]] una [[Partizione di un insieme|partizione]] di un [[Superfici|superfice]] continua divisa in celle [[Poligoni|poligonali]], ovvero è un [[Complesso di celle (Cell Complex)|complesso di cell]]. I tipi di mesh piu comuni sono le __mesh triangolari__  dove quelle ben formate sono un  [[Complesso di celle (Cell Complex)|2-complesso simpliciale massimale]] o le __mesh quadrangolari__ 
+
+Formalmente si ha che  
+__Sia__ 
 - $\mathcal{V}= \{ v_i \in \mathbb{R}^{3}\mid i=1\dots N_v \}$ un [[Insiemi Matematici|insieme]] di vertici (punti in $\mathbb{R}^3$)
-- $\mathcal{K}$ un insieme di adiacenza tra vertici, ovvero come questi sono connessi
- _Allora_ la tupla $(\mathcal{V,K})$ é una __Mesh poligonale__ indicata con$\mathcal{M}$ 
+- $\mathcal{K} \subset \mathcal{V} \times \mathcal{V}$ un insieme di adiacenza tra vertici, ovvero come questi sono connessi
+ __Allora__ la tupla $(\mathcal{V,K})$ é una __Mesh poligonale__ indicata con $\mathcal{M}$ 
 ![[Pasted image 20240220020323.png]]
-I tipi di mesh piu comuni sono quelle triangolari e quelle quadrate. 
-in fase di [[Algoritmi di renderizzazione|rendering]] le Mesh quadrate si scompongono sempre in triangoli siccome questi sono gli unici supportati, Questo perché sono per definizione planari e é facile calcolare la normale della superficie al interno del triangolo
-![[Pasted image 20240220035554.png]]
-![[Pasted image 20240220035614.png]]
+
+Considerando una mesh possiamo discriminare $2$ aspetti fondamentali:
+- __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte geometrica continua.
+- __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte combinatoria discreta.
+In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la Manifoldness, i bordi, le componenti connesse e l orientabilità.
+Questo ci permette di scegliere la rappresentazione topologica piu comoda per le operazioni che si vogliono fare sulla mesh preservando più o meno la parte geometrica e quindi l'estetica degli oggetti che si vogliono rappresentare. 
+
+
+
+#### Bordi di una mesh
+border edge: uno spigolo non condiviso da due facce
+border vertex: i vertici di un border edge
+
+__Mesh chiusa__: una mesh senza border edges
+__Mesh aperta__: una mesh con border edges.
+ ![[Pasted image 20240220205524.png]]
+
+
+
+#### Manifoldness
+una __mesh poligonale__ può essere un $2$-[[Manifolds|manifold]] 
+![[Pasted image 20240220034236.png]]
+Per controllare che la __mesh__ sia un $2$-manifold se valgono le due seguenti proprietà:
+1. __Edge Manifold__ ogni spigolo (edge) é condiviso da massimo due triangoli
+2. __Vertex Manifold__ : prese un numero arbitrario di facce $f_i$ che condividono un vertice $v_i$ (anche dette le facce incidenti a $v_i$) allora partendo dal vertice $v_i$ esiste una percorso sugli edge delle facce $f_i$ tale che questo tocchi tutti i vertici di tutte le facce $f_i$ senza ripassare per $v_i$. 
+due esempi di mesh che non sono manifold sono
+![[Pasted image 20240220034225.png]]
+
+#### Orientamento
+i triangoli di una mesh $\mathcal{M}$ possono essere orientati in due modi diversi, orario e anti-orario. 
+per scegliere l'orientamento basta guardare l ordine di specifica dei vertici nel insieme di connettività $\mathcal{K}$ .
+due triangolo adiacenti che condividono dei vertici se hanno lo stesso orientamento dovranno avere l ordine di specifica dei vertici inverso 
+![[Pasted image 20240220204312.png]]
+un 2-manigolf ha tutte le facce orientate nello stesso modo.
+
+Non tutte le mesh si possono orientare e queste sono dette mesh con un solo lato. 
+![[Pasted image 20240220203830.png]]
+
+
 
 #### Risoluzione di una mesh
-una Mesh piu ha facce piu questa ha __Risoluzione__ alta, bisogna fare un trade off tra la qualita della rappresentazione del oggetto e le performance siccome avere piu facce significa dover fare piu calcoli.
+una Mesh piu ha facce piu questa ha __Risoluzione__ alta, bisogna fare un trade off tra la qualità della rappresentazione del oggetto e le performance siccome avere piu facce significa dover fare piu calcoli.
 ![[Pasted image 20240220032636.png]]
 La __Risoluzione__ puo essere adattiva ovvero si possono usare piu o meno facce in porzioni diversi della stessa mesh a seconda della necessita di dettagli
 ![[Pasted image 20240220035133.png]]
 
-#### Classificazione mesh
-border edge: uno spigolo non condiviso da due facce
-border vertex: i vertici di un border edge
-
-__Mesh chiusa__: una mesh senza_ border edges
-__Mesh aperta__: una mesh con border edges.
- ![[Pasted image 20240220205524.png]]
 
 #### Ottimizzazione sulla rappresentazione 
 Per ottimizzare il numero di vertici necessari per la rappresentazione della mesh si possono utilizzare __fan__ e __strip__ di vertici. Questi ci permettono di rappresentare lo stesso numero di triangoli evitando pero di salvare piu volte i vertici comuni a piu triangoli. Non sempre é  possibile applicare questa strategia.
@@ -51,41 +81,12 @@ per una __strip__ e per un __fan__ di $m$ triangoli il numero di vertici [[Stati
 ![[Pasted image 20240220022932.png]]
 
 
-#### Manifold
-una superfice é un $2$-manifold se esiste una omomorfismo  da ogni punto di $\boldsymbol{p}$ ad un disco.
 
-in pratica significa che  preso un disco di gomma possiamo puntarlo in un punto $p$ e farlo aderire a tutta la superfice.
-
-per accertarsi che una superfice é  un 2-manifold si possono fare 2 controlli
-1. __Edge Manifol__ ogni spigolo (edge) é  condiviso da una o due triangoli
-2. __Vertex Manifold__ : prese due facce $f_a$ e $f_b$ che condividono un vertice $v_i$ ci si puo muovere dal $f_a$ a $f_b$ passando solo per $v_1(i)$. Ovvero possiamo raggiungere tutti i vertici passando solo per il vicinato del vertice condiviso senza ripassare sul quel vertice
-![[Pasted image 20240220034236.png]]
-
-due esempi di mesh che non sono manifold sono
-![[Pasted image 20240220034225.png]]
-
-#### Orientamento
-i triangoli di una mesh $\mathcal{M}$ possono essere orientati in due modi diversi, orario e anti-orario. 
-per scegliere l'orientamento basta guardare l ordine di specifica dei vertici nel insieme di connettività $\mathcal{K}$ .
-due triangolo adiacenti che condividono dei vertici se hanno lo stesso orientamento dovranno avere l ordine di specifica dei vertici inverso 
-![[Pasted image 20240220204312.png]]
-un 2-manigolf ha tutte le facce orientate nello stesso modo.
-
-Non tutte le mesh si possono orientare e queste sono dette mesh con un solo lato. 
-![[Pasted image 20240220203830.png]]
+#### Rendering di mesh non triangolari
+gli algoritmi usati nelle GPU per il [[Algoritmi di renderizzazione|rendering]] lavorano solo con mesh triangolari motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
+![[Pasted image 20240220035554.png]]
 
 
-#### Strutture dati per le mesh
-
-##### Polygon soup
-é  un array di $n$ __poligoni__ ed ogni poligono é  una array di posizioni + attributi.
-é  un approccio molto semplice ma inefficiente siccome ogni vertice condiviso é duplicato per ogni poligono, questo lo rende anche difficile da aggiornare siccome per ogni aggiornamento di un vertice va aggiornato su tutti i poligoni che mantengono una copia di quel vertice.
-
-##### Indexed Mesh
-Si divide il concetto di vertice e poligono.
-si mantiene un [[array|array]] di vertici detto __Geometry array__ e un array di poligoni
-i Poligoni sono rappresentati come una sequenza di referenze ad i vertici nel __Geometry array__
-![[Pasted image 20240220212013.png]]
 
 #### Attributi sulle mesh
 ogni vertice oltre alla sua posizione ha degli attributi questi possono essere di qualsiasi natura, si puo scegliere che valore e che significato questi hanno.

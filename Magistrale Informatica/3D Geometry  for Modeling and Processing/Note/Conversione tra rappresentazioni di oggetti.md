@@ -4,7 +4,7 @@ tags:
   - 3GMP
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
 # Conversione tra rappresentazioni di oggetti
