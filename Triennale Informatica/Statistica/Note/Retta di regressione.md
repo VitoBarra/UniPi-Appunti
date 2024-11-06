@@ -36,7 +36,7 @@ b^{*}=\cfrac{\sum_{i}\cfrac{x_{i}y_{i}}{n}-\overline{x}\overline{y}}{\sum_{i}\cf
 inserendo i valori si ottiene $$Q(a^{*},b^{*})= \sum_{i=1}^{n}(y_{i}- \overline{y})(1-r(x,y)^{2})$$
 ##### Esempi
 $r(x,y)\approx-0.78, a^* \approx 1.76,b^* \approx-28.7$
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 9.png]]
+	![[Statistica/Media/Untitled 9.png]]
 
 $r(x,y)\approx-0.2422, a^* \approx ??,b^* \approx??$
 	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 10.png]]

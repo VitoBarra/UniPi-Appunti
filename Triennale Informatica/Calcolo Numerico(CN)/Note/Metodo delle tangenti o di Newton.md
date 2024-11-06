@@ -1,10 +1,10 @@
 ---
-Course: Calcolo Numerico
+Course: "[[Calcolo Numerico(CN)]]"
 topic: nota
-tags: CN
+tags:
+  - CN
 ---
 
-Prev: [[Calcolo Numerico(CN)]]
 
 # Metodo delle tangenti o di Newton
 ---

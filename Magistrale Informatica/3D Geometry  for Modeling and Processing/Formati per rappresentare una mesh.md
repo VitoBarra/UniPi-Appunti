@@ -10,7 +10,7 @@ SubTopic:
 # Formati per rappresentare una mesh
 ---
 
-##### Formati
+
 STL : molto brutto poche operazioni semplici da fare, solo una collezione di faccie
 
 

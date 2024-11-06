@@ -26,7 +26,7 @@
   ],
   "promptDelete": false,
   "showFrontmatter": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",

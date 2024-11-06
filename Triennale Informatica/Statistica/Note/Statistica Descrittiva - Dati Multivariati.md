@@ -6,7 +6,7 @@ tags:
 ---
 # Statistica Descrittiva - Dati Multivariati
 ---
-in [[Statistica descrittiva|Statistica descrittiva]] i _dati multivariati_ sono vettori di $n$-uple. gli strumenti per l analisi statistica sotto definiti sono con $n =2$ ma si adattano a $n$ piu grande
+in [[Statistica descrittiva|Statistica descrittiva]] i _dati multivariati_ sono vettori di $n$-uple. gli strumenti per l analisi statistica sono definiti  con $n =2$ ma si adattano a $n$ piu grande
 
 #### Covarianza definizione (definizione)
 _sia_ $(x,y)$ il vettore $((x_{1},y_{1})\dots(x_{n},y_{n}))$ 

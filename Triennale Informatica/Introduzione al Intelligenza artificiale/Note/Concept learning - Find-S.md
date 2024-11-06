@@ -7,7 +7,7 @@ tags:
 
 # Find-S
 ---
-Find-S è un algoritmo di [[Machine Learning| Machine learning]] per il [[Concept Learning|concept learning]] che utilizza l ordinamento parziale costruibile sullo spazio delle ipotesi 
+__Find-S__ è un algoritmo di [[Machine Learning| Machine learning]] per il [[Concept Learning|concept learning]] che utilizza l ordinamento parziale costruibile sullo spazio delle ipotesi 
 
 
 ### Ipotesi
@@ -32,6 +32,8 @@ Find-S è un algoritmo di [[Machine Learning| Machine learning]] per il [[Concep
 - da in output l ipotesi più _specifica_ con $h$ _consistente_ con gli esempi positivi
 - l ipotesi $h$ sarà anche consistente con i casi _negativi_ del training set se il concetto è contenuto in $H$
 	- perché $c \geq h$ ovvero c è poi generale
-### problematiche
+
+
+### Problematiche
 - non si può dire nulla sul fatto che l algoritmo converge verso una soluzione. ovvero non si può dire nulla sul unicità del ipotesi consistente con gli esempi i training 
 - non dice nulla sul inconsistenza dei dati, questo siccome ignora i casi _negativi_: non accetta dati perturbati

@@ -7,7 +7,7 @@ tags:
 # Computational Matematics
 
 ## Course MOC  📒
-1. 
+1. [[Quadratic optimization Problem]]
 
 
 

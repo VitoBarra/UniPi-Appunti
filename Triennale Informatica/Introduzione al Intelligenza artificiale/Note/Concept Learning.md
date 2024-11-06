@@ -26,7 +26,9 @@ _Concept Learning_: capacita di inferire una funzione _booleana_ da esempi negat
 		- $X$ è lo spazio delle istanze
 	- è un caso specifico di $<x,d>$
 #### Soddisfa
-- una _Ipotesi_ $h(x)$ si diche che _soddisfa_ x se $h(x)=1$
+- una _Ipotesi_ $h(x)$ si diche che _soddisfa_ $x$ se $h(x)=1$
+
+
 #### Consistenza del ipotesi
 - Un _ipotesi_ h(x) è consistente con
 	- _un esempio_  se $h(x) =c(x)$
@@ -56,8 +58,8 @@ assunzione che si fa.
 - ogni ipotesi $H$ che approssima la funzione _target_ sui dati di training approssimerà anche i valori della funzione _target_ su dati non ancora visti.
 
 quindi si ha che 
-- $h(x)=c(x)$ for all $x$ in $D$ (ovvero è _consistente_ con $D$) $\implies$
-- $h(x) = c(x)$ for all $x$ in $X$ 
+- $h(x)=c(x)$ for all $x \in D$ (ovvero è _consistente_ con $D$) $\implies$
+- $h(x) = c(x)$ for all $x \in X$ 
 
 
 ##### Definizione di consistenza

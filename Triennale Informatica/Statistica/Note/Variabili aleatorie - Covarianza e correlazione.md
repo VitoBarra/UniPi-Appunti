@@ -7,6 +7,7 @@ tags:
 # Variabili aleatorie - Covarianza e correlazione
 ---
 la Covarianza delle [[Variabili Aleatorie (Casuali)|variabili aleatorie]] è un concetto analogo alla [[Statistica Descrittiva - Dati Multivariati#Covarianza definizione (definizione)|Covarianza]] nel caso dei dati multi variati in _[[Statistica descrittiva|statistica descrittiva]]_
+
 #### Covarianza e coefficiente di correlazione (Definizione)
 _siano_ $X$ e $Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] con [[Variabili aleatoria - Momenti|Momento secondo]] 
 _allora_ è detto _covarianza_ il numero $$\begin{array}{}
