@@ -1,6 +1,6 @@
 ---
 Course: "[[Computer Grafica (CG)]]"
-Course 2: "[[3D Geometry for Modeling and Processinga (3GMP)]]"
+Course 2: "[[3D Geometry for Modeling and Processing (3GMP)]]"
 Area: 
 topic: "[[Rappresentazione di modelli 3D]]"
 SubTopic: "[[Superfici parametriche]]"

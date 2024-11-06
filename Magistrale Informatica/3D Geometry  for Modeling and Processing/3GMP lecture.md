@@ -1,14 +1,17 @@
 ---
-Course: "[[3D Geometry for Modeling and Processinga (3GMP)]]"
+Course: "[[3D Geometry for Modeling and Processing (3GMP)]]"
 tags:
   - 3GMP
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
 # 3GMP lecture
 
+Progetti:
+- riduzione distorsione con parametrizazione di voronoi. Aggiustare zone distorte.
+- Chiusura dei buchi seguendo i la curva della mesh in modo ragionevole.
 
 
 
@@ -44,5 +47,17 @@ i metodi implicit: molto piu resistenti al rumore sucuramente si perde del infor
 
 Variante del alpha shape, Ball pivoting 
 
+
+
+
+
+
+
+Progetto intersezione i due diagrammi di voronoi si fa in classe,
+
+
+
+
+Campionamento gestito in modo generico. si associa un samplere, che solo delle funzoini da calcolare sui vertici nuovi generati. in questi modo ci si posono salvae informaizoni derivate dalla facci ach l ha generata.
 
 
