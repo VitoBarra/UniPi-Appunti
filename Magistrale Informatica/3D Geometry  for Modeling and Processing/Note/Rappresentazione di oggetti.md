@@ -4,12 +4,12 @@ tags:
   - 3GMP
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
 # Rappresentazione di oggetti
 ---
-Rappresentazione DI forme 3D : rappresentare la forma geometrica della superficie assunzione forte in quando no è l unico modo per rappresentare una forma in 3D
+Rappresentazione di forme 3D : rappresentare la forma geometrica della superficie assunzione forte in quando no è l unico modo per rappresentare una forma in 3D
 
 Un altra idea è usare la densità del volume, LA TAC fa quello
 
