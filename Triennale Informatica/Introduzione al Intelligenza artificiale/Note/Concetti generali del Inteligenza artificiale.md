@@ -5,7 +5,7 @@ tags:
   - IA
 ---
 
-# Concetti generali IA
+# Concetti generali del Inteligenza artificiale
 ---
 Diversi approcci a quali possono essere gli obbiettivi del intelligenza artificiale 
 

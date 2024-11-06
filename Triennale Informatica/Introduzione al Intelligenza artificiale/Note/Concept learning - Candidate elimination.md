@@ -7,7 +7,7 @@ tags:
 
 # Candidate elimination
 ---
-_Candidate elimination_ e' un algoritmo per [[Machine Learning|Machine learning ]] per il [[Concept Learning|Concept learning]]
+_Candidate elimination_ e' un algoritmo per [[Concetti generali del Machine Learning|Machine learning ]] per il [[Concept Learning|Concept learning]]
 
 ## Definizioni
 - _Version Space_: $VS_{H,D}$ in accordo con lo spazio delle ipotesi $H$ è il training set D,  è il sotto [[Insiemi Matematici|insieme]] di ipotesi consistenti con tutte i dati di training $$VS_{H,D} = \{h\in H | consistent(h,D)\}$$

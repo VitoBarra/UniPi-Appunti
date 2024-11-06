@@ -7,7 +7,7 @@ tags:
 
 # K-Nearest Neighbor (K-NN)
 ---
-un algoritmo _supervisionato_ di [[Machine Learning|ML]] 
+un algoritmo _supervisionato_ di [[Concetti generali del Machine Learning|ML]] 
 
 un algoritmo molto semplice che non fornisce un modello ma direttamente una classificazione o curva di regressione
 

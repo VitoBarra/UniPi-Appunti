@@ -65,5 +65,5 @@ _Big Data_ è un termine ampio, riferito a situazioni in cui l'approccio '_schem
 
 I Big Data sono in genere associati a:
 - Sistemi _NoSQL_
-- [[Machine Learning|Machine learning]]
+- [[Concetti generali del Machine Learning|Machine learning]]
 - Approccio _Data Lake_

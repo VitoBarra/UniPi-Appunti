@@ -8,7 +8,7 @@ tags:
 
 # Overfitting e Underfitting
 ---
-__Overfitting__ e __Underfitting__ sono due concetto del [[Machine Learning|ML]] che mettono il relazione la __complessità__ del modello usato e i dati utilizzati per il training 
+__Overfitting__ e __Underfitting__ sono due concetto del [[Concetti generali del Machine Learning|ML]] che mettono il relazione la __complessità__ del modello usato e i dati utilizzati per il training 
 
 ## Overfitting
 un learner è in  __overfitting__ se genera un ipotesi $h \in H$  tale che ne esiste un altra  $h' \in H$ che ha _[[Statistical Learning Theory (SLT)|Errore empirico]]_ $R_{emp}$ maggiore sui dati di training e un __errore di generalizzazione__ $R$ più basso

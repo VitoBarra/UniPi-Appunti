@@ -18,7 +18,7 @@ Aumentando la __complessità__ del modello sono richiesti più dati per evitare 
 
 
 ### Statitistical learning Theory
-è una teoria matematica che unifica i concetti di [[Machine Learning|machine Learning]] 
+è una teoria matematica che unifica i concetti di [[Concetti generali del Machine Learning|machine Learning]] 
 1. Capacita di generalizare
 	1. misurata come _rischio_ è _errore sul test_
 	2. considerando le problematiche di [[Overfitting e Underfitting|overfitting e underfitting]]
@@ -55,7 +55,7 @@ Possiamo utilizzare $R_{emp}$ per  approssimare $R$ ?
  
 
 >[!note]
->nonostante i [[Modelli lineari (LMS)|modelli lineare]] e [[Alberi di decisione|alberi di decisione]] siano stati formalizzati prima della SLT vedere come questi applicano entrambi i principi di questa teoria. che infatti è l astratto di quello che viene detto in questi modelli
+>nonostante i [[Modelli lineari con LMS|modelli lineare]] e [[Alberi di decisione|alberi di decisione]] siano stati formalizzati prima della SLT vedere come questi applicano entrambi i principi di questa teoria. che infatti è l astratto di quello che viene detto in questi modelli
 
 
 > [!note]

@@ -7,7 +7,7 @@ tags:
 
 # Validazione e test
 ---
- la __validazione e  test__ sono un concetti generali del campo del [[Machine Learning|Machine learning]] infatti 
+ la __validazione e  test__ sono un concetti generali del campo del [[Concetti generali del Machine Learning|Machine learning]] infatti 
  - la __validazione__ serve a selezionare dei buoni __iperparametri__ che permettono di selezionare un modello adatto al problema che si sta cercando di risolvere 
  - il __test__ serve ad assicuraci che il modello sia in grado di generalizzare e avere delle risposte corrette anche su dati che non ha mai visto 
 

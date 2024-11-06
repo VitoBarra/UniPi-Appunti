@@ -3,9 +3,9 @@ Course: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
   - ML
-Area: "[[Machine Learning]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
-SubTopic:
+SubTopic: 
 ---
 # Funzioni di attivazione
 ---

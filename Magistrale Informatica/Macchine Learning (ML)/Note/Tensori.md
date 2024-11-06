@@ -2,9 +2,9 @@
 Course: "[[Intelligenza Artificiale (IA)]]"
 tags:
   - IA
-Area: "[[Machine Learning]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: 
-SubTopic:
+SubTopic: 
 ---
 # Tensori
 ---

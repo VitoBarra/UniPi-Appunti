@@ -1,10 +1,10 @@
 ---
-Course: Intelligenza Artificiale
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
-tags: IA
+tags:
+  - IA
 ---
 
-Prev: [[Introduzione al Intelligenza Artificiale (IIA)]]
 
 # Risoluzione SLD
 ---

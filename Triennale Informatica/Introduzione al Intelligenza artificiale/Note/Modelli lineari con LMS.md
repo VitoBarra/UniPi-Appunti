@@ -1,13 +1,14 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
   - IA
 ---
 
-# Modelli lineari
+# Modelli lineari con LMS
 ---
-il __modello lineare__ e' un modello parametrico per il [[Machine Learning|Machine Learning]] viene generato con algoritmi di [[Apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si puo provare ad utilizzare per risolvere un problema.
+il __modello lineare__ e' un modello parametrico per il [[Concetti generali del Machine Learning|Concetti generali del Machine Learning]] viene generato con algoritmi di [[Apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si puo provare ad utilizzare per risolvere un problema.
 
 ### Univariato 
 Si unica con un caso uni variato ovvero abbiamo un unico input $x$ ed un unico output $y$. abbiamo quindi una [[Funzioni|funzione]] del tipo 
@@ -19,7 +20,7 @@ a livello geometrico  stiamo facendo un _fitting_ con una linea.
 ### Concetti generali 
 vogliamo cercare la migliore ipotesi dove per migliore si intende quella che minimizza l errore. lo si fa variando il vettore dei pesi $w$.
 
-$w$ sono variabili continue quindi abbiamo una spazio delle ipotesi $H$ infinito. ma possiamo utilizzare risultati classici della matematica. la [[Discesa di gradiente|discesa di gradiente]].
+$w$ sono variabili continue quindi abbiamo una spazio delle ipotesi $H$ infinito. ma possiamo utilizzare risultati classici della matematica come la [[Discesa di gradiente|discesa di gradiente]].
 
 #### Apprendimento
 l _Apprendimento_ definito come una ricerca
@@ -183,7 +184,7 @@ esempi di  $\phi_k$
 
 
 
-- _PRO_:è piu espressivo puo esprimere relazioni piu complicate
+- _PRO_: è piu espressivo puo esprimere relazioni piu complicate
 una buona flessibilità ci permette di dare una buona approssimazione della funzione che cerchiamo 
 ![[AC48AB1A-F82F-401F-8B56-89876D800471.jpeg]]
 - _CONS_: con una larga base di funzioni abbiamo bisogno di metodi per tenere sotto controllo la _complessità_ del modello

@@ -3,7 +3,7 @@ Course: "[[Machine Learning (ML)]]"
 tags:
   - ML
   - NotFinisced
-Area: "[[Machine Learning]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic: 
 ---

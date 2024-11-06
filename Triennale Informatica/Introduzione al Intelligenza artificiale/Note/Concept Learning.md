@@ -45,7 +45,7 @@ _Concept Learning_: capacita di inferire una funzione _booleana_ da esempi negat
 Per avere una ricerca efficiente  si restringe lo spazio delle ipotesi ad una sotto insieme molto più piccolo dello spazio delle soluzioni. si aggiunge quindi un _[[Bias Induttivo|Bias]]_ che fare questa restrizione.
 alcuni esempi di queste restrizioni sono 
 - Le funzioni in forma [[Forma normale congiuntiva (CNF)|congiuntiva]] usati nel [[Concept learning - Candidate elimination|candidate elimination]] e nel [[Concept learning - Find-S|Find-S]]
-- le espressioni lineari come nel [[Modelli lineari (LMS)|modello lineare]]
+- le espressioni lineari com[[Modelli lineari con LMS|modello lineare]]eare]]
 
 
 Parlando del caso delle regolo congiuntive la cardinalita dello spzio delle ipotesi $H$ è

@@ -4,9 +4,9 @@ topic: nota
 tags:
   - IA
 ---
-# K-means algoritmo ML
+# K-means
 ---
-un [[Apprendimento NON supervisionato|algoritmo non supervisionato]] per il [[Machine Learning|Machine Learning]]
+un [[Apprendimento NON supervisionato|algoritmo non supervisionato]] per il [[Concetti generali del Machine Learning|Concetti generali del Machine Learning]]
 
 si lavora con dati $<\boldsymbol x>$ senza lable
 l obiettivo è trovare un raggruppamento naturale per i dati ovvero trovare dei _cluster_

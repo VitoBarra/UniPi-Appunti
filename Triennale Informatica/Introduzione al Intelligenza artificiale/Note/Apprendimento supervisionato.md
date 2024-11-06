@@ -3,13 +3,13 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Machine Learning (ML)]]"
 tags:
   - IA
-Area: "[[Machine Learning]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic: 
 ---
 # Apprendimento supervisionato
 ---
-l __apprendimento supervisionato__ è una categoria di algoritmi di [[Algoritmi di Apprendimento automatico|apprendimento]] che utilizza dei dati _Etichettati_. 
+l __apprendimento supervisionato__ è una categoria di algoritmi di [[Algoritmi di Macchine Learning|apprendimento]] che utilizza dei dati _Etichettati_. 
 
 __Sia__ il __Training set__, definito come una serie di punti $$(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$$ dove ogni punto è generato da una funzione $y_i=f(x_i)+noise$, trovare una funzione $h$, detta ipotesi, che è una approssimazione della funzione vera $f$.
 

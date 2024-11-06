@@ -11,7 +11,6 @@ tags:
 	- [[Artificial Inteligence Fundamentals (AIF)]]
 	- [[Machine Learning (ML)]]
 		- [[Introduzione al Intelligenza Artificiale (IIA)]]
-		- [[Intelligenza Artificiale (IA)]]
 	- [[3D Geometry for Modeling and Processing (3GMP)]]
 	- [[Computational Mathematics for Learning and Data Analisys (CLMDA)]]
 	- 

@@ -9,13 +9,13 @@ SubTopic:
 
 # Support Vector Machine (SVM)
 ---
-la __Support Vector Macchine__ (SVM) è modello di [[Machine Learning|machne learning]]  che fonda la sua base teorica ne  [[Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
+la __Support Vector Macchine__ (SVM) è modello di [[Concetti generali del Machine Learning|machne learning]]  che fonda la sua base teorica ne  [[Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
 1. Controllare la complessità del modello tramite un un approccio di ottimizzazione [[Formulazione problema di programmazione di lineare|problema di ottimizzazione]]
-2. Espandere la flessibilità con una _Basis Expansion_ cosi come fatto nel [[Modelli lineari (LMS)|modello lineare]]
+2. Espandere la flessibilità con una _Basis Expansion_ cosi come fatto nel [[Modelli lineari con LMS|modello lineare]]
 
 
 ### Approccio di ottimizzazione 
-in un caso di classificazione con il [[Modelli lineari (LMS)|modello lineare]] non tutte le ipotesi $h$ sono uguali
+in un caso di classificazione con il [[Modelli lineari con LMS|modello lineare]] non tutte le ipotesi $h$ sono uguali
 infatti con diversi ipotesi $h_1,\dots,h_n$ possiamo vedere che hanno tutti _margini_ diversi 
 ![[928BFB8C-963B-4554-B5B1-2F43868FCBDC.jpeg]]
 dove _Margine_ è definito come:  2 volte (una per lato ) la distanza tra tra l iperpiano di separazione e il più vicino _data point_ . 
@@ -36,7 +36,7 @@ $(\boldsymbol x_p,y_p)$ è classificato correttamente $\iff \begin{cases}\boldsy
 
 $\iff (\boldsymbol w^T \boldsymbol x_p+b)y_p\geq 1 \ \ \forall p$ ovvero _tutti_ i punti sono correttamente classificati. 
 >[!note]
->a differenza del [[Modelli lineari (LMS)|modelli lineare]] in questo abbiamo un errore pari a 0 se le regioni sono [[Linearmente Separabili|linearmente separabili]]
+>a differenza del [[Modelli lineari con LMS|modelli lineare]] in questo abbiamo un errore pari a 0 se le regioni sono [[Linearmente Separabili|linearmente separabili]]
 
 #### Proprietà
 _Margin_:  è definito da $\frac{2}{\|\boldsymbol w\|}$  quindi 

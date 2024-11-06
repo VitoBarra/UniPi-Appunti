@@ -1,6 +1,6 @@
 ---
 Course: "[[Intelligenza Artificiale (IA)]]"
-Area: "[[Machine Learning]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
@@ -10,7 +10,7 @@ State: Trash
 ---
 # Reti Neurali (NN)
 ---
-sono un paradigma di [[Machine Learning|Machine learning]] sia per algoritmi di learning supervisionavi non supervisionati 
+sono un paradigma di [[Concetti generali del Machine Learning|Machine learning]] sia per algoritmi di learning supervisionavi non supervisionati 
 
 
 è una rete di  threshold unit , ha capacita di approssimazione universale 
@@ -29,8 +29,7 @@ avere piu layer permette di creare delle feature astratte sopra i dati
 
 
 
-#### Backwards propagation
-Il sistema con cui le reti neurali imparano 
-
+#### Algoritmo di aprendimento
+L l' algoritmo usato delle reti neurali per funzionare è l algoritmo di [[BackPropagation]] 
 
 

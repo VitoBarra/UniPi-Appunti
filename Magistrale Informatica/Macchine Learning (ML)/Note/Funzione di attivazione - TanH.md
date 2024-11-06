@@ -2,10 +2,10 @@
 tags:
   - IA
   - ML
-Course: "[[Intelligenza Artificiale (IA)]]"
-Area: "[[Machine Learning]]"
+Course: "[[Machine Learning (ML)]]"
+Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
-SubTopic:
+SubTopic: 
 ---
 
 # Funzione di attivazione - TanH

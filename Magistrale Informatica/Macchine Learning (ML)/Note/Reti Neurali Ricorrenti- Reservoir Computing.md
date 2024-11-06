@@ -1,13 +1,13 @@
 ---
-Course: "[[Intelligenza Artificiale (IA)]]"
-Area: "[[Machine Learning]]"
+Course: "[[Machine Learning (ML)]]"
+Area: "[[Reti Neurali Ricorrenti (RNN)]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
   - IA
   - ML
 ---
-# Reti Neurali - Reservoir Computing
+# Reti Neurali Ricorrenti - Reservoir Computing
 ---
 
 

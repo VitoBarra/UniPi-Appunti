@@ -1,12 +1,13 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
   - IA
 ---
-# Machine Learning
+# Concetti generali del Machine Learning
 ---
-il __machine learning__ (ML) in italiano Apprendimento automatico e' un sotto campo del [[Concetti generali|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
+il __machine learning__ (ML) in italiano Apprendimento automatico e' un sotto campo del [[Concetti generali del Inteligenza artificiale|inteligenza artificiale]] . questo è uno strumento utile  per l analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
 
 gli obbiettivi sono
 - come metodologia per l Ai
