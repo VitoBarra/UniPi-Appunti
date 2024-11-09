@@ -26,7 +26,7 @@ Proprietà dell’ambiente-problema
 ##### singolo/multiagente
 -  Distinzione agente/non agente 
 	-  Il mondo può anche cambiare per eventi, non necessariamente per azioni di agenti. 
--  Ambiente **multi-agente _competitivo_** (schacchi) 
+-  Ambiente **multi-agente _competitivo_** (scacchi) 
 	- Comportamento randomizzato (è razionale) 
 -  Ambiente _multi-agente cooperativo_ (o benigno) 
 	-  Stesso obiettivo 
