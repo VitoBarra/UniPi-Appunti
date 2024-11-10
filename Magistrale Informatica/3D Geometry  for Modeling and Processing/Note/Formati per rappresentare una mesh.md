@@ -10,10 +10,7 @@ SubTopic:
 # Formati per rappresentare una mesh
 ---
 
-<<<<<<< HEAD:Magistrale Informatica/3D Geometry  for Modeling and Processing/Formati per rappresentare una mesh.md
 
-STL : molto brutto poche operazioni semplici da fare, solo una collezione di faccie
-=======
 #### Strutture dati per le mesh
 
 ##### Polygon soup
@@ -29,14 +26,19 @@ i Poligoni sono rappresentati come una sequenza di referenze ad i vertici nel __
 
 
 ##### Formati
-STL : molto brutto poche operazioni semplici da fare, solo una collezione di facce
->>>>>>> main:Magistrale Informatica/3D Geometry  for Modeling and Processing/Note/Formati per rappresentare una mesh.md
+#### Standard tasselation Language 
+lo __Standard Tasselation Language__ (STL) salva la mesh come lista di facce (Triangolari) ed ogni faccia è composta da 3 posizioni ovvero i vertici del triangolo e ogni vertice è espresso da 3 coordinate.![[IMG_1176.jpeg]]
+Non c è nessuna nozione di connettività  tra i vertici e tutti i vertici condivisi sono duplicati, ciò significa che modificare un vertice diventa un operazione costata siccome bisogna cercare e eventualmente cambiare ogni riferimento a quel vertice.
 
+### Object e Object File format
+il formato __object__ e il formato __object file format__ (OFF) questi formati salvano indipendentemente i vertici e i triangoli, Ogni vertice è salvato come 3 coordinate e ogni triangolo ha 3 riferimenti a 3 vertici.
+![[IMG_1175.jpeg]]
+questo semplifica la modifica dei vertici siccome non c è bisogno di ricercarlo in tutti i triangoli, in più è più efficiente in termini di memoria occupata rispetto alle STL, questo siccome non ci sono vertici duplicati.   
 
-obj, OFF: lista di vertici e lista di vertici per faccia.
+### Face-Base Connectivity
+![[IMG_1177.jpeg]]
 
-
-face-Base Connectivity: 
+![[IMG_1179.jpeg]]
 vertici che tengono posizione e il riferimento ad una faccia
 faccine: 3 vertici e riferimento a 3 faccine adiacenti.
 Non mantengono edge e questo puo essere un problema.
