@@ -7,27 +7,19 @@ topic:
 SubTopic: 
 ---
 
-# Lezioni Codice
+# Libreria per Mesh processing VCG
 ---
-Lezione codice: 
+la libreria __VCG__ libreria [[Linguaggio Cpp|c++]] per __[[mesh Processing|Mesh Processing]]__ basata sui [[Cpp metaProgramming|template]], header only. Questo dovrebbe evitare grandi problemi di compilazione.  
+
+Questa libreria racchiude molti  algoritmi stato dello stato del arte. 
+La libreria lavora principalmente con formati [[Formati per rappresentare una mesh#Face-Base Connectivity|faccia centrica]] ovvero tutti i conti si fanno con partendo dalle faccie. 
+
+si puo accedere alla maggior parte delle funzionalità della libreria tramite metodi statici.
+comprese funzioni di utilità come ad esempio IO dei file per mesh 
 
 
-VCG LIbrary: c++ template base nessun grande problema di compilazione (da vedere)
 
-Una libreria  per mesh processing, molti algoritmi stato del arte. 
-Lavoriamo sul branch devel 
-
-
-La libreria e face centrica: tutti i conti si fanno con le faccie. 
-
-un po’ di caos e da scrivere per evitare il boilerplate 
-
-
-usa un sacco di metodi statici, quindi un saaaaacco di boilerplate 
-
-
-ha anche delle funzioni di utilità per fare l IO dei file.
-gestisce tutto con i valori di errore, quindi niente eccezioni 
+gestisce tutto con i valori di errore, quindi niente eccezioni.
 
 
 3D stendford’ bunny primo modello acquisito digitalmente è aperto pubblicamente a tutti, è usato storicamente 
@@ -80,5 +72,11 @@ Modulo VCGLIB
 
 Architettura mesh lab:
 Architettura a plugin
+
+
+Si possono calcolare i baricentri delle facce con CalcolatePolyBaricenter()
+
+
+La libreria tende a non aggiornare i puntatori interni qundi conviene usare altre cose come male (int, int), int
 
 

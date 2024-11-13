@@ -46,7 +46,7 @@ tags:
 		1. [[Mesh Poligonali]]
 		2. [[Superfici implicite]]
 		3. [[Curve parametriche]]
-			1. [[Smoothness]]
+			1. [[Smoothness di una superfice]]
 			2. [[Curve parametriche - Curve di Bezier]]
 		4. [[Superfici parametriche]]
 			1. [[Superfici parametriche - Bezier patches Bicubiche]]

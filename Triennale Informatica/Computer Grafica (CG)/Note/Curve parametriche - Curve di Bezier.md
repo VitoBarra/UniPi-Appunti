@@ -61,7 +61,7 @@ e da questa si puo calcolare il __vettore di tangente unitario__ come $$T(f(t))=
 con la definizione della __curva di bezier__ abbiamo che al aumentare dei punti di controllo aumenta il grado del [[Polinomio di Bernstein|polinomio di bernstein]] da usare, questo pero é poco efficiente e si tende ad utilizzare i __cammino di bezier__, che ci permettono di usare un [[Polinomio di Bernstein|polinomio di bernstein]] di grado basso e di costruire curve piu complesse  
 
 per costruire un __cammino di bezier__ si sceglie un grado $n$ del [[Polinomio di Bernstein|polinomio di bernstein]] e di conseguenza anche il numero di __control point__, e per ottenere la curva desiderata si uniscono più __curve di Bezier__ fatte con il numero di __control point__ scelto.
-l' unione delle curve individuali deve essere fatta in modo da garantire la [[Continuità di una funzione|continuità]] e la [[Smoothness|smoothness]] della curva finale per fare ciò ci sono i seguenti criteri.
+l' unione delle curve individuali deve essere fatta in modo da garantire la [[Continuità di una funzione|continuità]] e la [[Smoothness di una superfice|smoothness]] della curva finale per fare ciò ci sono i seguenti criteri.
 1) continuità : se l'__ultimo punto__ di una curva viene usato come __primo punto__ della successiva, questo garantisce la continuità grazie alle proprietà delle __curve di bezier__
 	- ![[Pasted image 20240222182447.png]]
 2) smooth: se vale $1$ e il penultimo e l ultimo punto della prima curva assieme al primo e al secondo della seconda curva devono essere [[Colinearita|collineari]] e quindi hanno la stessa __tangente unitaria__.

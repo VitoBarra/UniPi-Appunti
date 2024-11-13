@@ -10,8 +10,10 @@ tags:
 ## Course MOC  📒
 1. Background Geometrico
 	1. [[Politopo]]
-		1. [[Poliedri Platonici]]
-		2. [[Poliedri di archimede]]
+		1. [[Poligono]]
+		2. [[Poliedro]]
+			1. [[Poliedri Platonici]]
+			2. [[Poliedri di Archimede]]
 	2. [[Manifolds]]
 	3. [[Simplex (Simplesso)]]
 	4. [[Complesso di celle (Cell Complex)]]
@@ -25,10 +27,14 @@ tags:
 	4. [[Relazioni di adiacenza in una mesh]]
 3. [[Formati per rappresentare una mesh]]
 4. [[Conversione tra rappresentazioni di oggetti]]
-5. [[Remeshing]]
-	1. [[Algoritmo di Remeshing - Loop]]
-	2. [[Algoritmo di Remeshing - Cadmur-Clark]]
-	3. …
+5. [[Meshing e il Remeshing]]
+	1. [[Remeshing - Raffinamento]] 
+		1. [[Algoritmo di Remeshing - DooSabin]]
+		2. [[Algoritmo di Remeshing - Catmur-Clark]]
+		3. [[Algoritmo di Remeshing - Loop]]
+		4. [[Algoritmo di Remeshing - Butterfly]]
+	2. [[Remeshing - Semplificazione]]
+		1. [[]]
 6. [[Indici spaziali]]
 	1. [[Kd-Tree]]
 	2. [[Binari Space Partition-Tree]]
@@ -37,8 +43,8 @@ tags:
 	1. [[Voronoi Sampling]]
 8. [[Geometria Differenziale discreta]]
 
-Lezioni pratiche codice:
-1. [[Lezioni Codice]]
+Parte pratica:
+1. [[Libreria per Mesh processing VCG]]
 
 
 

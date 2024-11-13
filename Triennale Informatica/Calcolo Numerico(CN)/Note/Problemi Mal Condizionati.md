@@ -1,11 +1,9 @@
 ---
-Course: Calcolo Numerico
+Course: "[[Calcolo Numerico(CN)]]"
 topic: nota
-tags: CN
+tags:
+  - CN
 ---
-
-Prev: [[Calcolo Numerico(CN)]]
-
 # Problemi Mal Condizionati
 ---
 Non tutti i problemi sono numericamente calcolabili siccome esistono alcune situazioni in cui una _piccola variazione_ porta ad un errore oltre il 100%, questi casi vengono detti problemi _mal condizionati_ caratterizzati da alto _[[Tipi di Errore nel calcolo numerico|errore inerente]]_

@@ -70,6 +70,7 @@ tags:
 1. [[Integrazione numerica]]
 	1. [[Integrazione numerica - Quadratura numerica]]
 	2. [[Integrazione Monte Carlo]]
+2. [[Moltiplicatori di Lagrange]]
 
 
 

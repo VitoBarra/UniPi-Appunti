@@ -7,11 +7,10 @@ tags:
 # Artificial inteligence fundamentals MOC
 
 ## Course MOC  📒
-1. [[Intelligenza Artificiale (IA)]]
-2. [[Concetti generali]]
-3. [[Definizione di problemi-Ambienti]]
-4. [[Agenti Razionali]]
-5. [[Agenti risolutori di problemi]]
+1. [[Concetti generali del Inteligenza artificiale]]
+2. [[Definizione di problemi-Ambienti]]
+3. [[Agenti Razionali]]
+4. [[Agenti risolutori di problemi]]
 	1. [[Algoritmi di ricerca]]
 		1. [[Ricerca in ampiezza BF]]
 		2. [[Ricerca di costo uniforme UC]]
@@ -27,13 +26,13 @@ tags:
 			4. [[Ricerca IDA-Star]]
 			5. [[Ricerca Best-first ricorsive (RBFS)]]
 			6. [[Ricerca SMA-Star]]
-6. [[Ricerca locale]]
+5. [[Ricerca locale]]
 	1. [[Ricerca Hill Climbing]]
 	2. [[Ricerca Tempra simulata]]
 	3. [[Ricerca Local beam per]]
 	4. [[Ricerca Generativa-Evolutiva]]
-7. [[Spazzi continui - gradiente]]
-8. [[Alberi di ricerca AND-OR]]
+6. [[Spazzi continui - gradiente]]
+7. [[Alberi di ricerca AND-OR]]
 Seconda parte corso:
 1. [[Base di conoscenza (KB)]]
 2. [[Agenti Knowledge Based]]

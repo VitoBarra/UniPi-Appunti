@@ -1,10 +1,10 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
+Course 2: "[[3D Geometry for Modeling and Processing (3GMP)]]"
 topic: nota
-tags: RO
+tags:
+  - RO
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Poliedro
 ---
