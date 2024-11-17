@@ -5,50 +5,51 @@ topic: nota
 tags:
   - IA
 ---
-z
 # Modelli lineari con LMS
 ---
-il __modello lineare__ e' un modello parametrico per il [[Concetti generali del Machine Learning|Concetti generali del Machine Learning]] viene generato con algoritmi di [[Apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si puo provare ad utilizzare per risolvere un problema.
+il __modello lineare__ e' un [[Modelli parametrici per il machine Learning|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
+Viene generato con algoritmi di [[Apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
 
-### Univariato 
-Si unica con un caso uni variato ovvero abbiamo un unico input $x$ ed un unico output $y$. abbiamo quindi una [[Funzioni|funzione]] del tipo 
-$$y = h(x)= w_1x+w_0 + noise $$
-dove il vettore $\mathbf{w} \in \mathbb{R}^n$ è  detti di  pesi e questi sono i parametri del modello.  
+### lineare univariato 
+il modello più semplice di __modello lineare__ è quello uni-variato dove abbiamo un unico input $x$ ed un unico output $y$.
 
-a livello geometrico  stiamo facendo un _fitting_ con una linea.
+__Sia__
+- $x$ l' input del modello
+- $w_0,w_1 \in \mathbb{R}$ parametri del modello, detti pesi
+__allora__ il __modello lineare__ è definito dalla [[Funzioni|funzione]] che rappresenta una [[Retta|retta]]  
+$$y = h_w(x)= w_1x+w_0$$
+Questo __modello__ ha uno [[Apprendimento supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
+
+Vogliamo cercare l'ipotesi che riesce ad approssimare meglio i dati che si hanno e per fare ciò dobbiamo variare i pesi $w_0,w_1$.
+
+dal punti di vista geometrico stiamo facendo __fitting__ dei dati con una retta
 ![[66B83102-B04B-45D8-805A-4445087275B3.jpeg]]
-### Concetti generali 
-vogliamo cercare la migliore ipotesi dove per migliore si intende quella che minimizza l errore. lo si fa variando il vettore dei pesi $w$.
 
-$w$ sono variabili continue quindi abbiamo una spazio delle ipotesi $H$ infinito. ma possiamo utilizzare risultati classici della matematica come la [[Discesa di gradiente|discesa di gradiente]].
 
-#### Apprendimento
-l _Apprendimento_ definito come una ricerca
-- _Dato_ : un Training Set  di $n$ del tipo $(x_p,y_p) \ p=1\dots n$ 
-- _Trova_: $h_w(x)$ nella forma $w_1x+w_0$  che minimizza l expected loss sui dati di training
-Si definisce una funzione _$Loss$_ come    
+l [[Algoritmi di Machine Learning|algoritmo di learning]] definito come per questo modello è definito come segue
+__Sia__
+- $TR$ un __Training Set__  di $\ell$  esempi 
+- $Loss(h_w)$ la funzione di loss definita come$$Loss(h_w)= E(w)= \sum_{p=1}^\ell(y_p-h_w(x_p))^2=\sum_{p=1}^\ell(y_p-w_1x_p-w_0)^2 $$
+__Trova__ $h_w(x)$ che minimizza la funzione di $Loss$ sui dati nel  $TR$
 
-$$ Loss(h_w)= E(w)= \sum_{p=1}^n(y_p-h_w(x_p))^2 $$
-questa è detta _Least mean square_ (LMS) da la media degli errori quadrati.
->[!note]- perchè si usa il quadrato
->si utilizza il quadrato per rendere i numeri positivi. in piu il quadrato- è [[Funzioni differenziabili|differenziabile]] a differenza del valore assoluto 
+La funzione di loss scelta per questo problema è la  __Least mean square__ (LMS) ovvero la media degli errori quadrati. Per non dover gestire il segno si utilizza il quadrato che rende tutte le differenze positive ed in più è una funzione [[Funzioni differenziabili|differenziabile]] 
 
 minimizzare la $Loss$ significa ridurre la somma  residua degli errori.
-
 possiamo _visualizzarla_ con 
 ![[D91DA331-B74D-45E5-AACF-DFDC6FC1F1EC.jpeg]]
 
-la pratica di utilizzare LMS è standard per approssimare soluzioni di sistemi sovradeterminati. ovvero dove ci sono più equazioni che incognite. 
+>[!tip]-
+> la pratica di utilizzare LMS è standard per approssimare soluzioni di sistemi sovradeterminati. ovvero dove ci sono più equazioni che incognite. 
 
-per trovare il minimo si cerca dove il gradiente di _Loss_ è $$\frac{\partial E(w)}{\partial w_i} =0 \ \ i =1,\dots,DimInput+1$$
-il +1 è per il coefficiente noto
+Per trovare $w_0,w_1$ si può cercare il minimo ponendo  $$\frac{\partial E(w)}{\partial w_1} =0 \ \ \frac{\partial E(w)}{\partial w_0} =0$$in questo caso la funzione di errore è la  [[last Mean Squere (LMS)|Last mean Squere]] che è una funzione [[Convessità|convesa]] e quindi non ha minimi locali e l unico minimo è il minimo assoluto
 
-nel caso in cui la funzione di Lost scelta si la [[last Mean Squere (LMS)|Last mean Squere]] abbiamo che questa è una funzione [[Convessità|convesa]] e quindi non ci sono limiti locali e si puo trovare una soluzione diretta.
+In questo caso specifico la soluzione può anche essere calcolata direttamente come 
 $$w_1= \frac{\sum x_p y_p- \frac{1}{n}\sum x_p \sum y_p}{\sum x_p^2 - \frac{1}{n}(\sum x_p)^2} = \frac{Cov[x,y]}{var[x]} \ \ \ \  w_0 = \frac{1}{n}\sum y_p- w_1 \frac{1}{n}\sum x_p$$
+e questa è esattamente la [[Retta di regressione|retta di regressione]] infatti nel pratico stiamo facendo la stessa cosa che fa la retta di regressione.
 
 
 ## Gradient descent (local serach)
-una [[Ricerca locale]] per cercare la funzione di $loss$ minima. si  inizia quindi con valori casuali del vettore $w$ e _iterativamente_ si segue la direzione di decrescita di $E(w)$ e quindi si ha che 
+una [[Ricerca locale]] per cercare la funzione di $Loss$ minima. si  inizia quindi con valori casuali del vettore $w$ e _iterativamente_ si segue la direzione di decrescita di $E(w)$ e quindi si ha che 
 $$w_{new } = w +\eta* \Delta w$$
 dove 
 - $\eta$ è una costante detta _step Size_ che determina il learning rate

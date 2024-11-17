@@ -8,6 +8,6 @@ SubTopic:
 ---
 # Percettrone
 ---
-Il __percettrone__ è un modello parametro di [[Algoritmi di Macchine Learning|machcine learning]] sserve a risolvere solo problemi di classificazione binaria.
+Il __percettrone__ è un modello parametro di [[Algoritmi di Machine Learning|machcine learning]] sserve a risolvere solo problemi di classificazione binaria.
 
 

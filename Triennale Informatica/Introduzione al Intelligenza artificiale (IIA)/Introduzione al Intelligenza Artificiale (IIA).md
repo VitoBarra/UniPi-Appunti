@@ -49,7 +49,7 @@ Seconda parte corso:
 	1. [[Risoluzione SLD]]
 Terza parte corso:
 1. [[Concetti generali del Machine Learning]]
-2. [[Algoritmi di Macchine Learning]]
+2. [[Algoritmi di Machine Learning]]
 	1. [[Overfitting e Underfitting]]
 	2. [[Bias Induttivo]]
 	3. [[Statistical Learning Theory (SLT)]]

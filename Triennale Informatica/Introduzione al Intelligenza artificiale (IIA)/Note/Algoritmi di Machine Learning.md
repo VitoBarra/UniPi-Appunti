@@ -8,7 +8,7 @@ Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic: 
 ---
-# Algoritmi di Macchine Learning
+# Algoritmi di Machine Learning
 ---
 Gli **algoritmi di learning** definiscono il campo del _[[Concetti generali del Machine Learning|machine learning]]. Questi algoritmi consentono a una macchina di estrarre conoscenza dai dati, ovvero di apprendere informazioni basandosi sui dati a cui hanno accesso.
 
@@ -19,7 +19,7 @@ Queste assunzioni prendono il nome di __[[Bias Induttivo|bias induttivo]]__, una
 la scelta di un __bias induttivo__ è importante anche per una altra ragione senza non si puo imparare nient'altro che una __tabella di verità__. Ovvero Senza un __bias induttivo__ non è esiste __capacità di generalizzare__
 ![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]
 
-gli [[Algoritmi di Macchine Learning|algoritmi di learning]] possono essere divisi in varie categorie come 
+gli [[Algoritmi di Machine Learning|algoritmi di learning]] possono essere divisi in varie categorie come 
 1. [[Apprendimento supervisionato]]
 2. [[Apprendimento NON supervisionato]]
 3. [[Reinforcement Learning]]
