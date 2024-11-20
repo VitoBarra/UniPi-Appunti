@@ -20,8 +20,8 @@ la scelta di un __bias induttivo__ è importante anche per una altra ragione sen
 ![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]
 
 gli [[Algoritmi di Machine Learning|algoritmi di learning]] possono essere divisi in varie categorie come 
-1. [[Apprendimento supervisionato]]
-2. [[Apprendimento NON supervisionato]]
+1. [[Algoritmi di apprendimento supervisionato]]
+2. [[Algoritmi di Apprendimento NON supervisionato]]
 3. [[Reinforcement Learning]]
 dove indipendentemente dalla categoria i passi sono solitamente
 1. __Fase di apprendimento__ (training o fitting):  ricerca di un ipotesi a partire dai dati conosciuti, insieme dei quali è chiamato __training set__.

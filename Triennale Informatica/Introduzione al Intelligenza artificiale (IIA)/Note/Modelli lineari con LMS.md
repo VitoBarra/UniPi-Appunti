@@ -8,9 +8,9 @@ tags:
 # Modelli lineari con LMS
 ---
 il __modello lineare__ e' un [[Modelli parametrici per il machine Learning|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
-Viene generato con algoritmi di [[Apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
+Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
 
-### lineare univariato 
+### Modello lineare uni variato 
 il modello più semplice di __modello lineare__ è quello uni-variato dove abbiamo un unico input $x$ ed un unico output $y$.
 
 __Sia__
@@ -18,94 +18,98 @@ __Sia__
 - $w_0,w_1 \in \mathbb{R}$ parametri del modello, detti pesi
 __allora__ il __modello lineare__ è definito dalla [[Funzioni|funzione]] che rappresenta una [[Retta|retta]]  
 $$y = h_w(x)= w_1x+w_0$$
-Questo __modello__ ha uno [[Apprendimento supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
+Questo __modello__ ha uno [[Algoritmi di apprendimento supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
 
 Vogliamo cercare l'ipotesi che riesce ad approssimare meglio i dati che si hanno e per fare ciò dobbiamo variare i pesi $w_0,w_1$.
 
 dal punti di vista geometrico stiamo facendo __fitting__ dei dati con una retta
 ![[66B83102-B04B-45D8-805A-4445087275B3.jpeg]]
 
-
-l [[Algoritmi di Machine Learning|algoritmo di learning]] definito come per questo modello è definito come segue
+l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello è definito come minimizzazione di una certa [[Algoritmi di apprendimento supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
+l'algoritmo segue quindi come: 
 __Sia__
 - $TR$ un __Training Set__  di $\ell$  esempi 
 - $Loss(h_w)$ la funzione di loss definita come$$Loss(h_w)= E(w)= \sum_{p=1}^\ell(y_p-h_w(x_p))^2=\sum_{p=1}^\ell(y_p-w_1x_p-w_0)^2 $$
 __Trova__ $h_w(x)$ che minimizza la funzione di $Loss$ sui dati nel  $TR$
 
-La funzione di loss scelta per questo problema è la  __Least mean square__ (LMS) ovvero la media degli errori quadrati. Per non dover gestire il segno si utilizza il quadrato che rende tutte le differenze positive ed in più è una funzione [[Funzioni differenziabili|differenziabile]] 
+si utilizza l LMS perché Il quadrato rende tutti gli errori, ovvero $y_p-h_w(x_p)$, positivi e perché è anche funzione [[Funzioni differenziabili|differenziabile]] 
 
-minimizzare la $Loss$ significa ridurre la somma  residua degli errori.
-possiamo _visualizzarla_ con 
+in questo caso minimizzare la $Loss$  significa ridurre la somma residua degli errori e possiamo _visualizzarla_ con 
 ![[D91DA331-B74D-45E5-AACF-DFDC6FC1F1EC.jpeg]]
 
 >[!tip]-
 > la pratica di utilizzare LMS è standard per approssimare soluzioni di sistemi sovradeterminati. ovvero dove ci sono più equazioni che incognite. 
 
-Per trovare $w_0,w_1$ si può cercare il minimo ponendo  $$\frac{\partial E(w)}{\partial w_1} =0 \ \ \frac{\partial E(w)}{\partial w_0} =0$$in questo caso la funzione di errore è la  [[last Mean Squere (LMS)|Last mean Squere]] che è una funzione [[Convessità|convesa]] e quindi non ha minimi locali e l unico minimo è il minimo assoluto
-
+Per trovare la $Loss$ minima c è bisogno di cambiare i valori dei parametri $w_0,w_1$ e i valori ottimi possono essere trovato  ponendo  $$\frac{\partial E(w)}{\partial w_1} =0 \ \ \frac{\partial E(w)}{\partial w_0} =0$$ovvero facendo la classica ricerca dei [[Massimi e minimi|minimi]] del [[Analisi|analisi]]. 
+In questo caso la funzione di $Loss$ è la  [[last Mean Squere (LMS)|Last mean Squere]] che è essendo [[Convessità|convessa]] ci garantisce che __se__ esiste un minimo questo è unico ed è quello globale.  
+![[Pasted image 20241119224228.png]]
 In questo caso specifico la soluzione può anche essere calcolata direttamente come 
 $$w_1= \frac{\sum x_p y_p- \frac{1}{n}\sum x_p \sum y_p}{\sum x_p^2 - \frac{1}{n}(\sum x_p)^2} = \frac{Cov[x,y]}{var[x]} \ \ \ \  w_0 = \frac{1}{n}\sum y_p- w_1 \frac{1}{n}\sum x_p$$
 e questa è esattamente la [[Retta di regressione|retta di regressione]] infatti nel pratico stiamo facendo la stessa cosa che fa la retta di regressione.
 
 
-## Gradient descent (local serach)
-una [[Ricerca locale]] per cercare la funzione di $Loss$ minima. si  inizia quindi con valori casuali del vettore $w$ e _iterativamente_ si segue la direzione di decrescita di $E(w)$ e quindi si ha che 
-$$w_{new } = w +\eta* \Delta w$$
-dove 
-- $\eta$ è una costante detta _step Size_ che determina il learning rate
-- $\Delta w =-$ gradiente di $E(w)$
-	- il - è perché si sta cercando un minimo
 
-
-### Gradient descent univariato
-$$
-\begin{array}{}
-\boldsymbol w_{new} = \boldsymbol w + \eta *\Delta  \boldsymbol w \\
-\Delta w_0 = -\frac{\partial E(\boldsymbol w)}{\partial w_0} = 2(y-h_w(x)) \\
-\Delta w_1 = -\frac{\partial E(\boldsymbol w)}{\partial w_1} = 2(y-h_w(x))x 
+un altro approccio è il __Gradient descent__ ovvero una [[Ricerca locale]] per cercare il minimo della funzione di $Loss$  in modo iterativo. 
+Si inizia con valori casuali del vettore $w$ e __iterativamente__ si segue la direzione di decrescita di $E(w)$ e questa è indicata con $\Delta\mathbf{w} = -\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}$ a quindi si ha che 
+$$w_{new } = w -\eta\Delta\mathbf{w}$$
+dove $\eta$ è una costante detta __Learning rate__ che determina la velocita con cui ci si sposta nella direzione di decrescita.
+Si puo calcolare $\Delta \mathbf{w}$ come:
+$$\begin{array}{}
+\Delta w_0 = -\cfrac{\partial E(\boldsymbol w)}{\partial w_0} = 2(y-h_w(x)) \\
+\Delta w_1 = -\cfrac{\partial E(\boldsymbol w)}{\partial w_1} = 2(y-h_w(x))x 
 \end{array}
 $$
-intuitivamente questo procedimento è una _correzione degli errori_ detta “_delta rule_” che cambia $w$ proporzionalmente al errore
-- $target - output =err =0$ nessuna correzione 
-- $output>target (y-h)<0$ (outuput troppo alto)
-	- $\Delta w_0$ negativo __then__ riduci $w_0$
-	- __if__($input x>0$) $\Delta w_1$ negative __then__ reduce $w_1$
-	- __else__ incrementa $w_1$
-- $output>target \rightarrow (y-h)>0$
-	- sda
+intuitivamente questo procedimento è una _correzione degli errori_
 
+> [!info]- delta Rule (vai a capire perché è qui, probabilmente è sbagliata)
+> detta “_delta rule_” che cambia $w$ proporzionalmente al errore
+>- $target - output =err =0$ nessuna correzione
+>- $output>target (y-h)<0$ (outuput troppo alto)
+>	- $\Delta w_0$ negativo __then__ riduci $w_0$
+>	- __if__($input x>0$) $\Delta w_1$ negative __then__ reduce $w_1$
+>	- __else__ incrementa $w_1$
+>- $output>target \rightarrow (y-h)>0$
+>	- sda
 
-## Gestione di più esempi
-si possono gestire più $n$ pattern in due modi 
-- _epoca_: si aspetta di avere una certa quantità di dati e si calcola la discesa in _batch_ (linea blu)
-	- spostamento più stabile verso un minimo
-- _Online_: si ricalcola per ogni nuovo patter $p$ (discensa di gradiente stocastica) (linee verdi e viola)
-	- più veloce ma richiede step $\eta$ più piccolo
-![[3BC840EA-37CF-4EEC-9C6D-C3EBCCF55566.jpeg]]
-
-## Multi-Variabili
-si analizza il caso in cui si utlizza un vettore di input  $\boldsymbol x$  e un vettore di pesi $\boldsymbol w$ 
-$$ \boldsymbol w^T \boldsymbol x +w_0 =w_0+w_1x_1 + \dots+w_nx_n = w_0+ \sum^n_{i=1}w_ix_i $$
-convenzionalmente si aggiunge un elemento un $1$ al inizio  al vettore $\boldsymbol x$ per poter scrivere 
-$$\boldsymbol  w^T\boldsymbol x = \boldsymbol x^T\boldsymbol w$$
-$$ \begin{array} 
-\boldsymbol x^T = [1,x_1,\dots,x_n] \\
-\boldsymbol w^T = [w_0,w_1,\dots,w_n]
-\end {array}$$
-##### interpretazione geometrica caso 2 variabili
+##  Modello lineare Multi-Variabili
+Per i modelli __lineari multi variati__ si ha che li input non è una singola variabile ma un [[Vettori|vettore]]  $\boldsymbol x \in \mathbb{R}^n$ il modello assegna ad ogni input un certo peso tramite in vettore $\mathbf{w} \in \mathbb{R}^n$ , per poter esprimere il bias $w_0$ per convenzione viene aggiunto un $1$ come primo elemento al vettore di input $\mathbf{x}$  ottenendo quindi:$$ \begin{flalign} 
+\mathbf{x}^T &= [1,x_1,\dots,x_n] \\
+\mathbf{w}^T &= [w_0,w_1,\dots,w_n]\\
+\mathbf{w}^T\mathbf{x} &= \mathbf{x}^T\mathbf{w}
+\end {flalign}$$
+in questo modo il modello è definito semplicemente dal [[Prodotto Scalare|inner poduct]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione geometrica è semplice è un piano che ne interseca un altro formando una retta ovvero l ipotesi $h_{\mathbf{w}}$ del modello lineare.
 ![[B713A224-B169-4617-8A81-4FF5C80BA9CA.jpeg]]
+In generale immaginarlo per $n>2$ è difficile ma il concetto di intersezione per generare una retta resta ma c è bisogno di usare gli iperpiani.
 
 
-#### Apprendimento multi variabile
-l _Apprendimento_ definito come una ricerca
-- _Dato_ : un Training Set  di $n$ del tipo $(x_p,y_p) \ p=1\dots n$ 
-- _Trova_: il vettore $\boldsymbol w$  che minimizza l expected loss sui dati di training
-Si definisce una funzione _$Loss$_ come    
-$$ Loss (\boldsymbol w) =E(\boldsymbol w)= \sum_{p=1}^n(y_p-h(\boldsymbol x_p))^2 = \|\boldsymbol  y-\boldsymbol X\boldsymbol w\|_2 $$
-dove 
-- $h(\boldsymbol x_p) = \boldsymbol x_p^T \boldsymbol w = \sum^n_{i=0}x_{p,i}w_i$
-- $\|\cdot\|$ è la [[Norme Matriciali e Norme Vettoriali|norma due]]
-### Gradied descent multi-variabile
+
+l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello come per la versione con una variabile è definito come minimizzazione di una certa [[Algoritmi di apprendimento supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
+l'algoritmo segue quindi come: 
+__Sia__
+- $TR$ un __Training Set__  di $\ell$  esempi 
+- $\|\cdot\|_2$ è la [[Norme Matriciali e Norme Vettoriali|norma due]]
+- $\mathbf{x}_p \in \mathbb{R}^n$ è l input composto da $n$ feature
+- $X \in \mathbb{R}^{\ell \times n}$ è la matrice che rappresenta tutto il training set
+- $Loss(h_w)$ la funzione di loss definita come$$Loss(h_w)= E(w)= \sum_{p=1}^\ell(y_p-h_w(x_p))^2 = \sum_{p=1}^\ell(y_p-\mathbf{x}_p^T\mathbf{w})^2= \|\mathbf{y}-\mathbf{X}\mathbf{w}\|_2$$
+__Trova__ $h_w(x)$ che minimizza la funzione di $Loss$ sui dati nel  $TR$
+
+
+Anche in questo caso esiste una soluzione diretta ottenibile ponendo il gradiente a $0$ ovvero $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=0$$e sapendo che $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\sum^\ell_{p=1}x_{p,j}(y_p-\mathbf{x}_p^T\mathbf{w})  = 0\ \ \ \ \forall j =0\dots n$$ da cui riscrivendo sotto forma matriciale otteniamo che  $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\mathbf{X}^T_j(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$e considerando tutto il vettore $\mathbf{w}$ si ha che $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=-2\mathbf{X}^T(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$ e da qui semplificando si arriva all' __[[Equazione normale|equazione normale]]__$$(\mathbf{X}^T\mathbf{X})\mathbf{w}=\mathbf{X}^T\mathbf{y}$$ e si ha che __se__ $(\mathbf{X}^T\mathbf{X})$ risulta [[Matrice inversa|invertibile]] allora la soluzione è __unica__ ed è data da $$\mathbf{w}=(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y} =\mathbf{X}^+\mathbf{y}$$ dove $\mathbf{X}^+$ è detta [[Moore-Penrose pseudoinversa|Moore-Penrose pseudoinversa]] che esiste anche se $\mathbf{X}$ non è [[Matrice inversa|invertibile]]  __altrimenti__ le soluzioni sono infinite e si puo scegliere $\mathbf{w}= \arg_\mathbf{w}\min  \|\mathbf{w}\|$. 
+
+Per motivi di efficienza questa equazione puo essere risolta direttamente tramite [[Singular Value Decomposition (SVD)|Singular Value Decomposition]] che ci dice che$$\mathbf{X}=\mathbf{U}\mathbf{\Sigma}\mathbf{V}^T\implies \mathbf{X}^+=\mathbf{V}\mathbf{\Sigma}^+\mathbf{U}^T$$ dove 
+- $\mathbf{U} \in \mathbb{R}^{\ell \times \ell}$ è una [[Matrici ortogonali e ortonormali|matrice ortogonale]] e le sue colonne __vettori singolare sinistri__
+- $\mathbf{\Sigma} \in \mathbb{R}^{\ell \times n}$ è una [[Matrici quadrate|matrice diagonale]] e $\mathbf{\Sigma}^+$ la stessa matrice dove ogni valore non $0$ è sostituita con il reciproco
+- $\mathbf{V} \in \mathbb{R}^{n\times n}$ è una [[Matrici ortogonali e ortonormali|matrice ortogonale]] e le sue colonne __vettori singolare destri__
+ 
+
+
+
+
+
+
+
+
+Mentre l approccio [[Ricerca locale|locale]] con gradient descent
 $$
  \boldsymbol w_{new} = \boldsymbol w + \eta \Delta  \boldsymbol w 
 $$dove ogni componente è valutato come

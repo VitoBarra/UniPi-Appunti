@@ -9,6 +9,8 @@ tags:
 ## Course MOC  📒
 1. [[Concetti generali del Machine Learning]]
 	1. [[Algoritmi di Machine Learning]]
+	2. [[Algoritmi di apprendimento supervisionato]]
+	3. [[Algoritmi di Apprendimento NON supervisionato]]
 2. [[Modelli parametrici per il machine Learning]]
 3. [[Modelli lineari con LMS]]
 4. [[K-Nearest Neighbor (K-NN)]]
@@ -41,6 +43,7 @@ tags:
 		2. [[Reservoir Computing - Echo State Machine]] (extra)
 		3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 11. [[Reti Neurali Convoluzionali (CNN)]]
+12. [[Tipi di strategie di learning con gradient descent]]
 
 
 ### Educational Material 🧱

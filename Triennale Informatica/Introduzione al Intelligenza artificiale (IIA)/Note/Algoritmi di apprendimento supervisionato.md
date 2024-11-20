@@ -7,9 +7,9 @@ Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic: 
 ---
-# Apprendimento supervisionato
+# Algoritmi di apprendimento supervisionato
 ---
-l'__apprendimento supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|apprendimento]] caratterizzato dal utilizzo dei dati _etichettati_. 
+l'__apprendimento supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|apprendimento]] caratterizzato dal utilizzo dei dati _etichettati_.
 
 Questa classe di algoritmi ha lo scopo di approssimare una certa funzione $f$ __sconosciuta__ con un una funzione $h \in \mathcal{H}$ detta __ipotesi__, dove $\mathcal{H}$ è lo [[Algoritmi di Machine Learning|spazio delle ipotesi]] specifica per l'algoritmo in uso. Per fare ciò questi algoritmi usando dei sample detti __esempi__ della funzione $f$ che sono definiti come coppie $(x_i,y_i)$ dove $x \in \mathbb{F}^n$ e $y_i = f(x_i)+noise$, ovvero una punto conosciuto della funzione $f$ con l aggiunta di qualche errore.
  
@@ -19,7 +19,7 @@ __allora__ $TS$  il __Training set__ composto da $\ell$ dati è definito come in
 
 
 
-Gli __algoritmi di learning__ che fanno parte della categoria del __learning supervisionato__ formulano il problema dell learning come problema di minimizzazione di una certa funzione detta di $Loss$ che misura l'errore di predizione della ipotesi selezionata dal algoritmo.     
+Gli __algoritmi di learning__ che fanno parte della categoria del __learning supervisionato__ formulano il problema del learning come problema di minimizzazione di una certa funzione detta di $Loss$ che misura l'errore di predizione della ipotesi selezionata dal algoritmo.     
 
 Formalmente, la funzione da minimizzare è definita come
 __sia__
@@ -35,7 +35,6 @@ Per fare si che l' algoritmi selezioni un ipotesi con una buona performance c'è
 I __problemi affrontabili__ con l'__apprendimento supervisionato__ si dividono in due classi:  
 1. __Classificazione__: dove l'input deve essere mappato dal ipotesi in una o più delle $c \in \mathbb{N}$ categorie disgiunte; quindi si ha che $h \in \mathbb{F}^k\times \mathbb{N}$. Se $c=2$ allora la classificazione viene detta binaria altrimenti ennaria.  
 2. __Regressione__: dove l'input viene mappato in uno o più numeri reali e quindi si ha che $h \in \mathbb{F}^n\times \mathbb{R}^m$
-  
 	 
 ![[991D6D4A-9F89-4A4E-BE65-509CB69C0C3C.jpeg]]
 
