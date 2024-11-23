@@ -10,10 +10,10 @@ sono dei valori “attorno” a cui la _[[Variabili Aleatorie (Casuali)|variabil
 
 #### Valore atteso (momento primo)
 _Discreta_:
-	_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] _discreta_ con la _funzione di massa_ $p$ che assume i valori $x_{1},x_{2},\dots$
-	_se_ vale che $\sum_{i}|x_{i}|p(x_{i}) < + \infty$ 
+	__sia__ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] _discreta_ con la _funzione di massa_ $p$ che assume i valori $x_{1},x_{2},\dots$
+	__se__ vale che $\sum_{i}|x_{i}|p(x_{i}) < + \infty$ 
 	_allora_ si dice che $X$ ha _valore atteso_ (detto momento primo) ed è il numero $$\mathbb{E}[X]=\sum_{i}x_{i}p(x_{i})$$
-_con densita_:
+_con densità_:
 	_sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] _con densità_  $f$
 	_se_ vale che $\int ^{+\infty}_{-\infty}|x|f(x) \, dx < +\infty$
 	_allora_ si dice che $X$ ha _valore atteso_ ed è il numero $$\mathbb{E}[X]=\int ^{+\infty}_{-\infty}xf(x) \, dx $$
@@ -29,7 +29,7 @@ _discreto_:
 	_sia_ $X$ una _variabile aleatoria discreta_ e consideriamo la variabile  $Y=g(x)$  con $g$ una [[Funzioni|funzione]]
 	_se_ $\sum_{i}|g(x_{i})|p(x_{i})< +\infty$
 	_allora_ il _valore atteso_ diventa $$\mathbb{E}[g(X)]=\sum_{i}g(x_{i})p(x_{i})$$
-_con densita_:
+_con densità_:
 	_sia_ $X$ una _variabile aleatoria con densità_ $f$
 	_se_ vale che  $\int ^{+\infty}_{-\infty}|g(x)|f(x) \, dx < +\infty$ 
 	_allora_ il _valore atteso_ diventa $$\mathbb{E}[g(X)]=\int ^{+\infty}_{-\infty}g(x)f(x) \, dx$$

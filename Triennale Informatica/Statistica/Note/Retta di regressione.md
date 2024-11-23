@@ -25,7 +25,7 @@ un punto è di minimo se la sua [[Derivate|derivata]] è nulla. deve quindi vale
 \sum_{i}y_{i}-na-b\sum_{i}x_{i} & =0 \\
 \sum_{i}x_{i}y_{i}-a\sum_{i}x_{i}-b\sum_{i}x_{i}^{2} & =0
 \end{cases}$$
-e dividendo per $n$ si arrivera alle equazioni $$\begin{cases}
+e dividendo per $n$ si arriverà alle equazioni $$\begin{cases}
 a+b\overline{x}=\overline{y} \\
 a\overline{x}+b\sum_{i}\cfrac{x_{i}^{2}}{n}=\sum \cfrac{x_{i}y_{i}}{n}
 \end{cases}$$
@@ -34,9 +34,3 @@ a^{*}=-b^{*}\overline{x}+\overline{y} \\
 b^{*}=\cfrac{\sum_{i}\cfrac{x_{i}y_{i}}{n}-\overline{x}\overline{y}}{\sum_{i}\cfrac{x_{i}^{2}}{n}-\overline{x}^{2}}=\cfrac{cov_{e}(x,y)}{var_{e}(x)}
 \end{cases}$$
 inserendo i valori si ottiene $$Q(a^{*},b^{*})= \sum_{i=1}^{n}(y_{i}- \overline{y})(1-r(x,y)^{2})$$
-##### Esempi
-$r(x,y)\approx-0.78, a^* \approx 1.76,b^* \approx-28.7$
-	![[Statistica/Media/Untitled 9.png]]
-
-$r(x,y)\approx-0.2422, a^* \approx ??,b^* \approx??$
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 10.png]]
