@@ -16,7 +16,7 @@ Una matrice $A\in M(n,n,\mathbb{K})$ e' detta e puo avere le seguenti proprieta'
 
 - $D(n) :$ diagonale se $a_{ij} = 0 \ \forall i \not= j$;
 - $T^s(n):$ triangolare superiore se
-- $T^i (n):$  triangolare inferiore se $a_{ij} = 0\ \forall i < j$
+- $T^i (n):$ triangolare inferiore se $a_{ij} = 0\ \forall i < j$
 - $S(n):$  simmetrica se $a_{ij} = a_{ji} \ \forall i, j$
 - $A(n):$  antisimmetrica se $a_{ij} = −a_{ji}\ \forall i, j$
 
