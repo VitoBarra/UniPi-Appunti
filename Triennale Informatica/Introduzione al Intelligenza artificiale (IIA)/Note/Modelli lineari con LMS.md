@@ -106,42 +106,37 @@ Per motivi di efficienza questa equazione puo essere risolta direttamente tramit
 
 
 
-
-
-
-Mentre l approccio [[Ricerca locale|locale]] con gradient descent
-$$
+Mentre l approccio [[Ricerca locale|locale]] con Gradient descent utilizza il gradiente per muoversi verso il minimo seguendo la regola di aggiornamento$$
  \boldsymbol w_{new} = \boldsymbol w + \eta \Delta  \boldsymbol w 
-$$dove ogni componente è valutato come
+$$dove $\eta$ è il __learning rate__ e $\nabla \mathbf{w} = -\cfrac{\partial E(\boldsymbol w)}{\partial \mathbf{w}}$ e ogni  del gradiente componente è valutato come
 $$ 
 \begin{array}{}
-\Delta w_i =& -\cfrac{\partial E(\boldsymbol w)}{\partial w_i} &=
-\\& \cfrac{\sum^\ell_{p=1}(y_p-h_{\boldsymbol w}(x))}{{\partial w_i}} &=\\
-&\cfrac{\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)}{\partial w_i}&=\\
-&-(-2\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)x_{p,i}) &= \\
-&2\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)x_{p,i}&\\
-
-
+\Delta w_i  
+&=& \cfrac{\partial E(\boldsymbol w)}{\partial w_i}  
+&=&
+\cfrac{\partial\sum^\ell_{p=1}(y_p-h_{\boldsymbol w}(x))}{{\partial w_i}} &=\\  
+&=& 
+\cfrac{\partial\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)}{\partial w_i} 
+&=&
+-2\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)x_{p,i} &= \\
+&=& -2\sum^\ell_{p=1}(y_p-\boldsymbol x^T\boldsymbol w)x_{p,i}&\\
 \end{array}
 $$
- e si ha quindi che 
- 
- $$\Delta \boldsymbol W = - \frac{\partial E(\boldsymbol w)}{\partial \boldsymbol w} = 
+ e si ha quindi mettendo assieme si ha che$$\Delta \mathbf{w} = - \frac{\partial E(\mathbf{w})}{\partial \boldsymbol w} = 
  \begin{bmatrix}
- -  \cfrac{\partial E(w)}{\partial w_2} \\
- -  \cfrac{\partial E(w)}{\partial w_1} \\
+ -  \cfrac{\partial E(\mathbf{w})}{\partial w_0} \\
+ -  \cfrac{\partial E(\mathbf{w})}{\partial w_1} \\
   \vdots \\
- - \cfrac{\partial E(w)}{\partial w_n} \\ 
+ - \cfrac{\partial E(\mathbf{w})}{\partial w_n} \\ 
  \end{bmatrix} =
  \begin{bmatrix}
- \Delta w_1 \\
-   \Delta w_2 \\
+ \Delta w_0 \\
+   \Delta w_1 \\
   \vdots \\
-  \Delta w_3 \\ 
+  \Delta w_n \\ 
  \end{bmatrix} 
  $$
- si puo lavorare su uno spazio multi dimensionale senza la necessita di visualizzarlo
- _nota_: qui viene omesso il $w_0$
+![[Pasted image 20241120020901.png]]
 
 
 ### Algoritmo
@@ -150,15 +145,14 @@ $$
 3. computa $\boldsymbol w_{new} = \boldsymbol w+\eta\Delta \boldsymbol w$  
 4. ripeti dal passo 2 finche $\boldsymbol w$ converge o $E(\boldsymbol w)$ è _sufficientemente piccolo_   
 
-- $\cfrac{\Delta w}{l}:$ least mean squeres
-- _batch version_ : epoche di $\ell$ dati
-- _stocastica/on-line versione_: aggiorna $\boldsymbol w$ ad ogni pattern $p$
-- $\eta$ = _learning rate\step size_ gestisce il compromesso tra velocita e stabilita
-	- può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
+il  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
 
-## Example
+Plottando l'errore che cambia con le varie iterazioni possiamo osservare 3 tipi di curve principali dipendenti principalmente dal iperparamentro $\eta$
 ![[E09B2FF5-EA90-441A-ACFF-24A453C658DD.jpeg]]
-_learning curves_: mostrano come l errore decresce con gradient descent nelle iterazioni 
+si ha infatti che
+- con $\eta$ "giusto": si ottiene la __rossa__ dove c è una veloce convergenza e la curva è stabile
+- con $\eta$  troppo piccolo: si ottiene la curva __verde__ dove la convergenza è molto lenta
+- con $\eta$  troppo grande: si ottiene la curva __blu__ dove l'errore è instabile e non c è convergenza 
 
 
 ### vantaggi dei modelli lineari 

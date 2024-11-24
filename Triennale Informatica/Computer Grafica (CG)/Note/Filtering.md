@@ -25,7 +25,7 @@ e i pixel coinvolti per ogni passo sono $(2N+1)(2M+1)= 4NM+2(N+M)+1$ e siccome s
 ![[Pasted image 20240308170039.png]]
 
 #### Operatore Sobel
-l __operatore sobel__ è un applicazione del __filtering__ e serve a derivare un imagine sul asse $x$ o $y$. L effetto finale e che i bordi orizonatli ($x$) o verticali ($y$) appaiano di piu 
+l __operatore sobel__ è un applicazione del __filtering__ e serve a derivare un immagine sul asse $x$ o $y$. L effetto finale e che i bordi orizzontali ($x$) o verticali ($y$) appaiano di piu 
 ![[Pasted image 20240308162012.png]]
 ![[Pasted image 20240309181559.png]]
 
