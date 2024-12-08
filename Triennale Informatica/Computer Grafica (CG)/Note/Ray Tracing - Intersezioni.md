@@ -144,10 +144,10 @@ questo approccio genera dei voxel irregolari quindi non si può usare rasterizaz
 
 
 _suddivisione dello spazio_: 
-è un approccio top-Down, si segue  la stessa idea del [[Voxelization#Encoding Efficiente dei modelli in Voxel oct-tree|octa-tree]] ovvero si suddivide ricorsiva mente lo zone che contengono delle primitive e si lasciano invariate quelle che non le contengono
+è un approccio top-Down, si segue  la stessa idea del [[Quad-Tree e Oct-Tree|oct-tree]] ovvero si suddivide ricorsiva mente lo zone che contengono delle primitive e si lasciano invariate quelle che non le contengono
 ![[IMG_1107 1 1.jpeg]]
 
-Per salvare efficientementel octa-tree si possono codificare i nodi che hanno delle primitive con dieci numeri interi in modo che numeri consecutivi corrispondono a celle consecutive.
+Per salvare efficientementel  [[Quad-Tree e Oct-Tree|oct-tree]]  si possono codificare i nodi che hanno delle primitive con dieci numeri interi in modo che numeri consecutivi corrispondono a celle consecutive.
 
 Per fare cio si può usare la Z-Filling Curve
 ![[IMG_1110 1 1.jpeg]]

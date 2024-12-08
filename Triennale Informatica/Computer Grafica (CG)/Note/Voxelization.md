@@ -11,7 +11,7 @@ SubTopic: "[[Voxelization]]"
 # Voxelization
 ---
  la __Voxelizazione__ è una tecnica per [[Rappresentazione di modelli 3D|rappresentare modelli in 3D]] ti tipo __volumetrico__
-I __Voxel__ solo l esenzione 3D dei __pixel__, infatti, questi rappresentano un volume e sono salvati come una griglia a 3 coordinate di booleani, $1$ significa che il voxel è pieno 0 che vuoto.
+I __Voxel__ solo l esenzione 3D dei __pixel__, infatti, questi rappresentano un volume e sono salvati come una griglia a 3 coordinate di booleani, $1$ significa che il voxel è pieno $0$ che vuoto.
 Ogni voxel puo avere dei dati aggiuntivi e come temperatura, pressione, colore a seconda del applicazione.
 ![[Pasted image 20240224012534.png]]
 la griglia è della dimensione
@@ -23,11 +23,11 @@ Questo tipo è di rappresentazione è il tipo piu natura per la [[Stampa 3D]] e 
 
 
 #### Encoding Efficiente  dei modelli in Voxel oct-tree
-Mantenere dirattamente tutti in memoria puo essere velocemente proibitivo.
+Mantenere direttamente tutti in memoria puo essere velocemente proibitivo.
 un modo per ottimizzare lo spazio utilizzato e mantenere in una struttura gerarchica i volumi. 
 per costruire la struttura si parte dal un singolo Voxel grande quanto tutto il volume che si vuole utilizzare e si divide in 8 parti. Dei voluimi risultanti quelli _NON_ vuoti  vengono suddivisi nuovamente in 8 e cosi via, mente quelli vuoti saranno salvati come sono.
 in questo modo eviteremmo di salvare molti volumi vuoti e ne salveremo solo alcuni piu grandi.
- Cosi facendo il costo di memorizzazione sarà quadratico anziché cubico rispetto alla risoluzione $sizeX\cdot sizeY \cdot sizeZ$. Questa struttura è chiamata __oct-tree__
+ Cosi facendo il costo di memorizzazione sarà quadratico anziché cubico rispetto alla risoluzione $sizeX\cdot sizeY \cdot sizeZ$. Questa struttura è chiamata __[[Quad-Tree e Oct-Tree|oct-tree]]__
  ![[Pasted image 20240224015718.png]]
  ![[Pasted image 20240224021719.png]]
 

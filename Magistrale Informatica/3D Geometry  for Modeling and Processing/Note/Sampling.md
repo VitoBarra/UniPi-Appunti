@@ -9,44 +9,13 @@ SubTopic:
 
 # Sampling
 ---
+Il __Sampling__ è un concetto riutilizzato in molti contesti. 
+In generale per __sampling__ ci si riferisce al __campionare__ in un certo modo un generico dominio. Il sampling generato da dal campionamento puo essere poi utilizzato in vario modo asseconda del contesto ad esempio si utilizza per fare [[Meshing e il Remeshing|remeshing]] e il [[Ray Tracing|ray tracing]] 
 
-Samplings dello spazio di direzione.
+Ci sono vari modi di fare __sampling__ tra i piu semplici ci sono i sampling __random__, __uniformi__ e  __jittered__
+![[Pasted image 20241208215736.png]]
+Il __sampling random__ si ottiene scegliendo casualmente su una [[Probabilita con distribuzione uniforme|distribuzione uniforme]] due valori per le coordinate $x,y$  non ha nessuna proprietà particolare ed è molto probabile che due campioni diversi siano molto vicini rendendo il sampling inefficiente
 
-si utiolizza anche per il remasching. 
+il __sampling uniforme__ campiona in modo uniforme ovvero ogni campione è ugualmente distante da tutti gli altri. Questo tipo di sampling tende a dare problemi di aliasing quando il dominio sottostante ha anche esso una struttura regolare
 
-Sampling sulle distribuzione come random, uniforme e jitteres.
-
-
-i jitters è un trade off tra sampling randomico e sampling uniforme. si parte da una distribuzione uniforme e si  spostano i piunti di una quantità casuale e limitata.
-
-
-
-
-SAmpling sui domini 2D e superfici. importanti le metriche,.
-
-
-
-Poison Disk Sampling. utile ma è regolare questo puo non essere positivo.
--> Dart Throwing: lo fa randomicamente, ma la velocità di convergenza è molto. bassa perche la pro l’abilità di prendere ciò che no nè atTo preso è sempre minore. 
-
--> Dart Throwing Salloping: si massimizza la probabilità di prender3e aree di cui snon si è fatto ancora il sampling.  salvandodo un boundaries a aggiungendo punti li vanno aggiornate le strutture dati.
-
--> hierarchical Dart Throwing: si utilizza un quad-Tree
-
-
-sacapeling non si espande in 3D facilmente mentre hierarchical Dart Throwing si utilizzano un oct-tree
-
-
-per il dominio di una superficie invece si utilizzano delle metriche come la distanza euclidea e la distanza geodetica:
-geodesica è la distanza tra punti percorrendo la superficie.
-
-
-l hierarchical puo essere espanso ale superfici: funziona bene per casi in cui i punti son vicini male se sono divisi da dati triangolo (da capire meglio riguardare lezione)
-
-
-
-
-Diagrammi di voronoi, e duale del diagramma molto buono. 
-
-
-i diagrammi di voronoi buono hanno il punto vicino al centroide
+il __sampling jittered__ è un trade off tra sampling randomico e sampling uniforme. Si parte da una __sampling uniforme__ successivamente si spostano i punti di una quantità casuale e limitata, in questo modo si evitano situazioni in cui ci sono troppi punti vicini ma si mantiene una certa randomicita che in molti contenti applicativi da de risultati migliori.

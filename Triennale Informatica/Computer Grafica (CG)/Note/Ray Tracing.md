@@ -67,8 +67,7 @@ _allora_ i ray Vengono generati per ogni pixel dello schermo $(i,j)$ come $$p_x=
 anche per lo shadow ray si presente il problema dello [[Illuminazione - Ombre#Problematiche del discreto (ACNE)|shadow ACNE]] ma anche questo puo essere risolto aggiungendo un piccolo byas.
 
 #### Anti-aliasing
-il problema del aliasing colpisce anche le ombre e questo si risolve facendo piu sampling 
-![[Pasted image 20240310180637.png]] 
+il problema del aliasing colpisce anche le ombre e questo si risolve aumentando il [[Sampling|sampling]]
 ![[Pasted image 20240310180659.png]]
 
 #### Approssimare la luce indiretta
