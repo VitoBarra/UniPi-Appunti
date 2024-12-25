@@ -111,3 +111,10 @@ Le parametrizazione dovrebbero essere bigettive in pratica non lo sono quasi mai
 # Tagli
 
 
+
+
+
+## 3D photo acquisition
+si fa con le  foto e falisce nei casi di oggetti laminari, come parti e pelo e punti molto luminiosi o trasparenti. 
+per esmpio il vetro non si ritrova nulla di simile da poter riusare per la ricostruzione.
+

@@ -36,12 +36,13 @@ tags:
 	2. [[Remeshing - Semplificazione]]
 		1. [[]]
 6. [[Indici spaziali]]
-	2. [[Binari Space Partition-Tree]]
-	3. [[Quad-Tree e Oct-Tree]]
-	1. [[Kd-Tree]]
+	1. [[Binari Space Partition-Tree]]
+	2. [[Quad-Tree e Oct-Tree]]
+	3. [[Kd-Tree]]
 7. [[Sampling]]
 	1. [[Poisson Disk Sampling]]
 	2. [[Voronoi Sampling]]
+		1. [[Diagramma di voronoi]]]
 8. [[Geometria Differenziale discreta]]
 
 Parte pratica:

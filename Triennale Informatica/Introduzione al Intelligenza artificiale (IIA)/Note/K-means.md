@@ -6,7 +6,7 @@ tags:
 ---
 # K-means
 ---
-un [[Algoritmi di Apprendimento NON supervisionato|algoritmo non supervisionato]] per il [[Concetti generali del Machine Learning|Concetti generali del Machine Learning]]
+un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli di Macchine learning Instance-Based|Instance-Based]] 
 
 si lavora con dati $<\boldsymbol x>$ senza lable
 l obiettivo è trovare un raggruppamento naturale per i dati ovvero trovare dei _cluster_

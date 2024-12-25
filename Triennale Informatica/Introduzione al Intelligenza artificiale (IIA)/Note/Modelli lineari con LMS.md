@@ -7,8 +7,10 @@ tags:
 ---
 # Modelli lineari con LMS
 ---
-il __modello lineare__ e' un [[Modelli parametrici per il machine Learning|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
+il __modello lineare__ e' un [[Modelli di machine learning parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
+
+Per __modello lineare__ si intende lineare nei parametri e non nel input. 
 
 ### Modello lineare uni variato 
 il modello più semplice di __modello lineare__ è quello uni-variato dove abbiamo un unico input $x$ ed un unico output $y$.
@@ -103,10 +105,7 @@ Per motivi di efficienza questa equazione puo essere risolta direttamente tramit
  
 
 
-
-
-
-Mentre l approccio [[Ricerca locale|locale]] con Gradient descent utilizza il gradiente per muoversi verso il minimo seguendo la regola di aggiornamento$$
+Mentre l' approccio [[Ricerca locale|locale]] con __Gradient descent__ utilizza il gradiente per muoversi verso il minimo seguendo la regola di aggiornamento$$
  \boldsymbol w_{new} = \boldsymbol w + \eta \Delta  \boldsymbol w 
 $$dove $\eta$ è il __learning rate__ e $\nabla \mathbf{w} = -\cfrac{\partial E(\boldsymbol w)}{\partial \mathbf{w}}$ e ogni  del gradiente componente è valutato come
 $$ 
@@ -138,8 +137,7 @@ $$
  $$
 ![[Pasted image 20241120020901.png]]
 
-
-### Algoritmo
+Da cui si può derivare il seguente algoritmo di learning
 1. inizia con un vettore $\boldsymbol w_{initial}$ e fissa $\eta$ con $0<\eta<1$ 
 2. computa $\Delta \boldsymbol w = -\Delta E(\boldsymbol w) = - \cfrac{\partial E(\boldsymbol w)}{\partial \boldsymbol w}$ 
 3. computa $\boldsymbol w_{new} = \boldsymbol w+\eta\Delta \boldsymbol w$  
@@ -155,41 +153,11 @@ si ha infatti che
 - con $\eta$  troppo grande: si ottiene la curva __blu__ dove l'errore è instabile e non c è convergenza 
 
 
-### vantaggi dei modelli lineari 
-se questo modello è applicabile ha molti vantaggi 
-- è molto semplice
-- tutte le informazioni sui dati sono in $\boldsymbol w$
-- facile da interpretare 
-- i dati perturbati sono permessi
 ### limitazione del modello lineare
 non riesce a gestire problemi più complessi che solitamente non hanno una natura lineare 
 ![[42E911EA-F4B3-488E-8FCF-A04D54C72CD7.jpeg]]
-per gestire questi casi si utilizzano espressioni con dei termini non lineari preservando per la _linearità_ dal modello. ci troviamo in una situazione di _underfittig_
-### Relazioni non lineari 
-notiamo che in $h_{\boldsymbol w}(\boldsymbol x)= \boldsymbol w^T\cdot \boldsymbol x$ la parte a cui si riferisce il termine _lineare_ non è ai valori di input ma ai coefficienti di regressione $\boldsymbol w$
+per gestire questi casi si utilizzano espressioni con dei termini non lineari preservando per la _linearità_ dal modello. ci troviamo in una situazione di __underfittig__
 
-detto cio si puo espandere il modello  con una relazione non lineare tra input e output. possiamo quindi scrivere 
-$$h_{\boldsymbol w}(\boldsymbol x)=w_0+w_1x+w_2x^2+\dots+w_mx^m = \sum^m_{j=0}w_jx^j$$
-
-### Linear basis expansion - generalizzazione
-possiamo espandere questo concetto delle relazioni non lineari con qualsiasi tipo di funzione 
-$$h_{\boldsymbol w}(\boldsymbol x)= \sum^K_{k=0}w_k\phi_k(\boldsymbol x)$$
-dove $\phi_k: \mathbb{R}^n\rightarrow \mathbb{R}$ è una funzione per ogni indice $k$ dove $K>n$ è il numero di parametri  
-esempi di  $\phi_k$
-- _polinomiale_ : $\phi_k = x^2_j$ or $x_jx_i$ ro $\dots$
-- _trasformazioni nonlineari_:
-	- _input singolo_:  $\phi_k = log(x_j)$ or $root(x_j)$ ro $\dots$
-	- _input vettoriale_ : $\phi_k = \|\boldsymbol x\|$
-
-
-
-- _PRO_: è piu espressivo puo esprimere relazioni piu complicate
-una buona flessibilità ci permette di dare una buona approssimazione della funzione che cerchiamo 
-![[AC48AB1A-F82F-401F-8B56-89876D800471.jpeg]]
-- _CONS_: con una larga base di funzioni abbiamo bisogno di metodi per tenere sotto controllo la _complessità_ del modello
-troppa flessibilità ci puo portare al fenomeno di _[[Overfitting e Underfiting|overfitting]]_: ovvero si i dati di training abbiamo ridotto a 0. errore ma testando su dati casuali avremmo predizione sbagliate e quindi una bassa _accuracy_
-- é molto suscettibile a errori poco perturbati
-![[DA592E39-BE09-4F38-B38F-265D19B9C9BF.jpeg]]
 
 ## Regolarizzazione
 per gestire il problema della troppa complessità si utilizzano dei metodi di regolarizzazione 
@@ -244,26 +212,43 @@ h(x)= sign (\boldsymbol w^t \boldsymbol x+w_0) & \begin{array}{}[-1,1] \\
 $$
 $w_0$ è detto _trashold_ infatti per enfatizzare si può riscrivere la prima _LTU_ come $\boldsymbol w^t \boldsymbol x  \geq -w_0$ 
 
-#### Apprendimento
-l _Apprendimento_ definito come una ricerca
+
+l __Apprendimento__ definito come una ricerca
 - _Dato_ : un Training Set  di $n$ del tipo $(x_p,y_p) \ p=1\dots n$ 
 - _Trova_: $h_w(x)$ nella forma $\boldsymbol w$  che minimizza l expected loss sui dati di training
-Si definisce una funzione _$Loss$_ come    
-
-$$E(w)= \sum_{p=1}^n(y_p-\boldsymbol x_p^T \boldsymbol w)^2= \|\boldsymbol y-\boldsymbol X\boldsymbol w \|^2 $$
-anche in questo caso possiamo usare l algoritmo di _[[#Gradient descent (local serach)|Gradient descent]]_.
+Si definisce una funzione _$Loss$_ come    $$E(w)= \sum_{p=1}^n(y_p-\boldsymbol x_p^T \boldsymbol w)^2= \|\boldsymbol y-\boldsymbol X\boldsymbol w \|^2 $$anche in questo caso possiamo usare l algoritmo di _[[#Gradient descent (local serach)|Gradient descent]]_.
 l algoritmo puo essere visto come una regola di correzione. se un elemento viene mal classificato si aumentano o diminuiscono i parametri proporzionalmente a $\eta$ 
 ![[D71CEA55-0B20-46D7-8E28-A7C2F04F3877.jpeg]]
-da qui si può espandere con cui che vale nel caso di regressione. quindi si puo utilizzare la [[#Linear basis expansion - generalizzazione| linear basis expansion]]
-
-### Limitazioni 
-il confine di decisione da soluzioni esatte solo nei casi i cui i dati siano [[Linearmente Separabili|lineramente separabili]]
+da qui si può espandere con cui che vale nel caso di regressione. 
+ 
+quest i tipi di modelli danno una soluzione esatta solo quando i dati sono  [[Linearmente Separabili|lineramente separabili]], per superare questa problematica si può usare la [[Linear Basis Expansion (LBE)| linear basis expansion]] che permette di esmpimere decision baundry per complessi  
 ![[E0A08BCF-3CA8-42A6-A2F5-076F046AC0AA.jpeg]]
-il primo caso e linearmente separabile il secondo _no_
-
-![[F81A15DB-EA14-4C7D-A57B-E0C4601243E8.jpeg]]
 
 
 ### Classificazione multi classe
-![[66B634CA-4C7D-40AD-8320-4B2AB892CA13.jpeg]]
-![[61A57F54-70BA-4C19-8A62-440555104DD0.jpeg]]
+
+La classificazione multi-classe si affronta con la rappresentazione **1-of-K**, dove ogni classe è codificata come un vettore binario.  
+Esempio:  $\{rosso, verde, blu\} → (0,0,1), (0,1,0), (1,0,0)$
+
+Due strategie principali per risolvere questo problema sono:
+
+1. **One-Versus-All (OVA)**:  
+   - Si costruisce un classificatore binario per ogni classe. Ogni classificatore discrimina una classe dalle altre $K-1$.
+   - In fase di addestramento, vengono creati  $K$  classificatori distinti. Ogni classificatore distingue una classe positiva da tutte le altre.
+   - Per classificare un nuovo esempio, si eseguono tutti i $K$ classificatori e si sceglie la classe associata al classificatore con il valore più alto (più positivo).
+
+2. **All-Versus-All (AVA)**:  
+   - Si costruisce un classificatore binario per ogni coppia di classi, richiedendo $\frac{K(K-1)}{2}$ classificatori.
+   - Ogni classificatore distingue tra due specifiche classi ignorando le altre.
+   - Per classificare un esempio, si eseguono tutti i classificatori. La classe finale viene determinata tramite:
+     - **Somma dei Valori**: La classe con la somma massima dei valori viene scelta.
+     - **Votazione a Maggioranza**: La classe con il maggior numero di voti è selezionata.
+   - Un vantaggio di AVA è che il dataset di addestramento per ogni classificatore è molto più piccolo rispetto a OVA.
+
+Tuttavia, questi approcci presentano alcune problematiche:
+- **Mascheramento**: Per un numero elevato di classi $K$, alcune classi possono essere oscurate o mascherate da altre.
+- **Sofisticazione**: Esistono tecniche avanzate per migliorare le performance della classificazione multi-classe.
+- **Modelli Multi-Output**: Alcuni modelli gestiscono direttamente problemi multi-classe senza la necessità di trasformarli in classificazioni binarie.
+
+
+![[Pasted image 20241220032912.png]]

@@ -14,6 +14,6 @@ Una __distribuzione di probabilità__ è un modello matematico che collega i val
 
 
 In base alla scala di misura della [[Variabili Aleatorie (Casuali)|variabile]] di interesse $X$, possiamo distinguere due tipi di distribuzioni di probabilità: 
-1. distribuzioni continue: la variabile viene espressa su un scala continua (es: il diametro del pistone) 
-2.  distribuzioni discrete: la variabile viene misurata con valori numerici interi (es: numero di elementi non conformi o difettosi in un circuito stampato) 
+1. __distribuzioni continue__: la variabile viene espressa su un scala continua (es: il diametro del pistone) 
+2.  __distribuzioni discrete__: la variabile viene misurata con valori numerici interi (es: numero di elementi non conformi o difettosi in un circuito stampato) 
 Formalmente, le distribuzioni di probabilità vengono espresse da una legge matematica detta funzione di densità di probabilità (indicata con f(x)) o funzione di probabilità (indicata con p(x)) rispettivamente per le distruzioni continue o discrete.

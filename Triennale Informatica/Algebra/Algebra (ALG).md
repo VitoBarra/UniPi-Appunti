@@ -57,6 +57,7 @@ tags:
 	8. [[Residui quadratici in modulo]]
 	9. [[Insieme dei Numeri complessi]]
 		1. [[Numeri primi gaussiani]]
+16. [[Distanza euclidea]]
 
 ### Educational Material 🧱
 1. Appunti prof Lezione

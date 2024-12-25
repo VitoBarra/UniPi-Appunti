@@ -1,5 +1,6 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
   - IA
@@ -7,79 +8,83 @@ tags:
 
 # K-Nearest Neighbor (K-NN)
 ---
-un algoritmo _supervisionato_ di [[Concetti generali del Machine Learning|ML]] 
+il $K$-Nearest Neighbor è un algoritmo di __[[Algoritmi di Apprendimento NON supervisionato|learning supervisionato]]__ __[[Modelli di Macchine learning Instance-Based|instance-base]]__.  
+Questo algoritmo si utilizza principalmente per la classificazione e si basa sul idea  che i nuovi punti siano simili a quelli "vicini".
 
-un algoritmo molto semplice che non fornisce un modello ma direttamente una classificazione o curva di regressione
+Per valutare quando due punti siano vicini si utilizzano delle metriche una ad esempio è la __[[Distanza euclidea|distanza euclidea]]__ 
 
-## Classificazione binaria
-### Algoritmo 
-1. mantenere i training data come $<\boldsymbol x_p, y_p> \ \ P=1,\dots,l$
-2. dato in un input $\boldsymbol x$ di dimension $n$
-	1. trova il _dato di training_ piu vicino  
-	2. per trovare il dato piu vicino si definisce una distanza una distanza $d(\boldsymbol x,\boldsymbol x_i)$
-	3. e si cerca  $i(x)= \arg_p \min d(\boldsymbol x,\boldsymbol x_p)$ ovvero si cerca l indice $i$ dove la distanza è minima
-		1. $d=\sqrt{\sum^n_{t=1}(x_t-x_{p,t})^2}=\|\boldsymbol x -\boldsymbol x_p\|$
-		2. devo $\boldsymbol x_{p,t}$ è il componente $t$ del pattern $p$
-3. output $y_i$
 
-_ovvero_: cerca il dato di training più vicino  al dato che si vuole classificare e lo classifica uguale a questo
+l'algoritmo per la classificazione binaria è il seguente. 
+1. Scegli un valore $k \in \mathbb{N}$ arbitrario 
+2. Mantenere i dati di training  in memoria come lista  di coppie $( \mathbf{x}_p, \mathbf{y}_p) \ \ P=1,\dots,l$ dove $\mathbf{x}_i\in \mathbb{R}^n$ e $y_i\in [0,1]$ ovvero una variabile binaria.
+3. dato in un input $\mathbf{x}\in \mathbb{R}^n$ sconosciuto e $d(\mathbf{x},\mathbf{x}_i)$ una __distanza__ trova $k$ vicini tale che  $$N_k(\mathbf{x})= \arg_p \min d(\mathbf{x} ,\mathbf{x}_p) = \{(\mathbf{x}_1,y_1)\dots(\mathbf{x}_k,y_k)\}$$ ovvero i $k$  __dati di training__ più vicini al nuovo dati $\mathbf{x}$  
+![[Pasted image 20241220211455.png]]
 
-il numero di nodi a cui deve essere vicino è un parametro del algoritmo $K$ quindi 
-1-nn siginifica che si cosidera il nodo più vicino 5-nn i primi 5 nodi più vicini
-![[CA1D12E4-FCD5-4707-BA60-168BA72B5893.jpeg]]
-con $K$ basso la classificazione appare  molto nervosa poco _Smooth_  e questo puo essere un indice di _overfitting_ . per fare _smoothing_ $K$ puo essere aumentato 
-
-con $K>1$ si prendere la _media_ dei valori dei $K$ punti piu vicini
-$$avr_k(\boldsymbol x)= \frac{1}{k}\sum_{x_i\in N_k(\boldsymbol x)} y_i$$
-dove  $N_k(\boldsymbol x)$ soni i $k$ punti  piu vicini in accodo allo distanza $d$ 
-la classificazione funziona con la maggioranza, ovvero se ci sono piu punti che che sono classificati in un certo modo allora il dat $\boldsymbol x$ verra classificato in quel modo 
-$$
+4. Calcola la classe media scelta, questo rappresenta un voto di maggioranza  $$avr_k(\mathbf{x})= \frac{1}{k}\sum_{x_i\in N_k(\mathbf{x} )} y_i$$
+5. restituisci la classe che vince il voto di maggioranza, ovverods$$
 \begin{cases}
-1 & if & avg_k(\boldsymbol x)>0.5 \\
-0 & & otherwise
-\end{cases}$$
->[!tip]- puo essere usato anche per la regressione
->in questo caso si usa direttamente la media
+1 & if & avg_k(\mathbf{x})>0.5 \\
+0 & & \text{otherwise}
+\end{cases}$$ 
 
-![[6978EBCC-2081-4D85-B788-3F2D329BC584.jpeg]]
 
-#### proprietà
-- $K = 1$ estremamente flessibile _overfitting_
-- $K=l$ estremamente rigido _underfitting_
+con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto inrregulare e rumoroso. Solitamente va in __[[Overfitting e Underfitting|overfitting]]__
+![[Pasted image 20241225023553.png]]
+con un $K$ più altro si ottiene un decision boundary comunque flessibile e non lineare ma un po meno rumoroso. Solitamente un valore alto ma non troppo porta a dei buoni risultati.
+![[Pasted image 20241225023615.png]]
+con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[Overfitting e Underfitting|underfitting]].
 
-## Classificazione multi-classe
-ritorna la classe più comunate tara i suoi $K$ Vicini
-$$h(\boldsymbol x)= \arg_v \max \sum_{\boldsymbol x\in N_k(\boldsymbol x)}\boldsymbol 1_{v,y_i}$$
-$$\boldsymbol 1_{v,y_i}=
+Questo algoritmo utilizza implicitamente i [[Diagramma di voronoi|diagrammi di voronoi]].
+
+
+Per fare [[Algoritmi di apprendimento supervisionato|classificazione]] multi class invece si utilizza lo stesso algoritmo ma se ne cambia l output. Infatti si ha che ritorna la classe più comune tara i suoi $K$ Vicini$$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i}$$dove $$\mathbf{1}_{v,y_i}=
 \begin{cases}
 1 & if & v=y_i \\
-0 & &otherwise 
+0 & &\text{otherwise} 
 \end{cases}
-$$
+$$ una variante di questo dove pero si da più peso a i punti più vicini e meno a quelli più lontani è la seguente $$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i} \cdot \cfrac{1}{d(\mathbf{x},\mathbf{x}_i)^n}$$ e per gestire il caso limite $d(\mathbf{x},\mathbf{x}_i)=0$ si ritorna $y_i$ perché sono lo stesso punto.
 
-## Proprieta generali
-- _NON_ un ipotesi globale dobbiamo $\rightarrow$ non c è un modello
-	-  memorizzare ogni input d esempio
-	-  non parametro in $\boldsymbol w$
-- Stima locale 
-- è un _metodo basta sulla distanza_
 
-## Limiti 
-- il costo computazionale è _ritardato_ alla fase di predizione il che è uno _svantaggio_ siccome questo puo essere molto alto a seconda dai dati presenti 
-	- per ogni nuovo dato da predire  va calcolata la distanza con _TUTTI_ i punti mantenuti nel modello
-		- tempo proporzionale al numero di dati
-		- ottimizzabile come algoritmi di prossimità ”_ad-hoc_”
-	- alto costo in spazio. ogni dato va mantenuto in memoria
-- quando la _dimensione del input_ cresce spesso l algoritmo è prono ad errori 
-	- questo è dato dalla _curse of dimensionality_
-	- quando la dimensione del input cresce il volume ($side^n$) dello spazio aumenta e cosi i dati si trovano sempre piu sparsi. la crescita è _esponenziale_
-- _feature in rilevanti: the curse of noisy_
-	- in casi di dati che dipendono da poche feature ma ne hanno molte di piu si puoi sbagliare la classificazione considerando quelle in rilevanti che possono dominare su quelle rilevanti
+Per fare [[Algoritmi di apprendimento supervisionato|regressione]] invece lo stesso algoritmo ma come output direttamente la media delle posizioni dei vicini.
+
+
+
+### Discussione
+In generale il al $k$ -Nearest Neighbor vengono attribuiti $\cfrac{\ell}{k}$ gradi di libertà  dove $\ell$  è il numero di dati a disposizione.
+I __gradi di libertà__ son detti "parametri effettivi" del modello.
+
+Al variare di questi cambiano le performance del algoritmo infatti abbiamo il seguente grafico che lo mostra:
+![[Pasted image 20241225034737.png]]
+Il classificatore $K$-NN  cerca di approssimare la soluzione di un __[[Classificatore Bayesiano|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ tramite i punti vicini al punto $\mathbf{x}$, della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza. Questa probabilità condizionata ovvero ciò che il __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
+
+![[Pasted image 20241225034635.png]]
+in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __classificatore bayessiano__ direttamente (a sinistra)  e si puo vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
+
 
 
 ## Bias-induttivo
-tutto l algoritmo si basa sul concetto di distanza. la metrica che si utilizza è il _[[Bias Induttivo|Bias]]_ che utilizziamo per la generalizzazione
-- questo dipende prettamente dal campo, campi di versi potrebbero avere $d$ definita diversamente
-è _possibile imparare_ la metrica  
+1. __Distanza e Similarità__:  La distanza scelta nell'algoritmo determina quali esempi sono considerati più simili. La classificazione di un nuovo esempio dipende dalla classificazione dei suoi vicini più prossimi, secondo la metrica usata.
+
+2. __Smoothness Locale__: si basa sul assunzione che esempi vicini abbiano etichette simili, una sorta di "regolarità locale". 
+>[!tip] 
+>È _possibile imparare_ la metrica 
+
+
+## Limiti
+
+L'algoritmo presenta diversi limiti, che possono influire sulle sue prestazioni e sull'efficacia in determinati contesti.
+
+- __Costo computazionale elevato durante la fase di predizione__: questo rappresenta uno svantaggio significativo, poiché il calcolo può diventare molto oneroso a seconda della quantità di dati presenti. Per ogni nuovo dato da predire, è necessario calcolare la distanza con __TUTTI__ i punti memorizzati nel modello. Il tempo richiesto è quindi proporzionale al numero di dati, anche se esistono algoritmi di prossimità "ad-hoc" che possono ottimizzare questo processo. Inoltre, l'algoritmo comporta un __alto costo in termini di spazio__, dato che ogni dato deve essere mantenuto in memoria.
+
+- __Problemi con la crescita della dimensione dell'input__: quando la dimensione dell'input aumenta, l'algoritmo è spesso soggetto a errori. Questo fenomeno è noto come la "__curse of dimensionality__". Con l'aumento della dimensione dell'input, il volume dello spazio cresce in modo esponenziale (ad esempio, il volume è proporzionale a $side^n$), rendendo i dati sempre più sparsi.
+	![[Pasted image 20241225061718.png]]
+- __Influenza delle feature irrilevanti__: un altro problema, noto come "__curse of noisy__", si presenta nei casi in cui i dati dipendono da poche feature rilevanti, ma includono molte altre feature irrilevanti. Queste ultime possono dominare quelle rilevanti, portando a classificazioni errate.
+
+Questi aspetti devono essere considerati attentamente quando si sceglie di utilizzare questo tipo di algoritmo, specialmente in contesti con dati di alta dimensionalità o con molte feature potenzialmente non significative.
+
+
+
+
+ 
  
   

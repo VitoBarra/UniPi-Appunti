@@ -4,6 +4,7 @@ Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
   - IA
+  - ML
 ---
 # Concetti generali del Machine Learning
 ---
