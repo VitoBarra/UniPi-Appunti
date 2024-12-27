@@ -115,7 +115,7 @@ che dimostra che $XY$ ha valore atteso e togliendo i valori assoluti si ottiene 
 
 
 >[!tip]
->in generale $XY$ non è detto che abbia valore atteso ma abbiamo dei criteri, usando la [[Diseguaglianza di Schwartz|diseguaglianza di Schwartz]] otteniamo che se $X$ e $Y$ hanno [[Variabili aleatoria - Momenti|memento secondo]] allora $XY$ ha _sicuramente_ _valore atteso_ 
+>in generale $XY$ non è detto che abbia valore atteso ma abbiamo dei criteri, usando la [[Diseguaglianza di Cauchy-Schwartz|diseguaglianza di Schwartz]] otteniamo che se $X$ e $Y$ hanno [[Variabili aleatoria - Momenti|memento secondo]] allora $XY$ ha _sicuramente_ _valore atteso_ 
 
 ##### Corollario
 se le due [[Variabili Aleatorie (Casuali)|variabili]] $X$ e $Y$ hanno _[[Variabili aleatoria - Momenti|momento secondo]]_ allora queste sono _[[Variabili aleatorie - Covarianza e correlazione|scorrelate]]_

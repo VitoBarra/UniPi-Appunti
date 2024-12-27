@@ -34,7 +34,7 @@ $$
 espandendo entrambi le formule e semplificando notiamo che $r_{e}(x,y)=r(x,y)$ sono uguali quindi non cambia se si utilizza la versione _empirica_ o _campionaria_ delle formule. Infatti vale che $$
 r(x,y)=\cfrac{\sum^n_{i=1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum^n_{i=1}(x_i-\overline{x})^2}\sqrt{\sum^n_{i=1}(y_i-\overline{y})^2}}
 $$
-Dalla [[Diseguaglianza di Schwartz|diseguaglianza di Schwartz]] in $\mathbb{R}^n$ sappiamo che$$
+Dalla [[Diseguaglianza di Cauchy-Schwartz|diseguaglianza di Schwartz]] in $\mathbb{R}^n$ sappiamo che$$
 \sum^n_{i=1}|(x_i-\overline{x})(y_i-\overline{y})|\leq \sqrt{\sum^n_{i=1}(x_i-\overline{x})^2}\sqrt{\sum^n_{i=1}(y_i-\overline{y})^2}
 $$
 e quindi deve valere  $|r(x,y)| \leq 1$ 

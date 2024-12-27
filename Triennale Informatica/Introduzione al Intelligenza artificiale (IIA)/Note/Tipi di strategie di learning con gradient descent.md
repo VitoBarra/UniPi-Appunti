@@ -1,5 +1,13 @@
-
-## Gestione di più esempi
+---
+Course: "[[Machine Learning (ML)]]"
+tags:
+  - IA
+Area: "[[Concetti generali del Machine Learning]]"
+topic: 
+SubTopic:
+---
+# Tipi di strategie di learning con gradient descent
+---
 si possono gestire più $n$ pattern in due modi 
 - _epoca_: si aspetta di avere una certa quantità di dati e si calcola la discesa in _batch_ (linea blu)
 	- spostamento più stabile verso un minimo

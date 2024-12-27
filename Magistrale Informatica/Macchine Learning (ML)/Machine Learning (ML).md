@@ -15,7 +15,8 @@ tags:
 	5. [[Modelli di machine learning NON parametrici]]
 		1. [[Modelli di Macchine learning Instance-Based]]
 2. [[Modelli lineari con LMS]]
-	1. [[Linear Basis Expansion (LBE)]]
+	1. [[Linear Trashold Unit (LTU)]]
+	2. [[Linear Basis Expansion (LBE)]]
 3. [[K-Nearest Neighbor (K-NN)]]
 4. [[K-means]]
 5. [[Overfitting e Underfitting]]
@@ -24,31 +25,29 @@ tags:
 		1. [[Validazione K-Fold Cross Validation]]
 6. [[Support Vector Machine (SVM)]]
 	1. [[Support Vector Machine per la regressione (SVR)]]
-7. [[Percettrone]]
-	1. [[Teorema di convergenza del percetrone]]
-8. [[Tensori]]
-9. [[Reti Neurali (NN)]]
-	1. [[Funzioni di attivazione]]
-		1. Hidden unit:
-			1. [[Funzione di attivazione - Relu]]
-			2. [[Funzione di attivazione - SoftPlus]]
-			3. [[Funzione di attivazione - TanH]]
-		2. Output:
-			1. [[Funzioni di attivazione - Sigmoide]]
-			2. [[Funzioni di attivazione - SoftMax]]
-		3. [[BackPropagation]]
+7. [[Reti Neurali (NN)]]
+	1. [[Rete di Percetroni]]
 	2. [[Multi Layer Perceptron (MLP)]]
-10. [[Reti Neurali Ricorrenti (RNN)]]
+	3. [[BackPropagation]]
+	4. [[Funzioni di attivazione]]
+		1. [[Funzione di attivazione - ReLu]]
+		4. [[Funzioni di attivazione - Sigmoide]]
+		3. [[Funzione di attivazione - TanH]]
+		2. [[Funzione di attivazione - SoftPlus]]
+		5. [[Funzioni di attivazione - SoftMax]]
+8. [[Tensori]]
+9. [[Reti Neurali Ricorrenti (RNN)]]
 	1. [[Reti Neurali - Long Short-term Memory (LSTM)]] (extra)
 	2. [[Reti Neurali - Transofmers]] (extra)
 	3. [[Reti Neurali Ricorrenti- Reservoir Computing]] (extra)
 		1. [[Reservoir Computing - Liquid State Machine]] (extra)
 		2. [[Reservoir Computing - Echo State Machine]] (extra)
 		3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
-11. [[Reti Neurali Convoluzionali (CNN)]]
-12. [[Tipi di strategie di learning con gradient descent]]
+10. [[Reti Neurali Convoluzionali (CNN)]]
 
-
+### Altre 
+1. [[Tipi di strategie di learning con gradient descent]]
+2. 
 ### Educational Material 🧱
 1. 
 

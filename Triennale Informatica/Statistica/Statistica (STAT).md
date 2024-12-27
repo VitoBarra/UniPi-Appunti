@@ -27,7 +27,7 @@ tags:
 	4. [[Quantili di variabili aleatorie]]
 	5. [[Variabili aleatoria - Momenti]]
 		1. [[Diseguaglianza di Markov]]
-		2. [[Diseguaglianza di Schwartz]]
+		2. [[Diseguaglianza di Cauchy-Schwartz]]
 		3. [[Funzione generatrice di momenti (MTF)]]
 	6. [[Variabili aleatorie - Varianza]]
 		1. [[Diseguaglianza di Chebyshev]]

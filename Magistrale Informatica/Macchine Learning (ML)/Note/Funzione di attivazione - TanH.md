@@ -10,7 +10,8 @@ SubTopic:
 
 # Funzione di attivazione - TanH
 ---
-Questa [[Funzioni di attivazione|funzione di attivazione]] clampa i valori nel range $[-1,1]$ dove solo vicino allo zero i valori sono diversi da $-1$ e $1$
+la [[Funzioni di attivazione|funzione di attivazione]] __TanH__ o tangente iperbolica è definita come $$tanh(x)=\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$$
+e la sua immagine (il suo output) è nel range  $[-1,1]$
+![[Pasted image 20241227062308.png]]
 
-
-Definizione $$tanh(x)=\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$$
+quest è collegata alla [[Funzioni di attivazione - Sigmoide|funzione sigmoidale]] tramite la seguente relazione $$tanh\left(\cfrac{\alpha x}{2}\right)= 2\sigma(x,\alpha)-1$$

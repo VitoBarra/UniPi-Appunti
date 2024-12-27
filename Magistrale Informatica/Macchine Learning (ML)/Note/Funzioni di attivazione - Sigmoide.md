@@ -9,5 +9,9 @@ SubTopic:
 ---
 # Funzioni di attivazione - Sigmoide
 ---
+la __[[Funzioni di attivazione|funzione di attivazione]] sigmoidale logistica__ è un caso particolare di una [[Curve Logistiche|curva logistica]] ed è definita come $$\sigma(x,\alpha)=\cfrac{1}{1+e^{-\alpha x}}=\cfrac{e^{\alpha x}}{1+e^{\alpha x}}$$e la sua immagine (il suo output) è nel range $[0,1]$
+![[Pasted image 20241227063802.png]]
 
-Questa [[Funzioni di attivazione|funzione di attivazione]] clampa i valori nel range $[0,1]$
+Al variare di $\alpha$ si ha che 
+- $\alpha \to 0$ si ha una retta funzione lineare
+- $\alpha \to \infty$ si ha sempre di più una [[Linear Trashold Unit (LTU)|linear threshold unit]] (LTU)

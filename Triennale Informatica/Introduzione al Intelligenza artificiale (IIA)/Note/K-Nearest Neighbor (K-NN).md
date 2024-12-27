@@ -45,11 +45,12 @@ Per fare [[Algoritmi di apprendimento supervisionato|classificazione]] multi cla
 $$ una variante di questo dove pero si da più peso a i punti più vicini e meno a quelli più lontani è la seguente $$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i} \cdot \cfrac{1}{d(\mathbf{x},\mathbf{x}_i)^n}$$ e per gestire il caso limite $d(\mathbf{x},\mathbf{x}_i)=0$ si ritorna $y_i$ perché sono lo stesso punto.
 
 
+
 Per fare [[Algoritmi di apprendimento supervisionato|regressione]] invece lo stesso algoritmo ma come output direttamente la media delle posizioni dei vicini.
 
 
 
-### Discussione
+## Discussione
 In generale il al $k$ -Nearest Neighbor vengono attribuiti $\cfrac{\ell}{k}$ gradi di libertà  dove $\ell$  è il numero di dati a disposizione.
 I __gradi di libertà__ son detti "parametri effettivi" del modello.
 
@@ -58,11 +59,11 @@ Al variare di questi cambiano le performance del algoritmo infatti abbiamo il se
 Il classificatore $K$-NN  cerca di approssimare la soluzione di un __[[Classificatore Bayesiano|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ tramite i punti vicini al punto $\mathbf{x}$, della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza. Questa probabilità condizionata ovvero ciò che il __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
 
 ![[Pasted image 20241225034635.png]]
-in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __classificatore bayessiano__ direttamente (a sinistra)  e si puo vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
+in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __classificatore bayessiano__ direttamente (a sinistra)  e si può vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
 
 
 
-## Bias-induttivo
+### Bias-induttivo
 1. __Distanza e Similarità__:  La distanza scelta nell'algoritmo determina quali esempi sono considerati più simili. La classificazione di un nuovo esempio dipende dalla classificazione dei suoi vicini più prossimi, secondo la metrica usata.
 
 2. __Smoothness Locale__: si basa sul assunzione che esempi vicini abbiano etichette simili, una sorta di "regolarità locale". 
@@ -70,17 +71,30 @@ in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Al
 >È _possibile imparare_ la metrica 
 
 
-## Limiti
+### Importanza dello Scaling e del Preprocessing
 
-L'algoritmo presenta diversi limiti, che possono influire sulle sue prestazioni e sull'efficacia in determinati contesti.
+per assicurarsi delle buone performance è spesso necessarie riscalare le variabili in gioco ma le scalature sono spesso legate alla conoscenza del dominio.
 
-- __Costo computazionale elevato durante la fase di predizione__: questo rappresenta uno svantaggio significativo, poiché il calcolo può diventare molto oneroso a seconda della quantità di dati presenti. Per ogni nuovo dato da predire, è necessario calcolare la distanza con __TUTTI__ i punti memorizzati nel modello. Il tempo richiesto è quindi proporzionale al numero di dati, anche se esistono algoritmi di prossimità "ad-hoc" che possono ottimizzare questo processo. Inoltre, l'algoritmo comporta un __alto costo in termini di spazio__, dato che ogni dato deve essere mantenuto in memoria.
+Se tutte le variabili devono contribuire in __modo uguale__, allora gli input range dovrebbero essere riscalati per essere uguali, Ad esempio utilizzando una normalizzazione con media zero e varianza unitaria.  Questo pero può portare a problematiche in particolare il $K$-NN è  fragile al preprocessing e il semplice rescaling puo cambiare di molto i risultati finali. Per agire su questo problema va cambiata anche la metrica, cosa non necessariamente banale![[Pasted image 20241225153603.png]]
 
-- __Problemi con la crescita della dimensione dell'input__: quando la dimensione dell'input aumenta, l'algoritmo è spesso soggetto a errori. Questo fenomeno è noto come la "__curse of dimensionality__". Con l'aumento della dimensione dell'input, il volume dello spazio cresce in modo esponenziale (ad esempio, il volume è proporzionale a $side^n$), rendendo i dati sempre più sparsi.
-	![[Pasted image 20241225061718.png]]
-- __Influenza delle feature irrilevanti__: un altro problema, noto come "__curse of noisy__", si presenta nei casi in cui i dati dipendono da poche feature rilevanti, ma includono molte altre feature irrilevanti. Queste ultime possono dominare quelle rilevanti, portando a classificazioni errate.
 
-Questi aspetti devono essere considerati attentamente quando si sceglie di utilizzare questo tipo di algoritmo, specialmente in contesti con dati di alta dimensionalità o con molte feature potenzialmente non significative.
+### Limiti
+Alcune problematiche del $K$-nn sono ie seguenti:
+
+il __Costo Computazionale__ è rimandato al momento della predizione ed è elevato poiché richiede il calcolo della distanza con __TUTTI__ i punti memorizzati nel modello. Il tempo necessario cresce proporzionalmente al numero di dati, e l'algoritmo ha anche un __alto costo in termini di spazio__, poiché ogni dato deve essere mantenuto in memoria.  Esistano algoritmi di prossimità "ad-hoc" per ottimizzare questo processo ma il problema resta rilevante. ( forse [[Indici spaziali|Indici spaziali]])
+
+Al crescere della dimensionalità dell'input il modello è sempre meno capace di costruire una buona generalizzazione e questo è noto come __Curse of dimensionality__.  Questo avviene principalmente dal fatto che in dimensionalità alta è molto probabile che i $K$ dati piu vicini siano spazialmente lontani e che quindi quindi la stima non sia piu "locale".
+Assumendo che ogni variabile sia nel range $[0,1]$, questo fenomeno può essere notato partendo da un cubo unitario e mostrando quale è la frazione del range di range necessaria per ogni variabile per coprire una certa percentuale del volume.
+
+Abbiamo infatti che $n$ dimensioni per coprire una frazione $r$ del volume abbiamo bisogno del $r^{1/n}$ range di ogni variabili
+![[Pasted image 20241225061718.png]]
+In più la densita di sampling scende infatti la densità è calcolata come $\cfrac{\ell}{volume}$ che è proporzionale a $\ell^{1/n}$
+
+ Un altro problema, chiamato "__curse of noisy__", si verifica quando i dati dipendono da poche feature rilevanti, ma includono molte feature irrilevanti. Queste ultime possono dominare quelle rilevanti, portando a classificazioni errate e riducendo l'efficacia dell'algoritmo. Questo problema si può mitigare pesando le feature in base alla rilevanza oppure facendo __feature Selection__, ovvero eliminando alcune variabili.
+
+
+
+
 
 
 
