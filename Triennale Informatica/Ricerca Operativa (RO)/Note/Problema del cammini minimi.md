@@ -35,7 +35,7 @@ didascalia vincoli
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 8.png]]
 
-il [[Modelli|modello]] può essere scritto in modo più compatto utilizzando la matrice di incidenza del grafo.
+il [[Modelli Matematici|modello]] può essere scritto in modo più compatto utilizzando la matrice di incidenza del grafo.
 
 la matrice di incidenza $E$ di un grafo orientato $(N,A)$ ha dimensione $|N| \times |A|$, cioè ha una riga per ogni nodo $k \in N$ ed una colonna per ogni arco $(i,j) \in A$, ed è cosi definita:
 

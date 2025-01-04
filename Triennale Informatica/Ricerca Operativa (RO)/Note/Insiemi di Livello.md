@@ -1,21 +1,17 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
-tags: RO
+tags:
+  - RO
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Insiemi di Livello
 ---
-
-### Definizione
-
-Gli insiemi di livello della [[Funzioni|funzione]] obiettivo sono $L(v) =\begin{Bmatrix}x ∈ \mathbb{R}^n: c^T x = v\end{Bmatrix}$, dove $v ∈ \mathbb{R}$  è  un valore fissato.
+Gli __insiemi di livello__ della [[Funzioni|funzione]] obiettivo sono $L(v) =\begin{Bmatrix}x ∈ \mathbb{R}^n: c^T x = v\end{Bmatrix}$, dove $v ∈ \mathbb{R}$  è un valore fissato.
 
 ## Esempio
 
-preso il problema con il [[Modelli|modello]] seguente
+preso il problema con il [[Modelli Matematici|modello]] seguente
 
 $$
 \begin{cases}

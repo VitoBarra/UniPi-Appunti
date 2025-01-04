@@ -2,9 +2,10 @@
 Course: "[[Machine Learning (ML)]]"
 tags:
   - IA
+  - ML
 Area: "[[Concetti generali del Machine Learning]]"
 topic: 
-SubTopic: 
+SubTopic:
 ---
 # Rete di Percetroni
 ---
@@ -13,7 +14,7 @@ può essere usato solo per risolvere problemi di classificazione binaria e si ba
 
 ![[Pasted image 20241226222224.png]]
 
-con un singolo percettrone si possono rappresentare tutte le __funzioni logiche__ AND, OR, NOT, NAND, NOR ma non la funzione XOR.
+con un __singolo percettrone__ si possono rappresentare tutte le __funzioni logiche__ AND, OR, NOT, NAND, NOR ma non la funzione XOR.
 
 Questo avviene perché lo XOR non è una funzione [[Linearmente Separabili|linearmente separabile]] e quindi il percettrone fallisce. 
 

@@ -8,7 +8,7 @@ tags:
 # Ricerca Operativa (RO)
 
 ## Course MOC  📒
-1. [[Modelli]]
+1. [[Modelli Matematici]]
 	1. [[Problemi di selezione di sottoinsiemi]]
 2. [[Taglio su grafo]]
 	1. [[Albero di copertura]]

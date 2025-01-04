@@ -1,13 +1,13 @@
 ---
+Course: "[[Machine Learning (ML)]]"
 tags:
   - IA
   - ML
-Course: "[[Intelligenza Artificiale (IA)]]"
 Area: Machine Learning
 topic: Reti Neurali
 SubTopic:
 ---
-# Funzioni di attivazione - Sigmoide
+# Funzione di attivazione - Sigmoide
 ---
 la __[[Funzioni di attivazione|funzione di attivazione]] sigmoidale logistica__ è un caso particolare di una [[Curve Logistiche|curva logistica]] ed è definita come $$\sigma(x,\alpha)=\cfrac{1}{1+e^{-\alpha x}}=\cfrac{e^{\alpha x}}{1+e^{\alpha x}}$$e la sua immagine (il suo output) è nel range $[0,1]$
 ![[Pasted image 20241227063802.png]]

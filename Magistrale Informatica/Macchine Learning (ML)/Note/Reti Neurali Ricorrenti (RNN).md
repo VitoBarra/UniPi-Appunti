@@ -1,8 +1,9 @@
 ---
-Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
-topic: nota
+Course: "[[Machine Learning (ML)]]"
+topic: "[[Reti Neurali (NN)]]"
 tags:
   - IA
+  - ML
 ---
 
 # Reti Neurali Ricorrenti (RNN)
@@ -19,3 +20,10 @@ ogni volta che si calcola la loss function si aggiunge un valore moltiplicato pe
 - con $w>1$ il gradiente diventa troppo grande per spostarsi senza “mancare” il minimo
 
 Questo si risolve con [[Reti Neurali - Long Short-term Memory (LSTM)|Reti neurali LongShort-term Memory]]
+
+
+
+
+
+
+![[Pasted image 20241229014553.png]]

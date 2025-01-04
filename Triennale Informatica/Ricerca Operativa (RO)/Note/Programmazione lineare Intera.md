@@ -11,7 +11,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Definizione
 
-un problema di programmazione lineare intera è un problema nella forma [[Modelli|modello]] 
+un problema di programmazione lineare intera è un problema nella forma [[Modelli Matematici|modello]] 
 
 $$
 \begin{cases}

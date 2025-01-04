@@ -10,7 +10,7 @@ tags:
 il __modello lineare__ e' un [[Modelli di machine learning parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
 
-Per __modello lineare__ si intende lineare nei parametri e non nel input. 
+Per __modello lineare__ si intende [[Equazioni Lineari e Lineari omogenee|lineare]] nei parametri e non nel input. 
 
 ### Modello lineare uni variato 
 il modello più semplice di __modello lineare__ è quello uni-variato dove abbiamo un unico input $x$ ed un unico output $y$.

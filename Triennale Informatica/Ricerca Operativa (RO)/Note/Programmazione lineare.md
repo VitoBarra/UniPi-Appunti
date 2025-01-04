@@ -1,15 +1,14 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
-tags: RO
+tags:
+  - RO
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Programmazione lineare
 ---
 
-nella programmazione lineare il [[Modelli|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
+nella programmazione lineare il [[Modelli Matematici|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 14.png]]
 
@@ -98,10 +97,3 @@ $$
 - $b$ vettore con $m$ componenti
 - $c$ vettore con $n$ componenti
 
-
-
-
-### Esempio di modello di programmazione lineare
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 13.png]]
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 7.png]]
