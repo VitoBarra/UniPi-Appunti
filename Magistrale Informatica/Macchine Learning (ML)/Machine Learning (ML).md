@@ -31,24 +31,25 @@ tags:
 	2. [[Teorema di approssimazione universale]]
 	3. [[Reti neurali Feed-Forward (FF)]]
 	4. [[BackPropagation]]
-	5. [[Funzioni di attivazione]]
+	5. [[Euristiche per il gli algoritmi di learning delle rete neurali]]
+		1. [[Tipi di strategie di learning con gradient descent]]
+	6. [[Funzioni di attivazione]]
 		1. [[Funzione di attivazione - ReLu]]
 		2. [[Funzione di attivazione - Sigmoide]]
 		3. [[Funzione di attivazione - TanH]]
 		4. [[Funzione di attivazione - SoftPlus]]
 		5. [[Funzione di attivazione - SoftMax]]
+	7. [[Reti Neurali Ricorrenti (RNN)]]
+		1. [[Reti Neurali - Long Short-term Memory (LSTM)]] (extra)
+		2. [[Reti Neurali - Transofmers]] (extra)
+		3. [[Reti Neurali Ricorrenti- Reservoir Computing]] (extra)
+			1. [[Reservoir Computing - Liquid State Machine]] (extra)
+			2. [[Reservoir Computing - Echo State Machine]] (extra)
+			3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
+	8. [[Reti Neurali Convoluzionali (CNN)]]
 8. [[Tensori]]
-9. [[Reti Neurali Ricorrenti (RNN)]]
-	1. [[Reti Neurali - Long Short-term Memory (LSTM)]] (extra)
-	2. [[Reti Neurali - Transofmers]] (extra)
-	3. [[Reti Neurali Ricorrenti- Reservoir Computing]] (extra)
-		1. [[Reservoir Computing - Liquid State Machine]] (extra)
-		2. [[Reservoir Computing - Echo State Machine]] (extra)
-		3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
-10. [[Reti Neurali Convoluzionali (CNN)]]
 
 ### Altre 
-1. [[Tipi di strategie di learning con gradient descent]]
 2. 
 ### Educational Material 🧱
 1. 
