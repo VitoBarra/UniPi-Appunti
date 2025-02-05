@@ -50,7 +50,7 @@ tags:
 			1. [[Formule della convoluzione]]
 		2. [[Variabili aleatorie - Covarianza e correlazione]]
 4. Teoremi serie di variabili aleatorie (campioni)
-	1. [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite]]
+	1. [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)]]
 		1. [[Idd - Media Campionaria]]
 		2. [[Idd - varianza campionaria]]
 	2. [[Convergenza in probabilita]]

@@ -138,3 +138,105 @@ RBF è una scelta molto popolare può essere usata per fare decision boundry int
 		- questo scala computazionalmente con il numero di dati non il _feature space dimension_
 		- molto modulare: basta cambiare  funzione _kernel_
 $$h(x) = sign\left(\sum_{p \in SV}\alpha_py_pK(\boldsymbol x_p,\boldsymbol x)\right)$$
+
+
+
+
+
+
+# Altra visione
+# Support Vector Machines (SVM)
+
+## **Concetti Fondamentali**
+
+Le Support Vector Machines (SVM) sono modelli di apprendimento supervisionato utilizzati per la classificazione e la regressione. Il principio fondamentale è trovare un **iperpiano ottimale** che separi i dati massimizzando il margine tra le classi.
+
+### **1. Iperpiano e Margine**
+
+Dato un insieme di dati di addestramento $ {(x_i, y_i)} $ con $ y_i \in {-1, 1} $, una SVM cerca un iperpiano definito come:
+
+w⋅x+b=0 w \cdot x + b = 0
+
+Il margine è dato da:
+
+2∣∣w∣∣\frac{2}{||w||}
+
+L'obiettivo è massimizzare il margine risolvendo il problema di ottimizzazione:
+
+min⁡w,b12∣∣w∣∣2\min_{w, b} \frac{1}{2} ||w||^2
+
+soggetto a:
+
+yi(w⋅xi+b)≥1,∀i. y_i (w \cdot x_i + b) \geq 1, \quad \forall i.
+
+Un margine più ampio riduce l'overfitting e migliora la generalizzazione del modello.
+
+### **2. Soft Margin (Per Dati Non Linearmente Separabili)**
+
+Per gestire dati **non linearmente separabili**, si introduce una variabile di slack $\xi_i$ che permette la violazione del vincolo:
+
+min⁡w,b,ξ12∣∣w∣∣2+C∑iξi\min_{w, b, \xi} \frac{1}{2} ||w||^2 + C \sum_{i} \xi_i
+
+soggetto a:
+
+yi(w⋅xi+b)≥1−ξi,∀i, y_i (w \cdot x_i + b) \geq 1 - \xi_i, \quad \forall i,
+
+con $\xi_i \geq 0$ e $C$ parametro che bilancia la penalità delle violazioni.
+
+Valori più alti di $C$ comportano un adattamento più preciso ai dati di training, aumentando il rischio di overfitting, mentre valori più bassi favoriscono un margine più ampio a discapito di errori di classificazione.
+
+### **3. Kernel Trick e Trasformazione dello Spazio**
+
+Quando i dati non sono linearmente separabili nello spazio originale, si utilizza una **funzione kernel** $ K(x_i, x_j) $ per mappare i dati in uno spazio di dimensione superiore dove diventano separabili:
+
+K(xi,xj)=ϕ(xi)⋅ϕ(xj)K(x_i, x_j) = \phi(x_i) \cdot \phi(x_j)
+
+Esempi di kernel comuni:
+
+- **Lineare**: $ K(x_i, x_j) = x_i \cdot x_j $ (utile per problemi lineari semplici)
+- **Polinomiale**: $ K(x_i, x_j) = (x_i \cdot x_j + c)^d $
+- **Gaussiano (RBF)**: $ K(x_i, x_j) = e^{-\gamma ||x_i - x_j||^2} $
+- **Sigmoide**: $ K(x_i, x_j) = \tanh(\alpha x_i \cdot x_j + c) $
+
+La scelta del kernel ha un impatto significativo sulle prestazioni del modello e deve essere selezionata con cura in base alla distribuzione dei dati.
+
+### **4. Support Vector Regression (SVR)**
+
+L'estensione delle SVM alla **regressione** è nota come **Support Vector Regression (SVR)**. In questo caso, l'obiettivo è trovare una funzione che approssimi i dati minimizzando gli errori.
+
+Il problema di ottimizzazione diventa:
+
+min⁡w,b,ξ,ξ∗12∣∣w∣∣2+C∑i(ξi+ξi∗)\min_{w, b, \xi, \xi^*} \frac{1}{2} ||w||^2 + C \sum_{i} (\xi_i + \xi_i^*)
+
+soggetto a:
+
+yi−(w⋅xi+b)≤ϵ+ξi y_i - (w \cdot x_i + b) \leq \epsilon + \xi_i (w⋅xi+b)−yi≤ϵ+ξi∗ (w \cdot x_i + b) - y_i \leq \epsilon + \xi_i^* ξi,ξi∗≥0 \xi_i, \xi_i^* \geq 0
+
+Dove:
+
+- **$\epsilon$** definisce una soglia di errore accettabile.
+- **$\xi_i, \xi_i^*$** sono variabili di slack per permettere violazioni della soglia.
+- **$C$** controlla il trade-off tra complessità del modello ed errori.
+
+SVR utilizza gli stessi **kernel** delle SVM per mappare i dati in uno spazio ad alta dimensionalità e adattare modelli non lineari.
+
+### **5. Parametri Importanti**
+
+- **C**: Controlla il trade-off tra massimizzazione del margine e minimizzazione degli errori.
+- **$\gamma$ (per RBF Kernel)**: Determina l'influenza dei singoli punti campione.
+- **$\epsilon$ (per SVR)**: Definisce la tolleranza per la regressione, influenzando la sparseness del modello.
+- **Tipo di Kernel**: Definisce la mappatura dello spazio dei dati e la separabilità lineare nel nuovo spazio.
+
+### **6. Applicazioni e Considerazioni Pratiche**
+
+- **SVM per classificazione** è stato storicamente utilizzato con successo nel riconoscimento della scrittura (es. dataset MNIST con errore dello 0.8%).
+- **SVR** è utile per problemi di regressione, come previsioni di mercato e modelli di serie temporali.
+- La scelta dei parametri (C, kernel e iperparametri) è cruciale e spesso richiede **cross-validation**.
+- Gli SVM possono essere inefficienti su dataset molto grandi (>20,000 campioni) a causa della complessità computazionale.
+- SVM possono essere combinati con metodi di riduzione della dimensionalità come PCA per migliorare le prestazioni su dati ad alta dimensionalità.
+
+## **Conclusioni**
+
+Le SVM offrono un framework potente per la classificazione e la regressione, con solidi fondamenti teorici. Tuttavia, la scelta del kernel e degli iperparametri è critica per le prestazioni del modello.
+
+L'uso di tecniche di ottimizzazione avanzate e l'integrazione con metodi di riduzione della dimensionalità possono migliorare l'efficienza computazionale, rendendo SVM ancora rilevante in molti contesti moderni.

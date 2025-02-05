@@ -7,7 +7,7 @@ tags:
 # Teorema centrale del limite
 ---
 _sia_
-- $X_{1},X_{2}\dots$ una successione di [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|variabili i.d.d.]] 
+- $X_{1},X_{2}\dots$ una successione di [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|variabili i.d.d.]] 
 -  $-\infty \leq a < b \leq +\infty$  due numeri
 _se_  $X_{i}$ è dotata di  [[Variabili aleatoria - Momenti|momento secondo]]  
 _allora_ denotando $\mathbb{E}[X_{i}]=\mu$ e [[Variabili aleatorie - Varianza|varianza]] $\sigma^{2}(X_{i})=\sigma^{2}>0$ si ha $$\begin{array}{}
@@ -19,7 +19,7 @@ _allora_ denotando $\mathbb{E}[X_{i}]=\mu$ e [[Variabili aleatorie - Varianza|va
 
 #### Proposizione
 _sia_ 
-- $X_{1},X_{2}\dots$ una successione di [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|variabili i.d.d.]] 
+- $X_{1},X_{2}\dots$ una successione di [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|variabili i.d.d.]] 
  - $-\infty \leq a < b \leq +\infty$  due numeri
 _se_ $X_{i}$ è dotata di [[Variabili aleatoria - Momenti|momenti secondo]] 
 _allora_ denotando il valore atteso $\mathbb{E}[X_{i}]=\mu$  e [[Idd - varianza campionaria|varianza campionaria]] $S_{n}>0$ 

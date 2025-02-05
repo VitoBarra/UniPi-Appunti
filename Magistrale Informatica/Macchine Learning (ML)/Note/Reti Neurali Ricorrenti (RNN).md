@@ -23,7 +23,4 @@ Questo si risolve con [[Reti Neurali - Long Short-term Memory (LSTM)|Reti neural
 
 
 
-
-
-
 ![[Pasted image 20241229014553.png]]

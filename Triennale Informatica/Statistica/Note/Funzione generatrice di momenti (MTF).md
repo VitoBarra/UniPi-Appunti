@@ -21,6 +21,6 @@ e _valutando_ in $t=0$ si ha che $$M_{X}^{(n)}(0) =\sum^{n}_{h=0}0+\mathbb{E}[X^
 
 
 #### Proposizione
-_sia_ $X_{i},\dots,X_{n}$ un [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|campione idd]] 
+_sia_ $X_{i},\dots,X_{n}$ un [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|campione idd]] 
 _se_ $X_{1}$ ha una _funzione generatrice di momenti_ $M_{X_{1}}(t)$
 _allora_ vale che $$M_{\sum_{i=1}^{n} X_{i}}(t)=\sum_{i=1}^{n} X_{i}=[M_{X_{1}}(t)]^{n}$$  

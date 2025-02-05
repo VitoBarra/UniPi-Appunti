@@ -54,7 +54,7 @@ _Dimostrazione_:
 
 
 #### Stimatore consistente (Definizione)
-_Sia_ $\theta$ un parametro della distribuzione $X_{1}\dots X_{n},\dots$ di infinita [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|idd]] di $X$ 
+_Sia_ $\theta$ un parametro della distribuzione $X_{1}\dots X_{n},\dots$ di infinita [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|idd]] di $X$ 
 _allora_ la successione di statistiche $g_{n}(X_{1}\dots,X_{n})$ si dice uno _stimatore consistente_ di $\theta$ 
 _se_ per $n \to \infty$ , $g_{n}(X_{1},\dots,X_{n}) \to \theta$ in [[Convergenza in probabilita|probabilita]] cioe se, $\forall \varepsilon>0$    $$\lim_{ n \to \infty }\mathcal{P}\{ |g_{n}(X_{1},\dots,X_{n})-\theta| > \varepsilon \} =0$$
 
@@ -65,7 +65,7 @@ ovvero al aumentare della taglia $n$ del [[Campione Statistico|campione]] la pro
 #### Efficenza stimatori
 _Sia_ 
 - $\theta$ un parametro della distribuzione e un [[Campione Statistico|campione statistico]]
--  $X_{1}\dots X_{n_{0}}$ una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite|famiglia idd]] di $X$ 
+-  $X_{1}\dots X_{n_{0}}$ una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|famiglia idd]] di $X$ 
 -  $n_{0}>n,m$  numeri
 -  $g(X_{1},\dots,X_{n})$ e $h(X_{1},\dots,X_{m})$ due _stimatori corretti_ 
  _se_ $g(X_{1},\dots,X_{n})$ e $h(X_{1},\dots,X_{m})$ ammettono [[Variabili aleatoria - Momenti|momento secondo]] 

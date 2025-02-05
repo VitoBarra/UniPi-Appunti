@@ -14,7 +14,7 @@ l'__apprendimento supervisionato__ è una categoria di algoritmi di [[Algoritmi 
 Questa classe di algoritmi ha lo scopo di approssimare una certa funzione $f$ __sconosciuta__ con un una funzione $h \in \mathcal{H}$ detta __ipotesi__, dove $\mathcal{H}$ è lo [[Algoritmi di Machine Learning|spazio delle ipotesi]] specifica per l'algoritmo in uso. Per fare ciò questi algoritmi usando dei sample detti __esempi__ della funzione $f$ che sono definiti come coppie $(x_i,y_i)$ dove $x \in \mathbb{F}^n$ e $y_i = f(x_i)+noise$, ovvero una punto conosciuto della funzione $f$ con l aggiunta di qualche errore.
  
 il training, ovvero la ricerca della $h \in \mathcal{H}$,  avviene tramite l'utilizzo di un __training set__ definito formalmente come segue:
-__Sia__  $f(x)$ una __[[Funzioni|funziona]] sconosciuta__  
+__Sia__  $f(x)$ una __[[Funzioni|funzione]] sconosciuta__  
 __allora__ $TS$  il __Training set__ composto da $\ell$ dati è definito come insieme di coppie di punti $$TS=\{(x_1,y_1),(x_2,y_2),\dots,(x_\ell ,y_\ell)\}$$ dove $y_i = f(x_i)+noise$
 
 
