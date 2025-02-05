@@ -61,9 +61,9 @@ Terza parte corso:
 	4. [[Concept Learning]]
 		1. [[Concept learning - Find-S]]
 		2. [[Concept learning - Candidate elimination]]
+	5. [[K-Nearest Neighbor (K-NN)]]
 4. [[Algoritmi di Apprendimento NON supervisionato]]
-	1. [[K-Nearest Neighbor (K-NN)]]
-	2. [[K-means]]
+	1. [[K-means]]
 5. [[Reinforcement Learning]]
 
 

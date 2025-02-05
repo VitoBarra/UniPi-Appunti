@@ -9,21 +9,31 @@ SubTopic:
 ---
 # Deep Learning
 ---
-Le __Deep Neural Networks__ (DNN) sono una generalizzazione delle [[Reti neurali Feed-Forward (FF)|Multi-Layer Perceptron]] (MLP) con molteplici livelli di rappresentazione. La profondità della rete consente di apprendere rappresentazioni gerarchiche e distribuite dei dati.
+il __deep learning__ è la disciplina sotto categoria del [[Machine Learning (ML)|macchine learning]] che studia le __Deep Neural Networks__ (DNN) sono delle [[Reti Neurali (NN)|reti neurli]]  "profonde" ovvero dove i gli hidden layer sono molti.
+una caso semplice per costruire una rete che rispetta il deep learning è una [[Reti neurali Feed-Forward (FF)|Multi-Layer Perceptron]] (MLP)  che ha un certo numero di hidden layer. 
+![[Pasted image 20250205223357.png]]
+
+Il __Deep learning__ ha un __bias induttivo__ dove assume che le funzioni che  [[Funzioni|funzione]] rappresenta siano per natura composizionali, ovvero sono della forma $$f(g(x))$$Questo avviene siccome ogni layer intermedio trasforma l'input in una rappresentazione a più alto livello ($g(x)$) che può essere usato dal successivo __come primitiva__ per costruirne una nuova ancora a più alto livello ($f(g(x))$) e cosi via fino al Output. 
+questo processo è anche detto  __feature extraction__ e aiuta la capacita di generalizzazione di una rete neurale siccome evita alla rete il dover usare direttamente le [[Combinatoria|combinazioni]] degli input che sono per natura molto di piu rispetto alle primitive estratte.
+
+questo __bias induttivo__ permette al __deep learning__ di affrontare il __curse of dimesionality__ infatti mentre altri modelli come il [[K-Nearest Neighbor (K-NN)|k-nn]] e gli [[alberi di decisione|alberi di decisione]] assumono una similarità locale  (local smoothnes prior) qui non c è questa necessita e infatti il __deep learning__ può generalizzazione anche __NON localmente__ 
+
+![[Pasted image 20250205225036.png]]
+
+
+le [[Reti Neurali (NN)|reti neurali]] del __deep learning__ *__NON__* sono più espressive rispetto alla sua controparte shallow questo grazie al [[Teorema di approssimazione universale|Teorema di approssimazione universale]] che ci dice che ogni rete con almeno un hidden layer può approssimare arbitrariamente bene qualsiasi funzione, ma non specifica nessun bound sul numero di unita necessarie per l approssimare. 
+Per alcune famiglie di funzioni è possibile calcolare questo bound. 
+
+Tuttavia, un __modello deep__ può essere __più efficiente__ in termini di numero di parametri e unita nascoste rispetto ad un modello shallow. Infatti, esistono famiglie di funzioni per cui un modello con almeno $d$ layer può approssimarle in modo compatto, mentre modelli con meno di $d$ layer richiedono un numero  di neuroni rispetto esponenziale al numero di input.
+
+Il **No-Flattening Theorem** afferma le funzioni di natura composizionale possono essere rappresentate in modo __efficiente__ da una __rete deep__, ma non possono essere rappresentate con la stessa efficienza se la rete viene appiattita a un solo hidden layer. 
 
 
 
-grazie al [[Teorema di approssimazione universale|Teorema di approssimazione universale]]  una rete con un solo strato nascosto e teoricamente capace di approssimare qualsiasi funzione continua con una sufficiente quantitadi neuroni. Una rete con un solo strato nascosto è teoricamente capace di approssimare qualsiasi funzione continua con una sufficiente quantità di neuroni.
-Tuttavia, un modello più profondo permette una rappresentazione più efficiente rispetto a una rete poco profonda con un numero esponenziale di neuroni.
-
-- **Profondità vs. Efficienza:** Reti profonde richiedono meno unità rispetto a reti poco profonde per lo stesso compito.
-- **Bias induttivo:** I modelli profondi sfruttano la struttura gerarchica intrinseca dei dati.
-- **Implicazioni:** Le reti profonde sono alla base di avanzamenti in visione artificiale, NLP, e molte altre applicazioni.
-
-##### No flattening results
 
 
-#### Difficolta in fase di training
+
+#### Difficoltà in fase di training
 
 Nelle reti profonde, il calcolo del gradiente lungo molti strati porta a problemi:
 
@@ -37,19 +47,4 @@ Soluzioni:
 - **Weight Initialization:** Tecniche come He o Xavier initialization.
 - **Gradient Clipping:** Limita la grandezza dei gradienti.
 
-#### Deep Learning e Rappresentazione Distribuita
-
-Le reti profonde apprendono rappresentazioni distribuite:
-
-- **Feature gerarchiche:** Dai bordi alle forme fino agli oggetti.
-- **Word Embeddings:** Relazioni tra parole modellate da operazioni vettoriali: $$Rep(king)−Rep(male)+Rep(female)≈Rep(queen)\text{Rep}(\text{king}) - \text{Rep}(\text{male}) + \text{Rep}(\text{female}) \approx \text{Rep}(\text{queen})$$
-
-
-#### Pre-training di un modello deep
-
-1. **SGD con Momentum:** $vt=βvt−1+(1−β)∇J(θ)v_t = \beta v_{t-1} + (1 - \beta) \nabla J(\theta)$
-2. **Adam Optimizer:** $mt=β1mt−1+(1−β1)gtm_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t vt=β2vt−1+(1−β2)gt2v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2$
-3. **Regularizzazione:**
-    - Dropout: Disattivazione casuale di neuroni durante l'addestramento.
-    - L2 weight decay: Penalizzazione dei pesi elevati.
 
