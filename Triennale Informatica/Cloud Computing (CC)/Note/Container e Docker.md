@@ -9,7 +9,7 @@ tags:
 
 
 ### Cointainer 
-è un modo per fare virtualizzazione dei sistemi operativi in sostituzione a gli Hypervisor. in particolare si installa il Container Manager.
+un __container__ è un modo per fare virtualizzazione dei sistemi operativi in sostituzione a gli Hypervisor. in particolare si installa il Container Manager.
 
 ![[IMG_0517.jpeg]]
 funzionano perché sfruttano la capacita del [[Sistemi Operativi|OS]] linux di fa convivere più istanze User-space isolate. 

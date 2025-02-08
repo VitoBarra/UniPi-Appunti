@@ -87,3 +87,8 @@ L'uso della notazione tensoriale permette di parallelizzare molte operazioni lin
 ## Conclusione
 
 Le CNN sono oggi alla base di molte applicazioni avanzate di visione artificiale e deep learning. L'evoluzione delle architetture ha portato a modelli più avanzati come **ResNet, VGG e Capsule Networks**. Grazie alle CNN, i sistemi di intelligenza artificiale possono riconoscere oggetti, volti e testi con elevata accuratezza.
+
+
+
+
+![[Pasted image 20250206193030.png]]

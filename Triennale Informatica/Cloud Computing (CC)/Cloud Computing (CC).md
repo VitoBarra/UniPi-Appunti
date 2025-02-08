@@ -9,7 +9,7 @@ tags:
 
 ## Course MOC  📒
 1. [[Cloud computing Introduzione]]
-2. [[Vendol Lock-in]]
+2. [[Vendor Lock-in]]
 3. [[Container e Docker]]
 4. [[Infrastructure As A Service(Iaas)]]
 5. [[Function As A Service (Faas)]]

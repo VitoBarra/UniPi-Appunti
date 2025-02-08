@@ -5,7 +5,7 @@ topic: nota
 tags:
   - IA
 ---
-# Modelli lineari con LMS
+\# Modelli lineari con LMS
 ---
 il __modello lineare__ e' un [[Modelli di machine learning parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.

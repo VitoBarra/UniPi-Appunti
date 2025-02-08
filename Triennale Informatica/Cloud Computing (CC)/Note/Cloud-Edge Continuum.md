@@ -1,23 +1,22 @@
 ---
-Course: Cloud Computing
+Course: "[[Cloud Computing (CC)]]"
 topic: nota
-tags: CC
+tags:
+  - CC
 ---
 
-Prev: [[Cloud Computing (CC)]]
 
 # Cloud-Edge Continuum
 ---
 uno dei strumenti piu aggiornati per quanto riguarda il cloud.
  
 
-
 si parla di _Internet of Things(IoT) + cloud_. ovvero 
 
 
 #### Strutture classiche
-_IoT + Edge_:ovvero infrastrutture dove c era bisogno di costruire vicino a la sensoristica anche il piccolo data center per l elaborazione dei dati
-_IoT + cloud_: stessa struttura dove L IoT ha la se ma l elaborazione viene fatta in cloud 
+__IoT + Edge__: ovvero infrastrutture dove c era bisogno di costruire vicino a la sensoristica anche il piccolo data center per l elaborazione dei dati
+__IoT + cloud__: stessa struttura dove L IoT ha la se ma l elaborazione viene fatta in cloud 
 ![[IMG_0580.jpeg]]
 
 

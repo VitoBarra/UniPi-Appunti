@@ -1,10 +1,12 @@
 ---
-Course: Cloud Computing, Interazione Uomo Macchina
+Course: "[[Cloud Computing (CC)]]"
+Course 2: "[[Interazione Uomo Macchina (IUM)]]"
 topic: nota
-tags: CC
+tags:
+  - CC
 ---
 
-Prev: [[Cloud Computing (CC)]], [[Interazione Uomo Macchina (IUM)]]
+
 
 # Business Models
 ---

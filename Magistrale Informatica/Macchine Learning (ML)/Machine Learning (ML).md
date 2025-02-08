@@ -14,48 +14,59 @@ tags:
 	4. [[Modelli di machine learning parametrici]]
 	5. [[Modelli di machine learning NON parametrici]]
 		1. [[Modelli di Macchine learning Instance-Based]]
-2. [[Modelli lineari con LMS]]
+2. [[Rappresentazione simbolica e distribuita dei concetti]]
+3. [[Modelli lineari con LMS]]
 	1. [[Gradient Descent]]
 	2. [[Linear Trashold Unit (LTU)]]
 	3. [[Linear Basis Expansion (LBE)]]
-3. [[K-Nearest Neighbor (K-NN)]]
-4. [[K-means]]
-5. [[Overfitting e Underfitting]]
+4. [[K-Nearest Neighbor (K-NN)]]
+5. [[K-means]]
+6. [[Overfitting e Underfitting]]
 	1. [[Statistical Learning Theory (SLT)]]
 	2. [[Bias-Variance Decomposition]]
 	3. [[Validazione e test di una modello di ML]]
 		1. [[Validazione K-Fold Cross Validation]]
-6. [[Support Vector Machine (SVM)]]
+7. [[Support Vector Machine (SVM)]]
 	1. [[Support Vector Machine per la regressione (SVR)]]
-7. [[Ensemble Learning]]
-8. [[Reti Neurali (NN)]]
+8. [[Ensemble Learning]]
+9. [[Reti Neurali (NN)]]
 	1. [[Rete di Percetroni]]
 	2. [[Teorema di approssimazione universale]]
-	3. [[Reti neurali Feed-Forward (FF)]]
-	4. [[BackPropagation]]
-	5. [[Euristiche per il gli algoritmi di learning delle rete neurali]]
+	3. [[Teorema di copertura (Cover Theorem)]]
+	4. [[Reti neurali Feed-Forward (FF)]]
+	5. [[BackPropagation]]
+	6. [[Euristiche per il gli algoritmi di learning delle rete neurali]]
 		1. [[Tipi di strategie di learning con gradient descent]]
-	6. [[Deep Learning]]
-	7. [[Funzioni di attivazione]]
+	7. [[Deep Learning]]
+	8. [[Reti neurali - Autoencoders]]
+	9. [[Reti neurali - Autoassociatore]]
+	10. [[Funzioni di attivazione]]
 		1. [[Funzione di attivazione - ReLu]]
-		2. [[Funzione di attivazione - Sigmoide]]
-		3. [[Funzione di attivazione - TanH]]
+		2. [[Funzione di attivazione - LeakyReLu]]
+		3. [[Funzione di attivazione - ELU]]
 		4. [[Funzione di attivazione - SoftPlus]]
-		5. [[Funzione di attivazione - SoftMax]]
-	8. [[Reti Neurali Ricorrenti (RNN)]]
-		1. [[Reti Neurali - Long Short-term Memory (LSTM)]] (extra)
-		2. [[Reti Neurali - Transofmers]] (extra)
-		3. [[Reti Neurali Ricorrenti- Reservoir Computing]] (extra)
-			1. [[Reservoir Computing - Liquid State Machine]] (extra)
-			2. [[Reservoir Computing - Echo State Machine]] (extra)
-			3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
-	9. [[Reti Neurali Convoluzionali (CNN)]]
-9. [[Tensori]]
+		5. [[Funzione di attivazione - Sigmoide]]
+		6. [[Funzione di attivazione - TanH]]
+		7. [[Funzione di attivazione - SoftMax]]
+	11. [[Reti Neurali Convoluzionali (CNN)]]
+	12. [[Input delay neural network (IDNN)]]
+	13. [[Reti Neurali Ricorrenti (RNN)]]
+		1. [[RNN - Long Short-term Memory (LSTM)]]
+		2. [[RNN - Gated reccurrent unit (GRU)]] 
+		3. [[RNN - Transformer]] 
+	14. [[Reti neurali random (RandNN)]]
+	15. [[RandRNN - Reservoir Computing]] 
+		1. [[Reservoir Computing - Echo State Machine]] 
+		2. [[Reservoir Computing - Liquid State Machine]] (extra)
+		3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
+	16. [[Recurrent neural network (RecNN)]]
+	17. [[Self organizing Map  Neural Network (SOM-NN)]]
+10. [[Tensori]]
 
 ### Altre 
-10. 
-### Educational Material 🧱
 11. 
+### Educational Material 🧱
+12. 
 
 
 

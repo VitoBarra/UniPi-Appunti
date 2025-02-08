@@ -1,10 +1,11 @@
 ---
-Course: Cloud Computing
+Course: "[[Cloud Computing (CC)]]"
 topic: nota
-tags: CC
+tags:
+  - CC
 ---
 
-Prev: [[Cloud Computing (CC)]]
+
 
 # Orchestrators di container e Kubernetes
 ---

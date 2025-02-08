@@ -1,14 +1,15 @@
 ---
-Course: Cloud Computing
+Course: "[[Cloud Computing (CC)]]"
 topic: nota
-tags: CC
+tags:
+  - CC
 ---
 
-Prev: [[Cloud Computing (CC)]]
+
 
 # Heroku
 ---
-Heroku  è una piattaforma [[Platform As A Service(Paas)|Paas]] cloud basato sulla gestione di [[Container e Docker|container]] con integrazione di servizi e un potente ambiente di sviluppo. per fare il deployment e gestire app moderne.
+__Heroku__ è una piattaforma [[Platform As A Service(Paas)|Paas]] cloud basato sulla gestione di [[Container e Docker|container]] con integrazione di servizi e un potente ambiente di sviluppo. per fare il deployment e gestire app moderne.
 
 
 #### Dynos

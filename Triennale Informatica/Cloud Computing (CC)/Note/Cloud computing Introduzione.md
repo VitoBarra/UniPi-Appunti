@@ -1,10 +1,9 @@
 ---
-Course: Cloud Computing
+Course: "[[Cloud Computing (CC)]]"
 topic: nota
-tags: CC
+tags:
+  - CC
 ---
-
-Prev: [[Cloud Computing (CC)]]
 
 # Cloud computing Introduzione
 ---
@@ -79,7 +78,6 @@ scritte da 3 enti
 - l espetto di informatica
 - l esperto del prodotto 
 - un esperto di norme  
-![[IMG_0510.jpeg]]
 
 sono le definizioni di cosa ci è garantito e di ciò che otterremo se non vengono mantenute quelle garanzie. 
 - Importante leggere attentamente le definizioni di cosa si riferiscono i SLA
