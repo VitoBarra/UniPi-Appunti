@@ -6,14 +6,14 @@ tags:
 ---
 # K-means
 ---
-un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli di Macchine learning Instance-Based|Instance-Based]] 
-
-si lavora con dati $<\boldsymbol x>$ senza lable
-l obiettivo è trovare un raggruppamento naturale per i dati ovvero trovare dei _cluster_
-![[C1983390-D9A8-4A16-B97F-34946F5F67C1.jpeg]]
+il __$k$-means__ è un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli di Macchine learning Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]]
 _cluster_: sotto partizioni di dati simili tra loro.
 
-i dati in un cluster si organizzano attorno ad un _centroide_ ovvero un punto medio tra tutti i punti di quel _cluster_
+si lavora con dati $<\boldsymbol x>$ senza label.
+l obiettivo è trovare un raggruppamento naturale per i dati ovvero trovare dei _cluster_
+![[C1983390-D9A8-4A16-B97F-34946F5F67C1.jpeg]]
+
+i dati in un cluster si organizzano attorno ad un _centroide_ ovvero un punto medio tra tutti i punti di quel __cluster__
 
 
 ### Algoritmo
@@ -49,6 +49,6 @@ _Goal_: cercare dei partizionamenti ottimi di una distribuzione sono sicura in $
 
 ##### Riduzione 
 _riduzione di dimensione_: 
-- $<x_1,x_2,\dots,x_n> \rightarrow <x_1’,\dots,x’_{n’}>$ con $n>n’$
+- $(x_1,x_2,\dots,x_n) \rightarrow (x_1’,\dots,x’_{n’})$ con $n>n’$
 - dove le nuove feature possono essere una combinazione delle originali.
 

@@ -60,8 +60,7 @@ tags:
 		2. [[Reservoir Computing - Liquid State Machine]] (extra)
 		3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 	16. [[Recurrent neural network (RecNN)]]
-	17. [[Self organizing Map  Neural Network (SOM-NN)]]
-10. [[Tensori]]
+	17. [[Self organizing Map Neural Network (SOM-NN)]]
 
 ### Altre 
 11. 
