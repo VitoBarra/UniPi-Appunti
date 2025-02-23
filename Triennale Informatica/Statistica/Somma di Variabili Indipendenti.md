@@ -1,16 +1,18 @@
 ---
 Course: "[[Statistica (STAT)]]"
-topic: nota
 tags:
   - STAT
+  - IA
+Area: 
+topic: 
+SubTopic:
 ---
-# Formule della convoluzione
+# Somma di Variabili Indipendenti
 ---
-La  convoluzione è un [[Operazioni algebriche|Operazione]] solitamente denotata con $*$ e questa è un usata in vari contesti come nelle [[Convolutional neuronal Network]] che prendono il nome da quest operazione e nel _image Processing_ che li utilizza ampiamente ad esempio nel [[Filtering|filtering]]
+La somma di variabili aleatorie possono essere descritte nel caso sia discrete che continue utilizzando l [[operazione di convoluzione|operazione di convoluzione]] 
 
 
-Quei ne viene mostrata l applicazione in _statistica_
-#### Formula di convoluzione discreta
+## Versione Discrita
 _siano_  $X,Y:\Omega \rightarrow \mathbb{N}$  _[[Variabili Aleatorie (Casuali)|variabili aleatorie]] discrete_ a valori naturali 
 _se_ queste sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
 _allora_ sia $Z=X+Y$ e siano $p_{X},p_{Y},p_{Z}$ le rispettive _[[Probabilita sui numeri Reali#Funzione di massa discreta (Definizione)|funzioni di massa]]_
@@ -30,7 +32,7 @@ dove il secondo passaggio fa uso dell _[[Indipendenza di Variabili aleatorie|ind
 
 
 
-#### Formula della convoluzione continua
+## Versione continua
 _siano_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatorie]] con densità $f_{X},f_{Y}$ _[[Indipendenza di Variabili aleatorie|indipendenti]]_ 
 _sia_ $Z=X+Y$ 
 _allora_ la variabile $Z$ ha densità $$
@@ -54,7 +56,3 @@ F_{Z}  & =\\  \mathcal{P}\{ X+Y \leq z\}  & = \\
 \displaystyle\int_{-\infty}^{+\infty}\left( \int^{z}_{-\infty}f_{X}(x’-y)  \, dx’  \right)  f_{Y}(y)\, dy 
 \end{array}$$
 dove $x’=x+y$ e da qui la tesi deriva immediatamente [[Derivate|derivando]] in $z$ sotto il segno di [[Integrali|integrarle]] 
-
-
->[!tip] video 3B1B
->questo da un [idea visuale](https://youtu.be/IaSGqQa5O-M?si=H2xv8S8jRUAUTuHl) di cosa rappresentano le convoluzioni

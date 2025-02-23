@@ -68,7 +68,7 @@ tags:
 		1. [[Molteplicità algebrica e geometrica]]
 10. [[Prodotto Scalare]]
 	4. [[Prodotto scalare euclideo (Dot product)]]
-	5. [[Prodotto scalare su matrici]]
+	5. [[Prodotto scalare su matrici simmetriche]]
 11. [[Prodotto Vettoriale (Cross product)]]
 12. [[Vettori Ortogonali]]
 	1. [[Vettori Ortonormali]]

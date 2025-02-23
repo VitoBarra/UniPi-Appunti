@@ -9,7 +9,7 @@ SubTopic:
 ---
 # BackPropagation
 ---
-La __Back Propagation__ è un algoritmo che permette di allenare delle [[Reti Neurali (NN)|reti neurali]] utilizzando il [[Gradient Descent|gradient descent]] e quindi è formulato come [[Problemi di minimizazione e massimizazione|problema di minimizazione]] trovare i pesi $w$ che minimizzano l errore totale $E_{\text{tot}}$. 
+La __Back Propagation__ è un algoritmo che permette di allenare delle [[Reti Neurali (NN)|reti neurali]] utilizzando il [[Tecnica di ottimizzazione Gradient Descent|gradient descent]] e quindi è formulato come [[Problemi di minimizazione e massimizazione|problema di minimizazione]] trovare i pesi $w$ che minimizzano l errore totale $E_{\text{tot}}$. 
 
 
 In particolare vediamo la derivazione del algoritmo considerando un [[Reti neurali Feed-Forward (FF)|MLP]]  [[Reti Neurali (NN)|completamente connessa]]. 

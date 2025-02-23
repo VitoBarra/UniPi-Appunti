@@ -14,10 +14,10 @@ le due operazioni devono soddisfare Le proprietà
  - Chiusura sul insieme $F$ Ovvero i risultati di quelle operazioni sono elementi del _insieme_ $F$ vale quindi che 
 	 - $+:F\times F \rightarrow F$
 	 - $\cdot:F\times F \rightarrow F$
-- _[[Proprietà del operazioni - Associativà| proprietà Associativa]]_
-- _[[Proprietà del operazioni - Commutatività|proprieta Commutativa]]_
-- esistenza _elemento [[Elemento Neutro o identita di un operazione|neutro]]_ 
-- esistenza _[[Elemento inverso di un operazione|elemento Inverso]]_ per ogni elemento ad eccezione dello 0 per la moltiplicazione.
+- _[[Proprietà del operazioni - Associativa| proprietà Associativa]]_
+- _[[Proprietà del operazioni - Commutativita|proprieta Commutativa]]_
+- esistenza _elemento [[Operazioni - Elemento Neutro o identita|neutro]]_ 
+- esistenza _[[Operazioni - Elemento inverso|elemento Inverso]]_ per ogni elemento ad eccezione dello 0 per la moltiplicazione.
 
 ### Caratteristica
 la _caratteristica_ di un _campo_ è il piu piccolo numero natura $n$ tale che sommano $n$ volte _l elemento neutro moltiplicativo_ (ovvero $1$) in $\mathcal{K}$ si ottiene l _elemento neutro additivo_ (ovvero 0).

@@ -34,7 +34,7 @@ S_{(s_{x},s_{y})}  & (I-S_{(s_{x},s_{y})})\boldsymbol{c} \\
 \end{bmatrix}$$
 
 #### Commutatività
-le operazioni tra loro [[Proprietà del operazioni - Commutatività|commutative]] sono
+le operazioni tra loro [[Proprietà del operazioni - Commutativita|commutative]] sono
 - __[[Trasformazioni Lineari Geometriche|Traslazione]]__ con __traslazione__
 - __Rotazione__ con __rotazione__
 - __Scaling__ con __scaling__

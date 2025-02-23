@@ -79,7 +79,7 @@ Per i modelli __lineari multi variati__ si ha che li input non è una singola va
 \mathbf{w}^T &= [w_0,w_1,\dots,w_n]\\
 \mathbf{w}^T\mathbf{x} &= \mathbf{x}^T\mathbf{w}
 \end {flalign}$$
-in questo modo il modello è definito semplicemente dal [[Prodotto Scalare|inner poduct]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione geometrica è semplice è un piano che ne interseca un altro formando una retta ovvero l ipotesi $h_{\mathbf{w}}$ del modello lineare.
+in questo modo il modello è definito semplicemente dal [[Prodotto scalare euclideo (Dot product)|Dot product]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione geometrica è semplice è un piano che ne interseca un altro formando una retta ovvero l ipotesi $h_{\mathbf{w}}$ del modello lineare.
 ![[B713A224-B169-4617-8A81-4FF5C80BA9CA.jpeg]]
 In generale immaginarlo per $n>2$ è difficile ma il concetto di intersezione per generare una retta resta ma c è bisogno di usare gli iperpiani.
 
@@ -192,6 +192,6 @@ $$ \boldsymbol w_{new}=\boldsymbol w+\eta \Delta w -2\lambda \boldsymbol w$$
 
 
 ## Bias induttivo
-
+i [[Algoritmi di Machine Learning|bias]] di algoritmo è il seguente:
 - __Bias di linguaggio__: Il modello ha lo spazio del ipotesi $\mathcal{H}$ lo spazio delle __funzioni lineari__. 
 - __Bias di ricerca__: La ricerca delle soluzioni è guidata dall'obiettivo di minimizzare l'errore tramite il criterio dei minimi quadrati (Least Squares).  

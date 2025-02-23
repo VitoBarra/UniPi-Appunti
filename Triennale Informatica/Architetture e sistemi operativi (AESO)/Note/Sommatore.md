@@ -9,13 +9,13 @@ tags:
 ---
 
 
-## SemiSommatore (HalfAdder)
+## Semi-Sommatore (HalfAdder)
 
 il semi sommatore si rialza con una porta [[Porte Logiche#Porta XOR|XOR]] e un porta AND fa la somma dei due ingressi  e la mette in uscita utilizzando lo [[Porte Logiche#Porta XOR|XOR]] mentre per il riporto utilizza l AND
 
 ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 12.png]]
 
-## SommatoreCompleto (FullAdder)
+## Sommatore-Completo (FullAdder)
 
 come il semisommatore ma accetta un Riporto in ingresso che aggiunge agli ingressi
 

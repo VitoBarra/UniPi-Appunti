@@ -37,7 +37,7 @@ _Dimostrazione_:
 vanno distinti i due casi
 _Discreto_:
 	supponendo che $g(x_i)$ sia a valori _positivi_, allora la _variabile aleatoria_ $Y=g(X)$ assume valori $y_{1},y_{2},\dots$  che è un insieme _finito_ o [[Insiemi infiniti numerabili|numerabile]].
-	consideriamo gli insiemi $A_{i}=\{ j\mid g(x_{j}=y_{i}) \}$ e osservando che $P_{Y}(y_{i})=\sum_{j \in A_{i}}\mathcal{P}\{ X = x_{j} \}=\sum_{j \in A}P_{X}(x_{j})$. e quindi abbiamo a che fare con [[Serie|serie]] e questo essendo [[Proprietà del operazioni - Associativà|associative]] vale $$
+	consideriamo gli insiemi $A_{i}=\{ j\mid g(x_{j}=y_{i}) \}$ e osservando che $P_{Y}(y_{i})=\sum_{j \in A_{i}}\mathcal{P}\{ X = x_{j} \}=\sum_{j \in A}P_{X}(x_{j})$. e quindi abbiamo a che fare con [[Serie|serie]] e questo essendo [[Proprietà del operazioni - Associativa|associative]] vale $$
 	\begin{array}{}
 	\mathbb{E}[Y] & = &  \\
     \sum_{i}y_{i}p_{Y}(y_{i}) & = &\\  

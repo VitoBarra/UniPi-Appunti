@@ -34,10 +34,12 @@ tags:
 		1. [[Polinomio di Bernstein]]
 13. [[Operazioni algebriche]]
 	1. [[Operazioni chiuse]]
-	2. [[Proprietà del operazioni - Associativà]]
-	3. [[Proprietà del operazioni - Commutatività]]
-	4. [[Elemento Neutro o identita di un operazione]]
-	5. [[Elemento inverso di un operazione]]
+	2. [[Proprietà del operazioni - Associativa]]
+	3. [[Proprietà del operazioni - Commutativita]]
+	4. [[Proprietà del operazioni-Anticommutatività]]
+	5. [[Proprietà del operazioni - Distributività]]
+	6. [[Operazioni - Elemento Neutro o identita]]
+	7. [[Operazioni - Elemento inverso]]
 14. [[Strutture algebriche]]
 	1. [[Reticoli]]
 	2. [[Gruppi]]
@@ -58,6 +60,7 @@ tags:
 	9. [[Insieme dei Numeri complessi]]
 		1. [[Numeri primi gaussiani]]
 16. [[Distanza euclidea]]
+17.  [[Operazione di convoluzione]]
 
 ### Educational Material 🧱
 1. Appunti prof Lezione

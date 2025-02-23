@@ -45,7 +45,7 @@ _siano_ $k[pub]=\langle e,n\rangle$ la chiave pubblica e $k[prv]=\langle d\rangl
 	1. $f$ è detto _firma_ di $U$ su $r$
 3. $S$ verifica il valore ricevuto _cifrando_ $f$, abbiamo quindi $r'=\mathcal{C}(f,k[pub])=f^{e}\mod n$ _se_ $r'=r$ allora l utente è identificato. 
 
-Invertire le operazioni di [[Cifratura e Decifratura|cifratura e decifratura]] da risultati corretti solo perche le due funzioni sono _[[Proprietà del operazioni - Commutatività|commutative]]_
+Invertire le operazioni di [[Cifratura e Decifratura|cifratura e decifratura]] da risultati corretti solo perche le due funzioni sono _[[Proprietà del operazioni - Commutativita|commutative]]_
 
 #### Attacchi a questo sistema
 nel sistema sopra descritto si assume che $r$ sia _generato casualmente_, ma si potrebbe struttura un attacco dove si sceglie $r$ a doc per estrarre informazioni dalla _trasformazione_ di $r$ in $f$, questo diventa ancora piu pericoloso se si può scegliere una sequenza mirata di $r$ con identificazioni multiple.

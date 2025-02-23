@@ -7,10 +7,8 @@ tags:
 ---
 # Prodotto Scalare
 ---
-Il _prodotto scalare_ è un [[Operazioni algebriche|operazione]] definita su due vettori, _restituiscono_ un numero in $\mathbb{R}$
-
-_sia_ $V$ una [[Spazio Vettoriale|spazio vettoriale]]
-_allora_ il _prodotto scalare_ su $V$ è definito dal applicazione 
+__sia__ $V$ una [[Spazio Vettoriale|spazio vettoriale]]
+__allora__ Il __prodotto scalare__ è un [[Operazioni algebriche|operazione]] su $V$ è definito come 
 $$\begin{array}{}
 V \times V \rightarrow \mathbb{R} \\
 (v,w)\mapsto\langle v,w\rangle
@@ -23,7 +21,7 @@ e questa soddisfa i seguenti _assiomi_
 5. $\langle v,w\rangle=\langle w,v\rangle$
 per ogni $v,v’,w,w’ \in V$ e ogni $\lambda \in \mathbb{R}$
 
-### Classificazione  prodotti scala9ri:
+### Classificazione  prodotti scalari:
 ![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/Untitled 1 14.png]]
 
 ![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/Untitled 2 11.png]]

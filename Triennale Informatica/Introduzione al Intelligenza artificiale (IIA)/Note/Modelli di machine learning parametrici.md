@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Modelli di machine learning parametrici
 ---
-i  __modelli parametrici__ di [[Machine Learning (ML)|macchine learning]] sono generati da un [[Algoritmi di Machine Learning|algoritmi di learning]]. Sono caratterizzati da un numero fisso di __parametri__ che vengono imparati durante la fase di training.
+i  __[[Modelli dei dati|modelli]] parametrici__ di [[Machine Learning (ML)|macchine learning]] sono generati da un [[Algoritmi di Machine Learning|algoritmi di learning]]. Sono caratterizzati da un numero fisso di __parametri__ che vengono imparati durante la fase di training.
 
 Questo approccio elimina la necessità di mantenere in memoria l'intero dataset durante l'inferenza questo siccome il modello è rappresentato da un ipotesi analitica esplicita. 
 gli algoritmi che costruiscono questi tipi di modelli sono detti anche "__eager__".

@@ -10,18 +10,14 @@ SubTopic:
 
 # Algoritmi di Apprendimento NON supervisionato
 ---
-l'__apprendimento NON supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|apprendimento]] che come dati semplici vettori.
+l'__apprendimento NON supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|apprendimento]] che ha come dominio di input dei [[vettori|vettori]] senza una label associata, cosa che lo distingue dal [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]]
 
-Si hanno _dati di training_ di cui non si sa il valore certo ma si vuole comunque approssimate la funzione si fa quindi 
-- _Clustering_
-	- partizionare dati in cluster di _dati_ simili 
-![[AB7569AC-30D1-4B10-A654-410A5DEDC98A.jpeg]]
+Questi tipi di algoritmi si possono usare per:
+- __[[Data analisys - Clustering|Clustering]]__: trovare gruppi ([[Partizione di un insieme|partizioni]]) naturali nei dati e solitamente fare ciò si usa un processo di [[Quantizzatori Vettoriali (VQ)|Quantizzatori Vettoriali]] ![[AB7569AC-30D1-4B10-A654-410A5DEDC98A.jpeg]]
+- __Riduzione della dimensionalità__: proiezione dei dati in uno spazio di dimensione inferiore
+- __Analisi della densità dei dati__:
 
-_modello_: 
-- obiettivo: catturare le relazioni tra dati, basandosi sul compito che si cerca di risolvere
-- definisce la classe delle funzioni  che la macchina puo implementare sotto quel modello. detto _Hypotheses space_ (spazio delle ipotesi). 
-	
->[!example]- 
-> - [[Logica del primo ordine (FOL)|Logica del primo ordine]]
-> - Equazioni numeriche
-> - [[Definizione di Probabilita|Definizione di Probabilita]]
+
+Alcuni tipi di learning usati in questa categoria di learning sono:
+- [[Learning Competitivo]]
+- 

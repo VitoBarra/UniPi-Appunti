@@ -19,8 +19,7 @@ tesi:
 
 esempio:
 [[Ricerca Hill Climbing|Hill climbing iterativo]] dove  il nuovo vettore di stato $x_{new}$
-è dato da $$x_{new}=x \pm \eta\nabla f(x)$$
-dove 
+è dato da $$x_{new}=x \pm \eta\nabla f(x)$$dove 
 - $x =$ è il vettore d’elogio stato attuale
 - $\eta=$ la dimensione del passo di movimento
 - $\nabla f(x)=$ il gradiente di $f$

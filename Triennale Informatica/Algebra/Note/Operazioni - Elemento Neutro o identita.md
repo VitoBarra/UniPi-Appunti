@@ -1,12 +1,11 @@
 ---
-Course: Algebra
+Course: "[[Algebra (ALG)]]"
 topic: nota
-tags: ALG
+tags:
+  - ALG
 ---
 
-Prev: [[Algebra (ALG)]]
-
-# Elemento Neutro o identita di un operazione
+# Operazioni - Elemento Neutro o identita
 ---
 Data un [[Operazioni chiuse|operazioni binaria chiusa]] $*:A\rightarrow A$ può esiste un _elemento_ $e$ detto _Neutro_ o _Identità_ del operazione tale che
 $$a*e=e*a=a$$

@@ -71,7 +71,7 @@ _Chiusura_: $\forall P,Q \in E(a,b), P+Q \in E(a,b)$
 _Elemento neutro_: $\forall P \in E(a,b). P +O = O +P =P$ 
 	abbiamo che $Q =O$  e la retta che passa tra $P$ e $Q$ è una retta _verticale_ interseca nel punto $R=-P$ e sostituendo abbiamo che $P+O=-(-P)$
 _Inverso_: $\forall P \in E(a,b)\exists!Q=-P \in E(a,b). P+Q=Q+P=O$ 
-rispetta _[[Proprietà del operazioni - Associativà|Associativà]]_ e _[[Proprietà del operazioni - Commutatività|Commutatività]]_
+rispetta _[[Proprietà del operazioni - Associativa|Associativà]]_ e _[[Proprietà del operazioni - Commutativita|Commutatività]]_
 
 possiamo anche definire $P+Q$ partendo della coordinate stesse di $P$ e $Q$ 
 _siano_ $P=(x_{P},y_{P})$ e $Q =(x_{Q},y_{Q})$ 

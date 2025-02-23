@@ -32,7 +32,7 @@ che significa che l area del triangolo $\boldsymbol{p}_{0},\boldsymbol{p}_{1},\b
 
 
 ### Cross Pruduct 2D
-il coss pruduct 2D è un prodotto scalere e vale che $$\begin{bmatrix}
+il coss pruduct 2D è un [[Prodotto Scalare|prodotto scalere]] e vale che $$\begin{bmatrix}
 a \\b
 \end{bmatrix} \times \begin{bmatrix}
 c \\d

@@ -33,9 +33,9 @@ a_{w}b_{w}-\boldsymbol{a}\cdot \boldsymbol{b} \\
 	a_{w}\boldsymbol{b}+b_{w}\boldsymbol{a}+\boldsymbol{a}\times\boldsymbol{b}
 \end{bmatrix}$$
 
-dove l [[Elemento Neutro o identita di un operazione|indentita]] è $\boldsymbol{1}=(1,0,0,0)$ 
+dove l [[Operazioni - Elemento Neutro o identita|indentita]] è $\boldsymbol{1}=(1,0,0,0)$ 
 
-l [[Elemento inverso di un operazione|inverso]] è l elemento $$a^{-1}=\frac{1}{\|a\|^{2}}(a_{w},-\boldsymbol{a})$$
+l [[Operazioni - Elemento inverso|inverso]] è l elemento $$a^{-1}=\frac{1}{\|a\|^{2}}(a_{w},-\boldsymbol{a})$$
 il _coniugato_ di un _quaternione_ è
 $$\overline{\boldsymbol{q}}=(a_{w},-\boldsymbol a)$$
 

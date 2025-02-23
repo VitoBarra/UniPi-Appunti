@@ -21,9 +21,9 @@ $\forall h$ consistente con $x$ $\exists h‘$ identica a $h$ tranne che per $h(
 dati
 - un algoritmo di [[Concept Learning|concept learning]] $L$
 - instanze $X$ 
-- un concetto target c
+- un concetto target $c$
 - training example $D_c = \{<x,c(x)>\}$
 - è denotiamo con $L(x_i,D_c)$  la classificazione assegnata al instanza $x_i$ da $L$ dopo esser stato allenato su $D_c$
 
 Il _bias induttivo_ di $L$ è ogni insieme minimale di asserzioni $B$ tale che per ogni concetto target $c$ e i suo corrispondenti  training example $D_c$ $$(\forall X_i \in X)[B \land D_C \land x_i] \vdash L(x_i,D_c)$$
-dove $A\vdash B$ significa che A è conseguenza logica di B
+dove $A\vdash B$ significa che $A$ è [[Logica proposizionale|conseguenza logica]] di $B$
