@@ -53,7 +53,7 @@ Terza parte corso:
 	1. [[Overfitting e Underfitting]]
 	2. [[Bias Induttivo]]
 	3. [[Statistical Learning Theory (SLT)]]
-	4. [[Validazione e test di una modello di ML]]
+	4. [[Validation e Test di una modello di ML]]
 3. [[Algoritmi di apprendimento supervisionato]]
 	1. [[Modelli lineari con LMS]]
 	2. [[Alberi di decisione]]

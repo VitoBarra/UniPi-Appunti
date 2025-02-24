@@ -6,7 +6,7 @@ Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic:
 ---
-# Modelli di Machine Learning Parametrici
+# Modelli Instance-Based
 ---
 I __[[Modelli di dati|modello]] instance-based__ di [[Machine Learning (ML)|machine learning]] sono generati da un [[Algoritmi di Machine Learning|algoritmi di learning]] e sono una sottoclasse dei  __[[Modelli di machine learning NON parametrici|modelli NON parametrici]]__.  Questi modelli memorizzano tutte le istanze dei dati e calcolano le predizioni basandosi sulla __somiglianza__ tra l'istanza da predire e quelle presenti nel dataset.
 

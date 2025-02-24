@@ -19,7 +19,7 @@ Queste assunzioni prendono il nome di __[[Bias Induttivo|bias induttivo]]__, una
 la scelta di un __bias induttivo__ è importante anche per una altra ragione senza non si puo imparare nient'altro che una __tabella di verità__. Ovvero Senza un __bias induttivo__ non è esiste __capacità di generalizzare__
 ![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]
 
-gli [[Algoritmi di Machine Learning|algoritmi di learning]] possono essere divisi in varie categorie come 
+gli __algoritmi di learning__ possono essere divisi in varie categorie come 
 1. [[Algoritmi di apprendimento supervisionato]]
 2. [[Algoritmi di Apprendimento NON supervisionato]]
 3. [[Algoritmi di Apprendimento semi-supervisionato]]
@@ -28,4 +28,4 @@ dove indipendentemente dalla categoria i passi sono solitamente
 1. __Fase di apprendimento__ (training o fitting):  ricerca di un ipotesi a partire dai dati conosciuti, insieme dei quali è chiamato __training set__.
 2. __Fase si predizione__ (o stima): si utilizza l ipotesi generata dal modello per predire nuovi dati. 
 
-si possono utilizzare i dati predetti per confrontarli con degli altri dati che si assumono corretti, solitamente detto [[Validazione e test di una modello di ML|test set]], e fare ciò ci da informazioni sul ipotesi predittiva e quindi sulle __capacita di generalizzare__. Questa è la capacita di ottenere buone prestazioni su dati non presenti nel training set.
+si possono utilizzare i dati predetti per confrontarli con degli altri dati che si assumono corretti, solitamente detto [[Validation e Test di una modello di ML|test set]], e fare ciò ci da informazioni sul ipotesi predittiva e quindi sulle __capacita di generalizzare__. Questa è la capacita di ottenere buone prestazioni su dati non presenti nel training set.

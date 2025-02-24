@@ -10,7 +10,7 @@ State: Trash
 ---
 # Reti Neurali Artificiali (ANN)
 ---
-Le  __reti neurali Artificiale__ (__ANN__ o __NN__) è un paradigma di [[Concetti generali del Machine Learning|Machine learning]] biologicamente inspirato e sotto insieme degli approcci __sub simbolici__. Usa [[Algoritmi di apprendimento supervisionato|algoritmi di learning supervisionavi]] genera [[Modelli di machine learning parametrici|modelli parametrici]].
+Le  __reti neurali Artificiale__ (__ANN__ o __NN__) è un paradigma di [[Concetti generali del Machine Learning|Machine learning]] biologicamente inspirato e sotto insieme degli approcci __sub simbolici__. Usa [[Algoritmi di apprendimento supervisionato|algoritmi di learning supervisionavi]] genera [[Modelli Parametrici|modelli parametrici]].
 
 una __Rete neurale__ è caratterizzata da 3 cose:
 - __unita__: Il tipo di funzione di attivazione

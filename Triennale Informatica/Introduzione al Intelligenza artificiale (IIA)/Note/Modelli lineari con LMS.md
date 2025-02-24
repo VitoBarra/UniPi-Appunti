@@ -7,7 +7,7 @@ tags:
 ---
 \# Modelli lineari con LMS
 ---
-il __modello lineare__ e' un [[Modelli di machine learning parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
+il __modello lineare__ e' un [[Modelli Parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
 
 Per __modello lineare__ si intende [[Equazioni Lineari e Lineari omogenee|lineare]] nei parametri e non nel input. 

@@ -14,7 +14,7 @@ Le reti neurali rappresentano un paradigma flessibile e potente nell'ambito dell
 
 ---
 
-## **Sfide comuni nell'addestramento delle reti neurali**
+## Sfide comuni nell'addestramento delle reti neurali
 
 Uno dei problemi principali riguarda l'over-parametrizzazione del modello, che aumenta il rischio di overfitting. Questa condizione si verifica quando la rete apprende troppo dai dati di addestramento, perdendo capacità di generalizzare. Inoltre, il processo di ottimizzazione è spesso non convesso, portando a instabilità e difficoltà nel raggiungere minimi globali. 
 
@@ -26,15 +26,15 @@ Tra le questioni affrontate:
 
 ---
 
-## **Algoritmi di apprendimento**
+## Algoritmi di apprendimento
 
-### **Discesa del gradiente**
+### Discesa del gradiente
 La discesa del gradiente costituisce il cuore dell'addestramento delle reti neurali. Questo metodo si basa sul calcolo del gradiente dell'errore rispetto ai pesi della rete, aggiornandoli per ridurre progressivamente l'errore. Sono state sviluppate diverse varianti per migliorare l'efficienza:
 - __Batch gradient descent__: calcola il gradiente sull'intero set di dati per ogni aggiornamento dei pesi, garantendo stime precise ma richiedendo più tempo.
 - __Online (stocastico) gradient descent__: aggiorna i pesi dopo ogni esempio, rendendo l'addestramento più rapido ma meno stabile.
 - __Mini-batch gradient descent__: combina i vantaggi delle due modalità precedenti, aggiornando i pesi dopo aver elaborato piccoli gruppi di esempi.
 
-### **Heuristics per migliorare la convergenza**
+### Heuristics per migliorare la convergenza
 Per accelerare la convergenza e stabilizzare l'ottimizzazione, si usano tecniche come il __momentum__, che aggiunge una frazione dello spostamento precedente al gradiente attuale. Questo aiuta a superare le oscillazioni e velocizza l'apprendimento in superfici con plateau.
 
 Altre innovazioni includono:
@@ -43,7 +43,7 @@ Altre innovazioni includono:
 
 ---
 
-## **Regolarizzazione**
+## Regolarizzazione
 
 La regolarizzazione è una tecnica fondamentale per prevenire l'overfitting e controllare la complessità del modello. Viene aggiunto un termine di penalità alla funzione di perdita:
 $$ L(w) = MSE + \lambda \|w\|^2 $$
@@ -53,7 +53,7 @@ Un approccio alternativo è l'__early stopping__, che utilizza un set di validaz
 
 ---
 
-## **Configurazione dell'architettura**
+## Configurazione dell'architettura
 
 La scelta del numero di unità nascoste è critica per bilanciare underfitting e overfitting. Una rete con troppe poche unità non riesce a catturare la complessità dei dati, mentre una rete con troppe unità rischia di adattarsi eccessivamente.
 
@@ -63,7 +63,7 @@ Due approcci principali guidano la configurazione:
 
 ---
 
-## **Preprocessing degli input e output**
+## Preprocessing degli input e output
 
 Il preprocessing dei dati in ingresso è fondamentale per garantire un addestramento stabile. Le tecniche includono:
 - __Normalizzazione__: scalare i dati in un intervallo $[0,1]$ o standardizzarli a media zero e deviazione standard unitaria.
@@ -75,7 +75,7 @@ Per gli output:
 
 ---
 
-## **Considerazioni finali**
+## Considerazioni finali
 
 Le reti neurali si sono dimostrate strumenti estremamente versatili. Grazie alla loro capacità di apprendere funzioni complesse, sono applicabili a una vasta gamma di problemi, dalla classificazione alla regressione, fino alle applicazioni non supervisionate.
 

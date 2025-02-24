@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Reti neurali Feed-Forward (FF)
 ---
-Una __[[Reti Neurali (NN)|reti neurale]] Feed Forward__ è un tipo di __[[Modelli di machine learning parametrici|modello parametrico]]__ di [[Concetti generali del Machine Learning|machine leanring]]  e viene solitamente allenato con [[Algoritmi di apprendimento supervisionato|algoritmi supervisionati]].
+Una __[[Reti Neurali (NN)|reti neurale]] Feed Forward__ è un tipo di __[[Modelli Parametrici|modello parametrico]]__ di [[Concetti generali del Machine Learning|machine leanring]]  e viene solitamente allenato con [[Algoritmi di apprendimento supervisionato|algoritmi supervisionati]].
 
 
 __Le unità sono connesse tramite collegamenti pesi__ e organizzate in _layers_ con la seguente struttura:

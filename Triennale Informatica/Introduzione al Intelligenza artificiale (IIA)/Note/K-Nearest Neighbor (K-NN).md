@@ -8,7 +8,7 @@ tags:
 
 # K-Nearest Neighbor (K-NN)
 ---
-il $K$-Nearest Neighbor è un algoritmo di __[[Algoritmi di Apprendimento NON supervisionato|learning supervisionato]]__ __[[Modelli di Macchine learning Instance-Based|instance-base]]__.  
+il $K$-Nearest Neighbor è un algoritmo di __[[Algoritmi di Apprendimento NON supervisionato|learning supervisionato]]__ __[[Modelli Instance-Based|instance-base]]__.  
 Questo algoritmo si utilizza principalmente per la classificazione e si basa sul idea  che i nuovi punti siano simili a quelli "vicini".
 
 Per valutare quando due punti siano vicini si utilizzano delle metriche una ad esempio è la __[[Distanza euclidea|distanza euclidea]]__ 

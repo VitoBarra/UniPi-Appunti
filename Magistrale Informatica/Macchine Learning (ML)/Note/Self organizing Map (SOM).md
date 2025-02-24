@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Self organizing Map (SOM)
 ---
-le __self organizing maps__ (__SOM__) o anche dette __Kohonen maps__ sono [[Modelli di machine learning parametrici|modelli parametrici]] basto su [[Reti Neurali (NN)|reti neurali]] allenate con un algoritmo per l' [[Algoritmi di Apprendimento NON supervisionato|apprendimento non supervisionati]]. 
+le __self organizing maps__ (__SOM__) o anche dette __Kohonen maps__ sono [[Modelli Parametrici|modelli parametrici]] basto su [[Reti Neurali (NN)|reti neurali]] allenate con un algoritmo per l' [[Algoritmi di Apprendimento NON supervisionato|apprendimento non supervisionati]]. 
 
 
 Le __SOM__ sono formate da $N$ neuroni -disposti su di una griglia uniforme a bassa dimensionalità, solitamente si usa una griglia 2D anche detta __lattice__   ![[Pasted image 20250222181050.png]]

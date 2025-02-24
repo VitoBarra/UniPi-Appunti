@@ -7,12 +7,12 @@ tags:
 ---
 # K-Means
 ---
-il __$k$-Means__ è un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli di Macchine learning Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]] 
+il __$k$-Means__ è un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]] 
 
 il __$k$-Means__ per fare [[Data analisys - Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]], si usa quindi la definizione del problema ![[Data analisys - Clustering#Clustering tramite quantizzazione di vettori]]
-[[Derivate|Derivando]] la funzione di loss si può ottenere ottenere la regola di aggiornamento come $$\Delta \mathbf{w}_{i^*} = \eta \delta_{winner} (i,i^*)(x_i-w_{i^*}) $$ e questa regola costituisce la versione __[[Tipi di strategie di learning con gradient descent|online]]__ del __$k$-mean__
+[[Derivate|Derivando]] la funzione di loss si può ottenere ottenere la regola di aggiornamento come $$\Delta \mathbf{w}_{i^*} = \eta \delta_{winner} (i,i^*)(x_i-w_{i^*}) $$ e questa regola costituisce la versione __[[Tecnica di ottimizzazione Gradient Descent|online]]__ del __$k$-mean__
 
-Mentre la versione __[[Tipi di strategie di learning con gradient descent|batch]]__ segue come:
+Mentre la versione __[[Tecnica di ottimizzazione Gradient Descent|batch]]__ segue come:
 1. Scegliere $k$ __centroidi__ iniziali, posizionandoli in uno dei seguenti modi:
     - Selezionando casualmente $k$ punti dal set di dati.
     - Definendo $k$ punti casuali all'interno dell'iper-volume che contiene il set di dati.

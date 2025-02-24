@@ -77,7 +77,7 @@ Una volta calcolati $\delta_t$ e  $o_u$, possiamo aggiornare i pesi: $$ \Delta w
 ![[Pasted image 20250103181525.png]]
 
 ### Considerazioni
-Questa è la versione [[Tipi di strategie di learning con gradient descent|online]] del algoritmo dove l aggiornamento si fa per ogni patter. 
+Questa è la versione [[Tecnica di ottimizzazione Gradient Descent|online]] del algoritmo dove l aggiornamento si fa per ogni patter. 
 in generale i gradienti possono essere accumulati e poi sommati o mediati prima di essere applicati.
 - __Somma__ : funziona ma tende il gradiente tende ad esplodere a seconda della dimensione del mini-batch o del batch, solitamente  richiede un learning rate più basso.
 - __Media__: Tende a dare risultati più stabili e rende il training più indipendente dagli iper-parametri.

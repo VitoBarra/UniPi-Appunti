@@ -46,7 +46,7 @@ _Margin_:  è definito da $\frac{2}{\|\boldsymbol w\|}$  quindi
 il _VC-Dim_ delta [[Statistical Learning Theory (SLT)|SLT]] è l inverso del margine ovvero decresce come l aumentare del margine 
 - con questo fatto si può quindi controllare la complessità del modello
 
-e quindi si conclude che l _iperpiano ottimale_ è quello che massimizza il margine e soddisfa il problema (sui [[Validazione e test di una modello di ML|dati di training]])
+e quindi si conclude che l _iperpiano ottimale_ è quello che massimizza il margine e soddisfa il problema (sui [[Validation e Test di una modello di ML|dati di training]])
 
 ### Espressione formale del problema di apprendimento 
 problema [[Formulazione problema di programmazione di lineare|problema primare di ottimizzazione]] 
