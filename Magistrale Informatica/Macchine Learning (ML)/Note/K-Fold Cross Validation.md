@@ -24,7 +24,7 @@ una  problematica è scegliere il numero di fold infatti vanno bilanciate due co
 ## Esempio di algoritmo con K-fold CV
 - Suddividere i dati in __TR__ e __Test set__ (qui semplice hold-out o un K-fold CV)
 
-- [__Selezione del modello__] Usare la K-fold CV (__interna__) sul set __TR__, ottenendo nuovi set __TR__ e __VL__ in ogni suddivisione, per trovare i migliori iperparametri del modello 
+- __Selezione del modello__ Usa:re la K-fold CV (__interna__) sul set __TR__, ottenendo nuovi set __TR__ e __VL__ in ogni suddivisione, per trovare i migliori iperparametri del modello 
   (es. ordine del polinomio, lambda della regressione ridge, ...): Come?
   Applicare una __grid-search__ con molteplici valori possibili degli iperparametri.
 
@@ -34,28 +34,8 @@ una  problematica è scegliere il numero di fold infatti vanno bilanciate due co
 
 - Addestrare il modello finale sull'intero set __TR__
 
-- [__Valutazione del modello__] Valutare il modello sul __Test set__ esterno
+- __Valutazione del modello__ Valutare il modello sul __Test set__ esterno
 
 
 il comportamento tipico del fase di validazione è il seguente
 ![[2E9BDD5C-D52A-4778-86E5-E3C2ABCC9F24.jpeg]]
-
-
-
-
-
-
-
-# K-fold cross validation 
-La k-fold cross validation è un metodo per utilizzare li'intero dataset, o almeno l'itero design set per training e validation.
-
-Viene diviso il dataset D in k sottoinsieme mutualmente esclusivi. Ad ogni iterazione si tiene l'i-esimo sottoinsieme per la validation e gli altri ${D}/{D_{i}}$ per il training.
-![[kfold.png]]
-
-Con la k-fold cross validation non si ottiene un modello unico ma tanti quanti sono i fold e si ottiene una varianza sui diversi fold.
-Dopo che si è scelto il modello questo viene allenato su tutto il design set
-
-- Computazionalmente molto costosa
-
-Per rendere il campionamento dei dati rappresentativo si usa la stratificazione, evitando di avere partizioni fortunate o sfortunate.
-Si va a controllare che i membri del sottogruppo siano nelle solite proporzioni del dataset originario.

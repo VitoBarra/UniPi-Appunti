@@ -23,9 +23,9 @@ La __random search__ riduce i costi computazionali rispetto alla __grid search__
 A sinistra rappresentazione della __grid search__ e a destra della __random search__.
 
 
-
-- [hyper band](https://medium.com/@fmnobar/hyperparameter-optimization-with-hyperband-30x-faster-than-bayesian-optimization-d6f01e7e6d0f)
-- [baiesan search](https://en.wikipedia.org/wiki/Bayesian_optimization)
+> [!tip] Other method
+> - [hyper band](https://medium.com/@fmnobar/hyperparameter-optimization-with-hyperband-30x-faster-than-bayesian-optimization-d6f01e7e6d0f)
+> - [baiesan search](https://en.wikipedia.org/wiki/Bayesian_optimization)
 
 
 

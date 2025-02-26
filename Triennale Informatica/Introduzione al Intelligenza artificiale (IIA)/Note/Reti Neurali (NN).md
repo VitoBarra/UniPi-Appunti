@@ -21,25 +21,8 @@ Le  __unita di calcolo__  sono dette anche  __neuroni__  e sono definiti come  d
 net_i(\mathbf{x})=\sum w_{ij}x_j \\
 o_i(\mathbf{x}) = f(net_i(x))
 \end{cases}$$ovvero un __unita__ prende in input dei valori $\mathbf{x}$ pesati con $\mathbf{w}$ (i parametri) e dopo averli sommati ci applica una [[Funzioni di attivazione|funzione di attivazione]]  $f(\mathbf{x})$  producendo un output.
+
 ![[Pasted image 20241226164009.png]]
-
-
-
-
-
-#### Architetture
-- __totalmente connessa__: Ogni neurone è connesso a tutti i neuroni del layer precedente e successivo. 
-
-
-
-### Deep learning
-un approccio per struttura una rete neurale dove si usano molto l hidden layer.
-avere piu layer permette di creare delle feature astratte sopra i dati 
-
-![[EB46EDF4-4878-493A-BFAF-34A6CD08DE61.jpeg]]
-
-
-è un modello multo buono che utilizza la composizionalita per avere un gain esponenziale 
 
 
 
@@ -50,3 +33,13 @@ L l' algoritmo usato delle reti neurali per funzionare è l algoritmo di [[BackP
 
 ### Capacita espressiva
 la capacita di generalizzare delle __reti neurali__ è teoricamente giustificata dal [[Teorema di approssimazione universale]]
+
+
+## VC-Dimesion
+la [[Statistical Learning Theory (SLT)|VC-dimension]] per le reti neurali è dinamica e dipenda principalmente dalla dimensione dei pesi infatti
+- con pesi a  $0$ è minima perche nessun collegamento è attivo
+- con pesi sono piccoli in modulo si ha __VC-dimension__ bassa siccome le [[funzioni di attivazione|funzioni di attivazione]] sono ancora nella parte lineare 
+- se i pesi grandi in modulo il modello  si ha __VC-dimension__ altra siccome le [[funzioni di attivazione|funzioni di attivazione]] sono ancora nella parte __NON__ lineare 
+
+
+

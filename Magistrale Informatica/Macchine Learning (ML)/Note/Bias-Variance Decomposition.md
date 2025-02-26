@@ -62,7 +62,8 @@ ovvero abbiamo scomposto l errore atteso in 3 componenti:
 
 
 
-#### **Regolarizzazione e Trade-off Bias-Varianza**
+#### Regolarizzazione e Trade-off Bias-Varianza
+Assumendo la regolarizzazione $L_2$ con il termine di regolarizazione pesato da $\lambda$ si ha che:
 1. Aumentare il parametro $\lambda$ (più regolarizzazione):
    - Riduce la complessità del modello.
    - **Alto bias**, **bassa varianza**.

@@ -20,7 +20,6 @@ tags:
 2. Teoria
 	1. [[Overfitting e Underfitting]]
 	2. [[Statistical Learning Theory (SLT)]]
-		1. [[VC-Dimension]]
 	3. [[Inductive Bias]]
 	4. [[Bias Induttivo]]
 	5. [[Bias-Variance Decomposition]]
@@ -43,7 +42,7 @@ tags:
 7. [[Rete di Percetroni]]
 8. [[Reti neurali Feed-Forward (FF)]]
 9. [[BackPropagation]]
-10. [[Euristiche per il gli algoritmi di learning delle rete neurali]]
+10. [[Euristiche per il gli algoritmi di learning su reti neurali]]
 11. [[Reti neurali - Autoencoders]]
 12. [[Reti neurali - Autoassociatore]]
 13. [[Funzioni di attivazione]]

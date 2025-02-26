@@ -7,7 +7,7 @@ Area:
 topic: 
 SubTopic:
 ---
-# Euristiche per il gli algoritmi di learning delle rete neurali
+# Euristiche per il gli algoritmi di learning su reti neurali
 ---
 
 Le reti neurali rappresentano un paradigma flessibile e potente nell'ambito dell'apprendimento automatico. Estendono i metodi lineari, permettendo l'approssimazione di funzioni arbitrarie, incluse quelle non lineari. Nel corso del documento, si esplorano i principi fondamentali dell'addestramento, le sfide comuni e le soluzioni pratiche.
@@ -58,7 +58,7 @@ Un approccio alternativo è l'__early stopping__, che utilizza un set di validaz
 La scelta del numero di unità nascoste è critica per bilanciare underfitting e overfitting. Una rete con troppe poche unità non riesce a catturare la complessità dei dati, mentre una rete con troppe unità rischia di adattarsi eccessivamente.
 
 Due approcci principali guidano la configurazione:
-1. __Costruttivi__: partono con una rete minima, aggiungendo unità durante l'addestramento quando necessario. Un esempio è l'algoritmo __Cascade Correlation__, che aggiunge unità in modo incrementale fino a ridurre sufficientemente l'errore.
+1. __Costruttivi__: partono con una rete minima, aggiungendo unità durante l'addestramento quando necessario. Un esempio è l'algoritmo __[[Reti neurali approccio costruttivo Cascade Correlation|Cascade Correlation]]__, che aggiunge unità in modo incrementale fino a ridurre sufficientemente l'errore.
 2. __Pruning__: iniziano con una rete grande, eliminando progressivamente unità o connessioni non necessarie.
 
 ---

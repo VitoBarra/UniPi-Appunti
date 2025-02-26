@@ -43,5 +43,5 @@ ovvero si genera una sola combinazione degli elementi e poi li si _permuta_
 
 ##### Disposizione con ripetizioni
 _Siano_ $k$ ed $n$ due interi
-_allora_ il numero di [[Applicazioni tra insiemi|applicazioni]] di $\{1,\dots,k\}$ a $\{ 1,\dots,n \}$ è $$n^{k}$$ovvero il numero di modi in cui possiamo _scrivere_ $n$caratteri in $k$ _spazzi_ senza nessun costrizione su quali e quanti caratteri usare.
+_allora_ il numero di [[Applicazioni tra insiemi|applicazioni]] di $\{1,\dots,k\}$ a $\{ 1,\dots,n \}$ è $$n^{k}$$ovvero il numero di modi in cui possiamo _scrivere_ $n$ caratteri in $k$ _spazzi_ senza nessun costrizione su quali e quanti caratteri usare.
 
