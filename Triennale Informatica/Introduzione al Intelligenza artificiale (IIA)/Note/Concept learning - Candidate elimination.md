@@ -5,35 +5,12 @@ tags:
   - IA
 ---
 
-# Candidate elimination
+# Concept learning - Candidate elimination
 ---
-_Candidate elimination_ e' un algoritmo per [[Concetti generali del Machine Learning|Machine learning ]] per il [[Concept Learning|Concept learning]]
+il __Candidate elimination__ è un [[Algoritmi di learning supervisionato|algoritmo supervisionato]] per [[Concetti generali del Machine Learning|Machine learning ]] per il [[Concept Learning|Concept learning]] per la ricerca del __version space__.
+Sfrutta il teorema di bound del __version space__ crearlo __iterativamente__ .
 
-## Definizioni
-- _Version Space_: $VS_{H,D}$ in accordo con lo spazio delle ipotesi $H$ è il training set D,  è il sotto [[Insiemi Matematici|insieme]] di ipotesi consistenti con tutte i dati di training $$VS_{H,D} = \{h\in H | consistent(h,D)\}$$
-- dove per definire $consistent$ si utilizza al definizione di consistenza ![[Concept Learning#Definizione di consistenza]]
- 
-### Algoritmi per calcolo di Version space
-#### lista e elimina
-1. VersionSpace $\leftarrow$ lista di tutte le possibili ipotesi
-2. __per ogni__ training example $<x,c(x)>$
-	1. Rimuovi da VersionSpace ogni ipotesi inconsistente 
-3. output di VersionSpace
-
-questo algoritmo è irrealistico, richiederebbe di enumerare tutte le ipotesi 
-
-
-
-## Rappresentazione del Version Spaces
-- _general boundary_: denominato _G_ è l insieme degli elementi massimamente generalizzati delle ipotesi $H$ consistenti con i training data $D$
-- _Specific boundary_: denominato _S_ è l insieme degli elementi più specifici delle ipotesi $H$ consistenti con i training data $D$
-
-#### Teorema
-ogni membro del _version space_ si trova tra _G_ e _S_
-$$VS_{H,D}= \{h\in H|(\exists s \in S)(\exists g \in G)(g \geq h \geq s)\}$$
-
-
-## Algoritmo del eliminazione dei candidati 
+## Algoritmo Candidate elimination
 1. $G \leftarrow$ ipotesi più generale in $H$
 2. $S \leftarrow$ ipotesi più specifica in $H$
 3. __per ogni__ training example $d$ 
@@ -57,3 +34,13 @@ $$VS_{H,D}= \{h\in H|(\exists s \in S)(\exists g \in G)(g \geq h \geq s)\}$$
 				- alcuni membri di $S$ siano _più specifici_ di $h$
 			3. rimuovi da $G$ tutte le ipotesi che sono _meno_ generali di un altra ipotesi in $G$
 				- da capire come confrontarle
+
+
+
+### proprieta
+Il __Version Space__ trovato convergerà verso l'ipotesi che descrive correttamente il concetto target solo se:  
+1. non ci sono errori negli esempi di addestramento  
+2. esiste un'ipotesi $h\in H$ che descrive correttamente il concetto target.  
+
+Se il Version Space converge a un'ipotesi significa che G e S convergono entrambe alla stessa ipotesi.  
+Se ci sono errori negli esempi di addestramento, il Version Space sarà vuoto.  

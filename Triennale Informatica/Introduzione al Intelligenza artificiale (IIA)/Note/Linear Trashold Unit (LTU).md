@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Linear Trashold Unit (LTU)
 ---
-Il [[Modelli lineari con LMS|modello lineare]] anche  puo essere usato per la __[[Algoritmi di apprendimento supervisionato|classificazione]]__ utilizzando l ipotesi  $h(\mathbf{w})=\mathbf{w}^T \boldsymbol x$
+Il [[Modelli lineari con LMS|modello lineare]] anche  puo essere usato per la __[[Algoritmi di learning supervisionato|classificazione]]__ utilizzando l ipotesi  $h(\mathbf{w})=\mathbf{w}^T \boldsymbol x$
 
 ### Classificazione Binaria
 Geometricamente possiamo vedere la classificazione come un _Iperpiano_

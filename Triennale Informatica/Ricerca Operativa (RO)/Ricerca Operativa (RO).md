@@ -31,7 +31,7 @@ tags:
 		2. [[Algoritmo dei cammini minimi successivi]]
 		3. [[Problemi riducibili al problema di flusso di costo minimo]]
 3. [[Programmazione lineare ]]
-	1. [[Formulazione problema di programmazione di lineare]]
+	1. [[Problemi di ottimizzazione]]
 	2. [[Insiemi di Livello]]
 	3. Geometria
 		1. [[Convessità]]

@@ -96,7 +96,7 @@ per risolvere questo problema si usa l euristica del
 - puo terminare prima, accetta classi perturbate 
 
 
-## [[Inductive Bias|Inductive Bias]] per DT
+## bias per DT
 1. si preferiscono alberi corti rispetto a quelli lunghi
 	1. dato dal fatto di andare da un caso semplice ad uno complesso 
 	2. _non basta_  questo bias  è lo stesso di una semplice [[Ricerca in ampiezza BF|breath first ]] che esplora tutto l albero e sceglie il percorso piu corto

@@ -8,7 +8,7 @@ tags:
 
 # K-Nearest Neighbor (K-NN)
 ---
-il $K$-Nearest Neighbor è un algoritmo di __[[Algoritmi di Apprendimento NON supervisionato|learning supervisionato]]__ __[[Modelli Instance-Based|instance-base]]__.  
+il $K$-Nearest Neighbor è un algoritmo di __[[Algoritmi di learning NON supervisionato|learning supervisionato]]__ __[[Modelli Instance-Based|instance-base]]__.  
 Questo algoritmo si utilizza principalmente per la classificazione e si basa sul idea  che i nuovi punti siano simili a quelli "vicini".
 
 Per valutare quando due punti siano vicini si utilizzano delle metriche una ad esempio è la __[[Distanza euclidea|distanza euclidea]]__ 
@@ -37,7 +37,7 @@ con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[Overfitting e 
 Questo algoritmo utilizza implicitamente i [[Diagramma di voronoi|diagrammi di voronoi]].
 
 
-Per fare [[Algoritmi di apprendimento supervisionato|classificazione]] multi class invece si utilizza lo stesso algoritmo ma se ne cambia l output. Infatti si ha che ritorna la classe più comune tara i suoi $K$ Vicini$$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i}$$dove $$\mathbf{1}_{v,y_i}=
+Per fare [[Algoritmi di learning supervisionato|classificazione]] multi class invece si utilizza lo stesso algoritmo ma se ne cambia l output. Infatti si ha che ritorna la classe più comune tara i suoi $K$ Vicini$$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i}$$dove $$\mathbf{1}_{v,y_i}=
 \begin{cases}
 1 & if & v=y_i \\
 0 & &\text{otherwise} 
@@ -46,7 +46,7 @@ $$ una variante di questo dove pero si da più peso a i punti più vicini e meno
 
 
 
-Per fare [[Algoritmi di apprendimento supervisionato|regressione]] invece lo stesso algoritmo ma come output direttamente la media delle posizioni dei vicini.
+Per fare [[Algoritmi di learning supervisionato|regressione]] invece lo stesso algoritmo ma come output direttamente la media delle posizioni dei vicini.
 
 
 

@@ -8,7 +8,7 @@ tags:
 \# Modelli lineari con LMS
 ---
 il __modello lineare__ e' un [[Modelli Parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
-Viene generato con algoritmi di [[Algoritmi di apprendimento supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
+Viene generato con algoritmi di [[Algoritmi di learning supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
 
 Per __modello lineare__ si intende [[Equazioni Lineari e Lineari omogenee|lineare]] nei parametri e non nel input. 
 
@@ -20,14 +20,14 @@ __Sia__
 - $w_0,w_1 \in \mathbb{R}$ parametri del modello, detti pesi
 __allora__ il __modello lineare__ è definito dalla [[Funzioni|funzione]] che rappresenta una [[Retta|retta]]  
 $$y = h_w(x)= w_1x+w_0$$
-Questo __modello__ ha uno [[Algoritmi di apprendimento supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
+Questo __modello__ ha uno [[Algoritmi di learning supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
 
 Vogliamo cercare l'ipotesi che riesce ad approssimare meglio i dati che si hanno e per fare ciò dobbiamo variare i pesi $w_0,w_1$.
 
 dal punti di vista geometrico stiamo facendo __fitting__ dei dati con una retta
 ![[66B83102-B04B-45D8-805A-4445087275B3.jpeg]]
 
-l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello è definito come minimizzazione di una certa [[Algoritmi di apprendimento supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
+l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello è definito come minimizzazione di una certa [[Algoritmi di learning supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
 l'algoritmo segue quindi come: 
 __Sia__
 - $TR$ un __Training Set__  di $\ell$  esempi 
@@ -85,7 +85,7 @@ In generale immaginarlo per $n>2$ è difficile ma il concetto di intersezione pe
 
 
 
-l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello come per la versione con una variabile è definito come minimizzazione di una certa [[Algoritmi di apprendimento supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
+l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello come per la versione con una variabile è definito come minimizzazione di una certa [[Algoritmi di learning supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
 l'algoritmo segue quindi come: 
 __Sia__
 - $TR$ un __Training Set__  di $\ell$  esempi 

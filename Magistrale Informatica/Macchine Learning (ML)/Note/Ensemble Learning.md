@@ -13,7 +13,7 @@ l __Ensemble Learning__ migliora le prestazioni combinando più [[Algoritmi di M
 ![[Pasted image 20250203185316.png]]
 per fare ciò sono due strategie principali
 
-###  Bagging (*b*ootsrap *agg*regat*ing*)
+###  Bagging (bootsrap aggregating)
  - Addestra $K$ classificatori su sottoinsiemi bootstrap del dataset.
  - Riduce la varianza mediando $h(x)$.
 

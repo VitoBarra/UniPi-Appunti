@@ -3,79 +3,57 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
+  - ML
 ---
 
 # Concept Learning
 ---
-L’ apprendimento di _concetti_ è formalizzato come 
-- miglioramento sul _task_ $T$
-- guardando la _performance_ $P$
-- basato sul _esperienza_ $E$
+Il __Concept Learning__ è un campo del [[Machine Learning (ML)|machine learning]] dove si usa il [[Algoritmi di learning supervisionato|learning supervisionato]] per scegliere un __ipotesi__ per fare __classificazione__ di un [[Logica proposizionale|input booleano]] con $t$ o $f$  
 
+Formalmente abbiamo un __[[Insiemi Matematici|insieme]] di dati__ di training $TR$  per la classificazione definito come coppie $(x, y(x))$ dove $x \in X$ ovvero lo lo __spazio delle istanze__ è $y(x): X \rightarrow \{t,f\}$ ovvero una [[Funzioni|funzione]] booleana.
+Si ricerca un ipotesi $h \in \mathcal{H}$ con $\mathcal{H}$ lo spazio delle __funzioni booleane__ tale che $$h(x)=y(x) \ \forall x \in TR \implies h(x) = y(x) \ \forall x \in X$$
+alcune terminologie sono
+- Un’__ipotesi__ $h(x)$ si dice che __soddisfa__ un'istanza $x$ se restituisce il valore $1$, ovvero se $h(x) = 1$.  
+- Un'ipotesi $h \in \mathcal{H}$ si dice __consistente__ con il training set $(\mathbf{x_i},y(\mathbf{x_i}))\in TR$ se $h(\mathbf{x_i})=y(\mathbf{x_i}) \forall i$ 
 
-Si tratta di  
-
-
-## Definizioni
-
-#### Concept learning
-_Concept Learning_: capacita di inferire una funzione _booleana_ da esempi negativi e positivi. 
-#### dati d Esempio per la Classificazione
-- definitivo come $<input,output> \rightarrow <x,c(x)>$ 
-	- dove $c(x)$ è una funzione booleana che va da $X \rightarrow \{t,f\}$
-		- $X$ è lo spazio delle istanze
-	- è un caso specifico di $<x,d>$
-#### Soddisfa
-- una _Ipotesi_ $h(x)$ si diche che _soddisfa_ $x$ se $h(x)=1$
-
-
-#### Consistenza del ipotesi
-- Un _ipotesi_ h(x) è consistente con
-	- _un esempio_  se $h(x) =c(x)$
-	-  con un insieme di dati $D$ se lo è per tutti  i dati d esempio in $D$
-
-
+##### Dimensione dello spazio delle ipotesi
 
 ![[004017FB-293F-4B89-9116-D53645BD3CB0.jpeg]]
+la cardinalità dello spazio delle ipotesi $\mathcal{H}$ che rappresenta le __funzione booleana__ è  $|\mathcal{H}| = 2^{|X|}= 2^{(2^{n})}$ con $n$ il numero di input.
 
-- in generale la cardinalità di $|H| = 2^{\#\text{-instances}}= 2^{2^{n}}$ per input binari $n =$ _input dimension_
-
-
-
-Per avere una ricerca efficiente  si restringe lo spazio delle ipotesi ad una sotto insieme molto più piccolo dello spazio delle soluzioni. si aggiunge quindi un _[[Bias Induttivo|Bias]]_ che fare questa restrizione.
-alcuni esempi di queste restrizioni sono 
-- Le funzioni in forma [[Forma normale congiuntiva (CNF)|congiuntiva]] usati nel [[Concept learning - Candidate elimination|candidate elimination]] e nel [[Concept learning - Find-S|Find-S]]
-- le espressioni lineari com[[Modelli lineari con LMS|modello lineare]]eare]]
-
-
-Parlando del caso delle regolo congiuntive la cardinalita dello spzio delle ipotesi $H$ è
-- con solo _letterali positivi_:  $|H|= 2^n$
-- includendo i letterali negati $|H| = 3^n+1$
-
-
-### Ipotesi di apprendimento induttivo
-assunzione che si fa.
-- ogni ipotesi $H$ che approssima la funzione _target_ sui dati di training approssimerà anche i valori della funzione _target_ su dati non ancora visti.
-
-quindi si ha che 
-- $h(x)=c(x)$ for all $x \in D$ (ovvero è _consistente_ con $D$) $\implies$
-- $h(x) = c(x)$ for all $x \in X$ 
-
-
-##### Definizione di consistenza
-dato 
-- $D$ un insieme di dati di esempi
-- dove $c : X \rightarrow \{0,1\}$ è una funzione
-si dice consistente 
-$$Consistent(h,D):= \forall <\boldsymbol x,c(\boldsymbol x)> \in D \ \ \ .   h(\boldsymbol x)=c(\boldsymbol x)$$  
-
-### Ordine parziale Dal genere al allo specifico 
-dato una ipotesi $h_j$ è un altra ipotesi $h_k$ definite su $X$. allora $h_j$ è _piu generale o uguale_ di $h_k$  $\iff \forall x \in X : [(h_k(x)=1) \rightarrow (h_j(x)=1)]$
-- le relazione $\geq$ impone un [[Ordinamenti|oridnamento parziale]] sullo spazio delle ipotesi 
-- possiamo utilizzare questo ordinamento per realizzare algoritmi più efficienti. 
- 
+questo numero puo essere ridotto introducendo un [[Algoritmi di Machine Learning|bias di linguaggio]] ricercando le ipotesi $h$ che sono nella  [[Forma normale congiuntiva (CNF)|forma normale congiuntiva]] la cardinalità dello spazio delle ipotesi $\mathcal{H}$ è
+- con solo _letterali positivi_:  $|\mathcal{H}|= 2^n$
+- includendo i letterali negati $|\mathcal{H}| = 3^n+1$
+che è molto meno di $|\mathcal{H}| = 2^{2^{n}}$
 
 
 
+### Ordine parziale dal spazio delle ipotesi 
+si puo definire un [[Ordinamenti|oridnamento parziale]] sullo spazio del ipotesi delle funzioni booleane $\mathcal{H}$  questo è indicato con $\leq$ o $\geq$ è letto come __meno generale__ o __piu generale__.
+
+l ordinamento è definito come segue:
+prese $h_i, h_j \in \mathcal{H}$  due ipotesi definite sullo spazio delle instanze $X$
+__allora__ $$h_i \geq h_j  \iff \forall x \in X : \ h_j(x)=t \implies h_i(x)=t$$
+
+### Version Space  
+__Version Space__ $VS_{\mathcal{H},TR}$ è il [[Insiemi Matematici|sottoinsieme]] delle __ipotesi__ $h$ che sono __consistenti__ con tutti gli esempi presenti nel training set $TR$.  
+
+per trovare il __Version Space__ si possono analizzare tutte __ipotesi consistenti__ con una ricerca esaustiva (quindi molto costoso) elencando tutte le possibili ipotesi e eliminando quello __non consistenti__, questo algoritmo è chiamato __lista ed elimina__.
+Questo pero è applicabile solo se  $\mathcal{H}$ è __finito e piccolo__ cosa non realistica.
+Un modo più efficiente nello spazio di ipotesi predefinito con algoritmi più intelligenti, ad esempio l' algoritmo [[Concept learning - Candidate elimination|Candidate elimination]].  
 
 
+utilizzando l __ordinamento parziale delle ipotesi__ si possono definire dei limiti del __Version Space__ che sono:  
+- General Boundary __G__:  le ipotesi __più generali__ e  __consistenti__ con i dati (con poche restrizioni) 
+- Specific Boundary __S__: le ipotesi __più specifiche__ (meno generali) e __consistenti__ con i dati  
+abbiamo che ogni membro del ___version space___ si trova tra __G__ e __S__$$VS_{\mathcal{H},TR}= \{h\in \mathcal{H}\mid (\exists s \in S)(\exists g \in G).(s \leq h \leq g)\}$$
+
+### Teorema: Unbiased learner  
+Un __unbiased learner__ non è in grado di generalizzare su nuove istanze.  
+
+Dimostrazione:  
+Ogni istanza non osservata sarà classificata come $t$ dalla metà delle ipotesi $h \in VS$ e come $f$ dall'altra metà.  
+Infatti:  
+$\forall h$ __consistente__ con $TR$, $\exists h'$ __consistente__ con $TR$  e quindi  $h,h'\in VS_{\mathcal{H},TR}$ per cui vale che $h'(x_{i})\neq h(x_{i})$ con $x_i \in X \ x_i \not \in TR$ 
+
+entrambi $h,h'$ sono ipotesi valide che danno risultati diversi e si ha che in generale ogni __istanza non osservata__ verrà classificata come $t$ da precisamente meta delle ipotesi mentre l altra meta la classificherà come $f$. 

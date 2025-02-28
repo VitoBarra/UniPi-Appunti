@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Reti Neurali Convoluzionali (CNN)
 ---
-Le **reti neurali convoluzionali (CNN)** sono un [[Modelli Parametrici|modello parametrico]] dell paradigma delle [[Reti Neurali (NN)|reti neurali]] allenate con [[Algoritmi di apprendimento supervisionato|algoritmi di apprendimento supervisionato]] particolarmente efficace per il riconoscimento di immagini e pattern, sono considerate come una generalizazione delle [[Input delay neural network (IDNN)|IDNN]] in 2D.
+Le **reti neurali convoluzionali (CNN)** sono un [[Modelli Parametrici|modello parametrico]] dell paradigma delle [[Reti Neurali (NN)|reti neurali]] allenate con [[Algoritmi di learning supervisionato|algoritmi di apprendimento supervisionato]] particolarmente efficace per il riconoscimento di immagini e pattern, sono considerate come una generalizazione delle [[Input delay neural network (IDNN)|IDNN]] in 2D.
 
 Si basano su tre principi chiave:
 1. **Connessioni locali**: ogni neurone è connesso solo a una regione ristretta dell'input, riducendo la complessità computazionale.

@@ -41,10 +41,10 @@ Per sfruttare al meglio questa proprietà sono state sviluppate alcune tecniche 
 
 ##### Pre-Training
 un esempio di __pretraining layer-wise__ è il seguente algoritmo:
-1. Allena il primo strato per essere un [[Reti neurali - Autoassociatore|autoassociatore]] e quindi per minimizzare l'errore di ricostruzione dell'input, questo si fa in modo [[Algoritmi di Apprendimento NON supervisionato|non supervisionato]] 
+1. Allena il primo strato per essere un [[Reti neurali - Autoassociatore|autoassociatore]] e quindi per minimizzare l'errore di ricostruzione dell'input, questo si fa in modo [[Algoritmi di learning NON supervisionato|non supervisionato]] 
 2. Gli output delle unità nascoste dell'autoassociatore vengono ora utilizzati come input per un altro strato, anch'esso addestrato come autoassociatore.  
 3. Ripeti il processo descritto nel punto (2) fino a raggiungere il numero desiderato di strati. 
-4. Usa l'output dell'ultimo strato nascosto come input per uno strato [[Algoritmi di apprendimento supervisionato|supervisionato]] e inizializza i suoi parametri mantenendo il resto della rete fissa
+4. Usa l'output dell'ultimo strato nascosto come input per uno strato [[Algoritmi di learning supervisionato|supervisionato]] e inizializza i suoi parametri mantenendo il resto della rete fissa
 5. Affina tutti i parametri di questa architettura profonda rispetto al criterio supervisionato.  
 ![[Pasted image 20250206182240.png]]
 

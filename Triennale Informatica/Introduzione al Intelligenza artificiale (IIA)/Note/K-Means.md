@@ -7,7 +7,7 @@ tags:
 ---
 # K-Means
 ---
-il __$k$-Means__ è un [[Algoritmi di Apprendimento NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]] 
+il __$k$-Means__ è un [[Algoritmi di learning NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]] 
 
 il __$k$-Means__ per fare [[Data analisys - Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]], si usa quindi la definizione del problema ![[Data analisys - Clustering#Clustering tramite quantizzazione di vettori]]
 [[Derivate|Derivando]] la funzione di loss si può ottenere ottenere la regola di aggiornamento come $$\Delta \mathbf{w}_{i^*} = \eta \delta_{winner} (i,i^*)(x_i-w_{i^*}) $$ e questa regola costituisce la versione __[[Tecnica di ottimizzazione Gradient Descent|online]]__ del __$k$-mean__

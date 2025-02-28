@@ -10,13 +10,11 @@ tags:
 # Statistical Learning Theory (SLT)
 ---
 La __Statistical Learning Theory__ (__SLT__) fornisce un approccio teorico per analizzare la capacita di generalizzare di un [[Modelli di dati|modello di macchine learning]] per fare ciò  si cerca di capire come bilanciare __l'errore sui dati di training__ $R_{emp}$ con la __complessità del modello__ in modo da ridurre l [[Overfitting e Underfitting|overfitting]]
-I concetti chiave includono la __dimensione VC__ e la __Minimizzazione del Rischio Strutturale (SRM)__, che offrono un quadro per selezionare modelli in modo rigoroso.
-
-
+I concetti chiave includono la __VC-dimension__ e la __Minimizzazione del Rischio Strutturale (SRM)__, che offrono un quadro per selezionare modelli in modo rigoroso.
 
 
 ### Shattering
-lo __shattering__ descrive la capacità di una uno spazio di ipotesi $\mathcal{H}$ di rappresentare tutte le possibili __etichettature__ di un __insieme di punti__ senza errori:
+lo __Shattering__ descrive la capacità di una uno spazio di ipotesi $\mathcal{H}$ di rappresentare tutte le possibili __etichettature__ di un __insieme di punti__ senza errori:
 
 formalmente sia che preso $X$ un insieme di punti a cui si possono associare label arbitrarie 
 __allora__ Un'ipotesi $\mathcal{H}$ __"shattera"__ se può __rappresentare__ tutte le possibili __etichettature__ dei punti in $X$

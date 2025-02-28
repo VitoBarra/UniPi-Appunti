@@ -3,6 +3,8 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
+  - ML
+SubTopic:
 ---
 
 # Find-S
