@@ -7,5 +7,5 @@ tags:
   - FDI
 ---
 
-# Problema della Soddisfacibilita (SAT)
+# Problema della Sodisfacibilita (SAT)
 ---

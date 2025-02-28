@@ -28,7 +28,7 @@ tags:
 9. [[Logica proposizionale]]
 	1. [[Operazioni logiche]]
 	2. [[Calcolo proposizionale (PROP)]]
-	3. [[Problema della Soddisfacibilita (SAT)]]
+	3. [[Problema della Sodisfacibilita (SAT)]]
 	4. [[Forma normale congiuntiva (CNF)]]
 	5. [[Forma normale disgiuntiva (DNF)]]
 10. [[Logica del primo ordine (FOL)]]

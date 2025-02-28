@@ -7,7 +7,7 @@ tags:
 
 # Algoritmo DPLL per SAT
 ---
-una algoritmo per fare [[Problema della Soddisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Base di conoscenza (KB)#Conseguenza logica| conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]
+una algoritmo per fare [[Problema della Sodisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Base di conoscenza (KB)#Conseguenza logica| conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]
 
 ## Eurisitche utilizate
 

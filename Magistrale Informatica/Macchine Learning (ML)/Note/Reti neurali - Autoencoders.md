@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Reti neurali - Autoencoders
 ---
-Gli __autoencoders__ sono sono delle [[Reti Neurali (NN)|reti neurali]] addestrate per riprodurre il proprio input in uscita. È composto da:
+Gli __autoencoders__ sono sono delle [[Reti Neurali (NN)|reti neurali]] allenate in [[Algoritmi di learning supervisionato|modo supervisionato]]  per riprodurre il proprio input su proprio output. È composto da:
 - __Encoder__: trasforma l'input in una rappresentazione più compatta.
 - __Decoder__: riconverte la rappresentazione compatta nel dato originale.
 e può essere vista come una semplice [[Funzioni|funzione composta]] infatti prendendo $h$ come la funzione di __encoding__ e $f$ come funzione di __deconding__ abbiamo che un auto encoder fa l operazione $$r=f(g(x))$$ e si cerca di minimizzare l errore tra $r$ e $x$

@@ -61,7 +61,7 @@ tags:
 	3. [[RNN - Transformer]] 
 17. [[Reti neurali random (RandNN)]]
 18. [[RandRNN - Reservoir Computing]] 
-	1. [[Reservoir Computing - Echo State Machine]] 
+	1. [[Reservoir Computing - Echo State Machine (ESN)]] 
 	2. [[Reservoir Computing - Liquid State Machine]] (extra)
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 19. [[Recurrent neural network (RecNN)]]

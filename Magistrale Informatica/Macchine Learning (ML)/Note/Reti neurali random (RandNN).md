@@ -15,8 +15,7 @@ Allo scopo di efficentare il training tramite [[BackPropagation|BackPropagation]
 - **Reti a Funzione Radiale (RBF) con centri random**
 ![[Pasted image 20250207221310.png]]
 
-
-L architettura generale degli approccio randomizati prevedono due parti un primo insieme di __hidden layer__ che vengono inizializzatati casualmente e e non allenati e un secondo detto __read out__ che invece viene alleanto
+L' architettura generale degli approccio randomizati prevedono due parti un primo insieme di __hidden layer__ che vengono inizializzatati casualmente e e non allenati e un secondo detto __read out__ che invece viene allenato
 ![[Pasted image 20250207214659.png]]
 La parte __non trainata__ proietta l' input in uno spazio a più altra dimensionalità ovvero implementa una [[Linear Basis Expansion (LBE)|Large Basis Expansion (LBE)]] __NON__ lineare  e dal __[[Teorema di copertura (Cover Theorem)|Teorema di Copertura]]__ sappiamo che questo rende il problema probabilmente [[Linearmente Separabili|linearmente separabile]].
 il __read out__ impara a leggere le [[Rappresentazione simbolica e distribuita dei concetti|feature]] progliettare dagli hidden layer per poterle usare per il task specifico per cui è stato allenato.
@@ -34,7 +33,7 @@ Questo tipo di approccio è __estremamente efficiente__, Adatto a Big Data e dis
 #### Applicazione in altri contesti
 alcuni altri __approccio randomizzati__: 
 - __[[Deep Learning|Deep]] Randomized NN__: stack di moduli RVFL/ELM per il deep learning
-- [[Reti Neurali Ricorrenti (RNN)|Reti ricorrenti]] randomizzate ([[RandRNN - Reservoir Computing|Reservoir Computing]] / [[Reservoir Computing - Echo State Machine|ESN]]), particolarmente utili per il trattamento di serie temporali.
+- [[Reti Neurali Ricorrenti (RNN)|Reti ricorrenti]] randomizzate ([[RandRNN - Reservoir Computing|Reservoir Computing]] / [[Reservoir Computing - Echo State Machine (ESN)|ESN]]), particolarmente utili per il trattamento di serie temporali.
 - __[[Reti Neurali Convoluzionali (CNN)|CNN]] randomizzate__
 
 

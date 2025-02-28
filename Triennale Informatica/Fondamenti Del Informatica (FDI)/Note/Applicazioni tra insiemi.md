@@ -23,7 +23,7 @@ ad ogni elemento del dominio è associato almeno un elemento del _codominio_
 
 #####  Surgettiva
 ad ogni elemento del _Codominio_ è associato _almeno_ e del _dominio_
-![[01B1AF8A-6AD6-4FCC-8CB9-570EFCE0A908.png]]
+![[Visualizazione funzione Surgettiva.png]]
 
 ##### Iniettiva
 è una Funzioni che associa, a elementi distinti del dominio, elementi distinti del Codominio 
