@@ -8,8 +8,8 @@ tags:
 
 ## Course MOC  📒
 1. [[Strutture Dati]]
-	1. [[Struttura dati - Grafo]]
-	2. [[Struttura dati - Albero]]
+	1. [[Struttura dati - Grafi]]
+	2. [[Struttura dati - Alberi]]
 		1. [[Struttura dati -  ABR]]
 		2. [[Struttura dati - A-B Alberi]]
 			1. [[Struttura dati - B-Tree]]

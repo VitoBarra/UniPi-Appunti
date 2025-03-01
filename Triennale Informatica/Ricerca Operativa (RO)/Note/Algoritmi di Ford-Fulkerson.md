@@ -10,7 +10,7 @@ topic:
 ---
 
 ### *Teorema*
-Se le capacita degli archi di un [[Struttura dati - Grafo|grafo]] sono intere, allora l [[Algoritmi|algoritmo]] di Ford-Fulkerson trova un flusso di valore massimo dopo un numero finito di iterazioni.
+Se le capacita degli archi di un [[Struttura dati - Grafi|grafo]] sono intere, allora l [[Algoritmi|algoritmo]] di Ford-Fulkerson trova un flusso di valore massimo dopo un numero finito di iterazioni.
 al ultima iterazione un taglio di capacita minima $(N_n,N_t)$ si può calcolare nel modo seguente:
 
 $N_s =\{i\in N \ |$  esiste in $G(x)$ un cammino orientato da $s$  a  $i\}$

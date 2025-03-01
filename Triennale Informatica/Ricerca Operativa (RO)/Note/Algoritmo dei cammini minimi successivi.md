@@ -12,7 +12,7 @@ topic: nota
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 9.png]]
 
 ### *Teorema*
-Se le capacita ed i bilanci  degli archi di un [[Struttura dati - Grafo|grafo]] sono numeri interi, allora l [[Algoritmi|algoritmo]] trova una soluzione ottima dopo un numero finito di iterazioni
+Se le capacita ed i bilanci  degli archi di un [[Struttura dati - Grafi|grafo]] sono numeri interi, allora l [[Algoritmi|algoritmo]] trova una soluzione ottima dopo un numero finito di iterazioni
 
 ### dimostrazione
 

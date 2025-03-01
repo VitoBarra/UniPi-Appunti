@@ -10,7 +10,7 @@ topic: nota
 ---
 
 ### *Teorema*
-L [[Algoritmi|algoritmo]] di Bellman-Ford trova un [[Albero di cammini minimi|albero dei cammini minimi]]  su di un [[Struttura dati - Grafo|grafo]] oppure un ciclo orientato di costo negativo dopo al più $|N|$ iterazioni anche in caso di archi negativi
+L [[Algoritmi|algoritmo]] di Bellman-Ford trova un [[Albero di cammini minimi|albero dei cammini minimi]]  su di un [[Struttura dati - Grafi|grafo]] oppure un ciclo orientato di costo negativo dopo al più $|N|$ iterazioni anche in caso di archi negativi
 
 ### dimostrazione
 

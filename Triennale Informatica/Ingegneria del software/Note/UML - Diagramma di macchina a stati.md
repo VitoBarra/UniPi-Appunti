@@ -13,7 +13,7 @@ Diagramma [[UML]] per rappresentare lo stato del sistema
 
 un diagramma a macchine a stati rappresenta il comportamento dinamici delle istanze di un classificatore ( es.oggetti istanza di una classe)
 
-questa è composta dai nodi stati e da archi che rappresentano una transazione di fatto è un [[Struttura dati - Grafo]]
+questa è composta dai nodi stati e da archi che rappresentano una transazione di fatto è un [[Struttura dati - Grafi]]
 
 #### Componenti
 1. _Stato_: 

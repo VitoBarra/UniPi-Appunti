@@ -6,5 +6,5 @@ tags:
 ---
 # ABR
 ---
-è un tipo d [[Struttura dati - Albero|Albero]]
+è un tipo d [[Struttura dati - Alberi|Albero]]
 ### Definizione

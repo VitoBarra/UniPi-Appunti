@@ -15,7 +15,7 @@ SubTopic:
  - il __test__ serve ad assicuraci che il modello sia in grado di generalizzare e avere delle risposte corrette anche su dati che non ha mai visto, viene usato per ottenere una stima delle performance su dati mai visti (__Model Assesment__)
 
 
-Gli __iperparametri__ sono dei parametri che definiscano architettura e caratteristeche di un [[Definizione di Modello di Machine Learning|modello di macchine learning]]. Bisogna stare  attendi a non confonderli con i parametri dei [[Modelli Parametrici|modelli parametrici]] che vengono imparati dal modello stesso infatti gli __iperparametri__ sono impostati da un utente.
+Gli __iperparametri__ sono dei parametri che definiscano architettura e caratteristeche di un [[Modelli di Machine Learning|modello di macchine learning]]. Bisogna stare  attendi a non confonderli con i parametri dei [[Modelli Parametrici|modelli parametrici]] che vengono imparati dal modello stesso infatti gli __iperparametri__ sono impostati da un utente.
 
 il __processo di validazione__ serve a fare __mode selection__ ovvero una buona scelta degli __iperparametri__ in base alle performance osservate variando gli __iperparametri__. Spesso varie configurazioni di iperparametri vengono scelti in modo sistematico impiegando delle [[Tecniche per la ricerca degli iperparametri|strategie di ricerca]]. 
 Per scegliere i range di ricerca degli __iperparametri__ non esiste nessuna teoria o regola e quindi si procede in base al esperienza.

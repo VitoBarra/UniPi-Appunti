@@ -8,4 +8,4 @@ topic:
 # Abstract Syntax Tree
 ---
 
-si basa su [[Struttura dati - Albero]]
+si basa su [[Struttura dati - Alberi]]

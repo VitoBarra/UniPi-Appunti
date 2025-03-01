@@ -47,6 +47,6 @@ Chi definisce una tabella o una [[SQL - DDL - Viste|VIEW]] ottiene automaticamen
 - Nel caso di viste, il "creatore" ha i privilegi che ha sulle tabelle usate nella definizione.
 
 
-i permessi posso essere espressi con un [[Struttura dati - Grafo|grafo]]
+i permessi posso essere espressi con un [[Struttura dati - Grafi|grafo]]
 ![[Pasted image 20240113020330.png]]
 Se un nodo N ha un arco uscente con un privilegio, allora esiste un cammino da SYSTEM a N con ogni arco etichettato dallo stesso privilegio

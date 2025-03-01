@@ -13,7 +13,7 @@ tags:
 		2. [[Algoritmi di learning NON supervisionato]]
 		3. [[Algoritmi di learning semi-supervisionato]]
 	2. [[Rappresentazione simbolica e distribuita dei concetti]]
-	3. [[Definizione di Modello di Machine Learning]]
+	3. [[Modelli di Machine Learning]]
 		1. [[Modelli Parametrici]]
 			1. [[Reti Neurali (NN)]]
 		2. [[Modelli di machine learning NON parametrici]]
@@ -61,11 +61,11 @@ tags:
 	3. [[RNN - Transformer]] 
 17. [[Reti neurali random (RandNN)]]
 18. [[RandRNN - Reservoir Computing]] 
-	1. [[Reservoir Computing - Echo State Machine (ESN)]] 
+	1. [[Reservoir Computing - Echo State Network (ESN)]] 
 	2. [[Reservoir Computing - Liquid State Machine]] (extra)
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 19. [[Recurrent neural network (RecNN)]]
-20. [[Learning in Domini strutturati (SDL)]]
+20. [[Structural Domain Learning (SDL)]]
 21. Clustering
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]

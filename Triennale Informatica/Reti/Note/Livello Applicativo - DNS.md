@@ -57,7 +57,7 @@ in questo modo si ha:
 - Distribuzione responsabilità della conversione tra nomi e indirizzi
 
 
-con questa struttura si genera una gerarchia ad [[Struttura dati - Albero|albero]] dove ogni nodo ha un etichetta di massimo 63 caratteri e la radice ha associata un etichetta vuota  
+con questa struttura si genera una gerarchia ad [[Struttura dati - Alberi|albero]] dove ogni nodo ha un etichetta di massimo 63 caratteri e la radice ha associata un etichetta vuota  
 ![[Pasted image 20230104174855.png]]
 - Il _Dominio_ è  il sotto albero etichettato dal _nome di dominio_ del nodo radice di quel sottoalbero
 - il _nome di dominio_: viene identificato concatenando divisi da un "." le etichette sul percorso dalla radice del albero al nodo radice del _dominio_    

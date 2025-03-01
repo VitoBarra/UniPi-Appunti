@@ -1,13 +1,14 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
-tags: RO
+tags:
+  - RO
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
 
 # Albero di copertura
 ---
+Un **albero di copertura** di un grafo connesso $G = (V, E)$ è un sottoinsieme $T \subseteq E$ tale che $T$ forma un albero che include tutti i vertici di $V$. Un albero di copertura può essere trovato con algoritmi come **Prim** e **Kruskal**.
 
-### Definizione
-dato un [[Struttura dati - Grafo|grafo]] $G = (V,E)$, un [[Struttura dati - Albero|albero]] di copertura di $G$ è un albero $T = (V,E')$ con $E' \subseteq E$
+dato un [[Struttura dati - Grafi|grafo]] $G = (V,E)$, un [[Struttura dati - Alberi|albero]] di copertura di $G$ è un albero $T = (V,E')$ con $E' \subseteq E$
+
+

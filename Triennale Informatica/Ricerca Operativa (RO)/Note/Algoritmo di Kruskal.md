@@ -40,4 +40,4 @@ le etichette sui nodi individuano le componetti connesse di $T$, cioè due nodi 
 
 
 >[!info] #### OSSERVAZIONE
->Ad ogni iterazione dell’ algoritmo di Kruskal l’ insieme $T$ non è necessariamente un [[Struttura dati - Albero|albero]]
+>Ad ogni iterazione dell’ algoritmo di Kruskal l’ insieme $T$ non è necessariamente un [[Struttura dati - Alberi|albero]]

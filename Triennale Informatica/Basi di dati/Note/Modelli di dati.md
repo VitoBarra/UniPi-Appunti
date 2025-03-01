@@ -4,8 +4,8 @@ topic: nota
 tags:
   - DB
 ---
-
 # Modelli di dati
+
 ---
 Un __modello dei dati__ è un _insieme di meccanismi_ di astrazione per definire un _database_, con associato un insieme predefinito di _operatori_ e di _vincoli d’integrità_. 
 

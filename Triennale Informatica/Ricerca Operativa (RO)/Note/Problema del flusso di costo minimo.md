@@ -13,7 +13,7 @@ topic: nota
 
 ### Variabili decisionali
 
-su un [[Struttura dati - Grafo|grafo]]  $G(N,A)$ per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
+su un [[Struttura dati - Grafi|grafo]]  $G(N,A)$ per ogni arco $(i,j) \in A$ definiamo $x_{ij}$= flusso sul arco $(i,j)$
 
 $$
 \begin{cases}
