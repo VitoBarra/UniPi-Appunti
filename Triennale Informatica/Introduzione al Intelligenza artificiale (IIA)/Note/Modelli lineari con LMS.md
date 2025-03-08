@@ -5,7 +5,7 @@ topic: nota
 tags:
   - IA
 ---
-\# Modelli lineari con LMS
+# Modelli lineari con LMS
 ---
 il __modello lineare__ e' un [[Modelli Parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di learning supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
@@ -63,28 +63,41 @@ $$\begin{array}{}
 $$
 intuitivamente questo procedimento è una _correzione degli errori_
 
-> [!info]- delta Rule (vai a capire perché è qui, probabilmente è sbagliata)
-> detta “_delta rule_” che cambia $w$ proporzionalmente al errore
->- $target - output =err =0$ nessuna correzione
->- $output>target (y-h)<0$ (outuput troppo alto)
->	- $\Delta w_0$ negativo __then__ riduci $w_0$
->	- __if__($input x>0$) $\Delta w_1$ negative __then__ reduce $w_1$
->	- __else__ incrementa $w_1$
->- $output>target \rightarrow (y-h)>0$
->	- sda
-
 ##  Modello lineare Multi-Variabili
 Per i modelli __lineari multi variati__ si ha che li input non è una singola variabile ma un [[Vettori|vettore]]  $\boldsymbol x \in \mathbb{R}^n$ il modello assegna ad ogni input un certo peso tramite in vettore $\mathbf{w} \in \mathbb{R}^n$ , per poter esprimere il bias $w_0$ per convenzione viene aggiunto un $1$ come primo elemento al vettore di input $\mathbf{x}$  ottenendo quindi:$$ \begin{flalign} 
 \mathbf{x}^T &= [1,x_1,\dots,x_n] \\
 \mathbf{w}^T &= [w_0,w_1,\dots,w_n]\\
 \mathbf{w}^T\mathbf{x} &= \mathbf{x}^T\mathbf{w}
 \end {flalign}$$
-in questo modo il modello è definito semplicemente dal [[Prodotto scalare euclideo (Dot product)|Dot product]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione geometrica è semplice è un piano che ne interseca un altro formando una retta ovvero l ipotesi $h_{\mathbf{w}}$ del modello lineare.
-![[B713A224-B169-4617-8A81-4FF5C80BA9CA.jpeg]]
+in questo modo il modello è definito semplicemente dal [[Prodotto scalare euclideo (Dot product)|Dot product]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione __geometrica__ è facilmente visualizabile infatti è un piano che ne interseca un altro formando è intersezione è una retta detta __decision surface__ che possiamo usare per costruire l ipotesi $h_{\mathbf{w}}$ del modello lineare. 
+![[modelli lineari - Decision surface.jpeg]]
+![[IMG - Modelli lineari - Classificazione.png]]
 In generale immaginarlo per $n>2$ è difficile ma il concetto di intersezione per generare una retta resta ma c è bisogno di usare gli iperpiani.
 
+##### Proprieta dei modelli lineari.
+Proprietà importanti dei __modelli lineari__ sono i seguenti :
+la distanza della __decision surface__ dell'origine dall'iperpiano è $\cfrac{w_{0}}{||\mathbf{w}||}$ e se vale che se: 
+- $w_{0}>0$ l'origine è nella parte positiva.
+- $w_{0}<0$ l'origine è nella parte positiva.
+- $w_{0} =0$ l'origine è appartenente alla __decision surface__.
+  
+__Scaling Freedom__: la __decision surface__ resta invariata moltiplicando $\mathbf{w}$ per un qualsiasi scalare $k$
+
+$\mathbf{w}$ è un __[[Vettori Ortogonali|vettore ortogonale]]__ alla __decision surface__: 
+Dimostrazione: Dato $x_a, x_b$ __appartenenti alla decision surface__  vale che  $$
+\mathbf{w}^T x_a + w_0 = 0
+= \mathbf{w}^T x_b + w_0 
+$$e __sottraendo le equazioni__ abbiamo che  $$
+\begin{array}{}
+\mathbf{w}^T x_a \cancel{ + w_0 }- \mathbf{w}^T x_b \cancel{ - w_0 }   & = & 0\\
+\mathbf{w}^T (x_a - x_b)  & = &  0
+\end{array}
+$$ siccome il [[prodotto scalare|prodotto scalare]] tra i due vettori è $0$ allora sono per definizione [[Vettori Ortogonali|ortogonali]].
 
 
+
+
+### Algoritmo di learning
 l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello come per la versione con una variabile è definito come minimizzazione di una certa [[Algoritmi di learning supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
 l'algoritmo segue quindi come: 
 __Sia__
@@ -143,7 +156,7 @@ Da cui si può derivare il seguente algoritmo di learning
 3. computa $\boldsymbol w_{new} = \boldsymbol w+\eta\Delta \boldsymbol w$  
 4. ripeti dal passo 2 finche $\boldsymbol w$ converge o $E(\boldsymbol w)$ è _sufficientemente piccolo_   
 
-il  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
+l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
 
 Plottando l'errore che cambia con le varie iterazioni possiamo osservare 3 tipi di curve principali dipendenti principalmente dal iperparamentro $\eta$
 ![[E09B2FF5-EA90-441A-ACFF-24A453C658DD.jpeg]]
@@ -151,6 +164,8 @@ si ha infatti che
 - con $\eta$ "giusto": si ottiene la __rossa__ dove c è una veloce convergenza e la curva è stabile
 - con $\eta$  troppo piccolo: si ottiene la curva __verde__ dove la convergenza è molto lenta
 - con $\eta$  troppo grande: si ottiene la curva __blu__ dove l'errore è instabile e non c è convergenza 
+ 
+
 
 
 ### limitazione del modello lineare
@@ -159,12 +174,12 @@ non riesce a gestire problemi più complessi che solitamente non hanno una natur
 per gestire questi casi si utilizzano espressioni con dei termini non lineari preservando per la _linearità_ dal modello. ci troviamo in una situazione di __underfittig__
 
 
-## Regolarizzazione
+##### Regolarizzazione
 per gestire il problema della troppa complessità si utilizzano dei metodi di regolarizzazione 
 
 il generale si segue il concetto che una funzione più semplici probabilmente è quella più adatta. un istanza del _[[rasoio di Occam|rasoio di Occam]]_
 
-### Tikhonov regulation (ridge regression)
+###### Tikhonov regulation (ridge regression)
 quindi si _penalizzano_ modelli molto complessi ridefinendo la funzione $loss$
 $$Loss(h_{\boldsymbol w}) = \sum^n_{p=1}(y-h_{\boldsymbol w}(\boldsymbol x))^2 + \lambda \|\boldsymbol w\|^2$$
 dove $\lambda$ è chiamato _coefficiente di regolarizzazione_

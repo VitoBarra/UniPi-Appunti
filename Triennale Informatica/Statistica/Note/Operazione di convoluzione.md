@@ -6,7 +6,7 @@ tags:
 ---
 # Operazione di convoluzione
 ---
-La __convoluzione__ è un'[[Operazioni algebriche|operazione matematica]] solitamente denotata con  $*$ e viene utilizzata in diversi ambiti, come nelle [[Reti Neurali Convoluzionali (CNN)|Reti Neurali Convoluzionali (CNN)]] che prendono il nome proprio da questa operazione e nell'_[[Immage Processing|image processing]]_, dove viene impiegata per il [[Filtering|filtraggio]] delle immagini.  
+La __convoluzione__ è un'[[Operazioni algebriche|operazione matematica]] solitamente denotata con  $*$ e viene utilizzata in diversi ambiti, come nelle [[Convolutional Neural Network  (CNN)|Convolutional Neural Network  (CNN)]] che prendono il nome proprio da questa operazione e nell'_[[Immage Processing|image processing]]_, dove viene impiegata per il [[Filtering|filtraggio]] delle immagini.  
 
 L'idea generale di questa operazione è quella di calcolare una media pesata di una funzione $f$ utilizzando i pesi definiti da un'altra funzione $g$. 
 Formalmente, la convoluzione discreta tra due funzioni $f$ e $g$  è definita come:  $$

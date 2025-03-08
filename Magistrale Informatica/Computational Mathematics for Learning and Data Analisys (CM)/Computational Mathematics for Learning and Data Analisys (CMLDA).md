@@ -8,6 +8,9 @@ tags:
 
 ## Course MOC  📒
 1. [[Quadratic optimization Problem]]
+2. [[Problemi di ottimizzazione convessi]]
+3. [[Metodo di ottimizzazione vincolata con moltiplicatori di Lagrange]]
+4. 
 
 
 

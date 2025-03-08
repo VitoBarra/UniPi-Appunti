@@ -3,8 +3,8 @@ Course: "[[3D Geometry for Modeling and Processing (3GMP)]]"
 tags:
   - 3GMP
 Area: 
-topic: "[[Reti Neurali Ricorrenti (RNN)]]"
-SubTopic:
+topic: "[[Recurrent Neural Network (RNN)]]"
+SubTopic: 
 ---
 
 # RNN - Transformer

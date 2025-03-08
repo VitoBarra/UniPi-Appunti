@@ -13,7 +13,7 @@ tags:
 
 
 
-è come i [[Reti Neurali Ricorrenti (RNN)|RNN]] ma ogni passaggio ha un suo peso specifico invece di ripetere sempre lo stesso peso.
+è come i [[Recurrent Neural Network (RNN)|RNN]] ma ogni passaggio ha un suo peso specifico invece di ripetere sempre lo stesso peso.
 quindi per $n$ dati su un input si usano $W_i$ da $i =1,\dots,n$ pesi diversi 
 
 

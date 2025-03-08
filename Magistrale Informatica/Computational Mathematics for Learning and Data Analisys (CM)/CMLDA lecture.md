@@ -1,3 +1,14 @@
+---
+Course: "[[Computational Mathematics for Learning and Data Analisys (CMLDA)]]"
+tags:
+  - "#CMLDA"
+Area: 
+topic: 
+SubTopic:
+---
+# CMLDA lecture
+---
+
 # 2024 - 09 - 19
 
 ci basiamo su [[Norme Matriciali e Norme Vettoriali|norme]] euclidee per i probleml perche sono generalmente piu facili

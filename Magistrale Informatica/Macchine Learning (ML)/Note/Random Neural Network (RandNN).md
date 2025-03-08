@@ -7,9 +7,9 @@ Area:
 topic: 
 SubTopic:
 ---
-# Reti neurali random (RandNN)
+# Random Neural Network (RandNN)
 ---
-Allo scopo di efficentare il training tramite [[BackPropagation|BackPropagation]] delle reti neurali sono stati provati approccio come le __Random Weight [[Reti Neurali (NN)|Neural Networks]] (RWNNs)__ si mantiene l' architetture [[Reti neurali Feed-Forward (FF)|MLP]]/[[Reti Neurali Ricorrenti (RNN)|RNN]] ma si avita il training inizializzando casualmente una parte della rete e allenando solo l ultimo layer
+Allo scopo di efficentare il training tramite [[BackPropagation|BackPropagation]] delle reti neurali sono stati provati approccio come le __Random Weight [[Reti Neurali (NN)|Neural Networks]] (RWNNs)__ si mantiene l' architetture [[Reti neurali Feed-Forward (FF)|MLP]]/[[Recurrent Neural Network (RNN)|RNN]] ma si avita il training inizializzando casualmente una parte della rete e allenando solo l ultimo layer
 - **Random Vector Functional Link (RVFL)**
 - **Extreme Learning Machine (ELM)**
 - **Reti a Funzione Radiale (RBF) con centri random**
@@ -33,8 +33,8 @@ Questo tipo di approccio è __estremamente efficiente__, Adatto a Big Data e dis
 #### Applicazione in altri contesti
 alcuni altri __approccio randomizzati__: 
 - __[[Deep Learning|Deep]] Randomized NN__: stack di moduli RVFL/ELM per il deep learning
-- [[Reti Neurali Ricorrenti (RNN)|Reti ricorrenti]] randomizzate ([[RandRNN - Reservoir Computing|Reservoir Computing]] / [[Reservoir Computing - Echo State Network (ESN)|ESN]]), particolarmente utili per il trattamento di serie temporali.
-- __[[Reti Neurali Convoluzionali (CNN)|CNN]] randomizzate__
+- [[Recurrent Neural Network (RNN)|Reti ricorrenti]] randomizzate ([[RandRNN - Reservoir Computing|Reservoir Computing]] / [[Reservoir Computing - Echo State Network (ESN)|ESN]]), particolarmente utili per il trattamento di serie temporali.
+- __[[Convolutional Neural Network  (CNN)|CNN]] randomizzate__
 
 
 

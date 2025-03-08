@@ -11,59 +11,95 @@ SubTopic:
 
 # Support Vector Machine (SVM)
 ---
-la __Support Vector Macchine__ (SVM) è modello di [[Concetti generali del Machine Learning|machne learning]] che fonda la sua base teorica del [[Statistical Learning Theory (SLT)|SLT]] e ha i 2 seguenti obiettivi
-1. Controllare la complessità del modello tramite un un approccio di ottimizzazione [[Problemi di ottimizzazione|problema di ottimizzazione]]
-2. Espandere la flessibilità con una _Basis Expansion_ cosi come fatto nel [[Modelli lineari con LMS|modello lineare]]
+Le __Support Vector Machines__ (__SVM__) sono [[Modelli Parametrici|modelli parametrici di macchine learning]]  allenate con [[Algoritmi di learning supervisionato|strategie supervisionate]], è il primo modello che direttamente dalla [[Statistical Learning Theory (SLT)|statistical learnuing theory]] e fa structural risk minimization (SRM). 
+
+le __Support Vector Machines__ (__SVM__) sono essenzialmente [[Modelli lineari con LMS|modello lineare]] ma si usa un problema di ottimizazione ad hoc per fare [[Statistical Learning Theory (SLT)|Structural Risk Minimization]]
 
 
-### Approccio di ottimizzazione 
-in un caso di classificazione con il [[Modelli lineari con LMS|modello lineare]] non tutte le ipotesi $h$ sono uguali
-infatti con diversi ipotesi $h_1,\dots,h_n$ possiamo vedere che hanno tutti _margini_ diversi 
+
+Si assume che il data set sia $TR=\{\mathbf{x}_i,d_i\}$ con $d_i = \{-1,1\}$ e $\mathbf{w},\mathbf{x} \in \mathbb{R}^n$ e che i dati siano __[[linearmente separabili|linearmente separabili]]__, e si quindi vuole risolvere un [[Algoritmi di learning supervisionato|problema di classificazione]]. 
+L'obiettivo __SVM__ è cerca un [[Piano cartesiano|iperpiano]] di dimensione $n+1$   della forma: $$g(\mathbf{x})=\mathbf{w}^T\mathbf{x}+b$$dove $\mathbf{w}$ e $b$ soni __parametri liberi__ tale che la __superfice di separazione__ definito da: $$g(\mathbf{x})=\mathbf{w}^T\mathbf{x}+b=0$$ ovvero un iperpiano dimensione $n$, massimizzi il __margine di separazione__ $\rho$. Ovvero massimizzi la distanza __minima__ tra $g(x)=0$ è i datapoint. 
+I datapoint con distanza minimi sono detti __Support Vector__ $x^(s)$.
+![[IMG - Support Vector Machine (SVM) Optimal Hyperplane 2D.png]]
+
+
+
+nei  [[Modelli lineari con LMS|modello lineare]] non tutte le ipotesi $h$ sono uguali infatti con diversi ipotesi $h_1,\dots,h_n$ possiamo vedere che hanno tutti __margini__ diversi 
 ![[928BFB8C-963B-4554-B5B1-2F43868FCBDC.jpeg]]
-dove _Margine_ è definito come:  2 volte (una per lato ) la distanza tra tra l iperpiano di separazione e il più vicino _data point_ . 
-questo margine puo essere interpretato come una _safezone_ ovvero una zone in cui se non vengono messi nuovi dati al interno la soluzione non cambia, A meno che non venga inserito classificato nel lato sbagliato  
+Questo __margine__ può essere visto come una __safe-zone__, 
+Aggiungendo un puto e assumendo che i dati vengono messi nel lato corretto della classificazione, se il punto è al di fuori del **margine** la soluzione rimane invariata.
 
-matematicamente i _margini_ si identificano con dei _vettori di supporto_
-![[6B965600-4229-4611-86FB-D8C8EF726359.jpeg]]
 
-definendo questi si può passare a interpretare il problema di _apprendimento_ come:
-## Apprendimento
-trova $(\boldsymbol w,b)$ tale che tutti i punti siano classificati correttamente e che il margine sia massimizzato
+L'ipotesi usata per la classificazione è la seguente: $$
+h_\mathbf{w}(\mathbf{x})=
+\begin{cases}
+g(x) \geq 0 \quad \text{for } d_i = +1 \\  
+g(x) < 0 \quad \text{for } d_i = -1
+\end{cases} \ \ \ or \ \ h_\mathbf{w}(\mathbf{x}) = sign(g(\mathbf{x})) 
+$$ è quindi una __Linear Threshold Unit__ (LTU) esattamente come i [[Modelli lineari con LMS|modelli lineari]]. 
+>[!tip]- 
+> [visualizzazione del iperpiano](https://www.desmos.com/3d/almdww7cpj?lang=it)
 
-$(\boldsymbol x_p,y_p)$ è classificato correttamente $\iff \begin{cases}\boldsymbol w^T\boldsymbol x_p +b \geq 0& if & y_p =1 \\ \boldsymbol w^T\boldsymbol x_p +b < 0 & if & y_p=-1\end{cases} \forall p$ 
 
->[!note]
->si può riscalare tutto grazie alla preposizione di libertà di scaling per che il punti piu vicino al iperpiano soddisfi $|\boldsymbol w^T \boldsymbol x_p+ b|= 1$ ovvero il vettore di supporto. e quindi si puo riscrivere 
-> $\iff \begin{cases}\boldsymbol w^T\boldsymbol x_p +b \geq 1& if & y_p =1 \\ \boldsymbol w^T\boldsymbol x_p +b \leq -1 & if & y_p=-1\end{cases} \forall p$ 
 
-$\iff (\boldsymbol w^T \boldsymbol x_p+b)y_p\geq 1 \ \ \forall p$ ovvero _tutti_ i punti sono correttamente classificati. 
->[!note]
->a differenza del [[Modelli lineari con LMS|modelli lineare]] in questo abbiamo un errore pari a 0 se le regioni sono [[Linearmente Separabili|linearmente separabili]]
+#### Distanza dalla superfice di separazione
+Siano $\mathbf{w}_0$ e $b_o$ i parametri __ottimali__ per la __SVM__ questi definiscono l __iper piano ottimale__ e la __funzione discriminante__ $$g(\mathbf{x})=\mathbf{w}_{o}^T\mathbf{x}+b_{o}$$ogni input $\mathbf{x}$ puo essere riscritto come:
+$$\mathbf{x}=\mathbf{x}_{p}+r\frac{\mathbf{w}_{o}}{||\mathbf{w}_{o}||}$$
+- Dove $\mathbf{x}_{p}$ è la [[Applicazione lineare - Proiezione Ortogonale|proiezione ortogonale]] di $\mathbf{x}$ sull'__iperpiano ottimale__
+- $r$ è la [[distanza euclidea|distanza euclidea]] di $\mathbf{x}_p$ dal dall'__iperpiano ottimale__, dove  il segno indica la direzione
 
-#### Proprietà
-_Margin_:  è definito da $\frac{2}{\|\boldsymbol w\|}$  quindi 
-- massimizzare il margine $\iff$ minimizzare $\|\boldsymbol w\| \iff$ minimizzare $\frac{\|\boldsymbol w\|^2}{2}$  
-	- Dove $\|\boldsymbol w\|^2 = (\boldsymbol w^T \boldsymbol w)$
+Per definizione abbiamo che $\mathbf{x}_{p}$ appartiene all'__superfice di separazione__ quindi si ha 
+che $g(\mathbf{x}_{p})=0$  possiamo usare questo per trovare la relazione :$$
+\begin{array}{}
+  g_o(\mathbf{x}) &=& \mathbf{w}_{o}^T\mathbf{x} + b_{o}    & =& 
+  \mathbf{w}_{o}^T \left( \mathbf{x}_{p}+r\cfrac{\mathbf{w}_{o}}{\|\mathbf{w}_{o}\|_2} \right) + b_{o} \\  
+&= &  \mathbf{w}_{o}^T\mathbf{x}_{p} + b_{o} +r\cfrac{\mathbf{w}^T\mathbf{w}_{o} }{ \|\mathbf{w}_{o}\|_2 }  & =& g_o(\mathbf{x}_{p}) + r \cfrac{\|\mathbf{w}_{o}\|_2^\cancel{ 2 }}{\cancel{ \|\mathbf{w}_{o}\|_2 }} \\  
+&=&  r \|\mathbf{w}_{o}\|_2
+\end{array}
+$$o equivalentemente: $r=\cfrac{g(\mathbf{\mathbf{x}})}{\|\mathbf{w}_{o}\|_2}$ 
 
-il _VC-Dim_ delta [[Statistical Learning Theory (SLT)|SLT]] è l inverso del margine ovvero decresce come l aumentare del margine 
-- con questo fatto si può quindi controllare la complessità del modello
+Mentre la distanza dell'origine dall'iperpiano è $\cfrac{b_{o}}{||\mathbf{w}_{o}||_2}$ e se vale che se 
+- $b_{o}>0$ l'origine è nella parte positiva.
+- $b_{o}<0$ l'origine è nella parte positiva.
+- $b_{o} =0$ l'origine è appartenente alla __decision surface__.
+![[IMG - SVM distanza di un punto dal iper piano ottimo.png]]
 
-e quindi si conclude che l _iperpiano ottimale_ è quello che massimizza il margine e soddisfa il problema (sui [[Validation e Test di una modello di ML|dati di training]])
+
+Considerando l ipotesi formulata come  $$\begin{cases}
+\mathbf{w}_o^T\mathbf{x}_{i}+b_o \geq 0 \text{ if } d_{i}=+1 \\
+\mathbf{w}_o^T\mathbf{x}_{i}+b_o \leq 0 \text{ if } d_{i}=-1
+\end{cases}$$si possono scalare vettori $\mathbf{w}$ e $b$ in modo che valga$$\begin{cases}
+\mathbf{w}_o^T\mathbf{x}_{i}+b_o \geq +1 \text{ if } d_{i}=+1 \\
+\mathbf{w}_o^T\mathbf{x}_{i}+b_o \leq -1 \text{ if } d_{i}=-1
+\end{cases}$$ e per la proprietà di __scaling freedom__ dei modelli lineari questo __rescaling__ non cambia la __superfice di separazione__ $g(\mathbf{x})=0$.
+Una formulazione equivalente ma piu compatta è la seguente  $$d_{i}(\mathbf{w}_o^T\mathbf{x}_{i}+b_o)\geq 1$$. Con l'ipotesi cosi formulata si ha che per i punti più vicini alla __superfice di separazione__ detti __support vector__ $x^{(s)}$ con $d^{(s)}$ vale che $$d^{(s)}(\mathbf{w}_o^Tx^{(s)}+b_o)= 1$$
+![[IMG - SVM supportVector.png]]
+
+Applicando la distanza algebrica trovata precedentemente ai vettori di supporto otteniamo che $$r=\cfrac{g(\mathbf{x}^{(s)})}{\|\mathbf{w}_o\|_2}=d^{(s)}\cfrac{1}{\|\mathbf{w}_o\|_2}$$ dove $d^{(s)}$ è il segno e indica la classe positiva o negativa. Da questo si puo definire il la __Margin Width__ ottimo $\rho$ come $$\rho=2r=\cfrac{2}{\|\mathbf{w}_o\|_2}$$ dove il $2r$ viene dal fatto che la dimensione del margine è simmetrica rispetto alla __separation surface__. Siccome vogliamo massimizzare $\rho$ questa relazione ci dice che trovare $\rho$ ottimo significa minimizzare $\|\mathbf{w}_o\|_2$ quindi si fa qualcosa di simile alla [[Modelli lineari con LMS#Tikhonov regulation (ridge regression)|regolarizzazione con Tikonov]]
+
+
+#### VC-Dimension
+il __VC-dimension__ delta [[Statistical Learning Theory (SLT)|SLT]] è l inverso del margine ovvero decresce come l aumentare del margine con questo si può quindi controllare la complessità del modello
+
 
 ### Espressione formale del problema di apprendimento 
-problema [[Problemi di ottimizzazione|problema primare di ottimizzazione]] 
-$$\begin{cases}
-\min \frac{\|\boldsymbol w\|^2}{2} \\
-(\boldsymbol w^T\boldsymbol x_P+b)y_p \geq 1 & \forall p=1,\dots,l 
+Per massimizzare il margine $\rho$ e quindi minimizzare $\|\mathbf{w}\|_2$ si puo formulare il problema come problema di [[Problemi di ottimizzazione convessi|ottimizzazione convessa]] $$\begin{cases}
+\min \cfrac{\|\mathbf{w}\|^2_2}{2} = \Phi(\mathbf{w}) \\
+d_p(\mathbf{w}^T\mathbf{x}_p+b) \geq 1 & \forall p=1,\dots,l 
 \end{cases}$$
-La funzione obiettivo è [[Funzioni Convesse-Concave|convessa]] in $\boldsymbol w$ e quindi ha un unico minimo.
+La funzione obiettivo $\Phi(\mathbf{w})$ è [[Funzioni Convesse-Concave|convessa]] in $\mathbf{w}$ e il __vincolo__ è lineare in $\mathcal{w}$, Quindi esiste sicuramente almeno __un minimo__ che è __globale__. 
+
+Per risolvere questo problema si usa il [[Metodo di ottimizzazione vincolata con moltiplicatori di Lagrange|metodo dei moltiplicatori lagrangiani]] e quindi si usa la __funzione lagrangiana__ come $$\mathbf{J}(\mathbf{w},b,\alpha)= \cfrac{\|\mathbf{w}\|^2_2}{2} - \sum^\ell_{i=1}\alpha_i d_i(\mathbf{w}^T\mathbf{x}_i+b-1)$$
+
+
+$$$$
 
 si può vedere anche la sua formula [[Dualità|duale]]  
 $$\begin{cases}
 \max \alpha \sum_i^l \alpha_i- \frac{1}{2}\sum_{ij}^l\alpha_i\alpha_jy_iy_j (\boldsymbol x_i \boldsymbol x_j) \\
  \sum_i^l\alpha_iy_i=0 & \alpha_i\geq 0
 \end{cases}$$
-si cerca l $\alpha_p \ \ \ p=1,\dots,l$  ([[Multipli di Lagrange|multipli lagrange]])  
+si cerca l $\alpha_p \ \ \ p=1,\dots,l$  ([[1-|multipli lagrange]])  
 che è [[Funzioni Convesse-Concave|concava]] quindi ha unico massimo
 in questo caso il costo computazionale scala con il numero di dati $l$ invece che con il numero di dimensione $n$  
 
@@ -145,188 +181,10 @@ $$h(x) = sign\left(\sum_{p \in SV}\alpha_py_pK(\boldsymbol x_p,\boldsymbol x)\ri
 
 
 
-# Support Vector Machines (SVM)
-
-## **Concetti Fondamentali**
-
-Le Support Vector Machines (SVM) sono modelli di apprendimento supervisionato utilizzati per la classificazione e la regressione. Il principio fondamentale è trovare un **iperpiano ottimale** che separi i dati massimizzando il margine tra le classi.
-
-### **1. Iperpiano e Margine**
-
-Dato un insieme di dati di addestramento $ {(x_i, y_i)} $ con $ y_i \in {-1, 1} $, una SVM cerca un iperpiano definito come:
-
-w⋅x+b=0 w \cdot x + b = 0
-
-Il margine è dato da:
-
-2∣∣w∣∣\frac{2}{||w||}
-
-L'obiettivo è massimizzare il margine risolvendo il problema di ottimizzazione:
-
-min⁡w,b12∣∣w∣∣2\min_{w, b} \frac{1}{2} ||w||^2
-
-soggetto a:
-
-yi(w⋅xi+b)≥1,∀i. y_i (w \cdot x_i + b) \geq 1, \quad \forall i.
-
-Un margine più ampio riduce l'overfitting e migliora la generalizzazione del modello.
-
-### **2. Soft Margin (Per Dati Non Linearmente Separabili)**
-
-Per gestire dati **non linearmente separabili**, si introduce una variabile di slack $\xi_i$ che permette la violazione del vincolo:
-
-min⁡w,b,ξ12∣∣w∣∣2+C∑iξi\min_{w, b, \xi} \frac{1}{2} ||w||^2 + C \sum_{i} \xi_i
-
-soggetto a:
-
-yi(w⋅xi+b)≥1−ξi,∀i, y_i (w \cdot x_i + b) \geq 1 - \xi_i, \quad \forall i,
-
-con $\xi_i \geq 0$ e $C$ parametro che bilancia la penalità delle violazioni.
-
-Valori più alti di $C$ comportano un adattamento più preciso ai dati di training, aumentando il rischio di overfitting, mentre valori più bassi favoriscono un margine più ampio a discapito di errori di classificazione.
-
-### **3. Kernel Trick e Trasformazione dello Spazio**
-
-Quando i dati non sono linearmente separabili nello spazio originale, si utilizza una **funzione kernel** $ K(x_i, x_j) $ per mappare i dati in uno spazio di dimensione superiore dove diventano separabili:
-
-K(xi,xj)=ϕ(xi)⋅ϕ(xj)K(x_i, x_j) = \phi(x_i) \cdot \phi(x_j)
-
-Esempi di kernel comuni:
-
-- **Lineare**: $ K(x_i, x_j) = x_i \cdot x_j $ (utile per problemi lineari semplici)
-- **Polinomiale**: $ K(x_i, x_j) = (x_i \cdot x_j + c)^d $
-- **Gaussiano (RBF)**: $ K(x_i, x_j) = e^{-\gamma ||x_i - x_j||^2} $
-- **Sigmoide**: $ K(x_i, x_j) = \tanh(\alpha x_i \cdot x_j + c) $
-
-La scelta del kernel ha un impatto significativo sulle prestazioni del modello e deve essere selezionata con cura in base alla distribuzione dei dati.
-
-### **4. Support Vector Regression (SVR)**
-
-L'estensione delle SVM alla **regressione** è nota come **Support Vector Regression (SVR)**. In questo caso, l'obiettivo è trovare una funzione che approssimi i dati minimizzando gli errori.
-
-Il problema di ottimizzazione diventa:
-
-$$min⁡w,b,ξ,ξ∗12∣∣w∣∣2+C∑i(ξi+ξi∗)\min_{w, b, \xi, \xi^*} \frac{1}{2} ||w||^2 + C \sum_{i} (\xi_i + \xi_i^*)$$
-
-soggetto a:
-
-$$yi−(w⋅xi+b)≤ϵ+ξi y_i - (w \cdot x_i + b) \leq \epsilon + \xi_i (w⋅xi+b)−yi≤ϵ+ξi∗ (w \cdot x_i + b) - y_i \leq \epsilon + \xi_i^* ξi,ξi∗≥0 \xi_i, \xi_i^* \geq 0$$
-
-Dove:
-
-- **$\epsilon$** definisce una soglia di errore accettabile.
-- **$\xi_i, \xi_i^*$** sono variabili di slack per permettere violazioni della soglia.
-- **$C$** controlla il trade-off tra complessità del modello ed errori.
-
-SVR utilizza gli stessi **kernel** delle SVM per mappare i dati in uno spazio ad alta dimensionalità e adattare modelli non lineari.
-
-### **5. Parametri Importanti**
-
-- **C**: Controlla il trade-off tra massimizzazione del margine e minimizzazione degli errori.
-- **$\gamma$ (per RBF Kernel)**: Determina l'influenza dei singoli punti campione.
-- **$\epsilon$ (per SVR)**: Definisce la tolleranza per la regressione, influenzando la sparseness del modello.
-- **Tipo di Kernel**: Definisce la mappatura dello spazio dei dati e la separabilità lineare nel nuovo spazio.
-
-### **6. Applicazioni e Considerazioni Pratiche**
-
-- **SVM per classificazione** è stato storicamente utilizzato con successo nel riconoscimento della scrittura (es. dataset MNIST con errore dello 0.8%).
-- **SVR** è utile per problemi di regressione, come previsioni di mercato e modelli di serie temporali.
-- La scelta dei parametri (C, kernel e iperparametri) è cruciale e spesso richiede **cross-validation**.
-- Gli SVM possono essere inefficienti su dataset molto grandi (>20,000 campioni) a causa della complessità computazionale.
-- SVM possono essere combinati con metodi di riduzione della dimensionalità come PCA per migliorare le prestazioni su dati ad alta dimensionalità.
-
-## **Conclusioni**
-
-Le SVM offrono un framework potente per la classificazione e la regressione, con solidi fondamenti teorici. Tuttavia, la scelta del kernel e degli iperparametri è critica per le prestazioni del modello.
-
-L'uso di tecniche di ottimizzazione avanzate e l'integrazione con metodi di riduzione della dimensionalità possono migliorare l'efficienza computazionale, rendendo SVM ancora rilevante in molti contesti moderni.
-
-
-
-
-
-----
-
-
----
-# Support Vector Machines (SVM)
-
-Le Support Vector Machines (SVM) sono un insieme di reti feed forward del tipo *kernel-learning method*.
-
-L'obiettivo principale è trovare un iperpiano che separi al meglio le classi nei dati.
-
-
-*DEF.*
-Dato un insieme di dati di training, una SVM costruisce un iperpiano (superficie di decisione) in cui si vuole *massimizzare* il *margine di separazione* tra la classe positiva e negativa.
-
-Si assume che il problema dato sia linearmente separabile e che le classi in cui si possono dividere i dati siano $d=\pm 1$ .
-Detto ciò, l'iperpiano di separazione si definisce come $$\mathbf{w}^T\mathbf{x}+b=0$$
-Dove $\mathbf{x}$ è il vettore di input e $\mathbf{w}$ è il vettore dei pesi.
-
-#### Margine di separazione e iperpiano ottimale
----
-Per ogni vettore $\mathbf{w}$ la distanza tra l'iperpiano di separazione ed il data point più vicino si chiama **Margine di separazione** $\rho$.
-![[margin svm.png]]
-
-
-L'obiettivo di una SVM è quello di cercare l'**iperpiano ottimale**  per cui il margine di separazione è massimizzato.
-L'**iperpiano ottimale** è dato da $\mathbf{w}_{o}$ e $b_{o}$ che sono i valori ottimali del vettore dei pesi e del bias, e si definisce come : $$\mathbf{w}_{o}^T\mathbf{x}+b_{o}=0$$
-Esistono diversi iperpiani che possono risolvere il problema ma l'iperpiano ottimale è unico.
-#### Funzione discriminante
----
-La funzione discriminante $g(\mathbf{x})$ è la misura algebrica della distanza del vettore di input $\mathbf{x}$ dall'iperpiano ottimale e si definisce come:
-$$g(\mathbf{x})=\mathbf{w}_{o}^T\mathbf{x}+b_{o}$$
-Da questa funzione si può riesprimere il vettore $\mathbf{x}$ come:
-$$\mathbf{x}=\mathbf{x}_{p}+r\frac{\mathbf{w}_{o}}{||\mathbf{w}_{o}||}$$
-Dove $\mathbf{x}_{p}$ è la proiezione di $\mathbf{x}$ sull'iperpiano ottimale ed $r$ è la distanza di $\mathbf{x}$ dall'iperpiano ottimale.
-$r$ è positiva se $\mathbf{x}$ si trova nel lato positivo dell'iperpiano,  negativa se si trova nella parte negativa, e uguale a 0 s e si trova sull'iperpiano. 
-
-Quindi per definizione, dato che $\mathbf{x}_{p}$ appartiene all'iperpiano, si ha 
-che $g(\mathbf{x}_{p})=0$. 
-Da ciò:
-$$g(\mathbf{x}_{p})=\mathbf{w}_{o}^T\mathbf{x}_{p}+b_{o}=\mathbf{w}_{o}^T\left( \mathbf{x}_{p}+r\frac{\mathbf{w}_{o}}{||\mathbf{w}_{o}||}\right)+b_{o}=g(\mathbf{x}_{p})+r\frac{||\mathbf{w}_{o}||^2}{||\mathbf{w}_{o}||}=r||\mathbf{w}_{o}||$$
- 
-Quindi : $r=\frac{g(\mathbf{x}_{p})}{||w_{o}||}$ , e ciò è valido in generale e si ha : $$r=\frac{g(\mathbf{x})}{||\mathbf{w}_{o}||}$$
-In particolare la distanza dell'origine dall'iperpiano è $\frac{b_{o}}{||\mathbf{w}_{o}||}$ e se $b_{o }>0$ l'origine è nella parte positiva dell'iperpiano, se <0 nella parte negativa e se =0 allora e sull'iperpiano.
-
-![[geometrical view SVM.png]]
-
-Date le condizioni dell'iperpiano:
-$$\begin{cases}
-\mathbf{w}^T\mathbf{x}_{i}+b \geq 0 \text{ if } d_{i}=+1 \\
-\mathbf{w}^T\mathbf{x}_{i}+b \leq 0 \text{ if } d_{i}=-1
-\end{cases}$$
-si possono riscalare i vettori $\mathbf{w}$ e $\mathbf{b}$ in modo che i punti più vicini all'iperpiano soddisfino : $|g(\mathbf{x}_{i})|=|\mathbf{w}^T\mathbf{x}_{i}+b|=1$
-
-Le condizioni si possono così riscrivere come:
-$$\begin{cases}
-\mathbf{w}^T\mathbf{x}_{i}+b \geq +1 \text{ if } d_{i}=+1 \\
-\mathbf{w}^T\mathbf{x}_{i}+b \leq -1 \text{ if } d_{i}=-1
-\end{cases}$$
-Ed in forma più compatta: $d_{i}(\mathbf{w}^T\mathbf{x}_{i}+b)\geq 1\ \forall \ i=1,\dots,N$
-
-### Support vector
----
-I **support vector** sono quei vettori che si trovano esattamente sul margine di separazione, e sono quindi quelli più vicini all'iperpiano.
-
-I support vector $\mathbf{x}^{(s)}$ soddisfano esattamente l'equazione:
-$$d^{(s)}(\mathbf{w}^T\mathbf{x}^{(s)}+b)=1$$
-
-![[support vectors.png]]
-
-Per i support vector la funzione discriminante vale $\pm {1}$ a seconda del valore di $d^{(s)}$ e quindi la distanza algebrica dei SV dall'iperpiano è data da:
-$$r=\frac{g(\mathbf{x}^{(s)})}{||\mathbf{w}_{o}||}=\begin{cases}
-\frac{1}{||\mathbf{w}_{o}||}\text{  if } d^{(s)}=+1 \\
--\frac{1}{||\mathbf{w}_{o}||}\text{  if } d^{(s)}=-1
-\end{cases}$$
-Detto ciò si definisce il margine di separazione $\rho=2r=\frac{2}{||\mathbf{w}_{o}||}$
-
-*OBIETTIVO SVM* : Massimizzare $\rho$ $\leftrightarrow$ Minimizzare $||\mathbf{w}_{o}||$
 
 
 # Miglioramento della generalizzazione
 ---
-
 Con le SVM si fissa l'errore di training per problemi linearmente separabili. Minimizzare la norma di $\mathbf{w}$ è equivalente a minimizzare la VC-dimension e quindi minimizzare il termine $\epsilon$ (VC-confidence) nella [[Statistical Learning Theory - Vapnik|STL]].
 
 *Teorema di Vapnik:*

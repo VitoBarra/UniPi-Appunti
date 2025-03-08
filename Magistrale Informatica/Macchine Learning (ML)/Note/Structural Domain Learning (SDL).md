@@ -11,7 +11,7 @@ SubTopic:
 ---
 __Structural Domain Learning__ (__SDL__) è un campo del [[Machine Learning (ML)|Machine Learning]] che si occupa di studiare [[Modelli di Machine Learning|modelli]] per il macchine learning che siano in grado di ricevere in input una __dato strutturato__ come ad esempio un [[Struttura dati - Alberi|albero]] o un [[Struttura dati - Grafi|grafo]] 
 
-l approccio opposto sarebbe quello di trasformare questa struttura in un [[Vettori|vettore]] per essere usata dai modelli  che prendono dati flat come al esempio le [[Reti neurali Feed-Forward (FF)|FF]] o le [[Reti Neurali Convoluzionali (CNN)|CNN]] o in una __sequenza__ per essere usata da una [[Reti Neurali Ricorrenti (RNN)|RNN]].
+l approccio opposto sarebbe quello di trasformare questa struttura in un [[Vettori|vettore]] per essere usata dai modelli  che prendono dati flat come al esempio le [[Reti neurali Feed-Forward (FF)|FF]] o le [[Convolutional Neural Network  (CNN)|CNN]] o in una __sequenza__ per essere usata da una [[Recurrent Neural Network (RNN)|RNN]].
 
 
 
@@ -25,7 +25,7 @@ I dati reali spesso non sono semplici vettori ma strutture complesse con relazio
 Questi dati possono essere modellati con **reti neurali profonde (DGN - Deep Graph Networks)**, che generalizzano i modelli classici di deep learning ai grafi.
 ![[IMG - Esempio uso grafi.png]]
 
-### Trasduttura
+### Trasduzione di grafi
 L __obiettivo__ del __SDL__ è imparare un __trasduttore__ che trasforma una dato strutturato sono del tipo
 - __Structure-to-Structure__: trasformazione da una struttura in un altra ovvero input-output isomorfi (eg. classificazizone di noti) 
 - __Structure-to-Scalar/element__: trasformazione di una struttura in uno scalare o in una sequenza o altri output non isomorfi (regressione e classificazione)
@@ -64,7 +64,7 @@ $$\mathbf{h}_v^{(l)}= AGG_{\mathbf{W}^{(l)}}(L_vh_u^{(l-1)},\{h_u^(l-1): u \in  
 
 - Applicare questo calcolo a ciascun nodo del grafo corrisponde a una visita parallela e non ordinata del grafo a ogni iterazione $l$.
 Abbiamo una grande flessibilità nell'implementazione di questi operatori, con molte variazioni di modello disponibili.
-- $\mathbf{h}^{(l)}=relu(\hat{A}h^{l-1}W^{(l)})\hat{A}$ (CG)
+- $\mathbf{h}^{(l)}=relu(\hat{A}h^{l-1}W^{(l)})\hat{A}$ (GCN)
 - $\mathbf{h}^{(l)}=f(W^{(l)}_1h^{l-1}+W^{(l)})Ah^{l-1}$
 
 
@@ -100,18 +100,49 @@ $$\begin{cases}
 y(\mathbf{g})=\mathbf{W}_{out}X(\mathbf{h}(\mathbf{g}))
 \end{cases}
 $$
+![[IMG - Dynamical System.png]]
 
-## Problemi nei modelli di apprendimento su grafi
+#### Problemi aperti nei modelli di apprendimento su grafi
+alcuni dei problemi del campo attualmente sono:
+- __Efficienza__: Scalabilità dell'addestramento su grafi molto grandi (es. >100K nodi).  
+- __Under-reaching__: I modelli di deep learning potrebbero non riuscire a sfruttare le interazioni a lungo raggio tra i nodi del grafo.  
+- __Espressività__  I modelli di deep learning potrebbero non essere in grado di apprendere rappresentazioni significative dei nodi.  
 
-I DGN affrontano sfide significative, tra cui:
-- **Over-smoothing**: con l’aumento della profondità, i nodi tendono a diventare indistinguibili
-- **Over-squashing**: la capacità di rappresentare informazioni a lungo raggio diminuisce esponenzialmente con la profondità
-- **Scalabilità**: addestrare reti profonde su grafi molto grandi è computazionalmente costoso
-### Soluzioni proposte:
 
-1. **Graph Echo State Networks (GESN)**: evitano il backpropagation completo e accelerano l’apprendimento
-2. **NN4G+**: modelli che costruiscono architetture dinamicamente in modo efficiente
-3. **Analisi spettrale**: studi per mantenere alta la variabilità spaziale delle rappresentazioni
+#### NN4G+ e l'Espansione Sinergica Doppia 
+
+NN4G+ è costruito in modo incrementale, con un'espansione sinergica doppia.
+
+- Alleniamo un'unità alla volta: nessun backprop end-to-end attraverso i livelli.
+- Un livello viene espanso in modo greedy fino a quando l'accuratezza di validazione non migliora più.
+- Nuovi livelli vengono aggiunti fino a quando l'accuratezza di validazione non migliora più.
+
+
+![[IMG- NN4G+ automatic architecture.png]]
+
+
+NN4G+ costruisce un'architettura neurale in **minuti** invece che in **ore**, rispetto ai modelli addestrati end-to-end.  
+![[IMG - NN4G+ arctecture graph.png]]
+
+- In un confronto equo con la selezione esplicita dell'architettura, **NN4G+ accelera di oltre 10×** senza penalizzare l'accuratezza.  
+  ![[IMG- NN4G+ training and selection time.png]]
+
+
+
+alcune problematiche sono:
+- **Over-smoothing**: con l’aumento della profondità, grazie al meccanismo del message passing le rappresentazioni ad alto livello tendono a diventare simili ovvero i diventano indistinguibili
+	- ![[IMG-NN4G+ over smothing.png]]
+- __Over-squashing__: I campi ricettivi aumentano **esponenzialmente** con la profondità, mentre la dimensione dell'embedding del nodo rimane fissa 
+	- Decrescita esponenziale della sensibilità delle rappresentazioni dei nodi rispetto alle feature in ingresso.  
+	- Questo effetto è quantificato attraverso il **Jacobiano**, in funzione del numero di layer $h_v^{(L)}$
+	- ![[IMG - NN4G+ over squashing.png]]
+
+ 
+ un altro broblema è la difficolta di classificazone di grafi __eterofili__ siccome il __message passing__ introduce un Bias verso grafi omogenei, con difficoltà nell'adattarsi a strutture eterofile.  
+ __HomoPhilic graph__ : I nodi nello stesso vicinato appartengono prevalentemente alla stessa classe.  
+__EteroPhilic graph__: I nodi della stessa classe tendono a essere più distanti tra loro.  
+   
+![[IMG - HomoPhilic EteroPhilic graphs.png]]
 
 ## Applicazioni e sviluppi futuri
 
@@ -125,4 +156,3 @@ Le ricerche future mirano a **rendere più efficienti le DGN**, migliorando la l
 
 
 
-![[IMG - Dynamical System.png]]

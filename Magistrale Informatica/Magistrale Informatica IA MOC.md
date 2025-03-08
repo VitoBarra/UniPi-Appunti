@@ -15,9 +15,8 @@ tags:
 	- [[3D Geometry for Modeling and Processing (3GMP)]]
 	- [[Computational Mathematics for Learning and Data Analisys (CMLDA)]]
 	- [[Intelligent System For Pattern Recognition (ISPR)]]
-	- [[Parallel and Distributed System: Model and Paradigms (SMP)]]
+	- [[Parallel and Distributed System - Model and Paradigms (SMP)]]
 - Secondo anno
-	- 
 
 
 

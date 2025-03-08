@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Reservoir Computing - Echo State Machine (ESN)
 ---
-il modello **Echo State Network (ESN)** è un modello del [[RandRNN - Reservoir Computing|Reservoir Computing]] quindi è una [[Reti Neurali Ricorrenti (RNN)|RNN]] ma [[Reti neurali random (RandNN)|RandNN]].
+il modello **Echo State Network (ESN)** è un modello del [[RandRNN - Reservoir Computing|Reservoir Computing]] quindi è una [[Recurrent Neural Network (RNN)|RNN]] ma [[Random Neural Network (RandNN)|RandNN]].
 una __ESN__ che sfrutta un __reservoir di neuroni con pesi fissi__ e allena solo lo strato di output. Questo approccio riduce significativamente il costo computazionale dell'addestramento.
 
 L'aggiornamento dello stato interno segue la dinamica:$$

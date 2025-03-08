@@ -1,6 +1,6 @@
 ---
 Course: "[[Machine Learning (ML)]]"
-Area: "[[Reti Neurali Ricorrenti (RNN)]]"
+Area: "[[Recurrent Neural Network (RNN)]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 Cose che devo sapere
 - [[Reti Neurali (NN)|Reti neurali]]: 
-- __[[Reti Neurali Ricorrenti (RNN)|Reti neurali riccorrenti]]__ (RNN) : i neuroni mantengono memoria delle informazioni passate, li rende utili per situazioni in cui si usano dati sequenziali 
+- __[[Recurrent Neural Network (RNN)|Reti neurali riccorrenti]]__ (RNN) : i neuroni mantengono memoria delle informazioni passate, li rende utili per situazioni in cui si usano dati sequenziali 
 - Vanishing Gradiente:  da capire
 - Struttura reservoir: 
 	- Riserva di neuroni collegati in modo ricorrente

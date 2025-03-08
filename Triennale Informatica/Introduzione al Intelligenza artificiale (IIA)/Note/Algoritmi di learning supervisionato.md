@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Algoritmi di learning supervisionato
 ---
-il __learning supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|learning]] caratterizzato dal utilizzo dei dati _etichettati_.
+il __learning supervisionato__ è una categoria di algoritmi di [[Algoritmi di Machine Learning|learning]] caratterizzata dal utilizzo dei dati _etichettati_.
 
 Questa classe di algoritmi ha lo scopo di approssimare una certa funzione $f$ __sconosciuta__ con un una funzione $h \in \mathcal{H}$ detta __ipotesi__, dove $\mathcal{H}$ è lo [[Algoritmi di Machine Learning|spazio delle ipotesi]] specifica per l'algoritmo in uso. Per fare ciò questi algoritmi usando dei sample detti __esempi__ della funzione $f$ che sono definiti come coppie $(x_i,y_i)$ dove $x \in \mathbb{F}^n$ e $y_i = f(x_i)+noise$, ovvero una punto conosciuto della funzione $f$ con l aggiunta di qualche errore.
  
@@ -32,9 +32,10 @@ Per fare si che l' algoritmi selezioni un ipotesi con una buona performance c'è
 
 
 
-I __problemi affrontabili__ con l'__apprendimento supervisionato__ si dividono in due classi:  
+I __problemi affrontabili__ con l'__apprendimento supervisionato__ si dividono in 3 classi:  
 1. __Classificazione__: dove l'input deve essere mappato dal ipotesi in una o più delle $c \in \mathbb{N}$ categorie disgiunte; quindi si ha che $h \in \mathbb{F}^k\times \mathbb{N}$. Se $c=2$ allora la classificazione viene detta binaria altrimenti ennaria.  
 2. __Regressione__: dove l'input viene mappato in uno o più numeri reali e quindi si ha che $h \in \mathbb{F}^n\times \mathbb{R}^m$
+3. __Trasduzione__: trasformazione di dati si applica solo per domini diversi da quelli flat come quelli si [[Recurrent Neural Network (RNN)|sequenza]] e quelli __[[Structural Domain Learning (SDL)|strutturati]]__.
 	 
 ![[991D6D4A-9F89-4A4E-BE65-509CB69C0C3C.jpeg]]
 
