@@ -40,7 +40,7 @@ tags:
 			1. [[Decomposizione dei poliedri]]
 		4. [[Direzioni di crescita e di decrescita]]
 	4. [[Teorema Fondamentare della programmazione lineare]]
-	5. [[Dualità]]
+	5. [[Problemi di ottimizazione - Dualità]]
 		1. [[Teoremi su Problema duale]]
 		2. [[Teorema degli scarti complementari]]
 	6. [[Basi e vertici]]

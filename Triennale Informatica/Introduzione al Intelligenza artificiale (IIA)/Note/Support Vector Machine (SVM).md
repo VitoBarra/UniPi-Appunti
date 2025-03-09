@@ -84,39 +84,84 @@ il __VC-dimension__ delta [[Statistical Learning Theory (SLT)|SLT]] è l inverso
 
 ### Espressione formale del problema di apprendimento 
 Per massimizzare il margine $\rho$ e quindi minimizzare $\|\mathbf{w}\|_2$ si puo formulare il problema come problema di [[Problemi di ottimizzazione convessi|ottimizzazione convessa]] $$\begin{cases}
-\min \cfrac{\|\mathbf{w}\|^2_2}{2} = \Phi(\mathbf{w}) \\
+\min \cfrac{\|\mathbf{w}\|^2_2}{2}  \\
 d_p(\mathbf{w}^T\mathbf{x}_p+b) \geq 1 & \forall p=1,\dots,l 
 \end{cases}$$
 La funzione obiettivo $\Phi(\mathbf{w})$ è [[Funzioni Convesse-Concave|convessa]] in $\mathbf{w}$ e il __vincolo__ è lineare in $\mathcal{w}$, Quindi esiste sicuramente almeno __un minimo__ che è __globale__. 
 
-Per risolvere questo problema si usa il [[Metodo di ottimizzazione vincolata con moltiplicatori di Lagrange|metodo dei moltiplicatori lagrangiani]] e quindi si usa la __funzione lagrangiana__ come $$\mathbf{J}(\mathbf{w},b,\alpha)= \cfrac{\|\mathbf{w}\|^2_2}{2} - \sum^\ell_{i=1}\alpha_i d_i(\mathbf{w}^T\mathbf{x}_i+b-1)$$
+Per risolvere questo problema si usa il [[Metodo di ottimizzazione vincolata con moltiplicatori di Lagrange|metodo dei moltiplicatori Lagrangiani]] e quindi si usa la __funzione lagrangiana__ come $$\mathbf{J}(\mathbf{w},b,\alpha)= \cfrac{\|\mathbf{w}\|^2_2}{2} - \sum^\ell_{i=1}\alpha_i (d_i(\mathbf{w}^T\mathbf{x}_i+b)-1)$$ dove $\alpha_i \ \ \ i=1,\dots,\ell$ sono detti __moltiplicatori Lagrange__ e sono variabile non negative. La soluzione del problema di ottimizzazione iniziale corrisponde ai __punti di sella__ della funzione $\mathbf{J}(\mathbf{w},b,\alpha)$.  
+I __punti di sella__ per $\mathbf{J}(\mathbf{w},b,\alpha)$ sono i punti per cui vale che le soluzioni di $\mathbf{J}(\mathbf{w},b,\alpha)=0$ sono reali e di segno opposto.  
+il __punti di sella__ ricercato è quello che __minimizza__ $\mathbf{w},b$ e __massimizza__ $\alpha$ 
+
+Per cercare questo punto di sella si impongono die condizioni di ottimalità $$\begin{array}{}
+\displaystyle \frac{\partial J(\mathbf{w}, b, \alpha)}{\partial \mathbf{w}} = 0  \\\
+\displaystyle \frac{\partial J(\mathbf{w}, b, \alpha)}{\partial b} = 0 
+\end{array}$$ e sviluppando le [[derivate|derivate]] otteniamo $$\begin{aligned} 
+\frac{\partial J(\mathbf{w}, b, \alpha)}{\partial \mathbf{w}} &= \frac{\partial }{\partial \mathbf{w}} \left( \frac{\|\mathbf{w}\|^2_2}{2} - \sum^\ell_{i=1}\alpha_i (d_i(\mathbf{w}^T\mathbf{x}_i+b)-1) \right) \\ &= \frac{\partial }{\partial \mathbf{w}}  \frac{\|\mathbf{w}\|^2_2}{2} - \frac{\partial }{\partial \mathbf{w}}\sum^\ell_{i=1}( 
+ \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i+   \alpha_i d_ib- \alpha_i) \\ &= \mathbf{w} - \sum^\ell_{i=1} \alpha_i d_i \mathbf{x}_i =0
+\end{aligned}$$ mentre rispetto $b$ abbiamo si ha che$$\begin{aligned}
+\frac{\partial J(\mathbf{w}, b, \alpha)}{\partial b} &= \frac{\partial }{\partial b} \left( \frac{\|\mathbf{w}\|^2_2}{2} - \sum^\ell_{i=1}\alpha_i (d_i(\mathbf{w}^T\mathbf{x}_i+b)-1) \right) \\ &= \frac{\partial }{\partial b}  \frac{\|\mathbf{w}\|^2_2}{2}  - \frac{\partial }{\partial b}\sum^\ell_{i=1}( 
+ \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i+   \alpha_i d_ib- \alpha_i)  \\ &=  - \sum^\ell_{i=1} \alpha_i d_i
+\end{aligned}
+$$e sostituendole nelle __condizioni ti ottimalità__ otteniamo che devono essere vere le due relaziono $$
+ \mathbf{w} = \sum^\ell_{i=1} \alpha_i d_i \mathbf{x}_i \ \ \ \ \ \ \  
+\ \ \ \ \ \  \sum^\ell_{i=1} \alpha_i d_i = 0
+$$
+
+Per le  [[Karush–Kuhn–Tucker conditions (KKT)|KKT conditions]] si ha nei __punti di sella__ vale che $$\alpha_i(d_i(\mathbf{w}^T\mathbf{x}_i+b) -1) = 0$$ puo valere che $\alpha_i \neq 0$ e quindi vale che 
+- Se $\alpha_i > 0$, allora $d_i (\mathbf{w}^T \mathbf{x}_i + b) = 1$ e $\mathbf{x}_i$ è un __vettore di supporto__.  
+- Se  $\mathbf{x}_i$ non è un __vettore di supporto__, allora $\alpha_i = 0$.
+e quindi per calcolare $\mathbf{w}$  e $b$ possiamo considerare solo l insieme $\ell_s$ dei __vettori di supporto__.
 
 
-$$$$
 
-si può vedere anche la sua formula [[Dualità|duale]]  
-$$\begin{cases}
-\max \alpha \sum_i^l \alpha_i- \frac{1}{2}\sum_{ij}^l\alpha_i\alpha_jy_iy_j (\boldsymbol x_i \boldsymbol x_j) \\
- \sum_i^l\alpha_iy_i=0 & \alpha_i\geq 0
-\end{cases}$$
-si cerca l $\alpha_p \ \ \ p=1,\dots,l$  ([[1-|multipli lagrange]])  
-che è [[Funzioni Convesse-Concave|concava]] quindi ha unico massimo
-in questo caso il costo computazionale scala con il numero di dati $l$ invece che con il numero di dimensione $n$  
 
-computato il problema duale possiamo calcolare $\alpha$ e con questa possiamo computare $(\boldsymbol w ,b)$ il _decision boundry_
-$$\begin{array}
-\boldsymbol w = \sum_P\alpha_p y_p\boldsymbol x_p & p=1,\dots,l \\
-b=y_k-\boldsymbol w^T \boldsymbol x_k  & \text{for any } \alpha_y
-\end{array}$$
-con Ipotesi 
-$$h(\boldsymbol x) = sign(\boldsymbol  w^T \boldsymbol x +b) = sign \left (\sum^l_{p=1} \alpha_py_p \boldsymbol  x^T_p \boldsymbol x +b\right) = sign \left (\sum_{p\in SV} \alpha_py_p \boldsymbol  x^T_p \boldsymbol x +b\right)$$
-1. $\alpha <> 0 \iff$ _support vector_ ($\alpha_p \not=0 \implies \boldsymbol x_p$ è un vettore di supporto)
-	1. la soluzione è spesso spara e formulata sono i termini di vettori di supporto , l iperpiano dipende solo da essi 
-2. la soluzione risultante è una forma speciale che non necessita di calcolare esplicitamente $(\boldsymbol w, b)$   per classificare i punti 
+Siccome il problema di ottimizzazione che abbiamo ha una __obiettivo convessa__ e __vincoli lineari__ possiamo formulare il suo [[Problemi di ottimizazione - Dualità|problema duale]] che ha gli stessi __valori ottimi__ di $\mathbf{w}$ e $b$ ma esprime la sua funzione obiettivo in funzione dei moltiplicatori di Lagrange. Per fare ciò si espande la lagrangiana $$\mathbf{J}(\mathbf{w},b,\alpha)= \cfrac{\mathbf{w}^T\mathbf{w}}{2} - \sum^\ell_{i=1} 
+ \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i -  b\sum^\ell_{i=1}\alpha_i d_i + \sum^\ell_{i=1}\alpha_i$$ e applicando le condizione di ottimalità $\sum^\ell_{i=1}\alpha_i d_i=0$ si ottiene che il terzo termine si annullano, e applicando $\mathbf{w} = \sum^\ell_{i=1} \alpha_i d_i \mathbf{x}_i$ si puo espandere il secondo termine e il primo. Otteniamo $$\mathbf{w}^T\mathbf{w}= \sum^\ell_{i=1} 
+ \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i=
+ \sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j$$ perciò si puo riformulare come $$
+ \begin{array}{}
+Q(\alpha) &  = & \displaystyle\cfrac{1}{2}\sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j - \sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j  + \sum_i^\ell \alpha_i& \\
+ & = &\displaystyle    \sum_i^\ell \alpha_i- \frac{1}{2}\sum_{ij}^\ell\alpha_i\alpha_j d_id_j \mathbf{x}_i \mathbf{x}_j
+
+\end{array}
+ $$ dove $\alpha_i$ e $a_j$ sono tutte non negative.
+ 
+ Allora si puo definire il [[Problemi di ottimizazione - Dualità|problema duale]] come $$
+\begin{cases}
+\displaystyle\max_\alpha \sum_i^l \alpha_i- \frac{1}{2}\sum_{ij}^l\alpha_i\alpha_jd_id_j (\mathbf{x}_i \mathbf{x}_j) \\
+\displaystyle \sum_i^l\alpha_iy_i=0  \\
+\alpha_i\geq 0
+\end{cases}$$dove la funzione obiettivo è [[Funzioni Convesse-Concave|concava]] quindi sicuramente un __massimo__ ed è __sicuramente globale__.
+Questo formulazione dipende solo dai dati di training e non dal vettore $\mathbf{w}$ in questo caso il costo computazionale scala con il numero di dati $\ell$ invece che con il numero di dimensioni $n$ del input.
+
+risolvendo il __problema duale__ otteniamo i __Moltiplicatori Lagrangiani__ $\alpha_{o,i}$ e possono essere usati per calcolare $\mathbf{w}, b$ ovvero la __decision surface__, siccome $\alpha_{o,i}$ è non zero solo dove il vettore è di supporto abbiamo che $$\mathbf{w}  = \sum_i^{\ell_s}\alpha_{o,i} d_i\mathbf{x}_i $$ e $b$ per essere calcolato utilizza $\mathbf{w}$ quindi si ha$$\begin{array}{} 
+b & = &1-\mathbf{w}^T\mathbf{x}^{(s)}  \\
+ & = & \displaystyle 1 - \sum_i^{\ell_s}\alpha_{o,i} d_i\mathbf{x}_i^T\mathbf{x}^{(s)}   \end{array}$$
 ![[E2FD362E-4D60-4934-83E3-E2027FF8AFE6.jpeg]]
 
 
-### tolleranza agli errori 
+una risolto il problema duale per usare il modello no c è bisogno di calcolare esplicitamente il vettore $\mathbf{w}_o$ infatti$$\mathbf{w}_o\mathbf{x} + b_o=0 \iff\sum^\ell_{i=1} \alpha_{o,i} d_i \mathbf{x}^T_i \mathbf{x} +b_o=0$$ e quindi puo fare classificazione usando direttamente il dato di input prendendo il segno.
+
+
+
+# Miglioramento della generalizzazione
+---
+Con le SVM si fissa l'errore di training per problemi linearmente separabili. Minimizzare la norma di $\mathbf{w}$ è equivalente a minimizzare la VC-dimension e quindi minimizzare il termine $\epsilon$ (VC-confidence) nella [[Statistical Learning Theory - Vapnik|STL]].
+
+*Teorema di Vapnik:*
+	Sia $D$ il diametro della palla più piccola che si trova attorno agli esempi di training $\{\mathbf{x}_{i}\}_{i=1}^N$.
+	Per la classe di iperpiani di separazione descritta da dall'equazione $\mathbf{w}^T\mathbf{x}+b=0$, il limite superiore della VC-dimension è : $$VC \leq \min \left( \left \lceil   \frac{D^2}{\rho^2} \right \rceil , m_o \right) + 1$$
+
+Dove $\left \lceil   \frac{D^2}{\rho^2} \right \rceil= \text{Radios}^2||\mathbf{w}||^2$
+
+![[Pasted image 20250210173926.png]]
+ Non ho capito
+
+
+
+
+### Tolleranza agli errori 
 fin ad ora si è parlato di _Hard Margin_ ovvero i punti sono sempre correttamente classificati. si può rilassare questa ipotesi e permettere un po’ di rumore  e fornire margini piu grandi detto _Soft margin_. si fa introducendo una _Slack-variables_ 
 ![[CFFAB0D2-2ABE-48F2-9926-3C46BD49A973.jpeg]]
 
@@ -170,37 +215,6 @@ alcuni dei kernel piu usati sono:
 RBF è una scelta molto popolare può essere usata per fare decision boundry intorno a ogni punto del TR. infatti è molto potente per classificare correttamente su TR ma è molto prono a _overfitting_
 
 
-### modello conclusivo
-- abbiamo un modello dove si deve scegliere un _parametro_ $C$ per  il trade off per l errore e un _kernel_ $K$
-	- si risolve il problema di ottimizzazione cercando $\alpha$
-		- questo scala computazionalmente con il numero di dati non il _feature space dimension_
-		- molto modulare: basta cambiare  funzione _kernel_
-$$h(x) = sign\left(\sum_{p \in SV}\alpha_py_pK(\boldsymbol x_p,\boldsymbol x)\right)$$
 
 
 
-
-
-
-
-# Miglioramento della generalizzazione
----
-Con le SVM si fissa l'errore di training per problemi linearmente separabili. Minimizzare la norma di $\mathbf{w}$ è equivalente a minimizzare la VC-dimension e quindi minimizzare il termine $\epsilon$ (VC-confidence) nella [[Statistical Learning Theory - Vapnik|STL]].
-
-*Teorema di Vapnik:*
-	Sia $D$ il diametro della palla più piccola che si trova attorno agli esempi di training $\{\mathbf{x}_{i}\}_{i=1}^N$.
-	Per la classe di iperpiani di separazione descritta da dall'equazione $\mathbf{w}^T\mathbf{x}+b=0$, il limite superiore della VC-dimension è : $$VC \leq \min \left( \left \lceil   \frac{D^2}{\rho^2} \right \rceil , m_o \right) + 1$$
-
-Dove $\left \lceil   \frac{D^2}{\rho^2} \right \rceil= \text{Radios}^2||\mathbf{w}||^2$
-
-![[Pasted image 20250210173926.png]]
- Non ho capito
-
-## Approccio elegante
----
-Per i dati linearmente separabili posso esserci molteplici soluzioni e l'approccio di Vapnik propone un *iperpiano di separazione ottimale* massimizzando il margine fornendo :
-- Una soluzione unica con zero errori per il classificatore binario 
-	- non vale per il algoritmo di learning iterativo  del percettrone e non per la LMS
-- Un approccio automatizzato della SRM che minimizza la VC-confidence come parte del processo di training. senza iperparametri nel caso di dati linearmente separabili
-- L'uso di un solver della classe dei problemi quadratici vincolati con una forma duale 
-- Una soluzione incentrata sui dati di training selezionati (i support vector)

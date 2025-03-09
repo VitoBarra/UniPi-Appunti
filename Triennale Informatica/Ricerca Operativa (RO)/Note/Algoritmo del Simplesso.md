@@ -109,7 +109,7 @@ L’algoritmo del simplesso duale parte da un vertice del poliedro duale
 
 se il vertice del poliedro primale corrisponde alla stessa [[Basi e vertici| basi]] è ammissibile allora il vertice primale è ottimo e l algoritmo si ferma. altrimenti trova una direzione di spostamento che è una [[Direzioni di crescita e di decrescita|direzione di decrescita]] per il duale.
 
-Se tale direzione è di [[Poliedro#Direzione di recessione|recessione]] per il [[Dualità|poliedro duale]], allora la regione ammissibile del primale è vuota e l algoritmo si ferma.
+Se tale direzione è di [[Poliedro#Direzione di recessione|recessione]] per il [[Problemi di ottimizazione - Dualità|poliedro duale]], allora la regione ammissibile del primale è vuota e l algoritmo si ferma.
 altrimenti l algoritmo trova il passo di spostamento lungo la direzione trovata e una nuova base, cambiando un solo indice rispetto alla vecchia base, in odo che la nuova soluzione di base duale rimanga ammissibile (il nuovo vertice duale è adiacente al vertice precedente)
 
 ### Trovare soluzione di base ammissibile
