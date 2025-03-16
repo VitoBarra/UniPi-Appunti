@@ -1,10 +1,9 @@
 ---
-Course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: nota
-tags: AL
+tags:
+  - AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
 
 # Sottospazio Vettoriale
 ---

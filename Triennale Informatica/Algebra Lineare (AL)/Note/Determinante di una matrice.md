@@ -47,15 +47,5 @@ A^i = λ_1v_1 + · · · + λ_hv_h
 $$
 
 per qualche $v_j \in K^n$ e $λ_j ∈ K$. Sia $B_j$ la matrice ottenuta da $A$ sostituendo la colonna $A^i$
-con $v_j$  per $j = 1,\dots,h$ vale
-
-
-
-$$
-det(A)=\lambda_1 det(B_1)+\cdots+\lambda_h det(B_h)
-$$
-
-Corollario: siccome $det(A) =det({}^t\!A)$ questo vale anche per le righe
-
-Esempi:
-![[Studi/Triennale Informatica/1° Anno/Algebra Lineare (AL)/Media/Untitled 1 11.png]]
+con $v_j$  per $j = 1,\dots,h$ vale$$
+det(A)=\lambda_1 det(B_1)+\cdots+\lambda_h det(B_h)$$Corollario: siccome $det(A) =det({}^t\!A)$ questo vale anche per le righe

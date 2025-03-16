@@ -21,14 +21,14 @@ l'algoritmo per la classificazione binaria è il seguente.
 ![[Pasted image 20241220211455.png]]
 
 4. Calcola la classe media scelta, questo rappresenta un voto di maggioranza  $$avr_k(\mathbf{x})= \frac{1}{k}\sum_{x_i\in N_k(\mathbf{x} )} y_i$$
-5. restituisci la classe che vince il voto di maggioranza, ovverods$$
+5. restituisci la classe che vince il voto di maggioranza, ovvero$$
 \begin{cases}
 1 & if & avg_k(\mathbf{x})>0.5 \\
 0 & & \text{otherwise}
 \end{cases}$$ 
 
 
-con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto inrregulare e rumoroso. Solitamente va in __[[Overfitting e Underfitting|overfitting]]__
+con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto irregolare e rumoroso. Solitamente va in __[[Overfitting e Underfitting|overfitting]]__
 ![[Pasted image 20241225023553.png]]
 con un $K$ più altro si ottiene un decision boundary comunque flessibile e non lineare ma un po meno rumoroso. Solitamente un valore alto ma non troppo porta a dei buoni risultati.
 ![[Pasted image 20241225023615.png]]
@@ -56,10 +56,10 @@ I __gradi di libertà__ son detti "parametri effettivi" del modello.
 
 Al variare di questi cambiano le performance del algoritmo infatti abbiamo il seguente grafico che lo mostra:
 ![[Pasted image 20241225034737.png]]
-Il classificatore $K$-NN  cerca di approssimare la soluzione di un __[[Classificatore Bayesiano|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ tramite i punti vicini al punto $\mathbf{x}$, della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza. Questa probabilità condizionata ovvero ciò che il __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
+Il classificatore $K$-NN cerca di approssimare la soluzione di un __[[Classificatore Bayesiano|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza basata sui punti $\mathbf{x}$. Ovvero approssima la  probabilità condizionata usata dal __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
 
 ![[Pasted image 20241225034635.png]]
-in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __classificatore bayessiano__ direttamente (a sinistra)  e si può vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
+in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __Classificatore Bayessiano__ direttamente (a sinistra)  e si può vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
 
 
 

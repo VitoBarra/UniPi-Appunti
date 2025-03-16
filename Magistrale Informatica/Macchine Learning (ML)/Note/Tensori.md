@@ -2,6 +2,7 @@
 Course: "[[Machine Learning (ML)]]"
 tags:
   - IA
+  - ML
 Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic:

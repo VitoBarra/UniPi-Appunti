@@ -25,9 +25,9 @@ considerando un __input layer__ un __hidden layer__ e un __output layer__ l ipot
 - $\mathbf{W}$ è la matrice dei __parametri__ ovvero i pesi 
 - $\mathbf{x}$ il vettore di __input__.
 
-se $f$ è una funzione lineare allora $h$ è funzione NON è [[Equazioni Lineari e Lineari omogenee|lineare]] nei parametri $W$, nel caso in cui questa invece sia lineare allora l ipotesi diventa uguale ad avere un solo layer e si ritorna ad un [[Modelli lineari con LMS|modello lineare]].
+se almeno una delle [[Funzioni di attivazione|funzioni di attivazioni]] $f$ è una funzione NON lineare allora $h$ è funzione NON è [[Equazioni Lineari e Lineari omogenee|lineare]] nei parametri $W$, nel caso in cui queste invece siano lineari allora l'ipotesi diventa uguale ad avere un solo layer e si ritorna ad un [[Modelli lineari con LMS|modello lineare]].
 
-con $h$ non lineare abbiamo che il problema di ottimizzazione per imparare i parametri diventa un problema non lineare.
+con $h$ NON lineare si ha che il problema di ottimizzazione per imparare i parametri diventa un problema non lineare.
 
 alcuni esempi di architetture sono le seguenti:
 ![[Pasted image 20241229014458.png]]

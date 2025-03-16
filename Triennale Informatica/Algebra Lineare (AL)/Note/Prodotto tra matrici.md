@@ -15,29 +15,6 @@ A_{i1}B_{1j}+\cdots+A_{in}B_{nj}
 $$
 Questo tipo di prodotto fra matrici si chiama prodotto riga per colonna perché l’elemento $(AB)_{ij}$ si ottiene facendo un opportuno prodotto fra la riga $i\text{-esima } A_i$ di $A$ e la colonna $j\text{-esima } B^j$ di $B$
 
-un esempio:
-
-$$
-\begin{pmatrix}
-1 &  2 \\
--1 & 1 \\
-0 & 3
-\end{pmatrix}
-\cdot
-\begin{pmatrix}
--1 & 2 & 0 & 1 \\
-3 & 0 & 3 & 0
-\end{pmatrix}
-=
-\begin{pmatrix}
- 5 & 2 & 6 & 1 \\
-4 & -2 & 3 & -1 \\
-9 & 0 & 9 & 0
-\end{pmatrix}
-$$
-
-
-
 ![[IMG_0763.jpeg]]
 ### proprietà algebriche matrici:
 
