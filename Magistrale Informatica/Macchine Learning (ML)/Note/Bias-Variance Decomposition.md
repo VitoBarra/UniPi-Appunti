@@ -55,7 +55,7 @@ $$
 
 ovvero abbiamo scomposto l errore atteso in 3 componenti:
 - **Bias**: discrepanza media tra la funzione reale $f(x)$ e $h(x)$ su diversi set di addestramento (rigidità del modello). $[\bar{h}(x)-f(x)]^2$
-- **Varianza**: variabilità del modello $h$ per realizzazioni diverse del set di addestramento (alta flessibilità). $\mathbb{E}_{\mathcal{P}}\left[(y - f(x))^2\right]$
+- **Varianza**: variabilità del modello $h$ per realizzazioni diverse del set di addestramento (alta flessibilità). $\mathbb{E}_{\mathcal{P}}\left[(h(x) - \bar{h}(x))^2\right]$
 - **Rumore**: errore casuale intrinseco nei dati, non eliminabile non dipende dal modello
 ![[Pasted image 20250203175744.png]]
 ![[Pasted image 20250203155239.png]]

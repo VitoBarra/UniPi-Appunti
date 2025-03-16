@@ -228,11 +228,6 @@ Siano $k_1$ e $k_2$ due funzioni kernel definite su $\mathbb{R}^{m_o} \times \ma
 - **Prodotto di kernel**: $k_1(\mathbf{x}, \mathbf{y}) k_2(\mathbf{x}, \mathbf{y})$
 Queste proprietà garantiscono che possiamo costruire nuovi kernel combinando kernel noti.
 
-
-Si puo usare la matrice dei kernel per definire problemi primali e duali della SVM semplicemente sostituendo $K(x_i,x_j)$ a $x_i^Tx_j$ mentre per predire la classe di un $\mathbf{x}$ mai visto dal modello si usa l'ipotesi: $$h_w(\boldsymbol x) = sign \left(\sum_{i\in SV}\alpha_iy_iK(\mathbf{x},\mathbf{x}_i) +b \right)$$
-##### Definizione Kernel function
-un __Kernel function__ $k:\mathbb{R}^n\times\mathbb{R}^n \rightarrow \mathbb{R}$ è una funzione che dato un [[Hilbert Space|Hilbert space]] $X^m$ e una funzione $\phi:\mathbb{R}^n\rightarrow X^m$ esiste tale che $$K(\boldsymbol x_i,\boldsymbol x_j) = \phi(\boldsymbol x_i)^T\phi(\boldsymbol x_j)$$si utilizza $k$ per calcolare il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]] direttamente in __feature space__ 
-
 Alcuni dei kernel piu usati sono:
 1. __Polinomiale__: di potenza $k(\mathbf{x}_i,\mathbf{x}_j)=(\mathbf{x}_i^T\mathbf{x}_j+1)^p$ dove $p$ è un **iper-parametro**.
 	- il **feature space** ha dimensionalità pari a $p$
@@ -240,6 +235,17 @@ Alcuni dei kernel piu usati sono:
 	- il mapping è in un **feature space** di dimenzionalita  $\infty$ quindi molto complesso e puo portare ad overfitting. 
 3. **Two layer perceptron** $k(\mathbf{x}_i,\mathbf{x}_j)=\tanh(\beta_0\mathbf{x}^T\mathbf{x}_i+\beta_1)$ dove $\beta_0>0$ e $\beta_1<0$ sono **iper-parametri** 
 	- Per questo tipo di kernel si riesce a definire l __inner product__ solo per certe scelte di $\beta_0$ e $\beta_1$
+
+Si puo usare la matrice dei kernel per definire problemi primali e duali della SVM semplicemente sostituendo $K(x_i,x_j)$ a $x_i^Tx_j$ mentre per predire la classe di un $\mathbf{x}$ mai visto dal modello si usa l'ipotesi: $$h_w(\boldsymbol x) = sign \left(\sum_{i\in SV}\alpha_iy_iK(\mathbf{x},\mathbf{x}_i) +b \right)$$
+
+
+
+
+
+Si puo vedere la SVM come avente un architettura simile alle [[Reti Neurali (NN)|rete neurale]] ma il funzionamento dei neuroni è diverso, ogni peso non è libero e deve sottostare ai vincoli della SVM.  
+![[IMG - SVM come Rete neurale.png]]
+Ogni neurone prima del output è il valore di un kernel.
+
 
 
 
