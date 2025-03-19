@@ -17,7 +17,7 @@ __Le unità sono connesse tramite collegamenti pesi__ e organizzate in _layers_ 
 - __Hidden Layer__: Il livello nascosto proietta sul livello di output (o su un altro livello nascosto).
 - __Output Layer__ : ultimo layer del modello che ne calcola l output 
 
-Ogni neurone è un __unità__ definito in modo molto simile al [[Rete di Percetroni|percettrone]] ma se ne cambia la [[Funzioni di attivazione|funzione di attivazione]].
+Ogni neurone è un __unità__ definito in modo molto simile al [[Rete di Percettroni|percettrone]] ma se ne cambia la [[Funzioni di attivazione|funzione di attivazione]].
 ![[Pasted image 20241229014328.png]]
 Una __Feed Forward__ può anche essere vista come come un __ipotesi flessibile__ $h$. Per questa $h$ è vale che ad ogni input è associato un solo output e quindi è una [[Funzioni|funzione]] 
 

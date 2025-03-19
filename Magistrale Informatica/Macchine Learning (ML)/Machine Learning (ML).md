@@ -39,7 +39,7 @@ tags:
 5. [[Support Vector Machine (SVM)]]
 	1. [[Support Vector Machine per la regressione (SVR)]]
 6. [[Ensemble Learning]]
-7. [[Rete di Percetroni]]
+7. [[Rete di Percettroni]]
 8. [[Reti neurali Feed-Forward (FF)]]
 9. [[BackPropagation]]
 10. [[Euristiche per il gli algoritmi di learning su reti neurali]]
