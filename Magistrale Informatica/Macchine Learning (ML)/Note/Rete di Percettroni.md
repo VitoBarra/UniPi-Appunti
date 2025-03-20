@@ -7,10 +7,10 @@ Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic:
 ---
-# Rete di Percetroni
+# Rete di Percettroni
 ---
-una __rete di percetroni__ è un [[Modelli Parametrici|modello parametro]] di [[Algoritmi di Machine Learning|machcine learning]]  del paradigma delle [[Reti Neurali (NN)|reti neurali]] 
-può essere usato solo per risolvere problemi di classificazione binaria e si basa sul __percetrone__ ovvero un __neurone__ la cui [[Funzioni di attivazione|funzione di attivazione]] è  la funzione Threshold. 
+una __rete di percettroni__ è un [[Modelli Parametrici|modello parametro]] di [[Algoritmi di Machine Learning|machine learning]]  del paradigma delle [[Reti Neurali (NN)|reti neurali]] 
+può essere usato solo per risolvere problemi di classificazione binaria e si basa sul __percettrone__ ovvero un __neurone__ la cui [[Funzioni di attivazione|funzione di attivazione]] è  la funzione Threshold. 
 
 ![[Pasted image 20241226222224.png]]
 
