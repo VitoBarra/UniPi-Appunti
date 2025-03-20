@@ -110,9 +110,9 @@ e quindi per calcolare $\mathbf{w}$  e $b$ possiamo considerare solo l insieme $
 
 
 Siccome il problema di ottimizzazione che abbiamo ha una __obiettivo convessa__ e __vincoli lineari__ possiamo formulare il suo [[Problemi di ottimizazione - Dualità|problema duale]] che ha gli stessi __valori ottimi__ di $\mathbf{w}$ e $b$ ma esprime la sua funzione obiettivo in funzione dei moltiplicatori di Lagrange. Per fare ciò si espande la lagrangiana $$\mathbf{J}(\mathbf{w},b,\alpha)= \cfrac{\mathbf{w}^T\mathbf{w}}{2} - \sum^\ell_{i=1} 
- \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i -  b\sum^\ell_{i=1}\alpha_i d_i + \sum^\ell_{i=1}\alpha_i$$ e applicando le condizione di ottimalità $\sum^\ell_{i=1}\alpha_i d_i=0$ si ottiene che il terzo termine si annullano, e applicando $\mathbf{w} = \sum^\ell_{i=1} \alpha_i d_i \mathbf{x}_i$ si puo espandere il secondo termine e il primo. Otteniamo $$\mathbf{w}^T\mathbf{w}= \sum^\ell_{i=1} 
+ \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i -  b\sum^\ell_{i=1}\alpha_i d_i + \sum^\ell_{i=1}\alpha_i$$ e applicando le condizione di ottimalità $\sum^\ell_{i=1}\alpha_i d_i=0$ si annulla il terzo termine, e applicando $\mathbf{w} = \sum^\ell_{i=1} \alpha_i d_i \mathbf{x}_i$ si puo espandere il primo e il secondo. Espandiamo il mprimo termine come: $$\mathbf{w}^T\mathbf{w}= \sum^\ell_{i=1} 
  \alpha_i  d_i\mathbf{w}^T\mathbf{x}_i=
- \sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j$$ perciò si puo riformulare come $$
+ \sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j$$ e perciò si puo riformulare come $$
  \begin{array}{}
 Q(\alpha) &  = & \displaystyle\cfrac{1}{2}\sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j - \sum^\ell_{i=1} \sum^\ell_{j=1}  \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T  \mathbf{x}_j  + \sum_i^\ell \alpha_i& \\
  & = &\displaystyle    \sum_i^\ell \alpha_i- \frac{1}{2}\sum_{ij}^\ell\alpha_i\alpha_j d_id_j \mathbf{x}_i \mathbf{x}_j
