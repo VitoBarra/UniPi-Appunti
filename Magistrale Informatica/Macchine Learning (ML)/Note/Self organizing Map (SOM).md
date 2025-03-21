@@ -12,7 +12,7 @@ SubTopic:
 le __self organizing maps__ (__SOM__) o anche dette __Kohonen maps__ sono [[Modelli Parametrici|modelli parametrici]] basto su [[Reti Neurali (NN)|reti neurali]] allenate con un algoritmo per l' [[Algoritmi di learning NON supervisionato|apprendimento non supervisionati]]. 
 
 
-Le __SOM__ sono formate da $N$ neuroni -disposti su di una griglia uniforme a bassa dimensionalità, solitamente si usa una griglia 2D anche detta __lattice__   ![[Pasted image 20250222181050.png]]
+Le __SOM__ sono formate da $N$ neuroni  disposti su di una griglia uniforme a bassa dimensionalità, solitamente si usa una griglia 2D anche detta __lattice__   ![[Pasted image 20250222181050.png]]
 Ogni neurone è univocamente identificabile sulla griglia con delle __coordinate__ dove il numero delle coordinate necessarie è la dimensione scelta della griglia ed ad ognuno di questi è associato un peso $\mathbf{w}$ che rappresenta la sua posizione in __input space__, infatti si ha che $dim(\mathbf{x}) = dim(\mathbf{w}) = k$ .
 
 le __SOM__ sono un mapping dal __input space__ ai neuroni presenti sulla griglia è questo è utile per fare 
@@ -27,7 +27,7 @@ Imparare i pesi $\mathbf{w}$ muove i neuroni nel input space ma l'algoritmo usat
 
 ### Algoritmo di learning
 l algoritmo di learning delle __SOM__ è del tipo [[Learning Competitivo|learning competitivo]] è segue come:
-1. **Inizializzazione**: i pesi $\mathbf{w}$ di ogni neurone nella viene inizializato casualmente  
+1. **Inizializzazione**: i pesi $\mathbf{w}$ di ogni neurone nella viene inizializzato casualmente  
 2. **Selezione dell'input**: viene estratto un campione di input $x$ e viene passato a tutti i neuroni.
 	![[Pasted image 20250222171555.png]]
 3. __Fase competitiva__: si sceglie il neurone __vincente__ è ovvero quello con il peso $\mathbf{w}$ più vicino usando la [[Distanza euclidea|distanza euclidea]] al input $\mathbf{x}$. Questo è indicato dalle coordinate $r_{i^*(x)}$ con $i^*(\boldsymbol x)= \arg_i \min \|\boldsymbol x -\mathbf{w}_i\|^2_2$
@@ -35,12 +35,4 @@ l algoritmo di learning delle __SOM__ è del tipo [[Learning Competitivo|learnin
  ![[Pasted image 20250222172136.png]]
 5. __Iterazione fino alla convergenza__: il processo continua fino a che non si verificano più cambiamenti.  
 
-![[Som gif.gif.gif]] ![[Pasted image 20250222192015.png]]
-
-
-### Discussione
-Un aspetto fondamentale nella formazione di mappe topograficamente ordinate è la regola di aggiornamento dei pesi nella fase cooperativa. A differenza di un aggiornamento indipendente per ogni unità, i pesi vengono modificati in gruppi che rispettano una relazione topologica.  
-
-In pratica, per ogni iterazione del processo di apprendimento, non viene aggiornata solo l'unità vincente, ma anche le unità vicine nella griglia. Questo significa che i nodi che si trovano nello stesso vicinato ricevono aggiornamenti simili, permettendo loro di sviluppare una risposta coerente agli stessi tipi di input.  
-
-Questo meccanismo garantisce che la mappa apprenda una rappresentazione organizzata dei dati, mantenendo una struttura in cui unità vicine rispondono a stimoli simili. Anche se questo approccio appare intuitivo, dimostrare formalmente come avvenga l'ordinamento delle unità è un compito complesso, come approfondito nel libro di Kohonen.  
+![[IMG - Som alg gif.gif]] ![[IMG - SOM wheight Positions.png]]

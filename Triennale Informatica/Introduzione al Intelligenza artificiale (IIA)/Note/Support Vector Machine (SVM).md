@@ -11,9 +11,9 @@ SubTopic:
 
 # Support Vector Machine (SVM)
 ---
-Le __Support Vector Machines__ (__SVM__) sono [[Modelli Parametrici|modelli parametrici di macchine learning]]  allenate con [[Algoritmi di learning supervisionato|strategie supervisionate]], è il primo modello che direttamente dalla [[Statistical Learning Theory (SLT)|statistical learnuing theory]] e fa structural risk minimization (SRM). 
+Le __Support Vector Machines__ (__SVM__) sono [[Modelli Parametrici|modelli parametrici di macchine learning]]  allenate con [[Algoritmi di learning supervisionato|strategie supervisionate]], è il primo modello che direttamente dalla [[Statistical Learning Theory (SLT)|statistical learnuing theory]] e fa [[Statistical Learning Theory (SLT)|structural risk minimization (SRM)]]. 
 
-le __Support Vector Machines__ (__SVM__) sono essenzialmente [[Modelli lineari con LMS|modello lineare]] ma si usa un problema di ottimizazione ad hoc per fare [[Statistical Learning Theory (SLT)|Structural Risk Minimization]]
+le __Support Vector Machines__ (__SVM__) sono essenzialmente [[Modelli lineari con LMS|modello lineare]] ma si usa un problema di ottimizzazione ad hoc per fare [[Statistical Learning Theory (SLT)|Structural Risk Minimization]]
 
 
 
