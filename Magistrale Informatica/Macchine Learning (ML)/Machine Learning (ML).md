@@ -33,6 +33,7 @@ tags:
 	8. [[Teorema di copertura (Cover Theorem)]]
 	9. [[Teorema di Mercer]]
 	10. [[Deep Learning]]
+	11. [[Curse of dimensionality e Curse of noise]]
 3. [[Modelli lineari con LMS]]
 	1. [[Linear Trashold Unit (LTU)]]
 4. [[K-Nearest Neighbor (K-NN)]]
@@ -51,7 +52,7 @@ tags:
 	3. [[Funzione di attivazione - LeakyReLu]]
 	4. [[Funzione di attivazione - ELU]]
 	5. [[Funzione di attivazione - SoftPlus]]
-	6. [[Funzione di attivazione - Sigmoide]]
+	6. [[Funzione di attivazione - Sigmoidale]]
 	7. [[Funzione di attivazione - TanH]]
 	8. [[Funzione di attivazione - SoftMax]]
 13. [[Convolutional Neural Network  (CNN)]]
@@ -67,7 +68,7 @@ tags:
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 18. [[Recurrent neural network (RecNN)]]
 19. [[Structural Domain Learning (SDL)]]
-20. Clustering
+20. [[Data analisys - Clustering]]
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]
 

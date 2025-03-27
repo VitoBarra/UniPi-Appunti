@@ -18,7 +18,7 @@ Allo scopo di efficentare il training tramite [[BackPropagation|BackPropagation]
 L' architettura generale degli approccio randomizati prevedono due parti un primo insieme di __hidden layer__ che vengono inizializzatati casualmente e e non allenati e un secondo detto __read out__ che invece viene allenato
 ![[Pasted image 20250207214659.png]]
 La parte __non trainata__ proietta l' input in uno spazio a più altra dimensionalità ovvero implementa una [[Linear Basis Expansion (LBE)|Large Basis Expansion (LBE)]] __NON__ lineare  e dal __[[Teorema di copertura (Cover Theorem)|Teorema di Copertura]]__ sappiamo che questo rende il problema probabilmente [[Linearmente Separabili|linearmente separabile]].
-il __read out__ impara a leggere le [[Rappresentazione simbolica e distribuita dei concetti|feature]] progliettare dagli hidden layer per poterle usare per il task specifico per cui è stato allenato.
+il __read out__ impara a leggere le [[Rappresentazione simbolica e distribuita dei concetti|feature]] proiettare dagli hidden layer per poterle usare per il task specifico per cui è stato allenato.
 
 ## Implementazione di RWNNs
 si può realizzare una semplice implementazione di una rete con __pesi randomizati__ usando un [[Reti neurali Feed-Forward (FF)|architettura feed-forward]] 

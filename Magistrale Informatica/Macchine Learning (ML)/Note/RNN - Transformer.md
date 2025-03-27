@@ -21,10 +21,10 @@ $$
 $$
 
 dove:
-- $ Q $ è la matrice delle query,
-- $ K $ è la matrice delle chiavi,
-- $ V $ è la matrice dei valori,
-- $ d_k $ è la dimensione delle chiavi.
+- $Q$ è la matrice delle query,
+- $K$ è la matrice delle chiavi,
+- $V$ è la matrice dei valori,
+- $d_k$ è la dimensione delle chiavi.
 
 
 ![[Pasted image 20250207235010.png]]
