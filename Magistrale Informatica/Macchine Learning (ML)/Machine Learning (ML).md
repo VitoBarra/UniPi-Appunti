@@ -68,7 +68,7 @@ tags:
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 18. [[Recurrent neural network (RecNN)]]
 19. [[Structural Domain Learning (SDL)]]
-20. [[Data analisys - Clustering]]
+20. [[Data analysis- Clustering]]
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]
 

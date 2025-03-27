@@ -7,7 +7,7 @@ tags:
 ---
 # K-Means
 ---
-il __$k$-Means__ è un [[Algoritmi di learning NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli Instance-Based|Instance-Based]]  usato per il [[Data analisys - Clustering|clustering]] 
+il __$k$-Means__ è un [[Algoritmi di learning NON supervisionato|algoritmo di apprendimento non supervisionato]] [[Modelli Instance-Based|Instance-Based]]  usat[[Data analysis- Clustering|clustering]]stering]] 
 
 
 Un modo di fare __clustering__ è tramite l'utilizzo di [[Quantizzatori Vettoriali (VQ)]]. 
@@ -30,9 +30,7 @@ E = \sum_{i}^{\ell} \sum_{j}^{K} \left\| \mathbf{x}_i - \mathbf{w}_j \right\|^2 
 $$Dove $$\delta_{\text{winner}}(i,j)= \begin{cases}
 1  &  if  &  \mathbf{w_j} = w_{j^*(x_i)}   \\
  0& else 
-\end{cases}$$Si può trovare l'insieme $c(x)$ ottimo minimizzando la funzione di loss.
-
-il __$k$-Means__ per fare [[Data analisys - Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]], si usa quindi la definizione del problema [[Data analisys - Clustering#Clustering tramite quantizzazione di vettori]]
+\end{cases}$$Si può trovare l'insieme $c(x)$ ottimo minimizzando la funzione di l[[Data analysis- Clustering|clustering]]analisys - Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]], si usa q[[Data analysis- Clustering#Clustering tramite quantizzazione di vettori]]ramite quantizzazione di vettori]]
 [[Derivate|Derivando]] la funzione di loss si ottiene la regola di aggiornamento: $$\Delta \mathbf{w}_{i^*} = \eta \delta_{winner} (i,i^*)(x_i-w_{i^*}) $$ e questa regola costituisce la versione __[[Tecnica di ottimizzazione Gradient Descent|online]]__ del __$k$-mean__
 
 Mentre la versione __[[Tecnica di ottimizzazione Gradient Descent|batch]]__ segue come:

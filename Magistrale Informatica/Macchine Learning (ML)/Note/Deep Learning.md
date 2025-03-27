@@ -13,8 +13,8 @@ Il **Deep Learning** è una sotto-disciplina del [[Machine Learning (ML)|Machine
 Un esempio classico di rete deep è il [[Reti neurali Feed-Forward (FF)|Multi-Layer Perceptron]] (MLP) con più __hidden layer__. 
 ![[Pasted image 20250205223357.png]]
 
-Il __Deep learning__ ha un __bias induttivo__ dove assume che le funzioni che  [[Funzioni|funzione]] rappresenta siano per natura composizionale, ovvero sono della forma $$f(g(x))$$Questo avviene siccome ogni layer intermedio trasforma l'input in una rappresentazione a più alto livello ($g(x)$) che può essere usato dal successivo __come primitiva__ per costruirne una nuova ancora a più alto livello ($f(g(x))$) e cosi via fino al Output.  
-questo processo è anche detto __feature learning__ ed ad ogni layer la feature imparata e in una [[Rappresentazione simbolica e distribuita dei concetti|rappresentazione distribuita]]
+Il __Deep learning__ ha un __bias induttivo__ dove assume che le funzioni che  [[Funzioni|funzione]] rappresenta siano per natura composizionali, ovvero sono della forma $$f(g(x))$$Questo avviene siccome ogni layer intermedio trasforma l'input in una rappresentazione a più alto livello ($g(x)$) che può essere usato dal successivo __come primitiva__ per costruirne una nuova ancora a più alto livello ($f(g(x))$) e cosi via fino al Output.  
+questo processo è anche detto  __feature learning__ ed ad ogni layer la feature imparata e in una [[Rappresentazione simbolica e distribuita dei concetti|rappresentazione distribuita]]
 Questo processo aiuta la capacita di generalizzazione di una rete neurale siccome gli evita il dover imparare direttamente da tutte le [[Combinatoria|combinazioni]] degli input. 
 ![[Pasted image 20250205225036.png]]
 
@@ -26,9 +26,9 @@ Il __deep learning__ a differenza di altri modelli come il [[K-Nearest Neighbor 
 le [[Reti Neurali (NN)|reti neurali]] del __deep learning__ *__NON__* sono più espressive rispetto alla sua controparte shallow questo grazie al [[Teorema di approssimazione universale|Teorema di approssimazione universale]] che ci dice che ogni rete con almeno un hidden layer può approssimare arbitrariamente bene qualsiasi funzione, ma non specifica nessun bound sul numero di unita necessarie per l approssimare. 
 Per alcune famiglie di funzioni è possibile calcolare questo bound. 
 
-Tuttavia, un __modello deep__ può essere __più efficiente__ in termini di numero di parametri e unita nascoste rispetto ad un modello shallow. Infatti, esistono famiglie di funzioni per cui un modello con almeno $d$ layer può approssimarle in modo compatto nel caso si avesse meno di $d$ layer è richiesto un numero di neuroni esponenziale rispetto al numero di input.
+Tuttavia, un __modello deep__ può essere __più efficiente__ in termini di numero di parametri e unita nascoste rispetto ad un modello shallow. Infatti, esistono famiglie di funzioni per cui un modello con almeno $d$ layer può approssimarle in modo compatto, mentre modelli con meno di $d$ layer richiedono un numero  di neuroni rispetto esponenziale al numero di input.
 
-Il **No-Flattening Theorem** afferma le funzioni di natura composizione possono essere rappresentate in modo __efficiente__ da una __rete deep__, ma non possono essere rappresentate con la stessa efficienza se la rete viene appiattita a un solo hidden layer. 
+Il **No-Flattening Theorem** afferma le funzioni di natura composizionale possono essere rappresentate in modo __efficiente__ da una __rete deep__, ma non possono essere rappresentate con la stessa efficienza se la rete viene appiattita a un solo hidden layer. 
 
 
 
@@ -36,7 +36,7 @@ Il **No-Flattening Theorem** afferma le funzioni di natura composizione possono 
 #### Utilizzo delle rappresentazione intermedie
 Nel __deep learning__ funziona per via della sua capacita di sfruttare le rappresentazioni intermedie costruite dagli hidden layer.
 Per sfruttare al meglio questa proprietà sono state sviluppate alcune tecniche come il 
-- __Layer-wise pre-training__:  strategie di training [[Algoritmi di Apprendimento semi-supervisionato|semi-supervisionato]] che sfrutta il **pratraining** su dati unlabled per creare le rappresentazioni interne prima di iniziare l effettivo training su dati con label
+- __Layer-wise pre-training__:  strategie di training [[Algoritmi di Apprendimento semi-supervisionato|semi-supervisionato]] che sfrutta il pratraining su dati unlabled per creare le rappresentazioni interne prima di iniziare l effettivo training su dati con label
 - __Transfer learning__: utilizzare rappresentazioni imparate in altri contesti per risolvere problemi diversi dal originale.
 
 ##### Pre-Training
@@ -79,7 +79,7 @@ La ripetizione di moltiplicazioni attraverso molti strati può introdurre discon
 
 
 ##### Funzioni di attivazione
-Le funzioni di attivazione __[[Funzione di attivazione - Sigmoidale|sigmoide]]__ e __[[Funzione di attivazione - TanH|tanh]]__ soffrono di saturazione: i loro valori tendono a essere molto vicini a $0$ o $1$, facendo sì che il gradiente diventi molto piccolo e rallenti l'apprendimento (__vanishing gradient__).
+Le funzioni di attivazione __[[Funzione di attivazione - Sigmoide|sigmoide]]__ e __[[Funzione di attivazione - TanH|tanh]]__ soffrono di saturazione: i loro valori tendono a essere molto vicini a $0$ o $1$, facendo sì che il gradiente diventi molto piccolo e rallenti l'apprendimento (__vanishing gradient__).
 per migliorare questo aspetto si fa uso di __[[Funzione di attivazione - ReLu|ReLU]]__ ha notevolmente migliorato il training dei modelli profondi, in quanto: Propaga gradienti significativi attraverso la rete la [[Derivate|derivata]] è o $0$ o $1$ e non soffre di saturazione per valori positivi.
 
 Tuttavia, la funzione __ReLU__ può avere problemi con i **neuroni morenti** (Dead Neurons), ovvero quando i valori negativi producono gradienti nulli. Varianti come __[[Funzione di attivazione - LeakyReLu|Leaky ReLU]]__ e __[[Funzione di attivazione - ELU|ELU]]__ sono state sviluppate per mitigare questo problema.

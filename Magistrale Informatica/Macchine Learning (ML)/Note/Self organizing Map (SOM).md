@@ -16,7 +16,7 @@ Le __SOM__ sono formate da $N$ neuroni  disposti su di una griglia uniforme a ba
 Ogni neurone è univocamente identificabile sulla griglia con delle __coordinate__ dove il numero delle coordinate necessarie è la dimensione scelta della griglia ed ad ognuno di questi è associato un peso $\mathbf{w}$ che rappresenta la sua posizione in __input space__, infatti si ha che $dim(\mathbf{x}) = dim(\mathbf{w}) = k$ .
 
 le __SOM__ sono un mapping dal __input space__ ai neuroni presenti sulla griglia è questo è utile per fare 
-- __[[Data analisys - Clustering|Clustering]]__: i cluster possono essere identificati sulla mappa, permettendo di trovare rapidamente le strutture sottostanti nei dati.  
+- __[[Data analysis- Clustering|Clustering]]__: i cluster possono essere identificati sulla mappa, permettendo di trovare rapidamente le strutture sottostanti nei dati.  
 - __Riconoscimento di pattern e [[Quantizzatori Vettoriali (VQ)|Quantizazione vettoriale]]__: l'input viene trasformato nei pesi del neurone più vicino, ovvero nel vettore di riferimento o "codebook".  
 - **Compressione dei dati**: l'input viene convertito negli indici, o codici digitali, dell'unità vincente.  
 - **Proiezione ed esplorazione**: la distribuzione dei dati multidimensionali viene visualizzata in uno spazio a dimensione inferiore (la mappa 2D).  
