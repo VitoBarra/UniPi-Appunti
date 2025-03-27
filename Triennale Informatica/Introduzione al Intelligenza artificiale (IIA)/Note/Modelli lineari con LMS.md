@@ -109,9 +109,9 @@ __Sia__
 __Trova__ $h_w(x)$ che minimizza la funzione di $Loss$ sui dati nel  $TR$
 
 
-Anche in questo caso esiste una soluzione diretta ottenibile ponendo il gradiente a $0$ ovvero $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=0$$e sapendo che $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\sum^\ell_{p=1}x_{p,j}(y_p-\mathbf{x}_p^T\mathbf{w})  = 0\ \ \ \ \forall j =0\dots n$$ da cui riscrivendo sotto forma matriciale otteniamo che  $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\mathbf{X}^T_j(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$e considerando tutto il vettore $\mathbf{w}$ si ha che $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=-2\mathbf{X}^T(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$ e da qui semplificando si arriva all' __[[Equazione normale|equazione normale]]__$$(\mathbf{X}^T\mathbf{X})\mathbf{w}=\mathbf{X}^T\mathbf{y}$$ e si ha che __se__ $(\mathbf{X}^T\mathbf{X})$ risulta [[Matrice inversa|invertibile]] allora la soluzione è __unica__ ed è data da $$\mathbf{w}=(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y} =\mathbf{X}^+\mathbf{y}$$ dove $\mathbf{X}^+$ è detta [[Moore-Penrose pseudoinversa|Moore-Penrose pseudoinversa]] che esiste anche se $\mathbf{X}$ non è [[Matrice inversa|invertibile]]  __altrimenti__ le soluzioni sono infinite e si puo scegliere $\mathbf{w}= \arg_\mathbf{w}\min  \|\mathbf{w}\|$. 
+Anche in questo caso esiste una soluzione diretta ottenibile ponendo il gradiente a $0$ ovvero $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=0$$e sapendo che $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\sum^\ell_{p=1}x_{p,j}(y_p-\mathbf{x}_p^T\mathbf{w})  = 0\ \ \ \ \forall j =0\dots n$$ da cui riscrivendo sotto forma matriciale otteniamo che  $$\cfrac{\partial E(\mathbf{w})}{\partial w_j}=-2\mathbf{X}^T_j(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$e considerando tutto il vettore $\mathbf{w}$ si ha che $$\cfrac{\partial E(\mathbf{w})}{\partial \mathbf{w}}=-2\mathbf{X}^T(\mathbf{y}-\mathbf{X}\mathbf{w})=0$$ e da qui semplificando si arriva all' __[[Equazione normale|equazione normale]]__$$(\mathbf{X}^T\mathbf{X})\mathbf{w}=\mathbf{X}^T\mathbf{y}$$ e si ha che __se__ $(\mathbf{X}^T\mathbf{X})$ risulta [[Matrice inversa|invertibile]] allora la soluzione è __unica__ ed è data da $$\mathbf{w}=(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y} =\mathbf{X}^+\mathbf{y}$$ dove $\mathbf{X}^+$ è detta [[Moore-Penrose pseudoinversa|Moore-Penrose pseudoinversa]] che esiste anche se $\mathbf{X}$ non è [[Matrice inversa|invertibile]]  __altrimenti__ le soluzioni sono infinite e si può scegliere $\mathbf{w}= \arg_\mathbf{w}\min  \|\mathbf{w}\|$. 
 
-Per motivi di efficienza questa equazione puo essere risolta direttamente tramite [[Singular Value Decomposition (SVD)|Singular Value Decomposition]] che ci dice che$$\mathbf{X}=\mathbf{U}\mathbf{\Sigma}\mathbf{V}^T\implies \mathbf{X}^+=\mathbf{V}\mathbf{\Sigma}^+\mathbf{U}^T$$ dove 
+Per motivi di efficienza questa equazione può essere risolta direttamente tramite [[Singular Value Decomposition (SVD)|Singular Value Decomposition]] che ci dice che$$\mathbf{X}=\mathbf{U}\mathbf{\Sigma}\mathbf{V}^T\implies \mathbf{X}^+=\mathbf{V}\mathbf{\Sigma}^+\mathbf{U}^T$$ dove 
 - $\mathbf{U} \in \mathbb{R}^{\ell \times \ell}$ è una [[Matrici ortogonali e ortonormali|matrice ortogonale]] e le sue colonne __vettori singolare sinistri__
 - $\mathbf{\Sigma} \in \mathbb{R}^{\ell \times n}$ è una [[Matrici quadrate|matrice diagonale]] e $\mathbf{\Sigma}^+$ la stessa matrice dove ogni valore non $0$ è sostituita con il reciproco
 - $\mathbf{V} \in \mathbb{R}^{n\times n}$ è una [[Matrici ortogonali e ortonormali|matrice ortogonale]] e le sue colonne __vettori singolare destri__
@@ -169,9 +169,9 @@ si ha infatti che
 
 
 ### limitazione del modello lineare
-non riesce a gestire problemi più complessi che solitamente non hanno una natura lineare 
+non riesce a gestire problemi più complessi che solitamente non hanno una natura lineare e ci troviamo in una situazione di __underfittig__.
 ![[42E911EA-F4B3-488E-8FCF-A04D54C72CD7.jpeg]]
-per gestire questi casi si utilizzano espressioni con dei termini non lineari preservando per la _linearità_ dal modello. ci troviamo in una situazione di __underfittig__
+ per gestire questi casi si utilizza l [[Linear Basis Expansion (LBE)|LBE]]
 
 
 ##### Regolarizzazione

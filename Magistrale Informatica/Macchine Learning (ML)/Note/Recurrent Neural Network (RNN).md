@@ -8,11 +8,11 @@ tags:
 
 # Recurrent Neural Network
 ---
-le __reti neurali ricorrenti (RNN)__ sono [[Reti Neurali (NN)|reti neurali]] dove sono anche presenti __connessioni riccorrenti__ ovvero connessioni che vanno all indietro. l'output della rete non dipende solo dal l'input corrente ma anche dalla storia degli input arrivati precedentemente, questo rende la rete adatta al trattamento di __dati sequenziali__.
+le __reti neurali ricorrenti (RNN)__ sono [[Reti Neurali (NN)|reti neurali]] dove sono anche presenti __connessioni ricorrenti__ ovvero connessioni che vanno all indietro. l'output della rete non dipende solo dal l'input corrente ma anche dalla storia degli input arrivati precedentemente, questo rende la rete adatta al trattamento di __dati sequenziali__.
 Le __connessioni ricorrenti__ della rete fungono da __memoria interna__ interna e siccome questa evolve nel tempo la rete diventa un [[sistemi dinaimci|sistema dinamico]] e può quindi essere analizzata con la teoria dei sistemi dinamici. 
 A differenza dei metodi basati su una finestra temporale fissa ([[Input delay neural network (IDNN)|IDNN - Input Delay Neural Networks]]), le __RNN__ possono trattare sequenze di __lunghezza variabile__.
 
-![[Pasted image 20241229014553.png]]
+![[IMG - RNN Example.png]]
 
 le __reti neurali ricorrenti__ hanno come  __dominio del input__ una __sequenza discreta di [[vettori|vettori]]__ e  possono risolvere task di  __Trasduzione generale__ mapping da una sequenza di input in un __valore o sequenza__ di output. 
 ![[Pasted image 20250207233220.png]]

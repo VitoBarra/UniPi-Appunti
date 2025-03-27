@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Funzione di attivazione - LeakyReLu
 ---
-una [[funzioni di attivazione|Funzione di attivazione]]
+La [[funzioni di attivazione|funzione di attivazione]] di attivazione LeakyReLu è definita come:
 $$
 f(x) =
 \begin{cases} 
