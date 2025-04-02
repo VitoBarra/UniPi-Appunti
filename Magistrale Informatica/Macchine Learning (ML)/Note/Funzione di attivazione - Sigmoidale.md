@@ -14,4 +14,4 @@ La __[[Funzioni di attivazione|funzione di attivazione]] sigmoidale ( o logistic
 
 Al variare di $\alpha$ si ha che 
 - $\alpha \to 0$ si ha una retta funzione lineare
-- $\alpha \to \infty$ si ha sempre di più una [[Linear Trashold Unit (LTU)|linear threshold unit]] (LTU)
+- $\alpha \to \infty$ si ha sempre di più una [[Linear Threshold Unit (LTU)|linear threshold unit]] (LTU)

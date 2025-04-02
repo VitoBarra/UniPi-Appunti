@@ -1,8 +1,9 @@
 ---
-Course: "[[Information Retrieval (IR)]]"
-Course 2: "[[Human Language Technology (HLT)]]"
+Course: "[[Human Language Technology (HLT)]]"
+Course 2: "[[Information Retrieval (IR)]]"
 tags:
   - IR
+  - HLT
 Area: 
 topic: 
 SubTopic:
@@ -42,9 +43,9 @@ Dato un testo per prima cosa si vogliono *separare le parole*, ma per farlo biso
 - l'apostrofo non sempre separa due parole
 Il come separare le parole dipende dalla lingua che si sta usando.
 
-Il processo di separazione si chiama [[Tokenizzazione]] e viene eseguito utilizzando le [[Regular expressions]].
+Il processo di separazione si chiama [[Tokenizzazione di testo|tokenizzazione]] e viene eseguito utilizzando le [[Regular expressions (Reg-ex)]].
 
-Un'altro elemento della normalizzazione del testo è la [[Lemmatizzazione]] che serve per mappare ogni parola alla propria radice per far assumere il significato corretto alle parole. Un modo per fare lemmatizzazione è attraverso lo *stemming* che semplicemente estrae il suffisso dalle parole.
+Un'altro elemento della normalizzazione del testo è la [[Lemmatizzazione di testo]] che serve per mappare ogni parola alla propria radice per far assumere il significato corretto alle parole. Un modo per fare lemmatizzazione è attraverso lo *stemming* che semplicemente estrae il suffisso dalle parole.
 
 La normalizzazione di un testo comprende anche la divisione in frasi servendosi della punteggiatura.
 

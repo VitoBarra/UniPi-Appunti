@@ -56,7 +56,7 @@ Ogni neurone può essere visto come una funzione  $\phi$ della [[Linear Basis Ex
 
 
 
-L'algoritmo di apprendimento [[BackPropagation|backpropagation]] è generalmente legato alle proprietà di __smoothness__ delle funzioni. Ovvero piccole variazioni in input portano a piccole variazioni in output.
+L'algoritmo di apprendimento [[Back Propagation|backpropagation]] è generalmente legato alle proprietà di __smoothness__ delle funzioni. Ovvero piccole variazioni in input portano a piccole variazioni in output.
 
 Questa assunzione ha senso perché una per funzione obiettivo non continua ad esempio un generatore di numeri casuali non ha senso parlare di generalizzazione.
 e questo è il [[Algoritmi di Machine Learning|bias di ricerca]]

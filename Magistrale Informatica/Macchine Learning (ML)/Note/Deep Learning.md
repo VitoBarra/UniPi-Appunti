@@ -64,7 +64,7 @@ alcuni modi di farlo sono i seguenti
 
 
 ### Training di una Rete Neurale deep
-Una rete **neurale deep** può essere allenata tramite l'algoritmo di [[backpropagation|backpropagation]]. Tuttavia, durante l'addestramento, il valore del gradiente può subire due problematiche:
+Una rete **neurale deep** può essere allenata tramite l'algoritmo di [[Back Propagation|Back Propagation]]. Tuttavia, durante l'addestramento, il valore del gradiente può subire due problematiche:
 - **Vanishing Gradient**: Se il gradiente diventa troppo piccolo, gli aggiornamenti dei pesi nelle prime layer della rete diventano insignificanti, impedendo alla rete di apprendere.
 - **Exploding Gradient**: Se il gradiente diventa troppo grande, gli aggiornamenti dei pesi diventano instabili, causando divergenza nel processo di training.
 Per mitigare questo problema, sono state sviluppate diverse tecniche, tra cui **gradient clipping** e l'uso di funzioni di attivazione con derivata costante..

@@ -27,7 +27,7 @@ Si procede nel seguente modo:
 w_{hj} = w_{hj} + \cfrac{\partial S}{\partial w_{hj}}
 \end{array}
 $$dove $f'(net_{p,h})$ è la derivata della [[Funzioni di attivazione|funzione di attivazione]] del $net$ del unita aggiunta e  $In_{p,j}$  è l input proveniente da unita $j$ per il patter $p$. L allenamento continua finché i miglioramenti finiscono e al termine i pesi vengono congelati, ovvero non possono essere modificati nei passi successivi. 
-3. Vengono addestrati i pesi rimanenti in $N_1$ dello strato di output tramite ad esempio [[BackPropagation|Back Propagation]] o una sua variante con [[last Mean Squere (LMS)|LMS]] come funzione di __loss__
+3. Vengono addestrati i pesi rimanenti in $N_1$ dello strato di output tramite ad esempio [[Back Propagation|Back Propagation]] o una sua variante con [[last Mean Squere (LMS)|LMS]] come funzione di __loss__
 4. Se la rete ottenuta $N_1$ non risolve il problema, si aggiungono progressivamente nuove unità nascoste collegandole a tutti gli input e a tutte unità nascoste precedentemente aggiunte.
 5. Il processo continua fino a quando gli errori residui dello strato di output soddisfano un criterio di arresto specificato. 
 

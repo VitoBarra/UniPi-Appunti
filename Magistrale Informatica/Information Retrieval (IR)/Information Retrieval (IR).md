@@ -34,7 +34,7 @@ tags:
 4. [[Natural Language Processing]]
 	8. [[Document representation]]
 	9.  [[Bag of words]]
-	10. [[N-grams]]
+	10. [[N-Grams]]
 	11. [[Zips Law]]
 	12. [[Vector space model]]
 
@@ -76,7 +76,7 @@ tags:
 	8. [[LightGBM]]
 		2. [[Sampling on gradient - GOSS]]
 		3. [[Exclusive Feature Bunding - EFB]]
-9. [[Language Models]] 
+9. [[Language models]] 
 	9. [[Probabilistic Models]]
 			1. [[Statistical Language Models]]
 	10. [[Neural Models]]
