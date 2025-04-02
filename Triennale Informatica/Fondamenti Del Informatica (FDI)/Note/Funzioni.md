@@ -14,8 +14,8 @@ una funzione è un particolare tipo di [[Applicazioni tra insiemi|applicazioni t
 
 
 #### Proprietà particolari
-##### Funzioni Dispari
-una _funzione_ è detta dispari se vale che $$f(-x)=-f(x)$$ e quindi è simmetria dispetto al _[[Piano cartesiano]]_
-##### Funzini pari
-una _funzione_ è detta pari se vale che $$f(x)=f(-x)$$ e quindi è simmetrica rispetto al [[Piano cartesiano|asse]] delle $y$
+Le **funzioni simmetriche** possono essere classificate in base alla loro simmetria:  
 
+- **Simmetria rispetto all'asse delle $y$** → Funzioni **pari** e vale che $$f(x)=f(-x)$$
+- **Simmetria rispetto all'origine** → Funzioni **dispari** e vale che $$f(-x)=-f(x)$$
+- Alcune funzioni non sono né pari né dispari, ma possono presentare altre forme di simmetria, ad esempio traslazioni o riflessioni rispetto a curve specifiche.  

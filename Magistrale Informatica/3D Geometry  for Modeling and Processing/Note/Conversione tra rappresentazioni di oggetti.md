@@ -9,9 +9,6 @@ SubTopic:
 
 # Conversione tra rappresentazioni di oggetti
 ---
-
-###### Conversione 
-
 un campionamento del dominio di una  [[Curve parametriche]] , 
 campionamento regolare del domioneo non implica regolarità nella mesh, ovvero la mesh finale avrà delle zone con faccine piu piccole e zone con faccine piu grandi. 
 

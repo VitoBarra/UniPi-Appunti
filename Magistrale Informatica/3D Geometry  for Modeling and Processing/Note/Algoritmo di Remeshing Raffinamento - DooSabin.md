@@ -7,7 +7,7 @@ topic:
 SubTopic:
 ---
 
-# Algoritmo di Remeshing - DooSabin
+# Algoritmo di Remeshing Raffinamento - DooSabin
 ---
 L' __[[Remeshing - Raffinamento|algoritmo di raffinamento]] DooSabin__  è un algoritmo classificato come __duale__ è __approssimante__ funziona con ogni tipo di [[Poligoni|poligono]].
 

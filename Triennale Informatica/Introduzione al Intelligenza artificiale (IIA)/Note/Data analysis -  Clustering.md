@@ -7,7 +7,7 @@ Area:
 topic: 
 SubTopic:
 ---
-# Data analysis - Clustering
+# Data analysis  - Clustering
 ---
 Il __clustering__ è il processo di ricerca di partizioni di dati che sono più simili tra loro.
 

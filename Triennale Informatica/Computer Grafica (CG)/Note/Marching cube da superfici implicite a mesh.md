@@ -1,5 +1,6 @@
 ---
 Course: "[[Computer Grafica (CG)]]"
+Course 2: "[[3D Geometry for Modeling and Processing (3GMP)]]"
 tags:
   - CG
 Area: 
@@ -9,7 +10,7 @@ SubTopic:
 
 # Marching cube
 ---
-si puo usare il __marching cube__ per trasformare un campo salare in una [[Mesh Poligonali|mesh poligonale]].
+si puo usare il __marching cube__ per trasformare un campo salare ([[Superfici implicite|rappresentazione implicita]]) in una [[Mesh Poligonali|mesh poligonale]].
 
 sia $f(x,y)$ un campo scalare
 si parte da dei campioni regolari di $f(x,y)$

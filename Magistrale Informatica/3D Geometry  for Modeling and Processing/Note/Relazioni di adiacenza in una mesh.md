@@ -38,7 +38,7 @@ in questo tipo di casi per ricostruire correttamente tutto quello che si poteva 
 In generale per un [[Complesso simpliciale|complesso simpliciale]] $2$-[[Manifolds|manifold]] la cardinalità di queste adiacenze sono quasi tutti limitate infatti si ha che 
 - $|FV|=|FE|= 3$
 - $|EV|=2$
-- $|FF|\leq 3$ (a me torna $3$ ma  nelle c è scritto $2$)
+- $|FF|\leq 3$ 
 - $|EF|\leq 2$
 mentre le altre hanno grado variabile ma sono stimabili. Infatti mediamente si ha che
 - $|VV|\approx|VE|\approx|VF|\approx6$

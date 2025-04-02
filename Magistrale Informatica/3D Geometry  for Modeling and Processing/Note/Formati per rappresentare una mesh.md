@@ -9,12 +9,8 @@ SubTopic:
 
 # Formati per rappresentare una mesh
 ---
-
-
-#### Strutture dati per le mesh
-
-##### Polygon soup
-é  un array di $n$ __poligoni__ ed ogni poligono é  una array di posizioni + attributi.
+##### Polygon soup 
+le **Polygon soup** é un array di $n$ __poligoni__ ed ogni poligono é  una array di posizioni + attributi.
 é  un approccio molto semplice ma inefficiente siccome ogni vertice condiviso é duplicato per ogni poligono, questo lo rende anche difficile da aggiornare siccome per ogni aggiornamento di un vertice va aggiornato su tutti i poligoni che mantengono una copia di quel vertice.
 
 ##### Indexed Mesh
@@ -38,7 +34,6 @@ questo semplifica la modifica dei vertici siccome non c è bisogno di ricercarlo
 ### Face-Base Connectivity
 ![[IMG_1177.jpeg]]
 
-![[IMG_1179.jpeg]]
 vertici che tengono posizione e il riferimento ad una faccia
 faccine: 3 vertici e riferimento a 3 faccine adiacenti.
 Non mantengono edge e questo puo essere un problema.
@@ -49,6 +44,7 @@ Edge-base rappresentation:
 - Vertici:
 	- posizione 
 	- 1 edge
+![[IMG_1179.jpeg]]
 
 
 

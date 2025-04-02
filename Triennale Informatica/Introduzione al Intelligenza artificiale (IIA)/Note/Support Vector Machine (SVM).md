@@ -280,4 +280,3 @@ Ogni neurone prima dell'output è il valore di un kernel.
 
 
 
-
