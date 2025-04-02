@@ -9,7 +9,7 @@ SubTopic:
 
 # Poliedri Platonici
 ---
-i __Poliedri Platonici__ (o __Solidi platonici__) sono dei [[Poliedri|poliedri]] regolari dove ogni faccia è una pologoni regolari. 
+i __Poliedri Platonici__ (o __Solidi platonici__) sono dei [[Poliedri|poliedri]] regolari dove ogni faccia è una poligoni regolari. 
 In totale solo 5 e sono i __Tetraedro__ il __cubo__ e __ottaedro__ il __dodecaedro__ e l'__icosaedro__. 
 
 la tabella mostra gli vertici - edge - facce

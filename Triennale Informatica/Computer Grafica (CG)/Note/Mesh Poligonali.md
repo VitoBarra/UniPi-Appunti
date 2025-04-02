@@ -22,7 +22,7 @@ __Sia__
 Considerando una mesh possiamo discriminare $2$ aspetti fondamentali:
 - __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte geometrica continua.
 - __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte combinatoria discreta.
-In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la Manifoldness, i bordi, le componenti connesse e l orientabilità.
+In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la [[Manifolds|Manifoldness]], i bordi, le componenti connesse e l orientabilità.
 Questo ci permette di scegliere la rappresentazione topologica piu comoda per le operazioni che si vogliono fare sulla mesh preservando più o meno la parte geometrica e quindi l'estetica degli oggetti che si vogliono rappresentare. 
 
 

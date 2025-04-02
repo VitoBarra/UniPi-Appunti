@@ -9,7 +9,7 @@ SubTopic:
 
 # Remeshing - Raffinamento
 ---
-Gli algoritmi di [[Meshing e il Remeshing|remeshing]] di __raffinamento__ sono algoritmi dove a partire da una [[Mesh Poligonali|mesh]] se ne genera una altra con più dettaglio, solitametne piu [[Smoothness di una superfice|smooth]] 
+Gli algoritmi di [[Meshing e il Remeshing|remeshing]] di __raffinamento__ sono algoritmi dove a partire da una [[Mesh Poligonali|mesh]] se ne genera una altra con più dettaglio, solitamene piu [[Smoothness di una superfice|smooth]] 
 questa categoria di [[Algoritmi|algoritmi]] si possono dividere in dure direzioni ortogonali 
 
 | Primale                                 | Duale                                                                   |
@@ -27,6 +27,6 @@ questa categoria di [[Algoritmi|algoritmi]] si possono dividere in dure direzion
 |               |                      Primale                      |                                                         | Duale                                           |
 | ------------- | :-----------------------------------------------: | :-----------------------------------------------------: | ----------------------------------------------- |
 |               |                     Tiangoli                      |                       rettangoli                        |                                                 |
-| Approssimante |      [[Algoritmo di Remeshing - Loop\|loop]]      | [[Algoritmo di Remeshing - Catmur-Clark\|Catmur-Clark]] | [[Algoritmo di Remeshing - DooSabin\|DooSabin]] |
-| Interpolante  | [[Algoritmo di Remeshing - Butterfly\|butterfly]] |                         Kobbelt                         | Midedge                                         |
+| Approssimante |      [[Algoritmo di Remeshing Raffinamento - Loop\|loop]]      | [[Algoritmo di Remeshing Raffinamento - Catmur-Clark\|Catmur-Clark]] | [[Algoritmo di Remeshing Raffinamento - DooSabin\|DooSabin]] |
+| Interpolante  | [[Algoritmo di Remeshing Raffinamento - Butterfly\|butterfly]] |                         Kobbelt                         | Midedge                                         |
 

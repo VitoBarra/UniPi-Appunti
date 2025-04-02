@@ -54,7 +54,7 @@ tags:
 		1. [[Voxelization]]
 		2. [[Costructive Solid Geometry (CSG)]]
 		3. [[Mesh Esaedriche e Tetraedriche]]
-	3. [[Marching cube]]
+	3. [[Marching cube da superfici implicite a mesh]]
 11. [[Illuminazione nella Computer Grafica]]
 	1. [[Normale di una superfice]]
 	2. [[Illuminazione - Radiometria]]
