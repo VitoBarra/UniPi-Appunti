@@ -36,7 +36,7 @@ tags:
 		3. [[Algoritmo di Remeshing Raffinamento - Loop]]
 		4. [[Algoritmo di Remeshing Raffinamento - Butterfly]]
 	2. [[Remeshing - Semplificazione]]
-		1. [[Algoritmo di Remeshing semplificazione - Edge collapse]]
+		1. [[Algoritmo di Remeshing semplificazione - Collapse]]
 		2. [[Algoritmo di Remeshing semplificazione - Clustering]]
 6. [[Indici spaziali]]
 	1. [[Binari Space Partition-Tree]]

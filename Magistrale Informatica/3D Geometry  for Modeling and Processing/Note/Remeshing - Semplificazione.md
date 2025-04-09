@@ -51,6 +51,7 @@ Trovare una soluzione a questo problema in particolare alla seconda forma del ob
 
 Generalmente le soluzioni con euristiche funzionano bene tranne nei casi in cui ci sono pochi poligoni ma è una casistica non critica perche non ha comunque senso cercare un errore basso, e quindi preservare i dettagli, quando i dettagli non ci sono in ogni caso.
 
+Uno degli algoritmi principali che risolve questo problema è l'[[Algoritmo di Remeshing semplificazione - Collapse|edge Collapsing]]
 
 
 

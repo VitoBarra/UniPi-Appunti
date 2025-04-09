@@ -17,9 +17,9 @@ Servono a rispondere a domande diverse rispetto alle query combinatorie. ad esem
 
 
 Utili anche per fare simulazione fisica.
+![[IMG - Indici spaziali griglia uniforme 1.png]]
 
-
-
+ ![[IMG - Indici spaziali griglia uniforme.png]]
 si usano strutture dati che permettono di capire le collisioni in tempi sub logaritmi quasi costanti.
 
 
@@ -65,3 +65,68 @@ memorizzazione con Z ordering per ottimizzare sulle cache.
 
 tutte cose viste anche in computer grafica.
 
+![[IMG - Occupazione in griglia.png]]
+
+
+
+![[IMG - Spatial hashing.png]]Nel contesto dell'intersezione con un raggio all'interno di strutture spaziali come le griglie uniformi o l'hashing spaziale, il procedimento prevede inizialmente l'identificazione di tutte le celle attraversate dal raggio. Per ogni cella individuata, si esegue un test di intersezione con i primitivi contenuti in essa. Un'accortezza importante per ottimizzare le prestazioni è l'uso del cosiddetto "mailboxing", che serve a evitare test multipli sugli stessi primitivi già verificati.
+
+Dal punto di vista computazionale, nel caso peggiore il costo di questo processo è 
+$$
+\mathcal{O}(\#cells + n)
+$$
+dove $n$ è il numero totale di primitivi. In media, invece, il costo diventa 
+$$
+\mathcal{O}(d\sqrt[d]{\#cells} + \sqrt[d]{n})
+$$
+dove $d$ rappresenta la dimensionalità dello spazio.
+
+La griglia uniforme è una delle strutture più semplici da implementare. L'occupazione di memoria è data da 
+$$
+\mathcal{O}(\#cells + n)
+$$
+Tra i vantaggi principali troviamo la semplicità di implementazione e la rapidità nelle query. Tuttavia, presenta degli svantaggi significativi: è piuttosto esosa in termini di memoria e le sue prestazioni dipendono fortemente dalla distribuzione spaziale dei primitivi. Se questi ultimi non sono distribuiti in modo uniforme, la griglia può diventare inefficiente.
+
+L'hashing spaziale offre un'alternativa alla griglia uniforme, mantenendo gli stessi costi teorici ma introducendo il rischio di collisioni nella funzione di hash. In tali casi, l'accesso a una cella può diventare 
+$$
+\mathcal{O}(\#cells)
+$$
+nel caso peggiore. L’occupazione di memoria, invece, è generalmente più contenuta: nel caso peggiore si memorizzano tutte le celle volumetriche, mentre in media si alloca memoria solo per le celle che intersecano le superfici.
+
+Tra i vantaggi dello spatial hashing vi sono le query rapide (se la funzione di hash è ben progettata), la semplicità di implementazione e un consumo di memoria inferiore. Tuttavia, anche qui le prestazioni sono fortemente influenzate dalla distribuzione dei primitivi nello spazio, rendendo la struttura sensibile in contesti con alta densità o irregolarità.
+
+
+![[IMG - scelta della cella.png]]
+
+
+
+
+![[IMG - Indici gerarcici.png]]
+
+
+
+
+## Binary space partition - tree
+![[IMG - Indici spaziali BSP.png]]
+
+
+
+![[IMG - BSP Costruzione.png]]
+
+## KD - Tree
+
+![[IMG - Indici spaziali KD-tree.png]]
+
+
+
+![[IMG - KD-tree construction.png]]
+
+![[IMG - Indici spaziali KD-tree query.png]]
+
+# Quad-tree e Octa-tree
+![[IMG - Indici spaziali quad-tree 2D.png]]
+
+![[IMG - Indici spaziali Quad-tree uso per terreni.png]]
+
+
+![[IMG - Octa-tree uso.png]]
