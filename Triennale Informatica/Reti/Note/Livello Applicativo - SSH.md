@@ -8,8 +8,7 @@ Prev: [[Reti]]
 
 # Livello Applicativo - SSH
 ---
-## SSH
- Secure Shell (SSH) è un’architettura di protocolli nata per sostituire [[Livello Applicativo - Telnet|TELNET]] e risolvere i suoi problemi di sicurezza. 
+ __Secure Shell__ (__SSH__) è un’architettura di protocolli nata per sostituire [[Livello Applicativo - Telnet|TELNET]] e risolvere i suoi problemi di sicurezza. 
  -  Permette la login remota e altri servizi di rete,
 
 - SSH-TRANSPORT: 

@@ -9,7 +9,13 @@ SubTopic:
 
 # Indici spaziali
 ---
-Spazio l index:
+Quando si affrontano problemi computazionali che coinvolgono un gran numero di primitive geometriche, l'approccio diretto senza strutturem dati spaziali risulta inefficiente, con complessità temporali lineari ($O(n)$) o quadratiche ($O(n^2)$) per operazioni come il rilevamento delle collisioni. L'adozione di strutture dati spaziali ottimizzate permette di migliorare drasticamente queste prestazioni, riducendo la complessità a un tempo quasi costante o logaritmico nel caso medio. Sebbene esistano limiti teorici inferiori (come il caso peggiore logaritmico), questi spesso si applicano a contesti ristretti, rendendo le euristiche pratiche la scelta predominante nelle implementazioni reali.
+
+Le strutture di indicizzazione spaziale si classificano in due macro-categorie:  
+- **Strutture non gerarchiche (suddivisione piatta dello spazio)**, che, nonostante la loro apparente semplicità, trovano utilità in scenari specifici dove l'overhead gerarchico è superfluo.  
+- **Strutture gerarchiche**, basate sul principio del "divide et impera", che adattano dinamicamente la suddivisione dello spazio per gestire in modo efficiente primitive distribuite in modo non uniforme.  
+  
+Quest'ultimo approccio, in particolare, è ideale per scenari complessi dove la densità delle primitive varia significativamente nello spazio, garantendo prestazioni ottimali attraverso partizioni adattive.
 
 Affrontare dal lato continuo della mesh e non da quella combinatoria.
 
