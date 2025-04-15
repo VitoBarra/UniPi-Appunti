@@ -29,7 +29,7 @@ tags:
 		2. [[Formule Trigronometriche]]
 		3. [[Steradianti]]
 6. [[sistema di equazioni]]
-7. [[Limiti di una funzione]]
+7. [[Limiti]]
 	1. [[Limiti notevoli]]
 	2. [[Delopithal]]
 	3. [[Sviluppi di Taylor]]
@@ -64,7 +64,7 @@ tags:
 	1. [[Funzioni Multivariata - Gradiente]]
 21. [[Superfici]]
 	1. [[Topologia]]
-	2. [[Manifolds]]
+	2. [[Manifolds (Varieta)]]
 
 ### Extra
 1. [[Integrazione numerica]]

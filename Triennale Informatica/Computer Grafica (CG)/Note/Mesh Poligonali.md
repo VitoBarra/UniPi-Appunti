@@ -22,7 +22,7 @@ __Sia__
 Considerando una mesh possiamo discriminare $2$ aspetti fondamentali:
 - __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte geometrica continua.
 - __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte combinatoria discreta.
-In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la [[Manifolds|Manifoldness]], i bordi, le componenti connesse e l orientabilità.
+In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la [[Manifolds (Varieta)|Manifoldness]], i bordi, le componenti connesse e l orientabilità.
 Questo ci permette di scegliere la rappresentazione topologica piu comoda per le operazioni che si vogliono fare sulla mesh preservando più o meno la parte geometrica e quindi l'estetica degli oggetti che si vogliono rappresentare. 
 
 
@@ -38,7 +38,7 @@ __Mesh aperta__: una mesh con border edges.
 
 
 #### Manifoldness
-una __mesh poligonale__ può essere un $2$-[[Manifolds|manifold]] 
+una __mesh poligonale__ può essere un $2$-[[Manifolds (Varieta)|manifold]] 
 ![[Pasted image 20240220034236.png]]
 Per controllare che la __mesh__ sia un $2$-manifold se valgono le due seguenti proprietà:
 1. __Edge Manifold__ ogni spigolo (edge) é condiviso da massimo due triangoli

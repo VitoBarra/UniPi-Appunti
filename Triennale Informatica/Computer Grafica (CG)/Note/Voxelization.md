@@ -27,7 +27,7 @@ Mantenere direttamente tutti in memoria puo essere velocemente proibitivo.
 un modo per ottimizzare lo spazio utilizzato e mantenere in una struttura gerarchica i volumi. 
 per costruire la struttura si parte dal un singolo Voxel grande quanto tutto il volume che si vuole utilizzare e si divide in 8 parti. Dei voluimi risultanti quelli _NON_ vuoti  vengono suddivisi nuovamente in 8 e cosi via, mente quelli vuoti saranno salvati come sono.
 in questo modo eviteremmo di salvare molti volumi vuoti e ne salveremo solo alcuni piu grandi.
- Cosi facendo il costo di memorizzazione sarà quadratico anziché cubico rispetto alla risoluzione $sizeX\cdot sizeY \cdot sizeZ$. Questa struttura è chiamata __[[Quad-Tree e Oct-Tree|oct-tree]]__
+ Cosi facendo il costo di memorizzazione sarà quadratico anziché cubico rispetto alla risoluzione $sizeX\cdot sizeY \cdot sizeZ$. Questa struttura è chiamata __[[1- Quad-Tree e Oct-Tree|oct-tree]]__
  ![[Pasted image 20240224015718.png]]
  ![[Pasted image 20240224021719.png]]
 

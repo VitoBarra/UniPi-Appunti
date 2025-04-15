@@ -58,7 +58,7 @@ $$
 
 ##### Dimostrazione di convergenza quadratica
 dobbiamo dimostrare che $$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$
-tenda ad un numero. quindi bisogna risolvere il [[Limiti di una funzione|limite]] si fa lo [[Sviluppi di Taylor|sviluppo di Taylor]] applicato ad $f(x)$ nel punto $x_k$
+tenda ad un numero. quindi bisogna risolvere il [[Limiti|limite]] si fa lo [[Sviluppi di Taylor|sviluppo di Taylor]] applicato ad $f(x)$ nel punto $x_k$
 $$f(x) = f(x_{k})+f'(x_{k})(x-x_{k})+f''(\xi_{x}) \frac{(x-x_{k})^{2}}{2!}$$
 e so che $$|\xi_{x}-x| \leq |x_{k}-x|$$
 questa formula vale per qualsiasi punto nello specifico vale per $x=\alpha$ e quindi ho

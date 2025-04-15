@@ -18,4 +18,4 @@ _Dimostrazione_
 \mathbb{E}\left[(X_n-\mathbb{E}[X_{n}]+\mathbb{E}[X_{n}]-c)^{2}\right]   \\  & = & 
 \mathbb{E}\left[(X_{n}-\mathbb{E}[X_{n}])^{2}\right] +  2\mathbb{E}[X_{n}-\mathbb{E}[X_{n}]](\mathbb{E}[X_{n}]-c)+(\mathbb{E}[X_{n}]-c)^{2}  \\ & = & 
 Var(X_{n})+(\mathbb{E}[X_{n}-c])^{2}
-\end{array}$$ e di conseguenza vale che il [[Limiti di una funzione|limite]]$\lim_{ n \to \infty } \mathbb{E}\left[(X_{n}-c)^{2}\right]=0$ ed è _dimostrata la tesi_
+\end{array}$$ e di conseguenza vale che il [[Limiti|limite]]$\lim_{ n \to \infty } \mathbb{E}\left[(X_{n}-c)^{2}\right]=0$ ed è _dimostrata la tesi_

@@ -7,7 +7,7 @@ topic:
 SubTopic: 
 ---
 
-# Manifolds
+# Manifolds (Varieta)
 ---
 un __Manifolds__ (in italiano __variatà__) è uno [[Spazio Topologico|spazio topologico]] che localmente sembra uno [[Spazio Euclideo|spazio euclideo]]. Più formalmente abbiamo che 
 

@@ -59,7 +59,9 @@ tags:
 	8. [[Residui quadratici in modulo]]
 	9. [[Insieme dei Numeri complessi]]
 		1. [[Numeri primi gaussiani]]
-16. [[Distanza euclidea]]
+16. [[Definizione di distanza]]
+	1. [[Distanza euclidea]]
+	2. [[Distanza geodetica]]
 17.  [[Operazione di convoluzione]]
 
 ### Educational Material 🧱

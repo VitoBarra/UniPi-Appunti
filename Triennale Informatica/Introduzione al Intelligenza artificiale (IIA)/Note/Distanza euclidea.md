@@ -1,7 +1,7 @@
 ---
 Course: "[[Algebra (ALG)]]"
 tags:
-  - 3GMP
+  - ALG
 Area: 
 topic: 
 SubTopic:
@@ -9,7 +9,7 @@ SubTopic:
 
 # Distanza euclidea
 ---
-La distanza euclidea è una distanza definita su uno [[Spazio Euclideo|spazio euclideo]] tra due punti
+La **distanza euclidea** è un tipo di [[Definizione di distanza|distanza]] definita su uno [[Spazio Euclideo|spazio euclideo]] tra due punti
 ed è definita come 
 
 __siano__ $\mathbf{x}_1,\mathbf{x}_2 \in \mathbb{R}^n$ due [[Vettori|vettori]] stesso __[[Spazio Euclideo|spazio euclideo]]__ 

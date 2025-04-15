@@ -104,85 +104,23 @@ per mantenere la corretta [[Normale di una superfice|normale]] basta mantenerla 
 #### Scena
 Si vuole testare se un raggio interseca un triangolo in una scena composta da $n$ triangoli.
 ![[IMG_1098 1 1.jpeg]]
-il modo peggio di fare questa cosa è iterare su ogni triangolo è testare ognuno di questo.
+il modo peggiore di fare questa cosa è iterare su ogni triangolo è testare ognuno di questo. 
+Per ottimizare questo processo si fa largo uso degli [[Indici spaziali|Indici spaziali]], strutture dati appositamente progettate per poter rispondere a domande sulle primitive come collisioni o vicinanza.
 
 
-Una soluzione migliore è quella di ridurre il numero di primitive da testare. 
-Per fare ciò si immagina una griglia sulla scena e si raasterizza il raggio in modo da controllare quali delle celle rasterizate intersecano le celle della griglia. In questo modo si possono controllare solo le [[Computer grafica - Primitive Geometriche|primitive geometriche]] che sono al interno di quelle celle della griglia
-![[IMG_1101 1 1.jpeg]]
-La rasterrizzazione del raggio è simile a quella che si fa per [[Trasformare da Vertici a Frammenti (Rasterizazione)|disegnare una linea]] ma non uguale 
+
+
+[[Ray tracing|Ray tracing]] e [[Indici spaziali - Griglia uniforme e spatial Hashing|Griglia uniforme ]]
+La rasterizazione del raggio è simile a quella che si fa per [[Trasformare da Vertici a Frammenti (Rasterizazione)|disegnare una linea]] ma non uguale 
 ![[IMG_1102 1 1.jpeg]]
 
-un modo per fare questo in 3D è il DDA-3d
-In questo algoritmo si posizione una griglia cubica di voxel e interseca il  __ray__   un raggio con il bordi che definisce la fine e l inizio dei [[Voxelization|Voxel]] 
 
 
-_siano_
-- $tMaxX,tMaxY$ il valore massimo di $t$ per il quale la coordinata $X$ o $Y$ non cambia
-- $tDeltaX,tDeltaY$ valore di cui incrementare $t$ per spostare un punto lungo il raggio della dimensione del voxel in direzione $X$ o $Y$  
-e ricordando la definizione di __ray__ come $$r =\begin{bmatrix}
-d_x\\d_y\\d_z
-\end{bmatrix}\cdot t +\begin{bmatrix}
-c_x\\c_y\\c_z
-\end{bmatrix} $$
-si ha che il caso 2D è come segue 
-![[IMG_1103 1 1.jpeg]]
-
-nel caso un __ray__ colpisce due [[Voxelization|voxel]] che hanno entrambi solo una parte della stessa [[Computer grafica - Primitive Geometriche|primitiva]] questa viene testata per l intersezione due volte.
-Per evitare ciò si assegna alla primitiva l ID ultimo ray per cui è stata testata l intersezione, Se si vorrai provare a fare un secondo test sullo stesso __ray__ questo verra saltato
-![[IMG_1104 1 1.jpeg]]
 
 
-Bisogna decidere la dimensione dei voxel e quindi va scelto un compromesso tra velocità di rasterizazione e numero di primitive effettivamente tagliate
-![[IMG_1106 1 1.jpeg]]In generale vale che conviene avere voxel piccoli dove la scena è densa di primitive e grandi dove non lo è 
 
-Per ottenere un buon compromesso anche con griglie in regolari si possono applicare 2 approcci
+
 
 suddivisione delle primitive:
 questo è un approccio bottom-up, ogni primitiva viene confinata in un voxel e [[Ricorsione|ricorsivamente]] se due bordi intersecano si crea un nuovo bordo che le contiene entrambi  ![[IMG_1109 1 1.jpeg]]
 questo approccio genera dei voxel irregolari quindi non si può usare rasterizazione 
-
-
-_suddivisione dello spazio_: 
-è un approccio top-Down, si segue  la stessa idea del [[Quad-Tree e Oct-Tree|oct-tree]] ovvero si suddivide ricorsiva mente lo zone che contengono delle primitive e si lasciano invariate quelle che non le contengono
-![[IMG_1107 1 1.jpeg]]
-
-Per salvare efficientementel  [[Quad-Tree e Oct-Tree|oct-tree]]  si possono codificare i nodi che hanno delle primitive con dieci numeri interi in modo che numeri consecutivi corrispondono a celle consecutive.
-
-Per fare cio si può usare la Z-Filling Curve
-![[IMG_1110 1 1.jpeg]]
-
-
-Un altro modo è usare un __Bynary space partition-Tree__ (BSP)
-si divide  ricorsiva di una regione dello spazio in due partizione e la divisione è fatta con un  iperpiano
-si costruisce un  [[albero binario|albero binario]] dove i nodi sono la divisione dei piani e le foglie le primitive nel piano rappresentato dal padre
-![[IMG_1112 1 1.jpeg]]
-
-per testare se un punto è al interno di una primitiva si discende l albero iniziando dalla radice e si arriva fino alla foglia che contiene la primitiva cercata. Si fa in test di intersezione con tutte le primitive in quella foglia.
-![[IMG_1113 1 1.jpeg]]
-Il [[Complessita|costo computazionale]]  nel numero di primitive $n$
-- caso pessimo $O(n)$
-- Caso Medio. $O(\log n)$ 
-
-
-
-
-##### kd-tree
-Si puo usare anche un __kD-trees__ ovvero un __BSP__ con le divisioni allineate agli assi  
-
-![[IMG_1114 1 1.jpeg]]
-E per costruire efficientemente questi tipo di albero bisogna sapere quale è il costo.
-Questo può essere visto come la [[Probabilita condizionata|probabilita condizionata]] del intersezioni con una cella significa anche l intersezione di una sua parte qundi 
-$$\begin{align}
-cost(cell)  = \ & cost\_traversal & + \\
-	 & \mathcal{P}(left\_cell|cell)Cost(left\_cell) & + \\
-	 & \mathcal{P}(right\_cell|cell)Cost(right\_cell)
-
-\end{align}
-$$
-![[IMG_1115 1 1.jpeg]]
-prendendo come esempio $left\_cell$ si ha che $$\mathcal{P}(left\_cell|cell) = \cfrac{Area(left\_cell)}{Area(cell)}$$
-e  $$cost(left\_cell)$$ dipende dal numero di primitive al interno i $left\_cell$ ![[IMG_1116 1 1.jpeg]]
-
-quindi si fa sceglie una divisione che minimizza il costo ad esempio 
-![[IMG_1117 1 1.jpeg]]

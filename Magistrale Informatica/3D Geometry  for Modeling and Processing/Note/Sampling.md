@@ -1,16 +1,23 @@
 ---
 Course: "[[3D Geometry for Modeling and Processing (3GMP)]]"
+Course 2: "[[Computer Grafica (CG)]]"
 tags:
   - 3GMP
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
-
 # Sampling
 ---
-Il __Sampling__ è un concetto riutilizzato in molti contesti. 
-In generale per __sampling__ ci si riferisce al __campionare__ in un certo modo un generico dominio. Il sampling generato da dal campionamento puo essere poi utilizzato in vario modo asseconda del contesto ad esempio si utilizza per fare [[Meshing e il Remeshing|remeshing]] e il [[Ray Tracing|ray tracing]] 
+Il __Sampling__ è l atto di campionare in un certo modo un generico dominio. il campionamento (o **semple**) puo essere poi utilizzato in vario modo asseconda del contesto.
+
+Alcuni esempi di applicazioni sono : 
+il [[Meshing e il Remeshing|remeshing]]: 
+![[IMG - Sampling e remeshing.png]]
+e il [[Algoritmi di renderizzazione|rendering]]    
+![[IMG - Sampling e rendering.png]]
+
+
 
 Ci sono vari modi di fare __sampling__ tra i piu semplici ci sono i sampling __random__, __uniformi__ e  __jittered__
 ![[Pasted image 20241208215736.png]]

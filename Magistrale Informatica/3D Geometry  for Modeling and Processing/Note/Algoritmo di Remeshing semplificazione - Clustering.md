@@ -13,7 +13,7 @@ Il **Vertex Clustering**, è una tecnica di [[Remeshing - Semplificazione|sempli
 
 Tutte le facce della mesh originaria che presentano due o tre vertici appartenenti allo stesso cluster vengono eliminate, poiché non rappresentano più una superficie valida dopo l’unificazione.
 
-È importante notare che questa tecnica **non preserva la topologia**: alcune facce possono degenerare in spigoli o punti, e il [[genus|genus]] della superficie può cambiare. Inoltre, l’approssimazione ottenuta dipende dalla risoluzione della griglia utilizzata, rendendo difficile prevedere con esattezza il numero finale di facce della mesh semplificata. spesso genera situazioni non [[Manifolds|manifold]]
+È importante notare che questa tecnica **non preserva la topologia**: alcune facce possono degenerare in spigoli o punti, e il [[genus|genus]] della superficie può cambiare. Inoltre, l’approssimazione ottenuta dipende dalla risoluzione della griglia utilizzata, rendendo difficile prevedere con esattezza il numero finale di facce della mesh semplificata. spesso genera situazioni non [[Manifolds (Varieta)|manifold]]
 
 ![[IMG - Vertex Clustering.png]]
 

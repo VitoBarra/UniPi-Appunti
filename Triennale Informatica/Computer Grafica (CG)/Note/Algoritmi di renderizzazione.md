@@ -9,9 +9,7 @@ tags:
 
 # Algoritmi di renderizzazione
 ---
-
-#### Rendering (Definizione)
-Il _rendering_ è un processo che prende in input dei dati che descrivono la scena e genera in _output_ delle _immagini rasterizate_.
+Il **rendering** è un processo che prende in input dei dati che descrivono la scena e genera in _output_ delle _immagini rasterizate_.
 ![[IMG_0774.jpeg]]
 
 #### Paradigmi di rendering

@@ -4,8 +4,8 @@ tags:
   - 3GMP
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
-# Binari Space Partition-Tree
+# Voronoi Sampling
 ---
