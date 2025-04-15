@@ -42,8 +42,8 @@ _Dimostrazione_
 
 
 #### Teoria 
-presi i $a_{*}$ e $b_{*}$ che realizzano $$\min_{a,b \in \mathbb{R}}\mathbb{E}[(Y-a-bX)^{2}]$$ la [[Retta|retta]] $y=a_{*}+b_{*}x$ è la _migliore_ approssimazione _lineare_ tra $X$ e $Y$ .
-poiché il valore del minimo è _proporzionale_ al valore $1 - \rho^{2}$ e quindi piu $|\rho| \approx 1$ piu i valori sono ben approssimati da una [[Retta|retta]].
+presi i $a_{*}$ e $b_{*}$ che realizzano $$\min_{a,b \in \mathbb{R}}\mathbb{E}[(Y-a-bX)^{2}]$$ la [[Rette|retta]] $y=a_{*}+b_{*}x$ è la _migliore_ approssimazione _lineare_ tra $X$ e $Y$ .
+poiché il valore del minimo è _proporzionale_ al valore $1 - \rho^{2}$ e quindi piu $|\rho| \approx 1$ piu i valori sono ben approssimati da una [[Rette|retta]].
 Il _coefficente di correlazione_ è la misura di  dipendenza _lineare_ tra $X$ e $Y$.
 Due [[Variabili Aleatorie (Casuali)|variabili]] se sono _[[Indipendenza di Variabili aleatorie|indipendenti]]_ allora sono anche _scorrelate_ e $\rho =0$, non è necessariamente vero il contrario infatti il termine _lineare_ sta proprio ad indicare l approssimazione con una _retta_. Se questo non è possibile i dati potrebbero comunque risultare non _indipendenti_ ma _scorrelati_. 
 Esempio $Y=X^{2}$

@@ -18,7 +18,7 @@ il modello più semplice di __modello lineare__ è quello uni-variato dove abbia
 __Sia__
 - $x$ l' input del modello
 - $w_0,w_1 \in \mathbb{R}$ parametri del modello, detti pesi
-__allora__ il __modello lineare__ è definito dalla [[Funzioni|funzione]] che rappresenta una [[Retta|retta]]  
+__allora__ il __modello lineare__ è definito dalla [[Funzioni|funzione]] che rappresenta una [[Rette|retta]]  
 $$y = h_w(x)= w_1x+w_0$$
 Questo __modello__ ha uno [[Algoritmi di learning supervisionato|spazio delle ipotesi]]  $\mathcal{H}$ di dimensione infinita questo siccome $w_0,w_1$ sono parametri in continuo e si possono quindi esprimere infinite $h_w$ diverse.
 

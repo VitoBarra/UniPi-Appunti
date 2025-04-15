@@ -5,7 +5,7 @@ tags:
   - GA
 ---
 
-# Retta
+# Rette
 ---
 una _retta_ è un insieme infinito di punti allineati nel piano o nello spazio ed è un ente geometrico fondamentale.
 

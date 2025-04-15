@@ -18,6 +18,11 @@ dove $\gamma: [a,b] \rightarrow M$ è una [[Curva regolare|curva regolare]] che 
 
 La distanza geodetica misura quindi la lunghezza della **minima geodetica** tra due punti, ovvero il cammino più breve "ammesso" dalla geometria della superficie.  
 Nel caso di superfici curve come la [[Sfera|sfera]], la geodetica corrisponde a un [[Arco di circonferenza massima|arco di cerchio massimo]].
+un altro esempio invece su un toro è il seguente: ![[IMG - Diagramma di voronoi su superfici.png]] dove si colora in base alla distanza geodedica rispetto ad un certo punto (zona rossa), la zona blu è la piu distante
+
 
 Rispetto alla [[Distanza euclidea|distanza euclidea]], che ignora la curvatura dello spazio, la distanza geodetica tiene conto della forma del dominio in cui si trovano i punti. 
 solitamente vale che la **distanza geodetica** si sempre maggiore di quella [[Distanza euclidea|euclidea]] $$d_{geo}\geq d_{euc}$$
+
+
+

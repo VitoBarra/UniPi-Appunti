@@ -6,7 +6,7 @@ topic:
 ---
 # Interpolazione Lineare
 ---
-L'_interpolazione lineare_ è un metodo che stima il valore di una funzione tra due punti noti utilizzando una [[Retta|retta]] che li _congiunge_. 
+L'_interpolazione lineare_ è un metodo che stima il valore di una funzione tra due punti noti utilizzando una [[Rette|retta]] che li _congiunge_. 
 Questo approccio fornisce una stima lineare del valore della funzione in punti intermedi non noti.
 
 _siano_ due coordinate $(x_i, y_i)$ e $(x_{i+1}, y_{i+1})$

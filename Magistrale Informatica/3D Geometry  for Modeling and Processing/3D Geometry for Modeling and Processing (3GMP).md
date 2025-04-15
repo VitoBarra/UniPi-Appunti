@@ -47,7 +47,7 @@ tags:
 	1. [[Poisson Disk Sampling]]
 	2. [[]]
 	3. [[Voronoi Sampling]]
-		1. [[Diagramma di voronoi]]
+		1. [[Tasselizazione di Voronoi]]
 8. [[Geometria Differenziale discreta]]
 
 Parte pratica:

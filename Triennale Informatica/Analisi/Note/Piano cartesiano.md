@@ -6,7 +6,7 @@ tags:
 ---
 # Piano cartesiano
 ---
-Il _piano cartesiano_ è formato da due _assi_ ([[Retta|rette]])[[Rette perpendicolari|perpendicolari]]: 
+Il _piano cartesiano_ è formato da due _assi_ ([[Rette|rette]])[[Rette perpendicolari|perpendicolari]]: 
 - l'asse delle ascisse (orizzontale) 
 -  l'asse delle ordinate (verticale). 
 _Punti_ sul piano sono espressi come coppie di coordinate $(x, y)$.

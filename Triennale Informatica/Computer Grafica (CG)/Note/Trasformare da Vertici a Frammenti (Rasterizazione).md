@@ -21,7 +21,7 @@ Rasterizazione dei punti
 ![[IMG_0784.jpeg]]
 
 Rasterizazione delle _linee_
-l Algoritmo di _renderizzazione_ di una linea passante da due punti dipende dallo _slope_ della [[Retta|retta]] ovvero dal suo _coefficiente angolare_ calcolato come$$m=\frac{y_{1}-y_{0}}{x_{1}-x_{0}}$$
+l Algoritmo di _renderizzazione_ di una linea passante da due punti dipende dallo _slope_ della [[Rette|retta]] ovvero dal suo _coefficiente angolare_ calcolato come$$m=\frac{y_{1}-y_{0}}{x_{1}-x_{0}}$$
 e vale che $$\begin{cases} 
 \begin{cases}
 y=y_{0}+m(x-x_{0})  \\

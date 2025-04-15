@@ -9,7 +9,7 @@ SubTopic:
 
 # Illuminazione - Interazione della luce con la materia
 ---
-la __[[Fisica - Onde|luce]]__ è un flusso di __energia radiante__ che si sposta da un posto (__source__) a un altro (__reciver__) seguendo una [[Retta|linea retta]]
+la __[[Fisica - Onde|luce]]__ è un flusso di __energia radiante__ che si sposta da un posto (__source__) a un altro (__reciver__) seguendo una [[Rette|linea retta]]
 La __luce__  puo provenire da due tipi di fonti
 - __Fonte primaria__: un _Emettitore_ di luce ovvero qualcosa che genera luce
 - __Fonte secondaria__: un _Riflettore_ di luce ovvero la luce viene riflessa da un oggetto.]

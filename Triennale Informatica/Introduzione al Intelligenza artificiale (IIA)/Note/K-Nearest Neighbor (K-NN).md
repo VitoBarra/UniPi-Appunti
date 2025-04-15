@@ -34,7 +34,7 @@ con un $K$ più altro si ottiene un decision boundary comunque flessibile e non 
 ![[Pasted image 20241225023615.png]]
 con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[Overfitting e Underfitting|underfitting]].
 
-Questo algoritmo utilizza implicitamente i [[Diagramma di voronoi|diagrammi di voronoi]].
+Questo algoritmo utilizza implicitamente i [[Tasselizazione di Voronoi|diagrammi di voronoi]].
 
 
 Per fare [[Algoritmi di learning supervisionato|classificazione]] multi class invece si utilizza lo stesso algoritmo ma se ne cambia l output. Infatti si ha che ritorna la classe più comune tara i suoi $K$ Vicini$$h(\mathbf{x})= \arg_v \max \sum_{(\mathbf{x}_i,y_i)\in N_k(\mathbf{x})}\mathbf{1}_{v,y_i}$$dove $$\mathbf{1}_{v,y_i}=

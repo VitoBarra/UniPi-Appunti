@@ -8,7 +8,7 @@ Prev: [[Geometria analitica (GA)]]
 
 # Retta tangente
 ---
-un un particolare tipo di [[Retta|retta]] che passa per un punto specifico di un grafico 
+un un particolare tipo di [[Rette|retta]] che passa per un punto specifico di un grafico 
 
 
 ### Calcolo del coefficiente angolare

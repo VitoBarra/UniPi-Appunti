@@ -6,7 +6,7 @@ tags:
 ---
 # Retta di regressione
 ---
-in [[Statistica descrittiva|Statistica descrittiva]] la _retta di regressione_ è uno strumento utile per i [[Statistica Descrittiva - Dati Multivariati|dati multivariati]] è la _retta di regressione_ questa è la [[Retta|retta]] su cui tanto più il coefficiente di correlazione in valore assoluto $|r(x,y)|$ è vicino a 1 più i dati sono distribuiti sulla retta. il segno di $r(x,y)$ determina il segno del [[Retta|coefficiente angolare]] della _retta_.
+in [[Statistica descrittiva|Statistica descrittiva]] la _retta di regressione_ è uno strumento utile per i [[Statistica Descrittiva - Dati Multivariati|dati multivariati]] è la _retta di regressione_ questa è la [[Rette|retta]] su cui tanto più il coefficiente di correlazione in valore assoluto $|r(x,y)|$ è vicino a 1 più i dati sono distribuiti sulla retta. il segno di $r(x,y)$ determina il segno del [[Rette|coefficiente angolare]] della _retta_.
 Per calcolare la _retta di regressione_ vogliamo calcolare la quantità$$\inf_{a,b\in \mathbb{R}^{2}} \sum^{n}_{i=1}(y_{i}-a-bx_{i})^{2}$$ovvero siamo approssimando i valori di $y_{i}$ con una combinazione lineare affine $a+bx_{i}$. l _inf_ equivale al minimo e vale il seguente teorema
 
 #### Teorema e Definizione retta di regressione

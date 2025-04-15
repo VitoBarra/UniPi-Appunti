@@ -14,7 +14,7 @@ _se_
 - [[Continuità di una funzione|continua]] nel _intervallo chiuso_ $[a,b]$ 
 - [[Funzioni differenziabili|derivabile]] nel _intervallo aperto_ $(a,b)$
 _allora_ esiste almeno un punto $$\exists c\in(a,b).f'(c)= \cfrac{f(b)-f(a)}{b-a}$$
-geometricamente significa che _se_ sono soddisfatte le _ipotesi_ esiste almeno un punto in cui si puo disegnare una _tangente parallela_  alla [[Retta|retta]] che che passa per i punti $a,b$ infatti la formula $f'(c)=\cfrac{f(b)-f(a)}{b-a}$ viene proprio dal calcolo del _coefficiente angolare_ della _retta secante_ che passa per i due punti estremi del intervallo e $f'(c)$ é proprio il coefficiente angolare _tangente_ a $c$ parallela alla _secante_![[Mvt2_italian.svg.png]]
+geometricamente significa che _se_ sono soddisfatte le _ipotesi_ esiste almeno un punto in cui si puo disegnare una _tangente parallela_  alla [[Rette|retta]] che che passa per i punti $a,b$ infatti la formula $f'(c)=\cfrac{f(b)-f(a)}{b-a}$ viene proprio dal calcolo del _coefficiente angolare_ della _retta secante_ che passa per i due punti estremi del intervallo e $f'(c)$ é proprio il coefficiente angolare _tangente_ a $c$ parallela alla _secante_![[Mvt2_italian.svg.png]]
 #### Dimostrazione
 
 

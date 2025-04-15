@@ -40,7 +40,7 @@ per far funzionare questa definizione dobbiamo aggiungere il vincolo $$4a^{3}+27
 in entrambi le tipologie di curve vale sempre la simmetria rispetto al asse del ascisse e quindi vale che se $$P=(x,y) \in E(a,b) \implies -P=(x,-y) \in E(a,b)$$Mentre per il punto al infinito $O$ il suo _speculare_ è $O$ stesso.
 
 per le applicazioni crittografiche ci interessa la proprietà di intersezione con una retta di questa curva. 
-infatti intersecando una curva di terzo grado e una di primo (una [[Retta|retta]]) otteniamo che e soluzioni _reali_ sono al più 3.
+infatti intersecando una curva di terzo grado e una di primo (una [[Rette|retta]]) otteniamo che e soluzioni _reali_ sono al più 3.
 Infatti avremmo un _unica soluzione reale_ quando  
 - si interseca la curva con una _retta orizzontale_ con _ordinata_ abbastanza _elevata_ o abbastanza _bassa_
 - si interseca la curva con una _retta verticale_  con un _ascissa_ abbastanza _elevata_ o abbastanza _bassa_, questa interseca la curva solo nel punto $O$. 
@@ -82,7 +82,7 @@ x_{S} & = & \lambda^{2} -x_{P} & -x_{Q} \\
 y_{S}  & = &   \lambda(x_{P}-x_{S})  & -y_{P}
 \end{array}$$
 con $\lambda= \cfrac{y_{Q}-y_{P}}{x_{Q}-x_{P}}$ nel caso $Q \not= \pm P$
-	 dove $\lambda$ è il [[Retta|coefficiente angolare]] della _retta_ passante per i punti $P$ e $Q$
+	 dove $\lambda$ è il [[Rette|coefficiente angolare]] della _retta_ passante per i punti $P$ e $Q$
 con $\lambda =\cfrac{3x^{2}_{P}+a}{2y_{P}}$ nel caso $Q = P$. 
 	 dove $\lambda$ è il _coefficiente angolare_ della [[Retta tangente|retta tangente]] a $P$ e il punto che stiamo calcolando è $S = P+Q = 2P$ e questa viene dalla [[Differenziazione Implicita|differenziazione Implicita]] della equazione della curva
 	 _Se_ $y_{P}=0$ _allora_ $S =2P= O$
@@ -90,7 +90,7 @@ con $\lambda =\cfrac{3x^{2}_{P}+a}{2y_{P}}$ nel caso $Q = P$.
 	 si ha che $S=P +(-P)=O$
 	 
 >[!note]- Da dave viene?
->questi risultati vengono dalla [[Retta#Retta passante per 2 punti|formula della retta passante per i punto]] $P$ e $Q$ e poi mettendo a sistema con l equazione della _curva ellittica_, trovate queste coordinate bisogna invertire il sengno della $y$ per trovare il punto speculare (ovvero stiamo prima calcolando $R$ e poi $S=-R$)
+>questi risultati vengono dalla [[Rette#Retta passante per 2 punti|formula della retta passante per i punto]] $P$ e $Q$ e poi mettendo a sistema con l equazione della _curva ellittica_, trovate queste coordinate bisogna invertire il sengno della $y$ per trovare il punto speculare (ovvero stiamo prima calcolando $R$ e poi $S=-R$)
 
 >[!warning]
 >Le curve ellittiche su reali non sono adatte ad applicazioni crittografiche, questo perchè la crittografia ha bisogno di fare conti veloci e precisi e questo non è possibile con i reali  per via degli [[Tipi di Errore nel calcolo numerico|errori di approssimazione]] introdotto dalla _rappresentazione_ e dal _calcolo_

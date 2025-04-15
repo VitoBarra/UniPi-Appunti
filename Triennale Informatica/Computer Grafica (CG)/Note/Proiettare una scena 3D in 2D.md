@@ -84,7 +84,7 @@ la proiezione prospettica si ottiene considerando 2 elementi:
 - Point of View : il "punto di vista", che siccome stiamo usando il View Reference frame questo corrisponde a l' origine
 - View plane : un "piano di vista", ovvero un piano che usando il View Reference frame e' ortogonale al asse $z$
  
-Indicando con $\boldsymbol{C} = \begin{bmatrix}0,0,0,1\end{bmatrix}^T$ il view point e con $VP$ il piano di vista e fissato al punto $-d$, supponendo di avere nello spazio 3D un punto $\boldsymbol{p}$, abbiamo che la sua proiezione prospettica $\boldsymbol{p}'$ e' l intersezione con il $VP$ della [[Retta|retta passante]] per $C$ e $\boldsymbol{p}$  
+Indicando con $\boldsymbol{C} = \begin{bmatrix}0,0,0,1\end{bmatrix}^T$ il view point e con $VP$ il piano di vista e fissato al punto $-d$, supponendo di avere nello spazio 3D un punto $\boldsymbol{p}$, abbiamo che la sua proiezione prospettica $\boldsymbol{p}'$ e' l intersezione con il $VP$ della [[Rette|retta passante]] per $C$ e $\boldsymbol{p}$  
 
 ![[Pasted image 20240207185229.png]]
 
