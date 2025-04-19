@@ -9,7 +9,7 @@ SubTopic:
 
 # Texture
 ---
-le __texture__ sono array di dati che puo essere 1D, 2D o 3D, questi dati sono solitamente [[Rappresentazione delle immagini|immagini rasterizate]] ma possono rappresentare qualsiasi cosa, anche ad esempio una mappa di [[Normale di una superfice|normali]]
+le __texture__ sono array di dati che puo essere 1D, 2D o 3D, questi dati sono solitamente [[Rappresentazione delle immagini|immagini rasterizate]] ma possono rappresentare qualsiasi cosa, anche ad esempio una mappa di [[Normale di una superfice parametrica|normali]]
 
 in una __texture__ Ogni elemento del array è chiamato __Texel__ (Texture element) e una posizione nel array è detta __texture coordinates__ oppure __UV-coordinates__ solitamente sono 2D e sono espresse con un sistema di coordinate che ha origine nel angolo in basso a sinistra i due assi sono $(u,0)$ e $(0,v)$ in modo da far corrispondere la texture ad un rettangolo tra $[0,0]$ e $[1,1]$  indicato con $[0,1]^2$![[Pasted image 20240301050343.png]]
 La texture non deve essere necessariamente quadrata ma i lati devono essere potenze di due.

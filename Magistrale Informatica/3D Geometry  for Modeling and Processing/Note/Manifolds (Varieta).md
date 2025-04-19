@@ -25,3 +25,14 @@ una esempio di superfice non manifold è il seguente
 ![[IMG - Manifoldnes con punti non manifold.png]]
 Sul punto di dove c è una stretta non si puo definire una vicinato per quanto infinitesimale che è totalmente contenuto nella superfice, in generale i casi di non manifoldnes  2
 ![[IMG - oggetti non Manifolds.png]]
+
+
+
+#### Manifoldness
+una __mesh poligonale__ può essere un $2$-[[Manifolds (Varieta)|manifold]] 
+![[Pasted image 20240220034236.png]]
+Per controllare che la __mesh__ sia un $2$-manifold se valgono le due seguenti proprietà:
+1. __Edge Manifold__ ogni spigolo (edge) é condiviso da massimo due triangoli
+2. __Vertex Manifold__ : prese un numero arbitrario di facce $f_i$ che condividono un vertice $v_i$ (anche dette le facce incidenti a $v_i$) allora partendo dal vertice $v_i$ esiste una percorso sugli edge delle facce $f_i$ tale che questo tocchi tutti i vertici di tutte le facce $f_i$ senza ripassare per $v_i$. 
+due esempi di mesh che non sono manifold sono
+![[Pasted image 20240220034225.png]]

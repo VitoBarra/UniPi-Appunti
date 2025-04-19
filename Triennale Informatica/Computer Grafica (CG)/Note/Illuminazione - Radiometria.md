@@ -41,7 +41,7 @@ dalla definizione di [[Steradianti#angolo solido|angolo solito]] sappiamo che l 
 #### Radianza
 la __Radianza__ è una una misura doppia di _Densità di Area e direzione_ per __flux__, Questa misura il flusso di radiazioni da una superfice per unita di __area proiettata__ e per unita di [[Steradianti|angolo solido]] per la direzione del flusso.
 l __Aria proiettata__ deve esserlo sulla direzione del flusso di __flux__ e la stessa area proiettata si puo riferire a quantità di area vera diversa a seconda del orientamento della superfice 
-sia $\theta$ l angolo tra la direzione $w$ e la [[Normale di una superfice|normale della superfice]]
+sia $\theta$ l angolo tra la direzione $w$ e la [[Normale di una superfice parametrica|normale della superfice]]
 la __Radianza__ puo essere espressa come $$L(\omega)=\cfrac{d^2\Phi}{dA_{\bot}d\omega}=\cfrac{d^2\Phi}{dA\cos \theta\  d\omega}$$
 l unita di misura della radianza è il Watt su metro quadrato su steradiante ($\cfrac{W}{m^2\ Sr}$)
 ![[Pasted image 20240227052901.png]]

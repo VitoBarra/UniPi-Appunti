@@ -96,7 +96,7 @@ e su questi si possono fare le operazioni di
 e quindi per trovare un intersezione basta cercare gli spans sulle foglie del albero di costruzione e poi seguire le operazioni che si riflettono anche sugli span. 
 se é rimasto qualche span allora c é un punto di intersezione
 
-per mantenere la corretta [[Normale di una superfice|normale]] basta mantenerla in memoria nei punti di intersezione, negandola in caso di intersezione
+per mantenere la corretta [[Normale di una superfice parametrica|normale]] basta mantenerla in memoria nei punti di intersezione, negandola in caso di intersezione
 ![[Pasted image 20240311160754.png]]
 
 

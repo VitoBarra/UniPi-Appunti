@@ -36,7 +36,7 @@ _sia_
 - $\omega_e$ direzione della luce riflessa
 - $L(\cdot)$ funzione di [[Illuminazione - Radiometria#Radianza|radianza]] dipendente dalla direzione
 - $E_i(\cdot)$ funzione di [[Illuminazione - Radiometria#Irradiance e exitance|irradianza]] dipendente dalla direzione
-_allora_ la __BRDF__ è definita come funzione a due variabili$$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{dE_i(\omega_i)}$$ e sfruttando la relazione $$E(\omega)=L(\omega)\cos \theta \ d\omega$$con $\theta$ l angolo tra la direzione d incidenza e la [[Normale di una superfice|normale]]
+_allora_ la __BRDF__ è definita come funzione a due variabili$$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{dE_i(\omega_i)}$$ e sfruttando la relazione $$E(\omega)=L(\omega)\cos \theta \ d\omega$$con $\theta$ l angolo tra la direzione d incidenza e la [[Normale di una superfice parametrica|normale]]
  possiamo riscrivere la definizione in termini di $L$ come $$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{L(\omega_i)\cos \theta_i \ d\omega_i}$$ le direzioni possono essere specificate come angolo di inclinazione $\theta$ e angolo di azimuth $\phi$ e quindi le direzione sono funzioni di spazzi angolare e vale che $$f(\theta_i,\phi_i,\theta_r,\phi_r)=f_r(\omega_i,\omega_r)$$![[Pasted image 20240228033438.png]]
 
 
@@ -58,8 +58,8 @@ $$nel caso di  [[Superfice lambertiana| superfici Lambertiane]], ovvero esattame
 invece nel caso di superfici con riflessi [[Illuminazione - Interazione della luce con la materia#Luce Speculare|totalemente speculari]] si avra che questo tipo di superfice è governata dalla __legge di fresnel__ definita come
 _sia_ 
 - $R(\omega)$ la funzione di frestern
-- $\theta_i$ e gli [[Angoli|angoli]] tra luce incidente e [[Normale di una superfice|normale]]
-- $\theta_r$ l [[Angoli|angoli]] tra luce riflessa e [[Normale di una superfice|normale]] 
+- $\theta_i$ e gli [[Angoli|angoli]] tra luce incidente e [[Normale di una superfice parametrica|normale]]
+- $\theta_r$ l [[Angoli|angoli]] tra luce riflessa e [[Normale di una superfice parametrica|normale]] 
 _allora_$$L(w_r)=\begin{cases}
 R(\omega_i)L(\omega_i) &  if  & \theta_i=\theta_r \\
 0 & else

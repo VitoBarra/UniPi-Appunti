@@ -9,9 +9,9 @@ SubTopic:
 
 # Coordinate Baricentriche
 ---
-le __coordinate baricentriche__ sono un sistema per riferisci ad un punto al interno di un [[geometria - Simplex|simplex]] come una combinazione pesata dei sui componenti che lo definiscono
+le __coordinate baricentriche__ sono un sistema per riferisci ad un punto al interno di un [[Simplex (Simplesso)|simplex]] come una combinazione pesata dei sui componenti che lo definiscono
 
-per il 1-[[geometria - Simplex|simplex]] ovvero per una linea si ha che 
+per il 1-[[Simplex (Simplesso)|simplex]] ovvero per una linea si ha che 
 _sia_
 - $w_0,w_1$ due pesi tale che $w_0+w_1=1$
 - $p_0, p_1$ i punti (0-simplex) due estremi 

@@ -7,21 +7,9 @@ topic:
 SubTopic: 
 ---
 
-# Geometria Differenziale discreta
+# Geometria Differenziale Discreta
 ---
-
-cerchio osculante: la curavatura è il reciproco del raggio osculante. 
-asseconda da dove è il centro posso determianre il segno della curvatura.
+La **[[Geometria differenziale|geometria differenziale]]** offre strumenti potenti per analizzare e manipolare superfici, sia nel continuo che nel discreto. Partiamo dal concetto fondamentale di **normale** a una superficie. Immagina di stare su una collina: la normale è quel vettore che punta dritto verso l'alto, perpendicolare al terreno sotto i tuoi piedi. Matematicamente, per una superficie parametrica liscia, la normale si ottiene dal prodotto vettoriale delle derivate parziali lungo le direzioni parametriche. 
 
 
-teorema di eulero molto fico ti da direzione perpendicolari per la curvatura massima e minima. forse anche il motivo per cui funziona il macchine learning, va indagato.
-
-
-
-
-curvatura gaussiana: moltiplicando il modulo dei due vettori molto fica
-
-Curva media: misura la divergenza della normale.
-
-
-se la curva media è 0 non ho modo di spostare in vertici per attenere qualcosa che ha meno area.
+Assumption: Meshes are piecewise linear approximations of smooth surfaces

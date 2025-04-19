@@ -61,10 +61,6 @@ Progetto intersezione i due diagrammi di voronoi si fa in classe,
 Campionamento gestito in modo generico. si associa un samplere, che solo delle funzoini da calcolare sui vertici nuovi generati. in questi modo ci si posono salvae informaizoni derivate dalla facci ach l ha generata.
 
 
-#### Marching cube 3D
-Problema del ambiguità usando la look up table di 256 cosi
-
-
 
 
 ### To point cloud to scalar field
@@ -117,4 +113,15 @@ Le parametrizazione dovrebbero essere bigettive in pratica non lo sono quasi mai
 ## 3D photo acquisition
 si fa con le  foto e falisce nei casi di oggetti laminari, come parti e pelo e punti molto luminiosi o trasparenti. 
 per esmpio il vetro non si ritrova nulla di simile da poter riusare per la ricostruzione.
+
+
+
+
+
+
+
+
+
+
+
 

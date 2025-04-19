@@ -30,10 +30,16 @@ _output Computation_:
 
 > [!tip] 
 > in vecchie versioni della pipeline il __per-Vertex trasformation__ e il __primitive processing__ erano accorpati in un unico stage chiamato _primitive assembly_
-##### Costo computazionale
+
+il consto computazionale della rasterizazione si puo esprimere come
 _sia_
 - $n_v$ il numero di _vertici_
 - $K_{tr}$ il costo della trasformazione di ogni vertice
 - $m$ il numero di primitive
 - $Ras(p_i)$ il costo della _rasterizazione_ della primitiva $p_{i}$
 _allora_ il costo del intero processo è stimato da $$Cost(rast)=K_{tr}n_{v}+\sum^{m}_{i=0}Ras(p_{i})$$
+
+
+#### Rendering di mesh non triangolari
+gli algoritmi usati nelle GPU per il [[Algoritmi di renderizzazione|rendering]] lavorano solo con [[Mesh Poligonali|mesh triangolari]] motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
+![[Pasted image 20240220035554.png]]

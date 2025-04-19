@@ -81,7 +81,7 @@ in particolare si puo vedere come piu è alto lo slope di una mesh in camera spa
 ![[Pasted image 20240308023049.png]]
 si puo quindi scegliere un $\varepsilon$ che dipende da questo slope e allora si avra che
 _sia_
-- $n$ la [[Normale di una superfice|normale della superfice]]
+- $n$ la [[Normale di una superfice parametrica|normale della superfice]]
 - $L$ la direzione della luce
 - $\cdot$ è il [[Prodotto scalare euclideo (Dot product)|Dot product]]
 - $\alpha,min\_\varepsilon,max\_\varepsilon$ fattori arbitrari di fine tuning

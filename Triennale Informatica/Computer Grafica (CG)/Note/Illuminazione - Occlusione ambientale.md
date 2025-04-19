@@ -41,7 +41,7 @@ _allora_ il termine di occlusione è calcolato come
 $$AO =1-\cfrac{1}{|S|}\sum_{p \in  S}V(P)$$
 
 ![[Pasted image 20240309194313.png]]
-questo potrebbe essere ottimizzato utilizzando la [[Normale di una superfice|normale  della superfice]]
+questo potrebbe essere ottimizzato utilizzando la [[Normale di una superfice parametrica|normale  della superfice]]
 ![[Pasted image 20240309194337.png]]
 
 il calcolo della $AO$ puo essere espresso con la sua pipeline.

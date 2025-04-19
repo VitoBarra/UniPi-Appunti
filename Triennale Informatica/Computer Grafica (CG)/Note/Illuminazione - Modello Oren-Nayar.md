@@ -21,8 +21,8 @@ un superfice piu è rough piu appare piatta
 
 Il modello è definito come
 _sia_
-- $\alpha$ è l [[Angoli|angolo]] tra la [[Normale di una superfice|normale]] e la direzione della luce incidente $\alpha = \arccos(\boldsymbol{N}\cdot \boldsymbol{L})$
-- $\beta$ è l [[Angoli|angolo]] tra la [[Normale di una superfice|normale]] e la direzione di vista $\beta = \arccos(\boldsymbol{N}\cdot \boldsymbol{V})$
+- $\alpha$ è l [[Angoli|angolo]] tra la [[Normale di una superfice parametrica|normale]] e la direzione della luce incidente $\alpha = \arccos(\boldsymbol{N}\cdot \boldsymbol{L})$
+- $\beta$ è l [[Angoli|angolo]] tra la [[Normale di una superfice parametrica|normale]] e la direzione di vista $\beta = \arccos(\boldsymbol{N}\cdot \boldsymbol{V})$
 - $A$ e $B$ sono parametri per definire la roughness
 - $C$ è l angolo di azimuthal tra  la direzione di vista $V$ e direzione della luce  $L$
 - $\rho$  è la [[Variabili Aleatorie Notevoli - Gaussiane|distribuzione gaussiana]] con media a 0

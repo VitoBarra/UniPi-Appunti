@@ -10,7 +10,7 @@ SubTopic:
 
 # Marching cube
 ---
-si puo usare il __marching cube__ per trasformare un campo salare ([[Superfici implicite|rappresentazione implicita]]) in una [[Mesh Poligonali|mesh poligonale]].
+si puo usare il __marching cube__ per trasformare un [[Superfici implicite|rappresentazione implicita]] (campo salare) in una [[Mesh Poligonali|mesh poligonale]].
 
 sia $f(x,y)$ un campo scalare
 si parte da dei campioni regolari di $f(x,y)$

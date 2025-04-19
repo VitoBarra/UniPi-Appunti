@@ -30,14 +30,14 @@ la __Luce diffusa__ è una componente della __luce riflessa__. La quantità di l
 una [[Superfice lambertiana|superfice lambertiana]] riflette  solo per __diffusione__  e quindi apparirà illuminato allo stesso modo in tutte le direzioni ovvero in modo __uniforme__
 ![[Pasted image 20240227184013.png]]
 la quantità di luce totale diffusa da una _superfice_ dipende dal inclinazione della luce incidente rispetto alla superfice, siccome questo determina la quantità di luce che raggiunge il punto che  riflette. 
-è massima quando la luce è [[Rette perpendicolari|perpendicolare]] alla superfice e [[Rette Parallele|parallela]] alla [[Normale di una superfice|norma]] e minima il contrario o se la luce viene da dietro l oggetto
+è massima quando la luce è [[Rette perpendicolari|perpendicolare]] alla superfice e [[Rette Parallele|parallela]] alla [[Normale di una superfice parametrica|norma]] e minima il contrario o se la luce viene da dietro l oggetto
 ![[Senzanome 1.png]]
 ![[coseno giu.png]]
 abbiamo quindi che 
 _sia_
 - $L_{\text{incident}}$ la quantità di luce incidente
 - $k_{\text{diffuse}}$ un coefficiente di diffusione che dipende da [[Illuminazione - Materiali|materiale]]
-- $N$ la [[Normale di una superfice|normale della superfice]] 
+- $N$ la [[Normale di una superfice parametrica|normale della superfice]] 
 - $\omega_i$ il [[Vettori|vettore]] di direzione della luce incidente
 - $\theta$ l [[Angoli|angolo]] tra $\omega$ e $N$ 
 _allora_ la luce diffusa sarà$$L_{\text{diffuse}}=L_{\text{incident}}k_{\text{diffuse}}\cos \theta$$per via della relazione tra [[Prodotto scalare euclideo (Dot product)|dot product]] e [[Tringonometria|coseno]] abbiamo che possiamo scrivere $$\cos \theta = N\cdot \omega$$e quindi la definizione standard per il __Riflesso Lambertiano__ sarà $$L_{\text{diffuse}}=L_{\text{incident}}k_{\text{diffuse}}(\boldsymbol{N}\cdot \omega_i)$$
@@ -59,8 +59,8 @@ la __Rifrazione__ è un fenomeno che accade quando una parte della luce non vien
 questo fenomeno è descritto dalla __legge di riflettanza__ (o legge di snell) che dice
 _sia_
 - $\eta_1, \eta_2$ gli [[Illuminazione - Materiali#Indice di refrazzione|indici refrattivi]] (velocita della luce al interno di un materiale) dei materiali 1 e 2
-- $\theta_{1}$ l angolo tra [[Normale di una superfice|normale]] e luce incidente
-- $\theta_2$ l angolo tra [[Normale di una superfice|normale]] e luce rifratta
+- $\theta_{1}$ l angolo tra [[Normale di una superfice parametrica|normale]] e luce incidente
+- $\theta_2$ l angolo tra [[Normale di una superfice parametrica|normale]] e luce rifratta
 _allora_ vale che $$\eta_1\sin \theta_1=\eta_2\sin \theta_2$$
 la luce passera in accordo a questa legge![[Pasted image 20240227184107.png]]
 

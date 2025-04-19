@@ -13,7 +13,7 @@ Le __Point cloud__(__nuvole di punti__) sono un modo per [[Rappresentazione di m
 Una __nuvola di punti__ è definita come una collezione di sample da una superfice, L'[[Insiemi Matematici|insieme]] e completamente destrutturato, ovvero non c é nessun informazione di connessione tra i punti.
 Ogni ponto è rappresentato da un __surfel__ (surface element) quest descrive una piccolo pezzo della superfice e ha dati come 
 - la posizione $p(x,y,z)$ 
-- la [[Normale di una superfice|normale]] 
+- la [[Normale di una superfice parametrica|normale]] 
 - il colore
 - La dimensione del disco
 ![[Pasted image 20240224030942.png]]

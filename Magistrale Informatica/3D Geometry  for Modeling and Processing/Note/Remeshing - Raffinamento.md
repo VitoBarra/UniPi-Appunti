@@ -9,7 +9,7 @@ SubTopic:
 
 # Remeshing - Raffinamento
 ---
-Gli algoritmi di [[Meshing e il Remeshing|remeshing]] di __raffinamento__ sono algoritmi dove a partire da una [[Mesh Poligonali|mesh]] se ne genera una altra con più dettaglio, solitamene piu [[Smoothness di una superfice|smooth]] 
+Gli algoritmi di [[Meshing e il Remeshing|remeshing]] di __raffinamento__ sono algoritmi dove a partire da una [[Mesh Poligonali|mesh]] se ne genera una altra con più dettaglio, solitamene piu [[Z-delME|smooth]] 
 questa categoria di [[Algoritmi|algoritmi]] si possono dividere in dure direzioni ortogonali 
 
 | Primale                                 | Duale                                                                   |

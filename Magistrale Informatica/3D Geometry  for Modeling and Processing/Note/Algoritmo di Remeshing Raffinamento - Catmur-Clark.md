@@ -30,5 +30,5 @@ Questo algoritmo può anche essere implementato in due passi utilizzando un l'al
 
 In più la superfice che si ottiene applicando al infinito questo algoritmo puo essere calcolata in forma chiusa in tempo polinomiale
 
-La superfice risulta smooth [[Smoothness di una superfice|smooth]] se non ci sono vertici di valenza superiore a $5$
+La superfice risulta smooth [[Z-delME|smooth]] se non ci sono vertici di valenza superiore a $5$
 

@@ -18,12 +18,11 @@ __Sia__
 - $\mathcal{K} \subset \mathcal{V} \times \mathcal{V}$ un insieme di adiacenza tra vertici, ovvero come questi sono connessi
  __Allora__ la tupla $(\mathcal{V,K})$ é una __Mesh poligonale__ indicata con $\mathcal{M}$ 
 ![[Pasted image 20240220020323.png]]
-
 Considerando una mesh possiamo discriminare $2$ aspetti fondamentali:
-- __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte geometrica continua.
-- __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte combinatoria discreta.
-In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la [[Manifolds (Varieta)|Manifoldness]], i bordi, le componenti connesse e l orientabilità.
-Questo ci permette di scegliere la rappresentazione topologica piu comoda per le operazioni che si vogliono fare sulla mesh preservando più o meno la parte geometrica e quindi l'estetica degli oggetti che si vogliono rappresentare. 
+- __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte **geometrica, continua**.
+- __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte **combinatoria, discreta**.
+In generale ogni forma può essere rappresentata in maniera diversa mantenendo una certa similarità geometrica ma cambiandone totalmente la aspetto topologico. Questo è importante siccome solo dal aspetto topologico possiamo attribuire alcune proprietà alla mesh come ad esempio la [[Manifolds (Varieta)|Manifoldness]], i **bordi**, le **componenti connesse** e l **orientabilità**.
+Questo ci permette di scegliere la rappresentazione topologica piu comoda per le operazioni che si vogliono fare sulla mesh preservando il piu possibile la parte geometrica e quindi l'estetica degli oggetti che si vogliono rappresentare. 
 
 
 
@@ -37,14 +36,6 @@ __Mesh aperta__: una mesh con border edges.
 
 
 
-#### Manifoldness
-una __mesh poligonale__ può essere un $2$-[[Manifolds (Varieta)|manifold]] 
-![[Pasted image 20240220034236.png]]
-Per controllare che la __mesh__ sia un $2$-manifold se valgono le due seguenti proprietà:
-1. __Edge Manifold__ ogni spigolo (edge) é condiviso da massimo due triangoli
-2. __Vertex Manifold__ : prese un numero arbitrario di facce $f_i$ che condividono un vertice $v_i$ (anche dette le facce incidenti a $v_i$) allora partendo dal vertice $v_i$ esiste una percorso sugli edge delle facce $f_i$ tale che questo tocchi tutti i vertici di tutte le facce $f_i$ senza ripassare per $v_i$. 
-due esempi di mesh che non sono manifold sono
-![[Pasted image 20240220034225.png]]
 
 #### Orientamento
 i triangoli di una mesh $\mathcal{M}$ possono essere orientati in due modi diversi, orario e anti-orario. 
@@ -61,7 +52,7 @@ Non tutte le mesh si possono orientare e queste sono dette mesh con un solo lato
 #### Risoluzione di una mesh
 una Mesh piu ha facce piu questa ha __Risoluzione__ alta, bisogna fare un trade off tra la qualità della rappresentazione del oggetto e le performance siccome avere piu facce significa dover fare piu calcoli.
 ![[Pasted image 20240220032636.png]]
-La __Risoluzione__ puo essere adattiva ovvero si possono usare piu o meno facce in porzioni diversi della stessa mesh a seconda della necessita di dettagli
+La __Risoluzione__ puo essere adattiva usando usando gli adeguati [[Indici spaziali|indici spaziali]] si puo rappresentare lo stesso oggetto usando piu o meno facce in porzioni diversi della stessa mesh a seconda della necessita di dettaglio.
 ![[Pasted image 20240220035133.png]]
 
 
@@ -82,9 +73,6 @@ per una __strip__ e per un __fan__ di $m$ triangoli il numero di vertici [[Stati
 
 
 
-#### Rendering di mesh non triangolari
-gli algoritmi usati nelle GPU per il [[Algoritmi di renderizzazione|rendering]] lavorano solo con mesh triangolari motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
-![[Pasted image 20240220035554.png]]
 
 
 
@@ -95,40 +83,3 @@ Si puo fare l encodig di questi valori in modo diverso,
 2. per faccia: sono nelle singole facce, poco usato
 
 
-#### normale di una mesh Poligonale
-Calcolare la [[Normale di una superfice|normale]] di una mesh poligonale é la normale alla superfice continua che la mesh sta rappresentando.
-Avendo pero solo la superfice del poligono che stiamo rappresentando avremmo che la normale sara quella della superfice del poligono che rappresenta quella parte della superfice continua.
-![[Pasted image 20240221001431.png]]
-le faccie dei triangoli essendo piatte avranno una norma costante per tutti i punti della faccia.
-possiamo calcolare la norma per-face, ovvero la calcoliamo una volta per un triangolo e poi la usiamo per tutti i punti della faccia. Fare cio pero porta ad enfatizare i singoli triangolo ed é solitamente qualcosa che si vuolte evitare
-![[Pasted image 20240220225451.png]]
-una soluzione a questo problema e calcolare la norma sui vertici e interpolare il valore della norma sui punti della faccia, questo riesce a dare dei risultati piu puliti. 
-![[Pasted image 20240220225511.png]]
-
-##### Norma per vertice
-La [[Normale di una superfice|normale]] su un vertice puo essere in vari modi
-
-come media tra tutte le normali delle facce che hanno quel vertice $$\boldsymbol{n}_v=\cfrac{1}{|S^{*}(v)|}\sum_{i \in  S^{*}(v)}\boldsymbol{n}_{f_i}$$
-![[Pasted image 20240221002223.png]] 
-
-Questa Assume che tutte le facce siano piu o meno di dimensione simile siccome piu facce piccole contribuiscono sulla media rispetto ad unica faccia grande
-per risolvere questo problema si puo assegnare un peso ad ogni faccia faccia, in questo modo la formula diventa $$\boldsymbol{n}_v=\cfrac{1}{|S^{*}(v) Area(f_i)|}\sum_{i \in  S^{*}(v)}Area(f_i)\boldsymbol{n}_{v_i}$$
-![[Pasted image 20240221003638.png]]
-questa versione invece ha ancora il problema dei trangoli molto lunghi, la normale dovrebbe dipendere solo dei punti immediatamente vicini e quindi per correggere anche questo caso si usa la formula $$\boldsymbol{n}_v=\cfrac{1}{|S^{*}(v) \alpha(f_i,v)|}\sum_{i \in  S^{*}(v)}\alpha(f_i,v)\boldsymbol{n}_{v_i}$$ dove $\alpha$ é l angolo formato dal triangolo che contiene $v$
-![[Pasted image 20240221003333.png]]
-
-
-> [!Tip]
-> nel caso medo la prima formula funziona bene siccome mediamente i triangoli sono di dimensioni simili.
-
-Ci sono dei casi limite dove la norma per vertici non funziona. e questi sono i casi degli angoli delle mesh
-![[Pasted image 20240221004039.png]]
-In questo caso la normale non cambia in modo continuo ma c é un salto improvviso su parti delle superfici vicine.
-
-Per gestire questo problema si possono calcolare 2 normali per vertice 
-![[Pasted image 20240221004148.png]]
- per ogni vertice si sceglie se calcolare 1 o 2 normali basandosi su un angolo massimo  detto __crease angle__ che la superfice puo avere, se si supera quel angolo allo la mesh non é smooth e il vertice ha bisogno di due normali.
-
-questa seconda normale puo essere memorizzata o in un vertice duplicato oppure nella faccia che ha quel vertice
-![[Pasted image 20240221004411.png]]
- 

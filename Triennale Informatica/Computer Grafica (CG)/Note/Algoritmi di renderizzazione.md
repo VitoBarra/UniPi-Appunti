@@ -17,3 +17,4 @@ per algoritmi di Rendering si intendono algoritmi per proiettare scene 3D su uno
 - [[Ray Tracing|Ray Tracing]]
 - [[Pipeline di Rasterizazione|Rasterizazione]]
 
+

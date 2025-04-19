@@ -14,7 +14,7 @@ le __[[Superfici|superfici]] parametriche__ sono un modo per [[Rappresentazione 
 _sia_ 
 - $A \subseteq \mathbb{R}^2$ un [[Insiemi Matematici|insieme]] chiamato spazio dei parametri
 - $B \subseteq \mathbb{R}^3$ le coordinate dello spazio 3D
-_allora_ una __superfice parametrica__ è definita da una funzione $S:A\to B$ tale che $$S(t,s)=(X(t,s),Y(t,s),Z(t,s))$$
+_allora_ una __superfice parametrica__ è definita da una [[Funzioni|funzione]] $S:A\to B$ tale che $$S(t,s)=(X(t,s),Y(t,s),Z(t,s))$$
 E solitamente si ha che $t,s \in [0,1]$
 ![[Pasted image 20240223231455.png]]
 
@@ -29,23 +29,3 @@ _sia_
 - $p_{ij}$ un __control net__
 - $B_i(\cdot),B_j(\cdot)$ due __funzione di blending__
 _allora_ vale che $$S(t,s)=\sum^n_{i=0}\sum^m_{j=0}p_{ij}B_i(t)B_j(s) \ \ \ 0 \leq t \leq 1$$
-
-
-##### Normale di una superfice parametrica
-la [[Normale di una superfice|normale]] si puo calcolare come$$\begin{array}{} \\
-\begin{array}
-
-\boldsymbol{v}_2=\cfrac{\partial S}{\partial t}(p)   & \boldsymbol{v}_2=\cfrac{\partial S}{\partial s}(p)  
-\end{array} \\
-\boldsymbol{n} =\cfrac{\boldsymbol{v}_1 \times \boldsymbol{v}_2}{[[ \boldsymbol{v}_1 \times \boldsymbol{v}_2 ]]} 
-\end{array}
-$$
-![[Pasted image 20240223232549.png]]
-
-
-#### Trasformazione di superfici parametriche in mesh
-si puo convertire una superfice parametrica in [[Mesh Poligonali|Mesh Poligonali]].
-
-Si prendono dei sample dello spazio dei parametri con una incremento arbitrario. ad esempio con un incremento di $0.1$
-$(s,t)=(0,0),(0.1,0),\dots,(0,0.1),\dots(1,1)$ e per ognuno di questi si aggiunge un vertice nel punto $S(s,t)$ e si crea il vettore delle [[Normale di una superfice|normali]] per ogni vertice. Connettendo tutti i vertici si ottiene la mesh finale e cambiando l incremento dei sample possiamo cambiare la qualità della mesh
-![[Pasted image 20240224003054.png]]

@@ -15,17 +15,17 @@ si puo usare utilizzare delle [[Texture|Texture]] per aggiungere dettagli geomet
 ![[Pasted image 20240302055351.png]]
 
 #### Displace map
-o __displacement map__ è una [[Texture|texture]] a singolo canale e rappresenta un  altezza, Ogni valore viene interpretato come di quanto la superfice corrispondente deve essere spostata seguendo la [[Normale di una superfice|normale]]. per ogni texel c è bisogno di un nuovo [[Computer grafica - Primitive Geometriche|vertice]] 
+o __displacement map__ è una [[Texture|texture]] a singolo canale e rappresenta un  altezza, Ogni valore viene interpretato come di quanto la superfice corrispondente deve essere spostata seguendo la [[Normale di una superfice parametrica|normale]]. per ogni texel c è bisogno di un nuovo [[Computer grafica - Primitive Geometriche|vertice]] 
 questo ha bisogno di essere fatto nella [[Pipeline di Rasterizazione|pipeline di rasterizazione]]
 ![[Pasted image 20240302061214.png]]
 #### Bump map
-una __Bump map__ è una [[Texture|texture]] a singolo canale e rappresenta un altezza, ogni valore viene usato per interpretare l altezza della superfice e la [[Normale di una superfice|normale]] viene calcolata come se la superfice fosse a quel altezza ma non la effettivamente sposta.
+una __Bump map__ è una [[Texture|texture]] a singolo canale e rappresenta un altezza, ogni valore viene usato per interpretare l altezza della superfice e la [[Normale di una superfice parametrica|normale]] viene calcolata come se la superfice fosse a quel altezza ma non la effettivamente sposta.
 Ogni valore è nel range 0.0 e 1.0 e viene mappato ad un range specificato dal utente
 ![[Pasted image 20240302060303.png]]
 ![[Pasted image 20240302060315.png]]
 
 #### Normal Map
-una __normal map__ è una [[Texture|texture]] a 3 canali uno per ogni [[Rappresentazione di colori|colore]] RGB, ogni valore contiene il valore di una [[Normale di una superfice|normale]] come se fosse calcolata ad un altezza diversa rispetto alla geometria originale. 
+una __normal map__ è una [[Texture|texture]] a 3 canali uno per ogni [[Rappresentazione di colori|colore]] RGB, ogni valore contiene il valore di una [[Normale di una superfice parametrica|normale]] come se fosse calcolata ad un altezza diversa rispetto alla geometria originale. 
 Questo ci permette di utilizzare questa nuova normale al posto di quella originale per mostrare gli effetti di [[Illuminazione nella Computer Grafica|luci]] che desideriamo
 
 Questo pero puo riscontrare dei problemi: Un raggio colpirà un punto della superfice dalla geometria base che non corrisponde a quella della geometria originale, oppure potrebbe intersecare la geometria originale ma mancare la geometria base. 
@@ -48,24 +48,12 @@ Questa funziona bene in casi in cui
 #### Tangent Space
 Una __normal map__ puo essere definita in __Object space__ ovvero nel [[Frames|frame di riferimento]] del oggetto, se cosi definita pero la normal map non puo essere riutilizzata in altri contesti siccome è sta prodotta pensando anche a dove le norme dovessero andare
 ![[Pasted image 20240302080831.png]]
-un modo per poter applicare la __normal map__ a tutte le possibili superfici è l utilizzo di __tanget space__.
-un __tange space__ è un altro [[Frames|frame]], e per calcolarlo si procede come
-_sia_
-- $t$ un punto della texture
-- $f(\cdot)$ una funzione che mappa da texture a oggetto
-- $p = f(t)$ un punto 
-_allora_ il __tangent frame per [[Superfici implicite|superfici analitiche]]__ $T_f$ con origine  $p$  è costruito come$$\begin{array}{}
-	\boldsymbol{u}_{os}= \cfrac{\partial f}{\partial u}(t) \\
-\boldsymbol{v}_{os}= \cfrac{\partial f}{\partial v}(t) \\
-\boldsymbol{n}_{os}= u_{os} \times v_{os}
-\end{array}$$in questo modo stiamo costruendo un frame che ha gli assi $X$,$Y$ in un piano tangente alla superfice e l asse $Z$ che \corrisponde alla [[Normale di una superfice|normale]] 
-![[Pasted image 20240302080857.png]]
+un modo per poter applicare la __normal map__ a tutte le possibili superfici è l utilizzo di __[[Spazio Tangente (Tangent space)|tanget space]]__.
+**sia**  $p = f(t) : [0,1]\to \mathbb{R}^3$ una [[Funzioni|funzione]] che mappa da coordinate [[texture|texture]] $t=(u,v)$ a punto su una [[Superfici|superfice]] $p$ .
+usando $f$  per calcolare uno __[[Spazio Tangente (Tangent space)|tangent space]]__ alla superfice si puo ottenere il [[Frames|Frames]] $T_f$   che si puo usare per mappare da **texture space** ad **object space** con la formula $$\mathbf{p}_{os}=T_f \ \mathbf{}{p}_{ts}$$
 ![[Pasted image 20240319020707.png]]
-e a questo punto si puo mappare da texture space ad object space come $$\boldsymbol{p}_{os}=T_f \ \boldsymbol{p}_{ts}$$
-
-
 ##### Calcolare il Tanget Frame di una mesh
-Per calcolare il __tangent frame__ per [[Mesh Poligonali|mesh poligonali]] si usa la seguente formula
+Per calcolare il __tangent frame__ in discreto ovvero su [[Mesh Poligonali|mesh poligonali]] si usa la seguente formula
 _sia_
 - $v_0,v_1,v_2$ dei punti in object space
 - $V_f$ un [[Frames|frame]] con $v_0$ come origine e $v_1-v_0$ e $v_2-v_0$ come assi

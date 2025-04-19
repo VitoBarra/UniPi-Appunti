@@ -37,10 +37,10 @@ e il risultato dipende fortemente dalla tasselizazione che si usa e è molto pro
 
 
 #### Phong shading
-con il __Phong shading__ si interpola la [[Normale di una superfice|normale]] tra i vertici e si poi calcola il colre nel fragment shader.
+con il __Phong shading__ si interpola la [[Normale di una superfice parametrica|normale]] tra i vertici e si poi calcola il colre nel fragment shader.
 e quindi nella [[Pipeline di Rasterizazione|pipeline di rasterizazione]]
 ![[Pasted image 20240306060438.png]]
-bisogna stare attenti siccome l interpolazione di [[Normale di una superfice|normali]] non restituisce sempre vettori di lunghezza 1, vanno quindi normalizati prima di essere usati
+bisogna stare attenti siccome l interpolazione di [[Normale di una superfice parametrica|normali]] non restituisce sempre vettori di lunghezza 1, vanno quindi normalizati prima di essere usati
 ![[Pasted image 20240306060622.png]]
 #### Confronto
 

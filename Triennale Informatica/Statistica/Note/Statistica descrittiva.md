@@ -33,19 +33,19 @@ gli _istogrammi_  sono grafici a bastoni (o a canne) l altezza del bastone in co
 questo tipo di grafico è  più adatti a rappresentare dati _quantitativi_ e sono raggruppati in categorie alcuni esempi sono:
 
 normale:
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled.png]]
+	![[IMG - istogramma distribuzione normale.png]]
 
 bimodale:
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 1.png]]
+	![[IMG - instogramma distribuzione binomiale.png]]
 
 right-skewed:
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 2.png]]
+	![[IMG - istogramma right-skewed.png]]
 
 left-skewed:
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 3.png]]
+	![[IMG - istogramma left skewed.png]]
 
 ##### diagramma a torta
 i _diagrammi a torta_ è un grafico circolare diviso a fette dove lo spessore della fetta  indica la frequenza del dato a cui e associato, sono piu adatti a presentare dati _qualitativi_
 
-![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 4.png]]
+![[IMG - diagramma a torta.png]]
 

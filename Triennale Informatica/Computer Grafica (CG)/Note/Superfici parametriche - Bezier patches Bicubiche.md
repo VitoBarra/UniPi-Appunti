@@ -32,5 +32,5 @@ la [[Derivate|derivata]] di questa [[Superfici|superfice]] è la seguente $$
 \displaystyle\cfrac{d}{dt}S(t,s)=\sum^n_{i=0}B_{i,n}(s) \cfrac{d}{dt}\sum^m_{j=0}\boldsymbol{p}_{i,j}B_{j,n}(t)
 \end{array}$$ 
 ###### Norma 
-per calcolare la [[Normale di una superfice|norma]] si puo calcolare utilizzando il [[Prodotto Vettoriale (Cross product)|cross pruduct]]
+per calcolare la [[Normale di una superfice parametrica|norma]] si puo calcolare utilizzando il [[Prodotto Vettoriale (Cross product)|cross pruduct]]
 $$N(t,s)=normalize\left(\cfrac{d}{ds}S(t,s)\times\cfrac{d}{dt}S(t,s)\right)$$

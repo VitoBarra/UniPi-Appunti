@@ -61,7 +61,7 @@ e fa variare il cose come
 ######  Variante Phong-Blinn
 una variante di questo modello chiamata __Phong-Blinn__ cambia il modo di calcolare $\cos \alpha$ ottenendo risultati simili ma risparmiando la computazione di $\boldsymbol{R}$, 
 _sia_
-- $\boldsymbol{N}$ la [[Normale di una superfice|normale]]
+- $\boldsymbol{N}$ la [[Normale di una superfice parametrica|normale]]
 - $\boldsymbol{L}$ la direzione della luce incidente 
 - $\boldsymbol{V}$ la direzione di vista
 - $\boldsymbol{H}$ un [[Vettori|vettore]] tale che $\boldsymbol{H}=\cfrac{L+V}{\| L+V \|}$ detto __halfway__
