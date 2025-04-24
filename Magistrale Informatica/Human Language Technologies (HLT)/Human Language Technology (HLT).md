@@ -20,7 +20,7 @@ tags:
 4. [[Concetti generali del Machine Learning]]
 	1. [[Regressione Logistica]]
 	2. [[Tecnica di ottimizzazione Gradient Descent]]
-	3. [[Funzione di Loss - Cross entropy]]
+	3. [[Cross entropy]]
 	4. [[Reti Neurali (NN)]]
 	5. [[Reti neurali Feed-Forward (FF)]]
 	6. [[Back Propagation]]
