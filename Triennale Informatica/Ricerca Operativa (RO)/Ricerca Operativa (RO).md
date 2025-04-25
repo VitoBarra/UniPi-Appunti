@@ -34,23 +34,25 @@ tags:
 	1. [[Problemi di ottimizzazione]]
 	2. [[Insiemi di Livello]]
 	3. Geometria
-		1. [[Convessità]]
-		2. [[Cono]]
-		3. [[Poliedro]]
+		1. [[Semispazio]]
+		2. [[Convessità]]
+			1. [[Inviluppo convesso (Convex Hull)]]
+		3. [[Cono]]
+		4. [[Poliedro]]
 			1. [[Decomposizione dei poliedri]]
-		4. [[Direzioni di crescita e di decrescita]]
+		5. [[Direzioni di crescita e di decrescita]]
 	4. [[Teorema Fondamentare della programmazione lineare]]
 	5. [[Problemi di ottimizazione - Dualità]]
 		1. [[Teoremi su Problema duale]]
 		2. [[Teorema degli scarti complementari]]
 	6. [[Basi e vertici]]
 	7. [[Algoritmo del Simplesso]]
-1. [[Programmazione lineare Intera]]
+4. [[Programmazione lineare Intera]]
 	1. Soluzioni per Problemi di PLI
 		1. [[Metodo del piano di taglio]]
 		2. [[Branch and Bound]]
-	3. [[Problema dello zaino]]
-	4. [[Commesso Viaggiatore]]
+	2. [[Problema dello zaino]]
+	3. [[Commesso Viaggiatore]]
 
 
 ### Educational Material 🧱

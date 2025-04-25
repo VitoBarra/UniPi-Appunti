@@ -41,7 +41,7 @@ Ci sono diversi casi da considerare, Siano $A$ e $B$ due primitive vogliamo cerc
 1. Se  $A$ e $B$ non hanno _punti di sovrapposizione_ sul [[Applicazione lineare - Proiezione|proiezione]] sul asse $z$ allora esiste sempre un piano tra i due parallelo agli assi $xy$ e con $z$ tra $A$ e $B$. Quindi l ordinamento e' triviale
 2. se $A$ e $B$ hanno _punti di sovrapposizione_ sul [[Applicazione lineare - Proiezione|proiezione]] sul asse $z$ ma non sulla proiezione o su $x$ o su $y$, allora si possono sempre trovare di _piani di separazione_ paralleli a $x$ o a $y$  siccome anche se sono alla stessa distanza questi non interferiscono l uno con l altro. Non c e' bisogno di fare sort
 3.  se $A$ e $B$ si cercano i _piani di separazione_, Se il ViewPoint e la primitiva $A$ (o $B$) sono sullo stesso lato del piano allora la primitiva $A$ (o $B$) e' piu vicina
-	- Se le primitive sono [[Convessità|poligoni convessi]] che non intersecano allora esiste sempre un __piano di separazione__ che passa per una primitiva
+	- Se le primitive sono [[Poligoni|poligoni]] [[Convessità|convessi]] che non intersecano allora esiste sempre un __piano di separazione__ che passa per una primitiva
 ![[Pasted image 20240214022806.png]]
 Non sempre si puo trovare un ordine corretto, esisto dei casi in cui le primitive devono essere clippate per essere ordinate correttamente. questo succede quando
 1. Ci sono intersezioni

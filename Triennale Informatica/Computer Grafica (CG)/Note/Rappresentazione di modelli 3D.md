@@ -11,7 +11,7 @@ tags:
 ---
 Un __modello 3D__ é una rappresentazione matematica di un oggetto che occupa uno spazio in un volume 3D. 
 
-La rappresentazione di modello puo essere classificata in 2 modi
+La rappresentazione di modello puo essere classificata in 3 modi:
 - __Boundary-Based__: si rappresenta la superfice di un oggetto 3D, ed e anche chiamata __b-rep__. Esempi comuni sono
 	- [[Superfici implicite|Superfici implicite]]
 	- [[Superfici parametriche|Superfici parametriche]]
@@ -20,7 +20,7 @@ La rappresentazione di modello puo essere classificata in 2 modi
 	- [[Voxelization|Voxellization]]
 	- [[Costructive Solid Geometry (CSG)|Costructive solid Geometry]]
 	- [[Mesh Esaedriche e Tetraedriche|Mesh Esaedriche e Tetraedriche]]
-- __[[Point Cloud|Points-Based]]__: Si utilizzano delle nuvole di punti
-
-Il modo di rappresentare l'oggetto dipende dal contesto applicativo e dalle strategie usate per generare il modello. possono essere generati per [[Acquisizione modelli 3D dal mondo fisico|acquisizione del mondo reale]], software di modellazione 3D, Modellazione procedurale e Simulazioni 
+- __Points-Based__: si rapresenta un oggetto con dei punti generalmente come risultato di  [[Acquisizione modelli 3D dal mondo fisico|acquisizioni del mondo reale]] 
+	- [[Point Cloud (nuvola di punti)|nuvole di punti]]
+	- [[Range map]]
 

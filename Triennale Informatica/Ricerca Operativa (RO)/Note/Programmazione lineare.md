@@ -7,10 +7,11 @@ tags:
 
 # Programmazione lineare
 ---
-
-nella programmazione lineare il [[Modelli Matematici|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
+nella **programmazione lineare** il [[Modelli Matematici|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 14.png]]
+
+La regione ammissibile di ogni problema di un [PL](app://obsidian.md/Programmazione%20lineare) è un [Poliedro](app://obsidian.md/Poliedro).
 
 ### Rappresentato dal modello
 

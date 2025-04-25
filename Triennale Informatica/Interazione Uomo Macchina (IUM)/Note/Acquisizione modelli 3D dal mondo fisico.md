@@ -43,6 +43,7 @@ I _sistemi fotometrici_ di solito utilizzano una singola telecamera, ma scattano
 Le _tecniche di silhouette_ utilizzano contorni creati da una sequenza di fotografie intorno a un oggetto tridimensionale su uno sfondo ad alto contrasto. Queste _silhouette_ vengono estese e intersecate per formare un'approssimazione della forma visiva dell'oggetto. 
 
 Con queste approccio alcune cavità di un oggetto (come l'interno di una ciotola) potrebbero non essere rilevate.
+![[IMG - Multi-video stereo.png]]
 ![[Pasted image 20230616175433.png]]
 
 ##### Scanner 3D Attivi
@@ -65,6 +66,8 @@ A seconda della distanza a cui il raggio laser colpisce una superficie, il punto
 
 Questa tecnica è chiamata triangolazione perché il punto laser, la telecamera e l'emettitore laser formano un triangolo.
 ![[Pasted image 20230616175642.png]]
+![[IMG - aquisizione di oggetti turntable.png]]
+
 
 gli _scanner 3D a luce strutturata_ sono una tipologia di scanner attivo, questi proiettano un pattern di luce sull'oggetto e _osservano la deformazione del pattern_ sull'oggetto.
 Il _pattern_ viene proiettato con una fonte di luce
@@ -83,3 +86,9 @@ Una telecamera rileva la luce riflessa e la quantità di spostamento del pattern
 il _Kinect_ è una linea di dispositivi di input per il rilevamento del movimento prodotti da Microsoft e lanciati per la prima volta nel 2010.
 La tecnologia comprende un insieme di hardware sviluppato originariamente da PrimeSense, che include telecamere RGB, proiettori infrarossi (luci strutturate attive) e sensori che mappano la profondità utilizzando calcoli basati sulla luce strutturata o sul tempo di volo, oltre a un'array di microfoni. Questo insieme di hardware è combinato con il software e l'intelligenza artificiale di Microsoft, che permette al dispositivo di effettuare riconoscimento in tempo reale dei gesti, riconoscimento vocale e rilevamento dello scheletro corporeo per un massimo di quattro persone, tra altre funzionalità. Questo consente a Kinect di essere utilizzato come un dispositivo di interfaccia utente naturale senza contatto
 ![[Pasted image 20230616175820.png]]
+
+
+Scanner di superfici fatte da mezzi:
+
+- come aeree ![[IMG - airborn Laser scanning.png]]
+- macchine ![[IMG - scanner mobile.png]]

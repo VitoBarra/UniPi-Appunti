@@ -41,7 +41,7 @@ In dettaglio:
 5. I vertici vengono proiettati in questo sistema  e approssimati tramite un polinomio quadratico:  $$f(u,v) = au^2 + bv^2 + cuv + du + ev$$
 6. Le curvature a $p$ si derivano analiticamente dalle forme fondamentali di $f$ nell'origine.  
 
-Il fitting polinomiale permette di **approssimare localmente** la superficie, sostituendo la geometria originale con una versione "morbida" che filtra le micro-variazioni (rumore). La scelta di $r$ è cruciale: un raggio ampio smorza le asperità, evidenziando il comportamento a larga scala, mentre un raggio piccolo preserva i dettagli fini. Questo approccio è analogo alle tecniche di **image processing multiscala**, dove feature come le curvature diventano robuste a rotazioni e variazioni locali, fornendo descrittori invarianti (es. vettori di Fisher).  
+Il **fitting** polinomiale permette di **approssimare localmente** la superficie, sostituendo la geometria originale con una versione "morbida" che filtra le micro-variazioni (rumore). La scelta di $r$ è cruciale: un raggio ampio smorza le asperità, evidenziando il comportamento a larga scala, mentre un raggio piccolo preserva i dettagli fini. Questo approccio è analogo alle tecniche di **image processing multiscala**, dove feature come le curvature diventano robuste a rotazioni e variazioni locali, fornendo descrittori invarianti (es. vettori di Fisher).  
 ![[IMG - fitting multi scala.png]]
 Il metodo nasconde implicitamente le **asperità** al di sotto della scala definita da $r$, trasformando una superficie irregolare (con curvature "spike") in una rappresentazione regolare. Ciò è particolarmente utile in contesti con rumore, dove l'obiettivo è catturare l'andamento globale della superficie anziché le fluttuazioni casuali.
 

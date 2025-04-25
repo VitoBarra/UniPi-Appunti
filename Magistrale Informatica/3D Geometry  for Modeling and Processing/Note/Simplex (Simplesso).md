@@ -9,7 +9,7 @@ SubTopic:
 
 # Simplex (Simplesso)
 ---
-Un $d$-__simplex__ (o $d$-__simplesso__) è un [[Convessità|inviluppo convesso]] di $d+1$ punti, $d$ è detto **ordine** e rappresenta la dimensionalità del simplesso, infatti si ha che    
+Un $d$-__simplex__ (o $d$-__simplesso__) è un [[Inviluppo convesso (Convex Hull)|inviluppo convesso]] di $d+1$ punti, $d$ è detto **ordine** e rappresenta la dimensionalità del simplesso, infatti si ha che    
 ![[IMG - Simplessi.png]]  
 
 un simplesso $\sigma$ è detto __faccia del simplesso__ o __sotto-simplesso__ di $\tau$ se $\sigma$ è definito da un [[Insiemi Matematici|sottoinsieme]] dei vertici di $\tau$. Se si ha che $\tau \not= \sigma$ allora si ha che $\sigma$ è detta __faccia propria__. In generale si può dire si ha che ogni __sottoinsieme proprio__ dei vertici di un __simplesso__ è una __faccia propria__ del simplesso stesso.

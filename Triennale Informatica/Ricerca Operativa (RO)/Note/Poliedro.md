@@ -8,19 +8,10 @@ tags:
 
 # Poliedro
 ---
-### Semispazio
+Un **poliedro** in $\mathbb{R}^n$ e l’intersezione di un numero finito di [[Semispazio|semispazi chiusi]], oppure, è l’insieme delle soluzioni di un sistema di disequazioni lineari $Ax \leq b$.
 
-L’[[Insiemi Matematici|insieme]] $\begin{Bmatrix}x \in \mathbb{R}^n: a^T x \leq b\end{Bmatrix}$  deve  $a \in \mathbb{R}^n,b \in \mathbb{R}$  è un semispazio chiuso di $\mathbb{R}^n$
 
-questo insieme è l insieme delle soluzioni di una disequazione lineare in $n$  variabili
-
-# Poliedro
-
-Un poliedro in $\mathbb{R}^n$ e l’intersezione di un numero finito di semispazi chiusi, oppure, è l’insieme delle soluzioni di un sistema di disequazioni lineari $Ax \leq b$.
->[!info]
->La regione ammissibile di ogni problema di un [[Programmazione lineare|PL]] è un Poliedro.
-
-un poliedro $P$  è detto limitato se esiste $M > 0$ tale che $||x|| \leq M \ \ \forall x \in P$ ossia se è contenuto in una opportuna sfera concertata nel origine
+un **poliedro** $P$  è detto **limitato** se esiste $M > 0$ tale che $||x|| \leq M \ \ \forall x \in P$ ossia se è contenuto in una opportuna sfera concertata nel origine
 
 
 
