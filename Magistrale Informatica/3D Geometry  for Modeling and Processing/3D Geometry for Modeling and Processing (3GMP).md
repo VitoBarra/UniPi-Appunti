@@ -74,8 +74,10 @@ tags:
 	1. [[Alpha Shape]]
 	2. [[Ball Pivoting]]
 	3. [[Mesh zippering]]
-	4. [[Da rappresentazione point base a campo scalare]]
-	5. 
+	4. [[Campi scalare da point cloud]]
+	5. [[Campi scalare da range map]]
+	6. [[Ricostruzione Moving last square ]]
+	7. [[Poisson surface reconstruction]]
 11. [[Parametrizazione]]
 Parte pratica:
 12. [[Libreria per Mesh processing VCG]]
