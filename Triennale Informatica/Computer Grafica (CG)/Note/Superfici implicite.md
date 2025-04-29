@@ -12,13 +12,17 @@ SubTopic:
 Le __[[Superfici|superfici]] implicite__ si usano per [[Rappresentazione di modelli 3D|rappresentare oggetti in uno spazio 3D digitale]] 
 
 sia  $f(\cdot,\cdot,\cdot)$ una [[Funzioni|funzione]] trivariata 
-allora una superfice implicita é  una [[Insiemi Matematici|insieme]] di punti tale che $$S=\{(x,y,z)\in  \mathbb{R}^{3}\mid f(x,y,z)=0 \}$$
+allora una superfice implicita é una [[Insiemi Matematici|insieme]] di punti tale che $$S=\{(x,y,z)\in  \mathbb{R}^{3}\mid f(x,y,z)=0 \}$$
 dove $(x,y,z)$ sono coordinate cartesiane 
 $S$ é anche detto __insieme zero__ di $f$.
 Questo tipo di superfici definiscono implicitamente se un punto é al interno o al sterno della superfice con il seguente criterio
 1. $f(\boldsymbol{p})<0 \iff$ $\boldsymbol{p}$ interno
 2. $f(\boldsymbol{p})>0 \iff$ $\boldsymbol{p}$ esterno
 3. $f(\boldsymbol{p})=0 \iff$ $\boldsymbol{p}$ é sul bordo
+
+il campo scalere $f(\mathbf{p})$ è anche un **distance filed** che indica la distanza in ogni $\mathbf{p}$ da un punto sulla superfice 
+![[IMG - distance field.png]]
+
 
 alcuni esempi sono $f(x,y)=x^{2}+y^{2}-r^{2}$
 ![[Pasted image 20240221011322.png]]

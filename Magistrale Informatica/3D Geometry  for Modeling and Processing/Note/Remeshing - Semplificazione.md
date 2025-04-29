@@ -9,7 +9,7 @@ SubTopic:
 
 # Remeshing - Semplificazione
 ---
-Gli algoritmi di **[[Meshing e il Remeshing|remeshing]] per la semplificazione** consentono di trasformare una [[Mesh Poligonali|mesh]] complessa in una versione più semplice, riducendo il numero di triangoli senza compromettere eccessivamente la qualità dei dettagli. Questo è particolarmente utile quando una mesh contiene superfici planari rappresentate da un numero eccessivo di triangoli, anche in assenza di una reale necessità. Un caso tipico si verifica con l'algoritmo **[[Marching cube da superfici implicite a mesh|Marching cube]]**, il quale campiona la superficie in modo regolare, introducendo un elevato numero di triangoli anche in aree dove non sono strettamente necessari.
+Gli algoritmi di **[[Meshing e il Remeshing|remeshing]] per la semplificazione** consentono di trasformare una [[Mesh Poligonali|mesh]] complessa in una versione più semplice, riducendo il numero di triangoli senza compromettere eccessivamente la qualità dei dettagli. Questo è particolarmente utile quando una mesh contiene superfici planari rappresentate da un numero eccessivo di triangoli, anche in assenza di una reale necessità. Un caso tipico si verifica con l'algoritmo **[[Marching cube|Marching cube]]**, il quale campiona la superficie in modo regolare, introducendo un elevato numero di triangoli anche in aree dove non sono strettamente necessari.
 ![[IMG - Remeshing Semplificazione.png]]
 
 

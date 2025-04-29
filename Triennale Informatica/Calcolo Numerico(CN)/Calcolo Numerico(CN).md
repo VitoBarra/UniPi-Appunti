@@ -36,7 +36,9 @@ tags:
 	4. [[Metodo delle tangenti o di Newton]]
 	5. [[Ordine di convergenza]]
 15. [[Interpolazione Lineare]]
-16. [[Interpolazione polinomiale]]
+16. [[Interpolazione Bilineare]]
+17. [[Interpolazione Trilineare]]
+18. [[Interpolazione polinomiale]]
 
 
 

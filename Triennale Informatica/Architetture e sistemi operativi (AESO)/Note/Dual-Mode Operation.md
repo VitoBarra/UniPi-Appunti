@@ -1,17 +1,14 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
-tags: AESO
+tags:
+  - AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Dual-Mode Operation
 ---
 Il sistema operativo esegue i processi  in due modalità:
-
-- kernel-mode:  che ha accesso completo al hardware
-- user-mode: che privilegi limitati
+- **kernel-mode**:  che ha accesso completo al hardware
+- **user-mode**: che privilegi limitati
 
 ![[Astrazione_Kernel_4.png]]
 > [!info]

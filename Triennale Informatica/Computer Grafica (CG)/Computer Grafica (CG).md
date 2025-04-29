@@ -60,7 +60,7 @@ tags:
 		2. [[Costructive Solid Geometry (CSG)]]
 		3. [[Mesh Esaedriche e Tetraedriche]]
 	3. [[Conversione tra rappresentazioni di oggetti]]
-		1. [[Marching cube da superfici implicite a mesh]]
+		1. [[Marching cube]]
 		2. [[Da mesh a superfici implicite]]
 		3. [[Da superfici Parametriche a Mesh]]
 11. [[Geometria differenziale]]

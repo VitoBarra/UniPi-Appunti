@@ -29,7 +29,12 @@ tags:
 	4. [[Relazioni di adiacenza in una mesh]]
 3. [[Formati per rappresentare una mesh]]
 4. [[Conversione tra rappresentazioni di oggetti]]
-	1. [[Marching cube da superfici implicite a mesh]]
+	1. da superfici implicite a mesh
+		1. [[Marching Squere]]
+		2. [[Marching cube]]
+			1. [[Extended marching cube]]
+			2. [[Dual Marching Cubes]]
+		3. [[Marching Tetrahedra]]
 	2. [[Da mesh a superfici implicite]]
 	3. [[Da superfici Parametriche a Mesh]]
 5. [[Meshing e il Remeshing]]
@@ -69,6 +74,9 @@ tags:
 	1. [[Alpha Shape]]
 	2. [[Ball Pivoting]]
 	3. [[Mesh zippering]]
+	4. [[Da rappresentazione point base a campo scalare]]
+	5. 
+11. [[Parametrizazione]]
 Parte pratica:
 12. [[Libreria per Mesh processing VCG]]
 

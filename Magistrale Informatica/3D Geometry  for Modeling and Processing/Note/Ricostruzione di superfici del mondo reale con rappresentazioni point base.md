@@ -23,3 +23,5 @@ Questi due **approcci ortogonali** riflette la necessità di bilanciare fedeltà
 - [[Alpha Shape]]
 - [[Ball Pivoting]]
 - [[Mesh zippering]]
+**metodi impliciti**:
+- 
