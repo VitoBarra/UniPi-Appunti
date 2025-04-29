@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "better-word-count",
   "obsidian-outliner",
   "obsidian-dictionary-plugin",
   "dataview",
@@ -25,5 +24,8 @@
   "obsidian-annotator",
   "obsidian-desmos",
   "sync-graph-settings",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "darlal-switcher-plus",
+  "remember-cursor-position",
+  "obsidian-paste-image-rename"
 ]
