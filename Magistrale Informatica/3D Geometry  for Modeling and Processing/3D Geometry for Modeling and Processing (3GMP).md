@@ -78,7 +78,15 @@ tags:
 	5. [[Campi scalare da range map]]
 	6. [[Ricostruzione Moving last square ]]
 	7. [[Poisson surface reconstruction]]
-11. [[Parametrizazione]]
+11. [[Parametrizzazione]]
+	1. [[Parametrizzazione - Distorsione]]
+	2. [[Parametrizzazione sfera proiezione ortogonale]]
+	3. [[Parametrizzazione di una cilindro]]
+	4. [[Parametrizzazione - Mass-spring]]
+	5. [[Parametrizzazione - As-rigid-as-possible]]
+	6. [[Parametrizzazione - Proiezione ortogonale]]
+	7. [[Parametrizzazione - Growing Cut ]]
+	8. [[Parametrizzazione - Misurare la qualità]]
 Parte pratica:
 12. [[Libreria per Mesh processing VCG]]
 

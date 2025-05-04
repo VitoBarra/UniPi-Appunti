@@ -34,7 +34,7 @@ esempi di  $\phi_k$
 una buona flessibilità ci permette di dare una buona approssimazione della funzione che cerchiamo 
 ![[AC48AB1A-F82F-401F-8B56-89876D800471.jpeg]]
 - _CONS_: con una larga base di funzioni abbiamo bisogno di metodi per tenere sotto controllo la _complessità_ del modello
-troppa flessibilità ci puo portare al fenomeno di _[[Overfitting e Underfiting|overfitting]]_: ovvero si i dati di training abbiamo ridotto a 0. errore ma testando su dati casuali avremmo predizione sbagliate e quindi una bassa _accuracy_
+troppa flessibilità ci puo portare al fenomeno di _[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]_: ovvero si i dati di training abbiamo ridotto a 0. errore ma testando su dati casuali avremmo predizione sbagliate e quindi una bassa _accuracy_
 - é molto suscettibile a errori poco perturbati
 ![[DA592E39-BE09-4F38-B38F-265D19B9C9BF.jpeg]]
 

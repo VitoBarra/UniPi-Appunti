@@ -19,7 +19,7 @@ $$\begin{cases}
 x_{0} \in [a,b] \\
 x_{k+1} = g(x_{k})
 \end{cases}$$
-questo metodo può  _[[Convergenza locale per metodi interativi funzionali|convergere localmente]]_ quindi ci sono degli [[Intorno|intorni]] di $\alpha$ con convergono e altri che potrebbero non farlo. 
+questo metodo può  _[[Convergenza locale per metodi iterativi funzionali|convergere localmente]]_ quindi ci sono degli [[Intorno|intorni]] di $\alpha$ con convergono e altri che potrebbero non farlo. 
 
 #### Teorema
 _sia_ la funzione $g$ la funzione di un metodo
@@ -34,7 +34,7 @@ _Se_ $\exists \rho>0:|g'(x)|<1 \ \ \forall x \in [\alpha-\rho,\alpha +\rho] \sub
 - ovvero se il coefficiente angolare è tra -1 e 1 (cresce o decresce _poco_ in ogni punto del _insieme circolare_ intorno al punto $\alpha$)
 _Allora_ 
 1. $x_{k} \in [\alpha-\rho,\alpha +\rho] \ \ \ \ \forall k \geq 0$ 
-2. Il metodo [[Convergenza locale per metodi interativi funzionali|converge localmente]] 
+2. Il metodo [[Convergenza locale per metodi iterativi funzionali|converge localmente]] 
 
 questo ci da un criterio per determinare se il metodo _converge localmente_.
 

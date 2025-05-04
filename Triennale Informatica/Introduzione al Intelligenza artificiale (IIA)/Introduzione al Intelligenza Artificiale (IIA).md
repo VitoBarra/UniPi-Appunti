@@ -50,7 +50,7 @@ Seconda parte corso:
 Terza parte corso:
 1. [[Concetti generali del Machine Learning]]
 2. [[Algoritmi di Machine Learning]]
-	1. [[Overfitting e Underfitting]]
+	1. [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting]]
 	2. [[Statistical Learning Theory (SLT)]]
 	3. [[Validation e Test di una modello di ML]]
 		1.  [[Validazione Hold-Out]]

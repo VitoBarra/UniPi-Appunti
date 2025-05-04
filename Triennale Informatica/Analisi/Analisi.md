@@ -62,8 +62,9 @@ tags:
 19. [[Funzione Gamma di Eulero]]
 20. funzioni multi Variate
 	1. [[Funzioni Multivariata - Gradiente]]
-21. [[Superfici]]
-	1. [[Topologia]]
+	2. [[Jacobiana di una funzione]]
+21. [[Topologia]]
+	1. [[Superfici]]
 	2. [[Manifolds (Varieta)]]
 
 ### Extra

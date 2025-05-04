@@ -9,7 +9,7 @@ tags:
 
 # Statistical Learning Theory (SLT)
 ---
-La __Statistical Learning Theory__ (__SLT__) fornisce un approccio teorico per analizzare la capacita di generalizzare di un [[Modelli di dati|modello di macchine learning]] per fare ciò  si cerca di capire come bilanciare __l'errore sui dati di training__ $R_{emp}$ con la __complessità del modello__ in modo da ridurre l [[Overfitting e Underfitting|overfitting]]
+La __Statistical Learning Theory__ (__SLT__) fornisce un approccio teorico per analizzare la capacita di generalizzare di un [[Modelli di dati|modello di macchine learning]] per fare ciò  si cerca di capire come bilanciare __l'errore sui dati di training__ $R_{emp}$ con la __complessità del modello__ in modo da ridurre l [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]
 I concetti chiave includono la __VC-dimension__ e la __Minimizzazione del Rischio Strutturale (SRM)__, che offrono un quadro per selezionare modelli in modo rigoroso.
 
 
@@ -71,7 +71,7 @@ Intuizioni:
 - modello complesso  (VC-Dimension alta) $\rightarrow$ basso $R_{emp}$ ma __VC-conf__ si alza il che può portare ad $R$ alto. (__overfitting__)
 
 
-da questo bound possiamo dedurre che l __[[Overfitting e Underfitting|overfitting]]__ dipende sia dalla __complessità__ del modello sia dal numero dei dati utilizzati infatti abbiamo che:   ![[AD987627-2D22-47F8-B3ED-7EC8512A4295.jpeg]]
+da questo bound possiamo dedurre che l __[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]__ dipende sia dalla __complessità__ del modello sia dal numero dei dati utilizzati infatti abbiamo che:   ![[AD987627-2D22-47F8-B3ED-7EC8512A4295.jpeg]]
 ![[11752980-DCE7-4DC2-8E9B-1C39288F32A0.jpeg]]
 
 

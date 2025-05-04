@@ -18,5 +18,5 @@ Si puo fare una triangolazione banale seguendo la griglia.
 ![[IMG - Range map.png]]
 
 
-Una delle problematiche delle [[range map|range map]] è il fatto che l'[[Acquisizione modelli 3D dal mondo fisico|acquisizione]] di due parti del oggetto anche messe nello stesso [[Frames|frame di riferimento]] tendono a non essere allineate.
+Una delle problematiche delle [[Range map|Range map]] è il fatto che l'[[Acquisizione modelli 3D dal mondo fisico|acquisizione]] di due parti del oggetto anche messe nello stesso [[Frames|frame di riferimento]] tendono a non essere allineate.
 ![[IMG - mesh zippering.png]]

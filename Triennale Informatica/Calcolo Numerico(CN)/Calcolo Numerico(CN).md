@@ -32,7 +32,7 @@ tags:
 14. [[Metodi iterativi funzionali (calcolo degli zeri)]]
 	1. [[Metodo della bisezione]]
 	2. [[Metodo dei punti fissi]]
-	3. [[Convergenza locale per metodi interativi funzionali]]
+	3. [[Convergenza locale per metodi iterativi funzionali]]
 	4. [[Metodo delle tangenti o di Newton]]
 	5. [[Ordine di convergenza]]
 15. [[Interpolazione Lineare]]

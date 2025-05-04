@@ -32,7 +32,7 @@ preso $\alpha:f(\alpha)=0$ è detta _radice semplice_ per $f\in C^{1}([a,b])$  s
 #### Teorema
 _sia_ $f:[a,b]\rightarrow\mathbb{R}, \ \ f\in C^{2}([a,b]), \ \ f(\alpha)=0$ e $\alpha \in (a,b)$ 
 _se_ $\alpha$ è _radice semplice_ cioè se $f'(\alpha) \not =0$
-_allora_ il metodo $x_{k+1}=x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$ è _[[Convergenza locale per metodi interativi funzionali|localmente convergente]]_ ad $\alpha$ e
+_allora_ il metodo $x_{k+1}=x_{k}-\cfrac{f(x_{k})}{f'(x_{k})}$ è _[[Convergenza locale per metodi iterativi funzionali|localmente convergente]]_ ad $\alpha$ e
 _se_ la successione ${x_k}$ con $x_k \not=\alpha$ 
 _allora_ l [[Ordine di convergenza|ordine di convergenza]] è almeno _quadratico_ ovvero
 	$$\lim_{ k \to \infty } \cfrac{|x_{k+1}-\alpha|}{|x_{k}-\alpha|^{2}}  = \ell \in \mathbb{R}$$

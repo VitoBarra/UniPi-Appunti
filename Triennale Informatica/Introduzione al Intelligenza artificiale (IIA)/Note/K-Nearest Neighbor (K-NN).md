@@ -28,11 +28,11 @@ l'algoritmo per la classificazione binaria è il seguente.
 \end{cases}$$ 
 
 
-con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto irregolare e rumoroso. Solitamente va in __[[Overfitting e Underfitting|overfitting]]__
+con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto irregolare e rumoroso. Solitamente va in __[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]__
 ![[Pasted image 20241225023553.png]]
 con un $K$ più altro si ottiene un decision boundary comunque flessibile e non lineare ma un po meno rumoroso. Solitamente un valore alto ma non troppo porta a dei buoni risultati.
 ![[Pasted image 20241225023615.png]]
-con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[Overfitting e Underfitting|underfitting]].
+con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|underfitting]].
 
 Questo algoritmo utilizza implicitamente i [[Tasselizazione di Voronoi|diagrammi di voronoi]].
 

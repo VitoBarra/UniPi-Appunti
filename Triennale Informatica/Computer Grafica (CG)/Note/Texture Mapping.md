@@ -9,7 +9,7 @@ SubTopic:
 
 # Texture Mapping
 ---
-il __Texture mapping__ è il processo di applicare una [[Texture|Texture]] ad una [[Rappresentazione di modelli 3D|modello 3D]]. Fare ciò è utile siccome ad esempio se volessimo colorare un [[Mesh Poligonali|mesh]] senza le texture dovremmo adattare la geometria, aggiungendo vertici, ai colori che vogliamo ottenere e questo porta velocemente ad un sistema molto inefficiente ottenendo lo stesso risultato.
+il __Texture mapping__ è il processo di applicare una [[Texture|Texture]] ad una [[Rappresentazione di modelli 3D|modello 3D]]. Fare ciò è utile siccome ad esempio se volessimo colorare un [[Mesh Poligonali|mesh]] senza le texture dovremmo adattare la geometria, aggiungendo vertici, ai colori che vogliamo ottenere e questo porta velocemente ad un sistema molto inefficiente.
 
 Ad esempio volessimo realizzare una scacchiera con una __texture__ basterebbero 6 quads mentre senza dovremmo fare un vertice per ogni quadrato e quindi ci servono 5+64 quads 
 ![[Pasted image 20240301042024.png]] il risultato è il medesimo ma senza texture stiamo aggiungendo vertici inutilmente.
@@ -17,11 +17,9 @@ Ad esempio volessimo realizzare una scacchiera con una __texture__ basterebbero 
 ![[Pasted image 20240301042501.png]]
 
 ![[Pasted image 20240301042525.png]]
-
-
-il mostare a schermo una __texture__  significa associare ad ogni pixel qualcosa che è nella [[Texture|texture]] come questo viene fatto dipende dal tipo di modello.
+il mostrare a schermo una __texture__  significa associare ad ogni pixel qualcosa che è nella [[Texture|texture]] come questo viene fatto dipende dal tipo di modello.
 ![[Pasted image 20240301051420.png]]
-Nella pipeline
+Nella pipeline di [[Algoritmi di renderizzazione|rendenring]]
 ![[Pasted image 20240301051245.png]]
 
 

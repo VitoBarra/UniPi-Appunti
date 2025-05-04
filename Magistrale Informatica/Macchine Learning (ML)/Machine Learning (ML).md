@@ -20,7 +20,7 @@ tags:
 			1. [[Modelli Instance-Based]]
 2. Teoria
 	1. [[Bias-Variance Decomposition]]
-	2. [[Overfitting e Underfitting]]
+	2. [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting]]
 	3. [[Statistical Learning Theory (SLT)]]
 	4. [[Validation e Test di una modello di ML]]
 		1. [[Tecniche per la ricerca degli iperparametri]]
