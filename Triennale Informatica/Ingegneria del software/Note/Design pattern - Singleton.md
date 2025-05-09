@@ -1,10 +1,9 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
-tags: IS
+tags:
+  - IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
 
 # Design pattern - Singleton
 ---
