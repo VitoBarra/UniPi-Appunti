@@ -94,7 +94,7 @@ tags:
 		5. [[Campi scalare da range map]]
 		6. [[Ricostruzione Moving last square ]]
 		7. [[Poisson surface reconstruction]]
-14. [[Smoothing di una superfice]]
+14. [[Smoothing di una superficie]]
 Parte pratica:
 15. [[Libreria per Mesh processing VCG]]
 
