@@ -26,4 +26,6 @@ in questo modo tappando $b$ buchi aggiungendo quindi $b$ vertici si ottiene una 
       &= \chi +b
 \end{flalign}$$e da qui si puo ottenere quella origina spostando i termini $$\chi=\chi'-b$$
 
+in generale vale che $-\infty< \chi<\infty$
+
 

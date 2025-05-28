@@ -99,7 +99,9 @@ Parte pratica:
 15. [[Libreria per Mesh processing VCG]]
 
 
-[[3GMP lecture]]
+Progetto:
+1. [[Filling Holes in Meshes.pdf]]
+
 ### Educational Material 🧱
 1. [[Book Polygon Mesh Processing.pdf]]
 
