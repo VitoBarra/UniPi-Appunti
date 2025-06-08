@@ -1,11 +1,9 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 ---
-
-Prev: [[Reti]]
-
 # Livello trasporto - UDP
 ---
 è un [[Protocollo]] di [[Livello di trasporto]] con la filosofia best effort

@@ -1,12 +1,10 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 Status: ToReview
 ---
-
-Prev: [[Reti]]
-
 # Modello TCP-IP
 ---
 il modello TCP/IP è un implementazione dei concetti del [[Modello Stratificato]]

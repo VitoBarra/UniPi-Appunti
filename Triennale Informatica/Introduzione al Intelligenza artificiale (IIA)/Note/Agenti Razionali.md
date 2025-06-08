@@ -5,7 +5,6 @@ tags:
   - IA
   - AIF
 topic: nota
----
 
 # Agenti Razionali
 ---

@@ -1,11 +1,9 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 ---
-
-Prev: [[Reti]]
-
 # Livello di rete
 ---
 il livello di rete è un livello del modello [[Modello TCP-IP]] ed è responsabile della consegna dei datagrammi tra gli host

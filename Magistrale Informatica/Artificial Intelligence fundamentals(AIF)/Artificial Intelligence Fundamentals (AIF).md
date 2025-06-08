@@ -54,7 +54,3 @@ Seconda parte corso:
 1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf]]
 2. [[Artificial Intelligence A Modern Approach  (AIMA) 4ed.pdf]]
 
-
-
-### Lecture note 🧱
-1. [[AIF Lecture]]

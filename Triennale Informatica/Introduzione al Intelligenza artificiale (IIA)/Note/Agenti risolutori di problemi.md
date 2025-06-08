@@ -1,8 +1,10 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
 
 # Agenti risolutori di problemi

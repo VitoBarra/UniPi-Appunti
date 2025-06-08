@@ -1,11 +1,9 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 ---
-
-Prev: [[Reti]]
-
 # Livello di rete - Tunneling
 ---
 se si lavora in [[Livello di rete - IP#IPv6|IPv6]] e ci sono dei percorsi che hanno segmenti di rete con [[Livello di rete - IP#IPv4|IPv4]] 

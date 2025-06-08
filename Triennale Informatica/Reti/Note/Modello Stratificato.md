@@ -1,12 +1,10 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 Status: ToReview
 ---
-
-Prev: [[Reti]]
-
 # Modello Stratificato
 ---
 il modello stratificato è un insieme di [[Protocollo|protocolli]] organizzati su livelli. per la gestione di nodi di una [[Reti Concetti Generali|Rete]]

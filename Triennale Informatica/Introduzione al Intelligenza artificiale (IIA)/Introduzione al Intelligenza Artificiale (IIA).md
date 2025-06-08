@@ -70,8 +70,9 @@ Terza parte corso:
 
 
 ### Educational Material 🧱
-1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf|Artificial Intelligence a modern approach (AIMA)]]
+1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf]]
 	1. [[AIMA-appendixA.pdf| Appendice A]]
-2. [[Tom Mitchell - Machine Learning.pdf|T.M.Mitchell, machine learning, Mc Graw-HIll]]
-3. [[Simon Haykin - Neural Networks - 3ed.pdf]]
-4. [[Simon Haykin - Neural Networks - 2ed.pdf]]
+2. 1. [[Artificial Intelligence A Modern Approach  (AIMA) 4ed.pdf]]
+3. [[Tom Mitchell - Machine Learning.pdf|T.M.Mitchell, machine learning, Mc Graw-HIll]]
+4. [[Simon Haykin - Neural Networks - 3ed.pdf]]
+5. [[Simon Haykin - Neural Networks - 2ed.pdf]]

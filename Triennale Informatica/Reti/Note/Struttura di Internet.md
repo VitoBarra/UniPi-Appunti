@@ -1,12 +1,10 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 Status: ToReview
 ---
-
-Prev: [[Reti]]
-
 # Struttura di Internet
 ---
 Internet è un interconnessione di [[Reti Concetti Generali|reti]] è siccome si parla di grandi numeri di reti bisogna trovare un modo intelligente per connetterle facendo si che ogni dispositivo terminale possa mandare informazioni a qualsiasi altro dispositivo.

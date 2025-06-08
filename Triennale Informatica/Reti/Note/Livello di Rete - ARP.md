@@ -1,11 +1,9 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 ---
-bv
-Prev: [[Reti]]
-
 # Livello di Rete - ARP
 ---
 _Adress Resoluziont Protocol_  è un [[Protocollo]] utile al livello collegamento ma viene tipicamente considerato un protocollo di [[Livello di rete]] . serve per convertire gli indirizzi in di una LAN in  [[Livello di collegamento - indirizzi MAC|indirizzi MAC]].

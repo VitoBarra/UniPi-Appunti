@@ -36,7 +36,7 @@ azione = regola.Azione
 return azione
 ```
 ##### Agenti basati su modello (con stato)
-![[Pasted image 20230211165128.png]]
+![[IMG - agenti basati su modello.png]]
 ```js
 function Agente-Basato-su-Modello (percezione) return azione
 //persistent: stato, una descrizione dello stato corrente modello, conoscenza del mondo regole, un insieme di regole condizione-azione azione, l’azione più recente
@@ -46,7 +46,7 @@ azione = regola.Azione
 return azione
 ```
 ##### Agenti con obiettivo
-![[Pasted image 20230211165212.png]]
+![[IMG - agenti con obiettivi.png]]
 - Sono _guidati_ da un obiettivo nella scelta dell’azione 
 	- (è fornito un goal esplicito: e.g. Città da raggiungere) 
 -  A volte l’azione migliore dipende da qual è l'obiettivo da raggiungere 
@@ -55,7 +55,7 @@ return azione
 -  Meno efficienti ma più flessibili di un agente reattivo
 	-  (obiettivo può cambiare, non è già codificato nelle regole) 
 ##### Agenti con valutazione di utilità
-![[Pasted image 20230211165311.png]]
+![[IMG - agenti con valutazione di utilita.png]]
 - Obiettivi alternativi (o più modi per raggiungerlo) 
 -  l’agente deve decidere verso quali di questi muoversi. 
 -  necessaria una _funzione di utilità_ (che associa ad uno stato obiettivo un numero reale). 
@@ -63,7 +63,7 @@ return azione
 - la funzione di utilità tiene conto anche della probabilità di successo (e/o di ciascun risultato): utilità attesa (o in media)
 
 ##### Agenti che apprendono
-![[Pasted image 20230211165623.png]]
+![[IMG - architettura agente che aprende.png]]
 1. _Componente di apprendimento_ 
 	- Produce cambiamenti al programma agente 
 	- Migliora prestazioni , adattando i suoi componenti, apprendendo dall’ambiente
@@ -76,7 +76,7 @@ return azione
 
 
 ### Tipi di rappresentazioni
-![[Pasted image 20230211165709.png]]
+![[IMG - tipi di rappresentazione degli aggenti.png]]
 - Rappresentazione atomica (stati) 
 - Rappresentazione fattorizzata (piu variabili e attributi) 
 - Rappresentazione strutturata (aggiunge relazioni)

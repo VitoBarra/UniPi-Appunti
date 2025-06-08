@@ -1,11 +1,9 @@
 ---
-Course: Reti e Laboratorio di reti
+Course: "[[Reti]]"
 topic: nota
-tags: RETI_LAB_III
+tags:
+  - RETI_LAB_III
 ---
-
-Prev: [[Reti]]
-
 # Peer-to-Peer
 ---
 architettura di connessione tra utenti dove ogni nodo fa sia da serve che da client sono tutti nodi pari (peer)
