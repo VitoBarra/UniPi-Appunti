@@ -1,10 +1,10 @@
 ---
-Course: "[[Artificial Inteligence Fundamentals (AIF)]]"
+Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF
 Area: 
 topic: 
-SubTopic:
+SubTopic: 
 ---
 
 # 17-09-2024

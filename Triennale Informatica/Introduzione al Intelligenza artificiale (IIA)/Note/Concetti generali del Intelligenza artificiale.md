@@ -1,8 +1,10 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
 
 # Concetti generali del Inteligenza artificiale

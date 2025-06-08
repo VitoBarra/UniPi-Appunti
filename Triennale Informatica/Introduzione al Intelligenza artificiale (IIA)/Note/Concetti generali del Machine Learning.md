@@ -8,7 +8,7 @@ tags:
 ---
 # Concetti generali del Machine Learning
 ---
-il __machine learning__ (ML) in italiano **Apprendimento automatico** è campo del [[Concetti generali del Inteligenza artificiale|inteligenza artificiale]]. Questo è uno strumento utile  per l'analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
+il __machine learning__ (ML) in italiano **Apprendimento automatico** è campo del [[Concetti generali del Intelligenza artificiale|inteligenza artificiale]]. Questo è uno strumento utile  per l'analisi dei dati, crea sistemi adattivi ed è uno strumento [[Statistica (STAT)|statistico]] 
 
 
 ### Quando utile

@@ -4,12 +4,13 @@ tags:
   - MOC
   - AIF
 ---
-# Artificial inteligence fundamentals MOC
+# Artificial intelligence fundamentals MOC
 
 ## Course MOC  📒
-1. [[Concetti generali del Inteligenza artificiale]]
-2. [[Definizione di problemi-Ambienti]]
-3. [[Agenti Razionali]]
+1. [[Concetti generali del Intelligenza artificiale]]
+2. [[Agenti Razionali]]
+	1. [[Classificazione di agenti razionali]]
+3. [[Definizione di problemi-Ambienti]]
 4. [[Agenti risolutori di problemi]]
 	1. [[Algoritmi di ricerca]]
 		1. [[Ricerca in ampiezza BF]]
@@ -34,23 +35,24 @@ tags:
 6. [[Spazzi continui - gradiente]]
 7. [[Alberi di ricerca AND-OR]]
 Seconda parte corso:
-1. [[Base di conoscenza (KB)]]
-2. [[Agenti Knowledge Based]]
-3. [[Sistemi di deduzione (o di Inferenza)]]
-4. [[Agenti Logici - Calcolo proposizionale]]
+8. [[Base di conoscenza (KB)]]
+9. [[Agenti Knowledge Based]]
+10. [[Sistemi di deduzione (o di Inferenza)]]
+11. [[Agenti Logici - Calcolo proposizionale]]
 	1. [[TV-Consegue algoritmo per SAT]]
 	2. [[Algoritmo DPLL per SAT]]
 	3. [[Metodi locali per SAT]]
 	4. [[Sistema di inferenza per PROP]]
-5. [[Agenti Logici con FOL]]
+12. [[Agenti Logici con FOL]]
 	1. [[Semantica Database per FOL]]
 	2. [[Sistema di inferenza per FOL]]
-6. [[Agenti logici - Sistemi a regole]]
+13. [[Agenti logici - Sistemi a regole]]
 	1. [[Risoluzione SLD]]
 
 
 ### Educational Material 🧱
 1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf]]
+2. [[Artificial Intelligence A Modern Approach  (AIMA) 4ed.pdf]]
 
 
 

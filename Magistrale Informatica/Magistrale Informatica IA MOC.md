@@ -8,7 +8,7 @@ tags:
 
 ## MOC 
 - Primo Anno
-	- [[Artificial Inteligence Fundamentals (AIF)]]
+	- [[Artificial Intelligence Fundamentals (AIF)]]
 		- [[Introduzione al Intelligenza Artificiale (IIA)]]
 	- [[Machine Learning (ML)]]
 		- [[Introduzione al Intelligenza Artificiale (IIA)]]
