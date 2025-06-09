@@ -38,7 +38,7 @@ tags:
 		4. [[Variabili Aleatorie Notevoli - Geometrica]]
 		5. [[Variabili Aleatorie Notevoli - Poisson]]
 	8. Variabili con densita
-		1. [[Variabili Aleatorie Notevoli - Densità uniforme]]
+		1. [[Variabili Aleatorie Notevoli - Densita uniforme]]
 		2. [[Variabili Aleatorie Notevoli - Esponenziale]]
 		3. [[Variabili Aleatorie Notevoli - Gaussiane]]
 		4. [[Variabile Aleatorie Notevoli - Gamma]]

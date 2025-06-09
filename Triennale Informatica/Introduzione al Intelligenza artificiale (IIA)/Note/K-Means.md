@@ -30,7 +30,7 @@ E = \sum_{i}^{\ell} \sum_{j}^{K} \left\| \mathbf{x}_i - \mathbf{w}_j \right\|^2 
 $$Dove $$\delta_{\text{winner}}(i,j)= \begin{cases}
 1  &  if  &  \mathbf{w_j} = w_{j^*(x_i)}   \\
  0& else 
-\end{cases}$$Si può trovare l'insieme $c(x)$ ottimo minimizzando la funzione di l[[Data analysis -  Clustering|clustering]]analisys - Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]], si usa q[[Data analysis -  Clustering#Clustering tramite quantizzazione di vettori]]ramite quantizzazione di vettori]]
+\end{cases}$$Si può trovare l'insieme $c(x)$ ottimo minimizzando la funzione di [[Data analysis -  Clustering|clustering]] usa l approccio che utilizza la [[Quantizzatori Vettoriali (VQ)|quantizazione vettorialie]].
 [[Derivate|Derivando]] la funzione di loss si ottiene la regola di aggiornamento: $$\Delta \mathbf{w}_{i^*} = \eta \delta_{winner} (i,i^*)(x_i-w_{i^*}) $$ e questa regola costituisce la versione __[[Tecnica di ottimizzazione Gradient Descent|online]]__ del __$k$-mean__
 
 Mentre la versione __[[Tecnica di ottimizzazione Gradient Descent|batch]]__ segue come:

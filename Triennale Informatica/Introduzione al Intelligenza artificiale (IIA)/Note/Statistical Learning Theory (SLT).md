@@ -9,7 +9,7 @@ tags:
 
 # Statistical Learning Theory (SLT)
 ---
-La __Statistical Learning Theory__ (__SLT__) fornisce un approccio teorico per analizzare la capacita di generalizzare di un [[Modelli di dati|modello di macchine learning]] per fare ciò  si cerca di capire come bilanciare __l'errore sui dati di training__ $R_{emp}$ con la __complessità del modello__ in modo da ridurre l [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]
+La __Statistical Learning Theory__ (__SLT__) fornisce un approccio teorico per analizzare la capacita di generalizzare di un [[Modelli di dati|modello di macchine learning]] per fare ciò  si cerca di capire come bilanciare __l'errore sui dati di training__ $R_{emp}$ con la __complessità del modello__ in modo da ridurre l [[Overfitting e Underfitting|overfitting]]
 I concetti chiave includono la __VC-dimension__ e la __Minimizzazione del Rischio Strutturale (SRM)__, che offrono un quadro per selezionare modelli in modo rigoroso.
 
 

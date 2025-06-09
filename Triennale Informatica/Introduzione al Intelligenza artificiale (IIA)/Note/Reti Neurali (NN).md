@@ -28,7 +28,7 @@ o_i(\mathbf{x}) = f(net_i(x))
 
 
 #### Algoritmo di apprendimento
-L l' algoritmo usato delle reti neurali per funzionare è l algoritmo di [[BackPropagation|BackPropagation]] 
+L l' algoritmo usato delle reti neurali per funzionare è l algoritmo di [[Back Propagation|Back Propagation]] 
 
 
 ### Capacita espressiva

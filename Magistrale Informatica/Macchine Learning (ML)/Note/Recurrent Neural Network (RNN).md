@@ -56,7 +56,7 @@ su una __rete ricorrente__ si può applicare l __unfolding__ ( o unrolling) che 
 in questo modo i pesi di un layer al successivo sono condivisi (__weight sharing__) e le due reti sono totalmente equivalenti. 
 ![[Pasted image 20250207234512.png]]
 
-l' addestramento viene fatto tramite **Backpropagation Through Time (BPTT)**, che applica la __[[backpropagation|backpropagation]]__ su una versione __unfolded__ equivalente della rete che si vuole allenare, limitando la profondità di unrolling con un iperparametro.
+l' addestramento viene fatto tramite **Backpropagation Through Time (BPTT)**, che applica la __[[Back Propagation|Back Propagation]]__ su una versione __unfolded__ equivalente della rete che si vuole allenare, limitando la profondità di unrolling con un iperparametro.
 
 Durante la __BPTT__ i gradienti possono diminuire esponenzialmente, rendendo difficile l'apprendimento di **dipendenze a lungo termine**. Questo fenomeno è dovuto alla moltiplicazione ripetuta della matrice dei pesi ricorrenti:  I valori  della matrice $\hat{W}$ vengono moltiplicati tra di loro $n$ volte quanti sono i vettori di ingresso perciò il valore del peso e’ $w^n$ quindi si ha che:
 - con $w<1$  __vanishing gradient__ il gradiente diventa troppo piccolo per fare degli spostamenti 

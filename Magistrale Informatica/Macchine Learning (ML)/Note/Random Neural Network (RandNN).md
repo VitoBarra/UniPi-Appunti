@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Random Neural Network (RandNN)
 ---
-Allo scopo di efficentare il training tramite [[BackPropagation|BackPropagation]] delle reti neurali sono stati provati approccio come le __Random Weight [[Reti Neurali (NN)|Neural Networks]] (RWNNs)__ si mantiene l' architetture [[Reti neurali Feed-Forward (FF)|MLP]]/[[Recurrent Neural Network (RNN)|RNN]] ma si avita il training inizializzando casualmente una parte della rete e allenando solo l ultimo layer
+Allo scopo di efficentare il training tramite [[Back Propagation|Back Propagation]] delle reti neurali sono stati provati approccio come le __Random Weight [[Reti Neurali (NN)|Neural Networks]] (RWNNs)__ si mantiene l' architetture [[Reti neurali Feed-Forward (FF)|MLP]]/[[Recurrent Neural Network (RNN)|RNN]] ma si avita il training inizializzando casualmente una parte della rete e allenando solo l ultimo layer
 - **Random Vector Functional Link (RVFL)**
 - **Extreme Learning Machine (ELM)**
 - **Reti a Funzione Radiale (RBF) con centri random**
