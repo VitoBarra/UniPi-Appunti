@@ -21,7 +21,7 @@ tags:
 3. _Hill-Climbing con prima scelta_: genera mosse a caso finche non ne trova una migliore, in quel caso va in quello stato
 	- come la stocastica ma utile quando i successori sono molti, evita la scelta tra tutti (piu efficente)
 4. _Hill-Climbing con riavvio casuale_ (random restart): ripete da un punto scelto a caso
-	-  se la [[Definizione di Probabilita|Definizione di Probabilita]] di successo $p$ saranno necessarie in media $1\over p$ ripartenza per trovare la soluzione 
+	-  se la [[Definizione di Probabilità|Definizione di Probabilità]] di successo $p$ saranno necessarie in media $1\over p$ ripartenza per trovare la soluzione 
 	- tendenzialmente _completo_ (daje e daje le provi tutte)
 	- se funziona o meno dipende da come è fatta la forma della superfice sui cui stiamo facendo la ricerca
 		- funziona male su superfici con molti minimi o massimi locali 

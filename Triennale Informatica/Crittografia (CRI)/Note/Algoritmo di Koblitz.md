@@ -23,7 +23,7 @@ calcolare questa radice ha [[Complessita|costo polinomiale]] visto che  $p$ è [
 Si scansionano sequenzialmente le vari possibili $x_{i} = mh+i$ e si cerca di calcolare la radice $y_{i}$ se _questa esiste_ allora il punto  sulla curva sarà $P_{m} = (x_{i},y_{i})$ _altrimenti_ si incrementa $i$ e si prova con la prossima $x$ _candidata_. L algoritmo si ferma al primo punto trovato, o in caso di fallimento quando $i$ avrà raggiunto $h$ e in questo caso non è stato possibile trasformare $m$ in un punto sulla curva.
 
 
-Siccome la probabilità che la radice non esista, e che quindi $x^{3}+ax+b$ non sia uno [[Residui quadratici in modulo|scarto quadratico]] e che quindi il punto non è sulla curva è $\cfrac{1}{2}$ abbiamo che provando per $h$ valori la [[Definizione di Probabilita|probabilità]] che il _metodo fallisca_ è  $2^{-h}$ e che quindi può essere arbitrariamente abbassata cambiando il valore di $h$
+Siccome la probabilità che la radice non esista, e che quindi $x^{3}+ax+b$ non sia uno [[Residui quadratici in modulo|scarto quadratico]] e che quindi il punto non è sulla curva è $\cfrac{1}{2}$ abbiamo che provando per $h$ valori la [[Definizione di Probabilità|probabilità]] che il _metodo fallisca_ è  $2^{-h}$ e che quindi può essere arbitrariamente abbassata cambiando il valore di $h$
 
 per tornare indietro e trasformare un punto in un intero si deve calcolare$$m = \left\lfloor\cfrac{x_{i}}{h} \right\rfloor$$
 

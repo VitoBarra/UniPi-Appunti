@@ -7,7 +7,7 @@ tags:
 # Formula di Bayes
 ---
 #### Formula di Bayes
-_siano_ $A$ e $B$ due [[Definizione di Probabilita|eventi]] non _trascurabili_
+_siano_ $A$ e $B$ due [[Definizione di Probabilità|eventi]] non _trascurabili_
 _allora_$$\mathcal{P}(B\mid A)=\frac{\mathcal{P}(A\mid B)\mathcal{P}(B)}{\mathcal{P}(A)}$$e in piu vale che 
 _sia_ $B_1,\dots,B_n$ un _[[Sistema di alternative|sistema di alternative]]_ e  $A$ un _evento non trascurabile_
 _allora_ valgono le formule$$

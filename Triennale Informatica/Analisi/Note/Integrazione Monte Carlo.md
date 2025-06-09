@@ -18,7 +18,7 @@ _allora_ $E[g(x)]$ puo essere approssimato come $$E[g(x)]\approx \cfrac{1}{n}\su
 I & =\int _b^af(x) \, dx=\int _b^a \cfrac{f(x)}{p(x)}p(x) \, dx = E[g(x)] \implies \\
 I & \approx \cfrac{1}{n}\sum^n_{i=1}\cfrac{f(x_i)}{p(x_i)}
 \end{align}
-$$ e possiamo scegliere arbitrariamente la [[Distribuzione di probabilita|distribuzione]] quindi prendendo la [[Probabilita con distribuzione uniforme|distribuzione uniforme]] $p(x)=\cfrac{1}{b-a}$  si ha che 
+$$ e possiamo scegliere arbitrariamente la [[Distribuzione di probabilità|distribuzione]] quindi prendendo la [[Probabilita con distribuzione uniforme|distribuzione uniforme]] $p(x)=\cfrac{1}{b-a}$  si ha che 
 $$I \approx \cfrac{1}{n}\sum^n_{i=1}\cfrac{f(x_i)}{p(x_i)}=\cfrac{1}{n}\sum^n_{i=1}f(x_i)(b-a)$$
 che intuitivamente significa che stimo facendo la media della somma del aria di $n$ rettangoli larghi quando l intervallo di integrazione $[a,b]$ e alti quanto il valore del sample $f(x_i)$
 ![[Pasted image 20240311041145.png]]

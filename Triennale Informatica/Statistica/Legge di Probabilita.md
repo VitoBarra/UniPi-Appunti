@@ -11,7 +11,7 @@ SubTopic:
 ---
 la __legge di probabilita__ è definita come
 _sia_  
-- $(\Omega,\mathcal{F},\mathcal{P})$ uno _[[Definizione di Probabilita|spazio di probabiltia]]_
+- $(\Omega,\mathcal{F},\mathcal{P})$ uno _[[Definizione di Probabilità|spazio di probabiltia]]_
 - $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] 
 _allora_ la funzione di insiemi $\mathcal{P}_{X}(A)=\mathcal{P}(X \in  A)= \mathcal{P}(X^{-1}(A))$ è una [[Probabilita sui numeri Reali|Probabilità]] su $\mathbb{R}$  ed è detta __legge di pobabilità__ di $X$ 
 

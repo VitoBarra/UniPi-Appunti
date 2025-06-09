@@ -76,7 +76,7 @@ tags:
 	8. [[LightGBM]]
 		2. [[Sampling on gradient - GOSS]]
 		3. [[Exclusive Feature Bunding - EFB]]
-9. [[Language models]] 
+9. [[Probabilistic Language models]] 
 	9. [[Probabilistic Models]]
 			1. [[Statistical Language Models]]
 	10. [[Neural Models]]

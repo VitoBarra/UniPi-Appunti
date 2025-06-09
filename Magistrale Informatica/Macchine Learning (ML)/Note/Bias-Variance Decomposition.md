@@ -12,7 +12,7 @@ SubTopic:
 Ogni __set di training__ per un [[Concetti generali del Machine Learning|algoritmo di macchina learning]] è una realizzazione possibile dell'universo dei dati e ogni diverso set puo dare fornire predizioni differenti. 
 
 sia un dataset $(\mathbf{x}_i,y_i)$ con $i = 1 \dots \ell$ e $y=f(x)+\varepsilon$ con $\varepsilon$ un rumore gaussiona con media $0$ e deviazione standard $\sigma$. 
-Assumendo che ogni punto $\mathbf{x}$ preso da una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|i.d.d.]] con la distribuzione di [[Definizione di Probabilita|probabilita]] $\mathcal{P}$, Allora vogliamo analizzare l' __errore atteso__ su un arbitrario nuovo punto $\mathbf{x}$  ovvero $$\mathbb{E}_\mathcal{P}[(y-h(\mathbf{x}))^2]$$l' __errore atteso__ è su __TUTTI__ i possibili dataset presi in accordo a $\mathcal{P}$ e dove per ogni estrazione di training set c è una nuova $y$ e una nuova __ipotesi__ $h$.
+Assumendo che ogni punto $\mathbf{x}$ preso da una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|i.d.d.]] con la distribuzione di [[Definizione di Probabilità|probabilita]] $\mathcal{P}$, Allora vogliamo analizzare l' __errore atteso__ su un arbitrario nuovo punto $\mathbf{x}$  ovvero $$\mathbb{E}_\mathcal{P}[(y-h(\mathbf{x}))^2]$$l' __errore atteso__ è su __TUTTI__ i possibili dataset presi in accordo a $\mathcal{P}$ e dove per ogni estrazione di training set c è una nuova $y$ e una nuova __ipotesi__ $h$.
 
 
 Andando a scomporre il valore otteniamo$$

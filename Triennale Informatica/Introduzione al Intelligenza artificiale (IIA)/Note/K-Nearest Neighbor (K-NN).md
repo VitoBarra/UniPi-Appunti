@@ -56,7 +56,7 @@ I __gradi di libertà__ son detti "parametri effettivi" del modello.
 
 Al variare di questi cambiano le performance del algoritmo infatti abbiamo il seguente grafico che lo mostra:
 ![[Pasted image 20241225034737.png]]
-Il classificatore $K$-NN cerca di approssimare la soluzione di un __[[Classificatore Bayesiano|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza basata sui punti $\mathbf{x}$. Ovvero approssima la  probabilità condizionata usata dal __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
+	Il classificatore $K$-NN cerca di approssimare la soluzione di un __[[Naive Bayes Classifier|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ della  __[[Probabilità condizionata|probabilità condizionata]]__ della classe di appartenenza basata sui punti $\mathbf{x}$. Ovvero approssima la  probabilità condizionata usata dal __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
 
 ![[Pasted image 20241225034635.png]]
 in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiane|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __Classificatore Bayessiano__ direttamente (a sinistra)  e si può vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)

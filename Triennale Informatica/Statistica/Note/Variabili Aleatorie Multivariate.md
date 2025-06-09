@@ -9,7 +9,7 @@ tags:
 Le [[Variabili Aleatorie (Casuali)|Variabili Aleatorie]] _multivariate_ piu variabili aleatorie corrispettive ai [[Statistica Descrittiva - Dati Multivariati|Dati Multivariati]] e rappresentano più caratteri _qualitativi_  di un esperimento.
 
 #### Variabile doppia (definizione)
-_Sia_ ($\Omega,\mathcal{F},\mathcal{P}$) uno [[Definizione di Probabilita|spazio di probabilita]] e $X,Y$ due [[Variabili Aleatorie (Casuali)|Variabili aleatorie]] 
+_Sia_ ($\Omega,\mathcal{F},\mathcal{P}$) uno [[Definizione di Probabilità|spazio di probabilita]] e $X,Y$ due [[Variabili Aleatorie (Casuali)|Variabili aleatorie]] 
 _allora_  la coppia di variabili possono essere viste come una funzione $$(X,Y):\Omega \rightarrow \mathbb{R}^{2}, \ \ \ \omega \in  \Omega \mapsto (X(\omega), Y(\omega)) \in  \mathbb{R}^{2}$$
 ##### Legge di probabilita (Definizone)
 si definisce la _legge di probabilita_ della variabile aleatria doppia $(X,Y)$ come$$
@@ -54,7 +54,7 @@ _dimostrazione_
 #### Variabile doppia con densità (Definizione)
 _sia_ $(X,Y)$ una _variabile aleatoria_ doppia
 _se_ esiste una funzione $f:\mathbb{R}^{2}\rightarrow [0,\infty)$ [[Integrali|integrabile]] con $\int  \int_{\mathbb{R}^{2}} f(x,y) \, dx \, dy=1$ tale che 
-_allora_ questa è detta _con densita_ e la sua [[Definizione di Probabilita|probabilità]] $\mathcal{P}_{(X,Y)}$ e si ha che per  $A \subseteq \mathbb{R}^{2}$ $$\mathcal{P}_{(X,Y)}(A)=\mathcal{P}\{  (X,Y) \in  A\}=\int  \int_{A} f(x,y) \, dx  \, dy $$
+_allora_ questa è detta _con densita_ e la sua [[Definizione di Probabilità|probabilità]] $\mathcal{P}_{(X,Y)}$ e si ha che per  $A \subseteq \mathbb{R}^{2}$ $$\mathcal{P}_{(X,Y)}(A)=\mathcal{P}\{  (X,Y) \in  A\}=\int  \int_{A} f(x,y) \, dx  \, dy $$
 ##### Proposizione
 _se_ $(X,Y)$ ha _[[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densita di probabilita ]]_ $f(x,y)$ anche $X$ e $Y$ ha _densita_ e sono $$\begin{array}{}
 \displaystyle f_{X}(x)=\int ^{+\infty}_{-\infty}f(x,y) \, dy \\

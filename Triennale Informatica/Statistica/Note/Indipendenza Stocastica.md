@@ -6,8 +6,8 @@ tags:
 ---
 # Indipendenza Stocastica
 ---
-Presi due eventi $A$ e $B$ _[[Definizione di Probabilita|trascurabili]]_ si vogliono studiare i casi in cui _conoscere_ la realizzazione di uno dei due _eventi_ non cambia la conoscenza della probabilità del altro.
-Abbiamo che quindi deve valere che$$\mathcal{P}(A)=\mathcal{P}(A|B)\ \ \ \ \   e  \ \ \ \ \mathcal{P}(B)=\mathcal{P}(B|A)$$ e applicando la definizione di [[Probabilita condizionata|Probabilita condizionata]] otteniamo che $$
+Presi due eventi $A$ e $B$ _[[Definizione di Probabilità|trascurabili]]_ si vogliono studiare i casi in cui _conoscere_ la realizzazione di uno dei due _eventi_ non cambia la conoscenza della probabilità del altro.
+Abbiamo che quindi deve valere che$$\mathcal{P}(A)=\mathcal{P}(A|B)\ \ \ \ \   e  \ \ \ \ \mathcal{P}(B)=\mathcal{P}(B|A)$$ e applicando la definizione di [[Probabilità condizionata|Probabilità condizionata]] otteniamo che $$
 \begin{array}
 \mathcal{P}(A) & = & \cfrac{\mathcal{P}(A \cap B)}{\mathcal{P}(B)} \\
 \mathcal{P}(A \cap B) & = & \mathcal{P}(A)\mathcal{P}(B)

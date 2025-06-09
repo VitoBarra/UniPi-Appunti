@@ -57,7 +57,7 @@ y_{r} & = &  z_{r} \times x_{r}
 $$in questo modo si ottiene il _frame_ [[Vettori Ortogonali|ortogonale]] $F_{r}$ 
 
 la scelta di $a$ _determina_ il frame $F_{r}$, bisogna stare attendi a non scegliere un vettore $a$ [[Dipendenza Lineare|dipendente]] con l _asse_ $r$ siccome in quel caso il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]] restituirebbe il _vettore nullo_.
-$a$ scegliere a caso ha [[Definizione di Probabilita|probabilita]] bassa di selezionare un vettore _dipendente_(_colineare_) con $r$ ma non zero e per via del [[Aritmetica di Macchina|algebra finita]] del calcolatore anche i vettori *__quasi__*  _colineari_ hanno lo stesso problema
+$a$ scegliere a caso ha [[Definizione di Probabilità|probabilita]] bassa di selezionare un vettore _dipendente_(_colineare_) con $r$ ma non zero e per via del [[Aritmetica di Macchina|algebra finita]] del calcolatore anche i vettori *__quasi__*  _colineari_ hanno lo stesso problema
 
 Quindi si _sceglie_ il vettore _tale che_
 _sia_ $i$ alla posizione della componente di $\boldsymbol{r}$ piu piccola e _diversa_ da $1$

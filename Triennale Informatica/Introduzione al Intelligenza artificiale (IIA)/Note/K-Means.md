@@ -12,7 +12,7 @@ il __$k$-Means__ è un [[Algoritmi di learning NON supervisionato|algoritmo di a
 
 Un modo di fare __clustering__ è tramite l'utilizzo di [[Quantizzatori Vettoriali (VQ)]]. 
 
-Si cercano dei [[Partizione di un insieme|partizionamenti]] __ottimi__ di una [[Distribuzione di probabilita|distribuzione]] $p$ di input sconosciuta in regioni, dette __cluster__, approssimate da un __centroide__. 
+Si cercano dei [[Partizione di un insieme|partizionamenti]] __ottimi__ di una [[Distribuzione di probabilità|distribuzione]] $p$ di input sconosciuta in regioni, dette __cluster__, approssimate da un __centroide__. 
 Ovvero si sta cercando un [[Insiemi Matematici|insieme]] di vettori $\mathbf{w}_i \in c(x)$ che [[Quantizzatori Vettoriali (VQ)|quantizzano]] lo spazio in modo da minimizzare un certo errore di distorsione $d$ . 
 
 Per trovare l'insieme ottimo $c(x)$ possiamo formulare il problema come [[Problemi di ottimizzazione|problema di minimizzazione]]:
@@ -20,7 +20,7 @@ __sia__ l'errore di distorsione $d\left(\mathbf{x}_i, \mathbf{c}(\mathbf{x}_j)\r
 __allora__ possiamo definire una __funzione di loss__ come il [[Variabili aleatoria - Momenti|valore atteso]] dell errore di distorsione  $$
 E = \int ( d\left( \mathbf{x}, c(\mathbf{x}) \right)  p(\mathbf{x}) \, d\mathbf{x} 
 = \int \left\| \mathbf{x} - \mathbf{w}_{i^*(\mathbf{x})} \right\|^2_2 p(\mathbf{x}) \, d\mathbf{x}
-$$dove $i^*(\boldsymbol x)= \arg_i \min \|\boldsymbol x -c_i(\mathbf{x})\|^2_2$  e quindi $\mathbf{w}_{i^*(\mathbf{x})}$ è il vettore di riferimento (__centroide__) a cui l'input $\mathbf{x}$ è associato e $p(\mathbf{x})$ è la [[Definizione di Probabilita|probabilità]] che l'input sia $\mathbf{x}$.
+$$dove $i^*(\boldsymbol x)= \arg_i \min \|\boldsymbol x -c_i(\mathbf{x})\|^2_2$  e quindi $\mathbf{w}_{i^*(\mathbf{x})}$ è il vettore di riferimento (__centroide__) a cui l'input $\mathbf{x}$ è associato e $p(\mathbf{x})$ è la [[Definizione di Probabilità|probabilità]] che l'input sia $\mathbf{x}$.
 
 Fissando :
 - un insieme finito di input di cardinalità  $\ell$ 

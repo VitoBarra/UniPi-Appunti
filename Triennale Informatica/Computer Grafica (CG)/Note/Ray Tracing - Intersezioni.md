@@ -172,7 +172,7 @@ Si puo usare anche un __kD-trees__ ovvero un __BSP__ con le divisioni allineate 
 
 ![[IMG_1114 1 1.jpeg]]
 E per costruire efficientemente questi tipo di albero bisogna sapere quale è il costo.
-Questo può essere visto come la [[Probabilita condizionata|probabilita condizionata]] del intersezioni con una cella significa anche l intersezione di una sua parte qundi 
+Questo può essere visto come la [[Probabilità condizionata|probabilita condizionata]] del intersezioni con una cella significa anche l intersezione di una sua parte qundi 
 $$\begin{align}
 cost(cell)  = \ & cost\_traversal & + \\
 	 & \mathcal{P}(left\_cell|cell)Cost(left\_cell) & + \\

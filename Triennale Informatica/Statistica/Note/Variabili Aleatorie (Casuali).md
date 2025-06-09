@@ -6,13 +6,13 @@ tags:
 ---
 # Variabili Aleatorie (Casuali)
 ---
-in [[Statistica (STAT)|statistica]] le _variabili aleatorie_ sono uno strumento matematico che ci permettono di dare un formalismo matematico piu agile rispetto al solo _[[Definizione di Probabilita|Spazzio di probabilita]]_ $(\Omega,\mathcal{F},\mathcal{P})$ che è associato ad un esperimento che vogliamo studiare.
+in [[Statistica (STAT)|statistica]] le _variabili aleatorie_ sono uno strumento matematico che ci permettono di dare un formalismo matematico piu agile rispetto al solo _[[Definizione di Probabilità|Spazzio di probabilita]]_ $(\Omega,\mathcal{F},\mathcal{P})$ che è associato ad un esperimento che vogliamo studiare.
 Infatti spesso non ci c’interessa l esito specifico del esperimento ma la _variabilità_ tra gli esiti dello stesso esperimento.
 
 le _variabili aleatorie_ ci permettono di studiare la _variabilità_ di tra gli esiti dello stesso esperimento, ovvero sullo stesso _spazio di probabilità_,  ripetuto piu volte e sono formalizzate con [[Funzioni|Funzioni]] di $\Omega$
 
 ### Variabili aleatore (Definizione)
-_sia_ $(\Omega,\mathcal{F},\mathcal{P})$ uno _[[Definizione di Probabilita|spazio di probabiltia]]_ 
+_sia_ $(\Omega,\mathcal{F},\mathcal{P})$ uno _[[Definizione di Probabilità|spazio di probabiltia]]_ 
 _allora_ una __variabile aleatoria__ è una funzione $$X:\Omega\rightarrow\mathbb{R}$$tale che $\forall A \subseteq \mathbb{R}$ ([[Insiemi Misurabili|misurabile]]) vale $$X^{-1}(A)=\{ \omega \in  \Omega: X(\omega) \in  A \} \in  \mathcal{F}$$
 La definizione tiene conto del fatto che non sempre la $\sigma$-_algebra_ $\mathcal{F}$ degli eventi coincide con  tutto i sotto insiemi di $\Omega$  e scrivendola in questo modo ci assicuriamo di poter sempre calcolare la probabilità di eventi associati alla _variabile aleatoria_.
 

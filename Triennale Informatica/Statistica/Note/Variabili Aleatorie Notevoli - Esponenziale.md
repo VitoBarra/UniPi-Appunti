@@ -10,7 +10,7 @@ la _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_  __esponenziale__ ha 
 	\lambda e^{-\lambda x} &  x>0 \\
     0  & x \leq 0
 \end{cases}$$
-e si vede che la _[[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densita]]_ è effettivamente una [[Definizione di Probabilita|probabilità]] con l espressone $$  \left .\int_{0}^{+\infty} \lambda e^{-\lambda x}  \, dx =-e^{-\lambda x}\right|_{0}^{+\infty}=1$$poiché la densita prende valori diversi da $0$ solo per $x$ positivi si ha che $\mathcal{P}\{X \leq 0  \}=0$
+e si vede che la _[[Probabilita sui numeri Reali#Densità di probabilità (Definizione)|densita]]_ è effettivamente una [[Definizione di Probabilità|probabilità]] con l espressone $$  \left .\int_{0}^{+\infty} \lambda e^{-\lambda x}  \, dx =-e^{-\lambda x}\right|_{0}^{+\infty}=1$$poiché la densita prende valori diversi da $0$ solo per $x$ positivi si ha che $\mathcal{P}\{X \leq 0  \}=0$
 
 >[!tip]
 >la variabile esponenzioale descrive _ad esempio_ il tempo di attesa tra due eventi aleatori

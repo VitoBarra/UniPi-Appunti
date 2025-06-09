@@ -28,7 +28,7 @@ Il Natural Language Processing è costituito da dei task pratici di analisi del 
 
 # IR e NLP
 ---
-Anche nei sistemi di [[Information Retrieval - Concetti generali|IR]]] in cui si utilizzano [[Modelli di Machine Learning]] si esegue dell'elaborazione del testo detta *processing pipeline*, in quanto il testo deve essere rappresentato in maniera adeguata al modello di machine learning.
+Anche nei sistemi di [[Information Retrieval - Concetti generali|IR]] in cui si utilizzano [[Modelli di Machine Learning]] si esegue dell'elaborazione del testo detta *processing pipeline*, in quanto il testo deve essere rappresentato in maniera adeguata al modello di machine learning.
 
 # Approccio algoritmico
 ---
@@ -43,7 +43,7 @@ Dato un testo per prima cosa si vogliono *separare le parole*, ma per farlo biso
 - l'apostrofo non sempre separa due parole
 Il come separare le parole dipende dalla lingua che si sta usando.
 
-Il processo di separazione si chiama [[Tokenizzazione di testo|tokenizzazione]] e viene eseguito utilizzando le [[Regular expressions (Reg-ex)]].
+Il processo di separazione si chiama [[Normalizzazione del testo|tokenizzazione]] e viene eseguito utilizzando le [[Regular expressions (Reg-ex)]].
 
 Un'altro elemento della normalizzazione del testo è la [[Lemmatizzazione di testo]] che serve per mappare ogni parola alla propria radice per far assumere il significato corretto alle parole. Un modo per fare lemmatizzazione è attraverso lo *stemming* che semplicemente estrae il suffisso dalle parole.
 

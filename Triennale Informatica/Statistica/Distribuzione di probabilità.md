@@ -7,7 +7,7 @@ topic: "[[Variabili Aleatorie (Casuali)]]"
 SubTopic:
 ---
 
-# Distribuzione di probabilita
+# Distribuzione di probabilità
 ---
 Una __distribuzione di probabilità__ è un modello matematico che collega i valori di una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] alle probabilità che tali valori possano essere osservati. Le distribuzioni di probabilità vengono utilizzate per modellizzare il comportamento di un fenomeno di interesse in relazione alla popolazione di riferimento, ovvero alla totalità dei casi di cui lo sperimentatore osserva un dato campione. In questo contesto la variabile di interesse è vista come una variabile aleatoria la cui [[Variabili Aleatorie (Casuali)#Legge di probabilita|legge di probabilità]] esprime il grado di incertezza con cui i suoi valori possono essere osservati.
 

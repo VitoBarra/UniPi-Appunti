@@ -7,7 +7,7 @@ tags:
 # Variabili Aleatorie Notevoli - Binomiale
 ---
 Consideriamo il caso in cui vogliamo trovate la _[[Legge di Probabilita|legge di probabilità]]_  della situazione in cui ci interessano solo _due esiti_ di una prova ripetuta $n$ volte _con rimpiazzo_
-chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di Probabilita|probabilita]] $p\in (0,1)$
+chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di Probabilità|probabilita]] $p\in (0,1)$
 
 >[!tip]
 >lo stesso caso _senza rimpiazzo_ è modellizzato dalla variaible [[Variabili Aleatorie Notevoli - Ipergeometrica|ipergiometrica]]
@@ -19,7 +19,7 @@ dove
 - $p^{h}(1-p)^{n-h}$ è la probabilità che compaia un risultato con $h$ _successi_ e $(n-h)$ _insuccessi_. e questo vale per l _[[Indipendenza Stocastica|indipendenza]]_ dei risultati
 - $\begin{pmatrix}n \\h \end{pmatrix}$ è il numero di modi di [[Combinatoria#Disposizioni|disporre]] gli $h$ _successi_ e $(n-h)$ _insuccessi_
 
-la somma di tutte le probabilità ovvero la [[Definizione di Probabilita|probabilità]] totale  è $1$ come conseguenza del _binomiale_.
+la somma di tutte le probabilità ovvero la [[Definizione di Probabilità|probabilità]] totale  è $1$ come conseguenza del _binomiale_.
 
 
 > [!tip]

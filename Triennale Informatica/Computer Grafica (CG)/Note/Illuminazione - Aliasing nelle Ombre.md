@@ -26,7 +26,7 @@ Non si prende la media dei punti siccome altrimenti staremo andando a fare il sa
 ![[Pasted image 20240308034915.png]]
 
 ##### Variance Shadow Maps (VSM) 
-il valore $lit$ dell PCF puo essere visto come una [[Definizione di Probabilita|probabilita]] che ogni texel $z\in K$ contenga una profondata maggiore del valore di riferimento $$\mathcal{P}(z_{hk}>z_r)=lit=\cfrac{1}{|K|}\sum(z_{ij} \geq z_r)$$ quindi abbiamo una [[Distribuzione di probabilita|distribuzione]] di $\mathcal{P}$ ignota ma possiamo approssimare il suo [[Variabili aleatoria - Momenti|momento primo e secondo]].
+il valore $lit$ dell PCF puo essere visto come una [[Definizione di Probabilità|probabilita]] che ogni texel $z\in K$ contenga una profondata maggiore del valore di riferimento $$\mathcal{P}(z_{hk}>z_r)=lit=\cfrac{1}{|K|}\sum(z_{ij} \geq z_r)$$ quindi abbiamo una [[Distribuzione di probabilità|distribuzione]] di $\mathcal{P}$ ignota ma possiamo approssimare il suo [[Variabili aleatoria - Momenti|momento primo e secondo]].
 
 Quando li renderizza la scena dalla __[[Illuminazione - Ombre|light-camera]]__ si calcolano 2 mappe. uno per la dept $z$ e un altra per la depth $z^2$. 
 In questo modo si possono ottenere i momenti $E[z]$ e $E[z^2]$ facendo la [[Variabili aleatoria - Momenti|media]] con i valori nel kernel 

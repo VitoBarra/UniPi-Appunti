@@ -8,7 +8,7 @@ tags:
 
 1. [[Lexicons for Sentiment, Affect, and Connotation]]
 	1. [[Affective meaning]]
-	2. [[Emozione]]
+	2. [[Tassonomie delle emozioni]]
 	3. [[Affect Lexicon]]
 		1. [[Affect Lexicon - Lessici binari]]
 		2. [[Affect Lexicon - Lessici dimensionali (VAD)]]

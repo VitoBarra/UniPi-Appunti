@@ -6,7 +6,7 @@ tags:
 ---
 # Variabili aleatorie - Funzione di ripartizione
 ---
-Data una [[Variabili Aleatorie (Casuali)|vatiabile aleatoria]] $X:\Omega \rightarrow \mathbb{R}$  per studiare la sua _[[Definizione di Probabilita]]_ $\mathcal{P}_{X}$  (che è una [[Misura|Misura]] su $\mathbb{R}$) si può utilizzare la _fuzione di ripartizione_ (_cumulative distribution function_ c.d.f.) 
+Data una [[Variabili Aleatorie (Casuali)|vatiabile aleatoria]] $X:\Omega \rightarrow \mathbb{R}$  per studiare la sua _[[Definizione di Probabilità]]_ $\mathcal{P}_{X}$  (che è una [[Misura|Misura]] su $\mathbb{R}$) si può utilizzare la _fuzione di ripartizione_ (_cumulative distribution function_ c.d.f.) 
 
 #### Funzione di ripartizione (Definizione)
 _sia_ $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] si chiama _funzione di ripartizione_ di $X$ la [[Funzioni|funzione]] $F_{X}: \mathbb{R} \rightarrow[0,1]$ definita come $$F_{X}(x)=\mathcal{P}(X \leq x)$$e le proprieta di questa funzione sono le seguenti
@@ -23,7 +23,7 @@ La conseguenza di questo è che _se_ due _[[Variabili Aleatorie (Casuali)|variab
 
 #### Funzioni di ripartizione discreta
 la _funzione di ripartizione_ $F_{X}$ di una [[Variabili Aleatorie (Casuali)|Variabile Aleatoria]] $X$ discreta che assume valori $x_1,x_{2}\dots$ è una funzione _costante a gradini_ $$F_{X}(t)= \sum_{x_{i}\leq t}p(x_{i})$$
-nella funzione c è un salto in corrispondenza di ogni punto $x$ tale che $\mathcal{P}\{ X=x \}>0$ e l _ampiezza_ del salto è la _[[Definizione di Probabilita|probabilita]]_ di quel punto.
+nella funzione c è un salto in corrispondenza di ogni punto $x$ tale che $\mathcal{P}\{ X=x \}>0$ e l _ampiezza_ del salto è la _[[Definizione di Probabilità|probabilita]]_ di quel punto.
 Abbiamo quindi che $$\mathcal{P}\{ X=x\}=F_{X}(x)-F_{X-}(x)$$dove $F_{X-}=\lim_{ y \to x }F(y)$ si intende il _[[Limiti di una funzione|limite]] sinistro_ di $F_{X}$ nel punto $x$ 
 
 #### Funzione di ripartizione con densita

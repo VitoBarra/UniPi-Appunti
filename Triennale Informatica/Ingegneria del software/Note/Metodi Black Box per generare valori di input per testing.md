@@ -18,7 +18,7 @@ si inizia
 ## Tecniche di scelta degli input
 
 ### Metodo Statistico
-- i casi di testi sono seleziona in base alla distribuzione di [[Definizione di Probabilita|Definizione di Probabilita]] dei dati di ingresso del programma
+- i casi di testi sono seleziona in base alla distribuzione di [[Definizione di Probabilità|Definizione di Probabilità]] dei dati di ingresso del programma
 	- Test progettato sui valori più probabili nel momento del utilizzo
 		- non sempre rispecchia la realtà
 	- nota la distribuzione si può automatizzare la creazione dei test

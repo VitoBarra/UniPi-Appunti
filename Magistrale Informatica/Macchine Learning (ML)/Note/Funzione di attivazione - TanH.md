@@ -14,4 +14,4 @@ La [[Funzioni di attivazione|funzione di attivazione]] __TanH__ o tangente iperb
 e la sua immagine (il suo output) è nel range  $[-1,1]$.
 ![[Pasted image 20241227062308.png]]
 
-Questa è collegata alla [[Funzione di attivazione - Sigmoidale|funzione sigmoidale]] tramite la seguente relazione :$$tanh\left(\cfrac{\alpha x}{2}\right)= 2\sigma(x,\alpha)-1$$
+Questa è collegata alla [[Funzione di attivazione - Sigmoide|funzione sigmoidale]] tramite la seguente relazione :$$tanh\left(\cfrac{\alpha x}{2}\right)= 2\sigma(x,\alpha)-1$$

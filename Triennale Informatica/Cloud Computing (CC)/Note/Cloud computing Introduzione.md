@@ -85,7 +85,7 @@ sono le definizioni di cosa ci è garantito e di ciò che otterremo se non vengo
 
 Esempio GOOGLE
 
-sono fatti per far sentire bene il cliente, ovvero sono scritte in modo che sembri che le conseguenze della venuta meno delle ragazzine siano probabili e convenienti ma in realtà sono scritte per essere molto poco _[[Definizione di Probabilita|probabili]]_   
+sono fatti per far sentire bene il cliente, ovvero sono scritte in modo che sembri che le conseguenze della venuta meno delle ragazzine siano probabili e convenienti ma in realtà sono scritte per essere molto poco _[[Definizione di Probabilità|probabili]]_   
 
 ## Stabilire il  numero di risorse necessarie
 

@@ -19,7 +19,7 @@ La soggettività vine definita da Wiebe con 4 classi:
 
 # Topologia degli stati affettivi secondo Scherer 
 Scherer ha classificato gli stati affettivi in base a fattori cognitivi e temporali, definendo 5 classi:
-- [[Emozione]]: episodio breve ed intenso, legato a eventi rilevanti
+- [[Tassonomie delle emozioni|Emozioni]]: episodio breve ed intenso, legato a eventi rilevanti
 - Umore : Stato diffuso e prolungato a bassa intensità
 - Stile interpersonale : Tono affettivo durante un'iterazione
 - Atteggiamento : Opinioni durevoli su oggetti e persone

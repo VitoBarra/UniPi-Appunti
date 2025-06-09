@@ -17,10 +17,10 @@ Nel [[Natural Language Processing|NLP]] vengono utilizzati due approcci principa
    - Teorie connesse:
       - Ekman (1999), che definisce 6 emozioni universali : surprise, happiness, anger, fear, disgust, sadness
       - Plutchik (1980), che definisce la ruota delle emozioni, in cui ogni vengono definite coppie di emozioni opposte: joy–sadness, anger–fear, trust–disgust, anticipation–surprise. questa teoria include anche delle emozioni derivate.![[ruota delle emozioni.png]]
-2. Modello ***dimensionale***: in cui le emozioni sono rappresentate come punti in uno spazio continuo a 2 o 3 dimensioni che rappresentano :
+1. Modello ***dimensionale***: in cui le emozioni sono rappresentate come punti in uno spazio continuo a 2 o 3 dimensioni che rappresentano :
    - ***Valence***: quanto piacevole o spiacevole è uno stimolo 
    - ***Arousal***: livello di attivazione/energia evocata, ossia quanto uno stimolo attiva o agita chi lo percepisce
-   - ***Dominance***: livello di controllo esercitato, ossia quanto lo stimolo ci fa sentire in controllo o soprafatti.
+   - ***Dominance***: livello di controllo esercitato, ossia quanto lo stimolo ci fa sentire in controllo o sopraffatti.
     
     In questo modello la valenza è direttamente collegata alla sentiment analysis tradizionale.
 

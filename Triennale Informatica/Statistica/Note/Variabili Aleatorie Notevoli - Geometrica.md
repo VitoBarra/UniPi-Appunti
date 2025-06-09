@@ -7,7 +7,7 @@ tags:
 # Variabili Aleatorie Notevoli - Geometrica
 ---
 Consideriamo il caso in cui vogliamo trovate la _[[Legge di Probabilita|legge di probabilità]]_  della situazione in cui ci interessano solo _due esiti_ di una prova ripetuta $n$ volte 
-chiamiamo solo una due due esiti “_successo_”  e questo ha [[Definizione di Probabilita|probabilità]] $p\in (0,1)$
+chiamiamo solo una due due esiti “_successo_”  e questo ha [[Definizione di Probabilità|probabilità]] $p\in (0,1)$
 
 #### Variabili geometriche (Definizione)
 _sia_ $X$ la _[[Variabili Aleatorie (Casuali)|variabili aleatorie]]_ tale che $X=h$ indica  con quale probabilità abbiamo il _primo successo_ al tentativo $h$ 

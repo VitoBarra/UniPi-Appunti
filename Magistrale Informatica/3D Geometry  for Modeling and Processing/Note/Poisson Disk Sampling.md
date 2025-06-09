@@ -42,7 +42,7 @@ l algoritmo __Dart Throwing__ è usato per  generare __Poisson Disk sampling__ s
 	\end{algorithmic}
 	\end{algorithm}
 ```
-In generale questo algoritmo non è ottimo e non genera un sampling massimare infatti ha una [[Complessita|complettista]] $O(n^2)$ rispetto al numero di sample e la convergenza è molto lenta questo siccome al aggiungersi di punti la [[Definizione di Probabilita|probabilita]] di generare randomicamente un punto dove i vincoli sono validi diminuisce.
+In generale questo algoritmo non è ottimo e non genera un sampling massimare infatti ha una [[Complessita|complettista]] $O(n^2)$ rispetto al numero di sample e la convergenza è molto lenta questo siccome al aggiungersi di punti la [[Definizione di Probabilità|probabilita]] di generare randomicamente un punto dove i vincoli sono validi diminuisce.
 
 
 

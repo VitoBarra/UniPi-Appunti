@@ -52,7 +52,7 @@ tags:
 	2. [[Funzione di attivazione - LeakyReLu]]
 	3. [[Funzione di attivazione - ELU]]
 	4. [[Funzione di attivazione - SoftPlus]]
-	5. [[Funzione di attivazione - Sigmoidale]]
+	5. [[Funzione di attivazione - Sigmoide]]
 	6. [[Funzione di attivazione - TanH]]
 	7. [[Funzione di attivazione - SoftMax]]
 13. Funzioni di loss

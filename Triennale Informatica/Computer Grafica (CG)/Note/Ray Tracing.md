@@ -132,7 +132,7 @@ nel caso di NEE con l apporossimazzione della luce indiretta la luce diretta va 
 scegliere il numero di rimbalzi che deve fare un raggio è importe per rendere la scena realistica, piu questi sono piu la scena sembrera realistica ma allo stesso tempo piu sara costosa da renderizare.
 ![[Pasted image 20240311050352.png]]
 
-un modo per limitare il numero di rimbalzi  è il metodo a __roulette russa__ ovvero ad ogni rimbalzo fai il prossimo con [[Definizione di Probabilita|Probabilita]] $1-p$ e se il raggio viene generato la sua contribuzione viene scalata di $\cfrac{1}{1-p}$
+un modo per limitare il numero di rimbalzi  è il metodo a __roulette russa__ ovvero ad ogni rimbalzo fai il prossimo con [[Definizione di Probabilità|Probabilita]] $1-p$ e se il raggio viene generato la sua contribuzione viene scalata di $\cfrac{1}{1-p}$
 ![[Pasted image 20240311050706.png]]
 in questo modo si avrà che con  $p=0$  si avra rimbalzi infiniti e  $p=1$ nessun rimbalzo
 scegliere $p$ significa fare un trade-off tra velocita e qualità

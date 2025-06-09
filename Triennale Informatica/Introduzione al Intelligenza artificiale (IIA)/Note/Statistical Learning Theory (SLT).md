@@ -52,14 +52,14 @@ nel caso un set $X$ di dimensione arbitraria ma finita può essere sempre __shat
 
 ### VC-Bound
 si vuole di approssimare una  [[Funzioni|funzione]] sconosciuta  $f(\mathbf{x})$ usando un $TR=\{(x_\ell,d_\ell)\dots x_\ell,d_\ell\}$ e scelta una funzione di __loss__ $L$ si vuole scegliere un ipotesi $h\in \mathcal{H}$ tale che in modo da minimizzare la funzione di rischio $R$ che rappresenta l' errore __vero__ su tutti i dati definita da:$$R=\int L(d,h(\boldsymbol x))dP(\boldsymbol x,d))$$ 
- dove $P(\mathbf{x},d)$ è  la [[Distribuzione di probabilita|Distribuzione di probabilita]] di valore $d$
+ dove $P(\mathbf{x},d)$ è  la [[Distribuzione di probabilità|Distribuzione di probabilità]] di valore $d$
 
 Per scegliere $h$ pero abbiamo solo un insieme finito  $TR$ e quindi possiamo solo minimizzare il __rischio empirico__ $R_{emp}$ (gli errori sul $TR$) allora si vuole usare $R_{emp}$ per  approssimare $R$.
 
 
 Per fare ciò si definisce il __VC-bounds__ che mette in relazione l errore reale $R$ e quello empirico $R_{emp}$ definito come:$$R \leq R_{emp}+\epsilon\left (\frac{1}{l},VC,\frac{1}{\delta}\right)$$ dove 
 - $\delta$ è la [[Intervalli di fiducia|confidenza]] con cui si decide che la maggiorazione regga
-- $1-\delta$ è una certa [[Definizione di Probabilita|probabilità]] per cui il bound resta vero
+- $1-\delta$ è una certa [[Definizione di Probabilità|probabilità]] per cui il bound resta vero
 - $\epsilon$ è una funzione detta ___VC-confidence___ 
 	- cresce con il crescere di __VC-dimension__ 
 	- decresce al crescere di $\ell$ (numero di dati) e $\delta$ 

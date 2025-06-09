@@ -8,7 +8,7 @@ tags:
 ---
 
 #### Condizione sufficiente per la convergenza in probabilita
-_siano_  $X_{1},X_{2},\dots$ una _successione_ di [[Variabili Aleatorie (Casuali)|variabili aleatorie]] definite sullo stesso [[Definizione di Probabilita|spazio di probabilita]] 
+_siano_  $X_{1},X_{2},\dots$ una _successione_ di [[Variabili Aleatorie (Casuali)|variabili aleatorie]] definite sullo stesso [[Definizione di Probabilità|spazio di probabilita]] 
 _se_  vale che$$\lim_{ n \to \infty }\mathbb{E}[X_{n}]=c \in  \mathbb{R} \ \ \ \ \ \ \ \ \ \ \lim_{ n \to \infty }Var(X_{n})=0  $$ ovvero se la il [[Variabili aleatoria - Momenti|valore atteso]] della successione _esiste_ e se la [[Variabili aleatorie - Varianza|varianza]] della successione è $0$ 
 _allora_  la _successione_ $(X_{n})_{n \geq 1}$ _[[Convergenza in probabilita|converge in probabilita]]_ alla costante $c$ ovvero $$\lim_{ n \to \infty }\mathcal{P}(|X_{n}-\mathbb{E}[X_{n}]|>\varepsilon)=0 $$
 

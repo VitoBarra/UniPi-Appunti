@@ -7,12 +7,12 @@ tags:
 
 # Ricerca Tempra simulata
 ---
-è un algoritmo di [[Ricerca locale|Ricerca locale]] Scelta [[Definizione di Probabilita|stocastica]] ma non del tutto casuale perché poco efficiente
+è un algoritmo di [[Ricerca locale|Ricerca locale]] Scelta [[Definizione di Probabilità|stocastica]] ma non del tutto casuale perché poco efficiente
 
 
 ad ogni passi si sceglie un successore $n’$ a caso:
 - Se migliora lo stato corrente si passa a quello stato
-- altrimenti quel nodo viene scelto con [[Definizione di Probabilita|probabilita]] $p = e^{\Delta E/T}$
+- altrimenti quel nodo viene scelto con [[Definizione di Probabilità|probabilita]] $p = e^{\Delta E/T}$
 	- dove $\Delta E = f(n’)-f(n)$ e $T$ è un parametro detto _temperatura_ che decresce seguendo un piano definito (anche esso parametro) con il _progredire temporalmente_  del algoritmo
 	- Cosi facendo la $p$ è inversamente proporzionale al peggioramento, se $\Delta E$ è un numero molto alto negativo $p$ si abbassa
 

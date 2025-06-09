@@ -7,7 +7,7 @@ tags:
 # Variabili Aleatorie Notevoli - Ipergeometrica
 ---
 Consideriamo il caso in cui vogliamo trovate la _[[Legge di Probabilita|legge di probabilità]]_  della situazione in cui ci interessano solo _due esiti_ di una prova ripetuta $n$ volte _senza rimpiazzo_,
-chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di Probabilita|probabilita]] $p\in (0,1)$ essendo _senza rimpiazzo_ $p$  varia ad ogni estrazione.
+chiamiamo solo una due due esiti “_successo_”  e questa ha [[Definizione di Probabilità|probabilita]] $p\in (0,1)$ essendo _senza rimpiazzo_ $p$  varia ad ogni estrazione.
 
 >[!tip]
 >lo stesso caso _con rimpiazzo_ è modellato con la variabile [[Variabili Aleatorie Notevoli - Binomiale|binomiale]] 

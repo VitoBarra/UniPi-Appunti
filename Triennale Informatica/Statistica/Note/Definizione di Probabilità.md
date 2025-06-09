@@ -3,7 +3,7 @@ Course: "[[Statistica (STAT)]]"
 tags:
   - STAT
 ---
-# Definizione di Probabilita
+# Definizione di Probabilità
 ---
 Si parla di _probabilità_ quando si analizza un evento il cui _esito_ non è sicuro e vogliamo misurare quanto con quale confidenza un esito specifico accade
 

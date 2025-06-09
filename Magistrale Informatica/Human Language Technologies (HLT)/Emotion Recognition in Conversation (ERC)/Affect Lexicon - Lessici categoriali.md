@@ -9,7 +9,7 @@ SubTopic: "[[Affect Lexicon]]"
 ---
 # Affect Lexicon - Lessici categoriali
 ---
-I lessici categoriali sono un tipo di [[Affect Lexicon]] che usano l'approccio delle emozioni di base, ossia ad ogni parola è associata una categoria (un'[[Emozione|emozione]]).
+I lessici categoriali sono un tipo di [[Affect Lexicon]] che usano l'approccio delle emozioni di base, ossia ad ogni parola è associata una categoria (un'[[Tassonomie delle emozioni|emozione]]).
 
 Esempi di questo tipo di lessico sono:
 1. ***NRC Word-Emotion Association Lexicon (EmoLex)*** : contiene circa 14.000 parole annotate con le 8 emozioni di Plutchink (anger, anticipation, disgust, fear, joy, sadness, surprise, trust). Ogni emozione è annotata in maniera binaria ed include anche la polarità.

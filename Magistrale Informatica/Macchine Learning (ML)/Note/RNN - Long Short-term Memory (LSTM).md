@@ -18,7 +18,7 @@ quindi per $n$ dati su un input si usano $W_i$ da $i =1,\dots,n$ pesi diversi
 
 
 
-Utilizza due [[Funzioni di attivazione|funzioni di attivazione]] la [[Funzione di attivazione - Sigmoidale|Sigmoide]] e la [[Funzione di attivazione - TanH|TanH]] 
+Utilizza due [[Funzioni di attivazione|funzioni di attivazione]] la [[Funzione di attivazione - Sigmoide|Sigmoide]] e la [[Funzione di attivazione - TanH|TanH]] 
 
 
 

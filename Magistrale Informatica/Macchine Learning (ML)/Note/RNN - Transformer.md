@@ -1,10 +1,11 @@
 ---
-Course: "[[3D Geometry for Modeling and Processing (3GMP)]]"
+Course: "[[Human Language Technology (HLT)]]"
+Course 2: "[[Machine Learning (ML)]]"
 tags:
-  - 3GMP
+  - ML
 Area: 
 topic: "[[Recurrent Neural Network (RNN)]]"
-SubTopic: 
+SubTopic:
 ---
 
 # RNN - Transformer
