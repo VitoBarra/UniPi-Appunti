@@ -1,10 +1,12 @@
 ---
-Course: "[[Machine Learning (ML)]]"
+Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
+Course 1: "[[Machine Learning (ML)]]"
 Course 2: "[[Human Language Technology (HLT)]]"
 Course 3: "[[Information Retrieval (IR)]]"
 tags:
-  - IA
+  - IIA
   - HLT
+  - AIF
 Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Text Classification]]"
 SubTopic:
@@ -26,7 +28,7 @@ Nonostante il nome, il classificatore Naïve Bayes ha molte qualità utili, sopr
 - **Un buon punto di partenza per la classificazione del testo**: Anche se ci sono modelli più accurati (es. SVM, Random Forest, o Transformer), Naïve Bayes è un **baseline semplice, efficace e affidabile**.
 
 
-I classificatori Naïve Bayes possono usare qualsiasi tipo di feature (URL, indirizzi email, dizionari, caratteristiche di rete).  
+I classificatori Naive Bayes possono usare qualsiasi tipo di feature (URL, indirizzi email, dizionari, caratteristiche di rete).  
 Ma se si usano solo le feature basate sulle parole, e si utilizzano tutte le parole presenti nel testo (e non un sottoinsieme), allora Naïve Bayes presenta un'importante somiglianza con i [[Probabilistic Language models|language models]].
 
 # Definizione del classificatore Bayesiano
@@ -49,7 +51,7 @@ Per la seconda assunzione si può riscrivere la likelihood come : $P(f_{1},\dots
 
 Quindi si ottiene come equazione finale del classificatore:$$\hat{c}= \text{ argmax}_{c \in  C}P(c) \prod_{f \in  F}P(f \mid c)$$
 #### Applicazione al testo
-Per applicare il **classificatore Bayesiano** al testo si utilizza ogni parola nel documento come feature accompagnata da un index che corrisponde alla sua posizione nel documento.
+Per applicare il **[[Naive Bayes Classifier|classificatore Bayesiano]]** al testo si utilizza ogni parola nel documento come feature accompagnata da un index che corrisponde alla sua posizione nel documento.
 $$c_{nb}=\text{argmax}_{c \in  C} P(c)\prod_{i \in  position}P(w_i \mid c)$$
 dove position è il numero totale di posizioni di parole in un documento.
 
@@ -84,8 +86,44 @@ Le parole che invece si trovano nel test set ma non sono presenti nel vocabolari
 
 Vengono anche ignorate le *stop words*, ossia le parole molto frequenti come gli articoli. Queste devono essere prima definite e poi vengono rimosse sia dal training set che dal test set. 
 
-![[NaiveBayesClassifierPseudocode.png]]
-
+```pseudo
+\begin{algorithm}
+\caption{Naive Bayes Classifier}
+\begin{algorithmic}
+\Function{Train-Naive-Bayes}{$D, C$}
+    \State \textbf{returns} $\log P(c)$ and $\log P(w|c)$
+    \For{each class $c \in C$} \Comment{Calculate $P(c)$ terms}
+        \State $N_{doc}$ = number of documents in $D$
+        \State $N_c$ = number of documents from $D$ in class $c$
+        \State $logprior[c] \gets \log \frac{N_c}{N_{doc}}$
+    \EndFor
+    \State $V \gets$ vocabulary of $D$
+    \For{each class $c \in C$}
+        \State $bigdoc[c] \gets$ append($d$) for $d \in D$ with class $c$
+        \For{each word $w$ in $V$} \Comment{Calculate $P(w|c)$ terms}
+            \State $count(w,c) \gets$ \# of occurrences of $w$ in $bigdoc[c]$
+            \State $loglikelihood[w,c] \gets \log \frac{count(w,c) + 1}{\sum_{w' \in V} (count(w',c) + 1)}$
+        \EndFor
+    \EndFor
+    \Return $logprior$, $loglikelihood$, $V$
+\EndFunction
+\State
+\Function{Test-Naive-Bayes}{$testdoc, logprior, loglikelihood, C, V$}
+    \State \textbf{returns} best $c$
+    \For{each class $c \in C$}
+        \State $sum[c] \gets logprior[c]$
+        \For{each position $i$ in $testdoc$}
+            \State $word \gets testdoc[i]$
+            \If{$word \in V$}
+                \State $sum[c] \gets sum[c] + loglikelihood[word,c]$
+            \EndIf
+        \EndFor
+    \EndFor
+    \Return $\arg\max_c sum[c]$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+```
 
 
 # Multinomial Naive Bayes 

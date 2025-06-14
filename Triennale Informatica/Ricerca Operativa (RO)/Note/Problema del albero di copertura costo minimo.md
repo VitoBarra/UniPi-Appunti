@@ -11,7 +11,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 ### Definizione
 
-Dato un [[Struttura dati - Grafi|grafo]] $G = (N, A)$ non orientato, in cui ad ogni arco $\{i, j\} \in A$ è associato un costo $c_{ij}$, trovare un [[Albero di copertura]] $T$ di costo minimo ,dove il costo di $T$  è definito come  $\sum_{\{i,j\}\in T}c_{ij}$
+Dato un [[Grafi|grafo]] $G = (N, A)$ non orientato, in cui ad ogni arco $\{i, j\} \in A$ è associato un costo $c_{ij}$, trovare un [[Albero di copertura]] $T$ di costo minimo ,dove il costo di $T$  è definito come  $\sum_{\{i,j\}\in T}c_{ij}$
 
 Senza perdita di generalità , possiamo supporre che il grafo $G$  sia completo,
 eventualmente aggiungendo archi di costo $M$, dove $M$ è una costante

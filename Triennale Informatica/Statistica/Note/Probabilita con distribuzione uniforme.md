@@ -10,4 +10,4 @@ in [[Statistica (STAT)|statistica]] ci sono dei casi in cui la definire la [[Def
 
 nel caso _finito_ abbiamo che se tutto gli _eventi elementari_ $\omega_{i}$ sono _equiprobabili_ si parla di _distribuzione uniforme di probabilità su_ $\Omega$, questa tipo di distribuzione _non puo esistere_ su un insieme _infinito_ anche se _numerabile_ siccome ogni vento elementare avrebbe probabilità $0$.
 
-in questo caso per trovare la probabilità si usa la formula $$\mathcal{P}(A)=\cfrac{|A|}{|\Omega|}$$dove $|\cdot|$ è la [[Cardinalità di un insieme|Cardinalità]] del _insieme_. questa formula è anche chiamata _casi favorevoli_ su _su casi possibili_. Usando questa formula i problemi diventano di problemi di [[Combinatoria|combinatoria]] 
+in questo caso per trovare la probabilità si usa la formula $$\mathcal{P}(A)=\cfrac{|A|}{|\Omega|}$$dove $|\cdot|$ è la [[Insiemi - Cardinalita|Cardinalità]] del _insieme_. questa formula è anche chiamata _casi favorevoli_ su _su casi possibili_. Usando questa formula i problemi diventano di problemi di [[Combinatoria|combinatoria]] 

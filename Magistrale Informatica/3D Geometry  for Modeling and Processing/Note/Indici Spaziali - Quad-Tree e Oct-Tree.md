@@ -10,9 +10,9 @@ SubTopic:
 
 # Indici Spaziali - Quad-Tree e Oct-Tree
 ---
-I **Quad-Tree** (2D) e gli **Oct-Tree** (3D) sono [[Indici spaziali|Indici spaziali]] **gerarchici**, basati su [[Struttura dati - Alberi|alberi]].
+I **Quad-Tree** (2D) e gli **Oct-Tree** (3D) sono [[Indici spaziali|Indici spaziali]] **gerarchici**, basati su [[Alberi|alberi]].
 
-Per costruire un **Quad-Tree**, lo spazio viene [[Partizione di un insieme|partizionato]] ricorsivamente in sotto-regioni. Ogni nodo dell’[[Struttura dati - Alberi|albero]] rappresenta una regione; se ha figli, ognuno di essi rappresenta una sotto-regione del nodo padre.  
+Per costruire un **Quad-Tree**, lo spazio viene [[Partizione di un insieme|partizionato]] ricorsivamente in sotto-regioni. Ogni nodo dell’[[Alberi|albero]] rappresenta una regione; se ha figli, ognuno di essi rappresenta una sotto-regione del nodo padre.  
 
 Ogni nodo ha esattamente $4$ figli (Quad-Tree) o $8$ (Oct-Tree) se necessario. I figli vengono aggiunti solo se la regione contiene troppe [[Computer grafica - Primitive Geometriche|primitive]], superando una certa soglia. Le regioni vuote restano intatte: la struttura è quindi **adattiva**.
 ![[IMG - indici spaziali Quad-tree.jpeg]]

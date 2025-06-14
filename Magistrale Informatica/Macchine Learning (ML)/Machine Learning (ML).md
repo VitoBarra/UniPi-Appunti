@@ -22,6 +22,7 @@ tags:
 	1. [[Bias-Variance Decomposition]]
 	2. [[Overfitting e Underfitting]]
 	3. [[Statistical Learning Theory (SLT)]]
+		1. [[PAC learning]]
 	4. [[Validation e Test di una modello di ML]]
 		1. [[Tecniche per la ricerca degli iperparametri]]
 		2. [[Validazione Hold-Out]]
@@ -40,6 +41,8 @@ tags:
 5. [[Support Vector Machine (SVM)]]
 	1. [[Support Vector Machine per la regressione (SVR)]]
 6. [[Ensemble Learning]]
+	1. [[Bagging (bootsrap aggregating)]]
+	2. [[Boosting]]
 7. [[Rete di Percettroni]]
 8. [[Reti neurali Feed-Forward (FF)]]
 9. [[Back Propagation]]
@@ -68,9 +71,9 @@ tags:
 	1. [[Reservoir Computing - Echo State Network (ESN)]] 
 	2. [[Reservoir Computing - Liquid State Machine]] (extra)
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
-18. [[Recurrent neural network (RecNN)]]
-19. [[Structural Domain Learning (SDL)]]
-20. [[Data analysis -  Clustering]]
+19. [[Recurrent neural network (RecNN)]]
+20. [[Structural Domain Learning (SDL)]]
+21. [[Data analysis -  Clustering]]
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]
 

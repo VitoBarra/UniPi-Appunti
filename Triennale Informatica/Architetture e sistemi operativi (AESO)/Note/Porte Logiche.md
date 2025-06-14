@@ -10,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 Le porte logiche (logic gates) sono semplici circuiti digitali che utilizzano uno o più ingressi **binari** per produrre un’uscita **binaria**
 La relazione tra ingressi e uscita può essere descritta con una tabella delle verità o con una [[Espressioni Booleane|espressione booleana]]\
-ogni porta esprime una [[Operazioni logiche|operazione logica]]
+ogni porta esprime una [[Logica proposizionale|operazione logica]]
 ## Buffer
 ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 7.png]]
 

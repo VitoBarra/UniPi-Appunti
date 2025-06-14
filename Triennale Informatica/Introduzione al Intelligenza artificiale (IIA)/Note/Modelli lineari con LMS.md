@@ -3,7 +3,7 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
 ---
 # Modelli lineari con LMS
 ---
@@ -43,7 +43,7 @@ in questo caso minimizzare la $Loss$  significa ridurre la somma residua degli e
 > la pratica di utilizzare LMS è standard per approssimare soluzioni di sistemi sovradeterminati. ovvero dove ci sono più equazioni che incognite. 
 
 Per trovare la $Loss$ minima c è bisogno di cambiare i valori dei parametri $w_0,w_1$ e i valori ottimi possono essere trovato  ponendo  $$\frac{\partial E(w)}{\partial w_1} =0 \ \ \frac{\partial E(w)}{\partial w_0} =0$$ovvero facendo la classica ricerca dei [[Massimi e minimi|minimi]] del [[Analisi|analisi]]. 
-In questo caso la funzione di $Loss$ è la  [[last Mean Squere (LMS)|Last mean Squere]] che è essendo [[Convessità|convessa]] ci garantisce che __se__ esiste un minimo questo è unico ed è quello globale.  
+In questo caso la funzione di $Loss$ è la  [[last Mean Squere (LMS)|Last mean Squere]] che è essendo [[Convessita|convessa]] ci garantisce che __se__ esiste un minimo questo è unico ed è quello globale.  
 ![[Pasted image 20241119224228.png]]
 In questo caso specifico la soluzione può anche essere calcolata direttamente come 
 $$w_1= \frac{\sum x_p y_p- \frac{1}{n}\sum x_p \sum y_p}{\sum x_p^2 - \frac{1}{n}(\sum x_p)^2} = \frac{Cov[x,y]}{var[x]} \ \ \ \  w_0 = \frac{1}{n}\sum y_p- w_1 \frac{1}{n}\sum x_p$$
@@ -156,7 +156,7 @@ Da cui si può derivare il seguente algoritmo di learning
 3. computa $\boldsymbol w_{new} = \boldsymbol w+\eta\Delta \boldsymbol w$  
 4. ripeti dal passo 2 finche $\boldsymbol w$ converge o $E(\boldsymbol w)$ è _sufficientemente piccolo_   
 
-l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
+l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Simulated Annealing| ricerca a tempra simulata]]
 
 Plottando l'errore che cambia con le varie iterazioni possiamo osservare 3 tipi di curve principali dipendenti principalmente dal iperparamentro $\eta$
 ![[E09B2FF5-EA90-441A-ACFF-24A453C658DD.jpeg]]

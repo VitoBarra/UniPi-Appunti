@@ -36,7 +36,7 @@ dove l ultimo passaggio è possibile grazie al [[Teorema di Binet]]
 per la regola del annullamento del prodotto almeno uno dei due termini finali deve essere $0$, il $\det(-M^{-1})$ non può altrimenti $M$ non sarebbe invertibile e ciò ci porta a dire che $\det(\lambda M-N)=0$  
 ponendo $H = \lambda M-N$ vediamo subito che é una matrice [[Matrice inversa|non invertibile]] (_singolare_)
 
-Dimostriamo [[Tipi di dimostrazione|per assurdo]]  che sotto l ipotesi di _predominanza diagonale_ valga che $\lambda < 1$ Assumendo che esiste un _autovalore_ $\lambda \geq 1$ 
+Dimostriamo [[Dimostrazione di Teoremi per assurdo o contraddizione|per assurdo]]  che sotto l ipotesi di _predominanza diagonale_ valga che $\lambda < 1$ Assumendo che esiste un _autovalore_ $\lambda \geq 1$ 
 Dobbiamo trovare una contradizione e lo facciamo dimostrando che $H$ è [[Matrice inversa|invertibile]]. 
 lo facciamo dimostrando che $H$ sia a _[[Predominanza diagonale|predominanza diagonale]]_. 
 partendo dalla definizione abbiamo $$ \begin{array}{}

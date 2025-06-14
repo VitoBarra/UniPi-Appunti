@@ -56,7 +56,7 @@ In generale questo algoritmo non garantisce un **sampling massimare** e  una len
 il __Dart Throwing Salloping__ è una variante del __Dart Throwing__ che funziona solo superfici 2D ed è difficile da estendere in 3D. 
 Si vuole massimizzare la probabilità di campionare aree di cui non si è fatto ancora il sampling e per fare ciò l algoritmo si basa sul fatto che se il sampling non è massimale allora deve essere una regione disponibile per aggiungere un nuovo punto nel vicinato della zone dove non è possibile aggiungere nuovi punti.
 
-Per fare ciò si salva il bordo della zone __unavailable__ come [[Struttura dati - Lista linkata|lista linkata]] e archi di cerchio, e per prendere un nuovo sample si prende un punto sul bordo. 
+Per fare ciò si salva il bordo della zone __unavailable__ come [[Lista linkata|lista linkata]] e archi di cerchio, e per prendere un nuovo sample si prende un punto sul bordo. 
 Dopo aver aggiunto il punto le strutture dati vanno aggiornate e reiterare
 ![[Pasted image 20241208233643.png]]
 questo algoritmo ha [[Complessita|complessità]] $O(n\log n)$ rispetto al numero di sample dove il $\log n$ viene dal accesso alla struttura dati![[Pasted image 20241208234938.png]]

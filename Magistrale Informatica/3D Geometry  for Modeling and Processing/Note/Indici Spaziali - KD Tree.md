@@ -10,7 +10,7 @@ SubTopic:
 
 # Indici Spaziali - KD Tree
 ---
-I **KD-Tree** sono degli [[Indici spaziali|Indici spaziali]] basati su [[Struttura dati - Alberi|alberi]] e sono una specializzazione dei [[Indici Spaziali - Binary Space Partition-Tree (BSP)|BSP]] dove ogni piano è allineato a gli assi.
+I **KD-Tree** sono degli [[Indici spaziali|Indici spaziali]] basati su [[Alberi|alberi]] e sono una specializzazione dei [[Indici Spaziali - Binary Space Partition-Tree (BSP)|BSP]] dove ogni piano è allineato a gli assi.
 ![[IMG - Indici spaziali KD-tree.png]]
 il che rispetto ai [[Indici Spaziali - Binary Space Partition-Tree (BSP)|BSP]] li rende gia piu efficienti in quanto invece che dover memorizzare un intero piano basta una singola coordinata, il che è anche [[Cache|cashe]] freadly.
 

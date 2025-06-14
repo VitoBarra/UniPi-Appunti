@@ -14,7 +14,7 @@ la __Radiometria__ racchiude alcune unita di misura utili per formalizzare come 
 
 
 ### Radiant flux
-i __Radiang flux__ o solo __flux__  $\Phi$ misurano la quantità di [[Fisica - Onde|luce]] ([[Fisica - Energia|energia]] quindi misurata in __Joule__) passante (sia in entrata che in uscita) per un aria o per un volume per unita di tempo misurato in __Watt__ ($W=J/s$)
+i __Radiang flux__ o solo __flux__  $\Phi$ misurano la quantità di [[Onde|luce]] ([[Definizione di Energia|energia]] quindi misurata in __Joule__) passante (sia in entrata che in uscita) per un aria o per un volume per unita di tempo misurato in __Watt__ ($W=J/s$)
 
 Questa unita di misura da sola non basta a specificare la luminosità di una superfice siccome non ci da nessun informazione su:
 - In che Direzione la luce sta arrivando sulla superfice o andando via dalla superfice 

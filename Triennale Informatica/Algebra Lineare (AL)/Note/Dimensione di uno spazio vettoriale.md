@@ -7,7 +7,7 @@ topic:
 
 # Dimensione di uno spazio vettoriale
 ---
-la _dimensione_ di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ indicato con $\dim(V)$ è il la [[Cardinalità di un insieme|cadinalita]] della sua [[Base di uno spazio vettoriale|base]], se lo spazio non ha una base allora la sua dimensione è $\infty$
+la _dimensione_ di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ indicato con $\dim(V)$ è il la [[Insiemi - Cardinalita|cadinalita]] della sua [[Base di uno spazio vettoriale|base]], se lo spazio non ha una base allora la sua dimensione è $\infty$
 
 > [!example]
 > - $\dim(\mathbb{K}^n)=n$

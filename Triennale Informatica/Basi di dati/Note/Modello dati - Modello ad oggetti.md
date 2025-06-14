@@ -53,7 +53,7 @@ Applicando delle operazioni sui tipi primitivi, o non si possono ottenere dei ti
 - l’operatore tipo _enumerazione_, insieme di _etichette_ separate da un punto e virgola tra parentesi tonde. 
 	- La sintassi: $(E_1;E_2;\dots;E_n)$
 	- Per esempio, il tipo dell’attributo Sesso $(M; F)$.
-- l’operatore tipo _sequenza_  costruisce un tipo i cui valori sono _sequenze di valori_ con tipo $T$, la sequenza  è un [[Struttura dati - MultiInsieme|MultiInsieme]] finito e ordinato 
+- l’operatore tipo _sequenza_  costruisce un tipo i cui valori sono _sequenze di valori_ con tipo $T$, la sequenza  è un [[MultiInsieme|MultiInsieme]] finito e ordinato 
 	- La sintassi: $seq \ \ T$
 
 un esempio è
@@ -119,8 +119,8 @@ Dove sul __ovveride__ esiste il vincolo di _eredità stretta_ ovvero, nuovo tipo
 
 un tipo $T$ può essere definito per eredita 
 con 
-- _eredita singola_(gerarchia ad [[Struttura dati - Alberi|albero]]): partendo da un singolo _supertipo_
-- _eredita multipla_(gerarchia a [[Struttura dati - Grafi|grafo]]): ereditando contemporaneamente da più antenati
+- _eredita singola_(gerarchia ad [[Alberi|albero]]): partendo da un singolo _supertipo_
+- _eredita multipla_(gerarchia a [[Grafi|grafo]]): ereditando contemporaneamente da più antenati
 	- Questo puo portare problemi quando si eredita la stessa _proprietà_ da antenati diversi ([[diamond Problem|diamond Problem]])
 
 Cio che rende questo meccanismo interessante e, in particolare, la combinazione di sovraccarico dei messaggi (overloading) e risoluzione dei nomi dei messaggi a tempo di esecuzione (late

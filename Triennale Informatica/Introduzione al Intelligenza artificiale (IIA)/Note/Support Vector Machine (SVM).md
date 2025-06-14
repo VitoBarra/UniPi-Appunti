@@ -2,7 +2,7 @@
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Machine Learning (ML)]]"
 tags:
-  - IA
+  - IIA
   - ML
 Area: 
 topic: 
@@ -140,7 +140,7 @@ Q(\alpha) &  = & \displaystyle\cfrac{1}{2}\sum^\ell_{i=1} \sum^\ell_{j=1}  \alph
  $$dove $\alpha_i$ e $a_j$ sono tutte non negative.
  
 
-Allora si può definire il [[Problemi di ottimizazione - Dualità|problema duale]] come : 
+Allora si può definire il [[Problemi di ottimizzazione - Dualità|problema duale]] come : 
 $$
 \begin{cases}
 \displaystyle\max_\alpha \sum_i^\ell \alpha_i- \frac{1}{2}\sum_{ij}^\ell\alpha_i\alpha_jd_id_j (\mathbf{x}_i \mathbf{x}_j) \\
@@ -197,7 +197,7 @@ dove $C$: è un iperparametro definito dall'utente è vale che con:
 
 con questo modello inoltre non si fa più [[Statistical Learning Theory (SLT)|Structural Risk Minimization]].
 
-Si può riformulare il problema nella sua forma [[Problemi di ottimizazione - Dualità|duale]] come$$ 
+Si può riformulare il problema nella sua forma [[Problemi di ottimizzazione - Dualità|duale]] come$$ 
 \begin{cases}
 \displaystyle \sum_{i=1}^{\ell} \alpha_i - \frac{1}{2} \sum_{i=1}^{\ell} \sum_{j=1}^{\ell} \alpha_i \alpha_j d_i d_j \mathbf{x}_i^T \mathbf{x}_j  \\
 \displaystyle \sum_{i=1}^{\ell} \alpha_i d_i = 0 \\

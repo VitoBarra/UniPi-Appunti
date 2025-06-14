@@ -2,7 +2,7 @@
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Machine Learning (ML)]]"
 tags:
-  - IA
+  - IIA
 Area: "[[Concetti generali del Machine Learning]]"
 topic: 
 SubTopic: 

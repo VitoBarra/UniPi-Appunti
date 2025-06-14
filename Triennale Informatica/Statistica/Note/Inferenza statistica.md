@@ -1,11 +1,9 @@
 ---
-Course: Statistica
+Course: "[[Statistica (STAT)]]"
 topic: nota
-tags: STAT
+tags:
+  - STAT
 ---
-
-Prev: [[Statistica (STAT)]]
-
 # Inferenza statistica
 ---
 lo scopo de _inferenza statistica_  è l analisi di un campione sui caratteri di un intera popolazione a partire da un sotto insieme di essa, ovvero da un campione. 

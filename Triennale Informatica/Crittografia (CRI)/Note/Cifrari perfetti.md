@@ -50,7 +50,7 @@ _Se_ $N_{k}\geq N_{m}$
 _Allora_ il cifrario è un _cifrario perfetto_ 
 
 #### Dimostrazione
-[[Tipi di dimostrazione|dimostriamo per assurdo]] ponendo $N_m>N_k$
+[[Dimostrazione di Teoremi per assurdo o contraddizione|dimostriamo per assurdo]] ponendo $N_m>N_k$
 
 notiamo che ad un crittogramma $c$ con $\mathcal{P}(C=c)>0$ corrispondono $s \leq N_{k}$ messaggi non necessariamente distinti tra loro ottenuti decriptando con tutte le _chiavi possibili_
 essendo vero _per ipotesi_ che $N_{m}>N_{k} \geq s$ abbiamo che esiste almeno un messaggio $m$ non raggiungibile da $c$ il che significa che $P(M=m|C=c) = 0 \not =P(M=m)$ il che rende il cifrario _non perfetto_ sotto ipotesi che $M_{m}>M_{k}$

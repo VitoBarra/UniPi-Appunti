@@ -2,7 +2,7 @@
 Course: "[[Machine Learning (ML)]]"
 topic: "[[Reti Neurali (NN)]]"
 tags:
-  - IA
+  - IIA
   - ML
 ---
 

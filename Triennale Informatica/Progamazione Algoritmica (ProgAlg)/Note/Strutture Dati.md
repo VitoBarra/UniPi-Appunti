@@ -1,6 +1,6 @@
 ---
 Course: "[[Programmazione e Algoritmica (PEA)]]"
-topic: Strutture Dati
+topic: "[[Strutture Dati]]"
 tags:
   - PEA
 ---

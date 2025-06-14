@@ -1,7 +1,7 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 tags:
-  - IA
+  - IIA
 Area: 
 topic: 
 SubTopic:

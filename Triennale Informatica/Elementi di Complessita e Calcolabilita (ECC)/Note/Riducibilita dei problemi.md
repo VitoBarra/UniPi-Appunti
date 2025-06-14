@@ -1,10 +1,8 @@
 ---
-Course: Elementi di calcolabilita e complessita
+Course: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
 topic: nota
 tags: ECC
 ---
-
-Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 
 # Riducibilita dei problemi
 ---

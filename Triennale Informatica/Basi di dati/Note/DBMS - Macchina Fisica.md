@@ -109,7 +109,7 @@ i _[[Database Managment System (DBMS)|DBMS]]_ che la prevedono richiedono di usa
 
 
 ###### Organizzazione procedurale statico
-L’_organizzazione procedurale_, o [[Struttura dati - Hash Table|hash]], si utilizza un funzione hash per _trasformare la [[Modello Relazionale - Chiavi|chiave]]_ e ottenere l’indirizzo della _pagina in cui memorizzare_, Le collisioni sono gestite con delle [[Struttura dati - Lista linkata|Liste linkate]] e c è un area del file designato a contenere i _record_ che traboccano 
+L’_organizzazione procedurale_, o [[Hash Table|hash]], si utilizza un funzione hash per _trasformare la [[Modello Relazionale - Chiavi|chiave]]_ e ottenere l’indirizzo della _pagina in cui memorizzare_, Le collisioni sono gestite con delle [[Lista linkata|Liste linkate]] e c è un area del file designato a contenere i _record_ che traboccano 
 
 ![[IMG_1070.jpeg]]
 
@@ -140,7 +140,7 @@ Trade-off da considerare:
 ###### Organizzazione ad albero
 L’_organizzazione ad albero_ di una collezione $C$ sulla chiave $A$ prevede l’utilizzo di una [[Strutture Dati|struttura dati]] in _memoria permanente_ 
 
-si usa un [[Struttura dati - Bplus-Tree|B+-albero]] che ha le seguenti caratteristiche:
+si usa un [[Bplus-Tree|B+-albero]] che ha le seguenti caratteristiche:
 1. Permette di trovare il record con un valore della chiave $A$, se esiste, con pochi accessi alla memoria permanente.
 2. Mantiene la collezione $C$ ordinata sulla chiave $A$.
 
@@ -163,7 +163,7 @@ Un indice $I$ su un attributo $A$ di una relazione $R$,  è una _[[Relazioni tra
 Se $A$ non è una [[Modello Relazionale - Chiavi|chiave]], nell’indice sono presenti tanti record con lo stesso valore $a_i$ di $A$ quanti sono i record di $R$ in cui $A$ vale $a_i$
 
 
-Un _indice_ è _organizzato_ a [[Struttura dati - Bplus-Tree|B+- albero]] per permettere di trovare con _pochi accessi_, a partire da un valore $v$, i record di $R$ in cui il valore di $A$ e in una relazione specificata con $v$.
+Un _indice_ è _organizzato_ a [[Bplus-Tree|B+- albero]] per permettere di trovare con _pochi accessi_, a partire da un valore $v$, i record di $R$ in cui il valore di $A$ e in una relazione specificata con $v$.
 
 
 Un _indice_ può anche essere definito su di un insieme $A_1,\dots , A_n$ di attributi. In questo caso, l’indice contiene un record per ogni _combinazione_ di valori assunti dagli attributi $A_1,\dots, A_n$ nella relazione, e può essere utilizzato per rispondere in modo efficiente ad interrogazioni che specifichino un valore per ciascuno di questi attributi.

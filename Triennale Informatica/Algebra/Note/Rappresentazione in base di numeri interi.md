@@ -24,7 +24,7 @@ inoltro poiché $b>1$ sappiamo che $q<k+1$ per ipotesi
 $$q= q_mb^m+\dots+q_0$$
 ne segue che 
 $$k+1= bq+r=b(q_mb^m+\dots+q_0)+r = q_mb^{m+1}+\dots+q_0b+r$$
-è una rappresentazione in di $n$ in base $b$ per [[Tipi di dimostrazione#Dimostrazione per induzione|induzione]] è dimostrato che si può rappresentare e qualsiasi numero
+è una rappresentazione in di $n$ in base $b$ per [[Dimostrazione per induzione|induzione]] è dimostrato che si può rappresentare e qualsiasi numero
 ##### Dimostrazione univocità
 sia $S$ l insieme di tutti gli interi non negativi che non hanno una rappresentazione unica in base $b$. Se $S$ non è vuoto, ha un elemento più piccolo $n$. chiaramente $n \geq b$ (siccome tutti i numeri fino a $b$ si possono rappresentare direttamente con una cifra).  Siano.
  $$n= a_kb^k + \dots+a_1b+a_0 \ \ \ \ \ \ \ \ \ \ n= c_lb^k+\dots+c_1b+c_0$$

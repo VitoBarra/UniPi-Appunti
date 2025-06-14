@@ -9,73 +9,11 @@ tags:
 
 # Programmazione Dinamica
 ---
-La **programmazione dinamica** (**PD**) rappresenta un paradigma algoritmico avanzato finalizzato alla risoluzione di problemi computazionalmente complessi mediante la decomposizione in sottoproblemi sovrapposti. Si tratta di una metodologia cruciale nell'informatica teorica e applicata, che sfrutta una **relazione di ricorrenza** per calcolare iterativamente le soluzioni ottimali.
+La **programmazione dinamica** è un paradigma algoritmico per la risoluzione di problemi di ottimizzazione e di decisione caratterizzati da una struttura ricorsiva. Essa si basa sulla scomposizione del problema originale in **sottoproblemi più semplici**, le cui soluzioni vengono riutilizzate per costruire la soluzione globale.
 
-## Principi Teorici Fondamentali
+Dal punto di vista formale, un problema è affrontabile mediante programmazione dinamica quando soddisfa due proprietà fondamentali. La prima è la presenza di **sottoproblemi sovrapposti**, ossia la ricorrenza degli stessi sottoproblemi in più parti della risoluzione. La seconda è la **proprietà di ottimalità dei sottoproblemi**, secondo cui una soluzione ottimale del problema globale può essere ottenuta combinando soluzioni ottimali dei sottoproblemi. La formulazione di un algoritmo di programmazione dinamica richiede l’introduzione di una **relazione di ricorrenza**, che esprime il valore ottimale di una soluzione in funzione dei valori ottimali di istanze più piccole del problema. Tale relazione definisce la dipendenza strutturale tra i sottoproblemi e costituisce il nucleo matematico dell’approccio. Per evitare ricalcoli ridondanti, i risultati dei sottoproblemi vengono memorizzati in una struttura dati indicizzata, tipicamente una tabella. Questo meccanismo consente di ridurre drasticamente la complessità computazionale rispetto a formulazioni puramente ricorsive, trasformando un’esplorazione esponenziale in un calcolo polinomiale.
 
-1. **Sottoproblemi Sovrapposti**: I problemi affrontabili con **PD** sono caratterizzati dalla ripetuta risoluzione degli stessi sottoproblemi. Per ottimizzare i calcoli, i risultati intermedi vengono memorizzati in strutture dati adeguate, minimizzando il costo computazionale derivante da ricalcoli inutili.
-    
-2. **Proprietà dell'Ottimalità dei Sottoproblemi**: La costruzione della soluzione globale si basa sulla combinazione di soluzioni ottimali dei sottoproblemi componenti. Questa proprietà è essenziale per l'applicazione corretta della tecnica.
-    
+Dal punto di vista operativo, la programmazione dinamica viene generalmente implementata secondo un approccio **bottom-up**, in cui i sottoproblemi vengono risolti in ordine crescente di complessità. In questo modo, quando si calcola la soluzione di un sottoproblema, tutte le informazioni necessarie sono già disponibili. L’approccio bottom-up rende esplicita la struttura del problema e garantisce il riutilizzo sistematico delle soluzioni intermedie.
+![[IMG - Programmazione Dinamica grafico.png]]
 
-## Strategia di Risoluzione
-
-1. **Formulazione della Relazione di Ricorrenza**: Per ogni problema, è necessario derivare una relazione matematica che descriva la dipendenza tra un problema principale e i suoi sottoproblemi.
-    
-2. **Tecnica di Memorizzazione (Memoization)**: La memorizzazione consiste nel salvare i risultati intermedi all'interno di strutture come tabelle o dizionari, che possono essere consultati in tempo costante.
-    
-3. **Approccio Bottom-Up**: Questa strategia prevede il calcolo iterativo delle soluzioni dei sottoproblemi in ordine crescente di complessità, fino alla risoluzione del problema globale.
-    
-
-## Caso Studio: Serie di Fibonacci
-
-Il calcolo della sequenza di Fibonacci rappresenta un esempio paradigmatico. La relazione di ricorrenza è:
-
-F(n)=F(n−1)+F(n−2),con F(0)=0,  F(1)=1F(n) = F(n-1) + F(n-2), \quad \text{con } F(0) = 0, \; F(1) = 1
-
-### Implementazione Iterativa Bottom-Up
-
-```python
-# Calcolo della sequenza di Fibonacci mediante programmazione dinamica
-
-def fibonacci(n):
-    if n <= 1:
-        return n
-    dp = [0] * (n + 1)
-    dp[1] = 1
-    for i in range(2, n + 1):
-        dp[i] = dp[i - 1] + dp[i - 2]
-    return dp[n]
-```
-
-### Analisi della Complessità
-
-- **Tempo**: **O(n)**
-- **Spazio**: **O(n)** (riducibile a **O(1)** mediante ottimizzazione dello spazio).
-
-## Problemi Classici della Programmazione Dinamica
-
-1. **Problema dello Zaino (Knapsack Problem)**: Si cerca di massimizzare il valore totale degli oggetti selezionati, rispettando un vincolo di capacità. La relazione di ricorrenza associata è: dp[i][w]=max⁡(dp[i−1][w],dp[i−1][w−wt[i]]+val[i])dp[i][w] = \max(dp[i-1][w], dp[i-1][w-wt[i]] + val[i])
-    
-2. **Allineamento di Sequenze**: Fondamentale nella bioinformatica, questo problema riguarda la determinazione della somiglianza ottimale tra due sequenze biologiche, utilizzando punteggi definiti per allineamenti e mismatch.
-    
-3. **Problemi sui Grafi**:
-    
-    - **Cammini Minimi**: Calcolo del percorso più breve tra due nodi.
-    - **Cammini Massimi**: Identificazione di percorsi con il massimo valore cumulativo.
-
-## Vantaggi e Limiti
-
-**Vantaggi**:
-
-- Riduzione drastica della complessità temporale rispetto agli approcci ricorsivi naïve.
-- Applicabilità a una vasta gamma di problemi teorici e pratici.
-
-**Limiti**:
-
-- Elevato consumo di memoria dovuto alla memorizzazione delle soluzioni intermedie.
-- Richiede una formulazione precisa della relazione di ricorrenza, il che può risultare non banale.
-
-## Conclusioni
-
-La programmazione dinamica costituisce un approccio indispensabile per l'elaborazione di algoritmi efficienti in contesti computazionali complessi. Comprendere e applicare correttamente i suoi principi permette di risolvere problemi altrimenti intrattabili, sia in ambito teorico che applicativo.
+La complessità temporale di un algoritmo di programmazione dinamica dipende dalla cardinalità dello spazio dei sottoproblemi e dal costo di calcolo di ciascuna transizione definita dalla relazione di ricorrenza. Analogamente, la complessità spaziale è determinata dalla quantità di memoria necessaria per memorizzare le soluzioni intermedie. In molti casi, la memoria richiesta può essere ridotta sfruttando proprietà specifiche del problema, senza modificare la correttezza dell’algoritmo.

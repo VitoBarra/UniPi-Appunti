@@ -36,5 +36,5 @@ Tutto ciò non pregiudica in alcun modo la robustezza del sistema crittografico.
 
 ![[IMG_0619.jpeg]]
 
-I processi di cifratura e decifrazione non sono apprezzabilmente piu lenti di quelli del _cifrario originale_ poiché le operazioni di composizione impiegano esclusivamente l’operazione di [[Operazioni logiche|XOR]]. 
+I processi di cifratura e decifrazione non sono apprezzabilmente piu lenti di quelli del _cifrario originale_ poiché le operazioni di composizione impiegano esclusivamente l’operazione di [[Logica proposizionale|XOR]]. 
 

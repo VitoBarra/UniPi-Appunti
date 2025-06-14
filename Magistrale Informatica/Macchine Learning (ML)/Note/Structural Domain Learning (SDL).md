@@ -1,7 +1,7 @@
 ---
 Course: "[[Machine Learning (ML)]]"
 tags:
-  - IA
+  - IIA
   - ML
 Area: 
 topic: 
@@ -9,7 +9,7 @@ SubTopic:
 ---
 # Structural Domain Learning (SDL)
 ---
-__Structural Domain Learning__ (__SDL__) è un campo del [[Machine Learning (ML)|Machine Learning]] che si occupa di studiare [[Modelli di Machine Learning|modelli]] per il macchine learning che siano in grado di ricevere in input una __dato strutturato__ come ad esempio un [[Struttura dati - Alberi|albero]] o un [[Struttura dati - Grafi|grafo]] 
+__Structural Domain Learning__ (__SDL__) è un campo del [[Machine Learning (ML)|Machine Learning]] che si occupa di studiare [[Modelli di Machine Learning|modelli]] per il macchine learning che siano in grado di ricevere in input una __dato strutturato__ come ad esempio un [[Alberi|albero]] o un [[Grafi|grafo]] 
 
 l approccio opposto sarebbe quello di trasformare questa struttura in un [[Vettori|vettore]] per essere usata dai modelli  che prendono dati flat come al esempio le [[Reti neurali Feed-Forward (FF)|FF]] o le [[Convolutional Neural Network  (CNN)|CNN]] o in una __sequenza__ per essere usata da una [[Recurrent Neural Network (RNN)|RNN]].
 

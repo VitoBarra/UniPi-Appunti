@@ -23,7 +23,7 @@ Dati
 - un _messaggio_ $m$ una sequenza di $m_{1}m_{2}\dots m_{n}$ _bit_ 
 - una _chiave_ $k$ una sequenza di $k_{1}k_{2}\dots k_{n}\dots k_{m}$ _bit_ [[Sequenza casuali|scelti perfettamente a caso]] e conosciuti sia da _mittente_ che _destinatario_
 
-le operazioni di [[Cifratura e Decifratura|cifratura e decifratura]] si basano sullo [[Operazioni logiche#XOR|XOR]] bit a bit del _messaggio_ e della _chiave_ e abbiamo quindi che per $\forall i = 1 \dots n$
+le operazioni di [[Cifratura e Decifratura|cifratura e decifratura]] si basano sullo [[Logica proposizionale#XOR|XOR]] bit a bit del _messaggio_ e della _chiave_ e abbiamo quindi che per $\forall i = 1 \dots n$
 $$
 \begin{array}
 \mathcal{C}_{i}(m_{i},k_{i}) & = & m_{i} \oplus k_{i}\\
@@ -54,7 +54,7 @@ mentre per dimostrare che il _cifrario è perfetto_ dobbiamo distrare come _dall
 $$\mathcal{P}(M=m|C=c)=\mathcal{P}(M=m)$$
 e per farlo applichiamo la _definizione_ di  [[Probabilita condizionata|probabilita condizionata]] 
 Abbiamo quindi che $$\mathcal{P}(M=M\mid C=c)=\frac{\mathcal{P}(M=m\cap C=c)}{\mathcal{P}(C=c)}$$con $\mathcal{P}(M=m\cap C=c)$ stiamo rappresentando i casi in cui il _messaggio_ sia generato da $mit$ è $m$ e il _crittogramma_ generato è esattamente $c$ 
-per definizione di [[Operazioni logiche#XOR|XOR]] con un $m$ fissato abbiamo che _chiavi diverse_ danno _crittogrammi diversi_ e usando tutte le _chiavi possibili_ possiamo raggiungere ogni _crittogramma possibile_ ed ognuno di questi può essere generato con probabilità $\left( \frac{1}{2} \right)^{n}$ perciò abbiamo perciò che $\mathcal{P}(C=c)= \left( \frac{1}{2} \right)^{n} \ \ \forall c$  quindi $\mathcal{P}(C=c)$ è costante e di conseguenza è [[Indipendenza Stocastica|indipendente]] da $m$ e perciò vale che
+per definizione di [[Logica proposizionale#XOR|XOR]] con un $m$ fissato abbiamo che _chiavi diverse_ danno _crittogrammi diversi_ e usando tutte le _chiavi possibili_ possiamo raggiungere ogni _crittogramma possibile_ ed ognuno di questi può essere generato con probabilità $\left( \frac{1}{2} \right)^{n}$ perciò abbiamo perciò che $\mathcal{P}(C=c)= \left( \frac{1}{2} \right)^{n} \ \ \forall c$  quindi $\mathcal{P}(C=c)$ è costante e di conseguenza è [[Indipendenza Stocastica|indipendente]] da $m$ e perciò vale che
 $$\mathcal{P}(M=m\cap C=c) = \mathcal{P}(M=m) \times \mathcal{P} (C =c)$$
 e quindi 
 $$
@@ -72,7 +72,7 @@ che è la _definizione_ di [[Cifrari perfetti|cifrario perfetto]]
 
 #### Riutilizzo delle chiavi
 le chiavi per l _one-time pad_ deve essere scartata mano mano che viene usata altrimenti il cifrario sarebbe vulnerabile al [[Tipologia di attacchi ai cifrari|cipher text]] 
-infatti abbiamo che se usiamo _la stessa chiave_ $k$ per cifrare i due _messaggi_ $m'$ e $m''$ otterremmo  i due _crittogrammi_ $c'_i=m'_i\oplus k_i$ e $c_i''=m_i''\oplus k_i$  da ci per proprietà dello [[Operazioni logiche|XOR]] abbiamo che
+infatti abbiamo che se usiamo _la stessa chiave_ $k$ per cifrare i due _messaggi_ $m'$ e $m''$ otterremmo  i due _crittogrammi_ $c'_i=m'_i\oplus k_i$ e $c_i''=m_i''\oplus k_i$  da ci per proprietà dello [[Logica proposizionale|XOR]] abbiamo che
 $$c'_i \oplus c''_i = m'_i \oplus m''_i$$ 
 questa relazione puo dare informazioni al crittoanalista, ad esempio una parte di zeri consecutivi significa parti dei _messaggi identici_.
 

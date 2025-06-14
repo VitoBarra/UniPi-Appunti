@@ -79,7 +79,7 @@ La _concatenazione_ $tu$ di due _ennuple_ $t$ e $u$ è un’ennupla che ha come 
 
 La relazione _risultante_ ha
 - _grado uguale_ alla _somma dei gradi degli operandi_, 
-- _[[Cardinalità di un insieme|cardinalità]]_ uguale al _prodotto delle cardinalità_ degli operandi. 
+- _[[Insiemi - Cardinalita|cardinalità]]_ uguale al _prodotto delle cardinalità_ degli operandi. 
 
 Il nome di questo _operatore_ e dato dalla sua somiglianza con il [[Prodotto Cartesiano|prodotto cartesiano]] di insiemi, sebbene dia come risultato un insieme di ennuple concatenate invece di un insieme di coppie di ennuple, come accadrebbe nel normale _prodotto cartesiano_.
 
@@ -201,7 +201,7 @@ Per comodità si può anche assegnare un’etichetta ad un’espressione con l�
 
 
 ##### Funzione di aggregazione e raggruppamento
-Le _funzioni di aggregazione_ hanno come argomenti _[[Struttura dati - MultiInsieme|multinsiemi]]_ e ritornano come risultato un _valore_.
+Le _funzioni di aggregazione_ hanno come argomenti _[[MultiInsieme|multinsiemi]]_ e ritornano come risultato un _valore_.
 
 Per esempio, le funzioni di aggregazione 
 - _sum_ ritorna la _somma_ degli

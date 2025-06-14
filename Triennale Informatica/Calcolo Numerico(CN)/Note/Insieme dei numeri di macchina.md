@@ -30,7 +30,7 @@ questo è un [[Insieme Simmetrico]] rispetto l origine
 	- $w = \beta^{-m-1}$
 - numero più _grande_  rappresentabile
 	- $\Omega = \beta^M(1-\beta^{-t})$
-- [[Cardinalità di un insieme|Cardinalità]] dei numeri di macchina:
+- [[Insiemi - Cardinalita|Cardinalità]] dei numeri di macchina:
 	- $|\mathscr{F}| = 1 + 2(m+M+1)(\beta -1)(\beta^{t-1})$
 		- +1 per lo zero
 		- $\times 2$ perché è simmetrico

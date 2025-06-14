@@ -4,7 +4,7 @@ Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
-  - IA
+  - IIA
   - ML
 ---
 # {{title}}

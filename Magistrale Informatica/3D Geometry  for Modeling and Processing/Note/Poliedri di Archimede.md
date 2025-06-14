@@ -7,6 +7,6 @@ topic:
 SubTopic:
 ---
 
-# Poliedri di Achimede
+# Poliedri di Archimede
 ---
-I __Solidi di Archimede__ sono figure fatte da [[Poligoni|poligini]] regolari sono 12
+I __Solidi di Archimede__ sono figure fatte da [[Poligoni|poligoni]] regolari sono 12

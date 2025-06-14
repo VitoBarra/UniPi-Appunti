@@ -10,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 ---
 
 
-il [[File System]] FAT utilizza come struttura principale una [[Struttura dati - Lista linkata]]. è stato creato per [[Microsoft DOS]] ma oggi viene usata principalmente per dispostivi dove si preferisce mantenere una struttura semplice come ad pennette USB.
+il [[File System]] FAT utilizza come struttura principale una [[Lista linkata]]. è stato creato per [[Microsoft DOS]] ma oggi viene usata principalmente per dispostivi dove si preferisce mantenere una struttura semplice come ad pennette USB.
 
 ha più versione una di questa è la versione FAT-32 che supporta volumi con $2^{28}$ blocchi e fili grandi al massimo $2^{32}-1$ byte quasi 4Gb
 

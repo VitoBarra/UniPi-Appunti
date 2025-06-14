@@ -11,7 +11,7 @@ SubTopic: "[[Curve parametriche]]"
 ---
 le __curve di Bezier__ sono un tipo di [[Curve parametriche|curva parametrica]] di classe __[[Curve parametriche#Spline|Spline]]__ e sono definite come
 _sia_
-- $\boldsymbol{P}$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control point__ di [[Cardinalità di un insieme|cardinalita]]  $n$
+- $\boldsymbol{P}$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control point__ di [[Insiemi - Cardinalita|cardinalita]]  $n$
 - $P_i$ un __control point__
 - $B_{i,k}(\cdot)$ la __funzione di blending__ realizzata con il [[Polinomio di Bernstein|polinomio di Bernstein]] di grado $k$
 _allora_ le curve di Bezier sono definite come $$P(t)=\sum^n_{i=0}p_iB_{i,n-1}(t) \ \ \ 0 \leq t \leq 1$$
@@ -20,7 +20,7 @@ e valgono le seguenti proprietà:
 2. la curva che parte da $p_0$ è [[Retta tangente|tangente]] al segmento $p_1-p_0$
 3. la curva che finisce in $p_n$ è [[Retta tangente|tangente]] al segmento $p_n-p_{n-1}$
 4. la curva [[Interpolazione VS approssimazione|approssima]] i punti.
-5. Siccome la somme di tutti i termini del [[Polinomio di Bernstein|polinomio di bernstein]]  $\sum^n_{i=0}B_{i,n}(t)=1$ si ha che la curva di bezier é sempre al intero del [[Convessità#Involucro Convesso|involucro convesso]] dei __Control point__ 
+5. Siccome la somme di tutti i termini del [[Polinomio di Bernstein|polinomio di bernstein]]  $\sum^n_{i=0}B_{i,n}(t)=1$ si ha che la curva di bezier é sempre al intero del [[Convessita#Involucro Convesso|involucro convesso]] dei __Control point__ 
 	![[Pasted image 20240222022108.png]]
 
 con $2$ __control point__ $p_0,p_1$ avremmo che il grado del [[Polinomio di Bernstein|polinomio di bernstain]] è $1$, le curve di questo tipo sono dette __curva di bezier lineare__. Il punto $p_1$ viene unito con il punto $p_2$ con una linea ed espandendo la sommatoria abbiamo che la curva viene calcolata come$$P(t)=p_0(1-t)+p_1t$$ e questa corrisponde al [[Interpolazione Lineare|interpolazioni lineare]]

@@ -68,7 +68,7 @@ R(\omega_i)L(\omega_i) &  if  & \theta_i=\theta_r \\
 
 
 #### Proprietà
-la [[Fisica- Luce|luce]]  è una forma di [[Fisica - Energia|energia]] e quindi  tutte le funzioni che esprimono la capacita di riflettere devono obbedire alla [[Legge di conservazione del energia|legge di conservazione del energia]]
+la [[Fisica- Luce|luce]]  è una forma di [[Definizione di Energia|energia]] e quindi  tutte le funzioni che esprimono la capacita di riflettere devono obbedire alla [[Legge di conservazione del energia|legge di conservazione del energia]]
 
 
 

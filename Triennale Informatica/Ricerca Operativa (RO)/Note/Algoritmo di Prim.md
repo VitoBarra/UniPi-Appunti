@@ -26,5 +26,5 @@ Segue dalla [[Condizione di ottimalità sui tagli|condizione di ottimalità basa
 4. inserisci in $S$ l’ estremo di $(u,v)$ che non appartiene ad $S$ e torna al passo $2$
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1.png]]
-una proprieta di questo algoritmo e che ad ogni iterazione dell’ algorismo di Prim l‘ insieme  $T$ è un [[Struttura dati - Alberi|albero]]
+una proprieta di questo algoritmo e che ad ogni iterazione dell’ algorismo di Prim l‘ insieme  $T$ è un [[Alberi|albero]]
 

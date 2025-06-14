@@ -1,61 +1,27 @@
 ---
 Course: "[[Human Language Technology (HLT)]]"
-Course 2: 
+Course 2:
 tags:
   - HLT
-Area: 
-topic: 
+  - BSB
+Area:
+topic:
 SubTopic:
 ---
 # Edit distance
 ---
-L’**Edit Distance** è una misura che quantifica **quanto sono simili due stringhe**, contando il **numero minimo di operazioni** necessarie per trasformarne una nell’altra.
-
-Le operazioni ammesse sono:
-
+L’**Edit Distance** è una [[Definizione di distanza|distanza]] nello spazio delle [[Stringhe|stringhe]] che quantifica **quanto sono simili due [[Stringhe|stringhe]]** $X$ ed $Y$ ed è quindi usata anche per [[Confronto tra sequenze|confrontarle]]. Questa è definita come il **costo minimo della sequenza di operazioni di edit** necessarie per trasformarne $X$ in $Y$. 
+Le operazioni di **edit** ammesse sono:
 - **Inserzione** di un carattere
 - **Cancellazione** di un carattere
 - **Sostituzione** di un carattere con un altro
+e ogni operazione può essere associata a un **costo specifico** dove  se tutte le operazioni hanno costo **1**, si ottiene la **distanza standard** mentre se le operazioni hanno **costi differenti**, la distanza riflette una nozione di similarità più articolata. Una variante particolarmente nota è la **distanza di Levenshtein**, in cui la sostituzione ha un costo maggiore rispetto all’inserzione e alla cancellazione. La scelta dei costi determina il tipo di trasformazioni considerate più o meno penalizzanti.
 
-Questa misura è ampiamente usata nel [[Natural Language Processing]] per confrontare parole o frasi in base alla loro similarità. questo viene di solito usato per i task di correzione ortografica, riconoscimento di entità, valutazione di modelli di traduzione automatica e rilevamento di plagio.
+il calcolo dell’**edit distance** può essere interpretato come la costruzione di un **[[Allineamento di sequenze|allineamento]]** tra due [[Stringhe|stringhe]]. A ciascun carattere di una stringa viene associato un carattere dell’altra stringa oppure un’operazione di inserzione o cancellazione.
+![[IMG - esempio Edit distance.png]]
 
-Per calcolare l’edit distance tra due stringhe, si crea un **allineamento** tra i caratteri. Ad esempio, tra le parole:
-$\text{intention}$
-$\text{execution}$
+Nel quadro dei [[Analisi di sequenze]], l’edit distance costituisce una misura generale e indipendente dal dominio, che fornisce un criterio astratto di confronto su cui si basano tecniche più specifiche di [[Allineamento di sequenze|allineamento]] e analisi delle sequenze. 
 
-si stabilisce una corrispondenza tra sottostringhe, e sotto ogni carattere si annota il tipo di operazione effettuata:
-- `d` per cancellazione (delete),
-- `i` per inserzione (insert),
-- `s` per sostituzione (substitute).
-
-![[Edit distance es 1.png]]
-Ogni operazione può avere un costo specifico:
-
-- Se tutte le operazioni valgono **1**, otteniamo la **distanza standard**.
-- Se la sostituzione vale **2** (come nel caso della **distanza di Levenshtein**), il risultato cambia.
-
-## Algorithm
-
-IPer trovare la distanza di edit minima, cerchiamo un percorso (una sequenza di modifiche) dalla stringa di partenza a quella finale:
-
-- **Stato iniziale**: la parola che stiamo trasformando
-- **Operatori**: inserimento, cancellazione, sostituzione
-- **Stato obiettivo**: la parola che vogliamo ottenere
-- **Costo del percorso**: ciò che vogliamo minimizzare, ovvero il numero di modifiche
-
-![[Edit distance es 2.png]]
-
-Tuttavia, lo spazio di tutte le possibili sequenze di modifiche è enorme. Non possiamo permetterci di esplorarlo in modo ingenuo, poiché molti percorsi distinti finiscono per raggiungere lo stesso stato. Non è necessario tener traccia di tutti questi percorsi, ma solo del più corto verso ciascuno degli stati modificati.
-
-Possiamo definire la **distanza di edit minima** per due stringhe X e Y di lunghezza rispettivamente _n_ e _m_. Definiamo **D(i, j)** come la distanza di edit tra i primi _i_ caratteri di X e i primi _j_ caratteri di Y, cioè tra $X[1\dots i]$ e $Y[1\dots j]$. La distanza di edit tra X e Y sarà quindi **D(n, m)**.
-
-Si usa un algoritmo di [[Programmazione Dinamica]] che fornisce un metodo tabellare per calcolare $D(n, m)$ e risolve il problema combinando soluzioni a sotto problemi.
-
-**Bottom-up**:
-
-- Calcoliamo D(i, j) per valori piccoli di i e j
-- E poi usiamo questi per calcolare valori più grandi di D(i, j)
-- Ossia, calcoliamo D(i, j) per tutti gli i (0 < i < n) e j (0 < j < m)
+L’edit distance è ampiamente utilizzata nel [[Natural Language Processing]] per confrontare parole o frasi in base alla loro similarità formale. Essa viene impiegata in compiti quali la correzione ortografica, il riconoscimento di entità, la valutazione di modelli di traduzione automatica e il rilevamento di plagio.
 
 
-![[Edit distance algoritmo.png]]

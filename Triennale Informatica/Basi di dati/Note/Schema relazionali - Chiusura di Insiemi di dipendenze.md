@@ -23,7 +23,7 @@ un _Algoritmo Esaustivo_ è quello di applicare ad $F$ esaustivamente gli [[Sche
 
 Infatti 
 _sia_ 
-- la [[Cardinalità di un insieme|cardinalita]] di $|T|=a$ 
+- la [[Insiemi - Cardinalita|cardinalita]] di $|T|=a$ 
 _allora_ il numero di _Dipendenze banali_ $T \rightarrow X$ con $X \subseteq T$ non vuoto in $F^+$ è  $2^{a}-1$, questo viene dalla conto della _presenza-assenza degli elementi_
 
 
@@ -61,7 +61,7 @@ _Correttezza_: c è bisogno che al termine del programma  $XPIU = X^+$, per most
  $(XPIU \subseteq X^+)$:
  _sia_ $j$ il numero di interazioni
  Si vuole dimostrare che $XPIU^j \subseteq  X^+ \ \forall j$. 
-si procede per [[Tipi di dimostrazione#Dimostrazione per induzione|induzione]]  
+si procede per [[Dimostrazione per induzione|induzione]]  
    
 - (_caso base_): $j = 0$ 
 	- l’affermazione è ovvia  essendo $XPIU^0 = X \subseteq X^+$ _per [[Schema relazionali - Assiomi di Armstrong|riflessività]]_.

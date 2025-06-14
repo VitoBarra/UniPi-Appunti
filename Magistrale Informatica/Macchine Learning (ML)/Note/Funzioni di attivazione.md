@@ -1,7 +1,7 @@
 ---
 Course: "[[Intelligenza Artificiale (IA)]]"
 tags:
-  - IA
+  - IIA
   - ML
 Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"

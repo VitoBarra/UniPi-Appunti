@@ -1,12 +1,10 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
-tags: RO
+tags:
+  - RO
 ---
-
-Prev: [[Ricerca Operativa (RO)]]
-
-# Teorema Fondamentare della programmazione lineare
+# Teorema Fondamentale della programmazione lineare
 ---
 
 Consideriamo un problema di [[Programmazione lineare|PL]] in forma canonica

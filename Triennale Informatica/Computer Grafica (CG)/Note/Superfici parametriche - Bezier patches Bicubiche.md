@@ -11,7 +11,7 @@ SubTopic: "[[Superfici parametriche]]"
 ---
 le __Bazier patches bicubiche__ sono [[Superfici parametriche|superfici parametriche]] che si basano sulla [[Curve parametriche - Curve di Bezier|curve di bezier]]. Sono definite come
 _sia_
-- $P$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control net__ di [[Cardinalità di un insieme|cardinalitá]]  $n \times m$ 
+- $P$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control net__ di [[Insiemi - Cardinalita|cardinalitá]]  $n \times m$ 
 - $p_{ij}$ un __control net__
 - $B_i(\cdot),B_j(\cdot)$ due __funzione di blending__ realizzate con il [[Polinomio di Bernstein|Polinomio di Bernstein]]
 _allora_ una __Bazier patches bicubiche__ è definita come $$S(t,s)=\sum^m_{j=0}\sum^n_{i=0}p_{ij}B_i(t)B_j(s) \ \ \ 0 \leq t \leq 1$$e siccome il numero di punti rappresentabili dipendono dal grado dei polinomi usati avremmo che il numero di control net è $(n+1) \times (m+1)$ 

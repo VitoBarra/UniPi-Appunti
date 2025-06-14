@@ -2,13 +2,13 @@
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
 ---
 
 
 # Metodi locali per SAT
 ---
-è una classe di algoritmi di tipo [[Ricerca locale|locale]] per la risoluzione di [[Problema della Sodisfacibilita (SAT)|SAT]] nel contesto del utilizzo di [[Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]. dove:
+è una classe di algoritmi di tipo [[Ricerca locale|locale]] per la risoluzione di [[Problemi della Sodisfacibilita (SAT)|SAT]] nel contesto del utilizzo di [[Logica proposizionale|Agenti con calcolo proposizionale]]. dove:
 -  Gli stati Sono interpretazioni complete
 	- A _tutti_ i simboli preposizionali è assegnato un valore
 - l _obiettivo_ è un assegnamento che soddisfa tutte le clausole, ovvero un _modello_

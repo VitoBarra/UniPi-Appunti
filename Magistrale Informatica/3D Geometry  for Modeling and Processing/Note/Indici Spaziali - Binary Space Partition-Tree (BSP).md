@@ -13,7 +13,7 @@ SubTopic:
 I **Binary space partition** (**BSP**) so una [[Indici spaziali|indice spaziale]] di tipo **gerarchico** basati su un [[Struttura dati - Alberi binari|alberi binari]]
 
 Si costruisce un **albero binario** [[Partizione di un insieme|partizionando]] ricorsivamente lo spazio mediante l aggiunta di iperpiani ad ogni step fino a che ogni primitiva o un numero costante di primitive appartengono ad una sola regione. 
-Per via del fatto che si divide in semi spazzi ogni nodo dell'albero corrisponde sempre a una regione [[Convessità|convessa]].  
+Per via del fatto che si divide in semi spazzi ogni nodo dell'albero corrisponde sempre a una regione [[Convessita|convessa]].  
 ![[IMG - Indici spaziali BSP.png]]
 Per quanto riguarda la query che verifica se un punto $p$ è all'interno di una primitiva, il processo inizia dalla radice dell'albero. Si procede spostandosi verso il figlio associato al semispazio che contiene il punto $p$.
 ![[IMG - indici spaziali BSP ricerca.png]]

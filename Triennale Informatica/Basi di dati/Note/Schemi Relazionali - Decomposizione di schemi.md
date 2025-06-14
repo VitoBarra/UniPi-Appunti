@@ -76,7 +76,7 @@ $( \implies )$:
 Sopponiamo che _pero ogni_ istanza valida $r$ di $R \langle T,F\rangle$ valga che $r =\pi_{T_1}(r) \bowtie \pi_{T_2}(r)$ 
 
 Bisogna dimostrare che valga $T_1 \cap T_2 \rightarrow T_1 \in F^+$ o $T_1 \cap T_2 \rightarrow T_2 \in F^+$ 
-dimostriamo per [[Tipi di dimostrazione|assurdo]] assumendo che nessune delle due implicazioni _condizioni sino verificate_
+dimostriamo per [[Dimostrazione di Teoremi per assurdo o contraddizione|assurdo]] assumendo che nessune delle due implicazioni _condizioni sino verificate_
 
 _sia_
 - $W = (T_1 \cap T_2)^+$

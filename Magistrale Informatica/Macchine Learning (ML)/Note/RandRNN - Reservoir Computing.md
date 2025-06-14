@@ -4,7 +4,7 @@ Area: "[[Recurrent Neural Network (RNN)]]"
 topic: "[[Intelligenza Artificiale (IA)|Reti neurali]]"
 SubTopic: 
 tags:
-  - IA
+  - IIA
   - ML
 ---
 # RandRNN - Reservoir Computing

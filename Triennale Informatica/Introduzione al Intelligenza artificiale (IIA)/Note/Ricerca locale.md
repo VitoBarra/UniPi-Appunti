@@ -1,41 +1,30 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
 ---
 
-# AI - Ricerca locale
+# Algoritmi di Ricerca locale
 ---
-questa classi di ricerca si puo utilizzare sotto le seguenti  assunzioni che
-1.  La sequenza di azioni non è importante: quello che conta è unicamente lo stato _goal_
-2. tutti gli elementi della soluzione sono nello stato ma alcuni vincolo sono violato 
-	1. e.s.  problema delle regine regine: ci sono tutte le regine negli stati non goal il vincolo delle regine che non si attaccano non è rispettato
-in generale non ci interessa il path per la soluzione ma solo la soluzione stessa
+Gli **Algoritmi di Ricerca locale** sono una classe di [[Algoritmi|algoritmi]] per risolvere **[[Problemi di ricerca|problemi di ricerca]]** che sono caratterizzati dal fatto di spostarsi da uno stato iniziale nei suoi immediati vicini senza valutare i passi successivi e senza ricordando il percorso fatto fino allo stato correte. Infatti si utilizza quando solo lo stato $goal$ è importante e quindi quando non interessa avere il **path** per arrivare a quel $goal$, anche perche a volte risalire al path avendo la soluzione è triviale.
 
-sul [[Definizione di problemi-Ambienti|Ambiente]]  le assunzioni 
-  _Statico_ | _Parzialmente Osservabile_ | _Continuo_ | _Non Deterministico_ | _Sconosciuto_
+le assunzioni sul [[Definizione di Problemi-Ambienti|Ambiente]] sono: 
+  _Statico_ | _Parzialmente Osservabile_ | _Continuo_/discreto | _Non Deterministico_ | _Sconosciuto_
             
 
-
-## Proprietà degli algoritmi
-- Non sistematici
-- tengono traccia solo del nodo corrente e si spostano su nodi adiacente
-- non tengono traccia dei cammini (siccome questo non ci interessa)
-	1. più efficienti in memoria
-	2. possono trovate soluzioni ragionevoli anche in spazzi molto grandi e infiniti (continui)
-- soprattutto utili per risolvere problemi di _ottimizzazione_ 
-	- lo stato migliore secondo una funzione obiettivo
-	- lo stato di costo _minore_
-
-possiamo immaginare  gli stati come una posizione su una superficie
-![[AD146924-2EF7-412E-BB56-55D16B4F89AD.jpeg]]
-- Un algoritmo lavora muovendosi su questa superficie con l obiettivo di trovare l avvallamento piu basso o il picco piu alto.
-- questa è una analogia 2D ma ovviamente funziona per tutte le dimensioni 
+Quesiti algoritmi sono solitamente implementati come [[problemi di ottimizzazione|problemi di ottimizzazione]] dove si vuole massimizzare una data funzione obiettivo, si puo immaginare una superfice della funzione obiettivo come:
+![[IMG - Ricerca locale land scape della funzione obiettivi 1D.png]]
+il landscape di una funzione obiettivo puo avere alcune feature quali 
+- **massimo globale**: il valore piu alto per tutta la funziones
+- **massimo locale**: un valore per cui tutti i suoi vicini hanno valore piu basso ma questo non è il massimo globale
+- **Plateaus**: un zona piatta, ovvero un massimo locare dove pero alcuni vicini hanno lo stesso valore de massimo. 
+- **Shoulder**: un **Plateaus** che porta ad un  altra zona di risalita
 
 
 ### Algoritmi
 - [[Ricerca Hill Climbing]]
-- [[Ricerca Tempra simulata]]
-- [[Ricerca Local beam per]]
+- [[Ricerca Simulated Annealing]]
+- [[Ricerca Local beam]]
 - [[Ricerca Generativa-Evolutiva]]

@@ -22,7 +22,7 @@ Come nel [[Tasselizazione di Voronoi|diagramma di voronoi]] si puo generare la [
 ![[IMG - Ricostruzione di superfici confronto alphashape e vonoi.png]]
 la **triangolazione alpha** è sempre un **sotto insieme** della [[Tasselizazione di Voronoi|triangolazine di delauny]] infatti un alto modo per costruirla è partire da una [[Tasselizazione di Voronoi|triangolazine di delauny]] e togliere i triangoli che hanno un **circoncerchio** con un raggio maggiore di $\alpha$ si ottiene la **triangolazione alpha**
 
-il [[poliedro]] ottenuto dalla **triangolazione alpha** è detto **alpha complex** e **non** è un [[Poliedro|poliedro]] [[Convessità|convesso]], infatti ci sono delle sacche e sono possibili die buchi
+il [[poliedro]] ottenuto dalla **triangolazione alpha** è detto **alpha complex** e **non** è un [[Poliedro|poliedro]] [[Convessita|convesso]], infatti ci sono delle sacche e sono possibili die buchi
 ![[IMG - Ricostruzione di superfici confronto tra alpha shape e voronoi.png]]
 scegliendo un numero finito di raggi $\alpha$ con $\alpha_0 < \dots<\alpha_n$  questi tutte le possibili **alpha complex** ottenibili con quei trashold che sono al massimo $2n^2-5n$.
 

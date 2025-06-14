@@ -26,14 +26,14 @@ Per far si che questo numero _esista e sia unico_ c è bisogno che $a$ sia compr
 Cosi non fosse avremmo che la funzione di cifratura non è [[Funzioni#Funzione Iniettiva|iniettiva]] e di conseguenza non si potrebbe scrivere una funzione di _decifratura_ che riesce a decifrare unicamente ogni carattere
 
 ##### Spazio delle chiavi
-vogliamo calcolare la [[Cardinalità di un insieme|cardinalita]] dello spazio delle chiavi $K$
+vogliamo calcolare la [[Insiemi - Cardinalita|cardinalita]] dello spazio delle chiavi $K$
 Partiamo notando che dobbiamo avere $MCD(a,26)=1$ ed essendo i _fattori_ di $26 = 2 \cdot 13$ abbiamo che $0<a<26$ puo essere qualsiasi numero _dispari_ diverso da $13$ e quindi abbiamo $12$ scelte e $b$ che può essere qualsiasi numero $0\leq b< 26$   e quindi abbiamo $26$ scelte e quindi
 $$|K|=12 \times 26 = 312-1 = 311$$
 Togliamo $1$ siccome vogliamo evitare di usare la coppia $\langle 1,0\rangle$ che lascia invariata la _stringa_
 
 
 #### Cifrario completo
-la chiave segreta $k$ è una qualsiasi permutazione del alfabeto e quindi lo spazio delle chiavi è di [[Cardinalità di un insieme|cardinalita]] $|K| = 26!-1$ per esclusione della permutazione nulla.
+la chiave segreta $k$ è una qualsiasi permutazione del alfabeto e quindi lo spazio delle chiavi è di [[Insiemi - Cardinalita|cardinalita]] $|K| = 26!-1$ per esclusione della permutazione nulla.
 
 
 

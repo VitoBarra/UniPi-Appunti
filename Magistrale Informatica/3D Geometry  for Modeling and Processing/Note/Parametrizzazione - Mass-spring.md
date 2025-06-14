@@ -30,7 +30,7 @@ $$per raggiungere la condizione di minimo si calcolano le [[derivate|derivate pa
 \sum_{j \in N_i} D_{ij} (u_i - u_j)  & = & 0 \\
 \sum_{j \in N_i} D_{ij} u_i   & = & \sum_{j \in N_i} D_{ij}u_j \\
 u_i & = &\displaystyle \cfrac{\sum_{j \in N_i} D_{ij}u_j}{\sum_{j \in N_i} D_{ij}}
-\end{array}$$Possiamo riscrivere il peso associato ad ogni $u_j$ come $$\lambda_{ij}=\displaystyle \cfrac{D_{ij}}{\sum_{j \in N_i} D_{ij}}$$ è siccome $D_ij>0$ vale che $$0<\lambda_{ij}<1 \quad \quad \sum_{j \in N_i}\lambda_{ij}=1$$ è quindi si riscrive come $$\mathbf{u}_i =\sum_{j\in\mathcal{N}_i}\lambda_{ij}\mathbf{u}_j$$ e per le proprietà di $\lambda_{ij}$ si vede che $u_i$ è definito come [[Convessità|combinazione convessa]] dei suoi vertici vicini $\mathcal{N}_i$:
+\end{array}$$Possiamo riscrivere il peso associato ad ogni $u_j$ come $$\lambda_{ij}=\displaystyle \cfrac{D_{ij}}{\sum_{j \in N_i} D_{ij}}$$ è siccome $D_ij>0$ vale che $$0<\lambda_{ij}<1 \quad \quad \sum_{j \in N_i}\lambda_{ij}=1$$ è quindi si riscrive come $$\mathbf{u}_i =\sum_{j\in\mathcal{N}_i}\lambda_{ij}\mathbf{u}_j$$ e per le proprietà di $\lambda_{ij}$ si vede che $u_i$ è definito come [[Convessita|combinazione convessa]] dei suoi vertici vicini $\mathcal{N}_i$:
 
 risolvere il problema diventa quindi risolvere [[Sistemi lineari e lineari omogenei|sistema lineare]] dove ogni linea esprime un $u_i$ e siccome ogni vertice è connesso ad un numero limitato di altri vertici (in media $7$) il [[Sistemi lineari e lineari omogenei|sistema lineare]] ottenuto è **sparso** 
 ![[IMG - coordinate in spazio parametri.png]]

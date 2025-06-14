@@ -86,7 +86,7 @@ $X$ e una chiave di $S$
 $X$ implica tutti gli altri attributi perché $\forall i.X \to A_i\in G$ , e non contiene _[[Schema relazionali - Copertura di insieme di dipendenze#Dipendenza ridondante|attributi ridondanti]]_ perché altrimenti  $G$ non sarebbe una _copertura canonica_.
 Poiché $S$ non e in _3NF_, esiste una dipendenza  $V \to C \in (\pi_S(G))^+$, e quindi in $G^+$, in cui $V$ non e una _[[Modello Relazionale - Chiavi|superchiave]]_ di $S$, $C$ non e primo in  $S$ e $C \not\in V$. 
 Poiché $X$ e una _chiave_ di  $S$, si ha che $C\not \in  X$ e quindi $C = A_i$ per qualche $i$. 
-cercando di [[Tipi di dimostrazione|mostrare per assurdo]] Si prendono in esame due casi, 
+cercando di [[Dimostrazione di Teoremi per assurdo o contraddizione|mostrare per assurdo]] Si prendono in esame due casi, 
 $V \subset X$ :
 allora l’_esistenza_ in $G$ della dipendenza $X \to A_i$ è in _contraddizione_  col fatto che $G$ e una _copertura canonica_.
 

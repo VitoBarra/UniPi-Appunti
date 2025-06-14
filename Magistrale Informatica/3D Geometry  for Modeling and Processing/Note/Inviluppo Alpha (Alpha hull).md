@@ -9,7 +9,7 @@ SubTopic:
 
 # Inviluppo Alpha (Alpha hull) 
 ---
-le **Inviluppi Alpha** (**alpha hull**) di un [[Insiemi Matematici|insieme]] $S \subset \mathbb{R}^n$ finito sono un generalizzazione degli [[Inviluppo convesso (Convex Hull)|inviluppi convessi]] per rendere possibile creare forme non [[Convessità|convesse]], ovvero concave.
+le **Inviluppi Alpha** (**alpha hull**) di un [[Insiemi Matematici|insieme]] $S \subset \mathbb{R}^n$ finito sono un generalizzazione degli [[Inviluppo convesso (Convex Hull)|inviluppi convessi]] per rendere possibile creare forme non [[Convessita|convesse]], ovvero concave.
 
 **sia** $EB_{\alpha,i}(S)$ una [[Palla|palla]] con raggio $\alpha$ fisso che tocca almeno un punto in $S$  e che non contiene nessun punto di $S$.  
 **allora** l **inviluppo alpha** è definito come 
