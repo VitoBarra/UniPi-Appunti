@@ -69,7 +69,7 @@ il _frame_ possono anche non essere [[Vettori Ortogonali|ortonormali]]  infatti 
 
 #### Frame gerachici
 piu _frame_ posso essere ordinati in modo gerarchico in questo modo siamo in grado di descrivere la scena in termini di altri frame, ad esempio ogni _frame_ puo essere un oggetto o una parte di un oggetto.
-i _frame_ possono essere rappresentati con un [[Grafi - Matematica|grafo]] dove i nodi sono i _frame_ e gli archi sono le _operazioni_ per passare da un frame ad un altro 
+i _frame_ possono essere rappresentati con un [[UniPi-Appunti/Triennale Informatica/Fondamenti Del Informatica (FDI)/Struttura dati - Grafi|grafo]] dove i nodi sono i _frame_ e gli archi sono le _operazioni_ per passare da un frame ad un altro 
 ![[IMG_0754.jpeg]]
 con questa organizzazione applicare un trasformazione ad un _frame_ la applica anche a tutti i _frame_ sottostanti nella gerarchia, il che può tornare molto comodo nella pratica
 

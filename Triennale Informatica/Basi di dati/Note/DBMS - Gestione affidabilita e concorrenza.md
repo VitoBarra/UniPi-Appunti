@@ -250,7 +250,7 @@ Il protocollo del __[[Prevenzione Deadlock - Consecutive Two phase locking|lock 
 
  posso capitare situazioni di attesa “circolare”, ovvero di [[MultiThreading - DeadLock|deadlock]]. Per sbloccare questo tipo di situazioni si usano le tecniche di [[Prevenzione DeadLock - individuare e recuperare da un DeadLock|individuazione e recupero]]
 1. _Rilevazione per time-out_: ogni volta che un’attesa si prolunga oltre un certo limite, la transazione in attesa viene abortita, presupponendo l’esistenza di uno stallo. 
-2. _Rilevazione tramite [[Struttura dati - Grafi|grafo]] delle attese_: si costruisce un grafo avente come nodi le transazioni, aggiungendo un arco da T1 a T2 ogni volta che T1 va in attesa del rilascio di un [[Sincronizzazione MultiThreading - Lock|lock]] da parte di T2. Ogni volta che si crea un ciclo nel grafo, una delle transazioni coinvolta viene fatta abortire (tipicamente la piu giovane, quella che ha meno risorse o quella il cui aborto ha il minor costo).
+2. _Rilevazione tramite [[Grafi|grafo]] delle attese_: si costruisce un grafo avente come nodi le transazioni, aggiungendo un arco da T1 a T2 ogni volta che T1 va in attesa del rilascio di un [[Sincronizzazione MultiThreading - Lock|lock]] da parte di T2. Ogni volta che si crea un ciclo nel grafo, una delle transazioni coinvolta viene fatta abortire (tipicamente la piu giovane, quella che ha meno risorse o quella il cui aborto ha il minor costo).
 o con tecniche di [[Prevenzione Deadlock|Deadlock avoidance]] 
 1. si prendono tutti i lock al inizio e li si rilascia tutti alla fine (consecutive 2 phase loking, C2FL)
  

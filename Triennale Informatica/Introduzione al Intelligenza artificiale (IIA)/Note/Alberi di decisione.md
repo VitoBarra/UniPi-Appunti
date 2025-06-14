@@ -99,7 +99,7 @@ per risolvere questo problema si usa l euristica del
 ## bias per DT
 1. si preferiscono alberi corti rispetto a quelli lunghi
 	1. dato dal fatto di andare da un caso semplice ad uno complesso 
-	2. _non basta_  questo bias  è lo stesso di una semplice [[Ricerca in ampiezza BF|breath first ]] che esplora tutto l albero e sceglie il percorso piu corto
+	2. _non basta_  questo bias  è lo stesso di una semplice [[Ricerca in ampiezza (BF)|breath first ]] che esplora tutto l albero e sceglie il percorso piu corto
 2. si _preferiscono_ albero che hanno atributi con alto gain vicino alla radice 
  
 >[!note] restizione sulla ricerca

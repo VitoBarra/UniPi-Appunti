@@ -8,18 +8,7 @@ topic:
 
 # Algoritmo di Dijkstra
 ---
-
-### *Teorema*
-
-Se $c_{ij} \geq 0$ per ogni $(i,j)\in A$, allora l [[Algoritmi|Algoritmo]] di Dijkstra trova un albero dei cammini minimi dopo $|N|$ iterazioni
-
-### dimostrazione
-
-- durante l’esecuzione del algoritmo $\pi$ è il vettore dei potenziali dei nodi associato al albero memorizzato del votatore $p$
-- il potenziale di ogni nodo non può mai aumentare durante l esecuzione del algoritmo
-- quando un nodo $u$ viene estratto da $U$, il suo potenziale diventa definitivo e gli archi uscenti da $u$ soddisfano le [[Condizione di Bellman]] fino alla fine del algoritmo
-
-### *Algoritmo*
+l'**Algoritmo di Dijkstra** è un [[Algoritmi|algoritmo]] che trova un [[alberi|albero di cammini minimo]] su di un [[Grafi|Grafi]] 
 
 1. Inizializza
 
@@ -47,14 +36,26 @@ per ogni arco $(u,v)\in A$ se $\pi_v > \pi_u +c_{uv}$ allora
     2.  $\pi_v=\pi_u+c_{uv}$
 5. $U=U\backslash \{u\}$ e torna al passo 1.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 4.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 2.png]]
+L’algoritmo di Dijkstra trova un albero ottimo nel caso in cui $c_{ij} \geq 0$ per ogni $(i,j) \in A$.
 
-### Svantaggi
+Ad ogni iterazione l’algoritmo mantiene:
+- un albero di copertura radicato in $r$ e orientato (memorizzato in un vettore $p$ di predecessori)
+- un vettore $\pi$ di potenziali dei nodi corrispondente all’albero memorizzato in $p$
+- un insieme $U$ di nodi tale che gli archi che potrebbero violare le condizioni di Bellman devono essere uscenti da nodi di $U$.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 2 2.png]]
 
 
-> [!note]
-> di solito per selezionare il nodo minimo si salvano i nodi in una [[Struttura dati - Coda di Priorita|coda di priorità]] dove si utilizzano i potenziali come chiave di ordinamento 
+
+Se nel [[grafi|grafo]] esistono archi di **costo negativo**, I'**algoritmo di Dijkstra** non è garantito che trovi un [[Alberi|albero]] dei cammini minimi.
+
+
+### *Teorema*
+
+Se $c_{ij} \geq 0$ per ogni $(i,j)\in A$, allora l [[Algoritmi|Algoritmo]] di Dijkstra trova un albero dei cammini minimi dopo $|N|$ iterazioni
+
+### dimostrazione
+
+- durante l’esecuzione del algoritmo $\pi$ è il vettore dei potenziali dei nodi associato al albero memorizzato del votatore $p$
+- il potenziale di ogni nodo non può mai aumentare durante l esecuzione del algoritmo
+- quando un nodo $u$ viene estratto da $U$, il suo potenziale diventa definitivo e gli archi uscenti da $u$ soddisfano le [[Condizione di Bellman]] fino alla fine del algoritmo

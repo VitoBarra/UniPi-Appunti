@@ -24,7 +24,7 @@ per iniziare questa catena si parte da una directory ben conosciuta denominata �
 
 ## Implementazione interna
 
-inizialmente l implementazione delle directory era fatta in modo lineare per accomodare un caso comune al tempo ovvio pochi file per directory. per ottenere questo si utilizzava un implementazione con una [[Struttura dati - Lista linkata]]
+inizialmente l implementazione delle directory era fatta in modo lineare per accomodare un caso comune al tempo ovvio pochi file per directory. per ottenere questo si utilizzava un implementazione con una [[Lista linkata]]
 
 ![[Untitled 2 8 1.png]]
 
@@ -32,7 +32,7 @@ questa implementazione presenta problemi di performance quando i file per direct
 
 ![[Untitled 3 6 1.png]]
 
-questa implementazione è realizzata con un [[Struttura dati - B-Tree]] e utilizza l hash del nome del file da raggiungere e poi lo usa internamente per scendere nel albero.
+questa implementazione è realizzata con un [[B-Tree]] e utilizza l hash del nome del file da raggiungere e poi lo usa internamente per scendere nel albero.
 ogni nodo contiene una lista di coppie hash e pointer (sotto forma di offset dal inizio del file) al prossimo nodo a al file se il nodo è una foglia
 
 ![[Untitled 4 3 1.png]]
@@ -47,7 +47,7 @@ soft e hard link sono modi che offre il file system per dare più nomi allo stes
 
 ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 5 1 1.png]]
 
- implementare questo rende la struttura delle directory un [[Struttura dati - DAG]]
+ implementare questo rende la struttura delle directory un [[Directed Acyclic Graph (DAG)]]
 
 ![[Untitled 6 1 1.png]]
 

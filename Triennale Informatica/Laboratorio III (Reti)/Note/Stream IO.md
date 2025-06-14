@@ -10,7 +10,7 @@ Prev: [[Reti]]
 ---
 Gestione Del IO, con Java.IO basato sul concetto di stream che sono 
 - mono-direzionale  (ovvero _InputStream_ e _OutStream_ sono separati)
-- Accesso [[Coda struttura dati|FIFO]] 
+- Accesso [[1-|FIFO]] 
 - di uso generale
 - Adatto a trasferire byte e caratteri
 - Bloccante (attende sulla I-O se non ci sono Dati)

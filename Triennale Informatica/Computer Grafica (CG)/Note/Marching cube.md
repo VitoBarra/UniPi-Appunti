@@ -15,7 +15,7 @@ il __marching cube__ è un **[[Algoritmi|algoritmo]]** per trasformare un [[Supe
 
 è una versione della [[Marching Squere|Marching Squere]] in 3D si utilizza le celle sono cubiche e quindi il campo scalare puo essere ricostruito con [[Interpolazione Trilineare|Interpolazione Trilineare]] invece che quella [[Interpolazione Bilineare|lineare]]  ogni cubo avra $8$ vertici e quindi andrebbero definiti $2^8=256$ poligoni uno per ogni permutazione di possibili intersezioni. Pero queste possono essere ridotte ad un set piu piccolo di solo 14 ottenendo le mancanti per Rotazione o mirroring e complementazione 
 ![[IMG - Marcing cube cases.png]]
-e per ognuna di queste combinazioni si puo tenere in una [[Struttura dati - Hash Table|hash table]] una triangolazione![[IMG - Marching cube lookUpTable.png]]
+e per ognuna di queste combinazioni si puo tenere in una [[Hash Table|hash table]] una triangolazione![[IMG - Marching cube lookUpTable.png]]
  Alcune delle problematiche del algoritmo: 
  - **consistenza**: **non** garantisce che la superficie risultante sia [[Continuità di una funzione|continua]] ($C^0$) o che possieda proprietà [[Manifolds (Varieta)|manifold]] corrette. Esistono configurazioni ambigue che, se non risolte mediante tecniche aggiuntive, possono generare superfici con errori topologici.
 - **Correttezza**: mentre si presuppone un'interpolazione trilineare del campo, la superficie viene **approssimata** tramite facce triangolari.
@@ -26,7 +26,7 @@ e per ognuna di queste combinazioni si puo tenere in una [[Struttura dati - Hash
 
 I casi di ambiguità in 3D si verificano quando, su una stessa faccia del cubo, i vertici presentano valori sopra e sotto la soglia in modo non uniforme.  
 ![[IMG - Marching cube caso ambiguo.png]]  
-Per gestire correttamente tali situazioni, le facce della cella devono essere trattate separatamente. Il controllo viene effettuato valutando il valore interpolato nel centro di ciascuna faccia, seguendo un principio analogo a quello adottato nel [[Marching Squere|marching squere]]. In base al valore ottenuto nel centro di ogni faccia, si seleziona una [[Struttura dati - Hash Table|look up table]] adeguata, che consente di disambiguare correttamente la topologia della superficie all'interno della cella.  
+Per gestire correttamente tali situazioni, le facce della cella devono essere trattate separatamente. Il controllo viene effettuato valutando il valore interpolato nel centro di ciascuna faccia, seguendo un principio analogo a quello adottato nel [[Marching Squere|marching squere]]. In base al valore ottenuto nel centro di ogni faccia, si seleziona una [[Hash Table|look up table]] adeguata, che consente di disambiguare correttamente la topologia della superficie all'interno della cella.  
 ![[IMG -  hash di disembiguazione Marching cube.png]]
 il calcolo dei valori del campo scalare nei centri serve solo quando la configurazione iniziale dei vertici lo rende indispensabile
 

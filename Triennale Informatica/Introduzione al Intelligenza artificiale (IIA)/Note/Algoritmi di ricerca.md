@@ -7,51 +7,83 @@ tags:
 
 # Algoritmi di ricerca
 ---
-questi sono utilizzati dai [[Agenti risolutori di problemi|Agenti risolutori di problemi]] sotto le seguenti  assunzioni sul [[Definizione di problemi-Ambienti|Ambiente]] , questo è
-            _Statico_ | _Osservabile_ | _Discreto_ | _Deterministico_
+Gli **algoritmi di ricerca** sono [[algoritmi|algoritmi]] per risolvere [[Problemi di ricerca|Problemi di ricerca]]. Questi algoritmi operano esplorando sistematicamente lo spazio degli stati, generando un [[Alberi|albero di ricerca]] sul [[grafi|grafo]] dello **spazio degli stati** dove ogni nodo corrisponde a uno **stato del problema** e gli archi rappresentano le **azioni** che portano a stati successivi. 
 
-### Algoritmi di ricerca
-- Gli _algoritmi di ricerca_ prendono in input un problema e restituiscono un __cammino soluzione__. questa fase si chiama _ricerca_, i.e. un cammino che porta dallo stato iniziale a uno stato _goal_ 
-- Misura delle prestazioni 
-	- Trova una soluzione? Quanto costa trovarla? Quanto efficiente è la soluzione? 
-	- Costo totale = costo della ricerca + costo del cammino soluzione
-		- Possiamo valutare gli algoritmi sul costo della ricerca e ottimizzare il costo del cammino
+La **ricerca** inizia dallo **stato iniziale** (radice dell'albero) e procede **espandendo** i nodi, ovvero **generando** i rispettivi nodi figli attraverso l'applicazione delle azioni disponibili.
+importanti sono i concetti di  
+- **frontiera**: è una lista nodi non ancora **espansi**. ovvero le foglie del **albero di ricerca**  La strategia con cui si selezionano i nodi dalla frontiera determina le **proprietà dell'algoritmo**, influenzando sia la completezza che l'efficienza.
+- i nodi **raggiunti** sono tutti i nodi che sono stati generati, sia quelli espansi che quelli non ancora espansi .
 
-
-Definito il problema si passa alla ricerca della soluzione. per farlo si utilizza una [[Struttura dati - Alberi|Albero]] _di ricerca_ sovrapposto allo _spazio degli stati_. non è pero detto che un nodo sia uno stato diverso, si possono rincontrare stati già incontrati durante l esplorazione del albero.
-
-Un _nodo_ $n$ è una struttura dati con quattro componenti: 
-- Uno stato: $n.stato$ 
-- Il nodo padre: $n.padre$
-- L’azione effettuata per generarlo: $n.azione$ 
-- Il costo del _cammino dal nodo iniziale al nodo_ $n$: n.costo-cammino indicata come $g(n)$ (=padre.costo-cammino+costo-passo ultimo)
-
- _Frontiera_: lista dei nodi in attesa di essere espansi (le foglie dell’albero di ricerca).  
-- La frontiera è implementata come da una collezione stati
-	- Diverse implementazioni di coda portano a _stratagie_ diverse. queste possono essere determinanti e possono cambiare la [[Complessita]] del algoritmo di ricerca  
-
-
-#### Criteri di valutazione delle strategie di ricerca
-- _Completezza_: se la soluzione esiste viene trovata 
-- _Ottimalità_ (ammissibilità): trova la soluzione migliore, con costo minore (per il «costo del cammino soluzione») 
-- _[[Complessita]] in tempo_: tempo richiesto per trovare la soluzione (costo di ricerca)
-- _[[Complessita]] in spazio_: memoria richiesta (costo di ricerca)
+la **frontiera** separa lo spazio degli stati in due regioni ben distinte quella **interna** degli stati esplorati e quella **esterna** degli stati non ancora **raggiunti**
+![[IMG - frontiera che divider stati esplorati e non raggiunti.png]]
 
 
 
-## Complicanze  e note
-![[Pasted image 20230212032701.png]]
-![[Pasted image 20230212032712.png]]
+### Implementazione e strutture dati
+Nell'ambito degli algoritmi di ricerca, la rappresentazione dell'albero di ricerca è fondamentale per tracciare l'esplorazione degli stati. Ciascun nodo $n$ è strutturato come un oggetto con quattro componenti chiave:  
+- **$n.STATE$**: rappresenta lo stato associato al nodo corrente.  
+- **$n.PARENT$**: riferisce al nodo genitore che ha generato il nodo corrente, permettendo la ricostruzione del cammino.  
+- **$n.ACTION$**: l'azione applicata allo stato del genitore per ottenere lo stato corrente.  
+- **$n.PATH\text{-}COST$**: il costo totale del percorso dallo stato iniziale al nodo corrente, spesso indicato come $g(n)$.  
+
+La **frontiera**, ovvero l'insieme dei nodi da esplorare, è gestita tramite una **coda**. Le operazioni principali supportate sono:  
+- **$IS\text{-}EMPTY(frontier)$**: verifica se la frontiera è vuota.  
+- **$POP(frontier)$**: rimuove e restituisce il nodo in testa alla coda.  
+- **$TOP(frontier)$**: restituisce il nodo in testa senza rimuoverlo.  
+- **$ADD(node, frontier)$**: inserisce un nodo nella posizione appropriata, in base al tipo di coda. 
+La tipologia di coda scelta definisce la strategia di ricerca. 
+  
+Gli stati già raggiunti sono memorizzati in una [[Hash Table|hash table]], dove ogni chiave è uno stato e il valore corrispondente è il nodo associato. Questa struttura ottimizza il controllo dei duplicati e la gestione dei cammini alternativi. 
+
+
+## Ridondante e ciclicita
+durate la **ricerca** il problema dei **repeated states** e dei **redundant paths** rappresenta una sfida significativa per l'efficienza computazionale.
+
+- Un ***repeated state*** si verifica quando uno stato viene raggiunto più volte attraverso percorsi diversi. Questo fenomeno può trasformare un albero di ricerca finito in una struttura infinita se non gestito adeguatamente.
+- I ***redundant paths***, invece, sono percorsi alternativi che conducono allo stesso stato ma con costi maggiori.![[IMG - algoritmi di ricerca cammini ridontandi.png]]
+
+Tre approcci principali emergono per mitigare questi problemi:  
+1. **Memorizzazione degli stati raggiunti**: Utilizzato negli algoritmi di **graph search**, mantiene una tabella degli stati visitati per eliminare percorsi ridondanti. Questo metodo è ottimale quando la memoria disponibile può contenere l'intera tabella.
+2. **Ignorare gli stati ripetuti**: In problemi dove i percorsi ridondanti sono impossibili o rari, un **tree-like search** può essere preferibile per risparmiare memoria, accettando una potenziale riduzione di performance.  
+3. **Compromesso ciclico**: Verifica la presenza di cicli esaminando la catena di padri di un nodo senza memorizzazione aggiuntiva. Alcune implementazioni limitano la profondità di questa verifica.  
+
+
+### Valutazione dei algoritmi di ricerca
+La **valutazione degli algoritmi di ricerca** si basa su quattro criteri fondamentali:  
+
+- **Completezza**:  Un algoritmo è completo se garantisce di trovare una soluzione quando esiste e non fosse questo il caso di segnalare correttamente l'assenza di soluzioni. Per garantirla generalmente In **spazi finiti**, basta evitare cicli mentre In **spazi infiniti**, serve una strategia sistematica di esplorazione.
+- **Ottimalità**:  Garantisce che la soluzione trovata abbia il **costo minimo** tra tutte quelle possibili.  
+- **[[Complessita|Complessità in tempo]]**: il numero Numero di stati/azioni valutati per trovare una soluzione.  
+- **[[Complessita|Complessità in spazio]]**:  Memoria necessaria per memorizzare i nodi durante la ricerca. e *Dipende dalla* Strategia di esplorazione.  
+
+
+l albero di esplorazione è solitamente tenuto implicito e non esplicitamente come struttura dati, quindi per misurare la complessità di tempo in questi tipi di algoritmi si solitamente usa 3 fattori
+- $d$: profondità della soluzione ottimale (n° di azioni necessarie).  
+- $b$: **branching factor** (n° medio di successori per nodo).  
+- $m$: numero massimo di azione in ogni path 
+- $\varepsilon$ : in piccolo valore sitivo che setta il costo minimo che un arco deve avere.
 
 
 
-### Algoritmi ricerche non informate:
-1. [[Ricerca in ampiezza BF]]
-2. [[Ricerca in profondita]] 
-3. [[Ricerca in profondità limitata DL]] 
-4. [[Ricerca con approfondimento iterativo ID]] 
-5. [[Ricerca di costo uniforme UC]]
+alcuni algoritmi sono:
+1. [[Ricerca in ampiezza (BF)]]
+2. [[Ricerca in profondita (DF)]] 
+3. [[Ricerca in profondita limitata (DLS)]] 
+4. [[Ricerca con approfondimento iterativo (IDS)]] 
+5. [[Ricerca di costo uniforme o Dijkstra algorithm]]
 6. [[Ricerca Bidirezionale]]
-7. ![[Pasted image 20230212032210.png]]
-[[Algoritmi di ricerca informati]] con euristiche:
 
+Un confronto tra questi algoritmi tenendo in considerazione solo la ricerca su strutture ad albero e senza controllo dei path ridondanti si ha:
+
+| Criterio  | BF       | UC                                        | DF       | DL       | ID       | Bidir        |
+| --------- | -------- | ----------------------------------------- | -------- | -------- | -------- | ------------ |
+| Complete? | si       | si(^)                                     | no       | si(+)    | si       | si(ˆx)       |
+| Ottimale? | si(\*)   | si(^)                                     | no       | no       | si(\*)   | si(ˆx)       |
+| Tempo     | $O(b^d)$ | $O(b^{1+\lfloor C^*/\varepsilon\rfloor})$ | $O(b^m)$ | $O(b^l)$ | $O(b^d)$ | $O(b^{d/2})$ |
+| Spazio    | $O(b^d)$ | $O(b^{\lfloor1+C^*/\varepsilon \rfloor})$ | $O(b^m)$ | $O(b^l)$ | $O(b^d)$ | $O(b^{d/2})$ |
+
+**Note:**  
+- (\*) se gli operatori/archi hanno tutti lo stesso costo  
+- (^) per costi degli archi $\geq  \varepsilon > 0$  
+- (+) per problemi per cui si conosce un limite alla profondità della soluzione (se $\ell > d$)  
+- (ˆx) usando UC (o BF)

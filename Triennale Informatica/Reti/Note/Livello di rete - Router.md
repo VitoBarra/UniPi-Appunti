@@ -62,7 +62,7 @@ questi protocolli cercano di determinare percorsi _buoni_ per arrivare da un mit
 - _percorso_: inteso come sequenza di router
 - ![[Pasted image 20230108015257.png]]
 
-per il calcolo del percorso minimo si astrarre la rete utilizzando un [[Struttura dati - Grafi]] pesato 
+per il calcolo del percorso minimo si astrarre la rete utilizzando un [[Grafi]] pesato 
 ![[Pasted image 20230108015335.png]]
 Ci sono più tipo di soluzione al problema del routing e possiamo categorizzarli
 ![[Pasted image 20230108015943.png]]

@@ -51,7 +51,3 @@ Un ulteriore requisito per la razionalità è l’adattabilità: l’agente deve
 
 Un **agente autonomo** è tale nella misura in cui il suo comportamento deriva dall’esperienza acquisita, piuttosto che da conoscenze incorporate a priori dal progettista. Un agente che si basa esclusivamente su conoscenze built-in risulterebbe rigido e scarsamente flessibile. L’autonomia, quindi, è indice della capacità dell’agente di apprendere dall’interazione con l’ambiente e di adattarsi a contesti nuovi o variabili, sviluppando strategie comportamentali non previste esplicitamente in fase di progettazione.
 
-
-
-
-### Classificazione di agenti

@@ -7,7 +7,7 @@ tags:
 
 # Ricerca Best-first ricorsive (RBFS)
 ---
-è un [[Algoritmi di ricerca informati|Algoritmo di ricerca informata]] basato su [[Ricerca A-Star|A*]] simile a [[Ricerca in profondita#DF ricorsiva|DF Ricorsivo]] 
+è un [[Algoritmi di ricerca informati|Algoritmo di ricerca informata]] basato su [[Ricerca A-Star|A*]] simile a [[Ricerca in profondita BackTracking (BDF)|DF Ricorsivo]] 
 
 
 - Tiene traccia dal ogni livello del migliore percorso alternativo.

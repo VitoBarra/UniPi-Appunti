@@ -19,11 +19,11 @@ Questo si ottiene con le seguenti strutture dati:
 
 Un approccio per realizzare una struttura dati interna al sistema operativo è utilizzare le hash table
 
-Viene fatto l [[Struttura dati - Hash Table|hash]] del  il numero di pagina virtuale il risultato è direttamente il numero di pagina fisico l indirizzo raggiunto conterrà anche le informazioni d accesso, i dati necessari per la gestione delle collisioni e il numero di pagina virtuale il pid del processo che sta cercando di accedere a quella memoria. per andare a leggere effettivamente quella pagina fisica deve combaciare sia il numero di pagina virtuale salvata nel entry che il pid
+Viene fatto l [[Hash Table|hash]] del  il numero di pagina virtuale il risultato è direttamente il numero di pagina fisico l indirizzo raggiunto conterrà anche le informazioni d accesso, i dati necessari per la gestione delle collisioni e il numero di pagina virtuale il pid del processo che sta cercando di accedere a quella memoria. per andare a leggere effettivamente quella pagina fisica deve combaciare sia il numero di pagina virtuale salvata nel entry che il pid
 
 ![[Immagine_PNG.png]]
 
-Le collisione si gestiscono con le solite tecniche  del [[Struttura dati - Hash Table]]
+Le collisione si gestiscono con le solite tecniche  del [[Hash Table]]
 
 > [!info]
 Perché non usiamo direttamente un hash table per

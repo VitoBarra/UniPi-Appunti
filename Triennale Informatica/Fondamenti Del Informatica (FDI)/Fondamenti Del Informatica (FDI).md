@@ -9,12 +9,12 @@ tags:
 
 ## Course MOC  📒
 1. [[Insiemi Matematici]]
-	2. [[Cardinalità di un insieme]]
-	3. [[Partizione di un insieme]]
-	4. [[Relazioni tra insiemi]]
+	1. [[Cardinalità di un insieme]]
+	2. [[Partizione di un insieme]]
+	3. [[Relazioni tra insiemi]]
 		1. [[Applicazioni tra insiemi]]
 		2. [[Funzioni]]
-	5.  [[Insiemi infiniti numerabili]]
+	4.  [[Insiemi infiniti numerabili]]
 2. [[Induttività]]
 	1. [[Fattoriale]]
 3. [[Ricorsione]]
@@ -32,6 +32,7 @@ tags:
 	4. [[Forma normale congiuntiva (CNF)]]
 	5. [[Forma normale disgiuntiva (DNF)]]
 10. [[Logica del primo ordine (FOL)]]
+11. [[Algoritmi di riconoscimento cicli]]
 
 ### Educational Material 🧱
 1. [[Fondameti di informatica - LibroCompleto.pdf]]

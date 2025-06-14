@@ -19,7 +19,7 @@ Sebbene esistano limiti teorici inferiori che garantiscono anche il caso peggior
 
 Gli **indici spaziali** si dividono in due categorie principali:
 - Le **strutture non gerarchiche**, basate su una suddivisione piatta dello spazio, sono semplici ed efficienti in contesti con distribuzioni uniformi o quando si vuole evitare l’overhead delle strutture gerarchiche.
-- Le **strutture gerarchiche**, invece, adottano un approccio **divide et impera**, suddividendo ricorsivamente lo spazio per gestire meglio distribuzioni non uniformi delle primitive. Si basano solitamente su [[Struttura dati - Alberi|alberi]] e quindi le querry corrispondono a visite dell’albero. Ad ogni nodo corrisponde una regione dello spazio![[IMG - Indici gerarcici.png]]
+- Le **strutture gerarchiche**, invece, adottano un approccio **divide et impera**, suddividendo ricorsivamente lo spazio per gestire meglio distribuzioni non uniformi delle primitive. Si basano solitamente su [[Alberi|alberi]] e quindi le querry corrispondono a visite dell’albero. Ad ogni nodo corrisponde una regione dello spazio![[IMG - Indici gerarcici.png]]
 
 
 
