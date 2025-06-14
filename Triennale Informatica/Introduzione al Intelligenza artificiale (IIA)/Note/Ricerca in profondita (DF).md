@@ -5,12 +5,14 @@ tags:
   - IA
 ---
 
+
+
 # Ricerca in profondità (DF)
 ---
 la **Ricerca in profondità** o **depth-first** (**DF**) è un [[Algoritmi di ricerca|Algoritmo di ricerca]] che utilizza una **frontiera** implementata con una  [[Coda (FIFO)|coda LIFO]], ogni volta che arriva in un nodo in cui non sono generati nuovi nodi fa da un taglio su i rami completamente esplorati diminuendo il consumo di memoria.
 ![[IMG - Ricerca in profondita.png]]
 
-questo algoritmo puo essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il negativo della profondita:
+questo algoritmo puo essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il negativo della profondità:
 ```pseudo
 \begin{algorithm}
 \caption{Uniform Cost Search}
@@ -40,7 +42,7 @@ in spazzi degli stati ad [[Alberi|albero]] e Finiti:
 
 in spazzi __grafi aciclici__ e Finiti:
 - **_NON ottimale_**: Può incontrare  uno stato goal senza aver controllato altri percorsi magari migliori
-- __Completa__: se non c è soluzione prima o poi esplora tutto lo spazio eventualmente **espandendo** piu volte su uno stesso nodo. 
+- __Completa__: se non c è soluzione prima o poi esplora tutto lo spazio eventualmente **espandendo** più volte su uno stesso nodo. 
   
 in spazzi __grafi ciclici__ e Finiti:
 - **_NON ottimale_**: Può incontrare  uno stato goal senza aver controllato altri percorsi magari migliori

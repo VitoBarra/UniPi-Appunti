@@ -51,7 +51,9 @@ Tre approcci principali emergono per mitigare questi problemi:
 ### Valutazione dei algoritmi di ricerca
 La **valutazione degli algoritmi di ricerca** si basa su quattro criteri fondamentali:  
 
-- **Completezza**:  Un algoritmo è completo se garantisce di trovare una soluzione quando esiste e non fosse questo il caso di segnalare correttamente l'assenza di soluzioni. Per garantirla generalmente In **spazi finiti**, basta evitare cicli mentre In **spazi infiniti**, serve una strategia sistematica di esplorazione.
+- **Completezza**:  Un algoritmo è completo se è __potenzialmente__ in grado di raggiungere tutti i nodi dello **spazio degli stati**  
+	- **spazi finiti**: garantisce di trovare una soluzione quando esiste o segnalare correttamente l'assenza di soluzioni.
+	- **spazi infiniti**: serve una ricerca sistematica che se esiste prima o poi trova una soluzione o non termina mai.
 - **Ottimalità**:  Garantisce che la soluzione trovata abbia il **costo minimo** tra tutte quelle possibili.  
 - **[[Complessita|Complessità in tempo]]**: il numero Numero di stati/azioni valutati per trovare una soluzione.  
 - **[[Complessita|Complessità in spazio]]**:  Memoria necessaria per memorizzare i nodi durante la ricerca. e *Dipende dalla* Strategia di esplorazione.  
@@ -70,7 +72,7 @@ alcuni algoritmi sono:
 2. [[Ricerca in profondita (DF)]] 
 3. [[Ricerca in profondita limitata (DLS)]] 
 4. [[Ricerca con approfondimento iterativo (IDS)]] 
-5. [[Ricerca di costo uniforme o Dijkstra algorithm]]
+5. [[Ricerca di costo uniforme o Dijkstra algorithm (UC)]]
 6. [[Ricerca Bidirezionale]]
 
 Un confronto tra questi algoritmi tenendo in considerazione solo la ricerca su strutture ad albero e senza controllo dei path ridondanti si ha:

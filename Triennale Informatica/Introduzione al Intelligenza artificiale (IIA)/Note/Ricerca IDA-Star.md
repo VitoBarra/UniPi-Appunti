@@ -7,7 +7,7 @@ tags:
 
 # Ricerca IDA* 
 ---
-è un [[Algoritmi di ricerca informati|Algoritmo di ricerca informata]]  è basata su [[Ricerca A-Star|A*]] combinando l idea di ricerca iterativa di [[Ricerca con approfondimento iterativo (IDS)|ID]] ma cambia la metrica su cui si decide  quando fermarsi. Si scende quindi il profondità fino a raggiungere un limite impostato su $f$ detto $f_{limot}$ 
+è un [[Algoritmi di ricerca informata|Algoritmo di ricerca informata]]  è basata su [[Ricerca A-Star|A*]] combinando l idea di ricerca iterativa di [[Ricerca con approfondimento iterativo (IDS)|ID]] ma cambia la metrica su cui si decide  quando fermarsi. Si scende quindi il profondità fino a raggiungere un limite impostato su $f$ detto $f_{limot}$ 
 ad ogni interazione $f_{limit}$ viene aumentato
 
 __Cruciale__ è la scelta dell'incremento per garantire l’ ottimalità 

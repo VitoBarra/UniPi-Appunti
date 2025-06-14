@@ -1,7 +1,7 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
-topic: "[[Algoritmi di ricerca informati]]"
+topic: "[[Algoritmi di ricerca informata]]"
 tags:
   - IA
   - AIF
@@ -9,7 +9,7 @@ tags:
 
 # Ricerca Greedy best-frist
 ---
-il **Ricerca Greedy best-frist** è un [[Algoritmi di ricerca informati|Algoritmo di ricerca informata]] variante della [[Ricerca Best-first|ricerca best-rist]] 
+il **Ricerca Greedy best-frist** è un [[Algoritmi di ricerca informata|Algoritmo di ricerca informata]] variante della [[Ricerca Best-first|ricerca best-rist]] 
 in questo algoritmo si scegli sempre il nodo che, usando la stima data dl **euristica** $h(x)$ , risulta essere il piu vicino possibile allo stato **goal**, per fare ciò si pone la **funzione di valutazione** $f$  uguale alla funzione di **valutazione euristica**$$f(x)=h(x)$$ 
 ```pseudo
 \begin{algorithm}

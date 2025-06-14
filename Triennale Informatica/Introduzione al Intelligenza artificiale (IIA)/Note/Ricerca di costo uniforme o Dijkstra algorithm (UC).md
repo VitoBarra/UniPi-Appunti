@@ -5,7 +5,7 @@ tags:
   - IA
 ---
 
-# Ricerca di costo uniforme o Dijkstra algorithm
+# Ricerca di costo uniforme o Dijkstra algorithm (UC)
 ---
 la **Ricerca di costo uniforme** (**UC**) o **Dijkstra algorithm** è un [[Algoritmi di ricerca|Algoritmo di ricerca]] che  è una generalizzazione della [[Ricerca in ampiezza (BF)|BF]] dove non vale piu l'assunzione di costi degli **archi** uniformi tutti ad $1$. 
 In questo caso non è la **profondità** che viene esplorata in modo **uniforme** come per la **BF** ma il **costo** dei [[Path|percorsi]] infatti ad ogni iterazione si **espande** il nodo di costo più basso presente nella **frontiera**, per fare ciò la frontiera è implementata usando una [[Coda di Priorita|Coda di priorita]].
@@ -16,7 +16,7 @@ l'[[Algoritmi|algoritmo]] è lo stesso nel [[Algoritmo di Dijkstra|Algoritmo di 
 questo accade ad esempio, partendo da **sibiu** e prendendo **bucarest** come goal:
 ![[IMG - Ricerca di costo uniforme o Dijkstra algorithm esempio bucarest.png]]
 
-questo algoritmo puo essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il costo del percorso:
+questo algoritmo può essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il costo del percorso:
 ```pseudo
 \begin{algorithm}
 \caption{Uniform Cost Search}
@@ -35,7 +35,7 @@ Sia
 - $b=$ fattore di ramificazione (*B*ranching) quindi il numero massimo di successori
 - $d=$ Profondità del nodo obiettivo più superficiale (*D*epth)
 - $m=$ lunghezza massima dei cammini nello spazio degli stati (*M*ax)
-- $C^*$ = costo della soluzione ottima
+- $C^* =$ costo della soluzione ottima
 - $\epsilon=$ costo minimo (per tutti i costi vale $c_{ij}\geq \epsilon$)
 
 - _Strategia completa_ se costo $\epsilon >0$

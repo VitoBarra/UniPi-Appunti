@@ -56,13 +56,13 @@ Sia
 - $d=$ Profondità del nodo obiettivo più superficiale (*D*epth)
 - $m=$ lunghezza massima dei cammini nello spazio degli stati (*M*ax)
 
-- _Strategia completa_
-	-  non vengono lasciate strade non esplorate siccome si procede per livelli si vede che il nodo goal è almeno sullo stesso livello di quello che si sta esplorando
-- _Strategia ottimale_ se gli operatori hanno tutti lo _stesso costo_ $k$, cioè $g(n) = k · depth(n)$, dove $g(n)$ è il costo del cammino per arrivare a $n$ 
--  _[[Complessita]] nel tempo_ (nodi generati) $T(b, d) = 1+ b + b^2 + \dots + b^d\rightarrow O(b^d)$  
+- **completa**: se $b$ è **finito** non vengono lasciate strade non esplorate siccome si procede per livelli
+- **NON completo**: se $b$ è **infinito** in quando resterebbe bloccato sul esplorazione del primo livello 
+- **Ottimalità** se gli operatori hanno tutti lo **_stesso costo_** $k$, cioè $g(n) = k · depth(n)$, dove $g(n)$ è il costo del cammino per arrivare a $n$ 
+-  _**[[Complessita|Complessita nel tempo]]**_ (nodi generati) $T(b, d) = 1+ b + b^2 + \dots + b^d\rightarrow O(b^d)$  
  >[!nota]
 > Riflettere che il numero nodi cresce exp., non assumiamo di conoscere già il grafo ne una notazione di linearità nel numero nodi . Questo è tipico dei problemi in AI (pensate a quelli generati per le configurazioni dei giochi, con rappresentazione implicita dello spazio stati, non esplicitamente/staticamente in spazi enormi). 
-- _[[Complessita]] spazio_ (nodi in memoria): $O(b^d )$ _frontiera_ e $O(b^{d-1})$ per _esplorati_
+- _[[Complessita| Complessità in spazio]]_ (nodi in memoria): $O(b^d )$ _frontiera_ e $O(b^{d-1})$ per _esplorati_
 
 >[!warning]
 >Se il test goal fosse stato fatto al espansione e non alla generazione la complessita in spazio per la frontiera e in tempo sarebbe stata $O(b^{d+1})$

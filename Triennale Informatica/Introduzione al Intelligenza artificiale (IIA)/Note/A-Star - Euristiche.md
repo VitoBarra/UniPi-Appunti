@@ -1,20 +1,30 @@
 ---
 tags:
   - IA
+  - AIF
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic:
 ---
 
 # A*- Euristiche 
 ---
-le euristiche utilizzate negli [[Algoritmi di ricerca informati|Algoritmi di ricerca informati]] come l [[Ricerca A-Star|A*]]  possono essere confrontate e misurate.
-la scelta del euristica più adatta si fa solitamente basandosi sul _Grado di informazione posseduto_
-in generale un euristica più è informata più questa rende efficiente la ricerca, ma più si alza anche il costo del calcolo del euristica.
-di solito per le euristiche ammissibili si ha  
-$$ 0 \leq h(n) \leq h^*(n)$$
-dove  $h^*(n)$ è  il massimo del informazione, _l’ oracolo_, ovvero sa gia dove è la soluzione.
-
+Le __euristiche__ utilizzate nel algoritmo [[Ricerca A-Star|A*]] possono essere confrontate.
+la scelta del euristica più adatta si fa solitamente basandosi sul **_Grado di informazione posseduto_** del euristica, in generale un **euristica** più  informata rende efficiente la ricerca, ma alza anche il costo del __calcolo del euristica__ e quindi importate riuscire a scegliere un euristica che non sia troppo costosa in modo d avere un effettivo guadagno in termini computazionali.   
 ![[E7C468EE-BB1B-4E07-B8C8-7A115AC800E7.jpeg]]
+
+
+#### Ammissibilità di un euristica
+un **euristica ammissibile** è una **sottostima** di $h^*$	quindi vale che $$\forall n.h(n) \leq h^*(n)$$
+#### Consistenza di un euristica
+Un __euristica consistente__ è un euristica per vale la seguente proprietà
+**sia**:
+- Dove $n’$ è un successore di $n$
+- $c(n,a,n’)$ è il costo per passare dal nodo $n$ al nodo $n’$ tramite l'azione $a$
+**allora** vale che: $$\forall n.h(n) \leq c(n,a,n’) + h(n’)$$questa formula viene direttamente dal [[Diseguaglianza triangolare|diseguaglianza triangolare]]
+se vale che $c_{ij}\ge\epsilon>0$ allora da questa proprietà possiamo dire che $f(n) \leq f(n’)$ ovvero $f$ **cresce ad ogni step** e per questo è una funzione [[Funzioni|Monotona]] ![[IMG - Euristica consistente per A-Star.png]]
+
+
 
 ## Teorema
 se $h_1(x) \leq h_2(x)$ i nodi espansi da $A^*$ con $h_2$ sono un sottoinsieme di quelli espansi da $A^*$ con $h_1$
@@ -22,7 +32,7 @@ se $h_1(x) \leq h_2(x)$ i nodi espansi da $A^*$ con $h_2$ sono un sottoinsieme d
  Si ha che $h_1 \leq h_2$ si ha che $A^*$ con $h_2$ è efficiente almeno quando $A^*$ con $h_1$
 
 ### Definizione
-date due euristiche $h_1, h_2$ si dice che $h_2$ Domina $h_1$ se si ha che 
+date due euristiche $h_1, h_2$ si dice che $h_2$ **Domina** $h_1$ se si ha che 
 $$\forall n.h_1(n) \leq h_2(n)$$
 
 ### Misura del potere euristico
