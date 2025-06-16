@@ -9,7 +9,7 @@ SubTopic:
 
 # Ricerca Best-first
 ---
-l algoritmo **Best-first** è un [[Algoritmi di ricerca|algoritmo di ricerca]] generico dove si sceglie di espandere il nodo della **frontiera** che ha il costo minore, il costo è assegnato da una data **funzione di valutazione** $f$
+l algoritmo **Best-first** è un [[Algoritmi di ricerca non informati|algoritmo di ricerca]] generico dove si sceglie di espandere il nodo della **frontiera** che ha il costo minore, il costo è assegnato da una data **funzione di valutazione** $f$
 
 lo pseudo codice:
 ```pseudo

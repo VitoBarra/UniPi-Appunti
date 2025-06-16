@@ -9,7 +9,7 @@ tags:
 
 # Algoritmi di ricerca informata
 ---
-gli **Algoritmi di ricerca informati** sono un classe di [[Algoritmi di ricerca|Algoritmo di ricerca]] che utilizza una stima del costo per fare la scelta “migliore” in caso massimizzazione di un risultato va verso il nodo che stima meglio l aumentare del punteggio se bisogno minimizzare una valore sceglierà il nodo con costo stimato minore.
+gli **Algoritmi di ricerca informati** sono un classe di [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che utilizza una stima del costo per fare la scelta “migliore” in caso massimizzazione di un risultato va verso il nodo che stima meglio l aumentare del punteggio se bisogno minimizzare una valore sceglierà il nodo con costo stimato minore.
 
 l idea di avere una stima serve per fare Pruning dei rami non utili riducendo cosi di la [[Complessita]] in spazio e tempo
 

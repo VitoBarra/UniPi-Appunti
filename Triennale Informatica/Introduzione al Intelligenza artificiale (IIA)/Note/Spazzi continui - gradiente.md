@@ -1,15 +1,17 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
 
 # Spazzi continui - gradiente
 ---
 - Molto casi reali hanno spazi di ricerca continua
--  lo stato è descritto  da variabili continue $x_1,\dots,x_2$ , vettore $x$
-- in spazzi continui il fattore di ramificazione $d= \infty$ il che rende impossibile utilizzare gli[[Algoritmi di ricerca| algoritmi classici di risoluzione]] ma si possono usare altri approcci che portano a soluzioni anche molto efficienti.
+- lo stato è descritto  da variabili continue $x_1,\dots,x_2$ , vettore $x$
+- in spazzi continui il fattore di ramificazione $d= \infty$ il che rende impossibile utilizzare gli[[Algoritmi di ricerca non informati| algoritmi classici di risoluzione]] ma si possono usare altri approcci che portano a soluzioni anche molto efficienti.
 
 ### Gradiente per scegliere la direzione
 Ipotesi:

@@ -7,7 +7,7 @@ tags:
 
 # Ricerca in ampiezza (BF)
 ---
-la **Ricerca in ampiezza** o **Breadth-first search** (BF) è un [[Algoritmi di ricerca|Algoritmo di ricerca]] che utilizza una [[Coda (FIFO)|coda FIFO]] per implementare la **frontiera**, si assume che il costo di ogni arco è $1$.
+la **Ricerca in ampiezza** o **Breadth-first search** (BF) è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che utilizza una [[Coda (FIFO)|coda FIFO]] per implementare la **frontiera**, si assume che il costo di ogni arco è $1$.
 Il controllo del raggiungimento del nodo goal è fatto al momento della **generazione** dei nodi (**early goal test**) e non al momento del esplorazione (**late goal test**), questo riduce la [[Complessita|complessità]]
 
 

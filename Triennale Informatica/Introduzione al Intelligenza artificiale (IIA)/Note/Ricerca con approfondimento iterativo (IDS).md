@@ -7,7 +7,7 @@ tags:
 
 # Ricerca con approfondimento iterativo IDS
 ---
-la **Ricerca ad approfondimento iterativo** o **iterative deepening search** (**IDS**) è un [[Algoritmi di ricerca|Algoritmo di ricerca]] che utilizza i concetti di [[Ricerca in ampiezza (BF)|Ricerca in ampiezza]] e di [[Ricerca in profondita limitata (DLS)|Ricerca in profondità limitata]], rappresentando un buon compromesso tra i due approcci. Ottiene infatti le buone proprietà di completezza e ottimalità della prima e il basso consumo di memoria della seconda.
+la **Ricerca ad approfondimento iterativo** o **iterative deepening search** (**IDS**) è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che utilizza i concetti di [[Ricerca in ampiezza (BF)|Ricerca in ampiezza]] e di [[Ricerca in profondita limitata (DLS)|Ricerca in profondità limitata]], rappresentando un buon compromesso tra i due approcci. Ottiene infatti le buone proprietà di completezza e ottimalità della prima e il basso consumo di memoria della seconda.
 
 L'algoritmo esplora più volte l’albero incrementando progressivamente il limite $\ell$ a partire da $0$, poi $1$, poi $2$, e così via. Ogni iterazione esegue una [[Ricerca in profondita limitata (DLS)|Ricerca in profondità limitata]] con il nuovo limite, procedendo in profondità fino al taglio del branch completamente esplorato. 
 

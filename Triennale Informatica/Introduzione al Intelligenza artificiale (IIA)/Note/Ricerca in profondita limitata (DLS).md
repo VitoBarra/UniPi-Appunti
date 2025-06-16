@@ -7,7 +7,7 @@ tags:
 
 # Ricerca in profondità limitata (DLS)
 ---
-la **Ricerca in profondità limitata** o **deep limited search** (**DLS**) è un [[Algoritmi di ricerca|Algoritmo di ricerca]] variante della [[Ricerca in profondita (DF)|Ricerca in profondità]]. Questo algoritmo scende l albero fino ad una profondità predefinita $\ell$; da quel livello in poi i nodi vengono trattati come se non avessero successori.
+la **Ricerca in profondità limitata** o **deep limited search** (**DLS**) è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] variante della [[Ricerca in profondita (DF)|Ricerca in profondità]]. Questo algoritmo scende l albero fino ad una profondità predefinita $\ell$; da quel livello in poi i nodi vengono trattati come se non avessero successori.
 
 Questo approccio consente di evitare che la [[Ricerca in profondita (DF)|ricerca in profondità]] si blocchi si incastri un percorso infinito.
 

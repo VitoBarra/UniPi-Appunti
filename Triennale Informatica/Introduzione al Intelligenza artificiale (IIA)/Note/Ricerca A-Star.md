@@ -32,20 +32,36 @@ la **funzione di valutazione ideale** $f^*(n)$ che rappresenta il costo del camm
 - $h(n)$ che è sempre stima di $h^*(n)$ 
 
 
+### Comportamento di A*
+Il comportamento dell'algoritmo $A^*$ in relazione al costo della soluzione ottimale $C^*$ si può descrivere in termini precisi. 
+- **Espande** tutti i nodi raggiungibili dallo stato iniziale lungo un cammino in cui vale $f(n) < C^*$. Questi nodi sono detti ***surely expanded nodes*** 
+- Espandere alcuni nodi per cui vale $f(n) = C^*$  (**goal contour**). La selezione di questi nodi dipende dall'ordine con cui vengono esplorati i nodi che li hanno generati
+- non espande mai nodi con $f(n) > C^*$. 
+
+algoritmo $A^*$ che utilizza un [[Proprieta delle euristiche per ricerca informata|euristica consistente]] è ***optimally efficient***, ovvero qualsiasi **altro algoritmo di ricerca** che parte dallo stato **stesso stati iniziale** e impiega **la stessa euristica** deve necessariamente espandere tutti i nodi che $A^*$ espande con $f(n) < C^*$, questo viene dal fatto che ciascuno di questi nodi potrebbe appartenere ad un percorso ottimale e, pertanto, non possono essere esclusi a priori dal processo di espansione.
+
+una delle conseguenze di questa proprietà è fatto che $A^*$  fa **pruning** di alberi di ricerca non necessari, ovvero evita delle strade non fruttuose che altri algoritmi come [[Ricerca in ampiezza (BF)|BF]] e [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] avrebbero esplorato.
+
+> [!nota]
+>   alcuni algoritmi possono essere considerati come casi speciali di A dove:
+>  - [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] : con $f(n)= g(n)$ e quindi  $h(n) = 0$, diventa [[Ricerca in ampiezza (BF)|BF]] se costi tutti uguali
+>  - [[Ricerca Greedy best-frist|Greedy best-frist]]: con $f(n)= h(n)$ e quindi  $g(n) = 0$
+>  - [[Ricerca in profondita (DF)|DF]]:
+
+
+
 
 
 ## Analisi della complessità
-**Completezza** se $g(n) \geq d(n) \cdot \epsilon$  dove $\epsilon >0$ costo minimo di un arco, il costo minimo vine usato per evitare che l algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
-questo si può Dimostrazione come segue: 
-- Sia $n’$ un nodo nella _frontiera_  che è sul cammino che porta al nodo goal
-- $n’$ prima o poi verrà espanso siccome non possono esiste  infiniti nodi con $f(x) \leq f(n’)$
-- questo deriva dalla condizione imposta per la completezza
-	- Non può esiste un percorso infinito con archi a crescita infinitesimale
-- iterando prima o poi si arriva al goal 
+__sia__
+- $C^*= g^*(n) + f^*(n)$ il **costo ottimo** reale per lo stato $n$ 
+
+
+**Completezza** se non esistono infiniti nodi per cui vale $f(n) < C^*$  e dove i costi $c_{ij}\geq\epsilon >0$ dove $\epsilon$ è il  costo minimo di un arco usato per evitare che l algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
 
 
 **Ottimale** se spazio degli stati __[[Alberi|albero]]__
-**Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[1- del me|ammissibile]]** questi si può __dimostrare per contraddizione__, assumendo che $C^*$ sia il costo ottimo reale per lo stato $n$ la dimostrazione segue: $$
+**Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[Proprieta delle euristiche per ricerca informata|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
 \begin{array}{rcl}
 f(n) & > & C^* \quad \text{(otherwise $n$ would have been expanded)} \\
 f(n) & = & g(n) + h(n) \quad \text{(by definition)} \\
@@ -54,7 +70,7 @@ f(n) & \leq & g^*(n) + h^*(n) \quad \text{(because of admissibility, $h(n) \leq 
 f(n) & \leq & C^* \quad \text{(by definition, $C^* = g^*(n) + h^*(n)$)}
 \end{array}
 $$ le ultime due linee si contraddicono e quindi non è possibile che l algoritmo ritorno un percorso **non ottimale**, con questa condizione si può raggiungere attraverso più path lo stesso nodo ma alla fine si espanderà per primo quello con il costo ottimale.
-Invece sotto la condizione di **_[[A-Star - Euristiche|Consistenza]]_** (detta anche _monotonicità_) leggermente piu forte del __ammisibilità__ si può dimostrare che la prima volta che l algoritmo incontra un nodo allora quello è già sul cammino ottimo. ciò si può __dimostrare per contraddizione__ come 
+Invece sotto la condizione di **_[[Proprieta delle euristiche per ricerca informata|Consistenza]]_** (detta anche _monotonicità_) leggermente piu forte del __ammisibilità__ si può dimostrare che la prima volta che l'algoritmo incontra un nodo allora quello è già sul cammino ottimo. ciò si può __dimostrare per contraddizione__ come 
 $$\begin{array}{rcl}
 			
 			h(n)  & \leq &  c(n,a,n’) + h(n’)& \text{(consistency)}& \implies \\
@@ -66,45 +82,21 @@ $$\begin{array}{rcl}
 
 
 senza un euristica ammissibile l'__ottimalità__ non è __garantita__, ma il costo risulta ottimo  in due casi 
-- se l'eurisitica è [[A-Star - Euristiche|ammissibile]] per almeno un path fino a quel nodo
+- se l'eurisitica è [[Proprieta delle euristiche per ricerca informata|ammissibile]] per almeno un path fino a quel nodo
 - se la __sovrastima__ del eristica non supera $h(n) < C^2-C^*$  dove $C^*$ e $C^2$ sono il __costo ottimo reale__ e il __secondo costo ottimo__ 
 
+
+
+**[[Complessita|Complessita in tempo]]**: esponensiale nella lunghezza della soluzione e relativa al errore di $h$  
+**[[Complessita|Complessita in meoria]]**: tiene tutti i nodi in memoria
 
 
 >[!note]
 >[[Ricerca in ampiezza (BF)|BF]] e [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] sono ottimali siccome equivale a fare un $A^*$ con $h(n)=0$ che è sempre ammisibile
 
 
-### Vantaggi di A*
-- $A*$ espande tutti i nodi con $f(n) <C^*$    
-- $A*$ espande  alcuni nodi con $f(n) =C^*$ 
-- $A*$ non espande alcun nodo con $f(n) > C^*$ 
-
-Quindi alcuni nodi (e suoi sottoalberi) non verranno considerati per l’ espansione (ma restiamo ottimali):
-	_pruning_ (h opportuna, più alta possibile tra le ammissibili, fa tagliare molto )
 
 
-Commenti : 
-- con $f(n) > C^*$ Più $f$ è aderente a stima ottimale, più taglio!  
-- Cercheremo quindi una h il più alta possibile tra le ammissibili
--  Se molto bassa molti (sino a tutti i) nodi restano minore di $C*$ 
-	- Il espando tutti 
-- pruning sottoalberi è il punto focale: non li abbiamo già in memoria e evitiamo di generarli  ( decisivo per i problemi di AI a spazio stati esponenziali )
-
-
-> [!nota]
->   alcuni algoritmi possono essere considerati come casi speciali di A dove:
->  - [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] : con $f(n)= g(n)$ e quindi  $h(n) = 0$, diventa [[Ricerca in ampiezza (BF)|BF]] se costi tutti uguali
->  - [[Ricerca Greedy best-frist|Greedy best-frist]]: con $f(n)= h(n)$ e quindi  $g(n) = 0$
->  - [[Ricerca in profondita (DF)|DF]]:
-
-Il comportamento dell'algoritmo A* in relazione al costo della soluzione ottimale $C^*$ si può descrivere in termini precisi. A* espande tutti i nodi raggiungibili dallo stato iniziale lungo un cammino in cui ogni nodo soddisfa la condizione $f(n) < C^*$. Questi nodi sono detti *surely expanded nodes* poiché, essendo su percorsi potenzialmente ottimali, devono necessariamente essere esaminati per garantire la correttezza della soluzione.
-
-Successivamente, A* può espandere alcuni nodi che si trovano esattamente sulla *goal contour*, ovvero quei nodi per cui $f(n) = C^*$. La selezione di questi nodi dipende dall'ordine con cui vengono esplorati; alcuni algoritmi potrebbero individuare il nodo obiettivo ottimale immediatamente, mentre altri potrebbero espandere più nodi prima di raggiungerlo.
-
-È importante notare che A* non espande mai nodi con $f(n) > C^*$. Questa caratteristica lo rende *optimally efficient* quando utilizza una euristica consistente. In tale contesto, qualsiasi algoritmo che estende cammini a partire dallo stato iniziale e impiega la stessa informazione euristica deve necessariamente espandere tutti i nodi che A* espande con $f(n) < C^*$. La ragione di questa obbligatorietà risiede nel fatto che ciascuno di questi nodi potrebbe appartenere ad un percorso ottimale e, pertanto, non possono essere esclusi a priori dal processo di espansione.
-
-Per quanto concerne i nodi con $f(n) = C^*$, la loro espansione dipende dalla fortuna dell'algoritmo nel selezionare il nodo ottimale; questa variabilità non incide sulla definizione formale di *optimal efficiency*.
 
 
 

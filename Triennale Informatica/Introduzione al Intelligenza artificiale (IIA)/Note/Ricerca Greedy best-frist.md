@@ -9,7 +9,7 @@ tags:
 
 # Ricerca Greedy best-frist
 ---
-il **Ricerca Greedy best-frist** è un [[Algoritmi di ricerca informata|Algoritmo di ricerca informata]] variante della [[Ricerca Best-first|ricerca best-rist]] 
+il **Ricerca Greedy best-frist** è un [[Algoritmi di ricerca informata|Algoritmo di ricerca informata]] variante della [[Ricerca Best-first|ricerca best-first]] 
 in questo algoritmo si scegli sempre il nodo che, usando la stima data dl **euristica** $h(x)$ , risulta essere il piu vicino possibile allo stato **goal**, per fare ciò si pone la **funzione di valutazione** $f$  uguale alla funzione di **valutazione euristica**$$f(x)=h(x)$$ 
 ```pseudo
 \begin{algorithm}
@@ -32,15 +32,15 @@ Sia
 
  Spazi **finiti**:
 - **NON ottimale**: puo dare una soluzione non ottimale
-- **completa**: se la soluzione non esiste prima o poi esplora tutto lo spazio
-- **[[Complessita|Complessità spazio]]** (nodi in memoria): $O()$ 
-- **[[Complessita|Complessità nel tempo]]** (nodi generati): $O(|V|)$  ma si puo abbassare a $O(bm)$ con una buona **euristca** in alcuni problemi
+- **NON completa**: puo incastrarsi in cicli, gestibile con checking di ripetizione di stati 
+- **[[Complessita|Complessità spazio]]** (nodi in memoria): $O(b^m)$ tiene tutti  i nodi in memoria
+- **[[Complessita|Complessità nel tempo]]** (nodi generati): $O(b^m)$ ma si puo abbassare a $O(bm)$ con una buona **euristica** in alcuni problemi
 
 
-Spazi di **Non finit**:
+Spazi di **infiniti**:
 - **NON ottimale**: può incontrare uno stato goal senza aver controllato altri percorsi magari migliori.
 - **NON completa**: può restare incastrato in discese infinite anche senza la presenza di cicli.
-- **[[Complessita|Complessità spazio]]**: $O(\infty)$
-- **[[Complessita|Complessità nel tempo]]**: $O(\infty)$ 
+- **[[Complessita|Complessità spazio]]**: $O(b^m)$  puo non terminare
+- **[[Complessita|Complessità nel tempo]]**: $O(b^m)$  puo non terminare
 
 

@@ -7,7 +7,7 @@ tags:
 
 # Ricerca Bidirezionale
 ---
-è un [[Algoritmi di ricerca|Algoritmo di ricerca]] applicabile in cui  
+è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] applicabile in cui  
 
 - ricerca in avanti o guidata dai dati:
 	si esplora lo spazio di ricerca dallo stato iniziale allo stato obiettivo; 

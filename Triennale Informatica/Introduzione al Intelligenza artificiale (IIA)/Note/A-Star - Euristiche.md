@@ -14,16 +14,6 @@ la scelta del euristica più adatta si fa solitamente basandosi sul **_Grado di 
 ![[E7C468EE-BB1B-4E07-B8C8-7A115AC800E7.jpeg]]
 
 
-#### Ammissibilità di un euristica
-un **euristica ammissibile** è una **sottostima** di $h^*$	quindi vale che $$\forall n.h(n) \leq h^*(n)$$
-#### Consistenza di un euristica
-Un __euristica consistente__ è un euristica per vale la seguente proprietà
-**sia**:
-- Dove $n’$ è un successore di $n$
-- $c(n,a,n’)$ è il costo per passare dal nodo $n$ al nodo $n’$ tramite l'azione $a$
-**allora** vale che: $$\forall n.h(n) \leq c(n,a,n’) + h(n’)$$questa formula viene direttamente dal [[Diseguaglianza triangolare|diseguaglianza triangolare]]
-se vale che $c_{ij}\ge\epsilon>0$ allora da questa proprietà possiamo dire che $f(n) \leq f(n’)$ ovvero $f$ **cresce ad ogni step** e per questo è una funzione [[Funzioni|Monotona]] ![[IMG - Euristica consistente per A-Star.png]]
-
 
 
 ## Teorema
@@ -32,9 +22,8 @@ se $h_1(x) \leq h_2(x)$ i nodi espansi da $A^*$ con $h_2$ sono un sottoinsieme d
  Si ha che $h_1 \leq h_2$ si ha che $A^*$ con $h_2$ è efficiente almeno quando $A^*$ con $h_1$
 
 ### Definizione
-date due euristiche $h_1, h_2$ si dice che $h_2$ **Domina** $h_1$ se si ha che 
-$$\forall n.h_1(n) \leq h_2(n)$$
-
+date due euristiche $h_1, h_2$  entrambi [[Proprieta delle euristiche per ricerca informata|ammisibile]] si dice che $h_2$ **Domina** $h_1$ se si ha che 
+$$\forall n.h_1(n) \leq h_2(n)$$dove $n$ è uno stato 
 ### Misura del potere euristico
 si misura con il _fattore di diramazione effettivo_ indicato con $b^*$
 dato 
@@ -48,13 +37,15 @@ migliorare di poco il fattore di diramazione come per esempio passare da $b=2$ a
 
 ## Come si crea una nuova euristica
 ##### Rilassando il problema
-si può calcolare una nuova euristica dimenticandosi di alcuni vincoli che ha il problema 
+si può calcolare una **nuova euristica** prendendo il valore esatto dello stesso problema che si vuole risolvere ma rilassato, ovvero ignorando dei vincoli
+
 ##### Massimizzazione di euristiche
 data una serie di euristiche ammissibili $h_1,\dots,h_k$ senza che nessuno _domini_ un altra allora si può prendere il massimo delle euristiche
 
 $$h(n) = max(h_1(n),h_2(n),\dots,h_k(n))$$
 - $h(n)$ è ammissibili se tutte le $h_i(n)$ lo sono
 - $h(n)$ _domina_ tutte le altre
+- 
 ##### Euristica da sotto problemi 
 si possono prendere sotto problemi più semplici e stimare il costo di quella ricerca. 
 con un sotto problema sufficientemente facile si può memorizzare la soluzione di alcuni pattern e utilizzare i valori salvati per calcolare l euristica.
