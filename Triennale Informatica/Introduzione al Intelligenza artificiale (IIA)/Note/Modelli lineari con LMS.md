@@ -156,7 +156,7 @@ Da cui si può derivare il seguente algoritmo di learning
 3. computa $\boldsymbol w_{new} = \boldsymbol w+\eta\Delta \boldsymbol w$  
 4. ripeti dal passo 2 finche $\boldsymbol w$ converge o $E(\boldsymbol w)$ è _sufficientemente piccolo_   
 
-l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Tempra simulata| ricerca a tempra simulata]]
+l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Simulated Annealing| ricerca a tempra simulata]]
 
 Plottando l'errore che cambia con le varie iterazioni possiamo osservare 3 tipi di curve principali dipendenti principalmente dal iperparamentro $\eta$
 ![[E09B2FF5-EA90-441A-ACFF-24A453C658DD.jpeg]]

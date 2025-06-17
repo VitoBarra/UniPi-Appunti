@@ -36,7 +36,7 @@ tags:
 		7. [[Ricerca SMA-Star]]
 	4. [[Ricerca locale]]
 		1. [[Ricerca Hill Climbing]]
-		2. [[Ricerca Tempra simulata]]
+		2. [[Ricerca Simulated Annealing]]
 		3. [[Ricerca Local beam]]
 		4. [[Ricerca Generativa-Evolutiva]]
 	5. [[Ricerca in spazzi continui - gradiente]]
@@ -44,6 +44,9 @@ tags:
 		1. [[Alberi di ricerca AND-OR]]
 	7. [[Ricerca in spazi NON osservabili]]
 	8. [[Ricerca in spazi parzialmente osservabili]]
+	9. [[Ricerca in ambienti competitivi]]
+		1. [[Giochi a somma zero]]
+		2. [[Ricerca Min-Max]]
 6. [[problemi di soddisfacibilita vincolata (CSP)]]
 	1. [[Arch Consistency]]
 Seconda parte corso:

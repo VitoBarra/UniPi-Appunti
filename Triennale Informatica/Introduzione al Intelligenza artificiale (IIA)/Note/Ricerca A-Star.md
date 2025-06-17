@@ -4,6 +4,7 @@ Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
 
 # Ricerca A-star 

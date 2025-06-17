@@ -126,7 +126,7 @@ Un **Agente basato su funzione di utilità** è un [[Agenti Razionali|agente]] u
 
 Per ottenere ciò si utilizza un __*funzione di utilità*__ (**utility function**) che è una funzione che da un peso ed un valore a tutti i sotto obiettivi che vogliamo rispettare.
 
-l agente sceglie azioni massimizzando il valore di **utilità atteso**
+l'agente sceglie azioni massimizzando il valore di **utilità atteso**
 
 Un agente basato sull’utilità possiede una maggiore flessibilità rispetto a un agente puramente **basato su obiettivi**. ad esempio, in presenza di obiettivi in conflitto (ad esempio, rapidità e sicurezza nella guida), la funzione di utilità consente di modellare i compromessi appropriati. Oppure, quando nessun obiettivo può essere raggiunto con certezza, l’utilità permette di valutare le probabilità di successo in relazione all’importanza dei singoli obiettivi.
 

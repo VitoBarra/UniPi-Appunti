@@ -25,6 +25,6 @@ il landscape di una funzione obiettivo puo avere alcune feature quali
 
 ### Algoritmi
 - [[Ricerca Hill Climbing]]
-- [[Ricerca Tempra simulata]]
+- [[Ricerca Simulated Annealing]]
 - [[Ricerca Local beam]]
 - [[Ricerca Generativa-Evolutiva]]

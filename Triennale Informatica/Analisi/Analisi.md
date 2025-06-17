@@ -61,8 +61,9 @@ tags:
 18. [[Espanzioni di funzioni in polinomi]]
 19. [[Funzione Gamma di Eulero]]
 20. funzioni multi Variate
-	1. [[Funzioni Multivariata - Gradiente]]
-	2. [[Jacobiana di una funzione]]
+	1. [[Matrice Hessiana]]
+	2. [[Funzioni Multivariata - Gradiente]]
+	3. [[Jacobiana di una funzione]]
 21. [[Topologia]]
 	1. [[Superfici]]
 	2. [[Manifolds (Varieta)]]

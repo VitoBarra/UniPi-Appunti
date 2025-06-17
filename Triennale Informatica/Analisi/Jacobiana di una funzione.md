@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Jacobiana di una funzione
 ---
-La **Jacobiana di una funzione** vettoriale di variabili reali rappresenta una delle generalizzazioni fondamentali del concetto di derivata per funzioni a più variabili. Essa assume un ruolo centrale nell'analisi locale delle trasformazioni differenziabili tra spazi euclidei, trovando applicazione in numerosi contesti, dalla geometria differenziale all'analisi numerica, fino alla meccanica classica.
+La **Jacobiana di una [[Funzioni|funzione vettoriale]]** di **variabili reali** rappresenta una **generalizazione** del concetto di [[derivate|derivata]] per funzioni a più variabili. Essa assume un ruolo centrale nell'analisi locale delle trasformazioni differenziabili tra spazi euclidei, trovando applicazione in numerosi contesti, dalla geometria differenziale all'analisi numerica, fino alla meccanica classica.
 
 Sia data una funzione differenziabile 
 $$
@@ -36,4 +36,3 @@ Nel diagramma seguente, tratto dalla nota [Visualizzazione Geometrica della Jaco
 
 Dal punto di vista operativo, il calcolo della Jacobiana è uno strumento fondamentale in molteplici ambiti computazionali. Ad esempio, nei metodi di ottimizzazione come il metodo di Newton generalizzato per funzioni vettoriali, la Jacobiana sostituisce la derivata semplice, permettendo la linearizzazione del sistema non lineare.
 
-Infine, è importante sottolineare che la Jacobiana, come illustrato anche nella sezione [Esempi di Campo di Vettori e Jacobiane](#), permette di comprendere la dinamica locale di sistemi complessi, offrendo una rappresentazione tangente della funzione in esame. Il suo studio si intreccia con quello della matrice hessiana per funzioni scalari, approfondito nella nota [Hessiana e Ottimizzazione](#), completando così il quadro analitico della derivabilità multivariata.

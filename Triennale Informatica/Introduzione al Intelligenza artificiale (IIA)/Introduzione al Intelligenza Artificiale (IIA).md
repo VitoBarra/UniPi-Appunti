@@ -28,7 +28,7 @@ tags:
 		6. [[Ricerca SMA-Star]]
 4. [[Ricerca locale]]
 	1. [[Ricerca Hill Climbing]]
-	2. [[Ricerca Tempra simulata]]
+	2. [[Ricerca Simulated Annealing]]
 	3. [[Ricerca Local beam]]
 	4. [[Ricerca Generativa-Evolutiva]]
 5. [[Ricerca in spazzi continui - gradiente]]

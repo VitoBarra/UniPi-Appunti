@@ -1,11 +1,14 @@
 ---
-Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
+Area: 
+SubTopic:
 ---
 
-# Ricerca Tempra simulata
+# Ricerca Simulated Annealing
 ---
 L'algoritmo di **Simulated Annealing** è una tipo di [[Ricerca locale|ricerca locale]] che adotta una scelta del prossimo modo in modo [[Definizione di Probabilita|stocastico]], si fa con l ottima di combinare la completezza un **random walk** e l efficienza di fare una scelta sensata.
 
