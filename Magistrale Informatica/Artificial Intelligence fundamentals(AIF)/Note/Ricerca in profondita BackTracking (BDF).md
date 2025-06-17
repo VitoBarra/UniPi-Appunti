@@ -12,18 +12,33 @@ la **Ricerca in profondità** o **BackTracking depth-first** (**BDF**) è un [[A
 
 
 
-```Python
-def recursive_depth_first_search(problem, node): 
-#    """Ricerca in profondita' ricorsiva """ 
-	# controlla se lo stato del nodo e' uno stato obiettivo 
-	if problem.goal_test(node.state): 
-		return node.solution() # in caso contrario continua 
-	for action in problem.actions(node.state):
-		child_node = node.child_node(problem, action)
-		result = recursive_depth_first_search(problem, child_node)
-		if result is not None:
-		return result
-	return None
+```pseudo
+	\begin{algorithm}
+	\caption{Algo Caption}
+	\begin{algorithmic}
+\Function{Backtracking-Search}{$csp$}
+    \Return \Call{Recursive-Backtracking}{$\{\}, csp$}
+\EndFunction
+
+\Function{Recursive-Backtracking}{$assignment, csp$}
+    \If{$assignment$ is complete}
+        \Return $assignment$
+    \EndIf
+    \State $var \gets \text{Select-Unassigned-Variable}(\text{Variables}[csp], assignment, csp)$
+    \For{each $value$ in \text{Order-Domain-Values}($var, assignment, csp$)}
+        \If{$value$ is consistent with $assignment$ given $\text{Constraints}[csp]$}
+            \State $assignment \gets assignment \cup \{var = value\}$
+            \State $result \gets \Call{Recursive-Backtracking}{assignment, csp}$
+            \If{$result \neq \text{failure}$}
+                \Return $result$
+            \EndIf
+            \State $assignment \gets assignment \setminus \{var = value\}$
+        \EndIf
+    \EndFor
+    \Return failure
+\EndFunction
+\end{algorithmic}
+	\end{algorithm}
 ```
 
 

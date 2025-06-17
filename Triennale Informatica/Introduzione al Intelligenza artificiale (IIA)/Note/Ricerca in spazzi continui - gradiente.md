@@ -7,7 +7,7 @@ tags:
   - AIF
 ---
 
-# Spazzi continui - gradiente
+# Ricerca in spazzi continui - gradiente
 ---
 - Molto casi reali hanno spazi di ricerca continua
 - lo stato è descritto  da variabili continue $x_1,\dots,x_2$ , vettore $x$

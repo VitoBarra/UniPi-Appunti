@@ -1,10 +1,13 @@
 ---
-Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - IA
   - AIF
 topic: nota
+Area: 
+SubTopic:
+---
 
 # Agenti Razionali
 ---

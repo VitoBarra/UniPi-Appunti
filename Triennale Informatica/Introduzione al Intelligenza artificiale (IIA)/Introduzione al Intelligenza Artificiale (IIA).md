@@ -31,7 +31,7 @@ tags:
 	2. [[Ricerca Tempra simulata]]
 	3. [[Ricerca Local beam]]
 	4. [[Ricerca Generativa-Evolutiva]]
-5. [[Spazzi continui - gradiente]]
+5. [[Ricerca in spazzi continui - gradiente]]
 6. [[Alberi di ricerca AND-OR]]
 Seconda parte corso:
 7. [[Base di conoscenza (KB)]]
