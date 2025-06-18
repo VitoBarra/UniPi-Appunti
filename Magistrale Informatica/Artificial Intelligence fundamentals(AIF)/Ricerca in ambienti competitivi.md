@@ -16,7 +16,7 @@ Il dominio privilegiato per lo studio di tali dinamiche è rappresentato dai gio
 La formalizzazione teorica si avvale di strumenti derivati dalla **teoria dei giochi**, i quali permettono di distinguere tra tre approcci principali. 
 1. tipico dell’**economia**, aggrega i comportamenti degli agenti per trarre previsioni globali senza analizzare le singole azioni.
 2. interpreta l’avversario come una fonte di non determinismo, ma perde la specificità dell’intenzionalità strategica.
-3. impiega **alberi di gioco** e algoritmi specifici come il **[[Ricerca Min-Max|minimax]]**, una generalizzazione del modello [[Alberi di ricerca AND-OR|AND–OR]] introdotto in precedenza 
+3. impiega **alberi di gioco** e algoritmi specifici come il **[[Ricerca MiniMax|minimax]]**, una generalizzazione del modello [[Alberi di ricerca AND-OR|AND–OR]] introdotto in precedenza 
 
 
 Il gioco può essere definito formalmente come:

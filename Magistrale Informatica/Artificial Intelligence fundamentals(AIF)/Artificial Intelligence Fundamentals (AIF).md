@@ -46,7 +46,8 @@ tags:
 	8. [[Ricerca in spazi parzialmente osservabili]]
 	9. [[Ricerca in ambienti competitivi]]
 		1. [[Giochi a somma zero]]
-		2. [[Ricerca Min-Max]]
+		2. [[Ricerca MiniMax]]
+		3. [[Ricerca alpha-beta pruning]]
 6. [[problemi di soddisfacibilita vincolata (CSP)]]
 	1. [[Arch Consistency]]
 Seconda parte corso:

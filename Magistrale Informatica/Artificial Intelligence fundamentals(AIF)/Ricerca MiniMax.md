@@ -7,9 +7,9 @@ topic:
 SubTopic: 
 ---
 
-# Ricerca Min-Max
+# Ricerca MiniMax
 ---
-l **algoritmo di ricerca MINMAX** è un [[Problemi di ricerca|algoritmo di ricerca]] per [[Ricerca in ambienti competitivi|ambienti competitivi]], in particolare si usano nel contesto dei [[giochi a somma zero|giochi a somma zero]]
+l **algoritmo di ricerca MINIMAX** è un [[Problemi di ricerca|algoritmo di ricerca]] per [[Ricerca in ambienti competitivi|ambienti competitivi]], in particolare si usano nel contesto dei [[giochi a somma zero|giochi a somma zero]]
 
 
 l'algoritmo presuppone di usare un agente con utilità che usa il valore di **minimax** per guidare la scelta, in particolare si scegli sempre l'azione che massimizza l utilita e si predice che l altro agente prenderà sempre l azione che minimizerà  l utilita.
