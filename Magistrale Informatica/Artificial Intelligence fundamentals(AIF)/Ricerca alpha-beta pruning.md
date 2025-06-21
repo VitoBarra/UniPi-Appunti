@@ -76,6 +76,7 @@ lo pseudo codice di questo algoritmo:
 \end{algorithmic}
 \end{algorithm}
 ```
+
 #### Move ordering
 L’efficacia dell’**alpha–beta pruning** dipende in modo critico dall’**ordine in cui vengono esaminati i nodi** dell’**albero di gioco**. Se le mosse vengono esplorate in un ordine subottimale, la potatura sarà minima o nulla. è vantaggioso **esplorare prima i rami più promettenti**, in modo da poter fare un taglio.
 
@@ -92,21 +93,15 @@ Il costo computazionale aggiuntivo di questa tecnica è compensato dal guadagno 
  
 un altra situazione da considerare sono le **transpositions**, ovvero situazioni in cui stati identici possono essere raggiunti attraverso sequenze di mosse differenti. Questo comporta la possibilità di rientrare in uno stesso stato da cammini diversi, con un conseguente aumento esponenziale del costo computazionale se non opportunamente gestito. L’introduzione di una **transposition table**, che memorizza i valori euristici già calcolati per ciascuno stato visitato, consente di riutilizzare le valutazioni e di evitare esplorazioni ridondanti.
 
-
-### Tipi di strategie (extra)
-Anche con un ordinamento ottimizzato, tuttavia, l’algoritmo minimax con pruning risulta insufficiente per giochi con altissimo fattore di diramazione come il Go. Questo problema, già individuato da Shannon , ha portato alla distinzione tra due strategie di ricerca:
-- La **strategia di Tipo A**, che esplora **in larghezza** fino a una certa profondità fissata, usando una funzione euristica per valutare i nodi terminali.
-- La **strategia di Tipo B**, che persegue **linee promettenti in profondità**, evitando esplorazioni superficiali di rami meno rilevanti.
-
-Storicamente, i programmi di scacchi hanno fatto uso principalmente della strategia di Tipo A, mentre per il Go e altri giochi ad alta complessità, l’approccio di Tipo B ha mostrato prestazioni superiori. Più recentemente, approcci ibridi di tipo B, supportati da tecniche come il **Monte Carlo Tree Search** e le **reti neurali**, hanno permesso prestazioni di livello campione del mondo anche in giochi tradizionalmente ostici per la ricerca minimax.
-
-
 #### Euristiche 
-La ricerca euristica con potatura Alpha–Beta rappresenta un’estensione fondamentale dell’algoritmo MINIMAX, adattata per affrontare i limiti computazionali insiti nei giochi complessi come gli scacchi. In tale contesto, l’algoritmo viene modificato per interrompere l’esplorazione dell’albero di gioco prima di raggiungere stati terminali, sostituendo la funzione $UTILITY$ con una funzione di valutazione euristica $EVAL$, la quale stima l’utilità di uno stato per un determinato giocatore. Parallelamente, il test terminale viene sostituito da un test di cutoff, indicato come $IS\text{-}CUTOFF(s, d)$, che può basarsi su una varietà di criteri, tra cui la profondità di ricerca $d$ e proprietà specifiche dello stato $s$.
+un modo per abbassare la [[Complessita|complessità computazione]] del algoritmo **alpha-beta pruning** è utilizzare delle **euristiche**, in particolare l’algoritmo non si spinge fino agli stati terminali dell’albero di gioco, ma interrompe anticipatamente la ricerca attraverso un test di cutoff $IS\text{-}CUTOFF(s, d)$, il quale può essere basato sulla profondità raggiunta $d$ oppure su proprietà strutturali dello stato $s$. 
 
-La formulazione dell’algoritmo euristico H-MINIMAX è data da:
+Al posto della funzione $UTILITY$ calcolata solo sugli stati finali, viene utilizzata una funzione di valutazione euristica $EVAL(s, p)$ che stima il valore atteso del **utilita** dello stato $s$ per il giocatore $p$.
+deve rispettare 2 condizioni: 
+- il calcolo di $EVAL$ deve risultare computazionalmente efficiente perche l obiettivo è velocizzare una ricerca
+- Deve restituire esattamente $UTILITY(s, p)$ per ogni stato **terminale** mentre per gli stati interni deve valere$UTILITY(loss, p) \leq EVAL(s, p) \leq UTILITY(win, p)$. 
 
-$$
+se definisce il valore valore $$
 H\text{-}MINIMAX(s, d) = 
 \begin{cases}
 EVAL(s, MAX) & \text{se } IS\text{-}CUTOFF(s, d) \\
@@ -114,21 +109,35 @@ EVAL(s, MAX) & \text{se } IS\text{-}CUTOFF(s, d) \\
 \min\limits_{a \in Actions(s)} H\text{-}MINIMAX(RESULT(s, a), d + 1) & \text{se } TO\text{-}MOVE(s) = MIN
 \end{cases}
 $$
+che sostituisce quello di $MINIMAX$
+ 
 
-La funzione $EVAL(s, p)$ restituisce una stima dell’utilità attesa dello stato $s$ per il giocatore $p$. Essa è vincolata a due requisiti essenziali: in primo luogo, deve restituire esattamente il valore della funzione $UTILITY$ per gli stati terminali; in secondo luogo, per stati non terminali, il valore stimato deve trovarsi all’interno dell’intervallo definito tra perdita e vittoria, ovvero $UTILITY(loss, p) \leq EVAL(s, p) \leq UTILITY(win, p)$. Inoltre, è cruciale che il calcolo di $EVAL$ sia computazionalmente efficiente, affinché il vantaggio della potatura risulti effettivo.
+Nel caso di giochi **[[Definizione di problemi-Ambienti|deterministici a informazione perfetta (completamente osservabili)]]**, l’incertezza non deriva da **elementi casuali**, bensì dalla limitazione delle risorse computazionali che impedisce di valutare completamente l’albero delle possibilità. 
+Di conseguenza, la valutazione dello stato assume il significato di valore medio stimato su una classe di stati simili.  
 
-La nozione di “probabilità di vittoria” appare, a prima vista, contraddittoria nei giochi deterministici come gli scacchi, in cui l’incertezza non deriva da elementi casuali ma dalla limitazione delle risorse computazionali che impedisce una valutazione esaustiva dell’albero di gioco. Questa incertezza viene gestita stimando il valore medio atteso di una categoria di stati: ad esempio, se si considerano gli endgame con due pedoni contro uno, e si osserva che l’82% di tali stati conduce a vittoria, il 2% a sconfitta e il 16% a patta, la valutazione attesa sarà data da:
-
-$$
-(0.82 \times 1) + (0.02 \times 0) + (0.16 \times \frac{1}{2}) = 0.90
-$$
-
-Questa logica evidenzia come la funzione di valutazione sia costruita a partire da caratteristiche, o *feature*, dello stato. Ogni feature $f_i(s)$ corrisponde a un attributo significativo — ad esempio, il numero di alfieri bianchi — e viene ponderata da un peso $w_i$ che ne esprime l’importanza. L’intera funzione assume così la forma di una combinazione lineare pesata:
-
-$$
+La funzione $EVAL$ puo essere costruita in vario modo, spesso questo dipende dal esperienza o da parametri e criteri specifici del gioco in cui è l agente, puo essere **ad esempio** [[Combinazioni Lineari|combinazione lineare pesata]] di caratteristiche rilevanti dello stato, chiamate ***feature***. Ogni feature $f_i(s)$ rappresenta un attributo significativo, come il numero di pezzi o la struttura pedonale nel caso degli scacchi, mentre il peso $w_i$ ne esprime l’importanza strategica. La funzione assume pertanto la forma:$$
 EVAL(s) = \sum_{i=1}^n w_i f_i(s)
-$$
+$$questo tipo di approccio funziona bene se le feature sono indipendenti ma spesso questo non è il caso.  un altro caso in cui non funziona bene e se le singole feature cambiano di importanza man mano che il gioco evolve. Per queste tipi di situazioni si utilizano pesi non lineari.
 
-Questa struttura è nota come funzione lineare pesata (*weighted linear function*) e consente di approssimare il valore di uno stato sommando contributi numerici indipendenti. Nei giochi come gli scacchi, questa pratica è radicata nella tradizione, con valori standard assegnati ai pezzi: pedone = 1, cavallo o alfiere = 3, torre = 5, regina = 9. Altri aspetti strategici, come la sicurezza del re o la struttura pedonale, possono essere quantificati in frazioni di pedone.
 
-Tuttavia, tale modello implica un’importante assunzione di indipendenza tra le feature. In
+la funzione $EVAL(s)$ viene usata per fare valutare i nodi piu profondi che superano il test di **cutoff**. il test **cutoff** 	è una funzione $IS-CUTOFF(s,d)$ che da $true$ se supera la profondità $d$ e false altrimenti, questo permette di scegliere un $d$ fisso compatibile con il tempo di computazoine disponibile. 
+
+un altor modo per implementare l algoritmo consiste nell’utilizzare la ricerca a [[Ricerca con approfondimento iterativo (IDS)|profondita iterativo]] incrementano $d$. Al termine di ciascuna iterazione, viene conservata la miglior mossa trovata, e se il tempo scade, si restituisce il risultato più profondo completato. Questa strategia consente anche un uso efficiente delle **tabelle di trasposizione**, e risultati di iterazioni precedenti possono essere usati per fare una miglioro **move ordering**.
+
+
+il **cutoff** ha due problematiche principali:
+- è prono a dare buone mosse ma che non sono stabili quindi bastano poche mosse per ribaltare la valutazione. Per evitare errori di questo tipo, la funzione $EVAL$ dovrebbe essere applicata solo a posizioni *quiescenti*, ovvero situazioni stabili prive di minacce tattiche immediate. In presenza di posizioni non quiescenti, la condizione $IS\text{-}CUTOFF(s, d)$ restituisce falso, forzando un’estensione della ricerca. *quiescence search*
+- **effetto orizzonte** (***horizon effect***): in cui un ribaltamento del valore di valutazione viene **apparentemente** evitata perché spinta oltre il limite di profondità $d$ considerato, applicando mosse che ritardano la cosa ma non la evitano. per affrontare questo problema ***singular extensions***, che estende selettivamente la ricerca oltre il **cutoff** solo per quelle mosse che risultano nettamente superiori alle alternative.
+
+
+
+
+il comportamento del algoritmo è preservato se il valore di utilità viene cambiato con una qualsiasi **funzione monotonica**
+![[IMG - Ricerca alpha-beta pruning valori erusitche.png]]
+
+### Tipi di strategie (extra)
+Anche con un ordinamento ottimizzato, tuttavia, l’algoritmo minimax con pruning risulta insufficiente per giochi con altissimo fattore di diramazione come il Go. Questo problema, già individuato da Shannon , ha portato alla distinzione tra due strategie di ricerca:
+- La **strategia di Tipo A**, che esplora **in larghezza** fino a una certa profondità fissata, usando una funzione euristica per valutare i nodi terminali.
+- La **strategia di Tipo B**, che persegue **linee promettenti in profondità**, evitando esplorazioni superficiali di rami meno rilevanti.
+
+Storicamente, i programmi di scacchi hanno fatto uso principalmente della strategia di Tipo A, mentre per il Go e altri giochi ad alta complessità, l’approccio di Tipo B ha mostrato prestazioni superiori. Più recentemente, approcci ibridi di tipo B, supportati da tecniche come il **Monte Carlo Tree Search** e le **reti neurali**, hanno permesso prestazioni di livello campione del mondo anche in giochi tradizionalmente ostici per la ricerca minimax.

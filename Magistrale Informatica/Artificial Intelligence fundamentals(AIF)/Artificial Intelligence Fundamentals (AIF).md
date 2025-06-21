@@ -48,6 +48,8 @@ tags:
 		1. [[Giochi a somma zero]]
 		2. [[Ricerca MiniMax]]
 		3. [[Ricerca alpha-beta pruning]]
+		4. [[Ricerca albero Monte Carlo]]
+	10. [[Ricerca ExpectiMiniMax]]
 6. [[problemi di soddisfacibilita vincolata (CSP)]]
 	1. [[Arch Consistency]]
 Seconda parte corso:
