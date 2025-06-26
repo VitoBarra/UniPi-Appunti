@@ -31,7 +31,7 @@ Un cono può essere convesso oppure non convesso
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 24.png]]
 
-Cono [[Convessità|Convesso]]
+Cono [[Convessita|Convesso]]
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 19.png]]
 

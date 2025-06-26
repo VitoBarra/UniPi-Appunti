@@ -20,7 +20,7 @@ e valgono le seguenti proprietà:
 2. la curva che parte da $p_0$ è [[Retta tangente|tangente]] al segmento $p_1-p_0$
 3. la curva che finisce in $p_n$ è [[Retta tangente|tangente]] al segmento $p_n-p_{n-1}$
 4. la curva [[Interpolazione VS approssimazione|approssima]] i punti.
-5. Siccome la somme di tutti i termini del [[Polinomio di Bernstein|polinomio di bernstein]]  $\sum^n_{i=0}B_{i,n}(t)=1$ si ha che la curva di bezier é sempre al intero del [[Convessità#Involucro Convesso|involucro convesso]] dei __Control point__ 
+5. Siccome la somme di tutti i termini del [[Polinomio di Bernstein|polinomio di bernstein]]  $\sum^n_{i=0}B_{i,n}(t)=1$ si ha che la curva di bezier é sempre al intero del [[Convessita#Involucro Convesso|involucro convesso]] dei __Control point__ 
 	![[Pasted image 20240222022108.png]]
 
 con $2$ __control point__ $p_0,p_1$ avremmo che il grado del [[Polinomio di Bernstein|polinomio di bernstain]] è $1$, le curve di questo tipo sono dette __curva di bezier lineare__. Il punto $p_1$ viene unito con il punto $p_2$ con una linea ed espandendo la sommatoria abbiamo che la curva viene calcolata come$$P(t)=p_0(1-t)+p_1t$$ e questa corrisponde al [[Interpolazione Lineare|interpolazioni lineare]]

@@ -50,7 +50,7 @@ tags:
 		3. [[Ricerca alpha-beta pruning]]
 		4. [[Ricerca albero Monte Carlo]]
 	10. [[Ricerca ExpectiMiniMax]]
-6. [[problemi di soddisfacibilita vincolata (CSP)]]
+6. [[Problemi di soddisfacibilita vincolata (CSP)]]
 	1. [[Arch Consistency]]
 Seconda parte corso:
 7. [[Base di conoscenza (KB)]]

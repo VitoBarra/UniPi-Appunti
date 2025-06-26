@@ -7,94 +7,33 @@ tags:
 
 # Programmazione lineare
 ---
-nella **programmazione lineare** il [[Modelli Matematici|Modello]] matematico di un problema viene espresso come una funzione $c$ da minimizzare o massimizzare e da une un set di $n$ equazioni detti _Vincoli_. questo sistema si puo anche riscrivere in forma [[Matrici|Matriciale]]
+il problemi di **programmazione lineare** sono un tipo di [[Problemi di ottimizzazione|Problemi di ottimizzazione]] dove la **funzione obiettivo** e **vincoli** sono lineari.
+per questo motivo si possono esprimere anche in forma matriciale [[Matrici|Matriciale]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 14.png]]
-
-La regione ammissibile di ogni problema di un [PL](app://obsidian.md/Programmazione%20lineare) è un [Poliedro](app://obsidian.md/Poliedro).
-
-### Rappresentato dal modello
-
-Variabili decisionali:
-$x_L$ = numero di ettari da coltivare a lattuga
-$x_P$ = numero di ettari da coltivare a patate
-
-Modello di programmazione lineare:
-
-$$
+i **vincoli** sono __uguaglianze o  disuguaglianze__ ed è detta __forma generale__ (sinistra) oppure con solo vincoli di diseguaglianza chiamata __forma canonica__ (destra)$$
+\begin{array}{}
 \begin{cases}
-\max 3000x_L+5000x_P \\
-x_L+x_p \leq 12 \\
-x_L \leq 10 \\
-x_P \leq 6 \\
-x_L+2x_P \leq 16 \\
-x_L \geq 0 \\
-x_P \geq 0 \\
-
-\end{cases}
-$$
-
-bisogna prima riscriverlo in forma canonica riscrivendo tutte le equazioni nella forma $x \leq b$ per poi poter essere riscritto in forma [[Matrici|matriciale]]
-
-$$
-\begin{cases}
-\max 3x_L+5x_P \\
-x_L+x_p \leq 12 \\
-x_L \leq 10 \\
-x_P \leq 6 \\
-x_L+2x_P \leq 16 \\
--x_L \leq 0 \\
--x_P \leq 0 \\
-
-\end{cases}
-$$
-
-$$
+\max (o \ \min) \ c^Tx \\
+A_1x \leq b_1 \\
+A_2x \geq b_1 \\
+A_3x = b_3 \\
+(x \in \mathbb{R}^n)
+\end{cases}  &  
 \begin{cases}
 \max \ c^Tx \\
-Ax \leq b
+Ax \leq b \\
+(x \in \mathbb{R}^n)
 \end{cases}
+\end{array}
+$$ogni problema in __forma generale__ può essere riscritta in __forma canonica__. 
+ dimostrazione:
+- $\min c^Tx= -\max (-c^Tx)$
+- $a^Tx \geq b \iff-a^Tx \leq -b$
+- $a^T =b \iff\begin{cases}a^Tx \leq b \\-a^Tx\leq -b\end{cases}$
 
-$$
 
-$$
-x =
-\begin{pmatrix}
-x_L \\
- x_P
-\end{pmatrix}
-\ \ \
-A=
-\begin{pmatrix}
-1 \ \ \ \ \ \ \ \ 1\\
-1 \ \ \ \ \ \ \ \ 0\\
-0 \ \ \ \ \ \ \ \ 1\\
-1 \ \ \ \ \ \ \ \ 2\\
--1 \ \ \ \ \ \ 0\\
-0 \ \ \ \ -1\\
-\end{pmatrix}
-\ \ \
-b=
-\begin{pmatrix}
-12 \\
-10 \\
-6 \\
-16 \\
-0 \\
-0 \\
-\end{pmatrix}
-\ \ \
-c=
-\begin{pmatrix}
-3 \\
-5 \\
-\end{pmatrix}
+La **regione ammissibile**, ovvero tutti i punti che soddisfano i vincoli, di un problema di un problema di **programmazione lineare** è un [[Poliedro|Poliedro]].
 
-$$
 
-- $m$ = numero di vincoli
-- $n$ = numero di variabili
-- $A$ matrice $m \times n$
-- $b$ vettore con $m$ componenti
-- $c$ vettore con $n$ componenti
 
+In generale i __problemi di ottimizzazione lineare__ si risolvono spesso con il [[Simplex (Simplesso)|metodo del simplesso]] o con [[Programmazione lineare|algoritmi di programmazione lineare]].

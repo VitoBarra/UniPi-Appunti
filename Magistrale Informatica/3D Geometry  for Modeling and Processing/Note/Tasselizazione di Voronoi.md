@@ -20,7 +20,7 @@ $$
 
 Prendendo il caso in cui il dominio $\Omega= \mathbb{R}^2$ Le regioni associate ai punti di $S$ si possono visualizzare con il  **diagramma di Voronoi**. I bordi tra due celle $V(s_i)$ e $V(s_j)$ sono costituiti dai punti equidistanti da $s_i$ e $s_j$, cioè da quei punti $x \in \mathbb{R}^2$ per cui vale $d(x, s_i) = d(x, s_j)$. La frontiera complessiva del diagramma è quindi composta da segmenti e, più in generale, da porzioni di [[Rette|rette]].
 ![[IMG - Diagramma di voronoi 2.png]]
-Le **celle di Voronoi** risultano sempre **[[poligoni|poligoni]] [[Convessità|convessi]]**, eventualmente non limitati, nel caso in cui si adotti la distanza euclidea. Queste celle coprono completamente il piano, senza sovrapporsi e senza lasciare spazi vuoti. Ogni **vertice** del diagramma, ovvero ogni punto in cui si incontrano tre o più celle, è equidistante da almeno tre semi distinti.
+Le **celle di Voronoi** risultano sempre **[[poligoni|poligoni]] [[Convessita|convessi]]**, eventualmente non limitati, nel caso in cui si adotti la distanza euclidea. Queste celle coprono completamente il piano, senza sovrapporsi e senza lasciare spazi vuoti. Ogni **vertice** del diagramma, ovvero ogni punto in cui si incontrano tre o più celle, è equidistante da almeno tre semi distinti.
 
 Il **diagramma di Voronoi** ha un grafo duale che si può costruire connettendo due semi $s_i$ e $s_j$ se esiste un lato in comune tra le rispettive celle $V(s_i)$ e $V(s_j)$. Il grafo risultante è chiamato **triangolazione di Delaunay**.
 ![[IMG - Diagramma di voronoi triangolazione di veloni.png]]

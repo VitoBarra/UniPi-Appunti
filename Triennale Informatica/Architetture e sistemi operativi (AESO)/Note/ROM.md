@@ -4,9 +4,6 @@ topic: nota
 tags:
   - AESO
 ---
-
-Prev: 
-
 # ROM
 ---
 Una [[Memorie|memoria]] a sola lettura (ROM, Read Only Memory) memorizza un bit come presenza o assenza di un transistore

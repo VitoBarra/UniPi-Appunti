@@ -9,7 +9,7 @@ SubTopic:
 
 # Complesso di celle (Cell Complex)
 ---
-una __cella__ è un [[Politopo|politopo]] [[Convessità|convesso]] di dimensione $d$ e una faccia propria di una __cella__ è un sotto insieme della cella che è un  [[Politopo|politopo]] [[Convessità|convesso]] di dimensione $d-1$ 
+una __cella__ è un [[Politopo|politopo]] [[Convessita|convesso]] di dimensione $d$ e una faccia propria di una __cella__ è un sotto insieme della cella che è un  [[Politopo|politopo]] [[Convessita|convesso]] di dimensione $d-1$ 
 ![[Pasted image 20241019035233.png]]
 
 una collezione di __celle__ sono __cell comlex__ **se**

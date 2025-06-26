@@ -11,7 +11,7 @@ SubTopic:
 
 # inviluppo convesso (Convex Hull)
 ---
-L’__inviluppo convesso__ di un [[Insiemi Matematici|insieme]] $S \subset \mathbb{R}^n$ finito, denotato con $CH(K)$ , è definito dall’insieme di tutte le [[Convessità|combinazioni convesse]] di tutti i punti di $K$.
+L’__inviluppo convesso__ di un [[Insiemi Matematici|insieme]] $S \subset \mathbb{R}^n$ finito, denotato con $CH(K)$ , è definito dall’insieme di tutte le [[Convessita|combinazioni convesse]] di tutti i punti di $K$.
 ![[IMG - inviluppo convesso di un triangolo.png]]
 
 un altra **definizione equivalente** è la seguente:

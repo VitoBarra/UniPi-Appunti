@@ -35,7 +35,8 @@ tags:
 	1. [[Macchina di turing k-nastri]]
 	2. [[Teorema di accelerazione]]
 	3. [[Classi di Complessita]]
-		1. [[Classi di complessita - NP-hard]]
+		1. [[Classi di complessita - NP-Hard]]
+		2. [[Classi di complessita - NP-Completo]]
 
 
 

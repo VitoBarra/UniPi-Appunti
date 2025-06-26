@@ -8,25 +8,16 @@ tags:
 
 # Poliedro
 ---
-Un **poliedro** in $\mathbb{R}^n$ e l’intersezione di un numero finito di [[Semispazio|semispazi chiusi]], oppure, è l’insieme delle soluzioni di un sistema di disequazioni lineari $Ax \leq b$.
+Un **poliedro** in $\mathbb{R}^2$ e l’intersezione di un numero finito di [[Semispazio|semispazi chiusi]], oppure, è l’insieme delle soluzioni di un sistema di disequazioni lineari $Ax \leq b$.
 
 
 un **poliedro** $P$  è detto **limitato** se esiste $M > 0$ tale che $||x|| \leq M \ \ \forall x \in P$ ossia se è contenuto in una opportuna sfera concertata nel origine
 
 
 
-### Esempio
-
-- $P_1 =\{x \in \mathbb{R}^2 \ | 1 \leq x_1 \leq 4,1 \leq x_2\leq3 \ \}$ è un poliedro limitato
-- $P_2 =\{x \in \mathbb{R}^2 \ | x_1 \geq 1,x_2 \geq 1, x_1+x_2\geq 3 \ \}$ è in poliedro illimitato
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 22.png]]
-
----
-
 ### Vertici (Geometrici)
 
-un vertice di un poliedro è un punto $x$  del poliedro che non si può esprimere come [[Convessità#Combinazione convessa|combinazione convessa]] propria di altri punti del poliedro. L’insieme dei vertici di un poliedro $P$ vene denotato con $vert(P)$
+un vertice di un poliedro è un punto $x$  del poliedro che non si può esprimere come [[Convessita#Combinazione convessa|combinazione convessa]] propria di altri punti del poliedro. L’insieme dei vertici di un poliedro $P$ vene denotato con $vert(P)$
 
 # Vertici (Algebrici)
 
