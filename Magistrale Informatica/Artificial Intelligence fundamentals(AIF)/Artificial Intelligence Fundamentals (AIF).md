@@ -51,8 +51,11 @@ tags:
 		4. [[Ricerca albero Monte Carlo]]
 	10. [[Ricerca ExpectiMiniMax]]
 6. [[Problemi di soddisfacibilita vincolata (CSP)]]
-	1. [[Arch Consistency]]
-Seconda parte corso:
+	1. [[Algoritmo per consistenza archi AC-3]]
+	2. [[Algoritmo backtracing per Risolvere CSP]]
+	3. [[Ricerca locale per CSP]]
+	4. [[Decomposizione problemi CSP]]
+		1. [[Algoritmo per risolvere CSP con struttura ad albero]]
 7. [[Base di conoscenza (KB)]]
 8. [[Agenti Knowledge Based]]
 9. [[Sistemi di deduzione (o di Inferenza)]]
@@ -69,6 +72,5 @@ Seconda parte corso:
 
 
 ### Educational Material 🧱
-1. [[Artificial Intelligence A Modern Approach  (AIMA) 3ed.pdf]]
-2. [[Artificial Intelligence A Modern Approach  (AIMA) 4ed.pdf]]
+1. [[Artificial Intelligence A Modern Approach  (AIMA) 4ed global.pdf]]
 

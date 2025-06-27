@@ -1,13 +1,15 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
 
 # Base di conoscenza (KB)
 ---
-una _base di conoscenza_ è una rappresentazione esplicita, parziale e compatta in un linguaggio simbolico, che contiene:
+una **_base di conoscenza_** è una rappresentazione esplicita, parziale e compatta in un linguaggio simbolico, che contiene:
 - Fatti di tipo specifico
 	- informazioni specifiche sullo stato di ciò che si sta rapresentando
 - fatti di tipo generale, o regolo
@@ -20,7 +22,7 @@ una caratteristica della base di conoscenza è la _capacita inferenziali_  date 
 
 
 ### Conseguenza logica
-una formula $\alpha$ è _conseguenza alogica_ di un insieme di formule $KB$ se e solo se in ogni _modello_ di $KB$ anche $\alpha$ è vera ($KB \models \alpha$)
+una formula $\alpha$ è **_conseguenza alogica_** di un insieme di formule $KB$ se e solo se in ogni _modello_ di $KB$ anche $\alpha$ è vera ($KB \models \alpha$)
 
 quindi Sia $M(KB)$ l insieme di _modelli_ del insieme di formule in $KB$ e $M(\alpha)$ l insieme dei _modelli_ di $\alpha$ allora
 $$KB \models \alpha \iff M(KB) \subseteq M(\alpha)$$
@@ -29,4 +31,9 @@ la conseguenza logica si utilizza per formalizzazione di [[Sistemi di deduzione 
 ### Teorema di refutazione 
 $$KB \models \alpha \iff (KB \land \lnot \alpha) \text{ è insodisfacibbile}$$  
  questo ci dice quindi che la conseguenza logica si puo riportare ad un problema [[Problemi della Sodisfacibilita (SAT)|SAT]]
- 
+
+
+
+
+
+

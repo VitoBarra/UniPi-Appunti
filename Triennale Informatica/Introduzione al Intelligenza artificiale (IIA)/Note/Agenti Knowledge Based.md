@@ -1,10 +1,11 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IA
+  - AIF
 ---
-
 # Agenti Knowledge Based
 ---
 - una [[Agenti Razionali|agente]] basato sulla conoscenza mantiene una _[[Base di conoscenza (KB)|Base di conoscenza]]_ detta _knowledg base_ o _KB_: un insieme di enunciati espressi in un linguaggio di rappresentazione
@@ -32,13 +33,33 @@ una formalismo per la rappresentazione della conoscenza ha tre componenti:
  
 
 ### Rappresentazione del mondo
-![[45A9F253-941A-4547-B9D1-096ACB8D3797.jpeg]]
-
+![[IMG - rappresentazione sentence e mondo reale.png]]
 
 #### Problemi di questo tipo di agente
 1. complessità di $KB \models \alpha$
-3. quali sono gli algoritmi di decisione e le strategie di ottimizzazione?
-4. i Linguaggi logici:
+2. quali sono gli algoritmi di decisione e le strategie di ottimizzazione?
+3. i Linguaggi logici:
 	1. [[ Calcolo proposizionale (PROP)|calcolo proposizionale]]
 	2. [[Logica del primo ordine (FOL)|Logica del predicati del prim ordine]]
-5. questi linguaggio sono adatti per la rappresentazione della conoscenza?
+4. questi linguaggio sono adatti per la rappresentazione della conoscenza?
+
+
+
+
+```pseudo
+\begin{algorithm}
+\caption{KB-AGENT}
+\begin{algorithmic}
+\Function{KB-AGENT}{percept} \textbf{returns} an action
+\State persistent: $KB$, a knowledge base
+\State persistent: $t$, a counter, initially 0, indicating time
+
+\State \call{TELL}{$KB$, \call{MAKE-PERCEPT-SENTENCE}{percept, $t$}}
+\State $action \gets \textproc{ASK}($KB$, \textproc{MAKE-ACTION-QUERY}($t$))$
+\State \textproc{TELL}($KB$, \textproc{MAKE-ACTION-SENTENCE}(action, $t$))
+\State $t \gets t + 1$
+\Return $action$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+```

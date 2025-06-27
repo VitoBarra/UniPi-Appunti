@@ -15,6 +15,6 @@ L’__inviluppo convesso__ di un [[Insiemi Matematici|insieme]] $S \subset \math
 ![[IMG - inviluppo convesso di un triangolo.png]]
 
 un altra **definizione equivalente** è la seguente:
-**sia** $EH_i(S)$ un [[semispazio|semispazio]] definito da una [[rette|retta passante]] per un punto $S$ e che non contiene nessun punto di $S$.  
+**sia** $EH_i(S)$ un [[Semispazio|Semispazio]] definito da una [[rette|retta passante]] per un punto $S$ e che non contiene nessun punto di $S$.  
 **allora** l **inviluppo convesso** è definito come $$CH(K) = \mathbb{R}^n \backslash \bigcup_i EH_i(S)$$![[IMG - Inviluppo convesso (Convex Hull) con sempispazi.png]]
 
