@@ -1,21 +1,41 @@
 ---
-Course: "[[Fondamenti Del Informatica (FDI)]]"
+Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 tags:
   - FDI
 Area: 
-topic: 
+topic: nota
 SubTopic:
 ---
 
 # Logica proposizionale
 ---
-la __logica proposizionale__ è un [[Linguaggio formale|linguaggio formale]] per esprimere le __espressioni logiche__ Tramite simboli detti __letterali__ e __operazioni logiche__, questo tipo di logica lavora espressioni di verità, ovvero i valori ammessi sono solo __$True$__ e __$False$__ 
+la __logica proposizionale__ è un [[Linguaggi formali|linguaggio formale]] per le __espressioni [[Logica|logiche]]__, ovvero espressioni di verità dove gli unici valori ammessi sono  __$True$__ e __$False$__ 
 
-Un'**espressione logica** è una combinazione di **letterali** (variabili che assumono valori di verità: $True$ o $False$) e **operatori logici** ($\lor$, $\land$, $\neg$, $\Rightarrow$, $\Leftrightarrow$).  
-Queste espressioni vengono valutate in base alle regole della **logica proposizionale**, determinando un valore di verità come risultato.  
+__Sintassi___: definisce quali sono le frasi legittime (_ben formate_) del linguaggio. Ogni enunciato è un'**espressione logica** ben formata che è una combinazione di **letterali**, ovvero variabili che assumono valori di verità: $True$ o $False$ e **operatori logici** come $\lor$, $\land$, $\neg$, $\Rightarrow$, $\Leftrightarrow$. la [[Grammatica formale]] è espressa con notazione [[Backus Naur Form (BNF)|BNF]] come:
+$$
+\begin{array}{}
+formula &\rightarrow &formulaAtomica \mid formulaComplessa \\
+formulaAtomica &\rightarrow &true \mid false\mid simbolo \\
+simbolo & \rightarrow &P \mid R \mid Q \mid \dots \\
+formulaComplessa &\rightarrow & \neg formula \\
+&&\begin{array}{}
+\mid &(formula \ \land \ formula) \\
+\mid &(formula \ \lor \ formula) \\
+\mid &(formula \ \implies \ formula) \\
+\mid &(formula \ \iff \ formula) \\
+\end{array}
 
 
-gli __[[Operazioni algebriche|operazioni]] logici__ della logica proposizionale sono definiti come: 
+\end{array}$$ e le regole di precedenza espresse da l [[Ordinamenti|ordinamento]]. questo permette di omettere e parentesi.
+$$\neg >\land > \lor>\implies >\iff$$
+
+
+
+
+__Semantica__: assegna il significato alle espressioni. le **espressioni** vengono valutate in base alle regole della **logica proposizionale**, determinando un valore di verità come risultato.  
+
+
+gli __[[Operazioni algebriche|operazioni]] logici__ della logica proposizionale sono definiti come: \
 __OR__($\lor$)  e l __and__ ($\land$) sono __operatori binari__ definiti dalla tabella di verità seguente:$$
 \begin{array}{|c|c||c|c|}
 \hline
@@ -43,7 +63,7 @@ Alcune espressioni logiche speciali sono:
 
 
 ### Equivalenze logiche 
-Per la valutazione delle __espressioni logiche__ nella pratica si utilizza il [[Calcolo proposizionale (PROP)|Calcolo proposizionale]] che si basa per la semplificazione delle espressioni tramite proprietà 
+un **equivalenze logiche** sono delle identità tra **enunciati** scritto come $\alpha \equiv \beta$  usate per semplificare la valutazione di un espressione logica iniziale. In certi l'contesti usare queste equivalenze a questo scopo viene chiamato **Calcolo proposizionale**.
 
 usando le __Equivalenze logiche__$$
 \begin{array}{|c|c|c|}

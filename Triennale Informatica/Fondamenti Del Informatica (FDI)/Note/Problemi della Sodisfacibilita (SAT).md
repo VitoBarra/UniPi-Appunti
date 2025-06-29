@@ -1,10 +1,11 @@
 ---
 Course: "[[Fondamenti Del Informatica (FDI)]]"
-Area: 
-topic: 
-SubTopic: 
 tags:
   - FDI
+  - Status/AiGenerated
+Area: 
+topic: 
+SubTopic:
 ---
 
 # Problemi della Sodisfacibilita (SAT)
@@ -23,10 +24,10 @@ $$
 C_i = l_{i1} \lor l_{i2} \lor \dots \lor l_{ik}
 $$
 
-con $l_{ij}$ letterale, ovvero una variabile booleana o la sua negazione. Le [[Operazioni logiche]] fondamentali, come la congiunzione ($\land$), la disgiunzione ($\lor$) e la negazione ($\neg$), regolano il comportamento delle clausole all'interno del [[Calcolo proposizionale (PROP)]].
+con $l_{ij}$ letterale, ovvero una variabile booleana o la sua negazione. Le [[Logica proposizionale]] fondamentali, come la congiunzione ($\land$), la disgiunzione ($\lor$) e la negazione ($\neg$), regolano il comportamento delle clausole all'interno del [[Logica proposizionale]].
+
 
 Il problema SAT è il primo problema che è stato dimostrato essere [[Classi di complessita - NP-Completo]], come mostrato dal teorema di Cook-Levin. Questo risultato è stato fondamentale per la definizione delle [[Classi di Complessita]], fornendo un paradigma per la riduzione polynomial-time e per l'analisi della difficoltà intrinseca di numerosi altri problemi computazionali.
-
 Una forma particolarmente studiata è il 3-SAT, in cui ogni clausola contiene esattamente tre letterali. Un esempio rappresentativo è:
 
 $$

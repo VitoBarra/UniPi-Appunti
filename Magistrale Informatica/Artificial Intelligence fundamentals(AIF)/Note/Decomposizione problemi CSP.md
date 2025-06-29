@@ -2,9 +2,10 @@
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF
+  - Status/AiGenerated
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 
 # Decomposizione problemi CSP
@@ -21,7 +22,7 @@ L'efficienza di questo metodo ha stimolato lo sviluppo di strategie per trasform
 
 Un approccio alternativo è la *tree decomposition*, ovvero la trasformazione del grafo in un albero i cui nodi rappresentano insiemi di variabili. La decomposizione deve soddisfare tre requisiti: ogni variabile deve comparire almeno una volta nei nodi dell'albero, ogni coppia di variabili con vincolo diretto deve comparire insieme in almeno un nodo, e una variabile che appare in più nodi deve essere presente in ogni nodo lungo il cammino che li connette. Questa struttura garantisce la consistenza globale dei valori assegnati alle variabili replicate nei nodi.
 
-La risoluzione del problema avviene trattando ogni nodo come una variabile i cui valori sono tuple di assegnazioni compatibili con i vincoli locali. L'algoritmo TREE-CSP-SOLVER consente di risolvere il CSP in $O(nd^2)$, con $n$ numero di nodi e $d$ dimensione del dominio più ampio. Tuttavia, il dominio in questo contesto rappresenta un insieme di tuple, la cui dimensione cresce esponenzialmente con il numero di variabili per nodo. La *tree width* della decomposizione, definita come la dimensione massima dei nodi meno uno, influenza la complessità che diventa $O(nd^{w+1})$. La ricerca della decomposizione a larghezza minima è anch'essa NP-hard, ma in pratica si adottano euristiche per ottenere decomposizioni sufficientemente compatte.
+La risoluzione del problema avviene trattando ogni nodo come una variabile i cui valori sono tuple di assegnazioni compatibili con i vincoli locali. L'algoritmo TREE-CSP-SOLVER consente di risolvere il CSP in $O(nd^2)$, con $n$ numero di nodi e $d$ dimensione del dominio più ampio. Tuttavia, il dominio in questo contesto rappresenta un insieme di tuple, la cui dimensione cresce esponenzialmente con il numero di variabili per nodo. La *tree width* della decomposizione, definita come la dimensione massima dei nodi meno uno, influenza la complessità che diventa $O(nd^{w+1})$. La ricerca della decomposizione a larghezza minima è anch'essa NP-hard, ma in pratica si adottano euristiche per ottenere decomposizioni sufficientemente compatte. poi si risolve con [[Algoritmo per risolvere CSP con struttura ad albero]]
 
 Si osserva che se esiste un *cycle cutset* di dimensione $c$, allora la *tree width* è minore di $c + 1$, potenzialmente molto inferiore. Sebbene la decomposizione ad albero sia computazionalmente vantaggiosa, essa richiede memoria esponenziale rispetto alla *tree width*, mentre il *cutset conditioning* utilizza memoria lineare.
 

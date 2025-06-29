@@ -34,10 +34,10 @@ tags:
 5. [[Ricerca in spazzi continui - gradiente]]
 6. [[Alberi di ricerca AND-OR]]
 Seconda parte corso:
-7. [[Base di conoscenza (KB)]]
+7. [[Sistemi di inferenza]]
 8. [[Agenti Knowledge Based]]
-9. [[Sistemi di deduzione (o di Inferenza)]]
-10. [[Agenti Logici - Calcolo proposizionale]]
+9. [[Logica]]
+10. [[Logica proposizionale]]
 	1. [[TV-Consegue algoritmo per SAT]]
 	2. [[Algoritmo DPLL per SAT]]
 	3. [[Metodi locali per SAT]]

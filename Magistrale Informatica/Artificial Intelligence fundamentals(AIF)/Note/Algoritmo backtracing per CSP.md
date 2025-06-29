@@ -2,12 +2,13 @@
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF
+  - Status/AiGenerated
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 
-# Algoritmo backtracing per Risolvere CSP
+# Algoritmo backtracing per CSP
 ---
 L’**algoritmo di ricerca backtracking** per i [[Problemi di soddisfacibilita vincolata (CSP)]] costituisce un metodo sistematico per esplorare le assegnazioni parziali dei valori alle variabili con l’obiettivo di individuare una soluzione che soddisfi tutti i vincoli. Al termine del processo di propagazione dei vincoli, come avviene nell’[[Algoritmo per consistenza archi AC-3]], può accadere che alcune variabili presentino domini non ridotti a un singolo valore. In tali situazioni è necessario ricorrere a una fase di ricerca esplicita.
 

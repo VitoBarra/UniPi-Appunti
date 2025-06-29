@@ -7,7 +7,7 @@ tags:
 
 # Algoritmo DPLL per SAT
 ---
-una algoritmo per fare [[Problemi della Sodisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Base di conoscenza (KB)#Conseguenza logica| conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]
+una algoritmo per fare [[Problemi della Sodisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Sistemi di inferenza#Conseguenza logica| conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Logica proposizionale|Agenti con calcolo proposizionale]]
 
 ## Eurisitche utilizate
 
@@ -36,9 +36,6 @@ _clausole unitaria_: una clausola con un sono letterale _NON assegnato_
 
 
 ### Pseudo codice
-```python
-
-```
 
 
 

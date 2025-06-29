@@ -2,9 +2,10 @@
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF
+  - AIGenerated
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 
 # Algoritmo per consistenza archi AC-3

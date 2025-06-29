@@ -2,9 +2,10 @@
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF
+  - Status/AiGenerated
 Area: 
 topic: 
-SubTopic: 
+SubTopic:
 ---
 
 # Algoritmo per risolvere CSP con struttura ad albero

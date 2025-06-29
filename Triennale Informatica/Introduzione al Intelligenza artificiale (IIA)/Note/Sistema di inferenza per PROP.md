@@ -7,7 +7,7 @@ tags:
 
 # Sistema di inferenza per PROP
 ---
-è un [[Sistemi di deduzione (o di Inferenza)|Sistema di deduzione]] per il [[Calcolo proposizionale (PROP)|Calcolo Proposizionale]]  utilizzato dal [[Agenti Logici - Calcolo proposizionale|agenti logici con calcolo proposizionale]]
+è un [[Logica|Sistema di deduzione]] per il [[Logica proposizionale|Calcolo Proposizionale]]  utilizzato dal [[Logica proposizionale|agenti logici con calcolo proposizionale]]
 #### Assunzioni
 - tutte le espressioni sono in [[Forma normale congiuntiva (CNF)|forma a clausole]] 
 #### Regole
@@ -35,7 +35,7 @@ dobbiamo dimostrare che $KB \models \alpha$ allora $KB \vdash_{res}\alpha$, ma q
 $KB \models \{A,\lnot A\}$ ma non è vero che $KB \vdash_{res} \{A,\lnot A\}$
 
 ### Completezza per insidisfacibilita
-utilizzando il ![[Base di conoscenza (KB)#Teorema di refutazione|Teorema di refutazione]] possiamo dire che  la risoluzione è completa per insidisfacibilita
+utilizzando il ![[Sistemi di inferenza#Teorema di refutazione|Teorema di refutazione]] possiamo dire che  la risoluzione è completa per insidisfacibilita
 #### Dimostrazione
 vediamo cosa succede utilizzando il contro esempio. quindi abbiamo 
 $KB \cup FC(\lnot(\lnot A \lor A))$, per dimostrare la completezza dobbiamo fare vedere che questo è insodisfacibile. ma questo è vero perché abbiamo che 

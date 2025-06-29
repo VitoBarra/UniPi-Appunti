@@ -73,7 +73,7 @@ _Sostituzione S (o S-box)_:
 _Permutazione_ (_P_). è una permutazione di 32 bit che genera il blocco finale $D[i]$
 ![[Pasted image 20230707222509.png]]
 
-e mettendo insieme i vari pezzi per ogni fase ho lo schema seguiente. dove $\oplus$ è lo [[Operazioni logiche|XOR]]
+e mettendo insieme i vari pezzi per ogni fase ho lo schema seguiente. dove $\oplus$ è lo [[Logica proposizionale|XOR]]
 ![[Pasted image 20230707221817.png]]
 
 tutte le funzione nel cifrario, tranne che per la $S$-box sono lineari e quindi vale che $f(x) \oplus f(y) =f(x \oplus y)$ 
@@ -87,7 +87,7 @@ Possiamo togliere $64$ _chiavi "deboli"_ tra queste figurano le chiavi con tutti
 
 definite $\mathcal{C}_{DES}, \mathcal{D}_{DES}$ le funzione di [[Cifratura e Decifratura|cifratura e decifratura]] complessive del DES
 
-si ha che  ulteriore riduzione viene dal fatto che $$\mathcal{C}_{DES}(m,k)=c \implies \mathcal{C}_{DES}(\bar{m},\bar{k} ) =\bar{c}$$dove l operazione $\bar{\cdot}$ è l operazione di [[Operazioni logiche|complemento]]. L operazione di complementazione nel cifrario influenza solo l output di _XOR_ e della S-box ma 
+si ha che  ulteriore riduzione viene dal fatto che $$\mathcal{C}_{DES}(m,k)=c \implies \mathcal{C}_{DES}(\bar{m},\bar{k} ) =\bar{c}$$dove l operazione $\bar{\cdot}$ è l operazione di [[Logica proposizionale|complemento]]. L operazione di complementazione nel cifrario influenza solo l output di _XOR_ e della S-box ma 
 - lo _XOR_ ha la stessa uscita se entrambi gli ingressi sono complimentati   
 - per la prima proprietà lo $S$-box riceve lo _stesso input_ di non fare il complemento e di conseguenza dara lo _stesso output_.
 da queste proprietà notiamo che nella _successiva fase_ $i$ avremo  il blocco il valore di  $S[i-1]$  complimentato mentre $D[i-1]$ sara diretto e quindi il valore dello _XOR_ finale sarà _complementato_

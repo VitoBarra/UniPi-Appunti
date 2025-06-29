@@ -28,7 +28,7 @@ $$\text{misura di copertura DECISIONI} =\frac{\text{numero di archi esercitati }
 _basic logic codition_:   
 $$\text{misura di copertura Basic Condition}  =  \frac{\text{n.  valori assunti  basic condition }}{\text{2n. basic condition }}$$
 _Multiple codition coverage_:
-questo richiede di controllare $2^n$ condizioni ma sono riducibili con la [[Linguaggio formale| semantica del linguaggio]] 
+questo richiede di controllare $2^n$ condizioni ma sono riducibili con la [[Linguaggi formali| semantica del linguaggio]] 
 - con lazy operation su i booleani
 _Copertura dei cammini_:
 copertura del numero di cammini.

@@ -8,7 +8,7 @@ tags:
 
 # TV-Consegue algoritmo per SAT
 ---
-una algoritmo per fare [[Problemi della Sodisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Base di conoscenza (KB)#Conseguenza logica|conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Agenti Logici - Calcolo proposizionale|Agenti con calcolo proposizionale]]
+una algoritmo per fare [[Problemi della Sodisfacibilita (SAT)|model checking]] e serve a scoprire se una data $\alpha$ e [[Sistemi di inferenza#Conseguenza logica|conseguenza logica]] di $KB$ nel contesto del utilizzo di [[Logica proposizionale|Agenti con calcolo proposizionale]]
 
 Enumera tutte le proprieta interpretazione di KB
 - con $k$ simboli, $2^k$ possibili interpretazioni, quindi molto lento
@@ -19,6 +19,3 @@ Enumera tutte le proprieta interpretazione di KB
 
 
 ### Pseudo codice
-```python
-
-```

@@ -1,10 +1,10 @@
 ---
 Course: "[[Fondamenti Del Informatica (FDI)]]"
-Area: 
-topic: 
-SubTopic: 
 tags:
   - FDI
+Area: 
+topic: 
+SubTopic:
 ---
 
 # Logica del primo ordine (FOL)

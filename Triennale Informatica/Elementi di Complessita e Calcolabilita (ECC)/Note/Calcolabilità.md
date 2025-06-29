@@ -11,7 +11,7 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 La _calcolabilità_ studia che cosa _può o non_ può essere calcolato senza limiti di risorse (es tempo, spazio, energia) 
 
 
-il meccanismo di calcolo può essere visto come un [[Automa a stati finiti|automa]] e in questo automa se gli elementi sono fatti di [[Stringhe|stringhe]] su un alfabeto allora abbiamo un [[Linguaggio formale]]  
+il meccanismo di calcolo può essere visto come un [[Automa a stati finiti|automa]] e in questo automa se gli elementi sono fatti di [[Stringhe|stringhe]] su un alfabeto allora abbiamo un [[Linguaggi formali]]  
 
 l elemento base per dire che quel cosa è calcolabile è l [[Nozione di Calcolabilità|algoritmo]] se un modello di calcolo rispetta queste prosperità allora si dice che quel modello _può calcolare_, puo _computare_ 
 

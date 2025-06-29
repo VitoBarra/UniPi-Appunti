@@ -38,5 +38,5 @@ allora $0 \in S$ per Ipotesi. per i poteri, $n \in S \implies n + 1 \in S$ quind
 ### Dimostrazione per assurdo
 per mostrare che un proposizione è vera si puo assumere la sua negata e portarla ad una contraddizione
 $$\neg P \implies (Q)\land (\neg Q)$$
-poiché $Q \land (\neg Q)$  è sempre falsa per il [[Calcolo proposizionale (PROP)|calcolo proposizionale]], ne consegue che $P$ è vera
+poiché $Q \land (\neg Q)$  è sempre falsa per il [[Logica proposizionale|calcolo proposizionale]], ne consegue che $P$ è vera
 

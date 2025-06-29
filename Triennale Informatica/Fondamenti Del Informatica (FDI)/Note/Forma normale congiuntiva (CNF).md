@@ -21,7 +21,7 @@ gli operandi della congiunzione, ovvero la parti tra parentesi, sonno dette _cla
 
 ##### vantaggi
 -  SI puo utilizzare la notazione insiemistica  $\{l_1,l_2,\dots\}\{\dots\}\dots$  siccome l ordine delle disgiunzioni (_interne in un insieme_) e delle congiunzioni (_tra gli insiemi_) non conta
-- è una forma comoda per fare shortening del [[Calcolo proposizionale (PROP)|Calcolo proposizionale]] 
+- è una forma comoda per fare shortening del [[Logica proposizionale|Calcolo proposizionale]] 
 	- si puo terminare prima se si trova anche un solo _letterale_ vero al interno di una clausola
 	- si puo terminare prima se si trova anche una sola _clausola_ falsa  
 
