@@ -19,12 +19,12 @@ possiamo quindi riscrivere le regole
 - $Q$ detto _fatto_
 
 
-Se la [[Sistemi di inferenza| base di conoscenza]] è formata solo da clausole Horn Definite i [[Logica|meccanismi di inferenza]] sono molto più semplici e non si rinuncia _completezza_.
+Se la [[Sistemi di inferenza logica| base di conoscenza]] è formata solo da clausole Horn Definite i [[Logica|meccanismi di inferenza]] sono molto più semplici e non si rinuncia _completezza_.
 - Risolutori in tempo lineare per caso proposizionale 
 - nota: è restrittivo non coincide con FOL
 
 ### Programmazione logica
-I programmi logici sono [[Sistemi di inferenza|KB]] costruiti di clausole Horn definite espressi con _fatti_ e _regole_,con una sintassi alternativa
+I programmi logici sono [[Sistemi di inferenza logica|KB]] costruiti di clausole Horn definite espressi con _fatti_ e _regole_,con una sintassi alternativa
 - $A$ fatto
 - $A:-B_1,B_2,\dots,B_n$
 - Rappresentazione del goal 

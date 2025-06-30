@@ -1,0 +1,4 @@
+#### Equivalenza logica
+Un concetto fondamentale legato all'entailment è quello di equivalenza logica. Due frasi $\alpha$ e $\beta$ sono dette logicamente equivalenti se risultano vere nello stesso insieme di modelli. Tale relazione si indica formalmente con $\alpha \equiv \beta$. Si osserva che il simbolo $\equiv$ esprime una relazione tra frasi, mentre il simbolo $\Leftrightarrow$ viene utilizzato all'interno delle frasi stesse. Le equivalenze logiche assumono un ruolo analogo alle identità aritmetiche in matematica, e molte di esse possono essere dimostrate tramite tabelle di verità, come accade, ad esempio, con $\mathit{P \land Q}$ e $\mathit{Q \land P}$, considerate logicamente equivalenti.
+
+L'equivalenza logica può essere definita anche in termini di entailment reciproco: due frasi $\alpha$ e $\beta$ sono equivalenti se e solo se $\alpha \models \beta$ e $\beta \models \alpha$.

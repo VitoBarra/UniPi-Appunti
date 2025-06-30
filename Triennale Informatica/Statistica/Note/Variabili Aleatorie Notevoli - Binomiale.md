@@ -56,4 +56,4 @@ _Dimostrazione_$$\begin{array}{}
 \binom{n}{h}p^{h}(1-p)^{n-h}(1-p)+\binom{n}{h-1}p^{h-1}(1-p)^{n-h+1}p  & =\\
 \binom{n+1}{h}p^{h}(1-p)^{n+1-h}
 \end{array}$$
-ovvero $Z$ è del tipo $B(n+1,p)$ e la dimostrazione si completa per [[Tipi di dimostrazione|induzione]]
+ovvero $Z$ è del tipo $B(n+1,p)$ e la dimostrazione si completa per [[Dimostrazione per induzione|induzione]]

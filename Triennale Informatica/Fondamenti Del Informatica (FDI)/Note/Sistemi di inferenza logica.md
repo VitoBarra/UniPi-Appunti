@@ -1,13 +1,13 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - FDI
   - AIF
   - IA
 Area: 
 topic: nota
-SubTopic: 
-Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
+SubTopic:
 ---
 # Sistemi di inferenza
 ---
@@ -21,15 +21,6 @@ Un **sistema di inferenza** ha due proprietà fondamentali:
 **_Completezza_** (**Completness**): tutto ciò che è [[Logica#Deduzione (o conseguenza logica)|conseguenza logica]] è ottenibile tramite in **sistema inferenziale** ovvero vale  che  $KB \models \alpha \implies KB \vdash_i \alpha$
 
 
-
-
-#### Model cheeking
-Una procedura esemplificativa di inferenza è il model checking, che si basa sull'enumerazione di tutti i modelli possibili. Attraverso questa tecnica si verifica che, in ciascun modello in cui le frasi della $KB$ risultano vere, lo sia anche la proposizione $\alpha$, confermando così che $M(KB) \subseteq M(\alpha)$.
-
-
-#### Teorema di refutazione 
-$$KB \models \alpha \iff (KB \land \lnot \alpha) \text{ è insodisfacibbile}$$  
- questo ci dice quindi che la conseguenza logica si può riportare ad un problema [[Problemi della Sodisfacibilita (SAT)|SAT]]
 
 
 

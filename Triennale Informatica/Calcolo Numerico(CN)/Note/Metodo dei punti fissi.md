@@ -48,7 +48,7 @@ siccome
 2.  si dimostra la convergenza siccome con $$ 0 \leq |x_{k}-\alpha|\leq \lambda^{k}\rho$$con il _limite_ $k\to \infty$ la _distanza_ viene schiacciata a $0$ per il [[Teorema del confronto dei carabinieri|teorema del confronto]] e quindi $x_k = \alpha$
 
 
-si [[Tipi di dimostrazione|dimostra quindi induttivamente]]
+quindi si [[Dimostrazione per induzione|dimostra per iduzione]]
 vogliamo quindi dimostrare che  
 $$|x_{k}-\alpha| \leq \lambda^{k}\rho \ \ \ \forall k \geq 0$$
 casa base abbaiamo

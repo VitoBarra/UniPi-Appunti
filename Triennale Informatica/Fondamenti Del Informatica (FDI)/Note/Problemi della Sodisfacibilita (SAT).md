@@ -10,24 +10,17 @@ SubTopic:
 
 # Problemi della Sodisfacibilita (SAT)
 ---
-Il **problema della Soddisfacibilità Booleana** (SAT) costituisce un nodo fondamentale nella [[Logica proposizionale]], con profonde implicazioni anche nell'ambito della [[Complessita]]. Esso consiste nel determinare se esiste un'assegnazione di valori di verità alle variabili proposizionali di una formula booleana tale che l'intera formula risulti vera. Per la sua trattazione formale, la formula viene generalmente espressa in [[Forma normale congiuntiva (CNF)]], una congiunzione di clausole, ognuna delle quali è una disgiunzione di letterali.
+Il **problema della Soddisfacibilità** (**SAT**) è un problema nel ambito della [[Logica|logica]]. 
+dato un enunciato $\alpha$ si occupa di decidere se esiste almeno un **modello** $m$ che **soddisfa** $\alpha$
 
-Formalmente, una formula in CNF assume la struttura:
+Per la sua trattazione formale, la formula viene generalmente espressa in [[Forma normale congiuntiva (CNF)|Forma normale congiuntiva (CNF)]]
 
-$$
-\phi = C_1 \land C_2 \land \dots \land C_m
-$$
-
-dove ciascuna clausola $C_i$ è del tipo:
-
-$$
-C_i = l_{i1} \lor l_{i2} \lor \dots \lor l_{ik}
-$$
-
-con $l_{ij}$ letterale, ovvero una variabile booleana o la sua negazione. Le [[Logica proposizionale]] fondamentali, come la congiunzione ($\land$), la disgiunzione ($\lor$) e la negazione ($\neg$), regolano il comportamento delle clausole all'interno del [[Logica proposizionale]].
+Il problema SAT è il primo problema che è stato dimostrato essere [[Classi di complessita - NP-Completo|NP-completo]], come mostrato dal teorema di Cook-Levin. 
 
 
-Il problema SAT è il primo problema che è stato dimostrato essere [[Classi di complessita - NP-Completo]], come mostrato dal teorema di Cook-Levin. Questo risultato è stato fondamentale per la definizione delle [[Classi di Complessita]], fornendo un paradigma per la riduzione polynomial-time e per l'analisi della difficoltà intrinseca di numerosi altri problemi computazionali.
+
+
+
 Una forma particolarmente studiata è il 3-SAT, in cui ogni clausola contiene esattamente tre letterali. Un esempio rappresentativo è:
 
 $$

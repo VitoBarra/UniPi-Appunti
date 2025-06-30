@@ -24,12 +24,12 @@ Da questa definizione vale immediatamente che
 
 #### Ricerca Delle dipendenze derivate
 per cercare tutte le _dipendenze derivate_ partendo da un insieme $F$ di [[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]] c è bisogno di un _insieme di regole_ che permettono di costruire un [[Algoritmi|algoritmo]]. 
-Si utilizzano le [[Regole di inferenza|regole di inferenza]] in questo contesto detti “assiomi”
+Si utilizzano le [[Inferenza logica per dimostrazione di teoremi|regole di inferenza]] in questo contesto detti “assiomi”
 
 ##### Definizione
 _sia_
 - $F$ un insieme di _[[Schemi relazionali - Dipendenze funzionali|dipendenze funzionali]]_
-- $RI$ un [[Insiemi Matematici|insieme]] di [[Regole di inferenza|regole di inferenza]] per $F$
+- $RI$ un [[Insiemi Matematici|insieme]] di [[Inferenza logica per dimostrazione di teoremi|regole di inferenza]] per $F$
 _allora_  si indica con $F \vdash X \rightarrow Y$ la derivabilità di $X \rightarrow Y$ usando $RI$ e
 - L insieme $RI$ è _corretto_ se: $F \vdash X \rightarrow Y \implies F \models X \rightarrow Y$
 - L Insieme $RI$ è _completo_ se $F \models X \rightarrow Y \implies F \vdash X \rightarrow Y$
@@ -40,6 +40,6 @@ _allora_  si indica con $F \vdash X \rightarrow Y$ la derivabilità di $X \right
 ##### Derivazione di una dipendenza (Definizione)
 una _derivazione_ di $f$ da $F$ è una sequenza finita $f_{1},\dots f_{m}$ di _dipendenze_ dove 
 - $f_{m}=f$ 
-- ogni $f_{i}$ o è un _elemento_ di $F$ oppure è stato _derivato da_ $F$ con delle _[[Regole di inferenza|regole di inferenza]]_  
+- ogni $f_{i}$ o è un _elemento_ di $F$ oppure è stato _derivato da_ $F$ con delle _[[Inferenza logica per dimostrazione di teoremi|regole di inferenza]]_  
  
 vale che ogni _sotto sequenza_ $f_{1},\dots,f_{k}$ è una _derivazione_ e quindi che $$F \vdash f_{k} \ \ \forall k\leq m$$

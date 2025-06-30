@@ -61,7 +61,7 @@ _Correttezza_: c è bisogno che al termine del programma  $XPIU = X^+$, per most
  $(XPIU \subseteq X^+)$:
  _sia_ $j$ il numero di interazioni
  Si vuole dimostrare che $XPIU^j \subseteq  X^+ \ \forall j$. 
-si procede per [[Tipi di dimostrazione#Dimostrazione per induzione|induzione]]  
+si procede per [[Dimostrazione per induzione|induzione]]  
    
 - (_caso base_): $j = 0$ 
 	- l’affermazione è ovvia  essendo $XPIU^0 = X \subseteq X^+$ _per [[Schema relazionali - Assiomi di Armstrong|riflessività]]_.
