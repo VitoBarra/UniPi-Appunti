@@ -56,12 +56,11 @@ l algoritmo in pseudo codice che ritorna un azione:
 ```
 
 
-
 Una **selection policy** efficace è l ***Upper Confidence bounds applied to Trees*** (UCT), basato sulla formula **UCB1**:
 **sia**
 - $U(n)$ è l’utilità totale dei playout che attraversano il nodo $n$
 - $N(n)$ è il numero di playout in quel nodo
-- $C$ è una costante che regola il compromesso tra esplorazione ed esploitazione
+- $C$ è una costante che regola il compromesso tra esplorazione ed espoliazione
 **allora** la formula la formula **UCB1**:$$
 \text{UCB1}(n) = \frac{U(n)}{N(n)} + C \cdot \sqrt{\frac{\log N(\text{PARENT}(n))}{N(n)}}
 $$ dove 
@@ -74,7 +73,7 @@ Il tempo necessario per un singolo playout cresce linearmente con la profondità
 L’[[Ricerca alpha-beta pruning|alfa–beta]] ricerca il cammino verso il nodo con la massima valutazione, supponendo che l’avversario minimizzi tale valore; un errore singolo nella funzione di valutazione può indirizzare la scelta verso un cammino errato.
 La MCTS, affidandosi all’aggregazione di molte simulazioni, è più resistente a errori isolati. 
 
-È possibile combinare MCTS con funzioni di valutazione, interrompendo anticipatamente i playout e applicando una valutazione euristica, oppure dichiarando un pareggio (*early playout termination*). 
+È possibile combinare MCTS con **funzioni di valutazione**, interrompendo anticipatamente i playout e applicando una valutazione euristica, oppure dichiarando un pareggio (*early playout termination*). 
 
 La natura stocastica della MCTS la rende meno adatta a situazioni dove una singola mossa può cambiare radicalmente l’esito della partita, o dove stati chiaramente vincenti richiedono molte mosse per essere confermati nei playout.
 
