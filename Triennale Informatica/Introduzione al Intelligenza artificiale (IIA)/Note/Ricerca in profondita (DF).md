@@ -12,7 +12,7 @@ tags:
 la **Ricerca in profondità** o **depth-first** (**DF**) è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che utilizza una **frontiera** implementata con una  [[Coda (FIFO)|coda LIFO]], ogni volta che arriva in un nodo in cui non sono generati nuovi nodi fa da un taglio su i rami completamente esplorati diminuendo il consumo di memoria.
 ![[IMG - Ricerca in profondita.png]]
 
-questo algoritmo puo essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il negativo della profondità:
+questo algoritmo può essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il negativo della profondità:
 ```pseudo
 \begin{algorithm}
 \caption{Uniform Cost Search}
@@ -23,7 +23,7 @@ questo algoritmo puo essere implementato come caso particolare del [[Ricerca Bes
 \end{algorithmic}
 \end{algorithm}
 ```
-ma spesso è implementato **evitando di mantenere un tabella per i nodi raggiunti** e quando un nodo non ha piu un successore si usa la relazione padre per tornare in dietro fino al prossimo nodo piu profondo non esplorato, Questa implementazione permette di mantenere in memoria solo la **frontiera** 
+ma spesso è implementato **evitando di mantenere un tabella per i nodi raggiunti** e quando un nodo non ha più un successore si usa la relazione padre per tornare in dietro fino al prossimo nodo più profondo non esplorato, Questa implementazione permette di mantenere in memoria solo la **frontiera** 
 
 In generale ritorna il primo stato **goal** trovato
 
