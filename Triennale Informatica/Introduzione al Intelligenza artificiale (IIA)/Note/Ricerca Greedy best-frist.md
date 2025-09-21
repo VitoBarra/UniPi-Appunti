@@ -3,7 +3,7 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: "[[Algoritmi di ricerca informata]]"
 tags:
-  - IA
+  - IIA
   - AIF
 ---
 

@@ -12,4 +12,8 @@ SubTopic:
 Nella [[Logica|Logica]] una **deduzione** (o **conseguenza logica**) è una **conclusione**, sotto forma di **enunciato** che discende necessariamente dalle **premesse**. Ovvero assumendo **vere** le premesse, la conclusione non può che essere **vera** indipendentemente dal contenuto specifico delle proposizioni coinvolte. 
 
 **sino** $\alpha , \beta$ due **enunciati** 
-**allora** si dice che $\beta$ è **Conseguenza logica** (o **entailment**) di $\alpha$ indicato con $$\alpha \models \beta$$**se** in ogni modello in cui $\alpha$ risulta $True$, anche $\beta$ è $True$, ovvero vale che $M(\alpha) \subseteq M(\beta)$.
+**allora** si dice che $\beta$ è **Conseguenza logica** (o **entailment**) di $\alpha$ indicato con $$\alpha \models \beta$$**se** in ogni **[[Logica|modello]]** in cui $\alpha$ risulta $True$, anche $\beta$ è $True$, ovvero vale che $M(\alpha) \subseteq M(\beta)$.
+
+
+
+Alcuni risultati riguardante che connettono la conseguenza logica e le proprietà degli enunciati sono: 

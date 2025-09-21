@@ -1,7 +1,7 @@
 ---
 Course: "[[Machine Learning (ML)]]"
 tags:
-  - IA
+  - IIA
   - ML
 Area: 
 topic: 

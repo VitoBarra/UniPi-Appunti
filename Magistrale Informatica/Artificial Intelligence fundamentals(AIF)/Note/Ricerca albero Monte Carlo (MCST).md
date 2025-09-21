@@ -68,7 +68,7 @@ $$ dove
 -  $\sqrt{\frac{\log N(\text{PARENT}(n))}{N(n)}}$ guida l’esplorazione: è alto quando $N(n)$ è basso, incentivando la visita a nodi ancora poco esplorati. 
 un valore tipico per $C$  è $\cfrac{1}{\sqrt{2}}$ se  $\cfrac{U(n)}{N(n)} \in [0,1]$ ma spesso viene scelto empiricamente.
 
-Il tempo necessario per un singolo playout cresce linearmente con la profondità dell’albero, a differenza della crescita esponenziale tipica della ricerca alfa–beta. 
+Il tempo necessario per un singolo playout cresce linearmente con la profondità dell’albero, a differenza della crescita esponenziale tipica della ricerca [[Ricerca alpha-beta pruning|alfa–beta]]. 
 
 L’[[Ricerca alpha-beta pruning|alfa–beta]] ricerca il cammino verso il nodo con la massima valutazione, supponendo che l’avversario minimizzi tale valore; un errore singolo nella funzione di valutazione può indirizzare la scelta verso un cammino errato.
 La MCTS, affidandosi all'aggregazione di molte simulazioni, è più resistente a errori isolati. 

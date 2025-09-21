@@ -2,7 +2,7 @@
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
-  - IA
+  - IIA
   - AIF
 topic: nota
 Area: 

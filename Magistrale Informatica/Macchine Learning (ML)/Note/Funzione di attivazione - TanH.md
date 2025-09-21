@@ -1,6 +1,6 @@
 ---
 tags:
-  - IA
+  - IIA
   - ML
 Course: "[[Machine Learning (ML)]]"
 Area: "[[Concetti generali del Machine Learning]]"

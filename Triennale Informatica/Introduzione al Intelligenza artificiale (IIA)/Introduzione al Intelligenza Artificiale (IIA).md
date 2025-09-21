@@ -2,7 +2,7 @@
 Course: "[[Triennale informatica MOC]]"
 tags:
   - MOC
-  - IA
+  - IIA
 ---
 
 # Introduzione al Intelligenza Artificiale (IIA)
@@ -34,29 +34,31 @@ tags:
 5. [[Ricerca in spazzi continui - gradiente]]
 6. [[Alberi di ricerca AND-OR]]
 Seconda parte corso:
-7. [[Sistemi di inferenza logica]]
-8. [[Agenti Knowledge Based]]
-9. [[Logica]]
-10. [[Logica proposizionale]]
-	1. [[Algoritmo Table Truth-entails (TT-entails)]]
-	2. [[Algoritmo DPLL per SAT]]
-	3. [[Metodi locali per SAT]]
-	4. [[Inferenza logica per dimostrazione di teoremi]]
-11. [[Agenti Logici con FOL]]
+7. [[Agenti Knowledge Based]]
+8. [[Logica]]
+	1. [[Conseguenza Logica (Deduzione)]]
+	2. [[Sistemi di inferenza logica]]
+9. [[Logica proposizionale]]
+	1. [[Inferenza logica per Model cheeking]]
+		1. [[Algoritmo Table Truth-entails (TT-entails)]]
+		2. [[Metodi locali per SAT]]
+	2. [[Inferenza logica per dimostrazione di teoremi]]
+		1. [[Algoritmo PL per l'inferenza logica]]
+10. [[Agenti Logici con FOL]]
 	1. [[Semantica Database per FOL]]
 	2. [[Sistema di inferenza per FOL]]
-12. [[Agenti logici - Sistemi a regole]]
+11. [[Agenti logici - Sistemi a regole]]
 	1. [[Risoluzione SLD]]
 Terza parte corso:
-13. [[Concetti generali del Machine Learning]]
-14. [[Algoritmi di Machine Learning]]
+12. [[Concetti generali del Machine Learning]]
+13. [[Algoritmi di Machine Learning]]
 	1. [[Overfitting e Underfitting]]
 	2. [[Statistical Learning Theory (SLT)]]
 	3. [[Validation e Test di una modello di ML]]
 		1.  [[Validazione Hold-Out]]
 		2. [[K-Fold Cross Validation]]
 		3. [[Double cross validation (Nested k-fold cross validation)]]
-15. [[Algoritmi di learning supervisionato]]
+14. [[Algoritmi di learning supervisionato]]
 	1. [[Modelli lineari con LMS]]
 	2. [[Alberi di decisione]]
 	3. [[Support Vector Machine (SVM)]]
@@ -64,7 +66,7 @@ Terza parte corso:
 		1. [[Concept learning - Find-S]]
 		2. [[Concept learning - Candidate elimination]]
 	5. [[K-Nearest Neighbor (K-NN)]]
-16. [[Algoritmi di learning NON supervisionato]]
+15. [[Algoritmi di learning NON supervisionato]]
 	6. [[K-Means]]
 
 

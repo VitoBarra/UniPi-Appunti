@@ -2,7 +2,7 @@
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
-  - IA
+  - IIA
   - AIF
 topic: nota
 ---

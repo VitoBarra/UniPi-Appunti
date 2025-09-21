@@ -3,7 +3,7 @@ Course: "[[Machine Learning (ML)]]"
 Course 2: "[[Human Language Technology (HLT)]]"
 Course 3: "[[Information Retrieval (IR)]]"
 tags:
-  - IA
+  - IIA
   - HLT
 Area: "[[Concetti generali del Machine Learning]]"
 topic: "[[Text Classification]]"

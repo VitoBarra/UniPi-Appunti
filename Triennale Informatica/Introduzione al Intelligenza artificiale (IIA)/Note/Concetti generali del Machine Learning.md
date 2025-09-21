@@ -3,7 +3,7 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Machine Learning (ML)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
   - ML
 ---
 # Concetti generali del Machine Learning

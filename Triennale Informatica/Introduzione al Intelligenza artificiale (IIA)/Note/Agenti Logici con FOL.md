@@ -2,7 +2,7 @@
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
 ---
 
 # Agenti Logici con FOL

@@ -1,6 +1,6 @@
 ---
 tags:
-  - IA
+  - IIA
   - AIF
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"

@@ -2,7 +2,7 @@
 Course: "[[Statistica (STAT)]]"
 tags:
   - STAT
-  - IA
+  - IIA
 Area: 
 topic: 
 SubTopic:

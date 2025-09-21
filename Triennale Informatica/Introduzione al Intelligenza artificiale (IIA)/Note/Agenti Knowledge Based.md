@@ -3,7 +3,7 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
   - AIF
 ---
 # Agenti Knowledge Based
@@ -47,12 +47,11 @@ La costruzione di un agente basato sulla conoscenza può seguire un
 - **approccio procedurale**: in cui i comportamenti desiderati sono codificati direttamente nel programma.
 In letteratura, si riconosce oggi che un agente efficace combina elementi sia **dichiarativi** sia **procedurali**, con la possibilità di trasformare conoscenze dichiarative in codice procedurale più efficiente.
 
-Inoltre, un agente può essere dotato di meccanismi di apprendimento che gli permettono di generare autonomamente conoscenze generali a partire da una serie di percetti, evolvendo così verso una maggiore autonomia operativa.
-
+Inoltre, un agente può essere dotato di meccanismi di apprendimento che gli permettono di generare autonomamente conoscenze generali a partire da una serie di _percetti_, evolvendo così verso una maggiore autonomia operativa
 
 
 ### Grounding della base di conoscenza
-la **base di conoscenza** rappresentata internamente è solo una collezione di simboli e non hanno necessariamente un collegamento con la realta, quindi sta al designer fare in modo che ogni simbolo ripecchi un qualche elementi delle realta, questo è detto  **grounding**. 
+la **base di conoscenza** rappresentata internamente è solo una collezione di simboli e non hanno necessariamente un collegamento con la realtà, quindi sta al designer fare in modo che ogni simbolo rispecchi un qualche elementi delle realtà, questo è detto  **grounding**. 
 La coerenza tra le frasi memorizzate nella **base di conoscenza** e il mondo reale dipende dall'affidabilità delle **percezioni sensoriali**. I sensori dell'agente acquisiscono dati dall'ambiente, convertendoli in enunciati che, una volta inserite nella, sono considerate vere rispetto al mondo reale.
 ![[IMG - rappresentazione sentence e mondo reale.png]]
 

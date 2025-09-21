@@ -2,7 +2,7 @@
 Course: "[[Machine Learning (ML)]]"
 Course 2: "[[Human Language Technology (HLT)]]"
 tags:
-  - IA
+  - IIA
   - ML
   - HLT
 Area: 

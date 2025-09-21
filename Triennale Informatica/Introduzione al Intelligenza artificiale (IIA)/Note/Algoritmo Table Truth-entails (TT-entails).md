@@ -1,19 +1,20 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
-  - IA
+  - IIA
+  - AIF
 ---
 
 
 # Algoritmo Table Truth-entails (TT-entails)  
 ---
-l [[Algoritmi|algoritmo]] **Table Truth - ENTAILS** (**TT-ENTAILS**) di [[Sistemi di inferenza logica|deduzione]] ovvero 
-un dato **enunciato**  $\alpha$ si vuole sapere se questo è  [[Logica|conseguenza logica]] della base di conoscenza $KB$.
+l [[Algoritmi|algoritmo]] **Table Truth - ENTAILS** (**TT-ENTAILS**) è un algoritmo di [[Sistemi di inferenza logica|deduzione]], quindi si vuole decidere se dato **enunciato**  $\alpha$ questo è [[Conseguenza Logica (Deduzione)|conseguenza logica]] della base di conoscenza $KB$.
 
-**TT-Entails** è di tipo [[Inferenza logica con Model cheeking|model cheking]] quindi implementa direttamente la definizione di [[Logica#Deduzione (o conseguenza logica)|conseguenza logica]], Infatti enumera esaustivamente tutti i [[Logica|modelli]] della $KB$ costruendo un **tabelle di verità** è controlla se vale $M(\alpha) \subseteq M(KB)$ dove $M(\cdot)$ sono tutti i modelli che soddisfano $\cdot$
+**TT-Entails** è un approccio [[Inferenza logica per Model cheeking|Model cheeking]] utilizza quindi direttamente la definizione di [[Conseguenza Logica (Deduzione)|conseguenza logica]], Infatti enumera tutti i [[Logica|modelli]] possibili, costruendo un **tabelle di verità**, e  controlla che tutti i modelli che soddisfano $KB$  soddisfano anche $\alpha$, questo 
 
-l'algoritmo è simile a quello della [[Ricerca in profondita BackTracking (BDF)|ricerca con backtracking]] quindi è [[Ricorsione|ricorsivo]], percorrendo in profondità lo spazio delle assegnazioni di verità. Segue queste linee
+Più in dettaglio l'algoritmo è simile a quello della [[Ricerca in profondita BackTracking (BDF)|ricerca con backtracking]] quindi è [[Ricorsione|ricorsivo]], percorrendo in profondità lo spazio delle assegnazioni di verità. Segue queste linee
 - Per _ogni_ **modello** si ha che
 	- Se il **modello soddisfa** $KB$ **allora** si controlla che **soddisfi** alche $\alpha$
 		- Se **non** soddisfa $\alpha$ allora $\alpha$ non è conseguenza logica
@@ -55,8 +56,7 @@ Lo pseudo codice che ritorna $True$ o $False$ è il seguente:
 \end{algorithm}
 ```
 
-
-questo algoritmo ha la 
+questo algoritmo ha le seguenti proprietà: 
 - **Correttezza** (**soundness**): in quanto l'algoritmo aderisce alla definizione di implicazione logica
 - **Completezza** (**completness**) in **spazi finiti**:  l'esplorazione esaustiva dello spazio dei modelli assicura che tutte le possibilità vengano considerate.
 - **NON Completezza** (**completness**) in **spazi infiniti**: si puo bloccare in discese infinte
@@ -66,4 +66,8 @@ mentre dal punti di vista computazionale, indicando con  $n$ rappresenta il nume
  - **[[Complessita|complessità spaziale]]**:  si mantiene entro $O(n)$ grazie all'adozione di un'esplorazione in profondità, che limita il numero di informazioni simultaneamente memorizzate.
 
 
-sebbene tale approccio sia formalmente corretto e applicabile a qualsiasi scenario finito, la sua scalabilità è limitata. Il problema dell'implicazione nella logica proposizionale è classificato come [[classe di complessita - co-NP-completo|co-NP-completo]], il che implica che, in linea generale, ogni algoritmo conosciuto per l'inferenza proposizionale presenta una complessità esponenziale nel caso peggiore rispetto alla dimensione dell'input.
+>[!tip] 
+>l approccio è formalmente **corretto** e applicabile a qualsiasi **scenario finito** ma non è ben scalabile
+
+
+

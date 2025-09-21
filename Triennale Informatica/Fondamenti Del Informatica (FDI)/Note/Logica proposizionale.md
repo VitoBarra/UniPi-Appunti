@@ -1,8 +1,10 @@
 ---
+Course 2: "[[Fondamenti Del Informatica (FDI)]]"
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 tags:
   - FDI
-Area: 
+  - IIA
+Area:
 topic: nota
 SubTopic:
 ---
