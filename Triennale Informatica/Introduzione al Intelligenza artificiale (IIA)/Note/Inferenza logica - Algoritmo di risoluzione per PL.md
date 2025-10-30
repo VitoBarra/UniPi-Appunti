@@ -1,11 +1,13 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
+Corse 1: "[[Artificial Intelligence Fundamentals (AIF)]]"
 topic: nota
 tags:
   - IIA
+  - AIF
 ---
 
-# Algoritmo PL per l'inferenza logica
+# Inferenza logica - Algoritmo di risoluzione per PL 
 ---
 L'[[Algoritmi|algoritmo]] **PL** ([[Logica proposizionale|propositional logic]]) è un algoritmo di [[Sistemi di inferenza logica|inferenza logica ]] che si basa sulla [[Dimostrazione di Teoremi per assurdo o contraddizione|dimostrazione per contraddizione]], secondo cui per provare che $KB \models \alpha$ è sufficiente mostrare che l **enunciato** $KB \land \neg \alpha$ è **[[Logica|insoddisfacibile]]**. 
 

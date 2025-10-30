@@ -42,9 +42,12 @@ tags:
 	3. [[Logica proposizionale]]
 		1. [[Problemi della Sodisfacibilita (SAT)]]
 		2. [[Forma normale congiuntiva (CNF)]]
-			1. [[CNF - Clausola definita e Clausola di Horn]]
+			1. [[K-Forma normale congiuntiva (CNF)]]
 		3. [[Forma normale disgiuntiva (DNF)]]
+		4. [[Forma a Clausola definita e Clausola di Horn]]
 	4. [[Logica del primo ordine (FOL)]]
+		1. [[Forma normale congiuntiva (CNF) per FOL]]
+		2. [[Forma a clausole definite per FOL]]
 	5. [[Algebra booleana]]
 
 ### Educational Material 🧱

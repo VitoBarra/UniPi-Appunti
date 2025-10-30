@@ -65,4 +65,4 @@ La procedura segue una logica di *ragionamento orientato agli obiettivi* (*goal-
 
 Nella struttura grafica corrispondente, il backward chaining si traduce nella risalita dal simbolo-obiettivo attraverso i rami logici, fino a raggiungere le foglie, cioè i fatti noti, necessari per la validità della deduzione.
 
-[[CNF - Clausola definita e Clausola di Horn]]
+[[Forma a Clausola definita e Clausola di Horn]]

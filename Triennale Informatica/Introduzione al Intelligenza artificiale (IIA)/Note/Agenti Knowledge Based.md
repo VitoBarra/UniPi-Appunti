@@ -8,7 +8,7 @@ tags:
 ---
 # Agenti Knowledge Based
 ---
-una **[[Agenti Razionali|agente]] basato sulla conoscenza** mantiene una _[[Sistemi di inferenza logica|knowledge base]]_ ** o **_KB_**: un insieme di __enunciati__ (**sentence**) espressi con un dato **[[Linguaggi formali|linguaggio]]**, Ogni enunciato è un asserzione su modo in cui è situato l'agente e possono essere dati per assunti ed essere vere a prescinde, e questi sono detti **Assiomi** oppure derivato da altre conoscenze, quindi inferiti.
+una **[[Agenti Razionali|agente]] basato sulla conoscenza** mantiene una **_[[Sistemi di inferenza logica|knowledge base]]_** o **_KB_**: un insieme di __enunciati__ (**sentence**) espressi con un dato **[[Linguaggi formali|linguaggio]]**, Ogni enunciato è un asserzione su modo in cui è situato l'agente e possono essere dati per assunti ed essere vere a prescinde, e questi sono detti **Assiomi** oppure derivato da altre conoscenze, quindi inferiti.
 
 
 l'**agente** interagisce con la **KB** mediante una interfaccia funzionale tell-ask
@@ -40,7 +40,6 @@ l'agente in astratto si comporta seguendo questo algoritmo:
 ```
 
 Il **comportamento** dell'agente si può descrivere al livello della conoscenza (**knowledge level**), dove è sufficiente specificare le informazioni di cui dispone e gli obiettivi.
-
 
 La costruzione di un agente basato sulla conoscenza può seguire un 
 - **approccio dichiarativo**: dove l'agente viene progressivamente istruito attraverso TELL, trasmettendogli le informazioni necessarie per operare nell'ambiente.

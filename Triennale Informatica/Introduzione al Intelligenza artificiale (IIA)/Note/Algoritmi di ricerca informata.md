@@ -14,7 +14,7 @@ gli **Algoritmi di ricerca informati** sono un classe di [[Algoritmi di ricerca 
 l idea di avere una stima serve per fare Pruning dei rami non utili riducendo cosi di la [[Complessita]] in spazio e tempo
 
 
-gli algoritmi si basano si basano sulla [[Ricerca Best-first|Ricerca Best-first]] ma si utilizza una **_funzione di valutazione_** $f$ del nodo $n$  che dipende da un **euristica**. Un **euristica** è definita sul problema specifico utilizzano le informazioni che si hanno su quel problema.
+gli algoritmi si basano si basano sulla [[Ricerca Best-first|Ricerca Best-first]] ma si utilizza una **_funzione di valutazione_** $f$ del nodo $n$  che dipende da un **euristica**. Un **euristica** è definita sul problema specifico utilizzano le informazioni che si hanno su quel problema nel caso di 
 
 
 

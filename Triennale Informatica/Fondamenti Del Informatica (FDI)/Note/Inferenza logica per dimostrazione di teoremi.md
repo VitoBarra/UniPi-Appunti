@@ -18,9 +18,10 @@ la notazione per una **regola di inferenza** è la seguente:
 dati gli **[[Logica|enunciati]]** $p_i$ che $c_j$ si ha la regola di inferenza:  $$\frac{p_1, \dots,p_n}{c_1,\dots,c_m}$$ dove $p_i$ sono le **premesse** necessarie a dedurre le $c_i$ **conclusioni**, quindi è equivalente a $$p_1\land \dots \land p_n \models c_1 \land \dots \land c_m$$
 le **regole di inferenza** basate sulla [[Logica proposizionale|Logica proposizionale]] sono:
 
+### Rregola Modus Ponens
  **Modus Ponens**, letteralmente "modo che afferma", formalizzata come:$$\frac{\alpha \Rightarrow \beta , \ \alpha} {\beta}$$
 **And-Elimination**, ovvero, data una **congiunzione** (and $\land$), è possibile inferire ciascun **congiunto** separatamente, formalizzata come: $$\frac{\alpha \land \beta }{\alpha}$$
-
+### Rregola di risoluzione
 La **regola di risoluzione** permette di eliminare due **enunciati** che sono in contraddizione tra di loro. è espressa formalmente come:$$
 \frac{\ell_1 \lor \cdots \lor \ell_k, \quad m}{\ell_1 \lor \cdots \lor \ell_{i-1} \lor \ell_{i+1} \lor \cdots \lor \ell_k}
 $$dove $\ell_i$ e $m=\lnot \ell_i$  ovvero sono **complementari** e uno è il negato del altro.

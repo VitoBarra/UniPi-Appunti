@@ -27,7 +27,7 @@ I Risolvere un **CSP** significa trovare un **assegnamento alla variabile** $\{X
 - **completa**: se ogni variabile è stata **assegnata** altrimenti viene detta **parziale** 
 se un assegnamento è **coerente è parziale** è detta **soluzione parziale** mentre se è **coerente è completa** allora è una soluzione del **CSP**. 
 
-trovare la **soluzione di un CSP** è in generale un problema **[[Classi di complessita - NP-Completo|NP-completo]]**, sebbene esistano classi importanti di **CSP** che possono essere risolte in modo più efficiente.
+trovare la **soluzione di un CSP** è in generale un problema **[[Complessita|NP-completo]]**, sebbene esistano classi importanti di **CSP** che possono essere risolte in modo più efficiente.
 
 
 ###  Tipi di vincoli

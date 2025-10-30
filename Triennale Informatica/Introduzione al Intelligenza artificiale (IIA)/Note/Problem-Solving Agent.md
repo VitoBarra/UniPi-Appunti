@@ -9,7 +9,7 @@ tags:
 
 # Problem-Solving Agent
 ---
-Agli **Agenti risolutori di problemi** sono [[Agenti Razionali|agenti]] che utilizzano una rappresentazione dell’ambiente [[Rappresentazione del ambiente al interno di un agente|atomica]] è il loro compito è partire in un dato stato e raggiungere un stato obiettivo. 
+Agli **Agenti risolutori di problemi** sono [[Agenti Razionali|agenti]] che utilizzano una rappresentazione dell’ambiente [[Rappresentazione del ambiente|atomica]] è il loro compito è partire in un dato stato e raggiungere un stato obiettivo. 
 Adottano il __paradigma__ dei [[Problemi di ricerca|problemi ricerca]] e quindi per definire un comportamento esplorano uno **spazio di stati** con un [[Algoritmi di ricerca non informati|algoritmo di ricerca]],  fino a raggiungere lo **stato obiettivi**, costruendo una **sequenza di azioni** per ottenere quello stato.
 
 - **Formulazione dell’obiettivo**: l’agente stabilisce quale stato del mondo desidera raggiungere. Gli obiettivi guidano il comportamento limitando lo spazio delle possibili azioni da considerare.

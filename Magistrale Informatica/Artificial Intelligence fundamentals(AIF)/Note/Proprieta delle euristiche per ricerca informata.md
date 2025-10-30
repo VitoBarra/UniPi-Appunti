@@ -9,14 +9,14 @@ topic:
 SubTopic:
 ---
 
-# Proprieta delle euristiche
+# Proprieta delle euristiche per ricerca informata
 ---
-Alcune proprietà delle euristiche negli [[algoritmi di ricerca informata|algoritmi di ricerca informata]]  
+Alcune proprietà delle euristiche usate negli [[algoritmi di ricerca informata|algoritmi di ricerca informata]].
 
-indicando con  $^*$ qualsiasi cosa considerata ottima 
-#### Ammissibilità di un euristica
-un **euristica ammissibile** è una **sottostima** di $h^*$	quindi vale che $$\forall n.h(n) \leq h^*(n)$$
-#### Consistenza di un euristica
+
+un **euristica ammissibile** è una **sottostima** del costo ottimo $h^*$quindi vale che $$\forall n.h(n) \leq h^*(n)$$
+
+
 Un __euristica consistente__ è un euristica per vale la seguente proprietà
 **sia**:
 - Dove $n’$ è un successore di $n$
