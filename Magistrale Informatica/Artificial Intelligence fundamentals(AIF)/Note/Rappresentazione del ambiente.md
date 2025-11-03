@@ -9,7 +9,7 @@ SubTopic:
 
 # Rappresentazione del ambiente
 ---
-La **rappresentazione dell'[[Definizione di problemi-Ambienti|ambiente]]** all'interno dei **[[Agenti Razionali|programmi agenti]]** può essere realizzata secondo tre diversi paradigmi di rappresentazione, che si collocano lungo un asse di crescente complessità ed espressività: **atomica, fattoriale e strutturata**.
+La **rappresentazione dell'[[Definizione di Problemi-Ambienti|ambiente]]** all'interno dei **[[Agenti Razionali|programmi agenti]]** può essere realizzata secondo tre diversi paradigmi di rappresentazione, che si collocano lungo un asse di crescente complessità ed espressività: **atomica, fattoriale e strutturata**.
 
 
 Nella **rappresentazione atomica**, ogni stato dell’ambiente viene trattato come un’entità indivisibile, priva di struttura interna. Ogni stato è un "atomo" identificabile solo in quanto uguale o diverso rispetto a un altro.

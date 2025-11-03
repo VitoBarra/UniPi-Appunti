@@ -9,7 +9,7 @@ SubTopic:
 
 # Ricerca in spazi non deterministici
 ---
-In [[Definizione di problemi-Ambienti|ambienti non deterministici]], la stessa azione nello stesso stato puo risultare in piu stati possibili. Un [[Agenti Razionali|agente razionale]] situato un ambiente di questo tipo per fare [[Problemi di ricerca|ricerca]] non può ragionare in termini di stati singoli, ma deve considerare un insiemi di **stati possibili**.
+In [[Definizione di Problemi-Ambienti|ambienti non deterministici]], la stessa azione nello stesso stato puo risultare in piu stati possibili. Un [[Agenti Razionali|agente razionale]] situato un ambiente di questo tipo per fare [[Problemi di ricerca|ricerca]] non può ragionare in termini di stati singoli, ma deve considerare un insiemi di **stati possibili**.
 
 Tale insieme viene rappresentato attraverso uno ***stato di credenza*** (***belief state***), che riflette tutte le configurazioni che l’agente considdera **plausibili**. Di conseguenza, la **soluzione** alla ricerca deve essere strutturata come un ***piano condizionale*** (**contingent solution**), in cui le azioni da intraprendere **dipendono dai percetti** che l'agente riceve durante l’esecuzione del piano. Un **piano condizionale** ha quindi la forma di un [[Albero di decisione|albero decisionale]], le cui diramazioni corrispondono a possibili evoluzioni del processo decisionale in presenza di incertezza.
 

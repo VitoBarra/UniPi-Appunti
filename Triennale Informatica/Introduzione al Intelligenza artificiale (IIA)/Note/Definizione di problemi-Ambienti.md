@@ -6,7 +6,7 @@ tags:
   - IIA
   - AIF
 ---
-# Definizione di problemi-Ambienti
+# Definizione di Problemi-Ambienti
 ---
 Definire un problema per un [[Agenti Razionali|agente]] significa caratterizzare ’ambiente operativo in cui esso si trova ad agire. La definizione accurata del problema e della progettazione di un agente passa attraverso il **modello PEAS**, che descrive:
 - _P_ (**Performance measure**): il criterio secondo cui si valuta il comportamento dell’agente.

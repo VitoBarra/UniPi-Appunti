@@ -9,7 +9,7 @@ topic: nota
 
 # Alberi di ricerca AND-OR
 ---
-gli **Alberi di ricerca AND-OR** sono alberi usati per rappresentare lo spazio degli stati durante la [[Problemi di Ricerca in spazi non deterministici|ricerca]] in [[Definizione di problemi-Ambienti|ambienti non deterministici]]. 
+gli **Alberi di ricerca AND-OR** sono alberi usati per rappresentare lo spazio degli stati durante la [[Problemi di Ricerca in spazi non deterministici|ricerca]] in [[Definizione di Problemi-Ambienti|ambienti non deterministici]]. 
 
 è un [[Alberi|albero]] composti da due tipi di nodi: 
 - I nodi **_OR_** rappresentano le scelte dell’agente, ovvero la selezione di una singola azione da eseguire.

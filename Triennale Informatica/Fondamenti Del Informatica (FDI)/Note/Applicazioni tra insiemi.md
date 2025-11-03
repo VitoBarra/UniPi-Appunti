@@ -36,5 +36,5 @@ Questa proprietà rende l applicazione, che è anche una [[Funzioni|funzione]] u
 
 
 #### Relazione tra Cardinalità e proprietà
-per controllare decidere le prosperità soddisfatte si puo usare un criterio basato sulla [[Cardinalità di un insieme|Cardinalita]]
+per controllare decidere le prosperità soddisfatte si puo usare un criterio basato sulla [[Insiemi - Cardinalita|Cardinalita]]
 ![[Pasted image 20230515182103.png]]

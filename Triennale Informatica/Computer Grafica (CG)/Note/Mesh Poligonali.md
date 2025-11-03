@@ -61,7 +61,7 @@ Per ottimizzare il numero di vertici necessari per la rappresentazione della mes
 
 
 Sia $\mathcal{M}$ una Mesh 
-allora l [[Insiemi Matematici|insieme]] di tutti i vicini di un vertice $v$  nella Mesh é detto $1$-_ring_ del vertice ed é  definito come $$v_1(i)=\{j\mid \{ i,j \} \in\mathcal{K}  \}$$ e la [[Cardinalità di un insieme|cardinalita]] $|v_1(i)|$ é detta __grado__ o __valenza__ del vertice $v_i$ 
+allora l [[Insiemi Matematici|insieme]] di tutti i vicini di un vertice $v$  nella Mesh é detto $1$-_ring_ del vertice ed é  definito come $$v_1(i)=\{j\mid \{ i,j \} \in\mathcal{K}  \}$$ e la [[Insiemi - Cardinalita|cardinalita]] $|v_1(i)|$ é detta __grado__ o __valenza__ del vertice $v_i$ 
  
 
 una __Strip di vertici__ é una sequenza di _vertici ordinati_ che rappresentano dei triangoli senza ambiguità $\{ v_0,v_1,\dots,v_n \}$ ed ogni triangolo $i$ é  rappresentato come $\{v_i,v_{i+1},v_{i+2}  \}$

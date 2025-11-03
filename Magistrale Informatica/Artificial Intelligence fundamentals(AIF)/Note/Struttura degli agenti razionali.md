@@ -66,10 +66,10 @@ Questo ha il vantaggio di essere molto piu piccolo rispetto al approccio tabella
 ```
 
 ![[IMG - aggente reattivi semplici.png]]
-questo tipo di agente è limitato in [[Definizione di problemi-Ambienti|ambienti parzialmente osservabili]]. In tali contesti, la percezione attuale può non contenere informazioni sufficienti per una scelta razionale Una strategia per mitigare tali limiti è l’introduzione della randomizzazione nelle decisioni. In assenza di informazioni sufficienti, un agente può scegliere casualmente tra più azioni, questo aiuta ad evitare comportamenti ciclici. Questo pero si puo anche ottenere con agenti piu sofisticati e solitamente questi sono migliori.  
+questo tipo di agente è limitato in [[Definizione di Problemi-Ambienti|ambienti parzialmente osservabili]]. In tali contesti, la percezione attuale può non contenere informazioni sufficienti per una scelta razionale Una strategia per mitigare tali limiti è l’introduzione della randomizzazione nelle decisioni. In assenza di informazioni sufficienti, un agente può scegliere casualmente tra più azioni, questo aiuta ad evitare comportamenti ciclici. Questo pero si puo anche ottenere con agenti piu sofisticati e solitamente questi sono migliori.  
 
 ##### Agenti riflessivo basati su modello (con stato)
-Un **Agente basati su modello** è un [[Agenti Razionali|agente]] che mantiene uno **_stato interno_** del [[Definizione di problemi-Ambienti|ambiente]] ciò permette in [[Definizione di problemi-Ambienti|ambiente parzialmente osservabili]] di mantenere una conoscenza delle porzioni del ambiente che l agente non puo percepire *ora*.
+Un **Agente basati su modello** è un [[Agenti Razionali|agente]] che mantiene uno **_stato interno_** del [[Definizione di Problemi-Ambienti|ambiente]] ciò permette in [[Definizione di Problemi-Ambienti|ambiente parzialmente osservabili]] di mantenere una conoscenza delle porzioni del ambiente che l agente non puo percepire *ora*.
 
 Lo **_stato interno_** è costruito e aggiornato a partire dalla **storia delle percezioni**. L'aggiornamento continuo di tale stato richiede che l'agente incorpori due forme di conoscenza fondamentali: un **modello di transizione** e un **modello dei sensori**.
 

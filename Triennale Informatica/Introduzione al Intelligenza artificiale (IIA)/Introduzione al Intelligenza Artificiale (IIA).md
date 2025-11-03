@@ -8,7 +8,7 @@ tags:
 # Introduzione al Intelligenza Artificiale (IIA)
 
 ## Course MOC  📒
-1. [[Definizione di problemi-Ambienti]]
+1. [[Definizione di Problemi-Ambienti]]
 2. [[Agenti Razionali]]
 3. [[Problem-Solving Agent]]
 	1. [[Algoritmi di ricerca non informati]]

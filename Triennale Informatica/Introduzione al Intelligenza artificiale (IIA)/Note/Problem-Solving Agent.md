@@ -18,7 +18,7 @@ Adottano il __paradigma__ dei [[Problemi di ricerca|problemi ricerca]] e quindi 
  - **Esecuzione**: una volta ottenuta la soluzione, l’agente esegue le azioni una alla volta.
 
 Le strategie per ottenere lo stato obiettivo sono 2:
-- **open-loop**: l’agente può ignorare i suoi percezione durante l’esecuzione del piano trovato. Questo applicabile In [[Definizione di problemi-Ambienti|ambienti noti, deterministici e completamente osservabili]] dove la **soluzione** è una sequenza fissa di azioni
-- **closed-loop**: l’agente continua a monitorare i percetti durante l’esecuzione, usata in  [[Definizione di problemi-Ambienti|ambienti parzialmente osservabili o non deterministici]], dove le della soluzione potrebbero cambiare a seconda dei cambiamenti del ambiente
+- **open-loop**: l’agente può ignorare i suoi percezione durante l’esecuzione del piano trovato. Questo applicabile In [[Definizione di Problemi-Ambienti|ambienti noti, deterministici e completamente osservabili]] dove la **soluzione** è una sequenza fissa di azioni
+- **closed-loop**: l’agente continua a monitorare i percetti durante l’esecuzione, usata in  [[Definizione di Problemi-Ambienti|ambienti parzialmente osservabili o non deterministici]], dove le della soluzione potrebbero cambiare a seconda dei cambiamenti del ambiente, serve quindi un piano contigenziale
 
 

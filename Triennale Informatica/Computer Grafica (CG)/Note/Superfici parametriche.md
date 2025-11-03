@@ -25,7 +25,7 @@ la __Tensor product surface__ è un modo per definire le curve parametriche
 per rendere la superfice piu smooth si usano delle funzioni di __blending__, dalla scelta della funzione dipendono le proprietà di [[Continuità di una funzione|continuità]], [[Funzioni differenziabili|differenziabilita]] e se la curva é  un [[Interpolazione VS approssimazione|interpolazione o una approssimazione]]  
 La formulazione generale é la seguente
 _sia_
-- $P$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control net__ di [[Cardinalità di un insieme|cardinalitá]]  $n \times m$ 
+- $P$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control net__ di [[Insiemi - Cardinalita|cardinalitá]]  $n \times m$ 
 - $p_{ij}$ un __control net__
 - $B_i(\cdot),B_j(\cdot)$ due __funzione di blending__
 _allora_ vale che $$S(t,s)=\sum^n_{i=0}\sum^m_{j=0}p_{ij}B_i(t)B_j(s) \ \ \ 0 \leq t \leq 1$$

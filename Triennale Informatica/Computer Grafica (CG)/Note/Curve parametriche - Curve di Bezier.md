@@ -11,7 +11,7 @@ SubTopic: "[[Curve parametriche]]"
 ---
 le __curve di Bezier__ sono un tipo di [[Curve parametriche|curva parametrica]] di classe __[[Curve parametriche#Spline|Spline]]__ e sono definite come
 _sia_
-- $\boldsymbol{P}$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control point__ di [[Cardinalità di un insieme|cardinalita]]  $n$
+- $\boldsymbol{P}$ il __control polygon__ ovvero l [[Insiemi Matematici|insieme]] dei __control point__ di [[Insiemi - Cardinalita|cardinalita]]  $n$
 - $P_i$ un __control point__
 - $B_{i,k}(\cdot)$ la __funzione di blending__ realizzata con il [[Polinomio di Bernstein|polinomio di Bernstein]] di grado $k$
 _allora_ le curve di Bezier sono definite come $$P(t)=\sum^n_{i=0}p_iB_{i,n-1}(t) \ \ \ 0 \leq t \leq 1$$

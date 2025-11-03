@@ -9,12 +9,13 @@ tags:
 
 ## Course MOC  📒
 1. [[Insiemi Matematici]]
-	1. [[Cardinalità di un insieme]]
-	2. [[Partizione di un insieme]]
-	3. [[Relazioni tra insiemi]]
+	1. [[Insiemi - Cardinalita]]
+	2. [[Insiemi - Power Set]]
+	3. [[Partizione di un insieme]]
+	4. [[Relazioni tra insiemi]]
 		1. [[Applicazioni tra insiemi]]
 		2. [[Funzioni]]
-	4.  [[Insiemi infiniti numerabili]]
+	5.  [[Insiemi infiniti numerabili]]
 2. [[Induttività]]
 	1. [[Fattoriale]]
 3. [[Ricorsione]]

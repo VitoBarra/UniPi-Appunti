@@ -11,9 +11,9 @@ SubTopic:
 
 # Agenti Razionali
 ---
-un __agente__ è una qualsiasi entità **situata** ovvero opera in un l'[[Definizione di problemi-Ambienti|ambiente]] dal quale è in grado di percepirne lo stato è il cambiamento tramite **sensori** e agisce su esso con degli **attuatori** (o **affectors**)
+un __agente__ è una qualsiasi entità **situata** ovvero opera in un l'[[Definizione di Problemi-Ambienti|ambiente]] dal quale è in grado di percepirne lo stato è il cambiamento tramite **sensori** e agisce su esso con degli **attuatori** (o **affectors**)
 ![[IMG - AIF agente.jpeg]]
- Ogni **agente** è caratterizzato dalla sua __sequenza percettiva__ (__percept sequence__), ovvero l’intera *storia* delle percezioni prese del [[Definizione di problemi-Ambienti|ambiente]]. A partire da questa sequenza, l’agente decide l’azione da compiere. Si definisce la __funzione agente__ come una mappatura tra sequenze percettive e azioni:$$
+ Ogni **agente** è caratterizzato dalla sua __sequenza percettiva__ (__percept sequence__), ovvero l’intera *storia* delle percezioni prese del [[Definizione di Problemi-Ambienti|ambiente]]. A partire da questa sequenza, l’agente decide l’azione da compiere. Si definisce la __funzione agente__ come una mappatura tra sequenze percettive e azioni:$$
 \text{sequenza percettiva} \xrightarrow{f} \text{azione}
 $$Tale funzione rappresenta in modo esaustivo il comportamento dell’agente, poiché specifica quale azione intraprendere in risposta a qualsiasi possibile storia percettiva. 
 

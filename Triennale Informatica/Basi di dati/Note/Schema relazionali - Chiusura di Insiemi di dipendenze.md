@@ -23,7 +23,7 @@ un _Algoritmo Esaustivo_ è quello di applicare ad $F$ esaustivamente gli [[Sche
 
 Infatti 
 _sia_ 
-- la [[Cardinalità di un insieme|cardinalita]] di $|T|=a$ 
+- la [[Insiemi - Cardinalita|cardinalita]] di $|T|=a$ 
 _allora_ il numero di _Dipendenze banali_ $T \rightarrow X$ con $X \subseteq T$ non vuoto in $F^+$ è  $2^{a}-1$, questo viene dalla conto della _presenza-assenza degli elementi_
 
 

@@ -10,7 +10,7 @@ tags:
 ---
 Gli **Algoritmi di Ricerca locale** sono una classe di [[Algoritmi|algoritmi]] per risolvere **[[Problemi di ricerca|problemi di ricerca]]** che sono caratterizzati dal fatto di spostarsi da uno stato iniziale nei suoi immediati vicini senza valutare i passi successivi e senza ricordando il percorso fatto fino allo stato correte. Infatti si utilizza quando solo lo stato $goal$ è importante e quindi quando non interessa avere il **path** per arrivare a quel $goal$, anche perche a volte risalire al path avendo la soluzione è triviale.
 
-le assunzioni sul [[Definizione di problemi-Ambienti|Ambiente]] sono: 
+le assunzioni sul [[Definizione di Problemi-Ambienti|Ambiente]] sono: 
   _Statico_ | _Parzialmente Osservabile_ | _Continuo_/discreto | _Non Deterministico_ | _Sconosciuto_
             
 

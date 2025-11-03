@@ -9,7 +9,7 @@ SubTopic:
 
 # Ambienti stocastici
 ---
-la **Ricerca ExpectiMiniMax** è un algoritmo di ricerca estensione del algoritmo di [[Ricerca MiniMax|Ricerca MiniMax]] che gli permette di fare ricerca in **[[Definizione di problemi-Ambienti|ambienti stocastici]]** come ad esempio in **giochi stocastici**. Questo signifca che l'algoritmi deve gestire un **elemento di imprevedibilità**, come ad esempio puo essere il lancio di dadi.
+la **Ricerca ExpectiMiniMax** è un algoritmo di ricerca estensione del algoritmo di [[Ricerca MiniMax|Ricerca MiniMax]] che gli permette di fare ricerca in **[[Definizione di Problemi-Ambienti|ambienti stocastici]]** come ad esempio in **giochi stocastici**. Questo signifca che l'algoritmi deve gestire un **elemento di imprevedibilità**, come ad esempio puo essere il lancio di dadi.
 
 
 L'**albero di gioco** è esteso con l'inclusione di nodi di probabilità, detti ***chance nodes***. I rami che partono da tali nodi indicano i possibili risultati del evento [[Definizione di Probabilita|probabilistico]],

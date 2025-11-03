@@ -19,7 +19,7 @@ _siano_
 - $f$ il frammento che si vuole renderizare
 - $K$  l insieme dei suoi vicini chiamato __kernel__ 
 ![[Pasted image 20240308041604.png]]
-_allora_ si calcola se  $f$ è in ombra eseguendo il test dello shadow mapping su $f$ per ogni suo vicini in $K$  ottenendo per ogni frammento testato un valore booleano e facendo la [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]]  con la formula $$lit=1-\cfrac{1}{|K|}\sum (z_{ij}<z_r)=\cfrac{1}{|K|}\sum (z_{ij}>z_r)$$dove $|K|$ è la [[Cardinalità di un insieme|cardinalita]] del [[Insiemi Matematici|insieme]] $K$  __lit__ è  un valore tra $[0,1]$  questo valore si utilizza per calcolare l ombra
+_allora_ si calcola se  $f$ è in ombra eseguendo il test dello shadow mapping su $f$ per ogni suo vicini in $K$  ottenendo per ogni frammento testato un valore booleano e facendo la [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]]  con la formula $$lit=1-\cfrac{1}{|K|}\sum (z_{ij}<z_r)=\cfrac{1}{|K|}\sum (z_{ij}>z_r)$$dove $|K|$ è la [[Insiemi - Cardinalita|cardinalita]] del [[Insiemi Matematici|insieme]] $K$  __lit__ è  un valore tra $[0,1]$  questo valore si utilizza per calcolare l ombra
 ![[Pasted image 20240308034946.png]]
 
 Non si prende la media dei punti siccome altrimenti staremo andando a fare il sample di superfici inesistenti

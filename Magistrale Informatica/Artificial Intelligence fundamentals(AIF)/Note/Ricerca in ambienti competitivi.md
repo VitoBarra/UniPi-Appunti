@@ -9,7 +9,7 @@ SubTopic:
 
 # Ricerca in ambienti competitivi
 ---
-in [[Definizione di problemi-Ambienti|ambienti multi-agente]] accade che gli agenti siano in **competizione** tra loro, allora se un dato [[Agenti Razionali|agente]] deve raggiungere uno stato [[Problemi di ricerca|obiettivo]] bisognare usare l'approccio dell’**adversarial search**.
+in [[Definizione di Problemi-Ambienti|ambienti multi-agente]] accade che gli agenti siano in **competizione** tra loro, allora se un dato [[Agenti Razionali|agente]] deve raggiungere uno stato [[Problemi di ricerca|obiettivo]] bisognare usare l'approccio dell’**adversarial search**.
 
 Il dominio privilegiato per lo studio di tali dinamiche è rappresentato dai giochi a due giocatori a somma zero, come scacchi, Go e poker, nei quali l’obiettivo di un agente è diametralmente opposto a quello dell’altro. Questi giochi offrono una struttura particolarmente adatta alla formalizzazione algoritmica: la rappresentazione dello stato è generalmente compatta, lo spazio delle azioni è contenuto e le regole che governano la transizione tra stati sono esplicite e ben definite. La semplicità apparente del dominio consente però di sviluppare algoritmi che affrontano efficacemente la complessità insita nella pianificazione contro un avversario che pianifica a sua volta.
 

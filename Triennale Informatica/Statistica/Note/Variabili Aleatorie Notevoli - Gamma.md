@@ -4,7 +4,7 @@ topic: nota
 tags:
   - STAT
 ---
-# Variabile Aleatorie Notevoli - Gamma
+# Variabili Aleatorie Notevoli - Gamma
 ---
 la [[Variabili Aleatorie (Casuali)|variaible aleatoria]] gamma ha [[Legge di Probabilita|Legge di Probabilita]] definita dalla __densita gamma__ di parametri $r,\lambda>0$ indicata con $\Gamma(r,\lambda)$ questa è definita come $$\Gamma(r,\lambda)=\begin{cases}
 \frac{1}{\Gamma(r)}\lambda^{r}x^{r-1}e^{-\lambda x} & x>0 \\

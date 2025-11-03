@@ -9,13 +9,39 @@ SubTopic:
 
 # Planning gerarchico
 ---
-Il planning gerarchico rappresenta una strategia per affrontare la complessità del [[Planning]] e della [[Definizione di problemi-Ambienti|definizione dei problemi]] nel contesto dell’[[Intelligenza artificiale|intelligenza artificiale]]. Esso si basa sulla decomposizione di un compito complesso in una gerarchia di sotto-compiti, fino a raggiungere un insieme di azioni primitive. Questa struttura permette di gestire il processo decisionale in modo scalabile, mantenendo la coerenza tra livelli diversi di astrazione e riducendo il costo computazionale della ricerca di soluzioni.
+Il **planning gerarchico** è una strategia per il [[Planning|Planning]], esso si basa sulla **decomposizione gerarchia** ovvero si divide un piano in più attività ad alto livello. il formalismo usato per descrivere questi piani sono **hierarchical task networks** (**HTN**), l’agente opera attraverso due categorie fondamentali di azioni:
+- **Azioni primitive**, dotate di **precondizioni** ed **effetti** direttamente applicabili all’ambiente 
+- **azioni di alto livello** (HLA), che rappresentano **compiti astratti** e possono essere **raffinati** in sequenze di altre azioni, primitive o ulteriormente astratte.
+Una **HLA** può avere più possibili **raffinamenti**, ciascuno dei quali descrive una modalità alternativa per raggiungere lo stesso **obiettivo operativo** sono dette
+- **implementazioni**:  se sono composte solo da **azioni ground**
+- **azioni di alto livello** (HLA) se contengono almeno un altra zione ad **alto livello** 
+La concatenazione delle **implementazioni** di ogni **HLA** definisce un’**implementazione completa** del piano. Un piano di alto livello è considerato valido se almeno una delle sue **implementazioni complete** conduce allo **stato obiettivo** a partire dallo **stato iniziale**.
 
-Nel modello delle reti di compiti gerarchiche (HTN), l’agente opera attraverso due categorie fondamentali di azioni: le **azioni primitive**, dotate di precondizioni ed effetti direttamente applicabili all’ambiente, e le **azioni di alto livello** (HLA), che rappresentano compiti astratti e possono essere raffinati in sequenze di altre azioni, primitive o ulteriormente astratte. Una HLA può avere più possibili raffinamenti, ciascuno dei quali descrive una modalità alternativa per raggiungere lo stesso obiettivo operativo. La concatenazione delle implementazioni di ogni HLA definisce un’**implementazione completa** del piano. Un piano di alto livello è considerato valido se almeno una delle sue implementazioni conduce allo stato obiettivo a partire dallo stato iniziale, principio coerente con la scelta razionale sviluppata per gli [[Agenti Razionali|agenti razionali]].
+un esempio di raffinamento
+$$
+\begin{align*}
+&\text{Refinement}\Big(\text{Go}(\text{Home}, \text{SFO}), \\
+&\quad \text{STEPS: } \big[\text{Drive}(\text{Home}, \text{SFOLongTermParking}), \\
+&\quad \quad \text{Shuttle}(\text{SFOLongTermParking}, \text{SFO})\big] \Big) \\
+&\text{Refinement}\Big(\text{Go}(\text{Home}, \text{SFO}), \\
+&\quad \text{STEPS: } \big[\text{Taxi}(\text{Home}, \text{SFO})\big] \Big) \\
+\\
+&\text{Refinement}\Big(\text{Navigate}([a, b], [x, y]), \\
+&\quad \text{PRECOND: } a = x \wedge b = y \\
+&\quad \text{STEPS: } \big[ \big] \Big) \\
+&\text{Refinement}\Big(\text{Navigate}([a, b], [x, y]), \\
+&\quad \text{PRECOND: } \text{Connected}([a, b], [a - 1, b]) \\
+&\quad \text{STEPS: } \big[\text{Left}, \text{Navigate}([a - 1, b], [x, y])\big] \Big) \\
+&\text{Refinement}\Big(\text{Navigate}([a, b], [x, y]), \\
+&\quad \text{PRECOND: } \text{Connected}([a, b], [a + 1, b]) \\
+&\quad \text{STEPS: } \big[\text{Right}, \text{Navigate}([a + 1, b], [x, y])\big] \Big)
+\end{align*}
+$$
 
+Per costruire un **implementazione completa** c è possiamo usare il fatto che quando una **HLA** dispone di una sola implementazione, è possibile dedurre direttamente le sue **precondizioni** ed **effetti** a partire dalle azioni primitive, trattandola come un’**azione atomica**, Se invece esistono più implementazioni, la pianificazione può essere affrontata in due modi: 
+
+Attraverso una **ricerca sui raffinamenti primitivi**, ovvero si fa una ricerca [[Ricerca in ampiezza (BF)|BF]] su tutte le possibili implementazioni e quindi discendendo quando un implementazione contiene un altra **HLA**. uno pseudo codice è il seguente:
 ```pseudo
-	
-
 \begin{algorithm}
 \caption{Hierarchical Search}
 \begin{algorithmic}
@@ -35,8 +61,8 @@ Nel modello delle reti di compiti gerarchiche (HTN), l’agente opera attraverso
                 \Return $plan$
             \EndIf
         \Else
-            \For{each $sequence$ in \Call{Refinements}{$hla, outcome, hierarchy$}}
-                \State \Call{add}{\Call{APPEND}{$prefix, sequence, suffix$} to $frontier$}
+            \ForAll{$sequence$ \textbf{in} \Call{Refinements}{$hla, outcome, hierarchy$}}
+            \State \Call{add}{\Call{APPEND}{$prefix, sequence, suffix$} to $frontier$}
             \EndFor
         \EndIf
     \EndWhile
@@ -45,8 +71,11 @@ Nel modello delle reti di compiti gerarchiche (HTN), l’agente opera attraverso
 \end{algorithm}
 ```
 
+//------Extra to review------//
 
-Quando una HLA dispone di una sola implementazione, è possibile dedurre direttamente le sue precondizioni ed effetti a partire dalle azioni primitive, trattandola come un’azione atomica. Se invece esistono più implementazioni, la pianificazione può essere affrontata in due modi: attraverso una **ricerca sui raffinamenti primitivi** o mediante un **ragionamento astratto** basato sulle HLAs stesse. Quest’ultimo approccio consente di costruire piani corretti a un livello concettuale elevato, senza la necessità di espandere tutte le sequenze di dettaglio, e si integra con le strategie di [[Planning Agent|agenti di pianificazione]] multilivello.
+oppure mediante un **ragionamento astratto** basato sulle HLAs stesse. Quest’ultimo approccio consente di costruire piani corretti a un livello di astrazione alto, senza la necessità di espandere tutte le sequenze di dettaglio.
+
+
 
 Dal punto di vista formale, si considera un modello di raffinamento regolare, in cui ogni azione non primitiva ha $r$ possibili raffinamenti, ciascuno composto da $k$ sotto-azioni al livello inferiore. Se la profondità totale del piano (in termini di azioni primitive) è $d$, il numero di nodi interni della gerarchia risulta $(d - 1)/(k - 1)$, e il numero totale di alberi di decomposizione possibili è $r^{(d-1)/(k-1)}$. Questa relazione mostra che mantenendo $r$ ridotto e $k$ elevato si ottiene una diminuzione del costo combinatorio rispetto ai metodi di [[Problem-Solving Agent|problem solving]] classici basati su ricerca esaustiva, come la [[Ricerca in ampiezza (BF)|ricerca in ampiezza]] o la [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|ricerca di costo uniforme]].
 
@@ -55,6 +84,8 @@ $$
 REACH(s, [h_1, h_2]) = \bigcup_{s' \in REACH(s, h_1)} REACH(s', h_2)
 $$
 Un piano di alto livello raggiunge il suo obiettivo se l’intersezione tra il suo insieme raggiungibile e l’insieme degli stati obiettivo non è vuota. Questo criterio è coerente con la prospettiva degli [[Agenti Razionali|agenti razionali]], nei quali una sequenza di azioni è ritenuta valida se conduce a uno stato in cui la funzione di utilità è soddisfatta.
+
+![[IMG - Planning gerarchico reachable set.png]]
 
 Dal punto di vista semantico, la pianificazione gerarchica distingue tra **semantica demoniaca** e **semantica angelica**. Nella prima, la scelta dell’implementazione è affidata a un agente avversario, come nei contesti di [[Ricerca in ambienti competitivi|ricerca competitiva]]; nella seconda, detta angelica, la scelta è controllata dall’agente stesso, che può selezionare il percorso più favorevole. La semantica angelica consente di considerare un’azione astratta come una scelta deliberata tra più possibilità disponibili.
 

@@ -7,9 +7,9 @@ topic:
 SubTopic: 
 ---
 
-# Ricerca in spazi parzialmente osservabili
+# Ricerca in ambienti parzialmente osservabili
 ---
-per risolvere un [[Problemi di ricerca|problema di ricerca]] In un **[[Definizione di problemi-Ambienti|ambiente]] parzialmente osservabile** si vuole  definire la funzione $PERCEPT(s)$  che rappresenta le percezioni locali ottenibili dal [[Agenti Razionali|agente]], queste saranno meno informative di poter vedere tutto il mondo. 
+per risolvere un [[Problemi di ricerca|problema di ricerca]] In un **[[Definizione di Problemi-Ambienti|ambiente]] parzialmente osservabile** si vuole  definire la funzione $PERCEPT(s)$  che rappresenta le percezioni locali ottenibili dal [[Agenti Razionali|agente]], queste saranno meno informative di poter vedere tutto il mondo. 
 Più **stati** possono generare lo stesso **percetto** e quindi la percezione  non individua univocamente lo stato reale, ma definisce uno **belief state** iniziale $b_0$, che rappresenta l’insieme degli stati **coerenti** con il percetto ricevuto.
 
 1. **Predizione**: attraverso la funzione $PREDICT(b, a) = \hat{b}$ (o $RESULT(b, a)$), si calcola lo stato di credenza risultante dall’esecuzione dell’azione $a$ a partire dallo stato di credenza $b$. Questo passaggio è analogo a quello nei [[Problemi di Ricerca in spazi non deterministici]], dove le azioni possono avere effetti multipli.

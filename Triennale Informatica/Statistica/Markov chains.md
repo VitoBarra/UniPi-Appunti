@@ -8,7 +8,7 @@ tags:
 ---
 # Markov chains
 ---
-Una **catena di Markov** è un processo stocastico a tempo discreto che soddisfa la **proprietà di Markov** anche detta asssenza di memoria, secondo cui la probabilità di transizione allo stato successivo dipende unicamente dallo stato attuale e non dalla sequenza degli stati precedenti. Formalmente, se $\{X_n\}_{n \in \mathbb{N}}$ è una sequenza di variabili aleatorie che rappresentano gli stati visitati al tempo $n$, la proprietà di Markov si esprime come:
+Una **catena di Markov** è un processo stocastico a **tempo discreto** che soddisfa la **proprietà di Markov** anche detta **assenza di memoria**, secondo cui la probabilità di transizione allo stato successivo dipende unicamente dallo stato attuale e non dalla sequenza degli stati precedenti. Formalmente, se $\{X_n\}_{n \in \mathbb{N}}$ è una sequenza di variabili aleatorie che rappresentano gli stati visitati al tempo $n$, la proprietà di Markov si esprime come:
 
 $$
 \begin{array}{}
@@ -35,3 +35,8 @@ $$
 $$
 
 Tale distribuzione rappresenta un equilibrio del sistema in cui la probabilità di essere in uno stato non cambia nel tempo. In presenza di irriducibilità, aperiodicità e positività ricorrente, la distribuzione stazionaria è unica e la catena converge verso di essa indipendentemente dalla distribuzione iniziale.
+
+
+
+markov chains del primo (a) e secondo (b) ordine viste come [[Bayesian network|bayes net]]
+![[IMG - frist e second order of Markov process with bayesian network.png]]
