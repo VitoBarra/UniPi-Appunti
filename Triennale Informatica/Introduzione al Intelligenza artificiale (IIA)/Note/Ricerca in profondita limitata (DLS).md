@@ -77,8 +77,7 @@ Esiste anche una sua implementazione ricorsiva:
 \end{algorithm}
 ```
 
-La scelta del limite $\ell$ è fondamentale per il successo dell'algoritmo: un valore troppo basso rischia di non raggiungere la soluzione, mentre un valore troppo alto può riportare i problemi tipici della [[Ricerca in profondita (DF)|Ricerca in profondità]] classica. 
-In alcuni casi, è possibile stabilire un limite efficace grazie alla conoscenza del dominio. Ad esempio, nella mappa della Romania, pur essendoci $20$ città (quindi $\ell = 19$ sarebbe un limite corretto), analizzando la struttura della mappa si scopre che qualsiasi città può essere raggiunta da un'altra in al massimo $9$ passi: questo valore rappresenta il [[Grafi|diametro del grafo]] degli stati e costituisce un limite molto più efficiente.
+La scelta del limite $\ell$ è fondamentale per il successo dell'algoritmo: un valore troppo basso rischia di non raggiungere la soluzione, mentre un valore troppo alto può riportare i problemi tipici della [[Ricerca in profondita (DF)|Ricerca in profondità]] classica.  In alcuni casi, è possibile stabilire un limite efficace grazie alla conoscenza del dominio. come ad esempio usando il [[Grafi|diametro del grafo]] su cui si pone l'albero di ricerca.
 
 ### Analisi della complessità
 

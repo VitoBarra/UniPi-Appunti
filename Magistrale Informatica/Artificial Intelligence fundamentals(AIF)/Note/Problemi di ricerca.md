@@ -22,7 +22,6 @@ dove:
 
 A queste componenti si aggiunge una **funzione di costo delle azioni**, detta $c(s, a, s')$ o $ACTION\text{-}COST(s, a, s')$, che assegna un valore numerico al costo di eseguire l’azione $a$ nello stato $s$ e arrivare allo stato $s'$. Questa funzione deve riflettere la metrica di prestazione adottata dall’agente. 
 
-
 Una **sequenza di azioni** forma un *percorso* (*path*), e una **soluzione** al problema è un percorso che collega lo stato iniziale a uno stato obiettivo. Il **costo totale del percorso** è dato dalla somma dei costi delle singole azioni:
 $$
 \sum_{i=1}^{n} c(s_{i-1}, a_i, s_i)

@@ -14,14 +14,12 @@ gli **Alberi di ricerca AND-OR** sono alberi usati per rappresentare lo spazio d
 è un [[Alberi|albero]] composti da due tipi di nodi: 
 - I nodi **_OR_** rappresentano le scelte dell’agente, ovvero la selezione di una singola azione da eseguire.
 - I nodi **_AND_** rappresentano le contingenze introdotte dall’ambiente: a seguito dell’esecuzione di un'azione, possono verificarsi più risultati possibili, tutti da considerare nel piano.
+questi due tipi di nodi si alternano rappresentando le risposte del ambiente alle possibili azioni del agente
 
-questi due tipi di noti di alternano rappresentando le risposte del ambiente alle possibili azioni del agente
-
-Una **soluzione** a un problema di ricerca **_AND-OR_** ovvero un **piano condizionale**  è un sottoalbero che soddisfa tre condizioni fondamentali:
+Una **soluzione** a un problema di ricerca **_AND-OR_** ovvero un **piano condizionale** è un sottoalbero che soddisfa tre condizioni fondamentali:
 - ogni foglia corrisponde a un nodo **obiettivo**
 - in ogni nodo **OR** viene specificata una sola azione
 - da ogni nodo **AND** vengono inclusi tutti gli archi che rappresentano i possibili risultati dell’azione eseguita.
-
 
 un **albero AND-OR**, puo essere esplorato usando gli algoritmi di ricerca classici come la[[Ricerca in profondita (DF)|Ricerca in profondita]] o la [[Ricerca in ampiezza (BF)|ricerca in ampieza]].
 

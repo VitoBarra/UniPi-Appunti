@@ -7,15 +7,14 @@ tags:
 
 # Ricerca Bidirezionale
 ---
-è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] applicabile in cui  
-
-- ricerca in avanti o guidata dai dati:
-	si esplora lo spazio di ricerca dallo stato iniziale allo stato obiettivo; 
-- ricerca all’indietro o guidata dall’obiettivo: 
-	- si esplora lo spazio di ricerca a partire da uno stato goal e riconducendosi a sotto-goal fino a trovare uno stato iniziale.
-
+la **Ricerca Bidirezionale** è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] applicabile in cui la ricerca
+- in **avanti o guidata dai dati**: si esplora lo spazio di ricerca dallo stato iniziale allo stato obiettivo; 
+- all’**indietro o guidata dall’obiettivo**: si esplora lo spazio di ricerca a partire da uno stato goal e riconducendosi a sotto-goal fino a trovare uno stato iniziale.
 si basa sul idea che se si è trovata una soluzione allora c è un intersezione tra le due esplorazioni 
 ![[Pasted image 20230212023837.png]]
+Questo algoritmo puo essere applicato solo **_sotto condizioni_** questo sono:
+- Si può definire facilmente uno **stato finale** o più stati finali eventualmente connessi ad uno stato finale "**dummy**". Potrebbero esserci dei problemi per cui questo non è possibile
+- si può generare lo stato predecessore di uno stato, questo è facile quando tutte le azioni sono reversibili
 
 
 un implementazione pseudo codice è la seguente:
@@ -62,13 +61,6 @@ un implementazione pseudo codice è la seguente:
 	\end{algorithm}
 ```
 
-
-### Applicabilità
-_sotto condizioni_ quali:
-- Si può definire facilmente uno stato finale o più stati finali eventualmente connessi ad uno stato finale "dummy"
-	- Concetti astratti come l obiettivo del [[problema delle 8 regine]] rende questa strategia inapplicabile
-- si può generare lo stato predecessore di uno stato 
-	- facile quando tutte le azioni sono reversibili (predecessore = successore)
 
 ### Analisi
 [[Complessita]]

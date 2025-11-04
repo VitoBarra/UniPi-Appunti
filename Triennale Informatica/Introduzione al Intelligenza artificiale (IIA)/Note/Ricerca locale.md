@@ -17,7 +17,7 @@ le assunzioni sul [[Definizione di Problemi-Ambienti|Ambiente]] sono:
 Quesiti algoritmi sono solitamente implementati come [[problemi di ottimizzazione|problemi di ottimizzazione]] dove si vuole massimizzare una data funzione obiettivo, si puo immaginare una superfice della funzione obiettivo come:
 ![[IMG - Ricerca locale land scape della funzione obiettivi 1D.png]]
 il landscape di una funzione obiettivo puo avere alcune feature quali 
-- **massimo globale**: il valore piu alto per tutta la funzioneds
+- **massimo globale**: il valore piu alto per tutta la funziones
 - **massimo locale**: un valore per cui tutti i suoi vicini hanno valore piu basso ma questo non è il massimo globale
 - **Plateaus**: un zona piatta, ovvero un massimo locare dove pero alcuni vicini hanno lo stesso valore de massimo. 
 - **Shoulder**: un **Plateaus** che porta ad un  altra zona di risalita

@@ -19,16 +19,13 @@ importanti sono i concetti di
 la **frontiera** separa lo spazio degli stati in due regioni ben distinte quella **interna** degli stati esplorati e quella **esterna** degli stati non ancora **raggiunti**
 ![[IMG - frontiera che divider stati esplorati e non raggiunti.png]]
 
-
-
-### Implementazione e strutture dati
-Nell'ambito degli algoritmi di ricerca, la rappresentazione dell'albero di ricerca è fondamentale per tracciare l'esplorazione degli stati. Ciascun nodo $n$ è strutturato come un oggetto con quattro componenti chiave:  
+Nell'ambito degli algoritmi di ricerca, l **[[alberi|albero]] di ricerca** è fondamentale per tracciare l'esplorazione degli stati, ciascun nodo $n$ è strutturato come un oggetto con quattro componenti chiave:  
 - **$n.STATE$**: rappresenta lo stato associato al nodo corrente.  
 - **$n.PARENT$**: riferisce al nodo genitore che ha generato il nodo corrente, permettendo la ricostruzione del cammino.  
 - **$n.ACTION$**: l'azione applicata allo stato del genitore per ottenere lo stato corrente.  
 - **$n.PATH\text{-}COST$**: il costo totale del percorso dallo stato iniziale al nodo corrente, spesso indicato come $g(n)$.  
 
-La **frontiera**, ovvero l'insieme dei nodi da esplorare, è gestita tramite una **coda**. Le operazioni principali supportate sono:  
+La **frontiera**, ovvero l'insieme dei nodi da esplorare, è gestita tramite una **[[Coda (FIFO)|coda]]**. Le operazioni principali supportate sono:  
 - **$IS\text{-}EMPTY(frontier)$**: verifica se la frontiera è vuota.  
 - **$POP(frontier)$**: rimuove e restituisce il nodo in testa alla coda.  
 - **$TOP(frontier)$**: restituisce il nodo in testa senza rimuoverlo.  
@@ -38,12 +35,9 @@ La tipologia di coda scelta definisce la strategia di ricerca.
 Gli stati già raggiunti sono memorizzati in una [[Hash Table|hash table]], dove ogni chiave è uno stato e il valore corrispondente è il nodo associato. Questa struttura ottimizza il controllo dei duplicati e la gestione dei cammini alternativi. 
 
 
-## Ridondante e ciclicita
-durate la **ricerca** il problema dei **repeated states** e dei **redundant paths** rappresenta una sfida significativa per l'efficienza computazionale.
-
+uno dei problemi della ricerca su alberi sono i **repeated states** e i **redundant paths** rappresenta una sfida significativa per l'efficienza computazionale.
 - Un ***repeated state*** si verifica quando uno stato viene raggiunto più volte attraverso percorsi diversi. Questo fenomeno può trasformare un albero di ricerca finito in una struttura infinita se non gestito adeguatamente.
 - I ***redundant paths***, invece, sono percorsi alternativi che conducono allo stesso stato ma con costi maggiori.![[IMG - algoritmi di ricerca cammini ridontandi.png]]
-
 Tre approcci principali emergono per mitigare questi problemi:  
 1. **Memorizzazione degli stati raggiunti**: Utilizzato negli algoritmi di **graph search**, mantiene una tabella degli stati visitati per eliminare percorsi ridondanti. Questo metodo è ottimale quando la memoria disponibile può contenere l'intera tabella.
 2. **Ignorare gli stati ripetuti**: In problemi dove i percorsi ridondanti sono impossibili o rari, un **tree-like search** può essere preferibile per risparmiare memoria, accettando una potenziale riduzione di performance.  

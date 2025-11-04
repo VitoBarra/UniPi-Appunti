@@ -26,9 +26,7 @@ La MCTS costruisce progressivamente un albero di ricerca attraverso quattro fasi
 - **Selection**: Si parte dalla radice e si selezionano successivamente i nodi figli seguendo la **selection policy**.
 - **Expansion**: Si espande l’albero generando un nuovo figlio del nodo selezionato. Alcune varianti ne generano più di uno.
 - **Simulation**: Si esegue un playout dalla nuova posizione, selezionando mosse per entrambi i giocatori secondo la **playout policy**. Le mosse non sono registrate nell’albero.
-- **Back-propagation**: Il risultato del playout viene propagato verso l’alto nell’albero, aggiornando le statistiche di ciascun nodo fino alla radice. Se il nero vince la simulazione, i nodi in cui era al turno del nero incrementano sia il numero di vittorie sia quello di simulazioni; i nodi del bianco incrementano solo il conteggio delle simulazioni.
-
-
+- **Back-propagation**: Il risultato del playout viene propagato verso l’alto nell’albero, aggiornando le statistiche di ciascun nodo fino alla radice. 
 Il processo è ripetuto per un numero prefissato di iterazioni o fino al termine del tempo disponibile, e infine si sceglie la mossa con il maggior numero di playout. 
 Nonostante si possa pensare di preferire la mossa con la media di utilità più alta, il numero di playout è un indicatore più affidabile della robustezza statistica della valutazione, privilegiando mosse con valutazioni più stabili.
 
@@ -54,8 +52,6 @@ l algoritmo in pseudo codice che ritorna un azione:
 \end{algorithm}
 
 ```
-
-
 Una **selection policy** efficace è l ***Upper Confidence bounds applied to Trees*** (UCT), basato sulla formula **UCB1**:
 **sia**
 - $U(n)$ è l’utilità totale dei playout che attraversano il nodo $n$
@@ -76,6 +72,3 @@ La MCTS, affidandosi all'aggregazione di molte simulazioni, è più resistente a
 È possibile combinare MCTS con **funzioni di valutazione**, interrompendo anticipatamente i playout e applicando una valutazione euristica, oppure dichiarando un pareggio (*early playout termination*). 
 
 La natura stocastica della MCTS la rende meno adatta a situazioni dove una singola mossa può cambiare radicalmente l’esito della partita, o dove stati chiaramente vincenti richiedono molte mosse per essere confermati nei playout.
-
-
-

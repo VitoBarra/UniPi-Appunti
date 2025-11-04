@@ -13,11 +13,10 @@ in [[Definizione di Problemi-Ambienti|ambienti multi-agente]] accade che gli age
 
 Il dominio privilegiato per lo studio di tali dinamiche è rappresentato dai giochi a due giocatori a somma zero, come scacchi, Go e poker, nei quali l’obiettivo di un agente è diametralmente opposto a quello dell’altro. Questi giochi offrono una struttura particolarmente adatta alla formalizzazione algoritmica: la rappresentazione dello stato è generalmente compatta, lo spazio delle azioni è contenuto e le regole che governano la transizione tra stati sono esplicite e ben definite. La semplicità apparente del dominio consente però di sviluppare algoritmi che affrontano efficacemente la complessità insita nella pianificazione contro un avversario che pianifica a sua volta.
 
-La formalizzazione teorica si avvale di strumenti derivati dalla **teoria dei giochi**, i quali permettono di distinguere tra tre approcci principali. 
+La formalizzazione teorica si avvale di strumenti derivati dalla **[[Teoria dei giochi (Game theory)|teoria dei giochi]]**, i quali permettono di distinguere tra tre approcci principali. 
 1. tipico dell’**economia**, aggrega i comportamenti degli agenti per trarre previsioni globali senza analizzare le singole azioni.
 2. interpreta l’avversario come una fonte di non determinismo, ma perde la specificità dell’intenzionalità strategica.
-3. impiega **alberi di gioco** e algoritmi specifici come il **[[Ricerca MiniMax|minimax]]**, una generalizzazione del modello [[Alberi di ricerca AND-OR|AND–OR]] introdotto in precedenza 
-
+3. impiega **alberi di gioco** e algoritmi specifici come il **[[Ricerca MiniMax|minimax]]**, una generalizzazione del modello [[Alberi di ricerca AND-OR|AND–OR]]
 
 Il gioco può essere definito formalmente come:
 - $S_0$ lo **stato iniziale**  

@@ -30,10 +30,10 @@ tags:
 			1. [[Ricerca Beam]]
 		3. [[Ricerca A-Star]]
 			1. [[A-Star - Euristiche]]
-		4. [[Ricerca Weighted A-Star]]
-		5. [[Ricerca IDA-Star]]
-		6. [[Ricerca Best-first ricorsive (RBFS)]]
-		7. [[Ricerca SMA-Star]]
+		4. [[Ricerca Weighted A-Star]] (extra)
+		5. [[Ricerca IDA-Star]] (extra)
+		6. [[Ricerca Best-first ricorsive (RBFS)]] (extra)
+		7. [[Ricerca SMA-Star]] (extra)
 	4. [[Ricerca locale]]
 		1. [[Ricerca Hill Climbing]]
 		2. [[Ricerca Simulated Annealing]]

@@ -12,9 +12,7 @@ SubTopic:
 ---
 Il metodo di ricerca A* presenta molte qualità positive, ma una delle sue principali limitazioni è l’elevato numero di nodi che espande per garantire l’ottimalità della soluzione. Tuttavia, in molti contesti pratici, può essere accettabile rinunciare alla garanzia di ottimalità in cambio di un risparmio significativo in termini di tempo e spazio computazionale, arrivando così a soluzioni **satisficing**, ossia sufficientemente buone.
 
-Quando si utilizza A* con un’euristica **inadmissibile** — ovvero una funzione euristica che può sovrastimare il costo effettivo per raggiungere la soluzione — si corre il rischio di non trovare la soluzione ottima, ma si può ridurre considerevolmente lo spazio di ricerca. In alcune applicazioni, questa approssimazione controllata permette di trovare soluzioni valide in tempi molto più rapidi.
-
-Un esempio pratico di euristica inadmissibile è il concetto di **indice di deviazione** utilizzato dagli ingegneri stradali. L’indice di deviazione applica un moltiplicatore alla distanza in linea d’aria per tener conto della curvatura tipica delle strade. Ad esempio, un indice di deviazione di $1.3$ implica che, per due città distanti $10$ miglia in linea retta, una buona stima del percorso stradale è di $13$ miglia. Nella maggior parte dei contesti geografici, il valore dell’indice di deviazione varia tipicamente tra $1.2$ e $1.6$.
+Quando si utilizza A* con un’euristica **[[Proprieta delle euristiche per ricerca informata|inamissibile]]**  si corre il rischio di non trovare la soluzione ottima, ma si può ridurre considerevolmente lo spazio di ricerca. In alcune applicazioni, questa approssimazione controllata permette di trovare soluzioni valide in tempi molto più rapidi.
 
 Questo principio è generalizzabile a molti problemi di ricerca tramite l'approccio noto come **Weighted A* search**, nel quale il valore dell’euristica viene ponderato maggiormente. La funzione di valutazione adottata da Weighted A* è definita come:
 
@@ -25,8 +23,7 @@ $$
 dove:
 - $g(n)$ rappresenta il costo accumulato per raggiungere il nodo $n$,
 - $h(n)$ è la stima euristica del costo residuo per arrivare al nodo obiettivo,
-- $W$ è un peso maggiore di $1$.
-
+- $W$ è un peso
 L’aumento del peso $W$ focalizza la ricerca maggiormente verso l’obiettivo, riducendo il numero di stati esplorati. Questo si traduce in una minore espansione dello spazio di ricerca, ma con la possibilità di non identificare il percorso ottimo, specialmente se esso si trova al di fuori del "contorno" di stati raggiunti dal Weighted A*.
 
 Considerando il costo ottimale $C^*$, la soluzione trovata dal Weighted A* avrà un costo compreso tra $C^*$ e $W \times C^*$. In pratica, tuttavia, i costi ottenuti sono frequentemente molto più vicini a $C^*$ che a $W \times C^*$. 

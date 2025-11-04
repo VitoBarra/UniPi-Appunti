@@ -9,12 +9,12 @@ SubTopic:
 
 # Giochi a somma zero
 ---
-i **giochi a somma zero** (più accuratamente giochi a somma costante) sono una categoria dei [[Teoria dei giochi (Game theory)|Teoria dei giochi (Game theory)]] e un caso di problemi affrontabili come problemi di [[Ricerca in ambienti competitivi|Ricerca in ambienti competitivi]].
+i **giochi a somma zero** (più accuratamente giochi a somma costante) sono una categoria di [[Teoria dei giochi (Game theory)|giochi]] e un caso affrontabile come problemi di [[Ricerca in ambienti competitivi|Ricerca in ambienti competitivi]].
 in particolare in questi tipi di giochi ci sono solo 2 **giocatori**, ovvero gli [[Agenti Razionali|agenti]], e i gioco di questa categoria si descrivono come:
 - **deterministici**, ogni azione da sempre lo stesso risultato
 - **a turno**, i due player non possono fare una mossa in contemporanea ma devono aspettare la mossa del avversario. 
-- **a informazione perfetta**:  sinonimo di ***fully observable*** e  implica che entrambi i giocatori conoscano pienamente lo stato del gioco in ogni momento.
-- **a somma zero**: ovvero ogni guadagno di un **giocatore** corrisponde a una **perdita** equivalente per l’altro, sono impossibili gli esiti Win-Win
+- **a informazione perfetta**: sinonimo di ***fully observable*** e implica che entrambi i giocatori conoscano pienamente lo stato del gioco in ogni momento.
+- **a somma zero**: ovvero ogni guadagno di un **giocatore** corrisponde a una **perdita** equivalente per l’altro, sono impossibili gli esiti Win-Win (comportamenti collaborativi)
 
 
 #### Modello giocatori in giochi zero-sum

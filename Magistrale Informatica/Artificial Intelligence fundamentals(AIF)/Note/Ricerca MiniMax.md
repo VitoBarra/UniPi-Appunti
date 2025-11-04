@@ -11,8 +11,7 @@ SubTopic:
 ---
 l **algoritmo di ricerca MINIMAX** è un [[Problemi di ricerca|algoritmo di ricerca]] per [[Ricerca in ambienti competitivi|ambienti competitivi]], in particolare si usano nel contesto dei [[Giochi a somma zero|Giochi a somma zero]]
 
-
-l'algoritmo presuppone di usare un agente con utilità che usa il valore di **minimax** per guidare la scelta, in particolare si scegli sempre l'azione che massimizza l utilita e si predice che l altro agente prenderà sempre l azione che minimizerà  l utilita.
+l'algoritmo presuppone di usare un agente con utilità che usa il valore di **minimax** per guidare la scelta, in particolare si scegli sempre l'azione che massimizza l utilità e si assume che l altro [[Agenti Razionali|agente]] prenderà sempre l azione che minimizzerà  l utilità.
 
 lo pseudo codice è il seguente:
 ```pseudo
@@ -64,8 +63,6 @@ lo pseudo codice è il seguente:
 ```
 
 Questo approccio presuppone che anche **MIN** giochi in modo ottimale. Se invece **MIN** adotta una strategia subottimale, **MAX** otterrà un risultato almeno pari a quello previsto contro un avversario perfetto. Tuttavia, ciò non implica che sia sempre vantaggioso seguire ciecamente la mossa ottimale **minimax** contro un avversario imperfetto, può succedere che prendere un masso più rischiosa (non ottimale) porti ad ottenere un valore **minimax** più alto in stati successivi, in pratica si spera in un "errore" del avversario.
-
-
 ![[IMG - albero MiniMax.png]]
 
 ### Analisi della complessità

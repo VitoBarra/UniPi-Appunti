@@ -20,6 +20,6 @@ La **rappresentazione strutturata** permette invece di modellare il mondo come u
 
 ![[IMG - tipi di rappresentazione degli aggenti.png]]
 
-spostandoci verso rappresentazioni piu espressive si riesce a descrivere in mondo in sempre meno informazioni ma questo rende anche incrementalmente piu difficile imparare per un **agente intelligente**.
+spostandoci verso rappresentazioni piu espressive si riesce a descrivere in mondo in sempre piu compatto ma questo rende anche incrementalmente piu difficile imparare per un **[[Agenti Razionali|agente intelligente]]**.
 
 Un ulteriore asse da considerare è quello relativo alla **[[Rappresentazione simbolica e distribuita dei concetti|Rappresentazione simbolica e distribuita dei concetti]]**

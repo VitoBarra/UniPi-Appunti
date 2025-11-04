@@ -13,16 +13,17 @@ La **Ricerca Generativa-Evolutiva** è un tipo di [[Ricerca locale|ricerca local
 
 Inizialmente viene generata una popolazione casuale di $k$ individui, ciascuno rappresentato da una stringa o da altre strutture a seconda della variante specifica. La rappresentazione scelta è cruciale, poiché influisce sulla capacità dell’algoritmo di individuare e combinare sotto-strutture significative.
 
-Ogni individuo viene valutato tramite una **_funzione di fitness_**, che assegna un punteggio in funzione della qualità della soluzione rappresentata. La selezione dei genitori avviene con probabilità proporzionale alla fitness, favorendo gli individui più promettenti. In alternativa, è possibile adottare selezioni più complesse, come il _tournament selection_, in cui un sottoinsieme casuale di individui compete per la riproduzione.
+Ogni individuo viene valutato tramite una **_funzione di fitness_**, che assegna un punteggio in funzione della qualità della soluzione rappresentata. La selezione dei genitori avviene con probabilità proporzionale alla fitness, favorendo gli individui più promettenti. In alternativa, è possibile adottare selezioni più complesse, come il 
+- **_tournament selection_**, in cui un sottoinsieme casuale di individui compete per la riproduzione.
+- **elitism**: un certo numero dei migliori individui viene passato direttamente alla prossima generazione cosi come sono per non perdere buone soluzioni.
 
 Le coppie selezionate danno origine alla nuova generazione attraverso il meccanismo del _crossover_. Per ogni coppia viene scelto casualmente un punto di crossover, che divide le stringhe parentali in due segmenti. I figli vengono generati combinando i segmenti corrispondenti: il primo figlio eredita la prima parte del primo genitore e la seconda parte del secondo, mentre il secondo figlio eredita l’opposto. Questo consente il riuso e la combinazione di sottostrutture vantaggiose.
 
 ![[IMG - Ricerca Generativa-Evolutiva esempio 8 regine.png]]
 
-A seguito del crossover, ogni gene nelle stringhe figli può subire una mutazione casuale, con una piccola probabilità definita dal _mutation rate_. Nel caso dell’8-regine, ad esempio, la mutazione consiste nello spostare una regina casualmente nella propria colonna. Questi meccanismi introducono variabilità, prevenendo la stagnazione su ottimi locali.
+A seguito del crossover, ogni gene nelle stringhe figli può subire una mutazione casuale, con una piccola probabilità definita dal **_mutation rate_**. 
 
 uno pseudo codice è il seguente:
-
 ```pseudo
 \begin{algorithm}
 \caption{genetic algorithm}
@@ -53,8 +54,4 @@ uno pseudo codice è il seguente:
 \end{algorithm}
 ```
 
-
 Con il susseguirsi delle generazioni, la fitness media tende a crescere progressivamente, poiché i migliori schemi (o _schema_) si propagano. Uno _schema_ è una sottostringa parzialmente definita, come $246*****$, che rappresenta tutte le configurazioni con le prime tre regine nelle posizioni 2, 4 e 6. Se la fitness media degli individui che rispettano uno schema supera la media della popolazione, la frequenza dello schema aumenta nel tempo. Questo processo permette l’amplificazione di blocchi funzionali che costituiscono buoni componenti parziali della soluzione complessiva.
-
-La Ricerca Generativa-Evolutiva integra dunque la tendenza all’ascesa della [[Ricerca Local beam#Versione stocastica|beam search stocastica]] con un efficace meccanismo di scambio d’informazioni fra le linee evolutive parallele. L’approccio risulta particolarmente efficace per problemi in cui le soluzioni possono essere decomposte in sottostrutture significative rappresentabili tramite sottostringhe. Tuttavia, un aspetto critico resta la scelta della rappresentazione: una codifica inadeguata può impedire l’emergere di blocchi funzionali utili, compromettendo l’efficacia dell’intero processo.
-

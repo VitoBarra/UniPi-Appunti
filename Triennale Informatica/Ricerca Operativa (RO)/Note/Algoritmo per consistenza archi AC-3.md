@@ -10,15 +10,11 @@ SubTopic:
 
 # Algoritmo per consistenza archi AC-3
 ---
-l [[Algoritmi|algoritmo]] **AC-3** è usato nel contesto del [[Problemi di soddisfacibilita vincolata (CSP)|constraint satifaction problem (CSP)]] per ridurre i dominii delle variaibli in modo che siano **arc consysten**.
+l [[Algoritmi|algoritmo]] **AC-3** è usato nel contesto del [[Problemi di soddisfacibilita vincolata (CSP)|constraint satifaction problem (CSP)]] per ridurre i domini delle variabili in modo che siano **arc consysten**.
 
-Per fare cio **AC-3** gestisce una coda di archi da verificare, inizialmente popolata con tutti gli archi bidirezionali del CSP. L’algoritmo procede estraendo un arco $(X_i, X_j)$ e verificando la consistenza di $X_i$ rispetto a $X_j$. Se il dominio $D_i$ viene ridotto, si reinseriscono nella coda tutti gli archi incidenti su $X_i$ per favorire ulteriori propagazioni. Se un dominio si svuota, il CSP risulta insoddisfacibile. In assenza di ulteriori riduzioni, si ottiene un CSP equivalente, ma più efficiente, caratterizzato da domini ridotti. La complessità computazionale dell’algoritmo AC-3 è stimabile come:
-
-$$
+Per fare ciò **AC-3** gestisce una coda di archi da verificare, inizialmente popolata con tutti gli archi bidirezionali del CSP. L’algoritmo procede estraendo un arco $(X_i, X_j)$ e verificando la consistenza di $X_i$ rispetto a $X_j$. Se il dominio $D_i$ viene ridotto, si reinseriscono nella coda tutti gli archi incidenti su $X_i$ per favorire ulteriori propagazioni. Se un dominio si svuota, il CSP risulta insoddisfacibile. In assenza di ulteriori riduzioni, si ottiene un CSP equivalente, ma più efficiente, caratterizzato da domini ridotti. La complessità computazionale dell’algoritmo AC-3 è stimabile come:$$
 O(c \cdot d^3)
-$$
-
-dove $c$ rappresenta il numero di vincoli binari e $d$ la dimensione massima dei domini.
+$$dove $c$ rappresenta il numero di vincoli binari e $d$ la dimensione massima dei domini.
 
 lo pseudo codice del algoritmo AC-3: 
 ```pseudo

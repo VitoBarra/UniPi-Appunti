@@ -17,7 +17,8 @@ Alcune proprietà delle euristiche usate negli [[algoritmi di ricerca informata|
 un **euristica ammissibile** è una **sottostima** del costo ottimo $h^*$quindi vale che $$\forall n.h(n) \leq h^*(n)$$
 
 
-Un __euristica consistente__ è un euristica per vale la seguente proprietà
+
+Un __euristica consistente__ è un euristica per cui vale la seguente proprietà
 **sia**:
 - Dove $n’$ è un successore di $n$
 - $c(n,a,n’)$ è il costo per passare dal nodo $n$ al nodo $n’$ tramite l'azione $a$

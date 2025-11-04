@@ -19,15 +19,13 @@ La risoluzione del problema avviene nello spazio dei **belief states**, ovvero i
 - **Stato iniziale**: in generale coincide con l’intero insieme di stati possibili, ma può essere più ristretto se l’agente ha conoscenze a priori.
 - **Azioni**: assumendo un **belief state** $b=\{s_1,s_2\}$  puo succedere che $ACTIONS_P(s_1) \not= ACTIONE(s_2)$ in casi di questo tipo se le azioni illegali in uno stato non hanno effetto, si può definire $ACTIONS(b) = \bigcup_{s \in b} ACTIONS_P(s)$ in ambienti più rischiosi dove le azioni illegali possono portare a situazioni catastrofiche, si utilizza $ACTIONS(b) = \bigcap_{s \in b} ACTIONS_P(s)$.
 - **Modello di transizione**:
-    - Deterministico: 
-    $$
+    - Deterministico: $$
     RESULT(b, a) = \{ s' \mid s' = RESULT_P(s, a),\ s \in b \}
     $$
-    - Non deterministico:
-    $$
+    - Non deterministico:$$
     RESULT(b, a) = \bigcup_{s \in b} RESULTS_P(s, a)
     $$
-- **Test dell’obiettivo**: un **belief state** $b$ **possibilmente** soddisfa il **goal** se almeno degli stati $s \in b$ uno soddisfa $IS\text{-}GOAL_P(s)$ mente **nevessariamente** solo se tutti gli stati che lo compongono soddisfano $IS\text{-}GOAL_P(s)$.
+- **Test dell’obiettivo**: un **belief state** $b$ **possibilmente** soddisfa il **goal** se almeno uno degli stati $s \in b$ uno soddisfa $IS\text{-}GOAL_P(s)$ mente **necessariamente** solo se tutti gli stati che lo compongono soddisfano $IS\text{-}GOAL_P(s)$.
 - **Costo delle azioni**: se costante in tutti gli stati, il costo si trasferisce direttamente dal problema fisico.
 
 Questo approccio consente l’utilizzo diretto degli [[Algoritmi di ricerca non informati]] o degli [[Algoritmi di ricerca informata]], già noti per i problemi standard, applicandoli allo spazio dei **belief state**. Tuttavia, la dimensione esplosiva dello spazio $2^N$ e la complessità intrinseca nel trattare insiemi di stati rendono questo approccio poco praticabile senza tecniche di ottimizzazione.

@@ -11,7 +11,7 @@ SubTopic:
 
 # Struttura degli agenti razionali
 
-gli [[agenti razionali|agenti razionali]] possono essere di varie tipologie ed i vari modi si occupano di implementare in modo diverso il **[[Agenti Razionali|programma agente]]**
+Gli [[agenti razionali|agenti razionali]] possono essere di varie tipologie ed i vari modi si occupano di implementare in modo diverso il **[[Agenti Razionali|programma agente]]**
 
 lo scheletro generale usato per i tipi di agenti mostrati è il seguente :
 ```pseudo
@@ -29,9 +29,7 @@ lo scheletro generale usato per i tipi di agenti mostrati è il seguente :
 ```
 
   
-
 ### Agenti Table driven
-
 un **agente** **Table driven** è un [[Agenti Razionali|agente]] che utilizza una **tabella** in cui è associato ad ogni **storia di percezioni** una **specifica azione**.
 ```pseudo
 \begin{algorithm}
@@ -49,7 +47,6 @@ Questo tipo di agente fa sempre esattamente quello che si vuole ma non è realiz
 
 
 ##### Agenti reattivi semplici
-
 gli **agenti reattivi semplici** sono [[Agenti Razionali|agenti]] che selezionano le **azioni** basandosi esclusivamente sul percepito corrente, senza tenere conto della **storia dei percetti**.
 Questo ha il vantaggio di essere molto piu piccolo rispetto al approccio tabellare grazie al fatto che non c è bisogno di decidere in base al intera storia di percezioni.
 ```pseudo
@@ -83,10 +80,7 @@ $$dove $s$ è lo stato corrente, $a$ è l’azione eseguita dall’agente e $s'$
 P(s' \mid s, a)
 
 $$
-
-
 Il **modello dei sensori**, invece, definisce la relazione tra lo stato del mondo e i percetti che l’agente riceve e permette all'agente di inferire informazioni sullo **stato del mondo** a partire dai dati **sensoriali**.
-
 ```pseudo
 \begin{algorithm}
 \caption{MODEL-BASED-REFLEX-AGENT}
@@ -116,7 +110,6 @@ Un **Agente basati sul obbiettivo** è un [[Agenti Razionali|agente]] che oltre 
 La **selezione** delle azioni può risultare immediata nel caso in cui il soddisfacimento del **goal** segua direttamente da una singola azione, ma generalmente non è questo il caso è scegliere un azione richiede la valutazione di sequenze di azioni, e questo puo essere risolto tramite [[Problem-Solving Agent|agenti risolutori di problemi]] o [[Planning Agent|aggenti pianificatori]]
 
 ![[IMG - agenti con obiettivi.png]]
-
 Il processo decisionale negli **agenti goal-based** si distingue in modo sostanziale dalle regole condizione–azione tipiche degli agenti riflessivi. Mentre questi ultimi associano direttamente un percetto ad un’azione senza una rappresentazione esplicita del perché, gli agenti goal-based valutano prospetticamente l’impatto delle azioni. Le domande che guidano la scelta sono del tipo: “Cosa succederà se eseguo questa azione?” e “Questa conseguenza contribuirà al raggiungimento del mio obiettivo?”. La conoscenza utilizzata per il ragionamento è rappresentata in maniera esplicita e modificabile, rendendo il comportamento dell’agente più flessibile.
 
   
@@ -129,9 +122,7 @@ Per ottenere ciò si utilizza un __*funzione di utilità*__ (**utility function*
 l'agente sceglie azioni massimizzando il valore di **utilità atteso**
 
 Un agente basato sull’utilità possiede una maggiore flessibilità rispetto a un agente puramente **basato su obiettivi**. ad esempio, in presenza di obiettivi in conflitto (ad esempio, rapidità e sicurezza nella guida), la funzione di utilità consente di modellare i compromessi appropriati. Oppure, quando nessun obiettivo può essere raggiunto con certezza, l’utilità permette di valutare le probabilità di successo in relazione all’importanza dei singoli obiettivi.
-
 ![[IMG - agenti con valutazione di utilita.png]]
-
 Inoltre, non tutti gli agenti basati sull’utilità possiedono un modello esplicito del mondo. Alcuni e sono detti **model-free agents**.
 
 ##### Agenti che apprendono
@@ -144,8 +135,4 @@ L'**elemento di prestazione** è responsabile della selezione delle azioni e cor
 Il **critico** fornisce una valutazione basata su uno standard di prestazione esterno, fisso e immutabile, necessario per evitare che l'agente adatti il proprio criterio di successo in modo autoreferenziale. Questo standard può assumere la forma di ricompensa o penalità ed serve a fare in modo che l agente "scopra" cosa è positivo è cosa è negativo.
 
 il **generatore di problemi** ha la funzione di proporre esperienze nuove e informative, anche se subottimali nel breve periodo. Ciò è essenziale per l’esplorazione: senza questa componente, l’agente si limiterebbe ad agire secondo la conoscenza attuale, precludendosi la possibilità di migliorare.
-
 ![[IMG - architettura agente che aprende.png]]
-
-  
-  

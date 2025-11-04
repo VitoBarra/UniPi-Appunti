@@ -27,7 +27,6 @@ questo algoritmo può essere implementato come caso particolare del [[Ricerca Be
 \end{algorithmic}
 \end{algorithm}
 ```
-
 come nel caso del nel [[Algoritmo di Dijkstra|Algoritmo di Dijkstra standard]] non è garantito riuscire a trovare una soluzione se i costi di alcuni archi sono negativi. 
 
 ## Analisi
@@ -46,4 +45,4 @@ Sia
 - _[[Complessita]] in spazio_ $O(b^{1+\left\lfloor C^* /\epsilon\right\rfloor})$ 
 
 puo capitare che $O(b^{1+\left\lfloor C^* /\epsilon\right\rfloor}) \gg O(b^d)$ siccome l algoritmo può prendere [[cammini su grafi|cammini]] con costi sempre più piccoli e arrivare molto dopo alla soluzione reale
-in piu se tutti i costi sono uguali l algoritmo si comporta come la [[Ricerca in ampiezza (BF)|BF]] ma con complessità diventa $O(b^{d+1})$ per spazio e tempo, questo avviene parche si **late goal test** 
+in piu se tutti i costi sono uguali l algoritmo si comporta come la [[Ricerca in ampiezza (BF)|BF]] ma con complessità diventa $O(b^{d+1})$ per spazio e tempo, questo avviene a causa **late goal test** 

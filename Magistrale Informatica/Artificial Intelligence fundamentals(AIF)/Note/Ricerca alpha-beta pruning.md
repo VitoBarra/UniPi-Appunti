@@ -9,12 +9,12 @@ SubTopic:
 
 # Ricerca alpha-beta pruning
 ---
-L'algoritmo di **alfa–beta pruning** rappresenta un'**estensione fondamentale** della [[Ricerca MiniMax|ricerca Min-Max]] all'interno degli [[Giochi a somma zero|giochi a somma zero]], questo algoritmo ha la capacita di tagliare rami sicuramente infruttuosi. La **potatura**(**pruning**) consente di abbassare la [[Complessita|complessità]] del algoritmo.
+L'algoritmo di **alfa–beta pruning** rappresenta un'**estensione** della [[Ricerca MiniMax|ricerca Min-Max]] all'interno degli [[Giochi a somma zero|giochi a somma zero]], questo algoritmo ha la capacita di tagliare rami sicuramente infruttuosi. La **potatura**(**pruning**) consente di abbassare la [[Complessita|complessità]] del algoritmo.
 
 si mantengono due parametri $\alpha$ e $\beta$ che rappresentano, rispettivamente, il valore **minimo garantito** al giocatore **MAX** e il valore **massimo garantito** al giocatore **MIN** lungo il cammino esplorato in profondità:
 - $\alpha$ è il valore della migliore scelta trovata finora per MAX ("almeno").
 - $\beta$ è il valore della migliore scelta trovata finora per MIN ("al massimo").
-Durante l'esplorazione, se si scopre che il valore corrente di un **nodo foglia** è peggiore di una decisione già nota a un livello superiore (ovvero, se $v \leq \alpha$ per MIN o $v \geq \beta$ per MAX), allora si può interrompere la valutazione degli altri rami del nodo, poiché essi non influiranno sul risultato finale. quando potrà potare dipende dal al ordine in cui vengono esplorati i nodi dell’albero.
+Durante l'esplorazione, se si scopre che il valore corrente di un **nodo foglia** è peggiore di una decisione già nota a un livello superiore (ovvero, se $v \leq \alpha$ per MIN o $v \geq \beta$ per MAX), allora si può interrompere la valutazione degli altri rami del nodo, poiché essi non influiranno sul risultato finale. quando potrà potare dipende dall ordine in cui vengono esplorati i nodi dell’albero.
 questa cosa si può estendere anche ai nodi intermedi permettendo cosi di tagliare interi sottoalberi anziché singoli nodi **foglia**.
 
 Come il [[Ricerca MiniMax|minimax]] l algoritmi **alfa-beta pruning** è di tipi [[Ricerca in profondita (DF)|depth-first]] il che rende possibile mantenere in memoria un solo cammino attivo alla volta, permettendo un’efficiente gestione degli intervalli $[\alpha, \beta]$ lungo il percorso.
@@ -129,15 +129,8 @@ il **cutoff** ha due problematiche principali:
 - è prono a dare buone mosse ma che non sono stabili quindi bastano poche mosse per ribaltare la valutazione. Per evitare errori di questo tipo, la funzione $EVAL$ dovrebbe essere applicata solo a posizioni *quiescenti*, ovvero situazioni stabili prive di minacce tattiche immediate. In presenza di posizioni non quiescenti, la condizione $IS\text{-}CUTOFF(s, d)$ restituisce falso, forzando un’estensione della ricerca. *quiescence search*
 - **effetto orizzonte** (***horizon effect***): in cui un ribaltamento del valore di valutazione viene **apparentemente** evitata perché spinta oltre il limite di profondità $d$ considerato, applicando mosse che ritardano la cosa ma non la evitano. per affrontare questo problema ***singular extensions***, che estende selettivamente la ricerca oltre il **cutoff** solo per quelle mosse che risultano nettamente superiori alle alternative.
 
-
-
-
-il comportamento del algoritmo è preservato se il valore di utilità viene cambiato con una qualsiasi **funzione monotonica**
-![[IMG - Ricerca alpha-beta pruning valori erusitche.png]]
-
 ### Tipi di strategie (extra)
 Anche con un ordinamento ottimizzato, tuttavia, l’algoritmo minimax con pruning risulta insufficiente per giochi con altissimo fattore di diramazione come il Go. Questo problema, già individuato da Shannon , ha portato alla distinzione tra due strategie di ricerca:
 - La **strategia di Tipo A**, che esplora **in larghezza** fino a una certa profondità fissata, usando una funzione euristica per valutare i nodi terminali.
 - La **strategia di Tipo B**, che persegue **linee promettenti in profondità**, evitando esplorazioni superficiali di rami meno rilevanti.
-
-Storicamente, i programmi di scacchi hanno fatto uso principalmente della strategia di Tipo A, mentre per il Go e altri giochi ad alta complessità, l’approccio di Tipo B ha mostrato prestazioni superiori. Più recentemente, approcci ibridi di tipo B, supportati da tecniche come il **Monte Carlo Tree Search** e le **reti neurali**, hanno permesso prestazioni di livello campione del mondo anche in giochi tradizionalmente ostici per la ricerca minimax.
+Storicamente, i programmi di scacchi hanno fatto uso principalmente della strategia di Tipo A, mentre per il Go e altri giochi, l’approccio di Tipo B ha mostrato prestazioni superiori. Più recentemente, approcci ibridi di tipo B, supportati da tecniche come il **[[Ricerca albero Monte Carlo (MCST)|Monte Carlo Tree Search]]** e le **[[Reti Neurali (NN)|reti neurali]]**, hanno permesso prestazioni di livello campione del mondo anche in giochi tradizionalmente ostici per la ricerca minimax.

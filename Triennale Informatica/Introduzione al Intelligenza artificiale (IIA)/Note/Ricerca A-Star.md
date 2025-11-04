@@ -24,13 +24,7 @@ L'algoritmo di **Ricerca $A^*$** è un [[Algoritmi di ricerca informata|Algoritm
 \end{algorithm}
 ```
 
-si può definire la **funzione di valutazione ideale** come:
-**sia**
-- $g^*(n)$ costo del __cammino minimo__ dalla $root$ a $n$
-- $h^*(n)$ costo del __cammino minimo__ da $n$ a $goal$ ed è detto **oracolo**
-la **funzione di valutazione ideale** $f^*(n)$ che rappresenta il costo del cammino minimo da nodo radice a nodo goal, passando $n$ è definita come:$$f^*(n)=g^*(n)+h^*(n)$$in casi reali abbiamo:
-- $g(n) \geq g^*(n)$ ovvero il costo che abbiamo trovato per arrivare a nodo $n$ non è quello **ottimale**.
-- $h(n)$ che è sempre stima di $h^*(n)$ 
+
 
 
 ### Comportamento di A*
@@ -43,24 +37,18 @@ algoritmo $A^*$ che utilizza un [[Proprieta delle euristiche per ricerca informa
 
 una delle conseguenze di questa proprietà è fatto che $A^*$  fa **pruning** di alberi di ricerca non necessari, ovvero evita delle strade non fruttuose che altri algoritmi come [[Ricerca in ampiezza (BF)|BF]] e [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] avrebbero esplorato.
 
-> [!nota]
->   alcuni algoritmi possono essere considerati come casi speciali di A dove:
->  - [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] : con $f(n)= g(n)$ e quindi  $h(n) = 0$, diventa [[Ricerca in ampiezza (BF)|BF]] se costi tutti uguali
->  - [[Ricerca Greedy best-frist|Greedy best-frist]]: con $f(n)= h(n)$ e quindi  $g(n) = 0$
->  - [[Ricerca in profondita (DF)|DF]]:
-
-
-
-
 
 ## Analisi della complessità
-__sia__
-- $C^*= g^*(n) + f^*(n)$ il **costo ottimo** reale per lo stato $n$ 
+ai fini di analizzare le prosperità del algoritmo si definisce la **funzione di valutazione ideale** come:
+**sia**
+- $g^*(n)$ costo del __cammino minimo__ dalla $root$ a $n$
+- $h^*(n)$ costo del __cammino minimo__ da $n$ a $goal$ ed è detto **oracolo**
+la **funzione di valutazione ideale** $f^*(n)$ che rappresenta il costo del cammino minimo da nodo radice a nodo goal, passando $n$ è definita come:$$C^* = f^*(n)=g^*(n)+h^*(n)$$in casi reali **generali** abbiamo:
+- $g(n) \geq g^*(n)$ ovvero il costo che abbiamo trovato per arrivare a nodo $n$ non è quello **ottimale**, perche potremmo averlo raggiunto su un percorso non ottimale
+- $h(n)$ che è sempre stima di $h^*(n)$.
 
 
-**Completezza** se non esistono infiniti nodi per cui vale $f(n) < C^*$  e dove i costi $c_{ij}\geq\epsilon >0$ dove $\epsilon$ è il  costo minimo di un arco usato per evitare che l algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
-
-
+**Completezza**: è **completo** se non esistono infiniti nodi per cui vale $f(n) < C^*$  e dove i costi $c_{ij}\geq\epsilon >0$ dove $\epsilon$ è il costo minimo di un arco. è utile definire un costo minimo per evitare che l' algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
 **Ottimale** se spazio degli stati __[[Alberi|albero]]__
 **Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[Proprieta delle euristiche per ricerca informata|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
 \begin{array}{rcl}

@@ -9,7 +9,7 @@ SubTopic:
 
 # Problemi di soddisfacibilita vincolata (CSP)
 ---
-Un **Problemi di soddisfacibile vincolata** (**CSP**) è caso particolare di un [[Problemi di ottimizzazione|problema di ottimizzazione]] dove la __funzione obiettivo__ è costate o assente e una generalizzazione di un [[Problemi della Sodisfacibilita (SAT)]] è domini non boolenani
+Un **Problemi di soddisfacibile vincolata** (**CSP**) è caso particolare di un [[Problemi di ottimizzazione|problema di ottimizzazione]] dove la __funzione obiettivo__ è costate o assente ed è una generalizzazione di un [[Problemi della Sodisfacibilita (SAT)]] a domini non boolenani
 
 si usa in situazioni in cui si vuole ottenere una soluzione ad che soddisfa in vincoli ma non si può applicare o non importa trovare una soluzione "ottima", ogni soluzione è egualmente valida.
 
@@ -23,7 +23,7 @@ Ogni vincolo è formalmente espresso come $\langle scope, rel \rangle \in C$  do
 - $rel$ è una **relazione** tra variabili, la quale specifica le combinazioni di valori che soddisfano una determinata condizione logica o numerica In termini formali, una relazione è può essere espressa in modo esplicito un sottoinsieme del [[Prodotto Cartesiano|prodotto cartesiano cartesiano]] dei domini delle variabili coinvolte $\text{rel} \subseteq D_{i_1} \times D_{i_2} \times \dots \times D_{i_k}$ oppure in modo implicito con una **funzione** logica o aritmetica che risulta in un valore booleano.
 
 I Risolvere un **CSP** significa trovare un **assegnamento alla variabile** $\{X_i = v_i, X_j = v_j, \dots\}$ è queste possono essere classificate in vario modo: 
-- **consistente** o **legale**: Un’assegnamento che non viola alcun vincolo è detta
+- **consistente** o **legale**: Un’assegnamento che non viola alcun vincolo
 - **completa**: se ogni variabile è stata **assegnata** altrimenti viene detta **parziale** 
 se un assegnamento è **coerente è parziale** è detta **soluzione parziale** mentre se è **coerente è completa** allora è una soluzione del **CSP**. 
 
@@ -37,7 +37,8 @@ I **vincoli** nei **problemi di soddisfacimento vincolati** (CSP) possono essere
 
 
 I vincoli possono essere rappresentati graficamente tramite **ipergrafi**, dove:
-- I nodi rappresentano le variabili
+- I **nodi** rappresentano le variabili
+- gli archi rappresentano i **constraint binari**
 - Gli ipernodi rappresentano i vincoli $n$-ari
 
 Ogni vincolo $n$-ario può essere trasformato in un insieme equivalente di vincoli binari attraverso:
@@ -56,14 +57,9 @@ ai CSP reali si può aggiungere dei **Vincoli di preferenza**, che introducono c
 
 
 ### Classificazione CSP
-i *CSP* possono essere classificati in vario modo a secondo dei tipi di variabili e tipi di vincoli 
-
-variabili con **domini discreti** e **finiti** , sono i **CSP** più semplici
+i *CSP* possono essere classificati in vario modo a secondo dei tipi di variabili e tipi di vincoli, problemi con variabili con **domini discreti** e **finiti** , sono i **CSP** più semplici
 
 variabili con **domini discreti** e **infiniti** ad esempio $D_i=\mathbb{Z}$ o delle stringhe. In questi casi la rappresentazione **esplicita** dei valori non è praticabile, rendendo necessario l’uso di **vincoli impliciti**. nel caso in cui ci siano solo **vincoli lineari** su **variabili intere** esistono algoritmi specializzati efficienti mentre il problema diventa [[Complessita|indecidibile]] se i vincoli sono **non lineari**.
-
-
-
 
 ### Inferenza
 Per la risoluzione dei **Constraint Satisfaction Problems** (**CSP**) si utilizza il principio della **propagazione dei vincoli**, tecnica che sfrutta i vincoli definiti dal problema per ridurre i **domini delle variabili**. La riduzione di un dominio può propagarsi, inducendo ulteriori riduzioni nei domini di altre variabili collegate da vincoli, semplificando la ricerca o, in alcuni casi, portando direttamente alla soluzione. Tale approccio può essere impiegato sia in fase di ricerca sia come operazione preliminare di **preprocessing**.
@@ -71,35 +67,17 @@ Per la risoluzione dei **Constraint Satisfaction Problems** (**CSP**) si utilizz
 La propagazione dei vincoli si fonda sul concetto di **consistenza locale**. Rappresentando il CSP come un [[Grafi|grafo]], in cui i nodi corrispondono alle **variabili** e gli archi ai **vincoli binari**, si procede progressivamente all'eliminazione dei valori incompatibili dai domini, seguendo diversi livelli di **consistenza locale**.
 
 i livelli di consistenza sono: 
-
-**consistenza del nodo** (**node consistency**): Una variabile è detta **nodo-consistente** se tutti i valori del suo dominio rispettano i vincoli unari associati. 
-
-**consistenza del arco**: (**arc consistency**):  una variabile $X_i$ è detta **arco-consistente** rispetto a una variabile $X_j$ se, per ogni valore $v_i$ appartenente al dominio $D_i$, esiste almeno un valore $v_j$ nel dominio $D_j$ tale che la coppia $(v_i, v_j)$ soddisfi il vincolo binario tra $X_i$ e $X_j$. Formalmente riassumibile come $$\forall v_i \in D_i, \exists v_j \in D_j : (v_i, v_j) \in C_{ij}$$
-
- per ridurre i domini in modo che siano **arco consistenti** si spesso usa L'[[Algoritmi|algoritmo]] **[[Algoritmo per consistenza archi AC-3|AC-3]]**
-
-
-**consistenza di percorso** (**path consistency**):  un [[Insiemi Matematici|insieme]] di due **variabili** $\{X_i, X_j\}$ sono dette **path-consistent** rispetto a una terza variabile $X_m$ se, per ogni assegnamento $\{X_i = a, X_j = b\}$ che soddisfa i vincoli binari, se presenti, tra $X_i$ e $X_j$, esiste almeno un valore per $X_m$ tale che siano soddisfatti i vincoli sia tra $\{X_i, X_m\}$ che tra $\{X_m, X_j\}$.
-formalmente la relazione si riassume come:
-$$
+- **consistenza del nodo** (**node consistency**): Una variabile è detta **nodo-consistente** se tutti i valori del suo dominio rispettano i vincoli unari associati. 
+- **consistenza del arco**: (**arc consistency**):  una variabile $X_i$ è detta **arco-consistente** rispetto a una variabile $X_j$ se, per ogni valore $v_i$ appartenente al dominio $D_i$, esiste almeno un valore $v_j$ nel dominio $D_j$ tale che la coppia $(v_i, v_j)$ soddisfi il vincolo binario tra $X_i$ e $X_j$. Formalmente riassumibile come $$\forall v_i \in D_i, \exists v_j \in D_j : (v_i, v_j) \in C_{ij}$$ per ridurre i domini in modo che siano **arco consistenti** si spesso usa L'[[Algoritmi|algoritmo]] **[[Algoritmo per consistenza archi AC-3|AC-3]]**
+- **consistenza di percorso** (**path consistency**):  un [[Insiemi Matematici|insieme]] di due **variabili** $\{X_i, X_j\}$ sono dette **path-consistent** rispetto a una terza variabile $X_m$ se, per ogni assegnamento $\{X_i = a, X_j = b\}$ che soddisfa i vincoli binari, se presenti, tra $X_i$ e $X_j$, esiste almeno un valore per $X_m$ tale che siano soddisfatti i vincoli sia tra $\{X_i, X_m\}$ che tra $\{X_m, X_j\}$.formalmente la relazione si riassume come:$$
 \begin{array}{}
 
 \forall \, a \in D_i, \, \forall \, b \in D_j \mid (a, b) \in C_{ij}  \\
 \implies \exists \, c \in D_m \, : \, (a, c) \in C_{im} \land (c, b) \in C_{mj}
 \end{array}
-$$
-il nome viene dal fatto che i domini sono consistenti sul percorso che collega $X_i,X_j$ e passa per $X_m$ Ci sono casi in cui i vincoli 
-
-
-
-**$k$-Consistenza** (**$k$-consistency**): la **$k$-consistenza** è la definizione di consistenza più generale. Un insieme di $k$ variabili $\{X_i,\dots ,X_k\}$  è detto $k$-consistente se, per ogni sottoinsieme di $k - 1$ variabili esiste un **assegnamento consistente** ed esiste un valore per la $k$-esima variabile che mantiene la **consistenza** rispetto a tutti i vincoli coinvolti.
-
-
-**la consistenza di nodo** corrisponde al $k=1$
-**la consistenza di arco** corrisponde al caso $k = 2$, 
-**la consistenza di percorso** se si hanno solo vincoli binari, corrisponde al caso $k = 3$. 
-
-**strong $k$-consistency** è una condizione più forte che che implica la $j$-consistenza  $\forall j \leq k$. 
+$$il nome viene dal fatto che i domini sono consistenti sul percorso che collega $X_i,X_j$ e passa per $X_m$ Ci sono casi in cui i vincoli 
+- **$k$-Consistenza** (**$k$-consistency**): la **$k$-consistenza** è la definizione di consistenza più generale. Un insieme di $k$ variabili $\{X_i,\dots ,X_k\}$  è detto $k$-consistente se, per ogni sottoinsieme di $k - 1$ variabili esiste un **assegnamento consistente** ed esiste un valore per la $k$-esima variabile che mantiene la **consistenza** rispetto a tutti i vincoli coinvolti. **la consistenza di nodo** corrisponde al $k=1$, **la consistenza di arco** corrisponde al caso $k = 2$, **la consistenza di percorso** se si hanno solo vincoli binari, corrisponde al caso $k = 3$. 
+- **strong $k$-consistency** è una condizione più  forte della $k$-consistenza in quanto implica la $j$-consistenza  $\forall j \leq k$. 
 
 con $n$ il numero di variabili e con $d$ il numero di valori consistenti per ogni variabile, la $k=n$-consistenza permette di cercare un **assegnamento soluzione** in $O(n^2d)$ che è molto meno di esponenziale nel numero di variabili $n$. Trovare questo tipo di consistenza in se pero ha [[Complessita|complessità]] esponenziale in $n$ sia in tempo che in spazio.
 

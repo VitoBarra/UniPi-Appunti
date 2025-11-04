@@ -9,7 +9,7 @@ SubTopic:
 
 # Ambienti stocastici
 ---
-la **Ricerca ExpectiMiniMax** è un algoritmo di ricerca estensione del algoritmo di [[Ricerca MiniMax|Ricerca MiniMax]] che gli permette di fare ricerca in **[[Definizione di Problemi-Ambienti|ambienti stocastici]]** come ad esempio in **giochi stocastici**. Questo signifca che l'algoritmi deve gestire un **elemento di imprevedibilità**, come ad esempio puo essere il lancio di dadi.
+la **Ricerca ExpectiMiniMax** è un algoritmo di ricerca estensione del algoritmo di [[Ricerca MiniMax|Ricerca MiniMax]] che gli permette di fare ricerca in **[[Definizione di Problemi-Ambienti|ambienti stocastici]]** come ad esempio in **giochi stocastici**. Questo significa che l'algoritmi deve gestire un **elemento di imprevedibilità**, come ad esempio puo essere il lancio di dadi.
 
 
 L'**albero di gioco** è esteso con l'inclusione di nodi di probabilità, detti ***chance nodes***. I rami che partono da tali nodi indicano i possibili risultati del evento [[Definizione di Probabilita|probabilistico]],
@@ -29,7 +29,7 @@ $$
 Qui $r$ rappresenta un esito casuale (ad esempio un lancio di dadi) e $\text{RESULT}(s, r)$ rappresenta lo stato $s$ aggiornato con tale risultato. 
 
 
-Nel contesto della potatura anticipata dell'albero di ricerca, come già visto con l’algoritmo alfa–beta nei giochi deterministici, l’intuizione si complica. In presenza di nodi di probabilità, l’utilità media di un nodo chance potrebbe sembrare non calcolabile senza esaminare tutti i figli. Tuttavia, se si conoscono i limiti dell’intervallo dei valori di utilità è possibile stabilire un limite superiore o inferiore al valore atteso anche prima di aver visitato tutti i rami. Questo rende possibile la potatura anche in presenza di eventi casuali.
+Nel contesto della potatura anticipata dell'albero di ricerca, come già visto con l’algoritmo [[Ricerca alpha-beta pruning|alfa–beta]] nei giochi deterministici, l’intuizione si complica. In presenza di nodi di probabilità, l’utilità media di un nodo chance potrebbe sembrare non calcolabile senza esaminare tutti i figli. Tuttavia, se si conoscono i limiti dell’intervallo dei valori di utilità è possibile stabilire un limite superiore o inferiore al valore atteso anche prima di aver visitato tutti i rami. Questo rende possibile la potatura anche in presenza di eventi casuali.
 
 
  la [[Complessita|complessità computazionale]] di **expectiminimax** è $O(b^m n^m)$, dove $n$ è il numero di esiti casuali distinti e $m$ è la profondità massima della ricerca, per mitigare la crescita esponenziale dello spazio di ricerca nei nodi chance, si può ricorrere al ***[[Ricerca alpha-beta pruning|forward pruning]]***, che consiste nel campionare un sottoinsieme degli esiti casuali, oppure si può optare per tecniche di *[[Ricerca albero Monte Carlo (MCST)|Monte Carlo tree search]]*, che eseguono **playout** casuali incorporando i tiri di dadi, senza bisogno di un'esplicita funzione di valutazione.
