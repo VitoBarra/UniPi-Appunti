@@ -50,6 +50,8 @@ tags:
 		1. [[Forma normale congiuntiva (CNF) per FOL]]
 		2. [[Forma a clausole definite per FOL]]
 	5. [[Algebra booleana]]
+	6. [[Ordinamenti]]
+		1. [[Ordinamento topologico]]
 
 ### Educational Material 🧱
 1. [[Fondameti di informatica - LibroCompleto.pdf]]
