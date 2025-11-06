@@ -20,10 +20,9 @@ L’algoritmo **BACKTRACKING-SEARCH**, opera partendo assegnando una alla volta 
   
 La scelta della variabile avviene mediante la funzione $SELECT\text{-}UNASSIGNED\text{-}VARIABLE(csp, assignment)$, che può essere basata su diverse euristiche. Un approccio semplice prevede un ordinamento statico o casuale delle variabili, ma tale criterio è subottimale. 
 Si può seguire l approccio euristico migliore formato dagli step 
-1. L’euristica delle ***Minimum Remaining Values*** (**MRV** ), conosciuta anche come "variabile più vincolata" o "fail-first", privilegia la variabile con il minor numero di valori legali disponibili, agevolando così l’individuazione anticipata dei fallimenti e la conseguente potatura dell’albero. 
+1. L’euristica delle ***Minimum Remaining Values*** (**MRV**), conosciuta anche come "variabile più vincolata" o "fail-first", privilegia la variabile con il minor numero di valori legali disponibili, agevolando così l’individuazione anticipata dei fallimenti e la conseguente potatura dell’albero. 
 2. Nel caso in cui più variabili presentino lo stesso numero minimo di valori legali, si impiega l’***Degree Heuristic***, che seleziona la variabile coinvolta nel maggior numero di vincoli con altre variabili ancora non assegnate. Tale scelta massimizza l’impatto potenziale di ogni decisione sull’intero insieme del problema. 
 3. Dopo la selezione della variabile, si stabilisce l’ordine di esplorazione dei valori attraverso l’***Least Constraining Value***, che favorisce i valori in grado di restringere il meno possibile i domini delle variabili adiacenti. Questo criterio preserva la massima flessibilità per le assegnazioni successive, con una logica combinata di "fail-first" nella scelta delle variabili e "fail-last" nella selezione dei valori.
-
 L’integrazione tra ricerca e inferenza si concretizza nell’applicazione della propagazione dei vincoli durante l’esecuzione. Il ***Forward Checking***  verifica la consistenza degli archi ogni volta che una variabile $X$ viene assegnata, eliminando dai domini delle variabili adiacenti $Y$ i valori incompatibili con l’assegnazione di $X$. Tale operazione consente di ridurre i rami dell’albero e di identificare rapidamente eventuali contraddizioni. Il **forward checking** si limita alle relazioni locali tra le variabili e non rileva tutte le forme di inconsistenza. Per una propagazione più completa dei vincoli si utilizza l’approccio **Maintaining Arc Consistency** (MAC), che dopo ogni assegnazione richiama l’[[Algoritmo per consistenza archi AC-3]], inizializzando la coda esclusivamente con gli archi che connettono la variabile appena assegnata alle adiacenti ancora non assegnate. 
 
 ```pseudo
@@ -35,7 +34,7 @@ L’integrazione tra ricerca e inferenza si concretizza nell’applicazione dell
 \FUNCTION{BACKTRACKING-SEARCH}{csp}
     \RETURN \CALL{BACKTRACK}{csp, \{\}}
 \ENDFUNCTION
-
+\STATE
 \FUNCTION{BACKTRACK}{csp, assignment}
     \IF{assignment is complete}
         \RETURN assignment

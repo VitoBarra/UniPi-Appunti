@@ -11,7 +11,7 @@ tags:
 ---
 L'[[Algoritmi|algoritmo]] **PL** ([[Logica proposizionale|propositional logic]]) è un algoritmo di [[Sistemi di inferenza logica|inferenza logica ]] che si basa sulla [[Dimostrazione di Teoremi per assurdo o contraddizione|dimostrazione per contraddizione]], secondo cui per provare che $KB \models \alpha$ è sufficiente mostrare che l **enunciato** $KB \land \neg \alpha$ è **[[Logica|insoddisfacibile]]**. 
 
-L'algoritmo prende in input enunciati espressi in [[Logica proposizionale|logica proposizionale]] e in [[Forma normale congiuntiva (CNF)|forma normale congiuntiva (CNF)]]  e si basa sull'applicazione ripetuta della [[Inferenza logica per dimostrazione di teoremi|regola di risoluzione]] finché non si arriva ad uno di questi due casi: 
+L'algoritmo prende in input enunciati espressi in [[Logica proposizionale|logica proposizionale]] e in [[Forma normale congiuntiva (CNF)|forma normale congiuntiva (CNF)]] e si basa sull'applicazione ripetuta della [[Inferenza logica per dimostrazione di teoremi|regola di risoluzione]] finché non si arriva ad uno di questi due casi: 
 1. l’impossibilità di generare ulteriori clausole, il che implica che $KB \not\models \alpha$
 2. la derivazione della clausola vuota, che corrisponde a $Falso$ e quindi vale $KB \land \neg \alpha \equiv Falso$ e quindi $KB \models \alpha$.
    

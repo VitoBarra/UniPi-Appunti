@@ -9,7 +9,7 @@ topic:
 SubTopic:
 ---
 
-# Proprieta delle euristiche per ricerca informata
+# Ricerca informata - Proprieta delle euristiche 
 ---
 Alcune proprietà delle euristiche usate negli [[algoritmi di ricerca informata|algoritmi di ricerca informata]].
 

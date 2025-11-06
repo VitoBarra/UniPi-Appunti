@@ -16,6 +16,6 @@ Il metodo di costruzione di una [[Bayesian network|rete bayesiana]] segue questi
    P(X_i | X_1, \dots, X_{i-1}) = P(X_i | Parents(X_i))
    $$
 4. **Creazione dei collegamenti**: inserire frecce dai genitori selezionati a $X_i$.
-5. **Definizione delle CPT**: specificare le probabilità condizionate $P(X_i | Parents(X_i))$ per ogni nodo.
+5. **Definizione delle CPT**: specificare le probabilità condizionate $P(X_i \mid Parents(X_i))$ per ogni nodo.
 
 Questa costruzione garantisce che la rete sia aciclica e non contenga probabilità ridondanti, evitando possibili incoerenze con gli [[Definizione di Probabilita|assiomi della probabilità]]

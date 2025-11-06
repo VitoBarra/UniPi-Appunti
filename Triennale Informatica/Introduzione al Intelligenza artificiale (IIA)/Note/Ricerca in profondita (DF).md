@@ -15,9 +15,9 @@ la **Ricerca in profondità** o **depth-first** (**DF**) è un [[Algoritmi di ri
 questo algoritmo può essere implementato come caso particolare del [[Ricerca Best-first|algoritmo best-first]] usando come funzione di assegnazione di costi $f$ il negativo della profondità:
 ```pseudo
 \begin{algorithm}
-\caption{Uniform Cost Search}
+\caption{depth first}
 \begin{algorithmic}
-	\Function{UNIFORM-COST-SEARCH}{problem}
+	\Function{DEPTH-FIRST-SEARCH}{problem}
 	\Return \Call{BEST-FIRST-SEARCH}{problem, - DEPTH}
 	\EndFunction
 \end{algorithmic}

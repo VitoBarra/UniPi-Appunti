@@ -3,6 +3,7 @@ Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
 topic: nota
 tags:
   - IIA
+Corse 1: "[[Artificial Intelligence Fundamentals (AIF)]]"
 ---
 
 # Ricerca in ampiezza (BF)
@@ -61,7 +62,7 @@ Sia
 - **_[[Complessita| Complessità in spazio]]_** (nodi in memoria): $O(b^d )$ _frontiera_ e $O(b^{d-1})$ per _esplorati_
 
 >[!warning]
->Se il test goal fosse stato fatto al espansione e non alla generazione la complessita in spazio per la frontiera e in tempo sarebbe stata $O(b^{d+1})$
+>Se il test goal fosse stato dopo il pop e non al espansione la complessit in spazio per la frontiera e in tempo sarebbe stata $O(b^{d+1})$
 
 | Depth | Nodes     | Time             | Memory         |
 | ----- | --------- | ---------------- | -------------- |

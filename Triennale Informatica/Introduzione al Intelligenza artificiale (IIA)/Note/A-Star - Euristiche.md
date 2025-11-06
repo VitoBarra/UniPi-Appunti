@@ -22,7 +22,7 @@ se $h_1(x) \leq h_2(x)$ i nodi espansi da $A^*$ con $h_2$ sono un sottoinsieme d
  Si ha che $h_1 \leq h_2$ si ha che $A^*$ con $h_2$ è efficiente almeno quando $A^*$ con $h_1$
 
 ### Definizione
-date due euristiche $h_1, h_2$  entrambi [[Proprieta delle euristiche per ricerca informata|ammisibile]] si dice che $h_2$ **Domina** $h_1$ se si ha che 
+date due euristiche $h_1, h_2$  entrambi [[Ricerca informata - Proprieta delle euristiche|ammisibile]] si dice che $h_2$ **Domina** $h_1$ se si ha che 
 $$\forall n.h_1(n) \leq h_2(n)$$dove $n$ è uno stato 
 ### Misura del potere euristico
 si misura con il _fattore di diramazione effettivo_ indicato con $b^*$

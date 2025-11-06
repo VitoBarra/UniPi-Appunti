@@ -16,33 +16,34 @@ si vuole decidere se $KB \models \alpha$ ovvero se la **frase atomica** $\alpha$
 lo pseudo codice del algoritmo è il seguente:
 ```pseudo
 \begin{algorithm}
-\caption{FOL-FC-ASK($KB, \alpha$)}
+\caption{FOL-FC-ASK}
 \begin{algorithmic}
-\Require $KB$ \Comment{Base di conoscenza: insieme di clausole definite di primo ordine}
-\Require $\alpha$ \Comment{Query atomica}
+\Require $KB \text{: Base di conoscenza: insieme di clausole definite di primo ordine}$
+\Require $\alpha \text{: Query atomica}$
 \Ensure Una sostituzione oppure \textbf{false}
 
-\While{true}
-    \State $new \gets \{\}$ \Comment{Nuove frasi inferite nell’iterazione corrente}
-    \ForAll{rule in $KB$}
-        \State $(p_1 \land \dots \land p_n \Rightarrow q) \gets \text{STANDARDIZE-VARIABLES(rule)}$
-        \ForAll{$\theta$ tali che $\text{SUBST}(\theta, p_1 \land \dots \land p_n)$ unifichi con fatti in $KB$}
-            \State $q' \gets \text{SUBST}(\theta, q)$
-            \If{$q'$ non unifica con alcuna frase già in $KB$ o in $new$}
-                \State aggiungi $q'$ a $new$
-                \State $\phi \gets \text{UNIFY}(q', \alpha)$
-                \If{$\phi$ non è failure}
-                    \return $\phi$
-                \EndIf
-            \EndIf
-        \EndFor
-    \EndFor
-    \If{$new = \{\}$}
-        \return \textbf{false}
-    \EndIf
-    \State aggiungi $new$ a $KB$
-\EndWhile
-
+\Function{FOL-FC-ASK}{$KB,\alpha$}
+	\While{true}
+	    \State $new \gets \{\}$ \Comment{Nuove frasi inferite nell’iterazione corrente}
+	    \ForAll{rule in $KB$}
+	        \State $(p_1 \land \dots \land p_n \Rightarrow q) \gets \text{STANDARDIZE-VARIABLES(rule)}$
+	        \ForAll{$\theta$ tali che $\text{SUBST}(\theta, p_1 \land \dots \land p_n)$ unifichi con fatti in $KB$}
+	            \State $q' \gets \text{SUBST}(\theta, q)$
+	            \If{$q'$ non unifica con alcuna frase già in $KB$ o in $new$}
+	                \State $new.ADD(q')$
+	                \State $\phi \gets \text{UNIFY}(q', \alpha)$
+	                \If{$\phi$ non è failure}
+	                    \return $\phi$
+	                \EndIf
+	            \EndIf
+	        \EndFor
+	    \EndFor
+	    \If{$new = \{\}$}
+	        \return \textbf{false}
+	    \EndIf
+	    \State aggiungi $new$ a $KB$
+	\EndWhile
+\EndFunction
 \end{algorithmic}
 \end{algorithm}
 ```
@@ -60,7 +61,6 @@ decidere se un set di **premesse** puo essere soddisfatto dalla $KB$  puo essere
 la soluzione corrisponde alla **combinazione di valori** che rendono simultaneamente vere tutte le premesse della regola ovvero veri tutti i vincoli.
 
 al contrario si puo [[Riducibilita dei problemi|ridurre]] un CSP al matching di una [[Forma a clausole definite per FOL|clausola definita]] dove tutti i vincoli sono le premesse della clausola e la soddisfacibilità è il conseguente. 
-
 
 Per mitigare l’inefficienza dovuta alla ripetizione dei controlli, si adotta una versione **incrementale** del **forward chaining**, in cui vengono rivalutate solo le regole che coinvolgono **fatti appena generati**. L’idea è che ogni nuova inferenza al tempo $t$ deve necessariamente derivare da **almeno un fatto introdotto all’iterazione precedente ($t-1$)**: infatti, se una regola potesse essere applicata senza l’uso di nuovi fatti, essa sarebbe già stata attivata nell’iterazione precedente. Sfruttando questa osservazione, l’algoritmo incrementale limita il **matching** alle sole regole che contengono almeno un congiunto $p_i$ unificabile con un fatto $p'_i$ appena inferito al passo $t-1$. Durante il controllo, tale congiunto viene fissato per unificarsi con $p'_i$, mentre gli altri congiunti della regola possono continuare a essere confrontati con fatti derivati in qualsiasi iterazione precedente.  Questo algoritmo genera esattamente le stesse conclusioni che genera il forward Chaining normale ma è più efficiente.
 

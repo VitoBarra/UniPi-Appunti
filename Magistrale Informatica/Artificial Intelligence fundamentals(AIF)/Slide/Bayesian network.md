@@ -39,13 +39,9 @@ Anche se il numero massimo di genitori $k$ è contenuto, compilare le CPT può r
 
 - **Nodi deterministici**: il valore del nodo è determinato esattamente dai genitori, ad esempio tramite una funzione logica o numerica.
 - **Indipendenza contestuale** (**CSI, Context-Specific Independence**): un nodo può essere indipendente da alcuni genitori dati valori specifici di altri genitori.
-- **Relazioni logiche rumorose** (**noisy-OR**): generalizzazione della disgiunzione logica che permette di modellare l'incertezza dell'efficacia causale dei genitori. La probabilità condizionata si calcola come:
-
-$$
+- **Relazioni logiche rumorose** (**noisy-OR**): generalizzazione della disgiunzione logica che permette di modellare l'incertezza dell'efficacia causale dei genitori. La probabilità condizionata si calcola come:$$
 P(x_i | Parents(X_i)) = 1 - \prod_{j : X_j = true} q_j
-$$
-
-dove $q_j$ è la probabilità di inibizione del genitore $X_j$. usarli permette di ridurre drasticamente il numer odi numeri necessari a rappresentare la [[Distribuzione di probabilita congiunta totale|full joint distrubution]]
+$$dove $q_j$ è la probabilità di inibizione del genitore $X_j$. usarli permette di ridurre drasticamente il numer odi numeri necessari a rappresentare la [[Distribuzione di probabilita congiunta totale|full joint distrubution]]
 
 
 

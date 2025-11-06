@@ -41,7 +41,7 @@ $$
 
 Qualsiasi soluzione a questo sistema darà un'**imputazione** nel **core**.  
 Possiamo formulare queste disequazioni come un **[[Programmazione lineare|programma lineare]]** usando una funzione obiettivo fittizia (ad esempio massimizzando $\sum_{i \in N} x_i$), permettendo di calcolare le imputazioni in tempo polinomiale rispetto al numero di disequazioni.  La difficoltà sta nel fatto che questo genera un numero esponenziale di disequazioni (una per ciascuna delle $2^n$ possibili coalizioni). Di conseguenza, questo approccio fornisce un algoritmo per verificare la non-vuotezza del core che funziona in tempo esponenziale.  
-Se sia possibile fare meglio dipende dal gioco studiato: per molte classi di giochi cooperativi, il problema di verificare la non-vuotezza del core è **[[classe di complessita - co-NP-completo|co-NP-completo]]**.
+Se sia possibile fare meglio dipende dal gioco studiato: per molte classi di giochi cooperativi, il problema di verificare la non-vuotezza del core è **[[Classi di complessita- co-NP-completo|co-NP-completo]]**.
 
 
 Il nucleo fornisce condizioni di **stabilità** per la **grand coalition** ma non di **equità**. Ad esempio, per $N = \{1,2\}$ con $\nu(\{1\}) = \nu(\{2\}) = 5$ e $\nu(\{1,2\}) = 20$, l’imputazione $(6,14)$ appartiene al nucleo, ma appare iniqua poiché il giocatore 2 ottiene la quasi totalità del surplus cooperativo. 

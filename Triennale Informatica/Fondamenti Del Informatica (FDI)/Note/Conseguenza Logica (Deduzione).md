@@ -13,7 +13,3 @@ Nella [[Logica|Logica]] una **deduzione** (o **conseguenza logica**) è una **co
 
 **sino** $\alpha , \beta$ due **enunciati** 
 **allora** si dice che $\beta$ è **Conseguenza logica** (o **entailment**) di $\alpha$ indicato con $$\alpha \models \beta$$**se** in ogni **[[Logica|modello]]** in cui $\alpha$ risulta $True$, anche $\beta$ è $True$, ovvero vale che $M(\alpha) \subseteq M(\beta)$.
-
-
-
-Alcuni risultati riguardante che connettono la conseguenza logica e le proprietà degli enunciati sono: 

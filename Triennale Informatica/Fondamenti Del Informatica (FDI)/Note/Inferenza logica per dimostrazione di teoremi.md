@@ -18,10 +18,12 @@ la notazione per una **regola di inferenza** è la seguente:
 dati gli **[[Logica|enunciati]]** $p_i$ che $c_j$ si ha la regola di inferenza:  $$\frac{p_1, \dots,p_n}{c_1,\dots,c_m}$$ dove $p_i$ sono le **premesse** necessarie a dedurre le $c_i$ **conclusioni**, quindi è equivalente a $$p_1\land \dots \land p_n \models c_1 \land \dots \land c_m$$
 le **regole di inferenza** basate sulla [[Logica proposizionale|Logica proposizionale]] sono:
 
-### Rregola Modus Ponens
+
+# Regole notevoli
+
  **Modus Ponens**, letteralmente "modo che afferma", formalizzata come:$$\frac{\alpha \Rightarrow \beta , \ \alpha} {\beta}$$
 **And-Elimination**, ovvero, data una **congiunzione** (and $\land$), è possibile inferire ciascun **congiunto** separatamente, formalizzata come: $$\frac{\alpha \land \beta }{\alpha}$$
-### Rregola di risoluzione
+### Regola di risoluzione
 La **regola di risoluzione** permette di eliminare due **enunciati** che sono in contraddizione tra di loro. è espressa formalmente come:$$
 \frac{\ell_1 \lor \cdots \lor \ell_k, \quad m}{\ell_1 \lor \cdots \lor \ell_{i-1} \lor \ell_{i+1} \lor \cdots \lor \ell_k}
 $$dove $\ell_i$ e $m=\lnot \ell_i$  ovvero sono **complementari** e uno è il negato del altro.
@@ -37,11 +39,31 @@ invece è corretto fare:$$\frac{P\lor Q ,\ \ \  \lnot P \lor  \lnot Q}{P\lor \ln
 
 in caso di **ripetizioni di letterali** nella conclusione ottenuta del applicazione di questa regola si fa il ***factoring***, ovvero le si unisce in un unico letterale. es $A \lor A\equiv A$
 
-La correttezza della risoluzione deriva da una semplice osservazione sulla verità dei letterali coinvolti. infatti siccome $\ell_i, m_j$ sono contrapposti si ha che $\ell_i= True\implies m_j=False$, ma siccome vale che$$
-\begin{array}{}
-m_1 \lor \cdots \lor m_n=True \ \land\ m_j=False & \implies\\ m_1 \lor \cdots \lor m_{j-1} \lor m_{j+1}=True
-\end{array}
-$$  è quindi l'espressione finale è $True$, analogo per il caso inverso.
+
+La **regola di risoluzione** è **corretta** perché preserva la verità logica: ogni assegnazione di verità che rende vere le clausole di partenza rende vera anche la clausola ottenuta per risoluzione.  Consideriamo due clausole generiche:
+$$
+C_1 = (\ell_i \lor A), \qquad C_2 = (\lnot \ell_i \lor B)
+$$
+dove $\ell_i$ è un letterale e $A$, $B$ rappresentano disgiunzioni di altri letterali.  
+La regola di risoluzione costruisce la clausola detta *resolvente*:$$
+R = (A \lor B)
+$$dimostriamo che $R$ è logicamente conseguente da $C_1$ e $C_2$, cioè$$
+(C_1 \land C_2) \Rightarrow R
+$$Per verificarlo, si analizzano tutti i possibili valori di verità di $\ell_i$:
+1. **Caso $\ell_i = \text{True}$**  
+   - La clausola $C_1 = (\ell_i \lor A)$ è vera, qualunque sia il valore di $A$.  
+   - La clausola $C_2 = (\lnot \ell_i \lor B)$ diventa $(\text{False} \lor B)$, dunque per essere vera deve valere $B = \text{True}$.  
+   - Se $B = \text{True}$, allora anche $R = (A \lor B)$ è vera.
+1. **Caso $\ell_i = \text{False}$**  
+   - La clausola $C_1 = (\ell_i \lor A)$ diventa $(\text{False} \lor A)$, quindi per essere vera deve valere $A = \text{True}$.  
+   - La clausola $C_2 = (\lnot \ell_i \lor B)$ è vera, poiché $\lnot \ell_i = \text{True}$.  
+   - Anche in questo caso, $R = (A \lor B)$ è vera perché $A = \text{True}$.
+
+In entrambe le situazioni, qualunque sia il valore di $\ell_i$, se entrambe le clausole di partenza sono vere, la clausola risolvente $R$ è necessariamente vera.  
+Pertanto la risoluzione è una **regola di inferenza corretta**, nel senso che non può produrre una clausola falsa a partire da premesse vere:$$
+\models \big[\,(\ell_i \lor A) \land (\lnot \ell_i \lor B)\,\big] \Rightarrow (A \lor B)
+$$La correttezza della regola non dipende dal contenuto specifico di $A$ e $B$, ma solo dalla relazione complementare tra $\ell_i$ e $\lnot \ell_i$. Essa garantisce che l’insieme delle clausole resti logicamente equivalente a ogni passaggio, permettendo l’eliminazione controllata di letterali contraddittori senza alterare la soddisfacibilità dell’intero sistema.
+
 
 
 ### Proprietà

@@ -33,7 +33,7 @@ Il comportamento dell'algoritmo $A^*$ in relazione al costo della soluzione otti
 - Espandere alcuni nodi per cui vale $f(n) = C^*$  (**goal contour**). La selezione di questi nodi dipende dall'ordine con cui vengono esplorati i nodi che li hanno generati
 - non espande mai nodi con $f(n) > C^*$. 
 
-algoritmo $A^*$ che utilizza un [[Proprieta delle euristiche per ricerca informata|euristica consistente]] è ***optimally efficient***, ovvero qualsiasi **altro algoritmo di ricerca** che parte dallo stato **stesso stati iniziale** e impiega **la stessa euristica** deve necessariamente espandere tutti i nodi che $A^*$ espande con $f(n) < C^*$, questo viene dal fatto che ciascuno di questi nodi potrebbe appartenere ad un percorso ottimale e, pertanto, non possono essere esclusi a priori dal processo di espansione.
+algoritmo $A^*$ che utilizza un [[Ricerca informata - Proprieta delle euristiche|euristica consistente]] è ***optimally efficient***, ovvero qualsiasi **altro algoritmo di ricerca** che parte dallo stato **stesso stati iniziale** e impiega **la stessa euristica** deve necessariamente espandere tutti i nodi che $A^*$ espande con $f(n) < C^*$, questo viene dal fatto che ciascuno di questi nodi potrebbe appartenere ad un percorso ottimale e, pertanto, non possono essere esclusi a priori dal processo di espansione.
 
 una delle conseguenze di questa proprietà è fatto che $A^*$  fa **pruning** di alberi di ricerca non necessari, ovvero evita delle strade non fruttuose che altri algoritmi come [[Ricerca in ampiezza (BF)|BF]] e [[Ricerca di costo uniforme o Dijkstra algorithm (UC)|UC]] avrebbero esplorato.
 
@@ -50,7 +50,7 @@ la **funzione di valutazione ideale** $f^*(n)$ che rappresenta il costo del camm
 
 **Completezza**: è **completo** se non esistono infiniti nodi per cui vale $f(n) < C^*$  e dove i costi $c_{ij}\geq\epsilon >0$ dove $\epsilon$ è il costo minimo di un arco. è utile definire un costo minimo per evitare che l' algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
 **Ottimale** se spazio degli stati __[[Alberi|albero]]__
-**Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[Proprieta delle euristiche per ricerca informata|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
+**Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[Ricerca informata - Proprieta delle euristiche|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
 \begin{array}{rcl}
 f(n) & > & C^* \quad \text{(otherwise $n$ would have been expanded)} \\
 f(n) & = & g(n) + h(n) \quad \text{(by definition)} \\
@@ -68,10 +68,8 @@ $$\begin{array}{rcl}
 			f(n)  & \leq &  f(n’)
 			
 			\end{array}$$
-
-
 senza un euristica ammissibile l'__ottimalità__ non è __garantita__, ma il costo risulta ottimo  in due casi 
-- se l'eurisitica è [[Proprieta delle euristiche per ricerca informata|ammissibile]] per almeno un path fino a quel nodo
+- se l'eurisitica è [[Ricerca informata - Proprieta delle euristiche|ammissibile]] per almeno un path fino a quel nodo
 - se la __sovrastima__ del eristica non supera $h(n) < C^2-C^*$  dove $C^*$ e $C^2$ sono il __costo ottimo reale__ e il __secondo costo ottimo__ 
 
 

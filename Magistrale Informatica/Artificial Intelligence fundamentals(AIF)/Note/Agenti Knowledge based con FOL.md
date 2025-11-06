@@ -13,10 +13,10 @@ SubTopic:
 ---
 Un **[[Agenti Razionali|agente basato sulla conoscenza]]** con [[Logica del primo ordine (FOL)|FOL]] è un espansione degli agenti [[Agenti Knowledge Based|basati su conoscenza]] dove le interrogazioni possono includere quantificatori, come $\forall$ e $\exists$, e la loro valutazione implica la verifica delle condizioni di **verità** per tutti o per alcuni elementi del dominio.
 
-assuemendo una **knowled base** di solo [[Forma a Clausola definita e Clausola di Horn|clausole horn]]  si puo usare l'interfaccia 
+assumendo una **knowled base** di solo [[Forma a Clausola definita e Clausola di Horn|clausole horn]] si puo usare l'interfaccia 
 - **ASKVARS**($KB$, $P(x)$): che coinvolge variabili libere è restituisce **sostituzioni** o **liste di associazione** tra variabili e termini, dette **binding list**, che specificano le istanze per cui la formula risulta vera.  
 
-### agenti Knowledge base in un nuovo dominio
+### Agenti Knowledge base in un nuovo dominio
 Per definire un dominio in cui è possibile usare un agente **knowled bease con FOL** va creato un KB con al interno gli **assiomi** che costituiscono le verità fondamentali del dominio, fornendo la base inferenziale da cui possono essere dedotti nuovi enunciati. Gli **enunciati derivati**, o **teoremi**, sono proposizioni [[Conseguenza Logica (Deduzione)|logicamente conseguenti]] dagli assiomi già presenti nella KB. Da un punto di vista operativo, la loro esplicitazione riduce il costo computazionale dell’inferenza, evitando di ricostruire ogni deduzione dai principi di base.  
 
 Alcuni predicati possono essere definiti solo parzialmente, attraverso specificazioni delle loro proprietà necessarie o sufficienti, nella forma  $$

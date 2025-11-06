@@ -17,7 +17,7 @@ Prolog è il linguaggio di programmazione logica più diffuso, utilizzato soprat
 C \; :- \; A, B
 $$indica che $C$ è vero se $A$ e $B$ sono veri. Le liste in Prolog sono espresse con la notazione $[E|L]$, dove $E$ è il primo elemento e $L$ il resto della lista. La potenza di Prolog risiede nel descrivere relazioni tra più argomenti, piuttosto che funzioni con parametri fissi. Le interrogazioni possono produrre tutte le combinazioni di variabili che soddisfano la relazione, grazie al meccanismo di unificazione [[FOL - Algoritmo di unificazione|La unificazione è il meccanismo chiave per associare variabili a termini]].
 
-L’esecuzione dei programmi Prolog avviene tramite un controllo retrogrado a profondità prima (depth-first backward chaining) [[Algoritmo Forwarding and Backward chaining per Dimostrazione di teoremi|Prolog utilizza backward chaining per provare obiettivi]], tentando le clausole nell’ordine in cui sono scritte. Alcuni aspetti si discostano dall’inferenza logica pura:
+L’esecuzione dei programmi Prolog avviene tramite un controllo retrogrado a profondità prima (depth-first backward chaining) [[Algoritmo Forward and Backward chaining per Dimostrazione di teoremi|Prolog utilizza backward chaining per provare obiettivi]], tentando le clausole nell’ordine in cui sono scritte. Alcuni aspetti si discostano dall’inferenza logica pura:
 
 - utilizzo della semantica di database [[FOL - Semantica Database|Prolog adotta la semantica di database, con mondo chiuso e nomi unici]], con trattamento particolare di uguaglianza e negazione,  
 - funzioni built-in per calcoli aritmetici che vengono eseguite invece di inferite,  

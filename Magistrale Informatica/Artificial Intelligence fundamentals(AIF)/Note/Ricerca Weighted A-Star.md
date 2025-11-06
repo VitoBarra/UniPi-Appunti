@@ -12,7 +12,7 @@ SubTopic:
 ---
 Il metodo di ricerca A* presenta molte qualità positive, ma una delle sue principali limitazioni è l’elevato numero di nodi che espande per garantire l’ottimalità della soluzione. Tuttavia, in molti contesti pratici, può essere accettabile rinunciare alla garanzia di ottimalità in cambio di un risparmio significativo in termini di tempo e spazio computazionale, arrivando così a soluzioni **satisficing**, ossia sufficientemente buone.
 
-Quando si utilizza A* con un’euristica **[[Proprieta delle euristiche per ricerca informata|inamissibile]]**  si corre il rischio di non trovare la soluzione ottima, ma si può ridurre considerevolmente lo spazio di ricerca. In alcune applicazioni, questa approssimazione controllata permette di trovare soluzioni valide in tempi molto più rapidi.
+Quando si utilizza A* con un’euristica **[[Ricerca informata - Proprieta delle euristiche|inamissibile]]**  si corre il rischio di non trovare la soluzione ottima, ma si può ridurre considerevolmente lo spazio di ricerca. In alcune applicazioni, questa approssimazione controllata permette di trovare soluzioni valide in tempi molto più rapidi.
 
 Questo principio è generalizzabile a molti problemi di ricerca tramite l'approccio noto come **Weighted A* search**, nel quale il valore dell’euristica viene ponderato maggiormente. La funzione di valutazione adottata da Weighted A* è definita come:
 

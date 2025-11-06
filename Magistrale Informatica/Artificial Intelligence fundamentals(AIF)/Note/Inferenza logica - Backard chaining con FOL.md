@@ -80,4 +80,4 @@ o alternativamente in modo imperativo
 \end{algorithmic}
 \end{algorithm}
 ```
-L'algoritmo, essendo una ricerca **[[Ricerca in profondita (DF)|depth-first]]**, richiede uno spazio proporzionale alla dimensione della prova, ma può incontrare difficoltà legate a stati ripetuti e incompletezza. Nonostante questi limiti, il **backward chaining**  si usa molto in [[Programmazione logica|logic programming]]
+L'algoritmo, essendo una ricerca **[[Ricerca in profondita (DF)|depth-first]]**, richiede uno spazio proporzionale alla dimensione della prova, ma può incontrare difficoltà legate a stati ripetuti e incompletezza. Nonostante questi limiti, il **backward chaining** si usa molto in [[Programmazione logica|logic programming]]

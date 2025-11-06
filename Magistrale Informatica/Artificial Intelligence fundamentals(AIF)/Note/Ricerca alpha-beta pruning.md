@@ -42,10 +42,9 @@ lo pseudo codice di questo algoritmo:
     \ForAll{$a \in$ game.\Call{Actions}{state}}
         \State $(v2, a2) \gets$ \Call{Min-Value}{game, game.\Call{Result}{state, a}, $\alpha$, $\beta$}
         \If{$v2 > v$}
-            \State $v \gets v2$
-            \State $move \gets a$
+			\State $v,move \gets v2, a$
+	        \State $\alpha \gets \max(\alpha, v)$
         \EndIf
-        \State $\alpha \gets \max(\alpha, v)$
         \If{$v \geq \beta$}
             \Return $(v, move)$
         \EndIf
@@ -63,10 +62,9 @@ lo pseudo codice di questo algoritmo:
     \ForAll{$a \in$ game.\Call{Actions}{state}}
         \State $(v2, a2) \gets$ \Call{Max-Value}{game, game.\Call{Result}{state, a}, $\alpha$, $\beta$}
         \If{$v2 < v$}
-            \State $v \gets v2$
-            \State $move \gets a$
+            \State $v ,move \gets v2,a$
+	        \State $\beta \gets \min(\beta, v)$
         \EndIf
-        \State $\beta \gets \min(\beta, v)$
         \If{$v \leq \alpha$}
             \Return $(v, move)$
         \EndIf

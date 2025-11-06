@@ -37,6 +37,7 @@ tags:
 	3. [[Classi di Complessita]]
 		1. [[Classi di complessita - NP-Hard]]
 		2. [[Classi di complessita - NP-Completo]]
+		3. [[Classi di complessita- co-NP-completo]]
 
 
 

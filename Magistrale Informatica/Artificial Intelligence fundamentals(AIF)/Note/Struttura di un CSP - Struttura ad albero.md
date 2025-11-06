@@ -52,9 +52,7 @@ Una volta garantita la coerenza direzionale, si procede nell'assegnazione dei va
 \end{algorithm}
 ```
 
-
-L'efficienza di questo metodo ha stimolato lo sviluppo di strategie per trasformare grafi generali in strutture ad albero. Una tecnica è il ***cutset conditioning***, che consiste nell'assegnare valori a un sottoinsieme di variabili $S$ tale che la rimozione di $S$ dal grafo generi una struttura ad albero. Tale insieme $S$ è definito *cycle cutset*. Per ogni possibile assegnazione coerente delle variabili in $S$, si eliminano dai domini delle rimanenti variabili i valori incompatibili e si risolve il sottoproblema ad albero risultante. La complessità è $O(d^c \cdot (n - c)d^2)$, dove $c = |S|$. Se $c$ è sufficientemente piccolo, il miglioramento rispetto al backtracking esponenziale è sostanziale. Tuttavia, la ricerca del **cycle cutset** minimo è un problema [[Classi di complessita - NP-Hard|NP-hard]]
-, sebbene esistano algoritmi approssimati efficaci.
+L'efficienza di questo metodo ha stimolato lo sviluppo di strategie per trasformare grafi generali in strutture ad albero. Una tecnica è il ***cutset conditioning***, che consiste nell'assegnare valori a un sottoinsieme di variabili $S$ tale che la rimozione di $S$ dal grafo generi una struttura ad albero. Tale insieme $S$ è definito *cycle cutset*. Per ogni possibile assegnazione coerente delle variabili in $S$, si eliminano dai domini delle rimanenti variabili i valori incompatibili e si risolve il sotto problema ad albero risultante. La complessità è $O(d^c \cdot (n - c)d^2)$, dove $c = |S|$. Se $c$ è sufficientemente piccolo, il miglioramento rispetto al backtracking esponenziale è sostanziale. Tuttavia, la ricerca del **cycle cutset** minimo è un problema [[Classi di complessita - NP-Hard|NP-hard]], ma esistano algoritmi approssimati efficaci.
 
 
 

@@ -1,8 +1,10 @@
 ---
 Course: "[[Introduzione al Intelligenza Artificiale (IIA)]]"
-topic: nota
+Course 2: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - IIA
+  - AIF
+topic: nota
 ---
 # Ricerca Local beam
 ---

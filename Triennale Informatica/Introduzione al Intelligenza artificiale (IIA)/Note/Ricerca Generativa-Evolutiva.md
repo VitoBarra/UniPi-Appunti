@@ -44,7 +44,7 @@ uno pseudo codice è il seguente:
     \Until{$\text{some individual is fit enough, or enough time has elapsed}$}
     \Return $\text{the best individual in population, according to fitness}$
 \EndFunction
-
+\State
 \Function{REPRODUCE}{parent1, parent2}
     \State $n \gets \text{LENGTH}(\text{parent1})$
     \State $c \gets \text{random number from } 1 \text{ to } n$

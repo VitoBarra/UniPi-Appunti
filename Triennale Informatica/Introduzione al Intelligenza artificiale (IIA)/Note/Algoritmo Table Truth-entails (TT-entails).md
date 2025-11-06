@@ -12,7 +12,7 @@ tags:
 ---
 l [[Algoritmi|algoritmo]] **Table Truth - ENTAILS** (**TT-ENTAILS**) è un algoritmo di [[Sistemi di inferenza logica|deduzione]], quindi si vuole decidere se dato **enunciato**  $\alpha$ questo è [[Conseguenza Logica (Deduzione)|conseguenza logica]] della base di conoscenza $KB$.
 
-**TT-Entails** è un approccio [[Inferenza logica per Model cheeking|Model cheeking]] utilizza quindi direttamente la definizione di [[Conseguenza Logica (Deduzione)|conseguenza logica]], Infatti enumera tutti i [[Logica|modelli]] possibili, costruendo un **tabelle di verità**, e  controlla che tutti i modelli che soddisfano $KB$  soddisfano anche $\alpha$, questo 
+**TT-Entails** è un approccio [[Inferenza logica per Model cheeking|Model cheeking]] utilizza quindi direttamente la definizione di [[Conseguenza Logica (Deduzione)|conseguenza logica]], Infatti enumera tutti i [[Logica|modelli]] possibili, costruendo un **tabelle di verità**e controlla che tutti i modelli che soddisfano $KB$  soddisfano anche $\alpha$, questo 
 
 Più in dettaglio l'algoritmo è simile a quello della [[Ricerca in profondita BackTracking (BDF)|ricerca con backtracking]] quindi è [[Ricorsione|ricorsivo]], percorrendo in profondità lo spazio delle assegnazioni di verità. Segue queste linee
 - Per _ogni_ **modello** si ha che

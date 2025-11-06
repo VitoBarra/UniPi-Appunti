@@ -24,5 +24,5 @@ Un **sistema di inferenza** ha due proprietà fondamentali:
 
 
 >[!warning]
->il problema di fare inferenza logica ha classe di complessità [[classe di complessita - co-NP-completo|co-NP-completo]] quindi è difficile almeno come un problema [[Classi di complessita - NP-Completo|NP-Completo]] e ogni algoritmo conosciuto per ha complessità esponenziale nel caso peggiore rispetto alla dimensione dell'input.
+>il problema di fare inferenza logica ha classe di complessità [[Classi di complessita- co-NP-completo|co-NP-completo]] quindi è difficile almeno come un problema [[Classi di complessita - NP-Completo|NP-Completo]] e ogni algoritmo conosciuto per ha complessità esponenziale nel caso peggiore rispetto alla dimensione dell'input.
 

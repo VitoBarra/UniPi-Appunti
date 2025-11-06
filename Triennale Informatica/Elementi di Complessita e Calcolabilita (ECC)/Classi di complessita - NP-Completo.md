@@ -2,8 +2,9 @@
 Course: "[[Elementi di Complessità e Calcolabilità (ECC)]]"
 tags:
   - ECC
-Area: 
-topic: 
+  - Status/AiGenerated
+Area:
+topic:
 SubTopic:
 ---
 
