@@ -9,7 +9,7 @@ SubTopic:
 
 # Illuminazione - Interazione della luce con la materia
 ---
-la __[[Fisica - Onde|luce]]__ è un flusso di __energia radiante__ che si sposta da un posto (__source__) a un altro (__reciver__) seguendo una [[Rette|linea retta]]
+la __[[Onde|luce]]__ è un flusso di __energia radiante__ che si sposta da un posto (__source__) a un altro (__reciver__) seguendo una [[Rette|linea retta]]
 La __luce__  puo provenire da due tipi di fonti
 - __Fonte primaria__: un _Emettitore_ di luce ovvero qualcosa che genera luce
 - __Fonte secondaria__: un _Riflettore_ di luce ovvero la luce viene riflessa da un oggetto.]
@@ -17,7 +17,7 @@ mentre la luce che arriva ad un __reciver__ è detta
 - __Luce diretta__: se viene da una __fonte primaria__
 - __Luce indiretta__: se viene da una __Fonte secondaria__
 
-per la natura della [[Fisica - Onde|luce]] questa viene rappresentata come un raggio che viene deviato solo quando interagisce con la materia, utilizzando i raggio stiamo solo approssimato il comportamenti della luce ma è un idea sia semplice computazionalmente sia concettualmente quindi è molto utilizzata. Il campo che studia la luce cosi modellizzata è chiamato __ray optics__ o __geometric optics__.
+per la natura della [[Onde|luce]] questa viene rappresentata come un raggio che viene deviato solo quando interagisce con la materia, utilizzando i raggio stiamo solo approssimato il comportamenti della luce ma è un idea sia semplice computazionalmente sia concettualmente quindi è molto utilizzata. Il campo che studia la luce cosi modellizzata è chiamato __ray optics__ o __geometric optics__.
 
 
 ### Ray optics

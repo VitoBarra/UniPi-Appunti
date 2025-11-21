@@ -8,7 +8,7 @@ tags:
 
 ## Course MOC  📒
 1. [[Meccanica quantistica]]
-2. [[Fisica - Onde]]
+2. [[Onde]]
 	1. [[Onde - Spetro visibile]]
 
 
