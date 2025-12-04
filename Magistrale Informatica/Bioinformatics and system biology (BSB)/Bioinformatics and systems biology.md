@@ -18,11 +18,17 @@ basi di chimica:
 BSB: 
 8. [[Concetti generali e di bioinformatica e system biology]]
 9. [[DNA Struttura e funzionalità]]
+	1. [[Nucleotidi]]
 10. [[Gene to Protein]]
 11. [[Molecular Techniques]]
 12. [[Mutations and Variation]]
 13. [[Systems Biology Networks]]
-14. [[Sequencing Technologies]]
+14. [[Tecnologie di sequenziamento]]
+	1. [[Polymerase chain reaction (PCR)]]
+	2. [[Sequenziamento Sanger]]
+	3. [[Sequenziamento di seconda generazione]]
+	4. [[Problema del allineamento delle sequenze]]
+15. [[RNA]]
 
 
 

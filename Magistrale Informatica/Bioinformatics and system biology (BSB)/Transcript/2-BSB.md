@@ -89,6 +89,10 @@ Basically, with the thumb, the enzyme is able to put the complementary nucleotid
 
 that is hybridized to the molecule, and this structure is recognized by the DNA polymerase that gets attached, and when it's attached, then it starts to add new nucleotides. This sequence is called So that polymerization reaction only works if you have a primer. So if you have a single-strand DNA, a single-chain DNA, the DNA polymerase doesn't work. You always need a primer. then the chimer forms a double, a small double helix, and this structure is recognized by DNA polymerase, and you have polymerization. Why is that so important? Because I saw you, I mean, in a way, puzzled. Why is that so important? Because when you sequence DNA, and we'll come to that, you want to know the sequence of the genome, you use polymerization reactions. And in order to use polymerization reactions, you must have primers. Otherwise, DNA coordinates won't work and you won't get the sequence. So that's my need of telling you what a primer is.
 
+
+[MARK , 54.17]
+
+
 So if you want to polymerize DNA, if you want to replicate DNA, you can do it, but you always need a primer hybridized, right? So you need a primer hybridized, then you need the nucleotides and the polymers. If you have these three reagents in one lab, you can replicate DNA. So here is just a picture of the logistics of DNA replication. So you have another DNA, here it is, that is unwinded, and each of these two filaments, represented in gray, can be replicated. By the DNA polymerase, you have one DNA polymerase for one strand. And the other DNA molecule is in the other strand. And then you have synthesis of DNA on both strands. So you have one mother, DNA molecules, and you end with the two daughters, DNA molecules. OK? Difficult. Kind of. The only thing I need to tell you is that I told you so far that the double helix is very stable, right? It is the molecule of radiating. If I forget it here, nothing will happen for months, right?
 
 So is that so easy to break up another DNA molecule? No, no. This process requires energy, right? So, imagine, in your cells, whenever DNA verification starts, you will have a DNA molecule that is unwinded, and the two strands get separated. to do it in the lab, there is a very easy thing that I can do. I heat. So I give heat. I reach 90 degrees and the two strands get separated. Okay. When a double helix is closed, I'm talking about double strand DNA. When the duct linux is open, like in this configuration here, then we talk about single-stranded DNA. But two single-stranded DNA will always search one for the other because they are complementary and because they are more stable if they stay together. So if after heating, I cool down, these two strands will become double-stranded, okay? This process is called denaturation. So I can measure a molecule of DNA to open it, and then when it is opened, the two strands can be either used as tangles 
@@ -99,27 +103,7 @@ the D-L-U-M-I-N-E
 
 enzyme, has a proofreading activity. What does it mean? that sometimes it makes errors. Is an error, grabe,
 
-is an
-
-error, a
-
-replication
-
-error something to be scared of? Yes or no? Yes, why?
-
-Because the cell, some cell will have a predated
-
-DNA
-
-in some form.
-
-I
-
-think that's also the lead for tumors, but
-
-I
-
-don't know. Yeah. So the word is completely correct, a mutation. So a replication error by DNA polymerase is something serious. because a change in the nucleotide means a change in the genetic order. And this change can be silent if you're lucky, or can
+is an error, a replication error something to be scared of? Yes or no? Yes, why? Because the cell, some cell will have a predated DNA in some form. I think that's also the lead for tumors, but I don't know. Yeah. So the word is completely correct, a mutation. So a replication error by DNA polymerase is something serious. because a change in the nucleotide means a change in the genetic order. And this change can be silent if you're lucky, or can
 
 lead to a fall if you are unlucky. Of course, or due to a condition of gene mutation, for example,
 
