@@ -7,9 +7,11 @@ tags:
 # Fisica
 
 ## Course MOC  📒
-1. [[Meccanica quantistica]]
-2. [[Onde]]
+1. [[Definizione di Energia]]
+2. [[Meccanica quantistica]]
+3. [[Onde]]
 	1. [[Onde - Spetro visibile]]
+4. [[equazioni di Newton]]
 
 
 
