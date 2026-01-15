@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Chimica]]"
 tags:
   - Chimica
 Area:

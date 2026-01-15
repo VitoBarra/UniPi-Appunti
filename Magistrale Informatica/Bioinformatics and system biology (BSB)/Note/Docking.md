@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Bioinformatics and Systems Biology (BSB)]]"
 tags:
   - BSB
 Area:

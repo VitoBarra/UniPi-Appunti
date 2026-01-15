@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Bioinformatics and Systems Biology (BSB)]]"
 tags:
   - BSB
 Area:
@@ -9,7 +9,7 @@ SubTopic:
 
 # Progettazione di farmaci basata sul recettore
 ---
-La **progettazione di farmaci basata sul recettore** si fonda sul principio del riconoscimento [[molecole|molecolare]], dove l’affinità tra **ligando** e **macromolecola** deriva da interazioni specifiche e complementari. L’obiettivo consiste nell’individuare o ideare strutture con elevata affinità e selettività per un recettore di cui è disponibile la struttura tridimensionale, sfruttando la complementarità di forma, distribuzione delle cariche e potenziale di interazione. La relazione struttura–attività viene interpretata considerando parametri energetici e geometrici, con attenzione alla stabilizzazione del complesso e alla riduzione dell’energia libera di legame, in termini schematici $\Delta G$.  
+La **progettazione di farmaci basata sul recettore** si fonda sul principio del riconoscimento [[Molecole|molecolare]], dove l’affinità tra **ligando** e **macromolecola** deriva da interazioni specifiche e complementari. L’obiettivo consiste nell’individuare o ideare strutture con elevata affinità e selettività per un recettore di cui è disponibile la struttura tridimensionale, sfruttando la complementarità di forma, distribuzione delle cariche e potenziale di interazione. La relazione struttura–attività viene interpretata considerando parametri energetici e geometrici, con attenzione alla stabilizzazione del complesso e alla riduzione dell’energia libera di legame, in termini schematici $\Delta G$.  
 
 L’impiego di strutture determinate sperimentalmente consente di analizzare i siti di interazione e di ottimizzare i legami del ligando con residui chiave, includendo la possibilità di rinforzare l’ancoraggio di prototipi noti come inibitori, agonisti o antagonisti. Le strutture tridimensionali delle proteine derivano prevalentemente dalla cristallografia a raggi X, che richiede isolamento, purificazione e cristallizzazione. A questa si affiancano tecniche basate su NMR e diffrazione elettronica, ampliando l’accesso a modelli strutturali affidabili depositati in archivi specializzati.  
 

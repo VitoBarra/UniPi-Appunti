@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Bioinformatics and Systems Biology (BSB)]]"
 tags:
   - BSB
 Area:
@@ -9,7 +9,7 @@ SubTopic:
 
 # Meccanica molecolare
 ---
-la **meccanica molecolare** considera le [[molecole|molecole]] come un insieme di **masse atomiche collegate** da **forze attrattive**, modellate come **sfere connesse da molle**. Un insieme empirico di funzioni energetiche, noto come **force field** (FF), permette di simulare queste interazioni.
+la **meccanica molecolare** considera le [[Molecole|molecole]] come un insieme di **masse atomiche collegate** da **forze attrattive**, modellate come **sfere connesse da molle**. Un insieme empirico di funzioni energetiche, noto come **force field** (FF), permette di simulare queste interazioni.
 Un tipico FF include contributi per 
 1. l’allungamento dei legami
 2. flessione degli angoli
