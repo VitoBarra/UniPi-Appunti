@@ -42,9 +42,11 @@ BSB:
 14. [[Progettazione di farmaci basata sul recettore]]
 	1. [[Docking]]
 15. [[Dinamica molecolare]]
-16. [[Design di farmaci basati su farmacofori]]
-	1. [[Farmacofori]]
-
+16. [[Pipeline per lo sviluppo di nuovi farmaci]]
+	1. [[Design di farmaci basati su farmacofori]]
+		1. [[Farmacofori]]
+	2. [[high-throughput screening]]
+	3. [[Virtual screeaning]]
 
 
 
