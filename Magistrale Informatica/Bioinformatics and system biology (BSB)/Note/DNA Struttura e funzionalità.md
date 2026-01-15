@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Bioinformatics and Systems Biology (BSB)]]"
 tags:
   - BSB
 Area:
@@ -11,13 +11,13 @@ SubTopic:
 il **DNA** è una [[Molecole|molecola]] che immagazzina le **informazioni genetiche** necessarie per la **sintesi proteica** e la **regolazione dell’espressione genica**. 
 
 Il **DNA** è composto **due filamenti** intrecciati ad **elica**.
-ogni **filamento** è una catena dei **[[nucleotidi|nucleotidi]]** che quindi formano una **backbone zucchero-fosfato** che è **idrofila** e interagisce bene con l’acqua grazie ai gruppi polari che possono formare legami a idrogeno e le basi azotate che invece, sono **idrofobiche** e tendono a raggrupparsi per evitare il contatto con l’acqua, conferendo alla catena proprietà **non polari**.
+ogni **filamento** è una catena dei **[[Nucleotidi|Nucleotidi]]** che quindi formano una **backbone zucchero-fosfato** che è **idrofila** e interagisce bene con l’acqua grazie ai gruppi polari che possono formare legami a idrogeno e le basi azotate che invece, sono **idrofobiche** e tendono a raggrupparsi per evitare il contatto con l’acqua, conferendo alla catena proprietà **non polari**.
 ![[IMG - BSB Dna con basi esplicitate.png]]  
-La catena di [[nucleotidi|nucleotidi]] è intrinsecamente **direzionale**: l’estremità **5’** porta in genere un **gruppo fosfato libero**, mentre l’estremità **3’** presenta un **gruppo –OH**. L’estensione della catena avviene sempre in direzione **5’ → 3’** perché il nuovo nucleotide può formare il legame fosfodiesterico solo attraverso il suo gruppo fosfato e l’ossidrile **–OH** presente al **3’** del nucleotide precedente.  
+La catena di [[Nucleotidi|Nucleotidi]] è intrinsecamente **direzionale**: l’estremità **5’** porta in genere un **gruppo fosfato libero**, mentre l’estremità **3’** presenta un **gruppo –OH**. L’estensione della catena avviene sempre in direzione **5’ → 3’** perché il nuovo nucleotide può formare il legame fosfodiesterico solo attraverso il suo gruppo fosfato e l’ossidrile **–OH** presente al **3’** del nucleotide precedente.  
 
 Le designazioni **5’** e **3’** indicano la posizione degli atomi di carbonio sullo scheletro del desossiribosio o ribosio, a cui sono legati rispettivamente il fosfato (C5) e l’ossidrile reattivo (C3).
 ![[IMG - direzione della catena.png]]
-I due filamenti, cioè le due catene di [[nucleotidi|nucleotidi]], si associano in modo **complementare** tramite **legami a idrogeno** tra basi azotate: l’**adenina** si appaia con la **timina**, mentre la **guanina** si appaia con la **citosina**. Questo processo, definito anche **ibridazione**, garantisce la stabilità strutturale della molecola e la possibilità di una **replicazione accurata**, poiché ogni filamento contiene l’informazione necessaria a ricostruire l’altro, rendendoli di fatto **ridondanti**.
+I due filamenti, cioè le due catene di [[Nucleotidi|Nucleotidi]], si associano in modo **complementare** tramite **legami a idrogeno** tra basi azotate: l’**adenina** si appaia con la **timina**, mentre la **guanina** si appaia con la **citosina**. Questo processo, definito anche **ibridazione**, garantisce la stabilità strutturale della molecola e la possibilità di una **replicazione accurata**, poiché ogni filamento contiene l’informazione necessaria a ricostruire l’altro, rendendoli di fatto **ridondanti**.
 
 . I due filamenti scorrono in orientamenti opposti, risultando **antiparalleli** ($5' \to 3'$ e $3' \to 5'$). 
 ![[IMG - BSB DNA proprieta anti-paralela e complementarieta.png]]

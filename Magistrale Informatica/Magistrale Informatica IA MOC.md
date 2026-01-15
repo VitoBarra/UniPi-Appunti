@@ -18,7 +18,7 @@ tags:
 - 2° anno:
 - complementari:
 	- [[3D Geometry for Modeling and Processing (3GMP)]]
-	- [[Bioinformatics and systems biology]]
+	- [[Bioinformatics and Systems Biology (BSB)]]
 
 
 

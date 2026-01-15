@@ -1,5 +1,5 @@
 ---
-Course: "[[Bioinformatics and systems biology]]"
+Course: "[[Bioinformatics and Systems Biology (BSB)]]"
 tags:
   - BSB
 Area:
@@ -19,5 +19,6 @@ I monomeri costituiscono i [[Molecular Techniques|building blocks]] delle biomol
 La sequenza primaria di una biomolecola determina la **struttura tridimensionale** e la funzione della molecola stessa. Le [[Gene to Protein|proteine]] lineari, costituite da un numero definito di unità monomeriche, assumono una forma tridimensionale specifica che dipende strettamente dalla sequenza lineare dei monomeri. Strutture secondarie e terziarie sono quindi vincolate dalla sequenza primaria e dalle interazioni chimiche tra i monomeri.  
 
 Gli studi [[Omics|omics]] e l'approccio della [[Systems Biology|Systems Biology]] permettono di affrontare problemi biologici complessi considerando non solo singole molecole, ma l'interazione tra componenti all'interno di reti e sistemi. La combinazione di riduzione sperimentale della complessità con modellizzazione computazionale consente di analizzare sistemi complessi e di comprendere le interconnessioni tra geni, [[Gene to Protein|proteine]] e altre biomolecole.  
+![[IMG - overview sulle discipline Omics.png]]
 
 Questi concetti sono fondamentali per comprendere l'integrazione tra dati biologici su larga scala e modelli computazionali, e si collegano direttamente a [[DNA Struttura e funzionalità|DNA Struttura e funzionalità]], [[Gene to Protein|Gene to Protein]], [[Molecular Techniques|Molecular Techniques]] .
