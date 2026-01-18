@@ -14,6 +14,7 @@ tags:
 		2. [[Normalizzazione - NLP]]
 		3. [[Sentence segmentation - NLP]]
 	4. [[Edit distance]]
+		1. [[Trovare Edit Distance minima]]
 2. [[Probabilistic Language models]]
 	1. [[N-Grams Language Models]] 
 	2. [[Evaluation Language Models]]

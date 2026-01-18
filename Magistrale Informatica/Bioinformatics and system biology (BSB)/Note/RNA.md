@@ -19,7 +19,9 @@ L’assenza di **mRNA** implica assenza di espressione, quantità ridotte corris
 
 La struttura dell’**mRNA**, come mostrato in  
 ![[IMG - RNA per la sintesi proteica Tripletta per aminoacido.png]]
-è organizzata in una sequenza di nucleotidi disposti in triplette, ciascuna delle quali codifica un **amminoacido** secondo la corrispondenza schematica $$\text{tripletta} \rightarrow \text{amminoacido}$$Questa relazione consente la conversione dell’informazione contenuta nelle quattro basi azotate in un **polimero proteico** costituito da **venti** differenti unità **amminoacidiche**.
+è organizzata in una sequenza di nucleotidi disposti in triplette, ciascuna delle quali codifica un **[[Aminoacidi|amminoacido]]** secondo la corrispondenza schematica $$\text{tripletta} \rightarrow \text{amminoacido}$$Questa relazione consente la conversione dell’informazione contenuta nelle quattro basi azotate in un **polimero [[Proteine|proteico]]** costituito da **venti** differenti unità **amminoacidiche**.
+la traduzione da **tripletta** detto **codone** ad [[Aminoacidi|aminoacido]] è riassunta dallo schema. Anche se avvolte ci sono delle eccezioni  ![[IMG - da DNA a Aminoacidi ruota riassuntiva.png]]
+
 
 La traduzione richiede l’intervento coordinato del ribosoma e dei **tRNA**, che portano singoli amminoacidi riconoscendo le triplette mediante complementarità tra codone e anticodone. La sequenza del processo, rappresentata in  
 ![[IMG - precesso di traduzione da RNA a proteina.png]]prevede l’ingresso sequenziale dei tRNA, la formazione del legame peptidico e lo scorrimento del ribosoma lungo l’mRNA secondo la relazione $$\text{tRNA}_{i} + \text{tRNA}_{i+1} \rightarrow \text{catena polipeptidica in allungamento}$$Il meccanismo prosegue fino al riconoscimento di un codone di stop da parte di un **tRNA** privo di amminoacido, evento che determina il rilascio della catena proteica e la dissociazione del complesso di traduzione.

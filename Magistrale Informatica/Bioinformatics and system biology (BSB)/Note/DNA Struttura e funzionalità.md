@@ -63,9 +63,6 @@ graficamente tutto il processo è
 ![[BSB - duplicazione del DNA.png]]
 
 
-
-
-
 il DNA è detto **codice genetico** perche contiene **unità funzionali** chiamate **geni** ovvero sequenze di nucleotidi che **codificano** l’informazione necessaria per la produzione di proteine.
 ![[BSB - DNA che contiene geni per codificare proteine.png]]  
 

@@ -7,6 +7,6 @@ topic:
 SubTopic:
 ---
 
-# Tipi di file per rappresentare molecole - PDB
+# Allineamento di sequenze pirewise come problema di ottimizzazione
 ---
-   
+
