@@ -14,7 +14,7 @@ Il __Sampling__ è l atto di campionare in un certo modo un generico dominio. il
 Alcuni esempi di applicazioni sono : 
 il [[Meshing e il Remeshing|remeshing]]: 
 ![[IMG - Sampling e remeshing.png]]
-e il [[Algoritmi di renderizzazione|rendering]]    
+e il [[Rendering|rendering]]    
 ![[IMG - Sampling e rendering.png]]
 
 

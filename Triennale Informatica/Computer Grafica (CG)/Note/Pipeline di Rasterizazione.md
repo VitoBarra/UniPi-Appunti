@@ -9,7 +9,7 @@ tags:
 
 # Pipeline di Rasterizazione
 ---
-la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]]_ di rasterizazione è un [[Algoritmi di renderizzazione|algoritmi di rendering]] usato specialmente per il rendering di scene _dinamiche_. 
+la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]]_ di rasterizazione è un [[Rendering|algoritmi di rendering]] usato specialmente per il rendering di scene _dinamiche_. 
 
 un problema che risolve questo algoritmi e quello di trasformare una scena 3D in una 2D proiettata sullo schermo, crea una _rasterizzazione_, ovviamente scene gia in 2D restano in 2D
 
@@ -41,5 +41,5 @@ _allora_ il costo del intero processo è stimato da $$Cost(rast)=K_{tr}n_{v}+\su
 
 
 #### Rendering di mesh non triangolari
-gli algoritmi usati nelle GPU per il [[Algoritmi di renderizzazione|rendering]] lavorano solo con [[Mesh Poligonali|mesh triangolari]] motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
+gli algoritmi usati nelle GPU per il [[Rendering|rendering]] lavorano solo con [[Mesh Poligonali|mesh triangolari]] motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
 ![[Pasted image 20240220035554.png]]

@@ -21,7 +21,7 @@ in questo contesto l'errore di distorsione si può definire in due modi principa
 - di **similarità geometrica**
 
 
-la **similarità di apparenza**  è complessa da definire siccome dipende fortemente dalle condizioni di  [[Algoritmi di renderizzazione|rendering]], quello che si fa solitamente è renderizare le due mesh in condizioni simili e poi usare gli algoritmi classici del [[Immage Processing|Immage Processing]] per guardare alle **Differenza tra due oggetti**. 
+la **similarità di apparenza**  è complessa da definire siccome dipende fortemente dalle condizioni di  [[Rendering|rendering]], quello che si fa solitamente è renderizare le due mesh in condizioni simili e poi usare gli algoritmi classici del [[Immage Processing|Immage Processing]] per guardare alle **Differenza tra due oggetti**. 
 Un modo semplice per definire la differenza è la seguente: $$D(I_1, I_2) = \frac{1}{n^2} \sum_x \sum_y d(I_1(x,y), I_2(x,y))$$Questa formula calcola la distanza tra due immagini confrontando pixel per pixel tramite una funzione di differenza $d$.![[IMG - Similarita di apparenza.png]]
 
 

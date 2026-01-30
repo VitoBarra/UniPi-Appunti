@@ -7,7 +7,7 @@ tags:
   - CG
 ---
 
-# Algoritmi di renderizzazione
+# Rendering
 ---
 Il **rendering** è un processo che prende in input dei dati che descrivono la scena e genera in _output_ delle _immagini rasterizate_.
 ![[IMG_0774.jpeg]]

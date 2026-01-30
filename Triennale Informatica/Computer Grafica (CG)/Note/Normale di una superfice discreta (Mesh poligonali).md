@@ -57,7 +57,7 @@ questa seconda normale puo essere memorizzata o in un vertice duplicato oppure n
 
 
 ##### Utilizzo della norma discreta nel rendering
-Gli effetti di calcolare la [[Normale di una superfice parametrica|normale]] per faccia nel  [[Algoritmi di renderizzazione|rendering]] è quella che tende ad evidenziare i singoli triangoli, rendendo visibile la struttura della mesh, cosa che solitamente si cerca di evitare. (sinistra) 
+Gli effetti di calcolare la [[Normale di una superfice parametrica|normale]] per faccia nel  [[Rendering|rendering]] è quella che tende ad evidenziare i singoli triangoli, rendendo visibile la struttura della mesh, cosa che solitamente si cerca di evitare. (sinistra) 
 
 mentre invece calcolare la [[IMG - caso limite definizione normale in superfice parametrica.png|normali]] ai **[[Computer grafica - Primitive Geometriche|vertici]]** tendono a dare  una transizione più fluida tra le facce e una rappresentazione visiva più morbida e continua della superficie, riducendo l’effetto a spigoli tipico delle normali per faccia e migliorando la resa della curvatura implicita nella superficie discreta. (destra)
 ![[IMG - rendering usando la normale per faccia e per vertice.png]]

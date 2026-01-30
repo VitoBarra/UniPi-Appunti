@@ -9,7 +9,7 @@ tags:
 
 # Rasterizazione VS Ray Tracing
 ---
-il confronto tra il [[Ray Tracing|ray tracing]] e la [[Pipeline di Rasterizazione|rasterizzazione]] per determinare quale è il _[[Algoritmi di renderizzazione|paradigma di rendering]]_ migliore è un dibattito acceso, come al solito la risposta è _dipende_
+il confronto tra il [[Ray Tracing|ray tracing]] e la [[Pipeline di Rasterizazione|rasterizzazione]] per determinare quale è il _[[Rendering|paradigma di rendering]]_ migliore è un dibattito acceso, come al solito la risposta è _dipende_
 
 **Ray Tracing**:
 - Il _ray tracing_ prende in considerazione gli effetti _globali dell'illuminazione_ in modo _naturale_, inclusi trasparenze, ombre e rifrazioni

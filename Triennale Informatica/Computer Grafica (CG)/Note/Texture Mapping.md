@@ -19,7 +19,7 @@ Ad esempio volessimo realizzare una scacchiera con una __texture__ basterebbero 
 ![[Pasted image 20240301042525.png]]
 il mostrare a schermo una __texture__  significa associare ad ogni pixel qualcosa che è nella [[Texture|texture]] come questo viene fatto dipende dal tipo di modello.
 ![[Pasted image 20240301051420.png]]
-Nella pipeline di [[Algoritmi di renderizzazione|rendenring]]
+Nella pipeline di [[Rendering|rendenring]]
 ![[Pasted image 20240301051245.png]]
 
 

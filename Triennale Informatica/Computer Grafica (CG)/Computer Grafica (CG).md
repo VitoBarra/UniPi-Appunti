@@ -18,7 +18,7 @@ tags:
 5. [[Rappresentazione delle immagini]]
 6. [[Computer grafica - Primitive algebriche]]
 7. [[Computer grafica - Primitive Geometriche]]
-8. [[Algoritmi di renderizzazione]]
+8. [[Rendering]]
 	1. [[Pipeline di Rasterizazione]]
 		1.  [[Proiettare una scena 3D in 2D]]
 		2. [[Trasformare da Vertici a Frammenti (Rasterizazione)]]
