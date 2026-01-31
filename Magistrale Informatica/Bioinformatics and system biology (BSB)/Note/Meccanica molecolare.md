@@ -6,51 +6,52 @@ Area:
 topic:
 SubTopic:
 ---
-
 # Meccanica molecolare
 ---
-la **meccanica molecolare** considera le [[Molecole|molecole]] come un insieme di **masse atomiche collegate** da **forze attrattive**, modellate come **sfere connesse da molle**. Un insieme empirico di funzioni energetiche, noto come **force field** (FF), permette di simulare queste interazioni.
-Un tipico FF include contributi per 
-1. l’allungamento dei legami
-2. flessione degli angoli
-3. rotazione torsionale
-4. le interazioni van der Waal
-5. le interazioni elettrostatiche 
-6. i legami a idrogeno. 
-L’energia complessiva di un conformero, detta anche energia sterica della molecola, è la somma di tutti questi contributi. 
-![[IMG - modello delle molecole a molle.png]]
+La **meccanica molecolare** descrive come calcolare l’[[Energia Molecolare e conformazioni|energia molecolare]] associata alle **[[Energia Molecolare e conformazioni|conformazioni]]** di una [[Molecole|molecola]]. Essa approssima la molecola come un insieme di masse atomiche collegate da forze attrattive, modellate come **sfere connesse da molle**, e utilizza un insieme empirico di funzioni energetiche, noto come **force field** (FF), per stimare l’**energia potenziale** di una data conformazione.
 
-Un legame chimico tra due atomi possiede una posizione di equilibrio naturale. Considerando il legame come una molla, si associa una penalità energetica a qualsiasi variazione della lunghezza del legame. L’energia di allungamento può essere approssimata tramite la legge di Hooke:$$E(L) = \sum k(L)(L - L_0)^2$$dove $k(L)$ è la costante di forza di allungamento e $L_0$ la posizione di equilibrio. Le costanti di forza per l’allungamento sono determinate sperimentalmente mediante spettroscopia vibrazionale, risultando accurate vicino alla geometria di equilibrio.
+Un **force field** calcola l’energia molecolare come somma di contributi specifici:
+1. **bond stretching**: energia di allungamento dei legami  
+2. **angle bending**: energia di flessione degli angoli  
+3. **torsional rotation**: energia torsionale di rotazione  
+4. **van der Waals interactions**: energia di interazioni non leganti  
+5. **electrostatic interactions**: energia elettrostatica tra cariche o dipoli  
+6. **hydrogen bonding**: energia dovuta ai legami a idrogeno  
+La somma di questi termini fornisce l’energia associata a una conformazione. Una parte importante di tale energia è detta **energia sterica**, contributo energetico legato all’ingombro spaziale degli atomi o dei gruppi all’interno della molecola.  
+Una visualizzazione del modello sfere e molle: ![[IMG - modello delle molecole a molle.png]]
 
-![[IMG - livelli di energia bond stretching.png]]
+Il contributo di **bond stretching** calcola la penalità energetica dovuta alla variazione della lunghezza di un legame rispetto al valore di equilibrio. Considerando il legame come una molla, l’energia è approssimata tramite la legge di Hooke: $$E(L)=\sum k(L)(L-L_0)^2$$ dove $k(L)$ è la costante di forza e $L_0$ la lunghezza di equilibrio.  
 
-Un angolo di valenza formato da tre atomi ha anch’esso una posizione di equilibrio naturale. La variazione dell’angolo rispetto al valore di equilibrio comporta una penalità energetica, espressa tramite una legge simile alla Hooke:$$E(\Theta) = \sum k(\Theta)(\Theta - \Theta_0)^2$$dove $k(\Theta)$ è la costante di forza per la flessione e $\Theta_0$ l’angolo di equilibrio. Anche queste costanti sono solitamente determinate sperimentalmente.
+Il contributo di **angle bending** calcola la penalità energetica dovuta alla deformazione di un angolo di valenza rispetto al suo valore di equilibrio. L’energia è espressa in forma analoga: $$E(\Theta)=\sum k(\Theta)(\Theta-\Theta_0)^2$$ dove $k(\Theta)$ è la costante di flessione e $\Theta_0$ l’angolo di equilibrio.  
+![[IMG - livelli di neergia per bond stretching e angle bending.png]]
 
-L’energia associata a un angolo torsionale origina da interazioni steriche ed elettroniche tra atomi non legati direttamente. l energia minima richiesta per un rotazione completa attorno a un legame è detta **barriera energetica per la rotazione**. 
-L’energia torsionale si esprime come: $$E_\Theta = \sum V_i \big[1 + \cos(n|\Theta| + \tau)\big]$$Tre diversi termini $V_i$ sono generalmente considerati per descrivere la barriera alla rotazione.
+Il contributo di **torsional rotation** calcola l’energia associata alla rotazione attorno a un legame singolo, originata da interazioni steriche ed elettroniche tra atomi non direttamente legati. La rotazione è descritta dall’angolo torsionale (angolo diedro) $\theta$, definito da quattro atomi consecutivi $A-B-C-D$ e corrispondente all’angolo tra i piani $(A,B,C)$ e $(B,C,D)$. Durante la rotazione alcune orientazioni risultano energeticamente più favorevoli di altre, per cui l’energia varia in modo periodico, mostrando minimi (conformazioni stabili) e massimi (barriere). La minima energia necessaria per superare questi massimi definisce la **barriera torsionale**. L’energia torsionale si esprime come: $$E_\theta=\sum V_i\big[1+\cos(n\theta+t)\big]$$ dove ciascun termine $V_i$ rappresenta un contributo empirico alla **barriera torsionale**, cioè l’entità delle differenze energetiche tra conformazioni durante la rotazione. Il parametro $n$ è la periodicità torsionale: indica quante volte il profilo energetico (minimi e massimi) si ripete durante una rotazione completa di $360^\circ$, quindi il periodo angolare è $360^\circ/n$. Il termine $t$ è un fattore di fase che determina la posizione di minimi e massimi lungo la rotazione.
+un [altra fonte](https://dl-sdg.github.io/RESOURCES/FORCE_FIELD/ff7.html)
 ![[IMG - sfere di influenze per componente tornsionale.png]]
 
-Le interazioni tra atomi non legati direttamente sono note come interazioni van der Waals. A breve distanza si manifesta repulsione dovuta all’interpenetrazione delle nuvole elettroniche, mentre a lunghe distanze è presente una debole attrazione di dispersione. Queste interazioni sono descritte dal potenziale di Lennard-Jones:$$V_{LJ} = 4 \varepsilon \Big[ \Big(\frac{\sigma}{r}\Big)^{12} - \Big(\frac{\sigma}{r}\Big)^6 \Big]$$dove $\varepsilon$ e $\sigma$ sono parametri specifici per ciascuna coppia di particelle.
+Il contributo di **van der Waals interactions** calcola le interazioni tra atomi non legati direttamente: repulsione a breve distanza e attrazione di dispersione a lunga distanza. Queste interazioni sono descritte dal potenziale di Lennard-Jones: $$V_{LJ}=4\varepsilon\Big[\Big(\frac{\sigma}{r}\Big)^{12}-\Big(\frac{\sigma}{r}\Big)^6\Big]$$ dove $\varepsilon$ e $\sigma$ sono parametri specifici per ciascuna coppia di particelle determinati empiricamete.
 ![[IMG - interazioni van der waals.png]]
 
-Le interazioni tra atomi o legami polari possono comportare attrazioni o repulsioni. Al primo livello di approssimazione, possono essere modellate assegnando cariche atomiche o utilizzando un dipolo di legame. L’energia elettrostatica tra cariche puntiformi è: $$E_{el}(R_{AB}) = \frac{Q_A Q_B}{\varepsilon R_{AB}}$$mentre tra dipoli di legame è:$$E_{el}(R_{AB}) = \frac{\mu_A \mu_B}{\varepsilon R_{AB}^3} (\cos \chi - 3 \cos \alpha_A \cos \alpha_B)$$dove $Q$ è la carica atomica, $R$ la distanza tra atomi, $\varepsilon$ la costante dielettrica e $\mu$ il momento di dipolo.
-
+Il contributo di **electrostatic interactions** calcola l’energia dovuta alle attrazioni o repulsioni tra cariche atomiche o dipoli di legame. Per cariche puntiformi: $$E_{el}(R_{AB})=\frac{Q_AQ_B}{\varepsilon R_{AB}}$$ mentre per dipoli: $$E_{el}(R_{AB})=\frac{\mu_A\mu_B}{\varepsilon R_{AB}^3}(\cos\chi-3\cos\alpha_A\cos\alpha_B)$$ dove $Q$ è la carica, $R$ la distanza, $\varepsilon$ la costante dielettrica e $\mu$ il momento di dipolo.  
 ![[IMG - contribuzione bipolare eletrostatica.png]]
 
-Un legame a idrogeno è un’interazione attrattiva tra un idrogeno covalentemente legato a un elemento elettronegativo e un secondo elemento elettronegativo. L’energia di un forte legame a idrogeno varia tra 12 e 21 kJ/mol, mentre un legame covalente possiede circa 418 kJ/mol. La sua energia può essere calcolata come:$$E_{HB} = \frac{332}{\varepsilon} \sum \Big( \frac{q_D q_A}{d_{DA}} + \frac{A_K}{d_{HA}^{12}} - \frac{B_K}{d_{HA}^{10}} \Big)$$dove $\varepsilon$ è la costante dielettrica, $q$ la carica atomica, $d$ le distanze e $A_K$, $B_K$ sono parametri specifici.
-
+Il contributo di **hydrogen bonding** calcola l’energia di un legame a idrogeno, interazione attrattiva tra un idrogeno legato a un elemento elettronegativo e un secondo elemento elettronegativo. L’energia di un forte legame a idrogeno varia tra 12 e 21 kJ/mol. Un’espressione utilizzata è: $$E_{HB}=\frac{332}{\varepsilon}\sum\Big(\frac{q_Dq_A}{d_{DA}}+\frac{A_K}{d_{HA}^{12}}-\frac{B_K}{d_{HA}^{10}}\Big)$$ dove $q$ sono le cariche, $d$ le distanze e $A_K,B_K$ parametri empirici.  
 ![[IMG - contribuzione per interazioni idrogeno.png]]
 
 
+
+
+
 ### Calcolo del force field (FF)
-I calcoli mediante Force Field si basano sulle coordinate tridimensionali e permettono di determinare l'energia associata alla conformazione molecolare considerata. Un esempio di calcolo con il Force Field MM2 illustra come la geometria e le interazioni tra atomi contribuiscano alla stabilità della molecola.  
+I calcoli mediante force field si basano sulle coordinate tridimensionali e permettono di determinare l’energia associata alla conformazione molecolare considerata. Un esempio con il force field MM2 mostra come geometria e interazioni contribuiscano alla stabilità della molecola.  
 ![[IMG - calcolo Force filed.png]]
-Il concetto di “tipi di atomo” rappresenta uno degli elementi fondamentali nella meccanica molecolare. I tipi di atomo sono essenziali per la valutazione delle interazioni, poiché le proprietà chimiche e geometriche degli atomi influenzano le energie di legame, di angolo e torsionali. Essi possono essere definiti sulla base di: a) ibridazione, b) carica atomica e c) atomi legati. 
-Ad esempio, nel Force Field Amber i tipi di ossigeno sono distinti in cinque categorie:  
-- O: ossigeno del gruppo carbonilico  
-- OW: ossigeno nell'acqua  
-- OH: ossigeno nei gruppi idrossilici  
+
+Il concetto di **tipi di atomo** è fondamentale: le interazioni vengono calcolate in base a categorie atomiche definite da ibridazione, carica e ambiente chimico, e non solo dall’elemento. Ad esempio, nel force field Amber gli ossigeni sono distinti in diverse classi:
+- O: ossigeno carbonilico  
+- OW: ossigeno dell’acqua  
+- OH: ossigeno nei gruppi ossidrilici  
 - OS: ossigeno in eteri ed esteri  
-- O2: ossigeni dei gruppi carbossilici e fosfato  
-Le interazioni tra atomi vengono calcolate in base ai tipi di atomo e non ai soli elementi chimici, permettendo una descrizione più accurata delle energie conformazionali e delle proprietà dinamiche delle molecole.  
+- O2: ossigeni carbossilici e fosfato  
+
+Questa classificazione permette una descrizione più accurata delle energie conformazionali e delle proprietà dinamiche molecolari.  
 ![[IMG - esempio tipi di atomo.png]]

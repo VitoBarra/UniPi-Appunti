@@ -6,27 +6,32 @@ Area:
 topic:
 SubTopic:
 ---
-
 # Ricerca conformazionale
 ---
-La **conformazione** di una [[Molecole|molecola]] può modificarsi attraverso variazioni degli [[Meccanica molecolare|angoli di torsione dei legami]]. Lo studio delle geometrie molecolari e delle energie associate è definito "**analisi conformazionale**". 
+La **ricerca conformazionale** studia come una [[Molecole|molecola]] possa cambiare geometria attraverso variazioni degli [[Meccanica molecolare|angoli torsionali]] dei legami. Lo studio delle [[Geometrica Molecolare|geometrie]] accessibili e delle [[Energia Molecolare e conformazioni|energie associate]] è definito **analisi conformazionale**.  
 ![[IMG - analisi Conformazionale componenti.png]]
-Per una molecola con un solo legame rotabile, la superficie di potenziale conformazionale si rappresenta come una curva dell'energia molecolare in funzione dell'angolo di torsione, dove i minimi corrispondono alle conformazioni a bassa energia. 
-![[IMG - superfice del energia potenziale conformazionale.png]]
-Nel caso di due legami rotabili, l'energia totale dipende da due angoli di torsione variabili, generando una superficie di energia in due dimensioni. 
-![[IMG - energia potenziale per 2 bond ruotabili.png]]
-La maggior parte delle molecole possiede più di due angoli torsionali variabili, rendendo impossibile la visualizzazione completa della superficie di potenziale, definita in uno spazio con più di tre dimensioni. Tale superficie può essere schematizzata tramite un parametro $p$ privo di significato geometrico reale, mostrando minimi locali (conformeri a bassa energia), barriere (conformeri ad alta energia) e il minimo globale (conformazione di minima energia). Barriere superiori a 80 kJ/mol impediscono l'interconversione a temperatura ambiente.  
 
+Per una molecola con un solo legame rotabile, la superficie di potenziale conformazionale è rappresentata da una curva che descrive l’energia molecolare in funzione dell’angolo di torsione: i minimi della curva corrispondono alle **conformazioni** a bassa energia quindi a **conformeri** Nel caso di due legami rotabili, l’energia totale dipende da due angoli torsionali variabili, generando una superficie energetica bidimensionale.  
+![[IMG - energia potenziale per 1 e 2 bond rotabili.png]]
+
+La maggior parte delle molecole possiede però più di due torsioni variabili, quindi la superficie conformazionale non è visualizzabile direttamente perché definita in uno spazio con più di tre dimensioni. Essa può essere schematizzata tramite un parametro astratto $p$, privo di significato geometrico reale, che mostra:
+- **minimi locali** (conformeri a bassa energia)  
+- **barriere** (regioni ad alta energia)  
+- **minimo globale** (conformazione di minima energia)  
+Barriere superiori a 80 kJ/mol rendono l’interconversione impossibile a temperatura ambiente.  
 ![[IMG - energia ridotta da un parametro.png]]
 
+### Algoritmi di ricerca conformazionale
+Un metodo concettualmente semplice per esplorare la superficie conformazionale consiste nella scansione sistematica di tutte le geometrie possibili, ma per molecole con molti legami rotabili questo approccio diventa rapidamente impraticabile a causa della crescita combinatoria del numero di configurazioni. Inoltre, molte conformazioni generate risultano tra loro molto simili e ricadono nello stesso “pozzo” energetico: esse appartengono quindi alla stessa famiglia di **conformeri**, differendo solo per piccole variazioni geometriche attorno a uno stesso minimo locale.  
 
-Un **metodo semplice** per esplorare la superficie di potenziale conformazionale consiste nella scansione sistematica di tutte le geometrie possibili, ma per molecole con numerosi legami rotabili questo approccio diventa impraticabile.
+Per questo motivo, dopo una fase iniziale di **ricerca conformazionale**, è necessario uno step di minimizzazione, che fa collassare tutte le strutture appartenenti allo stesso pozzo verso il minimo locale corrispondente, eliminando ridondanze e producendo [[Energia Molecolare e conformazioni|energie]] confrontabili.  
 
-Tutte le geometrie all'interno di uno stesso "pozzo" energetico appartengono alla stessa famiglia di conformeri; l'analisi conformazionale si riduce quindi all'identificazione di queste famiglie tramite minimi locali ottenuti attraverso procedure di minimizzazione. 
-Poiché la generazione sistematica di tutti i conformeri non è sempre possibile, si ricorre a metodi che producono conformeri tipicamente diversi, ottenuti attraverso l'analisi dei frammenti (**ricerca sistematica**) o metodi casuali come il **Monte Carlo**. I conformeri generati devono essere sottoposti a minimizzazione per ottenere valori energetici significativi.  
-![[IMG - ricerca dei conformanti.png]] 
-La **ricerca sistematica** esplora la maggior parte delle conformazioni della molecola ruotando ciascun legame di un angolo specificato (generalmente 120°) e cercando minimi energetici. Questo approccio funziona bene per molecole piccole e acicliche, mentre per molecole grandi diventa proibitivo per la crescita esponenziale del numero di conformeri. 
+Poiché non è possibile generare esplicitamente tutti i conformeri, si ricorre ad algoritmi che mirano a produrre conformazioni **tipicamente diverse**, cioè appartenenti a regioni energetiche distinte della superficie. Questo permette di identificare i principali minimi locali senza campionare inutilmente configurazioni ripetitive. Le strategie più comuni includono approcci deterministici come la **ricerca sistematica** e approcci stocastici come il **Monte Carlo**. Ogni conformero generato deve essere infine minimizzato per ottenere valori energetici significativi.
+![[IMG - step della ricerca conformazionale.png]]
 
-Nel metodo **Monte Carlo** l’esplorazione conformazionale avviene come campionamento statistico guidato dalla [[Distribuzione di Boltzmann|distribuzione di Boltzmann]]. Ogni perturbazione genera una nuova configurazione con energia $E_{new}$, confrontata con quella corrente $E_{old}$. Quando $\Delta E = E_{new}-E_{old}$ è negativa, la configurazione viene accettata. Quando è positiva, l’accettazione avviene con probabilità $$ P = e^{-\Delta E / kT} $$confrontata con un numero casuale $R$ ($0 \le R \le 1$). Se $P > R$ la struttura è accettata, altrimenti si mantiene quella precedente. Questo criterio consente di privilegiare regioni a bassa energia pur permettendo l’accesso a stati più alti, evitando che il sistema rimanga intrappolato in un minimo locale e garantendo un campionamento coerente con l’equilibrio termodinamico.
+La **ricerca sistematica** esplora la maggior parte delle conformazioni ruotando ciascun legame di un angolo fissato (generalmente 120°) e cercando minimi energetici. Questo metodo è efficace per molecole piccole e acicliche, ma diventa proibitivo per molecole grandi, poiché il numero di combinazioni torsionali cresce esponenzialmente.
+
+Nel metodo **Metropolis-Hastings Monte Carlo** l’esplorazione conformazionale avviene come campionamento statistico guidato dalla [[Distribuzione di Boltzmann|distribuzione di Boltzmann]]. A partire da una geometria iniziale, una perturbazione casuale genera una nuova configurazione con [[Energia Molecolare e conformazioni|energia]] $E_{new}$, confrontata con quella corrente $E_{old}$. Se $$\Delta E = E_{new}-E_{old}<0$$ la configurazione viene accettata. Se invece $\Delta E>0$ l’accettazione avviene con probabilità $$P=e^{-\Delta E/kT}$$ confrontata con un numero casuale $R$ ($0\le R\le1$). Se $P>R$ la struttura è accettata, altrimenti si mantiene quella precedente. Ripetendo questo processo si ottiene una sequenza di **conformazioni campionate**, concentrate nelle regioni a bassa energia ma con la possibilità di superare barriere e accedere a stati meno favorevoli, in modo tale che la frequenza con cui vengono visitati i diversi conformeri rappresenti la loro popolazione relativa all’equilibrio secondo la [[distribuzione di Boltzmann|distribuzione di Boltzmann]]. Le configurazioni accettate vengono poi selezionate e minimizzate per identificare i principali minimi locali.  
 ![[IMG - schema Metropolis-Hastings MC Algorithm per la ricerca conformazionale.png]]
-La conformazione assunta da una molecola al momento del legame con il target biologico è detta **bioattiva**. Essa non coincide necessariamente con il minimo globale e può essere meno stabile, purché l'energia rilasciata dalle interazioni favorevoli compensi l'energia necessaria per assumere la conformazione più tesa. La differenza energetica tra la conformazione bioattiva e il minimo globale è generalmente inferiore a 13 kJ/mol.
+
+La conformazione assunta da una molecola al momento del legame con un target biologico è detta **bioattiva**. Essa non coincide necessariamente con il minimo globale e può essere meno stabile, purché l’energia rilasciata dalle interazioni favorevoli compensi l’energia richiesta per assumere una conformazione più tesa. La differenza energetica tra la conformazione bioattiva e il minimo globale è generalmente inferiore a 13 kJ/mol.
