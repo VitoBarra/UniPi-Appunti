@@ -29,29 +29,13 @@ Il contributo di **torsional rotation** calcola l’energia associata alla rotaz
 un [altra fonte](https://dl-sdg.github.io/RESOURCES/FORCE_FIELD/ff7.html)
 ![[IMG - sfere di influenze per componente tornsionale.png]]
 
-Il contributo di **van der Waals interactions** calcola le interazioni tra atomi non legati direttamente: repulsione a breve distanza e attrazione di dispersione a lunga distanza. Queste interazioni sono descritte dal potenziale di Lennard-Jones: $$V_{LJ}=4\varepsilon\Big[\Big(\frac{\sigma}{r}\Big)^{12}-\Big(\frac{\sigma}{r}\Big)^6\Big]$$ dove $\varepsilon$ e $\sigma$ sono parametri specifici per ciascuna coppia di particelle determinati empiricamete.
+Il contributo di **van der Waals interactions** calcola le interazioni tra atomi non legati direttamente: repulsione a breve distanza e attrazione di dispersione a lunga distanza. Queste interazioni sono descritte dal potenziale di Lennard-Jones: $$V_{LJ}=4\varepsilon\Big[\Big(\frac{\sigma}{r}\Big)^{12}-\Big(\frac{\sigma}{r}\Big)^6\Big]$$ dove $\varepsilon$ e $\sigma$ sono parametri specifici per ciascuna coppia di particelle determinati empiricamente.
 ![[IMG - interazioni van der waals.png]]
 
 Il contributo di **electrostatic interactions** calcola l’energia dovuta alle attrazioni o repulsioni tra cariche atomiche o dipoli di legame. Per cariche puntiformi: $$E_{el}(R_{AB})=\frac{Q_AQ_B}{\varepsilon R_{AB}}$$ mentre per dipoli: $$E_{el}(R_{AB})=\frac{\mu_A\mu_B}{\varepsilon R_{AB}^3}(\cos\chi-3\cos\alpha_A\cos\alpha_B)$$ dove $Q$ è la carica, $R$ la distanza, $\varepsilon$ la costante dielettrica e $\mu$ il momento di dipolo.  
 ![[IMG - contribuzione bipolare eletrostatica.png]]
 
-Il contributo di **hydrogen bonding** calcola l’energia di un legame a idrogeno, interazione attrattiva tra un idrogeno legato a un elemento elettronegativo e un secondo elemento elettronegativo. L’energia di un forte legame a idrogeno varia tra 12 e 21 kJ/mol. Un’espressione utilizzata è: $$E_{HB}=\frac{332}{\varepsilon}\sum\Big(\frac{q_Dq_A}{d_{DA}}+\frac{A_K}{d_{HA}^{12}}-\frac{B_K}{d_{HA}^{10}}\Big)$$ dove $q$ sono le cariche, $d$ le distanze e $A_K,B_K$ parametri empirici.  
+Il contributo di **[[Legami idrogeno|hydrogen bonding]]** calcola l’energia di un legame a idrogeno, interazione attrattiva tra un idrogeno legato a un elemento elettronegativo e un secondo elemento elettronegativo. L’energia di un forte legame a idrogeno varia tra 12 e 21 kJ/mol. Un’espressione utilizzata è: $$E_{HB}=\frac{332}{\varepsilon}\sum\Big(\frac{q_Dq_A}{d_{DA}}+\frac{A_K}{d_{HA}^{12}}-\frac{B_K}{d_{HA}^{10}}\Big)$$ dove $q$ sono le cariche, $d$ le distanze e $A_K,B_K$ parametri empirici.  
 ![[IMG - contribuzione per interazioni idrogeno.png]]
 
 
-
-
-
-### Calcolo del force field (FF)
-I calcoli mediante force field si basano sulle coordinate tridimensionali e permettono di determinare l’energia associata alla conformazione molecolare considerata. Un esempio con il force field MM2 mostra come geometria e interazioni contribuiscano alla stabilità della molecola.  
-![[IMG - calcolo Force filed.png]]
-
-Il concetto di **tipi di atomo** è fondamentale: le interazioni vengono calcolate in base a categorie atomiche definite da ibridazione, carica e ambiente chimico, e non solo dall’elemento. Ad esempio, nel force field Amber gli ossigeni sono distinti in diverse classi:
-- O: ossigeno carbonilico  
-- OW: ossigeno dell’acqua  
-- OH: ossigeno nei gruppi ossidrilici  
-- OS: ossigeno in eteri ed esteri  
-- O2: ossigeni carbossilici e fosfato  
-
-Questa classificazione permette una descrizione più accurata delle energie conformazionali e delle proprietà dinamiche molecolari.  
-![[IMG - esempio tipi di atomo.png]]

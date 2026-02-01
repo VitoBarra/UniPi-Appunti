@@ -22,7 +22,7 @@ L’esempio riportato in:
 (costituito da 63 atomi, 66 legami e 4 anelli) evidenzia come l’informazione geometrica completi la formula strutturale.
 
 ### Geometria delle proteine
-Nel caso delle [[proteine|proteine]], la conformazione dipende dagli angoli di rotazione lungo lo scheletro peptidico, in particolare dagli angoli $\phi$ e $\psi$ dei legami del $\alpha$-carbo:![[IMG - angoli phi e psi di un aminoacido.png]]
+Nel caso delle [[proteine|proteine]], la conformazione dipende dagli angoli di rotazione lungo lo scheletro peptidico, in particolare dagli angoli $\phi$ e $\psi$ dei legami del $\alpha$-carbon:![[IMG - angoli phi e psi di un aminoacido.png]]
 
 La geometria del legame peptidico impone vincoli strutturali, con configurazioni cis e trans:![[IMG - 2 aminoacidi legati con alpha carobn cis e trans.png]]
 

@@ -9,23 +9,43 @@ SubTopic:
 
 # Dinamica molecolare
 ---
-La **dinamica molecolare** rappresenta un’estensione della [[Meccanica molecolare|meccanica molecolare]] e costituisce un approccio computazionale per individuare **conformeri** preferenziali e [[Energia Molecolare e conformazioni||minimi energetici]] globali attraverso la simulazione del moto **atomico nel tempo**, considerando vibrazioni e rotazioni interne. ![[IMG - tipi di movimenti dei legami.png]]
-Gli atomi vengono trattati come particelle che rispondono alle [[equazioni di Newton|equazioni di Newton]], dove la forza determina l’accelerazione secondo $F=ma$. L’integrazione numerica delle equazioni del moto, lungo passi temporali successivi, produce traiettorie che riportano **posizioni e velocità**. ![[IMG - simulazione.png]]
-La distribuzione dell’energia tra componente potenziale e cinetica consente al sistema di superare barriere energetiche quando l’energia cinetica è comparabile con l’altezza della barriera. ![[IMG - barriera energetica.png]]
-Con energia sufficiente, correlata alla temperatura di simulazione, l’esplorazione della superficie di energia potenziale diventa più ampia, pur restando limitata dai tempi computazionali. l’energia cinetica media segue $$E_K = \frac{1}{2} m \langle v^2 \rangle = \frac{f}{2} k_B T$$L’energia potenziale dipende dalle coordinate di tutti gli atomi e, per la complessità della funzione, non esiste una soluzione analitica; l’integrazione viene quindi effettuata con algoritmi numerici come Verlet, Velocity Verlet, LeapFrog e Beeman, suddividendo il moto in intervalli $\Delta t$. La scelta di $\Delta t$ richiede che le variazioni di $V$ restino trascurabili entro il passo; il vincolo principale è imposto dagli atomici più rapidi, portando tipicamente a $\Delta t \approx 10^{-15}$ s. Ne deriva che simulazioni estese richiedono un numero molto elevato di passi, con tempi effettivi nell’ordine di decine o centinaia di nanosecondi e capacità di attraversare solo barriere relativamente basse.
+La **dinamica molecolare** è un ambito della [[chimica computazionale|chimica computazionale]] che rappresenta un’estensione della [[Meccanica molecolare|meccanica molecolare]] e costituisce un approccio per individuare conformazioni preferenziali e generare diversi [[Energia Molecolare e conformazioni|minimi energetici locali]] attraverso la simulazione del moto **atomico nel tempo**, considerando vibrazioni, rotazioni interne e traslazioni.  
+![[IMG - tipi di movimenti dei legami.png]]
+La dinamica molecolare tratta ogni atomo come una particella soggetta alle [[equazioni di Newton|equazioni di Newton]], in cui la forza determina l’accelerazione secondo $F=ma$. L’integrazione numerica delle equazioni del moto, lungo passi temporali successivi, produce una traiettoria che descrive l’evoluzione di **posizioni e velocità** del sistema.  
+![[IMG - simulazione.png]]
 
-Durante la simulazione è possibile estrarre configurazioni a intervalli regolari e sottoporle a minimizzazione per ottenere diversi minimi locali. 
-Per descrivere sistemi biologici realistici è necessario includere il **solvente e gli ioni**, scegliendo tra 
-- **trattamenti impliciti**, basati su costanti dielettriche e modelli continuo (Generalized Born, Poisson–Boltzmann)
-- **trattamenti espliciti**: in cui il solvente interagisce direttamente con il soluto, con maggiore affidabilità ma costo computazionale superiore.
- Per riprodurre un fluido in condizioni di massa, si impiegano condizioni periodiche al bordo della simulazione,, mantenendo cosi costante il numero di particelle.
-![[IMG - Loop boundaries 3D.png]] 
+Durante la simulazione, l’energia totale è distribuita tra componente potenziale e cinetica. Questo permette al sistema di superare barriere energetiche che separano minimi locali, purché l’energia cinetica sia comparabile con l’altezza della barriera.  
+![[IMG - barriera energetica.png]]
+L’energia cinetica media $E_K$ è legata alla temperatura di simulazione secondo $$E_K=\frac{1}{2}m\langle v^2\rangle=\frac{f}{2}k_BT$$ dove:
+- $m$ è la massa dell’atomo (o particella considerata)  
+- $\langle v^2\rangle$ è il valore medio del quadrato della velocità, calcolato lungo la traiettoria  
+- $f$ è il numero di gradi di libertà del sistema (tipicamente $f=3N$ per $N$ atomi, al netto di eventuali vincoli)  
+- $k_B$ è la costante di Boltzmann  
+- $T$ è la temperatura assoluta della simulazione  
+Questa relazione esprime il principio di equipartizione, secondo cui a ogni grado di libertà traslazionale o vibrazionale è associato in media un contributo energetico proporzionale alla temperatura.
 
-una simulazione di **dinamica molecolare** segue i seguenti step ![[IMG - step di una simulazione di dinamica molecolare.png]]
-La dinamica atomica mostra un’evoluzione complessa: inizialmente le collisioni frequenti rendono i moti apparentemente irregolari, mentre su scale temporali più lunghe emergono fluttuazioni collettive che rivelano differenze di mobilità tra regioni strutturali. Parametri di controllo come minimizzazione, restart, gestione delle velocità, condizioni periodiche, cutoff non legati, vincoli (SHAKE), valutazione delle forze, temperatura di riferimento $T$, algoritmi di termostato e frequenze di collisione $\gamma$, numero di passi $N$, passo temporale $dt$, e intervalli di scrittura per energie, coordinate e file di restart consentono di modulare l’accuratezza del campionamento e la stabilità numerica.
+Poiché l’energia potenziale dipende dalle coordinate di tutti gli atomi, le equazioni del moto non ammettono soluzione analitica e devono essere risolte numericamente tramite algoritmi come Verlet, Velocity Verlet, LeapFrog e Beeman, suddividendo il moto in intervalli $\Delta t$. La scelta di $\Delta t$ è vincolata dai moti atomici più rapidi: tipicamente $\Delta t\approx10^{-15}$ s (1 fs). Ne deriva che anche simulazioni di poche centinaia di nanosecondi richiedono milioni o miliardi di passi.
 
-L’analisi delle traiettorie comprende la valutazione della deviazione quadratica media (RMSD) degli atomi pesanti di proteina e ligando rispetto alle coordinate iniziali, utile per descrivere l’andamento strutturale globale. ![[IMG - analosi di traiettoria, grafico d errorre.png]] Viene inoltre considerata la fluttuazione quadratica media (RMSF) dei $C_\alpha$, indicativa dello spostamento medio residuo nel corso della simulazione. ![[IMG - analisi di traiettoria errore.png]]
+Di conseguenza, con temperature realistiche e tempi accessibili (decine–centinaia di ns), la dinamica molecolare campiona principalmente la regione locale attorno alla conformazione iniziale e consente di superare solo barriere relativamente basse (pochi kcal/mol). Minimi locali diversi possono essere generati selezionando configurazioni a intervalli regolari e sottoponendole successivamente a minimizzazione.
 
+Per descrivere sistemi biologici realistici è necessario includere anche **solvente e ioni**, scegliendo tra:
+- **trattamenti impliciti**, basati su modelli continui (Generalized Born, Poisson–Boltzmann)  
+- **trattamenti espliciti**, in cui acqua e ioni interagiscono direttamente con il soluto, con maggiore affidabilità ma costo computazionale superiore  
+
+Per simulare un fluido bulk ed evitare effetti di bordo si impiegano condizioni periodiche al contorno (*periodic boundary conditions*): il sistema viene racchiuso in una scatola replicata nello spazio, e le particelle che escono da un lato rientrano dal lato opposto come immagini periodiche.  
+![[IMG - Loop boundaries 3D.png]]
+
+Una simulazione di dinamica molecolare segue tipicamente i seguenti step:  
+![[IMG - step di una simulazione di dinamica molecolare.png]]
+- minimizzazione iniziale  
+- riscaldamento (*heating*) fino alla temperatura desiderata  
+- equilibratura (*equilibration*) per stabilizzare le proprietà termodinamiche  
+- dinamica di produzione (*production*) da cui si estraggono le traiettorie  
+- analisi finale delle traiettorie  
+al inizio della simulazione i moti appaiono irregolari per effetto delle collisioni, mentre su tempi più lunghi emergono fluttuazioni collettive che distinguono regioni più mobili e regioni più stabili della struttura.  L’analisi delle traiettorie comprende la valutazione della deviazione quadratica media (RMSD) degli atomi pesanti di proteina e ligando rispetto alla struttura iniziale, utile per descrivere l’andamento globale della stabilità conformazionale.  
+![[IMG - analosi di traiettoria, grafico d errorre.png]]
+Viene inoltre considerata la fluttuazione quadratica media (RMSF) dei $C_\alpha$, indicativa dello spostamento medio di ciascun residuo durante la simulazione.  
+![[IMG - analisi di traiettoria errore.png]]
 
 
 
