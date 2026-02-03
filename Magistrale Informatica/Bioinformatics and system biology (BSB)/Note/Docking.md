@@ -30,7 +30,6 @@ La flessibilità del ligando in DOCK viene trattata tramite la strategia **ancho
 Una volta selezionate le migliori orientazioni dell’anchor, la molecola viene suddivisa in segmenti flessibili non sovrapposti, che vengono ricostruiti progressivamente attorno all’anchor a partire dagli strati più interni del sito di legame. I segmenti vengono riattaccati in modo incrementale, assumendo che la forma del binding site limiti naturalmente lo spazio conformazionale accessibile e favorisca solo le conformazioni più rilevanti per la geometria del recettore.  
 ![[IMG - layer in docking.png]]
 
-
 Il **FlexX** è un algoritmo di [[docking|docking]] che utilizza anch’esso una costruzione incrementale per trattare la flessibilità del ligando. A differenza di DOCK, il posizionamento del frammento rigido principale e dei sostituenti avviene guidato da interazioni geometricamente restrittive, sfruttando tecniche di clustering delle pose per selezionare configurazioni compatibili con il sito attivo.
 
 ### AutoDock e GOLD
