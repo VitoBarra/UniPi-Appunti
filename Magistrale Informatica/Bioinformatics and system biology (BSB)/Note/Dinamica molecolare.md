@@ -11,7 +11,9 @@ SubTopic:
 ---
 La **dinamica molecolare** è un ambito della [[chimica computazionale|chimica computazionale]] che rappresenta un’estensione della [[Meccanica molecolare|meccanica molecolare]] e costituisce un approccio per individuare conformazioni preferenziali e generare diversi [[Energia Molecolare e conformazioni|minimi energetici locali]] attraverso la simulazione del moto **atomico nel tempo**, considerando vibrazioni, rotazioni interne e traslazioni.  
 ![[IMG - tipi di movimenti dei legami.png]]
-La dinamica molecolare tratta ogni atomo come una particella soggetta alle [[equazioni di Newton|equazioni di Newton]], in cui la forza determina l’accelerazione secondo $F=ma$. L’integrazione numerica delle equazioni del moto, lungo passi temporali successivi, produce una traiettoria che descrive l’evoluzione di **posizioni e velocità** del sistema.  
+La dinamica molecolare tratta ogni atomo come una particella soggetta alle [[equazioni di Newton|equazioni di Newton]], in cui la forza determina l’accelerazione secondo $F=ma$. L’[[Integrali notevoli|integrazione]] numerica delle equazioni del moto, lungo passi temporali successivi, produce una traiettoria che descrive l’evoluzione di **posizioni e velocità** del sistema.  
+
+(Update)
 ![[IMG - simulazione.png]]
 
 Durante la simulazione, l’energia totale è distribuita tra componente potenziale e cinetica. Questo permette al sistema di superare barriere energetiche che separano minimi locali, purché l’energia cinetica sia comparabile con l’altezza della barriera.  
@@ -35,13 +37,17 @@ Per descrivere sistemi biologici realistici è necessario includere anche **solv
 Per simulare un fluido bulk ed evitare effetti di bordo si impiegano condizioni periodiche al contorno (*periodic boundary conditions*): il sistema viene racchiuso in una scatola replicata nello spazio, e le particelle che escono da un lato rientrano dal lato opposto come immagini periodiche.  
 ![[IMG - Loop boundaries 3D.png]]
 
-Una simulazione di dinamica molecolare segue tipicamente i seguenti step:  
+Una simulazione di **dinamica molecolare** (*molecular dynamics, MD*) segue tipicamente una sequenza ordinata di fasi, finalizzate a ottenere una descrizione realistica dell’evoluzione temporale del sistema e a produrre traiettorie utili per analisi strutturali e dinamiche.  
 ![[IMG - step di una simulazione di dinamica molecolare.png]]
-- minimizzazione iniziale  
-- riscaldamento (*heating*) fino alla temperatura desiderata  
-- equilibratura (*equilibration*) per stabilizzare le proprietà termodinamiche  
-- dinamica di produzione (*production*) da cui si estraggono le traiettorie  
-- analisi finale delle traiettorie  
+
+Come illustrato nello schema dei *Steps of a MD simulation*, il protocollo standard comprende:
+- **minimizzazione iniziale** (*system minimization*), necessaria per eliminare contatti sterici e rilassare la struttura di partenza  
+- **riscaldamento** (*heating dynamics*), in cui il sistema viene portato gradualmente alla temperatura desiderata  
+- **equilibratura** (*equilibration dynamics*), fase in cui le proprietà termodinamiche si stabilizzano e il sistema raggiunge condizioni di equilibrio  
+- **dinamica di produzione** (*production dynamics*), durante la quale vengono generate le traiettorie che descrivono il moto atomico nel tempo  
+- **analisi finale delle traiettorie** (*trajectory analysis*), utile per calcolare grandezze come RMSD, RMSF, legami idrogeno e altre proprietà strutturali  
+Questa progressione consente di ottenere simulazioni affidabili e di interpretare i movimenti molecolari su scale temporali accessibili alla MD.  
+
 al inizio della simulazione i moti appaiono irregolari per effetto delle collisioni, mentre su tempi più lunghi emergono fluttuazioni collettive che distinguono regioni più mobili e regioni più stabili della struttura.  L’analisi delle traiettorie comprende la valutazione della deviazione quadratica media (RMSD) degli atomi pesanti di proteina e ligando rispetto alla struttura iniziale, utile per descrivere l’andamento globale della stabilità conformazionale.  
 ![[IMG - analosi di traiettoria, grafico d errorre.png]]
 Viene inoltre considerata la fluttuazione quadratica media (RMSF) dei $C_\alpha$, indicativa dello spostamento medio di ciascun residuo durante la simulazione.  
