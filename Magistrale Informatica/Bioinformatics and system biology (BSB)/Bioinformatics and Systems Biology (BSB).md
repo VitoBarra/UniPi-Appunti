@@ -78,7 +78,7 @@ BSB:
 			2. [[Analisi filogenetica - Massima parsimonia]]
 		    3. [[Analisi Filogenetica - Massima verosimiglianza]]
 		    4. [[Motif discoverey]]
-        5. [[Analisi del RNA]]
+        5. [[Analisi RNA-seq]]
 
 
 
@@ -88,7 +88,7 @@ BSB:
 
 ### Educational Material 🧱
 1. 
-
+2. [lezioni milazzo](https://unipiit.sharepoint.com/sites/BSB2025/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBSB2025%2FShared%20Documents%2FGeneral%2FRecordings&sortField=Modified&isAscending=true&viewid=6f9e820f%2Daec5%2D495f%2Dbca3%2D331c7fff1f2d&p=true)
 	
 
 
