@@ -7,7 +7,7 @@ tags:
 # Stimatori statistici
 ---
 #### Stimatore (Definizione)
-una __stimatore__ di una parametro $\theta$ è una [[Statistica campionaria|statistica campionaria]] ovvero è una _[[Funzioni|funzione]] del campione_  $g(X_{1}\dots X_{n})$ atta a stimare $\theta$ 
+una __stimatore__ di una parametro $\theta$ è una [[Statistiche campionarie|statistica campionaria]] ovvero è una _[[Funzioni|funzione]] del campione_  $g(X_{1}\dots X_{n})$ atta a stimare $\theta$ 
 
 >[!tip] 
 >siccome uno stimatore è una funzione di [[Variabili Aleatorie (Casuali)|variaibli aleatorie]] è anche esso una _variabile aleatoria_

@@ -12,18 +12,18 @@ SubTopic:
 
 alcune applicazioni di questo sono
 ![[IMG- Applicazioni rigid matching.png]]
-Un approccio classico e piuttosto intuitivo a questo problema è l’uso della [[Principal Component Analisys (PCA)|PCA]], L’orientamento dell’ellissoide fornisce un [[Frames|sistema di riferimento]] naturale che può essere usato per allineare due oggetti. Se entrambi sono trasformati in modo da allineare i propri assi principali con gli assi canonici ($x$, $y$, $z$), si ottiene un primo **allineamento rigido**.
+Un approccio classico e piuttosto intuitivo a questo problema è l’uso della [[Principal Component Analysis (PCA)|PCA]], L’orientamento dell’ellissoide fornisce un [[Frames|sistema di riferimento]] naturale che può essere usato per allineare due oggetti. Se entrambi sono trasformati in modo da allineare i propri assi principali con gli assi canonici ($x$, $y$, $z$), si ottiene un primo **allineamento rigido**.
 ![[IMG - rigid matching.png]]
 Tuttavia, questo metodo presenta delle **criticità**. Ad esempio, se l’oggetto possiede **assi di simmetria**, l’ellissoide d’inerzia può risultare ambiguo: due configurazioni speculari possono produrre lo stesso risultato, portando ad allineamenti errati.
 
 ![[IMG - Registrazione di una superfice Problematicce PCA con assi di simetrica.png]]
 Inoltre, quando gli **[[Autovettori e Autovalori|autovalori]]** sono molto simili (come nel caso di oggetti sferoidali o approssimativamente simmetrici), il sistema non è stabile, poiché piccoli disturbi nei dati possono produrre grandi variazioni negli assi calcolati.
 ![[IMG - PCA con oggetti con componenti principali simili.png]]
-Un’ulteriore debolezza del [[Principal Component Analisys (PCA)]] emerge quando si tenta di confrontare oggetti **solo parzialmente simili**. Ad esempio, nel confronto tra una sedia e uno sgabello, lo schienale della sedia — che non ha controparte nello sgabello — viene trattato come parte del matching, distorcendo l’allineamento. In scenari di questo tipo, è necessario un approccio che sia in grado di distinguere tra **inlier** (punti compatibili tra le due forme) e **outlier** (differenze strutturali irrilevanti per l’allineamento).
+Un’ulteriore debolezza del [[Principal Component Analysis (PCA)]] emerge quando si tenta di confrontare oggetti **solo parzialmente simili**. Ad esempio, nel confronto tra una sedia e uno sgabello, lo schienale della sedia — che non ha controparte nello sgabello — viene trattato come parte del matching, distorcendo l’allineamento. In scenari di questo tipo, è necessario un approccio che sia in grado di distinguere tra **inlier** (punti compatibili tra le due forme) e **outlier** (differenze strutturali irrilevanti per l’allineamento).
 
 ![[IMG - Registrazione di una superfice PCA similarita parziale.png]]
 
-Per affrontare i limiti della [[Principal Component Analisys (PCA)|PCA]] nel contesto del rigid matching, si adotta frequentemente il paradigma del **[[Random Sample Consensus (RANSAC)|Random Sample Consensus (RANSAC)]]**. gli approccio RANSAC in questo contesto consistono nel 
+Per affrontare i limiti della [[Principal Component Analysis (PCA)|PCA]] nel contesto del rigid matching, si adotta frequentemente il paradigma del **[[Random Sample Consensus (RANSAC)|Random Sample Consensus (RANSAC)]]**. gli approccio RANSAC in questo contesto consistono nel 
 1. nel selezionare casualmente sottoinsiemi di punti da due superfici da allineare
 2.  stimare per ciascun campione una trasformazione rigida
 3. validare la trasformazione contando quanti punti trasformati risultano coerenti con la seconda superficie.

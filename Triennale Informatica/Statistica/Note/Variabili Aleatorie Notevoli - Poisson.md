@@ -6,10 +6,8 @@ tags:
 ---
 # Variabili Aleatorie Notevoli - Poisson
 ---
-
-#### Variabile di Poisson
 _sia_ $X:\Omega \rightarrow\mathbb{N}$ una  _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ nei naturali e $\lambda>0$ un numero 
-_allora_ è $X$ una _variabile di Poisson_ 
+_allora_ è $X$ una **_variabile di Poisson_** 
 _se_ vale $$\mathcal{P}(X=h)=e^{-\lambda}\frac{\lambda^{h}}{h!}$$questa è una [[Definizione di Probabilita|probabilità]] valida dobbiamo vedere che la probabilità totale è $1$ ma e deve quindi valere $$\sum^{+\infty}_{h=0}\mathcal{P}(X=h)=1$$ ma questa è una conseguenza dello sviluppo esponenziale $$e^{\lambda}=\sum^{+\infty}_{h=0}\frac{\lambda^{h}}{h!}$$
 questa _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ approssima bene la variabile _[[Variabili Aleatorie Notevoli - Binomiale|binomiale]]_ $B(n,p)$ quando $n$ è grande e $p$ e piccolo e quando vale $np \approx \lambda$. Ovvero quando il numero delle prove è alto e la probabilità di successo molto bassa, infatti la _variabile di poisson_ è anche detta variabile _degli aventi rari_
 
@@ -24,6 +22,9 @@ _sia_  $X$ una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_  _di pois
 \end{array}$$ e con conti simili si ottiene [[Variabili aleatoria - Momenti|momento secondo]]   $$\mathbb{E}[X^{2}]=\lambda + \lambda^{2} $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$Var(X)=\lambda+\lambda^{2}-\lambda^{2}=
 \lambda$$
 La  _[[Funzione generatrice di momenti (MTF)|funzione generatrice dei momenti]]_ di questa variabile è  $$M_{X}(t)=e^{\lambda(e^{t}-1)}$$
+
+
+quindi per questa viariabile vale che $$\mathbb{E}[X] = Var(x)=\lambda$$
 
 
 #### Proposizione

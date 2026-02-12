@@ -80,7 +80,7 @@ tags:
 	7. [[Parametrizzazione - Growing Cut ]]
 	8. [[Parametrizzazione - Misurare la qualità]]
 11. [[Random Sample Consensus (RANSAC)]]
-12. [[Principal Component Analisys (PCA)]]
+12. [[Principal Component Analysis (PCA)]]
 13. [[Pipeline di acquisizione dal mondo reale]]
 	1. [[Acquisizione modelli 3D dal mondo fisico]]
 	2. [[Registrazione di una superfice]]

@@ -24,7 +24,7 @@ Nella pratica si scegli un sotto insieme dei dati chiamato __Validation set__ ch
 Per scegliere il modello piu adatto si cerca di minimizzare la __loss__ calcolata sul __validation set__ ma bisogna stare attenti siccome ad ogni iterazione avviene l'__information leackage__ ovvero si sta dando al modello informazioni sui dati su cui si sta facendo la validazione, facendo troppe iterazioni il modello potrebbe andare in [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]] sul __validation set__
 
 il __processo di testing__ serve a stimare quanto il modello scelto tramite la __validazione__ sia in grado di generalizzare su nuovi dati mai visti. Questo vieni fatto mostrando al modello una parte del data set detto __test set__.
-il __test set__ deve essere scelto prima del allenamento e non deve contenere dati usati nel __training set__ o nel __validation set__. Questo processo costruisce una [[Statistica campionaria|statistica]] indicativa per valutare il modello    
+il __test set__ deve essere scelto prima del allenamento e non deve contenere dati usati nel __training set__ o nel __validation set__. Questo processo costruisce una [[Statistiche campionarie|statistica]] indicativa per valutare il modello    
 
 le varie tecniche di __validazione e test__ definiscono come dividere ed utilizzare i dati, alcune teche sono le seguenti 
 - [[Validazione Hold-Out]]

@@ -61,7 +61,7 @@ tags:
 	5. [[Teorema centrale del limite]]
 5. [[Inferenza statistica]]
 	1. [[Campione Statistico]]
-		1. [[Statistica campionaria]]
+		1. [[Statistiche campionarie]]
 	2. [[Statistica Parametrica]]
 		1. [[Stimatori statistici]]
 		2. [[Stima Parametrica - Metodo di Massima Verosomiglianza]]
