@@ -7,7 +7,7 @@ tags:
 # T-Test
 ---
 il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] __sconosciuta__
-rispetto allo [[Test Statistici - Z-Test|Z-test]] questo è piu “realistico” siccome _solitamente non si conosce la varianza_
+rispetto allo [[Test Statistici su distribuzioni gaussiane - Z-Test|Z-test]] questo è piu “realistico” siccome _solitamente non si conosce la varianza_
 
 #### Z-Test (Definizione)
 _Sia_ $X_1, \ldots X_n$ un [[Campione Statistico|campione aleatorio]] di [[Variabili Aleatorie Notevoli - Gaussiane|legge gaussiana]] $N\left(m, \sigma^2\right)$, 

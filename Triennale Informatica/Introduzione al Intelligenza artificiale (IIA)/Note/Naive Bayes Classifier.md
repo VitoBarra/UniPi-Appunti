@@ -7,8 +7,8 @@ tags:
   - IIA
   - HLT
   - AIF
-Area: "[[Concetti generali del Machine Learning]]"
-topic: "[[Text Classification]]"
+Area: "[[Text Classification]]"
+topic:
 SubTopic:
 ---
 # Naive Bayes Classifier
@@ -195,11 +195,8 @@ Anche i classificatori di tossicità (utilizzati, ad esempio, per rilevare lingu
 Questi problemi possono avere diverse cause:
 
 - **Bias nei dati di addestramento**: è noto che i sistemi di machine learning tendono ad amplificare i pregiudizi già presenti nei dati su cui sono stati allenati.
-
 - **Errori o distorsioni nei dati etichettati**: le etichette umane usate per supervisionare il modello possono essere influenzate da pregiudizi.
-
 - **Problemi nelle risorse utilizzate**, come i dizionari lessicali o le liste di parole associate a emozioni o tossicità.
-
 - **Limiti nell’architettura del modello**, ad esempio per via di ciò che il modello viene addestrato a ottimizzare (es. massimizzare la classificazione corretta senza attenzione all’equità).
 
 

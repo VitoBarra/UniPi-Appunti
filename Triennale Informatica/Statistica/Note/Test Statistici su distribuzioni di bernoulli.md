@@ -4,7 +4,7 @@ topic: nota
 tags:
   - STAT
 ---
-# Test approssimato su un campione di bernoulli
+# Test Statistici su distribuzioni di bernoulli
 ---
 Sia $X_1, \ldots, X_n$ un campione i.i.d. di variabili di Bernoulli di parametro $p \in(0,1)$ : vogliamo formulare un test relativo al parametro $p$. Esattamente come per gli intervalli di fiducia approssimati, usiamo il fatto che, per $n$ grande, la variabile $\sqrt{n} \frac{\bar{x}_{-p}}{\sqrt{p(1-p)}}$ è approssimativamente Gaussiana standard.
 Consideriamo ad esempio il test bilatero dell'ipotesi

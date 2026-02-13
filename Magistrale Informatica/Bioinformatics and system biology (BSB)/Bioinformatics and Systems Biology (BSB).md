@@ -80,19 +80,21 @@ BSB:
 		    3. [[Analisi Filogenetica - Massima verosimiglianza]]
 		    4. [[Motif discoverey]]
         5. [[Analisi RNA-seq]]
-            1.  [[Software di trimming per RNAseq - FASTQC]]
-            2. [[Software di trimming per RNAseq -  Cutadapt]]
-            3. [[Software di trimming per RNAseq - Trimmomatic]]
-            4. [[Software di trimming per RNAseq - fastp]] 
-            5. [[Software di trimming per RNAseq - AdapterRemoval v2]]
-            6. [[Software di trimming per RNAseq - Atropos]]
-            7. [[Software di allineamento per RNAseq - STAR]]
-            8. [[Software di allineamento per RNAseq - HISAT2]]
-            9. [[Software di allineamento per RNAseq - Bowtie2]]  
-            10. [[Software di allineamento per RNAseq - Salmon]]
-            11. [[Software di allineamento per RNAseq - Kallisto]]
-
-
+            1.  [[FASTQC - Report di qualità per RNAseq]]
+            2. **[[Burrows-Wheeler Transform (BWT)]]
+            3. [[Cutadapt - Software di trimming per RNAseq]]
+            4. [[Trimmomatic - Software di trimming per RNAseq]]
+            5. [[fastp - Software di trimming per RNAseq]] 
+            6. [[AdapterRemoval v2 - Software di trimming per RNAseq]]
+            7. [[Atropos - Software di trimming per RNAseq]]
+            8. [[Bowtie2 - Software di allineamento per RNAseq]]  
+            9. [[STAR - Software di allineamento per RNAseq]]
+            10. [[Tophat 2 - Software di allineamento per RNAseq]]
+            11. [[HISAT2 - Software di allineamento per RNAseq]]
+            12. [[Salmon - Software di allineamento per RNAseq]]
+            13. [[Kallisto - Software di allineamento per RNAseq]]
+            14. [[DESeq2 - DE per RNAseq]]
+            15. [[edgeR - DE per RNAseq]]
 
 
 
@@ -100,8 +102,7 @@ BSB:
 
 
 ### Educational Material 🧱
-1. 
-2. [lezioni milazzo](https://unipiit.sharepoint.com/sites/BSB2025/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBSB2025%2FShared%20Documents%2FGeneral%2FRecordings&sortField=Modified&isAscending=true&viewid=6f9e820f%2Daec5%2D495f%2Dbca3%2D331c7fff1f2d&p=true)
+1. [lezioni milazzo](https://unipiit.sharepoint.com/sites/BSB2025/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBSB2025%2FShared%20Documents%2FGeneral%2FRecordings&sortField=Modified&isAscending=true&viewid=6f9e820f%2Daec5%2D495f%2Dbca3%2D331c7fff1f2d&p=true)
 	
 
 

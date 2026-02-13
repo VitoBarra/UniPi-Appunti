@@ -21,7 +21,7 @@ Gli obiettivi di questa analisi possono essere:
 - **Rilevare trascritti di fusione**: individuare RNA che derivano da due geni diversi uniti insieme. tipico di: riarrangiamenti genomici, tumori. Si osserva quando una read (o coppia di reads) mappa su due geni distinti.
 
 ![video spiegazione](https://www.youtube.com/watch?v=tlf6wYJrwKY)
-
+![altro video](https://www.youtube.com/watch?v=7BLS_YY9HeM)
 
 
 l'RNA-seq **non osserva direttamente l’espressione**, ma osserva conteggi di reads prodotti dalle [[tecnologie di sequenziamento|tecnologie di sequenziamento]]. Si tratta quindi di un **campionamento rumoroso** con molte sorgenti di variabilità; per questo l’analisi RNA-seq è, in sostanza, un problema di **[[Inferenza statistica|inferenza statistica]] su dati di conteggio**.
@@ -62,7 +62,10 @@ La fase iniziale di controllo qualità e preprocessing serve a individuare e cor
 - **duplicazioni elevate**: possibili artefatti di PCR o profondità non uniforme  
 Per mitigare questi problemi si applica il **trimming**, cioè la rimozione con qualità bassa e taglio degli adattatori dai reads. Questo passaggio modifica direttamente la composizione del dataset: cambiano la distribuzione delle lunghezze, il numero di reads e la distribuzione delle qualità. Di conseguenza, influisce sulle statistiche a valle della pipeline e sulle stime di espressione.
 
-Strumenti tipici per questa fase: [[Software di trimming per RNAseq - FASTQC|FASTQC]], [[Software di trimming per RNAseq -  Cutadapt|Cutadapt]], [[Software di trimming per RNAseq - Trimmomatic|Trimmomatic]], [[Software di trimming per RNAseq - AdapterRemoval v2|AdapterRemoval v2]], [[Software di trimming per RNAseq - Atropos|Atropos]], [[Software di trimming per RNAseq - fastp|fastp]].
+per visualizzare la qualità dei i dati si utilizza [[FASTQC - Report di qualità per RNAseq|FASTQC]] 
+
+
+Strumenti tipici per questa fase: [[Cutadapt - Software di trimming per RNAseq|Cutadapt]], [[Trimmomatic - Software di trimming per RNAseq|Trimmomatic]], [[AdapterRemoval v2 - Software di trimming per RNAseq|AdapterRemoval v2]], [[Atropos - Software di trimming per RNAseq|Atropos]], [[fastp - Software di trimming per RNAseq|fastp]].
 
 Una volta ottenuti dati puliti, rimane comunque una fonte importante di variabilità: i **batch effects**. Campioni preparati in momenti, laboratori o condizioni tecniche diverse possono mostrare differenze sistematiche anche in assenza di reali differenze biologiche. Questa variabilità tecnica si sovrappone al segnale biologico e può dominare la struttura dei dati. Se il **batch effect** è forte, i campioni tendono a raggrupparsi per batch invece che per condizione biologica, portando a interpretazioni fuorvianti. Per questo, prima delle analisi inferenziali, si eseguono analisi esplorative come [[Principal Component Analysis (PCA)|PCA]], [[Data analysis -  Clustering|clustering]] gerarchico o **multidimensiona sclaling** (MDS), che proiettano i campioni in uno spazio a bassa dimensione e permettono di visualizzare eventuali raggruppamenti sistematici dovuti a fattori tecnici.
 ![[IMG - batch effects PCA.png]]
@@ -79,9 +82,9 @@ la componente principale (PC1) spiega gran parte della variabilità, e la separa
 
 ## Allineamento e ambiguità delle sequenze
 Le reads devono essere associate a una possibile origine nel [[DNA Struttura e funzionalità|genoma]] o nel trascrittoma. Questo è un problema di [[Allineamento di sequenze|allineamento di sequenze]] che introduce inevitabilmente ambiguità, perché una read osservata può essere compatibile con più posizioni o più trascritti. Le principali difficoltà sono:
-- **splicing**: reads che attraversano giunzioni tra esoni  
-- **regioni ripetute**: mapping multiplo su più loci  
-- **isoforme diverse**: una read può essere compatibile con più trascritti  
+- **Splicing**: reads che attraversano giunzioni tra esoni  
+- **Regioni ripetute**: mapping multiplo su più loci  
+- **Isoforme diverse**: una read può essere compatibile con più trascritti  
 - errori residui di sequenziamento o trimming  
 L’allineamento non restituisce una singola assegnazione certa ma un insieme di ipotesi con punteggi di qualità. Le decisioni su come trattare reads ambigue o multi-mapping influenzano direttamente i conteggi e quindi le stime di espressione.
 
@@ -92,8 +95,8 @@ A questo punto si decide **come** associare le reads alla loro origine:
 La qualità del reference (genoma o trascrittoma) e delle annotazioni è determinante: reference incomplete o annotazioni scarse aumentano l’ambiguità e rendono la quantificazione meno stabile. In assenza di una reference robusta si possono usare approcci alternativi (ad esempio assemblaggio trascrittomico), ma questo sposta l’incertezza sulla ricostruzione delle sequenze e introduce altre fonti di variabilità.
 
 Strumenti tipici:  
-- alignment: [[Software di allineamento per RNAseq - STAR|STAR]], [[Software di allineamento per RNAseq - HISAT2|HISAT2]], [[Software di allineamento per RNAseq - Bowtie2|Bowtie2]]  
-- pseudoalignment: [[Software di allineamento per RNAseq - Salmon|Salmon]], [[Software di allineamento per RNAseq - Kallisto|Kallisto]]
+- alignment: [[STAR - Software di allineamento per RNAseq|STAR]], [[HISAT2 - Software di allineamento per RNAseq|HISAT2]], [[Bowtie2 - Software di allineamento per RNAseq|Bowtie2]], [[Tophat 2 - Software di allineamento per RNAseq|Tophat 2]]
+- pseudoalignment: [[Salmon - Software di allineamento per RNAseq|Salmon]], [[Kallisto - Software di allineamento per RNAseq|Kallisto]]
 
 L’output dell’allineamento contiene tutte le possibili assegnazioni di una read e informazioni associate come posizione, punteggio di allineamento e qualità di mapping (**MAPQ**, Mapping Quality, codificata in scala Phred). I formati più comuni per rappresentare questi risultati sono **SAM** e **BAM**.
 
@@ -187,7 +190,7 @@ Una prima modellizzazione naturale del rapporto **media-varianza** dei conteggi 
 ![[IMG - poisson model per RNA-seq.png]]  
 Nei dati RNA-seq la **varianza cresce con la media** più rapidamente di quanto previsto dal modello di Poisson: nei grafici media–varianza la nuvola di punti si colloca sistematicamente sopra la relazione varianza = media. In altre parole si osserva **overdispersion**, cioè
 $$\mathrm{Var}(Y_{gi}) \gg \mathbb{E}[Y_{gi}],$$
-dovuta alla combinazione di variabilità biologica tra replicati ed effetti tecnici globali. Il [[Variabili Aleatorie Notevoli - Poisson|modello di Poisson]] non è quindi sufficiente a descrivere i conteggi. Si adotta la **Negative Binomial**, che generalizza la Poisson introducendo un parametro di dispersione:$$\begin{array}{}
+dovuta alla combinazione di variabilità biologica tra replicati ed effetti tecnici globali. Il [[Variabili Aleatorie Notevoli - Poisson|modello di Poisson]] non è quindi sufficiente a descrivere i conteggi. Si adotta la **Negative Binomial** (**NB**), che generalizza la Poisson introducendo un parametro di dispersione:$$\begin{array}{}
 Y_{gi}\sim \text{NB}(\lambda_{gi},\theta_g)\\
 \mathbb{E}[Y_{gi}] = \lambda_{gi}\\
 \mathrm{Var}(Y_{gi}) = \lambda_{gi} + \theta\,\lambda_{gi}^2
@@ -195,30 +198,28 @@ Y_{gi}\sim \text{NB}(\lambda_{gi},\theta_g)\\
 La quantità $\sqrt{\theta}$ è spesso interpretata come **biological coefficient of variation (BCV)**, che quantifica la variabilità relativa tra replicati biologici.
 ![[IMG - RNA-seq overdispersion.png]]
 
-Un’altra proprietà dei conteggi RNA-seq è la distribuzione fortemente asimmetrica: molti geni hanno conteggi bassi, pochi geni hanno conteggi molto alti. Questo produce distribuzioni skewed e rende difficile confrontare direttamente i livelli tra geni o campioni. Inoltre, la dipendenza varianza–media implica che geni molto espressi dominano la variabilità complessiva.
 
-Per analisi esplorative e rappresentazioni geometriche ([[Principal Component Analysis (PCA)]], clustering) si applicano trasformazioni che **stabilizzano la varianza** e rendono le distribuzioni più simmetriche. Trasformazioni logaritmiche, VST o Box-Cox riducono la dipendenza tra media e varianza e rendono confrontabili geni con livelli di espressione diversi.
+Un’altra proprietà dei conteggi RNA-seq è la distribuzione fortemente asimmetrica: molti geni hanno conteggi molto bassi o nulli, mentre pochi geni presentano conteggi estremamente elevati. Questo produce distribuzioni fortemente skewed e rende difficile confrontare direttamente livelli di espressione tra geni o campioni. In combinazione con la dipendenza varianza–media, i geni altamente espressi tendono a dominare la variabilità complessiva e le distanze tra campioni.
+
+
+Per analisi esplorative si applicano trasformazioni ai conteggi della matrice geni × campioni con l’obiettivo di ridurre l’asimmetria, comprimere i valori estremi e rendere la varianza più stabile lungo il range delle medie. Questo permette di ottenere distribuzioni più simmetriche e distanze tra campioni meno dominate da pochi geni molto espressi.
+Nell’immagine ogni pannello mostra l’[[Statistica Descrittiva - Istogrammi|istogramma]] degli stessi conteggi dopo diverse trasformazioni:
+- **naive**: conteggi grezzi altamente skewed; molti valori piccoli e pochi molto grandi.
+- **log**: comprime i valori elevati e riduce l’asimmetria, attenuando la dominanza dei geni molto espressi.
+- **vst (variance stabilizing transformation)**: progettata per rendere approssimativamente costante la varianza lungo il range delle medie e produrre una distribuzione più vicina a una gaussiana.
+- **rlog**: trasformazione logaritmica regolarizzata che stabilizza soprattutto i geni a bassa espressione.
+- **Box-Cox**: famiglia parametrica di trasformazioni (il log è un caso particolare) che riduce l’asimmetria adattandosi ai dati.
+- **standardized**: centratura e riscalamento (media 0, varianza 1) applicati ai conteggi o ai conteggi trasformati.
+- **stand. log / stand. vst / stand. Box-Cox**: versioni standardizzate dopo trasformazione, utili per PCA e clustering perché mettono tutte le variabili sulla stessa scala.
+Dopo trasformazione si ottiene tipicamente:
+- distribuzione più simmetrica,
+- riduzione della coda destra,
+- varianza meno dipendente dalla media,
+- distanze tra campioni meno dominate da pochi geni ad alta espressione.
 ![[IMG - Trasformazioni dati RNA-seq.png]]
 
 
-
-
-## Stima della dispersione
-Con pochi replicati, stimare la dispersione per ogni gene è instabile. Si usa quindi shrinkage statistico che combina informazione globale e gene-specifica. Questo migliora stabilità e controllo dei falsi positivi, collegandosi ai concetti di inferenza bayesiana e [[Formula di Bayes|Bayes]].
-
-  
-
-### Stabilità con pochi replicati: shrinkage della dispersione
-
-Con pochi campioni per condizione e migliaia di geni, stimare una dispersione indipendente per gene è instabile (soprattutto per geni poco espressi). Le slide descrivono l’approccio di DESeq2: stimare un trend globale dispersione-vs-media e “shrinkare” le stime gene-wise verso il trend (trade-off bias-varianza) per ottenere p-value più calibrati e maggiore potenza.   
-
-Un’idea analoga (shrinkage empirico-bayesiano verso common/trended dispersion) è descritta anche per edgeR.
-
-
-
-
-
-
+gli strumenti comunemente usati sono: [[DESeq2 - DE per RNAseq|DESeq2]] e [[edgeR - DE per RNAseq|edgeR]] 
 
 
 
@@ -232,7 +233,7 @@ Un’idea analoga (shrinkage empirico-bayesiano verso common/trended dispersion)
 
 Le lezioni ricordano che in high-throughput si effettuano migliaia di test; anche senza segnale reale, con soglia 0.05 si ottengono molti falsi positivi attesi.   
 
-Per questo si usa tipicamente il controllo della **False Discovery Rate (FDR)**, spesso tramite procedura di Benjamini–Hochberg. fileciteturn0file1turn1search1turn1search13
+Per questo si usa tipicamente il controllo della **False Discovery Rate (FDR)**, spesso tramite procedura di Benjamini–Hochberg. 
 
   
 

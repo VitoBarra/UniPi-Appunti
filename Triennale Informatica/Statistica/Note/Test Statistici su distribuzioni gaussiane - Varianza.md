@@ -4,13 +4,11 @@ tags:
   - STAT
 topic:
 ---
-# Test sulla varianza di un campione gaussiano
+# Test Statistici su distribuzioni gaussiane - Varianza
 ---
-[[Test Statistici|Test statistico]] sulla varianza di un campione gaussiano. Come per gli intervalli di fiducia, ci occupiamo solo del caso unilatero,
-$$
+[[Test Statistici|Test statistico]] sulla varianza di un campione gaussiano. Come per gli [[Intervalli di fiducia|intervalli di fiducia]], ci occupiamo solo del caso unilatero,$$
 \left.\left.\mathscr{H}_0\right) \sigma^2 \leq \sigma_0^2 \quad \text { contro } \quad \mathscr{H}_1\right) \sigma^2>\sigma_0^2,
-$$
-ricordando che, se il campione $X_1, \ldots, X_n$ è formato da variabili Gaussiane con varianza $\sigma^2$, la variabile $\sum_{i=1}^n \frac{\left(X_i-\bar{X}\right)^2}{\sigma^2}$ ha densità $\chi^2(n-1)$.
+$$ricordando che, se il campione $X_1, \ldots, X_n$ è formato da variabili Gaussiane con varianza $\sigma^2$, la variabile $\sum_{i=1}^n \frac{\left(X_i-\bar{X}\right)^2}{\sigma^2}$ ha densità $\chi^2(n-1)$.
 
 Formulazione del test: Risulta naturale considerare una regione critica della forma $C=$ $\left\{\sum_i\left(X_i-\bar{X}\right)^2>d\right\}$ con $d$ tale che si abbia, per $\sigma \leq \sigma_0$,
 $$

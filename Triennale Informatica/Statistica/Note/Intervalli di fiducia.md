@@ -10,7 +10,7 @@ Gli _intervalli di fiducia_ sono spesso considerati come sotto insieme dei [[Tes
 
 
 Considerando un [[Campione Statistico]]  la cui legge dipende da un parametro $\theta$ incognito. il _[[Campione Statistico|campione]]_ essendo una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|idd]] abbiamo che questo hanno  la stessa [[Probabilita sui numeri Reali|legge di probabilita]] e quindi la stessa [[Funzione di Ripartizione|funione di ripartizione]] ovvero $$\mathcal{P}_{\theta}(X_{1}\leq t)= \dots=\mathcal{P}_{\theta}(X_{n}\leq t)= F_{\theta}(t), \ \ \ \ \ t \in  \mathbb{R}$$ovvero esiste una famiglia di probabilita $\{ \mathcal{P}_{\theta} \}_{\theta \in \Theta}$ tale che fissato $\theta$ le variabili aleatorie siano una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|idd]] 
-è l obbiettivo della _analisi statistica_ e queslla di determinare il parametro $\theta$ nel modo piu preciso possibile.
+è l obbiettivo della _analisi statistica_ e quella di determinare il parametro $\theta$ nel modo piu preciso possibile.
 
 
 #### Intervallo aleatorio o casuale (Definizione)

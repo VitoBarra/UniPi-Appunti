@@ -47,18 +47,16 @@ Seconda parte corso:
 10. [[Logica del primo ordine (FOL)]]
 	1. [[FOL - Semantica Database]]
 	2. [[Sistema di inferenza per FOL]]
-11. [[1-del me]]
-	1. [[1-x]]
 Terza parte corso:
-12. [[Concetti generali del Machine Learning]]
-13. [[Algoritmi di Machine Learning]]
+11. [[Concetti generali del Machine Learning]]
+12. [[Algoritmi di Machine Learning]]
 	1. [[Overfitting e Underfitting]]
 	2. [[Statistical Learning Theory (SLT)]]
 	3. [[Validation e Test di una modello di ML]]
 		1.  [[Validazione Hold-Out]]
 		2. [[K-Fold Cross Validation]]
 		3. [[Double cross validation (Nested k-fold cross validation)]]
-14. [[Algoritmi di learning supervisionato]]
+13. [[Algoritmi di learning supervisionato]]
 	1. [[Modelli lineari con LMS]]
 	2. [[Alberi di decisione]]
 	3. [[Support Vector Machine (SVM)]]
@@ -66,8 +64,8 @@ Terza parte corso:
 		1. [[Concept learning - Find-S]]
 		2. [[Concept learning - Candidate elimination]]
 	5. [[K-Nearest Neighbor (K-NN)]]
-15. [[Algoritmi di learning NON supervisionato]]
-	6. [[K-Means]]
+14. [[Algoritmi di learning NON supervisionato]]
+	1. [[K-Means]]
 
 
 

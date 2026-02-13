@@ -5,7 +5,7 @@ topic: nota
 tags:
   - IIA
 ---
-# Modelli lineari con LMS
+b # Modelli lineari con LMS
 ---
 il __modello lineare__ e' un [[Modelli Parametrici|modello parametrico]] per il [[Concetti generali del Machine Learning|Macchine learning]]. 
 Viene generato con algoritmi di [[Algoritmi di learning supervisionato|apprendimento supervisionato]] ed è generalmente il tipo di modello più semplice che si può provare ad utilizzare per risolvere un problema.
@@ -47,7 +47,7 @@ In questo caso la funzione di $Loss$ è la  [[last Mean Squere (LMS)|Last mean S
 ![[Pasted image 20241119224228.png]]
 In questo caso specifico la soluzione può anche essere calcolata direttamente come 
 $$w_1= \frac{\sum x_p y_p- \frac{1}{n}\sum x_p \sum y_p}{\sum x_p^2 - \frac{1}{n}(\sum x_p)^2} = \frac{Cov[x,y]}{var[x]} \ \ \ \  w_0 = \frac{1}{n}\sum y_p- w_1 \frac{1}{n}\sum x_p$$
-e questa è esattamente la [[Retta di regressione|retta di regressione]] infatti nel pratico stiamo facendo la stessa cosa che fa la retta di regressione.
+e questa è esattamente la [[Modelli lineari - Retta di regressione|retta di regressione]] infatti nel pratico stiamo facendo la stessa cosa che fa la retta di regressione.
 
 
 
@@ -70,7 +70,7 @@ Per i modelli __lineari multi variati__ si ha che li input non è una singola va
 \mathbf{w}^T\mathbf{x} &= \mathbf{x}^T\mathbf{w}
 \end {flalign}$$
 in questo modo il modello è definito semplicemente dal [[Prodotto scalare euclideo (Dot product)|Dot product]] dei due vettori$$  \mathbf{w}^T \mathbf{x} =w_0+w_1x_1 + \dots+w_nx_n = \sum^n_{i=1}w_ix_i $$con $n=2$ l interpretazione __geometrica__ è facilmente visualizabile infatti è un piano che ne interseca un altro formando è intersezione è una retta detta __decision surface__ che possiamo usare per costruire l ipotesi $h_{\mathbf{w}}$ del modello lineare. 
-![[modelli lineari - Decision surface.jpeg]]
+![[IMG - modelli lineari - Decision surface.jpeg]]
 ![[IMG - Modelli lineari - Classificazione.png]]
 In generale immaginarlo per $n>2$ è difficile ma il concetto di intersezione per generare una retta resta ma c è bisogno di usare gli iperpiani.
 
