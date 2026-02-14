@@ -1,14 +1,11 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # UML - Diagramma di macchina a stati
 ---
-Diagramma [[UML]] per rappresentare lo stato del sistema 
+Diagramma [[Unified modeling Language (UML)]] per rappresentare lo stato del sistema 
 
 
 un diagramma a macchine a stati rappresenta il comportamento dinamici delle istanze di un classificatore ( es.oggetti istanza di una classe)

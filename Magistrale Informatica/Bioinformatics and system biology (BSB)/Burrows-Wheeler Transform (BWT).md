@@ -1,127 +1,62 @@
 ---
-Course: "[[Bioinformatics and Systems Biology (BSB)]]"
+Course: "[[Teoria del informazione (TDI)]]"
 tags:
-  - BSB
+  - TDI
 Area:
 topic:
 SubTopic:
 ---
 
 # Burrows-Wheeler Transform (BWT)
-La **Burrows–Wheeler Transform (BWT)** è una trasformazione reversibile di una stringa che nasce nel contesto della compressione dei dati, ma che ha trovato un ruolo centrale in bioinformatica, in particolare negli aligner basati su FM-index come [[Bowtie2 - Software di allineamento per RNAseq|Bowtie2]].
+La **trasformazione di Burrows–Wheeler** è una **permutazione** reversibile dei caratteri di una [[Stringhe|stringa]] $T$ terminata da simbolo $\$$ con $\$$ minimo unico nell’[[alfabeto|alfabeto]]. Questa trasformazione è usata come pre-processing per permettere buone condizioni per gli [[Algoritmi di compressione|algoritmi di compressione]]
+la procedura di trasformazione segue come: 
+1. si costruisce una matrice tutte le rotazioni distinte di $T$ ottenute spostando ciclicamente il primo carattere in fondo
+2. si [[Ordinamenti|ordinano]] le righe lessograficametne che coincide con l’ordinamento dei suffissi grazie alla presenza di $\$$ che interrompe i confronti.
+3. si prende l ultima colonna dal alto verso il basso ottenendo la  **Burrows–Wheeler matrix** (BWT)
+La **BWT** ottenuta è quindi una permutazione dei caratteri di $T$.
+![[IMG - Burrows-Wheeler Transform (BWT).png]]
+L’effetto principale è l’aggregazione di caratteri uguali in run contigue. Ordinando per rotazioni si ordinano i caratteri in base al contesto destro, cioè al testo che li segue in $T$. Caratteri con contesti simili tendono a essere vicini, generando run compressibili. La compressione sfrutta codifiche come [[run–length encoding|run–length encoding]]: una sequenza di $k$ caratteri identici è rappresentata da coppia (carattere, conteggio). La BWT non comprime di per sé ma riorganizza $T$ in forma più comprimibile.
 
-L’idea fondamentale non è comprimere direttamente la stringa, ma **riorganizzarla** in modo che caratteri simili finiscano vicini tra loro. Questo semplice riordino cambia drasticamente la struttura statistica del testo, rendendolo molto più comprimibile con tecniche standard (run-length encoding, codifica entropica, ecc.).
-
-
-
-Supponiamo di avere una stringa $S$.  
-Se ordiniamo tutte le sue rotazioni cicliche in ordine lessicografico, accade qualcosa di interessante: rotazioni che condividono prefissi lunghi finiscono una accanto all’altra.  
-
-Poiché ogni rotazione è solo uno “shift” della stringa originale, i caratteri che precedono prefissi simili (cioè quelli che finiscono nell’ultima colonna della matrice ordinata) tendono a coincidere.
-
-Risultato:  
-nell’ultima colonna compaiono **blocchi di caratteri ripetuti**.
-
-Ed è proprio questa colonna che costituisce la BWT.
-
----
-
-## Costruzione passo per passo
-
-Sia $S = s_1 s_2 \dots s_n$.
-
-1. Si aggiunge un simbolo terminale $\$$ tale che:
-   $$\$\ < c \quad \forall c \in \Sigma$$Questo simbolo:
-   - garantisce che nessuna rotazione sia prefisso di un’altra  
-   - rende la trasformazione invertibile  
-
-1. Si costruiscono tutte le rotazioni cicliche di $S\$.
-2. Si ordinano lessicograficamente queste rotazioni.
-3. Si prende l’ultima colonna della matrice ordinata.  
-   Questa è la BWT, indicata con $L$.
-Formalmente$$\text{BWT}(S) = L$$La prima colonna della matrice ordinata si indica con $F$.
-
-## Struttura nascosta della trasformazione
-
-C’è una proprietà fondamentale:
-
-- $F$ è semplicemente $L$ ordinata.
-- Ogni carattere in $L$ ha una corrispondenza precisa con una posizione in $F$.
-
-Questa corrispondenza è alla base della ricostruzione.
-
-Il punto chiave è che l’ordinamento globale delle rotazioni induce una relazione locale molto forte tra $F$ e $L$.
-
----
-
-## Perché migliora la compressione
-
-Il motivo è puramente strutturale.
-
-Se molte rotazioni iniziano con la stessa sequenza (cioè condividono un lungo prefisso), allora nel momento in cui vengono ordinate, queste righe saranno consecutive.
-
-Il carattere che precede quel prefisso — cioè quello che finisce in $L$ — sarà spesso lo stesso per molte di quelle righe.
-
-Quindi in $L$ si formano sequenze come:
-
-AAAAAAA…
-TTTTTT…
-CCCCCC…
-
-Questi blocchi sono altamente comprimibili.
-
-La BWT non elimina ridondanza:  
-la **riorganizza**.
-
----
-
-## Ricostruzione: il Last-to-First Mapping
-
-La trasformazione è completamente invertibile.
-
-Si definiscono:
-
-- $C[c]$ = numero di caratteri in $S\$ strettamente minori di $c$
-- $\text{rank}_c(L,i)$ = numero di occorrenze di $c$ in $L[1..i]$
-
-La relazione fondamentale è:
-$$
-LF(i) = C[L_i] + \text{rank}_{L_i}(L,i)
-$$
-
-Interpretazione:
-
-- L’$i$-esima occorrenza di un carattere in $L$ corrisponde all’$i$-esima occorrenza dello stesso carattere in $F$.
-- Questa funzione permette di “risalire” la stringa originale un carattere alla volta.
-
-Procedura:
-- Si parte dalla riga contenente $\$$.
-- Si applica iterativamente $LF$.
-- Si ricostruisce la stringa all’indietro.
-- Dopo $n+1$ passi si ottiene $S\$.
-
----
-
-## Collegamento con FM-index
-
-La BWT da sola è interessante, ma il vero salto avviene quando viene combinata con:
-- array $C$
-- strutture dati per calcolare $\text{rank}$ efficientemente
-Nasce così l’**FM-index**, che permette ricerca di pattern tramite backward search:
-Dato un pattern $P = p_1 \dots p_m$, si procede da destra verso sinistra aggiornando un intervallo $[l,r]$:
-
-$$
-l = C[p_i] + \text{rank}_{p_i}(L,l-1) + 1
-$$
-$$
-r = C[p_i] + \text{rank}_{p_i}(L,r)
-$$
-
-Se $l \le r$, il pattern è presente.
-
-La complessità diventa:
-- Ricerca: $O(m)$
-- Spazio: compresso rispetto al testo esplicito
+La **Burrows–Wheeler matrix** ha struttura analoga al [[Suffix array|suffix array]] ![[IMG - BWT e SA.png]]
+possiamo usare questo fatto per costruire direttamente la **BWT**, ovvero l ultima colonna 
+Se $SA$ è il suffix array di $T$, la **BWT** si ottiene come$$\begin{cases}
+BWT[i]=T[SA[i]-1]  & if &  SA[i]> 0 \\
+BWT[i]=\$  &  if &  SA[i]= 0
+\end{cases}
+$$Questa costruzione evita di materializzare tutte le rotazioni.
 
 
-![vidoe](https://www.youtube.com/watch?v=0qMGAsrYS0g)
+Per permettere l inversione si introduce un **ranking dei caratteri**: per ogni carattere $c$ e posizione $i$ si definisce un rank che li annota
+- **T-ranking**: ogni carattere $c$ in $T$ è annotato con il numero di occorrenze precedenti di $c$. ![[IMG - T-ranking in BWT.png]]
+- **B-ranking** i rank di uno stesso carattere sono in ordine crescente scorrendo $L$ e $F$ ![[IMG - B-ranking.png]]
+ 
+la **BW matrix** soddisfa la l **LF mapping** che afferma che tra ultima colonna $L$ e prima colonna $F$ si ha che l’$i$-esima occorrenza di $c$ in $L$ corrisponde all’$i$-esima in $F$; ovvero condividono il **rank** qualunque esso sia.![[IMG - LF mapping.png]]
+
+Questa proprietà viene dal fatto che sono entrambi ordinate dal suo contesto destro. Nella seconda matrice il contesto sembra a sinistra ma la stringa va considerata come array circolare quindi è come se fosse a destra, infatti l ordinamento va da sinistra verso destra![[IMG - right-context sort perche funziona il FL-mapping.png]]
+
+
+Usando il **B-ranking**, $F$ è partizionata in blocchi contigui [[Ordinamenti|ordinati]] lessicograficamente per carattere per l’[[alfabeto|alfabeto]] ordinato $\Sigma$ con $\$$ minimo, $F$ è $\$$ seguito dal blocco di tutti gli $c\in\Sigma\setminus\{\$\}$ in ordine crescente; nel blocco di $c$ i ranks crescono di $1$ scorrendo verso il basso.
+
+Sia $occ(c)$ il numero di occorrenze di $c$ in $T$ (quindi anche in $F$). Definisco la funzione cumulativa $$C(c)=\sum_{d\in\Sigma,\ d<c} occ(d)$$cioè il numero totale di caratteri in $T$ strettamente minori di $c$ (incluso $\$$). Allora il blocco di $c$ in $F$ occupa esattamente le righe con indici $[C(c),\ C(c)+occ(c)-1]$, e la riga che inizia con il **carattere** $c$ avente **B-rank** $i$ è $$row_F(c,i)=C(c)+i  \ \ \ \ \ \ 0\le i<occ(c)$$In particolare, la ricerca dell’indice della riga che inizia con $(c,i)$ si riduce a un accesso a $C(c)$ e a una somma, senza dover materializzare $F$ il che lo rende un algoritmo di [[Complessita|complessità]] $O(1)$
+
+
+
+L’inversione della BWT usa la **LF-mapping** per ricostruire $T$ da destra verso sinistra sfruttando solo $L$ e le informazioni cumulative $C$. Si assume l’uso del **B-ranking**, quindi ogni carattere in $L$ ha implicitamente un rank crescente all’interno del proprio blocco.
+
+Si inizializza dalla riga $0$ di $F$, che contiene sempre $\$$. Poiché ogni riga della matrice è una rotazione di $T$, il carattere in $L[0]$ è quello che precede $\$$ in $T$, cioè l’ultimo carattere di $T$ prima del terminatore. Questo carattere viene scritto come ultimo carattere ricostruito.
+
+Dato l’indice corrente di riga $i$, si considera il carattere $c=L[i]$ e il suo rank in $L$, indicato come $rank_L(i,c)$ (numero di occorrenze di $c$ in $L[0..i]$ meno uno). La riga successiva da visitare è determinata dalla funzione
+$$LF(i)=C(c)+rank_L(i,c)$$
+che fornisce l’indice della riga in $F$ che inizia con l’occorrenza di $c$ con quel rank. Il carattere in $L[LF(i)]$ è il carattere che precede $c$ in $T$. Iterando questa procedura si attraversano tutte le posizioni della rotazione che contiene $\$$, ricostruendo i caratteri di $T$ in ordine inverso.
+
+L’algoritmo termina quando si ritorna alla riga contenente $\$$ in $L$, oppure dopo $|T|$ iterazioni. Se i caratteri raccolti lungo il percorso sono $c_{|T|-1},c_{|T|-2},\dots,c_0$, la stringa originale è $T=c_0c_1\dots c_{|T|-1}$.
+
+Per l’inversione non è necessario memorizzare esplicitamente $F$: la sua struttura è implicita nei valori cumulativi $C(c)$. È sufficiente mantenere $L$ e una struttura che consenta di calcolare $rank_L(i,c)$; una realizzazione ingenua usa un array di rank di lunghezza $|T|$, mentre strutture compatte permettono di ottenere $rank$ e $C$ con spazio sublineare mantenendo tempo di accesso $O(1)$ per iterazione.
+![[IMG - processo di inversione BWT.gif]]
+un altro modo per visualizarlo è il seguente ![[IMG - inversion Burrows-Wheeler Transform (BWT) rolldout.png]]
+
+
+
+![vidoe](https://www.youtube.com/watch?v=4n7NPk5lwbI))
+
+

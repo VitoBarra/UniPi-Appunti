@@ -1,14 +1,12 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
 
-Prev: [[Ingegneria Del Software (IS)]]
-
-# UML
+# Unified modeling Language (UML)
 ---
-_Unified modeling Language_: linguaggio per modello unificato è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] 
+l'**_Unified modeling Language_**(**UML**) linguaggio per modello unificato è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] 
 
 è principalmente pensato per la di sistemi [[Paradigma Object Oriented Programming (OOP)|Object-Oriented]]. 
 

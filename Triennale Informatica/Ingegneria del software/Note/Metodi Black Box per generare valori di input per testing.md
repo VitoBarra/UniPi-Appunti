@@ -1,11 +1,8 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # Metodi Black Box per generare valori di input per testing
 ---
 metodi per il [[Testing]] 

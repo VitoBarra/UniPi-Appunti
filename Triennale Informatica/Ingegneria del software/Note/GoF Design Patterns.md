@@ -1,14 +1,11 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
 
-Prev: [[Ingegneria Del Software (IS)]]
-
 # GoF Design Patterns
 ---
-
 Sono una famiglia di Design pattern per lo sviluppo software e sono categorizzati in 
 
 1. _Creational Patterns_

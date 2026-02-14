@@ -7,7 +7,7 @@ tags:
 
 # UML - Diagramma dei casi d uso
 ---
-Un diagramma di [[UML]] 
+Un diagramma di [[Unified modeling Language (UML)]] 
 
 Descrive i [[Analisi dei requisiti| Requisiti Funzionali]], descrive quindi le funzionalità che il sistema deve fornire al esterno.  i campiti che un utente può fare con l aiuto del sistema.
 

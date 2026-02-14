@@ -1,11 +1,8 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # Modelli di cicli  di vita
 ---
 I modelli di cicli di vita servo ad affrontare lo sviluppo di un software. affrontare questo problema permette una migliore gestione  dei tempi e dei costi. 

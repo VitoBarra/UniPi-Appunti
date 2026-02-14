@@ -6,7 +6,7 @@ tags:
 ---
 # UML - Diagramma degli oggetti
 ---
-è uno dei diagrammi di [[UML]] è rappresenta gli oggetti concreti.
+è uno dei diagrammi di [[Unified modeling Language (UML)]] è rappresenta gli oggetti concreti.
 
 ## Sintassi
 ![[7C82789E-8C2A-428A-9156-E97A52B10CED.jpeg]]

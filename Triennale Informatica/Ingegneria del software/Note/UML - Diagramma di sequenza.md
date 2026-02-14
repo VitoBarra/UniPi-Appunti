@@ -9,7 +9,7 @@ Prev: [[Ingegneria Del Software (IS)]]
 # UML - Diagramma di sequenza
 ---
 
-Un diagramma di [[UML]] per descrivere il comportamento dinamico dello scambio dei messaggi e dati tra oggetti 
+Un diagramma di [[Unified modeling Language (UML)]] per descrivere il comportamento dinamico dello scambio dei messaggi e dati tra oggetti 
 
 #### Componenti
 - un rettangolo che indica ruolo e/o tipo del oggetto ( uno dei due obbligatori, entrambi solo se utile)
