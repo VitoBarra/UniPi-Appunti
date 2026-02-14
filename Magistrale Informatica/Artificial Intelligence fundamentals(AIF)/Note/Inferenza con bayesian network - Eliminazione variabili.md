@@ -39,7 +39,7 @@ dove ciascun $f_i$ rappresenta un fattore costruito a partire dalle [[Probabilit
 \end{algorithmic}
 \end{algorithm}
 ```
-Durante la valutazione, si eliminano progressivamente le variabili non rilevanti tramite [[Distribuzione di probabilita congiunta totale|somma marginale]], calcolata sui prodotti dei fattori che dipendono da esse. Si ottengono così nuovi fattori ridotti, contenenti un numero minore di variabili. La sequenza di eliminazione procede fino a produrre un unico fattore che rappresenta la distribuzione a posteriori della variabile di interesse.
+Durante la valutazione, si eliminano progressivamente le variabili non rilevanti tramite [[FJD - Marginalizzazione|somma marginale]], calcolata sui prodotti dei fattori che dipendono da esse. Si ottengono così nuovi fattori ridotti, contenenti un numero minore di variabili. La sequenza di eliminazione procede fino a produrre un unico fattore che rappresenta la distribuzione a posteriori della variabile di interesse.
 
 Due operazioni fondamentali definiscono il funzionamento dell’algoritmo: il prodotto punto a punto e la somma di eliminazione. Il prodotto punto a punto di due fattori $f$ e $g$ genera un nuovo fattore $h$ che coinvolge l’unione delle variabili dei due fattori:
 $$

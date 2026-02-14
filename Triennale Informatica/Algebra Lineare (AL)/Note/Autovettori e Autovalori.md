@@ -6,7 +6,7 @@ tags:
 ---
 # Autovettori e Autovalori
 ---
-sua di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{K}$ e $T:V \rightarrow V$ un [[Isomorfismo e Endomorfismo|endomorfismo]] , è chiamiamo __autovettore__ un vettore $v \in V,v \not= 0$  e un __autovalore__ di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
+sua di uno [[Spazi Vettoriali|spazio vettoriale]] $V$ su $\mathbb{K}$ e $T:V \rightarrow V$ un [[Isomorfismo e Endomorfismo|endomorfismo]] , è chiamiamo __autovettore__ un vettore $v \in V,v \not= 0$  e un __autovalore__ di $T$ associato a $v$  un qualunque $\lambda \in \mathbb{K}$ tale che
 
 $$
 T(v)=\lambda v

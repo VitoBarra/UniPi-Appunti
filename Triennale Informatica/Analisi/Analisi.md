@@ -60,13 +60,23 @@ tags:
 17. [[Successioni]]
 18. [[Espanzioni di funzioni in polinomi]]
 19. [[Funzione Gamma di Eulero]]
-20. funzioni multi Variate
+20. Funzioni multi Variate
 	1. [[Matrice Hessiana]]
 	2. [[Funzioni Multivariata - Gradiente]]
 	3. [[Jacobiana di una funzione]]
 21. [[Topologia]]
 	1. [[Superfici]]
 	2. [[Manifolds (Varieta)]]
+22. [[Equazioni differenziali]]
+    1. [[Partial Diferentian Equation (PDE)]]
+    2. [[Ordinary Differential Equation (ODE)]]
+        1. [[ODE - Problema di Cauchy]]
+        2. [[ODE - Sistemi]]
+        3. [[ODE - Integrazione Numerica]]
+            1. [[ODE - integrazione numerica - Metodo di Eulero]]
+        4. 
+
+
 
 ### Extra
 1. [[Integrazione numerica]]
@@ -83,4 +93,3 @@ tags:
 #### Extra
 1. [Compattezza di insieme](https://www.youtube.com/watch?v=td7Nz9ATyWY)
 2. [Corso topologia](https://www.youtube.com/watch?v=Ty3ZLl7cOI0&list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1&index=3)
-3. 

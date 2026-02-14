@@ -26,7 +26,7 @@ tags:
 	4. [[Prodotto tra matrici]]
 	5. [[Traccia di una matrice]]
 3. [[Tensori]]
-4. [[Spazio Vettoriale]]
+4. [[Spazi Vettoriali]]
 	1. [[Operazioni con sottospazi]]
 	2. [[Sottospazio Vettoriale]]
 	3. [[Span]]

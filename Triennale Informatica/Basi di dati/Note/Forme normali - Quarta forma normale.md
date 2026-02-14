@@ -1,8 +1,8 @@
 ---
-Course: "[[Architetture e sistemi operativi (AESO)]]"
+Course: "[[Data Base (DB)]]"
 topic: nota
 tags:
-  - AESO
+  - DB
 ---
 
 # Forme normali - Quarta forma normale

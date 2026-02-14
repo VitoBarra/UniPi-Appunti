@@ -219,7 +219,7 @@ Dopo trasformazione si ottiene tipicamente:
 ![[IMG - Trasformazioni dati RNA-seq.png]]
 
 
-gli strumenti comunemente usati sono: [[DESeq2 - DE per RNAseq|DESeq2]] e [[edgeR - DE per RNAseq|edgeR]] 
+gli strumenti comunemente usati per la normalizzazione e la differential expression sono: [[DESeq2 - DE per RNAseq|DESeq2]] e [[edgeR - DE per RNAseq|edgeR]] 
 
 
 

@@ -9,7 +9,7 @@ topic:
 per l'interpolazione polinomiale si intende l approssimazione in continuo di due dati discreti., questo metodo cerca di migliorare quello che si puo fare con l [[Interpolazione Lineare|interpolazione lineare]]
 
 #### Teorema di esistenza e unicità
-_sia_ $\Pi_{n}$ lo [[Spazio Vettoriale|spazio vettoriale]] dei [[Polinomi|polinomi]] di grado massimo $n$ a _coefficienti Reali_ e $\Phi = \{\phi_{0}(x),\dots,\phi_{n}(x)\}$ una base di $\Pi_{n}$. 
+_sia_ $\Pi_{n}$ lo [[Spazi Vettoriali|spazio vettoriale]] dei [[Polinomi|polinomi]] di grado massimo $n$ a _coefficienti Reali_ e $\Phi = \{\phi_{0}(x),\dots,\phi_{n}(x)\}$ una base di $\Pi_{n}$. 
 - Assegnati $\mathcal{S} =(x_{i},y_{i}) \in \mathbb{R}^{2}, 0 \leq i \leq n$ si hanno $n+1$ punti con $x_{i} \not = x_{j}$.
 	- praticamente è una funzione discontinua definita solo in alcuni punti.
 _allora_ esiste ed è unico un polinomio $P(x) \in \Pi_{n}$ tale che

@@ -89,7 +89,7 @@ Questo sistema funziona ma ha bisogno di molti campioni mente potrebbe converger
 
 In caso di BRDF __perfettamente speculare__ non ha senso prendere campioni al di fuori della direzione della luce riflessa $\omega_r$ ![[Pasted image 20240311044306.png]]
 mentre in caso di BRDF che rappresenta una [[Superfice lambertiana|superfice lambertiana]] abbiamo che l integrale da approssimare diventa $$k\int_{\omega_i \in  \Omega}\cos \theta  L_i(x,\omega_i)d\omega _i$$ e quindi si possono scegliere i campioni usando una distribuzione [[Tringonometria|coseno]].
-Per fare questa estrazione da una generica distribuzione $d$  e la sua [[Funzione di Ripartizione|funzione di ripartizione]] $CDF$ si esegue il seguente algoritmo
+Per fare questa estrazione da una generica distribuzione $d$  e la sua [[Variabili aleatorie - Funzione di ripartizione (CDF)|funzione di ripartizione]] $CDF$ si esegue il seguente algoritmo
 1. prendi in modo random è uniforme un valore $a\in [0,1]$
 2. calcola $x=CDF(d)^{-1}(a)$ 
 e quindi si puo eseguire sostituendo con il coseno

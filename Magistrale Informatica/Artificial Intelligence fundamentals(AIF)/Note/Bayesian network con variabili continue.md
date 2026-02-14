@@ -1,10 +1,12 @@
 ---
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
+Course 1: "[[Generative Deep Learning (GDL)]]"
 tags:
   - AIF
-Area: 
-topic: 
-SubTopic: 
+  - DGL
+Area:
+topic:
+SubTopic:
 ---
 
 # Bayesian network con variabili continue

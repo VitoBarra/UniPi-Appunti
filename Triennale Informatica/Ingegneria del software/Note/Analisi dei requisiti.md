@@ -1,10 +1,8 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
 
 # Analisi dei requisiti
 ---
@@ -29,8 +27,8 @@ Questa fase si occupa di a _definire_ e _documentare_ COSA deve essere realizzat
 Definizione del Dominio parti:
  - _Glossario_: una collezione di definizioni di termini del dominio. 
 	- generalmente costruito prima di parlare con il cliente e poi ampliato dopo aver comunicato con gli stakeholder.
-- *Modello statico*:  modello [[UML]] 
-- *Modello dinamico*: modello testuale per descrivere i passi o modello dinamico [[UML]] a stati finiti
+- *Modello statico*:  modello [[Unified modeling Language (UML)]] 
+- *Modello dinamico*: modello testuale per descrivere i passi o modello dinamico [[Unified modeling Language (UML)]] a stati finiti
 >[!note]
 >Il dominio esiste a prescindere dal sistema software  che opera o controlla quel dominio. 
 >- entità, relazioni processi e comportamenti.
@@ -61,7 +59,7 @@ Definizione del Dominio parti:
 
 Per la descrizione dei requisiti ci sono due metodi principali
 - Basa su  [[Descrizione dei requisiti con Linguaggio naturale |linguaggio naturale]]
-- basata su linguaggi grafici ad esempio  [[UML]]
+- basata su linguaggi grafici ad esempio  [[Unified modeling Language (UML)]]
 Le due non sono mutualmente esclusive.
 
 

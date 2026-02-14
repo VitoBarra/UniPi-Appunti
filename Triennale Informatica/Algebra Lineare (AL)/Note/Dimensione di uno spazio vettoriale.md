@@ -7,7 +7,7 @@ topic:
 
 # Dimensione di uno spazio vettoriale
 ---
-la _dimensione_ di uno [[Spazio Vettoriale|spazio vettoriale]] $V$ indicato con $\dim(V)$ è il la [[Insiemi - Cardinalita|cadinalita]] della sua [[Base di uno spazio vettoriale|base]], se lo spazio non ha una base allora la sua dimensione è $\infty$
+la _dimensione_ di uno [[Spazi Vettoriali|spazio vettoriale]] $V$ indicato con $\dim(V)$ è il la [[Insiemi - Cardinalita|cadinalita]] della sua [[Base di uno spazio vettoriale|base]], se lo spazio non ha una base allora la sua dimensione è $\infty$
 
 > [!example]
 > - $\dim(\mathbb{K}^n)=n$
@@ -30,7 +30,7 @@ Sia $V$ uno spazio vettoriale e $U \subset V$ un [[Sottospazio Vettoriale]]. Val
 
 
 ## lemmi interessanti:
-_Sia_ $V$ uno [[Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$. Supponiamo di avere:
+_Sia_ $V$ uno [[Spazi Vettoriali|spazio vettoriale]] su $\mathbb{K}$. Supponiamo di avere:
 - dei vettori $v_1, \dots, v_n \in V$ che generano $V$
 - dei vettori $w_1,\dots, w_n \in V$ indipendenti
 _Allora_ anche i vettori  $w_1, \dots , w_n$  generano $V$

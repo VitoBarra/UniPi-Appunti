@@ -1,11 +1,8 @@
 ---
-Course: Ingegneria del software
+Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
-
-Prev: [[Ingegneria Del Software (IS)]]
-
 # Descrizione dei requisiti con Linguaggio naturale
 ---
 

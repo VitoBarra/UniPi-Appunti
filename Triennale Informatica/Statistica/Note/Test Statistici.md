@@ -19,7 +19,7 @@ Osservazioni:
 
 #### Ipotesi nulla e alternativa (Definizione)
 _sia_
-- $X_{1},\dots,X_{n}$ un [[Campione Statistico|campione statistico]] la cui [[Probabilita sui numeri Reali|legge]] dipende da un parametro $\theta \in \Theta\subseteq \mathbb{R}$ e quindi la [[Funzione di Ripartizione|legge di ripartizione]] $F_{\theta}=F_{X}$
+- $X_{1},\dots,X_{n}$ un [[Campione Statistico|campione statistico]] la cui [[Probabilita sui numeri Reali|legge]] dipende da un parametro $\theta \in \Theta\subseteq \mathbb{R}$ e quindi la [[Variabili aleatorie - Funzione di ripartizione (CDF)|legge di ripartizione]] $F_{\theta}=F_{X}$
 - un [[Partizione di un insieme|partizione]] $\Theta= \Theta_{0} \cup \Theta_{1}$ in due sotto insiemi disgiunti
 _allora_ 
 - l _ipotesi nulla_ $\mathcal{H}_{0}$ è l affermazione logica $\theta \in \Theta_{0}$ 

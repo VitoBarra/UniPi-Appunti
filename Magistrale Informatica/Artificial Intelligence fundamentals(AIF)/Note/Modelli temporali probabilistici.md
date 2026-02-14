@@ -17,7 +17,7 @@ per modellare la dinamica temporale il modello usa due componenti fondamentali:
 
 **il modello sensoriale** definisce la relazione tra **stati** e **osservazioni**, ogni stato dovrebbe essere da solo capace di determinare le sue osservazioni e quindi si fa l'[[Markov chains|assunzione di Markov per i sensori]], espressa come $P(E_t \mid X_{0:t}, E_{1:t-1}) = P(E_t \mid X_t)$ e $P(E_t \mid X_t)$ è il modello dei sensori.
 
-e quindi il modello finale rappresenta la [[Distribuzione di probabilita congiunta totale|distribuzione congiunta]] puo essere descritta con l’insieme delle **relazioni probabilistiche dinamiche** del modello come:$$
+e quindi il modello finale rappresenta la [[Full Joint Distribution (FJD)|distribuzione congiunta]] puo essere descritta con l’insieme delle **relazioni probabilistiche dinamiche** del modello come:$$
 P(X_{0:t}, E_{1:t}) = P(X_0) \prod_{i=1}^{t} P(X_i \mid X_{i-1}) P(E_i \mid X_i),
 $$dove $P(X_0)$ è il modello iniziale, $P(X_i \mid X_{i-1})$  il modello di transizione e $P(E_i \mid X_i)$ il modello sensoriale e questo permette di rappresentare un numbero unbounded ti **time step** $t$
 

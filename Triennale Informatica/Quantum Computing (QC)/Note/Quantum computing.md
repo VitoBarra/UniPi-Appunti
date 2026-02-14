@@ -15,7 +15,7 @@ Abbiamo che un _qubit_ è ha due stati $| 0 \rangle$ e $|1\rangle$ che corrispon
 $$| 0 \rangle = \begin{pmatrix}1  \\0\end{pmatrix} \ \ \ \ \ |1\rangle = \begin{pmatrix}0  \\1\end{pmatrix}$$
 ma il _qubit_ può essere in uno stato diverso da questi soli due essendo possibile la _sovrapposizione_ abbiamo che lo stato del _qubit_ è rappresentato come
 $$| \uppsi \rangle = \alpha | 0 \rangle + \beta | 1 \rangle = \alpha\begin{pmatrix}1  \\0\end{pmatrix} +\beta \begin{pmatrix}0  \\1\end{pmatrix} =\begin{pmatrix}\alpha  \\ \beta\end{pmatrix}$$
-dove $\alpha,\beta \in \mathbb{C}$ e $|\alpha|^{2}+|\beta|^{2}=1$ e gli stati $| 0 \rangle$ e $|1\rangle$ sono chiamati _stati base computazionali_ e formano una base [[Base Ortogonale e Ortonormale|Base Ortogonale]] dello [[Spazio Vettoriale|spazio vettoriale]] $\mathbb{C}^{2}$
+dove $\alpha,\beta \in \mathbb{C}$ e $|\alpha|^{2}+|\beta|^{2}=1$ e gli stati $| 0 \rangle$ e $|1\rangle$ sono chiamati _stati base computazionali_ e formano una base [[Base Ortogonale e Ortonormale|Base Ortogonale]] dello [[Spazi Vettoriali|spazio vettoriale]] $\mathbb{C}^{2}$
 
 ![[Pasted image 20230820164306.png]]
 

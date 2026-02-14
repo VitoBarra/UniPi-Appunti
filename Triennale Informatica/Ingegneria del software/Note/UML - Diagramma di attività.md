@@ -6,7 +6,7 @@ tags:
 ---
 # UML - Diagramma di attività
 ---
-Un diagramma [[UML]] per modellare il flusso di lavoro
+Un diagramma [[Unified modeling Language (UML)]] per modellare il flusso di lavoro
 - può essere un compiuto un algoritmo  o un processo o un attività.
 
 Questo tipo di Diagramma è utile per rappresentare:

@@ -33,7 +33,7 @@ tags:
 	7. [[Teorema di approssimazione universale]]
 	8. [[Teorema di copertura (Cover Theorem)]]
 	9. [[Teorema di Mercer]]
-	10. [[Deep Learning]]
+	10. [[UniPi-Appunti/Magistrale Informatica/Macchine Learning (ML)/Note/Deep Learning]]
 	11. [[Curse of dimensionality e Curse of noise]]
 3. [[Modelli lineari - Retta di regressione]]
     1. [[Modelli lineari con LMS]]

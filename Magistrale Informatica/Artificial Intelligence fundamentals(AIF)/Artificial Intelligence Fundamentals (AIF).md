@@ -110,7 +110,7 @@ tags:
 		5. [[Indipendenza Stocastica]]
 		6. [[Indipendenza condizionata]]
 		7. [[Probabilita sui numeri Reali]]
-		8. [[Distribuzione di probabilita congiunta totale]]
+		8. [[Full Joint Distribution (FJD)]]
 	2. [[Inferenza con Full Joint distribution]]
 	3. [[Naive Bayes Model]]
 		1. [[Naive Bayes Classifier]]

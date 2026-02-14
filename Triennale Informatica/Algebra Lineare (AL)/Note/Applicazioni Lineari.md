@@ -7,8 +7,8 @@ tags:
 
 # Applicazioni Lineari
 ---
-_siano_ $V$ e $W$ due [[Spazio Vettoriale|spazi vettoriali]]
-_allora_ Un’_applicazione lineare_ è una [[Funzioni|funzione]] fra [[Spazio Vettoriale|spazi vettoriali]]$$f:V\rightarrow W$$che soddisfano i seguenti assiami
+_siano_ $V$ e $W$ due [[Spazi Vettoriali|spazi vettoriali]]
+_allora_ Un’_applicazione lineare_ è una [[Funzioni|funzione]] fra [[Spazi Vettoriali|spazi vettoriali]]$$f:V\rightarrow W$$che soddisfano i seguenti assiami
 - $f(0)=0$
 - $f (v + w) = f (v ) + f (w)$ per ogni $v,w\in V$
 - $f (\lambda v ) = \lambda f (v)$  per ogni $v \in V$   e $\lambda \in\mathbb{K}$
