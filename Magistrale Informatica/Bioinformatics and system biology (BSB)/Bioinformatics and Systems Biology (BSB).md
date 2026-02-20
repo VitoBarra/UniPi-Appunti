@@ -96,7 +96,16 @@ BSB:
             14. [[edgeR - DE per RNAseq]]
         6. [[Gene Ontology (GO)]]
         7. [[Analisi RNA-Seq a singola cellula]]
-            1. 
+        8. [[Biological networks]]
+            1. [[Cell pathways]]
+                1. [[Cell pathways - Glycolysis pathway metabolico]]
+                2. [[Chemical Reaction Network (CRN)]]
+            2. [[Gene Regulatory Networks]]
+            3. [[Protein-Protein interaction network]]
+12. [[Ordinary Differential Equation (ODE)]]
+    1. [[ODE - Integrazione Numerica]]
+        1. [[ODE - Integrazione Numerica - metodo di eulero]]
+        2. [[ODE - Integrazione Numerica - metodo espliciti]]
 
 
 
