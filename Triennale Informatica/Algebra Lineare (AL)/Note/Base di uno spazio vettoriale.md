@@ -5,7 +5,7 @@ tags:
 ---
 # Base di  uno spazio vettoriale 
 ---
-_sia_  $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  e  $v_1,\dots,v_n \in V$ una sequenza di vettori 
+_sia_  $V$ uno [[Spazi Vettoriali|spazio vettoriale]]  e  $v_1,\dots,v_n \in V$ una sequenza di vettori 
 _allora_ la sequenza è detta _base_ di $V$ se
 - I vettori sono tutti tra loro _[[Dipendenza Lineare|indipendenti]]_
 - I vettori _[[Sottospazio Vettoriale generato|generano]]_ $V$

@@ -8,38 +8,25 @@ SubTopic:
 ---
 # ODE - Integrazione Numerica
 ---
-L’integrazione numerica di una ODE nasce dal **problema di Cauchy** $$\frac{dx}{dt}=f(t,x),\quad x(t_0)=x_0$$ che consiste nel determinare una funzione $x(t)$ che soddisfi l’equazione differenziale e la condizione iniziale. Si veda [[Problema di Cauchy per ODE|definizione formale del problema di Cauchy]].
+L’**integrazione numerica** di una **ODE** consiste nell’approssimare la soluzione del **[[ODE - Problema di Cauchy|problema di Cauchy]]** $$\frac{dy}{dx}=f(x,y),\; y(x_0)=y_0$$ quando non è disponibile una soluzione analitica esplicita o non è computazionalmente accessibile. L’obiettivo è costruire una successione discreta che approssimi la soluzione continua $y(x)$.
 
-Nella maggior parte dei casi non è disponibile una soluzione analitica esplicita; anche quando esiste, può non essere computazionalmente accessibile. Per questo si introducono metodi numerici che costruiscono una successione discreta $t_n=t_0+n h$ con $x_n\approx x(t_n)$.
+Metodi diversi sono necessari perché le [[Ordinary Differential Equation (ODE)]] possono presentare caratteristiche molto differenti: **non linearità**, **sistemi di grande dimensione**, **dinamiche con scale temporali molto diverse** (sistemi stiff), **vincoli di stabilità numerica** e **requisiti diversi in termini di accuratezza e costo computazionale**. In base al contesto si scelgono famiglie di metodi con proprietà differenti.
 
-Schema generale a passo singolo:
-$$x_{n+1}=x_n+h\,\Phi(t_n,x_n,h)$$
-dove $\Phi$ approssima il campo vettoriale medio nell’intervallo $[t_n,t_{n+1}]$.
+Si introduce una discretizzazione della variabile indipendente $$x_n=x_0+n h,\; y_n\approx y(x_n)$$ con passo $h>0$ e $n$ è il numero di passi fatti, e si utilizza uno schema numerico per propagare l’approssimazione. 
+Nei metodi a **passo singolo** il valore successivo dipende solo da $(x_n,y_n)$; nella forma generale $$y_{n+1}=y_n+h\,\Phi(x_n,y_n,h)$$ dove $\Phi$ approssima il contributo medio del campo su $[x_n,x_{n+1}]$. Nei metodi **multistep** il nuovo valore dipende anche da più passi precedenti $y_n,y_{n-1},\dots$, risultando più efficienti a parità di ordine ma richiedendo una storia iniziale.
 
-Perché servono metodi diversi:
-- Equazioni non lineari raramente integrabili in forma chiusa.
-- Sistemi di grande dimensione.
-- Presenza di scale temporali multiple.
-- Necessità di controllo dell’errore.
-- Compromesso tra costo computazionale e accuratezza.
+Un’altra distinzione riguarda la struttura della ricorrenza. 
+Nei metodi **espliciti** $$y_{n+1}=y_n+h\,\Phi(x_n,y_n,h)$$il nuovo valore è calcolato direttamente da quantità note. 
+Nei metodi **impliciti** $$y_{n+1}=y_n+h\,\Phi(x_{n+1},y_{n+1},h)$$il termine incognito compare anche a destra e a ogni passo va risolta un’equazione (in generale non lineare); questi metodi sono più costosi ma più stabili e adatti a [[ODE - Sistemi|sistemi stiff]]. 
 
-Classificazioni:
-- Passo singolo vs multistep.
-- Espliciti vs impliciti.
-- Passo fisso vs adattativo.
+Un’ulteriore distinzione riguarda il passo: nei metodi a **passo fisso** $h$ è costante, nei metodi **adattativi** viene aggiornato tramite una stima dell’errore locale per bilanciare accuratezza e costo.
+
+
+tutti i metodi sono caratterizzati da un certo errore in funzione dello step $h$ e si dicono che sino di **ordine $p$** se l’errore globale è $O(h^p)$ e quello locale $O(h^{p+1})$. 
+La **stabilità numerica** si studia spesso tramite l’equazione test $$y'=\lambda y$$ che produce una ricorrenza $y_{n+1}=R(h\lambda)\,y_n$; la regione di stabilità è l’insieme dei valori di $h\lambda$ per cui $|R(h\lambda)|\le 1$ e l’errore non cresce lungo l’integrazione.
 
 Metodi principali:
-- [[ODE - integrazione numerica - Metodo di Eulero|Metodo di Eulero]]
-- [[ODE - integrazione numerica - Metodo di Eulero implicito|Metodo di Eulero implicito]]
-- [[ODE - integrazione numerica - Metodo di Runge-Kutta|Metodi di Runge-Kutta]]
-- [[ODE - integrazione numerica - Runge-Kutta 4 (RK4)|Runge-Kutta di ordine 4]]
-- [[ODE - integrazione numerica - Metodi di Adams|Metodi multistep di Adams]]
-- [[ODE - integrazione numerica - Metodo di Backward Differentiation Formula (BDF)|Backward Differentiation Formula (BDF)]]
-
-Ordine del metodo: è $p$ se l’errore globale è $O(h^p)$ e l’errore locale è $O(h^{p+1})$.
-
-Stabilità numerica: analizzata tramite l’equazione test $$x'=\lambda x$$; la regione di stabilità determina per quali $h\lambda$ l’errore non cresce.
-
-Un sistema è detto **stiff** quando contiene autovalori con parte reale molto negativa che impongono passi $h$ estremamente piccoli per metodi espliciti. In tali casi sono preferibili metodi impliciti (es. [[ODE - integrazione numerica - Metodo di Eulero implicito|Eulero implicito]], [[ODE - integrazione numerica - Metodo di Backward Differentiation Formula (BDF)|BDF]]).
-
-La nozione teorica di stiff system è trattata in [[Ordinary Differential Equation (ODE)|nota generale sulle ODE]], mentre qui si considerano le implicazioni computazionali.
+- [[ODE - integrazione numerica - Metodo di Eulero|Metodo di Eulero]] (ordine 1)
+- [[ODE - integrazione numerica - Metodo di Runge-Kutta|Metodi di Runge–Kutta]] (ordine 2 o meglio)
+- [[ODE - integrazione numerica - Metodi di Adams|Metodi di Adams]] (metodo multi step con ordine simile al numero di step usati)
+- [[ODE - integrazione numerica - Metodo di Backward Differentiation Formula (BDF)|Metodi BDF]] ()

@@ -8,7 +8,7 @@ topic:
 # Dipendenza Lineare
 ---
 _sia_ 
-- $V$ uno [[Spazio Vettoriale|spazio vettoriale]]  
+- $V$ uno [[Spazi Vettoriali|spazio vettoriale]]  
 - $v_{1},\dots v_{k} \in V$ [[Vettori|vettori]] con $k \geq 2$ 
 _allora_ questi sono detti _dipendenti_ 
 _se_ esiste almeno un coefficiente $\lambda_i \not= 0$  tale che$$

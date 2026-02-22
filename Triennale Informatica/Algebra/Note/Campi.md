@@ -7,7 +7,7 @@ topic: "[[Strutture algebriche]]"
 
 # Campi
 ---
-In algebra un __campo__ $\mathcal{K}$ è una [[Strutture algebriche|struttura algebrica]] definite da un [[Insiemi Matematici|insieme]] _NON_  vuoto $F$ e due [[Operazioni algebriche]] binarie chiamate _addizione_ e _moltiplicazione_ e qui indicate con $+,\cdot$ ma potrebbero essere espresso con qualsiasi simbolo 
+In algebra un __campo__ $\mathcal{K}$ è una [[Strutture algebriche|struttura algebrica]] definite da un [[Insiemi Matematici|insieme]] _NON_  vuoto $F$ e due [[Operazioni algebriche]] binarie chiamate **_addizione_** e **_moltiplicazione_** e qui indicate con $+,\cdot$ ma potrebbero essere espresso con qualsiasi simbolo 
 
 
 le due operazioni devono soddisfare Le proprietà

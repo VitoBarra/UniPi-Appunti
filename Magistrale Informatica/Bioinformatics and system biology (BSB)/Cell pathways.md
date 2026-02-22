@@ -11,10 +11,8 @@ SubTopic:
 I **Cell pathways** sono reti di reazioni biochimiche interconnesse che descrivono un processo cellulare specifico, come metabolismo, trasduzione del segnale o regolazione dell’espressione genica.
 
 Formalmente, un pathway è modellato come una [[Chemical Reaction Network (CRN)|Chemical Reaction Network]] in cui:
-
-- Nodi: specie molecolari (metaboliti, proteine, complessi, RNA).  
+- Nodi: specie molecolari (metaboliti, [[proteine|proteine]], complessi, [[RNA|RNA]]).  
 - Archi: reazioni chimiche che trasformano un insieme di reagenti in prodotti.  
-
 Una reazione generale ha forma:
 $$\ell_1 S_1 + \dots + \ell_\rho S_\rho \xrightarrow{k} \ell'_1 P_1 + \dots + \ell'_\gamma P_\gamma$$
 dove $\ell_i$ sono coefficienti stechiometrici e $k$ è la costante cinetica.

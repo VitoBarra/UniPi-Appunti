@@ -6,7 +6,7 @@ tags:
 ---
 # Vettori Ortogonali
 ---
-_sia_ sia $V$ uno [[Spazio Vettoriale|spazio vettoriale]] munito di un [[Prodotto Scalare|prodotto scalare]] $\langle \cdot\rangle$ 
+_sia_ sia $V$ uno [[Spazi Vettoriali|spazio vettoriale]] munito di un [[Prodotto Scalare|prodotto scalare]] $\langle \cdot\rangle$ 
 _allora_ due vettori $v,w \in V$ sono _ortogonali_ se$$
 \langle v,w \rangle = 0
 $$

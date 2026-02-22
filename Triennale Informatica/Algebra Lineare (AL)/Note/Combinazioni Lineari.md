@@ -8,7 +8,7 @@ tags:
 # Combinazioni Lineari
 ---
 _Siano_
-- $V$ uno [[Spazio Vettoriale|spazio vettoriale]] qualsiasi
+- $V$ uno [[Spazi Vettoriali|spazio vettoriale]] qualsiasi
 - $v_1, \dots , v_k ∈ V$ dei _vettori arbitrari_.
 _allora_ Una _combinazione lineare_ dei vettori $v_1, \dots, v_k$ è un qualsiasi vettore $v$ che si ottiene come
 $$

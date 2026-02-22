@@ -7,7 +7,7 @@ tags:
 
 # Tipi di matrice quadrata
 ---
-sia  $M(m, n, \mathbb{K})$ è lo [[Spazio Vettoriale|spazio vettoriale]] formato dalle matrici $m \times n$ a coefficienti in $\mathbb{K}$. 
+sia  $M(m, n, \mathbb{K})$ è lo [[Spazi Vettoriali|spazio vettoriale]] formato dalle matrici $m \times n$ a coefficienti in $\mathbb{K}$. 
 si possono definire dei [[Sottospazio Vettoriale|sottospazzi vettoriali]] di $M$ imponendo delle restrizioni.
 Data una matrice $A$, indichiamo con $A_{ij}$ oppure $a_{ij}$ i suoi coefficienti. 
 

@@ -102,11 +102,14 @@ BSB:
                 2. [[Chemical Reaction Network (CRN)]]
             2. [[Gene Regulatory Networks]]
             3. [[Protein-Protein interaction network]]
-12. [[Ordinary Differential Equation (ODE)]]
-    1. [[ODE - Integrazione Numerica]]
-        1. [[ODE - Integrazione Numerica - metodo di eulero]]
-        2. [[ODE - Integrazione Numerica - metodo espliciti]]
 
+
+12. [[Equazioni differenziali]]
+13. [[Ordinary Differential Equation (ODE)]]
+    1. [[ODE - Problema di Cauchy]]
+    2. [[ODE - Sistemi]]
+    3. [[ODE - Integrazione Numerica]]
+        1. [[ODE - Integrazione Numerica - metodo di eulero]]
 
 
 

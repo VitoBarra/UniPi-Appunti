@@ -7,7 +7,7 @@ tags:
 # Spazi vettoriali in somma diretta
 ---
 
-_Sia_ $V$ uno [[Spazio Vettoriale]] e  $U, W \subset V$ due [[Sottospazio Vettoriale|sottospazi]] 
+_Sia_ $V$ uno [[Spazi Vettoriali]] e  $U, W \subset V$ due [[Sottospazio Vettoriale|sottospazi]] 
 _se_ $U ∩ W = \{0\}$
 _allora_ sono in _somma diretta_
 

@@ -8,44 +8,15 @@ SubTopic:
 ---
 # Ordinary Differential Equation (ODE)
 ---
-Una **Ordinary Differential Equation (ODE)** è un’equazione differenziale che coinvolge una funzione incognita di una sola variabile indipendente e le sue derivate rispetto a tale variabile.
-
-Forma generale (equazione scalare di ordine $n$):
-$$F\big(t,x,\dot x,\ddot x,\dots,x^{(n)}\big)=0$$
-Forma esplicita del primo ordine:
-$$\frac{dx}{dt}=f(t,x)$$
-
-Un sistema di ODE del primo ordine in $\mathbb{R}^n$ è scritto come:
-$$\frac{dx(t)}{dt}=f(x(t),t)$$
-dove $x(t)=(x_1(t),\dots,x_n(t))$ è il vettore delle variabili di stato e $f:\mathbb{R}^n\to\mathbb{R}^n$ è un campo vettoriale.
-
+Una **Ordinary Differential Equation (ODE)** è un’[[Equazioni differenziali|equazione differenziale]] che coinvolge una [[funzioni|funzione]] incognita di una **sola variabile** indipendente e le sue [[derivate|derivate]] rispetto a tale variabile, la forma generale (equazione scalare di ordine $n$): $$F\big(x,y,y',y'',\dots,y^{(n)}\big)=0$$ ogni **ODE** ha associato un ordine e questo è definito dall’**ordine massimo** della derivata, ad esempio in modo esplicito un **ODE** del **primo ordine** risulta come: $\cfrac{dy}{dx}=f(x,y)\iff y'=f(x,y)$
 Classificazioni principali:
-- Ordine: massimo ordine di derivata presente.
-- Lineare: $$\frac{dx}{dt}=A(t)x+b(t)$$
-- Non lineare: presenza di termini non lineari in $x$.
-- Autonoma: $$\frac{dx}{dt}=f(x)$$ (assenza di dipendenza esplicita dal tempo).
-- Non autonoma: $$\frac{dx}{dt}=f(x,t)$$
+- Lineare: $y'=A(x)y+b(x)$
+- Non lineare: presenza di termini non lineari in $y$.
+- Autonoma: $y'=f(y)$ ovvero nella parte destra **NON è** presente la variabile autonoma 
+- Non autonoma: $y'=f(y,x)$, ovvero nella parte destra **è** presente la variabile autonoma
 
-Problema di Cauchy (valore iniziale):
-$$\frac{dx}{dt}=f(x,t),\quad x(t_0)=x_0$$
-Se $f$ è continua e localmente lipschitziana in $x$, esiste ed è unica la soluzione locale.
+Una **soluzione** di una **ODE** è una funzione $y(x)$ sufficientemente regolare (tipicamente $C^n$ se l’equazione è di ordine $n$) definita su un intervallo $I\subseteq\mathbb{R}$ tale che, sostituendo $y$ e le sue [[derivate|derivate]] nell’equazione differenziale, l’identità risulta soddisfatta per ogni $x\in I$. Una **soluzione generale** dipende da costanti arbitrarie in numero **pari all’ordine dell’equazione**, mentre una **soluzione particolare** si ottiene imponendo condizioni iniziali come $y(x_0)=y_0$, che definiscono un **[[ODE - Problema di Cauchy|problema di Cauchy]]** e selezionano, quando esiste ed è unica, una specifica traiettoria nello spazio delle soluzioni. 
 
-Punti di equilibrio (sistemi autonomi):
-$$f(x^*)=0$$
-Sono stati stazionari del sistema.
-
-Linearizzazione locale attorno a $x^*$:
-$$\frac{d\delta x}{dt}=J(x^*)\delta x$$
-dove $J$ è la matrice Jacobiana $J_{ij}=\frac{\partial f_i}{\partial x_j}$. La stabilità locale dipende dagli autovalori di $J(x^*)$.
-
-Comportamenti dinamici possibili:
-- Convergenza a equilibrio.
-- Divergenza.
-- Oscillazioni.
-- Dinamiche non lineari complesse.
-
-Metodi di soluzione:
-- Analitici (separazione delle variabili, fattore integrante, trasformate).
-- Numerici (Euler, Runge–Kutta, metodi impliciti per sistemi stiff).
-
-Le ODE costituiscono il formalismo fondamentale per la descrizione matematica di sistemi dinamici continui nel tempo.
+Una **soluzione costante** $y(x)=y^*$ è detta **punto di equilibrio** o stato stazionario. Se $y(x)=y^*$ è costante allora per definizione $y'(x)=0$; sostituendo nell’ODE si richiede quindi che il termine di destra si annulli.
+- Nel caso **autonomo** $y'=f(y)$ si ottiene $0=f(y^*)$quindi gli equilibri coincidono con gli zeri del campo $f$ e rappresentano configurazioni in cui la dinamica si arresta e lo stato rimane invariato per ogni $x$.
+- Nel caso **non autonomo** $y'=f(x,y)$ una soluzione costante $y(x)=y^*$ è un equilibrio solo se $$f(x,y^*)=0\quad\forall x$$cioè se lo stesso valore $y^*$ annulla il campo per ogni valore della variabile indipendente. Questo è possibile solo in **casi particolari**; per questo il concetto di equilibrio come stato costante è soprattutto naturale per sistemi autonomi.

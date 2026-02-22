@@ -7,7 +7,7 @@ tags:
 ---
 # Prodotto Scalare
 ---
-__sia__ $V$ una [[Spazio Vettoriale|spazio vettoriale]]
+__sia__ $V$ una [[Spazi Vettoriali|spazio vettoriale]]
 __allora__ Il __prodotto scalare__ è un [[Operazioni algebriche|operazione]] su $V$ è definito come 
 $$\begin{array}{}
 V \times V \rightarrow \mathbb{R} \\

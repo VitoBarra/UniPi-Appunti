@@ -6,7 +6,7 @@ tags:
 ---
 # Sottospazi affini
 ---
-_sia_ $V$ un [[Spazio Vettoriale]] e $W \subset V$ un [[Sottospazio Vettoriale|sotto spazio vettoriale]]
+_sia_ $V$ un [[Spazi Vettoriali]] e $W \subset V$ un [[Sottospazio Vettoriale|sotto spazio vettoriale]]
 _allora_ un _sotto spazio affine_ di $V$ è un insieme $S$ [[Soluzioni di un sistema lineare|delle soluzioni]]  di un [[Sistemi lineari e lineari omogenei|sistema lineare]] tale che$$S= \{ x+v\mid v\in W \}$$ e per indicare un sotto spazio affine si usa la _notazione implicita_ $$S=x+W=\{ x+v\mid v \in  W \}$$
 #### Teoria
 lo stesso _sottospazio affine_ puo essere descritto in io modi diversi infatti
