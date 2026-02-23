@@ -73,7 +73,7 @@ tags:
         1. [[ODE - Problema di Cauchy]]
         2. [[ODE - Sistemi]]
         3. [[ODE - Integrazione Numerica]]
-            1. [[ODE - Integrazione Numerica - metodo di eulero]]
+            1. [[ODE - integrazione numerica - Metodo di Eulero]]
         4. 
 ### Extra
 1. [[Integrazione numerica]]

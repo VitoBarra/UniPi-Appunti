@@ -63,8 +63,7 @@ Le costanti cinetiche dipendono dalle unità adottate: un cambiamento di scala d
 
 Le reazioni chimiche possono essere modellate tramite [[Ordinary Differential Equation (ODE)|ODE]]. Per la reazione$$\ell_1 S_1 + \dots + \ell_\rho S_\rho \;\xrightleftharpoons[k_{-1}]{k}\; \ell'_1 P_1 + \dots + \ell'_\gamma P_\gamma$$Le ODE si ottengono applicando la **variazione stechiometrica** moltiplicata per il rate netto $v_f - v_b$.
 
-Per ciascun reagente $S_i$:
-$$
+Per ciascun reagente $S_i$:$$
 \frac{d[S_i]}{dt}
 =
 -\ell_i\, v_f
