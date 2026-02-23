@@ -6,11 +6,7 @@ tags: IS
 
 # Unified modeling Language (UML)
 ---
-l'**_Unified modeling Language_**(**UML**) linguaggio per modello unificato è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] 
-
-è principalmente pensato per la di sistemi [[Paradigma Object Oriented Programming (OOP)|Object-Oriented]]. 
-
-è una famiglia di grafici atti a descrivere più aspetti della progettazioni software come la descrizione strutturale e la descrizione del comportamento 
+l **_Unified modeling Language_** (UML) è un linguaggio grafico per rappresentare l [[Analisi dei requisiti]] è principalmente pensato per la di sistemi [[Paradigma Object Oriented Programming (OOP)|Object-Oriented]], ed è una famiglia di grafici atti a descrivere più aspetti della progettazioni software come la descrizione strutturale e la descrizione del comportamento 
 
 UML esprime due tipi di modelli 
 - Statici: 
@@ -34,10 +30,7 @@ I grafici per le due categorie sono
 	- [[UML - Diagramma di attività]]
 	- [[UML - Diagramma di macchina a stati]]
 	- [[UML - Diagramma di sequenza]]
-
-
->[!note] Strumenti
->Uno Strumento per la realizzazione di modelli UML gratuito è [visual Paradigm](https:// en.wikipedia.org /wiki/List_of_Unified_Modeling_Language_tools)
+Uno Strumento per la realizzazione di modelli **UML** gratuito è [visual Paradigm](https:// en.wikipedia.org /wiki/List_of_Unified_Modeling_Language_tools)
  
  
   

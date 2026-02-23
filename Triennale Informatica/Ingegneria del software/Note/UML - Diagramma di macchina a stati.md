@@ -3,28 +3,23 @@ Course: "[[Ingegneria Del Software (IS)]]"
 topic: nota
 tags: IS
 ---
+
 # UML - Diagramma di macchina a stati
 ---
 Diagramma [[Unified modeling Language (UML)]] per rappresentare lo stato del sistema 
 
 
-un diagramma a macchine a stati rappresenta il comportamento dinamici delle istanze di un classificatore ( es.oggetti istanza di una classe)
+un diagramma a macchine a stati rappresenta il comportamento dinamici delle istanze di un classificatore ( es.oggetti istanza di una classe) questa è composta dai nodi stati e da archi che rappresentano una transazione di fatto è un [[Grafi]]
 
-questa è composta dai nodi stati e da archi che rappresentano una transazione di fatto è un [[Grafi]]
-
-#### Componenti
-1. _Stato_: 
-	- Questo è composto da valori 
-	- ha un nome unici
-	- può essere composto da più stati
-
-### Sintassi
-1. _Stato_: Rappresentato da rettangolo arrotondati
-2. _Nodo finale_: cerchio bordato
-3. _Nodo Iniziale_: cerchio 
-	 ![[6FE5C134-EA22-4377-AE8D-FB54284DCC8D.jpeg]]
-4. _Transazioni_: freccia che esce da uno stato e punta un altro 
-- ![[539BC5E7-3B74-457F-8B69-57B4BA9B8AE2.jpeg]]
+l unita di base è lo *__Stato__*: 
+- Questo è composto da valori 
+- ha un nome univoco
+- può essere composto da più stati
+possono essere di 3 tipi
+1. **_Stato_**: Rappresentato da rettangolo arrotondati
+2. **_Nodo finale_**: cerchio bordato
+3. **_Nodo Iniziale_**: cerchio ![[IMG - tipi di stato diagramma UML.jpeg]]
+4. _Transazioni_: freccia che esce da uno stato e punta un altro ![[IMG - transizione di stato in UML.jpeg]]
 - tutte le parti sono opzionali ma l evento dovrebbe esserci sempre tranne nel caso delle transizioni di _completamento_
 	- ##### Semantica
 		- Definisce la risposta del oggetto al occorrenza di un _evento_
@@ -84,3 +79,9 @@ in questo caso non c è bisogno che almeno una condizione sia vera  se è questo
 ##### HIstory
 ![[3B07591E-928C-4280-8C15-A8A0B2AF7CD2.jpeg]]
 ![[EDC1B92C-E8AA-4071-AE10-54C4B634B0D8.jpeg]]
+
+
+
+
+
+![altra fonte](https://www.youtube.com/watch?v=7kdKcYSYM0E)

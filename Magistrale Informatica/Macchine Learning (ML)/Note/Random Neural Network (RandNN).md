@@ -32,7 +32,7 @@ Questo tipo di approccio è __estremamente efficiente__, Adatto a Big Data e dis
 
 #### Applicazione in altri contesti
 alcuni altri __approccio randomizzati__: 
-- __[[Deep Learning|Deep]] Randomized NN__: stack di moduli RVFL/ELM per il deep learning
+- __[[UniPi-Appunti/Magistrale Informatica/Macchine Learning (ML)/Note/Deep Learning|Deep]] Randomized NN__: stack di moduli RVFL/ELM per il deep learning
 - [[Recurrent Neural Network (RNN)|Reti ricorrenti]] randomizzate ([[RandRNN - Reservoir Computing|Reservoir Computing]] / [[Reservoir Computing - Echo State Network (ESN)|ESN]]), particolarmente utili per il trattamento di serie temporali.
 - __[[Convolutional Neural Network  (CNN)|CNN]] randomizzate__
 
