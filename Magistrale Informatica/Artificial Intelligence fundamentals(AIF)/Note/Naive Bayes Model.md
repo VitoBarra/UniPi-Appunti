@@ -9,7 +9,7 @@ SubTopic:
 
 # Naive Bayes Model
 ---
-Il **Naive Bayes Model** rappresenta una **struttura probabilistica** basata sul [[Formula di Bayes|teorema di bayes]] in cui una singola **causa influisce** direttamente su un **insieme di effetti**, i quali risultano tra loro **[[Indipendenza condizionata|condizionatamente indipendenti]]** se la **causa** è data. In tale configurazione, la [[Distribuzione di probabilita congiunta totale|distribuzione congiunta]] tra la **causa** e gli **effetti** può essere espressa nella forma:$$
+Il **Naive Bayes Model** rappresenta una **struttura probabilistica** basata sul [[Formula di Bayes|teorema di bayes]] in cui una singola **causa influisce** direttamente su un **insieme di effetti**, i quali risultano tra loro **[[Indipendenza condizionata|condizionatamente indipendenti]]** se la **causa** è data. In tale configurazione, la [[Full Joint Distribution (FJD)|distribuzione congiunta]] tra la **causa** e gli **effetti** può essere espressa nella forma:$$
 P(Cause, Effect_1, \ldots, Effect_n) = P(Cause) \prod_i P(Effect_i \mid Cause)
 $$Questo tipo di distribuzione viene definito **_naive_** poiché si basa sull’assunzione che le variabili effetto siano [[Indipendenza condizionata|condizionalemente indipendenti]], ipotesi che nella pratica è spesso falsa. Nonostante questo nella pratica funziona bene
 

@@ -30,7 +30,7 @@ in pseudo codice:
 
 La probabilità di ottenere uno specifico evento secondo l’**algoritmo di campionamento** è data da$$
 S_{PS}(x_1, \ldots, x_n) = \prod_{i=1}^{n} P(x_i \mid parents(X_i)),
-$$il che coincide con la semantica globale delle [[Bayesian network|Bayesian Network]]. Da ciò discende che il metodo **PRIOR-SAMPLE** produce campioni coerenti con la [[Distribuzione di probabilita congiunta totale|distribuzione congiunta]] $P(x_1, \ldots, x_n)$. 
+$$il che coincide con la semantica globale delle [[Bayesian network|Bayesian Network]]. Da ciò discende che il metodo **PRIOR-SAMPLE** produce campioni coerenti con la [[Full Joint Distribution (FJD)|distribuzione congiunta]] $P(x_1, \ldots, x_n)$. 
 **sia** $N$ il numero di campioni e $N_{PS}(x_1, \ldots, x_n)$ il numero  di volte che si è verificato l evento $x_1, \ldots, x_n$ **allora** possiamo [[Stimatori statistici|stimare]] la probabilità reale contando quante volte un dato evento è evento rispetto a tutti i campioni$$
 \lim_{N \to \infty} \frac{N_{PS}(x_1, \ldots, x_n)}{N} = P(x_1, \ldots, x_n),
 $$dove l'accuratezza della stima cresce al crescere di $N$.

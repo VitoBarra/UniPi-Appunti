@@ -9,7 +9,7 @@ SubTopic:
 
 # Inferenza con bayesian network
 ---
-L'**inferenza nelle [[Bayesian network|reti Bayesiane]]** seguene le stesse linee del [[Inferenza con Full Joint distribution|inferenza sulla full joint distributuion]]  dove la [[Bayesian network|rete Bayesiana]] fornisce una rappresentazione compatta della [[Distribuzione di probabilita congiunta totale|distribuzione congiunta]] 
+L'**inferenza nelle [[Bayesian network|reti Bayesiane]]** seguene le stesse linee del [[Inferenza con Full Joint distribution|inferenza sulla full joint distributuion]]  dove la [[Bayesian network|rete Bayesiana]] fornisce una rappresentazione compatta della [[Full Joint Distribution (FJD)|distribuzione congiunta]] 
 
 
 

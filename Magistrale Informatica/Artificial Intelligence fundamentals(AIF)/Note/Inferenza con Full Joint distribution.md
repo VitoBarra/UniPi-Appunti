@@ -9,7 +9,7 @@ SubTopic:
 
 # Inferenza con Full Joint distribution
 ---
-L un [[Agenti Razionali|agente]] capaci di prendere delle decisioni in [[Modelli Probabilistici|ambienti incerti]] usa l'**inferenza probabilistica** che consiste nel calcolo delle [[Probabilita condizionata|probabilità posteriori]] per proposizioni di interesse, date alcune evidenze osservate $e$. Una strategia generale prevede l'utilizzo della **[[Distribuzione di probabilita congiunta totale|full joint distribution]]** come **base di conoscenza** $KB$, da cui possono essere derivate tutte le risposte possibili. In pratica si vuole fare una **query** al $KB$ del tipo:
+L un [[Agenti Razionali|agente]] capaci di prendere delle decisioni in [[Modelli Probabilistici|ambienti incerti]] usa l'**inferenza probabilistica** che consiste nel calcolo delle [[Probabilita condizionata|probabilità posteriori]] per proposizioni di interesse, date alcune evidenze osservate $e$. Una strategia generale prevede l'utilizzo della **[[Full Joint Distribution (FJD)|full joint distribution]]** come **base di conoscenza** $KB$, da cui possono essere derivate tutte le risposte possibili. In pratica si vuole fare una **query** al $KB$ del tipo:
 **sia**
 - $X$ è la variabile di query
 - $e\in E$ è l'**insieme delle evidenze osservate** a cui è assegnato un valore $e$

@@ -25,6 +25,8 @@ tags:
 	5. [[Indipendenza Stocastica]]
 	6. [[Indipendenza condizionata]]
 	7. [[Probabilita sui numeri Reali]]
+	8. [[Full Joint Distribution (FJD)]]
+		1. [[FJD - Marginalizzazione]]
 3. [[Variabili Aleatorie (Casuali)]]
 	1. [[Legge di Probabilita]]
 	2. [[Distribuzione di probabilita]]
