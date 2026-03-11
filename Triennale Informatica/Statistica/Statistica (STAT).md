@@ -98,9 +98,8 @@ tags:
             1. [[Test Statistici - Benjamini-Hochberg correction]]
             2. [[Test Statistici - Bonferroni correction]]
 6. [[Markov chains]]
-    1. [[Discrete Time Markov Chain (DTMC)]]
-7. [[Mutual Information (MI)]]
-7. [[Hidden Markov chains]]
+	1. [[Hidden Markov Model]]
+    2. [[Discrete Time Markov Chain (DTMC)]]
 
 ### Educational Material 🧱
 1.  [[Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf]]

@@ -1,10 +1,12 @@
 ---
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
+Course 1: "[[Generative Deep Learning (GDL)]]"
 tags:
   - AIF
-Area: 
-topic: 
-SubTopic: 
+  - GDL
+Area:
+topic:
+SubTopic:
 ---
 
 # Modelli temporali probabilistici
@@ -25,4 +27,36 @@ L’ipotesi di primo ordine è valida quando le variabili di stato racchiudono t
 - aumentando l’ordine del [[Markov chains|processo di markov]]:  includendo più stati passati nella dipendenza
 - **ampliando l’insieme delle variabili di stato**: così da integrare nuovi fattori che descrivono la dinamica del sistema. 
  La seconda soluzione mantiene fisso l’ordine delle [[Markov chains|processo di markov]] ma richiede di prevedere anche l’evoluzione delle variabili aggiuntive, accrescendo la complessità predittiva. Un insieme di variabili di stato risulta autosufficiente quando conserva la proprietà di Markov, ovvero contiene l’informazione necessaria per la previsione del passo successivo. L’aggiunta di nuovi sensori che forniscono misure dirette di tali variabili contribuisce a ridurre l’incertezza e a migliorare la capacità inferenziale del modello temporale.
-ds
+
+### Inferenza in modelli temporali probabilistici
+---
+Inferenza nei [[Modelli temporali probabilistici|modelli temporali probabilistici]] consiste nel calcolo di distribuzioni condizionate sugli stati di un sistema dinamico dato un insieme di osservazioni nel tempo.
+
+I principali task di inferenza sono:
+
+Filtering  
+calcolare la distribuzione dello stato corrente dato tutte le osservazioni fino al tempo $t$
+
+$P(X_t \mid e_{1:t})$
+
+Prediction  
+stimare la distribuzione di uno stato futuro
+
+$P(X_{t+k} \mid e_{1:t})$
+
+Smoothing  
+stimare uno stato passato utilizzando anche osservazioni successive
+
+$P(X_k \mid e_{1:t}), \quad k < t$
+
+Likelihood dell’evidenza  
+calcolare la probabilità della sequenza osservata
+
+$P(e_{1:t})$
+
+Most probable explanation  
+determinare la sequenza di stati più probabile
+
+$\arg\max_{x_{1:t}} P(x_{1:t} \mid e_{1:t})$
+
+Questi problemi di inferenza assumono forme computazionali specifiche a seconda della struttura del modello temporale considerato. 

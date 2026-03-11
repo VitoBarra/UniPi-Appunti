@@ -16,7 +16,9 @@ tags:
 		4. [[Inferenza con bayesian network - Prior sampling]]
 		5. [[Inferenza con bayesian network - Rejection sampling]]
 	4. [[Caual Bayesian Network]]
-	5. [[Markov chains]]
+	5. [[Markov chains]]  
+	6.  [[Modelli temporali probabilistici]]
+		1. [[Hidden Markov Model]]
 
 
 ### Educational Material 🧱
