@@ -74,8 +74,7 @@ tags:
         2. [[ODE - Sistemi]]
         3. [[ODE - Integrazione Numerica]]
             1. [[ODE - integrazione numerica - Metodo di Eulero]]
-        4. 
-
+23.  [[Calcolo variazionle]]
 
 
 ### Extra

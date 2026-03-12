@@ -19,6 +19,9 @@ tags:
 	5. [[Markov chains]]  
 	6.  [[Modelli temporali probabilistici]]
 		1. [[Hidden Markov Model]]
+	7. [[Definizione di divergenza]]
+	8. [[kullback-Leibler (KL) Divergence]]
+	9. [[Jensen inequality]]
 
 
 ### Educational Material 🧱

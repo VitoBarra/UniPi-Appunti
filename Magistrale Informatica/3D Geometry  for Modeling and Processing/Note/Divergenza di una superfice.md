@@ -7,16 +7,30 @@ topic:
 SubTopic: 
 ---
 
-# Divergenza di funzione
+# Divergenza delle normali di una funzione parametrica
 ---
-per **divergenza  di funzione** si intende come la divergenza del campo delle [[Normale di una superfice parametrica|normali]] sulla [[Superfici|superfice]].
+
+La **Divergenza delle [[Normale di una superfice parametrica|normali]] di una [[Superfici|superficie]]** è un'applicazione della definizione generale di [[Definizione di divergenza|Divergenza]] a un particolare campo vettoriale associato alla superficie: il **campo delle normali unità**.
+
+
 **sia**
-- $S:\mathbb{R}^2\to \mathbb{R}^3$ una [[Superfici parametriche|superfice parametrica]] 
-**allora** la divergenza è definita come una funziona $div: \mathbb{R}^2 \to \mathbb{R}$ come : $$div \ S(u,v) =  \cfrac{\partial S}{\partial u} +\cfrac{\partial S}{\partial v}$$
+- $S:\mathbb{R}^2\to \mathbb{R}^3$ una [[Superfici parametriche|superficie parametrica]]
+- il **campo delle normali** è $N = S_u \times S_v$
+- e la **normale unitaria** $n = \cfrac{S_u \times S_v}{\|S_u \times S_v\|}$ che definisce un **campo vettoriale nello spazio** nei punti della superficie.
+
+--- 
+Applicando la definizione standard di [[Definizione di divergenza|Divergenza]] a questo campo vettoriale si ottiene la **divergenza della normale**$$\nabla \cdot n$$Questa quantità misura quanto il campo delle normali **si espande o converge localmente** attorno a un punto della superficie.
+
+Intuitivamente, prendendo un punto $\mathbf{p}$ sulla superficie, la divergenza $\nabla\cdot n(\mathbf{p})$ misura quanto il flusso delle normali **si allontana o converge** attorno a $\mathbf{p}$.
+
+---
+
+Applicando la definizione standard di [[Definizione di divergenza|Divergenza]] a questo campo vettoriale si ottiene la **divergenza della normale** indicata con la funziona $div: \mathbb{R}^2 \to \mathbb{R}$ $$\nabla \cdot n=div \ S(u,v) =  \cfrac{\partial S}{\partial u} +\cfrac{\partial S}{\partial v}$$Questa quantità misura quanto il campo delle normali **si espande o converge localmente** attorno a un punto della superficie.
+
 intuitivamente prendendo un punto $\mathbf{p}$ la divergenza di $div \ (\mathbf{p})$ è la misura di quanto il flusso delle normali va verso/scappa da al punto $\mathbf{p}$ 
 ![[IMG - esempi Divergenza di una superfice.png]]
 
-la divergenza  puo anche essere espressa con la [[Curvatura media|curvatura media]] in fatti indicandola con $H$ si ha: 
+La divergenza della normale è direttamente collegata alla [[Curvatura media]] $H$ tramite$$\nabla \cdot n = 2H$$Interpretazione geometrica tramite la curvatura media:
 
 **se** $H > 0$ ci sono 2 casi:
 - caso di una superficie **ellittica**:  
@@ -36,6 +50,12 @@ la divergenza  puo anche essere espressa con la [[Curvatura media|curvatura medi
 - caso di una **superficie piana**:  
   - entrambe le curvature sono **nulle**  
   - **normali parallele**, **divergenza nulla**
-La **divergenza della normale** cattura come la superficie "cambia" attorno a un punto
+La divergenza della normale descrive quindi **come la superficie si incurva localmente**, poiché misura come il campo delle normali varia attorno a un punto.
 ![[IMG - divergenza.png]]
 ![[IMG - tipi di curve.png]]
+
+
+
+
+
+
