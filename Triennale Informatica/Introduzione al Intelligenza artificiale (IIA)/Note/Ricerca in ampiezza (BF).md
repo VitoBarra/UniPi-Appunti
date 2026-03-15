@@ -11,7 +11,7 @@ Corse 1: "[[Artificial Intelligence Fundamentals (AIF)]]"
 la **Ricerca in ampiezza** o **Breadth-first search** (BF) è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che utilizza una [[Coda (FIFO)|coda FIFO]] per implementare la **frontiera**, si assume che il costo di ogni arco è $1$.
 Il controllo del raggiungimento del nodo goal è fatto al momento della **generazione** dei nodi (**early goal test**) e non al momento del esplorazione (**late goal test**), questo riduce la [[Complessita|complessità]]
 
- Per la  **BF** sia su [[grafi|grafi]] che su [[Alberi|alberi]] genera i nodi a profondità $d$ solo dopo aver generato tutti i nodi profondità $d-1$ e per questo si diche che esplora con **profondità uniforme**.  Per questa proprietà usa sempre un numero minimo di azioni per trovare il goal.
+ Per la  **BF** sia su [[Graph Theory|grafi]] che su [[Alberi|alberi]] genera i nodi a profondità $d$ solo dopo aver generato tutti i nodi profondità $d-1$ e per questo si diche che esplora con **profondità uniforme**.  Per questa proprietà usa sempre un numero minimo di azioni per trovare il goal.
  
 Applicando la **BF** su [[alberi|alberi]] visivamente si ottiene un esplorazione per livelli
 ![[IMG - Ricerca in ampiezza BF.png]]

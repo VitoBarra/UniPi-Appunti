@@ -8,7 +8,7 @@ Prev: [[Ricerca Operativa (RO)]]
 
 # Condizione di Ottimalità Max flow - Min cut
 ---
-[[Grafi]]
+[[Graph Theory]]
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 19.png]]
 
 ![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 12.png]]

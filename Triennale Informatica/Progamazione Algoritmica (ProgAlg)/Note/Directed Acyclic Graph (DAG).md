@@ -6,7 +6,7 @@ topic: "[[Strutture Dati]]"
 ---
 #  Directed Acyclic Graph (DAG)
 ---
-un **Directed Acyclic Graph***(**DAG**) è un tipo di [[grafi|grafo]] **orientato** caratterizzato dall'**assenza di cicli**. Ogni arco possiede una direzione definita, indicata da una coppia ordinata di vertici $(u, v)$, che rappresenta un collegamento dal nodo $u$ al nodo $v$. L'assenza di cicli implica che non esiste alcun percorso che parta da un nodo e, seguendo gli archi nella loro direzione, ritorni al nodo stesso.
+un **Directed Acyclic Graph***(**DAG**) è un tipo di [[Graph Theory|grafo]] **orientato** caratterizzato dall'**assenza di cicli**. Ogni arco possiede una direzione definita, indicata da una coppia ordinata di vertici $(u, v)$, che rappresenta un collegamento dal nodo $u$ al nodo $v$. L'assenza di cicli implica che non esiste alcun percorso che parta da un nodo e, seguendo gli archi nella loro direzione, ritorni al nodo stesso.
 
 Formalmente, un DAG è definito come una coppia $G = (V, E)$, dove:
 - $V$ è l'insieme dei vertici;

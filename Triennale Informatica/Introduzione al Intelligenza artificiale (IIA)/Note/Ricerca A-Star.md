@@ -50,7 +50,7 @@ la **funzione di valutazione ideale** $f^*(n)$ che rappresenta il costo del camm
 
 **Completezza**: è **completo** se non esistono infiniti nodi per cui vale $f(n) < C^*$  e dove i costi $c_{ij}\geq\epsilon >0$ dove $\epsilon$ è il costo minimo di un arco. è utile definire un costo minimo per evitare che l' algoritmo si incastri in situazioni del tipo![[IMG - discesa per path con costi degli archi sempre minore.jpeg]]
 **Ottimale** se spazio degli stati __[[Alberi|albero]]__
-**Ottimale** se spazio degli stati **_[[Grafi|grafo]]_** l euristica deve essere **[[Ricerca informata - Proprieta delle euristiche|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
+**Ottimale** se spazio degli stati **_[[Graph Theory|grafo]]_** l euristica deve essere **[[Ricerca informata - Proprieta delle euristiche|ammissibile]]** questi si può __dimostrare per contraddizione__, la dimostrazione segue: $$
 \begin{array}{rcl}
 f(n) & > & C^* \quad \text{(otherwise $n$ would have been expanded)} \\
 f(n) & = & g(n) + h(n) \quad \text{(by definition)} \\

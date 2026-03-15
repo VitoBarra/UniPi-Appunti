@@ -8,7 +8,7 @@ topic:
 
 # Algoritmo di Dijkstra
 ---
-l'**Algoritmo di Dijkstra** è un [[Algoritmi|algoritmo]] che trova un [[alberi|albero di cammini minimo]] su di un [[Grafi|Grafi]] 
+l'**Algoritmo di Dijkstra** è un [[Algoritmi|algoritmo]] che trova un [[alberi|albero di cammini minimo]] su di un [[Graph Theory|Grafi]] 
 
 1. Inizializza
 
@@ -47,7 +47,7 @@ Ad ogni iterazione l’algoritmo mantiene:
 
 
 
-Se nel [[grafi|grafo]] esistono archi di **costo negativo**, I'**algoritmo di Dijkstra** non è garantito che trovi un [[Alberi|albero]] dei cammini minimi.
+Se nel [[Graph Theory|grafo]] esistono archi di **costo negativo**, I'**algoritmo di Dijkstra** non è garantito che trovi un [[Alberi|albero]] dei cammini minimi.
 
 
 ### *Teorema*

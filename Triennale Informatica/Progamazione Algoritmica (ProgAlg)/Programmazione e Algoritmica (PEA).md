@@ -8,7 +8,7 @@ tags:
 
 ## Course MOC  📒
 1. [[Strutture Dati]]
-	1. [[Grafi]]
+	1. [[Strutture Dati - Grafi]]
 	2. [[Directed Acyclic Graph (DAG)]]
 	3. [[Alberi]]
 	4. [[Alberi binari]]

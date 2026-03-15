@@ -77,7 +77,7 @@ Esiste anche una sua implementazione ricorsiva:
 \end{algorithm}
 ```
 
-La scelta del limite $\ell$ è fondamentale per il successo dell'algoritmo: un valore troppo basso rischia di non raggiungere la soluzione, mentre un valore troppo alto può riportare i problemi tipici della [[Ricerca in profondita (DF)|Ricerca in profondità]] classica.  In alcuni casi, è possibile stabilire un limite efficace grazie alla conoscenza del dominio. come ad esempio usando il [[Grafi|diametro del grafo]] su cui si pone l'albero di ricerca.
+La scelta del limite $\ell$ è fondamentale per il successo dell'algoritmo: un valore troppo basso rischia di non raggiungere la soluzione, mentre un valore troppo alto può riportare i problemi tipici della [[Ricerca in profondita (DF)|Ricerca in profondità]] classica.  In alcuni casi, è possibile stabilire un limite efficace grazie alla conoscenza del dominio. come ad esempio usando il [[Graph Theory|diametro del grafo]] su cui si pone l'albero di ricerca.
 
 ### Analisi della complessità
 

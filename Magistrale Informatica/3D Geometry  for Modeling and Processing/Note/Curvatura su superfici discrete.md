@@ -14,7 +14,7 @@ le **curvature principali discrete** sono le [[Curvatura di una superfice|curvat
 $$k_M = H + \sqrt{ H^2 -G } \quad\quad\quad k_m = H - \sqrt{ H^2 -G }$$
 
 ### Curvatura Media  
-la **curvatura media discreta** è la [[Curvatura media|Curvatura media]]  calcolata su una [[Mesh Poligonali|Mesh Poligonale]]  $$H = \| \Delta_S X \|$$ dove è  $\Delta_S X$ è il [[Laplaciano di una funzione discreta|laplaciano discreto]] calcolato con il metodo delle cotangenti è quindi semplificando diventa:  $$H(p) = \frac{1}{2A} \sum (\cot \alpha_i + \cot \beta_i) \|p - p_i\|$$ e questa Rappresenta la [[Divergenza di una superfice|divergenza]] media della superficie rispetto ai vicini.  
+la **curvatura media discreta** è la [[Curvatura media|Curvatura media]]  calcolata su una [[Mesh Poligonali|Mesh Poligonale]]  $$H = \| \Delta_S X \|$$ dove è  $\Delta_S X$ è il [[Laplaciano di una funzione discreta|laplaciano discreto]] calcolato con il metodo delle cotangenti è quindi semplificando diventa:  $$H(p) = \frac{1}{2A} \sum (\cot \alpha_i + \cot \beta_i) \|p - p_i\|$$ e questa Rappresenta la [[Divergenza delle normali di una funzione parametrica|divergenza]] media della superficie rispetto ai vicini.  
 ![[IMG - Curvatura media discreta.png]]
 
 

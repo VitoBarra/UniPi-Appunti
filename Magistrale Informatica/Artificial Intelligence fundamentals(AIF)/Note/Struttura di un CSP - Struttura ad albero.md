@@ -16,7 +16,7 @@ La risoluzione di un [[Problemi di soddisfacibilita vincolata (CSP)|CSP]] strutt
 
 Si definisce un CSP **direzionalmente arc-consistente** rispetto ad un ordinamento delle variabili $X_1, X_2, \dots, X_n$ se ogni $X_i$ è [[Risolvere un CSP|arc-consistente]] con ogni $X_j$ tale che $j > i$.
 
-dato un [[Grafi|grafo]] di vincoli ad [[alberi|albero]] con $n$ nodi e $n - 1$ archi dopo aver scelto un [[Ordinamento topologico|ordinamento topologico]] $X_1, X_2, \dots, X_n$ questo può essere reso **directional arc-consistente** in $O(n)$ operazioni, ciascuna richiedente al massimo $d^2$ confronti tra valori di dominio, per una complessità complessiva di $O(nd^2)$. 
+dato un [[Graph Theory|grafo]] di vincoli ad [[alberi|albero]] con $n$ nodi e $n - 1$ archi dopo aver scelto un [[Ordinamento topologico|ordinamento topologico]] $X_1, X_2, \dots, X_n$ questo può essere reso **directional arc-consistente** in $O(n)$ operazioni, ciascuna richiedente al massimo $d^2$ confronti tra valori di dominio, per una complessità complessiva di $O(nd^2)$. 
 Una volta garantita la coerenza direzionale, si procede nell'assegnazione dei valori in maniera sequenziale senza necessità di backtracking, data la sicurezza di disponibilità di un valore coerente per ogni variabile figlia rispetto al valore del genitore.
 
 ```pseudo

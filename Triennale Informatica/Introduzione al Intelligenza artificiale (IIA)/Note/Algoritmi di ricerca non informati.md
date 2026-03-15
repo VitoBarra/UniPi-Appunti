@@ -9,7 +9,7 @@ tags:
 
 # Algoritmi di ricerca
 ---
-Gli **algoritmi di ricerca** sono [[algoritmi|algoritmi]] per risolvere [[Problemi di ricerca|Problemi di ricerca]]. Questi algoritmi operano esplorando sistematicamente lo spazio degli stati, generando un [[Alberi|albero di ricerca]] sul [[grafi|grafo]] dello **spazio degli stati** dove ogni nodo corrisponde a uno **stato del problema** e gli archi rappresentano le **azioni** che portano a stati successivi. 
+Gli **algoritmi di ricerca** sono [[algoritmi|algoritmi]] per risolvere [[Problemi di ricerca|Problemi di ricerca]]. Questi algoritmi operano esplorando sistematicamente lo spazio degli stati, generando un [[Alberi|albero di ricerca]] sul [[Graph Theory|grafo]] dello **spazio degli stati** dove ogni nodo corrisponde a uno **stato del problema** e gli archi rappresentano le **azioni** che portano a stati successivi. 
 
 La **ricerca** inizia dallo **stato iniziale** (radice dell'albero) e procede **espandendo** i nodi, ovvero **generando** i rispettivi nodi figli attraverso l'applicazione delle azioni disponibili.
 importanti sono i concetti di  

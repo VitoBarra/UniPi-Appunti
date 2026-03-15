@@ -120,7 +120,7 @@ Dove sul __ovveride__ esiste il vincolo di _eredità stretta_ ovvero, nuovo tipo
 un tipo $T$ può essere definito per eredita 
 con 
 - _eredita singola_(gerarchia ad [[Alberi|albero]]): partendo da un singolo _supertipo_
-- _eredita multipla_(gerarchia a [[Grafi|grafo]]): ereditando contemporaneamente da più antenati
+- _eredita multipla_(gerarchia a [[Graph Theory|grafo]]): ereditando contemporaneamente da più antenati
 	- Questo puo portare problemi quando si eredita la stessa _proprietà_ da antenati diversi ([[diamond Problem|diamond Problem]])
 
 Cio che rende questo meccanismo interessante e, in particolare, la combinazione di sovraccarico dei messaggi (overloading) e risoluzione dei nomi dei messaggi a tempo di esecuzione (late

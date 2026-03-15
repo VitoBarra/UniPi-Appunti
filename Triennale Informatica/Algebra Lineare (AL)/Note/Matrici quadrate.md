@@ -11,9 +11,7 @@ sia  $M(m, n, \mathbb{K})$ è lo [[Spazi Vettoriali|spazio vettoriale]] formato 
 si possono definire dei [[Sottospazio Vettoriale|sottospazzi vettoriali]] di $M$ imponendo delle restrizioni.
 Data una matrice $A$, indichiamo con $A_{ij}$ oppure $a_{ij}$ i suoi coefficienti. 
 
-
 Una matrice $A\in M(n,n,\mathbb{K})$ e' detta e puo avere le seguenti proprietà
-
 - $D(n) :$ diagonale se $a_{ij} = 0 \ \forall i \not= j$;
 - $T^s(n):$ triangolare superiore se
 - $T^i (n):$ triangolare inferiore se $a_{ij} = 0\ \forall i < j$

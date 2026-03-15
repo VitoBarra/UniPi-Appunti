@@ -64,7 +64,7 @@ variabili con **domini discreti** e **infiniti** ad esempio $D_i=\mathbb{Z}$ o d
 ### Inferenza
 Per la risoluzione dei **Constraint Satisfaction Problems** (**CSP**) si utilizza il principio della **propagazione dei vincoli**, tecnica che sfrutta i vincoli definiti dal problema per ridurre i **domini delle variabili**. La riduzione di un dominio può propagarsi, inducendo ulteriori riduzioni nei domini di altre variabili collegate da vincoli, semplificando la ricerca o, in alcuni casi, portando direttamente alla soluzione. Tale approccio può essere impiegato sia in fase di ricerca sia come operazione preliminare di **preprocessing**.
 
-La propagazione dei vincoli si fonda sul concetto di **consistenza locale**. Rappresentando il CSP come un [[Grafi|grafo]], in cui i nodi corrispondono alle **variabili** e gli archi ai **vincoli binari**, si procede progressivamente all'eliminazione dei valori incompatibili dai domini, seguendo diversi livelli di **consistenza locale**.
+La propagazione dei vincoli si fonda sul concetto di **consistenza locale**. Rappresentando il CSP come un [[Graph Theory|grafo]], in cui i nodi corrispondono alle **variabili** e gli archi ai **vincoli binari**, si procede progressivamente all'eliminazione dei valori incompatibili dai domini, seguendo diversi livelli di **consistenza locale**.
 
 i livelli di consistenza sono: 
 - **consistenza del nodo** (**node consistency**): Una variabile è detta **nodo-consistente** se tutti i valori del suo dominio rispettano i vincoli unari associati. 

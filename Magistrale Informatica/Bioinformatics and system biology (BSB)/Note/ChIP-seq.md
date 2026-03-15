@@ -9,13 +9,14 @@ SubTopic:
 
 # ChIP-seq
 ---
-La **ChIP-seq (Chromatin Immunoprecipitation sequencing)** è una tecnica sperimentale utilizzata per identificare le regioni del [[DNA Struttura e funzionalità|DNA]] a cui si legano specifiche proteine regolatorie, in particolare i **transcription factors**.
+La **ChIP-seq (Chromatin Immunoprecipitation sequencing)** è una tecnica sperimentale utilizzata per identificare le regioni del [[DNA Struttura e funzionalità|DNA]] a cui si legano specifiche proteine regolatorie, in particolare i **[[Transcription Factor (TF)|transcription factors]]**.
 
 La tecnica permette quindi di individuare possibili relazioni regolatorie tra transcription factors e geni target.
 
 Il principio dell’esperimento consiste nell’identificare frammenti di DNA che risultano legati a una specifica [[Proteine|proteina]].
 
-Le principali fasi dell’esperimento sono:
+
+Le principali fasi dell’esperimento sono: [videofonte](https://www.youtube.com/watch?v=nkWGmaYRues)
 - **cross-linking** tra DNA e proteine per fissare le interazioni presenti nella cellula
 - **frammentazione del DNA** in piccoli segmenti
 - **immunoprecipitazione** utilizzando anticorpi specifici per la proteina di interesse
@@ -31,4 +32,3 @@ Le informazioni ottenute da ChIP-seq sono quindi spesso utilizzate per:
 - integrare dati di espressione genica con evidenze sperimentali di legame DNA-proteina
 
 ![[IMG - ChIP-seq.png]]
-[videofonte](https://www.youtube.com/watch?v=nkWGmaYRues)

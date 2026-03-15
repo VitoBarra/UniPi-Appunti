@@ -10,7 +10,7 @@ tags:
 la **Ricerca di costo uniforme** (**UC**) o **Dijkstra algorithm** è un [[Algoritmi di ricerca non informati|Algoritmo di ricerca]] che  è una generalizzazione della [[Ricerca in ampiezza (BF)|BF]] dove non vale piu l'assunzione di costi degli **archi** uniformi tutti ad $1$. 
 In questo caso non è la **profondità** che viene esplorata in modo **uniforme** come per la **BF** ma il **costo** dei [[Path|percorsi]] infatti ad ogni iterazione si **espande** il nodo di costo più basso presente nella **frontiera**, per fare ciò la frontiera è implementata usando una [[Coda di Priorita|Coda di priorita]].
 
-l'[[Algoritmi|algoritmo]] è lo stesso nel [[Algoritmo di Dijkstra|Algoritmo di Dijkstra per cercare un albero di cammini minimi]] ma ci si ferma al primo nodo obiettivo che viene **espanso** e non si esplora quindi tutto il [[grafi|grafo]]  
+l'[[Algoritmi|algoritmo]] è lo stesso nel [[Algoritmo di Dijkstra|Algoritmo di Dijkstra per cercare un albero di cammini minimi]] ma ci si ferma al primo nodo obiettivo che viene **espanso** e non si esplora quindi tutto il [[Graph Theory|grafo]]  
 
 è importante notare che il **goal** viene controllato solo durante l'**espansione** di quel nodo questo serve per garantire l **ottimalità**, infatti se cosi non fosse potrebbe capitare di espandere un nodo che è collegato a quello **goal** ma tramite un arco con costo alto e puo succedere che esista un altor path di costo inferiore.
 questo accade ad esempio, partendo da **sibiu** e prendendo **bucarest** come goal:

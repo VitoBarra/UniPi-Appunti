@@ -63,7 +63,7 @@ tags:
 	5. [[Curvatura Gaussiana]]
 	6. [[Curvatura media]]
 	7. [[Superfici minime]]
-	8. [[Divergenza di una superfice]]
+	8. [[Divergenza delle normali di una funzione parametrica]]
 	9. [[Laplaciano di una funzione]]
 	10. [[Teorema di Gauss-Bonnet]]
 9. [[Geometria Differenziale Discreta]]
