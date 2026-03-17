@@ -40,13 +40,13 @@ tags:
 		3. [[Funzione generatrice di momenti (MTF)]]
 	8. [[Variabili aleatorie - Varianza]]
 		1. [[Diseguaglianza di Chebyshev]]
-	9. Modellazione di successo binario discreto
+	9. Variabili discrete
 		1. [[Variabili Aleatorie Notevoli - Bernulli]]
 		2. [[Variabili Aleatorie Notevoli - Binomiale]]
 		3. [[Variabili Aleatorie Notevoli - Ipergeometrica]]
 		4. [[Variabili Aleatorie Notevoli - Geometrica]]
 		5. [[Variabili Aleatorie Notevoli - Poisson]]
-	10. Variabili con densita
+	10. Variabili continue
 		1. [[Variabili Aleatorie Notevoli -  Distribuzione uniforme]]
 		2. [[Variabili Aleatorie Notevoli - Esponenziale]]
 		3. [[Variabili Aleatorie Notevoli - Gaussiane]]
@@ -56,9 +56,11 @@ tags:
 		7. [[Variabili aleatorie Notevoli - Negative Binomial]]
 	11. [[Trasformazioni di variabili con densita]]
 	12. [[Variabili Aleatorie Multivariate]]
-		1. [[Indipendenza di Variabili aleatorie]]
-		2. [[Somma di Variabili Indipendenti]]
-		3. [[Variabili aleatorie - Covarianza e correlazione]]
+		2. [[Indipendenza di Variabili aleatorie]]
+		3. [[Somma di Variabili Indipendenti]]
+		4. [[Variabili aleatorie - Covarianza e correlazione]]
+		5. [[Variabili aleatorie Notevoli - Dirichlet]]
+	13. [[Variabili aleatorie coniugate]]
 4. Teoremi serie di variabili aleatorie (campioni)
 	1. [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)]]
 		1. [[Idd - Media Campionaria]]

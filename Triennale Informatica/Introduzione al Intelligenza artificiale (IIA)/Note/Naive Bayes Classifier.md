@@ -44,7 +44,7 @@ In questa formula chiamiamo $P(d \mid c)$ *likelihood* del documento e $P(c)$ *p
 Dato che il documento è composto da features si può riscrivere come $$\hat{c}=\text{argmax}_{c \in  C}P(f_1,\dots f_n \mid c)P(c)$$
 Dato che le feature sono numerose, stimare la probabilità di ogni possibile combinazione di feature richiederebbe $O(|\mathbf{X}|^n*C)$ parametri oltre ad un training set enorme.
 Perciò il classificatore bayesiano si basa su due principali assunzioni:
-1. **Bag of words**: si assume che la posizione delle parole nel documento non conti e quindi si tiene semplicemente in considerazione la loro frequenza.
+1. **[[Bag of words|Bag of words]]**: si assume che la posizione delle parole nel documento non conti e quindi si tiene semplicemente in considerazione la loro frequenza.
 2. **Naive Bayes assumption**: Assume l'indipendenza delle feature a prescindere dalla classe
 
 Per la seconda assunzione si può riscrivere la likelihood come : $P(f_{1},\dots,f_n \mid c)= P(f_{1} \mid c)*\dots*P(f_n \mid c) =\prod_{f \in F} P(f \mid c)$
@@ -71,7 +71,7 @@ Per il training bisogna imparare le due probabilità della formula precedente:
 
 Per la prima si utilizza la percentuale dei documenti nel training set che hanno classe c. Quindi, sia $N_c$ il numero di documenti di classe $c$ e $N_d$  il numero dei documenti, allora: $\hat{P}(c)=\frac{N_c}{N_d}$
 
-Per imparare la probabilità $P(w_i \mid c)$ assumiamo che che una feature è semplicemente l'esistenza di una parola nel bag of words e quindi si calcola quante volte la parola $w_i$ appare in tutti i documenti di classe $c$. Quindi:
+Per imparare la probabilità $P(w_i \mid c)$ assumiamo che che una feature è semplicemente l'esistenza di una parola nel [[Bag of words|bag of words]] e quindi si calcola quante volte la parola $w_i$ appare in tutti i documenti di classe $c$. Quindi:
 $$\hat{P}(w_i \mid c)=\frac{\\text{count}(w_i,c)}{\sum_{w \in  V}\text{count}(w,c)}$$
 Dove $V$ è il vocabolario di tutte le parole di tutti i documenti di tutte le classi.
 
