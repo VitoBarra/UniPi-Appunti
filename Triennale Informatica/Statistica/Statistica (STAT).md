@@ -46,6 +46,7 @@ tags:
 		3. [[Variabili Aleatorie Notevoli - Ipergeometrica]]
 		4. [[Variabili Aleatorie Notevoli - Geometrica]]
 		5. [[Variabili Aleatorie Notevoli - Poisson]]
+		6. [[Variabili Aleatorie Notevoli - Potenza o Zipf]]
 	10. Variabili continue
 		1. [[Variabili Aleatorie Notevoli -  Distribuzione uniforme]]
 		2. [[Variabili Aleatorie Notevoli - Esponenziale]]
@@ -105,4 +106,3 @@ tags:
 
 ### Educational Material 🧱
 1.  [[Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf]]
-

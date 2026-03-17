@@ -6,16 +6,14 @@ tags:
 ---
 # Serie
 ---
-In _analisi_ matematica, una _serie_ è una _successione di termini matematici_ addizionati tra loro. 
-#### Serie (Definizione)
-_sia_ $a_{1},\dots,a_{k},\dots$ una _successione di termini_
-_allora_ una serie è _somma dei termini_ della successione $$\sum^{\infty}_{n} a_n$$dove $a_n$ rappresenta i singoli termini della _successione_. 
+La **_serie_** e' un'espressione della forma $$\sum_{n=1}^{+\infty}a_n$$ associata a una [[Successioni|successione]] $(a_n)_{n\geq 1}$ e viene definita attraverso la successione delle somme parziali $$S_N=\sum_{n=1}^{N}a_n$$
 
-##### Serie (Teoria)
-Le _serie_ possono 
-- _convergere_ a un _valore finito_, 
-- _divergere_ verso _l'infinito_ 
--  non avere una _somma definita_ in caso di comportamenti troppo i regolari
+_Sia_ $(a_n)_{n\geq 1}$ una successione reale.
+_Allora_ la serie $$\sum_{n=1}^{+\infty}a_n$$ converge se esiste finito il [[Limiti|limite]] $$\lim_{N\to+\infty}S_N$$ e in tal caso vale $$\sum_{n=1}^{+\infty}a_n=\lim_{N\to+\infty}S_N$$
+Se questo limite non esiste oppure e' infinito, la serie diverge.
 
+Una condizione necessaria di convergenza e' $$a_n\to 0$$ ma non e' sufficiente.
 
-e l'analisi delle serie è una parte importante della teoria matematica che studia il comportamento delle successioni infinite di numeri.
+Tra le serie piu' importanti c'e' la serie $$\sum_{n=1}^{+\infty}\frac{1}{n^{\alpha}}$$ che:
+- converge se $\alpha>1$;
+- diverge se $\alpha\leq 1$.

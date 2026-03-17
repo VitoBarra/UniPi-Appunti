@@ -9,7 +9,7 @@ SubTopic:
 
 # Latent Dirichlet Allocation (LDA)
 ---
-Latent Dirichlet Allocation (LDA) è u---n modello probabilistico generativo a variabili latenti che estende la rappresentazione [[Bag of Words|Bag of Words]] introducendo una struttura nascosta in cui ogni documento è modellato come una miscela di topic.
+Latent Dirichlet Allocation (LDA) è u---n modello probabilistico generativo a variabili latenti che estende la rappresentazione [[Bag of words|Bag of Words]] introducendo una struttura nascosta in cui ogni documento è modellato come una miscela di topic.
 
 Nel contesto di un corpus rappresentato come matrice termine-documento $X \in \mathbb{N}^{N \times M}$, LDA assume che ogni documento $d$ sia generato da una distribuzione latente sui topic, e che ogni parola sia associata a un topic specifico :contentReference[oaicite:0]{index=0}
 
@@ -55,6 +55,6 @@ Apprendimento:
   - distribuzioni latenti $\theta_d$ e $z_{dn}$
 
 Proprietà:
-- estende [[Bag of Words|Bag of Words]] introducendo struttura latente
+- estende [[Bag of words|Bag of Words]] introducendo struttura latente
 - rappresentazione compatta in spazio di dimensione $K \ll N$
 - modello generativo interpretabile basato su variabili latenti

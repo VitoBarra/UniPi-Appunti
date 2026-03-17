@@ -9,7 +9,6 @@ tags:
 1. Probability theory basic 
 	1. [[Markov chains]]  
 	2. [[FJD - Marginalizzazione]]
-	3. [[coniugata]]
 2. [[Bayesian network]]
 	1. [[Bayesian network - Plate notation]]
 	2. [[Bayesian network - v structure]]

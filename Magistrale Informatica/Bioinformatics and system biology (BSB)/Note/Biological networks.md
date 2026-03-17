@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Biological networks
 ---
-i **biological networks** sono un ambito applicativo della **[[network science|network science]]** e sono rappresentazioni astratte dei **sistemi biologici** in cui entità molecolari sono modellate come **nodi** e le loro relazioni come **archi**, con l’obiettivo di descrivere **organizzazione**, **dinamica** e **funzionalità** della cellula a diversi livelli di astrazione.
+i **biological networks** sono un ambito applicativo della **[[Network Science|network science]]** e sono rappresentazioni astratte dei **sistemi biologici** in cui entità molecolari sono modellate come **nodi** e le loro relazioni come **archi**, con l’obiettivo di descrivere **organizzazione**, **dinamica** e **funzionalità** della cellula a diversi livelli di astrazione.
 Un **biological network** (o **graph**) è una rappresentazione formale delle **interazioni tra entità molecolari**.
 - **Nodes (Vertices $V$)** rappresentano le entità biologiche, come **[[Proteine|proteins]]**, **[[DNA Struttura e funzionalità|genes]]** o **metabolites**.  
 - **Edges (Links $E$)** rappresentano le **interazioni** o **relazioni funzionali** tra tali entità, ad esempio **physical binding**, **gene regulation** o **metabolic reactions**.
