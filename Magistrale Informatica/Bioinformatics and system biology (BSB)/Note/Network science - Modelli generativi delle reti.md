@@ -1,4 +1,14 @@
-## Modelli generativi delle reti
+---
+Course: "[[3D Geometry for Modeling and Processing (3GMP)]]"
+tags:
+  - 3GMP
+Area: 
+topic: 
+SubTopic: 
+---
+
+# Network science - Modelli generativi delle reti
+---
 I **modelli generativi** cercano di spiegare come emerge la topologia delle reti reali.
 
 ### Erdős–Rényi model

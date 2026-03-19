@@ -30,25 +30,5 @@ la proprietà **small-world** (Watts–Strogatz) è una proprietà topologica de
 - **bassa lunghezza media dei cammini** $\langle L \rangle$: la distanza media tra due nodi qualsiasi è molto piccola, permettendo una rapida trasmissione dell’informazione
 
 ## Centralità dei nodi
-Le **misure di centralità** quantificano l’importanza topologica dei nodi nella rete.
+Le **misure di centralità** quantificano l'importanza topologica dei nodi nella rete e poiché un nodo può essere importante per ragioni diverse, si usano [[Network science - Misure di centralita|misure differenti]]. 
 
-###### Degree Centrality
-La **degree centrality** misura il numero di connessioni dirette di un nodo:$$C_D(v)=k_v$$
-- Identifica nodi altamente interattivi
-- Non tiene conto della struttura **globale** della rete, un nodo potrebbe avere alta **degree centrality** ma essere isolato e ha quindi bassa influenza 
-
-###### Closeness Centrality
-La **closeness centrality** misura quanto **velocemente** un nodo può raggiungere tutti gli altri nodi della rete:$$C_C(v)=\frac{N-1}{\sum_u d(v,u)}$$dove $d(v,u)$ è la distanza minima tra i nodi. 
-- Un nodo con alta closeness può **diffondere rapidamente informazione o segnali** nella rete.
-
-###### Betweenness Centrality
-La **betweenness centrality** misura quanto frequentemente un nodo appare nei cammini minimi tra altri nodi: $$C_B(v)=\sum_{s\neq v\neq t}\frac{\sigma_{st}(v)}{\sigma_{st}}$$dove:
-- $\sigma_{st}$ è il numero di cammini minimi tra $s$ e $t$
-- $\sigma_{st}(v)$ è il numero di tali cammini che passano per $v$.
-Un nodo può avere **grado basso ma betweenness elevata** se funge da **ponte tra moduli funzionali**, agendo da **botleneck**.
-
-###### Eigenvector Centrality
-L’**eigenvector centrality** assegna importanza ai nodi connessi ad altri nodi **importanti**.
-Se $x_i$ è l’importanza del nodo $i$:$$Ax=\lambda x$$dove $A$ è la matrice di adiacenza e $x$ l’autovettore principale.
-
-Una variante più robusta è il **PageRank**, che introduce un fattore di teletrasporto e può essere interpretato come un **random walk con restart**.

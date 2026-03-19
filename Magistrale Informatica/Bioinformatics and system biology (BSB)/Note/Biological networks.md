@@ -27,7 +27,7 @@ In biologia computazionale e [[Bioinformatics and Systems Biology (BSB)|Systems 
     - Nodi: specie molecolari (proteine, metaboliti, complessi, RNA).  
     - Archi: reazioni chimiche che trasformano reagenti in prodotti.  
     - Livello: quantitativo/dinamico, spesso modellato tramite equazioni differenziali o modelli stocastici.  
-3. **[[Protein-Protein interaction network]] (PPI networks)**: descrivono interazioni fisiche o associazioni funzionali tra proteine all’interno dell’interactoma.
+3. **[[Protein-Protein interaction network (PPIN)]] (PPI networks)**: descrivono interazioni fisiche o associazioni funzionali tra proteine all’interno dell’interactoma.
     - Nodi: proteine.  
     - Archi: interazioni di binding fisico o associazioni funzionali (tipicamente non orientate).  
     - Livello: strutturale/topologico, talvolta pesato da score di confidenza.  

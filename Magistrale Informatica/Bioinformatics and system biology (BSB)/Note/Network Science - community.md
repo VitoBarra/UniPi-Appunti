@@ -7,7 +7,7 @@ topic:
 SubTopic:
 ---
 
-# Network Science - community
+# Network Science - Community
 ---
 in [[Network Science|Network Science]] Una **community** (o **modulo**) è un [[Insiemi Matematici|sottoinsieme]] in un [[Graph Theory|grafo]] di nodi che:
 - sono **fortemente connessi tra loro**
