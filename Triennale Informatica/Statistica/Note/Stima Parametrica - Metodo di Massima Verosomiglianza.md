@@ -6,10 +6,6 @@ tags:
 ---
 # Stima Parametrica - Metodo di Massima Verosomiglianza
 ---
-
-
-#### Metodo di massima verosomiglianza
-
 ##### Funzione di massima verosomiglianza (Definizione)
 _sia_ $X_{1},\dots,X_{n}$ un [[Campione Statistico|campio statistico]] 
 si chiama _funzione di massima verosimiglianza_ la [[Funzioni|funzione]] $L(\theta;\dots)$  definita come

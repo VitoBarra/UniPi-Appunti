@@ -14,7 +14,7 @@ _allora_ $$S_{n}^{2}:= \frac{\sum^{n}_{i=1}(X_{i} - \overline{X}_{n})^{2}}{n-1}$
 
 ##### Convergenza della varianza
 _sia_ $X_{1},\dots X_{n},\dots$ una _successione_ [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|i.d.d]] 
-_se_ $X_{i}$ ha [[Variabili aleatoria - Momenti|momento quarto]] 
+_se_ $X_{i}$ ha [[Variabili aleatoria - Momenti o Valore atteso|momento quarto]] 
 _sia_ $\sigma^{2} = Var(X_{i})$ la [[Variabili aleatorie - Varianza|varianza]]
 _allora_ la _varianza campionaria_ $S_n$ per $n \to \infty$ [[Convergenza in probabilita|converge in probabilita]] a $\sigma$ ovvero $\forall \varepsilon> 0$ vale $$\lim_{ n \to \infty }\mathcal{P}\left(\left|S_{n}^{2}-\sigma^{2}\right|>\varepsilon\right)=0 $$
 

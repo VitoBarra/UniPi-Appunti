@@ -25,4 +25,4 @@ _dimostazione con densita_:$$\begin{array}{}
 \int ^{+\infty}_{0}tf_{X}(t) \, dt    \\ &\geq  & \displaystyle
 \int ^{+\infty}_{a}tf_{X}(t) \, dt      \\ & \geq & \displaystyle
 \int ^{+\infty}_{a}af_{X}(t) \, dt    &   =  & a \mathcal{P}\{ X \geq a \}
-\end{array}$$e questa dimostrazione funziona indipendentemente dalla esistenza dei [[Variabili aleatoria - Momenti|momenti]]
+\end{array}$$e questa dimostrazione funziona indipendentemente dalla esistenza dei [[Variabili aleatoria - Momenti o Valore atteso|momenti]]

@@ -6,11 +6,11 @@ tags:
 ---
 # T-Test
 ---
-il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|Gaussiano]] con [[Idd - varianza campionaria|varianza]] __sconosciuta__
+il _T-test_ e' un [[Test Statistici|Test statistico]] sulla [[Idd - Media Campionaria|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiana|Gaussiano]] con [[Idd - varianza campionaria|varianza]] __sconosciuta__
 rispetto allo [[Test Statistici su distribuzioni gaussiane - Z-Test|Z-test]] questo è piu “realistico” siccome _solitamente non si conosce la varianza_
 
 #### Z-Test (Definizione)
-_Sia_ $X_1, \ldots X_n$ un [[Campione Statistico|campione aleatorio]] di [[Variabili Aleatorie Notevoli - Gaussiane|legge gaussiana]] $N\left(m, \sigma^2\right)$, 
+_Sia_ $X_1, \ldots X_n$ un [[Campione Statistico|campione aleatorio]] di [[Variabili Aleatorie Notevoli - Gaussiana|legge gaussiana]] $N\left(m, \sigma^2\right)$, 
 _allora_ la variabile $$T=\sqrt{n}\frac{\left(\bar{X}_n-m\right)}{S_{n}} $$ha [[Variabili Aleatorie notevoli - Student|densità di Student]] $T(n-1)$. 
 
 Consideriamo il test bilatero dell'ipotesi

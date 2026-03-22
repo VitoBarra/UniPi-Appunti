@@ -12,7 +12,7 @@ La **distanza di Jukes–Cantor** è una **[[Definizione di distanza|distanza]] 
 
 Il modello di Jukes–Cantor si basa su ipotesi fortemente simmetriche sul processo evolutivo. In particolare assume che le quattro basi [[Nucleotidi|nucleotidiche]] compaiano con [[Probabilita con distribuzione uniforme|frequenza uniforme]], pari a $\mathcal{P}=1/4$ ciascuna, e che tutte le sostituzioni possibili tra basi avvengano con lo stesso tasso, senza distinzione tra transizioni e trasversioni. Inoltre, ogni sito della sequenza evolve indipendentemente dagli altri secondo un [[Markov chains|processo di Markov continuo nel tempo]], con un tasso costante di cambiamento.
 
-In queste condizioni, la distanza evolutiva viene interpretata come il [[Variabili aleatoria - Momenti|numero medio atteso]] di mutazioni accumulate per sito. Formalmente, la **distanza di Jukes–Cantor** è definita come:$$
+In queste condizioni, la distanza evolutiva viene interpretata come il [[Variabili aleatoria - Momenti o Valore atteso|numero medio atteso]] di mutazioni accumulate per sito. Formalmente, la **distanza di Jukes–Cantor** è definita come:$$
 d_{i,j}=-\frac{3}{4}\ln\left(1-\frac{4}{3}p\right)
 $$dove $p$ rappresenta la frazione osservata di siti differenti tra due sequenze, ossia la [[Proportional distance (p-distance)|p-distance]].  
 

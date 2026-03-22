@@ -12,7 +12,7 @@ L __integrazione monte carlo__ è un modo per fare [[Integrazione numerica|Integ
 
 si vuole calcolare l [[Integrali|integrale]] $\int ^b_af(x)\, dx$   a partire da $n$ sample della funzione $f$ scelti in modo [[Sequenza casuali|random]]
 allora partendo dal fatto che 
-_sia_ $g(x)$ una funzione dotata di [[Variabili aleatoria - Momenti|momento primo]] $E[g(x)]=\int ^b_ag(x)p(x) \, dx$ (la media)
+_sia_ $g(x)$ una funzione dotata di [[Variabili aleatoria - Momenti o Valore atteso|momento primo]] $E[g(x)]=\int ^b_ag(x)p(x) \, dx$ (la media)
 _allora_ $E[g(x)]$ puo essere approssimato come $$E[g(x)]\approx \cfrac{1}{n}\sum^n_{i=1}g(x_i)$$ considerando ora in particolare $g(x)=\cfrac{f(x)}{p(x)}$  e allora vale che $$
 \begin{align}
 I & =\int _b^af(x) \, dx=\int _b^a \cfrac{f(x)}{p(x)}p(x) \, dx = E[g(x)] \implies \\

@@ -12,8 +12,8 @@ SubTopic:
 La **Medicine network** è l'applicazione delle [[Protein-Protein interaction network (PPIN)|protein-protein interaction networks]] allo studio congiunto di malattie, target terapeutici e farmaci. L'idea centrale è che una patologia corrisponda a una regione funzionale dell'interactoma e che l'effetto di un farmaco possa essere valutato osservando la posizione topologica dei suoi target rispetto a tale regione.
 
 In questo contesto si introducono due nozioni fondamentali:
-- **disease module**: insieme delle proteine associate a una malattia nell'interactoma;
-- **drug module**: insieme delle proteine bersaglio di un farmaco.
+- **disease [[Network Science - Community|module]]**: insieme delle proteine associate a una malattia nell'interactoma;
+- **drug [[Network Science - Community|module]]**: insieme delle proteine bersaglio di un farmaco.
 Il confronto tra questi moduli permette di stimare la relazione topologica tra stato patologico e intervento terapeutico.
 
 La costruzione di un'analisi di medicine network richiede in genere l'integrazione di più banche dati:

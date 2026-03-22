@@ -17,7 +17,7 @@ Ovvero si sta cercando un [[Insiemi Matematici|insieme]] di vettori $\mathbf{w}_
 
 Per trovare l'insieme ottimo $c(x)$ possiamo formulare il problema come [[Problemi di ottimizzazione|problema di minimizzazione]]:
 __sia__ l'errore di distorsione $d\left(\mathbf{x}_i, \mathbf{c}(\mathbf{x}_j)\right) = \left\| \mathbf{x}_i - \mathbf{c}(\mathbf{x}_i) \right\|_2^2$,  ovvero la [[Norme Matriciali e Norme Vettoriali|distanza euclidea]],
-__allora__ possiamo definire una __funzione di loss__ come il [[Variabili aleatoria - Momenti|valore atteso]] dell errore di distorsione  $$
+__allora__ possiamo definire una __funzione di loss__ come il [[Variabili aleatoria - Momenti o Valore atteso|valore atteso]] dell errore di distorsione  $$
 E = \int ( d\left( \mathbf{x}, c(\mathbf{x}) \right)  p(\mathbf{x}) \, d\mathbf{x} 
 = \int \left\| \mathbf{x} - \mathbf{w}_{i^*(\mathbf{x})} \right\|^2_2 p(\mathbf{x}) \, d\mathbf{x}
 $$dove $i^*(\boldsymbol x)= \arg_i \min \|\boldsymbol x -c_i(\mathbf{x})\|^2_2$  e quindi $\mathbf{w}_{i^*(\mathbf{x})}$ è il vettore di riferimento (__centroide__) a cui l'input $\mathbf{x}$ è associato e $p(\mathbf{x})$ è la [[Definizione di Probabilita|probabilità]] che l'input sia $\mathbf{x}$.

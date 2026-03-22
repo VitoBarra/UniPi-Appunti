@@ -15,10 +15,10 @@ Questa distribuzione assegna probabilità relativamente elevate anche a valori m
 La [[Variabili aleatorie - Funzione di ripartizione (CDF)|funzione di ripartizione]] è $$F(x)=\mathcal{P}(X\leq x)=\sum_{h=1}^{\lfloor x\rfloor}\frac{1}{\zeta(\gamma)}\frac{1}{h^{\gamma}},\qquad x\geq 1$$ mentre per $x<1$ vale $$F(x)=0$$
 
 #### Momenti e varianza
-La legge di potenza non ammette sempre tutti i [[Variabili aleatoria - Momenti|momenti]]. In generale il momento di ordine $r$ esiste se e solo se $$\sum_{h=1}^{+\infty}h^{r}\mathcal{P}(X=h)=\frac{1}{\zeta(\gamma)}\sum_{h=1}^{+\infty}\frac{1}{h^{\gamma-r}}<+\infty$$ e questo accade se e solo se $$\gamma-r>1\iff \gamma>r+1$$
+La legge di potenza non ammette sempre tutti i [[Variabili aleatoria - Momenti o Valore atteso|momenti]]. In generale il momento di ordine $r$ esiste se e solo se $$\sum_{h=1}^{+\infty}h^{r}\mathcal{P}(X=h)=\frac{1}{\zeta(\gamma)}\sum_{h=1}^{+\infty}\frac{1}{h^{\gamma-r}}<+\infty$$ e questo accade se e solo se $$\gamma-r>1\iff \gamma>r+1$$
 
 In particolare:
-- il [[Variabili aleatoria - Momenti|momento primo]] esiste solo se $\gamma>2$;
+- il [[Variabili aleatoria - Momenti o Valore atteso|momento primo]] esiste solo se $\gamma>2$;
 - il [[Variabili aleatorie - Varianza|momento secondo]] esiste solo se $\gamma>3$;
 - la [[Variabili aleatorie - Varianza|varianza]] esiste solo se $\gamma>3$.
 

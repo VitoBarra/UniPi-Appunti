@@ -82,8 +82,8 @@ _Dimostrazione_:
 
 ### Momenti di due variabili
 #### Proposizione
-_sia_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili aleatori]] con [[Variabili aleatoria - Momenti|valori atteso]] 
-_allora_ $X+Y$ ha [[Variabili aleatoria - Momenti|valore atteso]] e vale
+_sia_ $X,Y$ due [[Variabili Aleatorie (Casuali)|variabili a[[Variabili aleatoria - Momenti o Valore atteso|valori atteso]]alori atteso]] 
+_all[[Variabili aleatoria - Momenti o Valore atteso|valore atteso]]alore atteso]] e vale
 - $\mathbb{E}[X+Y]=\mathbb{E}[X]+\mathbb{E}[Y]$
 - se $X \geq Y$ _allora_ $\mathbb{E}[X]\geq\mathbb{E}[Y]$
 
@@ -97,11 +97,11 @@ _caso discrito_:
 \end{array}$$
 siccome le [[Serie|serie]] [[convergenza assoluta|convergono assolutamente]] possiamo togliere i valori assoluto e la diseguaglianza del primo passaggio diventa e uguaglianza e vale la tesi.
 
-la seconda proprieta si mostra considerando la [[Variabili Aleatorie (Casuali)|variabile aleatoria]] $X-Y$  e applicando le _proprieta_ del [[Variabili aleatoria - Momenti|valore atteso]]
+la seconda proprieta si mostra considerando la [[Variabili Aleatorie (Casuali)|variabile aleatoria]] $X-Y$  e applicando le _p[[Variabili aleatoria - Momenti o Valore atteso|valore atteso]]alore atteso]]
 
 
 #### Proposizione 2
-_siano_ $X$ e $Y$ due [[Variabili Aleatorie (Casuali)|variaibli aleatorie]] con [[Variabili aleatoria - Momenti|valore atteso]]
+_siano_ $X$ e $Y$ due [[Variabili Aleatorie (Casuali)|variaibli al[[Variabili aleatoria - Momenti o Valore atteso|valore atteso]]alore atteso]]
 _se_ $X$ e $Y$ sono [[Indipendenza di Variabili aleatorie|indipendenti]]
 _allora_ $XY$ ha _valore atteso_ e vale la formula$$\mathbb{E}[XY]=\mathbb{E}[X]\cdot  \mathbb{E}[Y]$$
 _Dimostrazione_
@@ -115,15 +115,15 @@ che dimostra che $XY$ ha valore atteso e togliendo i valori assoluti si ottiene 
 
 
 >[!tip]
->in generale $XY$ non è detto che abbia valore atteso ma abbiamo dei criteri, usando la [[Diseguaglianza di Cauchy-Schwartz|diseguaglianza di Schwartz]] otteniamo che se $X$ e $Y$ hanno [[Variabili aleatoria - Momenti|memento secondo]] allora $XY$ ha _sicuramente_ _valore atteso_ 
+>in generale $XY$ non è detto che abbia valore atteso ma abbiamo dei criteri, usando la [[Diseguaglianza di Cauchy-Schwartz|diseguaglianza di Schwartz]] otteniamo che se $X[[Variabili aleatoria - Momenti o Valore atteso|memento secondo]]ento secondo]] allora $XY$ ha _sicuramente_ _valore atteso_ 
 
 ##### Corollario
-se le due [[Variabili Aleatorie (Casuali)|variabili]] $X$ e $Y$ hanno _[[Variabili aleatoria - Momenti|momento secondo]]_ allora queste sono _[[Variabili aleatorie - Covarianza e correlazione|scorrelate]]_
+se le due [[Variabili Aleatorie (Casuali)|variabili]] $X$[[Variabili aleatoria - Momenti o Valore atteso|momento secondo]]ento secondo]]_ allora queste sono _[[Variabili aleatorie - Covarianza e correlazione|scorrelate]]_
 #### Proposizione 3
 _siano_ $X$ e $Y$ _[[Variabili Aleatorie (Casuali)|variabili aleatoria]]_ 
 _se_ queste sono [[Indipendenza di Variabili aleatorie|indipendenti]] 
 _allora_ $\forall h,k :\mathbb{R} \rightarrow \mathbb{R}$ vale $$h(X)\ \ \ k(Y)$$ sono _induipendenti_  e 
-_se_ $h(X)$ e $k(Y)$ hanno _[[Variabili aleatoria - Momenti|valore atteso]]_ 
+_se_ $h(X)$ e [[Variabili aleatoria - Momenti o Valore atteso|valore atteso]]alore atteso]]_ 
 _allora_ vale che $$\mathbb{E}[h(X)k(Y)]=\mathbb{E}[h(X)]\cdot \mathbb{E}[k(Y)]$$
 
 

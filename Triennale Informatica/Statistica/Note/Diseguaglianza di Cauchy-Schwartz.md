@@ -20,7 +20,7 @@ _dimostrazione_
 
 Nel contesto della statistica:
 _siano_ $X$ e $Y$ due _[[Variabili Aleatorie (Casuali)|variabili aleatorie]]_ 
-_se_ queste hanno _[[Variabili aleatoria - Momenti|momento secondo]]_ 
+_se_ queste hanno _[[Variabili aleatoria - Momenti o Valore atteso|momento secondo]]_ 
 _allora_ vale $$\mathbb{E}[|XY|] \leq \sqrt{ \mathbb{E}[X^{2}] } \cdot \sqrt{ \mathbb{E}[Y^{2}] }$$
 
 

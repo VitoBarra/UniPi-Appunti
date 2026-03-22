@@ -6,18 +6,18 @@ tags:
 ---
 # Z-Test
 ---
-gli _Z-Test_  il [[Test Statistici|test statistico]] sulla [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiane|gaussiano]] con [[Variabili aleatorie - Varianza|varianza]] _nota_ 
+gli _Z-Test_  il [[Test Statistici|test statistico]] sulla [[Statistica descrittiva - Dati Numerici#Media (definizione)|media]] di un [[Campione Statistico|campione]] [[Variabili Aleatorie Notevoli - Gaussiana|gaussiano]] con [[Variabili aleatorie - Varianza|varianza]] _nota_ 
 
 
 #### Formulazione del test
 _sia_
-- $X_1\dots,X_{n}$ un [[Campione Statistico|campione statistico]] con legge [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana]] $N(m,\sigma^{2})$ 
+- $X_1\dots,X_{n}$ un [[Campione Statistico|campione statistico]] con legge [[Variabili Aleatorie Notevoli - Gaussiana|gaussiana]] $N(m,\sigma^{2})$ 
 -  $\sigma^{2}>0$  la [[Variabili aleatorie - Varianza|varianza]] _nota_
 
 _vogliamo_ effettuare un [[Test Statistici|test]] per determinare se la media $m$ coincide con un certo valore $m_{0}$.
 Formalmente stiamo cercando $m=\theta \in \Theta=\mathbb{R}$ e $$\Theta_{0}=\{ m_{0} \}\ \ \  e\ \ \   \Theta_{1}=\mathbb{R} \backslash \{ m_{0} \}$$
 e abbiamo quindi le ipotesi $$\mathcal{H}_{0})\ m=m_{0} \ \ \ \ \ \ \ \mathcal{H}_{1})\ m \not = m_{0}$$
-Siccome la [[Idd - Media Campionaria|media campionaria]] $\overline{X}$ è uno [[Stimatori statistici#Stimatore corretto (Definizione)|stimatore corretto e consistente]] di $m$ allora possiamo definire la _regione critica_ come $$C = \{ |\overline{X}-m_{0}| >d \}$$dove il numero $d>0$ deve essere determinato in funzone del _livello_ $\alpha$  scelto e quindi $$\mathcal{P}_{m_{0}}\{ C \} \leq \alpha=\mathcal{P}_{m_{0}} \{ |\overline{X}-m_{0}| >d \} \leq \alpha$$Siccome vogliamo ottenere una _regione critica_ il più grande possibile per poter aumentare la _potenza del test_  possiamo imporre $$\mathcal{P}_{m_{0}} \{ |\overline{X}-m_{0}| >d \} = \alpha$$e quindi siccome $Z=\cfrac{\sqrt{n}(\overline{X}-m)}{\sigma}$ è [[Variabili Aleatorie Notevoli - Gaussiane|gaussiana standard]] vale che $$\begin{array}{}
+Siccome la [[Idd - Media Campionaria|media campionaria]] $\overline{X}$ è uno [[Stimatori statistici#Stimatore corretto (Definizione)|stimatore corretto e consistente]] di $m$ allora possiamo definire la _regione critica_ come $$C = \{ |\overline{X}-m_{0}| >d \}$$dove il numero $d>0$ deve essere determinato in funzone del _livello_ $\alpha$  scelto e quindi $$\mathcal{P}_{m_{0}}\{ C \} \leq \alpha=\mathcal{P}_{m_{0}} \{ |\overline{X}-m_{0}| >d \} \leq \alpha$$Siccome vogliamo ottenere una _regione critica_ il più grande possibile per poter aumentare la _potenza del test_  possiamo imporre $$\mathcal{P}_{m_{0}} \{ |\overline{X}-m_{0}| >d \} = \alpha$$e quindi siccome $Z=\cfrac{\sqrt{n}(\overline{X}-m)}{\sigma}$ è [[Variabili Aleatorie Notevoli - Gaussiana|gaussiana standard]] vale che $$\begin{array}{}
 \mathcal{P}_{m_{0}} \{ |\overline{X}-m_{0}| >d \} &  = \\
  \mathcal{P}_{m_{0}} \left\{  \cfrac{\sqrt{ n }}{\sigma}|\overline{X}-m_{0}| >\cfrac{d  \sqrt{ n  }}{\sigma}\right\} & = \\
 \mathcal{P}\left\{  |Z| > \cfrac{d\sqrt{n}}{\sigma} \right\} & = \\

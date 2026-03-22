@@ -7,7 +7,7 @@ tags:
 # Applicazione lineare - Riflessione
 ---
 _sia_ $V = U \oplus W$  uno [[Spazi Vettoriali|spazio vettoriale]] in [[Spazi vettoriali in somma diretta|somma diretta]]
-_allora_ una _riflessione_ è definita come un [[Applicazioni Lineari|applicazione lineare]$$
+_allora_ una _riflessione_ è definita come un [[Applicazioni Lineari|applicazione lineare]]$$
 r_U: V\rightarrow V
 $$tale che $$
 r_U(v)=u-v

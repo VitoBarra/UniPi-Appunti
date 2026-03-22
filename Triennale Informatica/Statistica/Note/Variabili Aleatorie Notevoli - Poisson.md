@@ -15,11 +15,11 @@ questa _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ approssima bene l
 
 
 #### Momenti e varianza
-_sia_  $X$ una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_  _di poison_ di parametro $\lambda$ non si può dire a priori se questo accetta _[[Variabili aleatoria - Momenti|momento primo]]_ ma essendo una variabile sempre positiva vale che $$\begin{array}{}
+_sia_  $X$ una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_  _di poison_ di parametro $\lambda$ non si può dire a priori se questo accetta _[[Variabili aleatoria - Momenti o Valore atteso|momento primo]]_ ma essendo una variabile sempre positiva vale che $$\begin{array}{}
 \displaystyle\mathbb{E}[X] & = &\displaystyle \sum^{+\infty}_{h=0}he^{-\lambda}\frac{\lambda^{h}}{h!} \\
  & = & \displaystyle\lambda e^{-\lambda}\sum^{+\infty}_{h=1}\frac{\lambda^{h-1}}{(h-1)!} &  \\ & 
 = & \displaystyle\lambda e^{-\lambda}\sum^{+\infty}_{k=0}\frac{\lambda^{k}}{k!} & = & \lambda
-\end{array}$$ e con conti simili si ottiene [[Variabili aleatoria - Momenti|momento secondo]]   $$\mathbb{E}[X^{2}]=\lambda + \lambda^{2} $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$Var(X)=\lambda+\lambda^{2}-\lambda^{2}=
+\end{array}$$ e con conti simili si ottiene [[Variabili aleatoria - Momenti o Valore atteso|momento secondo]]   $$\mathbb{E}[X^{2}]=\lambda + \lambda^{2} $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$Var(X)=\lambda+\lambda^{2}-\lambda^{2}=
 \lambda$$
 La  _[[Funzione generatrice di momenti (MTF)|funzione generatrice dei momenti]]_ di questa variabile è  $$M_{X}(t)=e^{\lambda(e^{t}-1)}$$
 

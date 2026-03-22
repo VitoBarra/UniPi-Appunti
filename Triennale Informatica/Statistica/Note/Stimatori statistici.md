@@ -15,12 +15,12 @@ una __stimatore__ di una parametro $\theta$ è una [[Statistiche campionarie|sta
 
 #### Stimatore corretto (Definizione)
 _sia_ $\theta$ un parametro della [[Probabilita sui numeri Reali|distribuzione]] di una [[Campione Statistico|campione statistico]] $X_{1}\dots X_{n}$
-_allora_ una statistica $g(X_{1}\dots X_{n})$ si diede _stimatore corretto_ (o _non distorto_,_ubiased_) del parametro $\theta$ se questo ha [[Variabili aleatoria - Momenti|memento primo]] $$\mathbb{E}[g(X_{1}\dots X_{n})]=\theta$$cioe la _media_ dello stimatore è il parametro $\theta$
+_allora_ una statistica $g(X_{1}\dots X_{n})$ si diede _stimatore corretto_ (o _non distorto_,_ubiased_) del parametro $\theta$ se questo ha [[Variabili aleatoria - Momenti o Valore atteso|memento primo]] $$\mathbb{E}[g(X_{1}\dots X_{n})]=\theta$$cioe la _media_ dello stimatore è il parametro $\theta$
 
 
 ##### Proposizione
 _sia_ $X_{1},\dots,X_{n}$ un [[Campione Statistico|campione statistico]] 
-_se_ $X_{1}\dots,X_{n}$ hanno _[[Variabili aleatoria - Momenti|momento secondo]]_
+_se_ $X_{1}\dots,X_{n}$ hanno _[[Variabili aleatoria - Momenti o Valore atteso|momento secondo]]_
 e _siano_
 - $\mu=\mathbb{E}[X_{}]$
 - $\sigma^{2} =Var(X_{i})$
@@ -37,7 +37,7 @@ $$e questo ci dice che
 
 
 _Dimostrazione_:
-	le prime due sono immediate dal ipotesi di _linearita_ del [[Variabili aleatoria - Momenti|valore atteso]] e dal ipotesi di _[[Indipendenza di Variabili aleatorie|indipendenza]]_ 
+	le prime due sono immediate dal ipotesi di _linearita_ del [[Variabili aleatoria - Momenti o Valore atteso|valore atteso]] e dal ipotesi di _[[Indipendenza di Variabili aleatorie|indipendenza]]_ 
 	per la terza e uguaglia invece vale che $$\sum^{n}_{i=1}(X_{i}-\overline{X})^{2}=\sum^{n}_{i=1}X^{2}_{i}-n\overline{X^{2}}$$e $\forall  i$$$\begin{array}{}
 	\mathbb{E}[X_{i}^{2}] & =  & \mathbb{E}[X_{i}^{2}]-\mathbb{E}[X_{i}]^{2}+ \mathbb{E}[X_{i}]^{2}\\
   &  = & Var(X_{i})+\mathbb{E}[X_{i}]^{2}  \\
@@ -68,13 +68,13 @@ _Sia_
 -  $X_{1}\dots X_{n_{0}}$ una [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|famiglia idd]] di $X$ 
 -  $n_{0}>n,m$  numeri
 -  $g(X_{1},\dots,X_{n})$ e $h(X_{1},\dots,X_{m})$ due _stimatori corretti_ 
- _se_ $g(X_{1},\dots,X_{n})$ e $h(X_{1},\dots,X_{m})$ ammettono [[Variabili aleatoria - Momenti|momento secondo]] 
+ _se_ $g(X_{1},\dots,X_{n})$ e $h(X_{1},\dots,X_{m})$ ammettono [[Variabili aleatoria - Momenti o Valore atteso|momento secondo]] 
 _allora_ diciamo che $g(X_{1},\dots,X_{n})$ è più efficiente di $h(X_{1},\dots X_{m})$ se $$Var(g(X_{1},\dots,X_{n}))\leq Var(h(X_{1},\dots,X_{m}))$$
 ovvero la _dispersione_ attorno al valore $\theta$ è più bassa con $g$ rispetto a $h$
 
 
 > [!tip]
-> da un [[Campione Statistico|campione]] con [[Variabili aleatoria - Momenti|momento secondo]] finito, allora la media campionaria è sempre piu efficente al crescere di $n$: infatti $Var(\overline{X}_{n})=\frac{Var(X_{1})}{n}\xrightarrow{n \to \infty}0$ 
+> da un [[Campione Statistico|campione]] con [[Variabili aleatoria - Momenti o Valore atteso|momento secondo]] finito, allora la media campionaria è sempre piu efficente al crescere di $n$: infatti $Var(\overline{X}_{n})=\frac{Var(X_{1})}{n}\xrightarrow{n \to \infty}0$ 
 
 
 

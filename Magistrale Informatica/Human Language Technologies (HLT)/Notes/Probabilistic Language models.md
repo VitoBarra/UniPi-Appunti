@@ -37,7 +37,7 @@ Quindi il compito di un ***Language model*** è trovare la probabilità di:
 $$P(w_5 \mid w_1, w_2, w_3, w_4)$$
 
 
-Per calcolare questa probabilità bisogna basarsi sulla chain rule:
+Per calcolare questa probabilità bisogna basarsi sulla [[Formula del condizionamento ripetuto (Chain rule)|chain rule]]:
 $$P(B|A) = \frac{P(A,B)}{P(A)} \Rightarrow P(A,B) = P(A) \cdot P(B|A)$$
 
 In generale, la chain rule si definisce come:  

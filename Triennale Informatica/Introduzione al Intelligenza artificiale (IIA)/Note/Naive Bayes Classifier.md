@@ -34,7 +34,7 @@ Ma se si usano solo le feature basate sulle parole, e si utilizzano tutte le par
 # Definizione del classificatore Bayesiano
 Per stimare la classe corretta il classificatore utilizza la funzione **argmax** per selezionare la classe che massimizza la probabilità $P(c \mid d)$, dove $c\in C$ è una delle classi discrete mentre $d$ è il documento che si vuole classificare:
 $$\hat{c}=\text{argmax}_{c \in  C}P(c\mid d)$$
-A questa viene applicata [[Formula di Bayes]] che permette di suddividere la probabilità condizionata $P(c \mid d)$ in tre probabilità con delle proprietà utili.
+A questa viene applicata [[Formula di Bayes|Formula di Bayes]] che permette di suddividere la probabilità condizionata $P(c \mid d)$ in tre probabilità con delle proprietà utili.
 
 Infatti si ha : $$\hat{c}=\text{argmax}_{c \in  C} \frac {P(d \mid c)P(c)}{P(d)}$$
 e dato che $P(d)$ non cambia in base alle varie classi si ottiene:

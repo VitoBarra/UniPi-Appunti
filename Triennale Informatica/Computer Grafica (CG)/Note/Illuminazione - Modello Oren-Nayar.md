@@ -25,7 +25,7 @@ _sia_
 - $\beta$ è l [[Angoli|angolo]] tra la [[Normale di una superfice parametrica|normale]] e la direzione di vista $\beta = \arccos(\boldsymbol{N}\cdot \boldsymbol{V})$
 - $A$ e $B$ sono parametri per definire la roughness
 - $C$ è l angolo di azimuthal tra  la direzione di vista $V$ e direzione della luce  $L$
-- $\rho$  è la [[Variabili Aleatorie Notevoli - Gaussiane|distribuzione gaussiana]] con media a 0
+- $\rho$  è la [[Variabili Aleatorie Notevoli - Gaussiana|distribuzione gaussiana]] con media a 0
 allora il modello è definito come $$L_r=\rho L_p(\boldsymbol{N} \cdot \boldsymbol{L})(A+BC\sin (\alpha) \tan (\beta))$$
 ![[Pasted image 20240305225016.png]]
 dove $$\begin{array}{}
