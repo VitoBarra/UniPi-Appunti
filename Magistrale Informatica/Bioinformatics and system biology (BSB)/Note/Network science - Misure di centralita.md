@@ -9,7 +9,7 @@ SubTopic:
 
 # network science - misure di centralita
 ---
-Le **misure di centralità** sono concetti della [[Network Science|network science]] usati per quantificare l'importanza topologica dei nodi all'interno di una rete. L'idea generale è che un nodo possa essere rilevante per ragioni diverse: perché ha molte connessioni, perché è vicino a molti altri nodi, perché collega [[Network Science - Community|moduli]] distinti oppure perché è connesso a nodi già molto influenti.
+Le **misure di centralità** sono concetti della [[Network Science|network science]] usati per quantificare l'importanza topologica dei nodi all'interno di una rete. L'idea generale è che un nodo possa essere rilevante per ragioni diverse: perché ha molte connessioni, perché è vicino a molti altri nodi, perché collega [[Network Science - Community o moduli|moduli]] distinti oppure perché è connesso a nodi già molto influenti.
 
 ## Degree centrality
 La **degree centrality** misura il numero di connessioni dirette di un nodo:

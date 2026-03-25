@@ -115,11 +115,7 @@ Il primo termine dipende dai coefficienti di mixing $\pi_m$, mentre il secondo d
 
 Nel passo M i parametri vengono aggiornati massimizzando $Q(\theta\mid \theta^{(k)})$ rispetto a $\theta$, cioe risolvendo$$\frac{\partial Q(\theta\mid \theta^{(k)})}{\partial \theta}=0$$tenendo pero conto del vincolo di normalizzazione sui coefficienti di mixing:$$\sum_{m=1}^M \pi_m=1$$Per il termine che dipende da $\pi_m$ si usa quindi il [[Metodo di ottimizzazione vincolata con moltiplicatori di Lagrange]], mentre i termini che dipendono da $\mu_m$ e $\sigma_m$ possono essere massimizzati separatamente per ogni componente.
 
-Per comodità si definisce prima
-$$
-N_m=\sum_{j=1}^N \mathcal{P}(z_j=m\mid x_j,\theta^{(k)})
-$$
-che rappresenta il numero efficace di punti assegnati alla componente $m$.
+Per comodità si definisce prima$$N_m=\sum_{j=1}^N \mathcal{P}(z_j=m\mid x_j,\theta^{(k)})$$che rappresenta il numero efficace di punti assegnati alla componente $m$.
 
 La soluzione dei problemi di massimizzazione indipendenti rispetto a $\pi_m$, $\mu_m$ e $\sigma_m$ porta allora agli aggiornamenti
 $$
@@ -134,10 +130,10 @@ $$
 
 Le medie risultano quindi medie pesate dei dati, i parametri $\sigma_m$ risultano dispersioni o covarianze pesate e i coefficienti di mixing coincidono con la proporzione media di massa assegnata a ciascuna componente.
 
-## Vincoli e proprieta
+## Vincoli e proprietà
 
 - l'algoritmo EM puo convergere a massimi locali e **dipende dall'inizializzazione**
 
 ## Relazione con il clustering
 
-Il GMM puo essere usato come modello di [[Data analysis -  Clustering|clustering]] probabilistico. A differenza di [[k-means|k-means]], che assegna ogni osservazione a un solo cluster, il GMM assegna a ogni osservazione una distribuzione di probabilita sulle componenti. In presenza di covarianze sferiche uguali e assegnazioni hard, il comportamento del modello si avvicina a quello di [[k-means|k-means]].
+Il GMM puo essere usato come modello di [[Data analysis -  Clustering|clustering]] probabilistico. A differenza di [[k-means|k-means]], che assegna ogni osservazione a un solo cluster, il GMM assegna a ogni osservazione una distribuzione di probabilità sulle componenti. In presenza di covarianze sferiche uguali e assegnazioni hard, il comportamento del modello si avvicina a quello di [[k-means|k-means]].

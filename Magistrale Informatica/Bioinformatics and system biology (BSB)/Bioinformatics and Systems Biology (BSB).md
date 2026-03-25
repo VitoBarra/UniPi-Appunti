@@ -107,7 +107,7 @@ tags:
         6. [[Gene Ontology (GO)]]
         7. [[Network Science]]
             1. [[Network science - Misure di centralita]]
-            2. [[Network Science - Community]]
+            2. [[Network Science - Community o moduli]]
                 1. [[Algoritmi di community detection]]
             3. [[Network science - Modelli generativi delle reti]]
             4. [[Network Science - Network propagation]]

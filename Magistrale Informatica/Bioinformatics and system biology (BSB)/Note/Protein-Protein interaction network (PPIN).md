@@ -20,11 +20,11 @@ La **Protein-Protein interaction network** non descrive direttamente causalità 
 
 Dal punto di vista topologico, le PPI mostrano spesso proprietà tipiche delle reti biologiche:
 - **degree distribution** spesso eterogenea, frequentemente compatibile con una [[Variabili Aleatorie Notevoli - Potenza o Zipf|legge di potenza]] $P(k)\sim k^{-\gamma}$;
-- presenza di **hub**, cioè proteine con grado elevato;
-- **clustering coefficient** relativamente alto, indice di [[Network Science - Community|organizzazione modulare]];
-- cammini medi brevi, compatibili con comportamento [[Network Science|small-world]];
-- presenza di nodi ponte identificabili tramite misure di [[Network science - Misure di centralita|centralità]], in particolare la **betweenness centrality**.
-Gli hub contribuiscono alla connettività globale della rete, mentre i nodi con alta betweenness collegano moduli diversi e possono agire come bottleneck. In ambito biologico questi nodi sono spesso rilevanti perché una loro alterazione può compromettere la comunicazione tra funzioni cellulari differenti.
+- [[Network Science - Community o moduli|organizzazione modulare]]: **clustering coefficient** relativamente alto
+- comportamento [[Network Science|small-world]]: ovvero cammini **medi brevi**
+- presenza di **hub**: cioè proteine con grado elevato
+- presenza di **bottleneck**:  identificabili tramite misure di [[Network science - Misure di centralita|centralità]], in particolare la **betweenness centrality**.
+Gli hub contribuiscono alla connettività globale della rete, mentre i **bottleneck** con alta betweenness collegano moduli diversi. In ambito biologico questi nodi sono spesso rilevanti perché una loro alterazione può compromettere la comunicazione tra funzioni cellulari differenti.
 
 Una PPI network può essere costruita integrando insiemi di proteine di interesse e recuperando le loro interazioni da database specializzati. Dopo la costruzione della rete, i nodi possono essere distinti in:
 - proteine appartenenti a un insieme biologicamente caratterizzato;

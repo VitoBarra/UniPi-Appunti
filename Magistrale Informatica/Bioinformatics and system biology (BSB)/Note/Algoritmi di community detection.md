@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Algoritmi di community detection
 ---
-Gli **algoritmi di community detection** sono metodi utilizzati in [[Network Science|analisi delle reti]] per identificare **[[Network Science - Community|comunità]] (moduli)**, cioè gruppi di nodi **densamente connessi tra loro** e **poco connessi con il resto della rete**.
+Gli **algoritmi di community detection** sono metodi utilizzati in [[Network Science|analisi delle reti]] per identificare **[[Network Science - Community o moduli|comunità]] (moduli)**, cioè gruppi di nodi **densamente connessi tra loro** e **poco connessi con il resto della rete**.
 
 La **modularità** $Q$ è una misura utilizzata per valutare **quanto una specifica partizione della rete in comunità sia significativa**. L’idea è confrontare il numero di archi realmente osservati **all’interno delle comunità** con il numero di archi che ci si aspetterebbe **se la rete fosse casuale**.
 
