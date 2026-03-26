@@ -9,12 +9,12 @@ SubTopic:
 
 # Maximum a posteriori (MAP) learning
 ---
-Il **maximum a posteriori learning** stima i parametri selezionando il valore $\theta$ che massimizza la distribuzione a posteriori:
+Il **maximum a posteriori learning** e una strategia di [[Learning nei modelli probabilistici]] che sostituisce la posterior con una singola stima puntuale: il valore $\theta$ che massimizza la distribuzione a posteriori.
 $$
 \theta_{MAP}=\arg\max_{\theta} p(\theta\mid \mathcal{D})
 $$
 
-Usando [[Formula di Bayes|formula di Bayes]] si ottiene
+Usando la [[Formula di Bayes|formula di Bayes]] si ottiene
 $$
 \theta_{MAP}=\arg\max_{\theta} p(\mathcal{D}\mid \theta)p(\theta)
 $$
@@ -26,7 +26,7 @@ Il ruolo del prior e essenziale:
 - se il prior favorisce certi valori di $\theta$, la stima viene spinta in quella direzione
 - il prior agisce quindi come forma di regolarizzazione rispetto a [[Maximum likelihood learning]]
 
-Dal punto di vista concettuale, il MAP e un compromesso tra completezza bayesiana e semplicita computazionale:
+Nel quadro di [[Learning nei modelli probabilistici]], il MAP e quindi un compromesso tra completezza bayesiana e semplicita computazionale:
 - usa sia dati sia conoscenza a priori
 - produce una sola stima parametrica
 - evita l'integrazione sulla posterior richiesta dal Bayesian learning

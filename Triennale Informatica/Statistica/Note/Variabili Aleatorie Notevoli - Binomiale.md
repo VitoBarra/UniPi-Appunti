@@ -31,7 +31,7 @@ la somma di tutte le probabilità ovvero la [[Definizione di Probabilita|probabi
 
 
 #### Momenti e varianza
-una _variabile_ $X$ _Binomiale_ $B(n,p)$ può essere vista come somma di $n$ [[Variabili Aleatorie Notevoli - Bernulli|variabili di Bernulli]] $B(p)$ [[Indipendenza di Variabili aleatorie|indipendenti]] e si ha quindi che i [[Variabili aleatoria - Momenti o Valore atteso|momenti]] _primi e secondi_ sono $$\begin{array}{}
+una _variabile_ $X$ _Binomiale_ $B(n,p)$ può essere vista come somma di $n$ [[Variabili Aleatorie Notevoli - Bernulli|variabili di Bernulli]] $B(p)$ [[Indipendenza di Variabili aleatorie|indipendenti]] e si ha quindi che i [[Variabili aleatoria - Valore atteso|momenti]] _primi e secondi_ sono $$\begin{array}{}
 \mathbb{E}[X] & = & np\\ \mathbb{E}[X^{2}] & = & np+np^{2}(n-1)
 \end{array}
 $$e di conseguenza la [[Variabili aleatorie - Varianza|varianza]]  $$

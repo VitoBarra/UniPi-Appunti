@@ -25,7 +25,7 @@ la [[Definizione di Probabilita|probabilita]] totale e $1$ come conseguenza dell
 #### Proprieta elementari
 le componenti $X_1,\dots,X_K$ soddisfano $$X_1+\dots+X_K=n$$ quindi non sono indipendenti. Ciascuna componente presa singolarmente ha pero legge binomiale: $$X_i\sim B(n,p_i)$$
 
-i [[Variabili aleatoria - Momenti o Valore atteso|momenti]] primi sono $$\mathbb{E}[X_i]=np_i$$
+i [[Variabili aleatoria - Valore atteso|momenti]] primi sono $$\mathbb{E}[X_i]=np_i$$
 le [[Variabili aleatorie - Varianza|varianze]] sono $$Var(X_i)=np_i(1-p_i)$$
 le covarianze tra componenti distinte sono $$Cov(X_i,X_j)=-np_ip_j \ \ \ \ , i\neq j$$
 

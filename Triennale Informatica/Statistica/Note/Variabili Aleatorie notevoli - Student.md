@@ -19,7 +19,7 @@ _allora_ per $n>1$ la variabile aleatoria $$T_{n}=\frac{X}{\sqrt{ \frac{C_{n}}{n
 la densita $T_{n}$ è una [[Funzioni|funzione pari]], di conseguenza indichiamo con 
 - $F_{n}(x)$ la [[Variabili aleatorie - Funzione di ripartizione (CDF)|funzione di ripartizione]] 
 - $\tau_{(\alpha,n)}$ il $\alpha$-[[Quantili di variabili aleatorie|quantile]]
- e questi valgono $$F_{n}(-x)=1-F_{n}(x)\ \ \ \ \ \ \ \ \ \ \tau_{(\alpha,n)}=\tau_{(1-a,n)} $$la variabile $T_{n}$ ha [[Variabili aleatoria - Momenti o Valore atteso|momenti]] fino al ordine $n-1$ e i momenti di ordine _dispari_ sono nulli. 
+ e questi valgono $$F_{n}(-x)=1-F_{n}(x)\ \ \ \ \ \ \ \ \ \ \tau_{(\alpha,n)}=\tau_{(1-a,n)} $$la variabile $T_{n}$ ha [[Variabili aleatoria - Valore atteso|momenti]] fino al ordine $n-1$ e i momenti di ordine _dispari_ sono nulli. 
 
 
 

@@ -7,7 +7,7 @@ topic:
 SubTopic:
 ---
 
-# Agire in domini incerti
+# Modelli Probabilistici - Agire in domini incerti
 ---
 Gli [[Agenti Razionali|agenti]] operanti in ambienti reali devono affrontare incertezze derivanti da [[Definizione di Problemi-Ambienti|osservazioni parziali, nondeterminismo o presenza di avversari]]. Essi possono non conoscere con certezza lo stato attuale del mondo né prevedere con assoluta sicurezza l'esito di una sequenza di azioni. La [[Logica|logica]] risulta insufficiente per catturare tale incertezza, poiché non permette di rappresentare situazioni in cui una **proposizione** non è né **completamente vera né completamente falsa** mentre invece la [[Definizione di Probabilita|probabilità]] fornisce un metodo sistematico per riassumere l'incertezza derivante da **incompletezza informativa** o **ignoranza teorica**, risolvendo in parte il problema della qualificazione.  
 Per gestire **questa incertezza**, un agente mantiene uno **degree of belief**, una misura numerica della fiducia rispetto a una **proposizione**, compresa tra $0$ e $1$. Questa misura non riflette l'incertezza intrinseca del mondo, ma l'incertezza dovuta allo **stato di conoscenza** dell'agente. Nuove informazioni possono aggiornare il grado di credenza senza generare contraddizioni, permettendo di rappresentare formalmente la probabilità condizionata degli eventi.  

@@ -69,7 +69,7 @@ $$
 U_{E,O} \le U \le U_{O,E}
 $$
 dove $U_{E,O}$ e $U_{O,E}$ rappresentano rispettivamente i valori del gioco quando a muovere per primo è $E$ o $O$.  
-L’**equilibrio** si trova nel punto in cui entrambe le strategie **ottimizzano simultaneamente** i propri [[Variabili aleatoria - Momenti o Valore atteso|rendimenti attesi]], garantendo a ciascun giocatore il **massimo del proprio minimo guadagno** possibile e questo è detto **equilibrio di maximin** che coincide con un  **[[Equilibrio di Nash|equilibrio di Nash]]**  
+L’**equilibrio** si trova nel punto in cui entrambe le strategie **ottimizzano simultaneamente** i propri [[Variabili aleatoria - Valore atteso|rendimenti attesi]], garantendo a ciascun giocatore il **massimo del proprio minimo guadagno** possibile e questo è detto **equilibrio di maximin** che coincide con un  **[[Equilibrio di Nash|equilibrio di Nash]]**  
 Un giocatore che adotta la strategia maximin ottiene due garanzie fondamentali:  
 1.  nessun’altra strategia può fornire un risultato migliore contro un avversario razionale;  
  2. la strategia resta ottimale anche se viene rivelata all’avversario.

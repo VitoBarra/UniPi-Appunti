@@ -11,11 +11,11 @@ SubTopic:
 
 # Bayesian network
 ---
-i **Bayesian network** è un modo rappresentare una [[Full Joint Distribution (FJD)|full joint distribution]] in [[Modelli Probabilistici|domini incerti]] in modo piu compatto sfruttando l [[Indipendenza condizionata|indipendenza condizionale]].
-Un **Bayesian network** è un [[Directed Acyclic Graph (DAG)|grafo diretto aciclico]] (DAG) in cui:
-- ogni nodo rappresenta una [[Variabili Aleatorie (Casuali)|variabile casuale]], discreta o continua;
-- le frecce indicano relazioni di influenza diretta, dove il nodo di partenza è il **genitore** di quello di arrivo;
-- ogni nodo $X_i$ è associato una **conditional probability tables (CPTs)**, una tabella che indica la distribuzione di **[[Probabilita condizionata|probabilità condizionata]] locali** $\theta(X_i \mid Parents(X_i))$, che quantifica l'effetto dei genitori sul nodo $X_i$ ogni riga devo sommare ad $1$ e in caso di [[Variabili Aleatorie Notevoli - Bernulli|variabili boolenare]] si indica solo caso $True$ in quanto il caso $False$ si può ottenere come $1-p$, Per variabili booleane con $k$ genitori booleani, sono necessarie $2^k$ probabilità indipendenti. Un nodo senza genitori ha una sola riga che rappresenta le probabilità a priori della variabile.
+un **Bayesian network** è un modo rappresentare una [[Full Joint Distribution (FJD)|full joint distribution]] in [[Modelli Probabilistici|domini incerti]] in modo piu compatto sfruttando l [[Indipendenza condizionata|indipendenza condizionale]].
+Un **Bayesian network** è un [[Directed Acyclic Graph (DAG)|grafo diretto aciclico]] (DAG) $\mathcal{G}(\mathcal{V,E})$in cui:
+- Ogni nodo $v \in \mathcal{V}$ rappresenta una [[Variabili Aleatorie (Casuali)|variabile casuale]] $X_i$, **discreta** o **continua**;
+- Gli edge $e \in \mathcal{E}$ indicano nel complessivo le relazioni di [[indipendenza condizionata|indipendenza condizionata]], dove il nodo di partenza è il **genitore** di quello di arrivo;
+- Ogni nodo $X_i$ è associato una **conditional probability tables (CPTs)**, una tabella che indica la distribuzione di **[[Probabilita condizionata|probabilità condizionata]] locali** $\theta(X_i \mid Parents(X_i))$, che quantifica l'effetto dei genitori sul nodo $X_i$ ogni riga devo sommare ad $1$ e in caso di [[Variabili Aleatorie Notevoli - Bernulli|variabili boolenare]] si indica solo caso $True$ in quanto il caso $False$ si può ottenere come $1-p$, Per variabili booleane con $k$ genitori booleani, sono necessarie $2^k$ probabilità indipendenti. Un nodo senza genitori ha una sola riga che rappresenta le probabilità a priori della variabile.
 ![[IMG - Bayesian network esempio.png]]
 La topologia della rete determina le relazioni di [[Indipendenza condizionata|indipendenza condizionale]] tra le variabili indicate dal fatto che non esiste un collegamento tra le due variabile [[Indipendenza condizionata|condizionalmente indipendenti]], riducendo significativamente il numero di [[Definizione di Probabilita|probabilità]] da specificare rispetto alla [[Full Joint Distribution (FJD)|Full joint Distribution]]. 
 

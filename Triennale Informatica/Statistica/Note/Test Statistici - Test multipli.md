@@ -22,6 +22,6 @@ La **Family-Wise Error Rate (FWER)** è definita come $$\mathrm{FWER} = \mathcal
 
 Se ogni [[Test Statistici - significativita e potenza di un test|test è condotto al livello]] $\alpha$, la probabilità di commettere almeno un falso positivo cresce con $N$. Se i test sono [[Indipendenza Stocastica|indipendenti]]: $$\mathcal{P}(V\geq 1) = 1-(1-\alpha)^N$$ Per $N$ grande tale probabilità tende rapidamente a $1$, anche per valori piccoli di $\alpha$. Questo fenomeno è detto **inflazione dell’errore di prima specie globale**.
 
-Il **False Discovery Rate (FDR)** è definito come $$\mathrm{FDR} = \mathbb{E}\!\left[\frac{V}{R}\right]$$ convenzionalmente $\frac{V}{R}=0$ se $R=0$. La FDR rappresenta la proporzione [[Variabili aleatoria - Momenti o Valore atteso|attesa]] di falsi positivi tra tutte le ipotesi rifiutate.
+Il **False Discovery Rate (FDR)** è definito come $$\mathrm{FDR} = \mathbb{E}\!\left[\frac{V}{R}\right]$$ convenzionalmente $\frac{V}{R}=0$ se $R=0$. La FDR rappresenta la proporzione [[Variabili aleatoria - Valore atteso|attesa]] di falsi positivi tra tutte le ipotesi rifiutate.
 
 Se tutte le ipotesi nulle fossero vere, il numero atteso di falsi positivi sarebbe circa $\alpha N$. Se alla soglia $\alpha$ si osservano $R_\alpha$ rifiuti, una stima intuitiva della proporzione attesa di falsi tra i rifiuti è $$\frac{\alpha N}{R_\alpha}$$

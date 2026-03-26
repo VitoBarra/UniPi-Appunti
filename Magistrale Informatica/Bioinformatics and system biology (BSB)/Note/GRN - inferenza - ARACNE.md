@@ -11,7 +11,7 @@ SubTopic:
 ---
 **ARACNE (Algorithm for the Reconstruction of Accurate Cellular Networks)** è un metodo per l’[[GRN - inferenza|inferenza]] delle [[Gene Regulatory Networks (GRN)|GRN]] basato su concetti di **information theory**. L’obiettivo del metodo è identificare **interazioni regolatorie dirette** tra geni a partire da dati di espressione genica.
 
-Il metodo utilizza come misura di dipendenza tra due geni la **[[mutual information (MI)|mutual information (MI)]]** e nel contesto delle [[Gene Regulatory Networks (GRN)|GRN]]:
+Il metodo utilizza come misura di dipendenza tra due geni la **[[Mutual Information (MI)|mutual information (MI)]]** e nel contesto delle [[Gene Regulatory Networks (GRN)|GRN]]:
 - $X$ e $Y$ rappresentano i livelli di espressione di due geni
 - un valore elevato di $I(X;Y)$ indica una forte dipendenza statistica tra i due geni
 

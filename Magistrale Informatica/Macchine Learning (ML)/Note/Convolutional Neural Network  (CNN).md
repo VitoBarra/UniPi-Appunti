@@ -27,9 +27,12 @@ Dove:
 - $S(i,j)$ è l'output della convoluzione,
 - $I(i-m, j-n)$ è il valore del pixel,
 - $K(m,n)$ è il kernel (filtro) della convoluzione.
-![[Pasted image 20250222232503.png]]
- Ovvero si fa L'uso di __[[filtering|filtri]]__. La dimensione della **feature map** dipende dall'applicazione dei filtri. In particolare, modificando lo **stride**, ovvero il passo con cui il filtro si sposta sull'immagine, è possibile controllare le dimensioni della **feature map** risultante. Con __stride__ $1$ e aggiungendo __padding__ sul bordo si ottiene una feature map della stessa dimensione del immagine originale   ![[Pasted image 20250222220623.png]]  mentre  un stride maggiore di $1$ riduce la dimensione dell'output, ad esempio con stride $2$ ![[Pasted image 20250222233822.png]]
-
+![[IMG - visualizzazione del operazione di convoluzione su pixel.png]]
+ Ovvero si fa L'uso di __[[filtering|filtri]]__. 
+ 
+ La dimensione della **feature map** dipende dall'applicazione dei filtri. In particolare, modificando lo **stride**, ovvero il passo con cui il filtro si sposta sull'immagine, è possibile controllare le dimensioni della **feature map** risultante. Con __stride__ $1$ e aggiungendo __padding__ sul bordo si ottiene una feature map della stessa dimensione del immagine originale   ![[Pasted image 20250222220623.png]]  mentre  un stride maggiore di $1$ riduce la dimensione dell'output, ad esempio con stride $2$ ![[Pasted image 20250222233822.png]]
+![[no_padding_no_strides.gif]]
+![[no_padding_strides.gif]]![[padding_strides.gif]]![[same_padding_no_strides.gif]]
 ## Pooling
 il __Pooling__ è un operazione che riduce la __dimensionalità__ delle __feature map__ le caratteristiche più significative.
 
@@ -50,22 +53,34 @@ Una __CNN tipica__ è composta da:
 3. __layer [[Reti neurali Feed-Forward (FF)|feed-forward]]__: elaborano le _feature map_ per produrre la classificazione.
 ![[Pasted image 20250222220903.png]]![[Pasted image 20250223010115.png]]
     
+
+
+
+##### Training
+si può trainare tramite [[Back Propagation|back propagation]] ma la matrice sara sparsa e con molti pesi ripetuti
+
+
+un modo piu inteligente è usare a deconvoluzione (transposed convolution)
+
+![[no_padding_no_strides_transposed.gif]]
+
+![[no_padding_strides_transposed.gif]]
+
+![[padding_strides_transposed.gif]]
+
+![[same_padding_no_strides_transposed.gif]]
+
+
+
+
+
+
+
 ## GPU e Tensor Notation
 Le operazioni di convoluzione e moltiplicazione di matrici sono computazionalmente costose, ma possono essere accelerate tramite **GPU** e l [[Inner Product|operazioni tra tensore]]
 
 L'uso della notazione tensoriale permette di parallelizzare molte operazioni lineari, migliorando l'efficienza del training su dataset di grandi dimensioni.
 ![[Pasted image 20250222220955.png]]
-
-
-
-
-
-
-
-
-
-
-
 
 
 

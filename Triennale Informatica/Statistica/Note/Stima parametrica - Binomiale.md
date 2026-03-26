@@ -29,7 +29,7 @@ $$
 e lo _stimatore_ è uno [[Stimatori statistici#Stimatore corretto (Definizione)|stimatore corretto]]  siccome vale che $$\mathbb{E}\left[ \frac{\overline{X}}{m} \right]=\frac{mp}{m}=p$$ 
  
 ##### Metodo dei momenti
-per il [[Stima parametrica - Metodo dei momenti|metodo dei momenti]] si ha per definizione di [[Variabili aleatoria - Momenti o Valore atteso|momento]] e per le priorità della [[Stima parametrica - Binomiale|variaible binomiale]]  abbiamo che $$
+per il [[Stima parametrica - Metodo dei momenti|metodo dei momenti]] si ha per definizione di [[Variabili aleatoria - Valore atteso|momento]] e per le priorità della [[Stima parametrica - Binomiale|variaible binomiale]]  abbiamo che $$
 \begin{array}
 \mathbb{E}[X] & = & m\theta  \\ \end{array}
 $$ e per definizione di _[[Stima parametrica - Metodo dei momenti|metodo dei momenti]]_ $\tilde{\theta}$ e la soluzione di $\mathbb{E}[X]=\sum^{n}_{i=1}\frac{x_{i}}{n}$ e quindi vale che  $$\begin{array}{}  m\tilde{\theta}=\displaystyle\sum^{n}_{i=1}\frac{x_{i}}{n} 

@@ -6,7 +6,7 @@ tags:
 ---
 # Trasformazioni di variabili con densità
 ---
-_Supponiamo_ che $X:\Omega \rightarrow \mathbb{R}$ sia una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ con densita $f$ e data la [[Funzioni|funzione]] $h:\mathbb{R} \rightarrow \mathbb{R}$ ci domandiamo se la variabile aleatoria $$Y:\Omega \rightarrow \mathbb{R}, \ \ \ \ Y = h \circ X$$
+_Supponiamo_ che $X:\Omega \rightarrow \mathbb{R}$ sia una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_ con densità $f$ e data la [[Funzioni|funzione]] $h:\mathbb{R} \rightarrow \mathbb{R}$ ci domandiamo se la variabile aleatoria $$Y:\Omega \rightarrow \mathbb{R}, \ \ \ \ Y = h \circ X$$
 ha densità. 
 Non è detto che $Y$ abbia densità con tutte le possibili $h$  e se ha densita non _esiste_ una regola _generale_ per calcolarla. Esiste pero per alcuni casi specifici, infatti  
 
@@ -14,6 +14,7 @@ _Se_ si riesce a calcolare la _[[Variabili aleatorie - Funzione di ripartizione 
 se la [[Funzioni|funzione]] $h$ ha delle buone _prorietà_ ovvero risulta che $F_{Y} \in C^{1}$ ovvero è [[Continuità di una funzione|continua]] con [[Derivate|derivata]] [[Continuità di una funzione|continua]] su tutto $\mathbb{R}$ 
 _allora_ la [[Definizione di Probabilita|densità di probabilita]] $f_{y}$ puo essere calcolata derivando $F_{Y}$ e quindi vale $$f_{y}=\frac{dF_{Y}(y)}{dy}$$ 
 Questo risultato può essere usato per definire la _seguente regola_ 
+
 #### Regola del cambio di variabile
 _sia_ 
 - $X$ una [[Variabili Aleatorie (Casuali)|variabile aleatoria]] con densita $f_{X}$ tale che $f_X$ ha valori solo nel _intervallo aperto_ $A$  (detto di _supporto_) ed è _nulla_ nel intervallo $A^{c}$  

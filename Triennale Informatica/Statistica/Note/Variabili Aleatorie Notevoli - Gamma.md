@@ -17,7 +17,7 @@ questa è effettivamente una [[Probabilita sui numeri Reali#Densità di probabil
 
 #### Momenti e varianza
 _sia_ $X$ una [[Variabili Aleatorie (Casuali)|variaible aleatoria]]  $\Gamma(r,\lambda)$ 
-_allora_ questa ha tutti i [[Variabili aleatoria - Momenti o Valore atteso|momenti]] e $\forall \beta>0$ vale $$\mathbb{E}\left[ X^{\beta}\right]= \frac{\Gamma(r+\beta)}{\Gamma(r)\lambda^{\beta}}$$ in particolare vale che i _momenti primi e secondi siano_$$
+_allora_ questa ha tutti i [[Variabili aleatoria - Valore atteso|momenti]] e $\forall \beta>0$ vale $$\mathbb{E}\left[ X^{\beta}\right]= \frac{\Gamma(r+\beta)}{\Gamma(r)\lambda^{\beta}}$$ in particolare vale che i _momenti primi e secondi siano_$$
 \begin{array}
 \mathbb{E}[X] & = & \cfrac{\Gamma(r+1)}{\Gamma(r)\lambda} & = & \cfrac{r}{\lambda}  \\
 \mathbb{E}[X^{2}]  & = &  \cfrac{\Gamma(r+2)}{\Gamma(r)\lambda} & = & \cfrac{(r+1)r}{\lambda} \\

@@ -7,7 +7,7 @@ tags:
 # Variabili aleatorie - Varianza
 ---
 #### Varianza (Definizione)
-_Sia_ $X$ una variabile aleatoria che ammette [[Variabili aleatoria - Momenti o Valore atteso|momento secondo]] 
+_Sia_ $X$ una variabile aleatoria che ammette [[Variabili aleatoria - Valore atteso|momento secondo]] 
 _allora_ è detta _varianza_ il numero 
 $$Var(X)=\mathbb{E}[(X-\mathbb{E}[X])^{2}]$$
 e questa dipende solo dalla _legge di probabilità_ $\mathcal{P}_{X}$ e sviluppando i calcoli si ottiene $$Var(x)=\mathbb{E}[X^{2}]-\mathbb{E}[X]^{2}$$

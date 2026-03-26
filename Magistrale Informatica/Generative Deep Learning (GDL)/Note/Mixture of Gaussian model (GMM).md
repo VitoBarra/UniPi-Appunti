@@ -91,7 +91,7 @@ Nel passo $E$ si calcolano le responsibilities
 $$
 \mathcal{P}(z_j=m\mid x_j,\theta^{(k)})=\frac{\pi_m^{(k)}\mathcal{P}(x_j\mid \mu_m^{(k)},\sigma_m^{(k)})}{\sum_{m'=1}^M \pi_{m'}^{(k)}\mathcal{P}(x_j\mid \mu_{m'}^{(k)},\sigma_{m'}^{(k)})}
 $$
-Poiche le variabili indicatrici sono binarie, il loro [[Variabili aleatoria - Momenti o Valore atteso|valore atteso]] rispetto alla posterior coincide con la probabilita di appartenenza alla componente:
+Poiche le variabili indicatrici sono binarie, il loro [[Variabili aleatoria - Valore atteso|valore atteso]] rispetto alla posterior coincide con la probabilita di appartenenza alla componente:
 $$
 \mathbb{E}[\bar z_{jm}\mid x_j,\theta^{(k)}]=\mathcal{P}(z_j=m\mid x_j,\theta^{(k)})
 $$

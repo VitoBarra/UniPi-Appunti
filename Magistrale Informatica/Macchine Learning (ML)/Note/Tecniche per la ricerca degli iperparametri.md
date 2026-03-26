@@ -19,7 +19,7 @@ Si può effettuare una __nested grid search__, ossia utilizzare più livelli di 
 
 La __random search__ riduce i costi computazionali rispetto alla __grid search__ siccome non fa la ricerca esaustiva come la precedente e permette di esplorare anche i valori intermedi tenendo fissi quelli meno influenti.
 
-![[grid search.png]]
+![[IMG - Grid search.png]]
 A sinistra rappresentazione della __grid search__ e a destra della __random search__.
 
 

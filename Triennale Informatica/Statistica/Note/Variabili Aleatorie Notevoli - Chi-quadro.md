@@ -37,7 +37,7 @@ _allora_ vale che $X+Y$ ha densita $\chi^{2}(n+m)$
 #### Proposizione
 _sia_ $C_{n}$ una [[Variabili Aleatorie (Casuali)|Variabile aleatoria]] con _densta_ $\chi^{2}$ 
 _allora_ si può pensare a $C_{n}$ come $C_{n}=X^{2}_{1},\dots X^{2}_{n}$ dove le $X_{i}$ sono [[Variabili Aleatorie Notevoli - Gaussiana|gaussiane standard]] dove vale che 
-- il [[Variabili aleatoria - Momenti o Valore atteso|momento primo]] vale $\mathbb{E}[X_{i}^{2}]=1$ 
+- il [[Variabili aleatoria - Valore atteso|momento primo]] vale $\mathbb{E}[X_{i}^{2}]=1$ 
 - la [[Variabili aleatorie - Varianza]] vale $Var(X_{i}^{2})=2$
 e valgono i seguenti fatti
 - per la [[Teorema debole dei grandi numeri|teorema dei grandi numeri]] vale che $\frac{C_{n}}{n}\xrightarrow{n \to \infty}1$ con  [[Convergenza in probabilita|converge in probabilita]] 
