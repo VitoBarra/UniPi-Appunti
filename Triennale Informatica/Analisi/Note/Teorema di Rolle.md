@@ -1,11 +1,8 @@
 ---
-Course: Analisi
+Course: "[[Analisi]]"
 topic: nota
 tags: Analisi
 ---
-
-Prev: [[Analisi]]
-
 # Teorema di Rolle
 ---
 _sia_ $f:[a,b]\rightarrow \mathbb{R}$ una [[Funzioni|funzione]]

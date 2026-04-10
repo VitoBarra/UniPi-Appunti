@@ -5,9 +5,10 @@ tags:
   - Analisi
 ---
 # Integrazione per parti
----
-l _integrazione per parti_ è una _metodologia_ per calcolare [[Integrali|integrali]] 
-Si applica la seguente  formula$$\int f(x)g’(x) \, dx=f(x)g(x)-\int f’(x)g(x) \, dx  $$
+L'**integrazione per parti** deriva dalla regola di derivazione del prodotto ed è utile per calcolare alcuni [[Integrali|integrali]].
+- La formula fondamentale è:
+$$\int f(x)g'(x)\,dx=f(x)g(x)-\int f'(x)g(x)\,dx$$
+- In notazione abbreviata si scrive anche $\int u\,dv=uv-\int v\,du$.
 
->[!tip]
->[Video di elia bombardelli](https://youtu.be/2D2-g93Kljo?si=JS82a6O34LxL7Fcb)
+
+[Video di elia bombardelli](https://youtu.be/2D2-g93Kljo?si=JS82a6O34LxL7Fcb)

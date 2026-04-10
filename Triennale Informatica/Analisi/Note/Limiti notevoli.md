@@ -1,11 +1,9 @@
 ---
-Course: "[[Analisi|Analisi]]"
+Course: "[[Analisi]]"
 topic: nota
 tags:
   - Analisi
 ---
-
-
 # Limiti notevoli
 ---
 utili per la risoluzioni dei [[Limiti]] e sono alcuni tipo di limiti di cui si sa gia il risultato 

@@ -1,5 +1,5 @@
 ---
-Course: "[[Analisi|Analisi]]"
+Course: "[[Analisi]]"
 topic: nota
 tags:
   - Analisi

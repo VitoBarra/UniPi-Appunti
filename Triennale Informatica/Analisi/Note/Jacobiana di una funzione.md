@@ -1,10 +1,8 @@
 ---
-Course: "[[Analisi|Analisi]]"
+Course: "[[Analisi]]"
 tags:
   - Analisi
-Area: 
-topic: 
-SubTopic:
+topic: nota
 ---
 # Jacobiana di una funzione
 ---

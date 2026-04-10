@@ -5,16 +5,8 @@ tags:
   - Analisi
 ---
 # Massimi e minimi
----
-
-#### Massimi e minimi locali
-
-#### Massimi e minimi assoluti
-
-
-#### Calcolare massimi e minimi
-per calcolare _massimi e minimi_ di una [[Funzioni|funzione]] bisogna guardare dove la [[Derivate|derivata]] si annulla ovvero dove vale che $$f’(x)=0$$ e controllare a _sinistra_ e _destra_ di $x$ il segno della funzione per sapere se è un _massimo_ o un _minimo_
-
-è un _massimo_ se: $f’(x-\varepsilon) >0$ e $f’(x-\varepsilon) <0$
-
-è un _minimo_ se: $f’(x-\varepsilon) <0$ e $f’(x-\varepsilon) >0$
+I **massimi e minimi** descrivono i punti in cui una [[Funzioni|funzione]] assume valori estremi locali o assoluti.
+- Un punto $x_0$ è di massimo locale se esiste un intorno di $x_0$ in cui $f(x)\leq f(x_0)$; è di minimo locale se in tale intorno vale $f(x)\geq f(x_0)$.
+- Un massimo o minimo assoluto è un estremo confrontato con tutti i punti del dominio.
+- Se $f$ è derivabile e ha un estremo locale interno, allora $f'(x_0)=0$.
+- Lo studio pratico combina annullamento della [[Derivate|derivata]] prima e analisi del segno di $f'$ a sinistra e a destra del punto critico.

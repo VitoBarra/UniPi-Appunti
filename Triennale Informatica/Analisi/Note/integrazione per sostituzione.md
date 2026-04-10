@@ -5,10 +5,10 @@ tags:
   - Analisi
 ---
 # integrazione per sostituzione
----
-l _integrazione per sostituzione_ è una _metodologia_ per calcolare [[Integrali|integrali]]. Si segue la formula 
-$$\int ^{a}_{b}f(g(x))g’(x) \, dx=\int ^{g(b)}_{g(a)}f(y) \, dy  $$dove $$dy=g’(x)dx$$
+L'**integrazione per sostituzione** trasforma un [[Integrali|integrale]] in uno equivalente ma più semplice mediante un cambio di variabile.
+- Si pone $y=g(x)$ e si usa $dy=g'(x)dx$.
+- In forma tipica vale:
+$$\int f(g(x))g'(x)\,dx=\int f(y)\,dy$$
+- Per gli integrali definiti cambiano anche gli estremi di integrazione secondo la sostituzione scelta.
 
-
->[!tip]
->[video di elia bombardelli](https://youtu.be/x1rXDKi0RF0?si=SEq800veolwM34AG)
+[video di elia bombardelli](https://youtu.be/x1rXDKi0RF0?si=SEq800veolwM34AG)

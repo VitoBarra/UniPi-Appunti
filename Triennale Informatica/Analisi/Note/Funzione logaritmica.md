@@ -19,4 +19,4 @@ dove $$c^{a}=b$$
 5. _Proprietà dell'inverso_: $$a^{(\log_{a}(x))} = x$$
 
 ### Grafico di un logaritmo
-![[Binary_logarithm_plot_with_ticks.svg]]
+![[IMG - Binary logarithm plot with ticks.svg]]

@@ -1,11 +1,8 @@
 ---
-Course: Analisi
+Course: "[[Analisi]]"
 topic: nota
 tags: Analisi
 ---
-
-Prev: [[Analisi]]
-
 # Teorema di Weierstrass
 ---
 _Sia_ $[a,b] \subset \mathbb{R}$ un intervallo _chiuso e limitato_ e sia $f:[a,b]\rightarrow \mathbb{R}$

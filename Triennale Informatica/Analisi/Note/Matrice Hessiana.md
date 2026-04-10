@@ -1,9 +1,9 @@
 ---
-Course: "[[Analisi|Analisi]]"
+Course: "[[Analisi]]"
 tags:
   - Analisi
-Area: 
-topic: 
+Area:
+topic:
 SubTopic:
 ---
 # Matrice Hessiana
