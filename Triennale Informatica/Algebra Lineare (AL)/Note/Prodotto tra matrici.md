@@ -1,4 +1,4 @@
----
+﻿---
 Course: "[[Algebra Lineare (AL)]]"
 topic: nota
 tags:
@@ -15,7 +15,7 @@ A_{i1}B_{1j}+\cdots+A_{in}B_{nj}
 $$
 Questo tipo di prodotto fra matrici si chiama prodotto riga per colonna perché l’elemento $(AB)_{ij}$ si ottiene facendo un opportuno prodotto fra la riga $i\text{-esima } A_i$ di $A$ e la colonna $j\text{-esima } B^j$ di $B$
 
-![[IMG_0763.jpeg]]
+![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Prodotto tra matrici - 1.jpeg]]
 ### proprietà algebriche matrici:
 
 - $A =  M^{-1}BM,C=M^{-1}DM \implies AC=M^{-1}BDM$

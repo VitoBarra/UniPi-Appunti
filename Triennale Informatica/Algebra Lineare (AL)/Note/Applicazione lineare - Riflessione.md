@@ -11,4 +11,4 @@ _allora_ una _riflessione_ è definita come un [[Applicazioni Lineari|applicazio
 r_U: V\rightarrow V
 $$tale che $$
 r_U(v)=u-v
-$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/Untitled 1.png]]
+$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Applicazione lineare - Riflessione - 1.png]]

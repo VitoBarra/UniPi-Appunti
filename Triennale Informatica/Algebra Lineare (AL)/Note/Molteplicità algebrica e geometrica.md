@@ -1,4 +1,4 @@
----
+﻿---
 Course: Algebra Lineare
 topic: nota
 tags: AL
@@ -20,4 +20,4 @@ $$
 n−rank(A−\lambda_{i}I)
 $$
 
-![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/Untitled 2 6.png]]
+![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Molteplicità algebrica e geometrica - 1.png]]

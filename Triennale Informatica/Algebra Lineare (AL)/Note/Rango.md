@@ -1,10 +1,10 @@
 ---
-Course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: nota
 tags: AL
 ---
 
-Prev: [[Algebra Lineare (AL)]]
+Prev: 
 
 # Rango
 ---

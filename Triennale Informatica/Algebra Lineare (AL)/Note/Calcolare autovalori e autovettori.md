@@ -1,11 +1,8 @@
 ---
-Course: Algebra Lineare
+Course: "[[Algebra Lineare (AL)]]"
 topic: nota
 tags: AL
 ---
-
-Prev: [[Algebra Lineare (AL)]]
-
 # Calcolare autovalori e autovettori
 ---
 Per calcolare i [[Calcolare autovalori e autovettori|autovettori]] di una [[Matrici]] dobbiamo prima calcolare il _[[Polinomi|polinomio]] caratteristico definito_ come

@@ -18,7 +18,7 @@ $$
 ax + by =0
 $$
 
-![[Studi/Triennale Informatica/Note/1° Anno/Algebra Lineare (AL)/Media/Untitled 19.png]]
+![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Vettori Ortogonali - 1.png]]
 Il [[Prodotto scalare euclideo (Dot product)|prodotto scalare euclideo]] anche detto __Dot product__ sul piano cartesiano $\mathbb{R}^2$ e se $\mathbb{R}^3$ corrisponde alle [[Rette perpendicolari|rette perpendicolari (o ortogonali)]] della geometria euclidea ma se si sceglie un  prodotto scalare diverso su $\mathbb{R}^2$ o $\mathbb{R}^3$ la nozione di __ortogonalità__ può cambiare considerevolmente.
 
 Risolvendo il sistema, ne deduciamo che i vettori ortogonali ad $\begin{pmatrix}a\\b\end{pmatrix}$

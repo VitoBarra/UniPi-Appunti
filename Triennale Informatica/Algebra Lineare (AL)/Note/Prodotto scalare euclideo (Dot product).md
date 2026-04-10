@@ -1,4 +1,4 @@
----
+﻿---
 Course: "[[Algebra Lineare (AL)]]"
 topic: nota
 tags:
@@ -25,6 +25,6 @@ dove $\cdot$ è il  [[Prodotto tra matrici|prodotto tra matrici]]
 per il _prodotto scalare euclideo_ vale che $$\boldsymbol{a}\cdot \boldsymbol{b}=\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos \theta$$
 dove $\|\cdot\|$ è la [[Norme Matriciali e Norme Vettoriali|norma euclidea]] 
 questa formula ci da la possibilità di calcolare l _l’angolo_ tra i due vettori $$\theta=\arccos \left( \frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\|\boldsymbol{a}\|\|\boldsymbol{b}\|} \right)$$
-e la lunghezza della [[Applicazione lineare - Proiezione Ortogonale|proiezione ortogonale]] $$\boldsymbol{b}\cdot \frac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$$![[IMG_0787.jpeg]]
-il _prodotto scalare euclideo_ è _massimo_ per vettori [[Rette Parallele|paralleli]] $$\theta=0 \implies \boldsymbol{a} \cdot \boldsymbol{b}=\|\boldsymbol{a}\|\|\boldsymbol{b}\|$$![[IMG_0788.jpeg]]
-mentre è _minimo_ per vettori _anti paralleli_ $$\theta=\pi \implies \boldsymbol{a} \cdot \boldsymbol{b}=-\|\boldsymbol{a}\|\|\boldsymbol{b}\|$$![[IMG_0789.jpeg]]
+e la lunghezza della [[Applicazione lineare - Proiezione Ortogonale|proiezione ortogonale]] $$\boldsymbol{b}\cdot \frac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Prodotto scalare euclideo (Dot product) - 1.jpeg]]
+il _prodotto scalare euclideo_ è _massimo_ per vettori [[Rette Parallele|paralleli]] $$\theta=0 \implies \boldsymbol{a} \cdot \boldsymbol{b}=\|\boldsymbol{a}\|\|\boldsymbol{b}\|$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Prodotto scalare euclideo (Dot product) - 2.jpeg]]
+mentre è _minimo_ per vettori _anti paralleli_ $$\theta=\pi \implies \boldsymbol{a} \cdot \boldsymbol{b}=-\|\boldsymbol{a}\|\|\boldsymbol{b}\|$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Prodotto scalare euclideo (Dot product) - 3.jpeg]]

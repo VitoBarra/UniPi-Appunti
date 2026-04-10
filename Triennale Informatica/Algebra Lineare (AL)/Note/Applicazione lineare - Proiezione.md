@@ -11,4 +11,4 @@ _allora_ definiamo una _proiezione_ come un [[Applicazioni Lineari|applicazione 
 p_{U}: V \rightarrow U
 $$tale che$$
 p_U(v)=u
-$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/Untitled.png]]
+$$![[UniPi-Appunti/Triennale Informatica/Algebra Lineare (AL)/Media/IMG - Applicazione lineare - Proiezione - 1.png]]
