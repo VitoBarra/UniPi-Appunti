@@ -13,7 +13,7 @@ tags:
 
 l __algoritmo del banchinare__ è un [[Algoritmi|algoritmo]] progettato da _Dijkstra_ per la [[Prevenzione Deadlock|prevenzione dei deadlock]]   e si basa sul fatto che solo perché un programma può andare in deadlock non significa che lo farà. definisce uno stato safe, unsafe e [[MultiThreading - DeadLock|Deadlock]]. l algoritmo evita che si passi da uno stato safe ad uno unsafe ritardando la concessione di alcune risorse.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 8 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Prevenzione DeadLock - Algoritmo del Banchiere.png]]
 
 ### Stati
 

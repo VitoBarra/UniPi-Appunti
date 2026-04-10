@@ -1,22 +1,19 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Base e Bound
 ---
 Questa realizzazione di[[ Memoria Virtuale]] si basa sul utilizzo di due registri sul processore che indicano l inizio e la fine dello spazio di indirizzamento di un processo. Il sistema operativo può controllare che le operazioni eseguite da un processo tocchino solo la sua memoria
 
-![[Astrazione_Kernel_3.png]]
+![[IMG - Base e Bound 1.png]]
 
 ## Traduzione indirizzi
 
 tradurre gli indirizzi comporta una semplice adizione di base + indirizzo virtuale rendendo quindi la traduzione molto semplice
 
-![[Untitled 41.png]]
+![[IMG - Base e Bound 2.png]]
 
 ### Vantaggi
 

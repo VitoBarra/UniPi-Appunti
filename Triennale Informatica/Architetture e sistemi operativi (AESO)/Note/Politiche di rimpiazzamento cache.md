@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Politiche di rimpiazzamento cache
 ---
@@ -21,7 +19,7 @@ il suo grande svantaggio e che essendo imprevedibile con questa politica non fun
 
 è spesso una politica pessima siccome un caso comune dei programmi è accedere ripetutamente ad un array. con questa politica può capitare che faccia la peggiore scelta possibile ovvero scegliere come pagina da sostituire quello che servirà subito dopo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Politiche di rimpiazzamento cache 1.png]]
 
 ## Min: sostituzione ottima della cache
 
@@ -31,7 +29,7 @@ questa é una politica che si basa sullo scegliere la pagina che servirà più i
 
 è una politica in cui si sceglie di sostituire la pagina che è stato usato più indietro nel tempo, utilizza questa strategia sulla base della località temporale. cerca di approssimare MIN. purtroppo in hardware non è facile da realizzare
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Politiche di rimpiazzamento cache 2.png]]
 
 ci sono dei casi in cui LRU si comporta come una FIFO  ad esempio lo scan ripetuto di un aria di memoria. questo è il caso peggiore, invece la strategia ottimale sarebbe di scegliere quello piu recentemente usato
 
@@ -47,7 +45,7 @@ una politica che approssima LRU e sceglie la pagina in base a se il contatore di
 
 il sistema operativo ispeziona tutte le pagine della core map ad intervalli regolari se il bit di utilizzo è settato allora un contatore per quella pagina va a 0 altrimenti viene incrementato
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Politiche di rimpiazzamento cache 3.png]]
 
 per core map molto grandi ha un considerevole overhead quindi si deve regolare bene la frequenza di lancio di questo algoritmo
 
@@ -59,4 +57,4 @@ la anomalia di belady si riferisce al fatto che aggiungere blocchi memoria cache
 
 
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Politiche di rimpiazzamento cache 4.png]]

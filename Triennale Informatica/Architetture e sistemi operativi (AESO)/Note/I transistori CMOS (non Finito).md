@@ -1,16 +1,14 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # I transistori CMOS (non Finito)
 ---
 
 
-![[62E46717-0C2D-4769-85B0-9C6C5C0C388B.jpeg]]
+![[IMG - I transistori CMOS (non Finito).jpeg]]
 
 La Figura 1.32 mostra lo schema di una porta NOT costruita con transistori
 CMOS. Il triangolo in basso indica la terra (GND) mentre la barra piatta in

@@ -18,7 +18,7 @@ ha più versione una di questa è la versione FAT-32 che supporta volumi con $2^
 
 l index structure di questo file system è detta file allocation table (FAT). questa è un array con ogni entry grande 32 bit. ogni entry mappa esattamente un blocco del volume e conterrà un puntatore al prossimo blocco del file oppure un ENDOFFILE. per raggiungere un file si deve partire dal file number preso dalla [[Directories dati nominati|directory]]  che sarà l indice del primo blocco e poi si dovrà seguire la catena di next per raggiungere tutto il file.
 
-![[Untitled 45.png]]
+![[IMG - FAT Linked List.png]]
 
 ## Tracciamento dello spazio libero
 

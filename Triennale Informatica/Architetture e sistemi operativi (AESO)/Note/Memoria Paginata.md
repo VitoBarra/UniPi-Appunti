@@ -9,7 +9,7 @@ tags:
 La _memoria paginata_ è un implementazione della [[Memoria Virtuale]]. 
 la _memoria fisica_ viene allocata in pezzi dimensione fissa questi pezzi chiamati __page frames__ questo permette di avere le varie parti di un processo sparse e divise in zone diverse della memoria fisica ma la processo la memoria apparirà contigua
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 18.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memoria Paginata 1.png]]
 
 ## Traduzione
 
@@ -18,7 +18,7 @@ l indirizzo virtuale è fatto da due componenti:
 - **Page#**: ovvero il numero di pagina da prendere nella page table
 - **offset**: ovvero il numero da aggiungere alla base della pagina scelta
 
-![[Untitled 1 1 1 1.png]]
+![[IMG - Memoria Paginata 2.png]]
 quindi la [[Traduzione degli indirizzi virtuali|traduzione]] sarà data da: PageTable\[Page#\]+Offset
 
 #### Vantaggi

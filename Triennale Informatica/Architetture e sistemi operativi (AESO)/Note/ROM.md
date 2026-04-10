@@ -8,7 +8,7 @@ tags:
 ---
 Una [[Memorie|memoria]] a sola lettura (ROM, Read Only Memory) memorizza un bit come presenza o assenza di un transistore
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 18.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - ROM 1.png]]
 
 il pallino rappresenta un uno mentre l assenza di questo uno 0.
 
@@ -21,7 +21,7 @@ nonostante il nome le ROM possono essere riscritte
 
 le  EPROM (Programmable ROM ) possono essere scritte una volta sola siccome sono realizzate con dei [[fusibili]]. il fusibili bruciato contiene un 1 mentre quello integro uno 0.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 9.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - ROM 2.png]]
 
 le EPROM (Eresable PROM) sono  rom realizzate con gate sommersi che non sono fisicamente connessi alla linea di bit finche non gli viene passata appositamente una carica che sposta gli elettroni e connette la linea di bit. queste sono “cancellabili ” perché se esposte a luce ultravioletta si possono respingere gli [[elettroni]] e quindi scollegare il gate dalla linea d bit
 

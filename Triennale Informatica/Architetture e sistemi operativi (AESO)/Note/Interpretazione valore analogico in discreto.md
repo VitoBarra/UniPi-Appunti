@@ -1,15 +1,13 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
 
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Interpretazione valore analogico in discreto
 ---
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 5.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Interpretazione valore analogico in discreto.png]]
 
 Perché l’uscita del generatore sia interpretata in maniera corretta all’ingresso
 del ricevitore, è necessario che sia $V_{OL} < V_{IL}$  e $V_{OH} > V_{IH}$. In questo modo,

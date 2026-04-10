@@ -1,11 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Astrazione dei Processi
 ---
 Il kernel per eseguire un processo che è un istanza di un programma alloca in memoria lo stack e lo heap del dato programma e per farlo girare  salta alla sua prima istruzione.

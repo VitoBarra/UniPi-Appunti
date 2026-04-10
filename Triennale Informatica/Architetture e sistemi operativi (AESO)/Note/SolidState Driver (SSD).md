@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # SolidState Driver (SSD)
 ---
@@ -12,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 i dispositivi flash o detti a stato solido sono [[Dispositivi per Memoria permanente|dispositivi per l immagazzinamento di grandi dati]] non hanno parti mobili  il che li rende meno vulnerabili permetto un random access migliore
 
-![[Untitled 48.png]]
+![[IMG - SolidState Driver (SSD).png]]
 
 Each flash storage element is a floating gate transistor. As Figure 12.5 illustrates, an extra
 gate in such a transistor “floats” — it is not connected to any circuit. Since the floating gate
@@ -31,5 +29,3 @@ storage is useful for storing device firmware since it can be executed in place.
 storage is wired to allow reads and writes of a page at a time, where a page is typically 2
 KB to 4 KB. NAND flash is denser than NOR flash, so NAND is used in the storage
 systems we will consider
-
-

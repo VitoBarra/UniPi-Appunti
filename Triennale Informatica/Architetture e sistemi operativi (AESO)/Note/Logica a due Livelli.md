@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Logica a due Livelli 
 ---
@@ -31,6 +29,6 @@ Y = \overline{A}
 + A\overline{B}C
 $$
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 12 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Logica a due Livelli.png]]
 
 questa è una rete a due livelli di logica siccome ha una serie di AND collegati ad una serie di OR, questa molto utile per progettare siccome rispecchia esattamente la formula somma di prodotti ma si tende a fare una progettazione a più livelli siccome da la possibilità di ridurre l hardware, migliorando quindi la velocita, il costo e il consumo.

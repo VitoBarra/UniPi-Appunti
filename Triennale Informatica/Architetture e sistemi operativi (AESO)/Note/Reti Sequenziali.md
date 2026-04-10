@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Reti Sequenziali
 ---
@@ -24,5 +22,3 @@ interconnessi in modo tale che:
 ### sequenziali Asincrone
 
 nel pratico non si usano perché troppo complesse da usare, l importante ricordarsi che le reti sequenziali asincrone sono una forma più generale di quelle sincrone, cosi come quelle digitali sono una forma più generale delle reti analogiche
-
-

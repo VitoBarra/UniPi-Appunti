@@ -16,7 +16,7 @@ caratteristiche:
 
 utilizzando più cicli di clock per ogni istruzione il singolo ciclo può essere più breve e le istruzioni brevi verranno completate in meno cicli mentre quelli lunghe nei cicli necessari.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 27.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Microarchitettura Pipeline.png]]
 
 [[Dipendenze sulla microarchitettura Pipeline]]
 

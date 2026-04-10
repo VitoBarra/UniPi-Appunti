@@ -1,11 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: " [[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Astrazione Thread
 ---
 i thread sono sequenze logiche di istruzioni in al interno di un processo su ciò non si possono fare assunzioni sul quando verrà eseguito, e quindi non si possono fare assunzioni sulle velocita relative a gli altri thread
@@ -45,11 +42,11 @@ Lo shared State sono tutto quello che i thread condividono nello stesso processo
 - lo heap
 - il codice
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 26.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Astrazione Thread 1.png]]
 
 ## Ciclo vitale dei thread
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 15.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Astrazione Thread 2.png]]
 
 - INIT. Thread creation puts a thread into its INIT state and allocates and initializes perthread data structures. Once that is done, thread creation code puts the thread into the READY state by adding the thread to the ready list. The ready list is the set of runnable
 threads that are waiting their turn to use a processor. In practice, as discussed in
@@ -99,4 +96,4 @@ thread_exit call lets a thread pass its exit value to its parent thread via thre
 Eventually, when a thread’s state is no longer needed (e.g., after its exit value has been
 read by the join call), the system can delete and reclaim the thread’s state.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 9.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Astrazione Thread 3.png]]

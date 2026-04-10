@@ -1,16 +1,14 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memoria Segmentata
 ---
 la memoria segmentata è un implementazione di [[Memoria Virtuale]]  e si tratta di un estensione del [[Base e Bound]] con più segmenti di memoria discontinui. salvando in hardware un array detto tabella dei segmenti  questa per ogni elemento avrà una coppia base e Bound più informazioni di permesso d accesso per una protezione della memoria più fine-grain
 
-![[Untitled 3 3 1.png]]
+![[IMG - Memoria Segmentata 1.png]]
 
 ## Traduzione
 
@@ -31,7 +29,7 @@ quindi la [[Traduzione degli indirizzi virtuali|traduzione]]  sarà data da: Seg
 
 - **Condividere memoria tra processi**: se due processi devono condividere un segmento basterà aggiungerli entrambi nella tabella dei segmenti
 
-    ![[Untitled 1 2 1 1.png]]
+    ![[IMG - Memoria Segmentata 2.png]]
 
 - **supporto protezione memoria**: riesce a supportare una protezione della memoria esterna grazie al Bound e una protezione più fine-grane potendo gestire le regole d accesso a livello di segmento
 

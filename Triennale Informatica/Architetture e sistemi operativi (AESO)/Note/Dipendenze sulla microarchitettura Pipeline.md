@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Dipendenze sulla microarchitettura Pipeline
 ---
@@ -23,7 +21,7 @@ questo codice cercherebbe di leggere r0 sul banco dati ma al momento del esecuzi
 
 questo problema viene risolto dal pipeline forwarding ovvero invece di leggere il dato dal banco di registri lo si legge direttamente dal risultato del [[ALU]] [[Multiplexer e Decoder#Multiplexer|multiplxando]] con gli altri segnali necessari. i segnali di gestione del forwarding vengono generati da un unita di gestione di dipendenze
 
-![[Untitled 28.png]]
+![[IMG - Dipendenze sulla microarchitettura Pipeline 1.png]]
 
 l unita di gestione delle dipendenze utilizza la codifica delle due istruzioni controllando che due registri siano uguali.
 
@@ -59,7 +57,7 @@ e sono dette
 ## Dipendenze sul controllo
 
 quando voglio fare un salto devo buttare le operazioni fatte sulle operazioni che non devo eseguire quindi questo poeterebbe a buttare 5 stadi
-![[Untitled 1 11 1.png]]
+![[IMG - Dipendenze sulla microarchitettura Pipeline 2.png]]
 
 
  per migliorare le cose si può fare forwarding e mandare il valore del nuovo PC già calcolato nello stadio di exeunte direttamente al PC cosi da ridurre gli stadi da scartare a 2

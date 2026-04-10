@@ -31,11 +31,11 @@ topic: Thread Scheduling
 ### Caso pessimo
 - il workload è composto da task di lunghezza simile
 
-![[Untitled 18 1.png]]
+![[IMG - Round Robin 1.png]]
 
 - c è un mix di task I/O-bounded e Compute-Bound questo perche i task I/O-bounded dovranno aspettare il loro prossimo turno dopo una richiesta al I/O
 
-![[Untitled 1 7 1.png]]
+![[IMG - Round Robin 2.png]]
 
 
 

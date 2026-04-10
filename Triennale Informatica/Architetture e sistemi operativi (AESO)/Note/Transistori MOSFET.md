@@ -13,7 +13,7 @@ i transistor vengono prodotti a partire dal silicio che è un [[semiconduttore]]
 - Elementi del [[V gruppo]] come l arsenico che è un drogante di tipo n siccome da carica una negativa immettendo un elettrone libero
 - Elementi del [[III gruppo]] come il boro che è un drogante di tipo p siccome da una carica positiva immettendo un “buco” libero
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 8.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Transistori MOSFET 1.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Transistori MOSFET 2.png]]
 

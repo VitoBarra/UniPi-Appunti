@@ -1,0 +1,11 @@
+---
+Course: "[[Architetture e sistemi operativi (AESO)]]"
+tags:
+  - AESO
+Area: 
+topic: 
+SubTopic:
+---
+
+# Programmazione Assembly
+---

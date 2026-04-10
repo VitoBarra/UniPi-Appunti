@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Upcalls
 ---
@@ -45,9 +43,9 @@ memory, the less time Java needs to run its collector, speeding execution. For t
 operating system must inform the process when its allocation changes, e.g., because
 some other process needs more or less memory.
 
-![[Untitled 32.png]]
+![[IMG - Upcalls 1.png]]
 
-![[Untitled 1 15 1.png]]
+![[IMG - Upcalls 2.png]]
 
 - **Types of signals**. In place of hardware-defined interrupts and processor exceptions,
 the kernel defines a limited number of signal types that a process can receive.

@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Traduzione degli indirizzi virtuali
 ---
@@ -12,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 la traduzione degli indirizzi è una pezzo di funzionalità che serve per tradurre gli indirizzi virtuali  con cui lavora il processo in indirizzi fisici che sono quelli con cui lavora la memoria fisica. questa funzionalità può essere realizzata sia con hardware che con software che con entrambi
 
-![[Untitled 25 1.png]]
+![[IMG - Traduzione degli indirizzi virtuali.png]]
 
 # Parametri
 
@@ -55,4 +53,3 @@ of valid entry points into the DLL is kept by the compiler; the calling program 
 reach the library routine.
 
 - **Indirizzi fisici di memoria**: cioè il sistema deve cambiare le locazioni di memoria indicate dal programma ricalcolando le tutte a partire dal indirizzo di inizio scelto per quella particolare  istanza del programma in esecuzione
-

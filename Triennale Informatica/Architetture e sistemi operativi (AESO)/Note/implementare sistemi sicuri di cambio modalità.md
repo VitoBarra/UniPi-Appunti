@@ -1,12 +1,10 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
 
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
-# implementare sistemi sicuri di cambio modalità
+# Implementare sistemi sicuri di cambio modalità
 ---
 	
 
@@ -22,7 +20,7 @@ il vettore della interruzioni sono una tabella di puntatori a procedure, queste 
 
 sono raggiunte dal kernel grazie ad un registro che punta al indirizzo del array.
 
-![[Untitled 34.png]]
+![[IMG - implementare sistemi sicuri di cambio modalita 1.png]]
 
  il formato del vettore di interruzioni è specifico per ogni processore.
 
@@ -52,7 +50,7 @@ nei sistemi operativi odierni il kernel due stack al avvio del processo.
 
 durante l esecuzione del programma il registro hardware  dello stack di interruzione ha un puntatore allo stack kernel. questo rende facile switchare da un processo che deve aspettare (ad esempio l’ I/O) ad uno che invece può girare.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 16.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - implementare sistemi sicuri di cambio modalita 2.png]]
 
 ## Interrupt Masking
 

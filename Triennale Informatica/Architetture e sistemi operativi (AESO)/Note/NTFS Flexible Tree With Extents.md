@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # NTFS Flexible Tree With Extents
 ---
@@ -25,15 +23,15 @@ questo [[File System]] utilizza un un [[array]] chiamato master file table (MFT)
 
 ogni attributo può essere residente o non residente. se è residente allora è tutto contenuto nel entry altrimenti l entry contiene dei puntatori a delle extents esterne che mantengono quel attributo
 
-![[Untitled 43.png]]
+![[IMG - NTFS Flexible Tree With Extents 1.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 19.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - NTFS Flexible Tree With Extents 2.png]]
 
 in caso gli attributi crescano molto e non riescano ad entrare in un entry del MFT il file system può utilizzare più entry per lo stesso file. per fare questo viene aggiunto un attributo
 
 - _attribut list_: ovvero una lista di puntatoti ad altri attributi presenti sia nella stessa entry che in altre
 
-![[Untitled 2 6 1.png]]
+![[IMG - NTFS Flexible Tree With Extents 3.png]]
 
 ci sono varie situazioni che cambiano il comportamento del NTFS ovvero
 
@@ -42,7 +40,7 @@ ci sono varie situazioni che cambiano il comportamento del NTFS ovvero
 - file grandi/molta frammentazione: attribute list che indica dove trovare i dati su più entry della MFT
 - file giganteschi/ frammentazione estrema: atribute list non residente e questa punta a più blocchi dati in più MFT con dati non residenti
 
-![[Untitled 3 4 1.png]]
+![[IMG - NTFS Flexible Tree With Extents 4.png]]
 
 ## Tracciamento dello spazio libero
 

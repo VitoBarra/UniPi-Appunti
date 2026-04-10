@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Implementazione Thread
 ---
@@ -125,7 +123,7 @@ differenze con il User-mode transfer:
 
 la lista dei Ready puo contetenere  sia PCB che TCB  siccome questi entrambi rappresentano un singolo flusso di esecuzione e puo quindi trattarli in modo uguale. in entrambi i casi lo stato deve essere salvato prima
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3 6.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Implementazione Thread 1.png]]
 
 c è un unica differenza nella gestione delle interruzioni. Nel caso il processo sia già in modalità kernel (controllando il bit Eflag) utilizza lo stack già correntemente in uso quindi non salva lo stack pointer e alla fine del esecuzione del handler controlla il bit salvato sullo stack e il corrente se sono uguali ritorna sullo stack corrente e continua L esecuzione. Nel gli altri casi fa le normale procedure di cambio processo
 
@@ -135,7 +133,7 @@ I thread vengono generati chiamando delle syscall delegando quindi la creazione 
 
 Questo crea un TCB nel kernel per-thread e uno stack kernel per le interruzioni. Mette poi nella ready list il TCB come qualsiasi altro thread
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Implementazione Thread 2.png]]
 
 Tutte le operazioni su thread quali thread join yield e exit funzionano esattamente come i thread kernel
 

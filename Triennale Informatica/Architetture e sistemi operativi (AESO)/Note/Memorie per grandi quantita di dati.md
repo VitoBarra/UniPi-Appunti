@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memorie per grandi quantità di dati
 ---
@@ -16,7 +14,7 @@ per descrivere i componenti di memoria ci sono due paramenti
 - lunghezza: numero di righe quindi $2^N$
 - larghezza: numero di colonne quindi $M$
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 25.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memorie per grandi quantita di dati 1.png]]
 
 queste memorie sono realizzate con delle celle di bit collegate ad una linea di parola (indirizzo) e linea di bit(dati).
 
@@ -24,7 +22,7 @@ Quando la linea di parola è ALTA, la parola indirizzata può essere letta o scr
 
 Per leggere una cella di bit, la linea di bit viene inizialmente lasciata elettricamente fluttuante. Viene quindi attivata la linea di parola, che permette al valore immagazzinato di forzare la linea di bit a 0 o a 1. Per scrivere la cella di bit, invece, la linea di bit viene forzata in modo deciso al valore desiderato. Viene poi attivata la linea di parola, che collega quindi la linea di bit alla cella di bit in cui memorizzare il dato. La linea di bit forzata in modo deciso sovrasta il contenuto della cella di bit, scrivendo il valore voluto nel bit in questione.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 11.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memorie per grandi quantita di dati 2.png]]
 
 ### Memorie multi-porte
 

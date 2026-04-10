@@ -16,7 +16,7 @@ Le cache sono un punto chiave per rendere i sistemi informatici  veloci e con lo
 
 ### Concetti cache
 
-![[8CB06F0A-8BA3-4928-B22C-6F3ADA30C1FE.jpeg]]
+![[IMG - Cache 1.jpeg]]
 
 Una cache è una memoria che mantiene una coppia di valori con il primo si raggiunge il secondo valore della coppia fa in pratica da dizionario.
 
@@ -36,7 +36,7 @@ $$
 
 In scrittura  in una cache  è più semplice perché essendo bafferizata appare al programma immediata
 
-![[4CEF1162-8B0A-45E3-A0BB-40BA2E10201D.jpeg]]
+![[IMG - Cache 2.jpeg]]
 
  il suo funzionamento è:
 

@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Microarchitettura Multy Cicle
 ---
@@ -20,10 +18,10 @@ caratteristiche:
 
 utilizzando più cicli di clock per ogni istruzione il singolo ciclo puoi essere più breve e le istruzioni brevi verranno completate in meno cicli mentre quelli lunghe nei cicli necessari
 
-![[Untitled 26 1.png]]
+![[IMG - Microarchitettura Multy Cicle 1.png]]
 
 
-![[Untitled 1 10 1.png]]
+![[IMG - Microarchitettura Multy Cicle 2.png]]
 
 la control unit è una [[Macchine a stati finiti| Macchine a stati finiti]]
-![[Untitled 2 4 1.png]]
+![[IMG - Microarchitettura Multy Cicle 3.png]]

@@ -13,25 +13,25 @@ tags:
 
 il semi sommatore si rialza con una porta [[Porte Logiche#Porta XOR|XOR]] e un porta AND fa la somma dei due ingressi  e la mette in uscita utilizzando lo [[Porte Logiche#Porta XOR|XOR]] mentre per il riporto utilizza l AND
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 12.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Sommatore 1.png]]
 
 ## Sommatore-Completo (FullAdder)
 
 come il semisommatore ma accetta un Riporto in ingresso che aggiunge agli ingressi
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 4.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Sommatore 2.png]]
 
 ## Sommatore a propagazione di riporto
 
  sono i dentici ai sommatore completi ma hanno la possibilità di propagare il riporto al bit successivo può quindi accettare più bit ed è realizzabile in vari modi
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Sommatore 3.png]]
 
 ## Sommatore a propagazione di riporto a onda
 
 realizzazione con più full adder in cascata si utilizza il $R_{out}$ del precedente come ingresso per $R_{in}$ del successivo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Sommatore 4.png]]
 
 funzioan ma scala male in termini di prestazioni con l aggiunga di bit siccome ogni sommatore dipende dal precedente
 
@@ -42,7 +42,7 @@ funzioan ma scala male in termini di prestazioni con l aggiunga di bit siccome o
 - l ultima colonna genera sempre un riporto (sono entrambi ad 1) è in questo casi chiama riporto generato
 - se viene propagato un riporto dal riporto di ingresso questo viene appunto chiamato riporto propagato
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 4 2.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Sommatore 5.png]]
 
  scala meglio in termini di prestazione rispetto  al Sommatore a propagazione di riporto a onda ma comunque rallenta un po' con le dimensioni, il percorso critico diventa la velocita del singolo blocco
 

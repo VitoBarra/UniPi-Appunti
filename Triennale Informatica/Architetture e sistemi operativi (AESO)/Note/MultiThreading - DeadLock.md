@@ -54,7 +54,7 @@ lock1.relese();
 
 Un caso classico di [[MultiThreading - DeadLock|deadlock]] durante la [[Sincronizzazione di oggetti condivisi|Sincronizzazione di oggetti condivisi]] è il problema dei filosofi a cena dove ogni filosofo ha bisogno di due bastoncini per mangiare e quindi deve prenderne uno a sinistra e uno a destra ma c è un solo bastoncino per ogni filosofo quindi mentre uno mangia quelli affianco dovranno necessariamente aspettare che il primo finisca e rilasci i bastoncini se voglio fare la stessa cosa
 
-![[9CB27C61-5A69-4561-B92F-7715EF75DFAE.jpeg]]
+![[IMG - MultiThreading - DeadLock 1.jpeg]]
 
 >[!info]  _Deadlock_ vs __Starvation__
 Entrambi sono problemi di livness ma la deadlock é una condizione più forte quindi deadlock implica starvation.
@@ -73,4 +73,4 @@ Entrambi sono problemi di livness ma la deadlock é una condizione più forte qu
 
 Ad esempio se ci sono più istanze di una sola risorsa la 4 condizione potrebbe essere vera ma non causare un deadlock siccome potrebbe esserci un thread fuori dal ciclo che eventualmente rilascerà una risorsa e sbloccherà il ciclo
 
-![[FCE75DE4-F9E0-41E9-A67F-EB29DC7B54D0.jpeg]]
+![[IMG - MultiThreading - DeadLock 2.jpeg]]

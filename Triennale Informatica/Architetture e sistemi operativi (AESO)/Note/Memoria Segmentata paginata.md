@@ -1,16 +1,14 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memoria Segmentata paginata
 ---
 la memoria segmentata pagina è un implementazione della [[Memoria Virtuale]]Ci sono dei segmenti come nella [[Memoria Segmentata]]  ma al posto del segmento continuo nella tabella si ritrova un puntatore ad un array di frame e il paramento Bound diventa size indicando quindi la quantità di frame presenti in quel segmento
 
-![[Untitled 40.png]]
+![[IMG - Memoria Segmentata paginata.png]]
 
 ## Traduzione
 

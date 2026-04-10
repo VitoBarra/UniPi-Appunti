@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # File System
 ---
@@ -33,7 +31,7 @@ Il file system comporta da due parti fondamentali
     Un modello per rappresentarle sono delle cartelle che contengono altre cartelle o documenti. Questo ci permette di organizzare i file in modo gerarchico
 
 
-![[654E36E0-2AAA-44DA-8E0B-F77F459190D3.jpeg]]
+![[IMG - File System 1.jpeg]]
 
 La stringa che definisce il nome di un file è composta da una lista di directory e dal nome del set di dati. questa viene chiama path nella stringa il simbolo “/”  separa i componenti del nome.
 
@@ -44,7 +42,6 @@ I path possono essere di due tipi
 
 L‘organizzazione gerarchica della directory può essere vista come un albero se ogni file è rappresentato da un unico path altrimenti diventa un DAG la radice del albero viene chiama root directory
 
-![[BD0C6154-5A52-43C0-9CBD-643DFBEAEE0C.jpeg]]
+![[IMG - File System 2.jpeg]]
 
 Molti sistemi operativi permettono di riferirsi ad un file utilizzando più nomi ma li limitano in moda da evitare cicli questo perché permette non semplificare alcuni operazioni come [[Reference Counting]] dei file e la permette alla ricerca ricorsiva di fermarsi
-

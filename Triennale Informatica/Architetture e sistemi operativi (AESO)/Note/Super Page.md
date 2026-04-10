@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Super Page
 ---
@@ -16,6 +14,6 @@ le pagine nelle super pagine devono essere allineate  e adiacenti quindi una sup
 
  le sperpage complica la gestione della memoria siccome ora i blocchi sono di dimensione variabili ma utilizzarle riduce molto l numero delle entry del [[Translation look aside buffer (TLB)|TLB]]. per gestione delle superpage ognuna di questa ha un flag che indica se è una superpage o meno
 
-![[Untitled 38.png]]
+![[IMG - Super Page.png]]
 
 nelle super page la dimensione del offset è variabile a seconda di quanta memoria si sta indirizzando ad esempio per superpage di 2Mb si usano 21 bit per 1Gb 30 bit

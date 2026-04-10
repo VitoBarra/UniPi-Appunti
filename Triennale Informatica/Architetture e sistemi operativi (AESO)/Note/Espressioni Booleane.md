@@ -32,7 +32,7 @@ Si esegue con l usuale ordine aritmetico, il **NOT** ha la precedenza poi l **AN
 
 partendo da una tabella di verità la sua scrittura canonica è fatta da somme di prodotti partendo a scrivere dal primo min termine con il valore è 1
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 14 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Espressioni Booleane 1.png]]
 
 $$
 Y=\overline{A}B+AB
@@ -40,10 +40,10 @@ $$
 
 ### Postulati
 
-![[Untitled 1 4 1.png]]
-![[Untitled 2 2 1.png]]
+![[IMG - Espressioni Booleane 2.png]]
+![[IMG - Espressioni Booleane 3.png]]
 
-![[Untitled 3 2 1.png]]
+![[IMG - Espressioni Booleane 4.png]]
 
 ## Riducibilità
 

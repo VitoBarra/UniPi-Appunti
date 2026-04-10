@@ -12,13 +12,13 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 una directory è un file che da una mappatura $nome \rightarrow n\ file$
 
-![[Untitled 46.png]]
+![[IMG - Directories dati nominati 1.png]]
 
 questa definizione ci permette di organizzare le directory in modo gerarchico facendo puntare una entry di una directory ad un altra directory
 
 
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 21.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Directories dati nominati 2.png]]
 
 per iniziare questa catena si parte da una directory ben conosciuta denominata “root” e indicata con “/” di solito questa ha numero di file 2.
 
@@ -26,16 +26,16 @@ per iniziare questa catena si parte da una directory ben conosciuta denominata �
 
 inizialmente l implementazione delle directory era fatta in modo lineare per accomodare un caso comune al tempo ovvio pochi file per directory. per ottenere questo si utilizzava un implementazione con una [[Lista linkata]]
 
-![[Untitled 2 8 1.png]]
+![[IMG - Directories dati nominati 3.png]]
 
 questa implementazione presenta problemi di performance quando i file per directory iniziano ad essere tanti. quindi si preferisce una struttura ad albero
 
-![[Untitled 3 6 1.png]]
+![[IMG - Directories dati nominati 4.png]]
 
 questa implementazione è realizzata con un [[B-Tree]] e utilizza l hash del nome del file da raggiungere e poi lo usa internamente per scendere nel albero.
 ogni nodo contiene una lista di coppie hash e pointer (sotto forma di offset dal inizio del file) al prossimo nodo a al file se il nodo è una foglia
 
-![[Untitled 4 3 1.png]]
+![[IMG - Directories dati nominati 5.png]]
 
 fisicamente nel file al inizio sono messi tutte le coppie file $nome \rightarrow n\ file$ e dopo queste c è il nodo root del albero che inizia in un offset conosciuto a priori ad esempio tenuto in BTREE_ROOT_PTR
 
@@ -45,11 +45,11 @@ soft e hard link sono modi che offre il file system per dare più nomi allo stes
 
 
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 5 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Directories dati nominati 6.png]]
 
  implementare questo rende la struttura delle directory un [[Directed Acyclic Graph (DAG)]]
 
-![[Untitled 6 1 1.png]]
+![[IMG - Directories dati nominati 7.png]]
 
 in caso di hard link un file deve essere cancellato solo se tutti i path che lo mappano vengono cancellati quindi per implementare un sistema corretto di [[Garbage Collector]] dei file si utilizza [[Reference Counting]].
 

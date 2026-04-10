@@ -1,16 +1,14 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memoria Paginata su più livelli
 ---
 La memoria paginata su più livelli è un implementazione della [[Memoria Virtuale]]. è realizzata su più livelli riesce ad implementare le stesse funzioni di una [[Memoria Segmentata paginata]] é fatta in modo da aver ogni livello che entra interamente in un page frame, solo il primo livello deve essere del tutto pieno mentre gli altri vengono allocato solo se un processo sta utilizzando quel particolare indirizzo
 
-![[Untitled 2 5 1.png]]
+![[IMG - Memoria Paginata su piu livelli.png]]
 
 ## Traduzione
 

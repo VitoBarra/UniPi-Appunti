@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Macchine a stati finiti
 ---
@@ -20,14 +18,14 @@ possono essere di due tipo:
 
 macchine alla Moore, le uscite dipendono esclusivamente dallo stato presente della macchina
 
-![[Untitled 21 1.png]]
+![[IMG - Macchine a stati finiti 1.png]]
 
 ### Machina di Mealy
 
 macchine alla Mealy le uscite dipendono sia dallo stato presente della macchina sia
 dagli ingressi attuali.
 
-![[Untitled 1 8 1.png]]
+![[IMG - Macchine a stati finiti 2.png]]
 
 ## Codifica
 

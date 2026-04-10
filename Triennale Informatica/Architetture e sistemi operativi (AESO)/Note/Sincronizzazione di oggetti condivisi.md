@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Sincronizzazione di oggetti condivisi
 ---
@@ -12,4 +10,3 @@ non gestire gli oggetti condivisi tra [[Astrazione Thread|Thread]] puo portare a
 ##### race condition
 >[!warning]
 > incompleto aggiungere spiegazione e esempi  
-

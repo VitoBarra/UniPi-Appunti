@@ -1,14 +1,12 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
 
-Prev: [[Architetture e sistemi operativi (AESO)]]
-
 # Temporizzazioni
 ---
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 11 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Temporizzazioni 1.png]]
 
 ## Terminologie
 
@@ -17,7 +15,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 in un diagramma temporale viene  viene riesportata la risposta transitoria  e gli eventuali ritardi misurati tra il 50% del vari fronti
 
-![[Untitled 1 3 1.png]]
+![[IMG - Temporizzazioni 2.png]]
 
 diagramma temporale di una porta buffer
 
@@ -41,18 +39,18 @@ diversi per una serie di motivi, tra cui:
 - reti che rallentano quando si surriscaldano e che lavorano più velocemente
 se fredde
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Temporizzazioni 3.png]]
 
 ### Percorso critico e percorso minimo
 
 - il percorso critico (critica path) è un percorso che parte da un ingresso e arriva al uscita passando per il più alto numero di porte e quindi con il più alto ritardo
 - Il percorso minimo (short)è un percorso che parte da un ingresso e arriva al uscita con il che passa per il minimo numero di porte e quindi che ha il ritardo più basso
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Temporizzazioni 4.png]]
 
 
 il ritardo di propagazione è dato dalle somme dei ritardi sul percorso critico
 
 il ritardo di contaminazione è dato dalle somme dei ritardi sul percorso minimo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 4 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Temporizzazioni 5.png]]

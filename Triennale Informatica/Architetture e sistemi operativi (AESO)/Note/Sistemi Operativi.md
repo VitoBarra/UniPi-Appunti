@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Sistemi Operativi
 ---
@@ -12,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 il sistema operativo è una layer software che gestisce le risorse del computer
 
-![[Untitled 30.png]]
+![[IMG - Sistemi Operativi 1.png]]
 
 il sistema operativo è il softwere più a basso livello che fornisce una astrazione e una protezione a tutto il sistema ed è in esecuzione in un environment separato rispetto alle altre aplicazioni che utente vengono in modo insalato in un contesto dato dal kernel, questo permette di prevenire danni e dare al programma più espressività mascherando le limitazione hardware
 
@@ -29,4 +27,4 @@ il sistema operativo deve svolgere 3 funzioni principali
 
 - collante : il sistema fornisce delle interfacce di condivisione di risorse tra i vari processi, per esempio un file può essere scritto da un programma e letto da un altro. un altro caso interessante è il caso del I/O dove il sistema  fornisce un layer di astrazione cosi che ogni programma non ha bisogno di conoscere lo specifico dispositivo o anche un interfaccia generica per i vari tipo di interfacce network (Wi-Fi, Ethernet, Bluetooth)
 
-![[Untitled 1 13 1.png]]
+![[IMG - Sistemi Operativi 2.png]]

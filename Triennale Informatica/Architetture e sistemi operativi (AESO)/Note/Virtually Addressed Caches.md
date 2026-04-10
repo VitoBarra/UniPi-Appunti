@@ -1,17 +1,15 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Virtually Addressed Caches
 ---
 
 per aumentare  le performance si può mettere una altra [[Cache]] oltre al [[Translation look aside buffer (TLB)|TLB]] che permette di trovare direttamente il dato partendo dal indirizzo virtuale quindi senza passare per la consultazione della memoria
 
-![[Untitled 36.png]]
+![[IMG - Virtually Addressed Caches.png]]
 
 # Virtually Cache Consistency
 

@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Physically Addressed Caches
 ---
@@ -12,4 +10,4 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 un altra cache è messa dopo la virtual [[Architetture e sistemi operativi (AESO)]] e il [[Translation look aside buffer (TLB)|TLB]] ma prima della memoria fisica per ridurre il tempo di una [[Translation look aside buffer (TLB)|TLB]] miss e per skippare l attesa della memoria fisica
 
-![[Untitled 39.png]]
+![[IMG - Physically Addressed Caches.png]]

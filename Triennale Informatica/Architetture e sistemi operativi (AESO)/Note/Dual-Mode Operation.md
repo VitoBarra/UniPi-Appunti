@@ -10,7 +10,7 @@ Il sistema operativo esegue i processi  in due modalità:
 - **kernel-mode**:  che ha accesso completo al hardware
 - **user-mode**: che privilegi limitati
 
-![[Astrazione_Kernel_4.png]]
+![[IMG - Dual-Mode Operation.png]]
 > [!info]
 > le due modalità sono utili sono se esistono metodi sicuri per passare da un modalità al altra: [[Tipi di cambio di modalità]]
 

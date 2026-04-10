@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Multiplexer e Decoder
 ---
@@ -13,17 +11,17 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 il multiplexer è un componente che scegli quale lavore dare in uscita tramite un input di selezione detto segnale di controllo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 13.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 1.png]]
 
 questi possono essere costruiti utilizzando
 
 - buffer three state
 
-   ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 5.png]]
+   ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 2.png]]
 
 - logica a due livelli
 
-    ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 4.png]]
+    ![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 3.png]]
 
 
 per si possono costruire MUX che sono N:1 a patto che ci siano $log_2N$ bit nel segnale di controllo
@@ -36,14 +34,14 @@ i mux si possono usare come tabelle di ricerca (LookUp Table) che non sono altro
 
 un decoder è un componente che ha $N$ ingressi e $2^N$ uscite e attiva una delle sue uscite a seconda della combinazione di valori in ingresso
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3 4.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 4.png]]
 
 un decoder può essere usato per realizzare funzioni logiche come se fosse una rete a due livelli
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 4 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 5.png]]
 
 in generale una funzione ad $N$  ingressi può essere costruita con un decoder $N:2^N$ e una porta OR a $M$ ingressi dove $M$ è il numero degli uno nelle uscite nella tabella di verita
 
 è realizzato con NOT e AND
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 5 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Multiplexer e Decoder 6.png]]

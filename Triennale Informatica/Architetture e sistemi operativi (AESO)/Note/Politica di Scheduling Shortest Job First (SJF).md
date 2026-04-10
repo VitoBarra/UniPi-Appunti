@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Politica di Scheduling Shortest Job First (SJF)
 ---
@@ -37,4 +35,3 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 >[!info]
 >Si comporta come una [[Politica di scheduling First-In-First-Out (FIFO)|FIFO]]  se i task sono tutti di lunghezze simili
-

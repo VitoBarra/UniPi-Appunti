@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Hard Disk Operation Scheduling
 ---
@@ -27,11 +25,9 @@ un algoritmo gready che cerca di servire la richiesta che più veloce da raggiun
 
 # Tunneling
 se si lavora in IpV6 e ci sono dei percorsi che hanno segmenti di rete con ipv4 
-![[Pasted image 20230109004908.png]]
+![[IMG - HardDisk Operation Scheduling 1.png]]
 per garantire la consegna si utilizza il tunneling ovvero
 il datagramma che viaggia con il pv6 prima di passare ad un router ipv4 è incapsulato in un datagramma IPv4. una volta uscito da tunnel si decapsula e torna a viaggiare il datagramma originale 
 nel ipv4 del header aggiunto la sorgente sara l indirizzo ipv4 di B e come destinazione E
-![[Pasted image 20230109005738.png]]
+![[IMG - HardDisk Operation Scheduling 2.png]]
 Se c è Frammentazione nel tunnel viene riassemlato dal router che supporta Ipv6 alla fine del tunnel quindi in questo esempio E 
-
-

@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Tipi di cambio di modalità
 ---
@@ -30,7 +28,7 @@ infatti quando si setta un break point l istruzione  dove è stato fatto viene s
 
 
 
-![[Untitled 33.png]]
+![[IMG - Tipi di cambio di modalita.png]]
 
 ## Chiamate di sistema:
 

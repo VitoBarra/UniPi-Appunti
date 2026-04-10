@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Single Cicle
 ---
@@ -17,8 +15,8 @@ caratteristiche:
 
 utilizzando un unico ciclo per ogni istruzione bisogna rendere la lunghezza di questo quanto il tempo necessario ad eseguire l istruzione più lenta. cosi facendo pero le istruzioni brevi verranno eseguite nello stesso tempo di quelle lente
 
-![[Untitled 29.png]]
+![[IMG - Single Cicle 1.png]]
 
 ## Control unit
 
-![[Untitled 1 12 1.png]]
+![[IMG - Single Cicle 2.png]]

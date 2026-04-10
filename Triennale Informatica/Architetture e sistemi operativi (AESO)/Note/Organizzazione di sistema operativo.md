@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Organizzazione di sistema operativo
 ---
@@ -32,7 +30,7 @@ these tradeoffs by describing several options for the operating system architect
 
 kernel fatto in modo d avere buona parte dei moduli interni al kernel e con interazioni complesse tra di loro
 
-![[Untitled 31.png]]
+![[IMG - Organizzazione di sistema operativo 1.png]]
 
 grafo dei moduli che richiamano funzioni in altri moduli tutti inseriti direttamente nel kernel per ragioni di performance
 
@@ -50,7 +48,7 @@ i driver possono essere eseguiti in kernel mode ma questo porta problemi di sicu
 
 per portare i driver legacy ad un livello di sicurezza simile si utilizzano [[macchine virtuali]]
 
-![[Untitled 1 14 1.png]]
+![[IMG - Organizzazione di sistema operativo 2.png]]
 
 ## MicroKernel
 

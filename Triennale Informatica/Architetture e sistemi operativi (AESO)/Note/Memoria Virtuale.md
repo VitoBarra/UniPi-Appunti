@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memoria Virtuale
 ---
@@ -13,7 +11,7 @@ La virtualizzazione degli indirizzi permette ad un programma di lavorare come se
 
 Invece il sistema operativo avrà bisogno di algoritmi per convertire gli [[Traduzione degli indirizzi virtuali|indirizzi virtuali in indirizzi fisici]].
 
-![[Astrazione_Kernel_2.png]]
+![[IMG - Memoria Virtuale.png]]
 
 Virtualizzare gli indirizzi risolve i problemi del metodo Base e bound siccome con questo sistema è possibile
 
@@ -24,5 +22,3 @@ Virtualizzare gli indirizzi risolve i problemi del metodo Base e bound siccome c
 >[!info] #### Address Randomization
 >
 >L Address Randomization è una piccola variazione degli indirizzi virtuali delle variabili tra istanza e istanza  dello v stesso programma. Questo è stato aggiunto perché avere la locazione virtuale di una variabile fissa rendere facile injectare codice malevolo in quelle variabili, ad esempio in una stringa può essere .scritto del codice
-
-

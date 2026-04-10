@@ -13,17 +13,17 @@ la Random Access Memory è una [[Memorie|memoria]] di tipo volatile, ovvero che 
 
 la RAM dinamica è realizzata con [[condensatore]] che immagazzina il valore 1 se carino o il valore 0 se scarico. le cariche su un condensatore degradano nel tempo quindi le RAM dinamiche vanno rinfrescate periodicamente riscrivendo il valore contenuto.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 19.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - RAM 1.png]]
 
 ### SRAM
 
 le RAM statiche sono realizzate con due negatori collegati ad anello che essendo una struttura bistabile non ha bisogno di essere infrescata
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 10.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - RAM 2.png]]
 
 ### Area e ritardo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 6.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - RAM 3.png]]
 
 un flip-Flop prende più Area di silicio rispetto ad una  SRAM che ne prende a sua volta di più rispetto ad una DRAM. di conseguenza queste richiedono anche più energia per funzionare.
 

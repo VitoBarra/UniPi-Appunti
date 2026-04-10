@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Memory Cache lookup
 ---
@@ -13,9 +11,9 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 In una cache completamente associativa  la ricerca si fa comparando l adress  con ogni entry della cache contemporaneamente restituisce il dato se combaciano
 
-![[9C3BA86D-23C1-4099-9291-930979363527.jpeg]]
+![[IMG - Memory Cache lookup 1.jpeg]]
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 4.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memory Cache lookup 2.png]]
 
 Questo è non pratico siccome ha bisogno di un comparatore ad ogni entry quindi scala male al  aumentare della dimensione della cache
 
@@ -23,9 +21,9 @@ Questo è non pratico siccome ha bisogno di un comparatore ad ogni entry quindi 
 
 Con una cache  a mappatura diretta a la ricerca si esegue hashando l indirizzo da cui prender il dato e comparandoli con la entry raggiunta con il valore del hash
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memory Cache lookup 3.png]]
 
-![[A4290F4B-BBE5-458A-B034-8980EC43EA0E.jpeg]]
+![[IMG - Memory Cache lookup 4.jpeg]]
 
 Questo per quanto sia veloce non è sempre pratico siccome può succerei Che più indirizzi hashano alla stessa posizione.
 
@@ -33,12 +31,12 @@ Questo per quanto sia veloce non è sempre pratico siccome può succerei Che pi�
 
 Con una cache set associative è una cache con più repliche di blocchi di cache, l entry viene ragniate con il valore hashato in tutte le repliche e in quel entry viene confrontato l indirizzo se combacia restituisce i il dato
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 2 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memory Cache lookup 5.png]]
 
-![[631C493D-589D-4F2A-A805-FD32D52C7B34.jpeg]]
+![[IMG - Memory Cache lookup 6.jpeg]]
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 3 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memory Cache lookup 7.png]]
 
 Questo sistema è un buon compromesso tra cache a mappatura diretta e una completamente associativa perché di essere quasi veloci come la prima  e utilizzando meno hardware della seconda.
 
-![[7A219756-106A-4D8C-AA0F-77B8A7A3B8F3.jpeg]]
+![[IMG - Memory Cache lookup 8.jpeg]]

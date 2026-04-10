@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Numeri binari  con segno
 ---
@@ -43,4 +41,4 @@ utilizare il complemente a due per esprimere i numeri ralaviti consiste nel util
 - sommando un numero negativo e uno positivo non si va mai in **overflow**
 - per rapresentare un numero con un numero $m$ di bit partendo da un numero gia rapresentato con $n$  bit bisogna estendere il segno mettendo i $m-n$  bit nuovi al valore del segno precedente questo si chiama estensione del sengo
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 6.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Numeri binari con segno.png]]

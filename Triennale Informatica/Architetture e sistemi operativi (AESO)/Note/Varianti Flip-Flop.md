@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Varianti Flip-Flop
 ---
@@ -14,7 +12,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 un flip-flop con abilitazione è un normale [[Flip-flop D]] con l aggiunta di un segnale che se falso ignora il segnale del CLK e non fa cambiare il valore de uscita finale. si può realizzare in più modi:
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 21.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Varianti Flip-Flop 1.png]]
 
 è utile se il valore va cambiato solo in specifici momento e non ad ogni giro di clock
 
@@ -25,7 +23,7 @@ un flip-flop resettabile è un normale [[Flip-flop D]] con un segnale che forza 
 - sincroni: resettano a 0 quando il fronte del clock sale
 - asincroni: resettano a 0 a prescindere dal clock
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 12.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Varianti Flip-Flop 2.png]]
 
 Flip-flop con reset attivo basso
 

@@ -1,5 +1,5 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags:
   - AESO
@@ -14,6 +14,6 @@ il latch D Come il [[Memorie - Latch RS|Latch RS]] è una rete bistrate e risolv
 
 facendo cosi la progettazione è più comoda e non adibiamo più gestire se attivare il SET o il RESET basta fargli il valore che vogliamo che venga salvato nel ingresso D, ha una temporizzazione controllata grazie ad un ingresso CLK che se è ALTO allora diventa trasparente  e valore della rete diventa D se invece è BASSO il Latch diventa opaco e il valore della rete non cambia  a prescindere da D, resta quello precedentemente salvato
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 24.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Memorie - Latch D.png]]
 
 in generale è un miglioramento della sua interfaccia e delle sue funzionalità

@@ -32,7 +32,7 @@ Esempi:
 
 realizzazione dei traslatori
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 10.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Traslatori e rotatori.png]]
 
 >[!info]
 >- traslare dei bit da sinistra significa moltiplicare il valore per $2^n$ 

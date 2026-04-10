@@ -10,9 +10,9 @@ Dispositivi per il mantenimento persistente di dati. Questi dischi sono formati 
 
  I settori sono tipichimante grandi 512 byte. I dischi sono organizzati a settori perché questi comprendano dei bit per il controllo dei gli errori. Questo permette di aumentare la banda di lavoro. Un un cerchi di settori si chiama track
 
-![[6E45A0F5-B760-4B92-BFE6-D4D3BFAAF40D.jpeg]]
+![[IMG - HardDisk Driver(HDD) 1.jpeg]]
 
-![[AC0332EB-0DF8-4984-B7E6-0B3DE7BF7426.jpeg]]
+![[IMG - HardDisk Driver(HDD) 2.jpeg]]
 
 To maximize sequential access speed, logical sector zero on each track is staggered from sector zero on the previous track by an amount corresponding to time it takes the disk to move the head from one track to another or to switch from the head on one surface to the head on another one. This staggering is called track skewing.
 

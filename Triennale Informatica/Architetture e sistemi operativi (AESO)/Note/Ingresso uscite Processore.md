@@ -1,13 +1,11 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Ingresso uscite Processore
 ---
 
 
-![[Untitled 24 1.png]]
+![[IMG - Ingresso uscite Processore.png]]

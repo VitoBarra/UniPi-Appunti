@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
-tags: AESO unfinished
+tags:
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Numeri Binari
 ---

@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Oblivious Scheduling
 ---
@@ -12,7 +10,7 @@ Prev: [[Architetture e sistemi operativi (AESO)]]
 
 è una politica di [[Scheduler|schedilung]] per il multyproccessore in cui si scegliere il task si utilizza il modello del MLF  e si trattano i singoli thread come se fossero entità separata quindi senza organizzare in nessun modo i thread per prendere vantaggio dei altri processori
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 17 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Oblivious Scheduling.png]]
 
 ## Carateristiche
 

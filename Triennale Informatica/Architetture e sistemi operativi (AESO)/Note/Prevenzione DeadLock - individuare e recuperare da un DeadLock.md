@@ -26,7 +26,7 @@ per individuare se c è un deadlock si può controllare quanto tempo sta passand
 
 un altro sistema quando c è una sola istanza di ogni risorsa è usare i grafi
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 1 2 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Prevenzione DeadLock - individuare e recuperare da un DeadLock.png]]
 
 se nel grafo che rappresenta i thread e le risorse c è un ciclo allora siamo in [[MultiThreading - DeadLock|deadlock]]. se le risorse sono multyistanza il ciclo diventa una condizione necessaria ma non sufficiente per essere in deadlock
 

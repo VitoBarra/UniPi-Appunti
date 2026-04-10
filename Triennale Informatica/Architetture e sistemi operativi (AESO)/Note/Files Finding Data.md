@@ -1,10 +1,8 @@
 ---
-Course: Architettura E Sistemi Operativi
+Course: "[[Architetture e sistemi operativi (AESO)]]"
 topic: nota
 tags: AESO
 ---
-
-Prev: [[Architetture e sistemi operativi (AESO)]]
 
 # Files Finding Data
 ---
@@ -19,6 +17,4 @@ requirement, implementations of files typically target five other goals:
 - Provide a place to store per-file metadata such as the file’s reference count, owner,
 access control list, size, and access time
 
-![[Untitled 47.png]]
-
-
+![[IMG - Files Finding Data.png]]

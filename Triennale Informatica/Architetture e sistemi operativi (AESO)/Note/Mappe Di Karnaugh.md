@@ -10,7 +10,7 @@ le mappe di _Karnaugh_ servono a semplificare le [[Espressioni Booleane]] con un
 
 una mappa è una griglia circolare dove ogni spostamento di una riga o colonna corrisponde ad un cambiamento di una sola variabile la prima colonna è adiacente al ultima come la prima riga lo è con l ultima.
 
-![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/Untitled 13 1.png]]
+![[UniPi-Appunti/Triennale Informatica/Architetture e sistemi operativi (AESO)/Media/IMG - Mappe Di Karnaugh.png]]
 
 regole per trovare l espressione prima partendo da un mappa di Karnaugh
 
