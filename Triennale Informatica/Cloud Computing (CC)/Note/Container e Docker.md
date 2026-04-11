@@ -11,7 +11,7 @@ tags:
 ### Cointainer 
 un __container__ è un modo per fare virtualizzazione dei sistemi operativi in sostituzione a gli Hypervisor. in particolare si installa il Container Manager.
 
-![[IMG_0517.jpeg]]
+![[IMG - Container e Docker architettura dei container.jpeg]]
 funzionano perché sfruttano la capacita del [[Sistemi Operativi|OS]] linux di fa convivere più istanze User-space isolate. 
 questo porta ai _vantaggi_ dei container che sono:  
 - Piu leggeri ed efficienti in termini di velocità e memoria
@@ -45,7 +45,7 @@ le componenti del software come il software che si sta sviluppando e tutte le su
 	- il piu basso viene chiamato _base image_
 	- i container avviati possono  scrivere solo nel Top Layer di questa composizione, queste modifiche possono essere salvate creando una nuova imagine 
 	 
-![[IMG_0518.jpeg]]
+![[IMG - Container e Docker livelli di isolamento.jpeg]]
 
 ###  Comandi Docker
 per costruire delle imagini si utilizza il _DockerFile_. 
@@ -100,11 +100,11 @@ Docker compose command:
 
 ### Docker Sworm
 docker possiamo mandarlo in _sworm mode_ ovvero  una modalità che gestisce dei cluster di docker host chiamati _Swarm_
-![[IMG_0519.jpeg]]
+![[IMG - Container e Docker swarm mode cluster.jpeg]]
 - i nodi dello Sworm possono funzionare come manager delegando task a i workers che eseguiranno quel task
 - si puo definire lo stato desiderato e il numero di task che devono essere eseguiti da ogni servizio
 - i nodi di _swarm manager_ assegnano ad ogni _nodo_ un nome [[Livello Applicativo - DNS|DNS]] e fa bilanciamento del carico di lavoro tra i nodi
 - i nodi di _swarm manager_ monitorano lo stato del cluster e cercano di colmare la differenza tra lo stato attuale del cluster e quello _dichiarato_
 	- un esempio è se dichiariamo di avere 10 servizi attivi di un immagine e ne cade una. i nodi _manager_ provvederanno ad avviare una nuova istanza 
-![[IMG_0521.jpeg]]![[IMG_0520.jpeg]]
+![[IMG - Container e Docker swarm declarative approach 2.jpeg]]![[IMG - Container e Docker swarm declarative approach 1.jpeg]]
 questo approccio si chiama _Declarative approach_

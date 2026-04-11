@@ -23,16 +23,16 @@ una semplificazione rispetto al [[Infrastructure As A Service(Iaas)|iaas]] sicco
 ## AWS Lambda
 
 #### Pricing
-![[IMG_0522.jpeg]]
+![[IMG - Function As A Service pricing.jpeg]]
 
 ### Mercato del FaaS
-![[IMG_0523.jpeg]]
+![[IMG - Function As A Service mercato FaaS.jpeg]]
 dai dati non si puo estrapolare se nasceranno player che domineranno il mercato 
 
 
 ### Scelta di un servizio FaaS
 tra le tante alternative di servizio fasi ci sono 
-![[IMG_0524.jpeg]]
+![[IMG - Function As A Service piattaforme disponibili.jpeg]]
 sono divise in due categorie e vengono con vantaggi e svantaggi.
 
 per la scelta di un servizio FaaS bisogno tenere in conti due tipi di visione sui motivi 
@@ -41,38 +41,38 @@ per la scelta di un servizio FaaS bisogno tenere in conti due tipi di visione su
 - _Licensing_
 	- tutte le piattaforme open-source usano una licenza permissiva 
 	- tutte le piattaforme properitarie usano una licenza proprietaria con eccezionale di microsoft che rilascia dei componenti come open-source
-![[IMG_0525.jpeg]]
+![[IMG - Function As A Service confronto licenze e installazione.jpeg]]
 - _Installation_
 	- tra le piattaforme commerciali solo Azure ha delle parti installabili
 	- le piattaforme installabili supportano piu host 
-![[IMG_0526.jpeg]]
+![[IMG - Function As A Service confronto host e sorgente.jpeg]]
 - _Source code_
 	- tutte le alternative open-source sono hostate su GitHub e la maggior parte di loro sono implementate in go
 	- Azure è l unica piattaforma commerciale che è parzialmente open-source 
-![[IMG_0527.jpeg]]
+![[IMG - Function As A Service confronto interfacce.jpeg]]
 - _Interface_
 	- tutte le piattaforme hanno una CLIs, mentre le API e la GUI non lo sono sempre
 	- le piattaforme open-source ha interfacce molto varie
-![[IMG_0528.jpeg]]
+![[IMG - Function As A Service confronto community.jpeg]]
 - _Community_
 	- le piattaforme open-source hanno un numero di stelle e issue su github grande il che ci fa pensare ad un vasto utilizzo
 	- le domande su stack overflow su i sistemi commerciali sono nettamente superiori il che denotano un _adattamento superiore_, il che è un grande vantaggio per la risoluzione di problemi
-![[IMG_0529.jpeg]]
+![[IMG - Function As A Service confronto documentazione.jpeg]]
 - _Documentation_
 	- tutte le piattaforme forniscono documentazione sul deployment e sul uso della piattaforma
 	- non tutte su sviluppo e architettura 
-![[IMG_0530.jpeg]]
+![[IMG - Function As A Service confronto strumenti di sviluppo.jpeg]]
 
 ### Visione Tecnica
 - _Development_: i linguaggi supportati
 	- JAva, Node.js e Python sono quelli piu supportati, in piu è supportato docker
 	- plugin per IDEs sono solitamente offerti solo da piattaforme commerciali
-![[IMG_0531.jpeg]]
+![[IMG - Function As A Service confronto version management.jpeg]]
 - _Version management_
 	- la maggior parte dei sistemi Open-source provvedono ad un controllo versione *I*mplicito mentre rispetto ad uno *D*edicato
 		- _implicito_: utilizza versione come parte della funzione o nomi del applicazione o namespace 
 		-  _Dedicato_: il classico versionamento alla git
-![[IMG_0533.jpeg]]
+![[IMG - Function As A Service event sources.jpeg]]
 - _Event sources_
 	- tutte le piattaforme supportano l invocazione di funzione _sincrone_ e basse su [[Livello Applicativo - HTTP|HTTP]]. mentre le chiamata _Asincrone_ sono supportate da poche piattaforme
 	- molte delle piattaforme open-source non supportano gli eventi di _data storage_
@@ -80,17 +80,17 @@ per la scelta di un servizio FaaS bisogno tenere in conti due tipi di visione su
 	- la maggior parte della piattaforme supportano aventi _custom_
 - _Function orchestration_
 	- molte delle piattaforme FaaS permettono di fare orchestrazione ovvero di decidere il _work flow_ delle funzioni. definendo ordine 
-![[IMG_0532.jpeg]]
+![[IMG - Function As A Service orchestrazione testing e debugging.jpeg]]
 - _Testing and debugging_
 	- la maggior parte delle piattaforme supportano funzioni di [[Testing|testing]] e debug
 	- piattaforme commerciali offrono sistemi piu sofisticati. mentre quelle open-source si basano principalmente su _test calls_ e _log-based debugging_
 - _Observability_
 	- le piattaforme offrono servizi per monitorare lo stato le funzioni e fare login quelle commerciali hanno solitamente tool proprietari mentre gli open-source utilizzano tool di terze parti  
-![[IMG_0536.jpeg]]
+![[IMG - Function As A Service monitoring e logging.jpeg]]
 - _Application delivery_
 	- la maggior parte delle piattaforme usano un aproccio dichiarativo
 	- piattaforme commerciali supportano nativa mente CI/CD ovvero _continuos integration_ e _Continuos Delivery_ mentre le open-source solitamente non lo fanno
-![[IMG_0537.jpeg]]
+![[IMG - Function As A Service application delivery e code reuse.jpeg]]
 - _Code reuse_:
 	- Solo le funzioni AWS lambda e MS Azure  sono accompagnate da un mercato di funzioni 
 - _Access management_:

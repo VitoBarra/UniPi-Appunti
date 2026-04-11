@@ -92,16 +92,16 @@ sono fatti per far sentire bene il cliente, ovvero sono scritte in modo che semb
 _Overprovisioning_: si allocano più risorse di quelle effettivamente necessarie. solitamente si crea questa situazione quando si stima la _richiesta_ di risorse del sistema al picco delle domande degli utente  e si allocano le risorse per quella domanda, questo porta a sprechi se la stima è corretta e peggio ancora se si è fatta una sovrastima 
 - Risorse possono essere di qualsiasi tipi: hardware, di rete e cosi via 
 un allocazione eccessiva di risorse ci porta a _sprechi di capitarle_
-![[IMG_0511.jpeg]]
+![[IMG - Cloud computing Introduzione overprovisioning spreco di risorse.jpeg]]
 
 _Underprovisioning_: Si allocano meno risorse di quelle effettivamente necessarie ciò porta a non sprecarle ma a delle conseguenze più _difficili da misurare_ 
 - l Underprovisioning porta a _rifiutare_ gli utenti in eccesso e questo porta non solo ad utenti che non fruttano ma questi potrebbero anche _non tornare mai_
-![[IMG_0512.jpeg]]
+![[IMG - Cloud computing Introduzione underprovisioning rifiuto degli utenti.jpeg]]
 
 
 ### Service Models
 esempio di cosa significa la scala da qualcosa che gestisci e possiedi e ciò che otteniamo con un servizio 
-![[IMG_0513.jpeg]]
+![[IMG - Cloud computing Introduzione scala da possesso a servizio.jpeg]]
 sigle di modelli che virtualizzano cose 
 1. _[[Infrastructure As A Service(Iaas)|Infrastructure As A Service]]_(_Iaas_) : 
 	- provvede a dare un infrastruttura virtualizate come, server, storage e networking.  
@@ -121,7 +121,7 @@ sigle di modelli che virtualizzano cose
 
 
 ### Deployment Models
-![[IMG_0514.jpeg]]
+![[IMG - Cloud computing Introduzione deployment models.jpeg]]
 1. _Private_: 
 	- Controllo totale sui dati. sensato per un discorso della sicurezza dei dati
 	- Scarsa calabilità

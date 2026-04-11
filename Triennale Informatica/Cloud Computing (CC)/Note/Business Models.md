@@ -12,10 +12,10 @@ tags:
 ---
 un _Business model_ descrive razionalmente come un organizzazione, crea, consegna e cattura _Valore_
 
-![[IMG_0545.jpeg]]
+![[IMG - Business Models definizione di business model.jpeg]]
 ## Business canvas
 per rappresentare un business model si utilizzano le business canvas
-![[IMG_0546.jpeg]]
+![[IMG - Business Models business model canvas.jpeg]]
 - _Value Proposition_: descrive il gruppo di prodotto e di servizi che creano valore per uno specifico _customer segment_
 - _Customer segment_: definisce il gruppo di persone o organizzazione che l azienda intende servire
 - _Customer Relationships_: descrive che tipo di relazione la compagnia crea con uno specifico _custom sergment_
@@ -31,7 +31,7 @@ per rappresentare un business model si utilizzano le business canvas
 
 ## Freemium
 Il freemium è un modello di bussines. la parola deriva dalla contrazione di due parole _Free_ e _Premium_
-![[IMG_0547.jpeg]]
+![[IMG - Business Models freemium.jpeg]]
 l idea di base si basa su i concetti di 
 - offro un servizio gratuito per la maggior parte dei clienti 
 - offro un servizio migliore per chi è disposto a pagare 
@@ -47,5 +47,5 @@ molte della grandi aziende di oggi sono nate rispondendo alle domande “What if
 E cosi via
 
 Partendo da business gia avviati se ne possono creare degli altri casi 
-![[IMG_0548.jpeg]]
+![[IMG - Business Models evoluzione da business esistenti.jpeg]]
 

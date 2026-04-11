@@ -12,7 +12,7 @@ originariamente è stato introdotto con uno _stile architetturale_, sviluppato c
 
 l idea di base risiede nel 
 - Ogni azione risulta nella transizione al prossimo stato del applicazione, con il trasferimento di una rappresentazione di quello stato al utente
-- ![[IMG_0549.jpeg]]
+- ![[IMG - REST API principi REST.jpeg]]
 1. _Risorse identificate tramite [[WWW - Word Wide Web#Uniform resource Identifier (URI)|URIs]]_
 	- _Servizi_ esposti come insieme di risorse indentificate da URIs
 2.  _interfaccia uniforme_
@@ -33,8 +33,8 @@ l idea di base risiede nel
 ## OpenAPI
 l iniziativa OpenAPI punta a creare una descrizione  Di REST API standardizzata e neutrale rispetto ai venditori. 
 - un semplice linguaggio di descrizione per specificare HTTP API e endpoint, come questi sono usati e la struttura dei dati che entrano ed escono
-![[IMG_0550.jpeg]]
+![[IMG - REST API e OpenAPI specifica OpenAPI.jpeg]]
 
-![[IMG_0551.jpeg]]
+![[IMG - REST API e OpenAPI esempio OpenAPI 1.jpeg]]
 
-![[IMG_0553.jpeg]]
+![[IMG - REST API e OpenAPI esempio OpenAPI 2.jpeg]]

@@ -32,12 +32,12 @@ tutti i procedimenti sono automatiche. basta dare i dati in input e sarà Heroku
 - fetcha i Buildpack, i [[Macchina Astratta|language runtime support]] e code dependencies
 - produce una Slug. ovvero un pacchetto con codice e dependency che sarà messo in un Dyno per far girare l app
 
-![[IMG_0541.jpeg]]
+![[IMG - Heroku build pipeline.jpeg]]
 
 
 #### Runtime
 dopo aver prodotto lo _Slug_ creare uno o piu Dyno, uno per istanza del applicazione e gestisce l’ esecuzione di essi
-![[IMG_0542.jpeg]]
+![[IMG - Heroku slug e dyno.jpeg]]
 - l applicazione receive la richiesta
 - questa è consegnata al web dyno
 - la richiesta viene messa in coda
@@ -45,11 +45,11 @@ dopo aver prodotto lo _Slug_ creare uno o piu Dyno, uno per istanza del applicaz
 
 #### Dyno Type
 
-![[IMG_0543.jpeg]]
+![[IMG - Heroku tipi di dyno.jpeg]]
 1. i Dyno standard supportano la _scalabilità_. ma questa va richiesta manualmente
 2. i Dyno Performance supportano l _auto scaling_.
 ##### Pricing
-![[IMG_0544.jpeg]]
+![[IMG - Heroku pricing.jpeg]]
 non c è piu free tier
 
 #### Add-Ons

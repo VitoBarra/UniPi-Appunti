@@ -36,7 +36,7 @@ lo _stato_ è definito come una collezione di oggetti
 	- se un oggetto ha lo stato diverso da quello disiderato k8s eseguirà i rispettivi comando per risolvere il problema 
 #### Distribuzione
 k8s procede a unificare l interfaccia per l interazione tra _cluster di macchina_
-![[IMG_0564.jpeg]]
+![[IMG - Kubernetes interfaccia unificata del cluster.jpeg]]
 #### Disaccoppiamento 
 k8s funziona molto bene con le architettura a [[Microservices|microservizi]]. supporta nativamente l’idea di [[Principi di progettazione e qualità di un progetto#Disaccoppiamento|decoupled service]] quindi ogni funzionalità può essere modificata e scalata indipendentemente
 
@@ -48,27 +48,27 @@ le modifiche di stato dei _container_ devono essere fatte tramite [[Volumi|volum
 
 #### Manifest
 il file di dichiarazione dello stato di kubernetes è chiamato _manifest_ ed è una collezione di oggetti Chiamati _Pod_ (branco)
-![[IMG_0565.jpeg]]
+![[IMG - Kubernetes manifest e pod.jpeg]]
 questo consistono in 
 - uno o più container tra loro connessi
 - un network layer condiviso
 - Volume Condiviso
 
 una collezione di _pod_ è detta _Deployment_
-![[IMG_0566.jpeg]]
+![[IMG - Kubernetes deployment.jpeg]]
 un _Deployment_ Specifica i vari pod e il numero di repliche associate a quel pod 
-![[IMG_0567.jpeg]]
+![[IMG - Kubernetes deployment e repliche.jpeg]]
 
 ad ogni pod è assegnato un [[Livello di rete - IP|IP]] unico che si può usare per comunicare con esso
 
 Siccome gli esatti pod possono cambiare velocemente per via di rescaling o fallimenti dei pod, k8s offre un _Servizio_ che è un endpoint stabile che si occupera di direzionare il traffico al pod desiderato. anche se questo è cambiato nel frattempo.
 - il servizio conosce a quale _pod_ dove mandare il traffico grazie a delle associazione i chiavi valori definite nei metadata.
-![[IMG_0568.jpeg]]
+![[IMG - Kubernetes service e metadata labels.jpeg]]
 
-![[IMG_0569.jpeg]]
+![[IMG - Kubernetes ingress.jpeg]]
 gli oggetti _ingress_ è un oggetto che fornisce un _endPoint_ stabile per rendere accessibile l applicazione al esterno.
-![[IMG_0571.jpeg]]
-![[IMG_0572.jpeg]]
+![[IMG - Kubernetes ingress endpoint stabile 1.jpeg]]
+![[IMG - Kubernetes ingress endpoint stabile 2.jpeg]]
 
 
 ### K8S control plane 
@@ -87,32 +87,32 @@ _etcd_ questo contiene
 - object statuses
 - nodi sul cluster
 - assegnamento oggetto-nodo 
-![[IMG_0574.jpeg]]
+![[IMG - Kubernetes scheduler assegnamento oggetto nodo.jpeg]]
 
 
 lo _scheduler_ del master node determina dove l dovrebbe essere messo in esecuzione. questo
 - chiede al API server quali oggetti non sono ancora stati assegnati alle macchine
 - determina a quali macchine questi oggetti dovrebbero essere assegnati
 - comunica al API Server lo stato degli assegnamenti 
-![[IMG_0575.jpeg]]
+![[IMG - Kubernetes scheduler stato degli assegnamenti.jpeg]]
 
 il _Controller-Manager_ monitora lo stato del cluster tramite le API server
 - ha il compito di controllare Se lo stato dichiarato coincide con lo stato del cluster
 - lo fa facendo richieste al API server
-![[IMG_0576.jpeg]]
+![[IMG - Kubernetes controller manager richieste API server.jpeg]]
 #### WorkerNode
 
 il _kublet_ è un componente del nodo worker che
 - agisce come l agente del nodo e comunica al API Server re sapere se del workLoad è stato assegnato a quel worker
 - è responsabile di avviare pod per far eseguirei quel workload 
 quando un nodo inizialmente si aggiunge al _cluster_ kubelet comunica la sua esistenza al master node in modo che gli possa essere assegnato un workload
-![[IMG_0577.jpeg]]
+![[IMG - Kubernetes worker node e kubelet.jpeg]]
 
 il _kube-Proxy_ permette ai container di comunicare tra di loro attraverso i vari nodi sul _cluster_
-![[IMG_0578.jpeg]]
+![[IMG - Kubernetes kube proxy.jpeg]]
 
 
 ## Confronto con [[Container e Docker|docker]]
-![[IMG_0579.jpeg]]
+![[IMG - Kubernetes confronto con Docker.jpeg]]
 
 

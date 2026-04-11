@@ -31,7 +31,7 @@ tags:
 		- più basso  _rapporto di consolidamento_
 			- il sistema operativo originale gia occupa una parte dello spazio limitando la capacita utilizzabile dal _Hypervisor_
 		- utile quando l Hypervisor non è l unica applicazione su una macchina 
- ![[IMG_0516.jpeg]]
+ ![[IMG - Infrastructure As A Service hypervisor tipo 2.jpeg]]
 
 ### Amazon Elastic Computer Cloud (EC2)
 

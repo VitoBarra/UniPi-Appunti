@@ -9,7 +9,7 @@ tags:
 ---
 ## Cos è il PaaS
 la infrastruttura e la piattaforma sono gestite direttamente al cloud mentre al utente resta da gestire solo l applicazione e di dati  
-![[IMG_0538.jpeg]]
+![[IMG - Platform As A Service gestione di infrastruttura e piattaforma.jpeg]]
 - Il provider da HW e SW per lo svilluppo 
 - l utente gestisce solo l applicazione e i dati 
 	- _Vantaggi_:
@@ -26,8 +26,8 @@ la infrastruttura e la piattaforma sono gestite direttamente al cloud mentre al 
 
 
 ## Mercato PaaS
-![[IMG_0539.jpeg]]
-![[IMG_0540.jpeg]]
+![[IMG - Platform As A Service mercato PaaS 1.jpeg]]
+![[IMG - Platform As A Service mercato PaaS 2.jpeg]]
 
 ### Che vantaggi danno i PaaS
 forniscono una piattammo per lo sviluppo dove tutti è gia pronto e gestito delegando molte delle parti che dovremmo gestisci noi come sviluppatori al cloud.

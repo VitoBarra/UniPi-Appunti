@@ -17,7 +17,7 @@ si parla di _Internet of Things(IoT) + cloud_. ovvero
 #### Strutture classiche
 __IoT + Edge__: ovvero infrastrutture dove c era bisogno di costruire vicino a la sensoristica anche il piccolo data center per l elaborazione dei dati
 __IoT + cloud__: stessa struttura dove L IoT ha la se ma l elaborazione viene fatta in cloud 
-![[IMG_0580.jpeg]]
+![[IMG - Cloud Edge Continuum IoT piu cloud.jpeg]]
 
 
 
@@ -26,11 +26,11 @@ Cerca di prendere il meglio dei due mondi di _IoT+Edge_ e _IoT+Cloud_  cercando 
 - piu computing power
 - piu connettivita
 - meno latenza 
-![[IMG_0581.jpeg]]
-![[IMG_0582.jpeg]]
+![[IMG - Cloud Edge Continuum vantaggi edge 1.jpeg]]
+![[IMG - Cloud Edge Continuum vantaggi edge 2.jpeg]]
 
 ##### Problematiche dei Edge-Cloud continuom 
-![[IMG_0583.jpeg]]
+![[IMG - Cloud Edge Continuum problematiche.jpeg]]
 
 
 il fatto che l infrastruttura sia molti dinamica puo essere molto problematico per via della difficoltai gestione 
@@ -43,9 +43,9 @@ i parametri sono
 - la qualità del servizio che puo essere garantita
 - il consumo di risorse
 - e la sicurezza del nodo 
-![[IMG_0585.jpeg]]
+![[IMG - Cloud Edge Continuum sicurezza del nodo.jpeg]]
 per questo piazzamento ci d sono diversi approccio da considerare 
-![[IMG_0586.jpeg]]
+![[IMG - Cloud Edge Continuum approcci di piazzamento.jpeg]]
 
 - _MILP_: si fomalizza il problema come un problema di [[Programmazione lineare]] e si risolve con l [[Algoritmo del Simplesso|Algoritmo del Simplesso]].
 	-  Trova l _ottimo_ ma puo richiedere molto tempo
@@ -64,11 +64,11 @@ L approccio dichiaravativo funziona come una lista di requisiti e poi si lascia 
 
 
 Si utilizzano la [[Definizione di Probabilita|probabilita]] per modellare _la dinamicita del infrastruttura_    
-![[IMG_0587.jpeg]]
+![[IMG - Cloud Edge Continuum dinamicita dell infrastruttura.jpeg]]
 il problema della _Trust_ non è [[Funzione Monotona|Monotona]]
 
 ### Monitoring e Sostituzione
 controllando i fari servizzi potrebbe risuccedere che i servizzi debbano essere rispostati
 
 per fare rifare il ripiazzamento si utilizza il _cotinuo risoning_ ovvero dopo il piazzamento si controlla solo il [[Microservices|servizio]] che da problemi e si rimpiazza solo quello 
-![[IMG_0588.jpeg]]
+![[IMG - Cloud Edge Continuum continuous reasoning.jpeg]]

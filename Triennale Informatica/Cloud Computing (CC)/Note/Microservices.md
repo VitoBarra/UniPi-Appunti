@@ -25,7 +25,7 @@ l architettura senza i  micro servizi si basa su una singola applicazione _Monol
 - eseguire la logica del server
 - Query al database. 
 - invia _HTMl view_ al client
-![[IMG_0554.jpeg]]
+![[IMG - Microservices monolite con HTML view.jpeg]]
 ma questo ha dei Contro
 - cambiare piccole parti dell applicazione richiedere il _rebuilding_ e il _redeploying_ del intero monolita
 - fare _Rescaling_ richiedere fi farlo per tutto l applicazione monolitica e non solo sulle parti su cui sarebbe necessario 
@@ -45,9 +45,9 @@ le applicazioni vengono sviluppate come un set di servizi _stateless_
 		- i servizzi sono indipendenti e possono essere scritti in qualsiasi linguaggio. si puo scegliere il piu _adatto_
 #### 2. organizza i servizzi intorno a alle capacita del busines
 - la struttura del software spesso gira in torno a come è organizzata l azienda e un altro paradigma dello svilluppo a _microservizi_ e passare da un modello comparti  ad uno a _team_ cosi che ogni servizio sia indipendente e self-contained
-- ![[IMG_0555.jpeg]]
+- ![[IMG - Microservices organizzazione a team.jpeg]]
 - un altro problema del monolita è la presenta di _Chord_. ovvero dipartimenti che hanno bisogno di comunicare e quindi dipendenza 
-- ![[IMG_0556.jpeg]]
+- ![[IMG - Microservices chord e dipendenze.jpeg]]
 - ogni _Chord_ represents un delay
 
 ##### Convertire un sistema monolite in microservizi
@@ -97,25 +97,25 @@ per replicare un dato aggiornato in n nodi
 #### 4. servizi indipendentemente Deployabili 
 - avere un organizations a servizzi ci permette di poter spegnere ed aggiornare solo la parte che dobbiamo aggiornare senza dover interrompere l attivita di tutti gli altri servizzi 
 - in piu se uno si ferma si puo riavviare velocemente senza interrompere tutti gli altri 
-- ![[IMG_0557.jpeg]]
+- ![[IMG - Microservices resilienza al riavvio dei servizi.jpeg]]
 	- il servizio giallo e quello che viene interroto (volontariamente o involontariamente)
 #### 5. Servizi orizzontalmente Scalabili 
 - La scalabilità orizzontale significa che posiamo _moltiplicare_ (Spawning) un servizio indipendentemente da gli altri. e con le adeguate tecniche di comunicazione come ad esempio una cosa asincrona tutto funziona normalmente senza che gli altri servizzi sappiano di questa modifica
-![[IMG_0558.jpeg]]
+![[IMG - Microservices scalabilita orizzontale.jpeg]]
 
 ##### Horizontal scaling vs Vertical Scaling 
-![[IMG_0559.jpeg]]
+![[IMG - Microservices horizontal scaling vs vertical scaling.jpeg]]
 #### 6. Servizi resistenti Ai fallimenti
 tutti i sistemi prima o poi incontreranno un _fallimento_ .
 possono esserci anche casi piu gravi come i fallimenti in cascata. nei casi cui dei servizi dipendono dalla risposta di altri. 
 
 alcuni modi per risolvere questo problema sono isolare gli errori utilizzando dei serve [[Design pattern - Proxy|Proxy]] 
-![[IMG_0560.jpeg]]
+![[IMG - Microservices circuit breaker.jpeg]]
 questi proxy vengono chiamati _circuit breaker_ e permette di isolare i fallimenti. pero questo ha un costo mettendo un indirizzino si allungano i tempi di attesa.
 
 ###### Chaos monkey
 Chorus monkey è un sistema che chiude randomicamente dei [[Container e Docker|container]]. questo puo essere utile per testare la resilienza a gli errori 
-![[IMG_0561.jpeg]]
+![[IMG - Microservices chaos monkey.jpeg]]
 
 
 ### Figura DevOps
@@ -124,5 +124,5 @@ Gestisce sia lo sviluppo del applicazione che la gestione del suo RunTime. segue
 
 
 ## Conclusion 
-![[IMG_0562.jpeg]]
-![[IMG_0563.jpeg]]
+![[IMG - Microservices conclusioni 1.jpeg]]
+![[IMG - Microservices conclusioni 2.jpeg]]
