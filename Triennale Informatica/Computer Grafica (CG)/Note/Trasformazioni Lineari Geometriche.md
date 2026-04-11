@@ -26,7 +26,7 @@ questa operazione puo essere
 - __Isotropica__: _uniforme_ se $s_x=s_y$ 
 - __Anisotropica__: ovvero _non uniforme_ se $s_{x} \neq s_{y}$ 
 con una trasformazione _uniforme_ si _mantengono_ le proporzioni mentre un uno _non uniforme_ no 
-![[IMG_0729.jpeg]]
+![[IMG - Trasformazioni Lineari Geometriche 1.jpeg]]
 
 ##### Rotazioni
 una _rotazione_ è una [[Applicazioni affini|trasformazione affine]] ed è la rotazione un punto nello spazio seguendo la formula $$R_{\alpha}(\boldsymbol{p})=\begin{bmatrix}
@@ -54,7 +54,7 @@ p_{y}’ & = & \rho \sin(\beta+\alpha) \\
 \end{matrix}
 $$
 concludendo cosi la dimostrazione
-![[IMG_0730.jpeg]]
+![[IMG - Trasformazioni Lineari Geometriche 2.jpeg]]
 
 
 
@@ -67,7 +67,7 @@ h & 1  \\
 \end{bmatrix}\boldsymbol{p}=\begin{bmatrix}p_{x}+kp_{y}\\h p_{x}+p_{y}
 \end{bmatrix}$$
 
-![[IMG_0733.jpeg]]
+![[IMG - Trasformazioni Lineari Geometriche 3.jpeg]]
 
 >[!tip]
 > lo sharing puo essere ottenuto anche da uno _scaling non uniforme_ e da una _rotazione_ 

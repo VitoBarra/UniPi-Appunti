@@ -17,7 +17,7 @@ __Sia__
 - $\mathcal{V}= \{ v_i \in \mathbb{R}^{3}\mid i=1\dots N_v \}$ un [[Insiemi Matematici|insieme]] di vertici (punti in $\mathbb{R}^3$)
 - $\mathcal{K} \subset \mathcal{V} \times \mathcal{V}$ un insieme di adiacenza tra vertici, ovvero come questi sono connessi
  __Allora__ la tupla $(\mathcal{V,K})$ é una __Mesh poligonale__ indicata con $\mathcal{M}$ 
-![[Pasted image 20240220020323.png]]
+![[IMG - Mesh Poligonali 1.png]]
 Considerando una mesh possiamo discriminare $2$ aspetti fondamentali:
 - __Realizzazione Geometrica__: dove ogni vertice è posizionato in uno spazio, anche detta parte **geometrica, continua**.
 - __Caratterizzazione Topologica__ : come gli elementi sono combinatoriamente connessi, anche detta parte **combinatoria, discreta**.
@@ -32,7 +32,7 @@ border vertex: i vertici di un border edge
 
 __Mesh chiusa__: una mesh senza border edges
 __Mesh aperta__: una mesh con border edges.
- ![[Pasted image 20240220205524.png]]
+ ![[IMG - Mesh Poligonali 2.png]]
 
 
 
@@ -41,19 +41,19 @@ __Mesh aperta__: una mesh con border edges.
 i triangoli di una mesh $\mathcal{M}$ possono essere orientati in due modi diversi, orario e anti-orario. 
 per scegliere l'orientamento basta guardare l ordine di specifica dei vertici nel insieme di connettività $\mathcal{K}$ .
 due triangolo adiacenti che condividono dei vertici se hanno lo stesso orientamento dovranno avere l ordine di specifica dei vertici inverso 
-![[Pasted image 20240220204312.png]]
+![[IMG - Mesh Poligonali 3.png]]
 un 2-manigolf ha tutte le facce orientate nello stesso modo.
 
 Non tutte le mesh si possono orientare e queste sono dette mesh con un solo lato. 
-![[Pasted image 20240220203830.png]]
+![[IMG - Mesh Poligonali 4.png]]
 
 
 
 #### Risoluzione di una mesh
 una Mesh piu ha facce piu questa ha __Risoluzione__ alta, bisogna fare un trade off tra la qualità della rappresentazione del oggetto e le performance siccome avere piu facce significa dover fare piu calcoli.
-![[Pasted image 20240220032636.png]]
+![[IMG - Mesh Poligonali 5.png]]
 La __Risoluzione__ puo essere adattiva usando usando gli adeguati [[Indici spaziali|indici spaziali]] si puo rappresentare lo stesso oggetto usando piu o meno facce in porzioni diversi della stessa mesh a seconda della necessita di dettaglio.
-![[Pasted image 20240220035133.png]]
+![[IMG - Mesh Poligonali 6.png]]
 
 
 #### Ottimizzazione sulla rappresentazione 
@@ -69,7 +69,7 @@ una __Strip di vertici__ é una sequenza di _vertici ordinati_ che rappresentano
 un __Fan di vertici__ é una sequenza di vertici adiacenti tra loro che condividono sempre un vertice, ogni triangolo $i$ é rappresentato come $\{ v_0,v_{i+1},v_{i+2} \}$ con $v_0$ il vertice condiviso
 
 per una __strip__ e per un __fan__ di $m$ triangoli il numero di vertici [[Statistica descrittiva - Dati Numerici#Media (definizione)|medio]] $\overline{v_t}$ per rappresentare un triangolo é $$\overline{v_t}=\cfrac{\sum^{m-1}_{i=1}1+3}{m}=\cfrac{m-1+3}{m}=1+\cfrac{2}{m} $$ e quindi per rappresentare $m$ triangoli servono $m+2$ vertici
-![[Pasted image 20240220022932.png]]
+![[IMG - Mesh Poligonali 7.png]]
 
 
 

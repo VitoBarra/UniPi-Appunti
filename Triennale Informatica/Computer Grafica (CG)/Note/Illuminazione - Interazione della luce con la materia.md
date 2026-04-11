@@ -23,16 +23,16 @@ per la natura della [[Onde|luce]] questa viene rappresentata come un raggio che 
 ### Ray optics
 In generale abbiamo che la luce che arriva alla camera puo provenire da diversi effetti come la luce __riflessa__ e luca __rifratta__ 
 la luce riflessa è composta da __luce diffusa__ $L_{diffuse}$ e __luce speculare__ $L_{pecular}$ e abbiamo quindi $$L_{\text{reflected}} = L_{\text{diffuse}}+L_{\text{specular}}$$e sommandola alla luce __refratta__ abbiamo che la luce totale è $$L_{\text{outgoing}}=L_{\text{reflected}}+L_{\text{refracted}} = L_{\text{diffuse}}+L_{\text{specular}}+L_{\text{refracted}}$$
-![[Pasted image 20240227183956.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 1.png]]
 #### Luce Riflessa 
 ##### Luce Diffusa
 la __Luce diffusa__ è una componente della __luce riflessa__. La quantità di luce riflessa sarà uguale in ogni direzione e questa cosa è indipendente dalla direzione di incidenza della luce. 
 una [[Superfice lambertiana|superfice lambertiana]] riflette  solo per __diffusione__  e quindi apparirà illuminato allo stesso modo in tutte le direzioni ovvero in modo __uniforme__
-![[Pasted image 20240227184013.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 2.png]]
 la quantità di luce totale diffusa da una _superfice_ dipende dal inclinazione della luce incidente rispetto alla superfice, siccome questo determina la quantità di luce che raggiunge il punto che  riflette. 
 è massima quando la luce è [[Rette perpendicolari|perpendicolare]] alla superfice e [[Rette Parallele|parallela]] alla [[Normale di una superfice parametrica|norma]] e minima il contrario o se la luce viene da dietro l oggetto
-![[Senzanome 1.png]]
-![[coseno giu.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 3.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 4.png]]
 abbiamo quindi che 
 _sia_
 - $L_{\text{incident}}$ la quantità di luce incidente
@@ -48,9 +48,9 @@ la quantità di __luce speculare__ dipende sia dal inclinazione della luce incid
 infatti quando una superfice riflette specularmente avremo che l illuminazione cambierà a seconda della direzione in cui guardiamo la superfice.
 
 Una superfice ideale per la riflessione speculare riflette la luce con lo stesso angolo rispetto di quella della luce incidente rispetto alla normale , i casi dove la riflessione non è ideale la riflessione avviene anche per diffusione   
-![[Pasted image 20240227184035.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 5.png]]
 per calcolare la direzione di riflessione $R$ si puo utilizzare la formula $$R=2\boldsymbol{N}(\boldsymbol{N}\cdot \boldsymbol{L})-\boldsymbol{L}$$e questa si ottiene geometricamente utilizzando le [[Triangoli|proprieta dei triangoli]]
-![[Pasted image 20240227184047.png]]
+![[IMG - Illuminazione - Interazione della luce con la materia 6.png]]
 
 #### Rifrazione
 la __Rifrazione__ è un fenomeno che accade quando una parte della luce non viene riflessa e passa attraverso il materiale
@@ -62,7 +62,7 @@ _sia_
 - $\theta_{1}$ l angolo tra [[Normale di una superfice parametrica|normale]] e luce incidente
 - $\theta_2$ l angolo tra [[Normale di una superfice parametrica|normale]] e luce rifratta
 _allora_ vale che $$\eta_1\sin \theta_1=\eta_2\sin \theta_2$$
-la luce passera in accordo a questa legge![[Pasted image 20240227184107.png]]
+la luce passera in accordo a questa legge![[IMG - Illuminazione - Interazione della luce con la materia 7.png]]
 
 
 

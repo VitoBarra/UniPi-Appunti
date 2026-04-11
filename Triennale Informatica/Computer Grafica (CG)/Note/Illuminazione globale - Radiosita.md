@@ -16,7 +16,7 @@ Si basa su due assunzioni
 - La scena si puo dividere in piccole patch
 - i pezzi sono piatti e [[Superfice lambertiana|totalmente diffusive]] 
 
-![[IMG_1118 1 1.jpeg]]
+![[IMG - Illuminazione globale - Radiosita 1.jpeg]]
 la quantità di luce è calcolata in [[Illuminazione - Radiometria#Irradiance e exitance|radiosita]]  siccome questa non dipende dalla direzione. infatti ognuna di queste patch è considerato come un emettitore di [[Illuminazione - Tipi di fonte di luce|luce ad area]] 
 - primaria: se il pezzo originale viene da un effettiva sorgente
 - secondaria: se riflette la luce arrivata dagli altri patchs. 
@@ -46,14 +46,14 @@ $$\Phi_i =\Phi^e_i + \rho_i\sum^n_{i=0}F_{j \to i}\Phi_j$$
 e puo essere riscritto in termi di [[Illuminazione - Radiometria#Irradiance e exitance (Radiosita)|radianza]] usando la relazione $E=\cfrac{\Phi}{A}$ valida nel caso in cui il flusso di flux sia omogenno e usando la relazione $\cfrac{F_{j \to i}}{A_i}=\cfrac{F_{i \to j}}{A_j}$ e quindi vale $$E_i=E_i^e + \rho_i\sum^n_{i=0}F_{i \to j}E_j$$
 
 e questa puo essere riscritta come [[Sistemi lineari e lineari omogenei|Sistemi lineari]] in forma matriciale considerando $\boldsymbol{MA}=\boldsymbol{B}$ con $\boldsymbol{A}$ le incognite $E_i$ e $\boldsymbol{B}$ la componente emissiva $E^e_i$. Si vuole trovare la soluzione $\boldsymbol{A} = \boldsymbol{M}^{-1}\boldsymbol{B}$    ma siccome la matrice puoi essere molto grande anche per scene molto semplici e quindi si utilizzano [[Metodi Iterativi per soluzioni di sistemi lineari|metodo iterativi]] per trovare la soluzione  ad esempio [[Metodo di  gauss-seidel (metodo di spostamento simultanei)|Metodo di  gauss-seidel]]
-![[IMG_1120 1 1.jpeg]]
+![[IMG - Illuminazione globale - Radiosita 2.jpeg]]
 
 
 #####  Rendering
 Si calcola per ogni patch ra __radiosità__ e si scrive nel vertice la media della __radiosità__ dei triangoli che condividono quel vertice.
 
 Successivamente si interpola tra i vertici per calcolare la radiosità corretta, Cosi facendo stiamo facendo [[Illuminazione - Shading|Graud shading]]
-![[IMG_1123 1 1.jpeg]]
+![[IMG - Illuminazione globale - Radiosita 3.jpeg]]
 
 
 #### Contro

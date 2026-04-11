@@ -15,15 +15,15 @@ _sia_
 - $p_{ij}$ un __control net__
 - $B_i(\cdot),B_j(\cdot)$ due __funzione di blending__ realizzate con il [[Polinomio di Bernstein|Polinomio di Bernstein]]
 _allora_ una __Bazier patches bicubiche__ è definita come $$S(t,s)=\sum^m_{j=0}\sum^n_{i=0}p_{ij}B_i(t)B_j(s) \ \ \ 0 \leq t \leq 1$$e siccome il numero di punti rappresentabili dipendono dal grado dei polinomi usati avremmo che il numero di control net è $(n+1) \times (m+1)$ 
-![[Pasted image 20240223232417.png]]
+![[IMG - Superfici parametriche - Bezier patches Bicubiche 1.png]]
 
 Un esempio celebre dell applicazione di queste tipo di superfici è la __Utah Teapoth__ 
-![[Pasted image 20240224002507.png]]
+![[IMG - Superfici parametriche - Bezier patches Bicubiche 2.png]]
 
 
 ###### Interpolazione e derivata
 le __Bazier patches__ interpolano tra gli endpoint $(0,0),(0,n),(n,0),(n,n)$  
-![[Pasted image 20240224001239.png]]
+![[IMG - Superfici parametriche - Bezier patches Bicubiche 3.png]]
 
 ###### Derivata di una Patches di bezier
 la [[Derivate|derivata]] di questa [[Superfici|superfice]] è la seguente $$

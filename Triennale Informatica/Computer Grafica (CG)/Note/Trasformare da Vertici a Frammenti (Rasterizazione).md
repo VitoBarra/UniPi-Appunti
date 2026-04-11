@@ -18,7 +18,7 @@ Siccome la __View Port__ ha Coordinate _discrete_ si pone il problema di sceglie
 Questo processo e' detto di "Rasterizazione" delle [[Computer grafica - Primitive algebriche|primitive geometriche]]
 ### Rasterizazione delle primitive
 Rasterizazione dei punti
-![[IMG_0784.jpeg]]
+![[IMG - Trasformare da Vertici a Frammenti (Rasterizazione) 1.jpeg]]
 
 Rasterizazione delle _linee_
 l Algoritmo di _renderizzazione_ di una linea passante da due punti dipende dallo _slope_ della [[Rette|retta]] ovvero dal suo _coefficiente angolare_ calcolato come$$m=\frac{y_{1}-y_{0}}{x_{1}-x_{0}}$$
@@ -33,6 +33,6 @@ y=y+1
 \end{cases} & else
 \end{cases}$$dove gli $=$ sono assegnamenti. 
 L algoritmo garantisce che  tutti i pixel della _linea_ sono _adiacenti_
-![[IMG_0783.jpeg]]
-![[IMG_0782.jpeg]]
+![[IMG - Trasformare da Vertici a Frammenti (Rasterizazione) 2.jpeg]]
+![[IMG - Trasformare da Vertici a Frammenti (Rasterizazione) 3.jpeg]]
 

@@ -16,7 +16,7 @@ In generale le [[Trasformazioni Lineari Geometriche|rotazioni]] funzionano attor
 2. _applicare_ la rotazione $R_{\alpha}$
 3. _applicare_ la traslazione $T_{c}=T_{-c}^{-1}$ ovvero i [[Matrice inversa|inversa]] per rimettere l _oggetto_ alla posizione originale
 ottenendo la formula $$R_{c,\alpha}=T_{c}R_{\alpha}T_{- c}$$
- ![[IMG_0732.jpeg]]
+ ![[IMG - Composizione di trasformazioni 1.jpeg]]
 e la matrice si può calcolare come 
 $$\begin{array}{}
 \boldsymbol{p}’ & = & R_{\alpha}(\boldsymbol{p}-\boldsymbol{c})+\boldsymbol{c} \\
@@ -40,5 +40,5 @@ le operazioni tra loro [[Proprietà del operazioni - Commutativita|commutative]]
 - __Scaling__ con __scaling__
 - __scaling uniforme__ e __rotazione__
 in generale queste tipo di operazioni NON sono commutative ad esempio le matrici di __rotazione__ e __traslazione__ non sono commutative tra loro
-![[IMG_0751.jpeg]]
+![[IMG - Composizione di trasformazioni 2.jpeg]]
 

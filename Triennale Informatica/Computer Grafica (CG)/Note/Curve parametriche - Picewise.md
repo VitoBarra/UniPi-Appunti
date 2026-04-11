@@ -15,4 +15,4 @@ eq_{2} & t\in  [a_1,a_2] \\
  & \vdots \\ 
 eq_{n} & t\in  [a_{n-1},a_n]
 \end{cases}$$ 
-![[Pasted image 20240222173959.png]]
+![[IMG - Curve parametriche - Picewise 1.png]]

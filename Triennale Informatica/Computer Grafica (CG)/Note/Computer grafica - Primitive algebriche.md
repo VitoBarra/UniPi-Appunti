@@ -29,4 +29,4 @@ $$\begin{array}{}
 v_{0}+v_{1}=v_{1}+v_{0}=v_{2} \\ \boldsymbol{p}_{0}+2v_{2}=\boldsymbol{p}_{4}
 
 \end{array}$$
-![[IMG_0728.jpeg]]
+![[IMG - Computer grafica - Primitive algebriche 1.jpeg]]

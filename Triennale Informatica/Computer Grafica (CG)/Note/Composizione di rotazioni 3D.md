@@ -18,7 +18,7 @@ le rotazioni sono espresse da 3 angoli $\alpha,\beta,\gamma$ dove
 - $\alpha$ ad una rotazione intorno a _asse_ X chiamata _yaw_
 - $\beta$ ad una rotazione intorno al _asse_ Y chiamata _pitch_
 - $\gamma$ ad una rotazione intorno al _asse_ Z chiamata roll
-![[IMG_0770.jpeg]]
+![[IMG - Composizione di rotazioni 3D 1.jpeg]]
 se gli _angoli_ $\alpha=\beta=\gamma=0$ allora i [[Frames|frame]] $F_{1},F_{2},F_{3}$ coincidono con il _frame canonico_ $\mathcal{C}$.
 ogni _frame_ è collegato al precedente infatti abbiamo che $$
 \begin{array} \\
@@ -26,7 +26,7 @@ F_{1} & = & R_{x,\alpha}\mathcal{C} \\
 F_{2} & = & R_{y,\beta}R_{x,\alpha}\mathcal{C}\\
 F_{3} & = & R_{z,\gamma}R_{y,\beta}R_{x,\alpha}\mathcal{C}
 \end{array}
-$$quindi _applicare_ una rotazione ad una anello le applica anche a tutti i _sottostanti_ e in questo caso si parla di rotazioni _intrinseche_: ![[IMG_0771.jpeg]]
+$$quindi _applicare_ una rotazione ad una anello le applica anche a tutti i _sottostanti_ e in questo caso si parla di rotazioni _intrinseche_: ![[IMG - Composizione di rotazioni 3D 2.jpeg]]
 non ci fosse questa gerarchia si parlerebbe di rotazioni _estrinseche_ e ogni _frame_ sarebbe rappresentato da una rotazione direttamente sul _[[Frames|frame canonico]]_ $$\begin{array} \\
 F_{1} & = & R_{x,\alpha}\mathcal{C} \\
 F_{2} & = & R_{y,\beta}\mathcal{C}\\
@@ -43,7 +43,7 @@ Una conseguenza di questo è il __gimbal lock__ che è un _caso degenere_ dove s
 _se_ $\beta=\frac{2}{\pi}$ 
 _allora_ tutti i valori di $\alpha$ e $\gamma$ tale che $\alpha=-\gamma$ danno la stessa _rotazione finale_ 
 
-![[IMG_0758.jpeg]]
+![[IMG - Composizione di rotazioni 3D 3.jpeg]]
 quando questo caso va preso in considerazione
 
 #### Rotazioni con quaternioni 

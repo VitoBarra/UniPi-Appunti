@@ -17,14 +17,14 @@ a_{xx} & a_{xy}   & v_{x} \\
 a_{yx}  & a_{yy} & v_{y}  \\
 0 & 0 & 1  
 \end{bmatrix}$$dove la prima sotto matrice $2\times 2$ e rappresenta la parte _lineare_ ovvero _[[Trasformazioni Lineari Geometriche#Rotazioni|rotazione]]_ e _[[Trasformazioni Lineari Geometriche#Scaling|scaling]]_ e l ultima colonna rappresenta la parte _[[Sottospazi affini|affine]]_ ovvero la _traslazione_ del punto d origine 
-![[IMG_0756.jpeg]]
+![[IMG - Applicazioni affini 1.jpeg]]
 
 Una trasformazione affine ha le seguente proprietà
 1. Mantiene la _[[Vettori Collineari|colinearità]]_ dei punti, ovvero due punti se sono sulla stessa linea ci restano anche dopo la trasformazione 
 2. Mantiene le _proporzioni_ ovvero presi 3 punti $p_{1},p_{2},p_{3}$ sulla stessa linea il rapporto $$\frac{\|p_{2}-p_{1}\|}{\|p_{3}-p_{1}\|}$$è preservato dopo la _trasformazione_.
 3. Preservano le linee parallele 
 
-![[IMG_0731.jpeg]]
+![[IMG - Applicazioni affini 2.jpeg]]
 
 
 

@@ -16,15 +16,15 @@ Con l assunzione che l ambiente è infinitamente lontano  si hanno due tipi di _
 
 #### Mapping su sfere
 
-![[Pasted image 20240302050910.png]]
-![[Pasted image 20240302050925.png]]
+![[IMG - Texture - Environment mapping 1.png]]
+![[IMG - Texture - Environment mapping 2.png]]
 
 
 #### Mapping su cubi
 Immaginando di piazzare un cubo attorno a tutta la scena e facendo foto a tutti i 6 lati abbiamo rappresentato tutto l ambiente.
 
 il cubo puo essere disposto come texture su 6 quadrati
-![[Pasted image 20240302050955.png]]
+![[IMG - Texture - Environment mapping 3.png]]
 per calcolare il mapping si utilizza la seguente formula
 _sia_
 - $R_{max}= \max (|R_x|,|R_y|,|R_z|)$ la componente piu grande

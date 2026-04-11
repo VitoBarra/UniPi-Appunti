@@ -21,4 +21,4 @@ _allora_ il __tangent frame__ $T_S$ con origine  $p$  è costruito come$$
 	\mathbf{n}_{os}= \mathbf{u}_{os} \times \mathbf{v}_{os}
 \end{array}
 $$in questo si sta costruendo un [[Frames|frame]] che ha gli assi $X$,$Y$ in un piano tangente alla superfice e l asse $Z$ che corrisponde alla [[Normale di una superfice parametrica|normale]], facendo questa operazione per tutti i punti si ottiene il __Tangent Space__ 
-![[Pasted image 20240302080857.png]]
+![[IMG - Spazio Tangente (Tangent space) 1.png]]

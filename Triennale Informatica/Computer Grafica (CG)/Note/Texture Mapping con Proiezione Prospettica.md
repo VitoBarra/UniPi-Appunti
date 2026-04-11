@@ -10,8 +10,8 @@ SubTopic:
 # Texture Mapping con Proiezione Prospettica
 ---
 con la [[Proiettare una scena 3D in 2D|proiezione prospettica]] che NON è una [[Trasformazioni Lineari Geometriche|trasformazione affine]] abbiamo che gli attributi sui vertici che mantengono le coordinate in __texture space__ verranno mappati correttamente ma siccome una trasformazione non affine non preserva le distanza tra punti l'[[Interpolazione Lineare|interpolazione lineare]] tra questi generanno degli artefatti con il  [[Texture Mapping|texture mapping]]
-![[Pasted image 20240301070104.png]]
-![[Pasted image 20240301070119.png]]
+![[IMG - Texture Mapping con Proiezione Prospettica 1.png]]
+![[IMG - Texture Mapping con Proiezione Prospettica 2.png]]
 per risolvere questi problema si utilizza l __interpolazione iperbolica__
 
 _sia_
@@ -55,6 +55,6 @@ t_a/w_a \\ 1/w_a
 \beta'\begin{bmatrix}
 t_b/w_b \\ 1/w_b
 \end{bmatrix}$$
-![[Pasted image 20240302022226.png]]
+![[IMG - Texture Mapping con Proiezione Prospettica 3.png]]
 segue l estensione 3D come
 $$t_{p'}=\cfrac{\alpha' \cfrac{t_a}{w_a}+\beta'\cfrac{t_b}{w_b}+\gamma \cfrac{t_c}{w_c}}{\alpha' \cfrac{1}{w_a}+\beta' \cfrac{1}{w_b}+\gamma' \cfrac{1}{w_c}}$$

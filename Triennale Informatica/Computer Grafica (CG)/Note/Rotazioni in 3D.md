@@ -20,7 +20,7 @@ In _generale_ un _rotazione 3D_ cambia solo 2 valori di posizione su 3 e il _pun
 
 le _Rotazioni in 3D_ sono _definite_ rispetto ad un _Asse di rotazione_ definito da $$r=O_{r}+t\boldsymbol{d_{ir}}\ \ \ t\in (+\infty,-\infty)$$ dove per le applicazioni pratiche il punto $O_{r}=[0,0,0,1]^{T}$ è l _origine canonica_, ovvero gli assi di rotazione passano sempre per l origine. Questa pero non è una limitazione siccome in caso di assi che non passano per l origine  questo puo sempre essere [[Trasformazioni Lineari Geometriche#Traslazioni|traslato]] verso _l origine_ applicare la rotazione e portato _alla posizione originale_. 
 
-![[IMG_0762.jpeg]]
+![[IMG - Rotazioni in 3D 1.jpeg]]
 Le rotazioni sui i 3 _assi canonic_ sono:$$\begin{array}{}
 R_{a,z}=\begin{bmatrix}
 \cos \alpha  & -\sin \alpha  & 0  & 0\\
@@ -65,7 +65,7 @@ _sia_ $i$ alla posizione della componente di $\boldsymbol{r}$ piu piccola e _div
 _allora_ il vettore $a$ ha come $i$-esima componente 1 e 0 altrove 
  cosi facendo si selezione il vettore “_piu [[Vettori Ortogonali|ortogonale]]_ ad $\boldsymbol{r}$”
 
-![[IMG_0773.jpeg]]
+![[IMG - Rotazioni in 3D 2.jpeg]]
 Creazione di un _frame_
 
 ##### Teoria
@@ -80,7 +80,7 @@ $\boldsymbol{p}$ e $\boldsymbol{p}’$ appartengono a quel  __piano [[Vettori Or
 creiamo un nuovo [[Frames|frame]] che ha per origine il punto $O_{F}$ per asse $x_{F}=\boldsymbol{p}-O_{F}$ e con il [[Prodotto Vettoriale (Cross product)|prodotto vettoriale]]  l _asse_ $y_{F}=\boldsymbol{r}\times x_{r}$
 
 in questo grame il punto $p’$ ha coordinate $[\cos \alpha, \sin \alpha,0]^{T}$
-![[IMG_0761.jpeg]]
+![[IMG - Rotazioni in 3D 3.jpeg]]
 
 mentre le coordinate del  _frame canonico_ sono $$
 \begin{array}{}

@@ -37,7 +37,7 @@ _sia_
 - $L(\cdot)$ funzione di [[Illuminazione - Radiometria#Radianza|radianza]] dipendente dalla direzione
 - $E_i(\cdot)$ funzione di [[Illuminazione - Radiometria#Irradiance e exitance|irradianza]] dipendente dalla direzione
 _allora_ la __BRDF__ è definita come funzione a due variabili$$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{dE_i(\omega_i)}$$ e sfruttando la relazione $$E(\omega)=L(\omega)\cos \theta \ d\omega$$con $\theta$ l angolo tra la direzione d incidenza e la [[Normale di una superfice parametrica|normale]]
- possiamo riscrivere la definizione in termini di $L$ come $$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{L(\omega_i)\cos \theta_i \ d\omega_i}$$ le direzioni possono essere specificate come angolo di inclinazione $\theta$ e angolo di azimuth $\phi$ e quindi le direzione sono funzioni di spazzi angolare e vale che $$f(\theta_i,\phi_i,\theta_r,\phi_r)=f_r(\omega_i,\omega_r)$$![[Pasted image 20240228033438.png]]
+ possiamo riscrivere la definizione in termini di $L$ come $$f_r(\omega_i,\omega _r)=\cfrac{dL(\omega_r)}{L(\omega_i)\cos \theta_i \ d\omega_i}$$ le direzioni possono essere specificate come angolo di inclinazione $\theta$ e angolo di azimuth $\phi$ e quindi le direzione sono funzioni di spazzi angolare e vale che $$f(\theta_i,\phi_i,\theta_r,\phi_r)=f_r(\omega_i,\omega_r)$$![[IMG - Illuminazione - Proprieta di riflessione dei materiali 1.png]]
 
 
 

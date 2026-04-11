@@ -53,5 +53,5 @@ n{'}^{T}=(\boldsymbol{n}^TM^{-1})  &  \implies \boldsymbol{n}'=(\boldsymbol{n}^T
 $$fare questa trasformazione  non è sempre necessario, nei casi in cui la [[Trasformazioni Lineari Geometriche||trasformazione affine]] 
 - preserva __lunghezze e [[Angoli|angoli]]__ non serve fare la trasformazione
 - preserva gli __[[Angoli|angoli]]__ ma NON le lunghezze non serve fare la trasformazione ma bisogna normalizzare il risultato
-![[Pasted image 20240228061926.png]]
+![[IMG - Normale di una superfice parametrica 1.png]]
 

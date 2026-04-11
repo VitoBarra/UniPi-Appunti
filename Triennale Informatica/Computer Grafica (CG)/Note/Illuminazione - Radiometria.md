@@ -31,11 +31,11 @@ l __Irradiance e exitance__ (avvolte espresso chiamate anche __Radiosità incide
 __Irradiance e exitance__ sono espressi come la quantità di __flux__ che passa per una superfice sufficientemente piccola anche infinitesimale e considerando superfici con flusso di __flux__ non-uniforme si definiscono la [[Funzioni|funzione]] dipendente dalla posizione sulla superfice $x$ $$E(x)=\cfrac{d\Phi(x)}{dA}$$e nel caso il flusso sia uniforme sul area abbiamo che la formula diventi $$E=\cfrac{\Phi}{A}$$ la sua unita di misura è il __Watt su metro quadro__ ($W/m^2$)
 
 dalla definizione si puo ricavare la relazione con il __flux__ come $$d\Phi = E\ dA$$
-![[Pasted image 20240227045938.png]]
+![[IMG - Illuminazione - Radiometria 1.png]]
 #### Intensita di luce
 l __Intensità di luce__ è una una misura di _Densità di direzione_ per __flux__ ovvero la quantità di flux per __Angolo solido__($\omega$) (espresso in [[Steradianti|Steradianti]]), Questo ci specifica quanti __flux__ passano per una data area in una certa direzione.
 l __Intensità di luce__ è espressa come una funzione dipendente dalla direzione$$I(\omega)=\cfrac{d\Phi(\omega)}{d\omega}$$e la sua unita di misura è Watt su steradianti ($W/Sr$)
-![[Pasted image 20240227052928.png]]
+![[IMG - Illuminazione - Radiometria 2.png]]
 dalla definizione di [[Steradianti#angolo solido|angolo solito]] sappiamo che l angolo solito totale che prende tutta la sfera di raggio $r$ misura $4\pi$ Steradianti, di conseguenza possiamo dire che l __intensità__ di un emettitore di luce a punto che emette $\Phi$ __flux__  in modo uniforme è $I=\cfrac{\Phi}{4\pi}$
 
 #### Radianza
@@ -44,10 +44,10 @@ l __Aria proiettata__ deve esserlo sulla direzione del flusso di __flux__ e la s
 sia $\theta$ l angolo tra la direzione $w$ e la [[Normale di una superfice parametrica|normale della superfice]]
 la __Radianza__ puo essere espressa come $$L(\omega)=\cfrac{d^2\Phi}{dA_{\bot}d\omega}=\cfrac{d^2\Phi}{dA\cos \theta\  d\omega}$$
 l unita di misura della radianza è il Watt su metro quadrato su steradiante ($\cfrac{W}{m^2\ Sr}$)
-![[Pasted image 20240227052901.png]]
+![[IMG - Illuminazione - Radiometria 3.png]]
 
 calcolando l integrale della __Radianza__ su tutta l semisfera si ottiene la __irradiance__ ovvero tutta la __Radianza__ che proviene da tutte le direzioni.$$E= \int_\Omega L(\omega) \cos \theta\, dw $$
 
 
 #### Tavola riassuntiva
-![[Pasted image 20240227040849.png]]
+![[IMG - Illuminazione - Radiometria 4.png]]

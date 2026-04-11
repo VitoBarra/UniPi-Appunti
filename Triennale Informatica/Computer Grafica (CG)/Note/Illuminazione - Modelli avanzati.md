@@ -14,4 +14,4 @@ Alcuuni modelli di illuminazione piu avanzati rispetto al [[Illuminazione - Mode
 - [[Illuminazione - Modello Oren-Nayar|Modello Oren-Nayar]]
 - [[Illuminazione - Modello Minnaert|Modello minnaert]]
 Un confronto tra questi è il seguente
-![[Pasted image 20240305225426.png]]
+![[IMG - Illuminazione - Modelli avanzati 1.png]]

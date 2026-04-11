@@ -14,5 +14,5 @@ allora
 - la riflessione viene chiamata __Riflessione Lambertiana__ 
 - la superfice __superfice Lambertiana__ 
 questo fenomeno avviene quando a livello microscopico la superfice ha delle faccette orientate randomicamente. 
-![[Pasted image 20240228060053.png]]
+![[IMG - Superfice lambertiana 1.png]]
 nella vita reale alcuni esempi di questo sono la calce e  la sabbia.

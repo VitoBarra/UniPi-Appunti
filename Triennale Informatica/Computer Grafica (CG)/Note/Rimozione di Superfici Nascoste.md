@@ -18,7 +18,7 @@ se la scena ha molto [[Computer grafica - Primitive Geometriche|primitive]] è p
 	- Si evita completa di rasterizzarle 
 3. __clipping__: Sono solo parzialmente al interno del frustum
 	- Si deve rasterizzare solo la parte al interno del frustum
-![[Pasted image 20240214020332.png]]
+![[IMG - Rimozione di Superfici Nascoste 1.png]]
 
 
 #### Hidden Surface Removal (HSR)
@@ -28,7 +28,7 @@ Un algoritmo di questo tipo serve a rimuovere le superfici di primitive che sono
 l Idea di base e' quella di disegnare a partire dal oggetto piu lontano in modo che gli oggetti piu vicini re-scrivano i pixel degli oggetti piu vicini.
 Serve un modo per ordinare gli oggetti in ordine "Back-to-Front" ovvero dal piu distante al piu vicini. 
 Questo si calcolando la distanza tra l osservatore e il baricentro del triangolo 
-![[Pasted image 20240214022109.png]]
+![[IMG - Rimozione di Superfici Nascoste 2.png]]
 Il problema di questo algoritmo e che il baricentro non e' una misura corretta siccome se il baricentro di $A$ e' piu vicino al osservatore rispetto al baricentro di $B$ non significa che tutta la primitiva $A$ sia piu vicina al osservatore rispetto a tutta la primitiva $B$
 
 ##### Depth Sort
@@ -42,11 +42,11 @@ Ci sono diversi casi da considerare, Siano $A$ e $B$ due primitive vogliamo cerc
 2. se $A$ e $B$ hanno _punti di sovrapposizione_ sul [[Applicazione lineare - Proiezione|proiezione]] sul asse $z$ ma non sulla proiezione o su $x$ o su $y$, allora si possono sempre trovare di _piani di separazione_ paralleli a $x$ o a $y$  siccome anche se sono alla stessa distanza questi non interferiscono l uno con l altro. Non c e' bisogno di fare sort
 3.  se $A$ e $B$ si cercano i _piani di separazione_, Se il ViewPoint e la primitiva $A$ (o $B$) sono sullo stesso lato del piano allora la primitiva $A$ (o $B$) e' piu vicina
 	- Se le primitive sono [[Poligoni|poligoni]] [[Convessita|convessi]] che non intersecano allora esiste sempre un __piano di separazione__ che passa per una primitiva
-![[Pasted image 20240214022806.png]]
+![[IMG - Rimozione di Superfici Nascoste 3.png]]
 Non sempre si puo trovare un ordine corretto, esisto dei casi in cui le primitive devono essere clippate per essere ordinate correttamente. questo succede quando
 1. Ci sono intersezioni
 2. Ci sono cicli nel ordinamento
-![[Pasted image 20240214023309.png]]
+![[IMG - Rimozione di Superfici Nascoste 4.png]]
 
 
 l algoritmo dipende dal punto di osservazione (ViewPoint) e quindi  le [[Strutture Dati|strutture dati]] usate per efficientare questo algoritmo devono essere aggiornate allo spostamento del __ViewPoint__ 
@@ -54,7 +54,7 @@ l algoritmo dipende dal punto di osservazione (ViewPoint) e quindi  le [[Struttu
 
 >[!Warning]-
 >Questo Algoritmo deve essere eseguito prima di mandare le primitive nella [[Pipeline di Rasterizazione|Pipeline di Rasterizazione]] quindi nella CPU, ma le coordinate dei vertici in __view space__ si sanno solo dopo la trasformazione cosa che avviene GPU nella pipeline 
->![[Pasted image 20240214031348.png]]
+>![[IMG - Rimozione di Superfici Nascoste 5.png]]
 
 #### Depth-Buffer (Z-buffer)
 utilizzare lo __Depth-Buffer__ (o __z-buffer__) e' lo standard defacto per l __hidden surface removal (HSR)_.
@@ -86,10 +86,10 @@ l algoritmo segue come
 ```
 I vantaggio di questo algoritmo e' che e' molto semplice e siccome le primitive sono processate per pixel e' altamente parallelizzabile, siccome questi sono indipendenti.
 
-![[Pasted image 20240214031511.png]]![[Pasted image 20240214031546.png]]
+![[IMG - Rimozione di Superfici Nascoste 6.png]]![[IMG - Rimozione di Superfici Nascoste 7.png]]
 
 
-![[Pasted image 20240214031628.png]]
+![[IMG - Rimozione di Superfici Nascoste 8.png]]
 
 
 ##### Precisione del Z-Buffer e Z-Fighting
@@ -111,14 +111,14 @@ la funzione $f_p(z)$ e' della forma $\cfrac{a}{z}+b$ ovvero il mapping e' propor
 
 Siccome La coordinata $z$ di un vertice in [[Proiettare una scena 3D in 2D#View Volume|View space]] e' rappresentata con un __[[Insieme dei numeri di macchina|floating point]]__ si avrà che coordinate vicino lo zero consecutive avranno una distanza l una dal latra molto piccola che potrebbe essere inferiore alla precisione $\epsilon$ dello Z-buffer e quindi quei valori di $z$ diversi tra loro verranno mappati nello stesso valore nello Z-buffer. Questo fenomeno e' chiamato __Z-Fighting__
 nel caso della proiezione prospettica non essendo un mapping lineare questo fenomeno e' ancora di piu accentuato e si avrà che il $30\%$ delle coordinate in [[Proiettare una scena 3D in 2D#View Volume|View space]] occuperà l $80\%$ dei valori dello Z-buffer, in pratica la capacita di discernere tra due coordinate $z$ diverse degrada al crescere di $z$   
-  ![[Pasted image 20240215150753.png]]
+  ![[IMG - Rimozione di Superfici Nascoste 9.png]]
   l effetto grafico di questo e' il seguente 
-  ![[Pasted image 20240215032403.png]]
-![[Pasted image 20240215032412.png]]
+  ![[IMG - Rimozione di Superfici Nascoste 10.png]]
+![[IMG - Rimozione di Superfici Nascoste 11.png]]
 
 ###### Soluzione allo z-Fighting
 una soluzione e usare piu piani near e far
-![[Pasted image 20240215185633.png]]
+![[IMG - Rimozione di Superfici Nascoste 12.png]]
 
 o fare del offset dei poligoni per far "vincere" la primitiva che ci interessa
-![[Pasted image 20240216005229.png]]
+![[IMG - Rimozione di Superfici Nascoste 13.png]]

@@ -15,5 +15,5 @@ _Sia_
 - $B \subseteq \mathbb{R}^3$ le coordinate dello spazio 3D
  _allora_ una __curva parametrica__ è definita da una [[Funzioni|funzione]]  $C:A \to B$ tale che $$C(t)=(X(t),Y(t),Z(t))$$ 
  Solitamene $A=[0,1]$ in questo modo $C(0)$ rappresenta l inizio della curva e $C(1)$ rappresenta la fine.
-![[Pasted image 20240221031131.png]]
+![[IMG - Curve parametriche 1.png]]
 volendo disegnare una curva arbitraria risulta generalmente difficile trovare le formule $X(t),Y(t),Z(t)$ 

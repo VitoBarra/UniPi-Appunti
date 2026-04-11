@@ -25,9 +25,9 @@ il campo scalere $f(\mathbf{p})$ è anche un **distance filed** che indica la di
 
 
 alcuni esempi sono $f(x,y)=x^{2}+y^{2}-r^{2}$
-![[Pasted image 20240221011322.png]]
+![[IMG - Superfici implicite 1.png]]
 e $f(x,y,z)=x^{2}+y^{2}+z^{2}-r^{2}$
-![[Pasted image 20240221013012.png]]
+![[IMG - Superfici implicite 2.png]]
 
 
 
@@ -50,6 +50,6 @@ _allora_ si possono definire le seguenti operazioni
 - intersezione: $max(f_A,f_B)$
 - unione: $\min(f_A,f_B)$
 - differenza: $\max(f_A,-f_B)$
-![[Pasted image 20240221015821.png]]
+![[IMG - Superfici implicite 3.png]]
 
 

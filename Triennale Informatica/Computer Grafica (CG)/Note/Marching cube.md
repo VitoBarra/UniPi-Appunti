@@ -27,7 +27,7 @@ e per ognuna di queste combinazioni si puo tenere in una [[Hash Table|hash table
 I casi di ambiguità in 3D si verificano quando, su una stessa faccia del cubo, i vertici presentano valori sopra e sotto la soglia in modo non uniforme.  
 ![[IMG - Marching cube caso ambiguo.png]]  
 Per gestire correttamente tali situazioni, le facce della cella devono essere trattate separatamente. Il controllo viene effettuato valutando il valore interpolato nel centro di ciascuna faccia, seguendo un principio analogo a quello adottato nel [[Marching Squere|marching squere]]. In base al valore ottenuto nel centro di ogni faccia, si seleziona una [[Hash Table|look up table]] adeguata, che consente di disambiguare correttamente la topologia della superficie all'interno della cella.  
-![[IMG -  hash di disembiguazione Marching cube.png]]
+![[IMG - Marching cube 1.png]]
 il calcolo dei valori del campo scalare nei centri serve solo quando la configurazione iniziale dei vertici lo rende indispensabile
 
 La valutazione nei centri delle facce si basa sull'[[Interpolazione Trilineare|interpolazione trilineare]]. Nel caso specifico della faccia in cui $x=0$, la funzione interpolata assume la forma:$$

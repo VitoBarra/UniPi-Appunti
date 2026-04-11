@@ -13,7 +13,7 @@ SubTopic:
 ---
 La **normale di una superficie discreta**, comunemente una [[Mesh Poligonali|mesh poligonale]], è una stima della [[Normale di una superfice parametrica|normale]] della [[Superfici|superficie continua]] che la mesh rappresenta. 
 
-![[Pasted image 20240221001431.png]]
+![[IMG - Normale di una superfice discreta (Mesh poligonali) 1.png]]
 Il modo più semplice per calcolare la [[Normale di una superfice parametrica|normale]] di una superficie discreta, come una [[Mesh Poligonali|mesh triangolare]], è farlo **per faccia**, poiché ogni [[Computer grafica - Primitive Geometriche|triangolo]] è planare. Per ottenere la normale di una faccia è sufficiente calcolare il [[Prodotto Vettoriale (Cross product)|cross product]] tra due edge della faccia.
  formalmente 
 **sia**
@@ -31,7 +31,7 @@ formalmente per calcolare la normale nei vertici:
 **allora** si puo calcolare la normale $\mathbf{n}_v$ a partire dalle **normali delle facce** adiacenti la media non pesata delle normali di tutte le facce che condividono il vertice:$$
 \mathbf{n}_v = \cfrac{1}{|S^{*}(v)|} \sum_{i \in S^{*}(v)} \mathbf{n}_{f_i}
 $$![[IMG - Normale per vertice tramite media caso dimensioni uniformi.png]] Questa formulazione funziona bene quando le **facce** attorno al vertice hanno dimensioni simili. In caso contrario, le facce più piccole finiscono per avere un peso maggiore nella media, influenzando il risultato in modo sproporzionato.
-![[Pasted image 20240221003638.png]]
+![[IMG - Normale di una superfice discreta (Mesh poligonali) 2.png]]
 Per compensare questo effetto, è possibile introdurre un peso per ogni **faccia** basato sulla sua area. La [[Normale di una superfice parametrica|normale]] del vertice viene così calcolata come **media pesata**:$$
 \mathbf{n}_v = \cfrac{1}{\sum_{i \in S^{*}(v)} \text{Area}(f_i)} \sum_{i \in S^{*}(v)} \text{Area}(f_i) \mathbf{n}_{f_i}
 $$Questo approccio si puo anche efficientare nel seguente modo:
@@ -48,11 +48,11 @@ dove $\alpha(f_i, v)$ è l’angolo interno del triangolo $f_i$ nel vertice $v$.
 
 
 Per gestire questo il caso in cui la normale non esiste neanche nel caso continuo si possono calcolare 2 normali per vertice 
-![[Pasted image 20240221004148.png]]
+![[IMG - Normale di una superfice discreta (Mesh poligonali) 3.png]]
  per ogni vertice si sceglie se calcolare 1 o 2 normali basandosi su un angolo massimo  detto __crease angle__ che la superfice puo avere, se si supera quel angolo allo la mesh non é smooth e il vertice ha bisogno di due normali.
 
 questa seconda normale puo essere memorizzata o in un vertice duplicato oppure nella faccia che ha quel vertice
-![[Pasted image 20240221004411.png]]
+![[IMG - Normale di una superfice discreta (Mesh poligonali) 4.png]]
 
 
 

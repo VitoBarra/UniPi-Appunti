@@ -11,20 +11,20 @@ A
 # Proiettare una scena 3D in 2D 
 Data una scena nello spazio 3D  per visualizzarla bisogna [[Applicazione lineare - Proiezione|proiettarla]] in uno spazio 2D che rappresenta lo schermo
 per fare cio si segue una pipeline operazionale
-![[Pasted image 20240210022744.png]]
+![[IMG - Proiettare una scena 3D in 2D 1.png]]
 ogni per passare da uno spazio al altro si utilizzano delle trasformazioni con delle matrici e abbiamo quindi la pipeline come 
-![[immagine_2024-02-10_013539544.jpg]]
+![[IMG - Proiettare una scena 3D in 2D 2.jpg]]
 e OpenGL internamente non usa mai la matrice per passare a __word space__ ma direttamente la matrice per passare da __Object space__ a __view space__ ovvero la __matrice Model-view__ 
 
 
 #### Object space
 l __Object space__ e' dove l'oggetto viene creato, l oggetto e' espresso a partire dal suo [[Frames|frame]] canonico di riferimento e solitamente l oggetto e' centrato al origine del frame e allineato ad esso  
-![[Immagine 2024-02-10 024433.png]]
+![[IMG - Proiettare una scena 3D in 2D 3.png]]
 
 #### World Space
 il __Word space__ e' il [[Frames|farame]] di riferimento del intero mondo.
 Gli oggetti sono posizionati nel word space dando una posizione al [[Frames|frame]] canonico del oggetto che si vuole piazzare
-![[Pasted image 20240210024831.png]]
+![[IMG - Proiettare una scena 3D in 2D 4.png]]
 
 
 #### Frame di vista di riferimento
@@ -37,7 +37,7 @@ infatti abbiamo che
 - __Up direction__: e' rappresentato dal asse $y$
 	- la direzione dove e' locato il sopra
 
-![[Pasted image 20240131002705.png]]
+![[IMG - Proiettare una scena 3D in 2D 5.png]]
 
 Possiamo costruire il frame a partire  da $View \ dirction$ e $up$. 
 ricordando che stiamo  cercando un frame ortonormale i passi sono:
@@ -46,7 +46,7 @@ ricordando che stiamo  cercando un frame ortonormale i passi sono:
 2. calcolare $x=y' \times z$ usando [[Prodotto Vettoriale (Cross product)|Cross product]]  
 3. calcolare $y=z \times x$ usando [[Prodotto Vettoriale (Cross product)|Cross product]]   
 cosi facendo si ottengono 3 [[Vettori Ortonormali|vettorii ortonormali]]  
-![[Immagine 2024-02-10 023037 1.png]]
+![[IMG - Proiettare una scena 3D in 2D 6.png]]
 i parametri che descrivono il $V_{RF}$ sono detti __parametri di camera estrinsechi__
 
 il $V_{RF}$ puo essere scritta in forma matriciale come
@@ -72,7 +72,7 @@ R_{xyz}=\begin{bmatrix}
 $$
 
 tutte le [[Applicazioni affini|trasformazioni]] che si fanno in rispetto del frame di vista si chiamano Trasformazione di vista (view Transformation)
-![[Pasted image 20240210031247.png]]
+![[IMG - Proiettare una scena 3D in 2D 7.png]]
 
 #### Proiezioni
 le  __proiezione__ sono definiscono il  "tipo" di __camera__ che si usa per osservare la scena. La __Camera__ si occupa di mappare il mondo 3D su un piano 2D e lo fa utilizzano le __proiezioni__, il modo in cui avviene questo mapping dipende dai dei parametri detti __intrinseci__ 
@@ -86,7 +86,7 @@ la proiezione prospettica si ottiene considerando 2 elementi:
  
 Indicando con $\boldsymbol{C} = \begin{bmatrix}0,0,0,1\end{bmatrix}^T$ il view point e con $VP$ il piano di vista e fissato al punto $-d$, supponendo di avere nello spazio 3D un punto $\boldsymbol{p}$, abbiamo che la sua proiezione prospettica $\boldsymbol{p}'$ e' l intersezione con il $VP$ della [[Rette|retta passante]] per $C$ e $\boldsymbol{p}$  
 
-![[Pasted image 20240207185229.png]]
+![[IMG - Proiettare una scena 3D in 2D 8.png]]
 
 geometricamente possiamo osservare che i triangoli $Cap'$ e $Cbp$ sono [[Triangoli Simili|simili]] e quindi il rapporto tra i lati corrispondenti sono uguali. Abbiamo quindi che vale$$\begin{array}{}
 
@@ -107,10 +107,10 @@ $$e questo fatto ci permette di derivare facilmente la formula per la proiezione
 
 una visione alternativa e' quella della camera pinhole, ovvero punto infinitamente piccolo sulla superfice di una scatola scura e la VP nel lato opposto del pinhole
 disegnando le retto dei vertici della scena al pinhole fino ad intersecare VP avremmo che il risultato finale sarà specchiato (il sopra sarà sotto e il destra sarà a sinistra) motivo per cui si preferisce il modello a finestra
-![[Pasted image 20240131002603.png]]
+![[IMG - Proiettare una scena 3D in 2D 9.png]]
 ###### Divisione prospettica
 Osservando la costruzione della proiezione abbiamo che tutti i punti sul linea di proiezione di $\boldsymbol{p}$ corrispondono allo stesso punto $\boldsymbol{p}'$
-![[Immagine 2024-02-10 002259.jpg]]
+![[IMG - Proiettare una scena 3D in 2D 10.jpg]]
 possiamo esprimere questo fatto utilizzando le [[Coordinate omogenee|coordinate omogenee]] infatti abbiamo che indicando con $prj(\cdot)$ l operazione di proiezione $$ \boldsymbol{p}'=prj\left(\lambda\begin{bmatrix}
 p_x\\p_y\\p_z\\1
 \end{bmatrix}\right) \ \ \ \ \ \ \forall \lambda \not=0$$
@@ -145,7 +145,7 @@ Questa operazione __NON__ e' una [[Applicazioni affini|trasformazione affine]] i
 cambiando i valori parametri della proiezione prospettica possiamo controllare come cambia cio che vediamo. 
 
  $d$ indica la distanza tra il punto di osservazione, l "occhio", e il view Plane ($VP$) e variando $d$ abbiamo 
-![[Pasted image 20240210014241.png]]
+![[IMG - Proiettare una scena 3D in 2D 11.png]]
  con
  - $d$ basso abbiamo l effetto grand' angolo 
  - $d$ alto  ci spostiamo verso la proiezione ortogonale dove le linee di proiezione sono parallele.
@@ -155,7 +155,7 @@ cambiando i valori parametri della proiezione prospettica possiamo controllare c
 ##### Proiezione ortografica
 La __proiezione ortografica__ e' una proiezione dove tutti le linee di proiezione (projectors) sono paralleli e [[Vettori Ortogonali|ortogonali]] al piano di vista $VP$  
 
-![[Immagine 2024-02-10 020704.jpg]]
+![[IMG - Proiettare una scena 3D in 2D 12.jpg]]
 Questa si ottiene settando la coordinata $p_z$ alla distanza $-d$ (near)  questo viene dal fatto che $p'_x$ e $p'_x$ sono indipendenti da $d$ e la coordinata $p_z$ non importa siccome per motivi geometrici questa viene mappata a prescindere alla distanza $-d$ dal punto di vista.
 In forma matriciale abbiamo quindi:
 $$\boldsymbol{p}' = O_{rth} \ \boldsymbol{p} = \underbrace{ \begin{bmatrix}
@@ -176,7 +176,7 @@ il __View volume__ e' una porzione dello spazio 3D visto dalla camera.
 
 Questo si costruisce utilizzando 2 piani detti __near plane__ e __far palce__, il near plane corrisponde al View Plane utilizzato nelle definizione delle proiezioni, mentre il far plane e' un  alto piano che si utilizza per delimitare fin dove gli oggetti devono essere "visti".  
 Gli oggetti dietro in near plane e dopo il far plane (rispetto al punto di osservazione) vengono ignorati e per questo motivo i due piani vengono chiamati __Cliping planes__ siccome si utilizzano per "tagliare" la scena       
-![[Senzanome.png]]
+![[IMG - Proiettare una scena 3D in 2D 13.png]]
 
 
 
@@ -189,9 +189,9 @@ In generale la __View Window__ è un rettangolo sul __View Plane__ e scegliere �
 Ne caso della __proiezione Prospettica__ si ha che un modo per rappresentare la __finestra di vista__ è utilizzare Il __Field of View__ (__FOV__), Ovvero si specificano i parametri del [[Angoli|angolo]] di vista e la dimensione della finestra di vista, entrambi in modo indipendente a seconda della direzione 
 - $FoV_v = yFov$ Un [[Angoli|angolo]] per la __dimensione verticale__ quindi sul asse $y$ e questo determina la lunghezza verticale della __View Window__ $h$ 
 - $FoV_h=xFov$ Un [[Angoli|angolo]] per la dimensione orizzontale quindi sul asse $x$ e questo determina  la lunghezza orizzontale della __View Window__ $w$
-![[Pasted image 20240210014256.png]]
-![[Pasted image 20240210015150.jpg]]
-![[Pasted image 20240210015206.png]]
+![[IMG - Proiettare una scena 3D in 2D 14.png]]
+![[IMG - Proiettare una scena 3D in 2D 15.jpg]]
+![[IMG - Proiettare una scena 3D in 2D 16.png]]
 In piu va specificate la distanza del __Far plane__ $f$ in modo da determinare l intero __View Volume__
 
 un modo alternativo valido per entrambi i tipi di proiezione è specificare via parametri l intero __View volume__. questi sono che sono:
@@ -201,7 +201,7 @@ un modo alternativo valido per entrambi i tipi di proiezione è specificare via 
 - $b$ bottom:  distanza verso il basso  del rettangolo
 - $n$ near: la distanza tra il  __punto di vista__ è il __View Plane__ 
 - $f$ far: la distanza tra il __punto di vista__ e fino a dove si deve guardare 
-A seconda dei tipi di camera ottieniamo diversi View Volume, In 2D sono visti come![[Pasted image 20240210182346 1.png]]
+A seconda dei tipi di camera ottieniamo diversi View Volume, In 2D sono visti come![[IMG - Proiettare una scena 3D in 2D 17.png]]
 
 #### Cononical View Volume
 la proiezione nella pipeline non e' l ultimo step e' siccome la forma del __View volume__ cambia a seconda della proiezione scelta nasce la problematica di dover parametrizzare la pipeline per adattarsi al tipo di __View Volume__, questo renderebbe pero le cose più difficile e quindi si segue un altro approccio
@@ -233,14 +233,14 @@ P_{persp}= \underbrace{ \begin{bmatrix}
 \end{matrix}$$
 
 Per passare dal __clip space__ al __CVV__ bisogna normalizzare i punti al suo interno. Per indicare la necessita di questo processo di normalizzazione il __CVV__ viene anche chiamato __Normalized Device Context__ (NDC) e le coordinate di questo spazio sono dette __Normalized device coordinates__ 
-![[Pasted image 20240131002757.png]]
-![[Immagine 2024-02-10 140419.png]]
+![[IMG - Proiettare una scena 3D in 2D 18.png]]
+![[IMG - Proiettare una scena 3D in 2D 19.png]]
 
 
 
 #### View Port
 la __View Port__ e' una porzione di un rettangolo più grande chiamato __Application Window__ che e' dove e permesso al applicazione di disegnare i suoi elementi.
-![[Pasted image 20240131002825.png]]
+![[IMG - Proiettare una scena 3D in 2D 20.png]]
 Questa ha Coordinate Discrete siccome disegna utilizzando i pixel dello schermo.
 
 la __View Port__ viene riempito con ciò che e' presente nel __View Plane__ (o View windows) dopo la proiezione
@@ -256,7 +256,7 @@ per effettuare la trasformazione da __CVV__ a __view port__ bisogna
  dove i passi 2-3 servono a trasformare la faccio del CVV in un rettangolo grande quando la __View Port__ e il passo 4 serve per posizionarlo dove e' la __view port__.
  
 In forma matriciale si puo scrivere come:
-![[Pasted image 20240211011253.png]]
+![[IMG - Proiettare una scena 3D in 2D 21.png]]
 $$\begin{align}{}
 W & =  
 \begin{bmatrix}

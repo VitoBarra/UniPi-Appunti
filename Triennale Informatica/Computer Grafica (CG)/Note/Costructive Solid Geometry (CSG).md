@@ -13,4 +13,4 @@ la __Costructive solid Geometry__ (CSG) è un modo per [[Rappresentazione di mod
 Si costruisce la geometria come combinazione di __primitive geometriche semplici__.
 
 Questo viene Rappresentato come [[Alberi|albero binario]] che ha come radice l oggetto completo, come nodi interni i passi intermedi e come foglie le primitive di partenza
-![[IMG_0781.jpeg]]
+![[IMG - Costructive Solid Geometry (CSG) 1.jpeg]]

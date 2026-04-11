@@ -13,7 +13,7 @@ nel [[Illuminazione nella Computer Grafica|Illuminazione nella Computer Grafica]
 
 direzionale: la luce è costante su tutta la scenta è si usa per rappresentare luce al intera scena che viene da molto lontano, come ad esempio il sole.
 punto o posizionale:  varia tra la scena e i usa per modellare cose come lampioni o luci vicine
-![[Pasted image 20240229232910.png]]
+![[IMG - Illuminazione - Tipi di fonte di luce 1.png]]
 
   
 
@@ -33,7 +33,7 @@ _allora_ l irradianza totale proveniente dalla lice ad area è $$L_r(\omega _r)=
 per per [[Superfice lambertiana|superfici labertiane]] diventa  $$L_r(\omega _r)= \cfrac{\rho}{\pi}L_p\int_{p \in  A}\cfrac{\cos \theta \cos \theta_p}{r^2_p} dA_p   $$
 
 
-![[IMG_1121 1 1.jpeg]]
+![[IMG - Illuminazione - Tipi di fonte di luce 2.jpeg]]
 
 
 ##### Spotlight
@@ -44,5 +44,5 @@ per per [[Superfice lambertiana|superfici labertiane]] diventa  $$L_r(\omega _r)
 \cos(\alpha-\theta_{\text{inner}})^n &\theta_{\text{inner}}<\alpha<\theta_{\text{outer}}  \\
 0 & \alpha>\theta_{\text{outer}}
 \end{cases}$$
- ![[Pasted image 20240307185042.png]]
-![[Pasted image 20240301003151.png]]
+ ![[IMG - Illuminazione - Tipi di fonte di luce 3.png]]
+![[IMG - Illuminazione - Tipi di fonte di luce 4.png]]

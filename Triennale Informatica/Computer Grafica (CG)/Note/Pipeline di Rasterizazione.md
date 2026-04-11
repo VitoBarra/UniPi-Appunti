@@ -14,7 +14,7 @@ la _[[Forme di Parallelismo#Temporale Pipeline|pipeline]]_ di rasterizazione è 
 un problema che risolve questo algoritmi e quello di trasformare una scena 3D in una 2D proiettata sullo schermo, crea una _rasterizzazione_, ovviamente scene gia in 2D restano in 2D
 
 la _pipeline_ trasforma una sequenza di _[[Computer grafica - Primitive Geometriche|primitive geometriche]]_  in _pixel_ sullo schermo, genera quindi un [[Rappresentazione delle immagini#Raster Images|immagine rasterizata]]  
-![[IMG_0723.jpeg]]
+![[IMG - Pipeline di Rasterizazione 1.jpeg]]
 Le fasi della Pipeline _sono_:
 _Per-Vertex trasformation_ : 
 	in questa fase ogni [[Computer grafica - Primitive Geometriche|vertice]] della scena viene trasformato in modo _user specific_ ovvero ogni vertice, con trasformazioni _lineare_ come [[Trasformazioni Lineari Geometriche|rotazioni e traslazioni]].
@@ -42,4 +42,4 @@ _allora_ il costo del intero processo è stimato da $$Cost(rast)=K_{tr}n_{v}+\su
 
 #### Rendering di mesh non triangolari
 gli algoritmi usati nelle GPU per il [[Rendering|rendering]] lavorano solo con [[Mesh Poligonali|mesh triangolari]] motivo per cui le __Mesh quadrate__ si scompongono sempre in mesh triangolari. questo anche perché sono per definizione planari ed é facile calcolare la normale della superficie al interno del triangolo
-![[Pasted image 20240220035554.png]]
+![[IMG - Pipeline di Rasterizazione 2.png]]

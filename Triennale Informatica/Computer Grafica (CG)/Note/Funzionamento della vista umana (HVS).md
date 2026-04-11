@@ -12,7 +12,7 @@ tags:
 ---
 il _sistema visivo umano_ o _human Visual System_ (_HVS_) è un sistema comporto da agli occhi, che sogno gli _organi_ recettori della _luce_ nello specifico del _colore_ sono _recettori_ della per  _[[Onde|lunghezza d onda]]_, e una volta recepito questo verrà inviato al cervello sotto forma di segnali che verranno interpretarti come i calori che _vediamo_. 
 gli _stimoli del colore_ passano per la _cornea_ per colpire poi la _retina_
-![[IMG_0708.jpeg]]
+![[IMG - Funzionamento della vista umana (HVS) 1.jpeg]]
 Non tutti i tipo di luce vengono percepiti da occhio umano infatti, riesce a percepire solo una lunghezza d onda che è tra i $380\ nm$  e $780\ nm$ che definisce lo [[Onde - Spetro visibile|Spetro visibile]] della _luce_. e alcuni esempi non in questo range sono.
 - $<380$  _untravioletti_ e _X-ray_  
 - $780>$  _infrarossi_ e _microwaves_

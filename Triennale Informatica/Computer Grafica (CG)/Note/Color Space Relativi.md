@@ -11,7 +11,7 @@ tags:
 # Color Space Relativi
 ---
 mentre i [[Color Space Assoluti standard|color space assoluti]] rappresentano tutti i colori possibili questi non tengono conto di come _riprodurli fisicamente_ tramite un dispositivo, per fare ciò si usano i _Color Space Relativi_ che sono dei [[Color Space|color space]] che dipendono dal dispositivo e contengono solo un _sottoinsieme_ dei colori percettibili, l area dei colori che sono possibili in output da un dato dispositivo è chiamato _Gamut_.    questi sono mappati sul _diagramma cromatico_ del _CIEXYZ_
-![[IMG_0712.jpeg]]
+![[IMG - Color Space Relativi 1.jpeg]]
  ogni diverso _gamut_ prende calori primari diversi rappresentati dai vertici e i colori raggiungibili sono diversi e rappresentati in modo diverso in ogni _color space_.
 
 ##### Conversione tra Gamut
@@ -27,7 +27,7 @@ infatti
 - _Saturation_ rappresenta la “_densita di colore_” 
 - _Lightness_ rappresenta la lucentezza del colore
 - _Value_ rappresenta un altro valore di lucentezza.
-![[IMG_0717.jpeg]]
+![[IMG - Color Space Relativi 2.jpeg]]
 
 ##### Conversione sRGB to HSL/HSV
 sono riportate le formule di conversione tra il [[Color Space|Color Space]] _sRGB_ al Color Space _HSL/GSV_

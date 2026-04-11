@@ -34,7 +34,7 @@ c_R \\c_G \\c_B \\c_{\alpha}
 d_R \\d_G \\d_B \\d_{\alpha}
 \end{bmatrix}$$
 i fattori $b,c$ possono essere variati per implementare diversi effetti.
-![[Pasted image 20240216140058.png]]
+![[IMG - Blending di colore 1.png]]
 
 >[!tip]
 >in __OpenGL__ il __Blending__ deve essere abilitato tramite il comando glEnable(GL_BLEND)

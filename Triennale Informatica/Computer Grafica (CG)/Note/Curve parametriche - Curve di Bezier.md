@@ -21,7 +21,7 @@ e valgono le seguenti proprietà:
 3. la curva che finisce in $p_n$ è [[Retta tangente|tangente]] al segmento $p_n-p_{n-1}$
 4. la curva [[Interpolazione VS approssimazione|approssima]] i punti.
 5. Siccome la somme di tutti i termini del [[Polinomio di Bernstein|polinomio di bernstein]]  $\sum^n_{i=0}B_{i,n}(t)=1$ si ha che la curva di bezier é sempre al intero del [[Convessita#Involucro Convesso|involucro convesso]] dei __Control point__ 
-	![[Pasted image 20240222022108.png]]
+	![[IMG - Curve parametriche - Curve di Bezier 1.png]]
 
 con $2$ __control point__ $p_0,p_1$ avremmo che il grado del [[Polinomio di Bernstein|polinomio di bernstain]] è $1$, le curve di questo tipo sono dette __curva di bezier lineare__. Il punto $p_1$ viene unito con il punto $p_2$ con una linea ed espandendo la sommatoria abbiamo che la curva viene calcolata come$$P(t)=p_0(1-t)+p_1t$$ e questa corrisponde al [[Interpolazione Lineare|interpolazioni lineare]]
 
@@ -48,9 +48,9 @@ p_0\\p_1\\p_2\\p_3
 \end{array}
 $$
 e [[Prodotto tra matrici|moltiplicando le matrici]] si puo verificare che si torna alla forma originale
-![[Pasted image 20240221210633.png]]
+![[IMG - Curve parametriche - Curve di Bezier 2.png]]
 le __curve di bezier__ si possono anche realizzare con gradi superiori 
-![[Pasted image 20240222020908.png]]
+![[IMG - Curve parametriche - Curve di Bezier 3.png]]
 
 ##### Tangente alla curva di bezier
 si puo calcolare la retta tangente alla curva di bezier utilizzando le [[Derivate|derivate]].
@@ -63,12 +63,12 @@ con la definizione della __curva di bezier__ abbiamo che al aumentare dei punti 
 per costruire un __cammino di bezier__ si sceglie un grado $n$ del [[Polinomio di Bernstein|polinomio di bernstein]] e di conseguenza anche il numero di __control point__, e per ottenere la curva desiderata si uniscono più __curve di Bezier__ fatte con il numero di __control point__ scelto.
 l' unione delle curve individuali deve essere fatta in modo da garantire la [[Continuità di una funzione|continuità]] e la [[Smoothness di una superfice|smoothness]] della curva finale per fare ciò ci sono i seguenti criteri.
 1) continuità : se l'__ultimo punto__ di una curva viene usato come __primo punto__ della successiva, questo garantisce la continuità grazie alle proprietà delle __curve di bezier__
-	- ![[Pasted image 20240222182447.png]]
+	- ![[IMG - Curve parametriche - Curve di Bezier 4.png]]
 2) smooth: se vale $1$ e il penultimo e l ultimo punto della prima curva assieme al primo e al secondo della seconda curva devono essere [[Colinearita|collineari]] e quindi hanno la stessa __tangente unitaria__.
-	- ![[Pasted image 20240222182458.png]]
+	- ![[IMG - Curve parametriche - Curve di Bezier 5.png]]
 	- (nel esempio $v_1,v_2=v_3,v_4$ collineari) 
 1) perfettamente smooth: se vale $2$ e vale che la [[Norme Matriciali e Norme Vettoriali|norma]] tra ultimo meno penultimo è uguale alla norma di primo meno secondo, ovvero hanno la stessa [[Derivate|derivata]] seconda
-	- ![[Pasted image 20240222182516.png]]
+	- ![[IMG - Curve parametriche - Curve di Bezier 6.png]]
 	- nel esempio $\| v_2-v_3 \| = \| v_0-v_1 \|$
 
-![[Pasted image 20240222175645.png]]
+![[IMG - Curve parametriche - Curve di Bezier 7.png]]

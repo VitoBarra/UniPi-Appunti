@@ -42,7 +42,7 @@ $$\begin{array}{}
 r_{t}=\cfrac{r_{0}(1-t)+r_{1}t}{\|r_{0}(1-t)+r_{1}t\|}
 \end{array}$$
 ma la velocita di interpolazione non è costante, è più _lenta_ al inizio e alla fine e più _veloce_ nel mezzo 
-![[IMG_0766.jpeg]]
+![[IMG - Interpolazione di Rotazioni 1.jpeg]]
 	Intervalli di lunghezza uguale sottondono angoli diversi
 
 ##### Interpolazione Lineare sferica
@@ -51,7 +51,7 @@ per l una velocità costante nel interpolazione si una l _interpolazione lineare
 1. [[Algoritmi per trovare basi|costruisce]] una [[Base di uno spazio vettoriale|base]] [[Base Ortogonale e Ortonormale|ortonormale]] da $\boldsymbol{e}_{0}$ e $\boldsymbol{e}_{1}$ 
 2.  si interpola l angolo tra i due vettori
 $$\boldsymbol{e}^{p}_{1}=\frac{\boldsymbol{e}_{1}-(\boldsymbol{e}_{0}\cdot \boldsymbol{e}_{1})\boldsymbol{e}_{0}}{\|\boldsymbol{e}_{1}-(\boldsymbol{e}_{0}\cdot \boldsymbol{e}_{1})\boldsymbol{e}_{0}\|}$$ e la formuala di interpolazione è $$\boldsymbol{e}(t)=\cos(t\psi)\boldsymbol{e}_{0}+\sin(t\psi)\boldsymbol{e}^{p}_{1}$$
-![[IMG_0795.jpeg]]
+![[IMG - Interpolazione di Rotazioni 2.jpeg]]
 
 
 ##### Slerp: Shperical linear interpolation

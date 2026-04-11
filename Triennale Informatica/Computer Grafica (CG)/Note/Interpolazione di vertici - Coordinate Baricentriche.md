@@ -17,7 +17,7 @@ _sia_
 - $p_0, p_1$ i punti (0-simplex) due estremi 
 allora il punto $\boldsymbol{p}$ è calcola come
 $$\boldsymbol{p}=w_0\boldsymbol{p}_0+w_1\boldsymbol{p}_1$$
-![[Pasted image 20240301073018.png]]
+![[IMG - Interpolazione di vertici - Coordinate Baricentriche 1.png]]
 
 
 per il 2-simplex ovvero per un triangolo si ha che 
@@ -31,4 +31,4 @@ w_1 & =\cfrac{area(\boldsymbol{p}_0,\boldsymbol{p},\boldsymbol{p}_2)}{area(\bold
 w_2 & =\cfrac{area(\boldsymbol{p}_0,\boldsymbol{p}_1,\boldsymbol{p})}{area(\boldsymbol{p}_0,\boldsymbol{p}_1,\boldsymbol{p}_2)} \\
 
 \end{align}$$
-![[Pasted image 20240301074317.png]]
+![[IMG - Interpolazione di vertici - Coordinate Baricentriche 2.png]]

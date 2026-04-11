@@ -10,14 +10,14 @@ SubTopic: "[[Trasformazione Frammenti in Pixel]]"
 # Clipping di Frammenti nascosti
 ---
 nella fase della [[Pipeline di Rasterizazione|pipeline di rasterizazione]] di  [[Trasformazione Frammenti in Pixel|trasformazione di frammenti in pixel]] con __clipping__ ci siferisce al fatto che è uno spreco di risorse renderizare parti che non sono nel [[Trasformare da Vertici a Frammenti (Rasterizazione)|view Frostum]], quindi si tagliano delle parti che sono al difuori di questo
-![[Pasted image 20240216151115.png]]
+![[IMG - Clipping di Frammenti nascosti 1.png]]
 
 
 ##### Cohen-Sutherland
 il rettangolo di clip é  definito come l intersezione di 4 half-space, ovvero di spazzi divisi da un piano
 i 4 piani dividono l intero piano il piano in 9 quadranti. e ogni quadrante é marcato con un codice a 4 bit
 a questo punto basta generare questo codice per ogni coordinata
-![[Pasted image 20240216151523.png]]
+![[IMG - Clipping di Frammenti nascosti 2.png]]
 un test puo generare il Bit Code dove $R(p)=b_{+y}(p)b_{-y}(p)b_{+x}(p)b_{-x}(p)$ dove $$\begin{array}{}
 b_{+x}(\boldsymbol{p}) = \begin{cases}
 1  &  \boldsymbol{p}_x>x_{max} \\
@@ -54,7 +54,7 @@ seguendo un segmento sulla direzione $v$ si ha che si possono incontrare in ordi
 I punti di intersezione possono essere di __exit__ o di __entry__ del clipping volume, Infatti seguendo l ordine di incontro dei punti si ha che 
 -  se la $x$ dei punti unterseca un  piano __verticale__ e si passa da un half-space positivo ad un half-space negativo si ha un __entery__ altrimenti un __exit__
 -  se la $y$ dei punti unterseca un piano __orizontale__  e si passa da un half-space positivo ad un half-space negativo si ha un __entery__ altrimenti un __exit__
-![[Pasted image 20240216151552.png]]
+![[IMG - Clipping di Frammenti nascosti 3.png]]
 A questo punto per controllare se un segmento è nel clip volume si prendo due valori del parametro $t$ $$\begin{array}{}
 t_{min} & = & \max(0,t_{\text{Largest entry}}) \\
 t_{max}  & = & \min(1,t_{\text{Smalest exit}})

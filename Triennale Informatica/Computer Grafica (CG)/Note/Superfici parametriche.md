@@ -16,7 +16,7 @@ _sia_
 - $B \subseteq \mathbb{R}^3$ le coordinate dello spazio 3D
 _allora_ una __superfice parametrica__ è definita da una [[Funzioni|funzione]] $S:A\to B$ tale che $$S(t,s)=(X(t,s),Y(t,s),Z(t,s))$$
 E solitamente si ha che $t,s \in [0,1]$
-![[Pasted image 20240223231455.png]]
+![[IMG - Superfici parametriche 1.png]]
 
 #### Tensor product surface
 la __Tensor product surface__ è un modo per definire le curve parametriche 
