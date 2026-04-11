@@ -22,5 +22,4 @@ alcuni _quantili_ hanno dei nomi particolari:
 - $0.50-quantile$ è detto $2°$ __quartile__ o _mediana_
 - $0.75-quantile$ è detto $3°$ __quartile__
 
- per rappresentare graficamente si utilizza il **box-plot** sovrapponendo ad una linea che va dal minimo al massimo dei valori dei dati un rettangolo che va dal $1°$ quartile al $3°$ quartile con una linea sulla _mediana_
-	![[UniPi-Appunti/Triennale Informatica/Statistica/Media/Untitled 7.png]]
+ per rappresentare graficamente si utilizza il **box-plot** sovrapponendo ad una linea che va dal minimo al massimo dei valori dei dati un rettangolo che va dal $1°$ quartile al $3°$ quartile con una linea sulla _mediana_ ![[IMG - quantili box.png]]
