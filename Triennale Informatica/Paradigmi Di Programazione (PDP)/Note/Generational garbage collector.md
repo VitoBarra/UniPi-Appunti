@@ -10,12 +10,12 @@ Prev: [[Paradigmi Di Programmazione(PDP)]]
 ---
 Tipo Di [[Garbage Collector]]
 
-![[UniPi-Appunti/Triennale Informatica/Paradigmi Di Programazione (PDP)/Media/Generational/Untitled.png]]
+![[]]
 
-![[UniPi-Appunti/Triennale Informatica/Paradigmi Di Programazione (PDP)/Media/Untitled 1 3.png]]
+![[]]
 
-![[UniPi-Appunti/Triennale Informatica/Paradigmi Di Programazione (PDP)/Media/Untitled 2 4.png]]
+![[]]
 
-![[UniPi-Appunti/Triennale Informatica/Paradigmi Di Programazione (PDP)/Media/Untitled 3 4.png]]
+![[]]
 
-![[UniPi-Appunti/Triennale Informatica/Paradigmi Di Programazione (PDP)/Media/Untitled 4 3.png]]
+![[]]
