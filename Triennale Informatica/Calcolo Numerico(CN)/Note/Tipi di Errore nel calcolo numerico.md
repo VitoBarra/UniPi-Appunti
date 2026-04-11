@@ -9,7 +9,7 @@ topic:
 ---
 Analizzando un fenomeno del mondo reale se ne crea il **modello matematico continuo** questo può permetterci di trovarne le proprietà qualitative( esistenza, unica, regolarità, ecc.) ma non ci permette di trovare una soluzione concreta al problema di conseguenza il modello viene approssimato prendendo solo alcuni suoi punti creando quindi un **modello matematico discreto**
 
-![[UniPi-Appunti/Triennale Informatica/Calcolo Numerico(CN)/Media/Untitled 1.png]]
+![[IMG - Tipi di Errore nel calcolo numerico pipeline di modellazione.png]]
 non tutti i numeri sono rappresentabili con dei valori finiti. ad esempio $\pi$ o $\sqrt{2}$ non sono _rappresentabili finitamente_.
 posiamo solo calcolare con un aritmetica finita che approssima la soluzione reale, questo introduce alcuni errori
 

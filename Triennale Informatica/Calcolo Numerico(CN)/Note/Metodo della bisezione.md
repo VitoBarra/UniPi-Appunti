@@ -16,7 +16,7 @@ invece se la funzione è [[Funzione Monotona|Funzione Monotona]] esiste un unica
 
 il metodo consiste di fare una [[Ricerca Binaria]] su i valori di una funzione. si parte quindi da 
 $a_{0} = a ,b_{0} = b$ e si calcola $c_{0}=\cfrac{a_{0}+b_{0}}{2}$ e si procede con il normale algoritmo di _ricerca binaria_
-![[Pasted image 20230512163407.png]]
+![[IMG - Metodo della bisezione ricerca binaria dello zero.png]]
 
 ```pseudo
     \begin{algorithm}
@@ -51,6 +51,6 @@ anche se va con il logaritmo $k$ nella pratica può crescere molto
 
 sapendo che lo _zero_ della funzione è necessariamente al interno di questo intervallo possiamo dire che l errore di _approssimazione_ è limitato da   $|\alpha -c_{k}|\leq \frac{tol}{2}$  
 dove  $c_{k}$ è lo _zero calcolato_ dal algoritmo e $\alpha$ lo _zero vero_.
-![[Pasted image 20230512171901.png]]
+![[IMG - Metodo della bisezione errore sullo zero calcolato.png]]
 questo algoritmo funziona siccome $b \geq a_{k+1} \geq a_{k}$ e $b_{k+1}\leq b_{k} \leq a$
 ovvero che i vari $a_{k}$ e $b_{k}$ si spostano internamente e non si superano mai.

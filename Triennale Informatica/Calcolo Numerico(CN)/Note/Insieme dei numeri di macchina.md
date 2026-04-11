@@ -45,7 +45,7 @@ questo è un [[Insieme Simmetrico]] rispetto l origine
 
 #### Rappresentazione in memoria
  il teorema della [[Rappresentazione in base di numeri reali|Rappresentazione in base di numeri reali]] ci dice che possiamo rappresentare un numero di macchina come 
-![[C246B2CD-EF78-4202-9850-49AAFD7D5577.jpeg]]
+![[IMG - Insieme dei numeri di macchina segno esponente cifre.jpeg]]
 
 standard IEEE per l aritmetica
 - _double_: 64 bit 

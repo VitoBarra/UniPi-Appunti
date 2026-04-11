@@ -41,7 +41,7 @@ E_2 = I_{n}-
    & v_{n} &  &  &  
 \end{bmatrix}
 \end{array}$$
->![[Pasted image 20230517163351.png]]
+>![[IMG - Matrici elementari di Gauss esempio di matrice elementare.png]]
 
 
 
@@ -61,7 +61,7 @@ I_{n}+v0e_k^T  & = & I_{n}
     I-ve_k^T -we_h^T +v(e_k^Tw)e_h^T& = &I-ve_k^T -we_h^T +v0e_h^T \\
  I_n-ve^T_k-we^T_h &  & 
 	\end{array}
-   $$ciò implica che la matrice prodotto risulta costruita semplicemente apponendo nella corretta posizione i vettori $v$ e $w$  ![[Pasted image 20230517170805.png]] ^62bbc3
+   $$ciò implica che la matrice prodotto risulta costruita semplicemente apponendo nella corretta posizione i vettori $v$ e $w$  ![[IMG - Matrici elementari di Gauss prodotto con vettori v e w.png]] ^62bbc3
 5. sia $E=I_n-ve^T_k$ una _matrice eleminare di gauss_ e $y$ un _vettore_ il prodotto $Ey$  può essere calcolata con al più $O(n-k)$ operazioni moltiplicative. si ha infatti che $$Ey=z\implies \begin{cases}
  z_j=y_j &per& 1 \leq j \leq k \\
  z_j=y_j-v_jy_k & per &j >k
@@ -78,7 +78,7 @@ i termini $m_{2,1}^{(0)}=\frac{a_{2,1}}{a_{1,1}^{(0)}},m_{3,1}^{(0)}=\frac{a_{3,
 
 abbiamo dunque che 
 $$A_{1}=E_{1}A_{0}, \ \ \ \ b_{1} = E_{1}b_{0} $$
-![[Pasted image 20230531173721.png]]
+![[IMG - Eliminazione gaussiana primo passo di eliminazione.png]]
 
 a questo punto alla fine del processo abbiamo che 
 $$E_{n-1}E_{n-2}\dots,E_{1}A_{0}=A_{n-1} =R$$
@@ -105,6 +105,6 @@ $$
  e risulta che 
  $$A=E_{1}^{-1}\dots E_{n-1}^{-1}R $$
  Dalla [[#^714b11|proprieta 2]] segue che le _[[Matrice inversa|inverse]]_ delle matrici elementari sono matrici elementari ottenute semplicemente cambiando il segno del vettore $v$. Dalla [[#^62bbc3|proprieta 4]] segue che il prodotto delle matrici elementari $$L = E_{1}^{-1}\dots E_{n-1}^{-1}$$è determinato apponendo nel corretto ordine i moltiplicatori di Gauss
- ![[Pasted image 20230531175458.png]]
+ ![[IMG - Fattorizzazione LU costruzione della matrice L.png]]
 applicando questo metodo si ha che la [[Complessita|complessita]] del calcolo della fattorizzazione e la risoluzione del sistema risulta $$\sum^{n-1}_{k=1}k^{2}+2\sum^{n-1}_{k=1}k = \frac{n^{3}}{3}+O(n^{2}) = O(n^{3})$$
 operazioni moltiplicative

@@ -103,8 +103,8 @@ se $f^{(n+1)}(x)$ non _varia molto_ si può studiare da solo il comportamento di
 - i massimi di $|\pi_{n}(t)|$ _crescono_ in ogni intervallo $(i,i+1)$ quando ci si allontana dal centro del intervallo.
 - il massimo a gli estremi cresce in maniera esponenziale al crescere di $n$
 da questo studio possiamo dire che conviene usare il _polinomio di interpolazione_ per approssimare $f(x)$ solo per _bassi_ $n$  e per $x$ vicini al _centro del intervallo_
-![[Pasted image 20230516004029.png]]
-![[Pasted image 20230516004036.png]]
+![[IMG - Interpolazione polinomiale fenomeno di Runge generale.png]]
+![[IMG - Interpolazione polinomiale convergenza al centro dell intervallo.png]]
 
 
 > [!example]- Esempi la funzione di Runge
@@ -112,7 +112,7 @@ $$f(x)=\frac{1}{1+x^{2}}, \ \ x \in[a,b]=[-5,5]$$
 sia $p(x)$ il polinomio di interpolazione sui nodi $x_{i}=a+\frac{i(b-a)}{n} , \ \ \ i=0,\dots,n$ 
 si ottiene disegnando la funzione e i valori approssimati 
 per $n=5$
-![[Pasted image 20230516004320.png]]
+![[IMG - Interpolazione polinomiale esempio Runge n 5.png]]
 per $n =10$
-![[Pasted image 20230516004432.png]]
+![[IMG - Interpolazione polinomiale esempio Runge n 10.png]]
 

@@ -14,7 +14,7 @@ fattorizziamo $A = M - N$ con
 - $N=L+U$ 
 - la mia matrice di interazione $J =D^{-1}(L+U)$
 dove $A=$
-![[Pasted image 20230510215538.png]]
+![[IMG - Metodi iterativi scomposizione della matrice A.png]]
 
 >[!warning]
 >posso applicare questo metodo solo alle matrici con $a_{ii} \not= 0\ \ \ \forall i =1,\dots,n$ ovvero solo a quelle matrici che _NON_ hanno elementi nulli sulla _diagonale_. cosi non fosse $D$ non sarebbe [[Matrice inversa|invertibile]].
@@ -32,7 +32,7 @@ x^{(k+1)} &= &D^{-1}((L+U)x^{(k)}+b)  \\
 Dx^{(k+1)} &= &Lx^{(k)}+Ux^{(k)}+b
 \end{array}$$
 espandendo le matrici si ottiene
-![[Pasted image 20230510223010.png]]
+![[IMG - Metodo di Jacobi formula espansa.png]]
 da qui possiamo valutare ogni elemento $i-$esimo di $x$ moltiplicando le matrici e ottenendo
 $$a_{ii}x_i^{(k+1)}= b_{i} - \sum^{i-1}_{j=1} a_{ij}x_{j}^{(k)}- \sum^{n}_{j=i+1}a_{ij}x_j^{(k)} $$
 e da questo possiamo scrivere la relazione 

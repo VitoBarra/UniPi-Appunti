@@ -19,7 +19,7 @@ dove  $$A =
  &  -L&  &  &  & \\
  &  &  &  &  & \\
 \end{bmatrix}$$
-![[Pasted image 20230510215538.png]]
+![[IMG - Metodi iterativi scomposizione della matrice A.png]]
 >[!warning]
 >posso applicare questo metodo solo alle matrici con $a_{ii} \not= 0\ \ \ \forall i =1,\dots,n$ ovvero solo a quelle matrici che _NON_ hanno elementi nulli sulla _diagonale_. cosi non fosse $D-L$ non sarebbe [[Matrice inversa|invertibile]].
 
@@ -36,7 +36,7 @@ x^{(k+1)} &= &(D-L)^{-1}(Ux^{(k)}+b)  \\
 (D-L)x^{(k+1)} &= &Ux^{(k)}+b
 \end{array}$$
 espandendo le matrici si ottiene
-![[Pasted image 20230510232155.png]]
+![[IMG - Metodo di Gauss Seidel formula espansa.png]]
  
 e da qui possiamo riscrivere l equazione per calcolare la $i$-esima riga come 
 

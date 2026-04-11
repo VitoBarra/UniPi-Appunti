@@ -31,7 +31,7 @@ per l _analisi in avanti_ del errore algoritmico si consideri un step intermedio
 dove $c_x(\psi),c_y(\psi)$ sono rispettivamente i coefficienti di amplificazione e l errore locale del operazione $\psi$. il calcolo del errore algoritmico totale può essere reso intuitivo con l aiuto di un grado rappresentato nella figura seguente ove i nodi corrispondo ai risultato intermedi generati dal algoritmo. Se il risultato intermedio $x$ corrisponde al nodo $i$ mentre il risultato intermedio $y$ corrisponde al nodo $j$ allora l operazione $\psi(x,y)=z$ genera un arco dal nodo $i$ al nodo corrispondente a $z$ con perso $c_x(\psi)$.  nel nodo corrispondere a $z$ risulta dato dalla somma del errore locale più i pesi di arco moltiplicati per l errore algoritmico totale accumulato sul nodo di origine del arco considerato in accordo della relazione precedente
 
 
-![[757FE8DA-6518-4975-A5E8-109F418BAEE2.jpeg]]
+![[IMG - Tecniche per l analisi degli errori perturbazioni e condizionamento.jpeg]]
 l analisi in avanti del errore algoritmi conduce generalmente a valutazioni eccessivamente pessimistiche assumendo l amplificazione massima ad ogni passo intermedio del algoritmo
 
 ### coefficienti noti

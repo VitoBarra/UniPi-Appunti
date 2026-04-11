@@ -15,7 +15,7 @@ Prev: [[Calcolo Numerico(CN)]]
 - Assumiamo che la matrice $A$ sia [[Matrici Diagonalizzabili|diagonalizzabile]]
 	- $X^{-1}AX =D$ dalla definizione di diagonalizzabile  la riscriviamo come 
 	- $AX =XD$ è quindi abbiamo che il l uguaglianza per righe come 
-		- ![[Pasted image 20230511180931.png]]
+		- ![[IMG - Calcolo di autovalori uguaglianza per righe di AX XD.png]]
 	- assumiamo inoltre che l [[Autovettori e Autovalori|autovalore]] di modulo massimo sia unico
 		- $|\lambda_{1}| > |\lambda_{2}| \geq |\lambda_{3}|\geq  \dots \geq|\lambda_{n}|$
 		- il modulo è essenziale siccome potrei dover confrontare dei [[Insieme dei Numeri complessi|numeri complessi]] e numeri reali.
@@ -77,12 +77,12 @@ _Problemi_
 	- $=1$, $\lambda_1^k$ tutto ok
 _variante 1_
 divido per $\lambda_1$ ad ogni passo. 
-![[Pasted image 20230511224559.png]]
+![[IMG - Calcolo di autovalori metodo delle potenze normalizzazione con lambda 1.png]]
 in questo modo ottengo che 
 $$v^{(k)} \rightarrow_{k\to \infty} \uppsi_{1}x^{(1)}$$
 ma $\lambda_{1}$ non lo conosciamo. e quindi questa soluzione per quanto ideale è infattibile.
 il problema e nella lunghezza del vettore che può crescere o diminuire molto quindi per risolvere il problema si _normalizza_ il vettore.
-![[Pasted image 20230511224943.png]]
+![[IMG - Calcolo di autovalori normalizzazione del vettore iterato.png]]
 in questo modo riusciamo ad ottenere l _autovettore_
 #### quoziente di reileigh
 questo server per calcolare l _autovalore_ associato al vettore calcolato
@@ -114,4 +114,4 @@ il calcolo del _autovettore_ di mezzo qualsiasi funziona solo nella condizione i
 -  $|\lambda_{1}| \leq \dots\leq|\lambda_{i+1}| < |\lambda_{i}|<|\lambda_{i-1}| \leq  \dots \leq|\lambda_{n}|$
 faccio in modo che il $\lambda_{1}$ diventi l _autovalore_ di modulo minimo e si applica la variante per cercare il minimo.
 si fa  calcolando 
-![[Pasted image 20230511231344.png]]
+![[IMG - Calcolo di autovalori stima dell autovalore dominante.png]]

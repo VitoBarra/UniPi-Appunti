@@ -30,4 +30,4 @@ che ha soluzione $\tilde{x} = -0.02 ,\tilde{y} = 2.01$
 
 quindi una variazione sconsiderata giustificata geometricamente dallo strettissimo angolo che crea l intersezione delle dure rette
 
-![[UniPi-Appunti/Triennale Informatica/Calcolo Numerico(CN)/Media/Untitled.png]]
+![[IMG - Problemi Mal Condizionati piccola perturbazione grande errore.png]]
