@@ -21,7 +21,7 @@ dove $y$ è la codifica di una computazione di $M_i$ con dato iniziale $x$. calc
 $M_i(x) = c_0,\dots,c_n$ questa sequenza di passi termina sempre e quindi T è totale. 
 
 >[!warning] DA CAPIRE
->![[920F3AA3-976A-4BC4-BA17-2DE5E60718D3.jpeg]]
+>![[IMG - Teorema di forma normale 1.jpeg]]
 >>[!question] come fai  a codificare una computazione nncpt 
 >>la codifica di una macchia a di turing c è ma è equivalente alla codifica della computazione ??? 
 

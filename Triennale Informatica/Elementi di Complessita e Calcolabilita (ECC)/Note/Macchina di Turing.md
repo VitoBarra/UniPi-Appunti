@@ -29,7 +29,7 @@ La relazione $\delta$  si può restringere e farla diventare una funzione dove i
 $$\delta(q,\sigma) =(q',\sigma',D')$$
 questa è una notazione più intuitiva per indicare il passaggio da uno stato $q$ che ha simbolo $\sigma'$ ad un altro stato $q'$ con simbolo $\sigma'$ con l operazione $D \in \{L,R,-\}$
 
-![[Pasted image 20221011231009.png]]
+![[IMG - Macchina di Turing 1.png]]
 La macchina di Turing come idea passa da usare una pila di fogli illimitata  per rappresentare le istruzioni, da li si passa ad usare un foglio illimitato orizzontalmente e verticalmente foglio mappando le caselle del foglio con gli indici $(i,j)$ . Successivamente si passa a una striscia di istruzioni
 
 >[!info]
@@ -83,4 +83,4 @@ la macchina di Turing soddisfa le ipotesi della definizione di [[Nozione di Calc
 3. ogni passi di computazione [[Macchina di Turing#^f06de7|^]] restituiscono un solo risultato
 4. ogni passi di computazione [[Macchina di Turing#^f06de7|^]] con lo stesso passo restituisce sempre la stessa computazione
 5. non c è limite e per dimostrarlo basta creare una macchina che non converge per nessuno ingresso (e quindi ha sempre infiniti passi)
-	![[Pasted image 20221012004606.png]]
+	![[IMG - Macchina di Turing 2.png]]

@@ -79,7 +79,7 @@ dove
 - $\rightarrow \subseteq \Gamma \times \Gamma$ è una funzione, detta di _transizione_
 
 definito da: 
-![[Pasted image 20221012224529.png]]
+![[IMG - Linguaggi FOR e WHILE 1.png]]
 sono regole  operazionali definite con le regole di inferenza; descrivono da quale stato si può transire a quale altro restando del tutto generali sul comando specifico. 
 queste regole derivano dalla sintassi e sono tutte e sole le transizioni possibili il che significa che questa è la minima classe che contiene tutte le istanze degli assiomi ed è chiusa rispetto alle regole di inferenza 
 ovvero 

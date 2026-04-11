@@ -9,5 +9,5 @@ Prev: [[Elementi di Complessità e Calcolabilità (ECC)]]
 # Codifica di una macchina di Turing con un numero
 ---
 
-![[Pasted image 20221014172233.png]]
-![[Pasted image 20221014172330.png]]
+![[IMG - Codifica di una macchina di turing con un numero 1.png]]
+![[IMG - Codifica di una macchina di turing con un numero 2.png]]

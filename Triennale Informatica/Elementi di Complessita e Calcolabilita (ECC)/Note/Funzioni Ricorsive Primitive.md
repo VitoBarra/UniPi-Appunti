@@ -25,7 +25,7 @@ IV & Composizione \\
 V & \text{Ricorsione primitva}  \\
 \end{matrix}
 $$
-![[Pasted image 20221014022815.png]]
+![[IMG - Funzioni Ricorsive Primitive 1.png]]
 
 --- 
 in generale una [[Funzioni|funzione]] si può dire che appartenga alla classe delle funzioni ricorsive primitive se esiste una successione (o derivazione) finita della forma :

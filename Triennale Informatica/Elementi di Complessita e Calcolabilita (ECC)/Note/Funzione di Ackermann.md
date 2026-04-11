@@ -21,5 +21,5 @@ $$
 i valori di queste espressioni ricorsive decrescono sempre quindi questa funzione è intuitivamente [[Calcolabilità|calcolabile]]
 
 scritti in notazione più intuitiva questa funzione calcola
-![[Pasted image 20221014174821.png]]
-![[Pasted image 20221014174835.png]]
+![[IMG - Funzione di Ackermann 1.png]]
+![[IMG - Funzione di Ackermann 2.png]]

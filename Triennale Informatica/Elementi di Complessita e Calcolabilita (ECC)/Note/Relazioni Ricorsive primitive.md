@@ -17,9 +17,9 @@ $$
 \end{cases}
 $$
 >[!example]
->![[Pasted image 20221014171152.png]]
+>![[IMG - Relazioni Ricorsive primitive 1.png]]
 
 
 ## Relazioni ricorsive primitive importanti 
-![[Pasted image 20221014171637.png]]
-![[Pasted image 20221014171907.png]]
+![[IMG - Relazioni Ricorsive primitive 2.png]]
+![[IMG - Relazioni Ricorsive primitive 3.png]]

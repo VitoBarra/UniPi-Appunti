@@ -24,7 +24,7 @@ $$n\rightarrow(n-\frac12k\times (k+1),k-(n-\frac12k\times(k+1)))$$
 Dove 
 $$k = \left\lfloor \frac12(\sqrt{1+8 n}-1) \right\rfloor$$
 Questa codifica si può visualizzare con 
-![[66CEA436-3E6E-44B8-80B1-D90A4890C489.jpeg]]
+![[IMG - Funzioni con più parametri o con dati strutturati 1.jpeg]]
 Dove x e y sono mappati sugli indici della matrice.
 
 
