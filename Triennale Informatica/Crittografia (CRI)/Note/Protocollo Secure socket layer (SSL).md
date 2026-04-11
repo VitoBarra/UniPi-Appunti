@@ -28,7 +28,7 @@ Ponendo che l utente $U$ detto _client_ voglia accedere ai servizi di sistema $S
 _Client_ e _server_ si accordano su un solo segreto il _master secret_ che costruiscono insieme in modo incrementale.
 
 seguendo il seguente schema:
-![[Pasted image 20230817012508.png]]
+![[IMG - Protocollo Secure socket layer (SSL) 1.png]]
 
 1. _Utente: client hello_:
 	  L’utente $U$ manda al sistema $S$ un messaggio, detto _client hello_, con cui richiede la creazione di una connessione SSL, specifica le “prestazioni” di sicurezza che desidera siano garantite durante la connessione, e invia una sequenza di _byte casuali_.  il messaggio specifica:

@@ -24,7 +24,7 @@ Per ovviare a questo problema si usa il seguente metodo
 Quando l utente $U$ fornisce la propria _password_ $P_{U}$ invece di essere salvata in chiaro viene salvata come  un [[Generatori di numeri Pseudo Casuali|numero generato casualete]] detto $S$ Seme e ed $Q = h(P_{U}S)$ dove $h$ è una [[Funzioni Hash One-Way|funzione hash one way]] e $P_{U}S$ è la stringa della password concatenata con il seme $S$
 
 abbiamo quindi il file delle associazioni utente password come
-![[Pasted image 20230814181120.png]]
+![[IMG - Protocolli di Identificazione 1.png]]
 al momento del _login_ quando l utente proverà ad accedere verrà recuperato $S$ dal file e ricalcolato $Q =h(P_{U}S)$ se coincide con la _sequenza salvata_ sul file allora l utente è identificato.
 
 _Concatenare la password con un seme_ $S$ evita a chi guarda il file di capire se più utenti hanno usato la stessa password, essendo $S$ generato casualmente anche nel caso in cui due utenti abbiano la _stessa password_ genereranno due sequenza $Q$ diverse.

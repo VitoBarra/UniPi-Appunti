@@ -31,11 +31,11 @@ La curva ellittica sarà quindi definita da
 $$E(a,b)=\{(x,y) \in \mathcal{R}^{2}\mid y^{2}=x^{3}+ax+b \}$$
 dove $a,b \in \mathcal{R}$ 
 la curva $E(a,b)$ contiene il punto $O$ in direzione del asse $y$ siccome c è un asintoto verticale
-![[Pasted image 20230810135800.png]]
+![[IMG - Curve Ellittiche 1.png]]
 le curve che soddisfano l equazioni sono di due tipi, una a due componenti quando le radici reali sono 3 e una ad un solo componente quando le radici reali è unica.
 
 per far funzionare questa definizione dobbiamo aggiungere il vincolo $$4a^{3}+27b^{2} \not = 0$$per evitare che il [[Polinomi|polinomio]] $x^{3}+ax+b$ abbia radici multiple e di conseguenza la curva non avrà [[Funzioni differenziabili|punti di inderivabilita o derivate non univoche]] come cuspidi o nodi
-![[Pasted image 20230811205047.png]]
+![[IMG - Curve Ellittiche 2.png]]
 
 in entrambi le tipologie di curve vale sempre la simmetria rispetto al asse del ascisse e quindi vale che se $$P=(x,y) \in E(a,b) \implies -P=(x,-y) \in E(a,b)$$Mentre per il punto al infinito $O$ il suo _speculare_ è $O$ stesso.
 
@@ -51,7 +51,7 @@ nel caso di 3 punti di intersezione _reali_ indicati con $P,Q,R$ abbiamo che :
 - se $Q = -P$ la _retta_ sarà verticale e eventualmente tangente, Il punto $R$ sarà il punto al infinito $O$ 
 - Altrimenti i 3 punti sono distinti e sono sulla curva
 
-![[IMG_0629.jpeg]]
+![[IMG - Curve Ellittiche 3.jpeg]]
 
 #### Somma su curve ellittiche reali
 per definire l addizione sulle curve ellittiche si sfrutta la proprietà del numero di intersezioni infatti è definita come 
@@ -63,7 +63,7 @@ _allora_ la loro somma è il punto al infinito$$P+Q+R =O$$e da qui ricordando ch
  P+Q  & = & -R 
 \end{array}
  $$Questa [[Operazioni algebriche|operzione]] è _ben definita_ in quanto essendo la _curva simmetrica_ rispetto al asse del asciasse abbiamo che $-R\in E(a,b)$ e nel caso particolare della tangente abbiamo che $R=O$ ma questo non è un problema siccome lo speculare di $O$ resta $O$ e quindi $-R=O$ quindi è ancora un punto della _curva ellittica_.
-![[IMG_0627.jpeg]]
+![[IMG - Curve Ellittiche 4.jpeg]]
 
 
 Questa operazioni insieme alla curva permette di costruire la struttura algebrica di un [[Gruppo abeliano|gruppo abeliano]] siccome soddisfa le proprietà necessarie infatti abbiamo che 
@@ -116,7 +116,7 @@ $$
 0  & \leq  & y &  \leq & q-1
 \end{array}$$
 e siccome vale che $-y \mod p = p-y$ abbiamo che non ci sono più valori negativi e la simmetria si è spostata dal asse delle ascisse al asse _orizzontale_ $y =\cfrac{p}{2}$
-![[Pasted image 20230811105325.png]]
+![[IMG - Curve Ellittiche 5.png]]
 	con $p = 67$
 abbiamo quindi che il punto speculare è definito come 
 $$
@@ -157,7 +157,7 @@ da qui possiamo dire che in _generale_ la curva $E(a,b)$ contiene $\Theta(p)$ _p
 In generale non tutti i valori di $x \in \mathcal{Z}_{p}$ danno luogo ad un _[[Residui quadratici in modulo|residuo quadratico]]_ presente nel campo infatti ci sono esattamente  $\cfrac{p-1}{2}$ punti che non hanno un _residuo quadratico_, ragionando sulla definizione della curva e notato che l espressione $y^{2}\mod p$ avrà sempre e solo valori che sono residui quadratici in $\mathcal{Z}_{p}$ possiamo dire che non ci sarà mai un punto sulla curva che abbia come _ordinata_ un numero che non è un _residuo quadrato_ 
 
 Valori diversi di $x$ possono generare più volte _stesso residuo quadratico_
-![[Pasted image 20230812035526.png]]
+![[IMG - Curve Ellittiche 6.png]]
 	i valori sulla sinistra sono i valori di $y^{2}\mod 7$ che come si vede sono solo i _[[Residui quadratici in modulo]]_, e questi si ripetono per simmetria.
 	mentre i valori in altro sono i valori di $x^{3}+x \mod  7$ $a=1,b=0$ 
 	come si vede valori diversi di $x$ possono dare piu volte lo stesso _scarto quadratico_ 

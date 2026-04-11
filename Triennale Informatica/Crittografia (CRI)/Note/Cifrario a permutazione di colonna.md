@@ -18,7 +18,7 @@ questo cifrario si basa sul utilizzo di una _tabella di lavoro_ $\mathcal{T}$ ha
 - $\pi$ è una permutazione degli interi $\{1,2,\dots,c\}$
 
 per crittografare il messaggio si divide il messaggi in $n=\cfrac{|m|}{r\times c}$ blocchi ogni $m_{1},\dots,m_{n}$ blocco viene scritto sulla tabella di lavoro $\mathcal{T}$ in modo regolare da _sinistra verso destra_.
-![[Pasted image 20230705154123.png]]
+![[IMG - Cifrario a permutazione di colonna 1.png]]
 e poi si permutano le colonne secondo la _permutazione_ $\pi$ e si legge il crittogramma dal _alto verso il basso da sinistra verso destra_ .
 
 #### spazio delle chiavi 

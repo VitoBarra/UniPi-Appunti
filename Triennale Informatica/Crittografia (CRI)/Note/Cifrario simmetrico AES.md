@@ -17,17 +17,17 @@ lo _AES_ è un cifrario a _blocchi_ che si _basa su fasi_
 nel algoritmo ogni _messaggio_ viene diviso in blocchi da  128, 192 e 256 bit e puo utilizzare chiavi da 128, 192 e 256 bit queste entrambi estendibili a multipli di 32.
 lo Standard si riferisce a blocchi da 128 e chiavi 128, 192 e 256 bit 
 anche il numero di fasi _cambia_ a secondo della dimensione della chiave e sono 10,12 e 14 rispettivamente.
-![[IMG_0615.jpeg]]
+![[IMG - Cifrario simmetrico AES 1.jpeg]]
 ogni fase impiega una _chiave locale_ generata dalla chiave segreta e una _chiave iniziale_ per la prima fase. Tutte queste sotto chiavi sono generate tramite un processo  di selezione ed espansione.
 
 _blocchi_ e _sottochiavi_ sono organizzati in matrici di dimensione variabile a seconda della dimensione del blocco ma lo standard è $128$ bit. divisi in $16$ byte $b_{i,j}$
-![[Pasted image 20230709180943.png]]
+![[IMG - Cifrario simmetrico AES 2.png]]
 
 
 l organizzazione generale segue come
 _trasformazione iniziale_: 
 	si generano le _chiavi locali_ a partire dalla chiave del cifrario. questo viene fatto ricorsiva mente aggiungendo 40 colonne alla matrice delle chiavi
-	- $40$ perchè se ne usano $4$ ad ogni fase e queste sono 10	![[IMG_0617.jpeg]]
+	- $40$ perchè se ne usano $4$ ad ogni fase e queste sono 10	![[IMG - Cifrario simmetrico AES 3.jpeg]]
 	  ogni colonna viene calcolata come $$
 	\begin{cases}
 	 W[i]= W[i-4] \oplus W[i-1] &   \\
@@ -49,7 +49,7 @@ _organizazione di una fase_:
 	- usa criteri algebrici che garantiscono la _non linearità_ tra input e output, e ogni _byte_  di $B$ è trasformato come $a_{i,j} = S(b_{i,j})$, 
 	- l $S$ box è una matrice $16 \times 16$ ed è a 8 bit di ingresso e 8 di uscita. contiene una permutazione degli  [[Rappresentazione di oggetti matematici con sequenze|interi rappresentabili]] con 8 bit, ovvero quelli da $0\leq v < 256$ 
 	- l Input della $S$-box è usato per selezionare _riga e colonna_ e l output e la rappresentazione del numero l incrocio delle due
-	- ![[IMG_0618.jpeg]]
+	- ![[IMG - Cifrario simmetrico AES 4.jpeg]]
 2. viene applicata uno _shift ciclico_ sulle righe della matrice ottenuta.
 	- ogni byte viene shiftato a sinistra di $i$ posizioni dove $i$ è il numero di riga partendo da 0
 	- quindi la prima riga resta inalterata, la seconda viene shiftata (sui Byte) di 1 la terza di 2 e la quarta di 3 posizioni
@@ -60,8 +60,8 @@ _organizazione di una fase_:
 4.  ogni bit della matrice risultante è posto in _XOR_ con i bit della _chiave locale_ corrispettiva alla fase
 	-  $b_{ij} = b_{ij} \oplus k_{ij}$
 
-![[IMG_0616.jpeg]]
-![[Pasted image 20230709184159.png]]
+![[IMG - Cifrario simmetrico AES 5.jpeg]]
+![[IMG - Cifrario simmetrico AES 6.png]]
 #### Vulnerabilità
 esisono attacchi più volevi di quello esauriente se le fasi sono 6 o meno ma con 7  questo attacco non funziona più
 

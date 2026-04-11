@@ -34,7 +34,7 @@ una volta ottenuto $x$ potrà calcolare $k[session]=Y^{x}\mod p$
 
 un __crittoanalista *attivo*__ se ha la possibilità di modificare i messaggi inviati può attuare un tipo di attacco [[Tipologia di attacchi ai cifrari|man in-the-midle]] 
 
-![[IMG_0598.jpeg]]
+![[IMG - Cifrario Diffie-Hellman (DH) 1.jpeg]]
 _Eve_ (eavesdropper) è l intente malevolo che vuole infiltrarsi nella comunicazione e lo scegliendo un intero $z$ qualsiasi e calcolando $Z =g^{z} \mod  p$ e si trapone tra il canale di comunicazione di _alice_ e _Bob_ obbligandoli a comunicare con se stessa.
 al momento dello scambio di $X$ e $Y$ _Eve_ invia ad entrambi $Z$. questa viene ricevuta da _Alice_ e _Bob_ come proveniente dal partner e generano cosi due chiavi $k[session]$ diverse $$
 \begin{array}{}

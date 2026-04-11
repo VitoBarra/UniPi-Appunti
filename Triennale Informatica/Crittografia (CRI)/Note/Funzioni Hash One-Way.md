@@ -38,7 +38,7 @@ $$h(x,k)$$
 i _messaggi_ $m$ su cui si sta eseguendo la funzione di _SHA_ se non sono già lunghi un numero di bit multiplo di 512 gli si aggiunge un _padding_.
 
 la struttura di una singola fase $i$ della funzione SHA1 è la seguente
-	![[Pasted image 20230813213859.png]]
+	![[IMG - Funzioni Hash One-Way 1.png]]
 dove:
 - $S$ Box realizza una _funzione non lineare_ con $92$ bit di  input  e $32$ d output
 - $R1,R2$ sono due _shift ciclici_ di $n$ posizioni dove $n$ vari ad ogni iterazione $i$

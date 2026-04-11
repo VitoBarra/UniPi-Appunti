@@ -18,7 +18,7 @@ Solitamente piu $h$ è alto più la sicurezza è alta ma comunemente si scelgono
 per _cifrare_ il messaggio si dispongono messaggio e chiave in righe adiacenti allineate verticalmente 
 _sia_ $m$ il messaggio _se_ $k$ è più corta di $m$ _allora_ la chiave si ripete per tutta la lunghezza di $m$
 cosi facendo ogni lettera $x$ del messaggio sarà allineata ad una lettera $y$ e la _cifratura_ consiste nel sostituire la lettera con quella che è al incrocio della riga di $\mathcal{T}$ che inizia per $x$ e della colonna di $\mathcal{T}$ che inizia per $y$
-![[Pasted image 20230705123324.png]]
+![[IMG - Cifrario di Vigenere 1.png]]
 per la decrittazione si esegue il procedimento inverso
 
 #### Debolezze

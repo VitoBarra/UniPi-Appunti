@@ -16,7 +16,7 @@ _non fungibile_:
 _fungibile_:
 	può essere scambiato con altri oggetti con le stesse proprietà
 
-![[Pasted image 20230819205959.png]]
+![[IMG - NON-Fungibile Token (NFT) 1.png]]
 
 
 ### NFT Su block chain

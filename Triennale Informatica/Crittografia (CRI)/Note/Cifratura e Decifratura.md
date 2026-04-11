@@ -18,5 +18,5 @@ Le funzioni $\mathcal{C}$ e $\mathcal{D}$ sono una l [[Funzioni|inversa]] del al
 
 nello _scheda di comunicazione_ si usano come 
 $$\mathcal{D}(\mathcal{C}(m)) = m$$
-![[C9E59A06-8A09-41F4-98E6-0A56527C08AE.jpeg]]
+![[IMG - Cifratura e Decifratura 1.jpeg]]
 la comunicazione avviene su un canale _insicuro_ cosi non fosse non ci sarebbe la necessita di [[Crittografia Concetti Generali|criptare]] il messaggio. un canali insicuro significa che qualcuno potrebbe provare ad legge il messaggio e nel caso dei messaggi criptati struttura degli [[Tipologia di attacchi ai cifrari|attacchi]] per decrittare il Messaggio.

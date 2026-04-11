@@ -70,7 +70,7 @@ siccome la potenza di calcolo tende ad aumentare sempre di Piu anche cosi fa $t$
 
 Essendo [[Funzioni Hash One-Way|Sha256]] una _funzione crittograficamente_ forte non c è modo di predire velocemente quale numero $n_{i}$ genererà un codice con le proprietà volute e quindi l unico modo per calcolare questo valore è il metodo enumerativo, si devono quindi provare tutte le combinazioni. Mediamente per trovare il _nonce_ giusto ci vogliono $2^{t}$ operazioni
 
-![[Pasted image 20230819182515.png]]
+![[IMG - Moneta elettronica Bit Coin 1.png]]
 
 Durante la validazione di un blocco tutta la catena di blocchi precedenti è _validata e immutabile_
 

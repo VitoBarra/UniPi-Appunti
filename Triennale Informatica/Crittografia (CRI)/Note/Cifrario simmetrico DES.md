@@ -42,10 +42,10 @@ _permutazione finale_:
 	PF genera la permutaizone finale del è l inversa di _PI_
  ovvero riporta i bit nella l’ora posizione originale.
 le permutazioni sono specificate in questa tabella.
-![[Pasted image 20230707214636.png]]
+![[IMG - Cifrario simmetrico DES 1.png]]
 
 Il processo complessivo segue come nel immagine
-![[Pasted image 20230707195205.png]]
+![[IMG - Cifrario simmetrico DES 2.png]]
 andando ad analizzare cosa succede nella i-esima fase abbiamo che i componenti sono
 
 _Schift ciflico_: 
@@ -60,7 +60,7 @@ _Compressione e trasposizione_ (_CT_):
 
 _Espansione e permutazione_ (_EP_):
 	Il blocco $D[i − 1]$ di $32$ bit generato nella fase precedente viene espanso a $48$ bit _duplicando_ $16$ bit in ingresso e spostandone altri per ottenere un blocco della stessa dimensione di quello estratto dalla _sottochiave_ e poter eseguire lo _XOR_ tra i due. Si incrementa cosi la dipendenza tra ingresso e uscita della fase, poiché i bit duplicati influenzano due delle sostituzioni operate dalla funzione $S$ del blocco seguente.
-![[Pasted image 20230707223730.png]]
+![[IMG - Cifrario simmetrico DES 3.png]]
 
 
 _Sostituzione S (o S-box)_:
@@ -68,13 +68,13 @@ _Sostituzione S (o S-box)_:
 	Sia $B_{j} = b_1b_2b_3b_4b_5b_6$. Questi bit vengono divisi in due gruppi $b_1b_6$ e $b_2b_3b_4b_5$ che definiscono due numeri $x, y$, con $0 \leq x \leq 3$ e $0 \leq y \leq 15$, utilizzati per accedere alla cella di riga $x$ e colonna $y$ in una tabella che definisce la sottofunzione $S_j$ . Il _numero contenuto_ al incrocio di _riga e colonna_ contenuto è compreso tra $0$ e $15$, ed è quindi [[Rappresentazione di oggetti matematici con sequenze|rappresentato]] con 4 bit, questa è l _output_ di $S_j$ realizzando cosi una compressione da 6 a 4 bit. Complessivamente gli otto blocchi generano una sequenza di $32$ bit.
 	I blocchi $EP$ e $S$ sono studiati in modo che tutti i bit di $D[i−1]$ influenzino l’uscita di $S$, senza la quale non sarebbe poi possibile decifrare il messaggio.
 
-![[Pasted image 20230707222422.png]]
+![[IMG - Cifrario simmetrico DES 4.png]]
 
 _Permutazione_ (_P_). è una permutazione di 32 bit che genera il blocco finale $D[i]$
-![[Pasted image 20230707222509.png]]
+![[IMG - Cifrario simmetrico DES 5.png]]
 
 e mettendo insieme i vari pezzi per ogni fase ho lo schema seguiente. dove $\oplus$ è lo [[Logica proposizionale|XOR]]
-![[Pasted image 20230707221817.png]]
+![[IMG - Cifrario simmetrico DES 6.png]]
 
 tutte le funzione nel cifrario, tranne che per la $S$-box sono lineari e quindi vale che $f(x) \oplus f(y) =f(x \oplus y)$ 
 il grande della  _sicurezza_ del cifrario viene dalla $S$-box proprio perche non è lineare.

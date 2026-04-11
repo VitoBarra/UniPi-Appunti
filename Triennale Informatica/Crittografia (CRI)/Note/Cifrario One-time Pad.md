@@ -113,7 +113,7 @@ per fare ciò cerchiamo il limite inferiore $t$ di _bit casuali_ partendo dal  [
 e quindi abbiamo che il numero di _bit casuali_ necessari è $0.12n$, 
 
 con questo numero di bit  è poco probabile che _messaggi diversi_ portino a _crittogrammi uguali_ con _chiavi diverse_, cosa che invece _sicuramente succede_ se sono validi tutte le sequenze di lunghezza $2^{n}$ . questo è un problema perche critto analista potrebbe attaccare il cifrario con un _attacco esauriente_ invece se _più crittogrammi_ possono esserere decifrati in _piu messaggi significativi_ con _chiavi diverse_  il crittoanalista non puo essere sicuro di quale messaggio è stato effettivamente mandato
-![[Pasted image 20230706210518.png]]
+![[IMG - Cifrario One-time Pad 1.png]]
  se vogliamo associare ogni messaggio a piu crittogrammi con chiavi diverse dobbiamo avere $$\alpha^{n} \cdot 2^{t} \gg 2^{n}$$
  dove  $a^{n}\cdot 2^{t}$ è il numero di crittogrammi ottenibili cifrando ogni messaggio con ogni chiave e $2^{n}$ è il numero di sequenze binarie ottenibile con $n$ cifre e quindi il _numero di crittogrammi diversi_
  

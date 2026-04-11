@@ -15,7 +15,7 @@ si basa sul idea di avere una pagina $P$ _scritta ad hoc_ per contenere il messa
 
 il processo di decrittazione si fa ponendo sulla pagina $P$ la griglia e scrivendo cosi i primi $s$ caratteri, poi _ruotando_ la griglia di $90°$ in senso orario  si possono scrivere i successivi $s$ _caratteri_.
 le celle trasparenti devono essere scelte in modo che non ricomprino mai la stessa due volte durante le rotazioni.
-![[Pasted image 20230705160230.png]]
+![[IMG - Cifrario a griglia 1.png]]
 
 se abbiamo che il la lunghezza del messaggio $|m| < 4s$ gli spazzi non usati vengono riempiti a caso mentre se sono $|m|>4s$  si divide il messaggi in piu pagine.
 

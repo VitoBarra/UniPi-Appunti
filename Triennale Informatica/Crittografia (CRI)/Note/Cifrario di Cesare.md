@@ -12,7 +12,7 @@ Prev: [[Crittografia (CRI)]]
 
 #### Definizione
 _sia_ $m$ il messaggio in chiaro il crittogramma $c$ è generato sostituendo ad ogni lettera di $m$ la lettera di 3 posizioni avanti nel alfabeto assumendo che questo sia circolare.
-![[Pasted image 20230704180529.png]]
+![[IMG - Cifrario di Cesare 1.png]]
 
 #### Generalizzazione
 questo si puo generalizzare aumentando lo spazio delle chiavi $K$ 
@@ -32,7 +32,7 @@ $$
 \end{array}
 $$
 queste due operazioni possono essere immaginate come la rotazione in dischi concentrici.
-![[Pasted image 20230704181826.png]]
+![[IMG - Cifrario di Cesare 2.png]]
 ##### Osservazioni
 Questo cifrario gode della proprietà _commutativa_ infatti abbiamo che.
 $$

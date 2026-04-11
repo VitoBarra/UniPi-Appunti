@@ -10,8 +10,8 @@ Prev: [[Crittografia (CRI)]]
 ---
 e la prima _macchina crittografica automatizzata_  usata nella seconda guerra mondiale ed è una estensione digitale delle idee del [[Cifrario di Alberti|cifrario di alberti]] 
 
-![[IMG_0632.jpeg]]
-![[IMG_0635.jpeg]]
+![[IMG - La macchina enigma 1.jpeg]]
+![[IMG - La macchina enigma 2.jpeg]]
 
 
 - I _rotori non mantenevano_ la stessa posizione reciproca durante la cifratura  
@@ -32,7 +32,7 @@ e la prima _macchina crittografica automatizzata_  usata nella seconda guerra mo
 Possibilità di _permutare_ tra loro i tre rotori:
  in questo modo le permutazioni diventano: $$(3!) \times 263 > 105$$si aggiunge il plugboard tra tastiera e primo rotore  
 Consente di scambiare tra loro i caratteri di _6 coppie scelte arbitrariamente_ in ogni trasmissione
-![[IMG_0637.jpeg]]
+![[IMG - La macchina enigma 3.jpeg]]
 Ogni cablaggio è descritto da una sequenza di 12 caratteri (le 6 coppie da scambiare)  
 _Combinazioni possibili_:$$\begin{pmatrix}26  \\ 12\end{pmatrix} \approx 10^{7}$$
 	Ogni gruppo di 12 caratteri si può presentare in $12!$ permutazioni diverse, ma non tutte producono effetti diversi:

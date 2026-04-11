@@ -33,7 +33,7 @@ Indicate le basi per un _PB_ come
 - $+:\mathcal{V}, \mathcal{H}$  ovvero _contemporaneamente_ _orizontale_ e _verticale_
 - $\times:\pm45°$ contemporaneamente $45°$ e $-45°$
 abbiamo che il circuito che fa funzionare il BB84 è il seguente 
-![[IMG_0603.jpeg]]
+![[IMG - Elementi di crittografica quantistica 1.jpeg]]
 dove dal parte del mittente (Alice) abbiamo:
 	_OPG_ spara un fotone per volta verso il _PC_ che li polarizza secondo una base decisa in modo casuale tramite un [[Generatori di numeri Pseudo Casuali|generatore di numeri casuali]] _RNG1_  
 dalla parte del destinatario (Bob):
@@ -41,7 +41,7 @@ dalla parte del destinatario (Bob):
 I due sono anche connessione da un canale standard _[[Protocolli di Autenticazione|autenticato]]_
 
 la tabella  delle possibili letture risulta quindi come 
-![[IMG_0604.jpeg]]
+![[IMG - Elementi di crittografica quantistica 2.jpeg]]
 dove due frecce nelle caselle indiano un comportamento _imprevedibile_.
 
 Essendo le due basi scelte per ogni fotone _completamente scorrelate_ avremmo che ad ogni scambio di fotone la [[Definizione di Probabilita|probabilita]] che il bit inviato e quelli ricevuto siano uguali è $\cfrac{1}{2}$ e quindi se si invia una sequenza di fotoni saranno recepiti correttamente solo la meta degli elementi.
@@ -52,7 +52,7 @@ Dato il circuito il protocollo _segue come_:
 2. _bob_ (B) interpreta $S_{A}$ con le basi che ha scelto ottenendo una sequenza $S_{B}$ che è uguale a $S_{A}$ per meta degli elementi 
 3. Usando il canale standard _bob_ comunica le basi che ha scelto ad _alice_ e _alice_ comunica a _bob_ quali basi sono comuni
 4. se non ci sono state interferenze di un _crittoanalista attivo_ _alice_ e _bob_ avranno una sotto sequenza $S_{A}’=S_{B}’$  
-	- ![[IMG_0605.jpeg]]
+	- ![[IMG - Elementi di crittografica quantistica 3.jpeg]]
 5. _alicea_ e _bob_ sacrificano una parte $S_{A}’’,S_{B}’’$  delle sequenze $S_{A}’,S_{B}’$ in posizioni prestabilite e comunicheranno le due sequenze sul _canale standard_. 
 	- _se_ $S_{A}’’\not=S_{B}’’$  i due partner interrompono il protocollo siccome deve esserci stata un alterazione dovuto da una _intercettazione o malfunzionamento_. 
 	- _altrimenti_ $S_{A}’-S_{A}’’=S_{B}’-S_{B}’’$  viene usata come chiave
@@ -61,7 +61,7 @@ Dato il circuito il protocollo _segue come_:
 
 #### Attacchi al protocollo
 un possibile _crittoanalista attivo_ (_Eve_) che voglia condurre un attacco [[Tipologia di attacchi ai cifrari|man in the middle]] sul _canale quantistico_ dovrebbe leggere la sequenza di fotoni mandati da _Alice_ e rimandarli a _bob_  ma _eve_ non conosce la base usata da _Alice_ dovrà sceglierne una a coso e _completamente scorrelata_ il che per il fenomeno di _[[Meccanica quantistica|decoerenza]]_ e del impossibilita di _clonare_ la sequenza prima di leggerla cambierà la polarizzazione dei fotoni della sequenza, per via di ciò  _eve_ non potrà rispedire a  _bob_ la stessa sequenza  ricevuta da _Alice_
-![[IMG_0607.jpeg]]
+![[IMG - Elementi di crittografica quantistica 4.jpeg]]
 pero a questo punto _eve_ avrà circa $\cfrac{1}{4}$ delle basi uguali a quelle di _alice_ e _bob_ e quindi riuscita comunque a scoprire un quarto della chiave, motivo per cui si esegue i _quinto punto_ del protocollo dove si comunicano alcuni dei bit sul canale standard. Siccome le basi sono uguali anche i bit dovrebbero essere uguali e se questo non è il caso c è stata un intrusione, questo è il motivo del controllo.    
 
 

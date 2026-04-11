@@ -15,7 +15,7 @@ secondo la [[Classificazione di cifrari|classificazione]] é un cifrario a _sost
 #### Definizione
 Funzionava utilizzando _due dischi rotanti_ dove quello più esterno è un disco di del alfabeto normale arricchito con dei numeri  
 Il disco interno era un disco che doveva essere uguale tra i due comunicanti, cosa che lo rendeva di difficile l utilizzo 
-![[Pasted image 20230705002614.png]]
+![[IMG - Cifrario di Alberti 1.png]]
 
 per la cifratura si parte da una chiave concordata tra i comunicanti che _corrisponde alla configurazione_ del disco interno con una lettera corrispondente alla $A$. 
 	Ad esempio nel immagine la chiave è $A-G$.
@@ -23,8 +23,8 @@ Durante la _cifratura_ l utente puo aggiungere dei simboli che stanno a rapprese
 
 #### Esempi
 esempio il messaggio "_IL DELFINO_" è crittografato come  
-![[Pasted image 20230705003131.png]]
+![[IMG - Cifrario di Alberti 2.png]]
 dove il $2$ comunica che tra $2$ lettere ce ne sarà una che non fa parte del messaggio ma indica la nuova chiave.
 
 Qui sotto ci sono i due cerchi messi in orizzontale prima e dopo il cambio di chiave.
-![[Pasted image 20230705003140.png]]
+![[IMG - Cifrario di Alberti 3.png]]

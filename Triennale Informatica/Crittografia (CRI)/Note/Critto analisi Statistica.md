@@ -10,7 +10,7 @@ Prev: [[Crittografia (CRI)]]
 ---
 la critto analisi statistica si basa su delle proprietà del linguaggio naturale come la frequenza delle _lettere_ dei _digrammi_, _trigrammi_ e sono dei gruppi di lettere che solitamente stanno assieme.
 questo sono detti _q-grammi_ e crescono come $26^{q}$
-![[Pasted image 20230705174154.png]]
+![[IMG - Critto analisi Statistica 1.png]]
 
 i [[Cifrari storici|Cifrari storici]] sono stati tutti attaccati con la critto _analisi statistica_ tramite attacchi [[Tipologia di attacchi ai cifrari|cipher test]] 
 

@@ -54,7 +54,7 @@ _Allora_ il cifrario è un _cifrario perfetto_
 
 notiamo che ad un crittogramma $c$ con $\mathcal{P}(C=c)>0$ corrispondono $s \leq N_{k}$ messaggi non necessariamente distinti tra loro ottenuti decriptando con tutte le _chiavi possibili_
 essendo vero _per ipotesi_ che $N_{m}>N_{k} \geq s$ abbiamo che esiste almeno un messaggio $m$ non raggiungibile da $c$ il che significa che $P(M=m|C=c) = 0 \not =P(M=m)$ il che rende il cifrario _non perfetto_ sotto ipotesi che $M_{m}>M_{k}$
-![[Pasted image 20230706150740.png]]
+![[IMG - Cifrari perfetti 1.png]]
 
 
 
