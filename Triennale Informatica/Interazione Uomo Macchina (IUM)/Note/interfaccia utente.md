@@ -15,12 +15,12 @@ una _Interfaccia utente_ (UI) è un mapping che parte dalle _capacita sensoriali
 l obiettivi primario di una UI è quello di rendere l interazione tra utente e macchina il più _semplice e profittevole_ possibile, ovvero deve essere facile da usare e deve dare al utente un beneficio il più efficace e efficiente possibile.
 
 un interfaccia ben progettata richiede _sforzo cognitivo minimo_ al utente e fa una buona gestione della quantità di informazioni che da al utente, cercando di massimizzare quelle utili senza pero mandare l utente in _sovraccarico di informazioni_ siccome questo puo portare a confusione
-![[Pasted image 20230615124224.png]]
+![[IMG - interfaccia utente 1.png]]
 
 un interfaccia utente è composta da uno o più layer inluso un Human-machine interface (HMI), queste sono interface macchina con input fisici come tastiera, mouse, gamepads e hardware di output come monitor e casse e stampanti
 
 un device che implementa una HMI è chiamato [[Human Interface Devices|human interface divice]]
-![[Pasted image 20230615125302.png]]
+![[IMG - interfaccia utente 2.png]]
 
 
 
@@ -48,11 +48,11 @@ non è sempre il caso di aggiungere sensi diponde dal contesto specifico
 #### Categorie di CUI
 ci sono tre categorie di CUI e sono
 1. _standard_: sono i dispositivi standard come mouse, tastiera e monitor
-	1. ![[Pasted image 20230615145511.png]]
+	1. ![[IMG - interfaccia utente 3.png]]
 2. _virtual_:  la CUI blocca il mondo reale per creare un _realtà virtuale_ e si una una virtual reality interface
-	1. ![[Pasted image 20230615145450.png]]
+	1. ![[IMG - interfaccia utente 4.png]]
 3. _augmented_: la CUI non blocca il mondo reale ma aggiunge sopra al mondo reale delle informazioni, questa son interfacce _aumentate_
-	1. ![[Pasted image 20230615145527.png]]
+	1. ![[IMG - interfaccia utente 5.png]]
 
 le CUI sono classificate anche per numero di sensi che coinvolge se una CUI coinvolge _3 sensi_ ed è _standard_ è dette CUI 3S
 se utilizza tutti e 5 i sensi viene chiamata _qualia interface_

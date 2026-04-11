@@ -23,10 +23,10 @@ questi sono categorizati in due modi
 	- _Rule-Based_: la persona ha bene in mente il sistema con cui sta lavorando (ha un buon [[Principi di progettazione del interazione|modello mentale]]) ma compie un errore applicando una _sequenza di azione_ sbagliata.
 	- _Knowledge-based_: la persona compie l errore siccome non conosce bene il sistema o le informazioni sono incomplete
 	- _Momory-lapse_: la persona compie un errore dimenticandosi uno o più passaggi della procedura che vuole eseguire
-![[Pasted image 20230608190652.png]]
+![[IMG - Errori Umani 1.png]]
 
 questi diversi tipi di errori vengono fatti nelle diverse fasi delle [[Le azioni degli utenti|azioni del utente]]
-![[Pasted image 20230608192654.png]]
+![[IMG - Errori Umani 2.png]]
 > [!warning] 
 > i _memory lapses_ non sono di due tipi ma diventano slips o mistakes a seconda di dove li compio nelle fasi
 

@@ -53,10 +53,10 @@ la tastiera alla pressione di un tasto manda un _Scancode_ al computer, questo i
 un _barcode reader_ è un scanner ottico che puo leggere _barcode_ stampati.
 consiste in una fonte di luce una lente a una sensore di luce.
 questi dispositivi sono in grado di scannerizzare il bar code  e decodificarlo, mandando poi il contenuto del bar code sulla porta di output dello scanner.
-![[barcode.gif]]
+![[GIF - Human Interface Devices 1.gif]]
 i _barcode_ sono un metodo per rappresentare dati in un modo visuale e machine-readable. questi sono formati standard e cambiano il valore variando la spaziature tra linee parale e l ampiezza di queste linee.
 un altro modo è il QR code che non niente altro che un _barcode_ 2D
-![[qr-code.png]]
+![[IMG - Human Interface Devices 2.png]]
 
 #### RFID
 un _RFID Reader_ manda un interrogazione elettromagnetica ai _tag RFID_ e questi risponderanno solitamente con un numero identificati
@@ -85,11 +85,11 @@ per tipo di movimento
 
 per tipologia
 - _isotonico_: è un oggetto movibile e misura il suo spostamento 
-	- ![[Pasted image 20230615010742.png]]
+	- ![[IMG - Human Interface Devices 3.png]]
 - _isometrico_: è un oggetto che non si muove ma reagisce alla forza che si applica sul dispositivo
-	- ![[Pasted image 20230615010753.png]]
+	- ![[IMG - Human Interface Devices 4.png]]
 - _elastico_:  è  un dispositivo che aumenta la forza di resistenza al aumentare della distanza dal punto iniziale
-	- ![[Pasted image 20230615010800.png]]
+	- ![[IMG - Human Interface Devices 5.png]]
 
 
 per il tipo di controllo
@@ -113,13 +113,13 @@ Solitamente il funzionamento di questi dispositivi si basa su un _emettitore di 
 
  i metodi più conosciti sono
  _Bright-pupil_: solitamente più complessa da realizzare dal punto di vista del hardware. ma funziona meglio con tutti i vari pigmenti di occhio
- ![[Pasted image 20230615012942.png]]
+ ![[IMG - Human Interface Devices 6.png]]
  _Dark-pupil_: più facile da realizzare un po' meno accurata
- ![[Pasted image 20230615012949.png]]
+ ![[IMG - Human Interface Devices 7.png]]
 La differenza tra le due viene dalla posizione della sorgente di luce.
 
 un altro metodo meno usato è chiamato  _passive light_ e usa la luce visibile per illuminare
-![[Pasted image 20230615013304.png]]
+![[IMG - Human Interface Devices 8.png]]
 
 
 ##### gaze-tracking
@@ -158,12 +158,12 @@ Sono utilizzati per:
 -  Localizzazione degli oggetti tramite il suono: localizzazione delle fonti acustiche 
 -  Registrazioni originali ad alta fedeltà 
 -  Monitoraggio del rumore ambientale
-![[Pasted image 20230616173646.png]]
+![[IMG - Human Interface Devices 9.png]]
 Di solito, un array è composto da microfoni _omnidirezionali_, _microfoni direzionali_ o una combinazione di microfoni omnidirezionali e direzionali distribuiti lungo il perimetro di uno spazio.
 Gli array possono essere formati anche utilizzando un numero di microfoni molto vicini tra loro. Date le relazioni fisiche fisse nello spazio tra i diversi elementi dell'array di trasduttori dei singoli microfoni, il processamento simultaneo _DSP_ (_digital signal processor_) dei segnali provenienti da ciascuno degli elementi dell'array di microfoni _può creare uno o più microfoni "virtuali"_.
 
 
-ad esempio alexa con il suo array di microfoni puo triangolare la posizione di chi parla ![[Pasted image 20230616174321.png]]
+ad esempio alexa con il suo array di microfoni puo triangolare la posizione di chi parla ![[IMG - Human Interface Devices 10.png]]
 
  i problemi di questi tipi di sistemi solitamente sono: 
  - La larghezza di banda del suono è molto inferiore rispetto ai display visivi. 
@@ -189,7 +189,7 @@ Un '_unità di misura inerziale (IMU)_ è un dispositivo elettronico che misura 
 - e talvolta l'orientamento di un corpo
  utilizzando una combinazione di _accelerometri_, _giroscopi_ e _talvolta magnetometri_. 
 l IMU ha 9 assi totali combinano  un giroscopio a 3 assi, un accelerometro a 3 assi e una bussola a 3 assi (magnetometro) nello stesso chip insieme a un processore di movimento digitale incorporato in grado di elaborare complessi algoritmi di MotionFusion.
-![[Pasted image 20230616190303.png]]
+![[IMG - Human Interface Devices 11.png]]
 
 
 
@@ -219,12 +219,12 @@ per fare ciò ci sono due tecniche
 
 I sensori di _elettrocardiografia (ECG)_ misurano il potenziale bio-generato dai segnali elettrici che controllano l'espansione e la contrazione del cuore
 
-![[Pasted image 20230616192930.png]]
+![[IMG - Human Interface Devices 12.png]]
 
 ### Eletroncefalografia
 _L'elettroencefalografia (EEG)_ è un metodo di monitoraggio per registrare l'attività elettrica del cervello. 
 Gli _headset EEG_  posizionano elettrodi non invasivi lungo il cuoio capelluto. La definizione clinica dell'_EEG_ è la registrazione dell'attività cerebrale nel corso del tempo. Gli elettrodi EEG captano e registrano l'attività elettrica nel cervello. I segnali raccolti vengono amplificati, digitalizzati e quindi inviati a un computer o dispositivo mobile per la memorizzazione e l'elaborazione dei dati. Gli headset EEG vengono utilizzati come dispositivi di puntamento per soggetti disabili o con difficoltà motorie.
-![[Pasted image 20230616204842.png]]
+![[IMG - Human Interface Devices 13.png]]
 
 
 

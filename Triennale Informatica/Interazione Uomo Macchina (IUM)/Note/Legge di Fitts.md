@@ -21,4 +21,4 @@ dove
 -  $b=$ la velocita del dispositivo (misurato empiricamente per ogni device)
 - $D$ la _distanza_ dal punto di inizio al centro del target
 - $W$ è l _ampiezza_ del targhe lungo l asse di movimento
-![[Pasted image 20230615004600.png]]
+![[IMG - Legge di Fitts 1.png]]

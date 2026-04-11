@@ -18,9 +18,9 @@ una NUI durante l apprendimento da parte del utente gli da sempre la sensazione 
 >[!warning] 
 >il termine "natural" è riferita al interazione non alla interfaccia in se
 
-![[Pasted image 20230615162256.png]]
+![[IMG - le Natural user Interface 1.png]]
 un forte esempio di NUI sono le gesture del Ipad motivo per cui è diventato famoso.
-![[Pasted image 20230615162307.png]]
+![[IMG - le Natural user Interface 2.png]]
 ci sono delle gesture più complicate come quelle con 4 dita che van imparate apposta il che le rende più impegnative
 
 
@@ -30,7 +30,7 @@ come tutte le interfacce le NUI devono essere costruite con il contesto di utili
 
 le gesture, l uso della voce e del tocco sono importanti componenti delle NUI ma queste risulteranno naturali solo se l utente ha il giusto livello di skill.
 
-![[Pasted image 20230615163224.png]]
+![[IMG - le Natural user Interface 3.png]]
 
 
 ### Reality based interfaces
@@ -38,4 +38,4 @@ un modo per costruire _NUI_ è quella di usare Reality user interface (RUI) anch
 
 un esempio è l utilizzo di interfacce indossabile per rendere gli oggetti reali "clikabili".
 
-![[Pasted image 20230615163740.png]]
+![[IMG - le Natural user Interface 4.png]]

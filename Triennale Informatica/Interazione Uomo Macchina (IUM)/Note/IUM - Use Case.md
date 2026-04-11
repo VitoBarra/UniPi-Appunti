@@ -17,7 +17,7 @@ rispetto agli [[IUM - Scenario|scenari]] gli use case sono più granulari infatt
 
 gli _use case_ sono importanti siccome spiegano come il sistema dovrebbe reagire al interazione
 
-![[Pasted image 20230609175635.png]]
+![[IMG - IUM - Use Case 1.png]]
 
 gli elementi dei _casi d uso_ sono
 - _attori_: qualcuno o qualcosa che esegue un comportamento

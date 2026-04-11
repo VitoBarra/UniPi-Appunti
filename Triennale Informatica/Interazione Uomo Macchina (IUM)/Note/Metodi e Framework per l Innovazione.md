@@ -24,13 +24,13 @@ una una metodologia basata su più 3 quali
 2. _ideazione_
 3. _implementazione_
  dove si alternano fasi _convergenti_ e _divergenti_. 
-![[Pasted image 20230614173255.png]]
+![[IMG - Metodi e Framework per l Innovazione 1.png]]
 dove
 _Ispirazione_: si lasciano tutti i preconcetti e si cerca soluzione creative al problema specificato. Lo si fa lasciando liberta di parola a chiunque anche alle idee più astruse, Questi si fa siccome è proprio nel ambiente dove si puo "poter parlare" che possono nascere idee creative e innovative.
 _Ideazone_: in questa fase si guardano le idee e si inizia a dividere da cosa puo funzionare e cosa non puo funzionare. si provano con visualizzazioni. Si fanno dei piccoli test su [[Pretotyping|pretoipi]] e si raccolgono feadback.  Si sceglie tra le idee migliori cosa passare alla prossima fase
 _Implementazione_: in questa fare si hanno le basi per poter costruire [[Prototipi e Mockup|prototipi]] da far provare agli utenti. In questa fase si prepara anche il prodotto per il suo uso nel _mondo reale_
-![[Pasted image 20230614173330.png]]
-![[Pasted image 20230614173339.png]]
+![[IMG - Metodi e Framework per l Innovazione 2.png]]
+![[IMG - Metodi e Framework per l Innovazione 3.png]]
 
 ### Design Thinking
 è un _processo Iterativo_ per l innovazione in cui cerchiamo di capire l utente, sfidare le nostre assunzione e ridefinire il problema in modo da trovare strategie e soluzioni che non avremmo visto con il _livello iniziale di conoscenza_.
@@ -43,15 +43,15 @@ questo processo è diviso in più fasi
 3. _ideate_: sfidando le assunzione e creando idee [[Definizione di Innovazione|innovative]]9
 4. _prototipi_: si crea il prototipo del idea
 5. _test_: si fanno dei test
-![[Pasted image 20230614175506.png]]
+![[IMG - Metodi e Framework per l Innovazione 4.png]]
 i generale è importante sapere che _non sono necessariamente fasi sequenziali_, ma spesso si deve tronare alle fasi precedenti se si accorge che c è qualche problema nel processo
 ### HCD process + Design Thinking
 i due modelli sono mappali uno sul altro 
-![[Pasted image 20230614180412.png]]
+![[IMG - Metodi e Framework per l Innovazione 5.png]]
 ### HCD process vs Design Thinking vs HCD
 in generale si è visto che l _HCD process_ funziona bene se conosciamo il dominio mentre il _Design Thinking_ funziona meglio dove il problema non si conosce bene e i requisiti possono cambiare facilmente
 
 
 si ricorda che il [[Human centered Design|Human centered Design]] è un mindset mentre il _HCD process_ e il _Design Thinking_ sono metodologie
 
-![[Pasted image 20230614181024.png]]
+![[IMG - Metodi e Framework per l Innovazione 6.png]]

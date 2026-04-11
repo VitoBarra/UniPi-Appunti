@@ -16,7 +16,7 @@ Questa è divisa in sotto discipline
 - _Product design_: sviluppo del idea e del prodotto
 - _UX design_: lo sviluppo del esperienza utente
 - _UI design_: lo sviluppo del [[interfaccia utente|User Interface]] (UI) che poi l utente andrà ad utilizzare
-![[Pasted image 20230605182438.png]]
+![[IMG - Ruoli e parti nel Interaction Design 1.png]]
 i generale l _interaction design_ mira ad aumentare l _usabilità_ di un prodotto.
 
 #### Usabilità di un prodotto 
@@ -47,7 +47,7 @@ lo _UX designer_ deve anche integra aspetti di marketing e business siccome ques
 
 #### User Interface designer (UI design)
 dallo studio della UX si creare uno schema di interazione che si dai poi agli _UI Designer_  che ha il compito di progettare l _[[interfaccia utente|interfaccia utente]]_ al fine di _abilitare_ l esperienza progettata 
-![[Pasted image 20230605194025.png]]
+![[IMG - Ruoli e parti nel Interaction Design 2.png]]
 lo _UI designer_ ha lo obiettivo di progettare l aspetto estetico e la struttura del interfaccia. cosi che l utente sia indotto a seguire l esperienza progettata dal _UX designer_
 
 lo _UI designer_ produce 
@@ -60,11 +60,11 @@ gli sviluppatori
 
 
 #### UX designer vs UI designer
-![[Pasted image 20230605195457.png]]
+![[IMG - Ruoli e parti nel Interaction Design 3.png]]
 
 #### Front-end Developer (UI Developer)
 sono i responsabili della implementazione del _UI/UX_
 questo con vari framework è diventato molto più facile nel tempo e permette cicli di iterazione di sviluppo più brevi
 
 #### Ruoli 
-![[Pasted image 20230605195425.png]]
+![[IMG - Ruoli e parti nel Interaction Design 4.png]]

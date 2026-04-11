@@ -32,7 +32,7 @@ l _Understanding_ di un sistema è la capacità del prodotto di farsi usare corr
 è importante lavorare sul miglioramento della _discoverability_ e lo si fa basandosi sui 6 principi fondamentali del Design
 #### 1. Affordances
 le _affordances_ sono relazioni tra le proprietà di un prodotto o oggetto e la persona e queste determinano come l oggetto puo eventualmente essere usato
-![[Pasted image 20230606001801.png]]
+![[IMG - Principi di progettazione del interazione 1.png]]
 > [!warning]
 > non sono proprieta del sistema 
 
@@ -55,11 +55,11 @@ I _significanti_ si basano sulle esperienza pregresse del utente. si basano su q
 #### 3. Mappings
 il principio di _mapping_ e quando cerco di associare due insiemi di cose con un associazione uno ad uno
 - un esempio è tra i fornelli e le manopole
-- ![[Pasted image 20230606161853.png]]
+- ![[IMG - Principi di progettazione del interazione 2.png]]
 un mapping di questo tipo lavora con l intuizione del utente che deve interagire con il sistema e lo aiuta a capire velocemente cosa deve fare.
 
 il mapping si basa sulle convezioni culturali ad esempio
-- ![[Pasted image 20230606162422.png]]
+- ![[IMG - Principi di progettazione del interazione 3.png]]
 - in culture asiatiche troviamo il full a sinistra mentre in quelle occidentali è a destra. 
 	- Mapping diverso della stessa cosa su base culturale!
 #### 4. Feedback
@@ -93,8 +93,8 @@ le informazioni possono essere di qualsiasi tipo
 - es. manuale, video su youtube, qualcuno che spiega. 
 il prodotto e tutte le informazioni sono dette _System Image_
 
-![[Pasted image 20230606171104.png]]
-![[Pasted image 20230606171439.png]]
+![[IMG - Principi di progettazione del interazione 4.png]]
+![[IMG - Principi di progettazione del interazione 5.png]]
 se la _system image_ è incoerente con il prodotto allora questo diventa difficile da utilizzare per l utente.
 
 la consistenza è importante in quanto un sistema consistente riduce la confusione e da meno da imparare al utente.
@@ -118,10 +118,10 @@ essenzialmente chiedo al utente di fare qualcosa prima di accedere al prossimo s
 - es. sa l email non dovesse esistere non posso garantire il servizio, verificare l email evita questo scenario.
 _Forcing Functions: Lock-Ins_
 i _lock-in_ mantengono un operazione attiva chiedendo al utente di fare un altra azione prima di interrompere quel attività
-es.  le finestre modali ![[Pasted image 20230606232629.png]]
+es.  le finestre modali ![[IMG - Principi di progettazione del interazione 6.png]]
 _Forcing Functions: Lockout_
 nel _Lockout_ si richiede al utente di fare un ulteriore azione di conferma per poter iniziare un attività 
-- es. ![[Pasted image 20230606233028.png]]
+- es. ![[IMG - Principi di progettazione del interazione 7.png]]
 
 #### Activity-Centered Controls 
 in generale invece di pensare alle funzionalità si pensa al _attività_ utile al utente.

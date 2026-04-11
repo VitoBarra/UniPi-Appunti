@@ -9,7 +9,7 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 # Test di Usabilità
 ---
 quando si ha un [[Prototipi e Mockup|prototipo]] lo si vuole testare con l utente in modo da individuare i _problemi di usabilità_ e opportunità per migliorare il design.
-![[Pasted image 20230616011231.png]]
+![[IMG - Test di Usabilita 1.png]]
 
 
 ### Cos è l usabilità
@@ -57,7 +57,7 @@ _Nielsen’s 10 Usability Heuristics_
 
 #### Usability test
 gli elementi dei _test di usabilità_ sono _facilitatori_, _partecipante_ e _task_
-![[Pasted image 20230616020040.png]]
+![[IMG - Test di Usabilita 2.png]]
 
 ##### Facilitatore
 _Il facilitatore_ guida _il partecipante_ durante il processo di test. 
@@ -89,7 +89,7 @@ Idealmente, dovresti selezionare i partecipanti a partire dalle [[User personas|
 Spesso ai partecipanti viene chiesto di pensare ad alta voce durante il _test di usabilità_ (metodo del _"think-aloud"_). Il facilitatore potrebbe chiedere ai partecipanti di narrare le loro azioni e pensieri mentre svolgono le attività. Lo scopo di questo approccio è comprendere i comportamenti, gli obiettivi, i pensieri e le motivazioni dei partecipanti.
 
 
-![[Pasted image 20230616020102.png]]
+![[IMG - Test di Usabilita 3.png]]
 
 #### Tipi di Test di usabilità
 ci sono due tipi di test di usabilità
@@ -104,7 +104,7 @@ ci sono due tipi di test di usabilità
 
 entrambi i tipi di test sono importanti nella progettazione per la UX.
 i _Test qualitativi_ aiutano a capire il perché del comportamento degli utenti mentre quelli _quantitativi_ possono fornire una comprensione più generale del comportamento degli utente e delle loro preferenze
-![[Pasted image 20230616155547.png]]
+![[IMG - Test di Usabilita 4.png]]
 
 
 ### Come fare i test
@@ -120,7 +120,7 @@ per per  _pianificare un test_ bisogna definire delle parti e della modalita
 5. _numero di partecipanti_: Jakob Nielsen fa notare che più di 5 partecipati non da troppe informazioni in più 
 	1. per test _qualitativi_ bastano 5 persone
 	2. per test _quantitativi_ se ne raccomandano 20
-	3. ![[Pasted image 20230616161123.png]]
+	3. ![[IMG - Test di Usabilita 5.png]]
 6. _prendere i giusti partecipanti_: Servono partecipanti rappresentativi.
 	1. è molto importante che i partecipanti del test siano il più simili possibile in demografica e comportamento ai _target user_ per cui è stato pensato il prodotto. Non fosse cosi i test potrebbero essere missleading
 7. _srivere dei task corretti_: le attività vengono scritte come [[IUM - Scenario|scenari]] e dovrebbero corrispondere agli obiettivi dello studio. I task si dividono in 

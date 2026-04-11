@@ -26,7 +26,7 @@ gli _epics_ solitamente sono troppo grandi per fare un prototipo e di conseguenz
 
 in più si puo aggiungere del dettagli nelle _user stories_ aggiungendo delle _condizioni di soddisfazione_ ovvero piccole condizioni extra contestuali al user stories che indentificano meglio il bisogno di un utente.
 esempi  
-![[Pasted image 20230609162457.png]]
+![[IMG - User stories 1.png]]
 
 
 [Using Personas to Prioritize Features - YouTube](https://www.youtube.com/watch?v=xamf6hpD5nw)

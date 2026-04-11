@@ -34,17 +34,17 @@ Sono ancora presenti molte limitazioni nella tipologia di oggetti che possono es
 ##### La scansione passiva
 I _sistemi stereoscopici_ sono i sistemi più comuni per lo Scanner 3D passivo e di solito utilizzano due telecamere video, leggermente distanziate, che guardano la stessa scena.
 Analizzando le piccole differenze tra le immagini viste da ciascuna telecamera, è possibile determinare la distanza in ogni punto delle immagini. Questo metodo si basa sugli stessi principi alla base della visione _stereoscopica umana_.
-![[Pasted image 20230616175340.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 1.png]]
 
 I _sistemi fotometrici_ di solito utilizzano una singola telecamera, ma scattano più immagini in _diverse condizioni di illuminazione_. Sfruttando luce e ombre si reisce a recuperare l'orientamento della superficie in ogni pixel.
-![[Pasted image 20230616175405.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 2.png]]
 
 
 Le _tecniche di silhouette_ utilizzano contorni creati da una sequenza di fotografie intorno a un oggetto tridimensionale su uno sfondo ad alto contrasto. Queste _silhouette_ vengono estese e intersecate per formare un'approssimazione della forma visiva dell'oggetto. 
 
 Con queste approccio alcune cavità di un oggetto (come l'interno di una ciotola) potrebbero non essere rilevate.
 ![[IMG - Multi-video stereo.png]]
-![[Pasted image 20230616175433.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 3.png]]
 
 ##### Scanner 3D Attivi
 Il _time-of-flight 3D laser scanner_ è uno scanner attivo che utilizza la luce laser per esaminare l'oggetto.
@@ -54,7 +54,7 @@ Il _misuratore laser_ di distanza rileva solo la distanza di un punto nella sua 
 
 per farlo funzionare c è bisogno di hardware adatto siccome i tempi di risposta devono essere nel ordine di picosecondi
 
-![[Pasted image 20230616175627.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 4.png]]
 
 gli scanner 3D basati sulla _triangolazione_ sono scanner attivi che utilizzano la luce laser per esaminare l'ambiente.
 la _triangolazione laser_ proietta un raggio laser sull'oggetto e sfrutta una telecamera per individuare la posizione del punto laser.
@@ -65,7 +65,7 @@ A seconda della distanza a cui il raggio laser colpisce una superficie, il punto
 - dopo una certa distanza la relazione si inverte
 
 Questa tecnica è chiamata triangolazione perché il punto laser, la telecamera e l'emettitore laser formano un triangolo.
-![[Pasted image 20230616175642.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 5.png]]
 ![[IMG - aquisizione di oggetti turntable.png]]
 
 
@@ -75,17 +75,17 @@ Una _telecamera_, leggermente spostata rispetto al proiettore del pattern, osser
 
 questo tipo di scanner 3D è molto vantaggioso siccome puo scannerizzare tutto i punti nel campo visivo della telecamera. 
 cosi facendo si elimina anche il problema della deformazione aggiunta dal movimento
-![[Pasted image 20230616175728.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 6.png]]
 
 I _scanner 3D a luce modulata_ sono un tipo di scanner attivo e proiettano una luce in _continuo cambiamento_ sull'oggetto. Di solito, la sorgente di luce modula semplicemente la sua ampiezza secondo un modello sinusoidale.
 Una telecamera rileva la luce riflessa e la quantità di spostamento del pattern determina la distanza percorsa dalla luce. La luce modulata consente anche allo scanner di ignorare la luce proveniente da altre fonti diverse dal laser, eliminando così le interferenze.
-![[Pasted image 20230616175757.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 7.png]]
 
 
 
 il _Kinect_ è una linea di dispositivi di input per il rilevamento del movimento prodotti da Microsoft e lanciati per la prima volta nel 2010.
 La tecnologia comprende un insieme di hardware sviluppato originariamente da PrimeSense, che include telecamere RGB, proiettori infrarossi (luci strutturate attive) e sensori che mappano la profondità utilizzando calcoli basati sulla luce strutturata o sul tempo di volo, oltre a un'array di microfoni. Questo insieme di hardware è combinato con il software e l'intelligenza artificiale di Microsoft, che permette al dispositivo di effettuare riconoscimento in tempo reale dei gesti, riconoscimento vocale e rilevamento dello scheletro corporeo per un massimo di quattro persone, tra altre funzionalità. Questo consente a Kinect di essere utilizzato come un dispositivo di interfaccia utente naturale senza contatto
-![[Pasted image 20230616175820.png]]
+![[IMG - Acquisizione modelli 3D dal mondo fisico 8.png]]
 
 
 Scanner di superfici fatte da mezzi:

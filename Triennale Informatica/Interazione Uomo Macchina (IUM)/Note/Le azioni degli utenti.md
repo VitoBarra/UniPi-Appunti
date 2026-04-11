@@ -10,7 +10,7 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 ---
 i 7 stati delle azioni fatte dal utente è un modello semplificato per modellizzare come l utente interagirà con il sistema che stiamo costruendo.
 queste azioni sono raggruppate in due _Gulf_
-![[Pasted image 20230608150646.png]]
+![[IMG - Le azioni degli utenti 1.png]]
 - _Gulf of execution_: dove gli utenti cercano di capire cosa fare (_FeedForward_)
 - _Gulf of Evaluation_: dove gli utenti cercano di capire cosa è successo (_FeedBack_)
 
@@ -20,7 +20,7 @@ il ruolo del design è quello di aiutare l utente a passare per questi due _gulf
 
 
 la prima azione è la _specifica del goal_ e i due _gulf_ sono divisi in ulteriori 3 azioni ciascuno
-![[Pasted image 20230608150510.png]]
+![[IMG - Le azioni degli utenti 2.png]]
 1. Goal (form the goal)
 2. Plan (the action)
 3. Specify (an action sequence)
@@ -33,7 +33,7 @@ questo è un modello _molto semplificato_, gli obiettivi possono cambiare durant
 infatti questo modello è usato come _linee guide_ per la [[Principi di progettazione del interazione|progettazione del interazione]].
 
 queste domande ci guidano facendoci fare una domanda per ogni ogni passo
-![[Pasted image 20230608155823.png]]
+![[IMG - Le azioni degli utenti 3.png]]
 
 
 ### Opportunistic Actions
@@ -48,7 +48,7 @@ in generale le azioni e i pensieri delle persone si basano su due diverse modali
 
 nella modalità _subconscia_ si lavora per pattern matching. è veloce ed efficiente dal punto di vista energetico, questa si base sulle esperienze passate. queste azioni sono automatiche 
 la modalità _conscia_ lavora invece con il ragionamento attivo è lenta e costosa. queste azioni sono controllate attivamente
-![[Pasted image 20230608165251.png]]
+![[IMG - Le azioni degli utenti 4.png]]
 
 ### Memoria dichiarativa e Procedurale
 Ci sono due tipi di memoria, tutte le azioni richiedono un qualche tipo di memoria ma questa puo essere di diverso tipo.
@@ -61,7 +61,7 @@ solitamente la _Memoria Procedurale_ è molto più facile da allenare e quindi p
 ### Divisione delle azioni per livelli
 le varie fasi delle azioni sono divise per livelli 
 ogni livello si distingue per il grado di automatismo nel cervello e per difficolta nel cambiamento
-![[Pasted image 20230608180043.png]]
+![[IMG - Le azioni degli utenti 5.png]]
 1. _Livello viscerale_: è il livello più _inconscio_ e più automatico ciò che le persone non devono pensare di fare ma semplicemente fanno. questo livello guida tutto ciò che è immediato
 	- es.  percepire informazioni visive e giudizi immediati (bello, attrattivo, brutto, respingente)
 2.  _livello comportamentale (Behavioral)_: è un livello intermedio dove risiedono tutte la abilita apprese che preformiamo senza pensarci attivamente, si è consci di ciò che si sta facendo ma non dei dettagli di come lo si stia facendo

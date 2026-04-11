@@ -35,7 +35,7 @@ le informazioni registrare in user Personas sono.
 6. Percezioni
 7. Motivazioni
 Una Esempio è
-![[Pasted image 20230609150428.png]]
+![[IMG - User personas 1.png]]
 
 quando l uso delle _personas_ non è accettato o porta a scettiscismi si preferisce un _archetipo_ che assolve allo stesso scopo ma non c è un viso rappresentativo ma una generica, per caprie la differenza la si puo pensare come 
 - _personas_: si associa un unica faccia e caratteristiche umane ad un gruppo di utenti

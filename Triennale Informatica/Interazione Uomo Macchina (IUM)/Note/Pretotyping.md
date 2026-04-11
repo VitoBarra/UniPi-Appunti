@@ -9,7 +9,7 @@ Prev: [[Interazione Uomo Macchina (IUM)]]
 # Pretotyping
 ---
 il _Pretotyping_ è un qualcosa che viene prima del [[Prototipi e Mockup|prototipo]] e serve a validare l idea di cosa si vuole costruire 
-![[Pasted image 20230615164420.png]]
+![[IMG - Pretotyping 1.png]]
 serve a vedere se quello che si vuole costruire è qualcosa di utile
 
 
@@ -17,13 +17,13 @@ serve a vedere se quello che si vuole costruire è qualcosa di utile
 molto dei nuovi prodotti falliranno nel mercato, anche se questi sono realizzati perfettamente 
 
 si ha infatti chel 80% dei prodotti non vedono mai la luce del mercato
-![[Pasted image 20230615164457.png]]
+![[IMG - Pretotyping 2.png]]
 che solo un modo per contrastare questa legge ed é testare la propria idea in modo rapido, oggettivo e rigoroso _prima_ di investire nello sviluppo
 
 i Pretotipi danno dei tool e delle tecniche per validare le idee con investimento minimo e in tempi molto brevi (anche poche ore)
-![[Pasted image 20230615170317.png]]
+![[IMG - Pretotyping 3.png]]
 vale anche per l [[Definizione di Innovazione|innovazione]]
-![[Pasted image 20230615170549.png]]
+![[IMG - Pretotyping 4.png]]
 provare tante idee e farle fallire velocemente permette di esplorare più idee in moda da trovarne di più che funzionano.
 
 
@@ -42,7 +42,7 @@ nel _actionLand_ si usano _artefatti_ per richiedere _azioni_ e collezionare _da
 
 ### Pretotypo
 tra un idea astratta e un [[Prototipi e Mockup|prototipo]] c è il _Pretotipo_. Questi permettono di collezionare dati del mercato utili al fine di fare una decisione _vai/abbandona_ rispetto ad un nuovo prodotto che si vuole produrre. Con questi dati questa decisione viene fatta a costi economici e temporali bassissimi e si puo cosi provare nuove idee  
-![[Pasted image 20230615172507.png]]
+![[IMG - Pretotyping 5.png]]
 
 
 i principi di un pretotypo sono
@@ -69,37 +69,37 @@ un metodo per la pretotpizazione sono i seguenti step
 ### TIpi di Pretotipi
 _Fake Door_ 
 la _Fake Door_ è sistema per pubblicizzare un sistema che non esiste ancora e serve principalmente per stimare l interesse in un dato prodotto.
-![[Pasted image 20230615180810.png]]
+![[IMG - Pretotyping 6.png]]
 
-![[Pasted image 20230615180234.png]]
+![[IMG - Pretotyping 7.png]]
 
 
 _Mechanical Turk_
 il _mechanical turk_ si usa quando la soluzione che si vuole proporre e algoritmica e per tenere i costi bassi si da imitare la risposta del sistema ad una persona, cosi da evitare di sviluppare qualcosa che nessuno userebbe.
-![[Pasted image 20230615180826.png]]
-![[Pasted image 20230615181017.png]]
+![[IMG - Pretotyping 8.png]]
+![[IMG - Pretotyping 9.png]]
 
 
 
 _Impersonator_
 per _Impersonator_ si intende testare qualcosa prendere un altro prodotto che gia esiste e cambiandone l aspetto visivo e di interazione
-![[Pasted image 20230615181652.png]]
-![[Pasted image 20230615181732.png]]
+![[IMG - Pretotyping 10.png]]
+![[IMG - Pretotyping 11.png]]
 
 _Pinochio_
 un pretotipo _pinochio_  è un artefatto palesemente finto che rappresenta l uso e l interazione con il prodotto che si vuole sviluppare. 
-![[Pasted image 20230615181838.png]]
-![[Pasted image 20230615182028.png]]
+![[IMG - Pretotyping 12.png]]
+![[IMG - Pretotyping 13.png]]
 
 
 _one night stand_
 i pretotipi _one night stand_ serve a targhettare per un breve tempo un popolazione recettiva al prodotto, se questa va male in quella regione allora è un idea da scartare
-![[Pasted image 20230615182049.png]]
-![[Pasted image 20230615182058.png]]
+![[IMG - Pretotyping 14.png]]
+![[IMG - Pretotyping 15.png]]
 
 
 _facade_
 un pretotipo di _facade_ di facciata. si prendono in prestito o si affittano cose costose per poter simulare il sistema stabile e misurare l interesse
-![[Pasted image 20230615182224.png]]
+![[IMG - Pretotyping 16.png]]
 
 

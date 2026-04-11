@@ -59,7 +59,7 @@ _Cons_:
 - Troppo basilare per riflettere la UX per cui si sta progettando
 - la mancanza di interattività depriva l utente di controllo diretto
 - gli utenti devono immaginare come useranno il prodotto
-![[Pasted image 20230615235816.png]]
+![[IMG - Prototipi e Mockup 1.png]]
 
 
 _High-fidelity Prototypes_: solitamente digitali
@@ -75,7 +75,7 @@ _Cons_:
 - gli utenti potrebbero concentrarsi su dettagli superficiali
 - i designer avranno difficolta a fare cambiamenti dopo ore di lavoro sul prototipo
 - gli utenti potrebbero intendere che il prototipo è il prodotto finito e crearsi dei byas.
-![[Pasted image 20230616000244.png]]
+![[IMG - Prototipi e Mockup 2.png]]
 
 
 
@@ -85,7 +85,7 @@ essenzialmente cercare di ottenere i vantaggi di entrambi di low e Hight fidelit
 è importante notare che il concetto di _fedelta_ è relativo e scegliere cosa fare dipende dalla situazione.
 
 
-![[Pasted image 20230616000454.png]]
+![[IMG - Prototipi e Mockup 3.png]]
 
 
 
@@ -102,10 +102,10 @@ lo scope di un prototipo è quanto l utente è in grado di vedere e testare con 
 
 ci sono due tipi di scope
 1. _orizzontale_: da un overview generale del sistema ma nessuna feature è ancora sviluppata.
-	1. ![[Pasted image 20230616002455.png]]
+	1. ![[IMG - Prototipi e Mockup 4.png]]
 	2. questo tipo di prototipo fa vedere prima i problemi di design generali
 2. _verticale_: da una vista completa di una specifica feature 
-	1. ![[Pasted image 20230616002610.png]]
+	1. ![[IMG - Prototipi e Mockup 5.png]]
 	2. questo tipo di prototipo fa vedere se una feature è realizzabile tecnicamente e se i requisiti per cui è implementati quella feature sono soddisfatti.
 
 ### Tecniche di prototipazione
@@ -114,7 +114,7 @@ ci sono due tipi di scope
 un prototipo di carta è a _basa fedelta_ e rappresenta il layout di base e le funzionalità di un prodotto o servizio. 
 
 è veloce e economico
-![[Pasted image 20230616002951.png]]
+![[IMG - Prototipi e Mockup 6.png]]
 
 fare un prototipo del genere vuol dire disegnare le funzionalità su carta e fisicamente moviere la carta per far adare avanti l interazione.
 
@@ -123,13 +123,13 @@ questo tipo di prototipo è ottimo per testare il piazzamento dei bottoni e l [[
 ##### Wireframe Prototypes (Mid-Fi)
 a un prototipo a [[Front-End Design Wireframing|wire frame]] è un prototipo digitale che rappresenta il _layout di base e le funzionalità_ di un prodotto o di un servizio senza pero curarsi del aspetto grafico.
 è un metodo piu lento e piu costoso del metodi con la carta ma ancora abbastanza economico
-![[Pasted image 20230616003602.png]]
+![[IMG - Prototipi e Mockup 7.png]]
 
 creare per creare un prototipo del genere bisogna fare il disegno del layout  e delle funzionalità usando forme semplici per rappresentare gli elementi della UI.
 
 ##### Wizard of Oz (or Mechanical Turk) prototypes
 un _prototipo Wizard of Oz_ è un prototipo che simula il comportamento del prodotto usando input umani invece di usare effettivamente la tecnologia.
-![[Pasted image 20230616004039.png]]
+![[IMG - Prototipi e Mockup 8.png]]
 
 per creare questo tipo di prototipo c è bisogno di operatori che producono gli input per simulare l interazione con il sistema. si possono anche, registrazioni o _risposte prescritte_ o interazioni live.
 
@@ -152,7 +152,7 @@ Solitamente questo tipo di prototipo è usato per fare testing
 
 
 
-![[Pasted image 20230616005510.png]]
+![[IMG - Prototipi e Mockup 9.png]]
 
 
 
@@ -160,6 +160,6 @@ Solitamente questo tipo di prototipo è usato per fare testing
 I _prototipi_ sono versioni avanzate dei _mockup_ questi includono navigazione e funzionalità, consentendo test più significativi dagli utenti. I designer utilizzano mockup e wireframe per creare prototipi che simulano l'esperienza utente del prodotto finale.
 
 come distinguerli
-![[Pasted image 20230616005556.png]]
+![[IMG - Prototipi e Mockup 10.png]]
 flusso da wireframe a prodotto
-![[Pasted image 20230616005634.png]]
+![[IMG - Prototipi e Mockup 11.png]]

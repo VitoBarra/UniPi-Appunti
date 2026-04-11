@@ -32,6 +32,6 @@ _alcuni_ scenari hanno anche la domanda
 
 #### Tipi di scenario
 
-![[Pasted image 20230609173650.png]]
-![[Pasted image 20230609173705.png]]
-![[Pasted image 20230609173714.png]]
+![[IMG - IUM - Scenario 1.png]]
+![[IMG - IUM - Scenario 2.png]]
+![[IMG - IUM - Scenario 3.png]]

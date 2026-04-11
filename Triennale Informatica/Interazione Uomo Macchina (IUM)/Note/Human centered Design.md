@@ -17,7 +17,7 @@ lo fa mettendo i bisogni  le capacita e i comportamenti  umani come punto di par
 
 l approccio migliora _l efficacia e l efficienza_ e incrementa la soddisfazione del utente, l accessibilità, e la sostenibilità; contrasta effetti negativi dati dal uso del prodotto alla salute ,sicurezza e performance _umana_  
 
-![[Pasted image 20230605230206.png]]
+![[IMG - Human centered Design 1.png]]
 
 
 ### Filosofia
@@ -46,7 +46,7 @@ possiamo schematizzare un processo di HCD come un flusso continuo ed iterativo c
 - _Progettare la soluzione_: questa fase può essere a sua volta spacchettata in sotto fasi iterative. Si passa tipicamente da delle bozze a dei prototipi e poi alla soluzione; 
 - _Testare e valutare_: è fondamentale testare e quindi valutare il sistema così da poter iniziare il ciclo sulla base dei risultati dei test e quindi procedere ad uno sviluppo e miglioramento incrementale.
 
-![[Pasted image 20230605231125.png]]
+![[IMG - Human centered Design 2.png]]
 
 ### Tracking delle attività
 per la realizzazione di un buon design è NECESSARIO il _tracking_ delle attività degli utenti sul interfaccia. Cosi da ottenere _analitica_ per poter migliorare l _esperienza utente_

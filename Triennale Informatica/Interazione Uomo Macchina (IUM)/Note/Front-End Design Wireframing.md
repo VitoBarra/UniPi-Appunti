@@ -14,15 +14,15 @@ senza strumenti come i _Wireframe_  la comunicazione sarebbe difficile e ogni pe
 
 i Wireframe solitamente sono fatti anche su carta e
 Sono disegni basilari con peche informazioni aggiunte che _mostrano_ la struttura e il layout del sito o app che si vuole sviluppare
-![[Pasted image 20230611023453.png]]
+![[IMG - Front-End Design Wireframing 1.png]]
 
-![[Pasted image 20230611023718.png]]
+![[IMG - Front-End Design Wireframing 2.png]]
 
 i Wirefrase sono categorizzati per quantità di dettagli
 infatti abbiamo i 
 _Low-Fidelity Wireframes_: semplici disegni che si concertano sul mostrare la struttura e il layout del interfaccia
 _High-fidelity Wireframe_: una rappresentazione più dettagliata del interfaccia con una tipografia di base, icone e dettagli di documentazione 
-![[Pasted image 20230611023932.png]]
+![[IMG - Front-End Design Wireframing 3.png]]
 questi sono senza colori  o altri dettagli grafici. Si concentrano solo sulla struttura l aspetto grafico sono analizzati nel [[Prototipi e Mockup|Mocup]]
 
 
@@ -39,18 +39,18 @@ copre i concetti di
 il _Design Responsivo_ è un modo di fare un design unico che riesca ad adattarsi a tutti i dispositivi. 
 la necessita di creare un design con questa caratteristica nasce per via del esplosione di tipi di dispositivi con grandezze di schermo diverse.
 il _Design Responsivo_ da al utente un interfaccia _utilizzabile e coerente_ a prescindere dal device in uso per l accesso al sito.
-![[Pasted image 20230611024951.png]]
+![[IMG - Front-End Design Wireframing 4.png]]
 é utile anche dal punto di vista del business siccome invece di gestire versioni multiple se ne gestisce una che si _adatta_.
 
 ##### Tecniche per il design responsivo
 Delle tecniche per assicurare il _design Responsivo_ sono
 
 _griglia flessibile_:  una griglia flessibile permette agli elementi di aggiustarsi a seconda della dimensione dello schermo. l implementazione dipende dal framework che si sta usando
-![[Pasted image 20230611115436.png]]
+![[IMG - Front-End Design Wireframing 5.png]]
 _Immagini Flessibili_: fare in modo che le immagini scalino con la dimensione dello schermo
-![[Pasted image 20230611115427.png]]
+![[IMG - Front-End Design Wireframing 6.png]]
 _Media Querues & breackpoint_: applica stili diversi a seconda della necessita che si presentano sul tipo di dispositivo
-![[Pasted image 20230611115417.png]]
+![[IMG - Front-End Design Wireframing 7.png]]
 
 una filosofia spesso applicata per fare _responsive design_ è sviluppare prima per i di dispositivi mobile in modo che la pagina sia ottimizzata per quella categoria di device che solitamente ha meno feature per via dello schermo piccolo e ha bisogno di più ottimizzazioni per la connettività lenta. questo permette anche di fare _progress advancement_  si parte da una versione con funzionalità minimali più adattate ai dispositivi mobile e poi si espandono nella versione desktop. Fare l opposto significa fare _graceful degradation_ ma questo puo essere più difficile.
 
@@ -67,7 +67,7 @@ nel _adaptive design_ si creano più layout uno per ogni tipo di device.
 è più costoso rispetto al _responsive design_ ma avvolte è una strategia migliore. ad esempio non bisogna fare retrofitting per la versione desktop.
 
 Un altro vantaggio e che puo essere adattivo non solo al _device_ nello specifico ma anche al tipo di _utente_.
-![[Pasted image 20230611124328.png]]
+![[IMG - Front-End Design Wireframing 8.png]]
 
 adattare l interfaccia _al utente_ permette anche una _UX adattiva_  alcune modi passano per l utilizzo di dati del utente come informazioni GPS, _colaborative filtering_ o analitica sulla tipologia di utente 
 
@@ -77,10 +77,10 @@ si definisce _colaborative filtering_ situazioni in cui
 - allora utente Y potrebbe essere interessato a B
 essenzialmente è un modo per mettere in relazione utenti simili
 es. consigliati di amazon
-![[Pasted image 20230611125200.png]]
+![[IMG - Front-End Design Wireframing 9.png]]
 un altro modo è il _Content-base filtering_ ovvero si consiglia al utente del contenuto simile a quello a cui è interessato  
 
-![[Pasted image 20230611125012.png]]
+![[IMG - Front-End Design Wireframing 10.png]]
 
 #### Accessibilità
 l _accessibilità_ in _UX design_ è importante perché assicura che tutti possono usare il sito e si servizi che si stanno fornendo. l accessibilità deve essere pensata per aiutare tutti gli utenti che potrebbero avere vari _problemi_ al momento del utilizzo del interfaccia ad esempio
@@ -111,7 +111,7 @@ alcuni esempi di _Best Practis_ di accessibilità:
 
 #### Conclusioni
 
-![[Pasted image 20230611131402.png]]
+![[IMG - Front-End Design Wireframing 11.png]]
 
 #### User flows
 gli user flow servono a descrivere le possibili azioni che l utente puo fare sul interfaccia. questa è una cosa che i _Wireframe_ essendo statici non possono catturare.
@@ -119,11 +119,11 @@ gli user flow servono a descrivere le possibili azioni che l utente puo fare sul
 ##### Flowchart
 un modo per rapresentar il un userflow è usare un flowchart.
 si parte dalle [[User personas|personsa]] , [[IUM - Scenario|scenari]] e si descrive il viaggio del utente sul interfaccia.
-![[Pasted image 20230611161016.png]]
+![[IMG - Front-End Design Wireframing 12.png]]
 bisogna pensare ai possibili punti di concontatto tra l utente e il sistema per poter costruire questo flowchart
 
 ##### Wireflow
 come i flow chart ma invece di descrizioni astratte si usano i _wireframe_;
-![[Pasted image 20230611161433.png]]
+![[IMG - Front-End Design Wireframing 13.png]]
 solitamente questi descrivono meglio l interazione utente-sistema
-![[Pasted image 20230611161557.png]]
+![[IMG - Front-End Design Wireframing 14.png]]
