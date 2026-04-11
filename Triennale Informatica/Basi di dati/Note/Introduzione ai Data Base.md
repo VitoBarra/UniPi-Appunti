@@ -27,14 +27,14 @@ Una _base di dati_ relazionale (_DB_) è definito da
 
 >[!example]-
 > Un esempio di database qualcosa del tipo
-> ![[IMG_1023.jpeg]]
+> ![[IMG - Introduzione ai Data Base esempio di database.jpeg]]
 
 Per garantire le proprietà di un _database_ definite sopra si utilizza un _[[Database Managment System (DBMS)|Database management System]]_ (_DBMS_) 
 
 
 
 ai fini del utilizzo e' utile dividere il database  in tre livelli
-![[Pasted image 20240114180811.png]]
+![[IMG - Introduzione ai Data Base architettura a tre livelli.png]]
 dove
 - __Vista logica__: descrive come deve apparire la struttura della base di dati ad una certa applicazione (Schema esterno o vista).
 - __Livello logico__: descrive la struttura degli insiemi di dati e delle relazioni fra loro, secondo un certo modello dei dati, senza nessun riferimento alla loro organizzazione fisica nella memoria permanente (Schema logico).

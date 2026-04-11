@@ -38,7 +38,7 @@ Per questo Il Buffer è una [[Cache|cache]] per i dati e quindi una delle proble
 
 Molto spesso si utilizza la politica __most recently used__ (MRU) siccome le pagine appena usate e' difficile che serviranno di nuovo subito
 
-![[IMG_1069.jpeg]]
+![[IMG - DBMS Macchina Fisica buffer pool.jpeg]]
 
 
 
@@ -63,7 +63,7 @@ il _TID_ è una coppia  $(P, j)$, dove
 - $P$ è il _numero di pagina_ 
 - $j$ è l _indice_ di un vettore memorizzato nella pagina detto _slot array_
 	- lo _slot array_ contiene i riferimenti agli inizi dei vari record 
-![[IMG_1067.jpeg]]
+![[IMG - DBMS Macchina Fisica slot array.jpeg]]
 
 In caso di modifica della lunghezza del _record_ se questo  non entra piu nello _spazio assegnatogli_ _va sposto_ e quindi si opera a seconda di due casi dipendenza dallo spazio libero _sulla pagina_ 
 - _c è abbastanza spazio_: viene _spostato_ al interno della _stessa pagina_ in cui era originariamente e si aggiorna il valore dello _slot array_ nella cella $j$  con il nuovo indirizzo del inizio del record e non si cambia _TID_
@@ -111,7 +111,7 @@ i _[[Database Managment System (DBMS)|DBMS]]_ che la prevedono richiedono di usa
 ###### Organizzazione procedurale statico
 L’_organizzazione procedurale_, o [[Hash Table|hash]], si utilizza un funzione hash per _trasformare la [[Modello Relazionale - Chiavi|chiave]]_ e ottenere l’indirizzo della _pagina in cui memorizzare_, Le collisioni sono gestite con delle [[Lista linkata|Liste linkate]] e c è un area del file designato a contenere i _record_ che traboccano 
 
-![[IMG_1070.jpeg]]
+![[IMG - DBMS Macchina Fisica hashing con area trabocchi.jpeg]]
 
 
 Le _prestazioni_ delle _operazioni_ su record sono  

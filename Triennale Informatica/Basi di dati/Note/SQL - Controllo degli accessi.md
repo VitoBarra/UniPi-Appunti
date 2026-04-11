@@ -48,5 +48,5 @@ Chi definisce una tabella o una [[SQL - DDL - Viste|VIEW]] ottiene automaticamen
 
 
 i permessi posso essere espressi con un [[Graph Theory|grafo]]
-![[Pasted image 20240113020330.png]]
+![[IMG - SQL Controllo degli accessi grafo dei privilegi.png]]
 Se un nodo N ha un arco uscente con un privilegio, allora esiste un cammino da SYSTEM a N con ogni arco etichettato dallo stesso privilegio

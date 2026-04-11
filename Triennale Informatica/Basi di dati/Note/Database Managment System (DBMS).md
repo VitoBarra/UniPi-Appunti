@@ -37,7 +37,7 @@ e' deve garantire delle proprietà sulla [[Introduzione ai Data Base|base di dat
 
 #### Architettura 
 Un architettura semplificata è qualcosa del tipo
-![[IMG_1028.jpeg]]
+![[IMG - Database Management System architettura semplificata.jpeg]]
 ma questa e' solo una semplificazione l [[Architettura di un DBMS|architettura di un DBMS]] e' piu complessa
 
 

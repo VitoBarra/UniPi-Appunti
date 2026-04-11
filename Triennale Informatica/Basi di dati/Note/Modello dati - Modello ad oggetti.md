@@ -57,7 +57,7 @@ Applicando delle operazioni sui tipi primitivi, o non si possono ottenere dei ti
 	- La sintassi: $seq \ \ T$
 
 un esempio è
-![[IMG_1032.jpeg]]
+![[IMG - Modello ad oggetti esempio.jpeg]]
 
 
 
@@ -94,17 +94,17 @@ l’assenza di vincolo di _univocita_ è indicata da una _freccia doppia_.
 
 la _parzialità_ è rappresentata con un taglio sulla linea vicino alla freccia,
 il _vincolo di totalità_ e rappresentato dall’assenza del taglio.
-![[IMG_1033.jpeg]]
+![[IMG - Modello ad oggetti vincolo di totalita.jpeg]]
 
 Le associazioni stesse possono avere delle _proprietà_ che descrivono l _associazione_ e sono rappresentata con un rettangolo collegato alla linea dell _associazione_
-![[IMG_1034.jpeg]]
+![[IMG - Modello ad oggetti associazione con proprieta.jpeg]]
 Alternativamente puo essere modellata interpretando l _associazione_ come un _[[Modellazione della conoscenza|entita]]_ è ottenendo quindi qualcosa del tipo
-![[IMG_1035.jpeg]]
+![[IMG - Modello ad oggetti associazione come entita.jpeg]]
 
 
 Le _associazioni_ possono essere anche ricorsive ovvero avere come partenza e fine la stessa _collezione_.
 Per la corretta interpretazione bisogna etichettare le punte della _associazione_ con il _ruolo_ che hanno i due componenti in un _instanza di associazione_ 
-![[IMG_1036.jpeg]]
+![[IMG - Modello ad oggetti ruoli dell associazione.jpeg]]
 
 ##### Associazioni n-arie
 esistono _associazioni_ $n$-arie ma sono complicate e di scarso utilizzo
@@ -149,8 +149,8 @@ se sono entrambi soddisfatti, l’ _insieme di sottoclassi_ costituisce una _[[P
 Una _sottoclasse_ puo essere definita anche a partire da un’altra sottoclasse, modellando cosi _gerarchie a più livelli_. 
 
 ##### Rappresentazione grafica
-![[IMG_1037.jpeg]]
-![[IMG_1038.jpeg]]
+![[IMG - Modello ad oggetti gerarchie rappresentazione grafica 1.jpeg]]
+![[IMG - Modello ad oggetti gerarchie rappresentazione grafica 2.jpeg]]
 
 
 
@@ -171,7 +171,7 @@ Se vi sono altre n chiavi si usano le stringhe $\ll K_1\gg \dots \ll Kn\gg$.
 
 Vincoli _generali andrebbero_ espressi usando un opportuno formalismo, come l’OCL (Object Constraint Language) proposto per l’UML
 
-![[IMG_1039.jpeg]]
+![[IMG - Modello ad oggetti vincoli rappresentazione grafica.jpeg]]
 > [!tip]
 > In uno _stadio iniziale_ del progetto può essere sufficiente descrivere i vincoli usando il _linguaggio naturale_
 
@@ -186,7 +186,7 @@ Mentre la conoscenza delle operazioni di base viene modellata con il meccanismo 
 - Le classi e le associazioni che modifica, per aggiunta di elementi o modifica di attributi degli elementi;
 - Due condizioni, la precondizione e la postcondizione, che devono essere vere nello stato di partenza e nello stato di arrivo della base di dati. In una condizione si possono usare i nomi dei parametri o le classi che l'operazione usa o modifica. Queste informazioni si danno nel formato (descrittore operazioni) mostrato in Figura 2.14.
 
-![[IMG_1040.jpeg]]
+![[IMG - Modello ad oggetti descrittore delle operazioni.jpeg]]
 
 #### Rappresentazione della comunicazione 
 Nel modellare la comunicazione con il sistema informativo, e in particolare con il sistema informatico, si suppone che questa comunicazione avvenga come un dialogo, nel quale il sistema presenta all'utente una forma caratterizzata da un certo aspetto, dalla presenza di alcuni campi modificabili e dalla presenza di alcuni elementi attivi (bottoni, menu, barre di scorrimento, ecc.). L'utente modifica (o riempie) i campi modificabili oppure agisce sugli elementi attivi, e il sistema reagisce a queste azioni dell'utente modificando la forma, o ritirandola, o presentando una nuova forma, fino a che l'interazione non termina. Questo modello può essere esteso, supponendo, ad esempio, che il sistema sia disponibile a presentare all'utente più forme nello stesso momento e a permettere all'utente di agire su queste forme in qualunque ordine.

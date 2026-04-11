@@ -153,7 +153,7 @@ L _Equi join_ (o detto solo _Join_) tra due tabelle  $T_1,T_2$ da come risultato
 ```
 
 Il risultato viene mostrato solo le colonne _selezionate_ (_proiettate_) e quindi la colonna su cui si fa il Join si perde
-![[IMG_1072.jpeg]]
+![[IMG - SQL DML natural join e proiezione.jpeg]]
 
 
 
@@ -383,4 +383,4 @@ WHERE CONDIZIONE
 
 
 la sintassi della select
-![[Pasted image 20240113013351.png]]
+![[IMG - SQL DML sintassi della select.png]]

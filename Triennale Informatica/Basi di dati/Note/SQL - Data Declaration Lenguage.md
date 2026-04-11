@@ -249,6 +249,6 @@ le azioni possibili sono:
 	- Questa è l’azione che viene attivata per default. 
 
 
-![[Pasted image 20240112192555.png]]
+![[IMG - SQL DDL azioni sui vincoli referenziali.png]]
 
 

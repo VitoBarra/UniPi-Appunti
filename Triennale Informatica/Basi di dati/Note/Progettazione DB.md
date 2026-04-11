@@ -33,6 +33,6 @@ I modelli _informatici si differenziano_ per i [[Modelli di dati|modelli di dati
 
 
 La progettazione di un DB si basa su piu fasi 
-![[IMG_1041.jpeg]]
+![[IMG - Progettazione DB fasi della progettazione.jpeg]]
 partendo dal [[Analisi dei requisiti|Analisi dei requisiti]] 
-![[IMG_1042.jpeg]]
+![[IMG - Progettazione DB analisi dei requisiti.jpeg]]

@@ -19,7 +19,7 @@ I meccanismi per definire una [[Introduzione ai Data Base|base di dati]] con que
 Una _relazione_ è un _[[Insiemi Matematici|insieme]] di ennuple_ con lo stesso tipo. 
 
 nel _modello relazionale_ esiste il concetto di [[Modello Relazionale - Chiavi|chiave]]
-![[IMG_1046.jpeg]]
+![[IMG - Modello Relazionale chiavi.jpeg]]
 
 Il vantaggio del _Modello relazionale_ oltre alla sua _intuitività_ sono le [[Insiemi Matematici|operazioni insiemistiche]] che restituiscono sempre altre [[Relazioni tra insiemi|relazioni]],  
 c è anche un _operazione_ che consente di creare una _nuova relazione come giunzione_ di due relazioni

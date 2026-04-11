@@ -17,4 +17,4 @@ modello concettuale.
 La freccia può essere etichettata con il nome degli attributi che formano la _chiave esterna_
 
 
-![[IMG_1047.jpeg]]
+![[IMG - Modello Relazionale rappresentazione grafica.jpeg]]

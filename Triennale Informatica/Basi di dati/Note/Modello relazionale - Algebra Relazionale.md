@@ -242,4 +242,4 @@ Le espressioni sono calcolate nel seguente modo:
 $\{A_1, \dots , A_n\}$ è vuoto, gli elementi di E fanno parte di un _unico gruppo_;
 - si calcolano le _funzioni di aggregazione_ per ogni _gruppo_;
 - si _restituisce_ una relazione con _un’ennupla per ogni gruppo_ e componenti i valori degli attributi $A_1, \dots , A_n$ e i risultati delle espressioni $f_1, \dots, f_m$.
-![[IMG_1062.jpeg]]
+![[IMG - Algebra Relazionale raggruppamento e aggregazione.jpeg]]

@@ -9,7 +9,7 @@ tags:
 #### Proprietà delle operazioni 
 Un’espressione dell’algebra relazionale puo essere trasformata in un’altra equivalente sfruttando alcune proprieta degli operatori. Queste trasformazioni sono utili perche possono ridurre di ordini di grandezza il costo di esecuzione delle espressioni (riscrittura algebrica).
 Si consideri la rappresentazione di un’espressione algebrica come un albero le cui foglie siano le relazioni e i nodi interni sono gli operatori dell’algebra; i figli di un nodo interno N sono gli operandi dell’operatore associato al nodo N
-![[IMG_1059.jpeg]]
+![[IMG - Algebra Relazionale albero di espressione.jpeg]]
 
 L’idea alla base della riscrittura algebrica e di anticipare l’applicazione degli operatori di proiezione e restrizione rispetto al prodotto e alla giunzione (spostamento verso le foglie della proiezione e restrizione), in modo da ridurre la dimensione dei risultati intermedi. 
 Poiché la restrizione e' l’operatore che in generale produce una relazione con un numero di ennuple inferiore rispetto a quello della relazione a cui viene applicato, le proprietà piu utili dell’algebra relazionale sono quelle che consentono di anticipare l’operatore di restrizione. E anche utile anticipare l’operazione di proiezione rispetto al prodotto e alla giunzione, perché una proiezione riduce la dimensione delle ennuple dell’operando ed elimina eventuali ennuple uguali dal risultato.
@@ -84,5 +84,5 @@ dato che la regola e usata in questa direzione, vale sempre la condizione  $X \s
 In generale, quindi, il risultato di questo algoritmo e un’espressione in cui la restrizione e la proiezione sono eseguite il piu presto possibile, e la restrizione e' anticipata rispetto alla proiezione. In particolare, nel caso di espressioni con una sola giunzione, l’espressione ottimizzata ha la forma:
 $$\pi_{X_1}(\pi_{X_2}(\sigma_{\upphi_{Y_2}}(R)) \bowtie \pi_{X_3}(\sigma_{\upphi_{Y_3}}(S)))$$
 
-![[IMG_1060.jpeg]]
+![[IMG - Algebra Relazionale albero trasformato.jpeg]]
 

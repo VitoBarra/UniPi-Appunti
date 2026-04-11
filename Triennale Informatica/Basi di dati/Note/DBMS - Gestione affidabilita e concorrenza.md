@@ -80,7 +80,7 @@ L’operazione di dump produce una copia completa della base di dati, effettuata
 Il _file di log_\_giornale_ e' la struttura usata per la gestione del affidabilità e che serve ad implementare tutti gli algoritmi necessari.
 
 e' un file sequenziale suddiviso in __record__
-![[Pasted image 20240111233139.png]]
+![[IMG - DBMS Gestione affidabilita file sequenziale record campi valori.png]]
 divisi in 
 - Record di transazione (Blu):
 	- Tengono traccia delle operazioni svolte da ciascuna transizione sul DBMS. 
@@ -108,10 +108,10 @@ Un malfunzionamento può capitare tra il momento in cui un’operazione viene es
 
 > [!example]-
 > Esempi corretti:
->![[Pasted image 20240112000920.png]]
->![[Pasted image 20240112001156.png]]
+>![[IMG - DBMS Gestione affidabilita esempio corretto 1.png]]
+>![[IMG - DBMS Gestione affidabilita esempio corretto 2.png]]
 >Esemi sbagliati
->![[Pasted image 20240112001317.png]]
+>![[IMG - DBMS Gestione affidabilita esempio sbagliato.png]]
 
 ##### Algoritmi per la gestione del affidabilita
 per gli [[Algoritmi|algoritmi]] per la gestione del affidabilità si assume che le scritture sulla memoria permanente del __Log__ vengano fatte subito

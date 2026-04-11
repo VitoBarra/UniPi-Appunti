@@ -26,7 +26,7 @@ _allora_ (per osservazione 1) $X^+$ è _[[Modello Relazionale - Chiavi|chiave]]_
  - Gli elementi che producono un insieme  $X'$ che contengono una chiave _precedentemente trovata_, perché  $X'$  diventata una _[[Modello Relazionale - Chiavi#Superchiave (Definizione)|superchiave]]_ ma non una _[[Modello Relazionale - Chiavi#Chiave (Definizione)|chiave]]_
 
 E allora un _algoritmo_ che cerca tutte le possibili chiavi segue come
-![[photo1703945663.jpeg]]
+![[IMG - Ricerca delle chiavi algoritmo di ricerca delle chiavi.jpeg]]
 Funzioni
 - _First_($list$) : restituisce il primo elemento della lista
 - _rest_($list$): restituisce il resto della [[Matematica - liste |lista]] escludendo il primo

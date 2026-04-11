@@ -40,7 +40,7 @@ I trigger possono essere eseguiti a piu livelli
 i tipi di trigger
 - BEFORE e AFTER: i trigger possono essere eseguiti prima o dopo l’utilizzo dei comandi insert, update e delete; all’interno del trigger è possibile fare riferimento ai vecchi e nuovi valori coinvolti nella transazione. 
 
-![[Pasted image 20240113013805.png]]
+![[IMG - SQL Procedure e trigger before e after.png]]
 
 i Trigger possono essere
 - __Attivo__: quando, in corrispondenza di certi eventi, modifica lo stato della base di dati.

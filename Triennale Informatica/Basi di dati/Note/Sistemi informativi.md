@@ -17,7 +17,7 @@ tags:
 - _informazioni di servizio_: operative 
 - _informazioni di gestione_: di programmazione e controllo
 - _informazioni di governo_: di pianificazione strategica 
-![[IMG_1029.jpeg]]
+![[IMG - Sistemi informativi informazioni di governo.jpeg]]
 
 #### Sistema Informatico
 un sistema informatico è un _sistema informativo automatizzato_ ovvero la il sotto insieme del _sistema informativo_ che è stato automatizzato
@@ -29,14 +29,14 @@ Il _sistema informatico_ è composto da:
 - I _programmi applicativi_, che forniscono servizi agli utenti eseguendo operazioni sulla _base di dati_.
 - La comunicazione, che consente l'accesso ai servizi del sistema informatico da parte di utenti e programmi.
 
-![[IMG_1024.jpeg]]
+![[IMG - Sistemi informativi schema generale.jpeg]]
 
 #### Tipologia di Sistemi informatici 
 Ci sono 2 tipologie di _sistemi informatici_ e queste due sono fatti per scopi e usi molto diversi.
 ##### Sistema Informativo Operazionale: (OLTP)
 Sono sistemi orientati al _operatività_, ovvero servono per la _gestione_ delle _operazioni ripetitive_ del azienda tramite le parti _applicative_.
 
-Utilizzano [[Introduzione ai Data Base|database]] di tipo _On-Line transaction Processing_(_OLTP_) ovvero che con il supporto dei [[Database Managment System (DBMS)|DBMS]] si basano su [[DBMS - Gestione affidabilita e concorrenza|transazioni]]![[IMG_1025.jpeg]]
+Utilizzano [[Introduzione ai Data Base|database]] di tipo _On-Line transaction Processing_(_OLTP_) ovvero che con il supporto dei [[Database Managment System (DBMS)|DBMS]] si basano su [[DBMS - Gestione affidabilita e concorrenza|transazioni]]![[IMG - Sistemi informativi database OLTP.jpeg]]
 questo tipo di _database_ mantiene dati con struttura _fissa_ e hanno bisogno di essere aggiornati alla versione _corrente_ dei dati per garantire la corretta operabilità 
 le operazioni sono semplici e _veloci_ coinvolgono _pochi dati_ e le operazioni 
 
@@ -48,13 +48,13 @@ Nelle analisi usano dati
 - possono essere analizzati _diversi livelli di dettagli_
 
 usano _[[Introduzione ai Data Base|database]]_ di tipo _On-Line Analysis Processing_(_OLAP_) e sono usati tramite le _WareHouse_. Questo tipo di 
-![[IMG_1026.jpeg]]
+![[IMG - Sistemi informativi database OLAP.jpeg]]
 Questo tipo di _database_  ha una struttura _fissa_ dei dati e utilizza dati _storici_ e _esterni_ e _aggregati_, siccome per scoprire trend non c è bisogno di dati _”attuali”_ 
 sono database che _non sono aggiornati_ frequentemente   
 le operazioni sono complesse e _lente_ e coinvolgono _molti_ dati _multidimensionali_ 
 
 ##### Confronto tra OLTP e OLAP  
-![[IMG_1027.jpeg]]
+![[IMG - Sistemi informativi confronto OLTP e OLAP.jpeg]]
 
 
 #### Big data

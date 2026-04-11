@@ -18,6 +18,6 @@ Più in dettaglio, il modello prevede due meccanismi di astrazione distinti: uno
 Il formalismo grafico usato per rappresentare i meccanismi di astrazione del modello entità-relazione è chiamato diagrammi entità-relazione (entity-relationship diagrams), o diagrammi ER, e, come nel caso del modello ad oggetti, i rettangoli rappresentano tipi di entità e gli archi interrotti da un rombo rappresentano associazioni. Anche qui gli archi sono etichettati con le proprietà strutturali delle associazioni, codificate da una coppia di interi (min, max) che rappresentano, come nei descrittori testuali presentati in precedenza per le associazioni nel formalismo ad oggetti, il numero minimo e massimo di volte che un elemento di un tipo di entità può partecipare alla relazione.
 
 
-![[IMG_1043.jpeg]]
+![[IMG - Modello Entita Relazioni base.jpeg]]
 Questo modello è stato successivamente esteso per trattare attributi con valori non primitivi e le gerarchie fra tipi di entità, rendendo la notazione grafica molto simile a quella di un modello ad oggetti. 
-![[IMG_1045.jpeg]]
+![[IMG - Modello Entita Relazioni esteso.jpeg]]

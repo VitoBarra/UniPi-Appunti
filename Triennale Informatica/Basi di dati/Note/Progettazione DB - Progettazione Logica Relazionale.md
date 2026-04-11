@@ -26,12 +26,12 @@ Se l’associazione nella direzione _univoca_ è _parziale_ ci sono due rapprese
 	- La _chiave primaria_ di questa relazione è la _chiave esterna_ che riferisce la relazione rispetto a cui l’associazione è _multipla_. 
 - si aggiunge una _chiave esterna_ con _possibili valori nulli_, e gli _eventuali attributi_ della associazione, alla relazione rispetto a cui l’associazione _è univoca_
 
-![[IMG_1054.jpeg]]
+![[IMG - Progettazione Logica Relazionale associazione molti a uno parziale.jpeg]]
 
 Per le associazioni _uno a uno_ si procede in maniera analoga, considerandole un caso particolare di associazioni _molti a uno_.
 
 Si consideri che quando una associazione ha sia la diretta che l’inversa, e si aggiunge una relazione con due _chiavi esterne_, una qualunque delle due può essere scelta come _chiave primaria_. 
-![[IMG_1055.jpeg]]
+![[IMG - Progettazione Logica Relazionale associazione uno a uno.jpeg]]
 
 ##### 2.Rappresentazioni delle associazioni molti a molti
 Un’associazione _molti a molti_ tra due _classi_ si rappresenta _aggiungendo_ allo schema
@@ -42,7 +42,7 @@ Questa relazione contiene un’ ennupla per ogni istanza dell’associazione.
 Se l’associazione _ha degli attributi_, questi attributi vengono aggiunti alla _nuova relazione_
 
 Il modo di rappresentare non cambia per _parzialita_
-![[IMG_1051.jpeg]]
+![[IMG - Progettazione Logica Relazionale associazione molti a molti.jpeg]]
 ##### 3.Rappresentazioni delle gerarchie tra classi
 _Sia_  
 - $A$ un _classe_ con attributi $(X_{A})$ 
@@ -62,7 +62,7 @@ Dei criteri per scegliere cosa usare sono i seguenti
 4. il _partizionamento orizzontale_ e preferibile in presenza di un vincolo di _copertura_ perché ne può _garantire il mantenimento_; 
 5. il _partizionamento orizzontale_ funziona al meglio in presenza di un _vincolo di disgiunzione_, perché, in caso contrario un oggetto puo appartiene a piu sottoclassi, e siccome il _partizionamento orizzontale_ replica la chiave e gli attributi della _superclasse_ in tutte le relazioni _sottoclassi_ a cui l’oggetto appartiene si pone il problema di gestire la ridondanza dei dati 
 
-![[IMG_1052.jpeg]]
+![[IMG - Progettazione Logica Relazionale gerarchie tra classi.jpeg]]
 
 ##### 4. Definizione delle chiavi primarie
 questo passo della _trasformazione_ non può essere eseguito sullo _schema grafico_ ma va eseguito _a partire da un’analisi degli attributi_.
@@ -88,11 +88,11 @@ Un _oggetto_ di $C$ con _[[Modello Relazionale - Chiavi|chiave primaria]]_
 $k$ ed in cui l’attributo assume valore $a_1, \dots , a_n$ si rappresenta poi inserendo nella nuova relazione $N$ le coppie $(k, a_1), \dots ,(k, a_n)$.
 
 >[!example]
->considerando l atributo multi valore “telefoni” e applicando la trasformaizonione si ottiene ![[IMG_1056.jpeg]]
+>considerando l atributo multi valore “telefoni” e applicando la trasformaizonione si ottiene ![[IMG - Progettazione Logica Relazionale attributo multivalore.jpeg]]
 ##### 6. Appiattimento degli attributi composti 
 Se un _attributo_ $A_i$ di uno _schema di relazione_ è di tipo $[A_{i1} : T_{i1}, \dots , A_{ij} : T_{ij}]$, si sostituisce con gli attributi $A_{i1} : T_{i1}, \dots , A_{ij} : T_{ij}$. Se $A_i$ faceva parte della _chiave primaria_ dello _schema di relazione_, si sostituisce $A_i$ con gli _attributi_ $A_{i1}, \dots , A_{ij}$ nella chiave, e poi si verifica che non esista un sottoinsieme degli attributi della nuova _chiave_ primaria che e esso stesso una _chiave_. 
 
 
 >[!example]-
 >l atributo indirizzo è composto come [via:stirng,numero:int,citta:string]
->applicando la trasformazione si ottiene ![[IMG_1057.jpeg]]
+>applicando la trasformazione si ottiene ![[IMG - Progettazione Logica Relazionale appiattimento attributo composto.jpeg]]

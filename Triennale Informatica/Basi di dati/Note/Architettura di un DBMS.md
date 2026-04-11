@@ -13,6 +13,6 @@ L _architettura_ di un [[Database Managment System (DBMS)]] è divisa principalm
 
 
 e se poi semplificato è il seguente 
-![[IMG_1066.jpeg]]
+![[IMG - Architettura di un DBMS schema semplificato.jpeg]]
 
 
