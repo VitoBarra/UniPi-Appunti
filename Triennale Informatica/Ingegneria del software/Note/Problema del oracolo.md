@@ -36,6 +36,6 @@ Il problema del oracolo si riferisce al problema del [[Testing]] di avere già d
 	- tramite vincoli fra ingressi e uscite
 	- tramite invarianti sulle uscite
 
-![[36AE7455-3080-4C0F-8A18-D4271994F274.jpeg]]
+![[IMG - Problema del oracolo 1.jpeg]]
 
 

@@ -41,5 +41,5 @@ i moduli di alto livello non devono dipendere da quelli di basso livello
 - le astrazione non devono dipendere dai dettagli ma il contrario 
 detto in altre parole non ci si deve basare sulle implementazioni specifiche ma sulle astrazioni. ragionare in questi termini permette il disaccoppiamento 
 ##### esempio 
-![[C8638C83-F1AE-4A9B-B1E1-521856DD7B38.jpeg]]
+![[IMG - Principi SOLID 1.jpeg]]
 

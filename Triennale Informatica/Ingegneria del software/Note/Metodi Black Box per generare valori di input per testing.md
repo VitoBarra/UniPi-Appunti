@@ -28,7 +28,7 @@ si inizia
 - questo criterio si basa sul assunzione non sempre vera che se un comportamento vale per certi input allora funziona per tutta la classe di equivalenza 
 	- la correttezza di questa assunzione dipende dalla realizzazione del programma
 ##### Esempio
-	![[9FBFD18C-F776-4C44-B8F4-AD45C5494241.jpeg]]
+	![[IMG - Metodi Black Box per generare valori di input per testing 1.jpeg]]
 ### Criterio dei valori limite (Di frontiera) 
 - Metodo Basato sul individuare di valori estremi 
 	- Estremi delle classi di equivalenti definite in base alle uguaglianza del comportamento del programma
@@ -91,7 +91,7 @@ si utilizza quando il dominio non fornisce vincoli interessanti per ridurre le c
 ##### Esempio
 Prendendo i caso di prima invece di $n:7*4*5$ si ottiene
 $n:7*4+7*5+4*5$ queste coppie si possono generare in modo più efficiente 
-![[6E10A608-67C7-43F8-924B-8E39D70B5E50.jpeg]]
+![[IMG - Metodi Black Box per generare valori di input per testing 2.jpeg]]
 la generazione delle copie non può essere fatta a mano ma si possono usare delle euristiche. 
 
 

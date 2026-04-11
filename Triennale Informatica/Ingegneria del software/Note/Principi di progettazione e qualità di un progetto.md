@@ -74,7 +74,7 @@ tra elementi che sono logicamente correlati e non funzionalmente.
 Proprietà di un insieme di unità di progettazione(in generale di una architettura) 
 - grado in cui un'unità di progettazione è  “legata” ad altre unità di progettazione
 - Dipendenze, scambio di messaggi…
-![[531571FC-7869-4540-BF31-1A0E0345C8C8.jpeg]]
+![[IMG - Principi di progettazione e qualità di un progetto 1.jpeg]]
 un buon sistema ha basso accoppiamento. 
 
 

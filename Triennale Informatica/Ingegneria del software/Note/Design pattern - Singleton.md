@@ -15,7 +15,7 @@ un pattern
 - Quando si vuole una sola instanza di  on oggetto 
 - Quando Ci serve un instanza di facile accesso
 #### Struttura
-![[A7C22272-3D6A-4E4F-9D24-8D5A7622431B.jpeg]]
+![[IMG - Design pattern - Singleton 1.jpeg]]
 
 ##### Componenti
 un riferimento statico della tipo della classe di cui si vuole fare il singleton.

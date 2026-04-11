@@ -27,7 +27,7 @@ quando si deve definire un numero indefinito di variazioni di un algoritmo o di 
 ##### Richiede
 - il numero di oggetti può aumentare molto 
 #### Struttura
-![[1C69FADE-4F18-4B80-81BD-3635B235B065.jpeg]]
+![[IMG - Design pattern - Strategy 1.jpeg]]
 ##### Didascalia
 1. _Strategy_: definisce un interfaccia comune agli algoritmi supportati 
 2. _ConcreteStragety_: ogni implementazione concreta del algoritmo
@@ -37,5 +37,5 @@ quando si deve definire un numero indefinito di variazioni di un algoritmo o di 
 
 
 ## Esempi 
-1. ![[67FDA5EA-D565-4158-8A40-0AF8424EB75B.jpeg]]
-2. ![[B2160A20-8BE8-4767-9C0A-9C8E9273810F.jpeg]]
+1. ![[IMG - Design pattern - Strategy 2.jpeg]]
+2. ![[IMG - Design pattern - Strategy 3.jpeg]]

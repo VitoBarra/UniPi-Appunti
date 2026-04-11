@@ -14,7 +14,7 @@ tipo di [[GoF Design Patterns]]  Strutturale
 ### Quando Usarlo 
 Quando siamo un una situazioni in cui c è bisogno di mixare comportamenti.
 - applicare il pattern evita dover fare una sotto classe per ogni combinazione 
-- ![[B14D6B98-3257-4880-819E-CED140BA8335.jpeg]]
+- ![[IMG - Design pattern - Decorator 1.jpeg]]
 
 ### Vantaggi
 - più flessibile rispetto ad usare eridarietà, siccome componiamo gli oggetti e possiamo farlo a run time invece che staticamente ereditando. 
@@ -29,7 +29,7 @@ Quando siamo un una situazioni in cui c è bisogno di mixare comportamenti.
 - difficile da debbugare
 
 #### Struttura
-![[B04D6621-942A-48EE-8E54-E9EE59693B68.jpeg]]
+![[IMG - Design pattern - Decorator 2.jpeg]]
 ##### Componenti
 1. _Componet_: Interfaccia del oggetto decorato 
 2. _ConcreteComponent_: classe base che implementa il comportamento 

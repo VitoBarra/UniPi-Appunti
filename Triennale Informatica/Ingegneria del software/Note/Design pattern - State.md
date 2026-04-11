@@ -33,7 +33,7 @@ Permette al oggetto di comportarsi in modo diverso in base allo stato interno
 - stati dipendenti tra loro siccome ogni stato deve conoscere i suoi prossimi 	
 
 #### Struttura
-![[F684B1BD-A085-4045-87D1-14EC76A5DC6F.jpeg]]
+![[IMG - Design pattern - State 1.jpeg]]
 ##### Componenti
 _Context_: 
 - definisce l interfaccia
@@ -43,6 +43,6 @@ _ConcreteState_: Implementa l interfaccia state
 
 
 ### Exemple 
-![[4FD5B704-A5A0-45EF-B4F3-3A8426C94025.jpeg]]
+![[IMG - Design pattern - State 2.jpeg]]
 
  

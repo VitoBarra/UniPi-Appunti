@@ -29,7 +29,7 @@ il test di un programma può rilevare la presenza di difetti ma non dimostrare l
 - Metodi formati o analisi statica supportata dal strumenti 
 	- Tecnica basata sulla dimostrazione formale di correttezza di un modello finito _(dimostrazione possibile)_ e instanziazione del modello.
 	- Model checking 
-		![[FD85CAAE-BB04-4955-BC57-BE6BB85671F6.jpeg]]
+		![[IMG - Testing 1.jpeg]]
 	- Esecuzione simbolica
 	- Interpretazione astratta
 	- Theorem proving 

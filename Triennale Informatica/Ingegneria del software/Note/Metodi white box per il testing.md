@@ -14,7 +14,7 @@ il test devono eseguire tutto il codice presente nel programma altrimenti non so
 
 per fare questa fase del testing s utilizzano i frati di flusso  che  definiscono la struttura del codice e come le varie parti sono collegate tra loro 
 ##### esempio
-![[4BA97FD2-B6BB-49C4-883E-A265AA11766C.jpeg]]
+![[IMG - Metodi white box per il testing 1.jpeg]]
 per misurare l adeguante a dei controlli si utilizza la misura di copertura definita come
 _Comandi_
 $$\text{misura di copertura COMANDI} =\frac{\text{numero di comandi esercitati }}{\text{numero di comandi totali}}$$

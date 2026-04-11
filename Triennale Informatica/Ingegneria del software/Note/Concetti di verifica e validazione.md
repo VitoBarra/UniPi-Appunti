@@ -92,8 +92,8 @@ _Attivita dopo la consegna_
 la _Convalida_ : Controlla che il sistema che sta venendo costruito è utile al utente
 la _Verifica_: controlla che si stia costruendo un sistema che rispecchia i requisiti 
 
-![[831B5298-7721-42D4-879E-88C2659E94C2.jpeg]]
-![[7A4056BE-AE10-4EE9-97BD-3AE0F11230EC.jpeg]]
+![[IMG - Concetti di verifica e validazione 1.jpeg]]
+![[IMG - Concetti di verifica e validazione 2.jpeg]]
 
 
 

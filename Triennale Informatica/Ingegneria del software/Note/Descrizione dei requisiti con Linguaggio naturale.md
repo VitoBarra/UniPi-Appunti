@@ -40,7 +40,7 @@ la descrizione  dei [[Analisi dei requisiti|Requisiti]] con linguaggio naturale 
 	- Analisi costi, tempi di produzione
 	- queste priorità vengono poi utilizzate per decidere se cancellare o posticipare le funzionalità 
 	le priorità vengono categorizzate con il metodo MoSCow
-	![[B1099487-AFE9-4B59-92CF-D646D1662409.jpeg]]
+	![[IMG - Descrizione dei requisiti con Linguaggio naturale 1.jpeg]]
 
 5. _Gestione_: 
 	1. Assegnare ad ogni requisiti un identificate unico

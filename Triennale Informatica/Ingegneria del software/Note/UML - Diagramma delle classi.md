@@ -11,37 +11,37 @@ tags:
 è un diagramma di [[Unified modeling Language (UML)]] e Rappresenta la struttura delle classi 
 
 ## Sintassi 
-![[9E99135D-5513-4D23-9BF2-FC87675BE7E2.jpeg]]
-![[C10DE9E4-8C41-46A6-B1E2-25C5EA3B6EF5.jpeg]]
-![[AEBA6FB3-D619-4BB3-8C37-633330D819F5.jpeg]]
+![[IMG - UML - Diagramma delle classi 1.jpeg]]
+![[IMG - UML - Diagramma delle classi 2.jpeg]]
+![[IMG - UML - Diagramma delle classi 3.jpeg]]
 
 ## Sintassi delle Operazioni 
-![[63DFE8CD-1959-44E2-AE98-AF3233012061.jpeg]]
-![[DFA40DB6-CF68-4415-B215-1B8EDC858270.jpeg]]
+![[IMG - UML - Diagramma delle classi 4.jpeg]]
+![[IMG - UML - Diagramma delle classi 5.jpeg]]
 
 
 ## Relazioni
-![[1F50141A-375E-4CDA-A460-3DE7EA46E07B.jpeg]]
-![[8E97BBB7-8CE2-4BE6-B6D5-7929B319DDEA.jpeg]]
+![[IMG - UML - Diagramma delle classi 6.jpeg]]
+![[IMG - UML - Diagramma delle classi 7.jpeg]]
 
-![[E5D3E275-7A6B-40BB-AD42-55485C89D8E3.jpeg]]
+![[IMG - UML - Diagramma delle classi 8.jpeg]]
 
 
 ## aggregazione e composizione 
-![[8A0F3E7A-C753-409A-8AB7-56CB2DB4B993.jpeg]]
-![[0B90A5CF-D33B-45A1-AC33-43F5F04D606E.jpeg]]
-![[41CA9D1F-527B-4D46-89B1-EC3B625F3BA1.jpeg]]
+![[IMG - UML - Diagramma delle classi 9.jpeg]]
+![[IMG - UML - Diagramma delle classi 10.jpeg]]
+![[IMG - UML - Diagramma delle classi 11.jpeg]]
 
 
 ## generalizazione  
-![[E4C67C34-C8DE-44EA-993F-E0394072FD80.jpeg]]
-![[903BC481-34C3-46B5-BE10-3643EAE0BEEC.jpeg]]
-![[BCB5ED0A-0A56-4DF3-8CCC-2A3CFD4EB678.jpeg]]
+![[IMG - UML - Diagramma delle classi 12.jpeg]]
+![[IMG - UML - Diagramma delle classi 13.jpeg]]
+![[IMG - UML - Diagramma delle classi 14.jpeg]]
 
 
 ## Dipendenze
-![[EDB36BDC-6309-4E6A-BE47-AD0354E747F8.jpeg]]
-![[995B8FA6-ABBE-4E21-B7C3-AB9EF136545B.jpeg]]
+![[IMG - UML - Diagramma delle classi 15.jpeg]]
+![[IMG - UML - Diagramma delle classi 16.jpeg]]
 
 
 
@@ -64,6 +64,6 @@ tags:
 
 
 > [!note] Confronto con Database
-> ![[F5F2B0CF-D794-4525-AFAC-F41B0455FCFC.jpeg]]
+> ![[IMG - UML - Diagramma delle classi 17.jpeg]]
 
 
