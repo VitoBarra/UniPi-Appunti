@@ -43,11 +43,7 @@ La **distanza** tra due vertici $u$ e $v$ è la lunghezza del **cammino minimo**
 Il **diametro** di un grafo è la distanza massima tra tutte le coppie di vertici:$$\text{diam}(G) = \max\{d(u,v) \mid u,v \in V\}$$
 
 ---
-###### **Taglio**
-Un **taglio** è una partizione dell’insieme dei vertici in due sottoinsiemi disgiunti $S$ e $T$.  
-Gli archi che collegano vertici appartenenti ai due insiemi sono detti **archi del taglio**.
-
-I tagli sono fondamentali in problemi di ottimizzazione sui grafi, come il problema del **minimum cut**.
+[[Taglio su grafo]]
 
 ---
 
@@ -62,9 +58,7 @@ Un grafo è **connesso** se per ogni coppia di vertici esiste un cammino che li 
 $\forall u,v \in V, \exists$ cammino tra $u$ e $v$
 
 ---
-
-###### **Grafo bipartito**
-Un grafo è **bipartito** se l’insieme dei vertici può essere diviso in due sottoinsiemi disgiunti:$$V = V_1 \cup V_2$$con$$V_1 \cap V_2 = \emptyset$$e gli **archi collegano** solo vertici appartenenti a insiemi diversi.
+ [[Grafo bipartito|grafo bipartito]] 
 
 ---
 

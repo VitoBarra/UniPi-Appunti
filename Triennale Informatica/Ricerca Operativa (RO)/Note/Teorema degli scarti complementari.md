@@ -1,10 +1,9 @@
----
-Course: Ricerca Operativa
+﻿---
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Teorema degli scarti complementari
 ---
@@ -23,4 +22,3 @@ $$
 $$
 
 Qualunque soluzione $\overline{y}$ di questo sistema è una soluzione ottima del duale $(\mathcal{D})$
-

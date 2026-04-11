@@ -1,10 +1,9 @@
----
-Course: Ricerca Operativa
+﻿---
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Vertice ottimo
 ---
@@ -34,6 +33,6 @@ $$
 
 Se $\overline {x}$  e $\overline{y}$ sono anche ammissibili rispettivamente per il primale e duale, allora sono anche ottime
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 20.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - vertice ottimo - 01.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 15.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - vertice ottimo - 02.png]]

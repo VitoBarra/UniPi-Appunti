@@ -6,7 +6,6 @@ tags:
 ---
 # Teorema Fondamentale della programmazione lineare
 ---
-
 Consideriamo un problema di [[Programmazione lineare|PL]] in forma canonica
 
 $$

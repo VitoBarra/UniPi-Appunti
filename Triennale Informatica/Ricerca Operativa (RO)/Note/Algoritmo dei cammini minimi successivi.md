@@ -8,8 +8,9 @@ topic: nota
 
 # Algoritmo dei cammini minimi successivi
 ---
+L’[[Algoritmi|algoritmo]] dei **cammini minimi successivi** parte con uno **pseudoflusso** minimale.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 9.png]]
+Ad ogni iterazione l’algoritmo mantiene uno pseudoflusso $x$ minimale e cerca nel [[Grafo residuo|grafo residuo]] $G(x)$ un [[Cammino di costo minimo|cammino di costo minimo]] da un nodo di $E_x$ (con eccesso di [[Flusso su grafo|flusso]]) ad un nodo di $D_x$ (con difetto di [[Flusso su grafo|flusso]]), in modo da diminuire lo sbilanciamento complessivo al minor costo possibile.
 
 ### *Teorema*
 Se le capacita ed i bilanci  degli archi di un [[Graph Theory|grafo]] sono numeri interi, allora l [[Algoritmi|algoritmo]] trova una soluzione ottima dopo un numero finito di iterazioni
@@ -17,9 +18,9 @@ Se le capacita ed i bilanci  degli archi di un [[Graph Theory|grafo]] sono numer
 ### dimostrazione
 
 - ad ogni iterazione $x$  ha componenti intere e quindi anche lo sbilanciamento complessivo $g(x)$ è intero. Poiché $g(x)$ diminuisce ad ogni iterazione di almeno una unita, l algoritmo si ferma dopo un numero finito di iterazioni
-- Al prima iterazione $x$ è uno pseudoflusso minimale perché in $G(x)$ non ci sono archi di costo negativo
-- Poiché ad ogni iterazioni si spedisce flusso lungo un cammino aumentante di costo minimo da un nodo di $E_x$ ad un nodo di $D_x$, il nuovo pseudoflusso ottenuto rimane minimale
-- Al ultima iterazioni lo pseudoflusso minimale é ammissibile e quindi è un flusso di costo minimo
+- Al prima iterazione $x$ è uno [[Pseudoflusso|pseudoflusso]] minimale perché in $G(x)$ non ci sono archi di costo negativo
+- Poiché ad ogni iterazioni si spedisce flusso lungo un [[Cammino aumentante|cammino aumentante]] di costo minimo da un nodo di $E_x$ ad un nodo di $D_x$, il nuovo pseudoflusso ottenuto rimane minimale
+- Al ultima iterazioni lo [[Pseudoflusso|pseudoflusso minimale]] é ammissibile e quindi è un flusso di costo minimo
 
 ### *Algoritmo*
 
@@ -34,6 +35,6 @@ se $\pi_t = \infty$ allora stop (non esistono flussi ammissibili)
 Calcola $\delta = \min\{e_x(s),-e_x(t),\min\{r_{ij}:(i,j)\in P\}\}$ (max quantità da spedire lungo $P$)
 6. aggiorna $x$ spedendo $\delta$ unita di flusso lungo il cammino $P$ e torna al passo 2.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 4.png]]
+![[IMG - algoritmo dei cammini minimi successivi.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 2 4.png]]
+

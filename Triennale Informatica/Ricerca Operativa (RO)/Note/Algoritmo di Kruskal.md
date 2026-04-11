@@ -36,7 +36,7 @@ le etichette sui nodi individuano le componetti connesse di $T$, cioè due nodi 
 
 
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - algoritmo di kruskal.png]]
 
 
 >[!info] #### OSSERVAZIONE

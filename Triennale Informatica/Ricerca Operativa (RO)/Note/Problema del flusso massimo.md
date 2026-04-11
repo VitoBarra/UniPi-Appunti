@@ -7,94 +7,75 @@ topic:
 
 # Problema del flusso massimo
 ---
+Nel **Problema del flusso massimo** si considera un [[Graph Theory|grafo]] orientato $G=(N,A)$ con una capacita superiore $u_{ij}$ associata a ogni arco $(i,j) \in A$.
+Fissati un nodo sorgente $s \in N$ e un nodo pozzo $t \in N$, l'obiettivo e inviare la massima quantità possibile di [[Flusso su grafo|flusso]] da $s$ a $t$ senza violare le capacita degli archi.
 
-### Definizione
+L'idea e distribuire il flusso nella rete in modo che:
+- nessun arco trasporti piu della sua capacita
+- il flusso si conservi in tutti i nodi diversi da $s$ e $t$
+- la quantita totale spedita da $s$ a $t$ sia massima
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - problema del flusso massimo - 01.png]]
 
-Sia $(N,A)$ un [[Graph Theory|grafo]] orientato in cui è definita una capacita superiore $u_{ij}$ per ogni arco $(i,j) \in A$. Dati un nodo origine $s\in N$ ed un nodo destinazione $t \in N$, vogliamo spedicare la massima quantità possibile si flusso da $s$  a $t$ in modo da rispettare le capacita superiori degli archi.
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 17.png]]
-
-### Variabili:
-
-- $x_{ij} =$  flusso sull’arco $(i,j)$, per ogni $(i,j) \in A$
-- $v =$ flusso totale uscente del nodo $s$ (o flusso totale entrante nel nodo $t$)
-
-## Modello di PL:
+## Formulazione come PL
+Variabili decisionali:
+- $x_{ij}$ = [[Flusso su grafo|flusso]] sull'arco $(i,j)$, per ogni $(i,j) \in A$
+- $v$ = valore totale del flusso, cioe flusso totale uscente da $s$ ed equivalentemente flusso totale entrante in $t$
+La [[Programmazione lineare|formulazione di programmazione lineare]] del problema e:
 
 $$
 \begin{cases}
 \max v \\
 \sum\limits_{(i,s) \in A} x_{is}-\sum\limits_{(s,j) \in A} x_{sj} =-v \\
 \sum\limits_{(i,t) \in A} x_{it}-\sum\limits_{(t,j) \in A} x_{tj} =v \\
-\sum\limits_{(i,k) \in A} x_{ik}-\sum\limits_{(k,j) \in A} x_{kj} =0 \ \ \ \ \ \ \ \ \ \forall k \in N \backslash \{s,t\}\\
-0 \leq x_{ij} \leq u_{ij} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \forall(i,j) \in A
+\sum\limits_{(i,k) \in A} x_{ik}-\sum\limits_{(k,j) \in A} x_{kj} =0 \qquad \forall k \in N \backslash \{s,t\}\\
+0 \leq x_{ij} \leq u_{ij} \qquad \forall(i,j) \in A
 \end{cases}
 $$
 
-# Flussi e tagli
+La funzione obiettivo massimizza il valore del flusso. I vincoli impongono il bilancio nei nodi e il rispetto delle capacita sugli archi.
 
-un taglio è una [[Partizione di un insieme|partizione]] di $N$ in due sottoinsiemi $(N_s,N_t)$
+# Taglio ammissibile 
+Un **taglio ammissibile** è un [[Taglio su grafo|taglio su grafo]] $(N_s,N_t)$ tale che $s \in N_s$ e $t \in N_t$.
+Dato un taglio ammissibile $(N_s,N_t)$ ed un flusso $x$, si definiscono:
+- $A^+ = \{(i,j)\in A\ |\ i\in N_s, j\in N_t\}$ insieme degli archi diretti del taglio
+- $A^- = \{(i,j)\in A\ |\ i\in N_t, \ j\in N_s\}$ insieme degli archi inversi del taglio
+- $u(N_s,N_t) = \sum\limits_{(i,j)\in A^+} u_{ij}$ capacita del taglio
+- $x(N_s,N_t) = \sum\limits_{(i,j)\in A^+} x_{ij} -\sum\limits_{(i,j)\in A^-} x_{ij}$ flusso sul taglio
 
-Un taglio ammissibile è un taglio $(N_s,N_t)$ tale che $s \in N_s$ e $t \in N_t$
-
-Dato un taglio ammissibile $(N_s,N_t)$ ed un flusso $x$, si definisco:
-
-$A^+ = \{(i,j)\in A\ |\ i\in N_s, j\in N_t\}$ insieme degli archi diretti del taglio
-
-$A^- = \{(i,j)\in A\ |\ i\in N_t, \ j\in N_s\}$ insieme degli archi inversi del taglio
-
-$u(N_s,N_t) = \sum\limits_{(i,j)\in A^+} u_{ij}$                            capacita del taglio
-
-$x(N_s,N_t) = \sum\limits_{(i,j)\in A^+} x_{ij} -\sum\limits_{(i,j)\in A^-} x_{ij}$    flusso sul taglio
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 10.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - problema del flusso massimo - 02.png]]
 
 ### Lemma
 
-Se $x$ è un flusso ammissibile e $(N_s,N_t)$ è un taglio ammissibile, allora
+Se $x$ è un [[Flusso su grafo|flusso]] ammissibile e $(N_s,N_t)$ è un [[Taglio su grafo|taglio]] ammissibile, allora
 
 1. $v=x(N_s,N_t)$ (valore del flusso = flusso sul taglio)
 2. $x(N_s,N_t) \leq u(N_s,N_t)$ (flusso sul taglio $\leq$ capacita del taglio)
+ 
+**Dimostrazione**
+a) Consideriamo i vincoli di bilancio corrispondenti ai nodi di $N_t$:
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 2 7.png]]
+$$
+\sum\limits_{(i,k)\in A} x_{ik} - \sum\limits_{(k,j)\in A} x_{kj} = 0 \qquad \forall k \in N_t \setminus \{t\}
+$$
 
+$$
+\sum\limits_{(i,t)\in A} x_{it} - \sum\limits_{(t,j)\in A} x_{tj} = v
+$$
 
+Sommando tra loro le equazioni, si ottiene $v = x(N_s,N_t)$.
 
----
+b) Utilizzando i vincoli di capacità $0 \leq x \leq u$, si ottiene
 
-# Grafo residuo
-
-Il teorema $\max$ flow - $min$ cut fornisce una condizione sufficiente di ottimalità.
-
-Ma come si trova (se esiste) un taglio ammisibile $(N_s,N_t)$ tale che $x(N_s,N_t)=u(N_s,N_t)$?
-
-Dato un flusso ammissibile $x$, il grafo residuo relativo ad $x$ è il grafo $G(x)=(N,A(x))$ avente gli stessi nodi del grafo $G$, mentre gli archi e le loro capacità residue $r_{ij}$ sonjo definiti come segue:
-
-se $(i,j) \in A$ con $x_{ij} < u_{ij}$ (arco non saturo) allore $(i,j) \in A(x)$ con $r_{ij} = u_{ij}-x_{ij}$
-
-se $(i,j) \in A$ con $x_{ij} > 0$ (arco non vuoto) allora $(j,i) \in A(x)$ con $r_{ji} =x_{ij}$
-
----
-
-## Cammino aumentante
-
-Dato un flusso ammissibile $x$, un cammino aumentante rispetto ad $x$ è un cammino orientato da $s$ a $t$ nel grafo residuo $G(x)$
+$$
+x(N_s,N_t) = \sum\limits_{(i,j)\in A^+} x_{ij} - \sum\limits_{(i,j)\in A^-} x_{ij} \leq \sum\limits_{(i,j)\in A^+} u_{ij} = u(N_s,N_t).
+$$
 
 
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 3 5.png]]
+# Interpretazione dei cammini aumentanti
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 4 3.png]]
+Nel problema del flusso massimo, l'esistenza di un [[Cammino aumentante|cammino aumentante]] nel [[Grafo residuo|grafo residuo]] equivale alla possibilità di aumentare il valore del flusso corrente.
 
-1-2-5-6 e un cammino aumentante (e un cammino orientato nel grafo iniziale)
+Il punto importante è che il [[Grafo residuo|grafo residuo]] non contiene solo archi "in avanti" ancora disponibili, ma anche archi all'indietro che rappresentano la possibilità di annullare parte del flusso già inviato. Per questo motivo, un [[Cammino aumentante|cammino aumentante]] può anche non coincidere con un cammino orientato del grafo iniziale.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 5 2.png]]
-
-1-2-4-5-6 e un cammino aumentate (ma non e un cammino orientato nel grafo
-iniziale)
-
-[[Condizione di Bellman]]
-
-[[Algoritmo di Dijkstra]]
-
-[[Problemi riducibili al Problema di flusso massimo]]
+Per trovare cammini nel [[Grafo residuo|grafo residuo]] si possono usare algoritmi per cammini su grafi, ad esempio l' [[Algoritmo di Dijkstra|Algoritmo di Dijkstra]]

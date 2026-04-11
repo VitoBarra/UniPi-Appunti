@@ -1,27 +1,19 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Programmazione lineare Intera
 ---
-
-### Definizione
-
-un problema di programmazione lineare intera è un problema nella forma [[Modelli Matematici|modello]] 
-
-$$
+un **problema di programmazione** lineare intera è un problema nella forma [[Modelli Matematici|modello]] $$
 \begin{cases}
 \max c^Tx \\
 Ax \leq b \\
 x \in \mathbb{Z}^n
 \end{cases}
-$$
-
-dove $A,b,c$ sono a componenti $\in \mathbb{Z}$ e la regione ammissibile $\Omega$ è limitata
+$$dove $A,b,c$ sono a componenti $\in \mathbb{Z}$ e la regione ammissibile $\Omega$ è limitata
 
 ### Teorema
 
@@ -78,7 +70,7 @@ $$
 dove $conv(\Omega)$ è l’involucro convesso delle soluzioni ammissibili, cioè il più piccolo
 insieme convesso che contiene $\Omega$.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 25.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - programmazione lineare intera.png]]
 
 ### Teorema
 
@@ -124,5 +116,4 @@ conv(\Omega) = \{x ∈ \mathbb{Z}^n: A x \leq b\}
 $$
 
 cioè $conv(Ω)$ coincide con la regione ammissibile del rilassamento continuo.
-
 

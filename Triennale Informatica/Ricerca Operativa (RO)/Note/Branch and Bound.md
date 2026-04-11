@@ -1,10 +1,9 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Branch and Bound
 ---
@@ -29,16 +28,16 @@ $$
 
   che corrispondono al primo livello del [[Albero di decisione]]:
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 27.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - branch and bound - 01.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 21.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - branch and bound - 02.png]]
 
 - L’enumerazione esplicita è molto costato dal pinta di vista computazionale
 - Possiamo pero esaminare e scartare le soluzioni a gruppi anziché singolarmente facendo cosi un enumerazione implicita
 
 
-![[Untitled 2 14.png]]
-![[Untitled 3 10.png]]
+![[IMG - branch and bound - 03.png]]
+![[IMG - branch and bound - 04.png]]
 
 ---
 
@@ -54,9 +53,9 @@ $$
 - Le sotto-regioni si generano aggiungendo vincoli
 - il risultato deve essere una partizione della regione ammissibile del problema intero $\Omega$ , per non perdere nessuna soluzione ammissibile che potrebbe essere ottima
 
-![[Untitled 4 6.png]]
+![[IMG - branch and bound - 05.png]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 5 3.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - branch and bound - 06.png]]
 
 ## Valutazione
 
@@ -126,4 +125,3 @@ passo 2.
     - se $V_S(Pi)  >V_I(P_i)$ e la soluzione ottima del risultato di $P_i$ è ammissibile, poni $V_i(P) = V_S(P_i)$ e torna al passo 2.
 6. (Branch) Partiziona la regione ammissibile di $P_i$ in sotto-regioni e genera nuovi nodi da visitare. Torna al passo 2.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 6 1.png]]

@@ -2,83 +2,66 @@
 Course: "[[Ricerca Operativa (RO)]]"
 tags:
   - RO
-topic:
+topic: nota
 ---
 
 # Problemi di selezione di sottoinsiemi
 ---
+I [[Problemi di selezione di sottoinsiemi|problemi di selezione di sottoinsiemi]] consistono nel selezionare una sottofamiglia di sottoinsiemi a partire da un [[Insiemi Matematici|insieme]] finito $I=\{1,\dots,m\}$ e da una famiglia $S_1,\dots,S_n\subseteq I$, dove ogni sottoinsieme $S_j$ ha costo o valore $c_j$.
 
-### Definizione
+## Struttura generale
 
-Dati un [[Insiemi Matematici|insieme]] $I = \{1, \dots , m\}$ ed una famiglia $S_1, \dots, S_n \subset I$ ,
-ogni sottoinsieme $S_j$  ha un costo (o valore) $c_j$, per ogni $j = 1, \dots , n.$
+L'obiettivo cambia in base al tipo di vincolo imposto sugli elementi di $I$:
+- nel problema di copertura ogni elemento deve appartenere ad almeno un sottoinsieme selezionato
+- nel problema di partizione ogni elemento deve appartenere esattamente a un sottoinsieme selezionato
+- nel problema di riempimento ogni elemento deve appartenere ad al più un sottoinsieme selezionato
 
-### Problema di copertura
+## Variabili e matrice di incidenza
 
-determinare una sottofamiglia $\mathcal{F}$ di sottoinsiemi di costo minimo tale che ogni elemento di $I$ appartenga ad almeno un sottoinsieme di $\mathcal{F}$
+Si definisce la matrice di incidenza $a_{ij}$ come
+$$
+a_{ij}=\begin{cases}1 & \text{se } i\in S_j \\ 0 & \text{altrimenti}\end{cases}
+$$
 
-### Problema di partizione
+Si introduce inoltre una variabile binaria per ogni sottoinsieme:
+$$
+x_j=\begin{cases}1 & \text{se } S_j \text{ è selezionato} \\ 0 & \text{altrimenti}\end{cases}
+$$
 
-determinare una sottofamiglia $\mathcal{F}$ di sottoinsiemi di **costo minimo** tale che ogni elemento di $I$ appartenga esattamente ad un sottoinsieme di $\mathcal{F}$
+## Problema di copertura
 
-### Problema di riempimento
-
-determinare una sottofamiglia $\mathcal{F}$ di sottoinsiemi di valore massimo tale che ogni elemento di $I$ appartenga ad al più un sottoinsieme di $\mathcal{F}$.
-
-### Esempi
-
-sia $I = \{1, 2, 3, 4, 5, 6\}$
-
-- $S1 = \{1, 3\}$,  $S2 = \{2, 4\}$, $S3 = \{2, 5, 6\}$, $S4 = \{5, 6\}$ , $S5 = \{3, 4\}$
-
-
-$F1 = \{S1, S2, S3\}$  è una copertura ma non è una partizione
-
- $F2 = \{S1, S2, S4\}$ è una partizione
-
-$F3 = \{S3, S5\}$  è un riempimento ma non `e una partizione
-
-## Modelli
-
-definiamo la matrice $a_{ij} =\begin{cases}1 \ \ \ \ if \ \ i \in S_j \\0 \ \ \ \ altrimenti\end{cases}$
-
-ad ogni sottofamiglia $\mathcal{F}$ associamo una variabile $x$, dove $x_j =\begin{cases}1 \ \ \ \ if \ \ S_j  \in \mathcal{F} \\0 \ \ \ \ altrimenti\end{cases}$
-
- Copertura
+Il [[Problemi di selezione di sottoinsiemi|problema di copertura]] consiste nel determinare una sottofamiglia di costo minimo tale che ogni elemento di $I$ appartenga ad almeno un sottoinsieme selezionato.
 
 $$
 \begin{cases}
-\min
-\sum\limits_{j=1}^n c_jx_j \\
-
-\sum\limits_{j=1}^n a_{ij}x_j \geq 1 \ \ \ \  \forall i \\
-
-x_j \in \{ 0,1\} \ \ \ \forall j
+\min \sum\limits_{j=1}^n c_jx_j \\
+\sum\limits_{j=1}^n a_{ij}x_j \geq 1 \qquad \forall i=1,\dots,m \\
+x_j\in\{0,1\} \qquad \forall j=1,\dots,n
 \end{cases}
 $$
 
- Partizione
+## Problema di partizione
+
+Il [[Problemi di selezione di sottoinsiemi|problema di partizione]] consiste nel determinare una sottofamiglia di costo minimo tale che ogni elemento di $I$ appartenga esattamente a un sottoinsieme selezionato.
 
 $$
 \begin{cases}
-\min
-\sum\limits_{j=1}^n c_jx_j \\
-
-\sum\limits_{j=1}^n a_{ij}x_j = 1 \ \ \ \  \forall i \\
-
-x_j \in \{ 0,1\} \ \ \ \forall j
+\min \sum\limits_{j=1}^n c_jx_j \\
+\sum\limits_{j=1}^n a_{ij}x_j = 1 \qquad \forall i=1,\dots,m \\
+x_j\in\{0,1\} \qquad \forall j=1,\dots,n
 \end{cases}
 $$
 
- Riempimento
+## Problema di riempimento
+
+Il [[Problemi di selezione di sottoinsiemi|problema di riempimento]] consiste nel determinare una sottofamiglia di valore massimo tale che ogni elemento di $I$ appartenga ad al più un sottoinsieme selezionato.
 
 $$
 \begin{cases}
-\min
-\sum\limits_{j=1}^n c_jx_j \\
-
-\sum\limits_{j=1}^n a_{ij}x_j \leq 1 \ \ \ \  \forall i \\
-
-x_j \in \{ 0,1\} \ \ \ \forall j
+\max \sum\limits_{j=1}^n c_jx_j \\
+\sum\limits_{j=1}^n a_{ij}x_j \leq 1 \qquad \forall i=1,\dots,m \\
+x_j\in\{0,1\} \qquad \forall j=1,\dots,n
 \end{cases}
 $$
+
+Questi problemi sono casi tipici di [[Programmazione lineare Intera|programmazione lineare intera]] con variabili binarie.

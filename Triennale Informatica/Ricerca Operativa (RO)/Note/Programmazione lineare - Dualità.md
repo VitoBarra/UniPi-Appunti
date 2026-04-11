@@ -4,7 +4,7 @@ topic: nota
 tags:
   - RO
 ---
-# Dualità
+# Programmazione lineare - Dualità
 ---
 
 ## Problema primale

@@ -1,29 +1,25 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
-
 # Taglio su grafo
 ---
-
-
----
-
-### Taglio su grafo
-
-Dato un [[Graph Theory]] orientato $G(N,A)$, un taglio è una [[Partizione di un insieme]] $(N',N'')$ del insieme dei nodi, quindi valgo le proprietà
-
-$$
-\begin{aligned} 
-N', N'' \subseteq N \\
-N'\cap N '' = \emptyset \\
-N'\cup N '' = N
+Dato un [[Graph Theory|grafo]] orientato $G=(N,A)$, un **taglio** e una [[Partizione di un insieme|partizione]] dell'insieme dei nodi in due [[Insiemi Matematici|sottoinsiemi]] $(N',N'')$ tali che:$$
+\begin{aligned}
+N',N'' &\subseteq N \\
+N' \cap N'' &= \emptyset \\
+N' \cup N'' &= N
 \end{aligned}
-$$
+$$Gli archi del taglio sono gli archi che hanno un estremo in $N'$ e l'altro in $N''$.
 
-Gli archi del taglio sono gli archi aventi in $N'$ e l altro in $N''$
+### Taglio orientato
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 12.png]]
+Nel caso di un grafo orientato, fissato un taglio $(N',N'')$, si distinguono:
+- gli archi diretti da $N'$ a $N''$
+- gli archi diretti da $N''$ a $N'$
+
+
+### Esempio
+![[IMG - taglio su grafo.png]]

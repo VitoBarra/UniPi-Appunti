@@ -1,10 +1,9 @@
----
-Course: Ricerca Operativa
+﻿---
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Decomposizione dei poliedri
 ---

@@ -1,138 +1,64 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
-
 # Problema del albero di copertura costo minimo
 ---
+Dato un [[Graph Theory|grafo]] non orientato $G=(N,A)$, in cui ad ogni arco $\{i,j\} \in A$ è associato un costo $c_{ij}$, il problema consiste nel trovare un [[Albero di copertura|albero di copertura]] di costo minimo.
 
-### Definizione
+Se $T \subseteq A$ è un [[Albero di copertura|albero di copertura]], il suo costo è:$$\sum_{\{i,j\}\in T} c_{ij}$$L'obiettivo è quindi selezionare un insieme di archi che:
+- colleghi tutti i nodi del grafo
+- non contenga cicli
+- abbia costo totale minimo
+Senza perdita di generalità, si può supporre che il grafo sia completo, eventualmente aggiungendo archi di costo molto grande $M$.
 
-Dato un [[Graph Theory|grafo]] $G = (N, A)$ non orientato, in cui ad ogni arco $\{i, j\} \in A$ è associato un costo $c_{ij}$, trovare un [[Albero di copertura]] $T$ di costo minimo ,dove il costo di $T$  è definito come  $\sum_{\{i,j\}\in T}c_{ij}$
+## Formulazione come PL 1
 
-Senza perdita di generalità , possiamo supporre che il grafo $G$  sia completo,
-eventualmente aggiungendo archi di costo $M$, dove $M$ è una costante
-sufficientemente grande $M >\begin{subarray}{}\max \\ \{i,j∈A\}\end{subarray}cij$
-
-## Modello 1
-
-### Variabili decisionali
-
-Dati i nodi del grafo $N = \{1,\dots,n\}$
-
-per ogni $i,j \in N$ con $i<j$ , definiamo le variabili decisionali:
-
-$$
-x_{ij} =
+Variabili decisionali:
+Per ogni coppia di nodi $i,j \in N$ con $i<j$, definiamo:$$
+x_{ij}=
 \begin{cases}
-1 \ \ \
-\text{se l' albero contine l' arco } (i,j) \\
-
-0  \ \ \ \text{altrimenti}
+1 & \text{se l'albero contiene l'arco } (i,j) \\
+0 & \text{altrimenti}
 \end{cases}
-$$
-
-### modello  di ottimizzazione:
-
-$$
+$$La [[Programmazione lineare|formulazione di programmazione lineare]] del problema è:$$
 \begin{cases}
-\min
-\sum\limits_{i \in N}
-\sum\limits_{
-\substack{j\in N \\ j>i}}
-c_{ij}x_{ij} \\
-
-\sum\limits_{i \in N}
-\sum\limits_{
-\substack{j\in N \\ j>i}}
- x_{ij} = n-1
-\ \ \ \ \ \ \ \ \ \ \ \ \ \
-\text{l'albero contiene } n-1 \text{ archi}
-\\
-
-\sum\limits_{i \in S}
-\sum\limits_{
-\substack{j\in S \\ j>i}}
-\leq |S| -1
-\ \ \ \ \ \ \ \ \ \ \ \ \ \  \begin{subarray}{}
-\forall S \subset N \ : \ |S| \geq 3 \\
-\text{ eliminazione dei cicli}
-\end{subarray}
-\\
-
-x_{ij} \in \{0,1\}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  i,j \in N  \text{ con } i<j
-
+\min \sum\limits_{i \in N} \sum\limits_{\substack{j\in N \\ j>i}} c_{ij}x_{ij} \\
+\sum\limits_{i \in N} \sum\limits_{\substack{j\in N \\ j>i}} x_{ij} = n-1 \\
+\sum\limits_{i \in S} \sum\limits_{\substack{j\in S \\ j>i}} x_{ij} \leq |S|-1 \qquad \forall S \subset N : |S| \geq 3 \\
+x_{ij} \in \{0,1\} \qquad i,j \in N \text{ con } i<j
 \end{cases}
-$$
+$$Osservazioni:
+- il vincolo $\sum x_{ij}=n-1$ impone che la soluzione selezioni esattamente $n-1$ archi
+- i vincoli sui sottoinsiemi $S$ vietano che gli archi scelti formino cicli all'interno di un sottoinsieme proprio di nodi
+- questa formulazione mette quindi in evidenza soprattutto l'aspetto di **eliminazione dei cicli**
+- per questo motivo richiama più da vicino la logica di [[Algoritmo di Kruskal]], che costruisce l'albero aggiungendo archi di costo minimo ma scartando quelli che chiuderebbero un ciclo
 
-- il primo vincolo serve a prendere tutto i nodi almeno una volta
-- il secondo vincolo serve ad evitare cicli evitando cosi che un nodo venga raggiunto più volte da archi diversi
+## Formulazione come PL 2
 
-## Modello 2
-
-### Variabili decisionali
-
-Dati i nodi del grafo $N = \{1,\dots,n\}$
-
-per ogni $i,j \in N$ con $i<j$ , definiamo le variabili decisionali:
-
-$$
-x_{ij} =
+Variabili decisionali:
+Per ogni coppia di nodi $i,j \in N$ con $i<j$, definiamo ancora:$$
+x_{ij}=
 \begin{cases}
-1 \ \ \
-\text{se l' albero contine l' arco } (i,j) \\
-
-0  \ \ \ \text{altrimenti}
+1 & \text{se l'albero contiene l'arco } (i,j) \\
+0 & \text{altrimenti}
 \end{cases}
-$$
-
-### modello  di ottimizzazione:
+$$La seconda [[Programmazione lineare|formulazione di programmazione lineare]] del problema è:
 
 $$
 \begin{cases}
-\min
-\sum\limits_{i \in N}
-\sum\limits_{
-\begin{subarray}{}
-j\in N \\ j>i
-\end{subarray}}c_{ij}x_{ij} \\
-
-\sum\limits_{i \in N}
-\sum\limits_{
-\begin{subarray}{}
-j\in N \\ j>i
-\end{subarray}} x_{ij} = n-1
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
-\text{l'albero contiene } n-1 \text{ archi}
-\\
-
-\sum\limits_{i \in S}
-\sum\limits_{
-\begin{subarray}{}
-j \not\in S \\ j>i
-\end{subarray}} x_{ij} +
-\sum\limits_{i \not\in S}
-\sum\limits_{
-\begin{subarray}{}
-j \in S \\ j>i
-\end{subarray}} x_{ij}
-\geq  1
-\ \ \ \
-\begin{subarray}{}
-\forall S \subset N \ : \ |S| \geq 1 \\
-\text{ vincolo di connesione}
-\end{subarray}
-\\
-
-x_{ij} \in \{0,1\}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  i,j\in N \text{ con } i<j
-
+\min \sum\limits_{i \in N} \sum\limits_{\substack{j\in N \\ j>i}} c_{ij}x_{ij} \\
+\sum\limits_{i \in N} \sum\limits_{\substack{j\in N \\ j>i}} x_{ij} = n-1 \\
+\sum\limits_{i \in S} \sum\limits_{\substack{j \not\in S \\ j>i}} x_{ij} +
+\sum\limits_{i \not\in S} \sum\limits_{\substack{j \in S \\ j>i}} x_{ij} \geq 1 \qquad \forall S \subset N : |S| \geq 1 \\
+x_{ij} \in \{0,1\} \qquad i,j \in N \text{ con } i<j
 \end{cases}
 $$
 
-- il primo vincolo serve a prendere tutto i nodi almeno una volta
-- il secondo vincolo controlla che tutto i nodi siano connessi , questo unito al primo vincolo evita che un nodo venga raggiunto due volte con archi diversi
+Osservazioni:
+- il vincolo $\sum x_{ij}=n-1$ impone ancora che vengano scelti esattamente $n-1$ archi
+- i vincoli di connessione impongono che ogni sottoinsieme proprio di nodi sia collegato al complemento, e quindi che il grafo selezionato sia connesso
+- questa formulazione mette quindi in evidenza soprattutto l'aspetto di **connessione** del problema
+- per questo motivo richiama più da vicino la logica di [[Algoritmo di Prim]], che fa crescere progressivamente un insieme connesso di nodi scegliendo ogni volta un arco che attraversa un [[Taglio su grafo|taglio]]

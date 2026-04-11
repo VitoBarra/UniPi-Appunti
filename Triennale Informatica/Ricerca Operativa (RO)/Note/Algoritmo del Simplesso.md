@@ -1,10 +1,9 @@
 ---
-Course: Ricerca Operativa
+Course: "[[Ricerca Operativa (RO)]]"
 topic: nota
 tags: RO
 ---
 
-Prev: [[Ricerca Operativa (RO)]]
 
 # Algoritmo del Simplesso
 ---
@@ -60,9 +59,33 @@ altrimenti l algoritmo trova il passo di spostamento lungo la direzione trovata 
 
 ### Trovare soluzione di base ammissibile
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 14.png]]
+Supponiamo che $B$ sia una base e che $\bar{x}=A_B^{-1}b_B$ non sia ammissibile. Definiamo gli insiemi
+$$
+U=\{i\in N:A_i\bar{x}\leq b_i\},\qquad V=\{i\in N:A_i\bar{x}>b_i\},
+$$
+e costruiamo il problema ausiliario primale
+$$
+\begin{cases}
+\max_{(x,\varepsilon)}-\sum\limits_{i\in V}\varepsilon_i\\
+A_ix\leq b_i\qquad \text{per } i\in B\cup U\\
+A_ix-\varepsilon_i\leq b_i\qquad \text{per } i\in V\\
+-\varepsilon_i\leq 0\qquad \text{per } i\in V
+\end{cases}
+\qquad (P_{aux})
+$$
+Il vettore $(\bar{x},\bar{\varepsilon})$, con $\bar{\varepsilon}=A_V\bar{x}-b_V\geq 0$, è una soluzione di base ammissibile per $(P_{aux})$ relativa alla base $B\cup V$, con matrice di base
+$$
+\left(\begin{array}{c|c}
+A_B & 0\\ \hline
+A_V & -I
+\end{array}\right)
+$$
+A partire da tale soluzione di base ammissibile per $(P_{aux})$, applichiamo l'algoritmo del simplesso primale per risolvere il problema ausiliario.
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 2 9.png]]
+### *Teorema*
+
+1. Se il valore ottimo di $(P_{aux})$ è $<0$, allora $(P)$ non ha soluzioni ammissibili.
+2. Se il valore ottimo di $(P_{aux})$ è $=0$, allora a partire da una soluzione di base ottima di $(P_{aux})$ si può costruire una soluzione di base ammissibile per $(P)$.
 
 ---
 
@@ -92,7 +115,7 @@ poni $\eta_B=-A_kA_B^{-1}$, la direzione di spostamento $d$ è $d_i\ =\begin{cas
 aggiorna la base:  $B = B \backslash \{k\} \cup \{h\}$,
 calcola $\overline{y}_B = c^TA_B^{-1}$ e torna al passo 2
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 3 7.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - algoritmo del simplesso - 03.png]]
 
 consideriamo un problema primale
 
@@ -109,9 +132,28 @@ L’algoritmo del simplesso duale parte da un vertice del poliedro duale
 
 se il vertice del poliedro primale corrisponde alla stessa [[Basi e vertici| basi]] è ammissibile allora il vertice primale è ottimo e l algoritmo si ferma. altrimenti trova una direzione di spostamento che è una [[Direzioni di crescita e di decrescita|direzione di decrescita]] per il duale.
 
-Se tale direzione è di [[Poliedro#Direzione di recessione|recessione]] per il [[Problemi di ottimizzazione - Dualità|poliedro duale]], allora la regione ammissibile del primale è vuota e l algoritmo si ferma.
+Se tale direzione è di [[Poliedro#Direzione di recessione|recessione]] per il[[Programmazione lineare - Dualità|poliedro duale]]], allora la regione ammissibile del primale è vuota e l algoritmo si ferma.
 altrimenti l algoritmo trova il passo di spostamento lungo la direzione trovata e una nuova base, cambiando un solo indice rispetto alla vecchia base, in odo che la nuova soluzione di base duale rimanga ammissibile (il nuovo vertice duale è adiacente al vertice precedente)
 
 ### Trovare soluzione di base ammissibile
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 4 5.png]]
+Possiamo supporre che $c\geq 0$, cambiando eventualmente segno alle colonne di $A$ relative alle componenti negative di $c$. Definiamo allora il problema ausiliario duale
+$$
+\begin{cases}
+\min_{(y,\varepsilon)} \sum\limits_{i=1}^n \varepsilon_i\\
+y^TA+\varepsilon^T=c^T\\
+y\geq 0\\
+\varepsilon\geq 0
+\end{cases}
+\qquad (D_{aux})
+$$
+Gli indici relativi alle variabili ausiliarie $\varepsilon_1,\dots,\varepsilon_n$ formano una base, poiché la matrice di base è $I$. La corrispondente soluzione di base è $\bar{y}=0$, $\bar{\varepsilon}=c\geq 0$, ed è quindi ammissibile per $(D_{aux})$. A partire da tale base, applichiamo il simplesso duale per risolvere $(D_{aux})$.
+
+### *Teorema*
+
+1. Se il valore ottimo di $(D_{aux})$ è $>0$, allora $(D)$ non ha soluzioni ammissibili.
+2. Se il valore ottimo di $(D_{aux})$ è $=0$, allora a partire da una soluzione di base ottima di $(D_{aux})$ si può costruire una soluzione di base ammissibile per $(D)$.
+
+
+
+

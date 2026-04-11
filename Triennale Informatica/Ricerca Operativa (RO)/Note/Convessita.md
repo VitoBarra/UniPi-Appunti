@@ -29,5 +29,5 @@ _Se_ $\forall x,y   \in   \mathbb{K}  \land \forall \lambda \in [0,1]$ vale $$
 $$_allora_ $K$ è detto **convesso**
 
 in pratica se $K$ contiene due punti $x_1$ e $x_2$ allora contiene anche tutto il segmento di estremi $x_1$ e $x_2$ , segmento attenuto con [[Interpolazione Lineare|interpolazione lineare]]
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 23.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - convessita.png]]
 

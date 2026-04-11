@@ -11,15 +11,7 @@ SubTopic:
 ---
 I **problemi di ottimizzazione vincolata** costituiscono una classe fondamentale nell’ambito dell’ottimizzazione matematica, in cui l’obiettivo consiste nel determinare il minimo o il massimo di una funzione reale soggetta a una **collezione di vincoli** che restringono l’insieme delle soluzioni ammissibili. A differenza del caso non vincolato, in cui la funzione obiettivo è definita sull’intero spazio $\mathbb{R}^n$, qui si cerca una soluzione all’interno di una regione ammissibile definita in modo esplicito.
 
-La forma generale di un problema di ottimizzazione vincolata si esprime come:
-
-$$
-\min_{x \in \mathbb{R}^n} f(x)
-$$
-
-soggetto a:
-
-$$
+La forma generale di un problema di ottimizzazione vincolata si esprime come:$$\min_{x \in \mathbb{R}^n} f(x)$$soggetto a:$$
 \begin{cases}
 g_i(x) \leq 0 & \text{per } i = 1, \dots, m \\
 h_j(x) = 0 & \text{per } j = 1, \dots, p

@@ -29,11 +29,11 @@ $$
 
 Un cono può essere convesso oppure non convesso
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 24.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - cono - 01.png]]
 
 Cono [[Convessita|Convesso]]
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 19.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - cono - 02.png]]
 
 Cono non convesso
 
@@ -44,4 +44,4 @@ Cono non convesso
 L’involucro conico di un insieme $K \subset \mathbb{R}^n$, denotato con $cono(K)$ , è l’insieme di
 tutte le combinazioni coniche di punti di $K$
 
-![[Untitled 2 12.png]]
+![[IMG - cono - 03.png]]

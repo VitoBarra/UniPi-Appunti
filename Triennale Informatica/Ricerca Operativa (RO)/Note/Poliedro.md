@@ -31,9 +31,7 @@ in un poliedro $P =\{x \in \mathbb{R} \ | \ Ax \leq b\}$, dove $A$ è una atrice
 
 </aside>
 
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 1 17.png]]
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 2 11.png]]
+![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/IMG - poliedro - 01.png]]
 
 ---
 
@@ -82,4 +80,4 @@ $$
 
 $lineal(P)$ è un [[Sottospazio Vettoriale]].
 
-![[Untitled 3 9.png]]
+![[IMG - poliedro - 03.png]]

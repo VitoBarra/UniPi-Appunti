@@ -8,15 +8,11 @@ topic: nota
 
 # Problema del cammini minimi
 ---
-
-### Definizione
 sia $G(N,A)$ un [[Graph Theory|grafo]] orientato in cui  definito un costo $c_{ij}$ per ogni arco $(i,j)\in A$ Dati un nodo origine $s \in N$ e un nodo destinazione $t\in N$, trovare un [[cammini su grafi|cammino orientato]] da $s$ a $t$ di costo minimo, dove il costo di un cammino è definito come la soma dei costi degli archi da cui è formato
 
 ## Modello
 
-per goni $(i,j) \in a$, definiamo $x_{ij} =$ numero di volte che si attraversa l arco $(i,j)$ $[$flusso sul arco $(i,j)]$
-
-$$
+per goni $(i,j) \in a$, definiamo $x_{ij} =$ numero di volte che si attraversa l arco $(i,j)$ ([[Flusso su grafo|flusso sull'arco]]  $(i,j)$ )$$
 \begin{cases}
 \min\sum\limits_{(i,j)\in A}c_{ij}x_{ij} \\
 \sum\limits_{(i,s)\in A}x_{is}- \sum\limits_{(s,j)\in A}x_{sj} = -1 \\
@@ -24,16 +20,12 @@ $$
 \sum\limits_{(i,k)\in A}x_{ik}- \sum\limits_{(k,j)\in A}x_{kj} = 0\ \ \ \ \ \ \ \ \forall k \in N \backslash \{s,t\}
 \end{cases}
 $$
-
 didascalia vincoli
-
-- 1 unita di flusso deve uscire da $s$
-- 1 unita di flusso deve entrare in $t$
+- 1 unita di [[Flusso su grafo|flusso]] deve uscire da $s$
+- 1 unita di [[Flusso su grafo|flusso]] deve entrare in $t$
 - i nodi diversi da $s$ e $t$ sono nodi di transito
 
 ### Esempio
-
-![[UniPi-Appunti/Triennale Informatica/Ricerca Operativa (RO)/Media/Untitled 8.png]]
 
 il [[Modelli Matematici|modello]] può essere scritto in modo più compatto utilizzando la matrice di incidenza del grafo.
 
