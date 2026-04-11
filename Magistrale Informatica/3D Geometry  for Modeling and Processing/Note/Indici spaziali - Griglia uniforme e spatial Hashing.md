@@ -46,7 +46,7 @@ Questo **indice spazione** mantiene gli quasi gli stessi costi teorici della **g
 ![[IMG - Spatial hashing.png]]
 Il problema principale di questo approccio è la scelta ottimale della dimensione della cella, infatti questa dipende molto dal tipo di input che si usa: 
 ![[IMG - scelta della cella.png]]
-![[IMG_1106 1 1.jpeg]]
+![[IMG - Indici spaziali griglia uniforme dipendenza dalla dimensione della cella.jpeg]]
 
 
 
@@ -66,5 +66,5 @@ d_x\\d_y\\d_z
 c_x\\c_y\\c_z
 \end{bmatrix} $$
 si ha che il caso 2D è come segue 
-![[IMG_1103 1 1.jpeg]]
+![[IMG - Indici spaziali spatial hashing caso 2D.jpeg]]
 

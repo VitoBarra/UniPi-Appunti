@@ -47,7 +47,7 @@ Formalmente il problema di semplificare una [[Mesh Poligonali|mesh]] è definito
   - $\| M - M' \| < \epsilon$ e $|V'|$ sia minimo.
 
 
-Trovare una soluzione a questo problema in particolare alla seconda forma del obiettivo è un problema di [[Complessita|complessità]] [[Classi di complessita - NP-hard|Np-Hard]], rendendolo quindi difficile da trattare. Quindi per risolvere il problema lo si usa usando delle euristiche.
+Trovare una soluzione a questo problema in particolare alla seconda forma del obiettivo è un problema di [[Complessita|complessità]] [[Classi di complessita - NP-Hard|Np-Hard]], rendendolo quindi difficile da trattare. Quindi per risolvere il problema lo si usa usando delle euristiche.
 
 Generalmente le soluzioni con euristiche funzionano bene tranne nei casi in cui ci sono pochi poligoni ma è una casistica non critica perche non ha comunque senso cercare un errore basso, e quindi preservare i dettagli, quando i dettagli non ci sono in ogni caso.
 

@@ -39,7 +39,7 @@ una **parametrizzazione** può anche essere usata per applicare tecniche derivat
 
 
 le **parametrizzazioni**, dal punto di vista matematico devono essere **[[Applicazioni tra insiemi|bigettive]]**, nella pratica invece questo vincolo viene spesso volontariamente ignorato. infatti siccome si mantiene nei vertici $f^{-1}$ e non $f$ questo non crea problemi e puo essere sfruttato per mettere assieme nello spazio dei parametri delle informazioni riutilizzate
-![[IMG -  bigettivita della parametrizazione caso pratico in cui non serve.png]]
+![[IMG - bigettivita della parametrizazione caso pratico in cui non serve.png]]
 
 
 

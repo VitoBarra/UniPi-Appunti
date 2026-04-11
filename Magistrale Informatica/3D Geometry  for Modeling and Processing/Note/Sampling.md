@@ -20,7 +20,7 @@ e il [[Rendering|rendering]]
 
 
 Ci sono vari modi di fare __sampling__ tra i piu semplici ci sono i sampling __random__, __uniformi__ e  __jittered__
-![[Pasted image 20241208215736.png]]
+![[IMG - Sampling random uniforme e jittered.png]]
 Il __sampling random__ si ottiene scegliendo casualmente su una [[Probabilita con distribuzione uniforme|distribuzione uniforme]] due valori per le coordinate $x,y$  non ha nessuna proprietà particolare ed è molto probabile che due campioni diversi siano molto vicini rendendo il sampling inefficiente
 
 il __sampling uniforme__ campiona in modo uniforme ovvero ogni campione è ugualmente distante da tutti gli altri. Questo tipo di sampling tende a dare problemi di aliasing quando il dominio sottostante ha anche esso una struttura regolare

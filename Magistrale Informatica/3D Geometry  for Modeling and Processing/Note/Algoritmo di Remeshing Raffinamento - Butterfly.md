@@ -19,7 +19,7 @@ Dal punto di vista combinatorio, (topologico) per ogni elementi nella [[Mesh Pol
 2. Per ogni edge genera un nuovo vertice al centro del edge 
 3. Per ogni vertice non fare nulla.
 4. Collega i nuovi Vertici tra loro
-![[Pasted image 20241111235706.png]]
+![[IMG - Butterfly collegamento dei nuovi vertici.png]]
 
 
 
@@ -30,7 +30,7 @@ Mentre dal punto di vista continuo l algoritmo segue come
 
 
 questo algoritmo con altri che sono interpolanti soffrono del fenomeno di ringing ovvero tra un iterazione è l'altra si generano delle oscillazioni che fanno perdere il senso originale della mesh.
-![[Pasted image 20241111235804.png]]
+![[IMG - Butterfly effetto ringing.png]]
 Mentre funziona bene per geometrie molto curve ad esempio un toro.
 
 

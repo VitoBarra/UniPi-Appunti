@@ -15,12 +15,12 @@ questa categoria di [[Algoritmi|algoritmi]] si possono dividere in dure direzion
 | Primale                                 | Duale                                                                   |
 | --------------------------------------- | ----------------------------------------------------------------------- |
 | ogni faccia viene divisa in sotto facce | ogni faccia viene generata a partire da una faccia un vertice o un edge |
-![[Pasted image 20241111184425.png]]
+![[IMG - Remeshing Raffinamento primal e dual subdivision.png]]
 
 | Approssimante                                                                                                                                      | interpolante                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | I vertici della mesh originale sono considerati solo come punti di controllo, la nuova mesh quindi non deve necessariamente passare per quei punti | I vertici della mesh originale vengono fissati e la nuova mesh viene costruita interpolando tra questi vertici mantenuti fissi. |
-![[Pasted image 20241111184527.png]]
+![[IMG - Remeshing Raffinamento approssimante e interpolante.png]]
 
 
 

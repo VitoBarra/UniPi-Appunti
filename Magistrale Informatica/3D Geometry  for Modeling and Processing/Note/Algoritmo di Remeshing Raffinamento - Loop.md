@@ -17,7 +17,7 @@ Dal punto di vista combinatorio, (topologico) per ogni elementi nella [[Mesh Pol
 2. Per ogni edge genera un nuovo vertice al centro del edge 
 3. Per ogni vertice non fare nulla.
 4. Collega i nuovi Vertici tra loro
-![[Pasted image 20241111233954.png]]
+![[IMG - Loop suddivisione dei triangoli.png]]
 Questo algoritmo ha la proprietà di trasformare una mesh di triangoli in un altra fatta di triangoli
 
 
@@ -29,12 +29,12 @@ Mentre dal punto di vista continuo l algoritmo segue come
 \alpha_n = \frac{3}{8} + \left(\frac{3}{8} + \frac{1}{4} \cos \frac{2\pi}{n} \right)^2 
 \end{array} 
 $$
-Si applicano le maschere ![[Pasted image 20241111234249.png]]
+Si applicano le maschere ![[IMG - Loop maschere di suddivisione.png]]
  
 
 
 Un esempio è qualcosa del tipo 
-![[Pasted image 20241111234324.png]]
+![[IMG - Loop esempio di suddivisione.png]]
 
 
 

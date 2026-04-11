@@ -18,7 +18,7 @@ Per rappresentare delle relazioni di adiacenza di una [[Mesh Poligonali|mesh pol
 - $V$: Vertex
 - $F$: Face
 in totale le relazioni sono 9 una per ogni possibile coppia 
-![[Pasted image 20241026182722.png]]
+![[IMG - Relazioni di adiacenza in una mesh nove relazioni.png]]
 1. $FF$ è la $1$-[[Complesso simpliciale#Adiacenza e incidenza|adiacenza]] di tutte l'facce ovvero gli edge condivisi tra le facce
 2. $EE$ è la $0$-[[Complesso simpliciale#Adiacenza e incidenza|adiacenza]] di tutte l'facce ovvero i vertici condivisi tra le facce
 3. $FE$ è l'insieme di sotto facce proprie di  $F$ di dimensione $1$ 
@@ -33,7 +33,7 @@ in totale le relazioni sono 9 una per ogni possibile coppia
 
 Solitamente queste rappresentazioni non si tengono __interamente__ ma __parzialmente__ ad esempio invece di tenere la relazione intera $VF$ per ogni vertice si tiene un unica faccia e le altre vengono ritrovate usando l'adiacenza $FF$  questo si fa principalmente per motivi di efficienza siccome comunque le  facce incidenti ad un vertice ha numero variabile mentre per la relazione $FF$ sono al massimo $2$.
 in questo tipo di casi per ricostruire correttamente tutto quello che si poteva raggiungere con la $VF$ c è bisogno che la mesh sia $2$-[[Manifolds (Varieta)|manifold]] infatti ad esempio non è possibile nel immagine seguente.
-![[Pasted image 20241026230440.png]]
+![[IMG - Relazioni di adiacenza in una mesh caso non manifold.png]]
 
 In generale per un [[Complesso simpliciale|complesso simpliciale]] $2$-[[Manifolds (Varieta)|manifold]] la cardinalità di queste adiacenze sono quasi tutti limitate infatti si ha che 
 - $|FV|=|FE|= 3$

@@ -11,7 +11,7 @@ SubTopic:
 **Rigid matching** è un problema fondamentale che attraversa diversi ambiti come la **computer vision**, il **pattern recognition** e la **computer graphics**. Si tratta del processo di determinare una **[[Trasformazioni Lineari Geometriche|trasformazione rigida]]**, ovvero le roto-traslazioni, che mappa un oggetto tridimensionale su un altro, mantenendo inalterate le distanze interne tra i punti. Tale trasformazione consente di confrontare, allineare o riconoscere forme in maniera coerente.
 
 alcune applicazioni di questo sono
-![[IMG- Applicazioni rigid matching.png]]
+![[IMG - Applicazioni rigid matching.png]]
 Un approccio classico e piuttosto intuitivo a questo problema è l’uso della [[Principal Component Analysis (PCA)|PCA]], L’orientamento dell’ellissoide fornisce un [[Frames|sistema di riferimento]] naturale che può essere usato per allineare due oggetti. Se entrambi sono trasformati in modo da allineare i propri assi principali con gli assi canonici ($x$, $y$, $z$), si ottiene un primo **allineamento rigido**.
 ![[IMG - rigid matching.png]]
 Tuttavia, questo metodo presenta delle **criticità**. Ad esempio, se l’oggetto possiede **assi di simmetria**, l’ellissoide d’inerzia può risultare ambiguo: due configurazioni speculari possono produrre lo stesso risultato, portando ad allineamenti errati.
@@ -32,7 +32,7 @@ La trasformazione che massimizza il numero di **inlier** viene selezionata come 
 
 Nel caso 2D, per stimare una traslazione è sufficiente identificare due coppie di punti corrispondenti. La trasformazione che allinea una curva all’altra è determinata da quattro punti: due appartenenti a un pezzo di curva, due all’altro. La distanza relativa tra i punti corrispondenti deve essere preservata:$$
 ||\mathbf{p}_1 - \mathbf{p}_2|| \approx ||\mathbf{p}_1' - \mathbf{p}_2'||.
-$$![[IMG Rigid matching esempi in 2D coerenti e non coerenti.png]]
+$$![[IMG - Rigid matching esempi in 2D coerenti e non coerenti.png]]
 Nel caso 3D, invece. Sono necessarie almeno tre coppie di punti, quindi sei punti in totale. Tuttavia
 ![[IMG - numero di esempio necessari in rigid metching con RANSAC in 2D e3D.png]]
 in entrambi i casi l'accuratezza della stima è fortemente influenzata dalla distribuzione spaziale dei punti scelti, infatti se i punti sono troppo vicini, la trasformazione stimata diventa instabile. Se sono distribuiti spazialmente in modo ampio, la stima è più robusta. 

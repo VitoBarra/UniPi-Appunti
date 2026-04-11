@@ -20,7 +20,7 @@ Se vale che
 __Allora__ è questo è un __Poisson disk sampling__
 
 I vincoli della definizione di una **PDS** non richiedono necessariamente una qualche struttura regolare ma alcune strutture regolari sono **PDS** come ad esempio un sampling come centro di una griglia di esagoni, una struttura cosi regolare puo portare a molto aliasing e non è quindi un buon **PDS**
-![[Pasted image 20241208222753.png]]
+![[IMG - Poisson Disk Sampling struttura regolare con aliasing.png]]
 
 
 #### Dart Throwing
@@ -58,8 +58,8 @@ Si vuole massimizzare la probabilità di campionare aree di cui non si è fatto 
 
 Per fare ciò si salva il bordo della zone __unavailable__ come [[Lista linkata|lista linkata]] e archi di cerchio, e per prendere un nuovo sample si prende un punto sul bordo. 
 Dopo aver aggiunto il punto le strutture dati vanno aggiornate e reiterare
-![[Pasted image 20241208233643.png]]
-questo algoritmo ha [[Complessita|complessità]] $O(n\log n)$ rispetto al numero di sample dove il $\log n$ viene dal accesso alla struttura dati![[Pasted image 20241208234938.png]]
+![[IMG - Poisson Disk Sampling bordo della unavailable zone.png]]
+questo algoritmo ha [[Complessita|complessità]] $O(n\log n)$ rispetto al numero di sample dove il $\log n$ viene dal accesso alla struttura dati![[IMG - Poisson Disk Sampling struttura dati O n log n.png]]
 $$
 N_p = D(p, 4r) - \bigcup_{p' \in P} 
 \begin{cases} 
@@ -67,7 +67,7 @@ D(p', 4r), & \text{if } p' < p \\
 D(p', 2r), & \text{if } p' \geq p
 \end{cases}
 $$
-![[Pasted image 20241208235554.png]]
+![[IMG - Poisson Disk Sampling regione disponibile per un nuovo sample.png]]
 
 
 ### Hierarchical Dart Throwing

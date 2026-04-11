@@ -39,7 +39,7 @@ si possono generare i pesi di interpolazione convessa $\lambda_{ij}$ per poter c
 $$e questi possono essere scelti in vario modo ad esempio
 - **Caso stifness**: $w_{ij}=D_{ij}$ è il caso classico.
 - **Caso uniforme**: $w_{ij}=1$ uguale per tutti gli edge
-- **Caso proporzionale alle distanze**: $w_{ij}=l_{ij}$ dove $l_{ij}$  è la lunghezza del edge. Questa preserva forma e grandezza dei triangoli originale anche nello spazio parametri![[IMG  - MassSpring effetti dei tipi di pesi.png]]ma **proporzionali alla lunghezza**  è il fatto che introducono [[Parametrizzazione - Distorsione|distorsione]] in caso di superfici già planari: ![[IMG - mass-spring caso planare in cui l algoritmo fallisce.png]]
+- **Caso proporzionale alle distanze**: $w_{ij}=l_{ij}$ dove $l_{ij}$  è la lunghezza del edge. Questa preserva forma e grandezza dei triangoli originale anche nello spazio parametri![[IMG - MassSpring effetti dei tipi di pesi.png]]ma **proporzionali alla lunghezza**  è il fatto che introducono [[Parametrizzazione - Distorsione|distorsione]] in caso di superfici già planari: ![[IMG - mass-spring caso planare in cui l algoritmo fallisce.png]]
 
 altri pesi pesi che prendono in considerazione gli angoli dei triangoli formati dagli edge sono:  
 - **Pesi cotangenti**: $w_{ij}=\cot\alpha_{ij}+\cot\beta_{ij}$ 

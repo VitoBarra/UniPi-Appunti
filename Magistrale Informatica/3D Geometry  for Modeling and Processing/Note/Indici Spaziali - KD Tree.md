@@ -19,7 +19,7 @@ Un esempio di utilizzo per questi [[indici spaziali|indici spaziali]] per quanto
 il costo $C(T)$ di visita di un nodo come per i [[Indici Spaziali - Binary Space Partition-Tree (BSP)|BSP]] può essere espresso come $$C(T) = 1 + \mathcal{P}(T_L)C(T_L) + \mathcal{P}(T_R)C(T_R)$$dove $\mathcal{P}(T_L)$ rappresenta la [[Definizione di Probabilita|probabilità]] che un raggio che interseca $T$ intersechi anche il sottoalbero sinistro $T_L$. 
 puo essere espresso come $$\mathcal{P}(T_L) = \frac{|\text{ray intersetting } T_L|}{|\text{ray intersetting } T|}$$i raggio che intersecano una certa area sono facile da definire infatti intuitivamente vale che preso **un raggio** che interseca l area $T$ questo interseca nei punti $(p_1,p_2)$ allora questa interseca $T_L \iff$ $p_1$ o $p_2$ intersecano $T_L$   ![[IMG - Indici Spaziali - KD Tree raggi intersecanti.png]]
 sapendo questo e facendo alcune assunzioni sulle [[Distribuzione di probabilita|distribuzioni]] dei raggi puo esprimere $\mathcal{P}(T_L)$ rapporto tra le aree superficiali: $$\mathcal{P}(T_L) = \frac{|\text{superficie di } T_L|}{|\text{superficie di } T|}$$
-![[IMG_1115 1 1.jpeg]]
+![[IMG - Indici Spaziali - KD Tree surface area heuristic.jpeg]]
 
 **La costruzione** di un **kd-tree** richiede come input un bounding box allineato agli assi e una lista di triangoli. Le operazioni base includono la suddivisione del bounding box lungo un piano allineato a un asse.
 

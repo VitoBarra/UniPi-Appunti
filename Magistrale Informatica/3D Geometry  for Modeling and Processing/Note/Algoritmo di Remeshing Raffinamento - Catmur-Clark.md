@@ -17,13 +17,13 @@ Dal punto di vista combinatorio, (topologico) per ogni elementi nella [[Mesh Pol
 2. Per ogni edge genera un  nuovo vertice
 3. Per ogni vertice non fare nulla.
 4. Collega il vertice generato dalla faccia ai vertici generati sugli edge
-![[Pasted image 20241111192539.png]]
+![[IMG - Catmull Clark collegamento dei nuovi vertici.png]]
 Questo algoritmo ha la proprietà di trasformare una mesh di poligono generica in una mesh di quadrilateri dopo la prima iterazione sulla mesh. Mentre la valenza di ogni vertice viene preservata. 
 
 
 Mentre dal punto di vista continuo l algoritmo segue come 
 1. Per il vertice generato  dalla faccia $i$ si ha che la posizione $d_i=\cfrac{1}{4}\sum^n_jd_{i,j}$
-2. per edge e vertici con valenza $>3$  si  segue la maschera ![[Pasted image 20241111230829.png]]
+2. per edge e vertici con valenza $>3$  si  segue la maschera ![[IMG - Catmull Clark maschere per edge e vertici straordinari.png]]
 
 
 Questo algoritmo può anche essere implementato in due passi utilizzando un l'algoritmo “__half dual__”.
