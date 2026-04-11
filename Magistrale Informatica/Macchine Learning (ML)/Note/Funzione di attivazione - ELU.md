@@ -21,4 +21,4 @@ $$
 
 
 
-![[Pasted image 20250208220643.png]]
+![[IMG - Funzione di attivazione - ELU.png]]

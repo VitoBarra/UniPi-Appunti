@@ -14,7 +14,7 @@ I __Concetti__ possono essere rappresentati in due modi principali:
 
 - __Rappresentazione simbolica (o localista)__: si utilizza una codifica __one-hot__, ovvero un vettore sparso in cui solo una posizione è impostata a $1$ (hot) mentre tutte le altre sono $0$. Ogni posizione (un simbolo) rappresenta un concetto specifico.  
 - __Rappresentazione distribuita__: si utilizza una codifica densa in cui i valori del vettore possono assumere qualsiasi valore continuo, consentendo una rappresentazione più flessibile.  
-  ![[Pasted image 20250206230148.png]]  
+  ![[IMG - Rappresentazione simbolica e distribuita dei concetti.png]]  
 
 Nella __rappresentazione simbolica__, ogni vettore è equidistante dagli altri di $\sqrt{2}$, e quindi non è possibile definire relazioni di similarità tra concetti diversi. Al contrario, nella __rappresentazione distribuita__, la distanza tra i vettori dipende dal modo in cui i concetti sono rappresentati, permettendo di catturare relazioni di similarità: concetti più simili avranno una distanza minore rispetto a concetti molto diversi.  
 

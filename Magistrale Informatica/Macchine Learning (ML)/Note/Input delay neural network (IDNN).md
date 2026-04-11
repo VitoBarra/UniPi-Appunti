@@ -10,7 +10,7 @@ SubTopic:
 # Input delay neural network (IDNN)
 ---
 Le __Input delay neural network (IDNN)__ sono un tipo di [[Reti Neurali (NN)|rete neurale]] che hanno come __dominio di input__ una serie di vettori esattamente come le [[Recurrent Neural Network (RNN)|RNN]] ma utilizzano una __finestra di delay__ per immagazzinare gli input passati. la __finestra di delay__ permette alla rete di elaborare non solo l'input corrente ma anche un certo numero di input precedenti e ciò serve a modellare le dipendenze sequenziali degli input. il numero di input che la rete può processare contemporaneamente è detta __dimensione della finestra di delay__  ed è un numero $d$  fissato prima del training della rete.
-![[Pasted image 20250222222659.png]]
+![[IMG - Input delay neural network (IDNN).png]]
 Se consideriamo una sequenza di input $l(t)$, il vettore di ingresso alla rete in un dato istante $t$ è costituito da un insieme di valori precedenti: $$\mathbf{l}(t) = \left[ l(t), l(t-1), \dots, l(t-d) \right]$$dove $d$ rappresenta la __dimensione della finestra di delay__. Assumendo un __singolo layer__ Il comportamento di una IDNN può essere formalizzato come segue:$$y(t) = f(W \mathbf{l}(t) + b)$$dove:
 - $W\in \mathbb{R}^{d\times o}$ è la matrice dei pesi con $o$ la dimensione del output
 - $b$ è il bias,

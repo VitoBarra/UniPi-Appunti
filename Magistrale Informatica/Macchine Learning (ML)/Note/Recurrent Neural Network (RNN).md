@@ -15,7 +15,7 @@ A differenza dei metodi basati su una finestra temporale fissa ([[Input delay ne
 ![[IMG - RNN Example.png]]
 
 le __reti neurali ricorrenti__ hanno come  __dominio del input__ una __sequenza discreta di [[vettori|vettori]]__ e  possono risolvere task di  __Trasduzione generale__ mapping da una sequenza di input in un __valore o sequenza__ di output. 
-![[Pasted image 20250207233220.png]]
+![[IMG - Recurrent Neural Network (RNN) 1.png]]
 I task possibili sono: 
 - __Sequence Classification__:  l'intera sequenza di input viene processata e produce un'unica uscita che rappresenta la classe a cui appartiene la serie. __Esempi:__ Sentiment analysis su una frase (positivo, negativo, neutro).
 - __IO-Transduction (Input-Output Isomorphic):__  per ogni elemento della sequenza di input vine dato un output __Esempi:__ Traduzione automatica (parola per parola).
@@ -26,8 +26,8 @@ I task possibili sono:
 
 
 ###  Simple RNN 
-I implementazione più semplice di una __rete ricorrente__ è la __simple RNN__ ovvero una rete dove c è una singola __connessione ricorrente__ che aggiunge l output della rete prossimo vettore di input.   ![[Pasted image 20250207233844.png]]
-![[Pasted image 20250207234035.png]]
+I implementazione più semplice di una __rete ricorrente__ è la __simple RNN__ ovvero una rete dove c è una singola __connessione ricorrente__ che aggiunge l output della rete prossimo vettore di input.   ![[IMG - Recurrent Neural Network (RNN) 2.png]]
+![[IMG - Recurrent Neural Network (RNN) 3.png]]
 assumendo $x(0) = 0$ l'intera rete è descritta dalle equazioni $$\begin{cases}
 x(t) = f(W l(t) + \hat{W} x(t-1) + b) \\
 y(t) = f_{out}(W_{out}x(t) + W_{in}l(t) + b_{out})
@@ -37,7 +37,7 @@ y(t) = f_{out}(W_{out}x(t) + W_{in}l(t) + b_{out})
 - $b,b_{out}$ è il bias e il bias del output,
 - $f(\cdot),f_{out}(\cdot)$  sono [[Funzioni di attivazione|funzione di attivazione]] dello stato e del output.t 
 
-![[Pasted image 20250207233930.png]]
+![[IMG - Recurrent Neural Network (RNN) 4.png]]
 
 
 ## Assunzioni dei Modelli di Reti Neurali Ricorrenti (RNN)
@@ -54,7 +54,7 @@ Le __Reti Neurali Ricorrenti (RNN)__ si basano sulle seguenti assunzioni:
 #### Algoritmi di learning
 su una __rete ricorrente__ si può applicare l __unfolding__ ( o unrolling) che consiste replicare la stessa rete una collegata al altra in modo da costruire una [[Reti neurali Feed-Forward (FF)|feed forward]]. 
 in questo modo i pesi di un layer al successivo sono condivisi (__weight sharing__) e le due reti sono totalmente equivalenti. 
-![[Pasted image 20250207234512.png]]
+![[IMG - Recurrent Neural Network (RNN) 5.png]]
 
 l' addestramento viene fatto tramite **Backpropagation Through Time (BPTT)**, che applica la __[[Back Propagation|Back Propagation]]__ su una versione __unfolded__ equivalente della rete che si vuole allenare, limitando la profondità di unrolling con un iperparametro.
 

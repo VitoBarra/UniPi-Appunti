@@ -57,8 +57,8 @@ ovvero abbiamo scomposto l errore atteso in 3 componenti:
 - **Bias**: discrepanza media tra la funzione reale $f(x)$ e $h(x)$ su diversi set di addestramento (rigidità del modello). $[\bar{h}(x)-f(x)]^2$
 - **Varianza**: variabilità del modello $h$ per realizzazioni diverse del set di addestramento (alta flessibilità). $\mathbb{E}_{\mathcal{P}}\left[(h(x) - \bar{h}(x))^2\right]$
 - **Rumore**: errore casuale intrinseco nei dati, non eliminabile non dipende dal modello
-![[Pasted image 20250203175744.png]]
-![[Pasted image 20250203155239.png]]
+![[IMG - Bias-Variance Decomposition 1.png]]
+![[IMG - Bias-Variance Decomposition 2.png]]
 
 
 
@@ -71,5 +71,5 @@ Assumendo la regolarizzazione $L_2$ con il termine di regolarizazione pesato da 
    - Modelli più complessi.
    - **Basso bias**, **alta varianza**.
      
-![[Pasted image 20250203185106.png]]
-![[Pasted image 20250203185004.png]]
+![[IMG - Bias-Variance Decomposition 3.png]]
+![[IMG - Bias-Variance Decomposition 4.png]]

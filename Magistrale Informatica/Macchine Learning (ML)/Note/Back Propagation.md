@@ -13,7 +13,7 @@ La __Back Propagation__ è un algoritmo che permette di allenare delle [[Reti Ne
 
 
 In particolare vediamo la derivazione del algoritmo considerando un [[Reti neurali Feed-Forward (FF)|MLP]]  [[Reti Neurali (NN)|completamente connessa]]. 
-![[Pasted image 20250101225508.png]]
+![[IMG - Back Propagation 1.png]]
 Gli indici $k, j, i$ rappresentano i diversi strati della rete.
 
 In questo tipo di rete è importante stimare il contributo delle unità nascoste all'errore a al livello di output.  
@@ -72,7 +72,7 @@ __Unità nascosta ($t = j$)__: $$
 $$Dove $H$ è il numero di neuroni del layer successivo.
 
 
-![[Pasted image 20250103181501.png]]
+![[IMG - Back Propagation 2.png]]
 
 Possiamo notare che il termine $-\cfrac{\partial E_p}{\partial o_j}$ lo abbiamo già calcolato nello step precedente e quindi lo possiamo riusarlo, ad esempio usando la [[Programmazione Dinamica|programmazione dinamica]]. 
 Grazie a questo riutilizzo, ogni $\delta$ viene calcolato una sola volta e utilizzato per ogni neurone del layer precedente, rendendo il numero di operazioni proporzionale al numero di pesi $O(|W|)$.
@@ -80,7 +80,7 @@ Grazie a questo riutilizzo, ogni $\delta$ viene calcolato una sola volta e utili
 ### Aggiornamento dei pesi 
 Una volta calcolati $\delta_t$ e  $o_u$, possiamo aggiornare i pesi: $$ \Delta w_{tu} = - \frac{\partial E_p}{\partial w_{tu}}= -\delta_t \cdot o_u $$ E quindi: $$ w_{\text{new}} = w - \eta \cdot \delta_t \cdot o_u $$
 
-![[Pasted image 20250103181525.png]]
+![[IMG - Back Propagation 3.png]]
 
 ### Considerazioni
 Questa è la versione [[Tecnica di ottimizzazione Gradient Descent|online]] del algoritmo dove l aggiornamento si fa per ogni patter. 

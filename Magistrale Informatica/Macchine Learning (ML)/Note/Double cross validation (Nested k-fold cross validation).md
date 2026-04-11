@@ -15,4 +15,4 @@ Si hanno quindi k design set e su ognuno di questo viene effettuata un ulteriore
 
 Questo metodo fornisce numerosi modelli e numerose stime, utilizza i dati in modo efficiente ma è molto costoso dal punto di vista computazionale.
 
-![[nested k-fold.png]]
+![[IMG - Double cross validation (Nested k-fold cross validation).png]]

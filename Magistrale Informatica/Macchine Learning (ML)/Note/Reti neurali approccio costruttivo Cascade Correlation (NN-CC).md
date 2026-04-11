@@ -32,7 +32,7 @@ $$dove $f'(net_{p,h})$ è la derivata della [[Funzioni di attivazione|funzione d
 5. Il processo continua fino a quando gli errori residui dello strato di output soddisfano un criterio di arresto specificato. 
 
 L'algoritmo costruisce dinamicamente una rete neurale e termina quando è stato trovato un numero sufficiente di __unità nascoste__ per risolvere il problema.
-![[Schermata del 2025-02-26 22-19-07.png]]
+![[IMG - Reti neurali approccio costruttivo Cascade Correlation (NN-CC).png]]
 
 Ogni unità aggiunta serve per ridurre l'errore residuo dell'output e per risolvere un "sotto problema". Quindi un'unità diventa un "__feature-detector__" permanente.
 

@@ -13,7 +13,7 @@ Al crescere della **dimensionalità** $n$ dell'input il modello è sempre meno c
 Assumendo che ogni variabile sia nel range $[0,1]$, questo fenomeno può essere notato partendo da un cubo unitario e mostrando quale è la frazione del range di range necessaria per ogni variabile per coprire una certa percentuale del volume.
 
 Abbiamo infatti che $n$ dimensioni per coprire una frazione $r$ del volume abbiamo bisogno del $r^{1/n}$ range di ogni variabili
-![[Pasted image 20241225061718.png]]
+![[IMG - Curse of dimensionality e Curse of noise.png]]
 In più la densità di sampling scende infatti la densità è calcolata come $\cfrac{\ell}{volume}$ che è proporzionale a $\ell^{1/n}$
 
 

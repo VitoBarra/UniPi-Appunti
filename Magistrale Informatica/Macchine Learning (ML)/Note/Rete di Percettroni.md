@@ -12,7 +12,7 @@ SubTopic:
 una __rete di percettroni__ è un [[Modelli Parametrici|modello parametro]] di [[Algoritmi di Machine Learning|machine learning]]  del paradigma delle [[Reti Neurali (NN)|reti neurali]] 
 può essere usato solo per risolvere problemi di classificazione binaria e si basa sul __percettrone__ ovvero un __neurone__ la cui [[Funzioni di attivazione|funzione di attivazione]] è  la funzione Threshold. 
 
-![[Pasted image 20241226222224.png]]
+![[IMG - Rete di Percettroni 1.png]]
 
 con un __singolo percettrone__ si possono rappresentare tutte le __funzioni logiche__ AND, OR, NOT, NAND, NOR ma non la funzione XOR.
 
@@ -35,7 +35,7 @@ Per ogni pattern di addestramento $(\mathbf{x}, d)$ dove $d = +1$ o $d = -1$,
 -\eta \mathbf{x} &se& w^T \mathbf{x} > 0 & e &d = -1
 \end{cases}$$  
      riscrivibile anche come $w_{\text{new}} = w + \eta d\mathbf{x}$    
-	 ![[Pasted image 20241227020044.png]]
+	 ![[IMG - Rete di Percettroni 2.png]]
 	 O, equivalentemente nella forma forma (__delta rule__) :  $$w_{\text{new}} = w + \frac{1}{2}\eta \, \delta  \, x \ \ \ \ \ \ \delta=d - \text{out}$$
 	    è questa è una regola di correzione degli errori che cambia i pesi sono in caso mal classificazione e in modo proporzionale al errore.
 	 
@@ -84,4 +84,4 @@ Me per la ricerca del limite superiore:
 Da qui Combinando i abbiamo che risultati otteniamo:  $$ q \beta \geq ||w(q)||^2 \geq \frac{(q \alpha)^2}{||w^*||^2}$$ e semplificando abbiamo 
 $$ q \beta \geq  \frac{q^2 \alpha^2}{||w^*||^2}$$ e ponendo $\alpha'= \cfrac{ \alpha^2}{||w^*||^2}$ si ha che $$q \beta \geq q^2\alpha'$$Da cui considerando che non si possono avere un numero negativi di step si ottiene un limite superiore per $q$:  
 $$\frac{\beta}{\alpha'} \geq q \geq 0 $$
-![[Pasted image 20241227055850.png]]
+![[IMG - Rete di Percettroni 3.png]]

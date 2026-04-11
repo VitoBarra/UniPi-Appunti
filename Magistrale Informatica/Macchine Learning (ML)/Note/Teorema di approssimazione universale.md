@@ -13,7 +13,7 @@ __sia__
 - $\mathbf{x} \in \mathbb{R}^n$ Un [[Vettori|vettore]] di input 
 - Dato un errore $\varepsilon$
  __allora__ esiste una [[Funzioni|funzione]] $$h(\mathbf{x}) = f_k \left( \sum_j w_{kj} f_j \left( \sum_i w_{ji} x_i \right) \right)$$tale che l'approssimazione dell'errore $$|f(\mathbf{x}) - h(\mathbf{x})| < \varepsilon$$ sia valida per ogni  $\mathbf{x}$ nell'ipercubo.
-![[Pasted image 20250101122118.png]]
+![[IMG - Teorema di approssimazione universale.png]]
 
 Ovvero:    
 - Una rete a singolo livello nascosto (con funzioni di attivazione logistiche) è in grado di generalizzare approssimazioni, ad esempio utilizzando serie di Fourier finite.

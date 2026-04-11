@@ -28,7 +28,7 @@ dove:
 - $d_k$ è la dimensione delle chiavi.
 
 
-![[Pasted image 20250207235010.png]]
+![[IMG - RNN - Transformer 1.png]]
 
 
-![[Pasted image 20250207235826.png]]
+![[IMG - RNN - Transformer 2.png]]

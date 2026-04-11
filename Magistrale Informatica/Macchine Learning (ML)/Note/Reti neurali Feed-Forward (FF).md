@@ -18,7 +18,7 @@ __Le unità sono connesse tramite collegamenti pesi__ e organizzate in _layers_ 
 - __Output Layer__ : ultimo layer del modello che ne calcola l output 
 
 Ogni neurone è un __unità__ definito in modo molto simile al [[Rete di Percettroni|percettrone]] ma se ne cambia la [[Funzioni di attivazione|funzione di attivazione]].
-![[Pasted image 20241229014328.png]]
+![[IMG - Reti neurali Feed-Forward (FF) 1.png]]
 Una __Feed Forward__ può anche essere vista come come un __ipotesi flessibile__ $h$. Per questa $h$ è vale che ad ogni input è associato un solo output e quindi è una [[Funzioni|funzione]] 
 
 considerando un __input layer__ un __hidden layer__ e un __output layer__ l ipotesi è la seguente funzione: $$h_\mathbf{W}(\mathbf{x})=f_k\left(\sum_jw_{kj}f_j\left(\sum_iw_{ji}x_i\right)\right)$$Dove
@@ -30,7 +30,7 @@ se almeno una delle [[Funzioni di attivazione|funzioni di attivazioni]] $f$ è u
 con $h$ NON lineare si ha che il problema di ottimizzazione per imparare i parametri diventa un problema non lineare.
 
 alcuni esempi di architetture sono le seguenti:
-![[Pasted image 20241229014458.png]]
+![[IMG - Reti neurali Feed-Forward (FF) 2.png]]
 Quando una Feed-Forward è __Totalmente connessa__ e la funzione di attivazione $f$ non è lineare allora si parla di __Multy layer perceptron__ (__MLP__)
 
 
@@ -50,7 +50,7 @@ lo __spazio delle ipotesi__ $\mathcal{H}$ è considerato a __[[Statistical Learn
 
 Le reti feed-forward possono essere utilizzate sia per problemi di classificazione che per problemi di regressione adattando la funzione di attivazione del layer di output. Per affrontare problemi di classificazione multi-classe o multi-regressione, invece, è necessario variare il numero di unità nel layer di output.
 
-![[Pasted image 20250101112825.png]]
+![[IMG - Reti neurali Feed-Forward (FF) 3.png]]
 
 Ogni neurone può essere visto come una funzione  $\phi$ della [[Linear Basis Expansion (LBE)|Linear Bases Expantion]]$$\phi_j(\mathbf{x},\mathbf{w})=f_j\left(\sum_iw_{ji}x_i\right)$$ è $\phi$ __Adattiva__ ovvero dipende anche dai parametri e di conseguenza anche dai dati da cui i parametri sono imparati, Mentre del [[Modelli lineari con LMS|modello lineare]] la $\phi$ è __fissa__.   
 

@@ -1,10 +1,12 @@
 ---
 Course: "[[Machine Learning (ML)]]"
+Course 2: "[[Generative Deep Learning (GDL)]]"
 tags:
   - IIA
   - ML
-Area: 
-topic: 
+  - GDL
+Area:
+topic:
 SubTopic:
 ---
 # Convolutional Neural Network (CNN)
@@ -30,7 +32,7 @@ Dove:
 ![[IMG - visualizzazione del operazione di convoluzione su pixel.png]]
  Ovvero si fa L'uso di __[[filtering|filtri]]__. 
  
- La dimensione della **feature map** dipende dall'applicazione dei filtri. In particolare, modificando lo **stride**, ovvero il passo con cui il filtro si sposta sull'immagine, è possibile controllare le dimensioni della **feature map** risultante. Con __stride__ $1$ e aggiungendo __padding__ sul bordo si ottiene una feature map della stessa dimensione del immagine originale   ![[Pasted image 20250222220623.png]]  mentre  un stride maggiore di $1$ riduce la dimensione dell'output, ad esempio con stride $2$ ![[Pasted image 20250222233822.png]]
+ La dimensione della **feature map** dipende dall'applicazione dei filtri. In particolare, modificando lo **stride**, ovvero il passo con cui il filtro si sposta sull'immagine, è possibile controllare le dimensioni della **feature map** risultante. Con __stride__ $1$ e aggiungendo __padding__ sul bordo si ottiene una feature map della stessa dimensione del immagine originale   ![[IMG - Convolutional Neural Network (CNN) 1.png]]  mentre  un stride maggiore di $1$ riduce la dimensione dell'output, ad esempio con stride $2$ ![[IMG - Convolutional Neural Network (CNN) 2.png]]
 ![[no_padding_no_strides.gif]]
 ![[no_padding_strides.gif]]![[padding_strides.gif]]![[same_padding_no_strides.gif]]
 ## Pooling
@@ -42,7 +44,7 @@ due tipi  comuni di pooling sono:
 - __Max pooling__: seleziona il valore massimo in una finestra, mantenendo le caratteristiche più prominenti.
 - __Average pooling__: calcola la media dei valori in una finestra, utile per ridurre il rumore.
 
-![[Pasted image 20250222220840.png]]
+![[IMG - Convolutional Neural Network (CNN) 3.png]]
 
 Il __pooling__ aiuta a ridurre la dimensionalità dei dati da gestire e rendere il modello più robusto a piccole traslazioni.
 
@@ -51,7 +53,7 @@ Una __CNN tipica__ è composta da:
 1. __layer convoluzionali__ estraggono caratteristiche locali tramite filtri.
 2. __layer pooling__: riducono la dimensionalità, migliorando l'efficienza computazionale.
 3. __layer [[Reti neurali Feed-Forward (FF)|feed-forward]]__: elaborano le _feature map_ per produrre la classificazione.
-![[Pasted image 20250222220903.png]]![[Pasted image 20250223010115.png]]
+![[IMG - Convolutional Neural Network (CNN) 4.png]]![[IMG - Convolutional Neural Network (CNN) 5.png]]
     
 
 
@@ -80,7 +82,7 @@ un modo piu inteligente è usare a deconvoluzione (transposed convolution)
 Le operazioni di convoluzione e moltiplicazione di matrici sono computazionalmente costose, ma possono essere accelerate tramite **GPU** e l [[Inner Product|operazioni tra tensore]]
 
 L'uso della notazione tensoriale permette di parallelizzare molte operazioni lineari, migliorando l'efficienza del training su dataset di grandi dimensioni.
-![[Pasted image 20250222220955.png]]
+![[IMG - Convolutional Neural Network (CNN) 6.png]]
 
 
 

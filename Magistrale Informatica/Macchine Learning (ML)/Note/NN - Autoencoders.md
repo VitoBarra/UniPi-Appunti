@@ -19,4 +19,4 @@ e può essere vista come una [[Funzioni|funzione composta]] infatti prendendo $g
 
 
 Un’applicazione tipica è il __denoising autoencoder__, che impara a ricostruire un’immagine originale da una versione rumorosa.
-![[Pasted image 20250206182635.png]]
+![[IMG - NN - Autoencoders.png]]

@@ -18,4 +18,4 @@ x & \text{se } x \geq 0
 \end{cases}
 $$
 
-![[Pasted image 20250208220622.png]]
+![[IMG - Funzione di attivazione - LeakyReLu.png]]

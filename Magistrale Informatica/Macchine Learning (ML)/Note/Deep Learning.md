@@ -11,12 +11,12 @@ SubTopic:
 ---
 Il **Deep Learning** è una sotto-disciplina del [[Machine Learning (ML)|Machine Learning]] che si concentra sull'uso di __Deep Neural Networks__ (DNN). Queste reti si distinguono per la presenza di numerosi __hidden layer__, che consentono di apprendere rappresentazioni gerarchiche dei dati.
 Un esempio classico di rete deep è il [[Reti neurali Feed-Forward (FF)|Multi-Layer Perceptron]] (MLP) con più __hidden layer__. 
-![[Pasted image 20250205223357.png]]
+![[IMG - Deep Learning 1.png]]
 
 Il __Deep learning__ ha un __bias induttivo__ dove assume che le funzioni che  [[Funzioni|funzione]] rappresenta siano per natura composizionali, ovvero sono della forma $$f(g(x))$$Questo avviene siccome ogni layer intermedio trasforma l'input in una rappresentazione a più alto livello ($g(x)$) che può essere usato dal successivo __come primitiva__ per costruirne una nuova ancora a più alto livello ($f(g(x))$) e cosi via fino al Output.  
 questo processo è anche detto  __feature learning__ ed ad ogni layer la feature imparata e in una [[Rappresentazione simbolica e distribuita dei concetti|rappresentazione distribuita]]
 Questo processo aiuta la capacita di generalizzazione di una rete neurale siccome gli evita il dover imparare direttamente da tutte le [[Combinatoria|combinazioni]] degli input. 
-![[Pasted image 20250205225036.png]]
+![[IMG - Deep Learning 2.png]]
 
 
 Il __deep learning__ a differenza di altri modelli come il [[K-Nearest Neighbor (K-NN)|k-nn]] e gli [[alberi di decisione|alberi di decisione]]  __NON__ assumono una __similarità locale__ (__local smoothnes prior__) e infatti può generalizzare anche __NON localmente__ e questo gli permette  di mitigare la __curse of dimesionality__. 
@@ -46,7 +46,7 @@ un esempio di __pretraining layer-wise__ è il seguente algoritmo:
 3. Ripeti il processo descritto nel punto (2) fino a raggiungere il numero desiderato di strati. 
 4. Usa l'output dell'ultimo strato nascosto come input per uno strato [[Algoritmi di learning supervisionato|supervisionato]] e inizializza i suoi parametri mantenendo il resto della rete fissa
 5. Affina tutti i parametri di questa architettura profonda rispetto al criterio supervisionato.  
-![[Pasted image 20250206182240.png]]
+![[IMG - Deep Learning 3.png]]
 
 il  __pre-training__ può portare miglioramenti in alcuni compiti (soprattutto in [[Neural Lenguage Poricessing (NLP)|Neural Lenguage Processing ]]) ma non in altri. in più è difficile da gestire, ad esempio, gli effetti degli iperparametri divisi in due fasi: __pre-training__ e __training__.  
 
@@ -58,7 +58,7 @@ per fare __Transfer Learning__ utilizziamo un altro modello gia allenato assumen
 alcuni modi di farlo sono i seguenti
 - __Multi-task Learning__: si utilizza un modello già addestrato per un compito diverso mantenendo gli stessi input ma cambiando il target. fornisce una sorta di regolarizzazione implicita. 
 - __Adattamento di dominio__:  in cui si cambia il dominio di input in un altro che ha __feature__ in comune con quello del dominio originario.
-- __Trasferimento di feature__: si semplicemente parte da un modello allenato su un dataset molto grande e si riallena solo una piccola parte del modello in modo da adattarlo al task specifico (si fa spesso partendo da AlexNet) ![[Pasted image 20250206225714.png]]
+- __Trasferimento di feature__: si semplicemente parte da un modello allenato su un dataset molto grande e si riallena solo una piccola parte del modello in modo da adattarlo al task specifico (si fa spesso partendo da AlexNet) ![[IMG - Deep Learning 4.png]]
 
 
 
@@ -75,7 +75,7 @@ Uno dei metodi più comuni per affrontare il problema dell' __exploding gradient
 - $\nu$ è una soglia predefinita (hyperparameter) In questo modo, il gradiente mantiene la sua direzione originale, ma con una grandezza controllata.
 
 La ripetizione di moltiplicazioni attraverso molti strati può introdurre discontinuità nella funzione di costo.   
-![[Pasted image 20250208212930.png]]
+![[IMG - Deep Learning 5.png]]
 
 
 ##### Funzioni di attivazione

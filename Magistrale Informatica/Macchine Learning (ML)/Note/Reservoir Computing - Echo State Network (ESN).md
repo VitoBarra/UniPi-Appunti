@@ -20,7 +20,7 @@ L'output è calcolato tramite una semplice combinazione lineare:$$
 y(t) = W_{\text{out}} x(t)
 $$L'addestramento si riduce alla stima dei pesi $W_{\text{out}}$, tipicamente con **regressione ridge**.
 
-![[Pasted image 20250208003444.png]]
+![[IMG - Reservoir Computing - Echo State Network (ESN) 1.png]]
 
 
 
@@ -34,4 +34,4 @@ $$E(\boldsymbol{y},\boldsymbol{y}_{target})=\sqrt{\frac{ \langle\|y(n)-\boldsymb
 dove $\|\cdot\|$ e' la [[Norme Matriciali e Norme Vettoriali#Norma vettoriale|norma euclidea]]
 
 
-![[Pasted image 20250208003541.png]]
+![[IMG - Reservoir Computing - Echo State Network (ESN) 2.png]]
