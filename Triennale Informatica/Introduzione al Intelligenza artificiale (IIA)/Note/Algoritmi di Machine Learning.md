@@ -17,7 +17,7 @@ Queste assunzioni prendono il nome di __bias induttivo__, una caratteristica del
 - **Bias di linguaggio**: limita le funzioni che un algoritmo può esprimere, restringendo la forma delle ipotesi possibili.
 - **Bias di ricerca**: guida il modo in cui l'algoritmo cerca l'ipotesi all'interno dello spazio $\mathcal{H}$.
 la scelta di un __bias induttivo__ è importante anche per una altra ragione senza non si puo imparare nient'altro che una __tabella di verità__. Ovvero Senza un __bias induttivo__ non è esiste __capacità di generalizzare__
-![[43BCF722-8E18-4052-B640-35712D4198B7.jpeg]]
+![[IMG - Algoritmi di Machine Learning 1.jpeg]]
 
 gli __algoritmi di learning__ possono essere divisi in varie categorie come 
 1. [[Algoritmi di learning supervisionato]]

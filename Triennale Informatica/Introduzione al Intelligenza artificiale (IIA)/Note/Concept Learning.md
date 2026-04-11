@@ -18,7 +18,7 @@ alcune terminologie sono
 
 ##### Dimensione dello spazio delle ipotesi
 
-![[004017FB-293F-4B89-9116-D53645BD3CB0.jpeg]]
+![[IMG - Concept Learning 1.jpeg]]
 la cardinalità dello spazio delle ipotesi $\mathcal{H}$ che rappresenta le __funzione booleana__ è  $|\mathcal{H}| = 2^{|X|}= 2^{(2^{n})}$ con $n$ il numero di input.
 
 questo numero puo essere ridotto introducendo un [[Algoritmi di Machine Learning|bias di linguaggio]] ricercando le ipotesi $h$ che sono nella  [[Forma normale congiuntiva (CNF)|forma normale congiuntiva]] la cardinalità dello spazio delle ipotesi $\mathcal{H}$ è

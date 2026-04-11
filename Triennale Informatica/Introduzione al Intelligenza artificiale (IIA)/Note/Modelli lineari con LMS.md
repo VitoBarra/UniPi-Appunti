@@ -25,7 +25,7 @@ Questo __modello__ ha uno [[Algoritmi di learning supervisionato|spazio delle ip
 Vogliamo cercare l'ipotesi che riesce ad approssimare meglio i dati che si hanno e per fare ciò dobbiamo variare i pesi $w_0,w_1$.
 
 dal punti di vista geometrico stiamo facendo __fitting__ dei dati con una retta
-![[66B83102-B04B-45D8-805A-4445087275B3.jpeg]]
+![[IMG - Modelli lineari con LMS 1.jpeg]]
 
 l'[[Algoritmi di Machine Learning|algoritmo di learning]] per questo modello è definito come minimizzazione di una certa [[Algoritmi di learning supervisionato|funzione di Loss]]. In questo caso utilizza la  __[[last Mean Squere (LMS)|Least mean square]]__ (LMS)  ovvero la media degli errori quadrati 
 l'algoritmo segue quindi come: 
@@ -37,14 +37,14 @@ __Trova__ $h_w(x)$ che minimizza la funzione di $Loss$ sui dati nel  $TR$
 si utilizza l LMS perché Il quadrato rende tutti gli errori, ovvero $y_p-h_w(x_p)$, positivi e perché è anche funzione [[Funzioni differenziabili|differenziabile]] 
 
 in questo caso minimizzare la $Loss$  significa ridurre la somma residua degli errori e possiamo _visualizzarla_ con 
-![[D91DA331-B74D-45E5-AACF-DFDC6FC1F1EC.jpeg]]
+![[IMG - Modelli lineari con LMS 2.jpeg]]
 
 >[!tip]-
 > la pratica di utilizzare LMS è standard per approssimare soluzioni di sistemi sovradeterminati. ovvero dove ci sono più equazioni che incognite. 
 
 Per trovare la $Loss$ minima c è bisogno di cambiare i valori dei parametri $w_0,w_1$ e i valori ottimi possono essere trovato  ponendo  $$\frac{\partial E(w)}{\partial w_1} =0 \ \ \frac{\partial E(w)}{\partial w_0} =0$$ovvero facendo la classica ricerca dei [[Massimi e minimi|minimi]] del [[Analisi|analisi]]. 
 In questo caso la funzione di $Loss$ è la  [[last Mean Squere (LMS)|Last mean Squere]] che è essendo [[Convessita|convessa]] ci garantisce che __se__ esiste un minimo questo è unico ed è quello globale.  
-![[Pasted image 20241119224228.png]]
+![[IMG - Modelli lineari con LMS 3.png]]
 In questo caso specifico la soluzione può anche essere calcolata direttamente come 
 $$w_1= \frac{\sum x_p y_p- \frac{1}{n}\sum x_p \sum y_p}{\sum x_p^2 - \frac{1}{n}(\sum x_p)^2} = \frac{Cov[x,y]}{var[x]} \ \ \ \  w_0 = \frac{1}{n}\sum y_p- w_1 \frac{1}{n}\sum x_p$$
 e questa è esattamente la [[Modelli lineari - Retta di regressione|retta di regressione]] infatti nel pratico stiamo facendo la stessa cosa che fa la retta di regressione.
@@ -148,7 +148,7 @@ $$
   \Delta w_n \\ 
  \end{bmatrix} 
  $$
-![[Pasted image 20241120020901.png]]
+![[IMG - Modelli lineari con LMS 4.png]]
 
 Da cui si può derivare il seguente algoritmo di learning
 1. inizia con un vettore $\boldsymbol w_{initial}$ e fissa $\eta$ con $0<\eta<1$ 
@@ -159,7 +159,7 @@ Da cui si può derivare il seguente algoritmo di learning
 l  __learning rate\step size__ $\eta$ gestisce il compromesso tra velocita e stabilita e può essere lentamente ridotto a 0 come in [[Ricerca Simulated Annealing| ricerca a tempra simulata]]
 
 Plottando l'errore che cambia con le varie iterazioni possiamo osservare 3 tipi di curve principali dipendenti principalmente dal iperparamentro $\eta$
-![[E09B2FF5-EA90-441A-ACFF-24A453C658DD.jpeg]]
+![[IMG - Modelli lineari con LMS 5.jpeg]]
 si ha infatti che
 - con $\eta$ "giusto": si ottiene la __rossa__ dove c è una veloce convergenza e la curva è stabile
 - con $\eta$  troppo piccolo: si ottiene la curva __verde__ dove la convergenza è molto lenta
@@ -170,7 +170,7 @@ si ha infatti che
 
 ### limitazione del modello lineare
 non riesce a gestire problemi più complessi che solitamente non hanno una natura lineare e ci troviamo in una situazione di __underfittig__.
-![[42E911EA-F4B3-488E-8FCF-A04D54C72CD7.jpeg]]
+![[IMG - Modelli lineari con LMS 6.jpeg]]
  per gestire questi casi si utilizza l [[Linear Basis Expansion (LBE)|LBE]]
 
 
@@ -195,11 +195,11 @@ $$ \boldsymbol w_{new}=\boldsymbol w+\eta \Delta w -2\lambda \boldsymbol w$$
 >$$
 
 
-![[699010A3-BDF9-4731-A7A6-95035CE746BE.jpeg]]
-![[979A48FD-374F-4C66-9375-3193E3A68437.jpeg]]
-![[6F9AE7B2-61F8-4881-9ADC-58CC7A779FC6.jpeg]]
-![[BC07443A-5E21-4529-98B5-ADA899DFBF02.jpeg]]
-![[57D9815C-9DA5-4A1B-85E7-26709932D31A.jpeg]]
+![[IMG - Modelli lineari con LMS 7.jpeg]]
+![[IMG - Modelli lineari con LMS 8.jpeg]]
+![[IMG - Modelli lineari con LMS 9.jpeg]]
+![[IMG - Modelli lineari con LMS 10.jpeg]]
+![[IMG - Modelli lineari con LMS 11.jpeg]]
 
 
 

@@ -48,12 +48,12 @@ Mentre la versione __[[Tecnica di ottimizzazione Gradient Descent|batch]]__ segu
 Ripetere il processo fino al raggiungimento della convergenza.
 
 
-![[53FD956D-E338-4DDF-923B-FDF28C4F01B7.gif]]
+![[GIF - K-Means 1.gif]]
 
 
 ### Discussione
 il __$k$-means__ è un algoritmo molto semplice ma si devono conoscere a priori il numero di cluster $k$ che ci vogliono cercare il che può comportare il trovare il numero giusto tramite try and error.
-è un problema di ottimizzazione locale quindi soffre del problema dei __minimi locali__ e quindi la soluzione dipende dal punti di inizio. Funziona bene solo nei casi in cui i dati siano in uno ipersfera compatta e non funziona quindi bene con forme diverse dei dati ad esempio con forme concave. ![[E461230C-BFBE-420F-A3B6-DBE774395364.jpeg]]
+è un problema di ottimizzazione locale quindi soffre del problema dei __minimi locali__ e quindi la soluzione dipende dal punti di inizio. Funziona bene solo nei casi in cui i dati siano in uno ipersfera compatta e non funziona quindi bene con forme diverse dei dati ad esempio con forme concave. ![[IMG - K-Means 2.jpeg]]
 in più questo algoritmo __non__ ci permette di proiettare i dati in una __dimensione più bassa__.
 
 

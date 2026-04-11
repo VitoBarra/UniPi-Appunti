@@ -18,7 +18,7 @@ l'algoritmo per la classificazione binaria è il seguente.
 1. Scegli un valore $k \in \mathbb{N}$ arbitrario 
 2. Mantenere i dati di training  in memoria come lista  di coppie $( \mathbf{x}_p, \mathbf{y}_p) \ \ P=1,\dots,l$ dove $\mathbf{x}_i\in \mathbb{R}^n$ e $y_i\in [0,1]$ ovvero una variabile binaria.
 3. dato in un input $\mathbf{x}\in \mathbb{R}^n$ sconosciuto e $d(\mathbf{x},\mathbf{x}_i)$ una __distanza__ trova $k$ vicini tale che  $$N_k(\mathbf{x})= \arg_p \min d(\mathbf{x} ,\mathbf{x}_p) = \{(\mathbf{x}_1,y_1)\dots(\mathbf{x}_k,y_k)\}$$ ovvero i $k$  __dati di training__ più vicini al nuovo dati $\mathbf{x}$  
-![[Pasted image 20241220211455.png]]
+![[IMG - K-Nearest Neighbor (K-NN) 1.png]]
 
 4. Calcola la classe media scelta, questo rappresenta un voto di maggioranza  $$avr_k(\mathbf{x})= \frac{1}{k}\sum_{x_i\in N_k(\mathbf{x} )} y_i$$
 5. restituisci la classe che vince il voto di maggioranza, ovvero$$
@@ -29,9 +29,9 @@ l'algoritmo per la classificazione binaria è il seguente.
 
 
 con $K=1$ si ha un modello __molto flessibile__, non ha errori di classificazione su __training set__ e ha un decision boundry non lineare e molto irregolare e rumoroso. Solitamente va in __[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]__
-![[Pasted image 20241225023553.png]]
+![[IMG - K-Nearest Neighbor (K-NN) 2.png]]
 con un $K$ più altro si ottiene un decision boundary comunque flessibile e non lineare ma un po meno rumoroso. Solitamente un valore alto ma non troppo porta a dei buoni risultati.
-![[Pasted image 20241225023615.png]]
+![[IMG - K-Nearest Neighbor (K-NN) 3.png]]
 con $K=\ell$ abbiamo che il modello è molto rigido è siamo in [[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|underfitting]].
 
 Questo algoritmo utilizza implicitamente i [[Tasselizazione di Voronoi|diagrammi di voronoi]].
@@ -55,10 +55,10 @@ In generale il al $k$ -Nearest Neighbor vengono attribuiti $\cfrac{\ell}{k}$ gra
 I __gradi di libertà__ son detti "parametri effettivi" del modello.
 
 Al variare di questi cambiano le performance del algoritmo infatti abbiamo il seguente grafico che lo mostra:
-![[Pasted image 20241225034737.png]]
+![[IMG - K-Nearest Neighbor (K-NN) 4.png]]
 	Il classificatore $K$-NN cerca di approssimare la soluzione di un __[[Naive Bayes Classifier|Classificatore Bayesiano]]__ mettendo in atto un'__approssimazione locale__ della  __[[Probabilita condizionata|probabilità condizionata]]__ della classe di appartenenza basata sui punti $\mathbf{x}$. Ovvero approssima la  probabilità condizionata usata dal __classificatore Bayesiano__ utilizza per assegnare una classe al punto $\mathbf{x}$.
 
-![[Pasted image 20241225034635.png]]
+![[IMG - K-Nearest Neighbor (K-NN) 5.png]]
 in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Aleatorie Notevoli - Gaussiana|gaussiane]] note. siccome sappiamo le distribuzioni è possibile calcolare la soluzione del __Classificatore Bayessiano__ direttamente (a sinistra)  e si può vedere come  il $K$-NN con $K=15$ riesce ad approssimare questa soluzione (destra)
 
 
@@ -75,7 +75,7 @@ in questa immagine vediamo dei punti che vengono estratti  da due [[Variabili Al
 
 per assicurarsi delle buone performance è spesso necessarie riscalare le variabili in gioco ma le scolature sono spesso legate alla conoscenza del dominio.
 
-Se tutte le variabili devono contribuire in __modo uguale__, allora gli input range dovrebbero essere riscalati per essere uguali, Ad esempio utilizzando una normalizzazione con media zero e varianza unitaria.  Questo pero può portare a problematiche in particolare il $K$-NN è  fragile al preprocessing e il semplice rescaling può cambiare di molto i risultati finali. Per agire su questo problema va cambiata anche la metrica, cosa non necessariamente banale![[Pasted image 20241225153603.png]]
+Se tutte le variabili devono contribuire in __modo uguale__, allora gli input range dovrebbero essere riscalati per essere uguali, Ad esempio utilizzando una normalizzazione con media zero e varianza unitaria.  Questo pero può portare a problematiche in particolare il $K$-NN è  fragile al preprocessing e il semplice rescaling può cambiare di molto i risultati finali. Per agire su questo problema va cambiata anche la metrica, cosa non necessariamente banale![[IMG - K-Nearest Neighbor (K-NN) 6.png]]
 
 
 ### Limiti

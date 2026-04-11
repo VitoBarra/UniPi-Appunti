@@ -12,7 +12,7 @@ modello di [[Concetti generali del Machine Learning|machine lerning]] [[Modelli 
 sono espressi come [[Forma normale disgiuntiva (DNF)|Disgiungzione di congiunzioni]]. quindi una sequenza di clausole tutte in  _and_ unite da _or_. essenzialmente regole  _if else_
 
 >[!example]-
->![[E468986E-BCC7-462A-997B-E6C0426953DF.jpeg]]
+>![[IMG - Alberi di decisione 1.jpeg]]
 
 
 ### Algoritmo ID3
@@ -50,7 +50,7 @@ con questa definizione più il numero dei casi positivi e negativi si equivalgon
 - $0 \leq entropy \leq 1$
 - assume $0log_2(0)=0$
 
-![[2589D1C6-6FAC-48B8-B665-411E979FCDBD.jpeg]]
+![[IMG - Alberi di decisione 2.jpeg]]
 
 #### Information gain 
 l _information gain_ è la riduzione attesa del entropia data dalla [[Partizione di un insieme]] degli esempi su un attributo $A$.
@@ -67,7 +67,7 @@ gain favorisce gli attributi con molte possibili valori, un esempio potrebbe ess
 - questo caso da massimo gain per ogni scelta siccome divide in tanti sub set quanti i giorni considerati e potrebbe essere classificato _chiaramente_ quindi l entropia è 0
 	- da quindi overfitting 
 - non è _utile_ non funzione con dati nuovi 
--   ![[53FBA723-0E74-45AA-A4CB-53F8ABC9D6FE.jpeg]]
+-   ![[IMG - Alberi di decisione 3.jpeg]]
 per evitare questo problema si utilizza un altra metrica il _GainRation_
 $$GainRatio(S,A)= \frac{Gain(S,A)}{SplitInformation(S,A)}$$
 dove 
@@ -116,7 +116,7 @@ error_D(h) <error_D(h’) & and \\
 erorr_x(h’) <error_X(h)
 \end{array}$$
 $h’$ lavora peggio sui dati di training e meglio su i dati non visti 
-![[645DF648-3E36-464B-9384-C57595A38CE7.jpeg]]
+![[IMG - Alberi di decisione 4.jpeg]]
 
 
 ### ridurre l overfitting
@@ -136,7 +136,7 @@ il pruning consiste nel rimuovere un sotto albero, il nodo radice di quel sotto 
 - un nodo viene tolto solo se _non_ performa peggio sul _validation set_ 
 - i nodo sono tagliati interativamente. ad ogni iterazione si toglie il nodo la cui rimozione aumenta di piu l acuracy 
 - si _smette_ di fare pruning quando non ci sono piu nodi che se tagliati migliorano l _accuracy_
-![[035477F2-E7BA-4AF8-BA56-58843ADE5736.jpeg]]
+![[IMG - Alberi di decisione 5.jpeg]]
 
 
 ### Rule Post-Pruning
@@ -174,9 +174,9 @@ si attuano delle strategia per indovinare il valore
 
 ### Attributi con costo 
 gli atributi potrebbero avere un costo associato: e potremmo proferire un albero che ha il costo piu basso 
-![[FB0282FB-4687-4CC1-B845-BB16961D1C2D.jpeg]]
+![[IMG - Alberi di decisione 6.jpeg]]
 
 ### Vista giometrica
 
-![[C3F91C3D-9A2C-49FF-9595-AE8DAE000409.jpeg]]
+![[IMG - Alberi di decisione 7.jpeg]]
 

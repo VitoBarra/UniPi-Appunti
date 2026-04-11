@@ -13,8 +13,8 @@ Il [[Modelli lineari con LMS|modello lineare]] anche  puo essere usato per la __
 ### Classificazione Binaria
 Geometricamente possiamo vedere la classificazione come un _Iperpiano_
 
-![[D83C8A5E-E4F9-46AD-BDF1-F31C5018F693.jpeg]]
-![[F17F5BAE-D1D4-4EF9-8A3B-4BE196FB84FA.jpeg]]
+![[IMG - Linear Threshold Unit (LTU) 1.jpeg]]
+![[IMG - Linear Threshold Unit (LTU) 2.jpeg]]
 possiamo decidere della classificazione con delle funzioni  utilizzando le _linear threshold unit (LTU)_
 $$\begin{array}{}
 h(x) = 
@@ -39,11 +39,11 @@ l __Apprendimento__ definito come una ricerca
 - _Trova_: $h_w(x)$ nella forma $\boldsymbol w$  che minimizza l expected loss sui dati di training
 Si definisce una funzione _$Loss$_ come    $$E(w)= \sum_{p=1}^n(y_p-\boldsymbol x_p^T \boldsymbol w)^2= \|\boldsymbol y-\boldsymbol X\boldsymbol w \|^2 $$anche in questo caso possiamo usare l algoritmo di _[[#Gradient descent (local serach)|Gradient descent]]_.
 l algoritmo puo essere visto come una regola di correzione. se un elemento viene mal classificato si aumentano o diminuiscono i parametri proporzionalmente a $\eta$ 
-![[D71CEA55-0B20-46D7-8E28-A7C2F04F3877.jpeg]]
+![[IMG - Linear Threshold Unit (LTU) 3.jpeg]]
 da qui si può espandere con cui che vale nel caso di regressione. 
  
 quest i tipi di modelli danno una soluzione esatta solo quando i dati sono  [[Linearmente Separabili|lineramente separabili]], per superare questa problematica si può usare la [[Linear Basis Expansion (LBE)| linear basis expansion]] che permette di esmpimere decision baundry per complessi  
-![[E0A08BCF-3CA8-42A6-A2F5-076F046AC0AA.jpeg]]
+![[IMG - Linear Threshold Unit (LTU) 4.jpeg]]
 
 
 #### Classificazione multi classe
@@ -72,4 +72,4 @@ Tuttavia, questi approcci presentano alcune problematiche:
 - **Modelli Multi-Output**: Alcuni modelli gestiscono direttamente problemi multi-classe senza la necessità di trasformarli in classificazioni binarie.
 
 
-![[Pasted image 20241220032912.png]]
+![[IMG - Linear Threshold Unit (LTU) 5.png]]

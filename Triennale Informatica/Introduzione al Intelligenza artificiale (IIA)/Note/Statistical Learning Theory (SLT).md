@@ -25,11 +25,11 @@ dove per __rappresentare__ si intende che esiste una $h \in \mathcal{H}$ tale ch
 infatti un esempio è 
 Assumendo che le label possibili siano solo $\{-1,1\}$ allora abbiamo che il numero di tutte le possibili [[Combinatoria|disposizioni con ripetizione]] delle label per $X$ è $2^n$ e ognuna di questa è chiamata __dicotomia__.
 Prendiamo un insieme $X$ con $n=3$ __allora__ abbiamo che lo spazio delle ipotesi $h \in \mathcal{H}$ con $h(x) = sing(\mathbf{wx}+w_0)$ e $\mathbf{x} \in  \mathbb{R}^2$ ovvero un [[Modelli lineari con LMS|modello lineare]] su  $\mathbb{R}^2$ __shattera__ tre punti perchè esiste almeno una configurazione di punti per cui è possibile __realizzare__ ogni __dicotomia__
-![[Schermata del 2025-02-26 16-58-57.png]]
+![[IMG - Statistical Learning Theory (SLT) 1.png]]
  esistono configurazioni di $3$ punti che non sono linearmente separabili come ad esempio 3 punti [[Vettori Collineari|colineari]]
-![[Schermata del 2025-02-26 17-33-57.png]]
+![[IMG - Statistical Learning Theory (SLT) 2.png]]
 invece $\mathcal{H}$ NON __shattera__ di  un insieme con $n=4$ perchè non esiste nessuna configurazione di punti per cui si possono __realizzare__ tutte le possibili __dicotomie__
-![[Schermata del 2025-02-26 17-34-51.png]]
+![[IMG - Statistical Learning Theory (SLT) 3.png]]
 Infatti per $4$ punti possiamo sempre disegnare $6$ linee che li collegano tra di loro alcune di queste passeranno l una sul altra e se mettiamo la stessa classe i punti collegati da una linea che si incrocia con un altra allora i punti non saranno [[Linearmente Separabili|linearmente separabbili]]
 
 
@@ -71,8 +71,8 @@ Intuizioni:
 - modello complesso  (VC-Dimension alta) $\rightarrow$ basso $R_{emp}$ ma __VC-conf__ si alza il che può portare ad $R$ alto. (__overfitting__)
 
 
-da questo bound possiamo dedurre che l __[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]__ dipende sia dalla __complessità__ del modello sia dal numero dei dati utilizzati infatti abbiamo che:   ![[AD987627-2D22-47F8-B3ED-7EC8512A4295.jpeg]]
-![[11752980-DCE7-4DC2-8E9B-1C39288F32A0.jpeg]]
+da questo bound possiamo dedurre che l __[[UniPi-Appunti/Triennale Informatica/Introduzione al Intelligenza artificiale (IIA)/Note/Overfitting e Underfitting|overfitting]]__ dipende sia dalla __complessità__ del modello sia dal numero dei dati utilizzati infatti abbiamo che:   ![[IMG - Statistical Learning Theory (SLT) 4.jpeg]]
+![[IMG - Statistical Learning Theory (SLT) 5.jpeg]]
 
 
 Questa è una formulazione del __VC-bound__ è generale ma per ogni diverso $\mathcal{H}$ si può trovare un bound più specifico.  
@@ -89,9 +89,9 @@ Assumendo __VC-Dimension__ finita si può definire una ordinamento tra gli spazz
 \end{array}
 $$
 allora si puo scegliere un modello in modo da minimizzare il __vc-bound__
-![[Schermata del 2025-02-26 18-51-25.png]]
+![[IMG - Statistical Learning Theory (SLT) 6.png]]
 
-![[Schermata del 2025-02-26 19-37-33.png]]
+![[IMG - Statistical Learning Theory (SLT) 7.png]]
 
 
 >[!note]

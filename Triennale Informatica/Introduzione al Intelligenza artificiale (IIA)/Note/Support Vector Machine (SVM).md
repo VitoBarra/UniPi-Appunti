@@ -25,7 +25,7 @@ I datapoint con distanza minimi sono detti __Support Vector__ $x^{(s)}$.
 
 Nei [[Modelli lineari con LMS|modelli lineari]] non tutte le ipotesi $h$ sono uguali, infatti con diversi ipotesi $h_1,\dots,h_n$ possiamo vedere che tutti gli iperpiani hanno __margini__ diversi.
 
-![[928BFB8C-963B-4554-B5B1-2F43868FCBDC.jpeg]]
+![[IMG - Support Vector Machine (SVM) 1.jpeg]]
 Questo __margine__ può essere visto come una __safe-zone__.
 Aggiungendo un punto e assumendo che i dati vengono messi nel lato corretto della classificazione, se il punto è al di fuori del **margine** la soluzione rimane invariata.
 
@@ -156,7 +156,7 @@ Questo formulazione dipende solo dai dati di training e non dal vettore $\mathbf
 Risolvendo il __problema duale__ otteniamo i __Moltiplicatori Lagrangiani__ $\alpha_{o,i}$ che possono essere usati per calcolare $\mathbf{w}, b$ ovvero la __decision surface__. Siccome $\alpha_{o,i}$ è non zero solo dove il vettore è di supporto, abbiamo che: $$\mathbf{w}  = \sum_i^{\ell_s}\alpha_{o,i} d_i\mathbf{x}_i $$e $b$ per essere calcolato utilizza $\mathbf{w}$. Quindi si ha:$$\begin{array}{} 
 b & = &1-\mathbf{w}^T\mathbf{x}^{(s)}  \\
  & = & \displaystyle 1 - \sum_i^{\ell_s}\alpha_{o,i} d_i\mathbf{x}_i^T\mathbf{x}^{(s)}   \end{array}$$
-![[E2FD362E-4D60-4934-83E3-E2027FF8AFE6.jpeg]]
+![[IMG - Support Vector Machine (SVM) 2.jpeg]]
 
 Una volta risolto il problema duale, per usare il modello non c'è bisogno di calcolare esplicitamente il vettore $\mathbf{w}_o$, infatti:$$\mathbf{w}_o\mathbf{x} + b_o=0 \iff\sum^\ell_{i=1} \alpha_{o,i} d_i \mathbf{x}^T_i \mathbf{x} +b_o=0$$ Quindi si può fare classificazione usando direttamente il dato di input prendendone il segno.
 
@@ -214,7 +214,7 @@ Questo problema è simile al duale del __Hard Margin__ ma c è un vincolo piu st
 
 ## Kernel Macchine 
 Grazie al [[Teorema di copertura (Cover Theorem)|teorema di copertura]] sappiamo che in una dimensione piu alta è piu probabile che i dati siano linearmente separabili. Quindi si mappano i __data point__ da uno spazio a bassa dimensione, dove i dati non sono linearmente separabili, in un __feature space__ dove questi sono probabilmente __[[linearmente separabili|linearmente separabili]]__ 
-![[C4A28AD4-0704-4A15-BC1A-8E441D8DEC98.jpeg]]
+![[IMG - Support Vector Machine (SVM) 3.jpeg]]
 In generale questo approccio può essere __computazionalmente infattibile__ e rende i modelli proni all'__overfitting__ se non regolarizzati. Questo perché la complessità del modello aumenta con l'aumentare della dimensionalità della espansione LBE.
 
 Per risolvere questi due problemi si utilizzano i __kernel__ per fare la __[[Linear Basis Expansion (LBE)|liner basis expansion]]__ del modello, in modo da poter classificare correttamente anche casi non [[Linearmente Separabili|linearmente separabili]].

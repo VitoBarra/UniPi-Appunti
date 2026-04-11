@@ -11,7 +11,7 @@ la **Ricerca Bidirezionale** è un [[Algoritmi di ricerca non informati|Algoritm
 - in **avanti o guidata dai dati**: si esplora lo spazio di ricerca dallo stato iniziale allo stato obiettivo; 
 - all’**indietro o guidata dall’obiettivo**: si esplora lo spazio di ricerca a partire da uno stato goal e riconducendosi a sotto-goal fino a trovare uno stato iniziale.
 si basa sul idea che se si è trovata una soluzione allora c è un intersezione tra le due esplorazioni 
-![[Pasted image 20230212023837.png]]
+![[IMG - Ricerca Bidirezionale 1.png]]
 Questo algoritmo puo essere applicato solo **_sotto condizioni_** questo sono:
 - Si può definire facilmente uno **stato finale** o più stati finali eventualmente connessi ad uno stato finale "**dummy**". Potrebbero esserci dei problemi per cui questo non è possibile
 - si può generare lo stato predecessore di uno stato, questo è facile quando tutte le azioni sono reversibili

@@ -37,6 +37,6 @@ I __problemi affrontabili__ con l'__apprendimento supervisionato__ si dividono i
 2. __Regressione__: dove l'input viene mappato in uno o più numeri reali e quindi si ha che $h \in \mathbb{F}^n\times \mathbb{R}^m$
 3. __Trasduzione__: trasformazione di dati si applica solo per domini diversi da quelli flat come quelli si [[Recurrent Neural Network (RNN)|sequenza]] e quelli __[[Structural Domain Learning (SDL)|strutturati]]__.
 	 
-![[991D6D4A-9F89-4A4E-BE65-509CB69C0C3C.jpeg]]
+![[IMG - Algoritmi di learning supervisionato 1.jpeg]]
 
 

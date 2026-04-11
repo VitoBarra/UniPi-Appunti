@@ -11,7 +11,7 @@ topic:
 ---
 Le __euristiche__ utilizzate nel algoritmo [[Ricerca A-Star|A*]] possono essere confrontate.
 la scelta del euristica più adatta si fa solitamente basandosi sul **_Grado di informazione posseduto_** del euristica, in generale un **euristica** più  informata rende efficiente la ricerca, ma alza anche il costo del __calcolo del euristica__ e quindi importate riuscire a scegliere un euristica che non sia troppo costosa in modo d avere un effettivo guadagno in termini computazionali.   
-![[E7C468EE-BB1B-4E07-B8C8-7A115AC800E7.jpeg]]
+![[IMG - A-Star - Euristiche 1.jpeg]]
 
 
 

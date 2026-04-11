@@ -22,7 +22,7 @@ net_i(\mathbf{x})=\sum w_{ij}x_j \\
 o_i(\mathbf{x}) = f(net_i(x))
 \end{cases}$$ovvero un __unita__ prende in input dei valori $\mathbf{x}$ pesati con $\mathbf{w}$ (i parametri) e dopo averli sommati ci applica una [[Funzioni di attivazione|funzione di attivazione]]  $f(\mathbf{x})$  producendo un output.
 
-![[Pasted image 20241226164009.png]]
+![[IMG - Reti Neurali (NN) 1.png]]
 
 
 
