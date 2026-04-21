@@ -9,34 +9,53 @@ SubTopic:
 
 # Trimmomatic - Software di trimming per RNAseq
 ---
-**Trimmomatic** è un software di trimming utilizzato nello [[analisi RNA-seq]] durante lo [[Analisi RNA-seq#Step 1: Quality assessment and sequence trimming|Step 1: sequence trimming]], progettato per eseguire in modo modulare più operazioni di filtraggio e pulizia delle reads.
+**Trimmomatic** è un software di **trimming** utilizzato nella [[Analisi RNA-seq|analisi RNA-seq]] durante lo [[Analisi RNA-seq#Step 1: Quality assessment and sequence trimming|Step 1: sequence trimming]]. Il suo ruolo principale è applicare in modo modulare diverse operazioni di filtraggio e pulizia delle reads.
 
-Trimmomatic combina diversi step di preprocessing in una pipeline configurabile.
+Trimmomatic lavora direttamente sui file [[Formato FASTQ|FASTQ]] e produce nuovi file [[Formato FASTQ|FASTQ]] trimmati, più adatte alle fasi successive di allineamento, quantificazione e analisi a valle.
 
-Strengths:
-- Pipeline-style trimming:
-  - adapter clipping
-  - sliding-window quality trimming
-  - cropping
-  - filtri su lunghezza minima
-  - ordine dei moduli configurabile
-- Ragionevolmente veloce e multithreaded:
-  - scritto in Java
-  - ampiamente utilizzato in pipeline RNA-seq Illumina
-- Ampio supporto:
-  - integrato in numerosi wrapper, GUI e tutorial
-  - molto diffuso in pipeline consolidate
+Trimmomatic viene usato soprattutto per:
+- rimuovere adattatori
+- eseguire quality trimming con finestre scorrevoli
+- tagliare basi alle estremità delle reads
+- filtrare reads troppo corte
+- concatenare più operazioni in una pipeline configurabile
+Il suo obiettivo è ripulire il dataset in modo modulare, applicando una sequenza controllata di filtri e trasformazioni.
 
-Weaknesses:
-- Più lento e meno feature-rich rispetto a tool moderni “all-in-one”:
-  - fastp è tipicamente 2–5× più veloce
-  - fastp integra QC e filtri aggiuntivi in un singolo passaggio
-- Logica adattatori meno flessibile:
-  - utilizza file FASTA di adattatori
-  - matching meno sofisticato rispetto a [[Cutadapt - Software di trimming per RNAseq|Cutadapt]] o [[Atropos - Software di trimming per RNAseq|Atropos]] per configurazioni complesse
+##### **Punti di forza**
+I principali punti di forza di Trimmomatic sono:
+- struttura modulare e leggibile
+- possibilità di concatenare più step di trimming
+- ampia diffusione in pipeline consolidate
+- buon supporto per workflow Illumina classici
 
-Best for:
-- Pipeline legacy o già stabilizzate
-- Workflow modulari e facilmente leggibili
-- Utenti che preferiscono uno schema di trimming semplice e parametrico
+Trimmomatic è spesso usato perché permette di costruire pipeline di trimming facili da leggere, in cui ogni passaggio è esplicito.
 
+##### **Limiti**
+Trimmomatic ha anche alcuni limiti:
+- offre meno flessibilità di [[Cutadapt - Software di trimming per RNAseq|Cutadapt]] nella gestione di adattatori complessi
+- è meno integrato di [[fastp - Software di trimming per RNAseq|fastp]] sul lato QC e preprocessing “all-in-one”
+- può risultare più verboso da configurare quando si vogliono molte operazioni insieme
+
+##### **Quando usarlo**
+Trimmomatic è particolarmente adatto quando:
+- vuoi una pipeline di trimming modulare e trasparente
+- lavori in workflow già consolidati o legacy
+- vuoi concatenare esplicitamente adapter clipping, quality trimming e filtri di lunghezza
+- preferisci una logica di preprocessing semplice e parametrica
+
+Nel confronto con altri strumenti:
+- [[Cutadapt - Software di trimming per RNAseq|Cutadapt]] offre più controllo fine sul matching degli adattatori
+- [[fastp - Software di trimming per RNAseq|fastp]] integra trimming e QC in un unico strumento più rapido
+- [[Atropos - Software di trimming per RNAseq|Atropos]] estende l'approccio di Cutadapt con funzionalità aggiuntive
+
+##### **Interpretazione nella pipeline**
+L'uso di Trimmomatic ha senso soprattutto quando i report di [[FASTQC - Report di qualità per RNAseq|FASTQC]] mostrano segnali come:
+- presenza di adattatori residui nel modulo `Adapter content`
+- calo della qualità verso le estremità delle reads
+- reads che richiedono trimming e filtraggio in più passaggi distinti
+
+Dopo il trimming con Trimmomatic, ci si aspetta tipicamente:
+- riduzione degli adattatori residui
+- miglioramento della qualità terminale delle reads
+- riduzione della lunghezza di una parte delle reads
+- eliminazione di reads troppo corte o troppo degradate

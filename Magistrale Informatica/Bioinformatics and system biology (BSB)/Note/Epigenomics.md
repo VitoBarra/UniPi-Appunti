@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Epigenomics
 ---
-La [[Epigenomics|epigenomics]] studia l'insieme delle modificazioni che regolano l'attività del genoma senza alterarne la sequenza nucleotidica. Queste modificazioni influenzano l'accessibilità del [[DNA Struttura e funzionalità|DNA]] e quindi la probabilità che un gene venga trascritto.
+La [[Epigenomics|epigenomics]] studia l'insieme delle modificazioni che regolano l'attività del genoma senza alterarne la sequenza nucleotidica. Queste modificazioni influenzano l'accessibilità del [[DNA|DNA]] e quindi la probabilità che un gene venga trascritto.
 Le principali componenti della [[Epigenomics|epigenomics]] comprendono:
 - metilazione del DNA;
 - modificazioni degli istoni;

@@ -16,7 +16,14 @@ Gli __autoencoders__ sono definiti da una architettura fissa descrivibile in 2 p
 - __Decoder__: riconverte la rappresentazione compatta nel dato originale.
 e può essere vista come una [[Funzioni|funzione composta]] infatti prendendo $g$ come la funzione di __encoding__ e $f$ come funzione di __deconding__ abbiamo che un __autoencoder__ è rappresentabile come: $$r=f(g(x))$$ allenare questa rete significa minimizzare l'errore tra $r$ e $x$  e avere quindi $r \approx x$
  
+![[IMG - architettura autoencoders.png]]
 
-
+### Denoising auto-encoder
 Un’applicazione tipica è il __denoising autoencoder__, che impara a ricostruire un’immagine originale da una versione rumorosa.
-![[IMG - NN - Autoencoders.png]]
+
+![[IMG - Denoising autoencoders.png]]
+
+
+![[IMG - autoencoders come learning di manifold.png]]
+
+![[IMG - manifold.png]]

@@ -14,4 +14,4 @@ La [[Transcriptomics|transcriptomics]] consente di descrivere:
 - isoforme trascrizionali generate da splicing alternativo;
 - differenze di espressione tra condizioni biologiche;
 - dinamica temporale della risposta cellulare.
-Le tecnologie moderne si basano soprattutto su [[Analisi RNA-seq|RNA-seq]], che permette di quantificare i trascritti e di ricostruire il profilo di espressione. In termini funzionali la [[Transcriptomics|transcriptomics]] collega il potenziale informativo del [[DNA Struttura e funzionalità|DNA]] allo stato attivo della cellula.
+Le tecnologie moderne si basano soprattutto su [[Analisi RNA-seq|RNA-seq]], che permette di quantificare i trascritti e di ricostruire il profilo di espressione. In termini funzionali la [[Transcriptomics|transcriptomics]] collega il potenziale informativo del [[DNA|DNA]] allo stato attivo della cellula.

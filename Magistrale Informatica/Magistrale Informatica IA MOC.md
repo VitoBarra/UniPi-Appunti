@@ -14,6 +14,7 @@ tags:
 	- [[Computational Mathematics for Learning and Data Analisys (CMLDA)]]
 	- [[Intelligent System For Pattern Recognition (ISPR)]]
 	- [[Parallel and Distributed System - Model and Paradigms (SMP)]]
+	- [[Generative and Deep Learning (GDL)]]
 - 2° anno:
 	- 
 - complementari:

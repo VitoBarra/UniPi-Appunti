@@ -36,7 +36,7 @@ Si possono distinguere in:
 Data una coppia input/label $(\mathbf{x}^{(i)},\mathbf{y}^{(i)})$ un classificatore è formato da:
 - La rappresentazione delle feature dell'input : $\mathbf{x}^{(i)}=[x_1,\dots,x_n]$
 - Una funzione di classificazione, come la [[Funzione di attivazione - Sigmoide|Sigmoide]] o la [[Funzione di attivazione - SoftMax|SoftMax]], che calcola $\mathbf{y}$, ossia la classe stimata attraverso $p(y|x)$
-- Una funzione obiettivo per il learning, come la [[Cross Entropy]]
+- Una funzione obiettivo per il learning, come la [[Cross Entropy Loss]]
 - Un algoritmo di ottimizzazione, come il [[Tecnica di ottimizzazione Gradient Descent|Gradient Descent]]
 
 ### Applicazioni

@@ -34,3 +34,7 @@ a^{*}=-b^{*}\overline{x}+\overline{y} \\
 b^{*}=\cfrac{\sum_{i}\cfrac{x_{i}y_{i}}{n}-\overline{x}\overline{y}}{\sum_{i}\cfrac{x_{i}^{2}}{n}-\overline{x}^{2}}=\cfrac{cov_{e}(x,y)}{var_{e}(x)}
 \end{cases}$$
 inserendo i valori si ottiene $$Q(a^{*},b^{*})= \sum_{i=1}^{n}(y_{i}- \overline{y})(1-r(x,y)^{2})$$
+
+>[!tip]
+>
+> La stessa retta può essere vista anche come [[Regressione lineare - Interpretazione probabilistica| modello probabilistico gaussiano]].

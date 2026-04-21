@@ -1,6 +1,6 @@
 ---
 Course: "[[Artificial Intelligence Fundamentals (AIF)]]"
-Course 1: "[[Generative Deep Learning (GDL)]]"
+Course 1: "[[Generative and Deep Learning (GDL)]]"
 tags:
   - AIF
   - GDL

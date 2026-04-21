@@ -38,7 +38,7 @@ La regressione logistica è un esempio di [[Algoritmi di learning supervisionato
 Il sistema produce è una stima, $\hat{y}$​. 
 Si vogliono impostare $W$ e $b$, pesi e bias, in modo da minimizzare la distanza tra la stima $\hat{y}^{(i)}$ e il vero valore $y^{(i)}$. 
 Si ha bisogno di:
-- uno stimatore: una **funzione di loss** :  si usa la [[Cross Entropy]]
+- uno stimatore: una **funzione di loss** :  si usa la [[Cross Entropy Loss]]
 - un **algoritmo di ottimizzazione** per aggiornare $W$ e $b$ al fine di minimizzare la loss : si usa l'algoritmo [[Tecnica di ottimizzazione Gradient Descent|stochastic gradient descent]]
 
 # Multinomial regression

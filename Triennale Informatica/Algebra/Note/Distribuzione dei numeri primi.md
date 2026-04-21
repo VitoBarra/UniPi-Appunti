@@ -1,11 +1,8 @@
 ---
-Course: Algebra
+Course: "[[Algebra (ALG)]]"
 topic: nota
 tags: ALG
 ---
-
-Prev: [[Algebra (ALG)]]
-
 # Distribuzione dei numeri primi
 ---
 

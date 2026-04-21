@@ -9,7 +9,7 @@ SubTopic:
 
 # Sequenziamento Sanger
 ---
-la **Sanger sequencing** è la **Prima generazione** di [[Tecnologie di sequenziamento|sequencing technologies]], Determine una sequenza di [[DNA Struttura e funzionalità|DNA]] sfruttando la [[Polymerase chain reaction (PCR)|PCR]]. il DNA che si vuole sequenziare chiamato **template** viene duplicato partendo da un **primer** fino a raggiungere un [[Nucleotidi|di-deoxy nucleotides (ddNTPs)]] con una base specifica. a quel punto si interrompe il processo di copiatura e si usano i frammenti di lunghezze diverse  per fare il sequenziamento.
+la **Sanger sequencing** è la **Prima generazione** di [[Tecnologie di sequenziamento|sequencing technologies]], Determine una sequenza di [[DNA|DNA]] sfruttando la [[Polymerase chain reaction (PCR)|PCR]]. il DNA che si vuole sequenziare chiamato **template** viene duplicato partendo da un **primer** fino a raggiungere un [[Nucleotidi|di-deoxy nucleotides (ddNTPs)]] con una base specifica. a quel punto si interrompe il processo di copiatura e si usano i frammenti di lunghezze diverse  per fare il sequenziamento.
 
 per rendere un neclotide terminare basta sostituire nella posizione 3' il gruppo -OH con -H cosi da impedire la reazione che attacca il prossimo nucleotide.
 ![[IMG - PCR per la sequenzazione.png]]

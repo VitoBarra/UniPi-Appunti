@@ -9,7 +9,7 @@ SubTopic:
 
 # Transcription Factor
 ---
-I **transcription factor** sono una classe particolare di geni che svolgono un ruolo centrale nelle [[Gene Regulatory Networks (GRN)|GRN]]. Un **transcription factor** è un gene che codifica una [[Proteine|proteina]] capace di legarsi al [[DNA Struttura e funzionalità|DNA]] e regolare la trascrizione di altri geni.
+I **transcription factor** sono una classe particolare di geni che svolgono un ruolo centrale nelle [[Gene Regulatory Networks (GRN)|GRN]]. Un **transcription factor** è un gene che codifica una [[Proteine|proteina]] capace di legarsi al [[DNA|DNA]] e regolare la trascrizione di altri geni.
 
 La proteina prodotta dal gene agisce quindi come **regolatore trascrizionale**, influenzando l’attivazione o la repressione dell’espressione genica. Questo avviene tramite il legame con specifiche sequenze del DNA, tipicamente situate nelle regioni regolatorie dei geni target.
 

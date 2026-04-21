@@ -11,7 +11,7 @@ SubTopic:
 ---
 **Kallisto** è un software utilizzato nello [[analisi RNA-seq]] durante lo [[Analisi RNA-seq|Step 2: alineamento]], progettato per stimare rapidamente l’abbondanza dei trascritti a partire da reads RNA-seq e da un riferimento trascrittomico.
 
-Kallisto implementa una strategia di **pseudoalignment basata su k-mer**, evitando l’allineamento base-per-base al genoma.
+Kallisto implementa una strategia di **[[Pseudoalignment]] basata su k-mer**, evitando l’allineamento base-per-base al genoma.
 
 ![[IMG - Software di allineamento per RNAseq - Kallisto.png]]
 
@@ -29,7 +29,7 @@ Come funziona:
 - Costruisce un indice k-mer di tutti i trascritti
 - Per ogni read:
   - identifica i k-mer contenuti nella read
-  - determina l’insieme dei trascritti compatibili (pseudoalignment)
+  - determina l’insieme dei trascritti compatibili ([[Pseudoalignment]])
   - non esegue allineamento completo nucleotide-per-nucleotide
 - Applica un algoritmo EM:
   - assegna probabilisticamente le reads ai trascritti compatibili
@@ -42,7 +42,7 @@ Key points:
 
 Pro:
 - Molto veloce e leggero:
-  - pseudoalignment con indice k-mer
+  - [[Pseudoalignment]] con indice k-mer
   - tempi di esecuzione ridotti anche su hardware modesto
 - Basso uso di memoria
 - Workflow semplice:
@@ -59,3 +59,4 @@ Good choice when:
 - Si desidera quantificazione trascrittomica molto rapida
 - Si dispone di un buon riferimento di trascritti
 - Non è necessaria modellazione avanzata dei bias
+

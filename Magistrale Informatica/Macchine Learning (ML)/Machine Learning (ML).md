@@ -61,7 +61,7 @@ tags:
 	6. [[Funzione di attivazione - TanH]]
 	7. [[Funzione di attivazione - SoftMax]]
 13. Funzioni di loss
-	1. [[Cross Entropy]]
+	1. [[Cross Entropy Loss]]
 14. [[Convolutional Neural Network  (CNN)]]
 15. [[Input delay neural network (IDNN)]]
 16. [[Recurrent Neural Network (RNN)]]
@@ -78,6 +78,7 @@ tags:
 21. [[Data analysis -  Clustering]]
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]
+22. [[GPU e Tensor Notation]]
 
 
 ### Educational Material 🧱

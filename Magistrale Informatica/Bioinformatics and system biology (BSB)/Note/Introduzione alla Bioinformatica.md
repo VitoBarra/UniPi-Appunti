@@ -10,7 +10,7 @@ SubTopic:
 ---
 La bioinformatica è la disciplina che sviluppa e usa metodi computazionali, statistici e algoritmici per rappresentare, analizzare e interpretare dati biologici. Nasce dall'esigenza di trasformare grandi quantità di informazioni sperimentali in conoscenza biologica utile, soprattutto quando la complessità dei dati supera la possibilità di un'analisi manuale.
 
-Uno dei suoi problemi fondamentali è la gestione di oggetti biologici descrivibili come sequenze o insiemi di misure ad alta dimensionalità. Nel caso di [[DNA Struttura e funzionalità|DNA]], [[Gene to Protein|RNA]] e [[Proteine|proteine]], la sequenza primaria contiene l'informazione minima necessaria a descrivere la molecola. La bioinformatica studia come questa informazione possa essere confrontata, annotata e messa in relazione con struttura tridimensionale, funzione biologica ed evoluzione.
+Uno dei suoi problemi fondamentali è la gestione di oggetti biologici descrivibili come sequenze o insiemi di misure ad alta dimensionalità. Nel caso di [[DNA|DNA]], [[Gene to Protein|RNA]] e [[Proteine|proteine]], la sequenza primaria contiene l'informazione minima necessaria a descrivere la molecola. La bioinformatica studia come questa informazione possa essere confrontata, annotata e messa in relazione con struttura tridimensionale, funzione biologica ed evoluzione.
 
 ![[BSB - polimeri e diversi tipi di polimeri.png]]
 

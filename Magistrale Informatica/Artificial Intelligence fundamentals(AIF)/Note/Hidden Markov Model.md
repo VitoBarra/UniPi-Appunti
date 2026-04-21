@@ -1,5 +1,5 @@
 ---
-Course: "[[Generative Deep Learning (GDL)]]"
+Course: "[[Generative and Deep Learning (GDL)]]"
 Corse 1: "[[Artificial Intelligence Fundamentals (AIF)]]"
 tags:
   - AIF

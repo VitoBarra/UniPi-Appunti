@@ -9,7 +9,7 @@ SubTopic:
 
 # Gene Regulatory Networks (GRN)
 ---
-Una **Gene Regulatory Network (GRN)** è un [[Biological networks|biological network]] che rappresenta il **sistema di regolazione dell’espressione** [[DNA Struttura e funzionalità|genica]] in cui i **geni influenzano l’attivazione** o **l’inibizione** di altri **geni**. In questo contesto i nodi rappresentano geni e gli archi rappresentano influenze regolatorie tra geni.
+Una **Gene Regulatory Network (GRN)** è un [[Biological networks|biological network]] che rappresenta il **sistema di regolazione dell’espressione** [[DNA|genica]] in cui i **geni influenzano l’attivazione** o **l’inibizione** di altri **geni**. In questo contesto i nodi rappresentano geni e gli archi rappresentano influenze regolatorie tra geni.
 
 Una [[Gene Regulatory Networks (GRN)|GRN]] modella come lo stato di attivazione di un gene dipenda da **altri geni** o da **stimoli esterni**. Formalmente può essere rappresentata come un grafo orientato in cui ogni gene $g_i$ è associato ad una variabile di stato $x_i$ che rappresenta il livello di attività del gene.
 

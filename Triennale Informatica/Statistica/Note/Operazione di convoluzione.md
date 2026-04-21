@@ -6,39 +6,53 @@ tags:
 ---
 # Operazione di convoluzione
 ---
-La __convoluzione__ è un'[[Operazioni algebriche|operazione matematica]] solitamente denotata con  $*$ 
+La __convoluzione__ è un'[[Operazioni algebriche|operazione matematica]] solitamente denotata con $*$.
 
-L'idea generale di questa operazione è quella di calcolare una media pesata di una funzione $f$ utilizzando i pesi definiti da un'altra funzione $g$. 
-Formalmente, la convoluzione discreta tra due funzioni $f$ e $g$  è definita come:  $$
-(f * g)(n) = \sum_{i=-\infty}^{\infty} f(i) g(n-i)
-$$Mentre, nella forma continua è data da:  $$
+L'idea generale di questa operazione è quella di calcolare una media pesata di una funzione $f$ utilizzando i pesi definiti da un'altra funzione $g$. Formalmente, la **convoluzione discreta** tra due funzioni $f$ e $g$ è definita come: $$(f * g)(n) = \sum_{i=-\infty}^{\infty} f(i) g(n-i)$$ Mentre, nella forma continua si sostituisce la somma con un [[Integrali|integrale]] ed è quindi data da: $$
 (f * g)(t) = \int_{-\infty}^{\infty} f(\tau) g(t - \tau) d\tau
 $$
-Questa operazione ha molteplici applicazioni:  
-- **Elaborazione delle immagini**: applicazione di filtri convoluzionali per il miglioramento e l'estrazione di caratteristiche nelle immagini.  
-- **Elaborazione del segnale**: utilizzata nei sistemi di filtraggio per migliorare la qualità del segnale o rimuovere rumori indesiderati.  
-- **Riconoscimento dei pattern**: fondamentale nelle reti neurali convoluzionali (CNN), dove viene utilizzata per l'estrazione di caratteristiche significative dalle immagini.  
-- **Equazioni differenziali**: la convoluzione aiuta a risolvere equazioni differenziali lineari e sistemi dinamici.  
 
-La convoluzione possiede anche alcune proprietà fondamentali, tra cui:  
-- [[Proprietà del operazioni - Commutativita|Commutatività]]:   $f * g = g * f$ 
-- [[Proprietà del operazioni - Associativa|Associatività]]:   $f * (g * h) = (f * g) * h$
+La convoluzione possiede anche alcune proprietà fondamentali, tra cui:
+- [[Proprietà del operazioni - Commutativita|Commutatività]]: $f * g = g * f$
+- [[Proprietà del operazioni - Associativa|Associatività]]: $f * (g * h) = (f * g) * h$
 - [[Proprietà del operazioni - Distributività|Distributività]]: $f * (g + h) = (f * g) + (f * h)$
-- __[[Operazioni - Elemento Neutro o identita|Elemento neutro]]__: la convoluzione con la delta di Dirac o con l'impulso unitario lascia invariata la funzione originale.  
+- __[[Operazioni - Elemento Neutro o identita|Elemento neutro]]__: la convoluzione con la delta di Dirac o con l'impulso unitario lascia invariata la funzione originale.
 
+Questa **operazione** può essere generalizzata prendendo in considerazione più dimensioni. Ad esempio, nel caso discreto 2D si ottiene una doppia somma: $$(f * g)(i,j) = \sum_m \sum_n f(m,n) g(i-m, j-n)$$ mentre nel caso continuo si sostituiscono le somme con [[Integrali|integrali]]: $$(f * g)(x,y) = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(\xi,\eta) g(x-\xi, y-\eta) d\xi d\eta$$ Il significato però resta lo stesso: in ogni posizione si misura la sovrapposizione locale tra il segnale e una versione traslata del kernel.
 
->[!tip] intuizione visiva
->questo da un [idea visuale](https://youtu.be/IaSGqQa5O-M?si=H2xv8S8jRUAUTuHl) di cosa rappresentano le convoluzioni
+#### Convoluzione continua
+Se si vuole visualizzare la **convoluzione continua**, si può immaginare di far scorrere una delle due funzioni sull'altra. In ogni posizione si moltiplicano punto per punto le due curve e si calcola l'area totale del prodotto:
+$$
+(f * g)(t) = \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau
+$$
+Al variare di $t$, cambia la sovrapposizione tra $f(\tau)$ e la versione traslata di $g(t-\tau)$; il valore della convoluzione in quel punto è proprio l'area ottenuta da questa sovrapposizione pesata.
 
+Se il nucleo $g$ è una [[funzioni|funzione pari]], cioè soddisfa $g(-\tau)=g(\tau)$, allora la convoluzione coincide con la correlazione. In questo caso la visualizzazione è ancora più intuitiva, perché il "ribaltamento" del kernel non cambia la sua forma.
+![[GIF - Convolution_of_box_signal_with_itself2.gif]]
 
+Un'altra intuizione utile è vedere la convoluzione come un'operazione di "spalmatura" o diffusione. Se $g(\tau)=\delta(\tau)$, cioè è un impulso ideale, allora la convoluzione restituisce semplicemente $f(t)$. Se invece $g$ è un impulso più largo, l'uscita diventa una versione più liscia e distribuita di $f$: l'informazione locale viene mediata sul supporto di $g$.
+![[GIF - Convolution_of_spiky_function_with_box2.gif]]
 
-In this example, the red-colored "pulse",   g ( τ ) , ![{\displaystyle \ g(\tau ),}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8682ec88f51b5ebb0dda735983ec3165d825382c) is an [even function](https://en.wikipedia.org/wiki/Even_function "Even function") (   g ( − τ ) = g ( τ )   ) , ![{\displaystyle (\ g(-\tau )=g(\tau )\ ),}](https://wikimedia.org/api/rest_v1/media/math/render/svg/652e3c0430a4931e2265d6947e582e557882021e) so convolution is equivalent to correlation. A snapshot of this "movie" shows functions g ( t − τ ) ![{\displaystyle g(t-\tau )}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3cb1c1c6de1ad02f14ce3217246b956b66f1c5a2) and f ( τ ) ![{\displaystyle f(\tau )}](https://wikimedia.org/api/rest_v1/media/math/render/svg/bcba00f11285b589b0ff57beeaf118defab2cfe8) (in blue) for some value of parameter t , ![{\displaystyle t,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4ea3ad87830a1055c7b85c04cf940cfd3b847ae6) which is arbitrarily defined as the distance along the τ ![{\displaystyle \tau }](https://wikimedia.org/api/rest_v1/media/math/render/svg/38a7dcde9730ef0853809fefc18d88771f95206c) axis from the point τ = 0 ![{\displaystyle \tau =0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4422051052da869dc5b1f0e1cfb06a045ee0c36a) to the center of the red pulse. The amount of yellow is the area of the product f ( τ ) ⋅ g ( t − τ ) , ![{\displaystyle f(\tau )\cdot g(t-\tau ),}](https://wikimedia.org/api/rest_v1/media/math/render/svg/b778e710d0b6bed2b0b5beed59be539e9dfdde41) computed by the convolution/correlation integral. The movie is created by continuously changing t ![{\displaystyle t}](https://wikimedia.org/api/rest_v1/media/math/render/svg/65658b7b223af9e1acc877d848888ecdb4466560) and recomputing the integral. The result (shown in black) is a function of t , ![{\displaystyle t,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4ea3ad87830a1055c7b85c04cf940cfd3b847ae6) but is plotted on the same axis as τ , ![{\displaystyle \tau ,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/26d6cc28c28ff4ff88402f47f2a99e583e9e045f) for convenience and comparison.
+### Approfondimento caso discreto 2D
+Nel caso discreto bidimensionale le funzioni non dipendono più da un solo indice, ma da una coppia di indici. Si può quindi pensare a $f(i,j)$ come a una tabella o a una matrice di valori definita su una griglia, mentre $g(i,j)$ rappresenta un secondo segnale bidimensionale, spesso più piccolo, che agisce come kernel.
 
-![[Convolution_of_box_signal_with_itself2.gif]]
-n this depiction, f ( τ ) ![{\displaystyle f(\tau )}](https://wikimedia.org/api/rest_v1/media/math/render/svg/bcba00f11285b589b0ff57beeaf118defab2cfe8) could represent the response of a [resistor-capacitor circuit](https://en.wikipedia.org/wiki/Resistor-capacitor_circuit "Resistor-capacitor circuit") to a narrow pulse that occurs at τ = 0. ![{\displaystyle \tau =0.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/536a344c98711768c9d2055a50e50c62e69b5fac) In other words, if g ( τ ) = δ ( τ ) , ![{\displaystyle g(\tau )=\delta (\tau ),}](https://wikimedia.org/api/rest_v1/media/math/render/svg/ecb1ed1bb9b4152e2dda12a3ab518e94a5d5a35e) the result of convolution is just f ( t ) . ![{\displaystyle f(t).}](https://wikimedia.org/api/rest_v1/media/math/render/svg/db88c28d6c644c905a4e12de7971c3d1eed37540) But when g ( τ ) ![{\displaystyle g(\tau )}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3ca3806d8f1456510d15896379772656cd465da) is the wider pulse (in red), the response is a "smeared" version of f ( t ) . ![{\displaystyle f(t).}](https://wikimedia.org/api/rest_v1/media/math/render/svg/db88c28d6c644c905a4e12de7971c3d1eed37540) It begins at t = − 0.5 , ![{\displaystyle t=-0.5,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/122a1d7a1cc954c319923b4e430df85a9a1edd36) because we defined t ![{\displaystyle t}](https://wikimedia.org/api/rest_v1/media/math/render/svg/65658b7b223af9e1acc877d848888ecdb4466560) as the distance from the τ = 0 ![{\displaystyle \tau =0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4422051052da869dc5b1f0e1cfb06a045ee0c36a) axis to the _center_ of the wide pulse (instead of the leading edge).
+La definizione è: $$(f * g)(i,j) = \sum_m \sum_n f(m,n) g(i-m, j-n)$$ Fissata la posizione $(i,j)$, il valore $(f * g)(i,j)$ si ottiene quindi moltiplicando i valori del segnale per i corrispondenti valori del kernel traslato e ribaltato, e sommando tutti i contributi locali.
 
-![[Convolution_of_spiky_function_with_box2.gif]]
+L'immagine seguente rende bene questa idea: si prende una piccola finestra dell'input, la si combina con il kernel e si ottiene un singolo valore nell'output. Ripetendo lo stesso procedimento su tutte le posizioni ammissibili si costruisce l'intera matrice di uscita.
+![[IMG - visualizzazione del operazione di convoluzione su pixel.png]]
 
+Un modo equivalente di leggerla è questo: il valore $(f * g)(i,j)$ misura quanto il segnale $f$ e una copia traslata e ribaltata di $g$ si sovrappongono in quella zona della griglia. Se il kernel è concentrato su un intorno piccolo, la convoluzione in ogni punto dipende solo dai valori vicini, e per questo l'operazione preserva la località.
 
+Dal punto di vista strutturale, il passaggio da 1D a 2D non cambia la natura dell'operazione, ma solo il dominio su cui viene effettuata. La convoluzione resta una somma pesata locale; cambia il fatto che ora la località è definita rispetto a un intorno bidimensionale anziché lungo una sola direzione.
 
-e viene utilizzata in diversi ambiti, come nelle [[Convolutional Neural Network  (CNN)|Convolutional Neural Network  (CNN)]] che prendono il nome proprio da questa operazione e nell'_[[Immage Processing|image processing]]_, dove viene impiegata per il [[Filtering|filtraggio]] delle immagini.  
+Due concetti importanti nella convoluzione discreta 2D sono inoltre il __padding__ e lo __stride__. Il padding consiste nell'aggiungere valori artificiali, tipicamente zeri, attorno alla griglia originale prima di applicare il kernel. Questo serve a controllare il comportamento ai bordi e a evitare che l'output si restringa applicando la convoluzione. Senza padding, infatti, il kernel può essere centrato solo sulle posizioni per cui resta interamente dentro il segnale.
+
+Lo stride, invece, indica di quanto il kernel viene spostato a ogni passo lungo ciascuna dimensione. Con stride $1$ il filtro visita tutte le posizioni adiacenti; con stride maggiore di $1$ salta alcune posizioni, producendo un'uscita più piccola e realizzando quindi una forma di sottocampionamento. Dal punto di vista matematico, **stride e padding** non cambiano la natura dell'operazione di convoluzione, ma modificano il modo in cui il kernel viene applicato sulla griglia. La visualizzazione seguente mostra i casi più comuni, evidenziando in particolare come cambiano dimensioni e posizione delle finestre applicate all'input.
+
+![[GIF - convoluzione padding stride.gif]]
+
+Un'osservazione utile è che la stessa logica si può applicare anche nel verso opposto, quando si vuole passare da una griglia più piccola a una più grande. In questo caso non si introduce una nuova operazione di natura diversa: si sta ancora sfruttando la struttura della convoluzione, ma su un input opportunamente trasformato. In particolare, nel caso con stride maggiore di $1$, si può interpretare il procedimento come una riespansione della griglia in cui vengono inseriti zeri tra gli elementi, seguita poi da una normale convoluzione. Per questo, in ambito di calcolo numerico e deep learning, si parla di __transpose convolution__ o convoluzione trasposta; matematicamente, però, non è corretto intenderla come la vera inversa della convoluzione, perché l'informazione eventualmente persa nel passaggio in avanti non è in generale ricostruibile in modo esatto.
+
+Anche in questo caso il principio locale non cambia: un valore in ingresso viene distribuito nelle posizioni vicine secondo i pesi del kernel, producendo una griglia più grande. La visualizzazione seguente mostra i casi più comuni di questa applicazione della stessa idea convolutiva.
+
+![[GIF - convoluzione trasposta padding stride.gif]]

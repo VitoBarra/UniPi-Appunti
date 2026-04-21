@@ -9,7 +9,7 @@ SubTopic:
 
 # ChIP-seq
 ---
-La **ChIP-seq (Chromatin Immunoprecipitation sequencing)** è una tecnica sperimentale utilizzata per identificare le regioni del [[DNA Struttura e funzionalità|DNA]] a cui si legano specifiche proteine regolatorie, in particolare i **[[Transcription Factor (TF)|transcription factors]]**.
+La **ChIP-seq (Chromatin Immunoprecipitation sequencing)** è una tecnica sperimentale utilizzata per identificare le regioni del [[DNA|DNA]] a cui si legano specifiche proteine regolatorie, in particolare i **[[Transcription Factor (TF)|transcription factors]]**.
 
 La tecnica permette quindi di individuare possibili relazioni regolatorie tra transcription factors e geni target.
 

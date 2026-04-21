@@ -26,7 +26,7 @@ tags:
 4. [[Regressione Logistica]]
 	1. [[Classificatore Generativo e Discriminativo]]
 	2. [[Tecnica di ottimizzazione Gradient Descent]]
-	3. [[Cross entropy]]
+	3. [[Cross Entropy Loss]]
 	4. [[Reti Neurali (NN)]]
 	5. [[Reti neurali Feed-Forward (FF)]]
 	6. [[Back Propagation]]

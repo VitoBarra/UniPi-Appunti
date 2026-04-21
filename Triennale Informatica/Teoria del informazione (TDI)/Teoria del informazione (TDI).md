@@ -8,13 +8,14 @@ tags:
 
 ## Course MOC  📒
 1. [[Entropia]]
+    1. [[Cross-entropy]]
 2. [[Algoritmi di compressione]]
 	1. [[Algoritmo di compressione RIPEMD-160]]
 3. [[Suffix array]]
 4. [[Burrows-Wheeler Transform (BWT)]]
 5. [[Mutual Information (MI)]]
     1. [[Data Processing Inequality (DPI)|Data Processing Inequality (DPI)]]
-
+6. [[Kullback-Leibler (KL) Divergence]]
 
 
 ### Educational Material 🧱
