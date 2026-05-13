@@ -20,6 +20,7 @@ la combinazione convessa è detta
 - **propria** se $\lambda_1,\dots,\lambda_m \in (0,1)$
 - **impropria** se $\lambda_1,\dots,\lambda_m \not\in (0,1)$
 
+
 ### Insieme Convesso
 _Sia_ Un [[Insiemi Matematici|insieme]] $K \subseteq \mathbb{R}^n$  
 _Se_ $\forall x,y   \in   \mathbb{K}  \land \forall \lambda \in [0,1]$ vale $$
