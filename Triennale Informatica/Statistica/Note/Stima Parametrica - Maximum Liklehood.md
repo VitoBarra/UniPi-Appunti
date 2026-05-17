@@ -6,7 +6,7 @@ tags:
 ---
 # Stima Parametrica - Maximum Likelihood
 ---
-La **massima verosimiglianza** (Maximum Likelihood) è un metodo di [[Stima Parametrica]] dei [[Modelli Probabilistici|modelli probabilistici]] che sceglie il parametro $\theta$ che rende più plausibile il [[Campione Statistico|campione osservato]].
+La **massima verosimiglianza** (Maximum Likelihood) è un metodo di [[Stima Parametrica]] dei [[Modelli Probabilistici  - Agire in domini incerti|modelli probabilistici]] che sceglie il parametro $\theta$ che rende più plausibile il [[Campione Statistico|campione osservato]].
 
 Dato un [[Campione Statistico|campione]] $X_1,\dots,X_n$ con osservazioni raccolte nel dataset $\mathcal{D}=\{x_1,\dots,x_n\}$, la **funzione di verosimiglianza** è una [[Funzioni|funzione]] del parametro $\theta$ ottenuta dalla [[Probabilita sui numeri Reali|legge di probabilità]] del campione osservato.
 

@@ -43,7 +43,6 @@ Relazione con distribuzioni notevoli:
 - Gaussiane con media nota hanno prior gaussiane coniugate
 
 Ruolo nei modelli:
-- fondamentale in [[Modelli Probabilistici]] per ottenere posterior in forma chiusa
 - utilizzata in [[Latent Dirichlet Allocation (LDA)|LDA]] per gestire distribuzioni multinomiali
 - base teorica per algoritmi come EM e metodi variazionali
 

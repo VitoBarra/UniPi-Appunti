@@ -101,7 +101,7 @@ tags:
 		2. [[Planning - Contingent planning]]
 		3. [[Planning - Agenti online]]
 	9. [[Planning - Scheduling]]
-10. [[Modelli Probabilistici]]
+10. [[Modelli Probabilistici  - Agire in domini incerti]]
 	1. [[Definizione di Probabilita]] (ripreso da stat)
 		1. [[Probabilita con distribuzione uniforme]]
 		2. [[Sistema di alternative]]

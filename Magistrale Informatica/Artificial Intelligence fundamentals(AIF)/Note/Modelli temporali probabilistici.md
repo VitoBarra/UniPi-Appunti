@@ -11,7 +11,7 @@ SubTopic:
 
 # Modelli temporali probabilistici
 ---
-i **[[Agenti Razionali|modelli temporali probablistici]]** sono un estensione [[Modelli Probabilistici|modelli probabilistici]] a **[[Definizione di Problemi-Ambienti|domini dinamici]]**, nei quali le variabili casuali evolvono nel tempo. Il mondo è rappresentato come una sequenza discreta di istanti $t = 0, 1, 2, \ldots$, detti “**time step**”, separati da un intervallo costante $\Delta$. A ogni intervallo temporale corrisponde un insieme di variabili di stato $X_t$, non direttamente osservabili, e un insieme di variabili di evidenza $E_t$, osservabili. Le osservazioni sono espresse come $E_t = e_t$, mentre la notazione $X_{a:b}$ denota il gruppo di variabili comprese tra $X_a$ e $X_b$ con **estremi inclusi**.
+i **[[Agenti Razionali|modelli temporali probablistici]]** sono un estensione [[Modelli Probabilistici  - Agire in domini incerti|modelli probabilistici]] a **[[Definizione di Problemi-Ambienti|domini dinamici]]**, nei quali le variabili casuali evolvono nel tempo. Il mondo è rappresentato come una sequenza discreta di istanti $t = 0, 1, 2, \ldots$, detti “**time step**”, separati da un intervallo costante $\Delta$. A ogni intervallo temporale corrisponde un insieme di variabili di stato $X_t$, non direttamente osservabili, e un insieme di variabili di evidenza $E_t$, osservabili. Le osservazioni sono espresse come $E_t = e_t$, mentre la notazione $X_{a:b}$ denota il gruppo di variabili comprese tra $X_a$ e $X_b$ con **estremi inclusi**.
 
 per modellare la dinamica temporale il modello usa due componenti fondamentali: 
 

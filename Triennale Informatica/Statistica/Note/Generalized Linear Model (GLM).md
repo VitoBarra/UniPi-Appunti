@@ -9,7 +9,7 @@ SubTopic:
 
 # Generalized Linear Model (GLM)
 ---
-Un **Generalized Linear Model** (**GLM**) è un [[Modelli probabilistici|modello probabilistico]] usato per descrivere come cambia la [[Variabili aleatoria - Valore atteso|media]] di una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]] risposta_ al variare di alcune [[Variabili aleatorie - Covarianza e correlazione|covariate]].
+Un **Generalized Linear Model** (**GLM**) è un [[Modelli Probabilistici  - Agire in domini incerti|modello probabilistico]] usato per descrivere come cambia la [[Variabili aleatoria - Valore atteso|media]] di una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]] risposta_ al variare di alcune [[Variabili aleatorie - Covarianza e correlazione|covariate]].
 
 Il **GLM** è una generalizzazione della [[Regressione lineare - Interpretazione probabilistica|regressione lineare vista come modello probabilistico gaussiano]] in cui  si assume che la risposta sia continua e che gli errori siano [[Variabili Aleatorie Notevoli - Gaussiana|gaussiani]]; 
 

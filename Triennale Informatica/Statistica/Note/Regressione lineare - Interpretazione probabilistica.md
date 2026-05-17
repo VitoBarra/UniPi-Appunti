@@ -6,7 +6,7 @@ tags:
 ---
 # Regressione lineare - Interpretazione probabilistica
 ---
-La [[Modelli lineari - Retta di regressione|retta di regressione]] può essere interpretata anche come un [[Modelli probabilistici|modello probabilistico]].
+La [[Modelli lineari - Retta di regressione|retta di regressione]] può essere interpretata anche come un [[Modelli Probabilistici  - Agire in domini incerti|modello probabilistico]].
 
 in questo modello si assume che ogni osservazione sia generata da una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]]_:$$Y_i=a+bx_i+\varepsilon_i$$dove $\varepsilon_i$ rappresenta l'errore casuale.
 

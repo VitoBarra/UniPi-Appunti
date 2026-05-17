@@ -9,7 +9,7 @@ SubTopic:
 
 # Latent or hidden Model
 ---
-Il **latent or hidden model** e una classe di [[modelli probabilistici|modelli probabilistici]] in cui il processo generativo dipende da una o piu variabili non osservabili direttamente, dette **variabili latenti** o **variabili nascoste**. In questi modelli le osservazioni disponibili non descrivono completamente il meccanismo generativo, ma ne rappresentano una versione marginalizzata.
+Il **latent or hidden model** e una classe di [[Modelli Probabilistici|modelli probabilistici]] in cui il processo generativo dipende da una o piu variabili non osservabili direttamente, dette **variabili latenti** o **variabili nascoste**. In questi modelli le osservazioni disponibili non descrivono completamente il meccanismo generativo, ma ne rappresentano una versione marginalizzata.
 
 ## Struttura probabilistica
 

@@ -11,7 +11,7 @@ SubTopic:
 
 # Bayesian network
 ---
-un **Bayesian network** è un modo rappresentare una [[Full Joint Distribution (FJD)|full joint distribution]] in [[Modelli Probabilistici|domini incerti]] in modo piu compatto sfruttando l [[Indipendenza condizionata|indipendenza condizionale]].
+un **Bayesian network** è un modo rappresentare una [[Full Joint Distribution (FJD)|full joint distribution]] in [[Modelli Probabilistici  - Agire in domini incerti|domini incerti]] in modo piu compatto sfruttando l [[Indipendenza condizionata|indipendenza condizionale]].
 Un **Bayesian network** è un [[Directed Acyclic Graph (DAG)|grafo diretto aciclico]] (DAG) $\mathcal{G}(\mathcal{V,E})$in cui:
 - Ogni nodo $v \in \mathcal{V}$ rappresenta una [[Variabili Aleatorie (Casuali)|variabile casuale]] $X_i$, **discreta** o **continua**;
 - Gli edge $e \in \mathcal{E}$ indicano nel complessivo le relazioni di [[indipendenza condizionata|indipendenza condizionata]], dove il nodo di partenza è il **genitore** di quello di arrivo;
