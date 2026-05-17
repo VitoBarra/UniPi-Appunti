@@ -34,10 +34,10 @@ Nonostante la loro efficienza in alcuni contesti, le IDNN presentano alcune limi
 
 ## Connessione con le CNN
 
-Le __IDNN__ condividono con le [[Convolutional Neural Network  (CNN)|CNN]] l'idea di usare una __finestra locale__ dell'input per catturare dipendenze di breve raggio. In entrambi i casi, infatti, l'output dipende da un intorno limitato della sequenza anziché dall'intera storia passata.
+Le __IDNN__ condividono con le [[Convolutional Neural Network (CNN)|CNN]] l'idea di usare una __finestra locale__ dell'input per catturare dipendenze di breve raggio. In entrambi i casi, infatti, l'output dipende da un intorno limitato della sequenza anziché dall'intera storia passata.
 
 La differenza utile è questa:
 - nelle __IDNN__ la sequenza viene trasformata in una finestra di delay fissa, poi trattata come un normale vettore di input;
 - nelle [[Time delay neural network (TDNN)|TDNN]] e nelle __CNN 1D__ la struttura del modello è invece progettata per far scorrere lo stesso kernel lungo la sequenza.
 
-Per questo motivo le __TDNN__ risultano strutturalmente più vicine alle [[Convolutional Neural Network  (CNN)|CNN]] rispetto alle IDNN, anche se le IDNN restano un antecedente concettuale importante perché introducono l'idea di contesto temporale locale senza ricorrere alla ricorrenza.
+Per questo motivo le __TDNN__ risultano strutturalmente più vicine alle [[Convolutional Neural Network (CNN)|CNN]] rispetto alle IDNN, anche se le IDNN restano un antecedente concettuale importante perché introducono l'idea di contesto temporale locale senza ricorrere alla ricorrenza.

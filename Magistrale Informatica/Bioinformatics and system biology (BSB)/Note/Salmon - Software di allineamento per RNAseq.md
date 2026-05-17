@@ -23,7 +23,7 @@ Contesto d’uso:
 - Costruisce un indice del trascrittoma
 - Per ogni read o coppia di reads identifica rapidamente i trascritti compatibili
 - Risolve l’ambiguità tra isoforme tramite un modello probabilistico
-- Raffina le abbondanze tramite algoritmi come **[[Maximum likelihood learning|Expectation-Maximization]]** o **Variational Bayes**
+- Raffina le abbondanze tramite algoritmi come **[[z|Expectation-Maximization]]** o **Variational Bayes**
 
 In pratica, Salmon non risponde alla domanda:
 - “in quale posizione esatta del genoma cade questa read?”

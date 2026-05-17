@@ -35,6 +35,7 @@ tags:
 	9. [[Teorema di Mercer]]
 	10. [[Deep Learning]]
 	11. [[Curse of dimensionality e Curse of noise]]
+	12. [[Manifold Hypothesis]]
 3. [[Modelli lineari - Retta di regressione]]
     1. [[Modelli lineari con LMS]]
     	2. [[Linear Threshold Unit (LTU)]]
@@ -51,7 +52,7 @@ tags:
 10. [[Euristiche per il gli algoritmi di learning su reti neurali]]
 	1. [[Reti neurali approccio costruttivo Cascade Correlation (NN-CC)]]
 11. [[NN - Autoassociatore]]
-	1. [[NN - Autoencoders]]
+	1. [[Autoencoders (AE)]]
 12. [[Funzioni di attivazione]]
 	1. [[Funzione di attivazione - ReLu]]
 	2. [[Funzione di attivazione - LeakyReLu]]
@@ -62,7 +63,7 @@ tags:
 	7. [[Funzione di attivazione - SoftMax]]
 13. Funzioni di loss
 	1. [[Cross Entropy Loss]]
-14. [[Convolutional Neural Network  (CNN)]]
+14. [[Convolutional Neural Network (CNN)]]
 15. [[Input delay neural network (IDNN)]]
 16. [[Recurrent Neural Network (RNN)]]
 	1. [[RNN - Long Short-term Memory (LSTM)]]
@@ -84,7 +85,6 @@ tags:
 ### Educational Material 🧱
 1. [[Simon Haykin - Neural Networks - 2ed.pdf]]
 2. [[Simon Haykin - Neural Networks - 3ed.pdf]]
-
 
 
 

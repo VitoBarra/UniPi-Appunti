@@ -73,7 +73,7 @@ $$
 $$
 
 #### Stima e test
-I parametri $\beta$ sono stimati tramite [[Stima Parametrica - Metodo di Massima Verosomiglianza|massima verosimiglianza]].
+I parametri $\beta$ sono stimati tramite [[Stima Parametrica - Maximum Liklehood|massima verosimiglianza]].
 
 Una volta stimato il modello, si possono fare [[Test Statistici|test statistici]] sui coefficienti. Tipicamente si testa:$$H_0:\beta_j=0$$cioè si verifica se la covariata $j$ ha un effetto sulla media della risposta.
 

@@ -24,5 +24,5 @@ Questo approccio:
 - Produce una predizione ottenuta mediando su tutte le ipotesi compatibili
 Rispetto agli altri criteri di [[Learning nei modelli probabilistici]]:
 - E piu ricco di [[Maximum a posteriori (MAP) learning]], perche non riduce la posterior a una sola stima puntuale
-- E piu generale di [[Maximum likelihood learning]], perche include esplicitamente anche il prior
+- E piu generale di [[z]], perche include esplicitamente anche il prior
 Il limite principale e computazionale, perche il calcolo della posterior e della predizione bayesiana richiede spesso integrali non trattabili in forma chiusa. Per questo motivo il Bayesian learning e l'approccio piu completo dal punto di vista teorico, ma anche il piu difficile da usare in modelli complessi.

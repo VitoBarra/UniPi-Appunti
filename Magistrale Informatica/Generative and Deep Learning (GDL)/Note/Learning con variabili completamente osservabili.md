@@ -11,7 +11,7 @@ SubTopic:
 ---
 Il **learning con variabili completamente osservabili** e il caso in cui tutte le variabili del modello compaiono nel training set, quindi non sono presenti [[Latent or hidden Model|variabili latenti]] da inferire durante l'apprendimento. In questa situazione la stima dei parametri e particolarmente semplice, perche le quantità  necessarie possono essere ricavate direttamente dalle frequenze empiriche.
 
-Nel caso di [[Maximum likelihood learning]], l'apprendimento si riduce spesso a contare quante volte compaiono certi eventi o certe configurazioni delle variabili e a normalizzare tali conteggi per ottenere probabilita valide.
+Nel caso di [[z]], l'apprendimento si riduce spesso a contare quante volte compaiono certi eventi o certe configurazioni delle variabili e a normalizzare tali conteggi per ottenere probabilita valide.
 
 Questo regime presenta alcune proprieta rilevanti:
 - non richiede inferenza su variabili nascoste

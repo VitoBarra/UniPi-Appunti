@@ -27,11 +27,11 @@ Le [[Input delay neural network (IDNN)|IDNN]] e le TDNN condividono l'uso di una
 
 In un'accezione ampia, una __IDNN__ può essere considerata una forma semplice di TDNN, perché usa anch'essa ritardi espliciti in ingresso. Nella distinzione più stretta, però, nelle __IDNN__ la finestra di delay viene vista soprattutto come un modo per costruire un vettore di input esteso, che viene poi elaborato da una rete __feed-forward__ standard; nelle __TDNN__, invece, la condivisione dei pesi lungo il tempo è un principio architetturale esplicito, molto più vicino alla logica della convoluzione.
 
-Per questo, quando il termine è usato in senso stretto, le TDNN sono di solito considerate più vicine alle [[Convolutional Neural Network  (CNN)|CNN]] rispetto alle IDNN.
+Per questo, quando il termine è usato in senso stretto, le TDNN sono di solito considerate più vicine alle [[Convolutional Neural Network (CNN)|CNN]] rispetto alle IDNN.
 
 ## Connessione con le CNN
 
-Una [[Convolutional Neural Network  (CNN)|CNN]] applicata a dati monodimensionali, come audio o serie temporali, usa filtri che scorrono lungo un solo asse. Da questo punto di vista, una __CNN 1D__ realizza in forma moderna la stessa idea strutturale delle TDNN.
+Una [[Convolutional Neural Network (CNN)|CNN]] applicata a dati monodimensionali, come audio o serie temporali, usa filtri che scorrono lungo un solo asse. Da questo punto di vista, una __CNN 1D__ realizza in forma moderna la stessa idea strutturale delle TDNN.
 
 Nel passaggio alle CNN la stessa logica viene poi estesa in modo naturale:
 - si possono usare più filtri in parallelo;

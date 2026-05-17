@@ -23,7 +23,7 @@ $$
 Da questa decomposizione emergono i tre approcci principali al learning:
 - [[Bayesian learning]]: mantiene l'intera posterior sui parametri e predice mediando su tutte le ipotesi
 - [[Maximum a posteriori (MAP) learning]]: sceglie la singola ipotesi parametrica che massimizza la posterior
-- [[Maximum likelihood learning]]: sceglie la singola ipotesi parametrica che massimizza la likelihood dei dati
+- [[z]]: sceglie la singola ipotesi parametrica che massimizza la likelihood dei dati
 
 La differenza concettuale sta quindi in **come si usa la posterior**:
 - nel Bayesian learning la si usa tutta

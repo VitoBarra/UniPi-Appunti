@@ -16,7 +16,7 @@ Gli __autoassociatori__ possono essere definiti da una funzione di associazione 
 Gli __autoassociatori__ sono solitamente di due tipi:  
 - __[[Hopfield Networks|Reti di Hopfield]]__: una rete completamente connessa con pesi simmetrici, in grado di memorizzare un numero limitato di pattern stabili.  
 - __Memorie associativa di Kanerva__: utilizza una rappresentazione distribuita per memorizzare e recuperare informazioni.  
-- [[NN - Autoencoders|Autoencoders]]: reti neurali con una struttura __encoder-decoder__.
+- [[Autoencoders (AE)|Autoencoders]]: reti neurali con una struttura __encoder-decoder__.
 
 
 gli __autoassociatori__ solo solitamente di due tipi:

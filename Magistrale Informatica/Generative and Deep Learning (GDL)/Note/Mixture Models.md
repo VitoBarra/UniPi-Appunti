@@ -17,7 +17,7 @@ Si introduce $z \in \{1,\dots,K\}$ con probabilita a priori $P(z=k)=\pi_k$, dove
 
 ## Dataset osservato e likelihood
 
-Dato un insieme iid $\mathcal{D}=\{x_1,\dots,x_N\}$, si introduce una variabile latente $z_n$ per ogni osservazione $x_n$. La likelihood osservata e $$p(\mathcal{D})=\prod_{n=1}^N \sum_{k=1}^K \pi_k p(x_n\mid \theta_k)$$ e la log-likelihood e $$\log p(\mathcal{D})=\sum_{n=1}^N \log\left(\sum_{k=1}^K \pi_k p(x_n\mid \theta_k)\right)$$ Il termine $\log \sum_k$ rende il problema di [[Stima Parametrica - Metodo di Massima Verosomiglianza|massima verosomiglianza]] non direttamente trattabile come nei modelli senza variabili nascoste.
+Dato un insieme iid $\mathcal{D}=\{x_1,\dots,x_N\}$, si introduce una variabile latente $z_n$ per ogni osservazione $x_n$. La likelihood osservata e $$p(\mathcal{D})=\prod_{n=1}^N \sum_{k=1}^K \pi_k p(x_n\mid \theta_k)$$ e la log-likelihood e $$\log p(\mathcal{D})=\sum_{n=1}^N \log\left(\sum_{k=1}^K \pi_k p(x_n\mid \theta_k)\right)$$ Il termine $\log \sum_k$ rende il problema di [[Stima Parametrica - Maximum Liklehood|massima verosomiglianza]] non direttamente trattabile come nei modelli senza variabili nascoste.
 
 Se invece le assegnazioni fossero note, usando variabili indicatori $z_{nk}\in\{0,1\}$ con $\sum_k z_{nk}=1$, la complete-data likelihood sarebbe $$p(X,Z\mid \pi,\theta)=\prod_{n=1}^N \prod_{k=1}^K [\pi_k p(x_n\mid \theta_k)]^{z_{nk}}$$ e la complete-data log-likelihood sarebbe $$\log p(X,Z\mid \pi,\theta)=\sum_{n=1}^N \sum_{k=1}^K z_{nk}[\log \pi_k+\log p(x_n\mid \theta_k)]$$ In questa forma la dipendenza dalle variabili latenti diventa lineare.
 

@@ -70,7 +70,7 @@ $$
 \log \mathcal{L}_c(\theta\mid \mathbf{X},\mathbf{Z})=\sum_{j=1}^N\sum_{m=1}^M \bar z_{jm}\log\left(\pi_m \mathcal{P}(x_j\mid \mu_m,\sigma_m)\right)
 $$
 Questa espressione e piu semplice da trattare perche separa i contributi delle diverse componenti.
-La presenza del logaritmo di una somma impedisce una massimizzazione diretta con i metodi usuali di [[Stima Parametrica - Metodo di Massima Verosomiglianza|massima verosimiglianza]].
+La presenza del logaritmo di una somma impedisce una massimizzazione diretta con i metodi usuali di [[Stima Parametrica - Maximum Liklehood|massima verosimiglianza]].
 
 ## Learning tramite Expectation massimization
 
