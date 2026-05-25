@@ -3,156 +3,59 @@ Course: "[[Machine Learning (ML)]]"
 tags:
   - IIA
   - ML
-Area: 
-topic: 
+Area:
+topic:
 SubTopic:
 ---
 # Structural Domain Learning (SDL)
----
-__Structural Domain Learning__ (__SDL__) è un campo del [[Machine Learning (ML)|Machine Learning]] che si occupa di studiare [[Modelli di Machine Learning|modelli]] per il macchine learning che siano in grado di ricevere in input una __dato strutturato__ come ad esempio un [[Alberi|albero]] o un [[Graph Theory|grafo]] 
+Lo **Structural Domain Learning (SDL)** e il campo del [[Machine Learning (ML)|machine learning]] che studia modelli capaci di ricevere in input un **dato strutturato**, cioe un oggetto in cui non conta solo il contenuto dei singoli elementi ma anche la relazione tra essi. Alberi, grafi, strutture simboliche composte e reti relazionali rientrano tutte in questo quadro, e il problema centrale non e semplicemente classificare vettori, ma apprendere trasformazioni e rappresentazioni che rispettino la struttura del dominio.
 
-l approccio opposto sarebbe quello di trasformare questa struttura in un [[Vettori|vettore]] per essere usata dai modelli  che prendono dati flat come al esempio le [[Reti neurali Feed-Forward (FF)|FF]] o le [[Convolutional Neural Network (CNN)|CNN]] o in una __sequenza__ per essere usata da una [[Recurrent Neural Network (RNN)|RNN]].
+## Motivazioni
+Lo **Structural Domain Learning (SDL)** nasce dal fatto che molti dati reali non sono naturalmente flat. L'approccio opposto consiste nel forzare la struttura in un [[Vettori|vettore]] per usare modelli che lavorano su input regolari, come [[Reti neurali Feed-Forward (FF)|reti feed-forward]] o [[Convolutional Neural Network (CNN)|convolutional neural network]], oppure trasformarla in una sequenza per usare una [[Recurrent Neural Network (RNN)|rete neurale ricorrente]]. Questa riduzione e spesso possibile, ma tende a perdere o distorcere informazione relazionale, perche impone un ordine o una geometria che il dato originario non possiede.
 
+Lo **Structural Domain Learning (SDL)** diventa quindi necessario quando le relazioni sono parte del dato stesso. Nei grafi, per esempio, il significato di un nodo dipende dal suo **contesto strutturale**; in un albero, la semantica di un nodo dipende dalla sua posizione gerarchica; in una struttura simbolica, il valore informativo sta spesso nella composizione piu che nei singoli simboli. ![[IMG - Esempio uso grafi.png]]
+Lo **Structural Domain Learning (SDL)** considera strutture in cui esistono entita e relazioni esplicite tra entita. I grafi sono la formalizzazione piu generale e piu usata, perche permettono di rappresentare nodi, archi, etichette e attributi in modo flessibile. Questa scelta e naturale in molti contesti applicativi:
+- **visione artificiale**, dove scene e oggetti possono essere descritti come reti di parti o relazioni spaziali
+- **trasporti**, dove reti stradali e flussi di traffico hanno struttura esplicita
+- **social network**, dove utenti e interazioni formano grafi relazionali
+- **chimica** e **bioinformatica**, dove molecole, proteine e reti biologiche sono strutture naturalmente grafiche
+- **linguistica** e **knowledge representation**, dove parsing e grafi semantici rendono esplicite dipendenze e relazioni
 
+## Obiettivo dell'apprendimento strutturato
+Lo **Structural Domain Learning (SDL)** vuole mappare dati strutturati in rappresentazioni continue utilizzabili da modelli predittivi. In questa lettura il problema non e diverso, in astratto, da quello del [[Rappresentazione simbolica e distribuita dei concetti|learning di rappresentazione]]: anche qui si cerca una funzione che trasformi l'oggetto osservato in uno **spazio latente** utile per classificazione, regressione o generazione. La differenza e che la funzione di rappresentazione non deve perdere le dipendenze strutturali rilevanti.
 
-I dati reali spesso non sono semplici vettori ma strutture complesse con relazioni intrinseche. I grafi sono una rappresentazione naturale per molteplici domini, tra cui:
-- **Visione artificiale**: reti per la comprensione delle scene
-- **Trasporti**: modelli predittivi del traffico
-- **Social network**: modellazione delle interazioni tra utenti
-- **Chimica**: rappresentazione di molecole per il drug design
-- **Biologia**: reti proteiche e analisi del cervello
-- **Linguistica**: parsing e knowledge graphs
-Questi dati possono essere modellati con **reti neurali profonde (DGN - Deep Graph Networks)**, che generalizzano i modelli classici di deep learning ai grafi.
-![[IMG - Esempio uso grafi.png]]
+Nel caso dei grafi, ogni nodo puo essere descritto da feature locali e ogni arco da etichette o attributi; tuttavia il dato non coincide con l'insieme delle feature, perche la topologia del grafo e parte dell'informazione. Lo **Structural Domain Learning (SDL)** tratta quindi il dato come una coppia formata da contenuto e struttura, e richiede modelli che integrino entrambe le componenti in modo coerente. In questo contesto l'apprendimento gerarchico di rappresentazioni permette di diffondere in modo efficiente l'informazione lungo la struttura del grafo: la rappresentazione di un nodo dipende dal suo contesto, inizialmente locale e poi progressivamente piu ampio all'aumentare della profondita del modello.
+![[IMG - propagazione delle informazioni su grafi.png]]
 
-### Trasduzione di grafi
-L __obiettivo__ del __SDL__ è imparare un __trasduttore__ che trasforma una dato strutturato sono del tipo
-- __Structure-to-Structure__: trasformazione da una struttura in un altra ovvero input-output isomorfi (eg. classificazizone di noti) 
-- __Structure-to-Scalar/element__: trasformazione di una struttura in uno scalare o in una sequenza o altri output non isomorfi (regressione e classificazione)
-- __edge-base-task__: problemi di predizione di connessioni.
- ![[IMG - task in SDL.png]]
+## Task generali
+Lo **Structural Domain Learning (SDL)** organizza i problemi in base alla natura dell'output desiderato. Se il dataset e un singolo grande grafo, i task tipici sono predizioni locali o relazionali; se il dataset e una collezione di grafi indipendenti, il task riguarda l'intera struttura. 
 
-## Rappresentazione dei grafi e apprendimento strutturato
+Nel caso di un singolo grafo si incontrano soprattutto:
+- **Node prediction**, in cui si predice una classe o un valore continuo per un nodo
+- **Link prediction**, in cui si predice l'esistenza o il tipo di una connessione tra due nodi
+- **Community detection**, in cui si identificano gruppi di nodi fortemente connessi o semanticamente simili
+![[IMG - Task in domoni strutturati su singolo grafi.png]]
 
-Un nodo in un grafo è descritto da un vettore di caratteristiche . Gli archi tra i nodi hanno etichette che possono rappresentare distanze, connessioni logiche o altre proprietà.
+Nel caso di un dataset di grafi si hanno invece:
+- **Graph classification**, in cui si assegna l'intera struttura a una classe
+- **Graph regression**, in cui si associa al grafo un valore o un vettore di valori
+![[IMG - Task su domini strutturati task sul intero grafo.png]]
 
-L’apprendimento strutturato può essere visto come il problema di mappare i dati strutturati in uno spazio continuo: Dove è una funzione che trasforma la struttura in una rappresentazione utilizzabile per regressione o classificazione.
+La **Trasduzione di grafi**  si guarda alla forma della trasformazione strutturale richiesta. I casi principali sono:
+- **structure-to-structure**, in cui input  sono vettori o strutture e output sono entrambi strutture e il modello deve preservare una corrispondenza tra componenti
+![[IMG - task di trasduzione su grafi.png]]
 
+## Vincoli strutturali
+Lo **Structural Domain Learning (SDL)** impone vincoli che non compaiono nei dati regolari. In un grafo non esiste in generale un ordinamento canonico dei nodi, quindi il modello non deve dipendere dal modo arbitrario in cui la struttura viene serializzata o indicizzata. Questo porta a richiedere proprieta di **permutation invariance** e **permutation equivariance**
 
-- [[Rappresentazione simbolica e distribuita dei concetti|learning di rapresentzione ]]
+Un secondo vincolo e la cardinalita variabile del vicinato: un nodo puo avere pochi o molti vicini, e l'operatore di aggregazione deve quindi lavorare su insiemi o multinsiemi non ordinati. Un terzo vincolo e la presenza di dipendenze a lungo raggio, che rende non banale propagare informazione in profondita senza degradare le rappresentazioni.
 
-## Deep Graph Networks (DGN) framework
-
-L’idea centrale dei DGN è il **Message Passing**, un processo iterativo che permette ai nodi di aggiornare il proprio stato in base alle informazioni ricevute dai vicini.
- Passaggi fondamentali:
-1. Ogni __nodo__ calcola un __messaggio__ come funzione della sua __label__, dei suoi vicini $\mathcal{N}_v$ e delle sua connessioni, manda il messaggio a tutti i suoi vicini.
-2. I __nodi__ che ricevano i messaggi li aggregano con una funzione __invariante alla permutazione__ ovvero non cambia con l ordine di arrivo dei messaggi.
-3. Il nodo aggiorna il proprio __stato__ combinando i messaggi con pesi liberi $W$
-
-L’iterazione del processo di Message Passing permette di diffondere l’informazione tra tutti i nodi del grafo.
-![[IMG - Message passing On SDL.png]]
-
-Lo stato non dipende solo dal vicinato locale $\mathcal{N}_v$: le iterazioni di questo meccanismo MP permettono la diffusione delle informazioni tra tutti i nodi, raggiungendo tutti gli altri.  
-
-Infine, è possibile emettere un output __per ciascun nodo__ o __per l'intero grafo__ attraverso un'aggregazione invariante alla permutazione delle rappresentazioni dei nodi, nota anche come __global pooling__
-
-Piu formalmente abbiamo che:
-$$\mathbf{h}_v^{(l)}= AGG_{\mathbf{W}^{(l)}}(L_vh_u^{(l-1)},\{h_u^(l-1): u \in  \mathcal{N}(v)\}) \ \ l= 1,\dots L$$dove:
-- $AGG_{\mathbf{W}^{(l)}}$  aggrega (propaga) i __messaggi__ dai nodi vicini, includendo un operatore invariante per permutazione sull'insieme dei vicini (ad esempio, una somma) e combinazioni delle attivazioni delle unità della rete neurale in $h$, dove $\mathbf{W}$ sono i parametri liberi del modello. 
-- $L_v$ rappresentano le etichette dei nodi.  
-- $\mathcal{N}$ è definito in base alla matrice di adiacenza $A$ del grafo.
-
-- Applicare questo calcolo a ciascun nodo del grafo corrisponde a una visita parallela e non ordinata del grafo a ogni iterazione $l$.
-Abbiamo una grande flessibilità nell'implementazione di questi operatori, con molte variazioni di modello disponibili.
-- $\mathbf{h}^{(l)}=relu(\hat{A}h^{l-1}W^{(l)})\hat{A}$ (GCN)
-- $\mathbf{h}^{(l)}=f(W^{(l)}_1h^{l-1}+W^{(l)})Ah^{l-1}$
-
-
-
-
-
-
-### Graph Convolutional network  (GCN) 
-un modo per allenare reti neurali per grafi è costruire iterativamente una rete sfruttando il meccanismo di passaggio di messaggi.
-arche
-
-l algoritmo graph 4 neural network ad ogni iterazione si aggiunge un layer è il campo recettivo è incrementalmente esteso in funzione della profondità.
-![[IMG - GCN radius.png]]
-e calcola una singola variabile di stato per ogni layer e per ogni layer che vengono poi  combinate in un neurone di output. 
-![[IMG - GCN Percettiva Radius.png]]
-Formalmente può essere descritto da 
-
-$$
-\mathbf{h}_v^{(l)} = 
-\begin{cases}  
-
-\displaystyle h_v^{(1)}=\left( \sum^{l^v}_{j=0}w_{1_j}L_j(v) \right) \\
-\displaystyle h_v^{(l)}=f\left( \sum^{L^v}_{j=0}w_{l_j}L_j(v)+\sum^{l-1}_{j=1}\hat{w}_{j_j}\sum_{u \in  N(v)}h_u^{(j)} \right)
-\end{cases}$$
-
-
-
-### Graph Echo state network
-un approccio alle reti per grafi tramite reti randomizate è l utilizzo delle [[Reservoir Computing - Echo State Network (ESN)| Echo State network]] dove si usa un vettore un vettore $h$ per il reservori
-$$\begin{cases}
-
-\mathbf{h}_v^{(l)}=\tanh\left( \sum^{L^v}_{j=0}\overline{w_{l_j}}L_j(v) + \sum_{u\in  N(v)  } \hat{W}h_u^{(l-1)}\right) \\
-y(\mathbf{g})=\mathbf{W}_{out}X(\mathbf{h}(\mathbf{g}))
-\end{cases}
-$$
-![[IMG - Dynamical System.png]]
-
-#### Problemi aperti nei modelli di apprendimento su grafi
-alcuni dei problemi del campo attualmente sono:
-- __Efficienza__: Scalabilità dell'addestramento su grafi molto grandi (es. >100K nodi).  
-- __Under-reaching__: I modelli di deep learning potrebbero non riuscire a sfruttare le interazioni a lungo raggio tra i nodi del grafo.  
-- __Espressività__  I modelli di deep learning potrebbero non essere in grado di apprendere rappresentazioni significative dei nodi.  
-
-
-#### NN4G+ e l'Espansione Sinergica Doppia 
-
-NN4G+ è costruito in modo incrementale, con un'espansione sinergica doppia.
-
-- Alleniamo un'unità alla volta: nessun backprop end-to-end attraverso i livelli.
-- Un livello viene espanso in modo greedy fino a quando l'accuratezza di validazione non migliora più.
-- Nuovi livelli vengono aggiunti fino a quando l'accuratezza di validazione non migliora più.
-
-
-![[IMG- NN4G+ automatic architecture.png]]
-
-
-NN4G+ costruisce un'architettura neurale in **minuti** invece che in **ore**, rispetto ai modelli addestrati end-to-end.  
-![[IMG - NN4G+ arctecture graph.png]]
-
-- In un confronto equo con la selezione esplicita dell'architettura, **NN4G+ accelera di oltre 10×** senza penalizzare l'accuratezza.  
-  ![[IMG- NN4G+ training and selection time.png]]
-
-
-
-alcune problematiche sono:
-- **Over-smoothing**: con l’aumento della profondità, grazie al meccanismo del message passing le rappresentazioni ad alto livello tendono a diventare simili ovvero i diventano indistinguibili
-	- ![[IMG-NN4G+ over smothing.png]]
-- __Over-squashing__: I campi ricettivi aumentano **esponenzialmente** con la profondità, mentre la dimensione dell'embedding del nodo rimane fissa 
-	- Decrescita esponenziale della sensibilità delle rappresentazioni dei nodi rispetto alle feature in ingresso.  
-	- Questo effetto è quantificato attraverso il **Jacobiano**, in funzione del numero di layer $h_v^{(L)}$
-	- ![[IMG - NN4G+ over squashing.png]]
-
- 
- un altro broblema è la difficolta di classificazone di grafi __eterofili__ siccome il __message passing__ introduce un Bias verso grafi omogenei, con difficoltà nell'adattarsi a strutture eterofile.  
- __HomoPhilic graph__ : I nodi nello stesso vicinato appartengono prevalentemente alla stessa classe.  
-__EteroPhilic graph__: I nodi della stessa classe tendono a essere più distanti tra loro.  
-   
-![[IMG - HomoPhilic EteroPhilic graphs.png]]
-
-## Applicazioni e sviluppi futuri
-
-I DGN trovano applicazioni in molti ambiti, come:
-- **Bioinformatica**: predizione di proprietà dinamiche nei percorsi biochimici
-- **Chimica computazionale**: generazione di nuove molecole con reti generative
-- **Spiegabilità dei modelli**: XAI per interpretare le decisioni delle reti neurali
-- **Apprendimento continuo**: estensione delle DGN a contesti di lifelong learning
-
-Le ricerche future mirano a **rendere più efficienti le DGN**, migliorando la loro scalabilità, interpretabilità e applicabilità a contesti dinamici.
-
-
-
+## Deep learning su grafi
+Il **Deep Learning for Graph** costituisce oggi la realizzazione neurale piu importante dello SDL sui grafi. In questo quadro il nodo non viene rappresentato isolatamente, ma attraverso processi di propagazione locale dell'informazione, aggregazione permutation invariant e costruzione di embedding contestuali. Il ramo include modelli come
+- [[Deep Graph Networks (DGN)]]
+- [[Graph Convolutional Network (GCN)|Graph Convolutional Networks]],
+- [[Graph Attention Network]], 
+- [[Graph Echo State Network]],
+- [[Deep Reservoirs for Graphs]] 
+- [[Graph Transformer]].
+Lo **Structural Domain Learning (SDL)** non coincide pero solo con il deep learning su grafi: il campo e piu generale e riguarda ogni situazione in cui il dominio di apprendimento e strutturato. Nei grafi, tuttavia, si concentra oggi la parte piu sviluppata del quadro teorico e applicativo.

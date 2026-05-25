@@ -17,7 +17,7 @@ $$
 \tilde{x} = G_{\theta_G}(z)
 $$
 
-Il generatore induce una distribuzione $p_G(x)$ sui campioni sintetici, mentre i dati reali seguono $p_{\text{data}}(x)$. Poiche $p_G(x)$ non viene valutata in forma chiusa, l'addestramento non usa direttamente il [[Stima Parametrica - Maximum Liklehood|Maximum Likelihood]] come nei [[Modelli Probabilistici|modelli probabilistici]] espliciti.
+Il generatore induce una distribuzione $p_G(x)$ sui campioni sintetici, mentre i dati reali seguono $p_{\text{data}}(x)$. Poiche $p_G(x)$ non viene valutata in forma chiusa, l'addestramento non usa direttamente il [[Maximum Liklehood learning|Maximum Likelihood]] come nei [[Modelli Probabilistici|modelli probabilistici]] espliciti.
 
 Una GAN contiene due reti:
 - **Generator** $G_{\theta_G}$: riceve rumore latente e produce campioni sintetici.
@@ -62,7 +62,7 @@ tipicamente all'inizio del training si ha che $D(G(z)) \approx 0$ ovvero si ha c
 
 Per evitarlo si usa spesso la **non-saturating loss**: $$C_G^{\text{NS}} = \max_{\theta_G}\mathbb{E}_{z \sim p_z}[\log D_{\theta_D}(G_{\theta_G}(z))]$$ovvero il generatore vuole massimizzare la likelihood del del errore del discriminatore. Questa variante mantiene lo stesso equilibrio desiderato della loss minimax, ma fornisce un segnale di gradiente piu forte quando i campioni generati sono ancora chiaramente falsi.
 ![[IMG - problematica della soluzione con massimizazione e minimizazione alternati.png]]
-La curva **maximum likelihood cost** nella figura non e la loss GAN standard, ma un confronto teorico con la [[Stima Parametrica - Maximum Liklehood|Maximum Likelihood]]. Con Maximum Likelihood si vorrebbe aumentare direttamente la probabilita che il generatore assegna ai dati reali, cioe:
+La curva **maximum likelihood cost** nella figura non e la loss GAN standard, ma un confronto teorico con la [[Maximum Liklehood learning|Maximum Likelihood]]. Con Maximum Likelihood si vorrebbe aumentare direttamente la probabilita che il generatore assegna ai dati reali, cioe:
 $$
 \max_{\theta_G} \mathbb{E}_{x \sim p_{\text{data}}}[\log p_G(x)]
 $$
@@ -162,7 +162,7 @@ $$
 z_G = z_1 - z_2 + z_3
 $$
 
-Non e garantito dall'obiettivo, ma suggerisce che il generatore possa imparare una rappresentazione strutturata della manifold dei dati, in linea con l'idea di [[Latent Model]].
+Non e garantito dall'obiettivo, ma suggerisce che il generatore possa imparare una rappresentazione strutturata della manifold dei dati, in linea con l'idea di [[Latent or hidden Model]].
 ![[IMG - Deep convolutional Generative Adversarial Networks (GAN).png]]
 
 

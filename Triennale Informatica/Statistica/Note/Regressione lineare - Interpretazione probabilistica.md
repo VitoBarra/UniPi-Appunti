@@ -18,7 +18,7 @@ Questo succede perché, una volta fissato $x_i$, il termine $a+bx_i$ è una cost
 La retta non descrive quindi direttamente tutti i punti osservati, ma descrive la [[Variabili aleatoria - Valore atteso|media]] della distribuzione da cui vengono generati:$$\mathbb{E}[Y_i\mid x_i]=a+bx_i$$La [[Variabili aleatorie - Varianza|varianza]] $\sigma^2$ misura invece quanto i punti possono oscillare attorno alla retta.
 
 #### Relazione con i minimi quadrati
-Questa interpretazione è coerente con la definizione tramite [[Modelli lineari - Retta di regressione|minimi quadrati]]. Infatti, sotto l'ipotesi di errori gaussiani, stimare $a$ e $b$ tramite [[Stima Parametrica - Maximum Liklehood|massima verosimiglianza]] porta allo stesso problema di ottimizzazione:$$\min_{a,b}\sum_i (y_i-a-bx_i)^2$$Quindi la retta dei minimi quadrati può essere vista come lo stimatore di massima verosimiglianza del modello:
+Questa interpretazione è coerente con la definizione tramite [[Modelli lineari - Retta di regressione|minimi quadrati]]. Infatti, sotto l'ipotesi di errori gaussiani, stimare $a$ e $b$ tramite [[Maximum Liklehood learning|massima verosimiglianza]] porta allo stesso problema di ottimizzazione:$$\min_{a,b}\sum_i (y_i-a-bx_i)^2$$Quindi la retta dei minimi quadrati può essere vista come lo stimatore di massima verosimiglianza del modello:
 $$
 Y_i\mid x_i\sim \mathcal{N}(a+bx_i,\sigma^2)
 $$

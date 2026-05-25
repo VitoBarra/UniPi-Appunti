@@ -16,10 +16,10 @@ Si assume:
 - $\pi_m\geq 0$ e $\sum_{m=1}^M \pi_m=1$, quindi $\pi=(\pi_1,\dots,\pi_M)$ e una [[Variabili Aleatorie Notevoli - Multinomiale|distribuzione multinomiale]]
 - $z_j\in\{1,\dots,M\}$ con $\mathcal{P}(z_j=m\mid \pi)=\pi_m$
 - [[Probabilita condizionata|condizionatamente]] a $z_j=m$, il dato $x_j$ osservato ha distribuzione [[Variabili Aleatorie Notevoli - Gaussiana|gaussiana]] $$\mathcal{P}(x_j\mid z_j=m)\sim\mathcal{N}(\mathbf{\mu}_m,\mathbf{\sigma}_m)$$La variabile $z_j$ seleziona quindi la componente gaussiana da cui viene estratto $x_j$.
-La **distribuzione marginale** $\mathcal{P}(x)$ osservata si ottiene per [[FJD - Marginalizzazione|marginalizzazione]] della variabile latente da $\mathcal{P}(x,z)$ ![[IMG - Mixture of Gaussian model marginalizazzione 1.png]]
+La **distribuzione marginale** $\mathcal{P}(x)$ osservata si ottiene per [[FJD - Marginalizzazione|marginalizzazione]] della variabile latente da $\mathcal{P}(x,z)$ ![[IMG - Mixture of Gaussian model marginalizazzione.png]]
 
 I parametri del modello sono quindi i coefficienti di mixing $\pi_m$, le medie $\mu_m$ e i parametri di dispersione $\sigma_m$ e in [[Bayesian network - Plate notation|plate notation]] il modello risulta:
-![[IMG - Mixture of Gaussian model Plate notation 1.png]]
+![[IMG - Mixture of Gaussian model Plate notation.png]]
 
 Il **GMM** rappresenta una densita multimodale come somma di componenti gaussiane. Ogni coefficiente $\pi_m$ misura il peso relativo della componente $m$, ogni media $\mu_m$ ne determina la posizione e ogni parametro $\sigma_m$ ne controlla la dispersione. La presenza della variabile latente rende il modello adatto a descrivere sottopopolazioni non osservabili direttamente.
 
@@ -70,7 +70,7 @@ $$
 \log \mathcal{L}_c(\theta\mid \mathbf{X},\mathbf{Z})=\sum_{j=1}^N\sum_{m=1}^M \bar z_{jm}\log\left(\pi_m \mathcal{P}(x_j\mid \mu_m,\sigma_m)\right)
 $$
 Questa espressione e piu semplice da trattare perche separa i contributi delle diverse componenti.
-La presenza del logaritmo di una somma impedisce una massimizzazione diretta con i metodi usuali di [[Stima Parametrica - Maximum Liklehood|massima verosimiglianza]].
+La presenza del logaritmo di una somma impedisce una massimizzazione diretta con i metodi usuali di [[Maximum Liklehood learning|massima verosimiglianza]].
 
 ## Learning tramite Expectation massimization
 

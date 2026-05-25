@@ -31,7 +31,7 @@ tags:
 	5. [[Reti neurali Feed-Forward (FF)]]
 	6. [[Back Propagation]]
 	7. [[RNN - Long Short-term Memory (LSTM)]]
-5. [[RNN - Transformer]]
+5. [[Transformer]]
 6. [[Large Language Models (LLM)]]
 
 ### Project 

@@ -49,3 +49,6 @@ Il calcolo delle variazioni costituisce la base matematica della **meccanica lag
 $S[q] = \int_{t_1}^{t_2} L(q,\dot q,t)\,dt$
 
 deve essere stazionaria; applicando l’equazione di Eulero–Lagrange si ottengono le equazioni del moto del sistema.
+
+
+![[IMG - Calcolo variazionle.png]]

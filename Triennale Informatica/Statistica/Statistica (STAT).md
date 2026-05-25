@@ -86,7 +86,7 @@ tags:
 		1. [[Statistiche campionarie]]
 	2. [[Statistica Parametrica]]
 		1. [[Stimatori statistici]]
-		2. [[Stima Parametrica - Maximum Liklehood]]
+		2. [[Maximum Liklehood learning]]
 		3. [[Stima parametrica - Metodo dei momenti ]]
 		4. [[Statistiche campionarie su variabili gaussiane]]
 		5. [[Stima parametrica - Binomiale]]

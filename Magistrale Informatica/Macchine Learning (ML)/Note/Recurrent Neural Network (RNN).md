@@ -61,7 +61,7 @@ l' addestramento viene fatto tramite **Backpropagation Through Time (BPTT)**, ch
 Durante la __BPTT__ i gradienti possono diminuire esponenzialmente, rendendo difficile l'apprendimento di **dipendenze a lungo termine**. Questo fenomeno è dovuto alla moltiplicazione ripetuta della matrice dei pesi ricorrenti:  I valori  della matrice $\hat{W}$ vengono moltiplicati tra di loro $n$ volte quanti sono i vettori di ingresso perciò il valore del peso e’ $w^n$ quindi si ha che:
 - con $w<1$  __vanishing gradient__ il gradiente diventa troppo piccolo per fare degli spostamenti 
 - con $w>1$ __exploding gradient__ gradiente diventa troppo grande per spostarsi senza “mancare” il minimo
-Questa problematica è stata mitigata con altre architettura come la  [[RNN - Long Short-term Memory (LSTM)|LongShort-term Memory]] e dalle [[RNN - Gated reccurrent unit (GRU)|GRU]] e i [[RNN - Transformer|transformers]]
+Questa problematica è stata mitigata con altre architettura come la  [[RNN - Long Short-term Memory (LSTM)|LongShort-term Memory]] e dalle [[RNN - Gated reccurrent unit (GRU)|GRU]] e i [[Transformer|transformers]]
 
 
 

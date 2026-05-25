@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Variational Autoencoder (VAE)
 ---
-I **Variational Autoencoders** (**VAE**) trasformano l'idea degli [[Autoencoders (AE)|autoencoders]] in un [[Latent Model|modello latente]] [[Modelli Probabilistici|probabilistico]] e [[Modelli Generativi|generativo]].
+I **Variational Autoencoders** (**VAE**) trasformano l'idea degli [[Autoencoders (AE)|autoencoders]] in un [[Latent or hidden Model|modello latente]] [[Modelli Probabilistici|probabilistico]] e [[Modelli Generativi|generativo]].
 
 In un VAE, il codice $z$ latente non è un singolo vettore deterministico, ma una [[Variabili Aleatorie (Casuali)|variabile aleatoria]].
 Il modello definisce:
@@ -32,9 +32,9 @@ Il **VAE** introduce una distribuzione trattabile:$$q_{\phi}(z \mid x)$$che appr
 Nel VAE standard si usa una gaussiana diagonale:$$
 q_{\phi}(z \mid x)=\mathcal{N}\left(\mu_{\phi}(x),\sigma_{\phi}(x)^2I\right)$$quindi l'encoder non produce direttamente $z$, ma i parametri della distribuzione:$$\mu_{\phi}(x), \sigma_{\phi}(x)$$Da questa distribuzione si **campiona** poi un **valore latente** $z$ da passare al decoder. ![[IMG - Architettura Variational Autoencoder (VAE).png]]
 
-Per il training si utilizza un dataset $\mathcal{D}=\{x_1,\dots,x_N\}$. Assumendo gli esempi [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|indipendenti e identicamente distribuiti]], la likelihood del dataset è il prodotto delle likelihood dei singoli dati:$$L(\theta;\mathcal{D})=\prod_{i=1}^{N}\mathcal{P}_{\theta}(x_i)=\prod_{i=1}^{N}\int \mathcal{P}_{\theta}(x_i \mid z)\mathcal{P}(z)\,dz$$Massimizzare la log-likelihood significa quindi massimizzare:$$\log L(\theta;\mathcal{D})=\sum_{i=1}^{N}\log\int \mathcal{P}_{\theta}(x_i \mid z)\mathcal{P}(z)\,dz$$Il problema è che questo [[Integrali|integrale]] è di solito intrattabile quando il decoder è una [[Reti Neurali (NN)|rete neurale]] e $z$ è continuo.
+Per il training si utilizza un dataset $\mathcal{D}=\{x_1,\dots,x_N\}$. Assumendo gli esempi [[Famiglia di variabili aleatorie Indipendenti e identicamente distribuite (IDD)|indipendenti e identicamente distribuiti]], la likelihood del dataset è il prodotto delle likelihood dei singoli dati:$$L(\theta;\mathcal{D})=\prod_{i=1}^{N}\mathcal{P}_{\theta}(x_i)=\prod_{i=1}^{N}\int \mathcal{P}_{\theta}(x_i \mid z)\mathcal{P}(z)\,dz$$Massimizzare la **log-likelihood** significa quindi massimizzare:$$\log L(\theta;\mathcal{D})=\sum_{i=1}^{N}\log\int \mathcal{P}_{\theta}(x_i \mid z)\mathcal{P}(z)\,dz$$Il problema è che questo [[Integrali|integrale]] è di solito intrattabile quando il decoder è una [[Reti Neurali (NN)|rete neurale]] e $z$ è continuo.
 
-Dato che $\log p_{\theta}(x)$ è intrattabile, il **VAE** massimizza un lower bound chiamato [[Evidence lower bound (ELBO)|Evidence Lower Bound]]. L'ELBO approssima **dal basso** la log-likelihood vera:
+Dato che $\log p_{\theta}(x)$ è intrattabile, il **VAE** massimizza un lower bound **chiamato** [[Evidence lower bound (ELBO) Method|Evidence Lower Bound]]. L'ELBO approssima **dal basso** la log-likelihood vera:
 $$
 \log p_{\theta}(x)
 \ge
@@ -141,7 +141,7 @@ x \mid
 \right)
 \right]
 $$
-![[UniPi-Appunti/Magistrale Informatica/Generative and Deep Learning (GDL)/media/IMG - Variational Autoencoder (VAE).png]]
+![[IMG - Variational Autoencoder (VAE).png]]
 
 ## Training e generazione
 Durante il training:

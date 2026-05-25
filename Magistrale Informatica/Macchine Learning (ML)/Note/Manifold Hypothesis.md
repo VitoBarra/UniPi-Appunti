@@ -20,4 +20,4 @@ Nel caso delle immagini:
 - un piccolo movimento lungo la manifold può cambiare un fattore significativo, come posa o illuminazione;
 - un movimento fuori dalla manifold può produrre rumore o una immagine non valida.
 Quindi i dati reali occupano solo una piccola regione strutturata dello spazio totale.
-![[IMG - manifold.png]]
+![[IMG - data manifold.png]]

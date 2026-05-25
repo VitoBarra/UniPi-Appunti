@@ -1,0 +1,34 @@
+---
+Course: "[[Human Language Technology (HLT)]]"
+Course 2: "[[Machine Learning (ML)]]"
+tags:
+  - ML
+Area: 
+topic: "[[Recurrent Neural Network (RNN)]]"
+SubTopic:
+---
+
+# RNN - Transformer
+---
+
+## Alternative alle RNN: Transformer e Attention Mechanism
+
+Le RNN presentano limitazioni nel parallelismo e nell'apprendimento di lunghe dipendenze. Per risolvere questi problemi, i **Transformer** sono stati introdotti nel 2017 con l'architettura **"Attention is All You Need"**.
+
+L'idea chiave dei Transformer è il **meccanismo di attenzione**, che calcola una rappresentazione ponderata di tutti gli stati precedenti:
+
+$$
+\text{Attention}(Q, K, V) = \text{softmax} \left( \frac{Q K^T}{\sqrt{d_k}} \right) V
+$$
+
+dove:
+- $Q$ è la matrice delle query,
+- $K$ è la matrice delle chiavi,
+- $V$ è la matrice dei valori,
+- $d_k$ è la dimensione delle chiavi.
+
+
+![[IMG - RNN - Transformer 1.png]]
+
+
+![[IMG - RNN - Transformer 2.png]]

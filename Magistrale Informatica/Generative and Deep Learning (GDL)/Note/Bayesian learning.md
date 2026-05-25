@@ -1,7 +1,9 @@
 ---
 Course: "[[Generative and Deep Learning (GDL)]]"
+Corse 1: "[[Statistica (STAT)]]"
 tags:
   - GDL
+  - STAT
 Area:
 topic:
 SubTopic:
