@@ -46,6 +46,7 @@ tags:
 	3. [[Anelli]]
     	4. [[Campi]]
     		5. [[Campo di Galois]]
+    6. [[Semigruppi]]
 14. [[Algebra]]
     3. [[Algebra Lineare (AL)]]
         1. [[Spazi Vettoriali]]

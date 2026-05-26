@@ -111,8 +111,9 @@ tags:
             1. [[Test Statistici - Benjamini-Hochberg correction]]
             2. [[Test Statistici - Bonferroni correction]]
 6. [[Markov chains]]
-    1. [[Discrete Time Markov Chain (DTMC)]]
-    1. [[Hidden Markov Model]]
+    1. [[Continue Time Markov Chain (CTMC)]]
+    2. [[Discrete Time Markov Chain (DTMC)]]
+    3. [[Hidden Markov Model]]
 
 ### Educational Material 🧱
 1.  [[Dispensa Statistica - Grotto, Maurelli, Pratelli.pdf]]
