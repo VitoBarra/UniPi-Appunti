@@ -23,6 +23,4 @@ Proprieta chiave:
 - migliorano l'efficienza rispetto a modelli ricorrenti end-to-end
 - sacrificano parte dell'adattivita per guadagnare stabilita e velocita
 
-
-## Varianti globali
 Il **Deep Learning for Graph** mantiene anche una linea ricorrente tramite i [[Deep Reservoirs for Graphs]], che fissano casualmente i pesi ricorrenti sotto vincoli di contrattivita e addestrano solo il readout. Operativamente, si conserva una dinamica contestuale stabile riducendo il costo di training, al prezzo di una minore adattivita interna, in continuita con [[RandRNN - Reservoir Computing|reservoir computing]], [[Reservoir Computing - Echo State Network (ESN)|echo state network]] e con il modello [[Graph Echo State Network]]. ![[IMG - Deep Reservoirs for Graphs.png]]

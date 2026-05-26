@@ -40,4 +40,3 @@ $$\begin{cases}
 y(\mathbf{g})=\mathbf{W}_{out}X(\mathbf{h}(\mathbf{g}))
 \end{cases}
 $$
-![[IMG - Dynamical System.png]]

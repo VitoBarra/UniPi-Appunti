@@ -75,16 +75,15 @@ tags:
 	2. [[Reservoir Computing - Liquid State Machine]] (extra)
 	3. [[Reservoir Computing - BackPropagation Decorrelation]] (extra)
 19. [[Structural Domain Learning (SDL)]]
-	1. [[z]]
-	2. [[Deep Graph Networks (DGN)]]
-	3. [[Graph Echo State Network]]
-	4. [[Contextual Neural Networks for Graphs Plus (NN4G+)]]
-	5. [[1-]]
-	6. [[Contractive Graph Neural Networks]]
-	7. [[Contextual Neural Networks for Graphs (NN4G)]]
-	8. [[Graph Attention Network]]
-	9. [[Deep Reservoirs for Graphs]]
-	10. [[Graph Transformer]]
+	1. [[Deep Graph Networks (DGN)]]
+		1. [[Graph Neural Networks (GNN)]]
+		2. [[Contextual Neural Networks for Graphs (NN4G)]]
+		3. [[Graph Convolutional Network (GCN)]]
+		4. [[Graph Echo State Network]]
+		5. [[Graph Transformer]]
+		6. [[z]]
+		7. [[z]]
+		8. [[Deep Reservoirs for Graphs]]
 20. [[Data analysis -  Clustering]]
 	1. [[K-Means]]
 	2. [[Self organizing Map (SOM)]]
@@ -94,4 +93,3 @@ tags:
 ### Educational Material 🧱
 1. [[Simon Haykin - Neural Networks - 2ed.pdf]]
 2. [[Simon Haykin - Neural Networks - 3ed.pdf]]
-

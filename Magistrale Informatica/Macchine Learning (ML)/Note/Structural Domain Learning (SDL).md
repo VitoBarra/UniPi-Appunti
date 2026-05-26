@@ -27,6 +27,8 @@ Lo **Structural Domain Learning (SDL)** vuole mappare dati strutturati in rappre
 Nel caso dei grafi, ogni nodo puo essere descritto da feature locali e ogni arco da etichette o attributi; tuttavia il dato non coincide con l'insieme delle feature, perche la topologia del grafo e parte dell'informazione. Lo **Structural Domain Learning (SDL)** tratta quindi il dato come una coppia formata da contenuto e struttura, e richiede modelli che integrino entrambe le componenti in modo coerente. In questo contesto l'apprendimento gerarchico di rappresentazioni permette di diffondere in modo efficiente l'informazione lungo la struttura del grafo: la rappresentazione di un nodo dipende dal suo contesto, inizialmente locale e poi progressivamente piu ampio all'aumentare della profondita del modello.
 ![[IMG - propagazione delle informazioni su grafi.png]]
 
+Lo **Structural Domain Learning (SDL)** non coincide pero solo con il deep learning su grafi: il campo e piu generale e riguarda ogni situazione in cui il dominio di apprendimento e strutturato. Nei grafi, tuttavia, si concentra oggi la parte piu sviluppata del quadro teorico e applicativo.
+
 ## Task generali
 Lo **Structural Domain Learning (SDL)** organizza i problemi in base alla natura dell'output desiderato. Se il dataset e un singolo grande grafo, i task tipici sono predizioni locali o relazionali; se il dataset e una collezione di grafi indipendenti, il task riguarda l'intera struttura. 
 
@@ -50,12 +52,3 @@ Lo **Structural Domain Learning (SDL)** impone vincoli che non compaiono nei dat
 
 Un secondo vincolo e la cardinalita variabile del vicinato: un nodo puo avere pochi o molti vicini, e l'operatore di aggregazione deve quindi lavorare su insiemi o multinsiemi non ordinati. Un terzo vincolo e la presenza di dipendenze a lungo raggio, che rende non banale propagare informazione in profondita senza degradare le rappresentazioni.
 
-## Deep learning su grafi
-Il **Deep Learning for Graph** costituisce oggi la realizzazione neurale piu importante dello SDL sui grafi. In questo quadro il nodo non viene rappresentato isolatamente, ma attraverso processi di propagazione locale dell'informazione, aggregazione permutation invariant e costruzione di embedding contestuali. Il ramo include modelli come
-- [[Deep Graph Networks (DGN)]]
-- [[Graph Convolutional Network (GCN)|Graph Convolutional Networks]],
-- [[Graph Attention Network]], 
-- [[Graph Echo State Network]],
-- [[Deep Reservoirs for Graphs]] 
-- [[Graph Transformer]].
-Lo **Structural Domain Learning (SDL)** non coincide pero solo con il deep learning su grafi: il campo e piu generale e riguarda ogni situazione in cui il dominio di apprendimento e strutturato. Nei grafi, tuttavia, si concentra oggi la parte piu sviluppata del quadro teorico e applicativo.
