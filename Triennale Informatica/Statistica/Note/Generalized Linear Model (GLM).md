@@ -9,72 +9,55 @@ SubTopic:
 
 # Generalized Linear Model (GLM)
 ---
-Un **Generalized Linear Model** (**GLM**) è un [[Modelli Probabilistici  - Agire in domini incerti|modello probabilistico]] usato per descrivere come cambia la [[Variabili aleatoria - Valore atteso|media]] di una _[[Variabili Aleatorie (Casuali)|variabile aleatoria]] risposta_ al variare di alcune [[Variabili aleatorie - Covarianza e correlazione|covariate]].
+Un **Generalized Linear Model** (**GLM**) è un [[Modelli Probabilistici  - Agire in domini incerti|modello probabilistico]] per studiare relazioni tra variabili. Fornisce un framework comune che generalizza la [[Regressione lineare - Interpretazione probabilistica|regressione lineare vista come modello probabilistico]], la [[Regressione Logistica|regressione logistica]] e altri modelli per outcome diversi.  nei GLM lo stesso schema viene esteso anche a conteggi, proporzioni e altri tipi di risposta.
 
-Il **GLM** è una generalizzazione della [[Regressione lineare - Interpretazione probabilistica|regressione lineare vista come modello probabilistico gaussiano]] in cui  si assume che la risposta sia continua e che gli errori siano [[Variabili Aleatorie Notevoli - Gaussiana|gaussiani]]; 
-
-nei **GLM** invece scegliamo si assume che ogni osservazione $Y_i$ segua una certa [[Legge di Probabilita|distribuzione]], scelta in base al tipo di dato. Per esempio si può usare:
-- [[Variabili Aleatorie Notevoli - Gaussiana|Gaussiana]] per dati continui
-- [[Variabili Aleatorie Notevoli - Bernulli|Bernoulli]] o una [[Variabili Aleatorie Notevoli - Binomiale|Binomiale]] per dati binari o proporzioni,
-- [[Variabili Aleatorie Notevoli - Poisson|Poisson]] per conteggi
-- [[Variabili aleatorie Notevoli - Negative Binomial|Negative Binomial]] per conteggi con overdispersion.
-
-La distribuzione scelta determina anche la relazione tra [[Variabili aleatoria - Valore atteso|media]] e [[Variabili aleatorie - Varianza|varianza]]. Indicando con $$\mu_i=\mathbb{E}[Y_i]$$la media della risposta, il GLM non impone necessariamente che $\mu_i$ sia una funzione lineare delle covariate. Impone invece che una trasformazione della media sia lineare nei parametri.
-
-Si costruisce quindi un predittore lineare $\eta_i$ a partire dalle covariate: $$\eta_i=x_i^T\beta$$dove:
-- $x_i$ è il vettore delle covariate dell'osservazione $i$
-- $\beta$ è il vettore dei parametri da stimare
-
-La media $\mu_i$ viene collegata al predittore lineare tramite una **funzione di link** $g$:$$g(\mu_i)=\eta_i$$cioè$$\mu_i=g^{-1}(\eta_i)$$Questa è la forma generale del modello: si sceglie una distribuzione per $Y_i$, si definisce la sua media $\mu_i$, e si usa una funzione di link per rendere lineare nelle covariate una trasformazione della media.
-
-La funzione di link serve anche a rispettare il supporto della variabile risposta. Per esempio, se $Y_i$ è un conteggio, la media deve essere positiva
+L'idea di fondo è: dato un outcome o **risposta** $Y$, vogliamo capire come una o più variabili esplicative influenzano il suo [[Variabili aleatoria - Valore atteso|valore atteso]]. 
+In un dataset con osservazioni $i=1,\dots,n$ distinguiamo:
+- **risposta** $Y_i$: la variabile che vogliamo **modellare o predire**;
+- **covariate** $x_i=(x_{i1},\dots,x_{ip})$: le variabili esplicative osservate per la stessa unità.
+Una covariata è un input del modello, ad esempio trattamento/controllo, età, sesso, dose, batch, tempo o gruppo sperimentale.
 
 
-#### Esempi
 
-Nel modello lineare classico:
-$$
-Y_i\sim \mathcal{N}(\mu_i,\sigma^2)
-$$
-e si usa il link identità:
-$$
-\mu_i=x_i^T\beta
-$$
+per modellare correttamente $Y_i$ si cerca di capire la  **media condizionata delle osservazione della risposta** è ovvero [[Variabili aleatoria - Valore atteso|valore atteso]] [[Probabilita condizionata|condizionao]] ai valori **osservati delle covariate**, cioè $$\mu_i=\mathbb{E}[Y_i\mid x_i]$$Questa quantità rappresenta il valore medio che ci aspettiamo per $Y_i$ tra osservazioni con covariate uguali a $x_i$. Se $Y_i$ è binaria, $\mu_i$ è una probabilità; se $Y_i$ è un conteggio, $\mu_i$ è il conteggio medio atteso.
 
-Nella regressione logistica la risposta è binaria, quindi si usa una variabile [[Variabili Aleatorie Notevoli - Bernulli|Bernoulli]]:
-$$
-Y_i\sim Bernoulli(p_i)
-$$
-e il link logit:
-$$
-\log\frac{p_i}{1-p_i}=x_i^T\beta
-$$
+per fare ciòin un **GLM** è costruito combinando tre componenti.
 
-Nella regressione di [[Variabili Aleatorie Notevoli - Poisson|Poisson]] la risposta è un conteggio:
-$$
-Y_i\sim Poisson(\mu_i)
-$$
-e si usa tipicamente il link [[Funzione logaritmica|log]]:
-$$
-\log(\mu_i)=x_i^T\beta
-$$
+La **componente casuale** specifica la [[Legge di Probabilita|distribuzione]] della risposta $Y_i$. 
+Nei GLM classici questa distribuzione appartiene alla [[Famiglia esponenziale di distribuzioni|famiglia esponenziale]], una classe che include molte distribuzioni comuni:
+- [[Variabili Aleatorie Notevoli - Gaussiana|Gaussiana]] per risposte continue;
+- [[Variabili Aleatorie Notevoli - Bernulli|Bernoulli]] o [[Variabili Aleatorie Notevoli - Binomiale|Binomiale]] per risposte binarie o proporzioni;
+- [[Variabili Aleatorie Notevoli - Poisson|Poisson]] per conteggi;
+- [[Variabili Aleatorie Notevoli - Gamma|Gamma]] per variabili positive continue.
+La distribuzione scelta deve rispettare il tipo di valori che la risposta può assumere. Per esempio, un conteggio può assumere solo valori interi non negativi, quindi una Gaussiana può essere solo un'approssimazione; una Poisson è spesso più naturale. La distribuzione scelta determina anche la relazione tra [[Variabili aleatoria - Valore atteso|media]] e [[Variabili aleatorie - Varianza|varianza]].
 
-Nel caso di conteggi con overdispersion si può usare una [[Variabili aleatorie Notevoli - Negative Binomial|Negative Binomial]]:
-$$
-Y_i\sim NB(\mu_i,\phi)
-$$
-con
-$$
-Var(Y_i)=\mu_i+\phi\mu_i^2
-$$
-e anche qui si usa spesso il link [[Funzione logaritmica|log]]:
-$$
-\log(\mu_i)=x_i^T\beta
-$$
+La **componente sistematica** combina le covariate in una **forma lineare**. Si costruisce il **predittore lineare** $$\eta_i=x_i^T\beta=\beta_0+\beta_1x_{i1}+\dots+\beta_px_{ip}$$dove $x_i$ è il vettore delle covariate dell'osservazione $i$ e $\beta$ è il vettore dei parametri da stimare.
 
-#### Stima e test
-I parametri $\beta$ sono stimati tramite [[Maximum Liklehood learning|massima verosimiglianza]].
+Il termine **lineare** qui non significa che la media $\mu_i$ debba essere lineare nelle covariate. Significa che è lineare il predittore $\eta_i$, cioè la quantità costruita sulla scala del link.
 
-Una volta stimato il modello, si possono fare [[Test Statistici|test statistici]] sui coefficienti. Tipicamente si testa:$$H_0:\beta_j=0$$cioè si verifica se la covariata $j$ ha un effetto sulla media della risposta.
+Questa parte si chiama sistematica perché raccoglie l'effetto ordinato e modellato delle covariate sulla risposta. Le covariate possono essere trattate come valori osservati/fissati, anche quando nella realtà derivano da un processo casuale.
 
-Il coefficiente $\beta_j$ non agisce direttamente sempre su $\mu_i$, ma sul predittore lineare $\eta_i$. Per questo la sua interpretazione dipende dalla funzione di link usata.
+
+La **funzione di link** $g$ collega la **componente casuale** e la **componente sistematica**. Si impone che una trasformazione della media sia uguale al predittore lineare: $$g(\mu_i)=\eta_i=x_i^T\beta$$Questa scrittura non significa che $\mu_i$ sia già calcolata e poi trasformata. Significa che $\mu_i$ è definita implicitamente come il valore che soddisfa la relazione. Equivalentemente: $$\mu_i=g^{-1}(x_i^T\beta)$$Quindi il modello può essere **non lineare sulla scala originale della risposta**, anche se resta lineare sulla scala del link.
+La funzione di link serve anche a rispettare il supporto della risposta. Se $Y_i$ è binaria, la media è una probabilità e deve stare tra $0$ e $1$; se $Y_i$ è un conteggio, la media deve essere positiva.
+
+Esempi:
+- **link identità**: $g(\mu_i)=\mu_i$, quindi $\mu_i=x_i^T\beta$;
+- **link logit**: $g(p_i)=\log\frac{p_i}{1-p_i}$, quindi $p_i=\frac{1}{1+e^{-x_i^T\beta}}$;
+- **link log**: $g(\mu_i)=\log(\mu_i)$, quindi $\mu_i=e^{x_i^T\beta}$.
+
+La funzione di link ottenuta naturalmente dalla forma in [[Famiglia esponenziale di distribuzioni|famiglia esponenziale]] è detta **link canonico**. Per esempio, il link canonico della Binomiale/Bernoulli è il **logit**, mentre il link canonico della Poisson è il **log**. In alcuni casi si possono usare link diversi dalla scelta canonica, ad esempio probit o complementary log-log per risposte binarie.
+
+
+## Stima e test
+I parametri $\beta$ sono stimati dai dati tramite [[Maximum Liklehood learning|massima verosimiglianza]]. Nel linguaggio di [[Stimatori statistici]], $\hat{\beta}$ è uno **stimatore** dei parametri ignoti $\beta$, perché è una statistica calcolata dal campione.
+Una volta ottenuto $\hat{\beta}$, si sostituisce $\beta$ nel predittore lineare e si ottiene il **predittore lineare stimato** $$\hat{\eta}_i=x_i^T\hat{\beta}$$Questa quantità è lineare nelle covariate sulla scala del link.
+
+La **media stimata** della risposta si ottiene poi tornando alla scala originale con l'inversa del link: $$\hat{\mu}_i=g^{-1}(\hat{\eta}_i)=g^{-1}(x_i^T\hat{\beta})$$Quindi $\hat{\eta}_i$ è lineare, mentre $\hat{\mu}_i$ può essere non lineare nelle covariate.
+
+Una volta stimato il modello, si possono fare [[Test Statistici|test statistici]] sui coefficienti. Tipicamente si testa: $$H_0:\beta_j=0$$cioè si verifica se la covariata $j$ ha effetto sulla risposta, tenendo conto delle altre covariate presenti nel modello.
+
+Il coefficiente $\beta_j$ non agisce sempre direttamente su $\mu_i$: agisce sul predittore lineare $\eta_i$ e quindi sulla scala definita dalla funzione di link. Per questo l'interpretazione dei coefficienti dipende dal link:
+- con link identità, $\beta_j$ è una differenza additiva sulla media;
+- con link logit, $\beta_j$ è una differenza nei log-odds;
+- con link log, $e^{\beta_j}$ è un rapporto moltiplicativo sulla media o sul rate.

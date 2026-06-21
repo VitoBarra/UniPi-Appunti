@@ -1,10 +1,11 @@
 ---
+Course 2: "[[Statistica (STAT)]]"
 Course: "[[Human Language Technology (HLT)]]"
-Course 2: 
 tags:
   - HLT
-Area: 
-topic: 
+  - STAT
+Area:
+topic:
 SubTopic:
 ---
 # Regressione Logistica

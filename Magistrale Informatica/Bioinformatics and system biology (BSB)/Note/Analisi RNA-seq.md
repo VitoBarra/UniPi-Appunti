@@ -245,89 +245,160 @@ Una prima modellazione naturale del rapporto **media-varianza** dei conteggi RNA
 ![[IMG - poisson model per RNA-seq.png]]  
 Nei dati RNA-seq la **varianza cresce con la media** più rapidamente di quanto previsto dal modello di Poisson: nei grafici media–varianza la nuvola di punti si colloca sistematicamente sopra la relazione varianza = media. In altre parole si osserva **overdispersion**, cioè
 $$\mathrm{Var}(Y_{gi}) \gg \mathbb{E}[Y_{gi}],$$
-dovuta alla combinazione di variabilità biologica tra replicati ed effetti tecnici globali. Il [[Variabili Aleatorie Notevoli - Poisson|modello di Poisson]] non è quindi sufficiente a descrivere i conteggi. Si adotta la **Negative Binomial** (**NB**), che generalizza la Poisson introducendo un parametro di dispersione:$$\begin{array}{}
-Y_{gi}\sim \text{NB}(\lambda_{gi},\theta_g)\\
-\mathbb{E}[Y_{gi}] = \lambda_{gi}\\
-\mathrm{Var}(Y_{gi}) = \lambda_{gi} + \theta\,\lambda_{gi}^2
-\end{array}$$dove $\theta$ è il parametro di **dispersion**: controlla il termine quadratico che permette alla varianza di crescere più rapidamente della media e quindi di modellare la variabilità aggiuntiva osservata tra campioni.
-La quantità $\sqrt{\theta}$ è spesso interpretata come **biological coefficient of variation (BCV)**, che quantifica la variabilità relativa tra replicati biologici.
+dovuta alla combinazione di variabilità biologica tra replicati ed effetti tecnici globali. Il [[Variabili Aleatorie Notevoli - Poisson|modello di Poisson]] non è quindi sufficiente a descrivere i conteggi. Si adotta la **Negative Binomial** (**NB**), che generalizza la Poisson introducendo un parametro di dispersione:
+$$
+\begin{array}{}
+Y_{gi}\sim \text{NB}(\mu_{gi},\phi_g)\\
+\mathbb{E}[Y_{gi}] = \mu_{gi}\\
+\mathrm{Var}(Y_{gi}) = \mu_{gi} + \phi_g\mu_{gi}^2
+\end{array}
+$$
+dove $\mu_{gi}$ è il valore atteso dei conteggi per il gene $g$ nel campione $i$, mentre $\phi_g$ è il parametro di **dispersione** del gene: controlla il termine quadratico che permette alla varianza di crescere più rapidamente della media e quindi di modellare la variabilità aggiuntiva osservata tra campioni.
+In [[edgeR - DE per RNAseq|edgeR]], la quantità $\sqrt{\phi_g}$ è spesso interpretata come **biological coefficient of variation (BCV)**, cioè una misura della variabilità relativa tra replicati biologici.
 ![[IMG - RNA-seq overdispersion.png]]
 
 
+### Dai test alla lista di geni
+La **differential expression analysis** (**DEA**) produce, per ogni gene, una stima dell'effetto e una misura di incertezza. Nei workflow basati su [[DESeq2 - DE per RNAseq|DESeq2]] o [[edgeR - DE per RNAseq|edgeR]], l'effetto è tipicamente espresso come **log2 fold change**:$$\log_2FC_g = \log_2\left(\frac{\text{espressione nella condizione A}}{\text{espressione nella condizione B}}\right)$$Un valore positivo indica maggiore espressione nella condizione al numeratore, un valore negativo indica minore espressione. Il fold change da solo non basta: un effetto grande stimato su conteggi bassi o molto variabili può essere poco affidabile.
+
+Qui il **modello statistico** è il modello di conteggio usato da tool come [[DESeq2 - DE per RNAseq|DESeq2]] e [[edgeR - DE per RNAseq|edgeR]]: un [[Generalized Linear Model (GLM)|GLM]] basato su [[Variabili aleatorie Notevoli - Negative Binomial|Negative Binomial]]. Per ogni gene $g$, il modello descrive i conteggi osservati nei campioni e collega la media attesa $\mu_{gi}$ alle variabili sperimentali:$$\log(\mu_{gi}) = \log(s_i) + \beta_{g,0} + \beta_{g,\text{condizione}}x_i$$dove $s_i$ è il fattore di normalizzazione del campione $i$, $x_i$ indica la condizione sperimentale del campione e $\beta_{g,\text{condizione}}$ misura l'effetto della condizione sull'espressione del gene $g$. Se questo coefficiente è vicino a zero, il gene non mostra una differenza sistematica tra le condizioni; se è molto diverso da zero, il gene potrebbe essere differenzialmente espresso.
+
+Il [[Test Statistici|test statistico]] formalizza questa domanda confrontando due ipotesi:$$
+\begin{align}
+H_0: \beta_{g,\text{condizione}}  =  0  \\
+H_1: \beta_{g,\text{condizione}}  \neq   0
+\end{align}
+$$$H_0$ dice che la condizione non ha effetto sull'espressione del gene, quindi le differenze osservate nei conteggi sono compatibili con variabilità biologica, rumore tecnico e campionamento. $H_1$ dice invece che l'effetto della condizione è diverso da zero.
+
+Il test non guarda solo quanto è grande l'effetto stimato, ma lo confronta con la sua incertezza. In pratica valuta se $\hat{\beta}_{g,\text{condizione}}$ è grande rispetto all'errore standard stimato dal modello. Un effetto grande ma molto incerto può non essere significativo; un effetto moderato ma stimato con precisione può invece risultare significativo.
+
+Il risultato è un [[Test Statistici - p-value|p-value]]: sotto l'ipotesi nulla, misura quanto sarebbe raro osservare un effetto almeno così estremo. Un p-value piccolo indica che i dati sono poco compatibili con $H_0$, quindi il gene è un candidato **differenzialmente espresso**.
+
+Poiché l'analisi testa migliaia di geni contemporaneamente, non si può interpretare direttamente una soglia nominale come $p < 0.05$. Anche in assenza di veri effetti biologici, su migliaia di test alcuni geni risulterebbero significativi per caso. Per questo si applica una correzione per test multipli, di solito controllando il [[FDR|False Discovery Rate]] tramite [[Test Statistici - Benjamini-Hochberg correction|Benjamini-Hochberg correction]]. Il valore corretto è spesso indicato come **adjusted $p$-value**, **$p_{adj}$** o **$q$-value**.
+
+Un gene viene considerato interessante quando combina:
+- **significatività statistica**, ad esempio $p_{adj} < 0.05$;
+- **dimensione dell'effetto**, ad esempio $|\log_2FC|$ sufficientemente grande;
+- **conteggi sufficienti**, perché geni quasi non espressi producono stime instabili;
+- **coerenza biologica**, valutata nel contesto sperimentale e non solo con una soglia automatica.
+
+L'output della **DEA** può essere usato in due modi:
+- come **lista non ordinata** di geni significativi, ottenuta applicando soglie su $p_{adj}$ e $\log_2FC$;
+- come **lista rankata**, ordinata secondo una [[Statistiche campionarie|statistica]], ad esempio **Wald statistic**, **likelihood ratio statistic**, $\log_2FC$ o $p_{adj}$.
+
+Questa distinzione è importante perché le analisi di enrichment possono richiedere input diversi: i metodi ORA usano tipicamente una lista di geni significativi, mentre GSEA usa una lista completa e ordinata.
+
+#### Controlli visuali di significatività
+I grafici diagnostici non dimostrano da soli che l'analisi è corretta, ma aiutano a capire se i risultati sono coerenti con le assunzioni del modello e con il disegno sperimentale.
+
+Il **volcano plot** rappresenta ogni gene come un punto:
+- asse $x$: $\log_2FC$, quindi direzione e dimensione dell'effetto;
+- asse $y$: $-\log_{10}(p_{adj})$, quindi significatività statistica.
+I geni più interessanti tendono a comparire in alto a sinistra o in alto a destra: hanno effetto grande e adjusted p-value basso. I geni vicini al centro hanno effetto piccolo; quelli in basso hanno bassa significatività.
+![[IMG - Vulcano plot significance per geni in  RNA-seq.png]]
+
+La **heatmap** dei top $N$ geni usa valori normalizzati o trasformati, ad esempio logCPM, VST o rlog. I geni sono sulle righe e i campioni sulle colonne. Se l'analisi cattura un segnale biologico coerente, i campioni dovrebbero raggrupparsi secondo la condizione sperimentale o secondo il fattore biologico atteso. Se invece si raggruppano per batch o per altri fattori tecnici, l'interpretazione della lista di geni è fragile.
+![[IMG - significance heatmap per Analisi RNA-seq.png]]
 
 
+Il **MA plot** confronta effetto e abbondanza media:
+- $M$ indica il log-ratio, spesso interpretabile come $\log_2FC$;
+- $A$ indica l'abbondanza media del gene.
+In un confronto ben normalizzato, la maggior parte dei geni dovrebbe essere centrata intorno a $M \approx 0$. Se la nuvola è spostata verso l'alto o verso il basso, può esserci un problema di normalizzazione, composizione della libreria o effetto globale molto forte. Ai bassi valori di $A$ ci si aspetta più rumore e fold change più instabili; agli alti valori di $A$ le stime dovrebbero essere più stabili.
 
-  
+Pattern curvi, cluster anomali o bande di punti possono indicare artefatti tecnici, bias di GC-content, geni appartenenti a famiglie ripetute o altri effetti sistematici non modellati.
+![[IMG - MA plot Analisi RNA-seq.png]]
 
-### Dai test alla lista geni: p-value, FDR e controlli di sanità
+#### Controlli prima dell'interpretazione biologica
 
-#### Perché la correzione per test multipli è obbligatoria
+Prima di passare a pathway enrichment o Gene Ontology conviene controllare:
+- separazione tra geni up-regolati e down-regolati;
+- soglie coerenti su $p_{adj}$ e $\log_2FC$;
+- presenza di geni con conteggi bassissimi, mitocondriali, ribosomiali o altri gruppi dominanti;
+- qualità del mapping degli identificativi, ad esempio Ensembl, gene symbol, Entrez ID o UniProt;
+- coerenza tra design sperimentale, covariate incluse nel modello e confronto biologico interpretato.
+Il mapping degli identificativi è un passaggio critico: molti tool di enrichment richiedono ID specifici e un mapping incompleto può far sparire geni dalla lista, alterando direttamente i risultati a valle.
 
-Nella **differential expression analysis** si esegue un test statistico per migliaia di geni. Anche senza segnale reale, usando una soglia nominale come 0.05, ci si aspetta quindi un numero non trascurabile di falsi positivi.   
+## Pathway enrichment e interpretazione biologica
 
-Per questo si usa tipicamente il controllo della **False Discovery Rate (FDR)**, spesso tramite procedura di Benjamini–Hochberg. 
+Una lista di geni differenzialmente espressi è spesso troppo lunga per essere interpretata gene per gene. Il **functional enrichment** o **pathway enrichment** serve a trasformare una lista di geni in un insieme più compatto di funzioni, pathway, processi biologici o annotazioni sovra-rappresentate. In questo senso collega i risultati RNA-seq a conoscenza biologica esterna.
 
-  
+L'enrichment può aiutare a:
+- ottenere una sintesi biologica dei risultati;
+- generare ipotesi sui processi cellulari coinvolti;
+- verificare se l'esperimento recupera segnali biologici attesi;
+- confrontare risultati con pathway noti, [[Gene Ontology (GO)|Gene Ontology]], [[Cell pathways|cell pathways]] o database funzionali.
+![[IMG - Analisi RNA-seq enrichment.png]]
 
-#### “Prima della biologia”: controlli pratici che evitano errori grossolani
+### ORA: Over-Representation Analysis
 
-Prima di interpretare biologicamente la lista di geni è utile controllare alcuni aspetti pratici:
-- separare geni up/down con soglie ragionate (es. padj e log2FC),
-- controllare artefatti evidenti (geni con conteggi bassissimi ovunque, dominanza di mitocondriali/ribosomiali),
-- mappare correttamente gli identificativi (Ensembl ↔ simboli ↔ Entrez) perché molti tool di enrichment richiedono ID specifici. 
-Qui lo snodo “ID mapping” è spesso sottovalutato: un mapping scorretto o incompleto altera direttamente le analisi biologiche successive e la narrativa finale.
+La **Over-Representation Analysis (ORA)** parte da una lista di geni selezionati, ad esempio geni con $padj < 0.05$ e $|\log_2FC| > 1$. Per ogni pathway o termine funzionale si chiede se nella lista significativa compaiono più geni associati a quel termine di quanti ci si aspetterebbe per caso.
 
-  
+Il caso tipico si basa su una tabella di contingenza:
+- geni nella lista e nel pathway;
+- geni nella lista ma non nel pathway;
+- geni fuori dalla lista ma nel pathway;
+- geni fuori dalla lista e fuori dal pathway.
 
-#### Diagnostica visiva come strumento di validazione, non estetica
+Il test più comune è il **test ipergeometrico** o il **test esatto di Fisher**. Se il p-value è basso, il pathway è sovra-rappresentato nella lista. Anche qui si corregge per test multipli, perché vengono testati molti pathway o termini GO contemporaneamente.
 
-Alcuni grafici funzionano come strumenti diagnostici:
-- **Volcano plot** (effetto vs significatività),   
-- **Heatmap** dei top N geni su valori normalizzati/trasformati,   
-- **MA plot** (simmetria e dipendenza dall’espressione media): utile per capire se la normalizzazione è ragionevole, e se grandi fold-change provengono soprattutto da geni a bassa espressione (più rumorosi).   
+Il vantaggio di ORA è la semplicità: prende una lista di geni e produce una lista di termini arricchiti. Il limite principale è che dipende da una soglia arbitraria: geni appena sopra o appena sotto il cutoff vengono trattati in modo completamente diverso.
 
-  
+### GSEA: Gene Set Enrichment Analysis
+La **Gene Set Enrichment Analysis (GSEA)** evita di scegliere subito una soglia rigida. Invece di usare solo i geni significativi, usa tutti i geni ordinati secondo una statistica, ad esempio:
+- Wald statistic;
+- likelihood ratio statistic;
+- $\log_2FC$;
+- signed $-\log_{10}(p)$.
 
-Questi grafici non “provano” che l’analisi è corretta, ma aiutano a riconoscere pattern incompatibili con assunzioni del modello o con una normalizzazione adeguata. 
+Per ogni gene set o pathway, GSEA valuta se i geni appartenenti a quel set tendono a concentrarsi in cima o in fondo alla lista rankata. Se un pathway contiene molti geni moderatamente up-regolati o down-regolati, GSEA può rilevarlo anche quando pochi geni superano una soglia stringente di significatività individuale.
 
-  
+GSEA è quindi utile quando:
+- gli effetti sono diffusi ma moderati;
+- si vuole evitare un cutoff arbitrario su $p_{adj}$;
+- interessa il comportamento coordinato di un intero pathway più che il singolo gene.
 
-## Dalla lista di geni alla biologia: enrichment, GO e limiti interpretativi
+### Gene Ontology e pathway database
 
-Una volta ottenuta una lista (spesso rankata) di geni, l’obiettivo è collegarla a conoscenza biologica esistente tramite **functional enrichment**. Le lezioni definiscono l’enrichment come metodo computazionale per identificare funzioni/pathway sovra-rappresentati, utile per generare ipotesi e riassumere risultati. 
+[[Gene Ontology (GO)]] è un vocabolario controllato che descrive le funzioni dei geni secondo tre rami:
+- **Biological Process (BP)**: processi biologici, come risposta immunitaria o metabolismo;
+- **Molecular Function (MF)**: attività molecolari, come binding o attività enzimatica;
+- **Cellular Component (CC)**: localizzazione o componente cellulare.
 
-  
+GO ha una struttura a **directed acyclic graph (DAG)**: un termine può avere più parent e più child, con livelli diversi di specificità. Questa struttura produce ridondanza: termini simili o parent-child possono risultare arricchiti insieme.
 
-### ORA vs GSEA come due famiglie di approcci
+Oltre a GO, i tool di enrichment usano spesso database di pathway e gene set come KEGG, Reactome, WikiPathways, MSigDB, TRANSFAC, database di target di transcription factor, firme di malattia, perturbazioni farmacologiche e interazioni proteina-proteina.
 
-Le lezioni distinguono:
-- **ORA (Over-Representation Analysis)**: input = lista “significativa”; tipicamente usa test ipergeometrico/Fisher e richiede correzione FDR anche qui.   
-- **GSEA / threshold-free**: usa tutti i geni rankati e valuta se un gene set è concentrato in cima o in fondo alla lista; utile quando gli effetti sono diffusi e non vuoi dipendere da un cutoff arbitrario.
-GSEA è stata proposta come metodo knowledge-based per interpretare profili genome-wide focalizzandosi su set di geni (pathway/funzioni), aumentando robustezza quando i cambiamenti sono coordinati ma moderati.
+### Background gene set
 
-  
+La scelta del **background gene set** è decisiva. Il background rappresenta l'insieme dei geni che avrebbero potuto comparire nella lista. Non dovrebbe essere scelto automaticamente come "tutti i geni del genoma" se l'esperimento poteva misurare solo una parte di essi.
 
-### Gene Ontology come “linguaggio comune” e struttura a DAG
+Esempi di background possibili:
+- tutti i geni con conteggio totale non nullo;
+- tutti i geni che passano il filtro indipendente di [[DESeq2 - DE per RNAseq|DESeq2]];
+- tutti i geni espressi nel tessuto studiato;
+- tutti i geni con annotazione disponibile nel database usato;
+- tutti i geni effettivamente testati nella DEA.
 
-Le lezioni presentano GO come vocabolario controllato con tre rami (BP/MF/CC) e struttura a **directed acyclic graph (DAG)**, con relazioni parent/child e diversi livelli di specificità.   
+Un background troppo ampio o non coerente cambia i p-value e può produrre conclusioni sbagliate. In generale, il background migliore è l'insieme dei geni che potevano essere catturati e testati nel proprio esperimento.
 
-Il lavoro fondativo del  descrive GO come vocabolario dinamico per unificare descrizioni funzionali tra organismi.
+### Limiti dell'enrichment
 
-  
+L'enrichment non dimostra causalità: mostra associazioni statistiche tra una lista di geni e annotazioni note. I principali limiti sono:
+- pathway o termini con pochi geni hanno poca potenza statistica;
+- il test ipergeometrico tende a favorire gene set grandi;
+- geni multi-funzione possono arricchire molti termini parzialmente ridondanti;
+- i database sono sbilanciati verso geni ben studiati e ben annotati;
+- geni non annotati, inclusi molti RNA non codificanti, diventano invisibili per l'analisi;
+- risultati lunghi e ripetitivi richiedono ulteriore sintesi.
 
-### Scelta del background: dettaglio “semplice” ma decisivo
+Per ridurre ridondanza e rendere i risultati interpretabili si possono usare strumenti di semplificazione o visualizzazione come REVIGO, `clusterProfiler::simplify()`, `simplifyEnrichment`, `rrvgo`, Cytoscape ed EnrichmentMap.
 
-Le lezioni insistono su un punto spesso trascurato: il *background gene set* deve essere appropriato (idealmente: tutti i geni “catturabili” nel tuo esperimento, non “tutti i geni del genoma” in astratto). Un background sbagliato altera p-value e conclusioni. 
-
-  
-
-### Limiti tipici dell’enrichment
-
-Le lezioni elencano limiti strutturali:
-- set piccoli hanno poca potenza,
-- test ipergeometrico favorisce set grandi,
-- geni multi-funzione generano ridondanza,
-- bias di annotazione rende “invisibili” geni poco annotati (spesso non-coding). 
-(Software/tool: [[clusterProfiler]], [[g:Profiler]], [[WebGestalt]], [[Enrichr]])
-
-  
+Tool comuni per pathway enrichment e functional enrichment:
+- [[clusterProfiler - Tool per pathway enrichment]]
+- [[gProfiler - Tool per pathway enrichment]]
+- [[WebGestalt - Tool per pathway enrichment]]
+- [[Enrichr - Tool per pathway enrichment]]
+- [[STRING - Tool per reti PPI ed enrichment]]
+- [[REVIGO - Tool per semplificazione GO]]
+- [[Cytoscape EnrichmentMap - Tool per visualizzare enrichment]]
