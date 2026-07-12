@@ -297,7 +297,20 @@ Il **volcano plot** rappresenta ogni gene come un punto:
 I geni più interessanti tendono a comparire in alto a sinistra o in alto a destra: hanno effetto grande e adjusted p-value basso. I geni vicini al centro hanno effetto piccolo; quelli in basso hanno bassa significatività.
 ![[IMG - Vulcano plot significance per geni in  RNA-seq.png]]
 
-La **heatmap** dei top $N$ geni usa valori normalizzati o trasformati, ad esempio logCPM, VST o rlog. I geni sono sulle righe e i campioni sulle colonne. Se l'analisi cattura un segnale biologico coerente, i campioni dovrebbero raggrupparsi secondo la condizione sperimentale o secondo il fattore biologico atteso. Se invece si raggruppano per batch o per altri fattori tecnici, l'interpretazione della lista di geni è fragile.
+La **heatmap** dei top $N$ geni serve a visualizzare il comportamento dei geni più rilevanti, ad esempio i più differenzialmente espressi. Usa valori normalizzati o trasformati, come logCPM, VST o rlog, perché i conteggi grezzi non sono direttamente confrontabili tra campioni. Di solito:
+- le **righe** rappresentano i geni;
+- le **colonne** rappresentano i campioni;
+- il **colore** indica il livello relativo di espressione di un gene in un campione.
+ 
+la **heatmap** aiuta anche a controllare se coerente i dati sono coerenti con il disegno sperimentale. Se l'analisi cattura un segnale biologico reale, i campioni della stessa condizione dovrebbero essere simili tra loro e quindi comparire vicini nella heatmap. Per esempio, i controlli dovrebbero raggrupparsi con altri controlli e i trattati con altri trattati.
+
+La struttura ad albero sopra le colonne o accanto alle righe è un **dendrogramma**, cioè il risultato di un clustering gerarchico. Il dendrogramma raggruppa campioni o geni in base alla somiglianza dei loro profili di espressione:
+- rami che si uniscono in basso indicano elementi molto simili;
+- rami che si uniscono più in alto indicano elementi più diversi;
+- il dendrogramma delle colonne mostra quali campioni sono più simili tra loro;
+- il dendrogramma delle righe mostra quali geni hanno pattern di espressione simili.
+
+Se i campioni si raggruppano secondo la condizione sperimentale o secondo il fattore biologico atteso, la lista dei geni è più interpretabile. Se invece si raggruppano per batch, laboratorio, data di sequenziamento o altri fattori tecnici, l'interpretazione della lista di geni è fragile: il segnale principale potrebbe dipendere da un effetto tecnico invece che dalla differenza biologica studiata.
 ![[IMG - significance heatmap per Analisi RNA-seq.png]]
 
 
