@@ -343,6 +343,17 @@ L'enrichment può aiutare a:
 - confrontare risultati con pathway noti, [[Gene Ontology (GO)|Gene Ontology]], [[Cell pathways|cell pathways]] o database funzionali.
 ![[IMG - Analisi RNA-seq enrichment.png]]
 
+Il grafico mostra un esempio di risultato di enrichment ottenuto a partire da una lista di geni differenzialmente espressi. Ogni barra rappresenta una categoria annotata in un database esterno, in questo caso soprattutto firme associate a malattie o condizioni biologiche. L'idea è confrontare la lista di geni trovata nell'esperimento con insiemi di geni già noti: se molti geni della lista compaiono anche in una certa categoria, quella categoria risulta arricchita.
+
+La lettura del grafico è:
+- l'asse $y$ contiene le categorie arricchite, ad esempio firme legate a carcinomi mammari, tubercolosi latente o condizioni infiammatorie;
+- l'asse $x$ mostra il **qscore**, cioè una misura della forza dell'arricchimento. Barre più lunghe indicano categorie più fortemente associate alla lista di geni;
+- il colore rappresenta **$p.adjust$**, cioè il [[Test Statistici - p-value|p-value]] corretto per test multipli. Colori più rossi indicano valori più piccoli e quindi risultati statisticamente più significativi; colori più blu indicano valori corretti più alti.
+
+Per esempio, la categoria **Noninfiltrating Intraductal Carcinoma** compare in alto perché ha sia una barra lunga sia un $p.adjust$ molto basso. Questo significa che i geni differenzialmente espressi nel confronto RNA-seq si sovrappongono in modo forte e statisticamente significativo con geni associati a quella firma nel database usato.
+
+L'interpretazione corretta non è che il campione abbia necessariamente quella malattia. Il grafico dice invece che il profilo dei geni differenzialmente espressi assomiglia a firme già annotate per quelle condizioni. Quindi il risultato va usato come indizio biologico: suggerisce quali processi, tessuti, malattie o pathway potrebbero essere collegati al segnale osservato, ma deve essere interpretato insieme al disegno sperimentale, ai geni specifici presenti nella lista e al database usato per l'enrichment.
+
 ### ORA: Over-Representation Analysis
 
 La **Over-Representation Analysis (ORA)** parte da una lista di geni selezionati, ad esempio geni con $padj < 0.05$ e $|\log_2FC| > 1$. Per ogni pathway o termine funzionale si chiede se nella lista significativa compaiono più geni associati a quel termine di quanti ci si aspetterebbe per caso.
