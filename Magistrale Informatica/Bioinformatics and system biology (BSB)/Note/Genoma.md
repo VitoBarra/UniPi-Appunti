@@ -27,7 +27,11 @@ Dal punto di vista sperimentale, una sequenza genomica si ottiene tramite [[Tecn
 - assemblate, se si vuole ricostruire una sequenza genomica senza affidarsi completamente a un riferimento;
 - confrontate con altre sequenze per identificare varianti, regioni conservate o differenze strutturali.
 
-Il risultato puo' essere una **sequenza di riferimento**, cioe' una rappresentazione curata del genoma usata come coordinate comuni per analisi successive. Un genoma di riferimento non e' il genoma di ogni individuo, ma una rappresentazione utile per mappare read, annotare regioni e confrontare campioni.
+Il risultato puo' essere un [[Genoma di riferimento|genoma di riferimento]], cioe' una rappresentazione curata del genoma usata come sequenza e sistema di coordinate comune per analisi successive. Non e' il genoma di ogni individuo e non e' una media della popolazione.
+
+## Versioni del riferimento
+
+I [[Genoma di riferimento|genomi di riferimento]] vengono pubblicati in versioni successive, dette anche *assembly* o *build*. Per l'uomo sono comuni **GRCh37/hg19** e **GRCh38/hg38**. Una nuova versione puo' correggere errori, migliorare regioni complesse e modificare le coordinate; la versione usata deve quindi essere sempre documentata e abbinata a una [[Annotazione genomica|annotazione]] compatibile.
 
 ## Uso nell'analisi bioinformatica
 

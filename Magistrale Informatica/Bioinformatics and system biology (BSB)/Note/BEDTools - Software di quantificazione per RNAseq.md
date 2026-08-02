@@ -9,7 +9,7 @@ SubTopic:
 
 # BEDTools - Software di quantificazione per RNAseq
 ---
-**BEDTools** è una suite generale per operazioni su **intervalli genomici**. Nel contesto [[Analisi RNA-seq|RNA-seq]] può essere usata nella fase di [[Analisi RNA-seq#Costruzione della matrice di conteggio|costruzione della matrice di conteggio]], ma non nasce come software specializzato per contare reads gene-level. È più corretto considerarla una toolbox per confrontare, intersecare, fondere e misurare regioni genomiche.
+**BEDTools** è una suite generale per operazioni su **intervalli genomici** definiti sulle coordinate di un [[Genoma di riferimento|genoma di riferimento]]. Nel contesto [[Analisi RNA-seq|RNA-seq]] può essere usata nella fase di [[Analisi RNA-seq#Costruzione della matrice di conteggio|costruzione della matrice di conteggio]], ma non nasce come software specializzato per contare reads gene-level. È più corretto considerarla una toolbox per confrontare, intersecare, fondere e misurare regioni genomiche.
 
 BEDTools risponde a domande del tipo:
 - "quante reads o basi coperte cadono dentro queste regioni genomiche?"

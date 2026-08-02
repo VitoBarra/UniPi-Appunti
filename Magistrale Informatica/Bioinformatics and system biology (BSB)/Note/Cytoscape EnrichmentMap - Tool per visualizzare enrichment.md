@@ -8,7 +8,7 @@ SubTopic:
 ---
 # Cytoscape EnrichmentMap - Tool per visualizzare enrichment
 ---
-**EnrichmentMap** è un'app di Cytoscape usata per visualizzare risultati di functional enrichment come reti di gene set. È utile quando una lista di risultati contiene molti pathway o termini ridondanti e si vuole capire la struttura globale dell'arricchimento.
+**EnrichmentMap** è un'app di [[Cytoscape]] usata per visualizzare risultati di functional enrichment come reti di gene set. È utile quando una lista di risultati contiene molti pathway o termini ridondanti e si vuole capire la struttura globale dell'arricchimento.
 
 In EnrichmentMap:
 - ogni nodo rappresenta un gene set, un pathway o un termine funzionale;
@@ -33,12 +33,10 @@ EnrichmentMap è indicato quando:
 - i risultati di enrichment sono lunghi e ripetitivi;
 - si vuole confrontare più condizioni o contrasti;
 - serve una visualizzazione di insieme;
-- si vuole integrare enrichment con reti e annotazioni in Cytoscape.
+- si vuole integrare enrichment con reti e annotazioni in [[Cytoscape]].
 
 Limiti:
 - richiede più preparazione rispetto a tool web rapidi;
 - la qualità della rete dipende dalla qualità dei gene set e delle soglie;
 - cluster simili non implicano pathway indipendenti;
-- resta necessario interpretare biologicamente i gruppi e non solo la topologia.
-
-Vedi anche: [[WebGestalt - Tool per pathway enrichment]], [[STRING - Tool per reti PPI ed enrichment]], [[REVIGO - Tool per semplificazione GO]].
+- resta necessario interpretare biologicamente i gruppi e non solo la topologia

@@ -9,7 +9,7 @@ SubTopic:
 
 # HTSeq-count - Software di quantificazione per RNAseq
 ---
-**HTSeq-count** è un comando del pacchetto Python **HTSeq** usato nella fase di [[Analisi RNA-seq#Costruzione della matrice di conteggio|costruzione della matrice di conteggio]] della pipeline [[Analisi RNA-seq|RNA-seq]]. Prende in input reads già allineate, in formato **SAM/BAM**, e una annotazione genomica in formato [[GFF - Formato per annotazione genomica|GTF/GFF]], producendo una tabella di **conteggi grezzi** per feature, di solito per gene.
+**HTSeq-count** è un comando del pacchetto Python **HTSeq** usato nella fase di [[Analisi RNA-seq#Costruzione della matrice di conteggio|costruzione della matrice di conteggio]] della pipeline [[Analisi RNA-seq|RNA-seq]]. Prende in input reads già allineate a un [[Genoma di riferimento|riferimento genomico]], in formato **SAM/BAM**, e una annotazione genomica in formato [[GFF - Formato per annotazione genomica|GTF/GFF]], producendo una tabella di **conteggi grezzi** per feature, di solito per gene.
 
 HTSeq-count risponde alla domanda:
 - "quante reads allineate possono essere assegnate in modo coerente a ciascun gene o feature annotata?"

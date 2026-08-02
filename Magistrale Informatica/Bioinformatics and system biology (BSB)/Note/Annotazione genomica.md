@@ -42,3 +42,32 @@ In un modello modulare, la sequenza puo' essere conservata in un file [[Formato 
 Le annotazioni genomiche sono usate per interpretare i risultati delle analisi. In [[Analisi RNA-seq|RNA-seq]], per esempio, permettono di trasformare read allineate al genoma in conteggi per gene o trascritto. Nei genome browser permettono di visualizzare geni, esoni, trascritti e regioni regolative lungo le coordinate genomiche. Nell'analisi di varianti permettono di stabilire se una mutazione cade in una regione codificante, regolativa o intergenica.
 
 La qualita' delle annotazioni influenza direttamente l'interpretazione biologica: annotazioni incomplete, incoerenti o non aggiornate possono produrre conteggi sbagliati, assegnazioni ambigue o conclusioni biologiche deboli.
+
+## Versioni delle annotazioni e differenze pratiche
+
+Anche le annotazioni vengono pubblicate in versioni successive, per esempio da **Ensembl** o **GENCODE**. La versione dell'annotazione e la versione del [[Genoma di riferimento|genoma di riferimento]] sono due scelte distinte: GRCh38 definisce la sequenza e il sistema di coordinate, mentre una release come Ensembl 115 definisce quali feature biologiche sono riconosciute su quelle coordinate.
+
+Tra due release dell'annotazione possono cambiare:
+
+- il numero di geni e trascritti conosciuti;
+- i confini di geni, esoni, CDS e UTR;
+- le isoforme associate a uno stesso gene;
+- la classificazione `protein_coding`, lncRNA, pseudogene o altri biotipi;
+- nomi, identificativi e relazioni tra gene e trascritto;
+- il supporto sperimentale e lo stato di validazione delle feature;
+- la presenza di trascritti antisenso e altri RNA non codificanti.
+
+Queste differenze hanno conseguenze pratiche nelle analisi. Una read puo' essere assegnata a un gene con una release recente ma risultare non assegnata con una release piu' vecchia; nuovi trascritti possono aumentare l'ambiguita' tra isoforme; confini esonici diversi possono modificare i conteggi. Cambiando annotazione possono quindi cambiare la matrice di conteggio, il numero di geni testati, i fold change, i geni differenzialmente espressi e i risultati dell'enrichment, anche se le read di partenza sono identiche.
+
+In una pipeline basata su allineamento genomico, strumenti come [[HTSeq-count - Software di quantificazione per RNAseq|HTSeq-count]] usano un file GTF/GFF per decidere a quale feature assegnare gli allineamenti. In una pipeline transcript-level, [[Salmon - Software di allineamento per RNAseq|Salmon]] usa invece le sequenze dei trascritti derivate dall'annotazione: una diversa collezione di isoforme cambia direttamente l'insieme delle possibili origini di ogni read.
+
+## Compatibilita' tra sequenza e annotazione
+
+Il file [[Formato FASTA|FASTA]] e il file [[GFF - Formato per annotazione genomica|GTF/GFF]] devono riferirsi allo **stesso assembly** e usare nomi di cromosomi o contig compatibili. Per esempio, non e' corretto combinare un FASTA GRCh38 con un GTF costruito per GRCh37. Anche differenze come `chr1` rispetto a `1` possono impedire agli strumenti di associare correttamente sequenza e feature.
+
+Per rendere un'analisi riproducibile bisogna quindi documentare almeno:
+
+- assembly del genoma, per esempio GRCh38;
+- sorgente e release dell'annotazione, per esempio Ensembl 115;
+- tipo di riferimento usato, genomico o trascrittomico;
+- eventuali filtri applicati a biotipi, contig o trascritti.
