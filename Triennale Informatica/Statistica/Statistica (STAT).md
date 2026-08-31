@@ -17,6 +17,7 @@ tags:
 		2. [[Quantili e Percentili]]
 		3. [[Media geometrica|Media geometrica]]
 		4. [[Coefficiente di variazione]]
+		5. [[Z-score]]
 	6. [[Statistica Descrittiva - Dati Multivariati]]
 		1. [[Modelli lineari - Retta di regressione]]
 		2. [[Regressione lineare - Interpretazione probabilistica]]

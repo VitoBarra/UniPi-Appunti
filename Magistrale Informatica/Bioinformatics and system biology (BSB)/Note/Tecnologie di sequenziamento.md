@@ -22,6 +22,7 @@ La preparazione della libreria può includere passaggi come:
 - frammentazione delle molecole;
 - conversione dell'RNA in cDNA, nel caso di esperimenti su [[RNA|RNA]];
 - aggiunta di adattatori necessari alla piattaforma di sequenziamento;
+- eventuale aggiunta di [[Unique Molecular Identifier (UMI)|identificatori molecolari univoci (UMI)]] prima dell'amplificazione;
 - eventuale amplificazione tramite PCR;
 - selezione di frammenti con una certa lunghezza.
 
@@ -45,9 +46,26 @@ La **sequencing depth** indica quanta sequenza viene prodotta per un campione. I
 
 La **coverage** o **copertura** indica quante volte, in media, una posizione di una sequenza di riferimento viene letta. Per esempio, una copertura media 30x significa che ogni posizione del genoma è stata osservata circa 30 volte. Il concetto di coverage è particolarmente naturale in esperimenti di DNA-seq o genome sequencing.
 
+Una copertura media non garantisce che ogni posizione sia stata osservata lo stesso numero di volte. Le reads possono concentrarsi in alcune regioni e lasciare altre regioni con copertura bassa o nulla. Le cause comprendono campionamento casuale, profondità insufficiente, bias di frammentazione o amplificazione, composizione GC, sequenze ripetitive e diversa abbondanza delle molecole originali.
+
+Nei dati paired-end, `R1` e `R2` leggono le due estremità dello stesso frammento. Se il frammento è più lungo della somma delle due read length, la regione centrale non viene osservata direttamente da quella coppia:
+
+```text
+frammento: ├──────────────────────────────────┤
+R1:        ├────────→
+R2:                              ←────────────┤
+                     regione non letta
+```
+
+La copertura complessiva deriva da molti frammenti ottenuti da molecole differenti e spezzati in posizioni diverse. Le loro reads possono sovrapporsi e osservare regioni non lette da una singola coppia. Se nessun frammento campionato copre una posizione, rimane una lacuna e la sua sequenza non può essere determinata direttamente dai dati.
+
+Quando il frammento è più corto della somma delle lunghezze di `R1` e `R2`, le due reads possono sovrapporsi. Questa sovrapposizione può aiutare a riconoscere adattatori, verificare la concordanza tra i mate e correggere alcuni errori di sequenziamento.
+
 La **library size** indica invece il numero totale di read, o di count, associati a un campione dopo il sequenziamento e spesso dopo l'allineamento. In una matrice di conteggi RNA-seq corrisponde circa alla somma dei count di tutti i geni per quel campione.
 
 Questi concetti non indicano direttamente il numero di geni univoci trovati. Un campione può avere molti read concentrati su pochi geni, oppure lo stesso numero totale di read distribuito su molti geni. Il numero di geni osservati dipende anche da quanto sono espressi, dalla profondità di sequenziamento e da soglie tecniche di rilevamento.
+
+Il significato di **sequenziamento completo** dipende quindi dall'obiettivo. Nella ricostruzione de novo servono reads sovrapposte che colleghino tutte le regioni; una lacuna impedisce di ricostruire con certezza le basi mancanti. Nella quantificazione RNA-seq non è necessario osservare ogni base di ogni trascritto: un insieme sufficiente di frammenti compatibili può consentire di stimarne l'abbondanza. Le tecnologie long-read possono leggere molecole o trascritti molto più lunghi e ridurre alcune ambiguità di ricostruzione, ma rimangono soggette a profondità, errori e bias di campionamento.
 
 Per questo, nelle analisi di espressione differenziale, i count grezzi non sono confrontabili direttamente tra campioni con library size diverse: un campione con più read totali tende ad avere count più alti anche senza una reale differenza biologica. Servono quindi metodi di normalizzazione, come quelli usati da DESeq o TMM, per correggere questi effetti tecnici.
 
@@ -77,7 +95,7 @@ Le tecnologie di sequenziamento possono introdurre o amplificare diversi bias te
 - bias legato al contenuto GC;
 - bias introdotto dall'amplificazione PCR;
 - bias dovuto alla lunghezza dei frammenti;
-- duplicati tecnici;
+- duplicati tecnici, che possono essere riconosciuti con maggiore affidabilità quando la libreria contiene [[Unique Molecular Identifier (UMI)|UMI]];
 - differenze di library size tra campioni;
 - composizione sbilanciata della libreria, quando poche molecole molto abbondanti consumano molti read.
 

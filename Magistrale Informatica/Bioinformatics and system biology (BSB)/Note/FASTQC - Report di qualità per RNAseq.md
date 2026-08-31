@@ -124,6 +124,8 @@ Il confronto tra queste curve serve a capire quanto il dataset sia ridondante. S
 
 Nel contesto RNA-seq questo modulo va interpretato con cautela: una certa duplicazione può essere normale, perché trascritti molto espressi generano molte reads identiche o molto simili. Tuttavia una duplicazione molto forte e diffusa può anche suggerire bassa complessità della libreria, artefatti di PCR o over-sequencing di poche molecole.
 
+La presenza di reads identiche non permette, da sola, di stabilire se siano duplicati tecnici prodotti dalla PCR oppure frammenti distinti provenienti da un trascritto realmente molto abbondante. Gli [[Unique Molecular Identifier (UMI)|UMI]] vengono aggiunti alle molecole originali prima dell'amplificazione e permettono di riconoscere con maggiore affidabilità le copie che derivano dalla stessa molecola iniziale. Se la libreria non contiene UMI, una deduplicazione indiscriminata può eliminare segnale biologico autentico; per questo un warning di FASTQC sulla duplicazione non implica automaticamente che le reads duplicate debbano essere rimosse.
+
 In pratica:
 - una distribuzione dominata da reads uniche suggerisce una libreria più complessa
 - una lunga coda verso livelli di duplicazione alti indica maggiore ridondanza

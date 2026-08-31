@@ -98,7 +98,7 @@ La qualità del reference ([[Genoma|genoma]] o trascrittoma) e delle [[Annotazio
 Quando si usa un genoma di riferimento, le annotazioni genomiche permettono di trasformare gli allineamenti delle reads in conteggi per gene, esone o trascritto. In questo senso il genoma fornisce le coordinate, mentre l'annotazione stabilisce quali regioni corrispondono a feature biologicamente interpretabili.
 
 Strumenti tipici:  
-- alignment: [[STAR - Software di allineamento per RNAseq|STAR]], [[HISAT2 - Software di allineamento per RNAseq|HISAT2]], [[Bowtie2 - Software di allineamento per RNAseq|Bowtie2]], [[Tophat 2 - Software di allineamento per RNAseq|Tophat 2]]
+- alignment: [[STAR - Software di allineamento per RNAseq|STAR]], [[HISAT2 - Software di allineamento per RNAseq|HISAT2]], [[Bowtie2 - Software di allineamento per RNAseq|Bowtie2]], [[Tophat2 - Software di allineamento per RNAseq|Tophat 2]]
 - pseudoalignment: [[Salmon - Software di allineamento per RNAseq|Salmon]], [[Kallisto - Software di allineamento per RNAseq|Kallisto]]
 
 L’output dell’allineamento contiene tutte le possibili assegnazioni di una read e informazioni associate come posizione, punteggio di allineamento e qualità di mapping (**MAPQ**, Mapping Quality, codificata in scala Phred). I formati più comuni per rappresentare questi risultati sono **SAM** e **BAM**.
@@ -336,7 +336,13 @@ Il mapping degli identificativi è un passaggio critico: molti tool di enrichmen
 
 ## Pathway enrichment e interpretazione biologica
 
-Una lista di geni differenzialmente espressi è spesso troppo lunga per essere interpretata gene per gene. Il **functional enrichment** o **pathway enrichment** serve a trasformare una lista di geni in un insieme più compatto di funzioni, pathway, processi biologici o annotazioni sovra-rappresentate. In questo senso collega i risultati RNA-seq a conoscenza biologica esterna.
+Una lista di geni differenzialmente espressi è spesso troppo lunga per essere interpretata gene per gene. Il **functional enrichment** o **pathway enrichment** serve a trasformare una lista di [[Gene|geni]] in un insieme più compatto di funzioni, pathway, processi biologici o annotazioni sovra-rappresentate. In questo senso collega i risultati RNA-seq a conoscenza biologica esterna.
+
+Fonte utile: [Pathway enrichment analysis explained - Biostatsquid](https://www.youtube.com/watch?v=H1cUs6pql9s&t=322s)
+
+![[IMG - pathway enrichment video overview.png]]
+
+L'idea di base è questa: dopo una [[Analisi RNA-seq#Differential expression analysis|differential expression analysis]] si ottiene una lista di **DEG** (*differentially expressed genes*) che può contenere centinaia o migliaia di geni. Invece di interpretare ogni gene singolarmente, l'enrichment chiede se questi geni sono concentrati in certi insiemi funzionali già noti, ad esempio pathway infiammatori, apoptosi, metabolismo, risposta immunitaria o termini [[Gene Ontology (GO)|GO]].
 
 L'enrichment può aiutare a:
 - ottenere una sintesi biologica dei risultati;
@@ -358,17 +364,47 @@ L'interpretazione corretta non è che il campione abbia necessariamente quella m
 
 ### ORA: Over-Representation Analysis
 
-La **Over-Representation Analysis (ORA)** parte da una lista di geni selezionati, ad esempio geni con $padj < 0.05$ e $|\log_2FC| > 1$. Per ogni pathway o termine funzionale si chiede se nella lista significativa compaiono più geni associati a quel termine di quanti ci si aspetterebbe per caso.
+La **Over-Representation Analysis (ORA)** parte da una lista di geni selezionati, ad esempio geni con $p_{adj} < 0.05$ e $|\log_2FC| > 1$. Per ogni pathway o termine funzionale si chiede se nella lista significativa compaiono più geni associati a quel termine di quanti ci si aspetterebbe per caso.
 
-Il caso tipico si basa su una tabella di contingenza:
-- geni nella lista e nel pathway;
-- geni nella lista ma non nel pathway;
-- geni fuori dalla lista ma nel pathway;
-- geni fuori dalla lista e fuori dal pathway.
+Gli ingredienti minimi sono tre:
+- **gene list di interesse**: ad esempio i DEG filtrati per $p_{adj}$ e $\log_2FC$;
+- **background gene set**: l'insieme dei geni che potevano essere osservati e testati nell'esperimento;
+- **gene set database**: insiemi di geni annotati a funzioni, pathway, malattie, tessuti, target di fattori di trascrizione ecc.
+
+Per ogni termine funzionale si costruisce una tabella di contingenza $2 \times 2$. Se si vuole testare, per esempio, se i DEG sono arricchiti per il pathway di **produzione di IL-6**, la tabella separa i geni in base a due criteri: essere o non essere nella lista dei DEG, essere o non essere annotati al pathway IL-6.
+
+|  | Geni DEG | Geni non DEG |
+|---|---:|---:|
+| Annotati al pathway IL-6 | $a$ | $b$ |
+| Non annotati al pathway IL-6 | $c$ | $d$ |
+
+La domanda statistica è: la frazione di geni IL-6 dentro la lista dei DEG è maggiore della frazione di geni IL-6 nel background? In termini intuitivi, se 12 geni su 15 nella lista DEG sono annotati a produzione di IL-6, il segnale sembra forte; se sono 9 su 15, serve un test oggettivo per decidere se l'osservazione è davvero improbabile sotto il caso.
 
 Il test più comune è il **test ipergeometrico** o il **test esatto di Fisher**. Se il p-value è basso, il pathway è sovra-rappresentato nella lista. Anche qui si corregge per test multipli, perché vengono testati molti pathway o termini GO contemporaneamente.
 
+Più precisamente, per un certo gene set, il p-value misura la probabilità di osservare almeno $x$ geni del gene set dentro una lista di $n$ geni, assumendo come riferimento la proporzione di geni annotati a quel gene set nel background. Più il p-value è vicino a zero, meno è plausibile che quella sovrapposizione sia dovuta al caso.
+
+Un punto importante: **arricchito non significa automaticamente up-regolato**. ORA dice che nella lista ci sono molti geni associati a un pathway, ma non dice da sola se il pathway sia attivato, represso o alterato in modo misto. Per interpretare la direzione bisogna guardare quali geni contribuiscono all'arricchimento, il loro $\log_2FC$ e se sono regolatori positivi o negativi del processo.
+
 Il vantaggio di ORA è la semplicità: prende una lista di geni e produce una lista di termini arricchiti. Il limite principale è che dipende da una soglia arbitraria: geni appena sopra o appena sotto il cutoff vengono trattati in modo completamente diverso.
+
+In pratica conviene spesso eseguire ORA separatamente su:
+- geni **up-regolati**;
+- geni **down-regolati**;
+- eventualmente lista complessiva dei DEG, se l'obiettivo è solo trovare funzioni associate al contrasto.
+
+Separare up e down rende l'interpretazione più chiara, perché evita di mescolare nello stesso gene set geni che cambiano in direzioni opposte.
+
+### Correzione per test multipli
+
+L'enrichment non testa un solo pathway, ma centinaia o migliaia di termini. Anche se non ci fosse nessun vero segnale biologico, alcuni termini potrebbero ottenere un p-value piccolo solo per caso. Questo è il problema del **multiple testing**.
+
+Per questo i risultati vengono corretti, di solito tramite [[Test Statistici - Benjamini-Hochberg correction|Benjamini-Hochberg correction]], controllando il [[FDR|False Discovery Rate]]. Nei risultati dei tool si guarda quindi soprattutto:
+- **p-value nominale**: significatività del singolo test prima della correzione;
+- **adjusted p-value / $p_{adj}$ / q-value**: significatività dopo correzione per i molti pathway testati;
+- **gene ratio**: frazione dei geni della lista che ricade nel gene set;
+- **background ratio**: frazione dei geni del background annotata allo stesso gene set;
+- **count**: numero di geni della lista che contribuiscono al termine.
 
 ### GSEA: Gene Set Enrichment Analysis
 La **Gene Set Enrichment Analysis (GSEA)** evita di scegliere subito una soglia rigida. Invece di usare solo i geni significativi, usa tutti i geni ordinati secondo una statistica, ad esempio:
@@ -408,6 +444,10 @@ Esempi di background possibili:
 
 Un background troppo ampio o non coerente cambia i p-value e può produrre conclusioni sbagliate. In generale, il background migliore è l'insieme dei geni che potevano essere catturati e testati nel proprio esperimento.
 
+Esempio: in un esperimento su cellule epatiche, usare tutti i geni del genoma umano come background può far emergere genericamente funzioni del fegato. Il risultato può essere vero ma poco informativo, perché il sistema sperimentale era già composto da cellule epatiche. Un background più corretto include i geni espressi o testabili in quel tessuto.
+
+Lo stesso principio vale per altri esperimenti omici. In una fosfoproteomica, per esempio, il background non dovrebbe essere l'intero genoma, ma l'insieme delle proteine effettivamente misurabili come fosfoproteine. Altrimenti processi generali come signaling da chinasi o fosforilazione possono apparire artificialmente arricchiti.
+
 ### Limiti dell'enrichment
 
 L'enrichment non dimostra causalità: mostra associazioni statistiche tra una lista di geni e annotazioni note. I principali limiti sono:
@@ -419,6 +459,8 @@ L'enrichment non dimostra causalità: mostra associazioni statistiche tra una li
 - risultati lunghi e ripetitivi richiedono ulteriore sintesi.
 
 Per ridurre ridondanza e rendere i risultati interpretabili si possono usare strumenti di semplificazione o visualizzazione come REVIGO, `clusterProfiler::simplify()`, `simplifyEnrichment`, `rrvgo`, Cytoscape ed EnrichmentMap.
+
+Un risultato di enrichment va quindi letto come una **mappa di ipotesi biologiche**, non come una diagnosi automatica. Se un termine legato a una malattia risulta arricchito, significa che la lista di geni assomiglia a una firma annotata per quella malattia o condizione; non significa necessariamente che il campione abbia quella malattia.
 
 Tool comuni per pathway enrichment e functional enrichment:
 - [[clusterProfiler - Tool per pathway enrichment]]

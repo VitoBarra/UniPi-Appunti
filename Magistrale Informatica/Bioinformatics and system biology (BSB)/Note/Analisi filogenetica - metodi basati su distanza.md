@@ -25,4 +25,4 @@ $$dove $d_{i,j}(T)$ sono le distanze indotte dall’albero e $D_{i,j}$ quelle de
 
 Per costruire l’albero a partire dalla matrice di distanze vengono impiegati algoritmi di **clustering gerarchico bottom-up**, che aggregano progressivamente sequenze o cluster di sequenze. due algoritmi usati sono
 - [[Analisi Filogenetica  - Metodo su distanza UPGMA]]
-- [[Analisi Filogenetica  - Metodo su distanza Neighbour-Joining]]
+- [[Analisi Filogenetica - Metodo su distanza Neighbour-Joining]]

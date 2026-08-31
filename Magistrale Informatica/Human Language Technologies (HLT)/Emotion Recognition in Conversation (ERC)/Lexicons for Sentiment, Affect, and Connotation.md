@@ -84,7 +84,7 @@ Utilizza recensioni con punteggio numerico (es. 1–5 stelle):
 ### 🔸 Log Odds Ratio con Dirichlet Prior (Monroe et al., 2008)
 - Identifica parole più usate in una classe rispetto ad un’altra
 - Usa corpus di background per stabilire un prior realistico
-- Calcola **z-score** per stabilire significatività
+- Calcola **[[Z-score|z-score]]** per stabilire significatività
 
 ---
 

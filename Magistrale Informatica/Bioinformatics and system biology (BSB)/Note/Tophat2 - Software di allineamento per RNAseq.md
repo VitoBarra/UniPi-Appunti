@@ -6,7 +6,7 @@ Area:
 topic:
 SubTopic:
 ---
-# Tophat 2 - Software di allineamento per RNAseq
+# Tophat2 - Software di allineamento per RNAseq
 ---
 **Tophat 2** è un software di allineamento utilizzato nello [[analisi RNA-seq]] durante lo [[Analisi RNA-seq#Step 2: Alignment|Step 2: Alignment]], sviluppato per affrontare in modo esplicito il problema delle splice junction nelle reads RNA-seq.
 

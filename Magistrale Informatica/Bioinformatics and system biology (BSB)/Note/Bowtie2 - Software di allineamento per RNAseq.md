@@ -40,4 +40,4 @@ Caratteristiche:
 
 Uso tipico:
 - Allineamento DNA-seq
-- RNA-seq in combinazione con wrapper splice-aware (es. [[Tophat 2 - Software di allineamento per RNAseq|TopHat2]])
+- RNA-seq in combinazione con wrapper splice-aware (es. [[Tophat2 - Software di allineamento per RNAseq|TopHat2]])

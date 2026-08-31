@@ -40,6 +40,36 @@ Questo è importante perché:
 
 In pratica, nei dati paired-end, il trimming non va pensato come "pulizia di due file separati", ma come preprocessing congiunto di coppie di reads.
 
+##### **Filtri di qualità e impostazioni predefinite**
+Se le relative opzioni non vengono specificate nel comando, fastp applica alcuni valori predefiniti per decidere quali reads conservare:
+
+- una base con **Phred score inferiore a 15** viene considerata non qualificata;
+- una read viene scartata se più del **40% delle sue basi** è non qualificato;
+- una read viene scartata se contiene più di **5 basi `N`**;
+- dopo il trimming, una read viene scartata se è più corta di **15 nucleotidi**.
+
+Nel file [[Formato FASTQ|FASTQ]], `N` indica una posizione per la quale il processo di base calling non ha assegnato con sufficiente affidabilità `A`, `C`, `G` o `T`. La base reale può quindi essere uno qualsiasi dei quattro nucleotidi. Le `N` non devono essere consecutive: fastp conta il loro numero totale all'interno della singola read. Con il limite predefinito pari a 5, una read contenente 5 `N` supera questo specifico controllo, mentre una read contenente più di 5 `N` viene scartata.
+
+Questi filtri agiscono a livelli differenti. Il filtro sulla percentuale di basi non qualificate considera i Phred score dell'intera read; il filtro sulle `N` conta le basi non determinate; il filtro sulla lunghezza viene applicato alla read risultante dopo le operazioni di trimming.
+
+##### **Crop fisso, quality trimming e adapter trimming**
+Il **crop fisso** rimuove lo stesso numero di basi dalla stessa estremità di tutte le reads, indipendentemente dalla qualità della singola sequenza. Può essere appropriato quando il problema è sistematico e occupa posizioni note, per esempio:
+
+- primer, barcode o altre sequenze tecniche di lunghezza conosciuta;
+- posizioni iniziali affette da un bias costante introdotto dal protocollo;
+- un calo di qualità ripetibile che inizia dalla stessa posizione in quasi tutte le reads;
+- istruzioni del protocollo sperimentale che richiedono di escludere una regione definita.
+
+La necessità di un crop fisso può essere indicata dalla struttura nota della libreria oppure dai moduli di [[FASTQC - Report di qualità per RNAseq|FASTQC]], in particolare **Per base sequence quality**, **Per base sequence content**, **Per base N content** e **Adapter content**. Prima di applicarlo bisogna verificare che il problema sia condiviso dalle librerie interessate, perché il crop elimina le posizioni stabilite anche dalle reads che presentano buona qualità in quella regione.
+
+Le principali strategie di rimozione delle basi hanno quindi obiettivi diversi:
+
+- il **crop fisso** elimina posizioni prestabilite da tutte le reads;
+- il **quality trimming** rimuove basi o regioni in funzione della qualità osservata nella singola read;
+- l'**adapter trimming** identifica e rimuove sequenze di adattatori, la cui posizione può variare tra reads e librerie.
+
+Nei dati paired-end, fastp può sfruttare la sovrapposizione tra `R1` e `R2` per riconoscere la porzione di adattatore oltre il frammento biologico. Questa operazione mantiene la logica di coppia e consente di gestire adattatori che non iniziano necessariamente nella stessa posizione in tutte le reads.
+
 In una pipeline tipica può essere usato in due modi:
 - come tool unico di preprocessing rapido, prima dell'allineamento
 - come alternativa più integrata a una pipeline del tipo [[FASTQC - Report di qualità per RNAseq|FASTQC]] -> trimming -> nuovo [[FASTQC - Report di qualità per RNAseq|FASTQC]]
